@@ -1,0 +1,156 @@
+id: 1
+title:
+  en: "Have you eaten?"
+  tailo: "Tsia̍h-pá--buē?"
+  hanji: "食飽未？"
+phase: passive
+review: false
+setting: "A breakfast stall in Taipei, seven in the morning. Sam, who speaks Mandarin, tries Taigi with the owner."
+
+dialogue:
+  - n: 1
+    speaker: Sam
+    hanji: "頭家娘，𠢕早！"
+    tailo: "Thâu-ke-niû, gâu-tsá!"
+    en: "Good morning, ma'am!"
+  - n: 2
+    speaker: Owner
+    hanji: "𠢕早！你食飽未？"
+    tailo: "Gâu-tsá! Lí tsia̍h-pá--buē?"
+    en: "Morning! Have you eaten yet?"
+    zh: "早！你吃飽了沒？"
+  - n: 3
+    speaker: Sam
+    hanji: "猶未，我欲來食早頓。"
+    tailo: "Iáu-buē, guá beh lâi tsia̍h tsá-tǹg."
+    en: "Not yet, I've come for breakfast."
+  - n: 4
+    speaker: Owner
+    hanji: "你欲食啥？"
+    tailo: "Lí beh tsia̍h siánn?"
+    en: "What would you like?"
+  - n: 5
+    speaker: Sam
+    hanji: "這是啥物？"
+    tailo: "Tse sī siánn-mih?"
+    en: "What's this?"
+  - n: 6
+    speaker: Owner
+    hanji: "這是菜頭粿。"
+    tailo: "Tse sī tshài-thâu-kué."
+    en: "It's radish cake."
+  - n: 7
+    speaker: Sam
+    hanji: "好，我欲一塊菜頭粿，佮一杯豆奶。"
+    tailo: "Hó, guá beh tsi̍t tè tshài-thâu-kué, kap tsi̍t pue tāu-ling."
+    en: "OK, I'll have a slice of radish cake and a soy milk."
+  - n: 8
+    speaker: Owner
+    hanji: "你會曉講臺語喔！"
+    tailo: "Lí ē-hiáu kóng Tâi-gí--ooh!"
+    en: "You can speak Taiwanese!"
+  - n: 9
+    speaker: Sam
+    hanji: "一屑仔爾爾。"
+    tailo: "Tsi̍t-sut-á niā-niā."
+    en: "Just a tiny bit."
+
+notes:
+  - ref: 1
+    topic: vocab
+    text: >
+      頭家娘 thâu-ke-niû: the woman who runs a shop or stall; the natural way to address her.
+      頭家 thâu-ke is "boss, owner" (Mandarin 老闆).
+  - ref: 1
+    topic: vocab
+    text: >
+      𠢕早 gâu-tsá: "good morning". 𠢕 gâu means "good at, capable", so literally "you're up early, well done".
+      The character exists only for Taigi; you'll meet gâu again on its own.
+  - ref: 2
+    topic: grammar
+    text: >
+      Tsia̍h-pá--buē? is the everyday greeting, not a real question about food. Taiwan Mandarin 吃飽沒 is copied from
+      it. 未 buē means "not yet"; at the end of a question it asks "…yet?". Answer with Tsia̍h-pá--ah. (I have) or
+      Iáu-buē. (Not yet).
+  - ref: 2
+    topic: false-friend
+    text: >
+      食 tsia̍h is the ordinary verb "to eat", where Mandarin uses 吃. It also covers drinking tea or soup.
+  - ref: 2
+    topic: sandhi
+    text: >
+      Said as one tone group: Li tsià-pá--buē? lí loses its fall (2 → 1), tsia̍h drops its -h and becomes low (8 → 3),
+      and pá keeps its tone because it comes just before --. buē after -- is light and low.
+  - ref: 3
+    topic: grammar
+    text: >
+      欲 beh = Mandarin 要: "want to", "be going to". 來 lâi before a verb means "come to do", and often just
+      announces what you're about to do. 早頓 tsá-tǹg is breakfast; 頓 tǹg is "meal".
+  - ref: 4
+    topic: vocab
+    text: >
+      啥 siánn and 啥物 siánn-mih both mean "what" (什麼). siánn is shorter and more casual.
+  - ref: 5
+    topic: grammar
+    text: >
+      這 tse is "this (one)" used on its own as a pronoun. Before a classifier, "this" is tsit (tsit ê, tsit pue):
+      same character, different word. More in lesson 4.
+  - ref: 7
+    topic: grammar
+    text: >
+      Classifiers: 塊 tè for a slice or piece, 杯 pue for a cup. 一 is read tsi̍t when counting things
+      (the literary reading it is for numbers in sequence). 佮 kap joins nouns like Mandarin 和.
+  - ref: 8
+    topic: grammar
+    text: >
+      會曉 ē-hiáu = "know how to" (Mandarin 會). --ooh at the end is light and low and adds surprise.
+  - ref: 9
+    topic: vocab
+    text: >
+      一屑仔 tsi̍t-sut-á "a tiny bit", 爾爾 niā-niā "only, that's all" (而已). A modest reply you'll use a lot.
+
+new_words:
+  - {tailo: thâu-ke-niû, hanji: 頭家娘}
+  - {tailo: gâu-tsá, hanji: 𠢕早}
+  - {tailo: tsia̍h-pá, hanji: 食飽}
+  - {tailo: tsia̍h, hanji: 食}
+  - {tailo: buē, hanji: 未}
+  - {tailo: iáu-buē, hanji: 猶未}
+  - {tailo: beh, hanji: 欲}
+  - {tailo: tsá-tǹg, hanji: 早頓}
+  - {tailo: siánn, hanji: 啥}
+  - {tailo: siánn-mih, hanji: 啥物}
+  - {tailo: tse, hanji: 這}
+  - {tailo: tshài-thâu-kué, hanji: 菜頭粿}
+  - {tailo: tè, hanji: 塊}
+  - {tailo: pue, hanji: 杯}
+  - {tailo: kap, hanji: 佮}
+  - {tailo: tāu-ling, hanji: 豆奶}
+  - {tailo: ē-hiáu, hanji: 會曉}
+  - {tailo: tsi̍t-sut-á, hanji: 一屑仔}
+  - {tailo: niā-niā, hanji: 爾爾}
+
+exercises:
+  translate:
+    - tailo: "Lí tsia̍h-pá--buē?"
+      hanji: "你食飽未？"
+      en: "Have you eaten yet?"
+    - tailo: "Guá beh tsi̍t pue tāu-ling."
+      hanji: "我欲一杯豆奶。"
+      en: "I'd like a soy milk."
+    - tailo: "Iáu-buē, guá beh lâi tsia̍h tsá-tǹg."
+      hanji: "猶未，我欲來食早頓。"
+      en: "Not yet, I've come for breakfast."
+  fill:
+    - tailo: "Tse sī ___?"
+      hanji: "這是___？"
+      answer: "siánn-mih"
+      answer_hanji: "啥物"
+      en: "What's this?"
+    - tailo: "Lí ___ kóng Tâi-gí--ooh!"
+      hanji: "你___講臺語喔！"
+      answer: "ē-hiáu"
+      answer_hanji: "會曉"
+      en: "You can speak Taiwanese!"
+
+audio: []

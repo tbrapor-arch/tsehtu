@@ -6,7 +6,7 @@ PY = python3 -I
 RAW = data/raw
 OUT = data/build
 
-.PHONY: data db db-nc lookup clean
+.PHONY: data db db-nc lookup clean lint test
 data:
 	sh data/fetch.sh
 
@@ -25,3 +25,9 @@ lookup:
 
 clean:
 	rm -rf $(OUT)
+
+lint:
+	$(PY) tools/lint.py
+
+test:
+	$(PY) tools/sandhi.py --test

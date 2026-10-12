@@ -1,4 +1,4 @@
-# Template — copy to NNN.yaml. Not a real lesson.
+# Template: copy to NNN.yaml (e.g. 001.yaml). Not a real lesson; ignored by the checker.
 id: 0
 title:
   en: "Template"
@@ -15,6 +15,8 @@ dialogue:
     tailo: "Lí beh khì tó-uī?"
     en: "Where are you going?"
     zh: "你要去哪裡？"   # optional Mandarin, shown only where the contrast teaches something
+    groups: "Lí beh khì tó-uī?"   # only when a clause has more than one tone group: tailo with | at each break.
+                                  # Punctuation already ends a group. tools/sandhi.py derives the spoken tones.
     # source: moe        # only if the line is copied verbatim from the MOE dictionary
 
 notes:
@@ -30,11 +32,15 @@ new_words:              # Tâi-lô as in the MOE dictionary; checked against the
     hanji: 佗位
 
 exercises:
-  translate:            # Taigi → English (passive phase) or English → Taigi (active phase)
-    - prompt: ""
-      answer: ""
-  fill:
-    - prompt: "Lí ___ khì tó-uī?"
+  translate:            # passive phase: understand the Taigi; active phase: produce it from the English
+    - tailo: "Lí beh khì tó-uī?"
+      hanji: "你欲去佗位？"
+      en: "Where are you going?"
+  fill:                 # ___ is replaced by answer (and answer_hanji) when checking
+    - tailo: "Lí ___ khì tó-uī?"
+      hanji: "你___去佗位？"
       answer: "beh"
+      answer_hanji: "欲"
+      en: "Where are you going?"
 
 audio: []               # filenames under course/audio/, recorded for this project only

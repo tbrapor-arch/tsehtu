@@ -1,0 +1,173 @@
+id: 2
+title:
+  en: "Where are you from?"
+  tailo: "Lí sī tó-uī lâng?"
+  hanji: "你是佗位人？"
+phase: passive
+review: false
+setting: "On the stairs of Sam's building. A-bîng, who lives on the floor above, says hello."
+
+dialogue:
+  - n: 1
+    speaker: A-bîng
+    hanji: "你好，你是新的厝邊喔？"
+    tailo: "Lí hó, lí sī sin ê tshù-pinn--ooh?"
+    en: "Hi, are you the new neighbour?"
+  - n: 2
+    speaker: Sam
+    hanji: "著，我叫 Sam。你叫啥物名？"
+    tailo: "Tio̍h, guá kiò Sam. Lí kiò siánn-mih miâ?"
+    en: "That's right, I'm Sam. What's your name?"
+  - n: 3
+    speaker: A-bîng
+    hanji: "我叫阿明。你是佗位人？"
+    tailo: "Guá kiò A-bîng. Lí sī tó-uī lâng?"
+    en: "I'm A-bîng. Where are you from?"
+    zh: "你是哪裡人？"
+  - n: 4
+    speaker: Sam
+    hanji: "我是法國人，毋過我這馬蹛佇臺北。你咧？"
+    tailo: "Guá sī Huat-kok-lâng, m̄-koh guá tsit-má tuà tī Tâi-pak. Lí--leh?"
+    en: "I'm French, but I live in Taipei now. And you?"
+    groups: "Guá sī Huat-kok-lâng, m̄-koh | guá tsit-má | tuà tī Tâi-pak. Lí--leh?"
+  - n: 5
+    speaker: A-bîng
+    hanji: "我是臺南人，毋過我嘛蹛佇臺北。你佇遮咧讀冊乎？"
+    tailo: "Guá sī Tâi-lâm-lâng, m̄-koh guá mā tuà tī Tâi-pak. Lí tī tsia teh tha̍k-tsheh--honnh?"
+    en: "I'm from Tainan, but I live in Taipei too. You're studying here, I suppose?"
+    groups: "Guá sī Tâi-lâm-lâng, m̄-koh | guá mā tuà tī Tâi-pak. Lí tī tsia | teh tha̍k-tsheh--honnh?"
+  - n: 6
+    speaker: Sam
+    hanji: "毋是，我咧做工課。我干焦咧學臺語。"
+    tailo: "M̄-sī, guá teh tsò khang-khuè. Guá kan-na teh o̍h Tâi-gí."
+    en: "No, I'm working. I'm only learning Taiwanese."
+  - n: 7
+    speaker: A-bîng
+    hanji: "按呢我共你教！"
+    tailo: "Án-ne guá kā lí kà!"
+    en: "Then I'll teach you!"
+    groups: "Án-ne | guá kā lí kà!"
+  - n: 8
+    speaker: Sam
+    hanji: "好，多謝！"
+    tailo: "Hó, to-siā!"
+    en: "Great, thanks!"
+
+notes:
+  - ref: 1
+    topic: vocab
+    text: >
+      你好 lí hó exists, but it's a little formal between neighbours; you'll hear it, and you'll hear people skip it.
+      厝邊 tshù-pinn = neighbour (厝 tshù is "house", the everyday word where Mandarin has 房子 or 家).
+  - ref: 1
+    topic: grammar
+    text: >
+      新的 sin ê: adjective + 的 ê + noun, exactly like Mandarin. --ooh again asks for confirmation: "…, right?"
+  - ref: 2
+    topic: false-friend
+    text: >
+      著 tio̍h means "right, correct" (Mandarin 對). It's one of the most frequent words in Taigi and has several
+      jobs; this is the first.
+  - ref: 2
+    topic: vocab
+    text: >
+      叫 kiò "to be called"; 名 miâ "name". Lí kiò siánn-mih miâ? = 你叫什麼名字？ Names are given in roman
+      letters or characters, whichever the person uses.
+  - ref: 3
+    topic: grammar
+    text: >
+      佗位 tó-uī = where (哪裡). 你是佗位人？ is word for word the Mandarin 你是哪裡人？
+      阿明 A-bîng: 阿 a- before a name is the friendly form, as in Mandarin.
+  - ref: 4
+    topic: grammar
+    text: >
+      蹛 tuà = live (住). 佇 tī = at, in (在). Two Taigi-only characters you'll see on every page.
+      這馬 tsit-má = now (現在). 毋過 m̄-koh = but (不過).
+  - ref: 4
+    topic: grammar
+    text: >
+      你咧？ Lí--leh? = 你呢？ "And you?". 咧 after -- is light and low.
+  - ref: 4
+    topic: sandhi
+    text: >
+      A long sentence breaks into several tone groups, and only the last syllable of each keeps its tone.
+      Here the breaks fall after m̄-koh and after the time word tsit-má, so it's said: Gua sì Hua̍t-ko̍k-lâng, m̀-koh |
+      gua tsi̍t-má | tuá tì Tāi-pak. Don't try to predict this yet; listen for where the voice "lands".
+  - ref: 5
+    topic: grammar
+    text: >
+      嘛 mā = also (也), the spoken word; 也 iā exists but is more formal.
+      咧 teh before a verb = progressive (正在): Lí teh tha̍k-tsheh "you're studying". Same character as --leh,
+      different word.
+  - ref: 5
+    topic: vocab
+    text: >
+      讀冊 tha̍k-tsheh = to study, go to school (冊 tsheh is "book"). --honnh at the end: "…, I suppose? …, right?",
+      a soft guess.
+  - ref: 6
+    topic: grammar
+    text: >
+      毋是 m̄-sī = "no, not" (不是). The negation of 是 is always 毋 m̄. Lesson 3 sets out the whole family of negatives.
+  - ref: 6
+    topic: vocab
+    text: >
+      做工課 tsò khang-khuè = to work. 干焦 kan-na = only (只). 學 o̍h = learn, the colloquial reading of 學
+      (the literary reading ha̍k is in 學生 ha̍k-sing "student").
+  - ref: 7
+    topic: grammar
+    text: >
+      按呢 án-ne = then, so, like this (這樣). 共 kā marks the person affected: kā lí kà "teach (to) you".
+      kā is the most useful small word in Taigi and will come back constantly.
+  - ref: 8
+    topic: vocab
+    text: >
+      多謝 to-siā = thank you. 感謝 kám-siā is more formal.
+
+new_words:
+  - {tailo: sin, hanji: 新}
+  - {tailo: tshù-pinn, hanji: 厝邊}
+  - {tailo: tio̍h, hanji: 著}
+  - {tailo: kiò, hanji: 叫}
+  - {tailo: miâ, hanji: 名}
+  - {tailo: tó-uī, hanji: 佗位}
+  - {tailo: m̄-koh, hanji: 毋過}
+  - {tailo: tsit-má, hanji: 這馬}
+  - {tailo: tuà, hanji: 蹛}
+  - {tailo: tī, hanji: 佇}
+  - {tailo: mā, hanji: 嘛}
+  - {tailo: tsia, hanji: 遮}
+  - {tailo: teh, hanji: 咧}
+  - {tailo: tha̍k-tsheh, hanji: 讀冊}
+  - {tailo: m̄-sī, hanji: 毋是}
+  - {tailo: khang-khuè, hanji: 工課}
+  - {tailo: kan-na, hanji: 干焦}
+  - {tailo: o̍h, hanji: 學}
+  - {tailo: án-ne, hanji: 按呢}
+  - {tailo: kā, hanji: 共}
+  - {tailo: kà, hanji: 教}
+  - {tailo: to-siā, hanji: 多謝}
+
+exercises:
+  translate:
+    - tailo: "Lí sī tó-uī lâng?"
+      hanji: "你是佗位人？"
+      en: "Where are you from?"
+    - tailo: "Guá tsit-má tuà tī Tâi-pak."
+      hanji: "我這馬蹛佇臺北。"
+      en: "I live in Taipei now."
+    - tailo: "Guá teh o̍h Tâi-gí."
+      hanji: "我咧學臺語。"
+      en: "I'm learning Taiwanese."
+  fill:
+    - tailo: "Lí kiò ___ miâ?"
+      hanji: "你叫___名？"
+      answer: "siánn-mih"
+      answer_hanji: "啥物"
+      en: "What's your name?"
+    - tailo: "Guá ___ Tâi-lâm-lâng."
+      hanji: "我___臺南人。"
+      answer: "m̄-sī"
+      answer_hanji: "毋是"
+      en: "I'm not from Tainan."
+
+audio: []

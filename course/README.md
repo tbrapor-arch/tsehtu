@@ -13,8 +13,8 @@ goes to false friends, Taigi-only words, colloquial readings, tone sandhi and gr
 ## Rules for content
 1. Everything here is original. No sentences, dialogues, storylines or notes from published courses.
 2. Romanisation is Tâi-lô only (MOE system). Characters follow the MOE dictionary's recommended Hàn-jī.
-3. Every word in a dialogue must be found in `data/build/taigi.db` (checked by a lint step to come).
+3. Every word in a dialogue must be found in `data/build/taigi.db` (checked by `make lint`).
 4. A sentence copied from the MOE dictionary is marked `source: moe` and is not edited.
 
 ## Lesson file format (`lessons/NNN.yaml`)
-See `lessons/000-template.yaml`.
+See `lessons/_template.yaml`. Check lessons with `make lint`.

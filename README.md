@@ -22,6 +22,14 @@ make lookup W=khuann3   # Tâi-lô, numeric or with diacritics; no tone = any to
 `make db-nc` also adds English glosses from two non-commercial dictionaries (Maryknoll, Embree). Those builds must
 not be used commercially.
 
+## Writing and checking lessons
+```sh
+make lint               # every word in course/lessons/*.yaml must exist in the database
+make test               # tone sandhi engine tests
+python3 tools/sandhi.py "Guá sī | Huat-kok-lâng."   # spoken tones for a line
+```
+Start with `course/README.md`, `course/grammar-inventory.md` and `course/lessons/000-reading-tailo.md`.
+
 ## What the database gives you
 - ~140k headwords from the MOE dictionary, iTaigi, 台華線頂對照典 and the 1956 basic sentences
 - MOE definitions, example sentences with Mandarin translations, regional variants
