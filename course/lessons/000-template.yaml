@@ -1,0 +1,40 @@
+# Template — copy to NNN.yaml. Not a real lesson.
+id: 0
+title:
+  en: "Template"
+  tailo: ""
+  hanji: ""
+phase: passive          # passive | active
+review: false           # true on every 7th lesson
+setting: ""             # one line: who is talking, where
+
+dialogue:
+  - n: 1
+    speaker: A
+    hanji: "你欲去佗位？"
+    tailo: "Lí beh khì tó-uī?"
+    en: "Where are you going?"
+    zh: "你要去哪裡？"   # optional Mandarin, shown only where the contrast teaches something
+    # source: moe        # only if the line is copied verbatim from the MOE dictionary
+
+notes:
+  - ref: 1              # dialogue line number
+    topic: grammar      # grammar | pronunciation | sandhi | vocab | false-friend | culture
+    text: >
+      欲 beh is "want to / about to", the everyday equivalent of Mandarin 要.
+
+new_words:              # Tâi-lô as in the MOE dictionary; checked against the database
+  - tailo: beh
+    hanji: 欲
+  - tailo: tó-uī
+    hanji: 佗位
+
+exercises:
+  translate:            # Taigi → English (passive phase) or English → Taigi (active phase)
+    - prompt: ""
+      answer: ""
+  fill:
+    - prompt: "Lí ___ khì tó-uī?"
+      answer: "beh"
+
+audio: []               # filenames under course/audio/, recorded for this project only
