@@ -1462,6 +1462,8 @@ applySkin();
 route();
 // pull the other devices' progress at start, then refresh the current page
 // the exam tab: check (quietly) whether this device's token opens the private repo
-if (Sync.token) { const was = Exam.on; Exam.check().then(on => { if (on !== was) { if (/^exam/.test(location.hash.slice(1))) route(); else renderTabs(currentTab()); } }); }
+// when it does, load the module in the background: its word cards (exam list, review deck) are then known everywhere
+if (Sync.token) { const was = Exam.on; Exam.check().then(on => { if (on !== was) { if (/^exam/.test(location.hash.slice(1))) route(); else renderTabs(currentTab()); }
+  if (on && !/^exam/.test(location.hash.slice(1))) Exam.load().then(() => { if (currentTab() === 'review' && !sess && !tsess) route(); else renderTabs(currentTab()); }).catch(() => {}); }); }
 if (Sync.on) Sync.run(true).then(() => { if (!sess && !tsess) { const y = scrollY; route.keepSheet = true; route(); route.keepSheet = false; scrollTo(0, y); } });
 </script>
