@@ -977,9 +977,14 @@ function showSettings() {
       </tbody></table></div></section>`).join('')}
     <p class="sub" style="font-size:.85rem;margin:0">Data: 教育部臺灣台語常用詞辭典, regional pronunciation tables (10 places) and alternative readings.</p>
   </div>`;
-  $('#exp', m).onclick = () => {
-    const blob = new Blob([JSON.stringify({ app: 'tshehtu', v: 1, at: new Date().toISOString(), doneAt, waveAt, deck, days: [...studyDays], prefs, last: store.get('last', null) }, null, 1)], { type: 'application/json' });
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `tshehtu-progress-${today()}.json`; document.body.append(a); a.click(); a.remove();
+  $('#exp', m).onclick = async () => {
+    const json = JSON.stringify({ app: 'tshehtu', v: 1, at: new Date().toISOString(), doneAt, waveAt, deck, days: [...studyDays], prefs, last: store.get('last', null) }, null, 1);
+    const filename = `tshehtu-progress-${today()}.json`;
+    // inside the claude.ai viewer, files go through its save dialog; on a normal web page, a plain download
+    const dl = window.claude && window.claude.use ? await window.claude.use('downloads').catch(() => null) : null;
+    if (dl) { try { await dl.save({ filename, data: json }); toast('Progress file saved'); } catch (err) { if (err && err.code !== 'declined') toast('Could not save the file here'); } return; }
+    const blob = new Blob([json], { type: 'application/json' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = filename; document.body.append(a); a.click(); a.remove();
     setTimeout(() => URL.revokeObjectURL(a.href), 5000);
   };
   $('#imp', m).onclick = () => $('#imp-file', m).click();
