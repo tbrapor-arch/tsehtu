@@ -59,7 +59,7 @@ jobs:
       - name: App (second pass, with the recordings)
         run: make app
 
-      - name: Site (installable: icon, full screen, offline)
+      - name: Site (installable app, icon, full screen, offline)
         run: python3 tools/site.py _site
 
       - uses: actions/upload-pages-artifact@v3
