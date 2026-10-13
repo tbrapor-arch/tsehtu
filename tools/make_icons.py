@@ -1,4 +1,4 @@
-"""Draw the app icons (app/pwa/icon-*.png) with Chromium: cobalt square, notebook grid, white 冊.
+"""Draw the app icons (app/pwa/icon-*.png) with Chromium: cobalt square, notebook grid, white 冊 (no margin line: alone it reads as a glitch).
 
   python3 tools/make_icons.py      (needs Playwright and a Traditional Chinese font such as Noto Sans CJK TC)
 
@@ -13,7 +13,6 @@ OUT = os.path.join(ROOT, 'app/pwa')
 HTML = '''<html><body style="margin:0"><div id=i style="width:1024px;height:1024px;position:relative;overflow:hidden;
 background:#2347B5;background-image:linear-gradient(rgba(255,255,255,.09) 3px,transparent 3px),
 linear-gradient(90deg,rgba(255,255,255,.09) 3px,transparent 3px);background-size:85.3px 85.3px;background-position:-2px -2px">
-<div style="position:absolute;left:170px;top:0;bottom:0;width:6px;background:#E8857F;opacity:.85"></div>
 <div style="position:absolute;inset:0;display:grid;place-items:center;font:900 560px/1 'Noto Sans CJK TC','Noto Sans TC',sans-serif;
 color:#fff;text-shadow:22px 22px 0 #16307F;padding-bottom:30px">冊</div></div></body></html>'''
 with sync_playwright() as pw:
