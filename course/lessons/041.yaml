@@ -1,0 +1,47 @@
+id: 41
+title: {en: "Feelings", tailo: "Sim-lāi ê uē", hanji: "心內的話"}
+phase: passive
+review: false
+setting: "A-hun comes home from work upset. Her older brother A-bîng is there with Sam."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "小妹，你哪會遮爾鬱卒？", tailo: "Sió-muē, lí ná ē tsiah-nī ut-tsut?", en: "Little sister, why so down?"}
+  - {n: 2, speaker: A-hun, hanji: "今仔日予主管罵，我真委屈。", tailo: "Kin-á-ji̍t hōo tsú-kuán mē, guá tsin uí-khut.", en: "My boss told me off today. It's so unfair."}
+  - {n: 3, speaker: A-hun, hanji: "伊講我做毋著，其實毋是我的錯。", tailo: "I kóng guá tsò m̄-tio̍h, kî-si̍t m̄ sī guá ê tshò.", en: "He said I did it wrong, but actually it wasn't my mistake."}
+  - {n: 4, speaker: Sam, hanji: "莫受氣，嘛莫傷心。", tailo: "Mài siū-khì, mā mài siong-sim.", en: "Don't be angry, and don't be sad."}
+  - {n: 5, speaker: A-bîng, hanji: "阿兄共你講，明仔載你紲落去做，伊就會知。", tailo: "A-hiann kā lí kóng, bîn-á-tsài lí suà--lo̍h-khì tsò, i tō ē tsai.", en: "Listen to your big brother: tomorrow you just carry on, and he'll understand."}
+  - {n: 6, speaker: A-hun, hanji: "恁兩个遮好，我真感心。", tailo: "Lín nn̄g ê tsiah hó, guá tsin kám-sim.", en: "You two are so nice, I'm really touched."}
+  - {n: 7, speaker: Sam, hanji: "來，我講一个笑詼予你聽。", tailo: "Lâi, guá kóng tsi̍t ê tshiò-khue hōo lí thiann.", en: "Come on, let me tell you a funny story."}
+  - {n: 8, speaker: A-hun, hanji: "好啦，笑一下，心情就較好矣。", tailo: "Hó--lah, tshiò--tsi̍t-ē, sim-tsîng tō khah hó--ah.", en: "OK. A little laugh and I already feel better."}
+notes:
+  - {ref: 1, topic: vocab, text: "鬱卒 ut-tsut = depressed, fed up (鬱悶). A very common Taigi word, also used in Taiwan Mandarin. 心內 sim-lāi = in one's heart; 心內的話 'what's on one's mind'."}
+  - {ref: 2, topic: grammar, text: "予 hōo + person + verb = passive (被): 予主管罵 'was told off by the boss' (lesson 35). 罵 mē = scold. 主管 tsú-kuán = boss, manager. 委屈 uí-khut = feel wronged."}
+  - {ref: 3, topic: grammar, text: "做毋著 tsò m̄-tio̍h = do wrong: verb + 毋著 'wrongly'; verb + 著 'correctly'. 其實 kî-si̍t = actually. 錯 tshò = mistake, fault."}
+  - {ref: 4, topic: vocab, text: "受氣 siū-khì = get angry (生氣): 受 'suffer' + 氣 'anger'. 傷心 siong-sim = sad, hurt. 莫…嘛莫… 'neither … nor …'."}
+  - {ref: 5, topic: grammar, text: "阿兄 a-hiann = older brother. Speaking of oneself as 阿兄 to a younger sibling is natural. 紲落去 suà--lo̍h-khì = carry on (繼續下去): 紲 suà = continue, follow on. 伊就會知 'then he'll know'."}
+  - {ref: 6, topic: false-friend, text: "感心 kám-sim = touched, grateful (感動). Not 'disgusting' (Mandarin 噁心 is a different word)."}
+  - {ref: 7, topic: grammar, text: "講…予你聽 kóng … hōo lí thiann = tell you (講給你聽). 笑詼 tshiò-khue = a joke, something funny."}
+  - {ref: 8, topic: grammar, text: "Verb + 一下 = do briefly: 笑一下 'have a little laugh'. 心情 sim-tsîng = mood. Feelings so far: 歡喜 happy, 快樂 joyful, 受氣 angry, 傷心 sad, 鬱卒 down, 煩惱 worried, 驚 afraid, 委屈 wronged, 感心 touched."}
+new_words:
+  - {tailo: sim-lāi, hanji: 心內, en: "in one's heart"}
+  - {tailo: ut-tsut, hanji: 鬱卒, en: "depressed, fed up"}
+  - {tailo: tsú-kuán, hanji: 主管, en: "boss, manager"}
+  - {tailo: mē, hanji: 罵, en: "scold"}
+  - {tailo: uí-khut, hanji: 委屈, en: "feel wronged"}
+  - {tailo: m̄-tio̍h, hanji: 毋著, en: "wrong"}
+  - {tailo: kî-si̍t, hanji: 其實, en: "actually"}
+  - {tailo: tshò, hanji: 錯, en: "mistake, fault"}
+  - {tailo: siū-khì, hanji: 受氣, en: "get angry"}
+  - {tailo: siong-sim, hanji: 傷心, en: "sad, hurt"}
+  - {tailo: a-hiann, hanji: 阿兄, en: "older brother"}
+  - {tailo: suà--lo̍h-khì, hanji: 紲落去, en: "carry on"}
+  - {tailo: kám-sim, hanji: 感心, en: "touched, grateful"}
+  - {tailo: tshiò-khue, hanji: 笑詼, en: "joke"}
+  - {tailo: sim-tsîng, hanji: 心情, en: "mood"}
+exercises:
+  translate:
+    - {tailo: "Lí ná ē tsiah-nī ut-tsut?", hanji: "你哪會遮爾鬱卒？", en: "Why so down?"}
+    - {tailo: "Mài siū-khì.", hanji: "莫受氣。", en: "Don't be angry."}
+  fill:
+    - {tailo: "Kin-á-ji̍t ___ tsú-kuán mē.", hanji: "今仔日___主管罵。", answer: "hōo", answer_hanji: "予", en: "My boss told me off today."}
+    - {tailo: "Bîn-á-tsài lí ___ tsò.", hanji: "明仔載你___做。", answer: "suà--lo̍h-khì", answer_hanji: "紲落去", en: "Tomorrow you carry on."}
+audio: []

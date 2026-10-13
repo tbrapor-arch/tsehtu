@@ -1,0 +1,29 @@
+id: 42
+title: {en: "Review 6", tailo: "Ho̍k-si̍p", hanji: "復習"}
+phase: passive
+review: true
+setting: "Sam and A-hun chat over tea. Everything comes from lessons 36–41."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "你今仔日心情哪會遮好？", tailo: "Lí kin-á-ji̍t sim-tsîng ná ē tsiah hó?", en: "How come you're in such a good mood today?"}
+  - {n: 2, speaker: Sam, hanji: "我看布袋戲，總算聽有一半矣！", tailo: "Guá khuànn pòo-tē-hì, tsóng-sǹg thiann-ū tsi̍t-puànn--ah!", en: "I watched the puppet show and finally understood half of it!"}
+  - {n: 3, speaker: A-hun, hanji: "真拍拚！阿媽的確會呵咾你。", tailo: "Tsin phah-piànn! A-má tik-khak ē o-ló lí.", en: "Well done! Grandma will surely praise you."}
+  - {n: 4, speaker: Sam, hanji: "毋過我閣嗽，醫生講著愛加歇睏。", tailo: "M̄-koh guá koh sàu, i-sing kóng tio̍h-ài ke hioh-khùn.", en: "But I'm still coughing; the doctor says I must rest more."}
+  - {n: 5, speaker: A-hun, hanji: "按呢莫閣去海邊泅水矣，今先踮厝內歇睏。", tailo: "Án-ne mài koh khì hái-pinn siû-tsuí--ah, tann sing tiàm tshù-lāi hioh-khùn.", en: "Then no more swimming at the beach. For now, stay home and rest."}
+notes:
+  - {ref: 1, topic: grammar, text: "Asking why: 哪會 ná ē (how come, surprise), 按怎 án-tsuánn, 為啥物 uī-siánn-mih. 遮 tsiah + adjective = so (遮好 'so good')."}
+  - {ref: 2, topic: grammar, text: "總算 tsóng sǹg = finally, at last. Hearing: 聽有 understand, 聽無 not understand. Literary vs colloquial readings: 大人 tuā-lâng / tāi-jîn, 人 lâng / jîn, 生 senn / sing (lesson 37)."}
+  - {ref: 3, topic: grammar, text: "Must and surely: 著愛 tio̍h-ài (must), 愛 ài (need to), 的確 tik-khak (surely; for many speakers 'maybe'). Praise: 呵咾."}
+  - {ref: 4, topic: grammar, text: "Body words so far: 喙 mouth, 目睭 eyes, 舌 tongue, 嚨喉 throat, 頭殼 head, 腹肚 belly, 跤手 arms and legs, 身軀 body."}
+  - {ref: 5, topic: grammar, text: "Now: 這馬 tsit-má (neutral) vs 今 tann (now, in that case). Staying: 踮 tiàm (stay at), 佇 tī (at), 蹛 tuà (live)."}
+  - {ref: 5, topic: grammar, text: "Feelings: 歡喜, 受氣, 傷心, 鬱卒, 煩惱, 委屈, 感心, 驚. Helping: 共 + person + 鬥 + verb (help someone do), 鬥相共 (help out)."}
+new_words:
+  - {tailo: tsóng sǹg, hanji: 總算, en: "finally, at last"}
+exercises:
+  translate:
+    - {tailo: "Guá kā lí tàu ak.", hanji: "我共你鬥沃。", en: "Let me help you water."}
+    - {tailo: "Tshuì peh-khui.", hanji: "喙擘開。", en: "Open your mouth."}
+    - {tailo: "Lóng-tsóng guā-tsē?", hanji: "攏總偌濟？", en: "How much altogether?"}
+  fill:
+    - {tailo: "Tann sing ___ tshù-lāi hioh-khùn.", hanji: "今先___厝內歇睏。", answer: "tiàm", answer_hanji: "踮", en: "For now, stay home and rest."}
+    - {tailo: "I-sing kóng ___ ke hioh-khùn.", hanji: "醫生講___加歇睏。", answer: "tio̍h-ài", answer_hanji: "著愛", en: "The doctor says I must rest more."}
+audio: []

@@ -1,0 +1,44 @@
+id: 40
+title: {en: "Helping A-kong", tailo: "Kā a-kong tàu-sann-kāng", hanji: "共阿公鬥相共"}
+phase: passive
+review: false
+setting: "Saturday morning in Tainan. A-kong, ninety, is out in his vegetable garden."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "阿公，你透早就咧沃菜喔？", tailo: "A-kong, lí thàu-tsá tō teh ak tshài--ooh?", en: "Grandpa, you're already watering the vegetables this early?"}
+  - {n: 2, speaker: A-kong, hanji: "是啊，閣愛飼雞。人老矣，跤手較無力。", tailo: "Sī--ah, koh ài tshī ke. Lâng lāu--ah, kha-tshiú khah bô-la̍t.", en: "Yes, and I still have to feed the chickens. I'm old now, my arms and legs are weaker."}
+  - {n: 3, speaker: Sam, hanji: "阿公，我共你鬥沃，你坐落來歇一下。", tailo: "A-kong, guá kā lí tàu ak, lí tsē--lo̍h-lâi hioh--tsi̍t-ē.", en: "Grandpa, let me help you water. Sit down and rest a bit."}
+  - {n: 4, speaker: A-kong, hanji: "這个外國囡仔誠乖，閣真拍拚。", tailo: "Tsit ê guā-kok gín-á tsiânn kuai, koh tsin phah-piànn.", en: "This foreign kid is really good, and a hard worker too."}
+  - {n: 5, speaker: A-bîng, hanji: "阿公，我扶你上樓梯，下晡閣來挽草。", tailo: "A-kong, guá phôo lí tsiūnn lâu-thui, ē-poo koh lâi bán tsháu.", en: "Grandpa, I'll help you up the stairs. We'll come back and weed this afternoon."}
+  - {n: 6, speaker: A-kong, hanji: "恁兩个攏真有孝。我真毋甘恁遮爾忝。", tailo: "Lín nn̄g ê lóng tsin iú-hàu. Guá tsin m̄-kam lín tsiah-nī thiám.", en: "You're both so good to me. I hate to see you wear yourselves out."}
+  - {n: 7, speaker: Sam, hanji: "袂忝啦，阿公。下擺閣來。", tailo: "Bē thiám--lah, a-kong. Ē-pái koh lâi.", en: "We're not tired, Grandpa. We'll come again next time."}
+notes:
+  - {ref: 1, topic: vocab, text: "透早 thàu-tsá = early in the morning (一大早). 沃 ak = water (plants), pour on (澆): 沃菜 'water the vegetables'. A Taigi-only meaning."}
+  - {ref: 2, topic: vocab, text: "飼 tshī = feed, raise (animals); also bring up children (飼囡仔). 跤手 kha-tshiú = arms and legs; also 'helper, hand'. 無力 bô-la̍t = weak. 老 lāu = old (colloquial reading)."}
+  - {ref: 3, topic: grammar, text: "共 kā + person + 鬥 tàu + verb = help someone do something (幫某人…): 共你鬥沃 'help you water'. 鬥 tàu on its own = help, join in. 坐落來 tsē--lo̍h-lâi = sit down."}
+  - {ref: 4, topic: vocab, text: "乖 kuai = good, well-behaved. 拍拚 phah-piànn = hard-working, work hard (努力、打拚). Taiwan Mandarin 打拚 comes from it."}
+  - {ref: 5, topic: vocab, text: "扶 phôo = support (someone) by the arm (扶). 上 tsiūnn = go up, get on (上): colloquial reading. 樓梯 lâu-thui = stairs. 挽草 bán tsháu = pull up weeds."}
+  - {ref: 6, topic: vocab, text: "有孝 iú-hàu = devoted to one's parents and grandparents (孝順). 毋甘 m̄-kam = can't bear to, feel sorry for (捨不得、心疼). 忝 thiám = exhausted (Health theme)."}
+new_words:
+  - {tailo: thàu-tsá, hanji: 透早, en: "early in the morning"}
+  - {tailo: ak, hanji: 沃, en: "water (plants)"}
+  - {tailo: tshī, hanji: 飼, en: "feed, raise"}
+  - {tailo: kha-tshiú, hanji: 跤手, en: "arms and legs; helper"}
+  - {tailo: bô-la̍t, hanji: 無力, en: "weak"}
+  - {tailo: lāu, hanji: 老, en: "old"}
+  - {tailo: tàu, hanji: 鬥, en: "help, join in"}
+  - {tailo: kuai, hanji: 乖, en: "good, well-behaved"}
+  - {tailo: phah-piànn, hanji: 拍拚, en: "hard-working"}
+  - {tailo: phôo, hanji: 扶, en: "support by the arm"}
+  - {tailo: tsiūnn, hanji: 上, en: "go up, get on"}
+  - {tailo: lâu-thui, hanji: 樓梯, en: "stairs"}
+  - {tailo: bán tsháu, hanji: 挽草, en: "pull up weeds"}
+  - {tailo: iú-hàu, hanji: 有孝, en: "devoted to one's elders"}
+  - {tailo: m̄-kam, hanji: 毋甘, en: "can't bear to, feel sorry for"}
+exercises:
+  translate:
+    - {tailo: "Guá kā lí tàu ak.", hanji: "我共你鬥沃。", en: "Let me help you water."}
+    - {tailo: "Lín nn̄g ê lóng tsin iú-hàu.", hanji: "恁兩个攏真有孝。", en: "You're both so good to me."}
+  fill:
+    - {tailo: "Koh ài ___ ke.", hanji: "閣愛___雞。", answer: "tshī", answer_hanji: "飼", en: "I still have to feed the chickens."}
+    - {tailo: "Koh tsin ___.", hanji: "閣真___。", answer: "phah-piànn", answer_hanji: "拍拚", en: "And a hard worker too."}
+audio: []

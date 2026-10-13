@@ -1,0 +1,44 @@
+id: 39
+title: {en: "Seeing the doctor", tailo: "Khuànn-i-sing", hanji: "看醫生"}
+phase: passive
+review: false
+setting: "A clinic. Sam has had a cough for a week."
+dialogue:
+  - {n: 1, speaker: Doctor, hanji: "你有啥物症頭？", tailo: "Lí ū siánn-mih tsìng-thâu?", en: "What are your symptoms?"}
+  - {n: 2, speaker: Sam, hanji: "嗽一禮拜矣，暗時閣會喘。", tailo: "Sàu tsi̍t lé-pài--ah, àm-sî koh ē tshuán.", en: "I've been coughing for a week, and at night I get short of breath."}
+  - {n: 3, speaker: Doctor, hanji: "喙擘開，我看覓。舌吐出來。", tailo: "Tshuì peh-khui, guá khuànn-māi. Tsi̍h thòo--tshut-lâi.", en: "Open your mouth, let me see. Stick out your tongue."}
+  - {n: 4, speaker: Doctor, hanji: "嚨喉小可仔發炎，的確是寒著。", tailo: "Nâ-âu sió-khuá-á huat-iām, tik-khak sī kuânn--tio̍h.", en: "Your throat is a little inflamed. It must be a cold."}
+  - {n: 5, speaker: Sam, hanji: "敢會嚴重？我驚身軀有啥物問題。", tailo: "Kám ē giâm-tiōng? Guá kiann sin-khu ū siánn-mih būn-tê.", en: "Is it serious? I'm worried something's wrong with me."}
+  - {n: 6, speaker: Doctor, hanji: "免煩惱。我開藥仔予你，你著愛加啉水、加歇睏。", tailo: "Bián huân-ló. Guá khui io̍h-á hōo lí, lí tio̍h-ài ke lim tsuí, ke hioh-khùn.", en: "No need to worry. I'll prescribe some medicine. You must drink more water and rest more."}
+  - {n: 7, speaker: Doctor, hanji: "若一禮拜猶無好，才閣來予我看。", tailo: "Nā tsi̍t lé-pài iáu bô hó, tsiah koh lâi hōo guá khuànn.", en: "If you're still not better in a week, come back and see me."}
+notes:
+  - {ref: 1, topic: vocab, text: "症頭 tsìng-thâu = symptom (症狀). See also the Health theme."}
+  - {ref: 2, topic: grammar, text: "Duration after the verb + 矣: 嗽一禮拜矣 'have been coughing for a week (and still am)'. 嗽 sàu = cough (shorter than 咳嗽 ka-sàu). 喘 tshuán = be short of breath, pant. 一禮拜 tsi̍t lé-pài = a week."}
+  - {ref: 3, topic: vocab, text: "喙 tshuì = mouth (嘴), a Taigi-only character. 擘開 peh-khui = open wide (張開). 舌 tsi̍h = tongue. 吐出來 thòo--tshut-lâi = stick out, spit out: verb + two direction words in neutral tone."}
+  - {ref: 4, topic: false-friend, text: "的確 tik-khak: in the MOE dictionary 'surely, must be' (一定): 的確是寒著 'it must be a cold'. Careful: many speakers also use it for 'maybe, it could be' (說不定), so listen to the context. 發炎 huat-iām = be inflamed."}
+  - {ref: 5, topic: false-friend, text: "身軀 sin-khu = body (身體). In Mandarin 身軀 is a literary 'frame, stature'; in Taigi it is the everyday word. 驚 kiann + clause = be afraid that, worry that."}
+  - {ref: 6, topic: grammar, text: "著愛 tio̍h-ài = must, have to (必須、得): stronger than 愛 ài. 免煩惱 bián huân-ló = don't worry. 開藥仔予你 'prescribe medicine for you'."}
+  - {ref: 7, topic: grammar, text: "來予我看 'come and let me see you': 予 hōo = let (lesson 13). 猶無好 'still not better'."}
+new_words:
+  - {tailo: tsìng-thâu, hanji: 症頭, en: "symptom"}
+  - {tailo: sàu, hanji: 嗽, en: "cough"}
+  - {tailo: tshuán, hanji: 喘, en: "be short of breath"}
+  - {tailo: lé-pài, hanji: 禮拜, en: "week"}
+  - {tailo: tshuì, hanji: 喙, en: "mouth"}
+  - {tailo: peh-khui, hanji: 擘開, en: "open wide"}
+  - {tailo: tsi̍h, hanji: 舌, en: "tongue"}
+  - {tailo: thòo, hanji: 吐, en: "spit, stick out"}
+  - {tailo: huat-iām, hanji: 發炎, en: "be inflamed"}
+  - {tailo: tik-khak, hanji: 的確, en: "surely; (for many) maybe"}
+  - {tailo: giâm-tiōng, hanji: 嚴重, en: "serious"}
+  - {tailo: sin-khu, hanji: 身軀, en: "body"}
+  - {tailo: huân-ló, hanji: 煩惱, en: "worry"}
+  - {tailo: tio̍h-ài, hanji: 著愛, en: "must, have to"}
+exercises:
+  translate:
+    - {tailo: "Lí ū siánn-mih tsìng-thâu?", hanji: "你有啥物症頭？", en: "What are your symptoms?"}
+    - {tailo: "Tshuì peh-khui.", hanji: "喙擘開。", en: "Open your mouth."}
+  fill:
+    - {tailo: "Lí ___ ke lim tsuí.", hanji: "你___加啉水。", answer: "tio̍h-ài", answer_hanji: "著愛", en: "You must drink more water."}
+    - {tailo: "Bián ___.", hanji: "免___。", answer: "huân-ló", answer_hanji: "煩惱", en: "No need to worry."}
+audio: []

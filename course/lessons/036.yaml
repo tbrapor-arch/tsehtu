@@ -1,0 +1,47 @@
+id: 36
+title: {en: "A day at the beach", tailo: "Khì hái-pinn", hanji: "去海邊"}
+phase: passive
+review: false
+setting: "A hot Sunday at a beach on the north coast."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "今仔日好天，日頭誠大。", tailo: "Kin-á-ji̍t hó-thinn, ji̍t-thâu tsiânn tuā.", en: "It's a fine day today, the sun is strong."}
+  - {n: 2, speaker: Sam, hanji: "咱踮遮坐一下，我欲先落去泅水。", tailo: "Lán tiàm tsia tsē--tsi̍t-ē, guá beh sing lo̍h-khì siû-tsuí.", en: "Let's sit here for a bit. I'm going into the water first."}
+  - {n: 3, speaker: A-hun, hanji: "你看，今仔日的湧誠懸，莫泅傷遠。", tailo: "Lí khuànn, kin-á-ji̍t ê íng tsiânn kuân, mài siû siunn hn̄g.", en: "Look, the waves are really high today. Don't swim too far out."}
+  - {n: 4, speaker: Sam, hanji: "彼是啥物？紅色的旗仔。", tailo: "He sī siánn-mih? Âng-sik ê kî-á.", en: "What's that? A red flag."}
+  - {n: 5, speaker: A-hun, hanji: "紅旗仔就是講危險，袂使落水。", tailo: "Âng kî-á tō-sī kóng guî-hiám, bē-sái lo̍h-tsuí.", en: "A red flag means it's dangerous: no going in the water."}
+  - {n: 6, speaker: Sam, hanji: "按呢今欲按怎？", tailo: "Án-ne tann beh án-tsuánn?", en: "So what do we do now?"}
+  - {n: 7, speaker: A-hun, hanji: "咱來曝日。毋過帽仔愛戴，無，會曝甲烏趖趖。", tailo: "Lán lâi pha̍k-ji̍t. M̄-koh bō-á ài tì, bô, ē pha̍k kah oo-sô-sô.", en: "Let's sunbathe. But wear a hat, or you'll get burnt to a crisp."}
+  - {n: 8, speaker: Lifeguard, hanji: "遐的少年人，莫閣倚過來，緊轉來！", tailo: "Hia ê siàu-liân-lâng, mài koh uá--kuè-lâi, kín tńg--lâi!", en: "You young ones over there, don't come any closer, come back now!"}
+notes:
+  - {ref: 1, topic: vocab, text: "好天 hó-thinn = fine weather (天氣好); 歹天 pháinn-thinn = bad weather. 日頭誠大 'the sun is strong'."}
+  - {ref: 2, topic: grammar, text: "踮 tiàm = stay at, be at (在、待): 踮遮 'here (and stay)'. A Taigi-only word, close to 佇 tī but with a sense of staying. 泅水 siû-tsuí = swim (游泳). 落去 'go down (into the water)'."}
+  - {ref: 3, topic: false-friend, text: "懸 kuân = high, tall (高). A Taigi-only character; 懸 in Mandarin is 'hang'. 湧 íng = waves (浪)."}
+  - {ref: 4, topic: grammar, text: "彼 he = that (thing), used on its own as a pronoun: 彼是啥物？ 'what's that?'. Pair: 這 tse 'this'. Before a classifier it's 彼 hit (lesson 4). 旗仔 kî-á = flag."}
+  - {ref: 5, topic: grammar, text: "就是講 tō-sī kóng = that means (就是說). 落水 lo̍h-tsuí = go into the water."}
+  - {ref: 6, topic: vocab, text: "今 tann = now (in that case) (現在、這下): 今欲按怎？ 'so now what?'. Not 'today'. 這馬 tsit-má (lesson 2) is the neutral 'now'; 今 tann ties it to what just happened."}
+  - {ref: 7, topic: vocab, text: "曝日 pha̍k-ji̍t = sunbathe, be out in the sun (曬太陽). 曝甲烏趖趖 'tanned really dark': V + 甲 + result (lesson 27), with a vivid triple adjective 烏趖趖 oo-sô-sô 'all black'. 帽仔 bō-á = hat."}
+  - {ref: 8, topic: grammar, text: "倚 uá = come close, lean against (靠近). 倚過來 'come over this way'. 少年人 siàu-liân-lâng = young people. 轉來 tńg--lâi = come back (回來); 轉去 tńg-khì was 'go back'."}
+new_words:
+  - {tailo: hái-pinn, hanji: 海邊, en: "seaside, beach"}
+  - {tailo: hó-thinn, hanji: 好天, en: "fine weather"}
+  - {tailo: tiàm, hanji: 踮, en: "stay at, be at"}
+  - {tailo: siû-tsuí, hanji: 泅水, en: "swim"}
+  - {tailo: íng, hanji: 湧, en: "wave"}
+  - {tailo: kuân, hanji: 懸, en: "high, tall"}
+  - {tailo: he, hanji: 彼, en: "that (one)"}
+  - {tailo: kî-á, hanji: 旗仔, en: "flag"}
+  - {tailo: guî-hiám, hanji: 危險, en: "dangerous"}
+  - {tailo: tann, hanji: 今, en: "now (in that case)"}
+  - {tailo: pha̍k-ji̍t, hanji: 曝日, en: "sunbathe"}
+  - {tailo: bō-á, hanji: 帽仔, en: "hat"}
+  - {tailo: uá, hanji: 倚, en: "come close, lean"}
+  - {tailo: siàu-liân-lâng, hanji: 少年人, en: "young people"}
+  - {tailo: tńg--lâi, hanji: 轉來, en: "come back"}
+exercises:
+  translate:
+    - {tailo: "He sī siánn-mih?", hanji: "彼是啥物？", en: "What's that?"}
+    - {tailo: "Mài siû siunn hn̄g.", hanji: "莫泅傷遠。", en: "Don't swim too far out."}
+  fill:
+    - {tailo: "Kin-á-ji̍t ê íng tsiânn ___.", hanji: "今仔日的湧誠___。", answer: "kuân", answer_hanji: "懸", en: "The waves are really high today."}
+    - {tailo: "Án-ne ___ beh án-tsuánn?", hanji: "按呢___欲按怎？", answer: "tann", answer_hanji: "今", en: "So what do we do now?"}
+audio: []

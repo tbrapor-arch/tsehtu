@@ -1,0 +1,47 @@
+id: 37
+title: {en: "Taigi on TV", tailo: "Tiān-sī ê pòo-tē-hì", hanji: "電視的布袋戲"}
+phase: passive
+review: false
+setting: "Evening at A-má's. A glove-puppet show is on TV."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "緊來看，布袋戲欲開始矣！", tailo: "Kín lâi khuànn, pòo-tē-hì beh khai-sí--ah!", en: "Come quick, the puppet show is starting!"}
+  - {n: 2, speaker: Sam, hanji: "𪜶講話好快，我有一半聽無。", tailo: "In kóng-uē hó khuài, guá ū tsi̍t-puànn thiann-bô.", en: "They talk so fast, I miss half of it."}
+  - {n: 3, speaker: A-hun, hanji: "有字幕，你看字就好。", tailo: "Ū jī-bōo, lí khuànn jī tō hó.", en: "There are subtitles, just read them."}
+  - {n: 4, speaker: Sam, hanji: "字我捌，毋過讀音無仝。「大人」是tuā-lâng抑是tāi-jîn？", tailo: "Jī guá bat, m̄-koh tho̍k-im bô-kâng. 'Tuā-lâng' sī tuā-lâng ia̍h-sī tāi-jîn?", en: "I know the characters, but the readings differ. Is 大人 tuā-lâng or tāi-jîn?"}
+  - {n: 5, speaker: A-má, hanji: "攏有。囡仔大漢叫大人，做官的嘛叫大人。", tailo: "Lóng ū. Gín-á tuā-hàn kiò tuā-lâng, tsò-kuann--ê mā kiò tāi-jîn.", en: "Both. A grown-up is tuā-lâng; an official is tāi-jîn."}
+  - {n: 6, speaker: A-hun, hanji: "戲內底的人講話較文，日常講話較白。", tailo: "Hì lāi-té ê lâng kóng-uē khah bûn, ji̍t-siông kóng-uē khah pe̍h.", en: "People in the show speak more literary; everyday speech is more colloquial."}
+  - {n: 7, speaker: Sam, hanji: "真趣味！總是我猶是聽甲霧嗄嗄。", tailo: "Tsin tshù-bī! Tsóng--sī guá iáu-sī thiann kah bū-sà-sà.", en: "Fascinating! But I'm still completely lost."}
+  - {n: 8, speaker: A-má, hanji: "莫戇矣，加看就會曉。", tailo: "Mài gōng--ah, ke khuànn tō ē-hiáu.", en: "Don't be silly. Watch more and you'll get it."}
+notes:
+  - {ref: 1, topic: vocab, text: "布袋戲 pòo-tē-hì = glove-puppet theatre, a Taiwanese art still on TV. Also 歌仔戲 kua-á-hì, Taiwanese opera. 開始 khai-sí = start: both syllables in their literary reading."}
+  - {ref: 2, topic: grammar, text: "好 hó + adjective = so, really (好快 'so fast'), as in Taiwan Mandarin. 一半 tsi̍t-puànn = half. 聽無 thiann-bô = not understand (by listening): verb + 無 = didn't get the result (lesson 33). Positive 聽有 (lesson 10)."}
+  - {ref: 3, topic: vocab, text: "字幕 jī-bōo = subtitles. 字 jī = character, word."}
+  - {ref: 4, topic: pronunciation, text: "讀音 tho̍k-im = reading (of a character). Most characters have a colloquial (白) and a literary (文) reading. Literary readings live in learned words and names, colloquial ones in everyday words."}
+  - {ref: 5, topic: pronunciation, text: "大人: tuā-lâng (colloquial: grown-up) vs tāi-jîn (literary: an official, 'Your Excellency'). Same pattern: 大 tuā / tāi (大學 tāi-ha̍k), 人 lâng / jîn (人民 jîn-bîn), 生 senn / sing (學生 ha̍k-sing). 大漢 tuā-hàn = grown up (opposite of 細漢, lesson 20). 做官 tsò-kuann = be an official."}
+  - {ref: 6, topic: grammar, text: "較文 khah bûn / 較白 khah pe̍h: 文 'literary', 白 'colloquial', used as adjectives. 內底 lāi-té = inside (裡面). 日常 ji̍t-siông = everyday."}
+  - {ref: 7, topic: false-friend, text: "趣味 tshù-bī = interesting, fun (有趣). 總是 tsóng--sī = but, however (但是): a false friend, not 'always'. 霧嗄嗄 bū-sà-sà = totally confused (literally 'all fogged up'). 猶是 iáu-sī = still."}
+  - {ref: 8, topic: vocab, text: "戇 gōng = silly, stupid (傻). 莫戇矣 'don't be silly'. 加 ke + verb = do more: 加看 'watch more'."}
+new_words:
+  - {tailo: pòo-tē-hì, hanji: 布袋戲, en: "glove-puppet theatre"}
+  - {tailo: khai-sí, hanji: 開始, en: "start"}
+  - {tailo: kóng-uē, hanji: 講話, en: "speak, talk"}
+  - {tailo: tsi̍t-puànn, hanji: 一半, en: "half"}
+  - {tailo: thiann-bô, hanji: 聽無, en: "not understand (by hearing)"}
+  - {tailo: jī-bōo, hanji: 字幕, en: "subtitles"}
+  - {tailo: jī, hanji: 字, en: "character, word"}
+  - {tailo: tho̍k-im, hanji: 讀音, en: "reading (of a character)"}
+  - {tailo: tuā-hàn, hanji: 大漢, en: "grown up"}
+  - {tailo: hì, hanji: 戲, en: "play, show"}
+  - {tailo: lāi-té, hanji: 內底, en: "inside"}
+  - {tailo: tshù-bī, hanji: 趣味, en: "interesting, fun"}
+  - {tailo: tsóng--sī, hanji: 總是, en: "but, however"}
+  - {tailo: bū-sà-sà, hanji: 霧嗄嗄, en: "totally confused"}
+  - {tailo: gōng, hanji: 戇, en: "silly, stupid"}
+exercises:
+  translate:
+    - {tailo: "Guá ū tsi̍t-puànn thiann-bô.", hanji: "我有一半聽無。", en: "I miss half of it."}
+    - {tailo: "Tsin tshù-bī!", hanji: "真趣味！", en: "Fascinating!"}
+  fill:
+    - {tailo: "___ guá iáu-sī thiann kah bū-sà-sà.", hanji: "___我猶是聽甲霧嗄嗄。", answer: "Tsóng--sī", answer_hanji: "總是", en: "But I'm still completely lost."}
+    - {tailo: "Mài ___--ah.", hanji: "莫___矣。", answer: "gōng", answer_hanji: "戇", en: "Don't be silly."}
+audio: []

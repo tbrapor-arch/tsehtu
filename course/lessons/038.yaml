@@ -1,0 +1,42 @@
+id: 38
+title: {en: "Ordering in a restaurant", tailo: "Tiám tshài", hanji: "點菜"}
+phase: passive
+review: false
+setting: "A small family restaurant. Sam, A-bîng and A-hun sit down."
+dialogue:
+  - {n: 1, speaker: Waitress, hanji: "請坐。這是菜單，恁欲食啥？", tailo: "Tshiánn tsē. Tse sī tshài-tuann, lín beh tsia̍h siánn?", en: "Please sit down. Here's the menu. What would you like?"}
+  - {n: 2, speaker: A-bîng, hanji: "小姐，恁遮的招牌是啥？", tailo: "Sió-tsiá, lín tsia ê tsiau-pâi sī siánn?", en: "Excuse me, what's your speciality here?"}
+  - {n: 3, speaker: Waitress, hanji: "炒米粉佮魚湯，逐家攏呵咾。", tailo: "Tshá bí-hún kah hî-thng, ta̍k-ke lóng o-ló.", en: "Fried rice noodles and fish soup. Everyone loves them."}
+  - {n: 4, speaker: A-hun, hanji: "按呢一盤炒米粉、一碗魚湯，閣一盤青菜。", tailo: "Án-ne tsi̍t puânn tshá bí-hún, tsi̍t uánn hî-thng, koh tsi̍t puânn tshenn-tshài.", en: "Then a plate of fried noodles, a bowl of fish soup, and a plate of greens."}
+  - {n: 5, speaker: Sam, hanji: "按呢敢有夠食？", tailo: "Án-ne kám ū-kàu tsia̍h?", en: "Will that be enough?"}
+  - {n: 6, speaker: A-bîng, hanji: "無夠閣點就好。食袂了，閣會使包轉去。", tailo: "Bô kàu koh tiám tō hó. Tsia̍h bē liáu, koh ē-sái pau tńg-khì.", en: "If it's not enough we can order more. And if we can't finish, we can take it home."}
+  - {n: 7, speaker: Sam, hanji: "今仔日我請，攏總偌濟？", tailo: "Kin-á-ji̍t guá tshiánn, lóng-tsóng guā-tsē?", en: "Today it's on me. How much is it altogether?"}
+  - {n: 8, speaker: Waitress, hanji: "攏總四百六十箍，多謝！", tailo: "Lóng-tsóng sì-pah la̍k-tsa̍p khoo, to-siā!", en: "Four hundred and sixty altogether, thank you!"}
+notes:
+  - {ref: 1, topic: vocab, text: "點菜 tiám tshài = order (food). 菜單 tshài-tuann = menu: 單 has its colloquial reading tuann here."}
+  - {ref: 2, topic: false-friend, text: "小姐 sió-tsiá = Miss, the polite way to call a waitress or a young woman. It does not carry the bad connotation it can have in Mandarin. 招牌 tsiau-pâi = signboard; here 'speciality, signature dish'."}
+  - {ref: 3, topic: vocab, text: "炒米粉 tshá bí-hún = fried rice noodles. 魚湯 hî-thng = fish soup. 呵咾 o-ló = praise (稱讚): 逐家攏呵咾 'everyone praises it'."}
+  - {ref: 4, topic: grammar, text: "Food classifiers: 盤 puânn = plate, 碗 uánn = bowl, 份 hūn = portion, 杯 pue = cup. 青菜 tshenn-tshài = green vegetables: 青 has its colloquial reading tshenn."}
+  - {ref: 5, topic: grammar, text: "有夠 ū-kàu = enough (夠): 有夠食 'enough to eat'. 有夠 + adjective also means 'really, so' (有夠好食 'so tasty'). 無夠 bô kàu = not enough."}
+  - {ref: 6, topic: grammar, text: "食袂了 tsia̍h bē liáu = can't finish (吃不完): verb + 袂 + 了. Compare 睏袂去 (lesson 12), 揣袂著 (lesson 22). 包轉去 pau tńg-khì = take away, take home (打包回去)."}
+  - {ref: 7, topic: grammar, text: "我請 guá tshiánn = it's on me (lesson 7). 攏總 lóng-tsóng = altogether, in total (一共)."}
+new_words:
+  - {tailo: tshài-tuann, hanji: 菜單, en: "menu"}
+  - {tailo: sió-tsiá, hanji: 小姐, en: "Miss (to a waitress)"}
+  - {tailo: tsiau-pâi, hanji: 招牌, en: "signboard; speciality"}
+  - {tailo: bí-hún, hanji: 米粉, en: "rice noodles"}
+  - {tailo: tshá, hanji: 炒, en: "stir-fry"}
+  - {tailo: o-ló, hanji: 呵咾, en: "praise"}
+  - {tailo: puânn, hanji: 盤, en: "plate (classifier)"}
+  - {tailo: tshenn-tshài, hanji: 青菜, en: "green vegetables"}
+  - {tailo: ū-kàu, hanji: 有夠, en: "enough; really"}
+  - {tailo: tiám, hanji: 點, en: "order (food)"}
+  - {tailo: lóng-tsóng, hanji: 攏總, en: "altogether"}
+exercises:
+  translate:
+    - {tailo: "Lín tsia ê tsiau-pâi sī siánn?", hanji: "恁遮的招牌是啥？", en: "What's your speciality here?"}
+    - {tailo: "Tsia̍h bē liáu, ē-sái pau tńg-khì.", hanji: "食袂了，會使包轉去。", en: "If we can't finish, we can take it home."}
+  fill:
+    - {tailo: "___ guā-tsē?", hanji: "___偌濟？", answer: "Lóng-tsóng", answer_hanji: "攏總", en: "How much altogether?"}
+    - {tailo: "Án-ne kám ___ tsia̍h?", hanji: "按呢敢___食？", answer: "ū-kàu", answer_hanji: "有夠", en: "Will that be enough?"}
+audio: []
