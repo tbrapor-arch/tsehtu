@@ -1,0 +1,255 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>冊櫥 · Recording</title>
+<link rel="icon" type="image/png" href="icon-192.png">
+<meta name="theme-color" content="#FCFCF8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Iansui&family=Atkinson+Hyperlegible:wght@400;700&family=Noto+Sans:wght@400;600;700&family=Noto+Sans+TC:wght@400;700&display=swap">
+<style>
+/*__FONTS__*/
+/* A recording booth for a native speaker: one lesson line at a time, record / listen / redo / next.
+   Clips stay in this browser (IndexedDB) until they are sent as a zip. Same notebook look as the app. */
+:root { --bg: #FCFCF8; --grid: #E3E9F6; --surface: #fff; --line: #1A2233; --soft: #CBD3E4; --text: #1A2233; --sub: #586276;
+  --brand: #2347B5; --brand-soft: #E5EBFA; --coral: #D23F38; --coral-soft: #FCE4E2; --ok: #1F7A4D; --ok-soft: #DDF2E6; --sun-soft: #FFF5CC;
+  --f-ui: "Atkinson Hyperlegible", "Noto Sans", system-ui, sans-serif; --f-rom: "Noto Sans", system-ui, sans-serif;
+  --f-han: "Iansui", "Noto Sans TC", "TaigiExt", "PingFang TC", sans-serif; color-scheme: light; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 24px 24px; color: var(--text); font: 16px/1.5 var(--f-ui); padding: calc(16px + env(safe-area-inset-top, 0px)) 16px calc(24px + env(safe-area-inset-bottom, 0px)); }
+.wrap { max-width: 40rem; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem; }
+h1 { margin: 0; font-family: var(--f-han); font-size: 2rem; line-height: 1.2; }
+h2 { margin: .5rem 0 0; font-size: 1.05rem; }
+.eyebrow { font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--brand); }
+.sub { color: var(--sub); }
+.card { background: var(--surface); border: 2px solid var(--soft); border-radius: 10px; padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: .6rem; }
+.card.raised { border-color: var(--line); box-shadow: 4px 4px 0 var(--brand); }
+.btn { font: inherit; font-weight: 700; border: 0; border-radius: 10px; padding: .65rem 1.1rem; background: var(--brand); color: #fff; cursor: pointer; }
+.btn.line { background: var(--surface); color: var(--text); border: 2px solid var(--line); }
+.btn.quiet { background: var(--surface); color: var(--text); border: 2px solid var(--soft); }
+.btn[disabled] { opacity: .4; cursor: default; }
+.row { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center; }
+label { display: flex; flex-direction: column; gap: .25rem; font-weight: 700; font-size: .9rem; }
+input[type=text], select, textarea { font: inherit; font-weight: 400; padding: .55rem .75rem; border: 2px solid var(--soft); border-radius: 8px; background: var(--bg); color: var(--text); }
+.check { flex-direction: row; align-items: flex-start; gap: .6rem; font-weight: 400; }
+.check input { width: 1.2rem; height: 1.2rem; margin-top: .15rem; accent-color: var(--brand); flex: none; }
+.lessons { display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: .5rem; }
+.lt { text-align: left; font: inherit; border: 2px solid var(--soft); background: var(--surface); border-radius: 10px; padding: .55rem .7rem; cursor: pointer; display: flex; flex-direction: column; gap: .1rem; }
+.lt b { font-family: var(--f-han); font-size: 1.05rem; } .lt small { color: var(--sub); }
+.lt.full { border-color: var(--ok); background: var(--ok-soft); }
+.lt.part { border-color: var(--brand); }
+.meter { height: .5rem; border-radius: 999px; background: var(--soft); overflow: hidden; }
+.meter i { display: block; height: 100%; width: 0; background: var(--ok); transition: width .05s; }
+.bar { height: .4rem; border-radius: 999px; background: var(--soft); overflow: hidden; } .bar i { display: block; height: 100%; background: var(--brand); }
+.who { font-size: .8rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--coral); }
+.han { font-family: var(--f-han); font-size: clamp(1.7rem, 7vw, 2.4rem); line-height: 1.45; }
+.rom { font-family: var(--f-rom); font-size: 1.15rem; color: var(--brand); font-weight: 600; }
+.en { color: var(--sub); }
+.rec { width: 5.5rem; height: 5.5rem; border-radius: 50%; border: 4px solid var(--coral); background: var(--surface); cursor: pointer; display: grid; place-items: center; flex: none; }
+.rec i { width: 2.2rem; height: 2.2rem; border-radius: 50%; background: var(--coral); transition: all .15s; }
+.rec.on { background: var(--coral-soft); } .rec.on i { border-radius: 6px; width: 1.8rem; height: 1.8rem; }
+.status { font-weight: 700; } .status.ok { color: var(--ok); } .status.rec { color: var(--coral); }
+.dots { display: flex; gap: .3rem; flex-wrap: wrap; }
+.dots button { width: 1.9rem; height: 1.9rem; border-radius: 50%; border: 2px solid var(--soft); background: var(--surface); font: inherit; font-size: .75rem; font-weight: 700; cursor: pointer; padding: 0; }
+.dots button.has { background: var(--ok); border-color: var(--ok); color: #fff; }
+.dots button.flag { box-shadow: 0 0 0 2px var(--coral); }
+.dots button.cur { border-color: var(--line); border-width: 3px; }
+.flagbox textarea { min-height: 4rem; }
+.tip { background: var(--sun-soft); border-radius: 8px; padding: .6rem .8rem; font-size: .92rem; }
+kbd { font-family: var(--f-ui); font-size: .7rem; border: 1px solid currentColor; border-radius: 4px; padding: 0 .3rem; opacity: .6; }
+@media (hover: none) { kbd { display: none; } }
+[hidden] { display: none !important; }
+</style></head><body>
+<div class="wrap" id="app"></div>
+<script>
+const RDATA = /*__DATA__*/null;
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const pad = (n, w) => String(n).padStart(w, '0');
+const clipId = (lid, n) => `L${pad(lid, 3)}-${pad(n, 2)}`;
+const LS = { get(k, d) { try { const v = localStorage.getItem('tshehtu-rec:' + k); return v ? JSON.parse(v) : d; } catch { return d; } },
+             set(k, v) { try { localStorage.setItem('tshehtu-rec:' + k, JSON.stringify(v)); } catch {} } };
+
+// ---------- clips are kept in IndexedDB so nothing is lost on reload (memory fallback)
+const DB = (() => {
+  let p = null; const mem = new Map();
+  const open = () => p || (p = new Promise(res => { try { const r = indexedDB.open('tshehtu-rec', 1);
+    r.onupgradeneeded = () => r.result.createObjectStore('clips', { keyPath: 'id' }); r.onsuccess = () => res(r.result); r.onerror = () => res(null); } catch { res(null); } }));
+  const tx = async (mode, fn) => { const db = await open(); if (!db) return fn(null); return new Promise((res, rej) => { const t = db.transaction('clips', mode); const st = t.objectStore('clips'); let out; const r = fn(st); if (r) r.onsuccess = () => out = r.result; t.oncomplete = () => res(out); t.onerror = () => rej(t.error); }); };
+  return {
+    put: c => tx('readwrite', st => st ? st.put(c) : (mem.set(c.id, c), null)),
+    get: id => tx('readonly', st => st ? st.get(id) : null).then(v => v || mem.get(id)),
+    del: id => tx('readwrite', st => st ? st.delete(id) : (mem.delete(id), null)),
+    all: () => tx('readonly', st => st ? st.getAll() : null).then(v => v || [...mem.values()]),
+  };
+})();
+let CLIPS = {};   // id -> {id, lesson, n, mime, at, sentAt, flag}
+async function loadClips() { CLIPS = {}; (await DB.all()).forEach(c => CLIPS[c.id] = c); }
+
+const profile = () => LS.get('profile', null);
+let L = null, idx = 0;
+
+// ---------- screens
+function showStart() {
+  $('#app').innerHTML = `
+    <div><span class="eyebrow">冊櫥 Tsheh-tû · recording</span><h1>錄音 Lo̍k-im</h1></div>
+    <div class="card raised">
+      <p style="margin:0">Thank you for lending your voice! You will read the course dialogues, one line at a time. Each recording stays on this phone until you send it.</p>
+      <label class="check"><input type="checkbox" id="consent"><span>I agree that my recordings are published with the free course <b>Tsheh-tû</b> under the licence <b>CC BY-SA 4.0</b> (anyone may reuse them, with credit).</span></label>
+      <div class="row"><button class="btn" id="go">Start</button><span class="sub" id="err"></span></div>
+    </div>`;
+  $('#go').onclick = () => {
+    if (!$('#consent').checked) { $('#err').textContent = 'Please tick the agreement.'; return; }
+    LS.set('profile', { consent: true, at: new Date().toISOString() }); showLessons();
+  };
+}
+function lessonStats(l) { const ids = l.lines.map(x => clipId(l.id, x.n)); const has = ids.filter(i => CLIPS[i]); return { total: ids.length, done: has.length, unsent: has.filter(i => !CLIPS[i].sentAt).length }; }
+function showLessons() {
+  const p = profile(); if (!p) return showStart();
+  const unsent = Object.values(CLIPS).filter(c => !c.sentAt).length;
+  $('#app').innerHTML = `
+    <div><span class="eyebrow">冊櫥 Tsheh-tû · recording</span><h1>課程 Lessons</h1></div>
+    <div class="tip"><b>Tips.</b> A quiet room, phone about 20 cm from your mouth. Read at your normal speed, the way you would really say it (with the natural tone changes). If a line does not sound like real Taigi, record it the way <i>you</i> would say it and tap ⚑ to tell us.</div>
+    ${unsent ? `<div class="card"><span><b>${unsent}</b> recording${unsent > 1 ? 's' : ''} not sent yet.</span><div class="row"><button class="btn" id="sendall">Send all new recordings</button></div></div>` : ''}
+    <div class="lessons">${RDATA.lessons.map(l => { const s = lessonStats(l); return `<button class="lt ${s.done === s.total ? 'full' : s.done ? 'part' : ''}" data-l="${l.id}">
+      <span class="sub" style="font-size:.8rem">Lesson ${l.id} · ${s.done}/${s.total}</span><b>${esc(l.title.hanji)}</b><small>${esc(l.title.en)}</small></button>`; }).join('')}</div>
+`;
+  document.querySelectorAll('[data-l]').forEach(b => b.onclick = () => { L = RDATA.lessons.find(x => x.id === +b.dataset.l); idx = Math.max(0, L.lines.findIndex(x => !CLIPS[clipId(L.id, x.n)])); showLine(); });
+  const sa = $('#sendall'); if (sa) sa.onclick = () => send(Object.values(CLIPS).filter(c => !c.sentAt).map(c => c.id), 'new');
+}
+function showLine() {
+  const ln = L.lines[idx], id = clipId(L.id, ln.n), c = CLIPS[id], s = lessonStats(L);
+  $('#app').innerHTML = `
+    <div class="row" style="justify-content:space-between"><button class="btn quiet" id="back">← Lessons</button><span class="sub">Lesson ${L.id} · ${s.done}/${s.total} recorded</span></div>
+    <div class="bar"><i style="width:${Math.round(100 * s.done / s.total)}%"></i></div>
+    <div class="card raised">
+      <span class="who">${ln.n} · ${esc(ln.speaker)}</span>
+      <div class="han">${esc(ln.hanji)}</div>
+      <div class="rom">${esc(ln.tailo)}</div>
+      <div class="en">${esc(ln.en)}</div>
+    </div>
+    <div class="card">
+      <div class="row" style="gap:1rem">
+        <button class="rec" id="rec" aria-label="Record"><i></i></button>
+        <div style="flex:1;min-width:10rem;display:flex;flex-direction:column;gap:.4rem">
+          <span class="status ${c ? 'ok' : ''}" id="status">${c ? '✓ Recorded' : 'Tap the red button, read the line, tap again.'}</span>
+          <div class="meter"><i id="lvl"></i></div>
+          <div class="row"><button class="btn line" id="play" ${c ? '' : 'disabled'}>▶ Listen <kbd>P</kbd></button>
+            <button class="btn quiet" id="flag">${c && c.flag ? '⚑ Flagged' : '⚑ Sounds wrong?'}</button></div>
+        </div>
+      </div>
+      <div class="flagbox" id="flagbox" hidden><label>What would you say instead? (optional)<textarea id="flagtext" placeholder="e.g. we would say 欲去佗位 here">${esc(c && c.flag || '')}</textarea></label>
+        <div class="row"><button class="btn small" id="flagsave">Save note</button><button class="btn quiet" id="flagdel">Remove</button></div></div>
+    </div>
+    <div class="row" style="justify-content:space-between">
+      <button class="btn quiet" id="prev" ${idx ? '' : 'disabled'}>‹ Previous</button>
+      ${idx < L.lines.length - 1 ? `<button class="btn" id="next">Next ›</button>` : `<button class="btn" id="finish">Send lesson ${L.id}</button>`}
+    </div>
+    <div class="dots">${L.lines.map((x, i) => { const k = CLIPS[clipId(L.id, x.n)]; return `<button data-i="${i}" class="${k ? 'has' : ''} ${k && k.flag ? 'flag' : ''} ${i === idx ? 'cur' : ''}">${x.n}</button>`; }).join('')}</div>
+    <p class="sub" style="font-size:.85rem;margin:0">Keys: space = record / stop, P = listen, → next, ← previous.</p>`;
+  $('#back').onclick = () => { stopRec(); showLessons(); };
+  $('#rec').onclick = toggleRec;
+  $('#play').onclick = () => playClip(id);
+  $('#prev').onclick = () => { stopRec(); idx--; showLine(); };
+  const nx = $('#next'); if (nx) nx.onclick = () => { stopRec(); idx++; showLine(); };
+  const fi = $('#finish'); if (fi) fi.onclick = () => send(L.lines.map(x => clipId(L.id, x.n)).filter(i => CLIPS[i]), 'lesson ' + L.id);
+  $('#flag').onclick = () => { $('#flagbox').hidden = !$('#flagbox').hidden; };
+  $('#flagsave').onclick = async () => { const k = CLIPS[id] || { id, lesson: L.id, n: ln.n, at: Date.now() }; k.flag = $('#flagtext').value.trim() || '(sounds unnatural)'; k.sentAt = null; await saveMeta(k); showLine(); };
+  $('#flagdel').onclick = async () => { const k = CLIPS[id]; if (k) { delete k.flag; k.sentAt = null; await saveMeta(k); } showLine(); };
+  document.querySelectorAll('.dots [data-i]').forEach(b => b.onclick = () => { stopRec(); idx = +b.dataset.i; showLine(); });
+}
+async function saveMeta(k) { const full = await DB.get(k.id); await DB.put(Object.assign(full || {}, k)); CLIPS[k.id] = Object.assign(full || {}, k); }
+
+// ---------- recording
+let stream = null, rec = null, chunks = [], ac = null, raf = 0, player = null;
+function pickMime() { for (const m of ['audio/webm;codecs=opus', 'audio/mp4', 'audio/ogg;codecs=opus', 'audio/webm']) if (window.MediaRecorder && MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(m)) return m; return ''; }
+async function getStream() {
+  if (stream) return stream;
+  stream = await navigator.mediaDevices.getUserMedia({ audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true, autoGainControl: true } });
+  ac = new (window.AudioContext || window.webkitAudioContext)();
+  const an = ac.createAnalyser(); an.fftSize = 1024; ac.createMediaStreamSource(stream).connect(an);
+  const buf = new Uint8Array(an.fftSize);
+  const tick = () => { an.getByteTimeDomainData(buf); let m = 0; for (const v of buf) m = Math.max(m, Math.abs(v - 128)); const el = $('#lvl'); if (el) { el.style.width = Math.min(100, m * 1.6) + '%'; el.style.background = m > 120 ? 'var(--coral)' : 'var(--ok)'; } raf = requestAnimationFrame(tick); };
+  tick();
+  return stream;
+}
+async function toggleRec() {
+  if (rec && rec.state === 'recording') return stopRec(true);
+  try { await getStream(); } catch (e) { $('#status').textContent = 'The microphone is blocked. Allow it in the browser settings, then reload.'; $('#status').className = 'status rec'; return; }
+  if (player) player.pause();
+  const mime = pickMime(); chunks = [];
+  rec = new MediaRecorder(stream, mime ? { mimeType: mime, audioBitsPerSecond: 96000 } : undefined);
+  rec.ondataavailable = e => e.data.size && chunks.push(e.data);
+  rec.onstop = async () => {
+    if (!rec.keep) return;
+    const ln = L.lines[idx], id = clipId(L.id, ln.n), type = rec.mimeType || mime || 'audio/webm';
+    const blob = new Blob(chunks, { type });
+    if (blob.size < 2000) { $('#status').textContent = 'Too short, try again.'; return; }
+    const old = CLIPS[id] || {};
+    const c = { id, lesson: L.id, n: ln.n, mime: type, blob, at: Date.now(), sentAt: null, flag: old.flag };
+    await DB.put(c); CLIPS[id] = c;
+    showLine(); playClip(id);
+  };
+  rec.start(); $('#rec').classList.add('on'); $('#status').textContent = '● Recording… tap again to stop'; $('#status').className = 'status rec';
+}
+function stopRec(keep) { if (rec && rec.state === 'recording') { rec.keep = !!keep; rec.stop(); const b = $('#rec'); if (b) b.classList.remove('on'); } }
+async function playClip(id) { const c = await DB.get(id); if (!c || !c.blob) return; if (player) player.pause(); player = new Audio(URL.createObjectURL(c.blob)); player.play().catch(() => {}); }
+document.addEventListener('keydown', e => {
+  if (!L || !$('#rec') || e.target.closest('input, textarea, select')) return;
+  if (e.key === ' ') { e.preventDefault(); toggleRec(); }
+  else if (e.key.toLowerCase() === 'p') $('#play').click();
+  else if (e.key === 'ArrowRight') { const b = $('#next'); if (b) b.click(); }
+  else if (e.key === 'ArrowLeft') { const b = $('#prev'); if (!b.disabled) b.click(); }
+});
+
+// ---------- a minimal zip writer (stored, no compression: the audio is already compressed)
+const CRC = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+function crc32(b) { let c = 0xFFFFFFFF; for (let i = 0; i < b.length; i++) c = CRC[(c ^ b[i]) & 255] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; }
+async function makeZip(files) {   // files: [{name, data: Blob|string}]
+  const enc = new TextEncoder(), parts = [], central = []; let off = 0;
+  const d = new Date(), dt = ((d.getHours() << 11) | (d.getMinutes() << 5) | (d.getSeconds() >> 1)), dd = (((d.getFullYear() - 1980) << 9) | ((d.getMonth() + 1) << 5) | d.getDate());
+  for (const f of files) {
+    const data = typeof f.data === 'string' ? enc.encode(f.data) : new Uint8Array(await f.data.arrayBuffer());
+    const name = enc.encode(f.name), crc = crc32(data);
+    const h = new DataView(new ArrayBuffer(30));
+    h.setUint32(0, 0x04034b50, true); h.setUint16(4, 20, true); h.setUint16(6, 0x0800, true); h.setUint16(8, 0, true);
+    h.setUint16(10, dt, true); h.setUint16(12, dd, true); h.setUint32(14, crc, true); h.setUint32(18, data.length, true); h.setUint32(22, data.length, true);
+    h.setUint16(26, name.length, true); h.setUint16(28, 0, true);
+    parts.push(h.buffer, name, data);
+    const c = new DataView(new ArrayBuffer(46));
+    c.setUint32(0, 0x02014b50, true); c.setUint16(4, 20, true); c.setUint16(6, 20, true); c.setUint16(8, 0x0800, true); c.setUint16(10, 0, true);
+    c.setUint16(12, dt, true); c.setUint16(14, dd, true); c.setUint32(16, crc, true); c.setUint32(20, data.length, true); c.setUint32(24, data.length, true);
+    c.setUint16(28, name.length, true); c.setUint32(42, off, true);
+    central.push(c.buffer, name);
+    off += 30 + name.length + data.length;
+  }
+  const csize = central.reduce((a, x) => a + x.byteLength, 0), e = new DataView(new ArrayBuffer(22));
+  e.setUint32(0, 0x06054b50, true); e.setUint16(8, files.length, true); e.setUint16(10, files.length, true); e.setUint32(12, csize, true); e.setUint32(16, off, true);
+  return new Blob([...parts, ...central, e.buffer], { type: 'application/zip' });
+}
+
+// ---------- sending: one zip with the clips and a manifest; share sheet on phones, download elsewhere
+async function send(ids, label) {
+  ids = ids.filter(Boolean);
+  if (!ids.length) return alert('Nothing recorded yet.');
+  const p = profile(), files = [], manifest = { app: 'tshehtu-recordings', v: 1, speaker: RDATA.voice || 'native speaker', consent: 'CC BY-SA 4.0', consentAt: p.at, sentAt: new Date().toISOString(), clips: [] };
+  for (const id of ids.sort()) {
+    const c = await DB.get(id); const l = RDATA.lessons.find(x => x.id === c.lesson); const ln = l && l.lines.find(x => x.n === c.n);
+    const ext = /mp4|m4a|aac/.test(c.mime || '') ? 'm4a' : /ogg/.test(c.mime || '') ? 'ogg' : 'webm';
+    if (c.blob) files.push({ name: `${id}.${ext}`, data: c.blob });
+    manifest.clips.push({ id, lesson: c.lesson, line: c.n, file: c.blob ? `${id}.${ext}` : null, hanji: ln && ln.hanji, tailo: ln && ln.tailo, flag: c.flag || null, recordedAt: new Date(c.at).toISOString() });
+  }
+  files.push({ name: 'manifest.json', data: JSON.stringify(manifest, null, 1) });
+  const name = `tshehtu-recordings-${label.replace(/\s+/g, '')}-${new Date().toISOString().slice(0, 10)}.zip`;
+  const blob = await makeZip(files), file = new File([blob], name, { type: 'application/zip' });
+  let shared = false;
+  if (navigator.canShare && navigator.canShare({ files: [file] })) { try { await navigator.share({ files: [file], title: 'Tsheh-tû recordings' }); shared = true; } catch (e) { if (e.name === 'AbortError') return; } }
+  if (!shared) { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 10000); }
+  const now = Date.now(); for (const id of ids) { const c = CLIPS[id]; if (c) { c.sentAt = now; await saveMeta({ id, sentAt: now }); } }
+  alert(shared ? 'Sent. Thank you!' : 'The zip file has been downloaded. Send it by message or e-mail. Thank you!');
+  L ? showLine() : showLessons();
+}
+
+loadClips().then(() => profile() ? showLessons() : showStart());
+</script>
+</body></html>

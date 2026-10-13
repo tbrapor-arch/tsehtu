@@ -38,6 +38,11 @@ for f in os.listdir(PWA):
         open(os.path.join(OUT, f), 'w').write(open(os.path.join(PWA, f)).read().replace('__BUILD__', build))
     else:
         shutil.copy(os.path.join(PWA, f), OUT)
+if os.path.exists(os.path.join(DIST, 'record.html')):
+    shutil.copy(os.path.join(DIST, 'record.html'), OUT)
+REC = os.path.join(ROOT, 'course/audio/lessons')
+if os.path.isdir(REC):
+    shutil.copytree(REC, os.path.join(OUT, 'audio/lessons'), dirs_exist_ok=True)
 if os.path.isdir(os.path.join(DIST, 'audio')):
     shutil.copytree(os.path.join(DIST, 'audio'), os.path.join(OUT, 'audio'), dirs_exist_ok=True)
 open(os.path.join(OUT, '.nojekyll'), 'w').close()

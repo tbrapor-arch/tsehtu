@@ -294,10 +294,31 @@ for g in grammar:
 data = {'tones': tone_drill.build(lessons), 'grammar': grammar, 'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'accents': accents, 'bridge': bridge.build(con, 160),
         'dict': dictionary, 'lesson0': lesson0, 'built': datetime.date.today().isoformat()}
 
+# ---- native-speaker recordings of the dialogues: course/audio/lessons/L057-03.mp3 (tools/import_recordings.py)
+REC = os.path.join(ROOT, 'course/audio/lessons')
+REC_META = os.path.join(ROOT, 'course/audio/recordings.yaml')
+rec_meta = yaml.safe_load(open(REC_META, encoding='utf-8')) if os.path.exists(REC_META) else {}
+n_rec = 0
+for L in lessons:
+    for ln in L['lines']:
+        cid = f"L{L['id']:03d}-{ln['n']:02d}"
+        if os.path.exists(os.path.join(REC, cid + '.mp3')):
+            ln['audio'] = f'audio/lessons/{cid}.mp3'
+            sp = rec_meta.get('voice') or (rec_meta.get('clips') or {}).get(cid, {}).get('speaker')
+            if sp:
+                ln['voice'] = sp
+            n_rec += 1
+data['recorded'] = n_rec
 tpl = open(os.path.join(ROOT, 'app/index.template.html'), encoding='utf-8').read()
 tpl = tpl.replace('/*__FONTS__*/', ext_font_css(json.dumps(data, ensure_ascii=False)))
 payload = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
 os.makedirs(os.path.join(ROOT, 'app/dist'), exist_ok=True)
 out = os.path.join(ROOT, 'app/dist/index.html')
 open(out, 'w', encoding='utf-8').write(unicodedata.normalize('NFC', tpl.replace('/*__DATA__*/null', payload)))
-print(out, f'{len(lessons)} lessons, {len(dictionary)} dictionary cards, {have}/{len(need)} with audio, {have_ex}/{len(need_ex)} examples with audio, {os.path.getsize(out) // 1024} KB')
+# recording page for native speakers (app/dist/record.html): the dialogue lines only
+rtpl = open(os.path.join(ROOT, 'app/record.template.html'), encoding='utf-8').read()
+rdata = {'voice': rec_meta.get('voice', 'native speaker'), 'lessons': [{'id': L['id'], 'title': L['title'], 'lines': [{k: ln[k] for k in ('n', 'speaker', 'hanji', 'tailo', 'en')} for ln in L['lines']]} for L in lessons]}
+rjson = json.dumps(rdata, ensure_ascii=False)
+rtpl = rtpl.replace('/*__FONTS__*/', ext_font_css(rjson)).replace('/*__DATA__*/null', rjson.replace('</', '<\\/'))
+open(os.path.join(ROOT, 'app/dist/record.html'), 'w', encoding='utf-8').write(unicodedata.normalize('NFC', rtpl))
+print(out, f'{len(lessons)} lessons, {len(dictionary)} dictionary cards, {have}/{len(need)} with audio, {have_ex}/{len(need_ex)} examples with audio, {n_rec} recorded lines, {os.path.getsize(out) // 1024} KB')
