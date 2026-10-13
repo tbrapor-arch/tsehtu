@@ -2,3 +2,5 @@ pyyaml>=6
 markdown>=3.4
 fonttools[woff]>=4.40
 pypinyin>=0.49
+pandas>=2
+odfpy>=1.4

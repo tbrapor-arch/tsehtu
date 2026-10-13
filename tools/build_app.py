@@ -24,9 +24,12 @@ from tailo import key  # noqa: E402
 from variants import Variants  # noqa: E402
 import bridge  # noqa: E402
 import moe_examples  # noqa: E402
+import sutian  # noqa: E402
 import tone_drill  # noqa: E402
 import podcast  # noqa: E402
 MOE_EX = moe_examples.load()
+# recording ids come from the ministry's own table (tools/sutian.py): the old entry numbers point to other words
+SUTIAN = sutian.load()
 
 ROOT = os.path.dirname(HERE)
 con = sqlite3.connect(os.path.join(ROOT, 'data/build/taigi.db'))
@@ -97,16 +100,18 @@ def lookup(seg, k):
         if dia:
             card['dialect'] = dia
         if src == 'moe':
-            card['moe_id'] = sid
+            rid = sutian.word(SUTIAN, h, t)
+            if rid:
+                card['moe_id'] = rid
             card['senses'] = [{'pos': p, 'def': d} for p, d in con.execute(
                 'SELECT pos, definition_zh FROM sense WHERE entry_id=? ORDER BY ord LIMIT 4', (eid,))]
             ex = con.execute("SELECT hanji, tailo, mandarin FROM example WHERE entry_id=? AND length(hanji)>3 "
                              "ORDER BY id LIMIT 1", (eid,)).fetchone()
             if ex:
                 card['example'] = {'hanji': ex[0], 'tailo': ex[1], 'mandarin': ex[2]}
-                where = moe_examples.find(MOE_EX, sid, ex[0])
-                if where:
-                    card['example']['leku'] = f'{sid}-{where[0]}-{where[1]}'
+                leku = sutian.example(SUTIAN, ex[0])
+                if leku:
+                    card['example']['leku'] = leku
     else:
         syls = k.split('-')
         chars = UNIT_RE.findall(seg)

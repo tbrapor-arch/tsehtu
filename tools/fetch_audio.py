@@ -8,6 +8,7 @@ Recordings from 教育部《臺灣台語常用詞辭典》, licence CC BY-ND 3.0
 - example sentences (leku-mp3.zip): `<id>-<sense>-<position>.mp3`
   -> app/dist/audio/s/<same name>; list from app/dist/audio-needed-examples.txt (see tools/moe_examples.py)
 Both lists are written by `make app`; run `make app` again afterwards.
+The ids come from the ministry's table kautian.ods (`python3 tools/fetch_audio.py --table`, before `make app`).
 """
 import os
 import re
@@ -56,7 +57,18 @@ def extract(zpath, need, pattern, out, key):
     return len(best)
 
 
-args = sys.argv[1:]
+args = [a for a in sys.argv[1:] if not a.startswith('--')]
+if '--table' in sys.argv:
+    # the ministry's table of recording ids (see tools/sutian.py); needed by `make app` before the recordings
+    path = os.path.join(CACHE, 'kautian.ods')
+    if not os.path.exists(path):
+        os.makedirs(CACHE, exist_ok=True)
+        req = urllib.request.Request(BASE + 'ods/kautian.ods', headers={'User-Agent': 'tsehtu-build (+https://github.com/tbrapor-arch/tsehtu)'})
+        with urllib.request.urlopen(req, timeout=300) as r, open(path + '.part', 'wb') as f:
+            shutil.copyfileobj(r, f, 1 << 20)
+        os.replace(path + '.part', path)
+    print('table:', path, os.path.getsize(path))
+    sys.exit()
 need_w = set(open(os.path.join(DIST, 'audio-needed.txt')).read().split())
 n = extract(get('sutiau-mp3.zip', args[0] if args else None), need_w,
             re.compile(r'(?:^|/)(\d+)(?:\((\d+)\))?\.mp3$', re.I), os.path.join(DIST, 'audio/w'),
