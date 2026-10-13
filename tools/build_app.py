@@ -77,12 +77,12 @@ def lookup(seg, k):
     did = f'{seg}|{k}'
     if did in dictionary:
         return did
-    rows = con.execute("""SELECT id, source, hanji, tailo, cognate, mandarin_best, hsk_old, hsk_new, freq_rank, wenbai
+    rows = con.execute("""SELECT id, source, hanji, tailo, cognate, mandarin_best, hsk_old, hsk_new, freq_rank, wenbai, src_id
                           FROM entry WHERE tkey=? AND source IN ('moe','itaigi','taihoa','tgb') AND kind != 'xref'
                           ORDER BY (hanji=?) DESC, source='moe' DESC, freq DESC LIMIT 1""", (k, seg)).fetchall()
     card = {'hanji': seg, 'tkey': k, 'gloss': glosses.get(k)}
     if rows:
-        eid, src, h, t, cog, mb, ho, hn, rank, wb = rows[0]
+        eid, src, h, t, cog, mb, ho, hn, rank, wb, sid = rows[0]
         mand = [w for (w,) in con.execute('SELECT DISTINCT word FROM mandarin WHERE entry_id=? LIMIT 6', (eid,))]
         card.update(source=src, dict_hanji=h, tailo=t, cognate=cog, mandarin=mand, hsk=ho or hn, rank=rank,
                     mand=[mandarin_gloss(w) for w in mand[:4]], wenbai=wb)
@@ -93,6 +93,7 @@ def lookup(seg, k):
         if dia:
             card['dialect'] = dia
         if src == 'moe':
+            card['moe_id'] = sid
             card['senses'] = [{'pos': p, 'def': d} for p, d in con.execute(
                 'SELECT pos, definition_zh FROM sense WHERE entry_id=? ORDER BY ord LIMIT 4', (eid,))]
             ex = con.execute("SELECT hanji, tailo, mandarin FROM example WHERE entry_id=? AND length(hanji)>3 "
@@ -252,6 +253,17 @@ for name, expl, chars in ACCENT_SETS:
 lesson0 = markdown.markdown(open(os.path.join(ROOT, 'course/lessons/000-reading-tailo.md'), encoding='utf-8').read(),
                             extensions=['tables', 'fenced_code'])
 syllabus = yaml.safe_load(open(os.path.join(ROOT, 'course/syllabus.yaml'), encoding='utf-8'))['lessons']
+# ---- audio: MOE recordings of the headwords. tools/fetch_audio.py puts them in app/dist/audio/w/<MOE id>.mp3
+# (run by the GitHub workflow; the MOE site cannot be reached from everywhere). Cards get a ▶ only if the file is there.
+AUDIO = os.path.join(ROOT, 'app/dist/audio/w')
+os.makedirs(os.path.join(ROOT, 'app/dist'), exist_ok=True)
+need = sorted({c['moe_id'] for c in dictionary.values() if c.get('moe_id')}, key=int)
+open(os.path.join(ROOT, 'app/dist/audio-needed.txt'), 'w').write('\n'.join(need) + '\n')
+have = 0
+for c in dictionary.values():
+    if c.get('moe_id') and os.path.exists(os.path.join(AUDIO, c['moe_id'] + '.mp3')):
+        c['audio'] = f"audio/w/{c['moe_id']}.mp3"
+        have += 1
 data = {'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'accents': accents, 'bridge': bridge.build(con, 160),
         'dict': dictionary, 'lesson0': lesson0, 'built': datetime.date.today().isoformat()}
 
@@ -261,4 +273,4 @@ payload = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
 os.makedirs(os.path.join(ROOT, 'app/dist'), exist_ok=True)
 out = os.path.join(ROOT, 'app/dist/index.html')
 open(out, 'w', encoding='utf-8').write(unicodedata.normalize('NFC', tpl.replace('/*__DATA__*/null', payload)))
-print(out, f'{len(lessons)} lessons, {len(dictionary)} dictionary cards, {os.path.getsize(out) // 1024} KB')
+print(out, f'{len(lessons)} lessons, {len(dictionary)} dictionary cards, {have}/{len(need)} with audio, {os.path.getsize(out) // 1024} KB')

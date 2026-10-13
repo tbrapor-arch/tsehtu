@@ -6,6 +6,7 @@ None of these datasets are stored in this repository. `make data` downloads them
 | Dataset | Rights holder / maintainer | Licence | How it is used |
 |---|---|---|---|
 | 教育部臺灣台語常用詞辭典 — *Dictionary of Frequently-Used Taiwanese Taigi* | Ministry of Education, Taiwan (中華民國教育部). Data via [g0v/moedict-data-twblg](https://github.com/g0v/moedict-data-twblg) and [ChhoeTaigi](https://github.com/ChhoeTaigi/ChhoeTaigiDatabase) | [CC BY-ND 3.0 TW](https://creativecommons.org/licenses/by-nd/3.0/tw/) | Reference for Hàn-jī, Tâi-lô readings, definitions and example sentences. Entries and sentences are reproduced unaltered; lessons are written independently. |
+| 教育部臺灣台語常用詞辭典 — headword recordings (`sutiau-mp3.zip`) | Ministry of Education, Taiwan, [download page](https://sutian.moe.edu.tw/zh-hant/siongkuantsuguan/) | [CC BY-ND 3.0 TW](https://creativecommons.org/licenses/by-nd/3.0/tw/) (as stated for the dictionary; the download page gives no separate licence for the audio) | Fetched at build time by the GitHub workflow; only the recordings of words used in the app are published with the site, copied unaltered. Not stored in this repo. |
 | iTaigi 華台對照典 | iTaigi contributors, via ChhoeTaigi | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) | Mandarin → Taigi equivalents |
 | 台華線頂對照典 | Iûⁿ Ún-giân (楊允言), via ChhoeTaigi | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Mandarin equivalents |
 | 台灣白話基礎語句 (1956) | via ChhoeTaigi | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Basic sentences, Mandarin/English glosses |

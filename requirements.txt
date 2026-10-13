@@ -1,0 +1,4 @@
+pyyaml>=6
+markdown>=3.4
+fonttools[woff]>=4.40
+pypinyin>=0.49

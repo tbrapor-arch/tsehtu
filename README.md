@@ -1,4 +1,4 @@
-# taigi-course
+# 冊櫥 Tsheh-tû
 
 A Taiwanese (Taigi / 台語) course in English for people who already speak Mandarin, with an open vocabulary database
 behind it. Romanisation: **Tâi-lô**, the Ministry of Education system.
@@ -25,14 +25,6 @@ not be used commercially.
 
 ## Writing and checking lessons
 ```sh
-make lint               # every word in course/lessons/*.yaml must exist in the database
-make test               # tone sandhi engine tests
-python3 tools/sandhi.py "Guá sī | Huat-kok-lâng."   # spoken tones for a line
-```
-Start with `course/README.md`, `course/grammar-inventory.md` and `course/lessons/000-reading-tailo.md`.
-
-## Writing and checking lessons
-```sh
 make lint               # every word in course/lessons/*.yaml and course/themes/*.yaml must exist in the database
 make test               # tone sandhi engine tests
 make coverage           # how much of the core vocabulary the lessons cover, and what to teach next
@@ -41,6 +33,12 @@ python3 tools/sandhi.py "Guá sī | Huat-kok-lâng."   # spoken tones for a line
 ```
 Start with `course/README.md`, `course/syllabus.yaml`, `course/grammar-inventory.md` and
 `course/lessons/000-reading-tailo.md`.
+
+## The app
+`make app` writes `app/dist/index.html`, one self-contained page (works offline, progress kept in the browser).
+On every push to `main`, `.github/workflows/pages.yml` rebuilds everything, adds the MOE headword recordings
+(`tools/fetch_audio.py`) and publishes the site on GitHub Pages. One-time setup: Settings › Pages › Source:
+GitHub Actions. `python3 tools/smoke.py` clicks through every lesson in a phone-sized browser (needs Playwright).
 
 ## What the database gives you
 - ~140k headwords from the MOE dictionary, iTaigi, 台華線頂對照典 and the 1956 basic sentences

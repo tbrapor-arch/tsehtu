@@ -97,7 +97,7 @@ h2 .han { font-weight: 900; }
 .p-ff { background: var(--coral-soft); color: var(--coral); }
 .p-to { background: var(--brand-soft); color: var(--brand); }
 .p-pt { background: var(--sun-soft); color: var(--text); }
-.bar { height: .5rem; border-radius: 999px; background: var(--line); overflow: hidden; }
+.bar { height: .5rem; border-radius: 999px; background: var(--soft-line); overflow: hidden; }
 .bar i { display: block; height: 100%; background: var(--sun); border-radius: 999px; }
 
 .skin button[data-night][aria-pressed="true"] { border-color: var(--brand); color: var(--brand); font-weight: 700; }
@@ -295,11 +295,13 @@ span.tok { cursor: pointer; border-radius: 4px; }
 
 /* word sheet */
 .sheet { position: fixed; z-index: 30; left: 0; right: 0; bottom: 0; max-height: 78vh; overflow-y: auto; background: var(--bg); border-radius: 22px 22px 0 0; box-shadow: 0 -10px 40px rgb(0 0 0 / .18); padding-block: .5rem calc(1.5rem + env(safe-area-inset-bottom, 0px)); padding-inline: 1.25rem; transform: translateY(105%); transition: transform .25s ease; display: flex; flex-direction: column; gap: .9rem; }
-.sheet.open { transform: none; }
+.sheet:not(.open) { transform: translateY(calc(100% + 3rem)); visibility: hidden; transition: transform .25s ease, visibility 0s .25s; }
+.sheet.open { transform: none; visibility: visible; }
 .sheet .grab { width: 2.5rem; height: .3rem; border-radius: 999px; background: var(--line); align-self: center; }
-@media (min-width: 1100px) { .sheet { left: auto; top: 0; width: 25rem; max-height: none; border-radius: 0; border-left: 1px solid var(--line); transform: translateX(105%); padding-top: calc(1.25rem + env(safe-area-inset-top, 0px)); } .sheet .grab { display: none; } }
+@media (min-width: 1100px) { .sheet:not(.open) { transform: translateX(calc(100% + 3rem)); } .sheet { left: auto; top: 0; width: 25rem; max-height: none; border-radius: 0; border-left: 1px solid var(--line); transform: translateX(105%); padding-top: calc(1.25rem + env(safe-area-inset-top, 0px)); } .sheet .grab { display: none; } }
 @media (prefers-reduced-motion: reduce) { .sheet, .note { transition: none; } }
 .wc-top { display: flex; align-items: flex-start; gap: 1rem; }
+.wc-top .play { margin-top: .4rem; }
 .wc-top .x { margin-left: auto; border: 0; background: var(--surface); border-radius: 50%; width: 2.2rem; height: 2.2rem; font-size: 1.2rem; color: var(--sub); }
 .wc-h { font-family: var(--f-han); font-size: 2.8rem; font-weight: 700; line-height: 1.1; }
 .wc-t { font-size: 1.45rem; font-weight: 600; }
@@ -330,6 +332,7 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .pill { border-radius: 4px; } :root[data-skin="rose"] .pill { border-radius: 999px; }
 .sheet { border-top: var(--border); } :root[data-skin="rose"] .sheet { border-top: 0; }
 .fc { border: var(--border); box-shadow: var(--shadow); }
+.wc-top .play { margin-top: .4rem; }
 .wc-top .x { border: var(--border-soft); border-radius: var(--r); }
 ruby.tok rt, .rom, .wc-t, .wchip .r, .vtable .vr, .exi .t, .fc .r, .wotd .wr, .head .rom, .hello .rom, .lr, .ts, .tr { font-family: var(--f-rom); }
 h1, .hello .big, .todaycard .lt, .wotd .wh, .item .tt, .tcard .th, .wchip b, .vtable .vh, .fc .big, .wc-h, h2 .han, .logo b, .logo .mark { font-weight: var(--w-han); }
@@ -363,6 +366,47 @@ h1, .hello .big, .todaycard .lt, .wotd .wh, .item .tt, .tcard .th, .wchip b, .vt
 :root:not([data-skin="rose"]) .wc-t { color: var(--brand); font-family: var(--f-rom); font-weight: 700; }
 :root:not([data-skin="rose"]) .btn { font-family: var(--f-ui); }
 :root:not([data-skin="rose"]) .toolbar { background: var(--bg); }
+
+/* ---- conveniences borrowed from Mainichi */
+/* lesson bar: back, where you are, previous / next; stays at the top while you read */
+.lbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 6; display: flex; align-items: center; gap: .2rem; background: var(--bg); border-bottom: 1px solid var(--line); margin-top: -.75rem; padding-block: .35rem; }
+.lbar .where { flex: 1; min-width: 0; font-family: var(--f-ui); font-weight: 700; font-size: .9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-inline: .3rem; }
+.lbar .icon { border: 0; background: none; width: 2.6rem; height: 2.6rem; border-radius: var(--r); font-size: 1.35rem; color: var(--brand); flex: none; }
+.lbar .icon:hover:not([disabled]) { background: var(--brand-soft); }
+.lbar .icon[disabled] { opacity: .3; cursor: default; }
+.toolbar { position: static; }
+.lnav { display: flex; gap: .4rem; flex-wrap: wrap; }
+.lnav button { font-family: var(--f-ui); font-size: .82rem; font-weight: 700; color: var(--sub); background: var(--surface); border: var(--border-soft); border-radius: 999px; padding: .2rem .75rem; }
+.lnav button:hover { color: var(--brand); border-color: var(--brand); }
+#dlg, .allnotes, h2[id] { scroll-margin-top: 3.6rem; }
+.seg { flex-wrap: wrap; }
+/* "Tâi-lô on tap": readings hidden until a word is tapped */
+.mode-tap ruby.tok rt { visibility: hidden; }
+.mode-tap ruby.tok.show rt { visibility: visible; }
+/* home: next lesson, second wave, journal */
+.nextcard, .card.wave { gap: .5rem; }
+.nc-main { display: flex; align-items: center; gap: .9rem; flex-wrap: wrap; }
+.nc-n { font-family: var(--f-ui); font-weight: 700; font-size: 2rem; color: var(--brand); font-variant-numeric: tabular-nums; min-width: 2.2rem; }
+.nc-t { flex: 1; min-width: 10rem; display: flex; flex-direction: column; }
+.nc-t .han { font-size: 1.5rem; font-weight: var(--w-han); line-height: 1.2; }
+.nc-t .sub { font-size: .9rem; }
+.lt { position: relative; }
+.lt .w2 { position: absolute; top: .2rem; right: .3rem; font-family: var(--f-ui); font-size: .62rem; font-weight: 800; width: 1rem; height: 1rem; border-radius: 50%; background: var(--sun); color: #2B2100; display: grid; place-items: center; }
+.journal summary { cursor: pointer; font-family: var(--f-ui); font-weight: 700; padding-block: .4rem; }
+.journal ul { list-style: none; margin: .4rem 0 0; padding: 0; display: flex; flex-direction: column; }
+.journal li { display: flex; gap: .8rem; align-items: baseline; padding: .35rem 0; border-bottom: 1px dashed var(--soft-line); font-size: .92rem; }
+.journal time { color: var(--sub); min-width: 6.5rem; font-family: var(--f-ui); font-variant-numeric: tabular-nums; }
+.linkish { border: 0; background: none; padding: 0; color: var(--text); text-align: left; }
+.linkish:hover { color: var(--brand); text-decoration: underline; }
+/* lesson end */
+.finish { gap: .8rem; }
+.wave-intro { margin: 0; padding: .7rem .9rem; border-radius: var(--r); background: var(--brand-soft); }
+.card.wave { color: var(--text); }
+button.card.wave { text-align: left; }
+.wchip.indeck { box-shadow: inset 3px 0 0 var(--brand); }
+.copybox { width: 100%; min-height: 8rem; font: inherit; font-size: .85rem; }
+kbd { font-family: var(--f-ui); font-size: .7rem; font-weight: 700; border: 1px solid currentColor; border-radius: 4px; padding: 0 .3rem; opacity: .6; margin-left: .2rem; }
+@media (hover: none) { kbd { display: none; } }
 </style>
 
 <div class="shell">
@@ -388,13 +432,20 @@ const store = {
 const prefs = Object.assign({ mode: 'both', spoken: false, en: false, skin: 'notebook', accent: 'std', pick: {} }, store.get('prefs', {}));
 prefs.pick = prefs.pick || {};
 function applySkin() { const r = document.documentElement; if (prefs.skin === 'rose') r.dataset.skin = 'rose'; else delete r.dataset.skin; if (prefs.night) r.dataset.night = ''; else delete r.dataset.night; }
-const done = new Set(store.get('done', []));
+// progress: lesson id -> date finished ('' for lessons finished before dates were kept); second wave the same
+const doneAt = store.get('doneAt', null) || Object.fromEntries(store.get('done', []).map(id => [id, '']));
+const waveAt = store.get('waveAt', {});
+const done = new Set(Object.keys(doneAt).map(Number));
+function saveDone() { store.set('doneAt', doneAt); store.set('done', [...done]); store.set('waveAt', waveAt); }
 let deck = store.get('deck', {});
 let studyDays = new Set(store.get('days', []));
 const DAY = 864e5, BOXES = [0, 1, 3, 7, 16, 35];
-const today = () => new Date().toISOString().slice(0, 10);
+// local calendar day (toISOString is UTC: in Taiwan or Europe it gives the wrong day around midnight)
+const ymd = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+const today = () => ymd(new Date());
+const fmtDate = s => { if (!s) return ''; const [y, m, d] = s.split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' }); };
 function studied() { studyDays.add(today()); store.set('days', [...studyDays]); }
-function streak() { let n = 0, d = new Date(); if (!studyDays.has(d.toISOString().slice(0, 10))) d = new Date(d - DAY); while (studyDays.has(d.toISOString().slice(0, 10))) { n++; d = new Date(d - DAY); } return n; }
+function streak() { let n = 0; const d = new Date(); if (!studyDays.has(ymd(d))) d.setDate(d.getDate() - 1); while (studyDays.has(ymd(d))) { n++; d.setDate(d.getDate() - 1); } return n; }
 
 const COG = {
   'same': ['p-same', 'Same as Mandarin', ''],
@@ -414,13 +465,16 @@ const ICONS = {
 };
 
 // ---------- routing
+let WAVE = false;          // true on #wave-N: lesson N shown in active mode for the second wave
+let homeY = 0, fromLesson = null;
 function route() {
   const h = location.hash.slice(1) || 'lessons';
   if (!route.keepSheet) closeSheet();
   let m;
+  WAVE = false;
   if (h === 'lessons') return showLessons();
   if (h === 'lesson-0') return showLesson0();
-  if ((m = h.match(/^lesson-(\d+)$/))) { const L = DATA.lessons.find(l => l.id === +m[1]); if (L) return showLesson(L); }
+  if ((m = h.match(/^(lesson|wave)-(\d+)$/))) { const L = DATA.lessons.find(l => l.id === +m[2]); if (L) { WAVE = m[1] === 'wave'; fromLesson = L.id; store.set('last', L.id); return showLesson(L); } }
   if (h === 'themes') return showThemes();
   if ((m = h.match(/^theme-([a-z0-9-]+)$/))) { const T = DATA.themes.find(t => t.id === m[1]); if (T) return showTheme(T); }
   if (h === 'review') return showReview();
@@ -428,16 +482,24 @@ function route() {
   if (h === 'accents' || h === 'settings') return showSettings();
   showLessons();
 }
-function go(h) { if (location.hash === '#' + h) route(); else location.hash = h; }
-window.addEventListener('hashchange', () => { route(); window.scrollTo(0, 0); });
+function go(h) { if (location.hash === '#' + h) { route(); window.scrollTo(0, 0); } else location.hash = h; }
+let onHome = (location.hash.slice(1) || 'lessons') === 'lessons', resetHome = false;
+window.addEventListener('hashchange', () => {
+  if (onHome) homeY = window.scrollY;
+  if (resetHome) { homeY = 0; resetHome = false; }
+  route();
+  onHome = (location.hash.slice(1) || 'lessons') === 'lessons';
+  // back on the lesson grid: return to where you were, not to the top
+  if (onHome && homeY) window.scrollTo(0, homeY); else window.scrollTo(0, 0);
+});
 function wireGo(root) { $$('[data-go]', root).forEach(b => b.onclick = () => go(b.dataset.go)); }
 
 function renderTabs(cur) {
-  setTimeout(() => $$('.tab[data-go="review"]').forEach(b => b.addEventListener('click', () => { sess = null; })), 0);
   const due = dueCards().length;
   const tabs = [['lessons', 'Lessons'], ['themes', 'Themes'], ['review', 'Review'], ['bridge', 'Bridge'], ['settings', 'Settings']];
-  $('#tabs').innerHTML = tabs.map(([k, t]) => `<button class="tab" data-go="${k}" aria-current="${cur === k}">${ICONS[k]}<span>${t}</span>${k === 'review' && due ? `<span class="count">${due}</span>` : ''}</button>`).join('');
-  wireGo($('#tabs'));
+  $('#tabs').innerHTML = tabs.map(([k, t]) => `<button class="tab" data-tab="${k}" aria-current="${cur === k}">${ICONS[k]}<span>${t}</span>${k === 'review' && due ? `<span class="count">${due}</span>` : ''}</button>`).join('');
+  // a tab always opens that tab's start page (the Review tab leaves a running session; the Lessons tab goes to the top of the grid)
+  $$('[data-tab]', $('#tabs')).forEach(b => b.onclick = () => { const k = b.dataset.tab; if (k === 'review') sess = null; if (k === 'lessons') resetHome = true; go(k); });
 }
 
 // ---------- lessons list
@@ -451,17 +513,36 @@ function showLessons() {
     const plan = (DATA.syllabus || []).find(x => x.n === n);
     if (!l) return `<button class="lt soon ${rev ? 'rev' : ''}" disabled aria-label="Lesson ${n}, not written yet${plan ? ': ' + esc(plan.en) : ''}"><span class="ln">${n}</span><span class="lh">${rev ? '復習' : esc(plan ? plan.en : '')}</span></button>`;
     const st = done.has(n) ? 'done' : (next && next.id === n ? 'next' : '');
-    return `<button class="lt ${st} ${rev ? 'rev' : ''}" data-go="lesson-${n}" aria-label="Lesson ${n}: ${esc(l.title.en)}"><span class="ln">${done.has(n) ? '✓ ' : ''}${n}</span><span class="lh">${esc(l.title.hanji)}</span></button>`;
+    return `<button class="lt ${st} ${rev ? 'rev' : ''}" data-go="lesson-${n}" data-n="${n}" aria-label="Lesson ${n}: ${esc(l.title.en)}${done.has(n) ? ', done' : ''}${waveAt[n] ? ', second wave done' : ''}"><span class="ln">${done.has(n) ? '✓ ' : ''}${n}</span><span class="lh">${esc(l.title.hanji)}</span>${waveAt[n] ? '<span class="w2" aria-hidden="true">2</span>' : ''}</button>`;
   };
+  const last = store.get('last', null), wv = nextWave(), dt = Object.values(doneAt).filter(d => d === today()).length, st = streak();
+  const journal = Object.entries(doneAt).map(([n, d]) => [d, +n, 'lesson']).concat(Object.entries(waveAt).map(([n, d]) => [d, +n, 'wave']))
+    .filter(x => x[0]).sort((a, b) => b[0].localeCompare(a[0]) || b[1] - a[1]);
   $('#main').innerHTML = `<div class="col">
     <div class="head"><span class="eyebrow">Course</span><h1>課程</h1>
       <span class="rom">Khò-tîng · ${done.size} done · ${DATA.lessons.length} of ${TOTAL} written</span></div>
-    <div class="bar" aria-hidden="true"><i style="width:${done.size}%"></i></div>
+    <div class="bar" aria-hidden="true"><i style="width:${Math.round(100 * done.size / TOTAL)}%"></i></div>
+    ${next ? `<div class="card raised nextcard">
+      <span class="eyebrow">${last === next.id ? 'Carry on' : 'Next lesson'}${dt ? ` · ${dt} done today` : ''}${st > 1 ? ` · ${st}-day streak` : ''}</span>
+      <div class="nc-main"><span class="nc-n">${next.id}</span><span class="nc-t"><span class="han">${esc(next.title.hanji)}</span><span class="rom sub">${esc(next.title.tailo)} · ${esc(next.title.en)}</span></span>
+        <button class="btn" data-go="lesson-${next.id}">${last === next.id ? 'Resume' : 'Start'} →</button></div></div>`
+      : `<div class="card raised"><span class="eyebrow">All written lessons are done</span><span>New lessons will appear here as they are written.</span></div>`}
+    ${wv ? `<div class="card wave"><span class="eyebrow">Second wave · active phase</span>
+      <div class="nc-main"><span class="nc-n">${wv.id}</span><span class="nc-t"><span class="han">${esc(wv.title.hanji)}</span><span class="sub">Read the English, say it in Taigi, then check.</span></span>
+        <button class="btn line" data-go="wave-${wv.id}">Do it →</button></div></div>` : ''}
     <button class="item" data-go="lesson-0"><span class="no">0</span><span><span class="tt">讀臺羅</span><br><span class="ts">Reading Tâi-lô · start here</span></span><span class="chev">›</span></button>
     <div class="lgrid">${[...Array(TOTAL)].map((_, i) => tile(i + 1)).join('')}</div>
-    <p class="sub" style="margin:0;font-size:.85rem">Every 7th lesson (復習) is a review. From lesson 50 the second wave starts: each new lesson also brings back lesson N−49 in active mode (English → Taigi). Grey lessons are not written yet.</p>
+    <p class="sub" style="margin:0;font-size:.85rem">Every 7th lesson (復習) is a review. From lesson 50 the second wave starts: each lesson you finish brings back lesson N−49 in active mode (English → Taigi); a small <b>2</b> marks the ones redone. Grey lessons are not written yet.</p>
+    <details class="journal"><summary><span class="han">日記</span> Journal (${journal.length})</summary>
+      ${journal.length ? `<ul>${journal.map(([d, n, k]) => { const l = byId[n]; return `<li><time>${fmtDate(d)}</time><button class="linkish" data-go="${k}-${n}">${k === 'wave' ? 'Second wave · ' : ''}Lesson ${n} · ${esc(l ? l.title.en : '')}</button></li>`; }).join('')}</ul>`
+        : '<p class="sub">Lessons you finish show up here with their date.</p>'}</details>
   </div>`;
   wireGo($('#main'));
+}
+// second wave: the first lesson (not a review) whose wave is not done and whose lesson N+49 is done
+function nextWave() {
+  for (const l of DATA.lessons) { if (l.review || waveAt[l.id]) continue; return done.has(l.id + 49) ? l : null; }
+  return null;
 }
 
 // ---------- shared: tokenised sentence
@@ -484,21 +565,27 @@ function tokHTML(tok, key) {
   if (tok.p) return `<span class="punct">${esc(prefs.mode === 'rom' ? tok.p.replace(/[，。！？：、；]/g, c => PUNCT[c]) : tok.p)}</span>`;
   const w = tok.w, ro = romOf(w), r = ro.r, cls = 'tok ' + (w.id ? cog(w.id)[2] : '') + (ro.v ? ' var' : '');
   const a = `class="${cls}" tabindex="0" role="button" data-tok="${key}"`;
-  if (prefs.mode === 'rom') return `<span ${a}>${esc(r)}</span> `;
+  // names and words quoted in Latin letters inside a Hàn-jī line (Sam, bueh): write them once, not twice
+  if (prefs.mode === 'rom' || !HAN_RE.test(w.h)) return `<span ${a}>${esc(prefs.mode === 'rom' ? r : w.h)}</span>${prefs.mode === 'rom' ? ' ' : ''}`;
   return `<ruby ${a}>${esc(w.h)}<rt>${esc(r)}</rt></ruby>`;
 }
+const HAN_RE = /[㐀-鿿\u{20000}-\u{3ffff}豈-﫿]/u;
 const TOKS = {};
 function sentence(tokens, prefix) { return tokens.map((t, i) => { if (t.w) TOKS[prefix + ':' + i] = t.w; return tokHTML(t, prefix + ':' + i); }).join(''); }
 function wireTokens(root) {
   $$('.tok', root).forEach(t => {
-    const open = () => { $$('.tok.sel').forEach(x => x.classList.remove('sel')); t.classList.add('sel'); const w = TOKS[t.dataset.tok]; openCard(w.id, w); };
+    const open = () => {
+      // "Tâi-lô on tap": the first tap shows the reading, the next one opens the word card
+      if (prefs.mode === 'tap' && t.tagName === 'RUBY' && !t.classList.contains('show')) { t.classList.add('show'); return; }
+      $$('.tok.sel').forEach(x => x.classList.remove('sel')); t.classList.add('sel'); const w = TOKS[t.dataset.tok]; openCard(w.id, w);
+    };
     t.onclick = open; t.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } };
   });
 }
 function toolbar(withActive) {
   return `<div class="toolbar" role="toolbar" aria-label="Display">
     ${withActive ? `<label class="toggle"><input type="checkbox" id="opt-active" ${prefs.active ? 'checked' : ''}> Active (EN → Taigi)</label>` : ''}
-    <div class="seg" role="group" aria-label="Script">${[['both', '漢字 + Tâi-lô'], ['rom', 'Tâi-lô'], ['han', '漢字']].map(([k, t]) => `<button data-mode="${k}" aria-pressed="${prefs.mode === k}">${t}</button>`).join('')}</div>
+    <div class="seg" role="group" aria-label="Script">${[['both', '漢字 + Tâi-lô'], ['tap', 'Tâi-lô on tap'], ['rom', 'Tâi-lô'], ['han', '漢字']].map(([k, t]) => `<button data-mode="${k}" aria-pressed="${prefs.mode === k}">${t}</button>`).join('')}</div>
     <label class="toggle"><input type="checkbox" id="opt-spoken" ${prefs.spoken ? 'checked' : ''}> Spoken tones</label>
     <label class="toggle"><input type="checkbox" id="opt-en" ${prefs.en ? 'checked' : ''}> English</label>
     <div class="legend"><span class="k-to">Taigi only</span><span class="k-ff">False friend</span></div></div>`;
@@ -522,45 +609,87 @@ function showLesson(L) {
   const notesBy = {};
   L.notes.forEach((n, i) => (notesBy[n.ref] = notesBy[n.ref] || []).push(i + 1));
   const speakers = [...new Set(L.lines.map(l => l.speaker))];
-  const nxt = DATA.lessons.find(l => l.id === L.id + 1);
+  const ids = DATA.lessons.map(l => l.id), at = ids.indexOf(L.id);
+  const prev = ids[at - 1], nxt = ids[at + 1];
+  const active = WAVE || !!prefs.active;
+  const pron = [...new Set(L.lines.flatMap(ln => ln.tokens.filter(t => t.w && t.w.id && DATA.dict[t.w.id] && DATA.dict[t.w.id].alts).map(t => t.w.id)))];
+  const chips = WAVE ? [] : [['dlg', 'Dialogue'], ['sec-notes', 'Notes'], ['sec-words', 'New words'], ['sec-ex', 'Practice'], ...(pron.length ? [['sec-pron', 'Pronunciation']] : [])];
   $('#main').innerHTML = `<div class="col mode-${prefs.mode}">
-    <div class="head"><span class="eyebrow">Lesson ${L.id} · ${L.phase === 'passive' ? 'Passive phase' : 'Active phase'}</span>
+    <div class="lbar"><button class="icon" data-go="lessons" aria-label="Back to lessons">←</button>
+      <span class="where">${WAVE ? '2nd wave · ' : ''}Lesson ${L.id} · ${esc(L.title.en)}</span>
+      <button class="icon" data-go="${WAVE ? 'wave' : 'lesson'}-${prev}" aria-label="Previous lesson" ${prev ? '' : 'disabled'}>‹</button>
+      <button class="icon" data-go="${WAVE ? 'wave' : 'lesson'}-${nxt}" aria-label="Next lesson" ${nxt ? '' : 'disabled'}>›</button></div>
+    <div class="head"><span class="eyebrow">${WAVE ? `Second wave · active phase` : `Lesson ${L.id} · ${L.phase === 'passive' ? 'Passive phase' : 'Active phase'}`}</span>
       <h1>${esc(L.title.hanji)}</h1><span class="rom">${esc(L.title.tailo)} · ${esc(L.title.en)}</span></div>
-    <p class="setting" style="margin:0">${esc(L.setting)}</p>
-    ${L.id >= 50 ? `<button class="card wave" data-wave="${L.id - 49}"><span class="eyebrow">Second wave</span><span>Today also redo <b>lesson ${L.id - 49}</b> in active mode: read the English, say it in Taigi.</span></button>` : ''}
-    ${toolbar(true)}
-    <div class="lines">${L.lines.map((ln, li) => { REVEAL['l' + li] = [ln.en, ln.zh]; return `
+    ${chips.length ? `<nav class="lnav" aria-label="Sections">${chips.map(([id, t]) => `<button data-jump="${id}">${t}</button>`).join('')}</nav>` : ''}
+    ${WAVE ? `<p class="wave-intro">Each line shows the English. Say it in Taigi out loud, then tap <b>Show Taigi</b> to check. Tap a word to open its card; the notes are in the normal lesson.</p>`
+      : `<p class="setting" style="margin:0">${esc(L.setting)}</p>`}
+    ${!WAVE && L.id >= 50 && DATA.lessons.some(l => l.id === L.id - 49) ? `<button class="card wave" data-go="wave-${L.id - 49}"><span class="eyebrow">Second wave${waveAt[L.id - 49] ? ' · done ✓' : ''}</span><span>With this lesson, also redo <b>lesson ${L.id - 49}</b> in active mode: read the English, say it in Taigi.</span></button>` : ''}
+    ${toolbar(!WAVE)}
+    <div class="lines" id="dlg">${L.lines.map((ln, li) => { REVEAL['l' + li] = [ln.en, ln.zh]; return `
       <div class="sent" id="line-${ln.n}">
         <div class="who"><span class="av ${speakers.indexOf(ln.speaker) % 2 ? 'b' : ''}">${esc(ln.speaker[0])}</span>${esc(ln.speaker)}<span class="n">${ln.n}</span></div>
-        ${prefs.active ? `<div class="en act">${esc(ln.en)}</div><button class="reveal" data-tw="${li}">Show Taigi</button><div class="txt" id="tw-${li}" hidden>${sentence(ln.tokens, 'L' + li)}</div>` : `<div class="txt">${sentence(ln.tokens, 'L' + li)}</div>`}
-        <div class="under">${prefs.active ? '' : enLine(ln.en, ln.zh, 'l' + li)}${(notesBy[ln.n] || []).map(k => `<button class="nlink" data-note="${k}" aria-label="Note ${k}">${k}</button>`).join('')}</div>
+        ${active ? `<div class="en act">${esc(ln.en)}</div><button class="reveal" data-tw="${li}">Show Taigi</button><div class="txt" id="tw-${li}" hidden>${sentence(ln.tokens, 'L' + li)}</div>` : `<div class="txt">${sentence(ln.tokens, 'L' + li)}</div>`}
+        <div class="under">${active ? '' : enLine(ln.en, ln.zh, 'l' + li)}${WAVE ? '' : (notesBy[ln.n] || []).map(k => `<button class="nlink" data-note="${k}" aria-label="Note ${k}">${k}</button>`).join('')}</div>
       </div>`; }).join('')}</div>
-    <details class="allnotes"><summary><span class="han">注解</span> All notes (${L.notes.length})</summary>
+    ${active ? `<div class="row"><button class="btn small quiet" id="show-all">Show all the Taigi</button></div>` : ''}
+    ${WAVE ? '' : `
+    <details class="allnotes" id="sec-notes"><summary><span class="han">注解</span> All notes (${L.notes.length})</summary>
     <ol class="notes">${L.notes.map((n, i) => `<li class="note" id="note-${i + 1}"><span class="nn">${i + 1}</span><p><span class="tag ${esc(n.topic)}">Line ${n.ref} · ${esc(n.topic.replace('-', ' '))}</span>${fmt(n.text)}</p></li>`).join('')}</ol></details>
-    <h2><span class="han">新詞</span> New words</h2>
-    <div class="wgrid">${L.new_words.map(w => `<button class="wchip ${w.id ? cog(w.id)[2] : ''}" data-word="${esc(w.id)}"><b>${esc(w.hanji)}</b><span class="r">${esc(w.tailo)}</span><span class="g">${esc(w.en || '')}</span></button>`).join('')}</div>
-    <h2><span class="han">練習</span> Practice</h2>
+    <h2 id="sec-words"><span class="han">新詞</span> New words</h2>
+    <div class="wgrid">${L.new_words.map(w => `<button class="wchip ${w.id ? cog(w.id)[2] : ''} ${deck[w.id] ? 'indeck' : ''}" data-word="${esc(w.id)}"><b>${esc(w.hanji)}</b><span class="r">${esc(w.tailo)}</span><span class="g">${esc(w.en || '')}</span></button>`).join('')}</div>
+    <div class="row"><button class="btn small quiet" id="anki">Copy for Anki</button><span class="sub" style="font-size:.85rem">${L.new_words.filter(w => deck[w.id]).length} of ${L.new_words.length} in your review deck</span></div>
+    <h2 id="sec-ex"><span class="han">練習</span> Practice</h2>
+    <p class="sub" style="margin:0;font-size:.85rem">Type Tâi-lô with tone marks or with tone numbers (bue7 = buē, tsiah8 = tsia̍h).</p>
     <div class="ex">${L.exercises.map((e, i) => exHTML(e, i)).join('')}</div>
-    ${(() => { const ids = [...new Set(L.lines.flatMap(ln => ln.tokens.filter(t => t.w && t.w.id && DATA.dict[t.w.id] && DATA.dict[t.w.id].alts).map(t => t.w.id)))];
-      return ids.length ? `<h2><span class="han">發音</span> Pronunciation</h2>
+    ${pron.length ? `<h2 id="sec-pron"><span class="han">發音</span> Pronunciation</h2>
         <p class="sub" style="margin:0;max-width:65ch">Words in this lesson that people also say another way. Choose the form you want to see in the dialogue.</p>
-        <div class="segs">${ids.map(pickRow).join('')}</div>` : ''; })()}
-    <div class="row"><button class="btn" id="done-btn">${done.has(L.id) ? 'Lesson done ✓' : 'Finish lesson · add words to review'}</button>
-      ${nxt ? `<button class="btn line" data-go="lesson-${nxt.id}">Next: lesson ${nxt.id}</button>` : ''}</div>
+        <div class="segs">${pron.map(pickRow).join('')}</div>` : ''}`}
+    <div class="card raised finish" id="finish"></div>
   </div>`;
   const main = $('#main');
   wireToolbar(() => showLesson(L)); wireTokens(main); wireReveal(main); wireGo(main);
+  $$('[data-jump]', main).forEach(b => b.onclick = () => { const el = document.getElementById(b.dataset.jump); if (el.tagName === 'DETAILS') el.open = true; el.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   $$('[data-pick]', main).forEach(b => b.onclick = () => { prefs.pick[b.dataset.id] = b.dataset.pick; store.set('prefs', prefs); const y = window.scrollY; showLesson(L); window.scrollTo(0, y); });
   $$('[data-tw]', main).forEach(b => b.onclick = () => { $('#tw-' + b.dataset.tw).hidden = false; b.remove(); });
-  $$('[data-wave]', main).forEach(b => b.onclick = () => { prefs.active = true; store.set('prefs', prefs); go('lesson-' + b.dataset.wave); });
+  const sa = $('#show-all', main); if (sa) sa.onclick = () => { $$('[data-tw]', main).forEach(b => b.click()); sa.remove(); };
   $$('[data-note]', main).forEach(b => b.onclick = () => openNote(L, +b.dataset.note));
   $$('[data-word]', main).forEach(b => b.onclick = () => openCard(b.dataset.word));
+  const ak = $('#anki', main); if (ak) ak.onclick = () => copyText(L.new_words.map(w => [w.hanji, w.tailo, w.en || '', (DATA.dict[w.id] && DATA.dict[w.id].mandarin || []).slice(0, 2).join('、'), `Lesson ${L.id}`].join('\t')).join('\n'), ak, 'Copied · in Anki: File › Import, fields separated by Tab');
   wireExercises(L.exercises, main);
-  $('#done-btn').onclick = () => {
-    done.add(L.id); store.set('done', [...done]); studied();
+  finishBlock(L);
+}
+// end of the lesson: mark it done (with the date), undo, go on
+function finishBlock(L) {
+  const box = $('#finish'), nxt = DATA.lessons.find(l => l.id > L.id);
+  if (WAVE) {
+    const d = waveAt[L.id];
+    box.innerHTML = `<div><b>${d !== undefined ? `✓ Second wave done ${fmtDate(d)}` : 'Second wave done?'}</b><div class="sub" style="font-size:.9rem">The normal lesson keeps the notes and the word list.</div></div>
+      <div class="row">${d !== undefined ? '<button class="btn small quiet" id="undo">Undo</button>' : '<button class="btn" id="mark">Mark as done</button>'}
+        <button class="btn small line" data-go="lesson-${L.id}">Normal lesson</button><button class="btn small line" data-go="lessons">Lessons</button></div>`;
+  } else {
+    const d = doneAt[L.id];
+    box.innerHTML = `<div><b>${d !== undefined ? `✓ Lesson done${d ? ' ' + fmtDate(d) : ''}` : 'Finished with this lesson?'}</b>
+      <div class="sub" style="font-size:.9rem">${d !== undefined ? 'Its new words are in your review deck. You can come back to it any time.' : 'Read, reveal, check the notes and do the practice. Then mark it done: its new words go into your review deck.'}</div></div>
+      <div class="row">${d !== undefined ? '<button class="btn small quiet" id="undo">Undo</button>' : '<button class="btn" id="mark">Mark as done</button>'}
+        ${nxt ? `<button class="btn ${d !== undefined ? '' : 'line'}" data-go="lesson-${nxt.id}">Lesson ${nxt.id} →</button>` : '<button class="btn line" data-go="lessons">Lessons</button>'}</div>`;
+  }
+  wireGo(box);
+  const mk = $('#mark', box), un = $('#undo', box);
+  if (mk) mk.onclick = () => {
+    if (WAVE) { waveAt[L.id] = today(); saveDone(); studied(); toast('Second wave marked as done'); return finishBlock(L); }
+    doneAt[L.id] = today(); done.add(L.id); saveDone(); studied();
     const n = addToDeck(L.new_words.map(w => w.id));
-    toast(n ? `${n} words added to review` : 'Lesson marked as done'); showLesson(L);
+    toast(n ? `Lesson done · ${n} words added to review` : 'Lesson marked as done'); renderTabs('lessons'); finishBlock(L);
   };
+  if (un) un.onclick = () => {
+    if (WAVE) delete waveAt[L.id]; else { delete doneAt[L.id]; done.delete(L.id); }
+    saveDone(); toast('Undone · words stay in your review deck'); finishBlock(L);
+  };
+}
+async function copyText(txt, btn, okMsg) {
+  try { await navigator.clipboard.writeText(txt); btn.textContent = '✓ Copied'; toast(okMsg); }
+  catch { const ta = document.createElement('textarea'); ta.value = txt; ta.readOnly = true; ta.className = 'copybox'; btn.after(ta); ta.select(); btn.textContent = 'Copy this text'; }
 }
 function exHTML(e, i) {
   if (e.kind === 'fill') return `<div class="card exi"><span class="k">Fill the gap</span><span class="h">${esc(e.hanji || '')}</span><span class="t">${esc(e.tailo)}</span><span class="sub">${esc(e.en || '')}</span>
@@ -571,12 +700,23 @@ function exHTML(e, i) {
     <button class="btn small quiet" style="align-self:start" data-ans="${i}">Show English</button><span class="fb" id="fb-${i}"></span></div>`;
 }
 const norm = s => (s || '').normalize('NFC').toLowerCase().replace(/[.,!?;:'"「」]/g, '').replace(/\s+/g, ' ').trim();
-const bare = s => norm(s).normalize('NFD').replace(/[̀-ͯ]/g, '');
+const bare = s => norm(s).normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\d/g, '');
+// Tâi-lô to "syllable + tone number", so that buē, bue7 and BUE7 all compare equal
+const TONE_MARK = { '́': 2, '̀': 3, '̂': 5, '̄': 7, '̍': 8, '̋': 9 };
+function toneKey(s) {
+  return norm(s).normalize('NFD').replace(/--/g, ' ').split(/[\s-]+/).filter(Boolean).map(syl => {
+    let tone = 0;
+    const m = syl.match(/(\d)$/); if (m) { tone = +m[1]; syl = syl.slice(0, -1); }
+    syl = syl.replace(/[̀-ͯ]/g, c => { if (TONE_MARK[c]) tone = TONE_MARK[c]; return ''; });
+    if (!tone) tone = /[ptkh]$/.test(syl) ? 4 : 1;
+    return syl + tone;
+  }).join(' ');
+}
 function wireExercises(ex, root) {
   $$('form[data-ex]', root).forEach(f => f.onsubmit = ev => {
     ev.preventDefault();
     const e = ex[+f.dataset.ex], v = $('input', f).value, fb = $('#fb-' + f.dataset.ex);
-    if (norm(v) === norm(e.answer) || (e.answer_hanji && norm(v) === norm(e.answer_hanji))) { fb.className = 'fb ok'; fb.textContent = '✓ ' + e.answer + (e.answer_hanji ? ' ' + e.answer_hanji : ''); }
+    if (norm(v) === norm(e.answer) || toneKey(v) === toneKey(e.answer) || (e.answer_hanji && norm(v) === norm(e.answer_hanji))) { fb.className = 'fb ok'; fb.textContent = '✓ ' + e.answer + (e.answer_hanji ? ' ' + e.answer_hanji : ''); }
     else if (bare(v) === bare(e.answer)) { fb.className = 'fb near'; fb.textContent = 'Right word, check the tone marks: ' + e.answer; }
     else { fb.className = 'fb no'; fb.textContent = v.trim() ? 'Not quite. Try again, or tap Show.' : 'Type an answer first.'; }
   });
@@ -635,7 +775,7 @@ function openCard(id, w) {
     const [pc, pt] = cog(id);
     const spoken = w && w.s && w.s.replace(/^--/, '') !== w.t.replace(/^--/, '') ? `<div class="wc-s">Said ${esc(w.s)} in this sentence</div>` : '';
     const src = { moe: '教育部臺灣台語常用詞辭典 (MOE), CC BY-ND 3.0 TW', itaigi: 'iTaigi, CC0', taihoa: '台華線頂對照典, CC BY-SA 4.0', tgb: '台灣白話基礎語句, CC BY-SA 4.0' }[c.source];
-    sh.innerHTML = top(c.hanji, c.tailo || (w && w.t) || c.tkey, spoken) + `
+    sh.innerHTML = top(c.hanji, c.tailo || (w && w.t) || c.tkey, spoken + (c.audio ? `<button class="btn small line play" id="play" aria-label="Play the recording">▶ Listen</button>` : '')) + `
       ${pt || c.rank ? `<div class="row">${pt ? `<span class="pill ${pc}">${pt}</span>` : ''}${c.rank ? `<span class="pos">#${c.rank} most common</span>` : ''}${c.wenbai && c.wenbai !== 'substitute-char' ? `<span class="pos">${esc(c.wenbai)} reading</span>` : ''}</div>` : ''}
       ${c.gloss ? `<div class="wc-sec"><h3>English</h3><div class="wc-gloss">${esc(c.gloss)}</div></div>` : ''}
       ${c.mand && c.mand.length ? `<div class="wc-sec"><h3>Mandarin${c.hsk ? ` · HSK ${c.hsk}` : ''}</h3><ul class="mlist">${c.mand.map(m => `<li><span class="han">${esc(m.w)}</span> <span class="py">${esc(m.py)}</span>${m.en ? ` <span class="men">${esc(m.en)}</span>` : ''}</li>`).join('')}</ul></div>` : (c.mandarin && c.mandarin.length ? `<div class="wc-sec"><h3>Mandarin</h3><div class="han">${c.mandarin.map(esc).join('、')}</div></div>` : '')}
@@ -648,12 +788,12 @@ function openCard(id, w) {
       ${c.dialect && c.dialect.length ? `<details class="wc-sec around"><summary>Around Taiwan</summary><div class="vwrap"><table class="ptable"><tbody>
         ${c.dialect.map(d => Object.entries(d.places).map(([p, r]) => `<tr><td class="han">${esc(d.char)}</td><td class="han">${esc(p)}</td><td>${esc(r)}</td></tr>`).join('')).join('')}</tbody></table></div></details>` : ''}
       ${c.parts && c.parts.length ? `<div class="wc-sec"><h3>Made of</h3><div class="parts">${c.parts.map(p => `<button data-part="${esc(p)}"><span class="han">${esc(DATA.dict[p].hanji)}</span> ${esc(DATA.dict[p].tailo || DATA.dict[p].tkey)}</button>`).join('')}</div></div>` : ''}
-      <div class="row">${c.audio ? `<button class="btn line" id="play" aria-label="Play pronunciation">▶ Listen</button>` : ''}<button class="btn ${deck[id] ? 'quiet' : ''}" id="add-card">${deck[id] ? 'In your review deck ✓' : 'Add to review'}</button></div>
-      ${src ? `<div class="wc-src">Source: ${esc(src)}</div>` : ''}`;
+      <div class="row"><button class="btn ${deck[id] ? 'quiet' : ''}" id="add-card">${deck[id] ? 'In your review deck ✓' : 'Add to review'}</button></div>
+      ${src ? `<div class="wc-src">Source: ${esc(src)}${c.audio ? '. Recording: same dictionary, CC BY-ND 3.0 TW.' : ''}</div>` : ''}`;
     $('#add-card', sh).onclick = () => { if (!deck[id]) { addToDeck([id]); renderTabs(currentTab()); openCard(id, w); toast('Added to review'); } };
     $$('[data-part]', sh).forEach(b => b.onclick = () => openCard(b.dataset.part));
     $$('[data-pick]', sh).forEach(b => b.onclick = () => { prefs.pick[id] = b.dataset.pick; store.set('prefs', prefs); openCard(id, w); rerenderCurrent(); });
-    const pl = $('#play', sh); if (pl) pl.onclick = () => { try { new Audio(c.audio).play(); } catch {} };
+    const pl = $('#play', sh); if (pl) pl.onclick = () => play(c.audio, pl);
   }
   $('.x', sh).onclick = closeSheet;
   sh.classList.add('open'); sh.setAttribute('aria-hidden', 'false');
@@ -675,7 +815,26 @@ function openNote(L, k) {
   sh.classList.add('open'); sh.setAttribute('aria-hidden', 'false');
 }
 function closeSheet() { $$('.sent.noted').forEach(x => x.classList.remove('noted')); const sh = $('#sheet'); sh.classList.remove('open'); sh.setAttribute('aria-hidden', 'true'); $$('.tok.sel').forEach(x => x.classList.remove('sel')); }
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSheet(); });
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') return closeSheet();
+  if (e.target.closest('input, textarea, select') || e.metaKey || e.ctrlKey || e.altKey) return;
+  const h = location.hash.slice(1);
+  const click = sel => { const b = $(sel); if (b && !b.disabled) { e.preventDefault(); b.click(); } };
+  if (h === 'review' && sess) {            // review: space / enter = show answer, 1 = again, 2 = got it
+    if (e.key === ' ' || e.key === 'Enter') click('#flip');
+    else if (e.key === '1') click('#again'); else if (e.key === '2') click('#good');
+  } else if (h === 'bridge') {             // bridge: 1-4 pick an answer, space / enter = next
+    if (/^[1-4]$/.test(e.key)) click(`.opt:nth-child(${e.key})`); else if (e.key === ' ' || e.key === 'Enter') click('#next');
+  } else if (/^(lesson|wave)-\d+$/.test(h) && !e.target.closest('.tok')) {   // lesson: ← → previous / next lesson
+    if (e.key === 'ArrowLeft') click('.lbar [aria-label="Previous lesson"]'); else if (e.key === 'ArrowRight') click('.lbar [aria-label="Next lesson"]');
+  }
+});
+// tapping the page outside the card closes it (as in Mainichi); taps on words, notes and chips open another one
+document.addEventListener('click', e => {
+  const sh = $('#sheet');
+  if (!sh.classList.contains('open') || !e.target.isConnected || sh.contains(e.target) || e.target.closest('.tok, [data-note], [data-word], [data-pick], .tab')) return;
+  closeSheet();
+});
 function currentTab() { const h = location.hash.slice(1) || 'lessons'; return h.startsWith('lesson') ? 'lessons' : h.startsWith('theme') ? 'themes' : h; }
 
 // ---------- review deck (Leitner boxes; saved in this browser)
@@ -727,22 +886,22 @@ function startSession(key, mode) {
   if (mode === 'due') ids = ids.filter(id => deck[id] && deck[id].due <= now);
   ids = [...new Set(ids)].filter(id => DATA.dict[id]).sort(() => Math.random() - .5);
   if (!ids.length) return toast('Nothing to review here');
-  sess = { key, title, queue: ids, i: 0, flipped: false, right: 0 };
+  sess = { key, title, queue: ids, i: 0, flipped: false, total: ids.length, missed: new Set() };
   showReview();
 }
 function clozeHTML(ctx, id, reveal) {
   return ctx.tokens.map(t => {
     if (t.p) return `<span class="punct">${esc(t.p)}</span>`;
     const w = t.w;
-    if (w.id === id) return reveal ? `<ruby class="hit">${esc(w.h)}<rt>${esc(w.t)}</rt></ruby>` : `<ruby class="blank">${'＿'.repeat(Math.max(1, [...w.h].length))}<rt>?</rt></ruby>`;
-    return `<ruby>${esc(w.h)}<rt>${esc(prefs.spoken ? w.s : w.t)}</rt></ruby>`;
+    if (w.id === id) return reveal ? `<ruby class="hit">${esc(w.h)}<rt>${esc(romOf(w).r)}</rt></ruby>` : `<ruby class="blank">${'＿'.repeat(Math.max(1, [...w.h].length))}<rt>?</rt></ruby>`;
+    return HAN_RE.test(w.h) ? `<ruby>${esc(w.h)}<rt>${esc(romOf(w).r)}</rt></ruby>` : esc(w.h);
   }).join('');
 }
 function showCard() {
   const m = $('#main');
   if (sess.i >= sess.queue.length) {
     m.innerHTML = `<div class="col"><div class="head"><span class="eyebrow">Review · ${esc(sess.title)}</span><h1>好勢！</h1><span class="rom">Hó-sè! · Done</span></div>
-      <div class="card raised"><div class="stat"><b>${sess.right}/${sess.queue.length}</b><span class="sub">remembered</span></div></div>
+      <div class="card raised"><div class="stat"><b>${sess.total - sess.missed.size}/${sess.total}</b><span class="sub">remembered the first time</span></div>${sess.missed.size ? `<span class="sub">To look at again: ${[...sess.missed].map(id => `<span class="han">${esc(DATA.dict[id].hanji)}</span> ${esc(DATA.dict[id].tailo || '')}`).join(' · ')}</span>` : ''}</div>
       <div class="row"><button class="btn" id="back">Back to review</button></div></div>`;
     $('#back').onclick = () => { sess = null; showReview(); };
     return;
@@ -752,19 +911,20 @@ function showCard() {
     ? `<div class="txt cloze">${clozeHTML(ctx, id, sess.flipped)}</div><div class="sub">${esc(ctx.en)}</div>`
     : `<div class="big">${esc(c.hanji)}</div>`;
   m.innerHTML = `<div class="col">
-    <div class="row" style="justify-content:space-between"><span class="eyebrow">Review · ${esc(sess.title)}</span><span class="sub">${sess.i + 1} / ${sess.queue.length}</span></div>
+    <div class="row" style="justify-content:space-between"><span class="eyebrow">Review · ${esc(sess.title)}</span><span class="sub">${Math.min(sess.i + 1, sess.queue.length)} / ${sess.queue.length}</span></div>
     <div class="bar" aria-hidden="true"><i style="width:${Math.round(100 * sess.i / sess.queue.length)}%"></i></div>
     <div class="card raised fc" aria-live="polite">${front}
       ${sess.flipped ? `<div class="answer"><span class="han ah">${esc(c.hanji)}</span><span class="r">${esc(c.tailo || c.tkey)}</span>
+          ${c.audio ? `<button class="btn small line" id="rplay">▶ Listen</button>` : ''}
           ${pt ? `<span class="pill ${pc}">${pt}</span>` : ''}${c.gloss ? `<span>${esc(c.gloss)}</span>` : ''}
           ${c.mandarin && c.mandarin.length ? `<span class="zh">華語 ${c.mandarin.slice(0, 3).map(esc).join('、')}</span>` : ''}</div>
-        <div class="row" style="justify-content:center"><button class="btn line" id="again">Again</button><button class="btn" id="good">Got it</button></div>`
+        <div class="row" style="justify-content:center"><button class="btn line" id="again">Again <kbd>1</kbd></button><button class="btn" id="good">Got it <kbd>2</kbd></button></div>`
       : `<p class="empty" style="margin:0">${ctx ? 'Which word fills the gap? Say it aloud, then check.' : 'Say the reading and the meaning, then check.'}</p>
-        <div class="row" style="justify-content:center"><button class="btn" id="flip">Show answer</button></div>`}
+        <div class="row" style="justify-content:center"><button class="btn" id="flip">Show answer <kbd>space</kbd></button></div>`}
     </div>
     <div class="row"><button class="btn small quiet" id="quit">Stop</button></div></div>`;
   $('#quit').onclick = () => { sess = null; showReview(); };
-  if (sess.flipped) { $('#again').onclick = () => grade(false); $('#good').onclick = () => grade(true); }
+  if (sess.flipped) { $('#again').onclick = () => grade(false); $('#good').onclick = () => grade(true); const rp = $('#rplay'); if (rp) { rp.onclick = () => play(c.audio, rp); if (prefs.autoplay !== false) play(c.audio, rp); } }
   else $('#flip').onclick = () => { sess.flipped = true; showCard(); };
 }
 function grade(ok) {
@@ -774,7 +934,7 @@ function grade(ok) {
   d.box = ok ? Math.min(d.box + 1, BOXES.length - 1) : 0;
   d.due = Date.now() + (ok ? BOXES[d.box] * DAY : 60e3);
   store.set('deck', deck); studied();
-  if (ok) sess.right++; else sess.queue.push(id);   // missed cards come back at the end of the session
+  if (!ok) { sess.missed.add(id); sess.queue.push(id); }   // missed cards come back at the end of the session
   sess.i++; sess.flipped = false; renderTabs('review'); showCard();
 }
 
@@ -796,11 +956,17 @@ function showSettings() {
       <span class="lab">Look</span>${opt('skin', prefs.skin, [['notebook', 'Notebook'], ['rose', 'Rose']])}
       <span class="lab">Night mode</span>${opt('night', prefs.night ? 'on' : 'off', [['off', 'Off'], ['on', 'On']])}
       <span class="lab">Accent</span>${opt('accent', prefs.accent, ACCENTS)}
+      <span class="lab">Review audio</span>${opt('autoplay', prefs.autoplay === false ? 'off' : 'on', [['on', 'Play on answer'], ['off', 'Silent']])}
     </div>
     <p class="sub" style="margin:0;max-width:65ch;font-size:.9rem"><b>Accent</b> changes how some words are spelled in lessons and themes.
       <b>North</b> uses the forms the dictionary recorded in Taipei, which lean towards the old Quanzhou-type accent (lú for 你, khù for 去);
       many younger people in Taipei use the standard forms. <b>South</b> uses the forms recorded in Tainan. Changed words get a dotted red
       line under their reading. You can also choose word by word at the bottom of each lesson.</p>
+    <h2><span class="han">進度</span> Your progress</h2>
+    <div class="card"><span>${done.size} lessons done · ${Object.keys(waveAt).length} second-wave · ${Object.keys(deck).length} words in review · ${studyDays.size} days studied</span>
+      <span class="sub" style="font-size:.9rem">Progress is kept in this browser only. Save a copy to move it to another phone or computer, or to keep it safe.</span>
+      <div class="row"><button class="btn small" id="exp">Save progress file</button><button class="btn small line" id="imp">Load progress file</button>
+        <input type="file" id="imp-file" accept=".json,application/json" hidden></div></div>
     <h2><span class="han">口音</span> How accents differ</h2>
     <div class="card"><span class="eyebrow">I and we</span>
       <span style="max-width:65ch">我 <b>guá</b> is “I”. 阮 <b>guán</b> (south) or <b>gún</b> (north) is “we, not including you”, and many speakers
@@ -811,9 +977,29 @@ function showSettings() {
       </tbody></table></div></section>`).join('')}
     <p class="sub" style="font-size:.85rem;margin:0">Data: 教育部臺灣台語常用詞辭典, regional pronunciation tables (10 places) and alternative readings.</p>
   </div>`;
+  $('#exp', m).onclick = () => {
+    const blob = new Blob([JSON.stringify({ app: 'tshehtu', v: 1, at: new Date().toISOString(), doneAt, waveAt, deck, days: [...studyDays], prefs, last: store.get('last', null) }, null, 1)], { type: 'application/json' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `tshehtu-progress-${today()}.json`; document.body.append(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+  };
+  $('#imp', m).onclick = () => $('#imp-file', m).click();
+  $('#imp-file', m).onchange = async e => {
+    const f = e.target.files[0]; if (!f) return;
+    try {
+      const d = JSON.parse(await f.text());
+      if (d.app !== 'tshehtu') throw new Error('not a progress file');
+      // merge: keep the earliest finish date, the most advanced review box
+      Object.entries(d.doneAt || {}).forEach(([k, v]) => { if (!(k in doneAt) || (v && (!doneAt[k] || v < doneAt[k]))) doneAt[k] = v; done.add(+k); });
+      Object.entries(d.waveAt || {}).forEach(([k, v]) => { if (!(k in waveAt) || v < waveAt[k]) waveAt[k] = v; });
+      Object.entries(d.deck || {}).forEach(([k, v]) => { if (!deck[k] || v.box > deck[k].box) deck[k] = v; });
+      (d.days || []).forEach(x => studyDays.add(x));
+      saveDone(); store.set('deck', deck); store.set('days', [...studyDays]);
+      toast('Progress loaded'); showSettings();
+    } catch (err) { toast('Could not read this file'); }
+  };
   $$('[data-set]', m).forEach(b => b.onclick = () => {
     const k = b.dataset.set, v = b.dataset.val;
-    if (k === 'night') prefs.night = v === 'on'; else prefs[k] = v;
+    if (k === 'night') prefs.night = v === 'on'; else if (k === 'autoplay') prefs.autoplay = v === 'on'; else prefs[k] = v;
     store.set('prefs', prefs); applySkin(); showSettings();
   });
 }
@@ -849,6 +1035,13 @@ function showBridge() {
   if (answered) $('#next').onclick = () => { br.i++; br.picked = null; showBridge(); };
 }
 
+// one recording at a time; a missing file (e.g. the page opened without its audio folder) says so instead of failing silently
+let player = null;
+function play(src, btn) {
+  try { if (player) player.pause(); player = new Audio(src); }
+  catch { return; }
+  player.play().catch(() => { if (btn) { btn.disabled = true; btn.textContent = 'No recording here'; } });
+}
 let toastT;
 function toast(msg) { const t = $('#toast'); t.textContent = msg; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => t.hidden = true, 2200); }
 applySkin();

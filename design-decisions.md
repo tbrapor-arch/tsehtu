@@ -32,3 +32,18 @@ English, Mandarin equivalents with pinyin and English (CC-CEDICT), MOE definitio
 example, pronunciation choices, "Around Taiwan" table (folded), parts, add to review.
 
 Progress, deck and preferences are stored in the browser only (per device).
+
+## Conveniences (from Mainichi)
+- **Lessons home:** "Next lesson" card (Start / Resume, done today, streak), a second-wave card when one is due,
+  lesson tiles marked ✓ and with a small **2** once their second wave is done, a dated **journal** (folded).
+- **Lesson bar** (stays at the top): back, "Lesson N · title", previous / next (also ← → keys). Section chips:
+  Dialogue, Notes, New words, Practice, Pronunciation.
+- **Second wave** has its own page (`#wave-N`): English shown, "Show Taigi" per line or all at once, mark as done.
+  It no longer switches every lesson into active mode.
+- **End of lesson:** mark as done (dated; new words go to review), undo, next lesson.
+- **Script modes:** 漢字 + Tâi-lô · Tâi-lô on tap (first tap shows the reading, second opens the card) · Tâi-lô · 漢字.
+- **Practice** accepts tone numbers (bue7 = buē). **New words:** copy for Anki (tab-separated).
+- **Review:** keys space / 1 / 2; score counts words remembered the first time and lists the missed ones.
+- **Word card:** ▶ Listen (MOE recording, when the site was built with audio); tapping outside closes it.
+- **Settings:** save / load a progress file (to move progress between devices), review audio on / off.
+- Back to the lesson grid returns to where you were.
