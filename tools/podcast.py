@@ -30,6 +30,25 @@ def split_zh(text):
     return (m.group(1).strip(), m.group(2).strip()) if m and m.group(1).strip() else (text.strip(), '')
 
 
+def vocab_items(line):
+    """One line may hold several words: '薪水 sin-suí、步調 pōo-tiāu', or a labelled list
+    '地名大雜燴：歐洲 Au-tsiu、法國 Huat-kok'. The explanation after ➡️ goes with each word of the line."""
+    head, arrow, expl = line.partition('➡')
+    label = ''
+    m = re.match(r'^([^：:A-Za-z]{1,12})[：:]\s*(.+)$', head)
+    if m and '、' in m.group(2):
+        label, head = m.group(1).strip(), m.group(2)
+    parts = [x for x in re.split(r'\s*、\s*(?=[^、]*[A-Za-z])', head) if x.strip()] if '、' in head else [head]
+    out = []
+    for part in parts:
+        v = vocab_line(part + (arrow + expl if arrow else ''))
+        if v:
+            if label:
+                v['group'] = label
+            out.append(v)
+    return out
+
+
 def vocab_line(line):
     """'行禮 kiânn-lé ➡️ 鞠躬、作揖' -> {h, t, en}; romanisation alternatives after '/' are kept in `alt`."""
     head, _, expl = line.partition('➡')
@@ -72,9 +91,9 @@ def parse_description(text):
             section = 'chapters'
             continue
         if section == 'vocab':
-            v = vocab_line(l) if '➡' in l or re.search(LATIN + '{2,}', l) else None
-            if v:
-                vocab.append(v)
+            vs = vocab_items(l) if '➡' in l or re.search(LATIN + '{2,}', l) else []
+            if vs:
+                vocab.extend(vs)
             elif vocab:
                 vocab[-1]['en'] = (vocab[-1]['en'] + ' ' + l).strip()
             continue

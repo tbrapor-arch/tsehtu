@@ -63,6 +63,15 @@ jobs:
           print('::notice::sample vocab ' + ' || '.join(f"{v['h']} {v['t']} -> {v['en'][:30]}" for v in e['vocab'][:4]))
           print('::notice::sample chapters ' + ' || '.join(f"{c['s']} {c['t'][:20]} / {c['zh'][:15]}" for c in e['chapters'][:3]))
           print('::notice::sample other ' + ' || '.join(x[:40] for x in e['other'][:4]))
+          import xml.etree.ElementTree as ET, re
+          ns = {'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'}
+          for it in ET.parse(podcast.FEED).getroot().find('channel').findall('item'):
+              x = next(y for y in eps if y['title'] == (it.findtext('title') or '').strip())
+              if not x['chapters']:
+                  d = it.findtext('itunes:summary', namespaces=ns) or it.findtext('description') or ''
+                  lines = [l.strip() for l in d.split('\n') if l.strip()]
+                  print(f"::notice::no-chapter EP{x['n']}: " + ' || '.join(l[:45] for l in lines[:14]))
+                  break
           EOF
         continue-on-error: true
 
