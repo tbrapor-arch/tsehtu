@@ -48,6 +48,10 @@ jobs:
           make lint
           make test
 
+      - name: Podcast feed (隔壁 ê 戇人, notes only; audio is streamed from SoundOn)
+        run: python3 tools/fetch_podcast.py
+        continue-on-error: true
+
       - name: App (first pass, lists the recordings it needs)
         run: make app
 

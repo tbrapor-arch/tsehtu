@@ -411,8 +411,30 @@ h1, .hello .big, .todaycard .lt, .wotd .wh, .item .tt, .tcard .th, .wchip b, .vt
 .wave-intro { margin: 0; padding: .7rem .9rem; border-radius: var(--r); background: var(--brand-soft); }
 .card.wave { color: var(--text); }
 button.card.wave { text-align: left; }
+.pod-head { display: flex; gap: 1rem; align-items: center; }
+.pod-head img { width: 6rem; height: 6rem; border-radius: var(--r); object-fit: cover; border: var(--border-soft); flex: none; }
+.item.ep .no { font-size: 1rem; } .item.ep.done .no { background: var(--brand); color: var(--brand-ink); }
+.item.ep .tt { font-size: 1rem; font-family: var(--f-mix); font-weight: 700; } .item.ep .ts { white-space: normal; }
+.podplayer input[type=range] { width: 100%; accent-color: var(--brand); }
+.pp-ctl { justify-content: center; gap: 1rem; }
+.pp-big { width: 4rem; height: 4rem; border-radius: 50% !important; font-size: 1.4rem; padding: 0; }
+#pp-loop.on { border-color: var(--coral); color: var(--coral); }
+.chaps { display: flex; flex-direction: column; gap: .3rem; }
+.chap { display: grid; grid-template-columns: 4.2rem minmax(0, 1fr); gap: .6rem; text-align: left; border: 0; background: var(--surface); border-radius: var(--r); padding: .5rem .7rem; border: var(--border-soft); }
+.chap.cur { border-color: var(--brand); background: var(--brand-soft); }
+.chap .han { font-size: 1.05rem; }
+.pvocab { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: .5rem; }
+.pv { display: flex; flex-direction: column; gap: .15rem; text-align: left; background: var(--surface); border: var(--border-soft); border-radius: var(--r); padding: .55rem .75rem; }
+.pv[data-word]:hover { background: var(--brand-soft); }
+.pv b.han { font-size: 1.25rem; } .pv .rom { color: var(--brand); font-weight: 600; } .pv .zh { font-size: .88rem; }
+.podmini { position: fixed; left: 12px; right: 12px; bottom: calc(4.6rem + env(safe-area-inset-bottom, 0px)); z-index: 14; display: flex; gap: .5rem; align-items: center; background: var(--surface); border: var(--border); border-radius: var(--r); box-shadow: var(--shadow); padding: .35rem .5rem; }
+body.has-mini main { padding-bottom: 11rem; }
+.podmini .pm-play { width: 2.6rem; height: 2.6rem; border-radius: 50%; border: 0; background: var(--brand); color: var(--brand-ink); flex: none; }
+.podmini .pm-t { flex: 1; min-width: 0; text-align: left; border: 0; background: none; display: flex; flex-direction: column; line-height: 1.2; }
+.podmini .pm-t b { font-size: .75rem; color: var(--sub); } .podmini .pm-t span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: .9rem; }
+@media (min-width: 821px) { .podmini { left: auto; width: 24rem; bottom: 16px; } }
 .gitem .no { font-size: .85rem; }
-.gitem .ts { white-space: normal; }
+.gitem .ts, .item .ts { white-space: normal; }
 .gitem .tt { font-size: 1.1rem; }
 @media (max-width: 820px) { .tab { padding: .35rem .3rem; font-size: .66rem; } }
 .wchip.indeck { box-shadow: inset 3px 0 0 var(--brand); }
@@ -495,6 +517,7 @@ const ICONS = {
   themes: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="2"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2"/></svg>',
   bridge: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 17h20M4 17v-3a8 8 0 0 1 16 0v3M8 17v-4M12 17v-6M16 17v-4"/></svg>',
   settings: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>',
+  podcast: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="3" y="14" width="4" height="7" rx="1.5"/><rect x="17" y="14" width="4" height="7" rx="1.5"/></svg>',
   grammar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h10M4 12h16M4 18h7"/><path d="M17 4l3 3-3 3"/></svg>',
   review: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="6" y="3" width="13" height="16" rx="2"/><path d="M3 7v12a2 2 0 0 0 2 2h10"/></svg>',
 };
@@ -515,6 +538,8 @@ function route() {
   if (h === 'review') return showReview();
   if (h === 'bridge') return showBridge();
   if (h === 'grammar') return showGrammar();
+  if (h === 'podcast') return showPodcast();
+  if ((m = h.match(/^ep-(\d+)$/))) { const ep = podEp(+m[1]); if (ep) return showEpisode(ep); }
   if ((m = h.match(/^grammar-([a-z0-9̀-ͯ-]+)$/i))) { const it = DATA.grammar.flatMap(g => g.items).find(x => x.id === decodeURIComponent(m[1])); if (it) return showGrammarItem(it); }
   if (h === 'accents' || h === 'settings') return showSettings();
   showLessons();
@@ -526,6 +551,7 @@ window.addEventListener('hashchange', () => {
   if (resetHome) { homeY = 0; resetHome = false; }
   route();
   onHome = (location.hash.slice(1) || 'lessons') === 'lessons';
+  podMini();
   // back on the lesson grid: return to where you were, not to the top
   if (onHome && homeY) window.scrollTo(0, homeY); else window.scrollTo(0, 0);
 });
@@ -533,7 +559,7 @@ function wireGo(root) { $$('[data-go]', root).forEach(b => b.onclick = () => go(
 
 function renderTabs(cur) {
   const due = dueCards().length;
-  const tabs = [['lessons', 'Lessons'], ['themes', 'Themes'], ['grammar', 'Grammar'], ['review', 'Review'], ['bridge', 'Bridge'], ['settings', 'Settings']];
+  const tabs = [['lessons', 'Lessons'], ['themes', 'Themes'], ['grammar', 'Grammar'], ['review', 'Review'], ['podcast', 'Podcast'], ['settings', 'Settings']];
   $('#tabs').innerHTML = tabs.map(([k, t]) => `<button class="tab" data-tab="${k}" aria-current="${cur === k}">${ICONS[k]}<span>${t}</span>${k === 'review' && due ? `<span class="count">${due}</span>` : ''}</button>`).join('');
   // a tab always opens that tab's start page (the Review tab leaves a running session; the Lessons tab goes to the top of the grid)
   $$('[data-tab]', $('#tabs')).forEach(b => b.onclick = () => { const k = b.dataset.tab; if (k === 'review') { sess = null; tsess = null; } if (k === 'lessons') resetHome = true; go(k); });
@@ -838,6 +864,130 @@ function showGrammarItem(it) {
   const ga = $('#gall', m); if (ga) ga.onclick = () => { showGrammarItem.all = it.id; const y = scrollY; showGrammarItem(it); scrollTo(0, y); };
 }
 
+// ---------- podcast: a real Taigi show to listen to after the course. Notes and vocabulary come from the show's own
+// feed (built into the app); the audio is played straight from the show's host, nothing is copied.
+const POD = DATA.podcast;
+const podKey = ep => ep.n != null ? ep.n : POD.episodes.indexOf(ep) + 1000;
+const podEp = k => POD && POD.episodes.find(ep => podKey(ep) === k);
+const podState = () => store.get('pod', {});
+function podSave(ep, t, finished) { const st = podState(), g = ep.guid; st[g] = Object.assign(st[g] || {}, { t: Math.floor(t) }, finished ? { done: true } : {}); store.set('pod', st); }
+const mmss = s => { s = Math.max(0, Math.floor(s || 0)); const h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), x = String(s % 60).padStart(2, '0'); return h ? `${h}:${String(m).padStart(2, '0')}:${x}` : `${m}:${x}`; };
+const epTitle = ep => ep.title.replace(/^EP\s*\d+\s*[：:]\s*/i, '');
+let pod = null, podCur = null, podLoop = null, podSaveT = 0;
+function podAudio() {
+  if (pod) return pod;
+  pod = new Audio(); pod.preload = 'metadata';
+  pod.addEventListener('timeupdate', () => {
+    if (podLoop && podLoop.b != null && pod.currentTime >= podLoop.b) pod.currentTime = podLoop.a;
+    if (podCur && Date.now() - podSaveT > 4000) { podSaveT = Date.now(); podSave(podCur, pod.currentTime, pod.duration && pod.currentTime > pod.duration * .95); }
+    podUI();
+  });
+  ['play', 'pause', 'ratechange', 'loadedmetadata'].forEach(ev => pod.addEventListener(ev, () => { if (podCur && ev === 'pause') podSave(podCur, pod.currentTime); podUI(); podMini(); }));
+  pod.addEventListener('ended', () => { if (podCur) podSave(podCur, 0, true); podUI(); podMini(); });
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.setActionHandler('seekbackward', () => podSeek(-5));
+    navigator.mediaSession.setActionHandler('seekforward', () => podSeek(10));
+    navigator.mediaSession.setActionHandler('play', () => pod.play());
+    navigator.mediaSession.setActionHandler('pause', () => pod.pause());
+  }
+  return pod;
+}
+function podLoad(ep) {
+  const a = podAudio();
+  if (podCur !== ep) {
+    podCur = ep; podLoop = null; a.src = ep.url;
+    const t = (podState()[ep.guid] || {}).t || 0;
+    a.addEventListener('loadedmetadata', () => { if (t && t < (a.duration || 1e9) - 5) a.currentTime = t; }, { once: true });
+    a.playbackRate = store.get('podRate', 1);
+    if ('mediaSession' in navigator) navigator.mediaSession.metadata = new MediaMetadata({ title: ep.title, artist: POD.title, artwork: ep.img || POD.image ? [{ src: ep.img || POD.image, sizes: '512x512' }] : [] });
+  }
+  return a;
+}
+function podSeek(d) { if (pod) pod.currentTime = Math.max(0, Math.min((pod.duration || 1e9) - 1, pod.currentTime + d)); }
+function podUI() {
+  const root = $('#podplayer'); if (!root || !pod || podCur !== root._ep) return;
+  const d = pod.duration || root._ep.dur || 0, t = pod.currentTime;
+  $('#pp-play', root).textContent = pod.paused ? '▶' : '⏸';
+  $('#pp-t', root).textContent = `${mmss(t)} / ${mmss(d)}`;
+  const r = $('#pp-range', root); if (!r._drag) { r.max = Math.floor(d) || 1; r.value = Math.floor(t); }
+  $('#pp-rate', root).textContent = (pod.playbackRate || 1) + '×';
+  $('#pp-loop', root).textContent = !podLoop ? 'A–B' : podLoop.b == null ? `A ${mmss(podLoop.a)} → B?` : `⟲ ${mmss(podLoop.a)}–${mmss(podLoop.b)}`;
+  $('#pp-loop', root).classList.toggle('on', !!podLoop);
+  // current chapter
+  const chs = root._ep.chapters; let cur = -1; chs.forEach((c, i) => { if (t >= c.s) cur = i; });
+  $$('.chap', root.parentNode).forEach((el, i) => el.classList.toggle('cur', i === cur));
+}
+function podMini() {
+  let bar = $('#podmini');
+  const show = pod && podCur && !(location.hash === '#ep-' + podKey(podCur)) && (!pod.paused || pod.currentTime > 0);
+  document.body.classList.toggle('has-mini', !!show);
+  if (!show) { if (bar) bar.remove(); return; }
+  if (!bar) { bar = document.createElement('div'); bar.id = 'podmini'; bar.className = 'podmini'; document.body.append(bar); }
+  bar.innerHTML = `<button class="pm-play" aria-label="${pod.paused ? 'Play' : 'Pause'}">${pod.paused ? '▶' : '⏸'}</button><button class="pm-t" data-go="ep-${podKey(podCur)}"><b>${esc(POD.title)}</b><span>${esc(podCur.n != null ? 'EP' + podCur.n + ' · ' : '')}${esc(epTitle(podCur))}</span></button>`;
+  $('.pm-play', bar).onclick = () => pod.paused ? pod.play() : pod.pause();
+  wireGo(bar);
+}
+function showPodcast() {
+  renderTabs('podcast');
+  const m = $('#main');
+  if (!POD || !POD.episodes.length) {
+    m.innerHTML = `<div class="col"><div class="head"><span class="eyebrow">Podcast</span><h1>播客</h1></div><p class="empty">The episodes appear in the app published on the web (they are fetched when the site is built).</p></div>`;
+    return;
+  }
+  const st = podState();
+  m.innerHTML = `<div class="col">
+    <div class="pod-head">${POD.image ? `<img src="${esc(POD.image)}" alt="" loading="lazy">` : ''}<div class="head"><span class="eyebrow">Podcast · in Taigi</span><h1>${esc(POD.title)}</h1>
+      <span class="sub">${esc(POD.author)}</span></div></div>
+    <p class="sub" style="margin:0;max-width:65ch">Three young Taiwanese women talk about their lives, in Taigi, every two weeks: real speech after the course. Each episode comes with chapters and the hosts' own word list (臺語補給站). Audio is played from the show's host; if you enjoy it, follow the show on your podcast app.</p>
+    <div class="list">${POD.episodes.map(ep => { const s = st[ep.guid] || {}, pct = s.done ? 100 : ep.dur ? Math.round(100 * (s.t || 0) / ep.dur) : 0; return `
+      <button class="item ep ${s.done ? 'done' : ''}" data-go="ep-${podKey(ep)}"><span class="no">${ep.n != null ? ep.n : '·'}</span>
+        <span><span class="tt">${esc(epTitle(ep))}</span><br><span class="ts">${esc(ep.date)} · ${Math.round(ep.dur / 60)} min · ${ep.vocab.length} words${s.done ? ' · ✓ listened' : pct ? ` · ${pct}%` : ''}</span>
+        ${pct && !s.done ? `<span class="bar" style="margin-top:.3rem"><i style="width:${pct}%"></i></span>` : ''}</span><span class="chev">›</span></button>`; }).join('')}</div>
+  </div>`;
+  wireGo(m); podMini();
+}
+function showEpisode(ep) {
+  renderTabs('podcast');
+  const a = podLoad(ep), m = $('#main'), ids = ep.vocab.filter(v => v.id).map(v => v.id);
+  const at = i => `<span class="sub" style="font-size:.85rem">${mmss(i)}</span>`;
+  m.innerHTML = `<div class="col">
+    <div class="lbar"><button class="icon" data-go="podcast" aria-label="Back to episodes">←</button><span class="where">${ep.n != null ? 'EP' + ep.n + ' · ' : ''}${esc(epTitle(ep))}</span></div>
+    <div class="head"><span class="eyebrow">${esc(POD.title)} · ${esc(ep.date)}</span><h1 style="font-size:clamp(1.5rem,5vw,2rem)">${esc(epTitle(ep))}</h1></div>
+    <div class="card raised podplayer" id="podplayer">
+      <input type="range" id="pp-range" min="0" max="${ep.dur || 1}" value="0" aria-label="Position">
+      <div class="row" style="justify-content:space-between"><span id="pp-t" class="sub">0:00</span>
+        <button class="btn small quiet" id="pp-rate" title="Speed">1×</button></div>
+      <div class="row pp-ctl"><button class="btn line" id="pp-back" aria-label="Back 5 seconds">↺ 5</button>
+        <button class="btn pp-big" id="pp-play" aria-label="Play or pause">▶</button>
+        <button class="btn line" id="pp-fwd" aria-label="Forward 10 seconds">10 ↻</button></div>
+      <div class="row"><button class="btn small quiet" id="pp-loop" title="Repeat a passage: tap at the start, tap at the end, tap again to stop">A–B</button>
+        <span class="sub" style="font-size:.8rem">Repeat a passage: tap at its start, again at its end.</span></div>
+    </div>
+    ${ep.intro.length ? `<div>${ep.intro.map(l => { const [t, zh] = splitZh(l); return `<p style="margin:.2rem 0"><span class="han">${esc(t)}</span>${zh ? `<br><span class="zh">${esc(zh)}</span>` : ''}</p>`; }).join('')}</div>` : ''}
+    ${ep.chapters.length ? `<h2><span class="han">段落</span> Chapters</h2><div class="chaps">${ep.chapters.map((c, i) => `<button class="chap" data-seek="${c.s}">${at(c.s)}<span><span class="han">${esc(c.t)}</span>${c.zh ? `<br><span class="zh">${esc(c.zh)}</span>` : ''}</span></button>`).join('')}</div>` : ''}
+    ${ep.vocab.length ? `<h2><span class="han">臺語補給站</span> The hosts' word list</h2>
+      <div class="pvocab">${ep.vocab.map((v, i) => `<button class="pv ${v.id ? cog(v.id)[2] : ''}" ${v.id ? `data-word="${esc(v.id)}"` : ''}><span><b class="han">${esc(v.h || '')}</b> <span class="rom">${esc(v.t)}${v.alt.length ? ' / ' + v.alt.map(esc).join(' / ') : ''}</span></span>${v.en ? `<span class="zh">${esc(v.en)}</span>` : ''}</button>`).join('')}</div>
+      ${ids.length ? `<div class="row"><button class="btn small quiet" id="pv-add">Add ${ids.length} of these words to review</button></div>` : ''}` : ''}
+    ${ep.fixes.length ? `<h2><span class="han">勘誤</span> Corrections</h2><ul class="sub" style="margin:0">${ep.fixes.map(l => `<li>${esc(l)}</li>`).join('')}</ul>` : ''}
+    <p class="sub" style="font-size:.8rem;margin:0">${esc(POD.title)} by ${esc(POD.author)}. Notes from the show's feed; audio streamed from its host.</p>
+  </div>`;
+  const root = $('#podplayer', m); root._ep = ep;
+  wireGo(m);
+  $('#pp-play', root).onclick = () => a.paused ? a.play().catch(() => toast('Could not play: are you online?')) : a.pause();
+  $('#pp-back', root).onclick = () => podSeek(-5);
+  $('#pp-fwd', root).onclick = () => podSeek(10);
+  $('#pp-rate', root).onclick = () => { const rs = [0.75, 0.9, 1, 1.25], i = (rs.indexOf(a.playbackRate) + 1) % rs.length; a.playbackRate = rs[i]; store.set('podRate', rs[i]); };
+  $('#pp-loop', root).onclick = () => { if (!podLoop) podLoop = { a: a.currentTime, b: null }; else if (podLoop.b == null) podLoop.b = Math.max(a.currentTime, podLoop.a + 1); else podLoop = null; podUI(); };
+  const rg = $('#pp-range', root);
+  rg.oninput = () => { rg._drag = true; $('#pp-t', root).textContent = `${mmss(+rg.value)} / ${mmss(a.duration || ep.dur)}`; };
+  rg.onchange = () => { a.currentTime = +rg.value; rg._drag = false; };
+  $$('[data-seek]', m).forEach(b => b.onclick = () => { a.currentTime = +b.dataset.seek; a.play().catch(() => {}); });
+  $$('[data-word]', m).forEach(b => b.onclick = () => openCard(b.dataset.word));
+  const add = $('#pv-add', m); if (add) add.onclick = () => { const n = addToDeck(ids); studied(); toast(n ? `${n} words added to review` : 'Already in your deck'); renderTabs('podcast'); };
+  podUI(); podMini();
+}
+function splitZh(l) { const x = l.match(/^(.*?)\s*[（(]([^（()）]*)[)）]\s*$/); return x && x[1] ? [x[1], x[2]] : [l, '']; }
+
 // ---------- word sheet
 function openCard(id, w) {
   const c = id ? DATA.dict[id] : null, sh = $('#sheet');
@@ -900,6 +1050,8 @@ document.addEventListener('keydown', e => {
     else if (e.key === '1') click('#again'); else if (e.key === '2') click('#good');
   } else if (h === 'bridge') {             // bridge: 1-4 pick an answer, space / enter = next
     if (/^[1-4]$/.test(e.key)) click(`.opt:nth-child(${e.key})`); else if (e.key === ' ' || e.key === 'Enter') click('#next');
+  } else if (/^ep-\d+$/.test(h) && pod) {    // episode: space = play / pause, ← → = 5 s back / 10 s forward
+    if (e.key === ' ') { e.preventDefault(); click('#pp-play'); } else if (e.key === 'ArrowLeft') podSeek(-5); else if (e.key === 'ArrowRight') podSeek(10);
   } else if (/^(lesson|wave)-\d+$/.test(h) && !e.target.closest('.tok')) {   // lesson: ← → previous / next lesson
     if (e.key === 'ArrowLeft') click('.lbar [aria-label="Previous lesson"]'); else if (e.key === 'ArrowRight') click('.lbar [aria-label="Next lesson"]');
   }
@@ -910,7 +1062,7 @@ document.addEventListener('click', e => {
   if (!sh.classList.contains('open') || !e.target.isConnected || sh.contains(e.target) || e.target.closest('.tok, [data-note], [data-word], [data-pick], .tab')) return;
   closeSheet();
 });
-function currentTab() { const h = location.hash.slice(1) || 'lessons'; return /^(lesson|wave)/.test(h) ? 'lessons' : h.startsWith('theme') ? 'themes' : h.startsWith('grammar') ? 'grammar' : h; }
+function currentTab() { const h = location.hash.slice(1) || 'lessons'; return /^(lesson|wave)/.test(h) ? 'lessons' : h.startsWith('theme') ? 'themes' : h.startsWith('grammar') ? 'grammar' : /^(podcast|ep-)/.test(h) ? 'podcast' : h === 'bridge' ? 'review' : h; }
 
 // ---------- review deck (Leitner boxes; saved in this browser)
 function addToDeck(ids) { let n = 0; ids.forEach(id => { if (id && DATA.dict[id] && !deck[id]) { deck[id] = { box: 0, due: Date.now(), at: Date.now() }; n++; } }); store.set('deck', deck); return n; }
@@ -950,6 +1102,7 @@ function showReview() {
     <div class="head"><span class="eyebrow">Review</span><h1>溫習</h1><span class="rom">Un-si̍p · by lesson or by theme</span></div>
     <div class="card raised"><div class="stat"><b>${due.length}</b><span class="sub">cards due across everything</span></div>
       <div class="row">${due.length ? '<button class="btn" data-study="ALL" data-mode="due">Review all due</button>' : '<span class="sub">Nothing due right now.</span>'}</div></div>
+    <button class="item" data-go="bridge"><span class="no">華</span><span><span class="tt">華台橋 Mandarin bridge</span><br><span class="ts">Guess the Taigi reading of a Mandarin character (trial)</span></span><span class="chev">›</span></button>
     <div class="card"><span class="eyebrow">Tone changes · 變調</span>
       <span>Words are written with their dictionary tones but said with changed tones before another syllable. Pick how each word is really said.</span>
       <div class="row"><button class="btn small" id="tones">Practise 10 words</button><span class="sub" style="font-size:.85rem">${DATA.tones.filter(t => done.has(t.l)).length} words from your finished lessons · ${DATA.tones.length} in all</span></div></div>
@@ -957,6 +1110,7 @@ function showReview() {
     <p class="sub" style="font-size:.85rem;margin:0">Cards show the word inside a sentence from its lesson or theme when there is one. They come back after 1, 3, 7, 16 and 35 days.</p>
   </div>`;
   $$('[data-study]', m).forEach(b => b.onclick = () => startSession(b.dataset.study, b.dataset.mode));
+  wireGo(m);
   $('#tones', m).onclick = () => {
     // words from finished lessons first; if fewer than 10, top up from the rest
     const mine = DATA.tones.filter(t => done.has(t.l)).sort(() => Math.random() - .5);
@@ -1142,7 +1296,7 @@ function showSettings() {
 // ---------- Mandarin bridge (proof of concept)
 let br = null;   // { order, i, picked, score, n }
 function showBridge() {
-  renderTabs('bridge');
+  renderTabs('review');
   if (!br) br = { order: DATA.bridge.map((_, i) => i).sort(() => Math.random() - .5), i: 0, picked: null, score: 0, n: 0 };
   const it = DATA.bridge[br.order[br.i % br.order.length]];
   if (!it.shuffled) it.shuffled = [it.answer, ...it.options].sort(() => Math.random() - .5);

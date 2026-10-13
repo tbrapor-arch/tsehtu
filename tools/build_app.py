@@ -25,6 +25,7 @@ from variants import Variants  # noqa: E402
 import bridge  # noqa: E402
 import moe_examples  # noqa: E402
 import tone_drill  # noqa: E402
+import podcast  # noqa: E402
 MOE_EX = moe_examples.load()
 
 ROOT = os.path.dirname(HERE)
@@ -291,7 +292,16 @@ for g in grammar:
                     refs.append([L['id'], i])
         it['refs'] = refs
         it.pop('han', None); it.pop('tl', None)
-data = {'tones': tone_drill.build(lessons), 'grammar': grammar, 'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'accents': accents, 'bridge': bridge.build(con, 160),
+# ---- podcast (data/raw/podcast/feed.xml, fetched by tools/fetch_podcast.py): episode notes + vocabulary linked to cards
+show = podcast.load()
+if show:
+    for ep in show['episodes']:
+        for v in ep['vocab']:
+            if v['h'] and v['t']:
+                k = key(v['t'])
+                if con.execute("SELECT 1 FROM entry WHERE tkey=? AND source IN ('moe','itaigi','taihoa','tgb') LIMIT 1", (k,)).fetchone():
+                    v['id'] = lookup(v['h'], k)
+data = {'podcast': show, 'tones': tone_drill.build(lessons), 'grammar': grammar, 'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'accents': accents, 'bridge': bridge.build(con, 160),
         'dict': dictionary, 'lesson0': lesson0, 'built': datetime.date.today().isoformat()}
 
 # ---- native-speaker recordings of the dialogues: course/audio/lessons/L057-03.mp3 (tools/import_recordings.py)
@@ -321,4 +331,4 @@ rdata = {'voice': rec_meta.get('voice', 'native speaker'), 'lessons': [{'id': L[
 rjson = json.dumps(rdata, ensure_ascii=False)
 rtpl = rtpl.replace('/*__FONTS__*/', ext_font_css(rjson)).replace('/*__DATA__*/null', rjson.replace('</', '<\\/'))
 open(os.path.join(ROOT, 'app/dist/record.html'), 'w', encoding='utf-8').write(unicodedata.normalize('NFC', rtpl))
-print(out, f'{len(lessons)} lessons, {len(dictionary)} dictionary cards, {have}/{len(need)} with audio, {have_ex}/{len(need_ex)} examples with audio, {n_rec} recorded lines, {os.path.getsize(out) // 1024} KB')
+print(out, f'{len(lessons)} lessons, {len(dictionary)} dictionary cards, {have}/{len(need)} with audio, {have_ex}/{len(need_ex)} examples with audio, {n_rec} recorded lines, {len(show['episodes']) if show else 0} podcast episodes, {os.path.getsize(out) // 1024} KB')

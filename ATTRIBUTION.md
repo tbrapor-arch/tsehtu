@@ -17,3 +17,8 @@ None of these datasets are stored in this repository. `make data` downloads them
 | complete-hsk-vocabulary | Yanis Zafirópulos ([drkameleon](https://github.com/drkameleon/complete-hsk-vocabulary)) | MIT | HSK levels of Mandarin equivalents |
 
 Romanisation throughout is the Ministry of Education's 臺灣台語羅馬字拼音方案 (Tâi-lô).
+
+## Podcast tab
+《隔壁 ê 戇人》 (Keh-piah ê gōng-lâng), a Taigi podcast by 欸緒利, 阿尹 and 阿莉莎, hosted by SoundOn. The app shows the
+episode notes from the show's public RSS feed (titles, chapters, the hosts' 臺語補給站 word lists) and plays the
+audio from SoundOn's own URLs. No audio is copied or re-hosted; all rights stay with the hosts.

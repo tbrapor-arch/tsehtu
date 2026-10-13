@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+<title>Sample Taigi Show</title><link>https://example.org</link><itunes:author>Test hosts</itunes:author>
+<itunes:image href="https://example.org/cover.jpg"/>
+<item>
+<title>EP2：《測試》去菜市仔買菜</title><pubDate>Tue, 06 Oct 2026 08:00:00 +0800</pubDate>
+<itunes:duration>2178</itunes:duration><guid>ep2</guid>
+<enclosure url="https://example.org/ep2.mp3" type="audio/mpeg" length="1"/>
+<itunes:summary>本集講阮去菜市仔的代誌。（本集講我們去市場的事。）
+
+00:05 開場矣！（開場了！）
+03:40 菜市仔的頭家娘（市場的老闆娘）
+1:02:10 結尾
+
+＿＿＿＿＿＿＿＿＿＿
+🌟 臺語補給站
+行禮 kiânn-lé ➡️ 鞠躬、作揖
+活潑 hua̍t-phuat / ua̍t-phuat
+pha-lih-pha-lih ➡️ 形容很靈活
+頭家娘 thâu-ke-niû ➡️ 老闆娘
+＿＿＿＿＿＿＿＿＿＿
+📌 本集勘誤
+03:40 應該是「頭家」
+＿＿＿＿＿＿＿＿＿＿
+《隔壁 ê 戇人》Podcast 節目
+📱 Instagram｜https://example.org/ig
+📩 合作邀請｜x@example.org
+Hosting provided by &lt;a href="https://www.soundon.fm/"&gt;SoundOn&lt;/a&gt;</itunes:summary>
+</item>
+</channel></rss>
