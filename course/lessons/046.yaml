@@ -1,0 +1,44 @@
+id: 46
+title: {en: "Shopping online", tailo: "Tī bāng-lōo bé mi̍h-kiānn", hanji: "佇網路買物件"}
+phase: passive
+review: false
+setting: "Sam opens a parcel. A-hun is watching."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "這个包裹是啥物？", tailo: "Tsit ê pau-kó sī siánn-mih?", en: "What's this parcel?"}
+  - {n: 2, speaker: Sam, hanji: "我佇網路買一雙鞋仔，拍八折，足俗。", tailo: "Guá tī bāng-lōo bé tsi̍t siang ê-á, phah peh tsiat, tsiok sio̍k.", en: "I bought a pair of shoes online, 20% off, really cheap."}
+  - {n: 3, speaker: A-hun, hanji: "毋過大細有拄好無？", tailo: "M̄-koh tuā-sè ū tú-hó--bô?", en: "But are they the right size?"}
+  - {n: 4, speaker: Sam, hanji: "害矣，傷細，穿袂落去。", tailo: "Hāi--ah, siunn sè, tshīng bē lo̍h-khì.", en: "Oh no, too small. I can't get them on."}
+  - {n: 5, speaker: A-hun, hanji: "會使退無？若袂使退，真無彩。", tailo: "Ē-sái thè--bô? Nā bē-sái thè, tsin bô-tshái.", en: "Can you return them? If you can't, what a waste."}
+  - {n: 6, speaker: Sam, hanji: "七工內會使退，毋過運費愛家己出。", tailo: "Tshit kang lāi ē-sái thè, m̄-koh ūn-huì ài ka-kī tshut.", en: "Returns within seven days, but I have to pay the shipping myself."}
+  - {n: 7, speaker: A-hun, hanji: "這馬物件攏咧起價，你換較大雙的就好。", tailo: "Tsit-má mi̍h-kiānn lóng teh khí-kè, lí uānn khah tuā siang--ê tō hó.", en: "Prices are all going up these days. Just exchange them for a bigger pair."}
+  - {n: 8, speaker: Sam, hanji: "好，明仔載我寄轉去。", tailo: "Hó, bîn-á-tsài guá kià tńg-khì.", en: "OK, I'll send them back tomorrow."}
+notes:
+  - {ref: 1, topic: vocab, text: "包裹 pau-kó = parcel. 網路 bāng-lōo = the internet: 網 has its colloquial reading bāng."}
+  - {ref: 2, topic: grammar, text: "Discounts: 拍 phah + number + 折 tsiat = … % of the price: 拍八折 'pay 80%' (20% off), as in Mandarin 打八折. 雙 siang = a pair (classifier). 鞋仔 ê-á = shoes."}
+  - {ref: 3, topic: vocab, text: "大細 tuā-sè = size (literally 'big-small') (尺寸). 拄好 tú-hó = just right (剛好)."}
+  - {ref: 4, topic: grammar, text: "穿袂落去 tshīng bē lo̍h-khì = can't get them on: verb + 袂 + direction. Positive: 穿會落去."}
+  - {ref: 5, topic: vocab, text: "退 thè = return (an item), retreat. 無彩 bô-tshái = what a waste, a pity (可惜): a very common Taigi word."}
+  - {ref: 6, topic: grammar, text: "Time + 內 lāi = within: 七工內 'within seven days'. 運費 ūn-huì = shipping cost. 家己出 ka-kī tshut = pay oneself: 出 tshut 'put up (money)'."}
+  - {ref: 7, topic: vocab, text: "起價 khí-kè = (prices) go up; 落價 lo̍h-kè = go down. 換 uānn = exchange, change."}
+  - {ref: 8, topic: grammar, text: "寄轉去 kià tńg-khì = send back. 寄 kià = send (by post)."}
+new_words:
+  - {tailo: pau-kó, hanji: 包裹, en: "parcel"}
+  - {tailo: bāng-lōo, hanji: 網路, en: "the internet"}
+  - {tailo: siang, hanji: 雙, en: "a pair (classifier)"}
+  - {tailo: ê-á, hanji: 鞋仔, en: "shoes"}
+  - {tailo: phah-tsiat, hanji: 拍折, en: "give a discount"}
+  - {tailo: tuā-sè, hanji: 大細, en: "size"}
+  - {tailo: tú-hó, hanji: 拄好, en: "just right"}
+  - {tailo: thè, hanji: 退, en: "return (an item)"}
+  - {tailo: bô-tshái, hanji: 無彩, en: "what a waste, a pity"}
+  - {tailo: ūn-huì, hanji: 運費, en: "shipping cost"}
+  - {tailo: khí-kè, hanji: 起價, en: "(prices) go up"}
+  - {tailo: uānn, hanji: 換, en: "exchange, change"}
+exercises:
+  translate:
+    - {tailo: "Guá tī bāng-lōo bé tsi̍t siang ê-á.", hanji: "我佇網路買一雙鞋仔。", en: "I bought a pair of shoes online."}
+    - {tailo: "Nā bē-sái thè, tsin bô-tshái.", hanji: "若袂使退，真無彩。", en: "If you can't return them, what a waste."}
+  fill:
+    - {tailo: "Siunn sè, tshīng ___ lo̍h-khì.", hanji: "傷細，穿___落去。", answer: "bē", answer_hanji: "袂", en: "Too small, I can't get them on."}
+    - {tailo: "Tsit-má mi̍h-kiānn lóng teh ___.", hanji: "這馬物件攏咧___。", answer: "khí-kè", answer_hanji: "起價", en: "Prices are all going up these days."}
+audio: []

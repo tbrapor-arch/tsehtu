@@ -1,0 +1,42 @@
+id: 44
+title: {en: "Proverbs at the table", tailo: "Sio̍k-gí", hanji: "俗語"}
+phase: passive
+review: false
+setting: "Dinner at A-má's. She has a proverb for everything. The proverbs are quoted unaltered from the MOE dictionary."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "阿媽，我先看一下手機仔……", tailo: "A-má, guá sing khuànn--tsi̍t-ē tshiú-ki-á……", en: "Grandma, let me just check my phone first…"}
+  - {n: 2, speaker: A-má, hanji: "莫看矣！食飯皇帝大。", tailo: "Mài khuànn--ah! Tsia̍h-pn̄g hông-tè tuā.", en: "Stop looking at it! Eating comes first, the emperor of all things."}
+  - {n: 3, speaker: Sam, hanji: "我緊緊食，因為等一下欲出門。", tailo: "Guá kín-kín tsia̍h, in-uī tán--tsi̍t-ē beh tshut-mn̂g.", en: "I'll eat quickly, because I'm going out in a bit."}
+  - {n: 4, speaker: A-má, hanji: "慢慢仔食。食緊挵破碗。", tailo: "Bān-bān-á tsia̍h. Tsia̍h-kín lòng-phuà uánn.", en: "Eat slowly. Eat in a hurry and you break the bowl."}
+  - {n: 5, speaker: Sam, hanji: "這个菜誠好食，是佗位買的？", tailo: "Tsit ê tshài tsiânn hó-tsia̍h, sī tó-uī bé--ê?", en: "This dish is delicious. Where is it from?"}
+  - {n: 6, speaker: A-má, hanji: "是阿公種的。食果子拜樹頭；食米飯拜田頭。", tailo: "Sī a-kong tsìng--ê. Tsia̍h kué-tsí pài tshiū-thâu; tsia̍h bí-pn̄g pài tshân-thâu.", en: "Grandpa grew it. When you eat the fruit, thank the tree; when you eat the rice, thank the field."}
+  - {n: 7, speaker: A-bîng, hanji: "阿媽，你哪會遮爾濟俗語？", tailo: "A-má, lí ná ē tsiah-nī tsē sio̍k-gí?", en: "Grandma, how do you know so many proverbs?"}
+  - {n: 8, speaker: A-má, hanji: "活甲遮老，攏是生活教我的。", tailo: "Ua̍h kah tsiah lāu, lóng sī sing-ua̍h kà guá--ê.", en: "Living this long, life taught me all of them."}
+notes:
+  - {ref: 2, topic: vocab, text: "食飯皇帝大 Tsia̍h-pn̄g hông-tè tuā: 'at mealtime (even) the emperor comes second': nothing should interrupt a meal. MOE definition: 形容吃飯這件事最重要。 皇帝 hông-tè = emperor."}
+  - {ref: 3, topic: grammar, text: "緊緊 kín-kín = quickly (doubled adjective as adverb). 因為 in-uī = because. 等一下 tán--tsi̍t-ē = in a moment, later (等一下)."}
+  - {ref: 4, topic: vocab, text: "食緊挵破碗 Tsia̍h-kín lòng-phuà uánn: 'eat too fast and you knock the bowl over': haste makes waste (MOE: 比喻欲速則不達). 挵 lòng = knock, bump; 破 phuà = break. 慢慢仔 bān-bān-á = slowly: 仔 after a doubled adjective softens it."}
+  - {ref: 6, topic: vocab, text: "食果子拜樹頭 … Tsia̍h kué-tsí pài tshiū-thâu; tsia̍h bí-pn̄g pài tshân-thâu: be grateful to those who made your good fortune possible (飲水思源). 果子 kué-tsí = fruit; 樹頭 tshiū-thâu = base of a tree; 田頭 tshân-thâu = edge of the field. 種 tsìng = grow, plant."}
+  - {ref: 7, topic: vocab, text: "俗語 sio̍k-gí = proverb, saying. Two more to know: 一枝草，一點露。 Tsi̍t ki tsháu, tsi̍t tiám lōo. 'Every blade of grass gets its drop of dew': everyone finds their way. 歹竹出好筍。 Pháinn tik tshut hó sún. 'Bad bamboo can produce good shoots': good people can come from hard places."}
+  - {ref: 8, topic: grammar, text: "活甲遮老 'having lived to be this old': V/adj + 甲 + result again. 生活 sing-ua̍h = life. …教我的 'taught me': the 是…的 pattern."}
+new_words:
+  - {tailo: hông-tè, hanji: 皇帝, en: "emperor"}
+  - {tailo: kín-kín, hanji: 緊緊, en: "quickly"}
+  - {tailo: in-uī, hanji: 因為, en: "because"}
+  - {tailo: bān-bān-á, hanji: 慢慢仔, en: "slowly"}
+  - {tailo: lòng, hanji: 挵, en: "knock, bump"}
+  - {tailo: phuà, hanji: 破, en: "break; broken"}
+  - {tailo: kué-tsí, hanji: 果子, en: "fruit"}
+  - {tailo: tshiū-thâu, hanji: 樹頭, en: "base of a tree"}
+  - {tailo: tsìng, hanji: 種, en: "grow, plant"}
+  - {tailo: sio̍k-gí, hanji: 俗語, en: "proverb"}
+  - {tailo: ua̍h, hanji: 活, en: "live"}
+  - {tailo: sing-ua̍h, hanji: 生活, en: "life"}
+exercises:
+  translate:
+    - {tailo: "Tsia̍h-pn̄g hông-tè tuā.", hanji: "食飯皇帝大。", en: "Eating comes first."}
+    - {tailo: "Bān-bān-á tsia̍h.", hanji: "慢慢仔食。", en: "Eat slowly."}
+  fill:
+    - {tailo: "Tsia̍h-kín ___ uánn.", hanji: "食緊___碗。", answer: "lòng-phuà", answer_hanji: "挵破", en: "Eat in a hurry and you break the bowl."}
+    - {tailo: "Sī a-kong ___--ê.", hanji: "是阿公___的。", answer: "tsìng", answer_hanji: "種", en: "Grandpa grew it."}
+audio: []

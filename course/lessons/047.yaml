@@ -1,0 +1,44 @@
+id: 47
+title: {en: "An argument", tailo: "Uan-ke", hanji: "冤家"}
+phase: passive
+review: false
+setting: "A café. A-bîng arrives very late, and A-hun is waiting."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "你又閣遲到！我等規點鐘矣。", tailo: "Lí iū-koh tî-tò! Guá tán kui tiám-tsing--ah.", en: "You're late again! I've been waiting a whole hour."}
+  - {n: 2, speaker: A-bîng, hanji: "歹勢啦，路裡窒車。", tailo: "Pháinn-sè--lah, lōo--lí that-tshia.", en: "Sorry, there was traffic on the way."}
+  - {n: 3, speaker: A-hun, hanji: "你莫閣講白賊！你代先講你袂記得矣。", tailo: "Lí mài koh kóng-pe̍h-tsha̍t! Lí tāi-sing kóng lí bē-kì-tit--ah.", en: "Stop lying! Earlier you said you'd forgotten."}
+  - {n: 4, speaker: A-bîng, hanji: "你莫遐大聲喝，逐家攏咧看咧。", tailo: "Lí mài hiah tuā-siann huah, ta̍k-ke lóng teh khuànn--leh.", en: "Don't shout so loud, everyone's looking."}
+  - {n: 5, speaker: A-hun, hanji: "我欲大聲就大聲！約束好的時間，你應該準時啊。", tailo: "Guá beh tuā-siann tō tuā-siann! Iok-sok hó ê sî-kan, lí ing-kai tsún-sî--ah.", en: "I'll be as loud as I like! We agreed on a time; you should be on time."}
+  - {n: 6, speaker: A-bîng, hanji: "好啦好啦，攏是我毋著，莫閣怪我矣。", tailo: "Hó--lah hó--lah, lóng sī guá m̄-tio̍h, mài koh kuài guá--ah.", en: "OK, OK, it's all my fault. Stop blaming me."}
+  - {n: 7, speaker: A-hun, hanji: "你逐擺攏按呢講，毋過下擺閣再遲到。", tailo: "Lí ta̍k pái lóng án-ne kóng, m̄-koh ē-pái koh-tsài tî-tò.", en: "You say that every time, and then you're late again the next time."}
+notes:
+  - {ref: 1, topic: grammar, text: "又閣 iū-koh = again (and annoyingly so) (又): stronger than 閣 alone. 遲到 tî-tò = be late. 規 kui + measure = a whole …: 規點鐘 'a whole hour', 規工 'a whole day'."}
+  - {ref: 2, topic: vocab, text: "路裡 lōo--lí = on the way (路上). 窒車 that-tshia = traffic jam (塞車): MOE writes it with 窒 that, to block up."}
+  - {ref: 3, topic: vocab, text: "講白賊 kóng-pe̍h-tsha̍t = tell lies (說謊): 白賊 'lie'. 代先 tāi-sing = earlier, at first (先前)."}
+  - {ref: 4, topic: grammar, text: "喝 huah = shout (喊): a false friend, not 'drink' (drink is 啉 lim). 大聲 tuā-siann = loud(ly); 細聲 sè-siann = quietly. 咧 --leh at the end of a sentence insists: 'look, they're watching!'."}
+  - {ref: 5, topic: grammar, text: "欲 X 就 X 'I'll X if I want to': a defiant pattern. 約束 iok-sok = agree on, an appointment (約定). 應該 ing-kai = should. 準時 tsún-sî = on time."}
+  - {ref: 6, topic: grammar, text: "啦 --lah at the end softens or concedes: 好啦好啦 'all right, all right'. 怪 kuài = blame. 攏是我毋著 'it's all my fault'."}
+  - {ref: 7, topic: grammar, text: "逐 ta̍k + classifier = every: 逐擺 'every time', 逐家 'everyone', 逐工 'every day'. 閣再 koh-tsài = again (once more)."}
+new_words:
+  - {tailo: uan-ke, hanji: 冤家, en: "quarrel"}
+  - {tailo: iū-koh, hanji: 又閣, en: "again (annoyingly)"}
+  - {tailo: tî-tò, hanji: 遲到, en: "be late"}
+  - {tailo: kui, hanji: 規, en: "a whole …"}
+  - {tailo: that-tshia, hanji: 窒車, en: "traffic jam"}
+  - {tailo: kóng-pe̍h-tsha̍t, hanji: 講白賊, en: "tell lies"}
+  - {tailo: tāi-sing, hanji: 代先, en: "earlier, at first"}
+  - {tailo: tuā-siann, hanji: 大聲, en: "loud"}
+  - {tailo: huah, hanji: 喝, en: "shout"}
+  - {tailo: iok-sok, hanji: 約束, en: "agree on; appointment"}
+  - {tailo: ing-kai, hanji: 應該, en: "should"}
+  - {tailo: tsún-sî, hanji: 準時, en: "on time"}
+  - {tailo: kuài, hanji: 怪, en: "blame"}
+  - {tailo: koh-tsài, hanji: 閣再, en: "again, once more"}
+exercises:
+  translate:
+    - {tailo: "Lí iū-koh tî-tò!", hanji: "你又閣遲到！", en: "You're late again!"}
+    - {tailo: "Lóng sī guá m̄-tio̍h.", hanji: "攏是我毋著。", en: "It's all my fault."}
+  fill:
+    - {tailo: "Lí mài hiah tuā-siann ___.", hanji: "你莫遐大聲___。", answer: "huah", answer_hanji: "喝", en: "Don't shout so loud."}
+    - {tailo: "Lí mài koh ___!", hanji: "你莫閣___！", answer: "kóng-pe̍h-tsha̍t", answer_hanji: "講白賊", en: "Stop lying!"}
+audio: []

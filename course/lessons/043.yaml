@@ -1,0 +1,47 @@
+id: 43
+title: {en: "A wedding invitation", tailo: "Hí-thiap", hanji: "喜帖"}
+phase: passive
+review: false
+setting: "A-bîng's cousin is getting married. A wedding card arrives."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "阮表兄欲結婚矣，這是伊寄來的喜帖。", tailo: "Guán piáu-hiann beh kiat-hun--ah, tse sī i kià--lâi ê hí-thiap.", en: "My cousin is getting married. This is the invitation he sent."}
+  - {n: 2, speaker: Sam, hanji: "恭喜！新娘是啥人？", tailo: "Kiong-hí! Sin-niû sī siánn-lâng?", en: "Congratulations! Who's the bride?"}
+  - {n: 3, speaker: A-bîng, hanji: "𪜶公司的同事，兩人鬥陣三年矣。", tailo: "In kong-si ê tông-sū, nn̄g lâng tàu-tīn sann nî--ah.", en: "A colleague from his company. They've been together three years."}
+  - {n: 4, speaker: A-bîng, hanji: "𪜶欲佇庄跤辦桌，請兩百个人客。", tailo: "In beh tī tsng-kha pān-toh, tshiánn nn̄g-pah ê lâng-kheh.", en: "They're holding a banquet in the countryside and inviting two hundred guests."}
+  - {n: 5, speaker: Sam, hanji: "兩百个！遐爾鬧熱。我嘛會使去食桌無？", tailo: "Nn̄g-pah ê! Hiah-nī lāu-jia̍t. Guá mā ē-sái khì tsia̍h-toh--bô?", en: "Two hundred! So lively. Can I come to the banquet too?"}
+  - {n: 6, speaker: A-bîng, hanji: "當然會使。毋過愛包紅包，這是禮數。", tailo: "Tong-jiân ē-sái. M̄-koh ài pau âng-pau, tse sī lé-sòo.", en: "Of course. But you have to give a red envelope; it's the custom."}
+  - {n: 7, speaker: Sam, hanji: "偌濟較適當？", tailo: "Guā-tsē khah sik-tòng?", en: "How much is appropriate?"}
+  - {n: 8, speaker: A-bîng, hanji: "一千二抑是一千六，雙數較好。莫包四，四聽起來親像「死」。", tailo: "Tsi̍t-tshing-jī ia̍h-sī tsi̍t-tshing-la̍k, siang-sòo khah hó. Mài pau sì, sì thiann--khí-lâi tshin-tshiūnn 'sí'.", en: "1,200 or 1,600; even numbers are better. Avoid fours: 四 sounds like 死 'death'."}
+notes:
+  - {ref: 1, topic: vocab, text: "表兄 piáu-hiann = (older) cousin on the mother's or a female relative's side. 結婚 kiat-hun = marry. 寄 kià = send (by post). 喜帖 hí-thiap = wedding invitation."}
+  - {ref: 2, topic: vocab, text: "新娘 sin-niû = bride; 新郎 sin-lông = groom. 恭喜 kiong-hí = congratulations."}
+  - {ref: 3, topic: vocab, text: "同事 tông-sū = colleague. 鬥陣 tàu-tīn = be together, go out together (在一起): also 'do something together' (做伙). 兩人 nn̄g lâng = the two of them."}
+  - {ref: 4, topic: vocab, text: "辦桌 pān-toh = an outdoor banquet with hired cooks and round tables, the Taiwanese wedding classic. 食桌 tsia̍h-toh = go and eat at a banquet. 人客 lâng-kheh = guests (客人): the characters are in reverse order from Mandarin."}
+  - {ref: 5, topic: vocab, text: "鬧熱 lāu-jia̍t = lively, bustling (熱鬧): again reversed from Mandarin. A small set of Taigi words swap the Mandarin order: 人客, 鬧熱, 嚨喉 (lesson 24)."}
+  - {ref: 6, topic: vocab, text: "當然 tong-jiân = of course. 禮數 lé-sòo = etiquette, what's proper (禮節)."}
+  - {ref: 7, topic: vocab, text: "適當 sik-tòng = appropriate."}
+  - {ref: 8, topic: grammar, text: "雙數 siang-sòo = even number. 聽起來 thiann--khí-lâi = sounds (like) (聽起來). Taigi 四 sì and 死 sí differ only by tone, as in Mandarin. 一千二 tsi̍t-tshing-jī = 1,200."}
+new_words:
+  - {tailo: piáu-hiann, hanji: 表兄, en: "(older) cousin"}
+  - {tailo: kiat-hun, hanji: 結婚, en: "marry"}
+  - {tailo: kià, hanji: 寄, en: "send (by post)"}
+  - {tailo: hí-thiap, hanji: 喜帖, en: "wedding invitation"}
+  - {tailo: sin-niû, hanji: 新娘, en: "bride"}
+  - {tailo: tông-sū, hanji: 同事, en: "colleague"}
+  - {tailo: tàu-tīn, hanji: 鬥陣, en: "be together"}
+  - {tailo: pān-toh, hanji: 辦桌, en: "banquet (with hired cooks)"}
+  - {tailo: lâng-kheh, hanji: 人客, en: "guest"}
+  - {tailo: lāu-jia̍t, hanji: 鬧熱, en: "lively, bustling"}
+  - {tailo: tsia̍h-toh, hanji: 食桌, en: "eat at a banquet"}
+  - {tailo: tong-jiân, hanji: 當然, en: "of course"}
+  - {tailo: lé-sòo, hanji: 禮數, en: "etiquette"}
+  - {tailo: sik-tòng, hanji: 適當, en: "appropriate"}
+  - {tailo: siang-sòo, hanji: 雙數, en: "even number"}
+exercises:
+  translate:
+    - {tailo: "Guá mā ē-sái khì tsia̍h-toh--bô?", hanji: "我嘛會使去食桌無？", en: "Can I come to the banquet too?"}
+    - {tailo: "Siang-sòo khah hó.", hanji: "雙數較好。", en: "Even numbers are better."}
+  fill:
+    - {tailo: "In beh tī tsng-kha ___.", hanji: "𪜶欲佇庄跤___。", answer: "pān-toh", answer_hanji: "辦桌", en: "They're holding a banquet in the countryside."}
+    - {tailo: "Hiah-nī ___.", hanji: "遐爾___。", answer: "lāu-jia̍t", answer_hanji: "鬧熱", en: "So lively."}
+audio: []

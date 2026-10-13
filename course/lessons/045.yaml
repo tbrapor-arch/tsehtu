@@ -1,0 +1,47 @@
+id: 45
+title: {en: "The countryside", tailo: "Tsng-kha ê ji̍t-tsí", hanji: "庄跤的日子"}
+phase: passive
+review: false
+setting: "Sam spends a weekend at A-kong's village. They walk out to the rice fields."
+dialogue:
+  - {n: 1, speaker: A-kong, hanji: "你看，這片攏是阮的田。", tailo: "Lí khuànn, tsit phìnn lóng sī guán ê tshân.", en: "Look, this whole stretch is our land."}
+  - {n: 2, speaker: Sam, hanji: "遮爾大！恁攏種啥物？", tailo: "Tsiah-nī tuā! Lín lóng tsìng siánn-mih?", en: "So big! What do you grow?"}
+  - {n: 3, speaker: A-kong, hanji: "大部份是稻仔，菜園內底閣有番薯佮青菜。", tailo: "Tuā-pōo-hūn sī tiū-á, tshài-hn̂g lāi-té koh ū han-tsî kah tshenn-tshài.", en: "Mostly rice, and in the vegetable garden there are sweet potatoes and greens."}
+  - {n: 4, speaker: A-kong, hanji: "較早攏用水牛犁田，這馬攏用機器矣。", tailo: "Khah-tsá lóng īng tsuí-gû lê-tshân, tsit-má lóng īng ki-khì--ah.", en: "In the old days we ploughed with water buffalo; now it's all machines."}
+  - {n: 5, speaker: Sam, hanji: "庄跤的空氣真好，閣足恬靜。", tailo: "Tsng-kha ê khong-khì tsin hó, koh tsiok tiām-tsīng.", en: "The air in the countryside is so good, and it's really peaceful."}
+  - {n: 6, speaker: A-kong, hanji: "是啊，毋過少年人攏走去都市矣，田無人欲作。", tailo: "Sī--ah, m̄-koh siàu-liân-lâng lóng tsáu-khì too-tshī--ah, tshân bô lâng beh tsoh.", en: "Yes, but the young people have all left for the cities, and nobody wants to farm."}
+  - {n: 7, speaker: Sam, hanji: "毋過收成的時，恁孫會轉來鬥相共乎？", tailo: "M̄-koh siu-sîng ê sî, lín sun ē tńg--lâi tàu-sann-kāng--honnh?", en: "But at harvest time your grandchildren come back to help, don't they?"}
+  - {n: 8, speaker: A-kong, hanji: "會啦！一家伙仔佇稻埕曝粟，上鬧熱。", tailo: "Ē--lah! Tsi̍t-ke-hué-á tī tiū-tiânn pha̍k tshik, siōng lāu-jia̍t.", en: "They do! The whole family drying the grain in the courtyard: that's the liveliest time."}
+notes:
+  - {ref: 1, topic: vocab, text: "片 phìnn = a stretch, an area (classifier). 田 tshân = (rice) field: colloquial reading."}
+  - {ref: 3, topic: vocab, text: "大部份 tuā-pōo-hūn = most (MOE writes 份). 稻仔 tiū-á = rice plants (on the stalk). 菜園 tshài-hn̂g = vegetable garden. 番薯 han-tsî = sweet potato, also a symbol for Taiwan and its people."}
+  - {ref: 4, topic: vocab, text: "水牛 tsuí-gû = water buffalo. 犁田 lê-tshân = plough a field. 機器 ki-khì = machine."}
+  - {ref: 5, topic: vocab, text: "空氣 khong-khì = air. 恬靜 tiām-tsīng = quiet, peaceful; 恬 tiām alone = quiet, silent (恬恬 'quietly')."}
+  - {ref: 6, topic: grammar, text: "走去 tsáu-khì = go off to (跑去): 走 'leave, run' (lesson 17). 都市 too-tshī = city. 作 tsoh = work (the land), short for 作穡 (lesson 20). 無人欲… 'nobody wants to …'."}
+  - {ref: 7, topic: vocab, text: "收成 siu-sîng = harvest. …的時 ê sî = when … (shorter than 的時陣). 孫 sun = grandchild."}
+  - {ref: 8, topic: vocab, text: "一家伙仔 tsi̍t-ke-hué-á = the whole family. 稻埕 tiū-tiânn = the courtyard where grain is dried; 埕 tiânn = open yard. 曝粟 pha̍k tshik = dry unhusked rice in the sun (粟 tshik = paddy)."}
+new_words:
+  - {tailo: phìnn, hanji: 片, en: "stretch, area"}
+  - {tailo: tshân, hanji: 田, en: "field"}
+  - {tailo: tuā-pōo-hūn, hanji: 大部份, en: "most"}
+  - {tailo: tiū-á, hanji: 稻仔, en: "rice plants"}
+  - {tailo: tshài-hn̂g, hanji: 菜園, en: "vegetable garden"}
+  - {tailo: han-tsî, hanji: 番薯, en: "sweet potato"}
+  - {tailo: tsuí-gû, hanji: 水牛, en: "water buffalo"}
+  - {tailo: lê-tshân, hanji: 犁田, en: "plough a field"}
+  - {tailo: ki-khì, hanji: 機器, en: "machine"}
+  - {tailo: khong-khì, hanji: 空氣, en: "air"}
+  - {tailo: tiām-tsīng, hanji: 恬靜, en: "quiet, peaceful"}
+  - {tailo: too-tshī, hanji: 都市, en: "city"}
+  - {tailo: siu-sîng, hanji: 收成, en: "harvest"}
+  - {tailo: sun, hanji: 孫, en: "grandchild"}
+  - {tailo: tiū-tiânn, hanji: 稻埕, en: "grain-drying yard"}
+  - {tailo: tshik, hanji: 粟, en: "paddy, unhusked rice"}
+exercises:
+  translate:
+    - {tailo: "Lín lóng tsìng siánn-mih?", hanji: "恁攏種啥物？", en: "What do you grow?"}
+    - {tailo: "Siàu-liân-lâng lóng tsáu-khì too-tshī--ah.", hanji: "少年人攏走去都市矣。", en: "The young people have all left for the cities."}
+  fill:
+    - {tailo: "Tsng-kha ê khong-khì tsin hó, koh tsiok ___.", hanji: "庄跤的空氣真好，閣足___。", answer: "tiām-tsīng", answer_hanji: "恬靜", en: "The countryside air is good, and it's really peaceful."}
+    - {tailo: "Khah-tsá lóng īng tsuí-gû ___.", hanji: "較早攏用水牛___。", answer: "lê-tshân", answer_hanji: "犁田", en: "In the old days we ploughed with water buffalo."}
+audio: []

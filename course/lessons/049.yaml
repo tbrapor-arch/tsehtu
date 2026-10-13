@@ -1,0 +1,30 @@
+id: 49
+title: {en: "Review 7", tailo: "Ho̍k-si̍p", hanji: "復習"}
+phase: passive
+review: true
+setting: "A-hun tells Sam about the wedding banquet. Everything comes from lessons 43–48."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "表兄的辦桌真鬧熱，人客坐二十幾桌。", tailo: "Piáu-hiann ê pān-toh tsin lāu-jia̍t, lâng-kheh tsē jī-tsa̍p-kuí toh.", en: "Our cousin's banquet was really lively: over twenty tables of guests."}
+  - {n: 2, speaker: Sam, hanji: "阿明有準時無？", tailo: "A-bîng ū tsún-sî--bô?", en: "Was A-bîng on time?"}
+  - {n: 3, speaker: A-hun, hanji: "有！伊代先一點鐘就到矣，真無簡單。", tailo: "Ū! I tāi-sing tsi̍t tiám-tsing tō kàu--ah, tsin bô kán-tan.", en: "Yes! He arrived an hour early, quite something."}
+  - {n: 4, speaker: Sam, hanji: "恁兩个和好矣，真好。阿媽閣有講俗語無？", tailo: "Lín nn̄g ê hô-hó--ah, tsin hó. A-má koh ū kóng sio̍k-gí--bô?", en: "You two made up, great. Did Grandma come out with proverbs again?"}
+  - {n: 5, speaker: A-hun, hanji: "當然有：食飯皇帝大！", tailo: "Tong-jiân ū: Tsia̍h-pn̄g hông-tè tuā!", en: "Of course: 'eating comes first!'"}
+notes:
+  - {ref: 1, topic: grammar, text: "Number + 幾 kuí = … and something: 二十幾桌 'twenty-odd tables'. 桌 toh = table (classifier for banquet tables). Reversed words: 人客, 鬧熱, 嚨喉."}
+  - {ref: 3, topic: grammar, text: "Duration + 就 tō + verb + 矣: 代先一點鐘就到矣 'arrived a whole hour early'. 無簡單 bô kán-tan = impressive (不簡單)."}
+  - {ref: 3, topic: grammar, text: "Again: 閣 koh (again, still), 又閣 iū-koh (again, annoyingly), 閣再 koh-tsài (once more). Every: 逐 ta̍k + classifier (逐擺, 逐工, 逐家)."}
+  - {ref: 4, topic: grammar, text: "Apologising and making up: 歹勢 (sorry), 失禮 (excuse me), 會失禮 (apologise), 原諒 (forgive), 見笑 (ashamed), 和好 (make up). Hard / easy: 僫 oh + verb, 好 hó + verb."}
+  - {ref: 5, topic: grammar, text: "Sentence-final particles so far: 矣 --ah (change), 啦 --lah (soften, concede), 喔 --ooh (surprise, warning), 咧 --leh (insist; 'and you?'), 乎 --honnh (right?), 無 --bô (yes/no question), 未 --buē (yet?)."}
+  - {ref: 5, topic: grammar, text: "Buying and returning: 拍八折 (20% off), 起價 / 落價, 退 (return), 換 (exchange), 寄 (send), 無彩 (what a waste)."}
+new_words:
+  - {tailo: toh, hanji: 桌, en: "table (classifier)"}
+  - {tailo: kán-tan, hanji: 簡單, en: "simple, easy"}
+exercises:
+  translate:
+    - {tailo: "Lí iū-koh tî-tò!", hanji: "你又閣遲到！", en: "You're late again!"}
+    - {tailo: "Guá bé tsi̍t siang ê-á, phah peh tsiat.", hanji: "我買一雙鞋仔，拍八折。", en: "I bought a pair of shoes, 20% off."}
+    - {tailo: "Tshiánn lí guân-liōng guá.", hanji: "請你原諒我。", en: "Please forgive me."}
+  fill:
+    - {tailo: "Lâng-kheh tsē jī-tsa̍p-___ toh.", hanji: "人客坐二十___桌。", answer: "kuí", answer_hanji: "幾", en: "Twenty-odd tables of guests."}
+    - {tailo: "Nā bē-sái thè, tsin ___.", hanji: "若袂使退，真___。", answer: "bô-tshái", answer_hanji: "無彩", en: "If you can't return it, what a waste."}
+audio: []

@@ -1,0 +1,52 @@
+id: 50
+title: {en: "Sam writes in Taigi", tailo: "Siá phue hōo a-má", hanji: "寫批予阿媽"}
+phase: active
+review: false
+setting: "Sam writes his first letter in Taigi, to A-má in Tainan. From this lesson on, the second wave begins: after each new lesson, go back to an early one in active mode (here: lesson 1)."
+dialogue:
+  - {n: 1, speaker: Sam (letter), hanji: "親愛的阿媽：", tailo: "Tshin-ài--ê a-má:", en: "Dear Grandma,"}
+  - {n: 2, speaker: Sam (letter), hanji: "你好！你佮阿公身體敢有勇？", tailo: "Lí hó! Lí kah a-kong sin-thé kám ū ióng?", en: "Hello! Are you and Grandpa keeping well?"}
+  - {n: 3, speaker: Sam (letter), hanji: "這是我頭一擺用臺語寫批，若有寫毋著，請你莫笑我。", tailo: "Tse sī guá thâu-tsi̍t-pái īng Tâi-gí siá phue, nā ū siá m̄-tio̍h, tshiánn lí mài tshiò guá.", en: "This is the first time I've written a letter in Taiwanese. If I've written anything wrong, please don't laugh at me."}
+  - {n: 4, speaker: Sam (letter), hanji: "我學臺語拄好半冬矣。", tailo: "Guá o̍h Tâi-gí tú-hó puànn tang--ah.", en: "I've been learning Taiwanese for exactly half a year now."}
+  - {n: 5, speaker: Sam (letter), hanji: "上起頭我啥物攏聽無，這馬會當佮恁開講矣。", tailo: "Siōng khí-thâu guá siánn-mih lóng thiann-bô, tsit-má ē-tàng kah lín khai-káng--ah.", en: "At the very beginning I understood nothing; now I can chat with you all."}
+  - {n: 6, speaker: Sam (letter), hanji: "我捌一寡漢字，毋過真濟臺語字我袂曉寫，所以我用漢字佮羅馬字做伙寫。", tailo: "Guá bat tsi̍t-kuá Hàn-jī, m̄-koh tsin tsē Tâi-gí jī guá bē-hiáu siá, sóo-í guá īng Hàn-jī kah Lô-má-jī tsò-hué siá.", en: "I know some characters, but there are many Taiwanese words I can't write, so I mix characters and romanisation."}
+  - {n: 7, speaker: Sam (letter), hanji: "感謝你佮阿公遮爾照顧我，閣教我遮濟俗語。", tailo: "Kám-siā lí kah a-kong tsiah-nī tsiàu-kòo guá, koh kà guá tsiah tsē sio̍k-gí.", en: "Thank you and Grandpa for looking after me so well, and for teaching me so many proverbs."}
+  - {n: 8, speaker: Sam (letter), hanji: "下個月我閣欲轉去臺南，到時才閣講。", tailo: "Ē kò gue̍h guá koh beh tńg-khì Tâi-lâm, kàu-sî tsiah koh kóng.", en: "Next month I'm coming back to Tainan; we'll talk more then."}
+  - {n: 9, speaker: Sam (letter), hanji: "祝恁身體健康，逐工歡喜。", tailo: "Tsiok lín sin-thé kiān-khong, ta̍k kang huann-hí.", en: "Wishing you good health and happiness every day."}
+  - {n: 10, speaker: Sam (letter), hanji: "恁的外國孫 Sam", tailo: "Lín ê guā-kok sun Sam", en: "Your foreign grandson, Sam"}
+notes:
+  - {ref: 1, topic: vocab, text: "批 phue = letter. 寫批 siá phue = write a letter. 親愛的 tshin-ài--ê = dear (opening a letter)."}
+  - {ref: 2, topic: grammar, text: "身體敢有勇？ 'are you in good health?': the polite letter question. 勇 ióng 'healthy, strong' (Health theme)."}
+  - {ref: 3, topic: grammar, text: "頭一擺 thâu-tsi̍t-pái = the first time (第一次). 寫毋著 siá m̄-tio̍h = write wrongly (lesson 41: 做毋著). 笑 tshiò = laugh, laugh at."}
+  - {ref: 4, topic: vocab, text: "冬 tang = year (as a length of time, colloquial): 半冬 puànn tang 'half a year'. 年 nî is used for dates and ages. 拄好 tú-hó = exactly."}
+  - {ref: 5, topic: grammar, text: "上起頭 siōng khí-thâu = at the very beginning (最初). 啥物攏 + negative = nothing at all: 啥物攏聽無 'understood nothing'. 開講 khai-káng = chat (聊天)."}
+  - {ref: 6, topic: vocab, text: "Written Taigi. 漢字 Hàn-jī = Chinese characters; 羅馬字 Lô-má-jī = romanisation. Mixing the two (漢羅 Hàn-lô) is common: characters where they're known, romanisation for the rest. The older church romanisation is 白話字 Pe̍h-uē-jī (POJ); this course uses the Ministry's Tâi-lô. 一寡 tsi̍t-kuá = some (一些). 所以 sóo-í = so, therefore."}
+  - {ref: 7, topic: vocab, text: "照顧 tsiàu-kòo = look after. 感謝 kám-siā = thank (more formal than 多謝)."}
+  - {ref: 8, topic: grammar, text: "下個月 ē kò gue̍h = next month; this month 這個月, last month 頂個月 tíng kò gue̍h. 到時 kàu-sî = then, when the time comes. 才閣講 'we'll talk more then'."}
+  - {ref: 9, topic: vocab, text: "祝 tsiok = wish (someone something). 逐工 ta̍k kang = every day. A standard letter close: 祝恁身體健康."}
+  - {ref: 10, topic: grammar, text: "Second wave. From now on, each lesson N comes with lesson N−49 to redo in active mode: read the English, say the Taigi, then check. Today: lesson 1. The button at the top of each lesson from 50 takes you there."}
+new_words:
+  - {tailo: phue, hanji: 批, en: "letter"}
+  - {tailo: tshin-ài, hanji: 親愛, en: "dear"}
+  - {tailo: sin-thé, hanji: 身體, en: "body; health"}
+  - {tailo: thâu-tsi̍t-pái, hanji: 頭一擺, en: "the first time"}
+  - {tailo: tshiò, hanji: 笑, en: "laugh; laugh at"}
+  - {tailo: tang, hanji: 冬, en: "year (length of time)"}
+  - {tailo: khí-thâu, hanji: 起頭, en: "beginning"}
+  - {tailo: khai-káng, hanji: 開講, en: "chat"}
+  - {tailo: tsi̍t-kuá, hanji: 一寡, en: "some"}
+  - {tailo: Hàn-jī, hanji: 漢字, en: "Chinese characters"}
+  - {tailo: Lô-má-jī, hanji: 羅馬字, en: "romanisation"}
+  - {tailo: sóo-í, hanji: 所以, en: "so, therefore"}
+  - {tailo: tsiàu-kòo, hanji: 照顧, en: "look after"}
+  - {tailo: kám-siā, hanji: 感謝, en: "thank"}
+  - {tailo: kàu-sî, hanji: 到時, en: "then, when the time comes"}
+  - {tailo: tsiok, hanji: 祝, en: "wish (someone)"}
+exercises:
+  translate:
+    - {tailo: "Tse sī guá thâu-tsi̍t-pái īng Tâi-gí siá phue.", hanji: "這是我頭一擺用臺語寫批。", en: "This is the first time I've written a letter in Taiwanese."}
+    - {tailo: "Tsiok lín sin-thé kiān-khong.", hanji: "祝恁身體健康。", en: "Wishing you good health."}
+  fill:
+    - {tailo: "Guá o̍h Tâi-gí tú-hó puànn ___--ah.", hanji: "我學臺語拄好半___矣。", answer: "tang", answer_hanji: "冬", en: "I've been learning Taiwanese for exactly half a year."}
+    - {tailo: "Tsit-má ē-tàng kah lín ___--ah.", hanji: "這馬會當佮恁___矣。", answer: "khai-káng", answer_hanji: "開講", en: "Now I can chat with you all."}
+audio: []

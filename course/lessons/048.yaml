@@ -1,0 +1,40 @@
+id: 48
+title: {en: "Making up", tailo: "Huē-sit-lé", hanji: "會失禮"}
+phase: passive
+review: false
+setting: "That evening, A-bîng knocks on A-hun's door with a bag of shaved ice."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "小妹，我來共你會失禮。", tailo: "Sió-muē, guá lâi kā lí huē-sit-lé.", en: "Little sister, I've come to apologise."}
+  - {n: 2, speaker: A-hun, hanji: "……你閣來創啥？", tailo: "…… Lí koh lâi tshòng siánn?", en: "…What are you here for now?"}
+  - {n: 3, speaker: A-bîng, hanji: "今仔日是我毋著，我承認。我真見笑。", tailo: "Kin-á-ji̍t sī guá m̄-tio̍h, guá sîng-jīn. Guá tsin kiàn-siàu.", en: "Today was my fault, I admit it. I'm really ashamed."}
+  - {n: 4, speaker: A-bîng, hanji: "我買你上佮意的檨仔冰，請你原諒我。", tailo: "Guá bé lí siōng kah-ì ê suāinn-á-ping, tshiánn lí guân-liōng guá.", en: "I bought your favourite mango ice. Please forgive me."}
+  - {n: 5, speaker: A-hun, hanji: "好，冰提來。毋過你愛保證以後會準時。", tailo: "Hó, ping the̍h--lâi. M̄-koh lí ài pó-tsìng í-āu ē tsún-sî.", en: "Fine, hand over the ice. But you have to promise to be on time from now on."}
+  - {n: 6, speaker: A-bîng, hanji: "我保證！我會盡量改。", tailo: "Guá pó-tsìng! Guá ē tsīn-liōng kái.", en: "I promise! I'll do my best to change."}
+  - {n: 7, speaker: A-hun, hanji: "哎，欲受氣你嘛真僫。好啦，放心，咱和好矣。", tailo: "Ai, beh siū-khì lí mā tsin oh. Hó--lah, hòng-sim, lán hô-hó--ah.", en: "Sigh, it's hard to stay angry with you. All right, don't worry, we're friends again."}
+notes:
+  - {ref: 1, topic: vocab, text: "會失禮 huē-sit-lé = apologise (賠罪、道歉). 共 kā + person + 會失禮 'apologise to someone'. 失禮 sit-lé alone = 'excuse me, how rude of me'."}
+  - {ref: 2, topic: grammar, text: "閣來創啥？ 'what are you here for (this time)?': 閣 adds annoyance. 創啥 tshòng siánn 'do what' (lesson 16)."}
+  - {ref: 3, topic: vocab, text: "承認 sîng-jīn = admit. 見笑 kiàn-siàu = ashamed, embarrassed (丟臉、慚愧). Also 歹勢 pháinn-sè for lighter embarrassment."}
+  - {ref: 4, topic: vocab, text: "檨仔 suāinn-á = mango (芒果), a Taigi-only word: 檨仔冰 'mango shaved ice'. 原諒 guân-liōng = forgive."}
+  - {ref: 5, topic: grammar, text: "冰提來 'the ice, bring it here': object first as a topic, a very natural Taigi order. 保證 pó-tsìng = promise, guarantee."}
+  - {ref: 6, topic: vocab, text: "盡量 tsīn-liōng = do one's best to. 改 kái = change, correct (a habit)."}
+  - {ref: 7, topic: grammar, text: "僫 oh = hard (to do) (難): 欲受氣你嘛真僫 'it's really hard to be angry with you'. Its opposite: 好 hó + verb 'easy to' (好食, 好聽). 放心 hòng-sim = don't worry, rest assured. 和好 hô-hó = make up, be reconciled."}
+new_words:
+  - {tailo: huē-sit-lé, hanji: 會失禮, en: "apologise"}
+  - {tailo: sîng-jīn, hanji: 承認, en: "admit"}
+  - {tailo: kiàn-siàu, hanji: 見笑, en: "ashamed"}
+  - {tailo: guân-liōng, hanji: 原諒, en: "forgive"}
+  - {tailo: pó-tsìng, hanji: 保證, en: "promise, guarantee"}
+  - {tailo: tsīn-liōng, hanji: 盡量, en: "do one's best to"}
+  - {tailo: kái, hanji: 改, en: "change, correct"}
+  - {tailo: oh, hanji: 僫, en: "hard (to do)"}
+  - {tailo: hòng-sim, hanji: 放心, en: "don't worry"}
+  - {tailo: hô-hó, hanji: 和好, en: "make up"}
+exercises:
+  translate:
+    - {tailo: "Guá lâi kā lí huē-sit-lé.", hanji: "我來共你會失禮。", en: "I've come to apologise."}
+    - {tailo: "Tshiánn lí guân-liōng guá.", hanji: "請你原諒我。", en: "Please forgive me."}
+  fill:
+    - {tailo: "Beh siū-khì lí mā tsin ___.", hanji: "欲受氣你嘛真___。", answer: "oh", answer_hanji: "僫", en: "It's hard to stay angry with you."}
+    - {tailo: "Lí ài ___ í-āu ē tsún-sî.", hanji: "你愛___以後會準時。", answer: "pó-tsìng", answer_hanji: "保證", en: "You have to promise to be on time from now on."}
+audio: []
