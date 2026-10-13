@@ -1,0 +1,59 @@
+id: 59
+title: {en: "Bargaining", tailo: "Kóng-kè", hanji: "講價"}
+phase: active
+review: false
+setting: "A-má comes home from hospital tomorrow. A-hun takes Sam to the morning market to buy vegetables and fruit."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "頭家娘，高麗菜一粒偌濟錢？", tailo: "Thâu-ke-niû, ko-lê-tshài tsi̍t lia̍p guā-tsē tsînn?", en: "Excuse me, how much is a cabbage?"}
+  - {n: 2, speaker: Vendor, hanji: "一粒八十。", tailo: "Tsi̍t lia̍p peh-tsa̍p.", en: "Eighty each."}
+  - {n: 3, speaker: A-hun, hanji: "哪會遮爾貴？頂禮拜才五十爾。", tailo: "Ná ē tsiah-nī kuì? Tíng lé-pài tsiah gōo-tsa̍p niā.", en: "Why so expensive? Last week it was only fifty."}
+  - {n: 4, speaker: Vendor, hanji: "風颱了後，菜的價數攏夯起來矣，我嘛無法度。", tailo: "Hong-thai liáu-āu, tshài ê kè-siàu lóng giâ--khí-lâi--ah, guá mā bô-huat-tōo.", en: "Since the typhoon, vegetable prices have all gone up. There's nothing I can do."}
+  - {n: 5, speaker: A-hun, hanji: "我買兩粒，算較俗咧，一百二好無？", tailo: "Guá bé nn̄g lia̍p, sǹg khah sio̍k--leh, tsi̍t-pah-jī hó--bô?", en: "I'll take two. Give me a better price: a hundred and twenty?"}
+  - {n: 6, speaker: Vendor, hanji: "一百二我會了錢啦。一百四，閣送你一把蔥。", tailo: "Tsi̍t-pah-jī guá ē liáu-tsînn--lah. Tsi̍t-pah-sì, koh sàng lí tsi̍t pé tshang.", en: "At a hundred and twenty I'd lose money. A hundred and forty, and I'll throw in a bunch of spring onions."}
+  - {n: 7, speaker: A-hun, hanji: "好，成交。", tailo: "Hó, sîng-kau.", en: "Fine, deal."}
+  - {n: 8, speaker: Sam, hanji: "原來佇遮會使講價喔？", tailo: "Guân-lâi tī tsia ē-sái kóng-kè--ooh?", en: "So you can bargain here?"}
+  - {n: 9, speaker: A-hun, hanji: "菜市仔會使，百貨公司就袂使。毋過莫講傷超過，人嘛愛做生理。", tailo: "Tshài-tshī-á ē-sái, pah-huè kong-si tō bē-sái. M̄-koh mài kóng siunn tshiau-kuè, lâng mā ài tsò sing-lí.", en: "At the market, yes; in a department store, no. But don't push it too far: they have a living to make too."}
+  - {n: 10, speaker: Sam, hanji: "頭家娘，彼號紅紅的果子是啥物？", tailo: "Thâu-ke-niû, hit-lō âng-âng ê kué-tsí sī siánn-mih?", en: "Excuse me, what's that red fruit?"}
+  - {n: 11, speaker: Vendor, hanji: "彼是蓮霧，這陣上好食。你食一粒看覓，免錢。", tailo: "He sī lián-bū, tsit-tsūn siōng hó-tsia̍h. Lí tsia̍h tsi̍t lia̍p khuànn-māi, bián tsînn.", en: "That's wax apple, at its best right now. Try one, it's free."}
+  - {n: 12, speaker: Sam, hanji: "謼，真甜！我買一斤。", tailo: "Hooh, tsin tinn! Guá bé tsi̍t kin.", en: "Oh, it's really sweet! I'll take a catty."}
+  - {n: 13, speaker: Vendor, hanji: "一斤一百。你會曉講台語，我算你九十就好。", tailo: "Tsi̍t kin tsi̍t-pah. Lí ē-hiáu kóng Tâi-gí, guá sǹg lí káu-tsa̍p tō hó.", en: "A hundred a catty. You speak Taigi, so ninety will do."}
+  - {n: 14, speaker: Sam, hanji: "多謝頭家娘！生理興旺！", tailo: "To-siā thâu-ke-niû! Sing-lí hing-ōng!", en: "Thank you! May business be good!"}
+  - {n: 15, speaker: A-hun, hanji: "你看，會曉講台語，比講價閣較有效。", tailo: "Lí khuànn, ē-hiáu kóng Tâi-gí, pí kóng-kè koh-khah ū-hāu.", en: "You see? Speaking Taigi works even better than bargaining."}
+notes:
+  - {ref: 1, topic: vocab, text: "頭家娘 thâu-ke-niû = the woman who runs a shop or stall: the polite way to call her. A man is 頭家 thâu-ke. 偌濟錢 guā-tsē tsînn = how much (money)? 高麗菜 ko-lê-tshài = cabbage."}
+  - {ref: 3, topic: grammar, text: "才…爾 tsiah … niā = only …: 才五十爾 'only fifty'. 頂禮拜 tíng lé-pài = last week; 後禮拜 āu lé-pài = next week (lesson 51)."}
+  - {ref: 4, topic: vocab, text: "夯 giâ = rise, go up (of prices) (漲); also 'lift' and, in slang, 'be popular'. Taigi-only. The opposite of 夯起來 is 落價 lo̍h-kè. 價數 kè-siàu = price. 了後 liáu-āu = after. 無法度 bô-huat-tōo = there's no way, nothing can be done."}
+  - {ref: 5, topic: culture, text: "算較俗咧 sǹg khah sio̍k--leh = 'make it cheaper', the standard bargaining line (算便宜一點). 算 sǹg = charge, count. Ask when buying several: 'I'll take two'."}
+  - {ref: 6, topic: vocab, text: "了錢 liáu-tsînn = lose money (虧本); the opposite 趁錢 thàn-tsînn 'earn money'. 送 sàng = give for free, throw in. 一把蔥 tsi̍t pé tshang = a bunch of spring onions."}
+  - {ref: 7, topic: vocab, text: "成交 sîng-kau = deal (agreed)."}
+  - {ref: 8, topic: vocab, text: "原來 guân-lâi = so (I see now); originally. 講價 kóng-kè = bargain."}
+  - {ref: 9, topic: false-friend, text: "生理 sing-lí = business, trade (生意), not 'physiology': 做生理 'run a business'. 超過 tshiau-kuè = go too far. 百貨公司 pah-huè kong-si = department store."}
+  - {ref: 10, topic: vocab, text: "彼號 hit-lō = that kind of (那種), Taigi-only; 這號 tsit-lō 'this kind'. 紅紅的 'reddish' (doubled adjective + 的)."}
+  - {ref: 11, topic: vocab, text: "蓮霧 lián-bū = wax apple. 免錢 bián tsînn = free (no need for money)."}
+  - {ref: 12, topic: vocab, text: "謼 hooh = oh! (surprise, pleasure). 斤 kin = catty, 600 g, still how fruit and vegetables are sold at markets."}
+  - {ref: 13, topic: grammar, text: "算你九十 'charge you ninety': 算 + person + price."}
+  - {ref: 14, topic: culture, text: "生理興旺 sing-lí hing-ōng = 'may your business prosper', a warm thank-you to a stallholder, especially at New Year."}
+  - {ref: 15, topic: grammar, text: "A 比 B 閣較 + adjective = A is even more … than B. 有效 ū-hāu = effective."}
+new_words:
+  - {tailo: thâu-ke-niû, hanji: 頭家娘, en: "(woman) shop owner"}
+  - {tailo: kè-siàu, hanji: 價數, en: "price"}
+  - {tailo: giâ, hanji: 夯, en: "rise (prices); lift"}
+  - {tailo: bô-huat-tōo, hanji: 無法度, en: "nothing can be done"}
+  - {tailo: liáu-tsînn, hanji: 了錢, en: "lose money"}
+  - {tailo: sàng, hanji: 送, en: "give, throw in"}
+  - {tailo: sîng-kau, hanji: 成交, en: "deal"}
+  - {tailo: guân-lâi, hanji: 原來, en: "so, I see"}
+  - {tailo: kóng-kè, hanji: 講價, en: "bargain"}
+  - {tailo: sing-lí, hanji: 生理, en: "business"}
+  - {tailo: tshiau-kuè, hanji: 超過, en: "go too far"}
+  - {tailo: hit-lō, hanji: 彼號, en: "that kind of"}
+  - {tailo: hooh, hanji: 謼, en: "oh! (surprise)"}
+  - {tailo: ū-hāu, hanji: 有效, en: "effective"}
+exercises:
+  translate:
+    - {tailo: "Sǹg khah sio̍k--leh, hó--bô?", hanji: "算較俗咧，好無？", en: "Give me a better price?"}
+    - {tailo: "Lâng mā ài tsò sing-lí.", hanji: "人嘛愛做生理。", en: "They have a living to make too."}
+  fill:
+    - {tailo: "Tshài ê kè-siàu lóng ___--khí-lâi--ah.", hanji: "菜的價數攏___起來矣。", answer: "giâ", answer_hanji: "夯", en: "Vegetable prices have all gone up."}
+    - {tailo: "___ âng-âng ê kué-tsí sī siánn-mih?", hanji: "___紅紅的果子是啥物？", answer: "Hit-lō", answer_hanji: "彼號", en: "What's that red fruit?"}
+audio: []

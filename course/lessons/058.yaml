@@ -1,0 +1,59 @@
+id: 58
+title: {en: "A-má in hospital", tailo: "A-má tuà-īnn", hanji: "阿媽蹛院"}
+phase: active
+review: false
+setting: "A-bîng phones Sam early in the morning: A-má fell during the night. That afternoon they visit her in hospital."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "阿媽昨暗佇浴間仔跋倒，這馬蹛院。", tailo: "A-má tsa-àm tī i̍k-king-á pua̍h-tó, tsit-má tuà-īnn.", en: "A-má fell in the bathroom last night. She's in hospital now."}
+  - {n: 2, speaker: Sam, hanji: "啊！敢有要緊？", tailo: "Ah! Kám ū iàu-kín?", en: "Oh no! Is it serious?"}
+  - {n: 3, speaker: A-bîng, hanji: "好佳哉無傷重，干焦跤骨小可仔裂去。", tailo: "Hó-ka-tsài bô siong-tiōng, kan-na kha-kut sió-khuá-á li̍h--khì.", en: "Luckily it's not serious, just a small crack in a bone in her leg."}
+  - {n: 4, speaker: Sam, hanji: "我買一寡果子，咱即時去病院看伊。", tailo: "Guá bé tsi̍t-kuá kué-tsí, lán tsik-sî khì pēnn-īnn khuànn--i.", en: "I'll buy some fruit and we'll go to the hospital straight away."}
+  - {n: 5, speaker: Sam, hanji: "阿媽，你敢會疼？", tailo: "A-má, lí kám ē thiànn?", en: "A-má, does it hurt?"}
+  - {n: 6, speaker: A-má, hanji: "猶會疼。醫生講愛蹛院一禮拜，袂當行路。", tailo: "Iáu ē thiànn. I-sing kóng ài tuà-īnn tsi̍t lé-pài, bē-tàng kiânn-lōo.", en: "It still hurts. The doctor says I have to stay a week and I can't walk."}
+  - {n: 7, speaker: A-má, hanji: "病院的飯真無味，罔食啦。", tailo: "Pēnn-īnn ê pn̄g tsin bô-bī, bóng tsia̍h--lah.", en: "The hospital food has no taste, but I eat it anyway."}
+  - {n: 8, speaker: A-bîng, hanji: "阮已經倩一个看護，暗時會照顧你。", tailo: "Guán í-king tshiànn tsi̍t ê khàn-hōo, àm-sî ē tsiàu-kòo--lí.", en: "We've hired a carer who'll look after you at night."}
+  - {n: 9, speaker: A-má, hanji: "免啦，遐貴！我家己會使。", tailo: "Bián--lah, hiah kuì! Guá ka-kī ē-sái.", en: "No need, it's so expensive! I can manage."}
+  - {n: 10, speaker: A-bîng, hanji: "袂當啦！醫生吩咐，你袂使家己落眠床。", tailo: "Bē-tàng--lah! I-sing huan-hù, lí bē-sái ka-kī lo̍h bîn-tshn̂g.", en: "No way! The doctor said you mustn't get out of bed on your own."}
+  - {n: 11, speaker: Sam, hanji: "阿媽，我削一粒蘋果予你食。", tailo: "A-má, guá siah tsi̍t lia̍p phông-kó hōo lí tsia̍h.", en: "A-má, I'll peel you an apple."}
+  - {n: 12, speaker: A-má, hanji: "你遮爾有孝……阿媽真感心。", tailo: "Lí tsiah-nī iú-hàu…… A-má tsin kám-sim.", en: "You're so good to me… A-má is very touched."}
+  - {n: 13, speaker: Sam, hanji: "阿媽，你哪會流目屎？莫哭啦，你緊好，咱閣做伙去夜市。", tailo: "A-má, lí ná ē lâu ba̍k-sái? Mài khàu--lah, lí kín hó, lán koh tsò-hué khì iā-tshī.", en: "A-má, why are you crying? Don't cry, get well soon and we'll go to the night market together again."}
+  - {n: 14, speaker: A-bîng, hanji: "我捾一袋衫佮你的手機仔來，攏囥佇遮。", tailo: "Guá kuānn tsi̍t tē sann kah lí ê tshiú-ki-á lâi, lóng khǹg tī tsia.", en: "I've brought a bag of clothes and your phone; I'll put it all here."}
+  - {n: 15, speaker: A-má, hanji: "好。恁轉去較早睏咧，莫為著我煩惱。", tailo: "Hó. Lín tńg-khì khah tsá khùn--leh, mài uī-tio̍h guá huân-ló.", en: "All right. Go home and get to bed early, and don't worry about me."}
+notes:
+  - {ref: 1, topic: vocab, text: "跋倒 pua̍h-tó = fall over (跌倒); 跋 pua̍h alone = fall, trip, Taigi-only: 跋落去 'fall down (into)'. 蹛院 tuà-īnn = be in hospital (住院): 蹛 tuà 'live, stay' (lesson 2). 浴間仔 i̍k-king-á = bathroom. 昨暗 tsa-àm = last night."}
+  - {ref: 2, topic: vocab, text: "要緊 iàu-kín = serious, important: 敢有要緊？ 'is it serious?'; 無要緊 'it doesn't matter' (lesson 51)."}
+  - {ref: 3, topic: vocab, text: "好佳哉 hó-ka-tsài = luckily, thank goodness. 傷重 siong-tiōng = serious (of an injury or illness). 小可仔 sió-khuá-á = slightly. 裂 li̍h = crack, split; 裂去 'has cracked' (adjective/verb + --去, lesson 55). 跤骨 kha-kut = leg bone."}
+  - {ref: 4, topic: vocab, text: "即時 tsik-sî = at once, right away (馬上). 一寡 tsi̍t-kuá = some (lesson 50). 病院 pēnn-īnn = hospital (醫院)."}
+  - {ref: 6, topic: grammar, text: "袂當 bē-tàng = cannot, unable (不能); 袂使 bē-sái (line 10) = must not, not allowed. Both answer 會當 / 會使 (lesson 52). 疼 thiànn = hurt."}
+  - {ref: 7, topic: grammar, text: "罔 bóng + verb = make do, do it anyway (姑且): 罔食 'eat it all the same', 罔看 'watch it for want of anything better'. Taigi-only. 無味 bô-bī = tasteless."}
+  - {ref: 8, topic: vocab, text: "看護 khàn-hōo = carer, nursing aide. 照顧 tsiàu-kòo = look after. 倩 tshiànn = hire (lesson 52)."}
+  - {ref: 10, topic: vocab, text: "吩咐 huan-hù = instruct, tell (someone to do something) (囑咐): 醫生吩咐 'the doctor's orders'. 落眠床 lo̍h bîn-tshn̂g = get out of bed: 眠床 = bed."}
+  - {ref: 11, topic: vocab, text: "削 siah = peel (with a knife); 剝 pak is peeling by hand (lesson 55). 蘋果 phông-kó = apple. 粒 lia̍p = classifier for round things."}
+  - {ref: 12, topic: vocab, text: "有孝 iú-hàu = devoted to one's elders (lesson 40). 感心 kám-sim = touched, moved (lesson 41)."}
+  - {ref: 13, topic: vocab, text: "目屎 ba̍k-sái = tears (眼淚), Taigi-only: 流目屎 lâu ba̍k-sái 'shed tears'. 目 'eye' + 屎 'discharge' — not rude in Taigi. 緊好 kín hó = get well soon."}
+  - {ref: 14, topic: vocab, text: "捾 kuānn = carry (hanging from the hand, like a bag) (提), Taigi-only. Compare 攑 gia̍h 'hold up', 揹 phāinn 'carry on the back'. 袋 tē = bag; classifier for bagfuls. 囥 khǹg = put, keep."}
+  - {ref: 15, topic: grammar, text: "為著 uī-tio̍h + person + 煩惱 = worry about someone (lesson 57). 早睏 tsá khùn = go to bed early."}
+new_words:
+  - {tailo: pua̍h-tó, hanji: 跋倒, en: "fall over"}
+  - {tailo: tuà-īnn, hanji: 蹛院, en: "be in hospital"}
+  - {tailo: iàu-kín, hanji: 要緊, en: "serious, important"}
+  - {tailo: hó-ka-tsài, hanji: 好佳哉, en: "luckily"}
+  - {tailo: siong-tiōng, hanji: 傷重, en: "serious (injury)"}
+  - {tailo: tsik-sî, hanji: 即時, en: "at once"}
+  - {tailo: pēnn-īnn, hanji: 病院, en: "hospital"}
+  - {tailo: bē-tàng, hanji: 袂當, en: "cannot"}
+  - {tailo: bóng, hanji: 罔, en: "make do, do anyway"}
+  - {tailo: tsiàu-kòo, hanji: 照顧, en: "look after"}
+  - {tailo: huan-hù, hanji: 吩咐, en: "instruct"}
+  - {tailo: bîn-tshn̂g, hanji: 眠床, en: "bed"}
+  - {tailo: siah, hanji: 削, en: "peel (with a knife)"}
+  - {tailo: ba̍k-sái, hanji: 目屎, en: "tears"}
+  - {tailo: kuānn, hanji: 捾, en: "carry in the hand"}
+exercises:
+  translate:
+    - {tailo: "Hó-ka-tsài bô siong-tiōng.", hanji: "好佳哉無傷重。", en: "Luckily it's not serious."}
+    - {tailo: "Lí bē-sái ka-kī lo̍h bîn-tshn̂g.", hanji: "你袂使家己落眠床。", en: "You mustn't get out of bed on your own."}
+  fill:
+    - {tailo: "A-má tsa-àm tī i̍k-king-á ___.", hanji: "阿媽昨暗佇浴間仔___。", answer: "pua̍h-tó", answer_hanji: "跋倒", en: "A-má fell in the bathroom last night."}
+    - {tailo: "Pēnn-īnn ê pn̄g tsin bô-bī, ___ tsia̍h--lah.", hanji: "病院的飯真無味，___食啦。", answer: "bóng", answer_hanji: "罔", en: "The hospital food has no taste, but I eat it anyway."}
+audio: []

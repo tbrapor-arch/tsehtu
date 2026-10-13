@@ -1,0 +1,59 @@
+id: 60
+title: {en: "Taiwanese songs", tailo: "Tâi-gí-kua", hanji: "台語歌"}
+phase: active
+review: false
+setting: "A-má is home again. After dinner A-kong takes out his microphone. The lines he sings are his own, in the style of the old songs."
+dialogue:
+  - {n: 1, speaker: A-kong, hanji: "Sam，你敢捌聽過台語歌？", tailo: "Sam, lí kám bat thiann-kuè Tâi-gí-kua?", en: "Sam, have you ever listened to Taiwanese songs?"}
+  - {n: 2, speaker: Sam, hanji: "捌，計程車的收音機逐工咧放。我聽無啥有，干焦知影真悲傷。", tailo: "Bat, kè-thîng-tshia ê siu-im-ki ta̍k-kang teh pàng. Guá thiann bô siánn ū, kan-na tsai-iánn tsin pi-siong.", en: "Yes, the taxi radios play them every day. I barely understand them, I just know they're very sad."}
+  - {n: 3, speaker: A-kong, hanji: "古早的台語歌，十首有九首咧哭：港口、雨、酒、目屎。", tailo: "Kóo-tsá ê Tâi-gí-kua, tsa̍p siú ū káu siú teh khàu: káng-kháu, hōo, tsiú, ba̍k-sái.", en: "Of the old Taiwanese songs, nine out of ten are weeping: harbours, rain, wine, tears."}
+  - {n: 4, speaker: Sam, hanji: "哪會攏遮爾悲傷？", tailo: "Ná ē lóng tsiah-nī pi-siong?", en: "Why are they all so sad?"}
+  - {n: 5, speaker: A-kong, hanji: "彼陣的人真散赤，真濟少年人離開故鄉去都市食頭路，心內思念厝裡的人。", tailo: "Hit-tsūn ê lâng tsin sàn-tshiah, tsin tsē siàu-liân-lâng lī-khui kòo-hiong khì too-tshī tsia̍h thâu-lōo, sim-lāi su-liām tshù--lí ê lâng.", en: "People were very poor back then. Lots of young people left their home towns to work in the cities, and they missed their families."}
+  - {n: 6, speaker: A-kong, hanji: "我唱一條予你聽，是我家己編的。", tailo: "Guá tshiùnn tsi̍t tiâu hōo lí thiann, sī guá ka-kī pian--ê.", en: "I'll sing you one. I made it up myself."}
+  - {n: 7, speaker: A-kong, hanji: "「港口的雨，落袂停；阮的心肝，冷冷冷……」", tailo: "“Káng-kháu ê hōo, lo̍h bē thîng; guán ê sim-kuann, líng-líng-líng……”", en: "“The rain on the harbour won't stop falling; my heart is cold, so cold…”"}
+  - {n: 8, speaker: A-kong, hanji: "「月娘啊月娘，你敢知影，阮咧等你倒轉來……」", tailo: "“Gue̍h-niû--ah gue̍h-niû, lí kám tsai-iánn, guán teh tán lí tò-tńg--lâi……”", en: "“Oh moon, oh moon, do you know I'm waiting for you to come back…”"}
+  - {n: 9, speaker: Sam, hanji: "阿公唱甲真有感情！", tailo: "A-kong tshiùnn kah tsin ū kám-tsîng!", en: "A-kong, you sing with so much feeling!"}
+  - {n: 10, speaker: A-kong, hanji: "台語歌愛用心肝唱。你注意聽，歌詞內底「阮」誠濟。", tailo: "Tâi-gí-kua ài iōng sim-kuann tshiùnn. Lí tsù-ì thiann, kua-sû lāi-té “guán” tsiânn tsē.", en: "Taiwanese songs have to be sung from the heart. Listen closely: the lyrics are full of 'guán'."}
+  - {n: 11, speaker: Sam, hanji: "著，毋是「我」，是「阮」。", tailo: "Tio̍h, m̄ sī “guá”, sī “guán”.", en: "Right, not 'guá' but 'guán'."}
+  - {n: 12, speaker: A-kong, hanji: "歌內底的「阮」通常是「我」的意思，聽起來較溫柔、較謙卑。", tailo: "Kua lāi-té ê “guán” thong-siông sī “guá” ê ì-sù, thiann--khí-lâi khah un-jiû, khah khiam-pi.", en: "In songs, 'guán' usually means 'I'; it sounds gentler and more modest."}
+  - {n: 13, speaker: Sam, hanji: "我嘛欲學一條，下擺辦桌的時唱予逐家聽。", tailo: "Guá mā beh o̍h tsi̍t tiâu, ē-pái pān-toh ê sî tshiùnn hōo ta̍k-ke thiann.", en: "I want to learn one too, and sing it for everyone at the next banquet."}
+  - {n: 14, speaker: A-kong, hanji: "好啊！第一句：「倒轉去故鄉」，你綴我唱。", tailo: "Hó--ah! Tē-it kù: “Tò-tńg khì kòo-hiong”, lí tuè guá tshiùnn.", en: "Great! First line: “Going back home”. Sing after me."}
+  - {n: 15, speaker: Sam, hanji: "「倒轉去故鄉……」阿公，按呢敢著？", tailo: "“Tò-tńg khì kòo-hiong……” A-kong, án-ne kám tio̍h?", en: "“Going back home…” A-kong, is that right?"}
+  - {n: 16, speaker: A-kong, hanji: "著！你的台語愈來愈好矣。", tailo: "Tio̍h! Lí ê Tâi-gí jú lâi jú hó--ah.", en: "Yes! Your Taigi is getting better and better."}
+notes:
+  - {ref: 1, topic: grammar, text: "捌 bat + V + 過 kuè = have (ever) done: 你敢捌聽過…？ 'have you ever heard…?'."}
+  - {ref: 2, topic: vocab, text: "放 pàng = play (music, a film) (播放); also 'let go, release'. 收音機 siu-im-ki = radio. 聽無啥有 thiann bô siánn ū = barely understand (聽不太懂). 悲傷 pi-siong = sad."}
+  - {ref: 3, topic: culture, text: "The classic themes of old Taiwanese songs (1950s–80s): the harbour where someone sails away, rain, drinking alone, tears. 首 siú = classifier for songs and poems; 條 tiâu (line 6) is the everyday one. 十首有九首 'nine out of ten'."}
+  - {ref: 5, topic: vocab, text: "散赤 sàn-tshiah = poor (lesson 57). 離開 lī-khui = leave. 故鄉 kòo-hiong = home town. 都市 too-tshī = city. 思念 su-liām = miss, long for (a song word; everyday speech says 想 siūnn). 厝裡的人 'the people at home'."}
+  - {ref: 6, topic: vocab, text: "編 pian = make up, compose (a song, a story)."}
+  - {ref: 7, topic: grammar, text: "落袂停 lo̍h bē thîng 'won't stop falling': V + 袂 + result. Tripled adjective = very: 冷冷冷 'so cold' (doubled softens, tripled strengthens). 心肝 sim-kuann = heart, feelings; also 'darling'."}
+  - {ref: 8, topic: vocab, text: "倒轉來 tò-tńg--lâi = come back; 倒轉去 tò-tńg khì = go back (to one's home): 倒轉 tò-tńg = return, Taigi-only. 等 tán = wait (等待 tán-thāi in writing)."}
+  - {ref: 9, topic: vocab, text: "感情 kám-tsîng = feeling, emotion. 唱甲真有感情 'sang with a lot of feeling' (V + 甲)."}
+  - {ref: 10, topic: vocab, text: "注意 tsù-ì = pay attention. 歌詞 kua-sû = lyrics. 誠濟 tsiânn tsē = very many."}
+  - {ref: 12, topic: grammar, text: "In songs (and in modest speech) 阮 guán often means 'I, my' rather than 'we' (lesson 6). 通常 thong-siông = usually. 聽起來 thiann--khí-lâi = sounds. 溫柔 un-jiû = gentle; 謙卑 khiam-pi = modest, humble."}
+  - {ref: 13, topic: vocab, text: "辦桌 pān-toh = banquet (lesson 43): a stage with singers or karaoke is part of it."}
+  - {ref: 14, topic: vocab, text: "第一句 tē-it kù = the first line. 綴 tuè = follow; 綴我唱 'sing after me', 綴我來 'follow me'. Taigi-only in this sense."}
+  - {ref: 16, topic: grammar, text: "愈來愈 jú lâi jú + adjective = more and more (越來越): 愈來愈好 'better and better'. Also 愈…愈… 'the more … the more …'."}
+new_words:
+  - {tailo: pàng, hanji: 放, en: "play (music); let go"}
+  - {tailo: pi-siong, hanji: 悲傷, en: "sad"}
+  - {tailo: siú, hanji: 首, en: "classifier for songs"}
+  - {tailo: sàn-tshiah, hanji: 散赤, en: "poor"}
+  - {tailo: lī-khui, hanji: 離開, en: "leave"}
+  - {tailo: kòo-hiong, hanji: 故鄉, en: "home town"}
+  - {tailo: su-liām, hanji: 思念, en: "miss, long for"}
+  - {tailo: sim-kuann, hanji: 心肝, en: "heart; darling"}
+  - {tailo: tò-tńg, hanji: 倒轉, en: "return, go back"}
+  - {tailo: kám-tsîng, hanji: 感情, en: "feeling"}
+  - {tailo: kua-sû, hanji: 歌詞, en: "lyrics"}
+  - {tailo: thong-siông, hanji: 通常, en: "usually"}
+  - {tailo: un-jiû, hanji: 溫柔, en: "gentle"}
+  - {tailo: tuè, hanji: 綴, en: "follow"}
+exercises:
+  translate:
+    - {tailo: "Lí kám bat thiann-kuè Tâi-gí-kua?", hanji: "你敢捌聽過台語歌？", en: "Have you ever listened to Taiwanese songs?"}
+    - {tailo: "Lí tuè guá tshiùnn.", hanji: "你綴我唱。", en: "Sing after me."}
+  fill:
+    - {tailo: "Lí ê Tâi-gí ___ lâi ___ hó--ah.", hanji: "你的台語___來___好矣。", answer: "jú", answer_hanji: "愈", en: "Your Taigi is getting better and better."}
+    - {tailo: "Guán teh tán lí ___--lâi.", hanji: "阮咧等你___來。", answer: "tò-tńg", answer_hanji: "倒轉", en: "I'm waiting for you to come back."}
+audio: []

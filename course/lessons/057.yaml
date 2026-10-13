@@ -1,0 +1,59 @@
+id: 57
+title: {en: "Elections on TV", tailo: "Khuànn khui-phiò", hanji: "看開票"}
+phase: active
+review: false
+setting: "Election night for the city mayor. A-kong has the TV on for the vote count; Sam joins him on the sofa. The two candidates, No. 1 and No. 2, are invented."
+dialogue:
+  - {n: 1, speaker: A-kong, hanji: "Sam，緊來看，開票矣！", tailo: "Sam, kín lâi khuànn, khui-phiò--ah!", en: "Sam, come and watch, they're counting the votes!"}
+  - {n: 2, speaker: Sam, hanji: "這擺是選市長乎？阿公，你敢有去投票？", tailo: "Tsit pái sī suán tshī-tiúnn--honnh? A-kong, lí kám ū khì tâu-phiò?", en: "This time it's the mayor, right? A-kong, did you go and vote?"}
+  - {n: 3, speaker: A-kong, hanji: "當然有！我透早就去矣。投票是咱的權利。", tailo: "Tong-jiân ū! Guá thàu-tsá tō khì--ah. Tâu-phiò sī lán ê khuân-lī.", en: "Of course! I went first thing in the morning. Voting is our right."}
+  - {n: 4, speaker: Sam, hanji: "你投予啥人？", tailo: "Lí tâu hōo siánn-lâng?", en: "Who did you vote for?"}
+  - {n: 5, speaker: A-kong, hanji: "這是祕密。你臆看覓。", tailo: "Tse sī pì-bi̍t. Lí ioh khuànn-māi.", en: "That's a secret. Have a guess."}
+  - {n: 6, speaker: Sam, hanji: "我臆是一號。伊講欲予少年人較濟頭路。", tailo: "Guá ioh sī it hō. I kóng beh hōo siàu-liân-lâng khah tsē thâu-lōo.", en: "I'd guess No. 1. He says he'll create more jobs for young people."}
+  - {n: 7, speaker: A-kong, hanji: "一號真誠懇，總是伊傷少年，經驗無夠。", tailo: "It hō tsin sîng-khún, tsóng--sī i siunn siàu-liân, king-giām bô kàu.", en: "No. 1 is very sincere; however, he's too young and doesn't have enough experience."}
+  - {n: 8, speaker: A-kong, hanji: "二號較有經驗，毋過伊真好額，我驚伊袂了解咱普通人。", tailo: "Jī hō khah ū king-giām, m̄-koh i tsin hó-gia̍h, guá kiann i bē liáu-kái lán phóo-thong lâng.", en: "No. 2 has more experience, but he's very rich, and I'm afraid he won't understand ordinary people like us."}
+  - {n: 9, speaker: Sam, hanji: "按呢你的意見是……？", tailo: "Án-ne lí ê ì-kiàn sī……?", en: "So your view is…?"}
+  - {n: 10, speaker: A-kong, hanji: "我的看法是：毋管啥人當選，攏愛做代誌予咱看。", tailo: "Guá ê khuànn-huat sī: m̄-kuán siánn-lâng tòng-suán, lóng ài tsò tāi-tsì hōo lán khuànn.", en: "My view is: whoever wins has to show us results."}
+  - {n: 11, speaker: A-bîng, hanji: "阿公又閣咧講政治喔？", tailo: "A-kong iū-koh teh kóng tsìng-tī--ooh?", en: "Is A-kong talking politics again?"}
+  - {n: 12, speaker: A-kong, hanji: "講政治有啥物毋好？民主就是逐个會使講家己的意見。", tailo: "Kóng tsìng-tī ū siánn-mih m̄ hó? Bîn-tsú tō sī ta̍k ê ē-sái kóng ka-kī ê ì-kiàn.", en: "What's wrong with talking politics? Democracy means everyone can say what they think."}
+  - {n: 13, speaker: A-bîng, hanji: "我知影，我知影。毋過咱厝內莫為著選舉冤家就好。", tailo: "Guá tsai-iánn, guá tsai-iánn. M̄-koh lán tshù-lāi mài uī-tio̍h suán-kí uan-ke tō hó.", en: "I know, I know. As long as we don't argue at home over the election."}
+  - {n: 14, speaker: Sam, hanji: "恁看，二號較濟票矣！", tailo: "Lín khuànn, jī hō khah tsē phiò--ah!", en: "Look, No. 2 has pulled ahead!"}
+  - {n: 15, speaker: A-kong, hanji: "檢采二號當選，我嘛會尊重。票閣咧算，明仔載才知影結果。", tailo: "Kiám-tshái jī hō tòng-suán, guá mā ē tsun-tiōng. Phiò koh teh sǹg, bîn-á-tsài tsiah tsai-iánn kiat-kó.", en: "If No. 2 wins, I'll respect that too. They're still counting; we'll only know the result tomorrow."}
+notes:
+  - {ref: 1, topic: vocab, text: "開票 khui-phiò = count the votes (literally 'open the ballots'). 票 phiò = ballot, vote; also ticket (車票)."}
+  - {ref: 2, topic: vocab, text: "選 suán = elect, choose: 選市長 'elect a mayor'; 選舉 suán-kí = election. 投票 tâu-phiò = vote. 這擺 tsit pái = this time."}
+  - {ref: 3, topic: vocab, text: "當然 tong-jiân = of course. 權利 khuân-lī = right (legal)."}
+  - {ref: 4, topic: grammar, text: "投予 tâu hōo + person = vote for: 予 marks who receives (lesson 41)."}
+  - {ref: 5, topic: vocab, text: "臆 ioh = guess (猜), Taigi-only: 臆看覓 'have a guess', 臆謎猜 ioh bî-tshai 'guess riddles'. 祕密 pì-bi̍t = secret."}
+  - {ref: 6, topic: vocab, text: "一號 it hō, 二號 jī hō = No. 1, No. 2: ordinal numbers use the literary readings it, jī (not tsi̍t, nn̄g). 少年人 siàu-liân-lâng = young people (lesson 26)."}
+  - {ref: 7, topic: false-friend, text: "總是 tsóng--sī = however, but (但是), not Mandarin 總是 'always'. Note the neutral tone on 是. It is a little more formal than 毋過. 誠懇 sîng-khún = sincere."}
+  - {ref: 8, topic: vocab, text: "好額 hó-gia̍h = rich (富有), Taigi-only; the opposite is 散赤 sàn-tshiah 'poor'. 了解 liáu-kái = understand. 普通 phóo-thong = ordinary."}
+  - {ref: 10, topic: grammar, text: "Giving an opinion: 我的看法是… 'my view is…', 我感覺… 'I feel…', 我認為 jīn-uî… 'I believe…' (formal). 做代誌予咱看 'do things for us to see': deliver. 當選 tòng-suán = be elected; 落選 lo̍k-suán = lose."}
+  - {ref: 11, topic: vocab, text: "政治 tsìng-tī = politics. 又閣 iū-koh = again (annoyed, lesson 47)."}
+  - {ref: 12, topic: vocab, text: "民主 bîn-tsú = democracy. 逐个 ta̍k ê = everyone (lesson 55)."}
+  - {ref: 13, topic: false-friend, text: "知影 tsai-iánn = know (a fact) (知道); 知 tsai alone too. 捌 bat is 'know (a person, a word)'. 為著 uī-tio̍h = because of, for the sake of. 冤家 uan-ke = quarrel (lesson 47). …就好 'as long as…'."}
+  - {ref: 15, topic: grammar, text: "檢采 kiám-tshái = if, in case (如果、萬一), Taigi-only and a little bookish: 檢采伊當選 'if he gets elected'. Everyday speech uses 若 nā. 尊重 tsun-tiōng = respect. 結果 kiat-kó = result."}
+new_words:
+  - {tailo: khui-phiò, hanji: 開票, en: "count the votes"}
+  - {tailo: suán-kí, hanji: 選舉, en: "election"}
+  - {tailo: tâu-phiò, hanji: 投票, en: "vote"}
+  - {tailo: ioh, hanji: 臆, en: "guess"}
+  - {tailo: pì-bi̍t, hanji: 祕密, en: "secret"}
+  - {tailo: tsóng--sī, hanji: 總是, en: "however"}
+  - {tailo: sîng-khún, hanji: 誠懇, en: "sincere"}
+  - {tailo: hó-gia̍h, hanji: 好額, en: "rich"}
+  - {tailo: liáu-kái, hanji: 了解, en: "understand"}
+  - {tailo: khuànn-huat, hanji: 看法, en: "view, opinion"}
+  - {tailo: tòng-suán, hanji: 當選, en: "be elected"}
+  - {tailo: tsìng-tī, hanji: 政治, en: "politics"}
+  - {tailo: tsai-iánn, hanji: 知影, en: "know"}
+  - {tailo: kiám-tshái, hanji: 檢采, en: "if, in case"}
+  - {tailo: kiat-kó, hanji: 結果, en: "result"}
+exercises:
+  translate:
+    - {tailo: "Lí tâu hōo siánn-lâng?", hanji: "你投予啥人？", en: "Who did you vote for?"}
+    - {tailo: "Guá ê khuànn-huat sī: m̄-kuán siánn-lâng tòng-suán, lóng ài tsò tāi-tsì.", hanji: "我的看法是：毋管啥人當選，攏愛做代誌。", en: "My view is: whoever wins has to deliver."}
+  fill:
+    - {tailo: "Tse sī pì-bi̍t. Lí ___ khuànn-māi.", hanji: "這是祕密。你___看覓。", answer: "ioh", answer_hanji: "臆", en: "That's a secret. Have a guess."}
+    - {tailo: "I tsin ___, guá kiann i bē liáu-kái lán.", hanji: "伊真___，我驚伊袂了解咱。", answer: "hó-gia̍h", answer_hanji: "好額", en: "He's very rich; I'm afraid he won't understand us."}
+audio: []

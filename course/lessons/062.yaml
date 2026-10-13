@@ -1,0 +1,60 @@
+id: 62
+title: {en: "Directions by scooter", tailo: "Khiâ ki-tshia tshuē lōo", hanji: "騎機車揣路"}
+phase: active
+review: false
+setting: "Sam is riding over to meet A-hun after her work. He has pulled over at a petrol station and phones her."
+dialogue:
+  - {n: 1, speaker: Sam, hanji: "阿芬，我佇加油站遮。恁公司的所在，我揣無。", tailo: "A-hun, guá tī ka-iû-tsām tsia. Lín kong-si ê sóo-tsāi, guá tshuē bô.", en: "A-hun, I'm at the petrol station. I can't find where your office is."}
+  - {n: 2, speaker: A-hun, hanji: "先莫急。你看會著一條橋無？", tailo: "Sing mài kip. Lí khuànn ē tio̍h tsi̍t tiâu kiô--bô?", en: "Don't panic. Can you see a bridge?"}
+  - {n: 3, speaker: Sam, hanji: "有，頭前有一條橋。", tailo: "Ū, thâu-tsîng ū tsi̍t tiâu kiô.", en: "Yes, there's a bridge ahead."}
+  - {n: 4, speaker: A-hun, hanji: "過橋了後，直直騎，到第二个青紅燈斡倒手。", tailo: "Kuè kiô liáu-āu, ti̍t-ti̍t khiâ, kàu tē-jī ê tshenn-âng-ting uat tò-tshiú.", en: "After the bridge, go straight on and turn left at the second traffic lights."}
+  - {n: 5, speaker: Sam, hanji: "第二个青紅燈斡倒手……好。紲落來咧？", tailo: "Tē-jī ê tshenn-âng-ting uat tò-tshiú…… Hó. Suà--lo̍h-lâi--leh?", en: "Left at the second lights… OK. And then?"}
+  - {n: 6, speaker: A-hun, hanji: "斡過去，你會看著一間廟。廟的對面有一條巷仔。", tailo: "Uat--kuè-khì, lí ē khuànn-tio̍h tsi̍t king biō. Biō ê tuì-bīn ū tsi̍t tiâu hāng-á.", en: "Once you've turned, you'll see a temple. Opposite the temple there's a lane."}
+  - {n: 7, speaker: A-hun, hanji: "對巷仔口入去，這條巷仔迵大路。阮公司佇路尾，正手爿。", tailo: "Tuì hāng-á-kháu ji̍p-khì, tsit tiâu hāng-á thàng tuā-lōo. Guán kong-si tī lōo-bué, tsiànn-tshiú-pîng.", en: "Go in at the mouth of the lane; it goes right through to the main road. Our office is at the end, on the right."}
+  - {n: 8, speaker: Sam, hanji: "巷仔遐爾狹，我驚撞著人。", tailo: "Hāng-á hiah-nī e̍h, guá kiann tōng-tio̍h lâng.", en: "The lane is so narrow, I'm afraid I'll hit someone."}
+  - {n: 9, speaker: A-hun, hanji: "所以你騎較慢咧，看著人就踏車擋。", tailo: "Sóo-í lí khiâ khah bān--leh, khuànn-tio̍h lâng tō ta̍h tshia-tòng.", en: "So ride slowly, and brake when you see people."}
+  - {n: 10, speaker: Sam, hanji: "（十分鐘了後）阿芬，我到位矣！毋過……遮是學校？", tailo: "(Tsa̍p hun-tsing liáu-āu) A-hun, guá kàu-uī--ah! M̄-koh…… tsia sī ha̍k-hāu?", en: "(Ten minutes later) A-hun, I'm there! But… this is a school?"}
+  - {n: 11, speaker: A-hun, hanji: "你行毋著路矣。你敢是斡正手？", tailo: "Lí kiânn m̄-tio̍h lōo--ah. Lí kám sī uat tsiànn-tshiú?", en: "You've gone the wrong way. Did you turn right?"}
+  - {n: 12, speaker: Sam, hanji: "……敢若是。正手、倒手，我定定分袂清楚。", tailo: "…… Kánn-ná sī. Tsiànn-tshiú, tò-tshiú, guá tiānn-tiānn hun bē tshing-tshó.", en: "…Looks like it. Right and left, I'm always mixing them up."}
+  - {n: 13, speaker: A-hun, hanji: "無要緊。你徛佇學校門口等，我下班去揣你。", tailo: "Bô-iàu-kín. Lí khiā tī ha̍k-hāu mn̂g-kháu tán, guá hā-pan khì tshuē--lí.", en: "Never mind. Wait at the school gate and I'll come and find you after work."}
+  - {n: 14, speaker: Sam, hanji: "歹勢啦。下擺我煮滷肉飯請你。", tailo: "Pháinn-sè--lah. Ē-pái guá tsú lóo-bah-pn̄g tshiánn--lí.", en: "Sorry about this. Next time I'll make you braised pork rice."}
+  - {n: 15, speaker: A-hun, hanji: "好啊！毋過你先學會曉正手倒手。", tailo: "Hó--ah! M̄-koh lí sing o̍h ē-hiáu tsiànn-tshiú tò-tshiú.", en: "Deal! But first learn your right from your left."}
+notes:
+  - {ref: 1, topic: false-friend, text: "所在 sóo-tsāi = place, location (地方): 恁公司的所在 'where your company is'. 揣無 tshuē bô = can't find (V + 無 = fail to). 加油站 ka-iû-tsām = petrol station."}
+  - {ref: 2, topic: grammar, text: "看會著 khuànn ē tio̍h = can see (看得到); 看袂著 = can't see. 急 kip = anxious, in a hurry. 條 tiâu = classifier for long things: roads, bridges, lanes, songs."}
+  - {ref: 3, topic: vocab, text: "頭前 thâu-tsîng = ahead, in front (前面); its opposite 後壁 āu-piah 'behind' (lesson 54)."}
+  - {ref: 4, topic: vocab, text: "斡 uat = turn (轉彎), Taigi-only: 斡倒手 'turn left', 斡正手 'turn right'. 倒手 tò-tshiú = left hand, 正手 tsiànn-tshiú = right hand. 青紅燈 tshenn-âng-ting = traffic lights ('green-red lights'). 直直 ti̍t-ti̍t = straight on. 第二个 tē-jī ê = the second."}
+  - {ref: 6, topic: vocab, text: "斡過去 uat--kuè-khì = turn (and go through): direction complement after the verb. 間 king = classifier for buildings and rooms. 廟 biō = temple. 對面 tuì-bīn = opposite."}
+  - {ref: 7, topic: vocab, text: "對 tuì = from, via (從): 對巷仔口入去 'go in at the mouth of the lane'. 迵 thàng = go right through to, lead to (通到), Taigi-only. 路尾 lōo-bué = the end of the road. 正手爿 tsiànn-tshiú-pîng = right-hand side; 爿 pîng = side."}
+  - {ref: 8, topic: vocab, text: "狹 e̍h = narrow; its opposite 闊 khuah 'wide'. 撞著 tōng-tio̍h = bump into, hit."}
+  - {ref: 9, topic: false-friend, text: "踏 ta̍h = step on, press with the foot (踩): 踏車擋 'brake' (車擋 = brake), 踏油門 'accelerate'. Also 'ride (pedal)': 踏鐵馬 'ride a bicycle'."}
+  - {ref: 10, topic: false-friend, text: "到位 kàu-uī = arrive (at the place you were going) (到達): 我到位矣 'I'm here'. Not Mandarin 到位 'up to standard'."}
+  - {ref: 11, topic: grammar, text: "V + 毋著 m̄-tio̍h = do wrongly: 行毋著路 'take the wrong road', 講毋著 'say it wrong'. 敢是…？ 'did you perhaps…?'"}
+  - {ref: 12, topic: vocab, text: "敢若 kánn-ná = seem, as if (好像): 敢若是 'looks like it'. 定定 tiānn-tiānn = often (常常), Taigi-only. 分袂清楚 hun bē tshing-tshó = can't tell apart."}
+  - {ref: 13, topic: vocab, text: "徛 khiā = stand; also 'live' (lesson 2). 門口 mn̂g-kháu = entrance, gate. 下班 hā-pan = after work."}
+  - {ref: 15, topic: grammar, text: "學會曉 o̍h ē-hiáu = learn (until you know how) (學會)."}
+new_words:
+  - {tailo: sóo-tsāi, hanji: 所在, en: "place"}
+  - {tailo: kip, hanji: 急, en: "anxious, in a hurry"}
+  - {tailo: thâu-tsîng, hanji: 頭前, en: "ahead, in front"}
+  - {tailo: uat, hanji: 斡, en: "turn"}
+  - {tailo: tò-tshiú, hanji: 倒手, en: "left"}
+  - {tailo: tsiànn-tshiú, hanji: 正手, en: "right"}
+  - {tailo: tshenn-âng-ting, hanji: 青紅燈, en: "traffic lights"}
+  - {tailo: ti̍t-ti̍t, hanji: 直直, en: "straight on"}
+  - {tailo: tuì-bīn, hanji: 對面, en: "opposite"}
+  - {tailo: thàng, hanji: 迵, en: "go through to"}
+  - {tailo: e̍h, hanji: 狹, en: "narrow"}
+  - {tailo: ta̍h, hanji: 踏, en: "step on, press"}
+  - {tailo: tshia-tòng, hanji: 車擋, en: "brake"}
+  - {tailo: kàu-uī, hanji: 到位, en: "arrive"}
+  - {tailo: kánn-ná, hanji: 敢若, en: "seem, as if"}
+  - {tailo: tiānn-tiānn, hanji: 定定, en: "often"}
+exercises:
+  translate:
+    - {tailo: "Kàu tē-jī ê tshenn-âng-ting uat tò-tshiú.", hanji: "到第二个青紅燈斡倒手。", en: "Turn left at the second traffic lights."}
+    - {tailo: "Guá kàu-uī--ah!", hanji: "我到位矣！", en: "I'm here!"}
+  fill:
+    - {tailo: "Khuànn-tio̍h lâng tō ___ tshia-tòng.", hanji: "看著人就___車擋。", answer: "ta̍h", answer_hanji: "踏", en: "Brake when you see people."}
+    - {tailo: "Tsiànn-tshiú, tò-tshiú, guá ___ hun bē tshing-tshó.", hanji: "正手、倒手，我___分袂清楚。", answer: "tiānn-tiānn", answer_hanji: "定定", en: "Right and left, I'm always mixing them up."}
+audio: []

@@ -1,0 +1,58 @@
+id: 61
+title: {en: "Learning to cook lóo-bah-pn̄g", tailo: "Tsú lóo-bah-pn̄g", hanji: "煮滷肉飯"}
+phase: active
+review: false
+setting: "A-má can't stand for long yet, so she sits in the kitchen and teaches Sam her braised pork rice. Sam does the cooking."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "Sam，今仔日我教你煮滷肉飯。你做，我坐佇遮講。", tailo: "Sam, kin-á-ji̍t guá kà lí tsú lóo-bah-pn̄g. Lí tsò, guá tsē tī tsia kóng.", en: "Sam, today I'll teach you to make braised pork rice. You cook, I'll sit here and talk."}
+  - {n: 2, speaker: Sam, hanji: "好！先愛創啥？", tailo: "Hó! Sing ài tshòng siánn?", en: "Great! What do I do first?"}
+  - {n: 3, speaker: A-má, hanji: "先共三層肉切做細塊，莫切傷大塊。", tailo: "Sing kā sam-tsân-bah tshiat tsò sè tè, mài tshiat siunn tuā tè.", en: "First cut the pork belly into small pieces; not too big."}
+  - {n: 4, speaker: A-má, hanji: "紲落來共火點著。鼎燒了後，下油蔥炒予芳。", tailo: "Suà--lo̍h-lâi kā hué tiám--to̍h. Tiánn sio liáu-āu, hē iû-tshang tshá hōo phang.", en: "Next, light the stove. Once the wok is hot, put in the fried shallots and fry them till fragrant."}
+  - {n: 5, speaker: Sam, hanji: "規个灶跤攏芳起來矣！", tailo: "Kui ê tsàu-kha lóng phang--khí-lâi--ah!", en: "The whole kitchen smells wonderful!"}
+  - {n: 6, speaker: A-má, hanji: "肉落去炒，炒甲變色，才閣下豆油、冰糖、米酒佮五香。", tailo: "Bah lo̍h-khì tshá, tshá kah piàn-sik, tsiah koh hē tāu-iû, ping-thn̂g, bí-tsiú kah ngóo-hiang.", en: "Put the meat in and fry it until it changes colour; only then add soy sauce, rock sugar, rice wine and five-spice."}
+  - {n: 7, speaker: Sam, hanji: "豆油愛下偌濟？", tailo: "Tāu-iû ài hē guā-tsē?", en: "How much soy sauce?"}
+  - {n: 8, speaker: A-má, hanji: "阿媽攏無咧量，看色水就知影。", tailo: "A-má lóng bô teh niû, khuànn sik-tsuí tō tsai-iánn.", en: "A-má never measures. You can tell by the colour."}
+  - {n: 9, speaker: Sam, hanji: "按呢誠僫學！", tailo: "Án-ne tsiânn oh o̍h!", en: "That makes it really hard to learn!"}
+  - {n: 10, speaker: A-má, hanji: "慢慢仔來。水加甲淹過肉，大火滾了後，火轉細，崁鼎蓋。", tailo: "Bān-bān-á lâi. Tsuí ke kah im kuè bah, tuā-hué kún liáu-āu, hué tńg sè, khàm tiánn-kuà.", en: "Take your time. Add water to cover the meat; once it boils on a high flame, turn it down and put the lid on."}
+  - {n: 11, speaker: A-má, hanji: "滷一點鐘。中間愛攪一下，莫予肉黏鼎。", tailo: "Lóo tsi̍t tiám-tsing. Tiong-kan ài kiáu--tsi̍t-ē, mài hōo bah liâm tiánn.", en: "Braise for an hour. Stir it now and then so the meat doesn't stick to the wok."}
+  - {n: 12, speaker: Sam, hanji: "一點鐘遐久？", tailo: "Tsi̍t tiám-tsing hiah kú?", en: "A whole hour?"}
+  - {n: 13, speaker: A-má, hanji: "好食的物件攏愛等。滷甲肉爛爛，才好食。", tailo: "Hó-tsia̍h ê mi̍h-kiānn lóng ài tán. Lóo kah bah nuā-nuā, tsiah hó-tsia̍h.", en: "Good food always takes waiting. It's only good once the meat is braised soft."}
+  - {n: 14, speaker: Sam, hanji: "（一點鐘了後）阿媽，你試看覓鹹淡。", tailo: "(Tsi̍t tiám-tsing liáu-āu) A-má, lí tshì khuànn-māi kiâm-tānn.", en: "(An hour later) A-má, taste it and see if it's seasoned right."}
+  - {n: 15, speaker: A-má, hanji: "……拄仔好！捀一碗予阿公，伊等足久矣。", tailo: "…… Tú-á-hó! Phâng tsi̍t uánn hōo a-kong, i tán tsiok kú--ah.", en: "Mm… just right! Take a bowl to A-kong, he's been waiting ages."}
+notes:
+  - {ref: 1, topic: vocab, text: "滷肉飯 lóo-bah-pn̄g = braised pork on rice, Taiwan's comfort food: 滷 lóo = braise in soy sauce, 肉 bah = meat (pork by default). 教 kà = teach."}
+  - {ref: 3, topic: grammar, text: "Recipe steps: 先 sing … 紲落來 suà--lo̍h-lâi … 了後 liáu-āu … 才閣 tsiah koh … = first … next … after … only then (also) …. 共 + object + 切做細塊 'cut it into small pieces': V + 做 tsò + result shape. 三層肉 sam-tsân-bah = pork belly ('three-layer meat')."}
+  - {ref: 4, topic: false-friend, text: "著 to̍h = burn, be lit (燃燒): 點著 tiám--to̍h 'light (a fire)', 火著矣 'the fire has caught'. Not the 著 tio̍h of 'right' or of results. 鼎 tiánn = wok; 燒 sio = hot. 油蔥 iû-tshang = fried shallots. V + 予 + adjective: 炒予芳 'fry until fragrant'."}
+  - {ref: 5, topic: vocab, text: "灶跤 tsàu-kha = kitchen, Taigi-only. 規个 kui ê = the whole. 芳起來 'start to smell good' (adjective + --起來)."}
+  - {ref: 6, topic: grammar, text: "才閣 tsiah koh = only then (do the next thing): 炒甲變色，才閣下豆油 'fry till it browns, only then add the soy sauce'. 下 hē = put in (lesson 51). 落去 lo̍h-khì = (go) in. 冰糖 ping-thn̂g = rock sugar; 米酒 bí-tsiú = rice wine; 五香 ngóo-hiang = five-spice."}
+  - {ref: 8, topic: vocab, text: "量 niû = measure. 色水 sik-tsuí = colour (of food, cloth), the colloquial word for 顏色."}
+  - {ref: 9, topic: grammar, text: "僫 oh + verb = hard to (lesson 48): 僫學 oh o̍h 'hard to learn'. Two different words, oh 'hard' and o̍h 'learn': only the tone tells them apart."}
+  - {ref: 10, topic: vocab, text: "淹過 im kuè = cover (with liquid). 滾 kún = boil. 火轉細 hué tńg sè = turn the heat down (轉大 'turn it up'). 崁 khàm = cover, put a lid on; 鼎蓋 tiánn-kuà = wok lid."}
+  - {ref: 11, topic: grammar, text: "莫予 mài hōo + thing + verb = don't let it …: 莫予肉黏鼎 'don't let the meat stick'. 攪 kiáu = stir. 中間 tiong-kan = in between."}
+  - {ref: 13, topic: grammar, text: "Result clause + 才 tsiah = only then: 滷甲肉爛爛，才好食 'it's only good when braised soft'. 爛 nuā = soft, mushy."}
+  - {ref: 14, topic: vocab, text: "鹹淡 kiâm-tānn = seasoning, how salty it is ('salty-bland'): 試鹹淡 'taste for seasoning'."}
+  - {ref: 15, topic: vocab, text: "捀 phâng = carry with both hands, level (端), Taigi-only: 捀碗 'carry a bowl', 捀茶 'serve tea'. Compare 捾 kuānn (hanging from the hand) and 攑 gia̍h (held up). 拄仔好 tú-á-hó = just right."}
+new_words:
+  - {tailo: lóo, hanji: 滷, en: "braise"}
+  - {tailo: kà, hanji: 教, en: "teach"}
+  - {tailo: tshiat, hanji: 切, en: "cut"}
+  - {tailo: to̍h, hanji: 著, en: "be lit, burn"}
+  - {tailo: tiánn, hanji: 鼎, en: "wok"}
+  - {tailo: tshá, hanji: 炒, en: "stir-fry"}
+  - {tailo: tsàu-kha, hanji: 灶跤, en: "kitchen"}
+  - {tailo: piàn-sik, hanji: 變色, en: "change colour"}
+  - {tailo: niû, hanji: 量, en: "measure"}
+  - {tailo: sik-tsuí, hanji: 色水, en: "colour"}
+  - {tailo: kún, hanji: 滾, en: "boil"}
+  - {tailo: kiáu, hanji: 攪, en: "stir"}
+  - {tailo: kiâm-tānn, hanji: 鹹淡, en: "seasoning"}
+  - {tailo: phâng, hanji: 捀, en: "carry with both hands"}
+  - {tailo: tú-á-hó, hanji: 拄仔好, en: "just right"}
+exercises:
+  translate:
+    - {tailo: "Tshá kah piàn-sik, tsiah koh hē tāu-iû.", hanji: "炒甲變色，才閣下豆油。", en: "Fry until it changes colour, only then add the soy sauce."}
+    - {tailo: "Phâng tsi̍t uánn hōo a-kong.", hanji: "捀一碗予阿公。", en: "Take a bowl to A-kong."}
+  fill:
+    - {tailo: "Suà--lo̍h-lâi kā hué tiám--___.", hanji: "紲落來共火點___。", answer: "to̍h", answer_hanji: "著", en: "Next, light the stove."}
+    - {tailo: "Lí tshì khuànn-māi ___.", hanji: "你試看覓___。", answer: "kiâm-tānn", answer_hanji: "鹹淡", en: "Taste it and see if it's seasoned right."}
+audio: []

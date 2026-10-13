@@ -1,0 +1,34 @@
+id: 63
+title: {en: "Review 9", tailo: "Ho̍k-si̍p", hanji: "復習"}
+phase: active
+review: true
+setting: "Sunday lunch at A-má's: Sam has made braised pork rice for everyone. Everything comes from lessons 57–62."
+dialogue:
+  - {n: 1, speaker: A-kong, hanji: "這鼎滷肉是啥人煮的？色水真媠。", tailo: "Tsit tiánn lóo-bah sī siánn-lâng tsú--ê? Sik-tsuí tsin suí.", en: "Who made this pot of braised pork? It's a lovely colour."}
+  - {n: 2, speaker: Sam, hanji: "是我！阿媽坐佇灶跤教我的。", tailo: "Sī guá! A-má tsē tī tsàu-kha kà guá--ê.", en: "Me! A-má sat in the kitchen and taught me."}
+  - {n: 3, speaker: A-má, hanji: "伊毋但骨力，閣真細膩，鹹淡拄仔好。", tailo: "I m̄-nā kut-la̍t, koh tsin sè-jī, kiâm-tānn tú-á-hó.", en: "He's not only hard-working but careful too; the seasoning is just right."}
+  - {n: 4, speaker: A-hun, hanji: "毋過伊騎機車定定行毋著路，頂禮拜閣去到學校。", tailo: "M̄-koh i khiâ ki-tshia tiānn-tiānn kiânn m̄-tio̍h lōo, tíng lé-pài koh khì kàu ha̍k-hāu.", en: "But on the scooter he's always going the wrong way. Last week he ended up at a school again."}
+  - {n: 5, speaker: Sam, hanji: "正手、倒手，我這馬分會清楚矣啦！", tailo: "Tsiànn-tshiú, tò-tshiú, guá tsit-má hun ē tshing-tshó--ah--lah!", en: "I can tell right from left now!"}
+  - {n: 6, speaker: A-kong, hanji: "好啦，食飯皇帝大。逐家捀碗，莫冤家。", tailo: "Hó--lah, tsia̍h-pn̄g hông-tè tuā. Ta̍k-ke phâng uánn, mài uan-ke.", en: "That's enough: eating comes first. Everybody take your bowl, no squabbling."}
+  - {n: 7, speaker: A-má, hanji: "食飽了後，阿公閣欲唱台語歌予恁聽。", tailo: "Tsia̍h-pá liáu-āu, a-kong koh beh tshiùnn Tâi-gí-kua hōo lín thiann.", en: "After lunch, A-kong is going to sing you Taiwanese songs again."}
+  - {n: 8, speaker: A-hun, hanji: "又閣是港口佮目屎？", tailo: "Iū-koh sī káng-kháu kah ba̍k-sái?", en: "Harbours and tears again?"}
+  - {n: 9, speaker: A-kong, hanji: "毋是，今仔日唱歡喜的！", tailo: "M̄ sī, kin-á-ji̍t tshiùnn huann-hí--ê!", en: "No, today I'm singing happy ones!"}
+notes:
+  - {ref: 1, topic: grammar, text: "…是啥人 V 的？ 'who did the …?': 是…的 picks out who, when, how (是誰…的). 鼎 tiánn = wok; here a wokful."}
+  - {ref: 2, topic: grammar, text: "Steps and order: 先 sing (first), 紲落來 suà--lo̍h-lâi (next), 了後 liáu-āu (after), 才 tsiah (only then), 才閣 tsiah koh (only then … also). 莫予 + thing + V = don't let it …. Cooking verbs: 切, 炒, 滷, 滾, 攪, 下, 崁, 試."}
+  - {ref: 3, topic: vocab, text: "Carrying with the hands: 攑 gia̍h (hold up), 捾 kuānn (hanging), 捀 phâng (level, with both hands), 揹 phāinn (on the back). Peeling: 剝 pak (by hand), 削 siah (with a knife)."}
+  - {ref: 4, topic: grammar, text: "V + 毋著 = do wrong: 行毋著路, 講毋著. Directions: 直直 (straight on), 斡倒手 / 斡正手 (turn left / right), 頭前 (ahead), 對面 (opposite), 迵 (go through to), 到位 (arrive)."}
+  - {ref: 5, topic: grammar, text: "Can and can't: 會 / 袂 + result (分會清楚 / 分袂清楚, 看會著 / 看袂著), 會當 / 袂當 (able / unable), 會使 / 袂使 (allowed / not allowed)."}
+  - {ref: 6, topic: culture, text: "食飯皇帝大 'eating is bigger than the emperor': meals come first (lesson 44). Opinions and politics from lesson 57: 我的看法是…, 總是 (however), 檢采 (if), 尊重 (respect)."}
+  - {ref: 8, topic: grammar, text: "Prices and shopping (lesson 59): 夯 (prices rise), 落價, 算較俗咧, 了錢 / 趁錢, 生理, 彼號 / 這號 (that / this kind). Hospital (lesson 58): 跋倒, 蹛院, 照顧, 吩咐, 罔 + V (make do), 即時 (at once)."}
+new_words:
+  - {tailo: huann-hí, hanji: 歡喜, en: "happy"}
+exercises:
+  translate:
+    - {tailo: "Tsit tiánn lóo-bah sī siánn-lâng tsú--ê?", hanji: "這鼎滷肉是啥人煮的？", en: "Who made this pot of braised pork?"}
+    - {tailo: "Ta̍k-ke phâng uánn, mài uan-ke.", hanji: "逐家捀碗，莫冤家。", en: "Everybody take your bowl, no squabbling."}
+    - {tailo: "Kàu tē-jī ê tshenn-âng-ting uat tsiànn-tshiú.", hanji: "到第二个青紅燈斡正手。", en: "Turn right at the second traffic lights."}
+  fill:
+    - {tailo: "I ___ kut-la̍t, koh tsin sè-jī.", hanji: "伊___骨力，閣真細膩。", answer: "m̄-nā", answer_hanji: "毋但", en: "He's not only hard-working but careful too."}
+    - {tailo: "I tiānn-tiānn kiânn ___ lōo.", hanji: "伊定定行___路。", answer: "m̄-tio̍h", answer_hanji: "毋著", en: "He's always going the wrong way."}
+audio: []
