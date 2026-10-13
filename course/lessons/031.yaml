@@ -1,0 +1,43 @@
+id: 31
+title: {en: "A birthday", tailo: "Senn-ji̍t khuài-lo̍k!", hanji: "生日快樂！"}
+phase: passive
+review: false
+setting: "A-hun's daughter turns six. The family gathers at A-hun's flat."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "今仔日是阮查某囝的生日。", tailo: "Kin-á-ji̍t sī guán tsa-bóo-kiánn ê senn-ji̍t.", en: "Today is my daughter's birthday."}
+  - {n: 2, speaker: Sam, hanji: "伊幾歲矣？", tailo: "I kuí huè--ah?", en: "How old is she?"}
+  - {n: 3, speaker: A-hun, hanji: "六歲矣。你看，伊目睭金金咧看雞卵糕。", tailo: "La̍k huè--ah. Lí khuànn, i ba̍k-tsiu kim-kim teh khuànn ke-nn̄g-ko.", en: "Six. Look, her eyes are glued to the cake."}
+  - {n: 4, speaker: Sam, hanji: "這是我送你的禮物，生日快樂！", tailo: "Tse sī guá sàng lí ê lé-bu̍t, senn-ji̍t khuài-lo̍k!", en: "Here's a present for you. Happy birthday!"}
+  - {n: 5, speaker: Daughter, hanji: "多謝阿叔！", tailo: "To-siā a-tsik!", en: "Thank you, uncle!"}
+  - {n: 6, speaker: A-hun, hanji: "來，點蠟燭。先發願，才歕蠟燭。", tailo: "Lâi, tiám la̍h-tsik. Sing huat-guān, tsiah pûn la̍h-tsik.", en: "Come on, light the candles. Make a wish first, then blow them out."}
+  - {n: 7, speaker: Daughter, hanji: "我的心願是佮阿母仝款，做老師！", tailo: "Guá ê sim-guān sī kah a-bú kāng-khuán, tsò lāu-su!", en: "My wish is to be a teacher, like Mum!"}
+notes:
+  - {ref: 1, topic: vocab, text: "查某囝 tsa-bóo-kiánn = daughter (女兒); son is 後生 hāu-senn. 生日 senn-ji̍t = birthday: 生 has its colloquial reading senn here."}
+  - {ref: 2, topic: grammar, text: "幾歲矣？ kuí huè--ah? = how old is (he/she) now? The answer keeps 矣: 六歲矣."}
+  - {ref: 3, topic: vocab, text: "目睭 ba̍k-tsiu = eyes (眼睛), a Taigi-only word. 金金 kim-kim 'wide open, staring' (literally 'golden'), a vivid doubled word. 雞卵糕 ke-nn̄g-ko = cake (literally 'chicken-egg cake')."}
+  - {ref: 4, topic: grammar, text: "送 sàng = give (as a gift) (送). 我送你的禮物 'the present I'm giving you': a whole clause before 的 describes the noun, as in Mandarin. 禮物 lé-bu̍t = present."}
+  - {ref: 5, topic: vocab, text: "阿叔 a-tsik = uncle (father's younger brother), and the polite way a child addresses a man of their parents' age."}
+  - {ref: 6, topic: vocab, text: "點蠟燭 tiám la̍h-tsik = light candles. 發願 huat-guān = make a wish. 歕 pûn = blow (吹), a Taigi-only character."}
+  - {ref: 7, topic: grammar, text: "佮 A 仝款 kah A kāng-khuán = the same as A (跟A一樣). 仝款 kāng-khuán = same; its opposite 無仝 bô-kâng (lesson 10). 心願 sim-guān = wish; 老師 lāu-su = teacher."}
+new_words:
+  - {tailo: tsa-bóo-kiánn, hanji: 查某囝, en: "daughter"}
+  - {tailo: senn-ji̍t, hanji: 生日, en: "birthday"}
+  - {tailo: ba̍k-tsiu, hanji: 目睭, en: "eyes"}
+  - {tailo: ke-nn̄g-ko, hanji: 雞卵糕, en: "cake"}
+  - {tailo: sàng, hanji: 送, en: "give (a gift)"}
+  - {tailo: lé-bu̍t, hanji: 禮物, en: "present"}
+  - {tailo: a-tsik, hanji: 阿叔, en: "uncle"}
+  - {tailo: la̍h-tsik, hanji: 蠟燭, en: "candle"}
+  - {tailo: huat-guān, hanji: 發願, en: "make a wish"}
+  - {tailo: pûn, hanji: 歕, en: "blow"}
+  - {tailo: sim-guān, hanji: 心願, en: "wish"}
+  - {tailo: kāng-khuán, hanji: 仝款, en: "the same"}
+  - {tailo: lāu-su, hanji: 老師, en: "teacher"}
+exercises:
+  translate:
+    - {tailo: "I kuí huè--ah?", hanji: "伊幾歲矣？", en: "How old is she?"}
+    - {tailo: "Sing huat-guān, tsiah pûn la̍h-tsik.", hanji: "先發願，才歕蠟燭。", en: "Make a wish first, then blow out the candles."}
+  fill:
+    - {tailo: "Tse sī guá ___ lí ê lé-bu̍t.", hanji: "這是我___你的禮物。", answer: "sàng", answer_hanji: "送", en: "Here's a present for you."}
+    - {tailo: "Kah a-bú ___.", hanji: "佮阿母___。", answer: "kāng-khuán", answer_hanji: "仝款", en: "The same as Mum."}
+audio: []

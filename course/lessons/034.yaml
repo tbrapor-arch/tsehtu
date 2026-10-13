@@ -1,0 +1,48 @@
+id: 34
+title: {en: "Typhoon season", tailo: "Beh tsò-hong-thai--ah", hanji: "欲做風颱矣"}
+phase: passive
+review: false
+setting: "Evening news says a typhoon is coming. Sam and A-bîng get ready."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "新聞講明仔載欲做風颱矣。", tailo: "Sin-bûn kóng bîn-á-tsài beh tsò-hong-thai--ah.", en: "The news says a typhoon is coming tomorrow."}
+  - {n: 2, speaker: Sam, hanji: "我毋捌經過風颱，有淡薄仔驚。", tailo: "Guá m̄ bat king-kuè hong-thai, ū tām-po̍h-á kiann.", en: "I've never been through a typhoon, I'm a bit scared."}
+  - {n: 3, speaker: A-bîng, hanji: "免驚，咱先準備好就無問題。", tailo: "Bián kiann, lán sing tsún-pī hó tō bô būn-tê.", en: "Don't be scared. If we get ready first, it'll be fine."}
+  - {n: 4, speaker: A-bîng, hanji: "窗仔門愛關予好，外口的物件攏搬入來。", tailo: "Thang-á-mn̂g ài kuainn hōo hó, guā-kháu ê mi̍h-kiānn lóng puann--ji̍p-lâi.", en: "Shut the windows tight, and bring everything outside indoors."}
+  - {n: 5, speaker: Sam, hanji: "若停電欲按怎？", tailo: "Nā thîng-tiān beh án-tsuánn?", en: "What if the power goes out?"}
+  - {n: 6, speaker: A-bîng, hanji: "手電仔佮蠟條攏有，罐頭嘛買足濟矣。", tailo: "Tshiú-tiān-á kah la̍h-tiâu lóng ū, kuàn-thâu mā bé tsiok tsē--ah.", en: "We've got torches and candles, and plenty of tins too."}
+  - {n: 7, speaker: Sam, hanji: "彼條溪仔會淹水無？", tailo: "Hit tiâu khe-á ē im-tsuí--bô?", en: "Will that stream flood?"}
+  - {n: 8, speaker: A-bîng, hanji: "雨若傷大，可能會。明仔載咱攏莫出門。", tailo: "Hōo nā siunn tuā, khó-lîng ē. Bîn-á-tsài lán lóng mài tshut-mn̂g.", en: "If the rain is too heavy, it might. Let's not go out tomorrow."}
+notes:
+  - {ref: 1, topic: vocab, text: "新聞 sin-bûn = the news. 做風颱 tsò-hong-thai = a typhoon strikes (literally 'make a typhoon'); 風颱 hong-thai = typhoon."}
+  - {ref: 2, topic: grammar, text: "驚 kiann = be afraid (怕), the everyday word. 經過 king-kuè = go through (經歷). 有淡薄仔 + adjective = a bit …."}
+  - {ref: 3, topic: grammar, text: "免 bián + verb = no need to (不用): 免驚 'don't be afraid'. 毋免 m̄-bián (lesson 7) is the same idea on its own. 準備好 'get ready': V好 again."}
+  - {ref: 4, topic: grammar, text: "V + 予好 hōo hó = do it properly, make sure it's … (V好): 關予好 'shut it tight'. 窗仔門 thang-á-mn̂g = window; 關 kuainn = close (colloquial reading). 外口 guā-kháu = outside. 搬入來 'carry in': two direction words after a verb, both in neutral tone."}
+  - {ref: 5, topic: grammar, text: "若…欲按怎？ nā … beh án-tsuánn? = what if …? 停電 thîng-tiān = power cut."}
+  - {ref: 6, topic: vocab, text: "手電仔 tshiú-tiān-á = torch; 蠟條 la̍h-tiâu = (household) candle; 罐頭 kuàn-thâu = tinned food. 足濟 tsiok tsē = plenty."}
+  - {ref: 7, topic: vocab, text: "溪仔 khe-á = stream, creek. 淹水 im-tsuí = flood (淹水). Note 淹 im, not Mandarin yān."}
+  - {ref: 8, topic: grammar, text: "Topic first: 雨若傷大 'the rain, if it's too heavy'. 莫 mài + verb with 咱 = let's not: 咱攏莫出門 'let's none of us go out'."}
+new_words:
+  - {tailo: sin-bûn, hanji: 新聞, en: "the news"}
+  - {tailo: tsò-hong-thai, hanji: 做風颱, en: "(typhoon) strike"}
+  - {tailo: hong-thai, hanji: 風颱, en: "typhoon"}
+  - {tailo: king-kuè, hanji: 經過, en: "go through"}
+  - {tailo: kiann, hanji: 驚, en: "be afraid"}
+  - {tailo: bián, hanji: 免, en: "no need to"}
+  - {tailo: tsún-pī, hanji: 準備, en: "prepare"}
+  - {tailo: thang-á-mn̂g, hanji: 窗仔門, en: "window"}
+  - {tailo: kuainn, hanji: 關, en: "close, shut"}
+  - {tailo: guā-kháu, hanji: 外口, en: "outside"}
+  - {tailo: thîng-tiān, hanji: 停電, en: "power cut"}
+  - {tailo: tshiú-tiān-á, hanji: 手電仔, en: "torch"}
+  - {tailo: la̍h-tiâu, hanji: 蠟條, en: "candle"}
+  - {tailo: kuàn-thâu, hanji: 罐頭, en: "tinned food"}
+  - {tailo: khe-á, hanji: 溪仔, en: "stream"}
+  - {tailo: im-tsuí, hanji: 淹水, en: "flood"}
+exercises:
+  translate:
+    - {tailo: "Bián kiann, lán sing tsún-pī hó.", hanji: "免驚，咱先準備好。", en: "Don't be scared, let's get ready first."}
+    - {tailo: "Nā thîng-tiān beh án-tsuánn?", hanji: "若停電欲按怎？", en: "What if the power goes out?"}
+  fill:
+    - {tailo: "Thang-á-mn̂g ài ___ hōo hó.", hanji: "窗仔門愛___予好。", answer: "kuainn", answer_hanji: "關", en: "Shut the windows tight."}
+    - {tailo: "Guá ū tām-po̍h-á ___.", hanji: "我有淡薄仔___。", answer: "kiann", answer_hanji: "驚", en: "I'm a bit scared."}
+audio: []

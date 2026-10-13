@@ -1,0 +1,43 @@
+id: 33
+title: {en: "Lost phone", tailo: "Phah-m̄-kìnn--ah!", hanji: "拍毋見矣！"}
+phase: passive
+review: false
+setting: "Sam comes home and can't find his phone."
+dialogue:
+  - {n: 1, speaker: Sam, hanji: "害矣，我的手機仔拍毋見矣！", tailo: "Hāi--ah, guá ê tshiú-ki-á phah-m̄-kìnn--ah!", en: "Oh no, I've lost my phone!"}
+  - {n: 2, speaker: A-bîng, hanji: "你閣揣看覓，敢無佇袋仔內？", tailo: "Lí koh tshuē khuànn-māi, kám bô tī tē-á lāi?", en: "Look again. Isn't it in your bag?"}
+  - {n: 3, speaker: Sam, hanji: "揣半晡矣，揣無。", tailo: "Tshuē puànn-poo--ah, tshuē bô.", en: "I've been looking for ages, I can't find it."}
+  - {n: 4, speaker: A-bîng, hanji: "你拄才佇佗位？", tailo: "Lí tú-tsiah tī tó-uī?", en: "Where were you just now?"}
+  - {n: 5, speaker: Sam, hanji: "我佇公車頂，煞雄雄睏去。", tailo: "Guá tī kong-tshia tíng, suah hiông-hiông khùn--khì.", en: "On the bus, and I suddenly fell asleep."}
+  - {n: 6, speaker: A-bîng, hanji: "我用我的手機仔敲予你看覓。", tailo: "Guá īng guá ê tshiú-ki-á khà hōo lí khuànn-māi.", en: "Let me try calling it from my phone."}
+  - {n: 7, speaker: Driver, hanji: "喂？這支手機仔是我佇車頂抾著的。", tailo: "Uê? Tsit ki tshiú-ki-á sī guá tī tshia tíng khioh--tio̍h--ê.", en: "Hello? I found this phone on the bus."}
+  - {n: 8, speaker: Sam, hanji: "尾仔揣著矣！好佳哉！", tailo: "Bué-á tshuē--tio̍h--ah! Hó-ka-tsài!", en: "Found it in the end! Thank goodness!"}
+notes:
+  - {ref: 1, topic: vocab, text: "害矣 hāi--ah = oh no! (糟了). 拍毋見 phah-m̄-kìnn = lose (something) (弄丟)."}
+  - {ref: 2, topic: vocab, text: "袋仔 tē-á = bag, pocket. 內 lāi = inside: 袋仔內 'in the bag'. 敢無…？ 'isn't it …?'"}
+  - {ref: 3, topic: grammar, text: "揣無 tshuē bô = can't find (找不到): verb + 無 bô = the action didn't reach its result. Its positive is 揣著 tshuē--tio̍h 'found' (line 8). 半晡 puànn-poo = a long while (literally 'half a day', used loosely like Mandarin 半天)."}
+  - {ref: 5, topic: grammar, text: "煞 suah = (and then) unexpectedly, ended up (竟然、結果): 煞睏去 'ended up falling asleep'. 雄雄 hiông-hiông = suddenly. 睏去 khùn--khì = fall asleep: 去 after a verb (neutral tone) marks a change into a state. 公車頂 kong-tshia tíng = on the bus: 頂 tíng 'on top of'."}
+  - {ref: 6, topic: grammar, text: "敲予你 khà hōo lí = call (you): here 予 marks whose phone rings. 用 īng = with, using (lesson 22)."}
+  - {ref: 7, topic: grammar, text: "Classifier 支 ki for phones (and pens, sticks). 抾 khioh = pick up (撿); 抾著 khioh--tio̍h 'found (lying somewhere)'. …是我抾著的 = it's (one) I found: the 是…的 focus pattern, as in Mandarin."}
+  - {ref: 8, topic: vocab, text: "尾仔 bué-á = in the end, finally (後來、最後). 好佳哉 hó-ka-tsài = thank goodness (幸好)."}
+new_words:
+  - {tailo: hāi, hanji: 害, en: "harm; (oh no!)"}
+  - {tailo: phah-m̄-kìnn, hanji: 拍毋見, en: "lose (something)"}
+  - {tailo: tē-á, hanji: 袋仔, en: "bag, pocket"}
+  - {tailo: lāi, hanji: 內, en: "inside"}
+  - {tailo: puànn-poo, hanji: 半晡, en: "a long while"}
+  - {tailo: suah, hanji: 煞, en: "unexpectedly, ended up"}
+  - {tailo: hiông-hiông, hanji: 雄雄, en: "suddenly"}
+  - {tailo: tíng, hanji: 頂, en: "on top of, on"}
+  - {tailo: ki, hanji: 支, en: "(classifier for phones, pens)"}
+  - {tailo: khioh, hanji: 抾, en: "pick up"}
+  - {tailo: bué-á, hanji: 尾仔, en: "in the end"}
+  - {tailo: hó-ka-tsài, hanji: 好佳哉, en: "thank goodness"}
+exercises:
+  translate:
+    - {tailo: "Guá ê tshiú-ki-á phah-m̄-kìnn--ah!", hanji: "我的手機仔拍毋見矣！", en: "I've lost my phone!"}
+    - {tailo: "Bué-á tshuē--tio̍h--ah!", hanji: "尾仔揣著矣！", en: "Found it in the end!"}
+  fill:
+    - {tailo: "Tshuē puànn-poo--ah, tshuē ___.", hanji: "揣半晡矣，揣___。", answer: "bô", answer_hanji: "無", en: "I've been looking for ages, I can't find it."}
+    - {tailo: "Guá tī kong-tshia tíng, ___ hiông-hiông khùn--khì.", hanji: "我佇公車頂，___雄雄睏去。", answer: "suah", answer_hanji: "煞", en: "I was on the bus, and I suddenly fell asleep."}
+audio: []

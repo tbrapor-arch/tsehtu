@@ -1,0 +1,43 @@
+id: 29
+title: {en: "Riding a scooter", tailo: "Khiâ ki-tshia", hanji: "騎機車"}
+phase: passive
+review: false
+setting: "A-bîng lends Sam his scooter for the first time."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "你敢會曉騎機車？", tailo: "Lí kám ē-hiáu khiâ ki-tshia?", en: "Do you know how to ride a scooter?"}
+  - {n: 2, speaker: Sam, hanji: "會曉，毋過佇臺北我毋捌騎過。", tailo: "Ē-hiáu, m̄-koh tī Tâi-pak guá m̄ bat khiâ--kuè.", en: "Yes, but I've never ridden one in Taipei."}
+  - {n: 3, speaker: A-bîng, hanji: "安全帽愛戴好，無，警察會掠。", tailo: "An-tsuân-bō ài tì hó, bô, kíng-tshat ē lia̍h.", en: "Put your helmet on properly, otherwise the police will stop you."}
+  - {n: 4, speaker: Sam, hanji: "掠著愛罰錢乎？", tailo: "Lia̍h--tio̍h ài hua̍t-tsînn--honnh?", en: "And if they catch you, you get a fine, right?"}
+  - {n: 5, speaker: A-bîng, hanji: "著。你愛照規矩騎，莫傷緊。", tailo: "Tio̍h. Lí ài tsiàu kui-kí khiâ, mài siunn kín.", en: "Yes. Ride by the rules, and not too fast."}
+  - {n: 6, speaker: A-bîng, hanji: "車路人濟，愛細膩。", tailo: "Tshia-lōo lâng tsē, ài sè-jī.", en: "The roads are busy, be careful."}
+  - {n: 7, speaker: Sam, hanji: "知啦。若有代誌，我敲電話予你。", tailo: "Tsai--lah. Nā ū tāi-tsì, guá khà tiān-uē hōo lí.", en: "I know. If anything happens, I'll call you."}
+notes:
+  - {ref: 1, topic: vocab, text: "騎 khiâ = ride (a bike, a scooter); 機車 ki-tshia = scooter, motorbike. Taiwan's everyday vehicle."}
+  - {ref: 2, topic: grammar, text: "毋捌 + verb + 過 kuè = have never … : 毋捌騎過 'have never ridden'. 過 after a verb (neutral tone) adds the experience sense, like Mandarin 過; with 捌 it is optional."}
+  - {ref: 3, topic: grammar, text: "Verb + 好 hó = do properly: 戴好 'put on properly'. 戴 tì = wear (on the head), 安全帽 an-tsuân-bō = helmet. 無 bô at the start of a clause = otherwise (不然)."}
+  - {ref: 3, topic: vocab, text: "掠 lia̍h = catch, arrest (抓). A Taigi-only character, very common: 掠魚 'catch fish', 掠人 'arrest someone'. 警察 kíng-tshat = police."}
+  - {ref: 4, topic: grammar, text: "掠著 lia̍h--tio̍h = caught: 著 after a verb marks the result was reached (lesson 11 had 燙著). 罰錢 hua̍t-tsînn = be fined."}
+  - {ref: 5, topic: false-friend, text: "照 tsiàu = according to, follow (按照): 照規矩 'by the rules'. 規矩 kui-kí = rules. 緊 kín = fast (lesson 16)."}
+  - {ref: 6, topic: false-friend, text: "細膩 sè-jī = careful (小心), also 'polite, reserved'. Not Mandarin 細膩 'delicate'. 車路 tshia-lōo = road (for traffic)."}
+  - {ref: 7, topic: grammar, text: "敲電話予你 'call you': 予 hōo + person after the verb = to someone (lesson 23). 若有代誌 'if anything happens'."}
+new_words:
+  - {tailo: khiâ, hanji: 騎, en: "ride"}
+  - {tailo: ki-tshia, hanji: 機車, en: "scooter, motorbike"}
+  - {tailo: kuè, hanji: 過, en: "(have done) before (after a verb)"}
+  - {tailo: an-tsuân-bō, hanji: 安全帽, en: "helmet"}
+  - {tailo: tì, hanji: 戴, en: "wear (on the head)"}
+  - {tailo: kíng-tshat, hanji: 警察, en: "police"}
+  - {tailo: lia̍h, hanji: 掠, en: "catch, arrest"}
+  - {tailo: hua̍t-tsînn, hanji: 罰錢, en: "be fined"}
+  - {tailo: tsiàu, hanji: 照, en: "according to, follow"}
+  - {tailo: kui-kí, hanji: 規矩, en: "rules"}
+  - {tailo: tshia-lōo, hanji: 車路, en: "road"}
+  - {tailo: sè-jī, hanji: 細膩, en: "careful"}
+exercises:
+  translate:
+    - {tailo: "An-tsuân-bō ài tì hó.", hanji: "安全帽愛戴好。", en: "Put your helmet on properly."}
+    - {tailo: "Tshia-lōo lâng tsē, ài sè-jī.", hanji: "車路人濟，愛細膩。", en: "The roads are busy, be careful."}
+  fill:
+    - {tailo: "Lí ài ___ kui-kí khiâ.", hanji: "你愛___規矩騎。", answer: "tsiàu", answer_hanji: "照", en: "Ride by the rules."}
+    - {tailo: "Kíng-tshat ē ___.", hanji: "警察會___。", answer: "lia̍h", answer_hanji: "掠", en: "The police will catch you."}
+audio: []
