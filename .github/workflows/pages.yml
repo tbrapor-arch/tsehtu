@@ -52,6 +52,20 @@ jobs:
         run: python3 tools/fetch_podcast.py
         continue-on-error: true
 
+      - name: Podcast summary (shown as a notice on the run)
+        run: |
+          python3 - <<'EOF'
+          import sys; sys.path.insert(0, 'tools'); import podcast
+          p = podcast.load()
+          if not p: print('::warning::podcast feed missing'); raise SystemExit
+          eps = p['episodes']; e = eps[0]
+          print(f"::notice::{p['title']} | {len(eps)} episodes | newest EP{e['n']} {e['date']} | chapters {len(e['chapters'])} | vocab {len(e['vocab'])} | fixes {len(e['fixes'])} | other {len(e['other'])} | vocab all {sum(len(x['vocab']) for x in eps)} | no chapters {sum(1 for x in eps if not x['chapters'])} | no vocab {sum(1 for x in eps if not x['vocab'])}")
+          print('::notice::sample vocab ' + ' || '.join(f"{v['h']} {v['t']} -> {v['en'][:30]}" for v in e['vocab'][:4]))
+          print('::notice::sample chapters ' + ' || '.join(f"{c['s']} {c['t'][:20]} / {c['zh'][:15]}" for c in e['chapters'][:3]))
+          print('::notice::sample other ' + ' || '.join(x[:40] for x in e['other'][:4]))
+          EOF
+        continue-on-error: true
+
       - name: App (first pass, lists the recordings it needs)
         run: make app
 
