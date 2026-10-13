@@ -146,6 +146,33 @@ with sync_playwright() as pw:
     page.wait_for_timeout(150)
     if page.evaluate('location.hash') != '#lesson-3':
         p('ArrowRight does not go to the next lesson')
+    # grammar sheets
+    page.evaluate("location.hash = 'grammar'")
+    page.wait_for_selector('.gitem')
+    overflow(page, 'grammar')
+    n_items = page.locator('.gitem').count()
+    for gi in range(n_items):
+        page.evaluate("location.hash = 'grammar'")
+        page.wait_for_selector('.gitem')
+        page.locator('.gitem').nth(gi).click()
+        page.wait_for_selector('.lbar')
+        overflow(page, f'grammar sheet {gi}')
+        if page.locator('.lines .tok').count():
+            page.locator('.lines .tok').first.click()
+            if not page.evaluate("document.getElementById('sheet').classList.contains('open')"):
+                p(f'grammar sheet {gi}: word does not open')
+            page.keyboard.press('Escape')
+    # tone practice: answer 10, check the end screen
+    page.click('.tab[data-tab=review]')
+    page.wait_for_selector('#tones')
+    page.click('#tones')
+    for _ in range(10):
+        page.wait_for_selector('[data-topt]')
+        page.locator('[data-topt]').first.click()
+        page.click('#tnext')
+    if not page.locator('#again10').count():
+        p('tone practice did not reach its end screen')
+    page.evaluate("location.hash = 'lessons'")
     for h in ('themes', 'bridge', 'settings', 'lesson-0'):
         page.evaluate(f"location.hash = '{h}'")
         page.wait_for_timeout(150)

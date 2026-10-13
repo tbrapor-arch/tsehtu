@@ -1,0 +1,57 @@
+# Grammar sheets. For each structure, the app lists every dialogue line in the course that uses it
+# (found by `han`, a regex on the Hàn-jī, or `tl`, a regex on the lower-cased Tâi-lô), oldest lesson first.
+# `zh`: the Mandarin it maps to. Keep `text` short: the examples do the teaching.
+groups:
+  - name: Linking clauses
+    items:
+      - {id: na-to, form: "若 (…就…)", tailo: "nā (… tō …)", zh: "如果 (…就…)", han: "(?<![敢親])若", text: "If. The result often follows with 就 tō: 若…就… 'if … then …'."}
+      - {id: m-koh, form: "毋過", tailo: "m̄-koh", zh: "不過、但是", han: "毋過", text: "But, however. The everyday 'but'; 總是 tsóng--sī is more formal."}
+      - {id: in-ui, form: "因為…所以…", tailo: "in-uī … sóo-í …", zh: "因為…所以…", han: "因為|所以", text: "Because … so …. Either half can be used alone."}
+      - {id: m-na, form: "毋但…閣…", tailo: "m̄-nā … koh …", zh: "不但…還…", han: "毋但", text: "Not only … but also …. 閣 koh introduces the second, stronger point."}
+      - {id: m-kuan, form: "毋管…攏…", tailo: "m̄-kuán … lóng …", zh: "不管…都…", han: "毋管", text: "No matter (what, who, how) … always …. 攏 lóng closes the sentence."}
+      - {id: ia-si, form: "抑是", tailo: "ia̍h-sī", zh: "還是、或是", han: "抑是", text: "Or. In a question it offers a choice: 茶抑是咖啡？"}
+      - {id: be-su, form: "袂輸", tailo: "bē-su", zh: "好像", han: "袂輸", text: "As if, just like. Literally 'would not lose to'."}
+      - {id: lian, form: "連…嘛…", tailo: "liân … mā …", zh: "連…也…", han: "連.*嘛", text: "Even …. 連 marks the surprising item, 嘛 follows it."}
+      - {id: suah, form: "煞", tailo: "suah", zh: "竟然、結果卻", han: "煞", text: "Unexpectedly, and then (as it turned out). Before the verb."}
+      - {id: e-si, form: "…的時", tailo: "… ê sî", zh: "…的時候", han: "的時", text: "When …. The clause comes first, 的時 closes it."}
+  - name: Time and aspect
+    items:
+      - {id: ah, form: "…矣", tailo: "--ah", zh: "了", han: "矣", text: "Change of state or something now done. Always neutral tone, at the end of the clause."}
+      - {id: bue, form: "未 / 猶未", tailo: "buē / iáu-buē", zh: "還沒、…了沒", han: "未", text: "Not yet. At the end of a question: 'yet?' (食飽未？)."}
+      - {id: teh, form: "咧 + verb", tailo: "teh / leh + V", zh: "在 + V", tl: "(?<![-\\w])(teh|leh) [^\\s]", text: "In the middle of doing. Before the verb, never neutral tone (unlike the final particle --leh)."}
+      - {id: tsiah, form: "才", tailo: "tsiah", zh: "才", han: "才", text: "Only then; not until. Also 'only' with numbers."}
+      - {id: to, form: "就", tailo: "tō", zh: "就", han: "就", text: "Then, already, right away; with a duration, 'as early as'."}
+      - {id: beh, form: "欲", tailo: "beh", zh: "要、想要", han: "欲", text: "Want to; be about to. 欲 + verb, or 欲 + thing ('want')."}
+      - {id: koh, form: "閣", tailo: "koh", zh: "又、還、再", han: "閣(?!較)", text: "Again; still; and also. 又閣 iū-koh adds annoyance, 閣再 koh-tsài 'once more'."}
+  - name: Ability, need, permission
+    items:
+      - {id: e-sai, form: "會使 / 會當", tailo: "ē-sái / ē-tàng", zh: "可以 / 能", han: "會使|會當|袂使|袂當", text: "會使 = may, be allowed; 會當 = can, be able. Negatives 袂使 'must not', 袂當 'cannot'."}
+      - {id: ai, form: "愛", tailo: "ài", zh: "要、得；愛", han: "愛", text: "Must, need to (愛去 'have to go'); also love, like (愛食 'love eating')."}
+      - {id: m-thang, form: "毋通 / 千萬毋通", tailo: "m̄-thang", zh: "不要、千萬不要", han: "毋通", text: "Mustn't, don't. 千萬毋通 is the strongest warning."}
+      - {id: mai, form: "莫", tailo: "mài", zh: "別", han: "莫", text: "Don't (a request or advice)."}
+      - {id: bian, form: "免", tailo: "bián", zh: "不用", han: "免", text: "No need to. 毋免 m̄-bián is the same, a little softer."}
+  - name: Questions
+    items:
+      - {id: kam, form: "敢 + verb？", tailo: "kám", zh: "嗎？", han: "(?<!毋)敢(?!若)", text: "Turns a statement into a yes/no question: put 敢 before the verb."}
+      - {id: bo, form: "…無？", tailo: "--bô", zh: "嗎？", tl: "--bô\\?", text: "Yes/no question tag. Answer with the verb, not with 'yes'."}
+      - {id: khuann-mai, form: "V 看覓", tailo: "V khuànn-māi", zh: "V 看看", han: "看覓", text: "Try doing: 食看覓 'have a taste', 試看覓 'give it a go'."}
+  - name: Degree and comparison
+    items:
+      - {id: khah, form: "較", tailo: "khah", zh: "比較、更", han: "較", text: "More. A 比 B 較 + adjective = A is more … than B."}
+      - {id: koh-khah, form: "閣較", tailo: "koh-khah", zh: "更", han: "閣較", text: "Even more."}
+      - {id: siunn, form: "傷", tailo: "siunn", zh: "太", han: "傷(?!心|害)", text: "Too (much). Not 'hurt' as in Mandarin."}
+      - {id: double, form: "Doubled words (臭臭)", tailo: "tshàu-tshàu", zh: "有點… / 重疊", tl: "(?<![\\w-])([^\\s\\-.,!?]+)-\\1(?![\\w-])", text: "Doubling an adjective softens it: 'a bit, nicely …' (燒燒 'nice and hot'); tripling (紅紅紅) makes it stronger. Some doubled words are simply fixed words (爾爾 niā-niā 'only')."}
+  - name: Verb complements
+    items:
+      - {id: kah, form: "V 甲 + result", tailo: "V kah …", zh: "V 得…", han: "甲", text: "So … that …; to the point of. 講甲真好 'spoke very well', 枵甲腹肚咧叫."}
+      - {id: tioh, form: "V 著", tailo: "V tio̍h", zh: "V 到", tl: "\\b\\w+(-|--)tio̍h", text: "Result: managed to, happened to. 揣著 'found', 看著 'saw'."}
+      - {id: e-be, form: "V 會 / 袂 + result", tailo: "V ē / bē …", zh: "V 得 / 不 …", han: "[會袂](著|到|了|落去)", text: "Can / cannot reach the result: 食袂了 'can't finish (eating)', 穿袂落去 'can't get it on'."}
+      - {id: hoo-ho, form: "V 予好", tailo: "V hōo hó", zh: "V 好", han: "予好", text: "Do it properly, get it right: 收予好, 坐予好."}
+      - {id: khi-lai, form: "V 起來", tailo: "V --khí-lâi", zh: "V 起來", han: "起來", text: "Up; start to. Neutral tone after the verb."}
+  - name: Who does what
+    items:
+      - {id: ka, form: "共 + person + V", tailo: "kā …", zh: "把、替、跟、向", han: "共", text: "The all-purpose 'to / for / from' before the person (or thing) affected: 共你講 'tell you', 共伊會失禮."}
+      - {id: hoo, form: "予", tailo: "hōo", zh: "給、讓、被", han: "予(?!好)", text: "Give; let; and the passive 'by': 予人罵 'get scolded'."}
+      - {id: tak, form: "逐 + classifier", tailo: "ta̍k …", zh: "每…", han: "逐(个|家|工|擺|日|禮拜|冬)", text: "Every: 逐工 'every day', 逐擺 'every time', 逐家 'everybody'."}
+      - {id: long, form: "攏", tailo: "lóng", zh: "都", han: "攏", text: "All, always; after the subject, before the verb."}
+      - {id: ma, form: "嘛", tailo: "mā", zh: "也", han: "嘛", text: "Also, too; 'even' in 連…嘛."}

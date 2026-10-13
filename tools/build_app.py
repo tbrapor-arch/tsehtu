@@ -23,6 +23,9 @@ from sandhi import sandhi  # noqa: E402
 from tailo import key  # noqa: E402
 from variants import Variants  # noqa: E402
 import bridge  # noqa: E402
+import moe_examples  # noqa: E402
+import tone_drill  # noqa: E402
+MOE_EX = moe_examples.load()
 
 ROOT = os.path.dirname(HERE)
 con = sqlite3.connect(os.path.join(ROOT, 'data/build/taigi.db'))
@@ -100,6 +103,9 @@ def lookup(seg, k):
                              "ORDER BY id LIMIT 1", (eid,)).fetchone()
             if ex:
                 card['example'] = {'hanji': ex[0], 'tailo': ex[1], 'mandarin': ex[2]}
+                where = moe_examples.find(MOE_EX, sid, ex[0])
+                if where:
+                    card['example']['leku'] = f'{sid}-{where[0]}-{where[1]}'
     else:
         syls = k.split('-')
         chars = UNIT_RE.findall(seg)
@@ -259,12 +265,33 @@ AUDIO = os.path.join(ROOT, 'app/dist/audio/w')
 os.makedirs(os.path.join(ROOT, 'app/dist'), exist_ok=True)
 need = sorted({c['moe_id'] for c in dictionary.values() if c.get('moe_id')}, key=int)
 open(os.path.join(ROOT, 'app/dist/audio-needed.txt'), 'w').write('\n'.join(need) + '\n')
+need_ex = sorted({c['example']['leku'] for c in dictionary.values() if c.get('example', {}).get('leku')})
+open(os.path.join(ROOT, 'app/dist/audio-needed-examples.txt'), 'w').write('\n'.join(need_ex) + '\n')
+have_ex = 0
+for c in dictionary.values():
+    lk = c.get('example', {}).get('leku')
+    if lk and os.path.exists(os.path.join(ROOT, 'app/dist/audio/s', lk + '.mp3')):
+        c['example']['audio'] = f'audio/s/{lk}.mp3'
+        have_ex += 1
 have = 0
 for c in dictionary.values():
     if c.get('moe_id') and os.path.exists(os.path.join(AUDIO, c['moe_id'] + '.mp3')):
         c['audio'] = f"audio/w/{c['moe_id']}.mp3"
         have += 1
-data = {'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'accents': accents, 'bridge': bridge.build(con, 160),
+# ---- grammar sheets: every course line that uses each structure (course/grammar.yaml)
+grammar = yaml.safe_load(open(os.path.join(ROOT, 'course/grammar.yaml'), encoding='utf-8'))['groups']
+for g in grammar:
+    for it in g['items']:
+        rh = re.compile(it['han']) if it.get('han') else None
+        rt = re.compile(it['tl']) if it.get('tl') else None
+        refs = []
+        for L in lessons:
+            for i, ln in enumerate(L['lines']):
+                if (rh and rh.search(ln['hanji'])) or (rt and rt.search(ln['tailo'].lower())):
+                    refs.append([L['id'], i])
+        it['refs'] = refs
+        it.pop('han', None); it.pop('tl', None)
+data = {'tones': tone_drill.build(lessons), 'grammar': grammar, 'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'accents': accents, 'bridge': bridge.build(con, 160),
         'dict': dictionary, 'lesson0': lesson0, 'built': datetime.date.today().isoformat()}
 
 tpl = open(os.path.join(ROOT, 'app/index.template.html'), encoding='utf-8').read()
@@ -273,4 +300,4 @@ payload = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
 os.makedirs(os.path.join(ROOT, 'app/dist'), exist_ok=True)
 out = os.path.join(ROOT, 'app/dist/index.html')
 open(out, 'w', encoding='utf-8').write(unicodedata.normalize('NFC', tpl.replace('/*__DATA__*/null', payload)))
-print(out, f'{len(lessons)} lessons, {len(dictionary)} dictionary cards, {have}/{len(need)} with audio, {os.path.getsize(out) // 1024} KB')
+print(out, f'{len(lessons)} lessons, {len(dictionary)} dictionary cards, {have}/{len(need)} with audio, {have_ex}/{len(need_ex)} examples with audio, {os.path.getsize(out) // 1024} KB')

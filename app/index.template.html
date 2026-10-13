@@ -302,6 +302,9 @@ span.tok { cursor: pointer; border-radius: 4px; }
 @media (prefers-reduced-motion: reduce) { .sheet, .note { transition: none; } }
 .wc-top { display: flex; align-items: flex-start; gap: 1rem; }
 .wc-top .play { margin-top: .4rem; }
+.lplay { border: var(--border-soft); background: var(--surface); color: var(--brand); border-radius: 999px; width: 1.9rem; height: 1.9rem; font-size: .75rem; padding: 0; }
+.lplay.on { background: var(--brand); color: var(--brand-ink); border-color: var(--brand); }
+.tok.say { background: var(--sun-soft); box-shadow: inset 0 -3px 0 var(--sun); }
 .wc-top .x { margin-left: auto; border: 0; background: var(--surface); border-radius: 50%; width: 2.2rem; height: 2.2rem; font-size: 1.2rem; color: var(--sub); }
 .wc-h { font-family: var(--f-han); font-size: 2.8rem; font-weight: 700; line-height: 1.1; }
 .wc-t { font-size: 1.45rem; font-weight: 600; }
@@ -333,6 +336,9 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .sheet { border-top: var(--border); } :root[data-skin="rose"] .sheet { border-top: 0; }
 .fc { border: var(--border); box-shadow: var(--shadow); }
 .wc-top .play { margin-top: .4rem; }
+.lplay { border: var(--border-soft); background: var(--surface); color: var(--brand); border-radius: 999px; width: 1.9rem; height: 1.9rem; font-size: .75rem; padding: 0; }
+.lplay.on { background: var(--brand); color: var(--brand-ink); border-color: var(--brand); }
+.tok.say { background: var(--sun-soft); box-shadow: inset 0 -3px 0 var(--sun); }
 .wc-top .x { border: var(--border-soft); border-radius: var(--r); }
 ruby.tok rt, .rom, .wc-t, .wchip .r, .vtable .vr, .exi .t, .fc .r, .wotd .wr, .head .rom, .hello .rom, .lr, .ts, .tr { font-family: var(--f-rom); }
 h1, .hello .big, .todaycard .lt, .wotd .wh, .item .tt, .tcard .th, .wchip b, .vtable .vh, .fc .big, .wc-h, h2 .han, .logo b, .logo .mark { font-weight: var(--w-han); }
@@ -403,6 +409,10 @@ h1, .hello .big, .todaycard .lt, .wotd .wh, .item .tt, .tcard .th, .wchip b, .vt
 .wave-intro { margin: 0; padding: .7rem .9rem; border-radius: var(--r); background: var(--brand-soft); }
 .card.wave { color: var(--text); }
 button.card.wave { text-align: left; }
+.gitem .no { font-size: .85rem; }
+.gitem .ts { white-space: normal; }
+.gitem .tt { font-size: 1.1rem; }
+@media (max-width: 820px) { .tab { padding: .35rem .3rem; font-size: .66rem; } }
 .wchip.indeck { box-shadow: inset 3px 0 0 var(--brand); }
 .copybox { width: 100%; min-height: 8rem; font: inherit; font-size: .85rem; }
 kbd { font-family: var(--f-ui); font-size: .7rem; font-weight: 700; border: 1px solid currentColor; border-radius: 4px; padding: 0 .3rem; opacity: .6; margin-left: .2rem; }
@@ -425,9 +435,10 @@ const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
+const SYNC_KEYS = new Set(['doneAt', 'waveAt', 'deck', 'days']);
 const store = {
   get(k, d) { try { const v = localStorage.getItem('tshehtu:' + k); return v ? JSON.parse(v) : d; } catch { return d; } },
-  set(k, v) { try { localStorage.setItem('tshehtu:' + k, JSON.stringify(v)); } catch {} }
+  set(k, v) { try { localStorage.setItem('tshehtu:' + k, JSON.stringify(v)); } catch {} if (SYNC_KEYS.has(k) && typeof Sync !== 'undefined') Sync.soon(); }
 };
 const prefs = Object.assign({ mode: 'both', spoken: false, en: false, skin: 'notebook', accent: 'std', pick: {} }, store.get('prefs', {}));
 prefs.pick = prefs.pick || {};
@@ -449,6 +460,16 @@ const waveAt = store.get('waveAt', {});
 const done = new Set(Object.keys(doneAt).map(Number));
 function saveDone() { store.set('doneAt', doneAt); store.set('done', [...done]); store.set('waveAt', waveAt); }
 let deck = store.get('deck', {});
+function progressData() { return { app: 'tshehtu', v: 1, at: new Date().toISOString(), doneAt, waveAt, deck, days: [...studyDays], last: store.get('last', null) }; }
+// merge another copy of the progress into this one: earliest finish dates, the most recently reviewed card wins
+function mergeProgress(d) {
+  if (!d || d.app !== 'tshehtu') throw new Error('not a progress file');
+  Object.entries(d.doneAt || {}).forEach(([k, v]) => { if (!(k in doneAt) || (v && (!doneAt[k] || v < doneAt[k]))) doneAt[k] = v; done.add(+k); });
+  Object.entries(d.waveAt || {}).forEach(([k, v]) => { if (!(k in waveAt) || (v && v < waveAt[k])) waveAt[k] = v; });
+  Object.entries(d.deck || {}).forEach(([k, v]) => { const m = deck[k]; if (!m || (v.at || 0) > (m.at || 0) || (!v.at && !m.at && v.box > m.box)) deck[k] = v; });
+  (d.days || []).forEach(x => studyDays.add(x));
+  saveDone(); store.set('deck', deck); store.set('days', [...studyDays]);
+}
 let studyDays = new Set(store.get('days', []));
 const DAY = 864e5, BOXES = [0, 1, 3, 7, 16, 35];
 // local calendar day (toISOString is UTC: in Taiwan or Europe it gives the wrong day around midnight)
@@ -472,6 +493,7 @@ const ICONS = {
   themes: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="2"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2"/></svg>',
   bridge: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 17h20M4 17v-3a8 8 0 0 1 16 0v3M8 17v-4M12 17v-6M16 17v-4"/></svg>',
   settings: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>',
+  grammar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h10M4 12h16M4 18h7"/><path d="M17 4l3 3-3 3"/></svg>',
   review: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="6" y="3" width="13" height="16" rx="2"/><path d="M3 7v12a2 2 0 0 0 2 2h10"/></svg>',
 };
 
@@ -490,6 +512,8 @@ function route() {
   if ((m = h.match(/^theme-([a-z0-9-]+)$/))) { const T = DATA.themes.find(t => t.id === m[1]); if (T) return showTheme(T); }
   if (h === 'review') return showReview();
   if (h === 'bridge') return showBridge();
+  if (h === 'grammar') return showGrammar();
+  if ((m = h.match(/^grammar-([a-z0-9̀-ͯ-]+)$/i))) { const it = DATA.grammar.flatMap(g => g.items).find(x => x.id === decodeURIComponent(m[1])); if (it) return showGrammarItem(it); }
   if (h === 'accents' || h === 'settings') return showSettings();
   showLessons();
 }
@@ -507,10 +531,10 @@ function wireGo(root) { $$('[data-go]', root).forEach(b => b.onclick = () => go(
 
 function renderTabs(cur) {
   const due = dueCards().length;
-  const tabs = [['lessons', 'Lessons'], ['themes', 'Themes'], ['review', 'Review'], ['bridge', 'Bridge'], ['settings', 'Settings']];
+  const tabs = [['lessons', 'Lessons'], ['themes', 'Themes'], ['grammar', 'Grammar'], ['review', 'Review'], ['bridge', 'Bridge'], ['settings', 'Settings']];
   $('#tabs').innerHTML = tabs.map(([k, t]) => `<button class="tab" data-tab="${k}" aria-current="${cur === k}">${ICONS[k]}<span>${t}</span>${k === 'review' && due ? `<span class="count">${due}</span>` : ''}</button>`).join('');
   // a tab always opens that tab's start page (the Review tab leaves a running session; the Lessons tab goes to the top of the grid)
-  $$('[data-tab]', $('#tabs')).forEach(b => b.onclick = () => { const k = b.dataset.tab; if (k === 'review') sess = null; if (k === 'lessons') resetHome = true; go(k); });
+  $$('[data-tab]', $('#tabs')).forEach(b => b.onclick = () => { const k = b.dataset.tab; if (k === 'review') { sess = null; tsess = null; } if (k === 'lessons') resetHome = true; go(k); });
 }
 
 // ---------- lessons list
@@ -641,7 +665,7 @@ function showLesson(L) {
       <div class="sent" id="line-${ln.n}">
         <div class="who"><span class="av ${speakers.indexOf(ln.speaker) % 2 ? 'b' : ''}">${esc(ln.speaker[0])}</span>${esc(ln.speaker)}<span class="n">${ln.n}</span></div>
         ${active ? `<div class="en act">${esc(ln.en)}</div><button class="reveal" data-tw="${li}">Show Taigi</button><div class="txt" id="tw-${li}" hidden>${sentence(ln.tokens, 'L' + li)}</div>` : `<div class="txt">${sentence(ln.tokens, 'L' + li)}</div>`}
-        <div class="under">${active ? '' : enLine(ln.en, ln.zh, 'l' + li)}${WAVE ? '' : (notesBy[ln.n] || []).map(k => `<button class="nlink" data-note="${k}" aria-label="Note ${k}">${k}</button>`).join('')}</div>
+        <div class="under">${lineAudio(ln.tokens).length ? `<button class="lplay" data-lplay="${li}" aria-label="Listen to line ${ln.n} word by word" title="Word by word (dictionary recordings)">▶</button>` : ''}${active ? '' : enLine(ln.en, ln.zh, 'l' + li)}${WAVE ? '' : (notesBy[ln.n] || []).map(k => `<button class="nlink" data-note="${k}" aria-label="Note ${k}">${k}</button>`).join('')}</div>
       </div>`; }).join('')}</div>
     ${active ? `<div class="row"><button class="btn small quiet" id="show-all">Show all the Taigi</button></div>` : ''}
     ${WAVE ? '' : `
@@ -665,6 +689,7 @@ function showLesson(L) {
   $$('[data-tw]', main).forEach(b => b.onclick = () => { $('#tw-' + b.dataset.tw).hidden = false; b.remove(); });
   const sa = $('#show-all', main); if (sa) sa.onclick = () => { $$('[data-tw]', main).forEach(b => b.click()); sa.remove(); };
   $$('[data-note]', main).forEach(b => b.onclick = () => openNote(L, +b.dataset.note));
+  $$('[data-lplay]', main).forEach(b => b.onclick = () => playLine(+b.dataset.lplay, b));
   $$('[data-word]', main).forEach(b => b.onclick = () => openCard(b.dataset.word));
   const ak = $('#anki', main); if (ak) ak.onclick = () => copyText(L.new_words.map(w => [w.hanji, w.tailo, w.en || '', (DATA.dict[w.id] && DATA.dict[w.id].mandarin || []).slice(0, 2).join('、'), `Lesson ${L.id}`].join('\t')).join('\n'), ak, 'Copied · in Anki: File › Import, fields separated by Tab');
   wireExercises(L.exercises, main);
@@ -777,6 +802,39 @@ function showTheme(T) {
   $$('[data-addsec]', m).forEach(b => b.onclick = () => { const n = addToDeck(T.sections[+b.dataset.addsec].words.map(w => w.id)); studied(); toast(n ? `${n} words added to review` : 'Already in your deck'); renderTabs('themes'); });
 }
 
+// ---------- grammar sheets: each structure with every course line that uses it
+function showGrammar() {
+  renderTabs('grammar');
+  const first = it => it.refs.length ? it.refs[0][0] : null;
+  $('#main').innerHTML = `<div class="col">
+    <div class="head"><span class="eyebrow">Grammar</span><h1>文法</h1><span class="rom">Bûn-huat · every structure, with all the lines of the course that use it</span></div>
+    ${DATA.grammar.map(g => `<h2>${esc(g.name)}</h2><div class="list">${g.items.map(it => `<button class="item gitem" data-go="grammar-${encodeURIComponent(it.id)}">
+      <span class="no">${it.refs.length}</span><span><span class="tt">${esc(it.form)}</span> <span class="rom sub">${esc(it.tailo)}</span><br>
+      <span class="ts">${esc(it.zh)}${first(it) ? ` · from lesson ${first(it)}` : ''}${first(it) && !done.has(first(it)) ? ' · not reached yet' : ''}</span></span><span class="chev">›</span></button>`).join('')}</div>`).join('')}
+    <p class="sub" style="font-size:.85rem;margin:0">The number is how many lines of the course use the structure. New lessons add new examples automatically.</p>
+  </div>`;
+  wireGo($('#main'));
+}
+function showGrammarItem(it) {
+  renderTabs('grammar');
+  const LB = Object.fromEntries(DATA.lessons.map(l => [l.id, l]));
+  const shown = showGrammarItem.all === it.id ? it.refs : it.refs.slice(0, 25);
+  $('#main').innerHTML = `<div class="col mode-${prefs.mode}">
+    <div class="lbar"><button class="icon" data-go="grammar" aria-label="Back to grammar">←</button><span class="where">Grammar · ${esc(it.form)}</span></div>
+    <div class="head"><span class="eyebrow">${esc(it.zh)}</span><h1>${esc(it.form)}</h1><span class="rom">${esc(it.tailo)}</span></div>
+    <p style="margin:0;max-width:65ch">${fmt(it.text)}</p>
+    ${toolbar()}
+    <div class="lines">${shown.map(([lid, li], k) => { const ln = LB[lid].lines[li]; REVEAL['g' + k] = [ln.en, ln.zh]; return `
+      <div class="sent"><div class="who"><button class="linkish" data-go="lesson-${lid}">Lesson ${lid} · line ${ln.n}</button></div>
+        <div class="txt">${sentence(ln.tokens, 'G' + k)}</div><div class="under">${enLine(ln.en, ln.zh, 'g' + k)}</div></div>`; }).join('')}</div>
+    ${shown.length < it.refs.length ? `<div class="row"><button class="btn small line" id="gall">Show all ${it.refs.length}</button></div>` : ''}
+    ${!it.refs.length ? '<p class="empty">No lesson uses it yet.</p>' : ''}
+  </div>`;
+  const m = $('#main');
+  wireToolbar(() => showGrammarItem(it)); wireTokens(m); wireReveal(m); wireGo(m);
+  const ga = $('#gall', m); if (ga) ga.onclick = () => { showGrammarItem.all = it.id; const y = scrollY; showGrammarItem(it); scrollTo(0, y); };
+}
+
 // ---------- word sheet
 function openCard(id, w) {
   const c = id ? DATA.dict[id] : null, sh = $('#sheet');
@@ -791,7 +849,7 @@ function openCard(id, w) {
       ${c.gloss ? `<div class="wc-sec"><h3>English</h3><div class="wc-gloss">${esc(c.gloss)}</div></div>` : ''}
       ${c.mand && c.mand.length ? `<div class="wc-sec"><h3>Mandarin${c.hsk ? ` · HSK ${c.hsk}` : ''}</h3><ul class="mlist">${c.mand.map(m => `<li><span class="han">${esc(m.w)}</span> <span class="py">${esc(m.py)}</span>${m.en ? ` <span class="men">${esc(m.en)}</span>` : ''}</li>`).join('')}</ul></div>` : (c.mandarin && c.mandarin.length ? `<div class="wc-sec"><h3>Mandarin</h3><div class="han">${c.mandarin.map(esc).join('、')}</div></div>` : '')}
       ${c.senses && c.senses.length ? `<div class="wc-sec"><h3>Dictionary</h3><ol>${c.senses.map(s => `<li><span class="pos">${esc(s.pos)}</span>${esc(s.def)}</li>`).join('')}</ol></div>` : ''}
-      ${c.example ? `<div class="wc-sec wc-ex"><h3>Example</h3><div class="h">${esc(c.example.hanji)}</div><div class="t">${esc(c.example.tailo)}</div><div class="m">${esc(c.example.mandarin || '')}</div></div>` : ''}
+      ${c.example ? `<div class="wc-sec wc-ex"><h3>Example</h3><div class="h">${esc(c.example.hanji)}</div><div class="t">${esc(c.example.tailo)}</div><div class="m">${esc(c.example.mandarin || '')}</div>${c.example.audio ? `<button class="btn small line" id="explay" style="align-self:start;margin-top:.3rem">▶ Listen to the sentence</button>` : ''}</div>` : ''}
       ${c.alts && c.alts.length ? `<div class="wc-sec"><h3>Pronunciation</h3><div class="choices">
         ${[{ t: c.tailo, label: 'standard (MOE)' }, ...c.alts].map(a => { const on = (chosenAlt(id) ? chosenAlt(id).t : c.tailo) === a.t;
           return `<button class="choice" data-pick="${esc(a.t)}" aria-pressed="${on}"><b>${esc(a.t)}</b><span>${esc(a.label)}</span></button>`; }).join('')}</div>
@@ -805,6 +863,7 @@ function openCard(id, w) {
     $$('[data-part]', sh).forEach(b => b.onclick = () => openCard(b.dataset.part));
     $$('[data-pick]', sh).forEach(b => b.onclick = () => { prefs.pick[id] = b.dataset.pick; store.set('prefs', prefs); openCard(id, w); rerenderCurrent(); });
     const pl = $('#play', sh); if (pl) pl.onclick = () => play(c.audio, pl);
+    const ep = $('#explay', sh); if (ep) ep.onclick = () => play(c.example.audio, ep);
   }
   $('.x', sh).onclick = closeSheet;
   sh.classList.add('open'); sh.setAttribute('aria-hidden', 'false');
@@ -831,7 +890,9 @@ document.addEventListener('keydown', e => {
   if (e.target.closest('input, textarea, select') || e.metaKey || e.ctrlKey || e.altKey) return;
   const h = location.hash.slice(1);
   const click = sel => { const b = $(sel); if (b && !b.disabled) { e.preventDefault(); b.click(); } };
-  if (h === 'review' && sess) {            // review: space / enter = show answer, 1 = again, 2 = got it
+  if (h === 'review' && tsess) {           // tone practice: 1-4 pick, space / enter = next
+    if (/^[1-4]$/.test(e.key)) click(`.opt:nth-child(${e.key})`); else if (e.key === ' ' || e.key === 'Enter') click('#tnext');
+  } else if (h === 'review' && sess) {     // review: space / enter = show answer, 1 = again, 2 = got it
     if (e.key === ' ' || e.key === 'Enter') click('#flip');
     else if (e.key === '1') click('#again'); else if (e.key === '2') click('#good');
   } else if (h === 'bridge') {             // bridge: 1-4 pick an answer, space / enter = next
@@ -846,10 +907,10 @@ document.addEventListener('click', e => {
   if (!sh.classList.contains('open') || !e.target.isConnected || sh.contains(e.target) || e.target.closest('.tok, [data-note], [data-word], [data-pick], .tab')) return;
   closeSheet();
 });
-function currentTab() { const h = location.hash.slice(1) || 'lessons'; return h.startsWith('lesson') ? 'lessons' : h.startsWith('theme') ? 'themes' : h; }
+function currentTab() { const h = location.hash.slice(1) || 'lessons'; return /^(lesson|wave)/.test(h) ? 'lessons' : h.startsWith('theme') ? 'themes' : h.startsWith('grammar') ? 'grammar' : h; }
 
 // ---------- review deck (Leitner boxes; saved in this browser)
-function addToDeck(ids) { let n = 0; ids.forEach(id => { if (id && DATA.dict[id] && !deck[id]) { deck[id] = { box: 0, due: Date.now() }; n++; } }); store.set('deck', deck); return n; }
+function addToDeck(ids) { let n = 0; ids.forEach(id => { if (id && DATA.dict[id] && !deck[id]) { deck[id] = { box: 0, due: Date.now(), at: Date.now() }; n++; } }); store.set('deck', deck); return n; }
 function dueCards() { const now = Date.now(); return Object.keys(deck).filter(id => deck[id].due <= now && DATA.dict[id]); }
 // segments: one per lesson and per theme group, plus "everything due"
 function segments() {
@@ -866,9 +927,11 @@ const CTX = {};
   DATA.themes.forEach(t => t.sections.forEach(s => s.text.forEach(x => add(x.tokens, x.en))));
 })();
 let sess = null;   // { key, title, queue, i, flipped }
+let tsess = null;  // tone practice: { items, i, picked, right }
 function showReview() {
   renderTabs('review');
   if (sess) return showCard();
+  if (tsess) return showTone();
   const now = Date.now(), m = $('#main'), due = dueCards();
   const segRow = s => {
     const inDeck = s.ids.filter(id => deck[id]).length, d = s.ids.filter(id => deck[id] && deck[id].due <= now).length;
@@ -884,10 +947,50 @@ function showReview() {
     <div class="head"><span class="eyebrow">Review</span><h1>溫習</h1><span class="rom">Un-si̍p · by lesson or by theme</span></div>
     <div class="card raised"><div class="stat"><b>${due.length}</b><span class="sub">cards due across everything</span></div>
       <div class="row">${due.length ? '<button class="btn" data-study="ALL" data-mode="due">Review all due</button>' : '<span class="sub">Nothing due right now.</span>'}</div></div>
+    <div class="card"><span class="eyebrow">Tone changes · 變調</span>
+      <span>Words are written with their dictionary tones but said with changed tones before another syllable. Pick how each word is really said.</span>
+      <div class="row"><button class="btn small" id="tones">Practise 10 words</button><span class="sub" style="font-size:.85rem">${DATA.tones.filter(t => done.has(t.l)).length} words from your finished lessons · ${DATA.tones.length} in all</span></div></div>
     ${Object.entries(groups).map(([g, list]) => `<h2>${esc(g)}</h2><div class="segs">${list.map(segRow).join('')}</div>`).join('')}
     <p class="sub" style="font-size:.85rem;margin:0">Cards show the word inside a sentence from its lesson or theme when there is one. They come back after 1, 3, 7, 16 and 35 days.</p>
   </div>`;
   $$('[data-study]', m).forEach(b => b.onclick = () => startSession(b.dataset.study, b.dataset.mode));
+  $('#tones', m).onclick = () => {
+    // words from finished lessons first; if fewer than 10, top up from the rest
+    const mine = DATA.tones.filter(t => done.has(t.l)).sort(() => Math.random() - .5);
+    const rest = DATA.tones.filter(t => !done.has(t.l)).sort((a, b) => a.l - b.l || Math.random() - .5);
+    tsess = { items: [...mine, ...rest].slice(0, 10), i: 0, picked: null, right: 0 };
+    showReview();
+  };
+}
+function showTone() {
+  const m = $('#main');
+  if (tsess.i >= tsess.items.length) {
+    m.innerHTML = `<div class="col"><div class="head"><span class="eyebrow">Tone changes</span><h1>好勢！</h1><span class="rom">Hó-sè! · Done</span></div>
+      <div class="card raised"><div class="stat"><b>${tsess.right}/${tsess.items.length}</b><span class="sub">right</span></div>
+        <span class="sub">The rule in one line: inside a phrase every syllable but the last changes tone: 1→7, 7→3, 3→2, 2→1, 5→7 (5→3 in the south); -p -t -k: 4→8, 8→3; -h: drops, 4→2, 8→3.</span></div>
+      <div class="row"><button class="btn" id="again10">10 more</button><button class="btn line" id="back">Back to review</button></div></div>`;
+    $('#back').onclick = () => { tsess = null; showReview(); };
+    $('#again10').onclick = () => { tsess = null; showReview(); $('#tones').click(); };
+    return;
+  }
+  const it = tsess.items[tsess.i], answered = tsess.picked !== null, ok = tsess.picked === it.s;
+  m.innerHTML = `<div class="col">
+    <div class="row" style="justify-content:space-between"><span class="eyebrow">Tone changes</span><span class="sub">${tsess.i + 1} / ${tsess.items.length}</span></div>
+    <div class="bar" aria-hidden="true"><i style="width:${Math.round(100 * tsess.i / tsess.items.length)}%"></i></div>
+    <div class="card raised fc" aria-live="polite">
+      <div class="big">${esc(it.h)}</div>
+      <div class="sub">Written <b class="rom" style="color:var(--text)">${esc(it.t)}</b> · ${esc(it.en)}</div>
+      <p class="empty" style="margin:0">How is it said?</p>
+      <div class="opts">${it.opts.map((o, i) => `<button class="opt ${answered ? (o === it.s ? 'right' : (o === tsess.picked ? 'wrong' : '')) : ''}" data-topt="${esc(o)}" ${answered ? 'disabled' : ''}>${esc(o)}</button>`).join('')}</div>
+      ${answered ? `<div class="explain"><p class="verdict ${ok ? 'ok' : 'no'}">${ok ? 'Yes!' : 'Not quite.'} Said <b>${esc(it.s)}</b>.</p>
+        <ul>${it.why.map(w => `<li>${esc(w)}</li>`).join('')}</ul>
+        <p class="sub" style="font-size:.85rem">From lesson ${it.l}. Rule-based: a few words have exceptions.</p>
+        <div class="row"><button class="btn" id="tnext">Next <kbd>space</kbd></button></div></div>` : ''}
+    </div>
+    <div class="row"><button class="btn small quiet" id="tquit">Stop</button></div></div>`;
+  $$('[data-topt]', m).forEach(b => b.onclick = () => { tsess.picked = b.dataset.topt; if (tsess.picked === it.s) tsess.right++; studied(); showTone(); });
+  if (answered) $('#tnext').onclick = () => { tsess.i++; tsess.picked = null; showTone(); };
+  $('#tquit').onclick = () => { tsess = null; showReview(); };
 }
 function startSession(key, mode) {
   const now = Date.now();
@@ -943,7 +1046,7 @@ function grade(ok) {
   if (!deck[id]) deck[id] = { box: 0, due: Date.now() };
   const d = deck[id];
   d.box = ok ? Math.min(d.box + 1, BOXES.length - 1) : 0;
-  d.due = Date.now() + (ok ? BOXES[d.box] * DAY : 60e3);
+  d.due = Date.now() + (ok ? BOXES[d.box] * DAY : 60e3); d.at = Date.now();
   store.set('deck', deck); studied();
   if (!ok) { sess.missed.add(id); sess.queue.push(id); }   // missed cards come back at the end of the session
   sess.i++; sess.flipped = false; renderTabs('review'); showCard();
@@ -983,6 +1086,17 @@ function showSettings() {
       <span class="sub" style="font-size:.9rem">Progress is kept in this browser only. Save a copy to move it to another phone or computer, or to keep it safe.</span>
       <div class="row"><button class="btn small" id="exp">Save progress file</button><button class="btn small line" id="imp">Load progress file</button>
         <input type="file" id="imp-file" accept=".json,application/json" hidden></div></div>
+    ${HOSTED ? `<h2><span class="han">同步</span> Sync between devices</h2>
+    <div class="card">${Sync.on ? `<span>Synced with your GitHub account${store.get('syncAt', 0) ? ` · last ${new Date(store.get('syncAt', 0)).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}` : ''}.</span>
+        ${store.get('syncErr', '') ? `<span class="fb no">Last attempt failed: ${esc(store.get('syncErr', ''))}</span>` : ''}
+        <span class="sub" style="font-size:.9rem">Your progress is saved in a secret gist and merged when the app opens and after each change. Lessons marked done on one device stay done everywhere.</span>
+        <div class="row"><button class="btn small" id="sync-now">Sync now</button><button class="btn small quiet" id="sync-off">Stop syncing on this device</button></div>`
+      : `<span>Keep the same progress on your phone and your computer, through your GitHub account (free).</span>
+        <ol class="sub" style="font-size:.9rem;margin:0;padding-left:1.2rem"><li>On GitHub: Settings › Developer settings › Personal access tokens › <b>Fine-grained tokens</b> › Generate. Account permissions: <b>Gists: Read and write</b>. Nothing else.</li>
+          <li>Paste the token here, on each device.</li></ol>
+        <form class="row" id="sync-form"><input id="sync-token" type="password" autocomplete="off" placeholder="github_pat_…" style="flex:1 1 14rem;min-width:0;font:inherit;padding:.5rem .8rem;border:1.5px solid var(--line);border-radius:var(--r);background:var(--bg);color:var(--text)">
+          <button class="btn small" type="submit">Connect</button></form>
+        <span class="sub" style="font-size:.8rem">The token is kept in this browser only and sent only to GitHub.</span>`}</div>` : ''}
     <h2><span class="han">口音</span> How accents differ</h2>
     <div class="card"><span class="eyebrow">I and we</span>
       <span style="max-width:65ch">我 <b>guá</b> is “I”. 阮 <b>guán</b> (south) or <b>gún</b> (north) is “we, not including you”, and many speakers
@@ -995,7 +1109,7 @@ function showSettings() {
   </div>`;
   const ib = $('#install', m); if (ib) ib.onclick = async () => { installEvt.prompt(); await installEvt.userChoice.catch(() => {}); installEvt = null; showSettings(); };
   $('#exp', m).onclick = async () => {
-    const json = JSON.stringify({ app: 'tshehtu', v: 1, at: new Date().toISOString(), doneAt, waveAt, deck, days: [...studyDays], prefs, last: store.get('last', null) }, null, 1);
+    const json = JSON.stringify(progressData(), null, 1);
     const filename = `tshehtu-progress-${today()}.json`;
     // inside the claude.ai viewer, files go through its save dialog; on a normal web page, a plain download
     const dl = window.claude && window.claude.use ? await window.claude.use('downloads').catch(() => null) : null;
@@ -1005,17 +1119,13 @@ function showSettings() {
     setTimeout(() => URL.revokeObjectURL(a.href), 5000);
   };
   $('#imp', m).onclick = () => $('#imp-file', m).click();
+  const sf = $('#sync-form', m); if (sf) sf.onsubmit = async e => { e.preventDefault(); const t = $('#sync-token', m).value.trim(); if (!t) return; store.set('gistToken', t); store.set('gistId', ''); await Sync.run(); if (store.get('syncErr', '')) store.set('gistToken', ''); showSettings(); };
+  const sn = $('#sync-now', m); if (sn) sn.onclick = async () => { sn.disabled = true; await Sync.run(); showSettings(); };
+  const so = $('#sync-off', m); if (so) so.onclick = () => { store.set('gistToken', ''); store.set('gistId', ''); toast('Sync stopped on this device'); showSettings(); };
   $('#imp-file', m).onchange = async e => {
     const f = e.target.files[0]; if (!f) return;
     try {
-      const d = JSON.parse(await f.text());
-      if (d.app !== 'tshehtu') throw new Error('not a progress file');
-      // merge: keep the earliest finish date, the most advanced review box
-      Object.entries(d.doneAt || {}).forEach(([k, v]) => { if (!(k in doneAt) || (v && (!doneAt[k] || v < doneAt[k]))) doneAt[k] = v; done.add(+k); });
-      Object.entries(d.waveAt || {}).forEach(([k, v]) => { if (!(k in waveAt) || v < waveAt[k]) waveAt[k] = v; });
-      Object.entries(d.deck || {}).forEach(([k, v]) => { if (!deck[k] || v.box > deck[k].box) deck[k] = v; });
-      (d.days || []).forEach(x => studyDays.add(x));
-      saveDone(); store.set('deck', deck); store.set('days', [...studyDays]);
+      mergeProgress(JSON.parse(await f.text()));
       toast('Progress loaded'); showSettings();
     } catch (err) { toast('Could not read this file'); }
   };
@@ -1064,8 +1174,70 @@ function play(src, btn) {
   catch { return; }
   player.play().catch(() => { if (btn) { btn.disabled = true; btn.textContent = 'No recording here'; } });
 }
+// a dialogue line, word by word, with the dictionary's recordings. These are citation forms: the tone changes of
+// connected speech (spoken tones) are not heard, and words without a recording are skipped.
+function lineAudio(tokens) { return tokens.map((t, i) => [t, i]).filter(([t]) => t.w && t.w.id && DATA.dict[t.w.id] && DATA.dict[t.w.id].audio); }
+let lineRun = 0;
+async function playLine(li, btn) {
+  const run = ++lineRun, L = DATA.lessons.find(l => location.hash.endsWith('-' + l.id));
+  if (!L) return;
+  if (btn.classList.contains('on')) { btn.classList.remove('on'); lineRun++; if (player) player.pause(); $$('.tok.say').forEach(x => x.classList.remove('say')); return; }
+  $$('.lplay.on').forEach(x => x.classList.remove('on')); btn.classList.add('on');
+  if (!store.get('lineHint', false)) { toast('Word by word: dictionary tones, not spoken tones'); store.set('lineHint', true); }
+  for (const [t, i] of lineAudio(L.lines[li].tokens)) {
+    if (run !== lineRun) return;
+    const el = document.querySelector(`[data-tok="L${li}:${i}"]`);
+    $$('.tok.say').forEach(x => x.classList.remove('say')); if (el) el.classList.add('say');
+    await new Promise(res => { try { if (player) player.pause(); player = new Audio(DATA.dict[t.w.id].audio); player.onended = res; player.onerror = res; player.play().catch(res); } catch { res(); } });
+    await new Promise(r => setTimeout(r, 120));
+  }
+  if (run === lineRun) { btn.classList.remove('on'); $$('.tok.say').forEach(x => x.classList.remove('say')); }
+}
+// ---------- sync between devices: progress kept in a private GitHub gist (secret gist, only you can list it)
+// The token stays in this browser. Pull + merge when the app opens, push a few seconds after any change.
+const Sync = {
+  FILE: 'tshehtu-progress.json', timer: null, busy: false,
+  get token() { return store.get('gistToken', ''); }, get id() { return store.get('gistId', ''); },
+  get on() { return HOSTED && !!this.token; },
+  async api(path, opts = {}) {
+    const r = await fetch('https://api.github.com' + path, { ...opts, headers: { Accept: 'application/vnd.github+json', Authorization: 'Bearer ' + this.token, ...(opts.body ? { 'Content-Type': 'application/json' } : {}) } });
+    if (!r.ok) throw new Error(r.status === 401 ? 'token refused' : r.status === 404 ? 'not found' : 'GitHub error ' + r.status);
+    return r.status === 204 ? null : r.json();
+  },
+  async findOrCreate() {
+    if (this.id) return this.id;
+    for (let page = 1; page <= 5; page++) {
+      const list = await this.api(`/gists?per_page=100&page=${page}`);
+      const g = list.find(x => x.files && x.files[this.FILE]);
+      if (g) { store.set('gistId', g.id); return g.id; }
+      if (list.length < 100) break;
+    }
+    const g = await this.api('/gists', { method: 'POST', body: JSON.stringify({ public: false, description: '冊櫥 Tsheh-tû progress', files: { [this.FILE]: { content: JSON.stringify(progressData()) } } }) });
+    store.set('gistId', g.id); return g.id;
+  },
+  async pull() {
+    const g = await this.api('/gists/' + await this.findOrCreate());
+    const f = g.files[this.FILE];
+    let text = f && f.content;
+    if (f && f.truncated) text = await (await fetch(f.raw_url)).text();
+    if (text) mergeProgress(JSON.parse(text));
+  },
+  async push() {
+    await this.api('/gists/' + await this.findOrCreate(), { method: 'PATCH', body: JSON.stringify({ files: { [this.FILE]: { content: JSON.stringify(progressData()) } } }) });
+  },
+  async run(quiet) {
+    if (!this.on || this.busy) return;
+    this.busy = true;
+    try { await this.pull(); await this.push(); store.set('syncAt', Date.now()); store.set('syncErr', ''); if (!quiet) toast('Progress synced'); }
+    catch (e) { store.set('syncErr', String(e.message || e)); if (!quiet) toast('Sync failed: ' + (e.message || e)); }
+    finally { this.busy = false; }
+  },
+  soon() { if (!this.on || this.busy) return; clearTimeout(this.timer); this.timer = setTimeout(() => this.run(true), 4000); },
+};
 let toastT;
 function toast(msg) { const t = $('#toast'); t.textContent = msg; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => t.hidden = true, 2200); }
 applySkin();
 route();
+// pull the other devices' progress at start, then refresh the current page
+if (Sync.on) Sync.run(true).then(() => { if (!sess && !tsess) { const y = scrollY; route.keepSheet = true; route(); route.keepSheet = false; scrollTo(0, y); } });
 </script>
