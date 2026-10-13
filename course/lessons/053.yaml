@@ -1,0 +1,56 @@
+id: 53
+title: {en: "Night-market food stories", tailo: "Iā-tshī ê bī", hanji: "夜市的味"}
+phase: active
+review: false
+setting: "Friday night at Flower Market, Tainan's biggest night market. A-bîng and A-hun take Sam round their favourite stalls."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "我枵甲腹肚咧叫矣。今仔日欲食啥？", tailo: "Guá iau kah pak-tóo teh kiò--ah. Kin-á-ji̍t beh tsia̍h siánn?", en: "I'm so hungry my stomach's rumbling. What shall we eat tonight?"}
+  - {n: 2, speaker: Sam, hanji: "遮四界攏真芳……毋過彼是啥物味？哪會遮爾臭？", tailo: "Tsia sì-kè lóng tsin phang…… M̄-koh he sī siánn-mih bī? Ná ē tsiah-nī tshàu?", en: "It smells good everywhere here… but what's that smell? Why does it stink so much?"}
+  - {n: 3, speaker: A-hun, hanji: "彼是臭豆腐。鼻著臭臭，食著芳芳，你食看覓。", tailo: "He sī tshàu-tāu-hū. Phīnn--tio̍h tshàu-tshàu, tsia̍h--tio̍h phang-phang, lí tsia̍h khuànn-māi.", en: "That's stinky tofu. It smells bad but tastes great. Give it a try."}
+  - {n: 4, speaker: Sam, hanji: "……誠實袂䆀！毋過有淡薄仔薟。", tailo: "…… Tsiânn-si̍t bē-bái! M̄-koh ū tām-po̍h-á hiam.", en: "…Honestly, not bad! But it's a little spicy."}
+  - {n: 5, speaker: A-bîng, hanji: "臺南人食物件較甜，啥物攏加糖。連豆油嘛是甜的。", tailo: "Tâi-lâm-lâng tsia̍h mi̍h-kiānn khah tinn, siánn-mih lóng ke thn̂g. Liân tāu-iû mā sī tinn--ê.", en: "Tainan people like their food sweeter; they add sugar to everything. Even the soy sauce is sweet."}
+  - {n: 6, speaker: A-hun, hanji: "我細漢的時，阿爸逐擺來夜市，攏買鹹酸甜予我。", tailo: "Guá sè-hàn ê sî, a-pah ta̍k-pái lâi iā-tshī, lóng bé kiâm-sng-tinn hōo guá.", en: "When I was little, every time Dad came to the night market he bought me kiâm-sng-tinn."}
+  - {n: 7, speaker: Sam, hanji: "鹹酸甜是啥物？", tailo: "Kiâm-sng-tinn sī siánn-mih?", en: "What's kiâm-sng-tinn?"}
+  - {n: 8, speaker: A-hun, hanji: "就是用糖佮鹽浸的果子，鹹鹹、酸酸、甜甜。", tailo: "Tō sī iōng thn̂g kah iâm tsìm ê kué-tsí, kiâm-kiâm, sng-sng, tinn-tinn.", en: "Fruit preserved in sugar and salt: a bit salty, a bit sour, a bit sweet."}
+  - {n: 9, speaker: A-hun, hanji: "這馬食著，袂輸閣轉去細漢的時。", tailo: "Tsit-má tsia̍h--tio̍h, bē-su koh tńg-khì sè-hàn ê sî.", en: "When I eat it now, it's as if I were a child again."}
+  - {n: 10, speaker: A-bîng, hanji: "我上愛的是蚵仔煎。毋過這擔的傷油，彼擔的閣較好食。", tailo: "Guá siōng ài--ê sī ô-á-tsian. M̄-koh tsit tànn--ê siunn iû, hit tànn--ê koh-khah hó-tsia̍h.", en: "My favourite is oyster omelette. But this stall's is too greasy; that one's is even better."}
+  - {n: 11, speaker: Sam, hanji: "彼擔的人遐爾濟，愛排隊排偌久？", tailo: "Hit tànn ê lâng hiah-nī tsē, ài pâi-tuī pâi guā kú?", en: "There are so many people at that one. How long will we have to queue?"}
+  - {n: 12, speaker: A-bîng, hanji: "大概半點鐘。食好物件，愛有耐心。", tailo: "Tāi-khài puànn tiám-tsing. Tsia̍h hó mi̍h-kiānn, ài ū nāi-sim.", en: "About half an hour. Good food takes patience."}
+  - {n: 13, speaker: Sam, hanji: "按呢我先去買飲料，我喙焦矣。", tailo: "Án-ne guá sing khì bé ím-liāu, guá tshuì-ta--ah.", en: "Then I'll go and get drinks first. I'm thirsty."}
+  - {n: 14, speaker: A-hun, hanji: "你看，逐个手頭攏攑一杯茶。咱嘛來一杯，無糖的！", tailo: "Lí khuànn, ta̍k-ê tshiú-thâu lóng gia̍h tsi̍t pue tê. Lán mā lâi tsi̍t pue, bô thn̂g--ê!", en: "Look, everyone's holding a cup of tea. Let's have one too, without sugar!"}
+notes:
+  - {ref: 1, topic: vocab, text: "枵 iau = hungry (餓), Taigi-only; the opposite is 飽 pá. 枵甲腹肚咧叫 'so hungry my stomach is crying': V + 甲 kah + result again. 腹肚 pak-tóo = stomach, belly."}
+  - {ref: 2, topic: vocab, text: "Smells and tastes: 芳 phang = smells good (香), 臭 tshàu = stinks. 味 bī = taste, smell. 四界 sì-kè = everywhere (到處), Taigi-only: 四界攏是人 'people everywhere'."}
+  - {ref: 3, topic: grammar, text: "Doubling an adjective softens it: 臭臭 tshàu-tshàu 'a bit smelly', 芳芳 phang-phang 'nice-smelling'. 鼻著 phīnn--tio̍h 'when you smell it', 食著 tsia̍h--tio̍h 'when you taste it': verb + --著 (neutral tone) for a perception."}
+  - {ref: 4, topic: vocab, text: "誠實 tsiânn-si̍t = really, honestly (真的): Mandarin 誠實 'honest' is a different word. 淡薄仔 tām-po̍h-á = a little. 薟 hiam = hot, spicy (辣) — the Taigi word; 辣 lua̍h is also heard."}
+  - {ref: 5, topic: culture, text: "Tainan cooking is famously sweet: sugar was once the region's great export. 加 ke = add (more): 加糖 'add sugar', 加一碗 'one more bowl'. 連 liân … 嘛 mā … = even … (連…也…). 豆油 tāu-iû = soy sauce (醬油): 'bean oil'."}
+  - {ref: 6, topic: vocab, text: "細漢 sè-hàn = little, when one was a child (lesson 20). 的時 ê sî = when (…的時候). 逐擺 ta̍k-pái = every time. The five tastes: 鹹 kiâm salty, 甜 tinn sweet, 酸 sng sour, 苦 khóo bitter, 薟 hiam spicy."}
+  - {ref: 8, topic: vocab, text: "鹹酸甜 kiâm-sng-tinn = candied and salted fruit (蜜餞), named after the three tastes. 浸 tsìm = soak, steep. 果子 kué-tsí = fruit (水果)."}
+  - {ref: 9, topic: grammar, text: "袂輸 bē-su = as if, just like (好像): 袂輸閣轉去細漢的時 'as if back in childhood'. Often 袂輸…仝款 '…just like…'. Literally 'won't lose (to)'."}
+  - {ref: 10, topic: grammar, text: "閣較 koh-khah = even more (更): 閣較好食 'even tastier'. Compare 較 khah 'more' and 上 siōng 'most'. 擔 tànn = stall (literally a carrying pole): 這擔的 'this stall's'. 油 iû = greasy, oily."}
+  - {ref: 12, topic: vocab, text: "半點鐘 puànn tiám-tsing = half an hour. 耐心 nāi-sim = patience."}
+  - {ref: 13, topic: vocab, text: "喙焦 tshuì-ta = thirsty (口渴): 'mouth dry'. 飲料 ím-liāu = drink(s)."}
+  - {ref: 14, topic: vocab, text: "攑 gia̍h = hold up, carry in the hand (拿、舉): 攑一杯茶 'holding a cup of tea', 攑手 'raise your hand'. 逐个 ta̍k-ê = everyone, each one (每個人). 來一杯 'let's have one' when ordering."}
+new_words:
+  - {tailo: iau, hanji: 枵, en: "hungry"}
+  - {tailo: pak-tóo, hanji: 腹肚, en: "stomach"}
+  - {tailo: phang, hanji: 芳, en: "smell good"}
+  - {tailo: tshàu, hanji: 臭, en: "stink"}
+  - {tailo: sì-kè, hanji: 四界, en: "everywhere"}
+  - {tailo: tsiânn-si̍t, hanji: 誠實, en: "really"}
+  - {tailo: hiam, hanji: 薟, en: "spicy"}
+  - {tailo: tinn, hanji: 甜, en: "sweet"}
+  - {tailo: kiâm, hanji: 鹹, en: "salty"}
+  - {tailo: sng, hanji: 酸, en: "sour"}
+  - {tailo: bē-su, hanji: 袂輸, en: "as if"}
+  - {tailo: koh-khah, hanji: 閣較, en: "even more"}
+  - {tailo: tshuì-ta, hanji: 喙焦, en: "thirsty"}
+  - {tailo: gia̍h, hanji: 攑, en: "hold up, carry"}
+exercises:
+  translate:
+    - {tailo: "Phīnn--tio̍h tshàu-tshàu, tsia̍h--tio̍h phang-phang.", hanji: "鼻著臭臭，食著芳芳。", en: "It smells bad but tastes good."}
+    - {tailo: "Hit tànn--ê koh-khah hó-tsia̍h.", hanji: "彼擔的閣較好食。", en: "That stall's is even better."}
+  fill:
+    - {tailo: "Guá ___ kah pak-tóo teh kiò--ah.", hanji: "我___甲腹肚咧叫矣。", answer: "iau", answer_hanji: "枵", en: "I'm so hungry my stomach's rumbling."}
+    - {tailo: "Tsit-má tsia̍h--tio̍h, ___ koh tńg-khì sè-hàn ê sî.", hanji: "這馬食著，___閣轉去細漢的時。", answer: "bē-su", answer_hanji: "袂輸", en: "Eating it now, it's as if I were a child again."}
+audio: []

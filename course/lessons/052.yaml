@@ -1,0 +1,59 @@
+id: 52
+title: {en: "A job interview", tailo: "Tshuē thâu-lōo", hanji: "揣頭路"}
+phase: active
+review: false
+setting: "A-hun has an interview at a small Tainan company that runs day tours for older Taiwanese travellers."
+dialogue:
+  - {n: 1, speaker: Manager, hanji: "請坐。請問你號做啥物名？", tailo: "Tshiánn tsē. Tshiánn-mn̄g lí hō-tsò siánn-mih miâ?", en: "Please sit down. May I ask your name?"}
+  - {n: 2, speaker: A-hun, hanji: "我姓林，逐家攏叫我阿芬。", tailo: "Guá sènn Lîm, ta̍k-ke lóng kiò guá A-hun.", en: "My surname is Lin; everyone calls me A-hun."}
+  - {n: 3, speaker: Manager, hanji: "你哪會想欲來阮公司食頭路？", tailo: "Lí ná ē siūnn beh lâi guán kong-si tsia̍h thâu-lōo?", en: "Why would you like to work for our company?"}
+  - {n: 4, speaker: A-hun, hanji: "我大學讀觀光，閣佇飯店做一冬。我真佮意佮人客開講。", tailo: "Guá tāi-ha̍k tha̍k kuan-kong, koh tī pn̄g-tiàm tsò tsi̍t tang. Guá tsin kah-ì kah lâng-kheh khai-káng.", en: "I studied tourism at university and worked a year in a hotel. I really like chatting with guests."}
+  - {n: 5, speaker: Manager, hanji: "阮的人客足濟是庄跤來的阿伯阿姆，攏講台語。", tailo: "Guán ê lâng-kheh tsiok tsē sī tsng-kha lâi ê a-peh a-ḿ, lóng kóng Tâi-gí.", en: "A lot of our customers are older folk from the countryside, and they all speak Taigi."}
+  - {n: 6, speaker: Manager, hanji: "你會當用台語介紹行程無？", tailo: "Lí ē-tàng iōng Tâi-gí kài-siāu hîng-tîng--bô?", en: "Could you present a tour itinerary in Taigi?"}
+  - {n: 7, speaker: A-hun, hanji: "會當。我試看覓。", tailo: "Ē-tàng. Guá tshì khuànn-māi.", en: "I can. Let me try."}
+  - {n: 8, speaker: A-hun, hanji: "各位阿伯阿姆，逐家好！今仔日早起，咱先去鹿港拜媽祖。", tailo: "Kok-uī a-peh a-ḿ, ta̍k-ke hó! Kin-á-ji̍t tsá-khí, lán sing khì Lo̍k-káng pài Má-tsóo.", en: "Ladies and gentlemen, hello everyone! This morning we'll first go to Lukang to pay our respects to Mazu."}
+  - {n: 9, speaker: A-hun, hanji: "中晝食海產，下晡才轉來。毋管有啥物問題，攏會使來揣我。", tailo: "Tiong-tàu tsia̍h hái-sán, ē-poo tsiah tńg--lâi. M̄-kuán ū siánn-mih būn-tê, lóng ē-sái lâi tshuē guá.", en: "At noon we'll have seafood, and we'll come back in the afternoon. Whatever the problem, you can always come and find me."}
+  - {n: 10, speaker: Manager, hanji: "講甲真好！毋過有時陣禮拜六嘛愛上班，你敢會驚？", tailo: "Kóng kah tsin hó! M̄-koh ū-sî-tsūn lé-pài-la̍k mā ài siōng-pan, lí kám ē kiann?", en: "Very well said! But sometimes you'd have to work Saturdays too. Would that put you off?"}
+  - {n: 11, speaker: A-hun, hanji: "袂。我做代誌真骨力，嘛真細膩。", tailo: "Bē. Guá tsò tāi-tsì tsin kut-la̍t, mā tsin sè-jī.", en: "No. I'm hard-working, and careful too."}
+  - {n: 12, speaker: Manager, hanji: "阮這馬真欠人。若倩你，你當時會當來上班？", tailo: "Guán tsit-má tsin khiàm lâng. Nā tshiànn lí, lí tang-sî ē-tàng lâi siōng-pan?", en: "We're short of staff right now. If we hired you, when could you start?"}
+  - {n: 13, speaker: A-hun, hanji: "隨時攏會當。我會先共代誌攢予好勢。", tailo: "Suî-sî lóng ē-tàng. Guá ē sing kā tāi-tsì tshuân hōo hó-sè.", en: "Any time. I'll get everything ready first."}
+  - {n: 14, speaker: Manager, hanji: "好。禮拜五以前，阮一定會通知你。", tailo: "Hó. Lé-pài-gōo í-tsîng, guán it-tīng ē thong-ti lí.", en: "All right. We'll definitely let you know before Friday."}
+  - {n: 15, speaker: A-hun, hanji: "多謝頭家，拜託你矣。", tailo: "To-siā thâu-ke, pài-thok lí--ah.", en: "Thank you, sir. I'm counting on you."}
+notes:
+  - {ref: 1, topic: grammar, text: "Polite openings: 請坐 tshiánn tsē 'please sit', 請問 tshiánn-mn̄g 'may I ask'. Note 問 mn̄g, the colloquial reading; 問題 būn-tê (line 9) uses the literary one. 號做 hō-tsò = be named (叫做): 你號做啥物名？ is the courteous 'what is your name?'."}
+  - {ref: 2, topic: vocab, text: "姓 sènn = be surnamed. 逐家 ta̍k-ke = everybody (大家). Asking someone's surname politely: 你貴姓？ Lí kuì-sènn?"}
+  - {ref: 3, topic: vocab, text: "頭路 thâu-lōo = job (工作), a Taigi-only word: 食頭路 tsia̍h thâu-lōo 'have a job, work for someone' (literally 'eat a job'), 揣頭路 tshuē thâu-lōo 'look for a job'. 公司 kong-si = company."}
+  - {ref: 4, topic: vocab, text: "冬 tang = year, when counting durations (lesson 50): 做一冬 'worked one year'. 開講 khai-káng = chat (聊天): the 講 here is read káng, not kóng."}
+  - {ref: 5, topic: vocab, text: "阿伯 a-peh = uncle, any older man; 阿姆 a-ḿ = auntie, any older woman (properly the wife of father's elder brother). 足濟 tsiok tsē = lots."}
+  - {ref: 6, topic: grammar, text: "會當 ē-tàng = can, be able to (能、可以) — ability or possibility. 會使 ē-sái (line 9) = may, be allowed. 袂當 bē-tàng = cannot. In requests both are heard; 會當 sounds a little more formal."}
+  - {ref: 8, topic: false-friend, text: "早起 tsá-khí = morning (上午), not 'get up early' as in Mandarin: 今仔日早起 'this morning'. Getting up early is 早起來 tsá khí-lâi. 各位 kok-uī = everyone (in a speech). 拜 pài = worship, pay respects to."}
+  - {ref: 9, topic: grammar, text: "毋管 m̄-kuán … 攏 lóng … = no matter …, always … (不管…都…). 中晝 tiong-tàu = noon; 下晡 ē-poo = afternoon. 才 tsiah = only then (lesson 24)."}
+  - {ref: 10, topic: grammar, text: "V + 甲 kah + result: 講甲真好 'spoke really well' (說得很好). 有時陣 ū-sî-tsūn = sometimes. 敢會驚？ 'would you be afraid / would it bother you?'"}
+  - {ref: 11, topic: vocab, text: "骨力 kut-la̍t = hard-working (勤勞), Taigi-only. 細膩 sè-jī = careful (小心); also 'don't stand on ceremony' when offering food: 莫細膩！ 'help yourself!'."}
+  - {ref: 12, topic: vocab, text: "倩 tshiànn = hire, employ (僱): 倩人 'take on staff'. 欠 khiàm = lack, be short of: 欠人 'short-staffed', 欠錢 'owe money'. 當時 tang-sî = when (什麼時候)."}
+  - {ref: 13, topic: vocab, text: "攢 tshuân = prepare, get ready (準備), a word with the same characters as Mandarin but another meaning. 攢予好勢 'get it properly ready': 好勢 hó-sè = settled, in good order; also 'comfortable'. 隨時 suî-sî = any time."}
+  - {ref: 14, topic: grammar, text: "一定 it-tīng = certainly, definitely. 以前 í-tsîng after a time = before: 禮拜五以前 'before Friday'. 通知 thong-ti = let know."}
+  - {ref: 15, topic: culture, text: "頭家 thâu-ke = boss, owner; also how staff address the person in charge. 拜託你矣 pài-thok lí--ah = 'I'm counting on you', a polite way to close any request."}
+new_words:
+  - {tailo: tshiánn-mn̄g, hanji: 請問, en: "may I ask"}
+  - {tailo: hō-tsò, hanji: 號做, en: "be named"}
+  - {tailo: thâu-lōo, hanji: 頭路, en: "job"}
+  - {tailo: khai-káng, hanji: 開講, en: "chat"}
+  - {tailo: ē-tàng, hanji: 會當, en: "can, be able to"}
+  - {tailo: tsá-khí, hanji: 早起, en: "morning"}
+  - {tailo: m̄-kuán, hanji: 毋管, en: "no matter"}
+  - {tailo: kut-la̍t, hanji: 骨力, en: "hard-working"}
+  - {tailo: sè-jī, hanji: 細膩, en: "careful"}
+  - {tailo: tshiànn, hanji: 倩, en: "hire"}
+  - {tailo: khiàm, hanji: 欠, en: "lack, owe"}
+  - {tailo: tshuân, hanji: 攢, en: "prepare"}
+  - {tailo: it-tīng, hanji: 一定, en: "certainly"}
+  - {tailo: thâu-ke, hanji: 頭家, en: "boss, owner"}
+exercises:
+  translate:
+    - {tailo: "Lí tang-sî ē-tàng lâi siōng-pan?", hanji: "你當時會當來上班？", en: "When can you start work?"}
+    - {tailo: "Guá ē sing kā tāi-tsì tshuân hōo hó-sè.", hanji: "我會先共代誌攢予好勢。", en: "I'll get everything ready first."}
+  fill:
+    - {tailo: "___ ū siánn-mih būn-tê, lóng ē-sái lâi tshuē guá.", hanji: "___有啥物問題，攏會使來揣我。", answer: "M̄-kuán", answer_hanji: "毋管", en: "Whatever the problem, you can come and find me."}
+    - {tailo: "Lí ná ē siūnn beh lâi guán kong-si tsia̍h ___?", hanji: "你哪會想欲來阮公司食___？", answer: "thâu-lōo", answer_hanji: "頭路", en: "Why do you want to work for our company?"}
+audio: []

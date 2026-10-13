@@ -1,0 +1,36 @@
+id: 56
+title: {en: "Review 8", tailo: "Ho̍k-si̍p", hanji: "復習"}
+phase: active
+review: true
+setting: "A week after Mid-Autumn, A-hun runs into Sam in the street with good news. Everything comes from lessons 50–55."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "Sam，我揣著頭路矣！頭家禮拜五就通知我。", tailo: "Sam, guá tshuē-tio̍h thâu-lōo--ah! Thâu-ke lé-pài-gōo tō thong-ti guá.", en: "Sam, I've found a job! The boss let me know on Friday."}
+  - {n: 2, speaker: Sam, hanji: "恭喜！你遐爾骨力，一定會做甲真好。", tailo: "Kiong-hí! Lí hiah-nī kut-la̍t, it-tīng ē tsò kah tsin hó.", en: "Congratulations! You work so hard, you'll certainly do really well."}
+  - {n: 3, speaker: A-hun, hanji: "你寄予恁老母的茶米到矣未？", tailo: "Lí kià hōo lín lāu-bú ê tê-bí kàu--ah--buē?", en: "Has the tea you sent your mother arrived yet?"}
+  - {n: 4, speaker: Sam, hanji: "到矣。伊講毋但好啉，閣真芳。", tailo: "Kàu--ah. I kóng m̄-nā hó-lim, koh tsin phang.", en: "Yes. She says it's not only good to drink but smells lovely too."}
+  - {n: 5, speaker: A-hun, hanji: "按呢你下擺閣寄鹹酸甜予伊。", tailo: "Án-ne lí ē-pái koh kià kiâm-sng-tinn hōo i.", en: "Then next time send her some kiâm-sng-tinn."}
+  - {n: 6, speaker: Sam, hanji: "毋好啦，伊無慣勢食甜的。", tailo: "M̄ hó--lah, i bô kuàn-sì tsia̍h tinn--ê.", en: "Better not, she isn't used to sweet things."}
+  - {n: 7, speaker: A-hun, hanji: "中秋你戴柚仔皮，阿媽講你袂輸阮小弟。", tailo: "Tiong-tshiu lí tì iū-á-phuê, a-má kóng lí bē-su guán sió-tī.", en: "At Mid-Autumn, with that pomelo peel on your head, A-má said you were just like our little brother."}
+  - {n: 8, speaker: Sam, hanji: "我嘛感覺恁攏是家己人。毋過鬼月的代誌，我猶是驚驚。", tailo: "Guá mā kám-kak lín lóng sī ka-kī-lâng. M̄-koh kuí-gue̍h ê tāi-tsì, guá iáu-sī kiann-kiann.", en: "I feel you're all family too. But that ghost-month business still scares me a bit."}
+  - {n: 9, speaker: A-hun, hanji: "恬恬啦，這陣是暗時！", tailo: "Tiām-tiām--lah, tsit-tsūn sī àm-sî!", en: "Hush, it's night-time now!"}
+  - {n: 10, speaker: Sam, hanji: "好啦，我毋講矣。咱來去夜市，我枵矣。", tailo: "Hó--lah, guá m̄ kóng--ah. Lán lâi-khì iā-tshī, guá iau--ah.", en: "All right, I'll stop. Let's go to the night market, I'm hungry."}
+notes:
+  - {ref: 1, topic: grammar, text: "Result 著 tio̍h: 揣著 'found', 看著 'saw', 鼻著 'smelt'. Work words: 頭路 (job), 食頭路 (be employed), 倩 (hire), 欠人 (short-staffed), 頭家 (boss), 上班 (go to work)."}
+  - {ref: 2, topic: grammar, text: "Ability and permission: 會當 ē-tàng (can, be able), 會使 ē-sái (may), 袂當 / 袂使 (cannot / must not). Certainty: 一定 it-tīng (certainly), 大概 tāi-khài (probably)."}
+  - {ref: 4, topic: grammar, text: "Linking words from this week: 毋但…閣… (not only… but also), 毋管…攏… (no matter… always), 袂輸 (as if), 驚 + clause (in case), 抑是 (or, in questions). Degree: 較 (more), 閣較 (even more), 上 (most)."}
+  - {ref: 5, topic: grammar, text: "Number + 外 guā = a little over (兩公斤外). V + 予好 hōo hó = do it properly (收予好, 攢予好勢). Adjective + --去 = has gone (bad): 烏去, 歹去."}
+  - {ref: 6, topic: vocab, text: "慣勢 kuàn-sì = be used to (習慣): 無慣勢食甜的 'not used to sweet food'. The five tastes: 鹹 kiâm, 甜 tinn, 酸 sng, 苦 khóo, 薟 hiam; smells: 芳 phang, 臭 tshàu."}
+  - {ref: 8, topic: false-friend, text: "Same characters, other meaning (lessons 50–55): 下 hē 'put down', 趕緊 'quickly', 攢 'prepare', 早起 'morning', 誠實 'really', 親情 'relatives', 中央 tiong-ng 'middle', 怎樣 'how'. Taigi-only: 枵, 四界, 攑, 覕, 抾, 恬恬, 刣, 月娘, 卵仁."}
+  - {ref: 9, topic: grammar, text: "Now and then: 這馬 tsit-má (nowadays, now), 這陣 tsit-tsūn (right now), 彼陣 hit-tsūn (back then), 暗時 àm-sî (at night), 早起 tsá-khí (morning), 中晝 tiong-tàu (noon), 下晡 ē-poo (afternoon)."}
+new_words:
+  - {tailo: kiong-hí, hanji: 恭喜, en: "congratulations"}
+  - {tailo: kuàn-sì, hanji: 慣勢, en: "be used to"}
+exercises:
+  translate:
+    - {tailo: "Guá tshuē-tio̍h thâu-lōo--ah!", hanji: "我揣著頭路矣！", en: "I've found a job!"}
+    - {tailo: "I bô kuàn-sì tsia̍h tinn--ê.", hanji: "伊無慣勢食甜的。", en: "She isn't used to sweet food."}
+    - {tailo: "M̄-kuán ū siánn-mih būn-tê, lóng ē-sái lâi tshuē guá.", hanji: "毋管有啥物問題，攏會使來揣我。", en: "Whatever the problem, you can always come and find me."}
+  fill:
+    - {tailo: "I kóng ___ hó-lim, koh tsin phang.", hanji: "伊講___好啉，閣真芳。", answer: "m̄-nā", answer_hanji: "毋但", en: "She says it's not only good to drink but smells lovely too."}
+    - {tailo: "A-má kóng lí ___ guán sió-tī.", hanji: "阿媽講你___阮小弟。", answer: "bē-su", answer_hanji: "袂輸", en: "A-má said you were just like our little brother."}
+audio: []

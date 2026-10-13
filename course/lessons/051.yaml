@@ -1,0 +1,57 @@
+id: 51
+title: {en: "At the post office", tailo: "Kià pau-kó", hanji: "寄包裹"}
+phase: active
+review: false
+setting: "Sam's mother turns sixty next week. He takes a box of tea to the post office near his flat in Tainan."
+dialogue:
+  - {n: 1, speaker: Sam, hanji: "小姐，我欲寄這个包裹去法國。", tailo: "Sió-tsiá, guá beh kià tsit ê pau-kó khì Huat-kok.", en: "Excuse me, I'd like to send this parcel to France."}
+  - {n: 2, speaker: Clerk, hanji: "好，先下佇遮，我共你秤看覓。", tailo: "Hó, sing hē tī tsia, guá kā lí tshìn khuànn-māi.", en: "Sure, put it down here first and I'll weigh it for you."}
+  - {n: 3, speaker: Clerk, hanji: "兩公斤外。內底是啥物？", tailo: "Nn̄g kong-kin guā. Lāi-té sī siánn-mih?", en: "Just over two kilos. What's inside?"}
+  - {n: 4, speaker: Sam, hanji: "是茶米，欲送予阮老母的。伊上愛啉烏龍茶。", tailo: "Sī tê-bí, beh sàng hōo guán lāu-bú--ê. I siōng ài lim oo-liông-tê.", en: "Tea leaves, a present for my mother. Oolong is her favourite."}
+  - {n: 5, speaker: Clerk, hanji: "茶米會使寄。毋過你這箱仔縛了傷冗，愛閣縛較絚咧。", tailo: "Tê-bí ē-sái kià. M̄-koh lí tsit siunn-á pa̍k liáu siunn līng, ài koh pa̍k khah ân--leh.", en: "Tea is fine to send. But this box is tied too loosely; it needs tying tighter."}
+  - {n: 6, speaker: Sam, hanji: "歹勢，我無紮索仔。", tailo: "Pháinn-sè, guá bô tsah soh-á.", en: "Sorry, I didn't bring any string."}
+  - {n: 7, speaker: Clerk, hanji: "無要緊，遮有，你家己縛。", tailo: "Bô-iàu-kín, tsia ū, lí ka-kī pa̍k.", en: "No problem, there's some here. Tie it yourself."}
+  - {n: 8, speaker: Sam, hanji: "寄去法國愛偌久？", tailo: "Kià khì Huat-kok ài guā kú?", en: "How long does it take to France?"}
+  - {n: 9, speaker: Clerk, hanji: "平信大概愛兩禮拜；航空較緊，一禮拜就到矣，毋過較貴。", tailo: "Pîng-sìn tāi-khài ài nn̄g lé-pài; hâng-khong khah kín, tsi̍t lé-pài tō kàu--ah, m̄-koh khah kuì.", en: "Surface mail takes about two weeks. Airmail is faster, a week, but it costs more."}
+  - {n: 10, speaker: Sam, hanji: "阮老母後禮拜就過生日矣，我愛趕緊。寄航空。", tailo: "Guán lāu-bú āu lé-pài tō kuè senn-ji̍t--ah, guá ài kuánn-kín. Kià hâng-khong.", en: "My mother's birthday is next week, I'm in a hurry. Airmail, please."}
+  - {n: 11, speaker: Clerk, hanji: "好。這張紙寫恁老母的名佮地址，愛用英文寫。", tailo: "Hó. Tsit tiunn tsuá siá lín lāu-bú ê miâ kah tē-tsí, ài iōng Ing-bûn siá.", en: "Right. Write your mother's name and address on this form, in English."}
+  - {n: 12, speaker: Sam, hanji: "寫好矣。猶閣愛貼郵票無？", tailo: "Siá hó--ah. Iáu-koh ài tah iû-phiò--bô?", en: "Done. Do I still need to put stamps on it?"}
+  - {n: 13, speaker: Clerk, hanji: "免，阮遮會處理。總共一千二百箍。", tailo: "Bián, guán tsia ē tshú-lí. Tsóng-kiōng tsi̍t-tshing jī-pah khoo.", en: "No need, we'll take care of that. That's twelve hundred dollars in all."}
+  - {n: 14, speaker: Sam, hanji: "毋但重，閣遐爾貴！……無要緊，老母較重要。", tailo: "M̄-nā tāng, koh hiah-nī kuì! …… Bô-iàu-kín, lāu-bú khah tiōng-iàu.", en: "Not only heavy, but that expensive too! …Never mind, my mother matters more."}
+  - {n: 15, speaker: Clerk, hanji: "你真有孝。收據收予好，若寄無到，會使提來查。", tailo: "Lí tsin iú-hàu. Siu-kì siu hōo hó, nā kià bô kàu, ē-sái the̍h--lâi tshâ.", en: "What a good son. Keep the receipt safe: if it doesn't arrive, bring it here and we can trace it."}
+notes:
+  - {ref: 1, topic: vocab, text: "寄 kià = send (by post); also 'leave in someone's care' (寄物件). 包裹 pau-kó = parcel. 寄去法國 'send to France': destination with 去 khì after the verb."}
+  - {ref: 2, topic: false-friend, text: "下 hē = put down, place (放下). Not 'below' here: 下佇遮 'put it here'. Compare 囥 khǹg 'put, keep' (lesson 33). 秤 tshìn = weigh (on a scale)."}
+  - {ref: 3, topic: grammar, text: "Number + 外 guā = 'a little over': 兩公斤外 'just over two kilos', 三十外歲 'thirty-something'. 內底 lāi-té = inside (裡面)."}
+  - {ref: 4, topic: vocab, text: "茶米 tê-bí = tea leaves (茶葉): Taigi calls them 'tea rice'. 老母 lāu-bú = mother (母親), the everyday word when talking about her; 阿母 a-bú is what you call her. Same pattern: 老爸 lāu-pē 'father'."}
+  - {ref: 5, topic: vocab, text: "縛 pa̍k = tie (綁). 冗 līng = loose; 絚 ân = tight: an opposite pair worth learning together. 縛了傷冗 'tied too loosely': V + 了 liáu + result."}
+  - {ref: 6, topic: vocab, text: "紮 tsah = bring along, carry with you (帶). 索仔 soh-á = string, rope."}
+  - {ref: 9, topic: vocab, text: "平信 pîng-sìn = ordinary mail; 航空 hâng-khong = airmail. 大概 tāi-khài = about, probably."}
+  - {ref: 10, topic: vocab, text: "趕緊 kuánn-kín = hurry, quickly (Mandarin 趕快). Same characters as Mandarin 趕緊, but in Taigi it is the everyday word for 'be quick': 趕緊來！ 'come quick!', 趕緊食 'eat up quickly'."}
+  - {ref: 11, topic: vocab, text: "名 miâ = name; 地址 tē-tsí = address. 恁老母 lín lāu-bú 'your mother': 恁 for family, as 阮 guán for 'my' (lesson 6)."}
+  - {ref: 13, topic: vocab, text: "處理 tshú-lí = take care of, handle. 一千二百 tsi̍t-tshing jī-pah = 1,200. In prices the last unit often drops: 一千二 'twelve hundred'."}
+  - {ref: 14, topic: grammar, text: "毋但 m̄-nā … 閣 koh … = not only … but also … (不但…還…): 毋但重，閣貴 'not only heavy but expensive too'. 重 tāng = heavy (colloquial reading); 重要 tiōng-iàu uses the literary one."}
+  - {ref: 15, topic: grammar, text: "V + 予好 hōo hó = do it properly: 收予好 'put it away safely', 坐予好 'sit properly'. 寄無到 'send and not arrive': V + 無 + result. 查 tshâ = check, look up."}
+new_words:
+  - {tailo: kià, hanji: 寄, en: "send (by post)"}
+  - {tailo: pau-kó, hanji: 包裹, en: "parcel"}
+  - {tailo: hē, hanji: 下, en: "put down, place"}
+  - {tailo: tshìn, hanji: 秤, en: "weigh"}
+  - {tailo: tê-bí, hanji: 茶米, en: "tea leaves"}
+  - {tailo: lāu-bú, hanji: 老母, en: "mother"}
+  - {tailo: pa̍k, hanji: 縛, en: "tie"}
+  - {tailo: ân, hanji: 絚, en: "tight"}
+  - {tailo: tsah, hanji: 紮, en: "bring along"}
+  - {tailo: kuánn-kín, hanji: 趕緊, en: "hurry, quickly"}
+  - {tailo: tē-tsí, hanji: 地址, en: "address"}
+  - {tailo: iû-phiò, hanji: 郵票, en: "stamp"}
+  - {tailo: m̄-nā, hanji: 毋但, en: "not only"}
+  - {tailo: siu-kì, hanji: 收據, en: "receipt"}
+exercises:
+  translate:
+    - {tailo: "Guá ài kuánn-kín, kià hâng-khong.", hanji: "我愛趕緊，寄航空。", en: "I'm in a hurry, airmail please."}
+    - {tailo: "Siu-kì siu hōo hó.", hanji: "收據收予好。", en: "Keep the receipt safe."}
+  fill:
+    - {tailo: "Sing ___ tī tsia, guá kā lí tshìn khuànn-māi.", hanji: "先___佇遮，我共你秤看覓。", answer: "hē", answer_hanji: "下", en: "Put it down here first and I'll weigh it."}
+    - {tailo: "___ tāng, koh hiah-nī kuì!", hanji: "___重，閣遐爾貴！", answer: "M̄-nā", answer_hanji: "毋但", en: "Not only heavy, but that expensive too!"}
+audio: []

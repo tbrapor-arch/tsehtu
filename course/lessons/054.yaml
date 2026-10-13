@@ -1,0 +1,59 @@
+id: 54
+title: {en: "Ghost month", tailo: "Kuí-gue̍h", hanji: "鬼月"}
+phase: active
+review: false
+setting: "A hot evening in the seventh lunar month. Sam suggests a trip to the beach; A-má is not happy about it."
+dialogue:
+  - {n: 1, speaker: Sam, hanji: "阿媽，明仔載咱去海墘泅水好無？", tailo: "A-má, bîn-á-tsài lán khì hái-kînn siû-tsuí hó--bô?", en: "A-má, shall we go swimming at the seaside tomorrow?"}
+  - {n: 2, speaker: A-má, hanji: "毋好！這馬是鬼月，鬼門開矣，莫去水邊。", tailo: "M̄ hó! Tsit-má sī kuí-gue̍h, kuí-mn̂g khui--ah, mài khì tsuí-pinn.", en: "No! It's ghost month, the gates of the underworld are open. Stay away from water."}
+  - {n: 3, speaker: Sam, hanji: "鬼門？", tailo: "Kuí-mn̂g?", en: "The gates of the underworld?"}
+  - {n: 4, speaker: A-má, hanji: "七月，好兄弟攏轉來人間，四界行。咱愛較細膩咧。", tailo: "Tshit-gue̍h, hó-hiann-tī lóng tńg-lâi jîn-kan, sì-kè kiânn. Lán ài khah sè-jī--leh.", en: "In the seventh month the 'good brothers' all come back to the world of the living and wander everywhere. We have to be careful."}
+  - {n: 5, speaker: A-bîng, hanji: "阿媽講的好兄弟就是鬼。七月咱毋直接講鬼，驚𪜶受氣。", tailo: "A-má kóng ê hó-hiann-tī tō sī kuí. Tshit-gue̍h lán m̄ ti̍t-tsiap kóng kuí, kiann in siū-khì.", en: "A-má's 'good brothers' are ghosts. In the seventh month we don't say 'ghost' straight out, in case they get angry."}
+  - {n: 6, speaker: Sam, hanji: "按呢猶閣有啥物禁忌？", tailo: "Án-ne iáu-koh ū siánn-mih kìm-khī?", en: "So what other taboos are there?"}
+  - {n: 7, speaker: A-má, hanji: "暗時莫佇外口曝衫，嘛莫歕呼噓仔。", tailo: "Àm-sî mài tī guā-kháu pha̍k sann, mā mài pûn khoo-si-á.", en: "Don't hang washing outside at night, and don't whistle."}
+  - {n: 8, speaker: A-má, hanji: "暗時若有人佇後壁叫你的名，莫隨應。", tailo: "Àm-sî nā ū lâng tī āu-piah kiò lí ê miâ, mài suî ìn.", en: "At night, if someone behind you calls your name, don't answer straight away."}
+  - {n: 9, speaker: A-bîng, hanji: "閣有，路裡若看著紅包，千萬毋通抾。", tailo: "Koh ū, lōo--nih nā khuànn-tio̍h âng-pau, tshian-bān m̄-thang khioh.", en: "And if you see a red envelope in the street, whatever you do, don't pick it up."}
+  - {n: 10, speaker: Sam, hanji: "哪會遮濟？我會驚甲覕佇厝內，毋敢出去。", tailo: "Ná ē tsiah tsē? Guá ē kiann kah bih tī tshù-lāi, m̄ kánn tshut--khì.", en: "Why so many? I'll be so scared I'll hide indoors and not dare go out."}
+  - {n: 11, speaker: A-má, hanji: "免驚啦。七月半咱會普渡，攢牲醴佮金紙拜𪜶。𪜶食飽，就袂來吵矣。", tailo: "Bián kiann--lah. Tshit-gue̍h-puànn lán ē phóo-tōo, tshuân sing-lé kah kim-tsuá pài--in. In tsia̍h pá, tō bē lâi tshá--ah.", en: "Don't be scared. On the fifteenth we hold the offering, with food and joss paper for them. Once they've eaten their fill, they won't bother us."}
+  - {n: 12, speaker: A-bîng, hanji: "好兄弟嘛真歹命，無人祭𪜶，所以咱請𪜶食。", tailo: "Hó-hiann-tī mā tsin pháinn-miā, bô lâng tsè--in, sóo-í lán tshiánn in tsia̍h.", en: "The good brothers have it hard too: nobody makes offerings to them, so we treat them to a meal."}
+  - {n: 13, speaker: Sam, hanji: "這是迷信，抑是尊重？", tailo: "Tse sī bê-sìn, ia̍h-sī tsun-tiōng?", en: "Is this superstition or respect?"}
+  - {n: 14, speaker: A-bîng, hanji: "怎樣講攏會使。我信一半，毋過阿媽講的我攏照做。", tailo: "Tsuánn-iūnn kóng lóng ē-sái. Guá sìn tsi̍t-puànn, m̄-koh a-má kóng--ê guá lóng tsiàu tsò.", en: "Put it however you like. I half believe it, but I do everything A-má says."}
+  - {n: 15, speaker: A-má, hanji: "恬恬啦！暗時莫講遮的。", tailo: "Tiām-tiām--lah! Àm-sî mài kóng tsia--ê.", en: "Hush! Don't talk about these things at night."}
+notes:
+  - {ref: 1, topic: vocab, text: "海墘 hái-kînn = the seaside, the shore (海邊): 墘 kînn = edge, as in 溪墘 'riverbank'. 泅水 siû-tsuí = swim (lesson 36)."}
+  - {ref: 2, topic: culture, text: "鬼月 kuí-gue̍h = ghost month, the seventh lunar month (usually August). On its first day 鬼門開 'the gates of the underworld open'; on the last they close. People avoid swimming, moving house and big purchases. 莫 mài = don't (別)."}
+  - {ref: 4, topic: culture, text: "好兄弟 hó-hiann-tī 'good brothers' is the polite name for wandering ghosts, used to avoid the word 鬼 kuí. 人間 jîn-kan = the world of the living. 行 kiânn = walk, go about (lesson 13)."}
+  - {ref: 5, topic: grammar, text: "驚 kiann + clause = 'for fear that, in case': 驚𪜶受氣 'in case they get angry'. 直接 ti̍t-tsiap = directly, straight out."}
+  - {ref: 6, topic: vocab, text: "禁忌 kìm-khī = taboo. 猶閣有 iáu-koh ū = there's still, what else is there."}
+  - {ref: 7, topic: vocab, text: "暗時 àm-sî = at night, in the evening. 曝衫 pha̍k sann = hang out washing (literally 'sun the clothes'; 曝 as in 曝日, lesson 36). 歕呼噓仔 pûn khoo-si-á = whistle: 歕 pûn 'blow'."}
+  - {ref: 8, topic: vocab, text: "後壁 āu-piah = behind (後面). 應 ìn = answer, reply (when called). 隨 suî = straight away."}
+  - {ref: 9, topic: grammar, text: "千萬毋通 tshian-bān m̄-thang = whatever you do, don't (千萬不要): the strongest warning. 抾 khioh = pick up (撿), Taigi-only. A red envelope left in the street is said to be a 'ghost marriage' bait."}
+  - {ref: 10, topic: vocab, text: "覕 bih = hide (躲), Taigi-only: 覕相揣 bih-sio-tshuē 'hide and seek'. 毋敢 m̄ kánn = not dare. 厝內 tshù-lāi = indoors."}
+  - {ref: 11, topic: culture, text: "七月半 tshit-gue̍h-puànn = the fifteenth of the seventh month (中元). 普渡 phóo-tōo = the offering to the wandering spirits: tables of food in front of homes, shops and temples. 牲醴 sing-lé = meat and food offerings; 金紙 kim-tsuá = joss paper. 吵 tshá = disturb, make a fuss."}
+  - {ref: 12, topic: vocab, text: "歹命 pháinn-miā = have a hard life, ill-fated (命苦); its opposite 好命 hó-miā 'lucky, have an easy life'. 祭 tsè = make offerings to (the dead). 請 tshiánn = treat (lesson 7)."}
+  - {ref: 13, topic: grammar, text: "抑是 ia̍h-sī = or (in questions: 還是). 迷信 bê-sìn = superstition; 尊重 tsun-tiōng = respect."}
+  - {ref: 14, topic: false-friend, text: "怎樣 tsuánn-iūnn = how, in what way (怎麼樣): 怎樣講攏會使 'you can say it either way'. 照 tsiàu = according to: 照做 'do as told'. 一半 tsi̍t-puànn = half."}
+  - {ref: 15, topic: vocab, text: "恬恬 tiām-tiām = quietly, be quiet (安靜), Taigi-only: 恬恬啦！ 'hush!', 恬恬坐 'sit quietly'. 遮的 tsia--ê = these (things)."}
+new_words:
+  - {tailo: hái-kînn, hanji: 海墘, en: "seaside"}
+  - {tailo: kuí-gue̍h, hanji: 鬼月, en: "ghost month"}
+  - {tailo: hó-hiann-tī, hanji: 好兄弟, en: "wandering ghosts (polite)"}
+  - {tailo: kìm-khī, hanji: 禁忌, en: "taboo"}
+  - {tailo: àm-sî, hanji: 暗時, en: "at night"}
+  - {tailo: āu-piah, hanji: 後壁, en: "behind"}
+  - {tailo: khioh, hanji: 抾, en: "pick up"}
+  - {tailo: m̄-thang, hanji: 毋通, en: "must not"}
+  - {tailo: bih, hanji: 覕, en: "hide"}
+  - {tailo: phóo-tōo, hanji: 普渡, en: "offering to wandering spirits"}
+  - {tailo: pháinn-miā, hanji: 歹命, en: "hard life, ill-fated"}
+  - {tailo: ia̍h-sī, hanji: 抑是, en: "or"}
+  - {tailo: tsuánn-iūnn, hanji: 怎樣, en: "how, in what way"}
+  - {tailo: tiām-tiām, hanji: 恬恬, en: "quiet"}
+exercises:
+  translate:
+    - {tailo: "Tshian-bān m̄-thang khioh.", hanji: "千萬毋通抾。", en: "Whatever you do, don't pick it up."}
+    - {tailo: "Guá sìn tsi̍t-puànn.", hanji: "我信一半。", en: "I half believe it."}
+  fill:
+    - {tailo: "Guá ē kiann kah ___ tī tshù-lāi.", hanji: "我會驚甲___佇厝內。", answer: "bih", answer_hanji: "覕", en: "I'll be so scared I'll hide indoors."}
+    - {tailo: "___--lah! Àm-sî mài kóng tsia--ê.", hanji: "___啦！暗時莫講遮的。", answer: "Tiām-tiām", answer_hanji: "恬恬", en: "Hush! Don't talk about these things at night."}
+audio: []

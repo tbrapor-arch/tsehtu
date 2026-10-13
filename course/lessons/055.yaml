@@ -1,0 +1,58 @@
+id: 55
+title: {en: "Mid-Autumn barbecue", tailo: "Tiong-tshiu hang-bah", hanji: "中秋烘肉"}
+phase: active
+review: false
+setting: "Mid-Autumn night. A-bîng's whole family has set up a grill on the pavement outside the house, like every family in the street."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "Sam，緊來！這陣火炭拄好，會使烘肉矣。", tailo: "Sam, kín lâi! Tsit-tsūn hué-thuànn tú-hó, ē-sái hang-bah--ah.", en: "Sam, quick! The charcoal's just right now, we can start grilling."}
+  - {n: 2, speaker: Sam, hanji: "規个街仔攏咧烘肉，真鬧熱！", tailo: "Kui ê ke-á lóng teh hang-bah, tsin lāu-jia̍t!", en: "The whole street is having a barbecue. What a buzz!"}
+  - {n: 3, speaker: A-bîng, hanji: "中秋節逐个攏按呢。親情攏轉來，鬥陣食、鬥陣開講。", tailo: "Tiong-tshiu-tseh ta̍k-ê lóng án-ne. Tshin-tsiânn lóng tńg--lâi, tàu-tīn tsia̍h, tàu-tīn khai-káng.", en: "Everyone does it at Mid-Autumn. The relatives all come home to eat and chat together."}
+  - {n: 4, speaker: A-má, hanji: "這尾魚我透早就刣好矣，你提去烘。", tailo: "Tsit bué hî guá thàu-tsá tō thâi hó--ah, lí the̍h-khì hang.", en: "I gutted this fish first thing this morning. Take it and grill it."}
+  - {n: 5, speaker: A-hun, hanji: "阿舅咧剝柚仔。柚仔皮會使戴佇頭殼頂，做帽仔。", tailo: "A-kū teh pak iū-á. Iū-á-phuê ē-sái tì tī thâu-khak-tíng, tsò bō-á.", en: "Uncle is peeling pomelos. You can put the peel on your head as a hat."}
+  - {n: 6, speaker: Sam, hanji: "按呢敢袂真好笑？", tailo: "Án-ne kám bē tsin hó-tshiò?", en: "Won't that look really silly?"}
+  - {n: 7, speaker: A-hun, hanji: "袂啦！你看，囡仔逐个攏戴。", tailo: "Bē--lah! Lí khuànn, gín-á ta̍k-ê lóng tì.", en: "No! Look, all the kids are wearing one."}
+  - {n: 8, speaker: A-bîng, hanji: "Sam，你的煙腸愛反一下，莫烘甲臭焦。", tailo: "Sam, lí ê ian-tshiâng ài píng--tsi̍t-ē, mài hang kah tshàu-ta.", en: "Sam, turn your sausage over, don't let it burn."}
+  - {n: 9, speaker: Sam, hanji: "啊，已經烏去矣……", tailo: "Ah, í-king oo--khì--ah……", en: "Oh, it's already gone black…"}
+  - {n: 10, speaker: A-má, hanji: "無要緊，臭焦的我食。", tailo: "Bô-iàu-kín, tshàu-ta--ê guá tsia̍h.", en: "Never mind, I'll eat the burnt ones."}
+  - {n: 11, speaker: A-hun, hanji: "恁看，月娘出來矣，圓輾輾！", tailo: "Lín khuànn, gue̍h-niû tshut--lâi--ah, înn-lìn-lìn!", en: "Look, the moon's out, perfectly round!"}
+  - {n: 12, speaker: A-má, hanji: "月娘上圓的時，厝內的人愛團圓。Sam，你敢會想恁老母？", tailo: "Gue̍h-niû siōng înn ê sî, tshù-lāi ê lâng ài thuân-înn. Sam, lí kám ē siūnn lín lāu-bú?", en: "When the moon is at its roundest, families should be together. Sam, do you miss your mother?"}
+  - {n: 13, speaker: Sam, hanji: "會……毋過這陣，恁嘛攏是我的家己人。", tailo: "Ē…… M̄-koh tsit-tsūn, lín mā lóng sī guá ê ka-kī-lâng.", en: "I do… but right now, you're my family too."}
+  - {n: 14, speaker: A-má, hanji: "好囝。來，月餅食一塊。中央彼塊有卵仁。", tailo: "Hó kiánn. Lâi, gue̍h-piánn tsia̍h tsi̍t tè. Tiong-ng hit tè ū nn̄g-jîn.", en: "Good boy. Here, have a mooncake. The one in the middle has an egg yolk inside."}
+  - {n: 15, speaker: A-bîng, hanji: "好，逐家杯仔攑起來，中秋快樂！", tailo: "Hó, ta̍k-ke pue-á gia̍h--khí-lâi, Tiong-tshiu khuài-lo̍k!", en: "Right, everyone raise your glass. Happy Mid-Autumn!"}
+notes:
+  - {ref: 1, topic: vocab, text: "這陣 tsit-tsūn = now, at this moment (現在), Taigi-only; 彼陣 hit-tsūn = at that time. Compare 這馬 tsit-má 'now' (lesson 9): 這陣 points at the moment itself. 拄好 tú-hó = just right. 烘肉 hang-bah = barbecue; 烘 hang = roast, grill."}
+  - {ref: 2, topic: vocab, text: "規个 kui ê = the whole (整個). 街仔 ke-á = street. 鬧熱 lāu-jia̍t = lively (lesson 43)."}
+  - {ref: 3, topic: false-friend, text: "親情 tshin-tsiânn = relatives (親戚), not Mandarin 親情 'family love'. 逐个 ta̍k-ê = everyone, each one. 鬥陣 tàu-tīn = together (一起), as in 鬥陣行 'walk together'."}
+  - {ref: 4, topic: false-friend, text: "刣 thâi = kill, slaughter; also cut up, gut (殺、切): 刣雞, 刣魚, 刣西瓜 'cut a watermelon'. Taigi-only. 尾 bué = classifier for fish. 透早 thàu-tsá = first thing in the morning (lesson 40)."}
+  - {ref: 5, topic: culture, text: "Pomelo 柚仔 iū-á is the Mid-Autumn fruit (its name sounds like 佑 'protect'). Children wear the peel 柚仔皮 iū-á-phuê as a hat. 剝 pak = peel. 戴 tì = wear (on the head). 頭殼頂 thâu-khak-tíng = top of the head. 阿舅 a-kū = mother's brother."}
+  - {ref: 6, topic: vocab, text: "好笑 hó-tshiò = funny, ridiculous. 敢袂…？ 'won't it be…?'"}
+  - {ref: 8, topic: vocab, text: "煙腸 ian-tshiâng = Taiwanese sausage (香腸). 反 píng = turn over (翻): 反一下 'give it a turn', 反爿 píng-pîng 'the other side'. V + 一下 tsi̍t-ē (neutral tone) = do it once, briefly. 臭焦 tshàu-ta = burnt (燒焦): 'stinks of scorching'."}
+  - {ref: 9, topic: grammar, text: "Adjective + --去 --khì (neutral tone) = has become (bad): 烏去 'gone black', 歹去 'broken, gone off', 冷去 'gone cold'. 已經 í-king = already."}
+  - {ref: 11, topic: vocab, text: "月娘 gue̍h-niû = the moon (月亮), 'Lady Moon', Taigi-only. 圓輾輾 înn-lìn-lìn = perfectly round: adjective + doubled syllable, a vivid pattern (烏趖趖, 白鑠鑠)."}
+  - {ref: 12, topic: culture, text: "團圓 thuân-înn = family reunion, the whole point of the festival: the round moon stands for the round family table. 想 siūnn = miss, think of (someone)."}
+  - {ref: 13, topic: vocab, text: "家己人 ka-kī-lâng = one of us, family (自己人). 這陣 again for 'right now'."}
+  - {ref: 14, topic: false-friend, text: "中央 tiong-ng = the middle (中間), the colloquial reading; 中央 tiong-iong 'central (government)' is the literary one. 卵仁 nn̄g-jîn = egg yolk (蛋黃), Taigi-only. 塊 tè = classifier for pieces."}
+  - {ref: 15, topic: grammar, text: "杯仔攑起來 'cups, raise them up': object first as the topic again (lesson 48). V + --起來 khí-lâi (neutral) = up. 快樂 khuài-lo̍k = happy (in greetings)."}
+new_words:
+  - {tailo: tsit-tsūn, hanji: 這陣, en: "now, right now"}
+  - {tailo: hang-bah, hanji: 烘肉, en: "barbecue"}
+  - {tailo: tshin-tsiânn, hanji: 親情, en: "relatives"}
+  - {tailo: tàu-tīn, hanji: 鬥陣, en: "together"}
+  - {tailo: thâi, hanji: 刣, en: "kill; cut up, gut"}
+  - {tailo: iū-á, hanji: 柚仔, en: "pomelo"}
+  - {tailo: tì, hanji: 戴, en: "wear (on the head)"}
+  - {tailo: tshàu-ta, hanji: 臭焦, en: "burnt"}
+  - {tailo: gue̍h-niû, hanji: 月娘, en: "the moon"}
+  - {tailo: thuân-înn, hanji: 團圓, en: "family reunion"}
+  - {tailo: ka-kī-lâng, hanji: 家己人, en: "one of us, family"}
+  - {tailo: gue̍h-piánn, hanji: 月餅, en: "mooncake"}
+  - {tailo: tiong-ng, hanji: 中央, en: "middle"}
+  - {tailo: nn̄g-jîn, hanji: 卵仁, en: "egg yolk"}
+exercises:
+  translate:
+    - {tailo: "Tsit-tsūn hué-thuànn tú-hó.", hanji: "這陣火炭拄好。", en: "The charcoal is just right now."}
+    - {tailo: "Lín khuànn, gue̍h-niû tshut--lâi--ah!", hanji: "恁看，月娘出來矣！", en: "Look, the moon's out!"}
+  fill:
+    - {tailo: "Mài hang kah ___.", hanji: "莫烘甲___。", answer: "tshàu-ta", answer_hanji: "臭焦", en: "Don't let it burn."}
+    - {tailo: "___ hit tè ū nn̄g-jîn.", hanji: "___彼塊有卵仁。", answer: "Tiong-ng", answer_hanji: "中央", en: "The one in the middle has an egg yolk."}
+audio: []
