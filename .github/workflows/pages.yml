@@ -59,12 +59,8 @@ jobs:
       - name: App (second pass, with the recordings)
         run: make app
 
-      - name: Site
-        run: |
-          mkdir -p _site
-          cp app/dist/index.html _site/
-          [ -d app/dist/audio ] && cp -r app/dist/audio _site/ || true
-          touch _site/.nojekyll
+      - name: Site (installable: icon, full screen, offline)
+        run: python3 tools/site.py _site
 
       - uses: actions/upload-pages-artifact@v3
         with:
