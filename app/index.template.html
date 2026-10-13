@@ -521,6 +521,7 @@ const ICONS = {
   settings: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>',
   podcast: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="3" y="14" width="4" height="7" rx="1.5"/><rect x="17" y="14" width="4" height="7" rx="1.5"/></svg>',
   grammar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h10M4 12h16M4 18h7"/><path d="M17 4l3 3-3 3"/></svg>',
+  exam: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6v3H9z"/><path d="M15 4.5h2a2 2 0 0 1 2 2V19a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6.5a2 2 0 0 1 2-2h2"/><path d="m9 13 2 2 4-4"/></svg>',
   review: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="6" y="3" width="13" height="16" rx="2"/><path d="M3 7v12a2 2 0 0 0 2 2h10"/></svg>',
 };
 
@@ -543,6 +544,7 @@ function route() {
   if (h === 'podcast') return showPodcast();
   if ((m = h.match(/^ep-(\d+)$/))) { const ep = podEp(+m[1]); if (ep) return showEpisode(ep); }
   if ((m = h.match(/^grammar-([a-z0-9̀-ͯ-]+)$/i))) { const it = DATA.grammar.flatMap(g => g.items).find(x => x.id === decodeURIComponent(m[1])); if (it) return showGrammarItem(it); }
+  if (/^exam/.test(h)) return Exam.show(h);
   if (h === 'accents' || h === 'settings') return showSettings();
   showLessons();
 }
@@ -561,7 +563,7 @@ function wireGo(root) { $$('[data-go]', root).forEach(b => b.onclick = () => go(
 
 function renderTabs(cur) {
   const due = dueCards().length;
-  const tabs = [['lessons', 'Lessons'], ['themes', 'Themes'], ['grammar', 'Grammar'], ['review', 'Review'], ['podcast', 'Podcast'], ['settings', 'Settings']];
+  const tabs = [['lessons', 'Lessons'], ['themes', 'Themes'], ['grammar', 'Grammar'], ['review', 'Review'], ['podcast', 'Podcast'], ...(Exam.on ? [['exam', 'Exam']] : []), ['settings', 'Settings']];
   $('#tabs').innerHTML = tabs.map(([k, t]) => `<button class="tab" data-tab="${k}" aria-current="${cur === k}">${ICONS[k]}<span>${t}</span>${k === 'review' && due ? `<span class="count">${due}</span>` : ''}</button>`).join('');
   // a tab always opens that tab's start page (the Review tab leaves a running session; the Lessons tab goes to the top of the grid)
   $$('[data-tab]', $('#tabs')).forEach(b => b.onclick = () => { const k = b.dataset.tab; if (k === 'review') { sess = null; tsess = null; } if (k === 'lessons') resetHome = true; go(k); });
@@ -1065,7 +1067,7 @@ document.addEventListener('click', e => {
   if (!sh.classList.contains('open') || !e.target.isConnected || sh.contains(e.target) || e.target.closest('.tok, [data-note], [data-word], [data-pick], .tab')) return;
   closeSheet();
 });
-function currentTab() { const h = location.hash.slice(1) || 'lessons'; return /^(lesson|wave)/.test(h) ? 'lessons' : h.startsWith('theme') ? 'themes' : h.startsWith('grammar') ? 'grammar' : /^(podcast|ep-)/.test(h) ? 'podcast' : h === 'bridge' ? 'review' : h; }
+function currentTab() { const h = location.hash.slice(1) || 'lessons'; return /^(lesson|wave)/.test(h) ? 'lessons' : h.startsWith('theme') ? 'themes' : h.startsWith('grammar') ? 'grammar' : /^(podcast|ep-)/.test(h) ? 'podcast' : h === 'bridge' ? 'review' : h.startsWith('exam') ? 'exam' : h; }
 
 // ---------- review deck (Leitner boxes; saved in this browser)
 function addToDeck(ids) { let n = 0; ids.forEach(id => { if (id && DATA.dict[id] && !deck[id]) { deck[id] = { box: 0, due: Date.now(), at: Date.now() }; n++; } }); store.set('deck', deck); return n; }
@@ -1279,9 +1281,9 @@ function showSettings() {
     setTimeout(() => URL.revokeObjectURL(a.href), 5000);
   };
   $('#imp', m).onclick = () => $('#imp-file', m).click();
-  const sf = $('#sync-form', m); if (sf) sf.onsubmit = async e => { e.preventDefault(); const t = $('#sync-token', m).value.trim(); if (!t) return; store.set('gistToken', t); store.set('gistId', ''); await Sync.run(); if (store.get('syncErr', '')) store.set('gistToken', ''); showSettings(); };
+  const sf = $('#sync-form', m); if (sf) sf.onsubmit = async e => { e.preventDefault(); const t = $('#sync-token', m).value.trim(); if (!t) return; store.set('gistToken', t); store.set('gistId', ''); await Sync.run(); if (store.get('syncErr', '')) store.set('gistToken', ''); await Exam.check(); showSettings(); };
   const sn = $('#sync-now', m); if (sn) sn.onclick = async () => { sn.disabled = true; await Sync.run(); showSettings(); };
-  const so = $('#sync-off', m); if (so) so.onclick = () => { store.set('gistToken', ''); store.set('gistId', ''); toast('Sync stopped on this device'); showSettings(); };
+  const so = $('#sync-off', m); if (so) so.onclick = () => { store.set('gistToken', ''); store.set('gistId', ''); store.set('examOn', false); toast('Sync stopped on this device'); showSettings(); };
   $('#imp-file', m).onchange = async e => {
     const f = e.target.files[0]; if (!f) return;
     try {
@@ -1402,10 +1404,64 @@ const Sync = {
   },
   soon() { if (!this.on || this.busy) return; clearTimeout(this.timer); this.timer = setTimeout(() => this.run(true), 4000); },
 };
+// ---------- private exam module. Nothing of it is in this public page: the "Exam" tab appears only on a device whose
+// GitHub token (the one used for sync) can read the owner's private repo; the module and its content come from there.
+const Exam = {
+  REPO: 'tbrapor-arch/tsehtu-private', CACHE: 'tshehtu-exam', index: null, loaded: null,
+  get on() { return !!Sync.token && store.get('examOn', false); },
+  // is the token allowed to read the private repo? (offline: keep the last answer)
+  async check() {
+    if (!Sync.token) { store.set('examOn', false); return false; }
+    try {
+      const r = await fetch(`https://api.github.com/repos/${this.REPO}`, { headers: { Accept: 'application/vnd.github+json', Authorization: 'Bearer ' + Sync.token }, cache: 'no-store' });
+      if (r.ok || [401, 403, 404].includes(r.status)) store.set('examOn', r.ok);
+    } catch {}
+    return this.on;
+  },
+  async raw(path) {
+    const r = await fetch(`https://api.github.com/repos/${this.REPO}/contents/${path.split('/').map(encodeURIComponent).join('/')}?ref=main`, { headers: { Accept: 'application/vnd.github.raw', Authorization: 'Bearer ' + Sync.token }, cache: 'no-store' });
+    if (!r.ok) throw new Error(r.status === 404 ? 'not found: ' + path : 'GitHub error ' + r.status);
+    return r;
+  },
+  // a file of the module, kept in the browser cache under its content hash (from exam/index.json) so it works offline
+  async file(path) {
+    const sha = this.index && this.index.files && this.index.files[path];
+    const key = `https://exam.invalid/${path}?${sha || 'x'}`;
+    let c = null; try { c = await caches.open(this.CACHE); } catch {}
+    const hit = c && sha && await c.match(key);
+    if (hit) return hit;
+    const r = await this.raw('exam/' + path);
+    if (c && sha) { try { await c.put(key, r.clone()); } catch {} }
+    return r;
+  },
+  urls: {},
+  async media(path) { if (!this.urls[path]) this.urls[path] = this.file(path).then(r => r.blob()).then(b => URL.createObjectURL(b)); return this.urls[path]; },
+  async load() {
+    if (this.loaded) return this.loaded;
+    return this.loaded = (async () => {
+      let c = null; try { c = await caches.open(this.CACHE); } catch {}
+      try { const r = await this.raw('exam/index.json'); this.index = await r.clone().json(); if (c) await c.put('https://exam.invalid/index.json', r); }
+      catch (e) { const hit = c && await c.match('https://exam.invalid/index.json'); if (!hit) throw e; this.index = await hit.json(); }
+      const css = document.createElement('style'); css.textContent = await (await this.file('app.css')).text(); document.head.append(css);
+      const js = await (await this.file('app.js')).text();
+      await new Promise((res, rej) => { const sc = document.createElement('script'); sc.src = URL.createObjectURL(new Blob([js], { type: 'text/javascript' })); sc.onload = res; sc.onerror = rej; document.head.append(sc); });
+      if (window.ExamModule) await window.ExamModule.init(this);
+    })().catch(e => { this.loaded = null; throw e; });
+  },
+  async show(h) {
+    renderTabs('exam');
+    if (!this.on) { $('#main').innerHTML = `<div class="col"><div class="head"><span class="eyebrow">Exam</span><h1>考試</h1></div><p class="sub">Not available on this device.</p></div>`; return; }
+    if (!window.ExamModule) $('#main').innerHTML = `<div class="col"><div class="head"><span class="eyebrow">Exam</span><h1>考試</h1></div><p class="sub">Loading…</p></div>`;
+    try { await this.load(); if (currentTab() === 'exam') window.ExamModule.route(h); }
+    catch (e) { $('#main').innerHTML = `<div class="col"><div class="head"><span class="eyebrow">Exam</span><h1>考試</h1></div><div class="card raised"><b>Could not load the exam module</b><span class="sub">${esc(e.message || e)}. It needs the internet the first time; after that it works offline.</span><button class="btn small" style="align-self:start" data-go="exam">Try again</button></div></div>`; wireGo($('#main')); }
+  },
+};
 let toastT;
 function toast(msg) { const t = $('#toast'); t.textContent = msg; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => t.hidden = true, 2200); }
 applySkin();
 route();
 // pull the other devices' progress at start, then refresh the current page
+// the exam tab: check (quietly) whether this device's token opens the private repo
+if (Sync.token) { const was = Exam.on; Exam.check().then(on => { if (on !== was) { if (/^exam/.test(location.hash.slice(1))) route(); else renderTabs(currentTab()); } }); }
 if (Sync.on) Sync.run(true).then(() => { if (!sess && !tsess) { const y = scrollY; route.keepSheet = true; route(); route.keepSheet = false; scrollTo(0, y); } });
 </script>

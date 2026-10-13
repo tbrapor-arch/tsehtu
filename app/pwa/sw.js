@@ -20,6 +20,7 @@ self.addEventListener('fetch', e => {
       .catch(() => caches.match('./')));
     return;
   }
+  if (url.hostname === 'api.github.com') return;   // private exam files: the page caches those itself
   const media = /\/audio\/.*\.mp3$/.test(url.pathname) || /fonts\.(googleapis|gstatic)\.com$/.test(url.hostname) || /\.png$/.test(url.pathname);
   if (media) {
     e.respondWith(caches.open(MEDIA).then(c => c.match(req).then(hit => hit || fetch(req).then(r => { if (r.ok || r.type === 'opaque') c.put(req, r.clone()); return r; }))));
