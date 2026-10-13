@@ -419,6 +419,8 @@ button.card.wave { text-align: left; }
 .pp-ctl { justify-content: center; gap: 1rem; }
 .pp-big { width: 4rem; height: 4rem; border-radius: 50% !important; font-size: 1.4rem; padding: 0; }
 #pp-loop.on { border-color: var(--coral); color: var(--coral); }
+.epintro p { margin: .25rem 0; max-width: 65ch; }
+.epintro p.topic { padding-left: 1.1rem; position: relative; } .epintro p.topic::before { content: "◎"; position: absolute; left: 0; color: var(--brand); }
 .chaps { display: flex; flex-direction: column; gap: .3rem; }
 .chap { display: grid; grid-template-columns: 4.2rem minmax(0, 1fr); gap: .6rem; text-align: left; border: 0; background: var(--surface); border-radius: var(--r); padding: .5rem .7rem; border: var(--border-soft); }
 .chap.cur { border-color: var(--brand); background: var(--brand-soft); }
@@ -963,7 +965,8 @@ function showEpisode(ep) {
       <div class="row"><button class="btn small quiet" id="pp-loop" title="Repeat a passage: tap at the start, tap at the end, tap again to stop">A–B</button>
         <span class="sub" style="font-size:.8rem">Repeat a passage: tap at its start, again at its end.</span></div>
     </div>
-    ${ep.intro.length ? `<div>${ep.intro.map(l => { const [t, zh] = splitZh(l); return `<p style="margin:.2rem 0"><span class="han">${esc(t)}</span>${zh ? `<br><span class="zh">${esc(zh)}</span>` : ''}</p>`; }).join('')}</div>` : ''}
+    ${ep.intro.length ? `<div class="epintro">${ep.intro.map(l => { const top = /^[◎●•・]/.test(l), [t, zh] = splitZh(l.replace(/^[◎●•・]\s*/, '')); return `<p class="${top ? 'topic' : ''}"><span class="han">${esc(t)}</span>${zh ? `<br><span class="zh">${esc(zh)}</span>` : ''}</p>`; }).join('')}</div>` : ''}
+    ${ep.other.length ? `<details class="allnotes"><summary><span class="han">華語</span> Mandarin version of the notes</summary><div class="epintro">${ep.other.map(l => `<p class="${/^[◎●•・]/.test(l) ? 'topic' : ''}">${esc(l.replace(/^[◎●•・]\s*/, ''))}</p>`).join('')}</div></details>` : ''}
     ${ep.chapters.length ? `<h2><span class="han">段落</span> Chapters</h2><div class="chaps">${ep.chapters.map((c, i) => `<button class="chap" data-seek="${c.s}">${at(c.s)}<span><span class="han">${esc(c.t)}</span>${c.zh ? `<br><span class="zh">${esc(c.zh)}</span>` : ''}</span></button>`).join('')}</div>` : ''}
     ${ep.vocab.length ? `<h2><span class="han">臺語補給站</span> The hosts' word list</h2>
       <div class="pvocab">${ep.vocab.map((v, i) => `<button class="pv ${v.id ? cog(v.id)[2] : ''}" ${v.id ? `data-word="${esc(v.id)}"` : ''}>${v.group ? `<span class="sub" style="font-size:.75rem">${esc(v.group)}</span>` : ''}<span><b class="han">${esc(v.h || '')}</b> <span class="rom">${esc(v.t)}${v.alt.length ? ' / ' + v.alt.map(esc).join(' / ') : ''}</span></span>${v.en ? `<span class="zh">${esc(v.en)}</span>` : ''}</button>`).join('')}</div>
