@@ -47,3 +47,13 @@ Progress, deck and preferences are stored in the browser only (per device).
 - **Word card:** ▶ Listen (MOE recording, when the site was built with audio); tapping outside closes it.
 - **Settings:** save / load a progress file (to move progress between devices), review audio on / off.
 - Back to the lesson grid returns to where you were.
+
+## Learning tools added (no native speaker needed)
+- **Grammar tab** (文法): 40 structures from `course/grammar.yaml`; each sheet lists every course line that uses it
+  (found by a pattern at build time), so new lessons add examples by themselves.
+- **Tone-change practice** (Review tab): words from the lessons, written form shown, pick the spoken form; wrong
+  options are typical mistakes (no change, last syllable changed too, wrong new tone). Rule-based (`tools/sandhi.py`).
+- **Recordings**: headwords and MOE example sentences (▶ on the word card), fetched at build time by the GitHub
+  workflow. Dialogue lines: ▶ plays the words one by one (dictionary tones, not connected speech).
+- **Sync**: on the hosted app, progress can be kept in a secret GitHub gist (token with Gists read/write only,
+  stored in the browser). Merge: earliest finish dates, latest review of each card.
