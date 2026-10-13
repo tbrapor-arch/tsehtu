@@ -1,0 +1,97 @@
+id: 14
+title:
+  en: Review 2
+  tailo: Ho̍k-si̍p
+  hanji: 復習
+phase: passive
+review: true
+setting: On the train back to Taipei. Everything in the dialogue comes from lessons 8–13.
+dialogue:
+- n: 1
+  speaker: A-bîng
+  hanji: 這擺佇臺南好耍無？
+  tailo: Tsit pái tī Tâi-lâm hó-sńg--bô?
+  en: Did you have fun in Tainan this time?
+- n: 2
+  speaker: Sam
+  hanji: 足好耍！蚵仔煎誠好食。
+  tailo: Tsiok hó-sńg! Ô-á-tsian tsiânn hó-tsia̍h.
+  en: Loads of fun! The oyster omelette was delicious.
+- n: 3
+  speaker: A-bîng
+  hanji: 毋過你嘛破病矣。
+  tailo: M̄-koh lí mā phuà-pēnn--ah.
+  en: But you also got sick.
+- n: 4
+  speaker: Sam
+  hanji: 莫閣講矣！
+  tailo: Mài koh kóng--ah!
+  en: Don't bring that up again!
+- n: 5
+  speaker: A-bîng
+  hanji: 阮阿媽講你的臺語進步真濟。
+  tailo: Guán a-má kóng lí ê Tâi-gí tsìn-pōo tsin tsē.
+  en: My grandma says your Taiwanese has improved a lot.
+- n: 6
+  speaker: Sam
+  hanji: 攏是恁共我教的。
+  tailo: Lóng sī lín kā guá kà--ê.
+  en: It's all thanks to you teaching me.
+notes:
+- ref: 1
+  topic: grammar
+  text: '擺 pái = time, occasion (次): 這擺 ''this time''. 好耍 hó-sńg = fun (lesson 6).'
+- ref: 3
+  topic: grammar
+  text: >-
+    Five negatives now. 毋 m̄ (m̄-sī, m̄ bat), 無 bô (no, didn't), 袂 bē (can't, isn't: 袂䆀, 睏袂去), 未 buē (not yet), and 莫 mài
+    (don't!). 莫閣講矣 'stop saying that'.
+- ref: 5
+  topic: vocab
+  text: 進步 tsìn-pōo = improve, progress. 濟 tsē = a lot (lesson 12). 破病 phuà-pēnn = fall ill.
+- ref: 6
+  topic: grammar
+  text: >-
+    Two small words to keep straight. 共 kā marks the person something is said or done to or for: 共你講 'tell you', 共你收 'take
+    in for you', 共我教 'teach me'. 予 hōo means 'give' (予你一百箍) and 'let' (予伊入去).
+- ref: 6
+  topic: grammar
+  text: 'Wanting: 欲 beh (intend, be about to), 想欲 siūnn-beh (would like to), 愛 ài (want, like, need to).'
+- ref: 6
+  topic: grammar
+  text: >-
+    Places and directions: 對 uì 'from', 到 kàu 'to, arrive', 離 lī 'distance from'. 落車 'get off', 轉去 'go back'. Left 倒手爿, right
+    正手爿.
+new_words:
+- tailo: pái
+  hanji: 擺
+  en: time, occasion
+- tailo: tsìn-pōo
+  hanji: 進步
+  en: improve
+- tailo: phuà-pēnn
+  hanji: 破病
+  en: fall ill
+exercises:
+  translate:
+  - tailo: Lín tau lī tshia-thâu hn̄g--bô?
+    hanji: 恁兜離車頭遠無？
+    en: Is your home far from the station?
+  - tailo: Kám ē lo̍h-hōo?
+    hanji: 敢會落雨？
+    en: Is it going to rain?
+  - tailo: Guá beh kā lí kóng.
+    hanji: 我欲共你講。
+    en: I want to tell you.
+  fill:
+  - tailo: ___ thǹg--tio̍h.
+    hanji: ___燙著。
+    answer: Mài
+    answer_hanji: 莫
+    en: Don't burn yourself.
+  - tailo: Tshiánn lí ___ i ji̍p--khì.
+    hanji: 請你___伊入去。
+    answer: hōo
+    answer_hanji: 予
+    en: Please let him in.
+audio: []

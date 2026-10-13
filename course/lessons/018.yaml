@@ -1,0 +1,130 @@
+id: 18
+title:
+  en: Weekend plans
+  tailo: Beh khì tó-uī tshit-thô?
+  hanji: 欲去佗位𨑨迌？
+phase: passive
+review: false
+setting: Friday evening. Sam and A-bîng plan their Sunday.
+dialogue:
+- n: 1
+  speaker: A-bîng
+  hanji: 禮拜日你欲去佗位𨑨迌？
+  tailo: Lé-pài-ji̍t lí beh khì tó-uī tshit-thô?
+  en: Where do you want to go on Sunday?
+- n: 2
+  speaker: Sam
+  hanji: 我猶未決定。去淡水抑是去九份？
+  tailo: Guá iáu-buē kuat-tīng. Khì Tām-tsuí ia̍h-sī khì Káu-hūn?
+  en: I haven't decided yet. Tamsui or Jiufen?
+- n: 3
+  speaker: A-bîng
+  hanji: 九份人傷濟矣，咱去淡水看日頭落山。
+  tailo: Káu-hūn lâng siunn tsē--ah, lán khì Tām-tsuí khuànn ji̍t-thâu lo̍h-suann.
+  en: Jiufen is too crowded. Let's go to Tamsui and watch the sunset.
+- n: 4
+  speaker: Sam
+  hanji: 好啊！咱幾點出門？
+  tailo: Hó--ah! Lán kuí tiám tshut-mn̂g?
+  en: Great! What time do we leave?
+- n: 5
+  speaker: A-bîng
+  hanji: 下晡三點，你會當無？
+  tailo: Ē-poo sann tiám, lí ē-tàng--bô?
+  en: Three in the afternoon, can you make it?
+- n: 6
+  speaker: Sam
+  hanji: 會當。我會紮手機仔翕相。
+  tailo: Ē-tàng. Guá ē tsah tshiú-ki-á hip-siòng.
+  en: Yes. I'll bring my phone to take pictures.
+- n: 7
+  speaker: A-bîng
+  hanji: 毋通袂記得紮外套，暗時會寒。
+  tailo: M̄-thang bē-kì-tit tsah guā-thò, àm-sî ē kuânn.
+  en: Don't forget to bring a jacket, it gets cold at night.
+notes:
+- ref: 1
+  topic: vocab
+  text: >-
+    𨑨迌 tshit-thô = go out and have fun, play (玩). One of the best-known Taigi-only words. 禮拜日 lé-pài-ji̍t = Sunday.
+- ref: 2
+  topic: grammar
+  text: '抑是 ia̍h-sī = or (in questions) (還是): 去淡水抑是去九份？ 決定 kuat-tīng = decide. 猶未 + verb = haven''t … yet.'
+- ref: 3
+  topic: vocab
+  text: >-
+    人傷濟 lâng siunn tsē = too many people, crowded. 日頭落山 ji̍t-thâu lo̍h-suann = the sun sets (literally 'goes down the mountain').
+- ref: 4
+  topic: vocab
+  text: 出門 tshut-mn̂g = go out, leave home.
+- ref: 5
+  topic: grammar
+  text: >-
+    會當 ē-tàng = can, be able to (能、可以). 你會當無？ 'can you (make it)?'. Compare 會使 ē-sái = may, be allowed (lesson 3): 會當 is about
+    ability, 會使 about permission.
+- ref: 6
+  topic: grammar
+  text: >-
+    會 ē + verb = will (future, promise): 我會紮 'I'll bring'. 手機仔 tshiú-ki-á = mobile phone; 翕相 hip-siòng = take a photo (照相).
+- ref: 7
+  topic: grammar
+  text: >-
+    毋通 m̄-thang = must not, don't (千萬別), stronger and more advising than 莫 mài. 袂記得 bē-kì-tit = forget (忘記), literally 'can't
+    remember'. 外套 guā-thò = jacket.
+new_words:
+- tailo: lé-pài-ji̍t
+  hanji: 禮拜日
+  en: Sunday
+- tailo: tshit-thô
+  hanji: 𨑨迌
+  en: go out for fun, play
+- tailo: kuat-tīng
+  hanji: 決定
+  en: decide
+- tailo: ia̍h-sī
+  hanji: 抑是
+  en: or (in questions)
+- tailo: lo̍h-suann
+  hanji: 落山
+  en: (sun) set
+- tailo: tshut-mn̂g
+  hanji: 出門
+  en: go out, leave home
+- tailo: ē-tàng
+  hanji: 會當
+  en: can, be able to
+- tailo: tshiú-ki-á
+  hanji: 手機仔
+  en: mobile phone
+- tailo: hip-siòng
+  hanji: 翕相
+  en: take a photo
+- tailo: m̄-thang
+  hanji: 毋通
+  en: must not, don't
+- tailo: bē-kì-tit
+  hanji: 袂記得
+  en: forget
+- tailo: guā-thò
+  hanji: 外套
+  en: jacket
+exercises:
+  translate:
+  - tailo: Lé-pài-ji̍t lí beh khì tó-uī tshit-thô?
+    hanji: 禮拜日你欲去佗位𨑨迌？
+    en: Where do you want to go on Sunday?
+  - tailo: M̄-thang bē-kì-tit tsah guā-thò.
+    hanji: 毋通袂記得紮外套。
+    en: Don't forget to bring a jacket.
+  fill:
+  - tailo: Khì Tām-tsuí ___ khì Káu-hūn?
+    hanji: 去淡水___去九份？
+    answer: ia̍h-sī
+    answer_hanji: 抑是
+    en: Tamsui or Jiufen?
+  - tailo: Ē-poo sann tiám, lí ___--bô?
+    hanji: 下晡三點，你___無？
+    answer: ē-tàng
+    answer_hanji: 會當
+    en: Three in the afternoon, can you make it?
+audio: []

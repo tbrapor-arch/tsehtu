@@ -1,0 +1,126 @@
+id: 11
+title:
+  en: At the night market
+  tailo: Lí ài tsia̍h siánn?
+  hanji: 你愛食啥？
+phase: passive
+review: false
+setting: Evening, a night market in Tainan with A-bîng and A-hun.
+dialogue:
+- n: 1
+  speaker: A-hun
+  hanji: 你愛食啥？
+  tailo: Lí ài tsia̍h siánn?
+  en: What would you like to eat?
+- n: 2
+  speaker: Sam
+  hanji: 我想欲食蚵仔煎。
+  tailo: Guá siūnn-beh tsia̍h ô-á-tsian.
+  en: I'd like an oyster omelette.
+- n: 3
+  speaker: A-bîng
+  hanji: 頭家，兩份蚵仔煎，一碗魚丸湯。
+  tailo: Thâu-ke, nn̄g hūn ô-á-tsian, tsi̍t uánn hî-uân-thng.
+  en: Two oyster omelettes and a fish-ball soup, please.
+- n: 4
+  speaker: Stallholder
+  hanji: 愛薟無？
+  tailo: Ài hiam--bô?
+  en: Spicy?
+- n: 5
+  speaker: Sam
+  hanji: 一屑仔就好。
+  tailo: Tsi̍t-sut-á tō hó.
+  en: Just a little.
+- n: 6
+  speaker: Sam
+  hanji: 燒燒，誠好食！
+  tailo: Sio-sio, tsiânn hó-tsia̍h!
+  en: Nice and hot, delicious!
+- n: 7
+  speaker: A-bîng
+  hanji: 食較慢咧，莫燙著。
+  tailo: Tsia̍h khah bān--leh, mài thǹg--tio̍h.
+  en: Eat slowly, don't burn yourself.
+- n: 8
+  speaker: Sam
+  hanji: 我知啦！
+  tailo: Guá tsai--lah!
+  en: I know!
+notes:
+- ref: 1
+  topic: grammar
+  text: >-
+    愛 ài + verb = want to, feel like (想要); also 'like' and 'need to'. 欲 beh is more 'be about to, intend'. At a meal, 你愛食啥？
+    is the friendly question.
+- ref: 2
+  topic: grammar
+  text: >-
+    想欲 siūnn-beh = would like to (想要), softer than 欲 alone. 蚵仔煎 ô-á-tsian = oyster omelette; 蚵仔 ô-á = oysters.
+- ref: 3
+  topic: grammar
+  text: >-
+    Classifiers for food: 份 hūn = a portion, 碗 uánn = a bowl. 魚丸湯 hî-uân-thng = fish-ball soup (魚 hî, 丸 uân, 湯 thng).
+- ref: 4
+  topic: vocab
+  text: 薟 hiam = spicy, hot (辣). A Taigi-only character.
+- ref: 6
+  topic: grammar
+  text: >-
+    燒燒 sio-sio: a doubled adjective, 'nice and hot'. Doubling makes the description vivid, often approving.
+- ref: 7
+  topic: grammar
+  text: >-
+    莫 mài = don't (別): the imperative negative, the fifth 'not' of the course. 較慢咧 khah bān--leh: 較 + adjective + 咧 softens
+    a request, 'a bit slower'. 燙著 thǹg--tio̍h = get burnt; 著 tio̍h after a verb marks the result.
+- ref: 8
+  topic: vocab
+  text: 知 tsai = know (a fact) (知道). Compare 捌 bat = know (a person), have ever.
+new_words:
+- tailo: ài
+  hanji: 愛
+  en: want to; like; need to
+- tailo: siūnn-beh
+  hanji: 想欲
+  en: would like to
+- tailo: ô-á-tsian
+  hanji: 蚵仔煎
+  en: oyster omelette
+- tailo: hūn
+  hanji: 份
+  en: portion (classifier)
+- tailo: uánn
+  hanji: 碗
+  en: bowl (classifier)
+- tailo: hiam
+  hanji: 薟
+  en: spicy
+- tailo: bān
+  hanji: 慢
+  en: slow
+- tailo: mài
+  hanji: 莫
+  en: don't
+- tailo: tsai
+  hanji: 知
+  en: know (a fact)
+exercises:
+  translate:
+  - tailo: Lí ài tsia̍h siánn?
+    hanji: 你愛食啥？
+    en: What would you like to eat?
+  - tailo: Mài thǹg--tio̍h.
+    hanji: 莫燙著。
+    en: Don't burn yourself.
+  fill:
+  - tailo: Guá ___ tsia̍h ô-á-tsian.
+    hanji: 我___食蚵仔煎。
+    answer: siūnn-beh
+    answer_hanji: 想欲
+    en: I'd like an oyster omelette.
+  - tailo: Tsi̍t ___ hî-uân-thng.
+    hanji: 一___魚丸湯。
+    answer: uánn
+    answer_hanji: 碗
+    en: A bowl of fish-ball soup.
+audio: []

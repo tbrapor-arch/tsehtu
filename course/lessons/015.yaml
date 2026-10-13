@@ -1,0 +1,146 @@
+id: 15
+title:
+  en: Buying clothes
+  tailo: Bé sann
+  hanji: 買衫
+phase: passive
+review: false
+setting: A small clothes shop in Taipei.
+dialogue:
+- n: 1
+  speaker: Assistant
+  hanji: 歡迎！欲揣啥？
+  tailo: Huan-gîng! Beh tshuē siánn?
+  en: Welcome! What are you looking for?
+- n: 2
+  speaker: Sam
+  hanji: 我想欲買一領衫。
+  tailo: Guá siūnn-beh bé tsi̍t niá sann.
+  en: I'd like to buy a shirt.
+- n: 3
+  speaker: Assistant
+  hanji: 這領紅色的誠媠，你穿看覓。
+  tailo: Tsit niá âng-sik--ê tsiânn suí, lí tshīng khuànn-māi.
+  en: This red one is really nice, try it on.
+- n: 4
+  speaker: Sam
+  hanji: 傷細矣，有較大領的無？
+  tailo: Siunn sè--ah, ū khah tuā niá--ê bô?
+  en: It's too small. Do you have a bigger one?
+- n: 5
+  speaker: Assistant
+  hanji: 有，毋過干焦烏色佮白色。
+  tailo: Ū, m̄-koh kan-na oo-sik kah pe̍h-sik.
+  en: Yes, but only in black and white.
+- n: 6
+  speaker: Sam
+  hanji: 烏色比紅色較好看。
+  tailo: Oo-sik pí âng-sik khah hó-khuànn.
+  en: Black looks better than red.
+- n: 7
+  speaker: Assistant
+  hanji: 這領閣較俗，三百五十箍。
+  tailo: Tsit niá koh khah sio̍k, sann-pah gōo-tsa̍p khoo.
+  en: 'This one is even cheaper: three hundred and fifty.'
+- n: 8
+  speaker: Sam
+  hanji: 好，我就買這領。
+  tailo: Hó, guá tō bé tsit niá.
+  en: OK, I'll take this one.
+notes:
+- ref: 1
+  topic: false-friend
+  text: >-
+    揣 tshuē = look for (找). A Taigi-only character and one of the 150 most frequent words. 歡迎 huan-gîng = welcome.
+- ref: 2
+  topic: grammar
+  text: >-
+    領 niá is the classifier for clothes: 一領衫 'a shirt', 一領褲 tsi̍t niá khòo 'a pair of trousers'. 衫 sann = clothes, top, shirt
+    (衣服).
+- ref: 3
+  topic: vocab
+  text: >-
+    媠 suí = pretty, nice-looking (漂亮). Another Taigi-only character; it shares its reading with 水 'water', so context decides.
+    穿 tshīng = wear, put on. V + 看覓 = try (lesson 3).
+- ref: 3
+  topic: grammar
+  text: >-
+    Colour + 的 ê = the one in that colour: 紅色的 'the red one'. 紅色 âng-sik, 烏色 oo-sik (black), 白色 pe̍h-sik (white).
+- ref: 4
+  topic: false-friend
+  text: >-
+    細 sè = small (小), not 'thin'. 大 tuā (colloquial) = big. 大領 'a bigger size' (for clothes). 傷…矣 'too … (now)'.
+- ref: 6
+  topic: grammar
+  text: >-
+    Comparison: A 比 pí B 較 khah + adjective. Taigi needs 較 where Mandarin can drop 更: 烏色比紅色較好看 = 黑色比紅色好看.
+- ref: 7
+  topic: grammar
+  text: >-
+    閣較 koh khah = even more (更): 閣較俗 'even cheaper'. Hundreds: 三百 sann-pah; 三百五十 'three hundred and fifty'.
+- ref: 8
+  topic: grammar
+  text: '就 tō here = ''just, then'' (decision): 我就買這領 ''I''ll take this one, then''.'
+new_words:
+- tailo: huan-gîng
+  hanji: 歡迎
+  en: welcome
+- tailo: tshuē
+  hanji: 揣
+  en: look for
+- tailo: niá
+  hanji: 領
+  en: (classifier for clothes)
+- tailo: sann
+  hanji: 衫
+  en: clothes; shirt
+- tailo: âng-sik
+  hanji: 紅色
+  en: red
+- tailo: suí
+  hanji: 媠
+  en: pretty, nice-looking
+- tailo: tshīng
+  hanji: 穿
+  en: wear, put on
+- tailo: sè
+  hanji: 細
+  en: small
+- tailo: tuā
+  hanji: 大
+  en: big
+- tailo: oo-sik
+  hanji: 烏色
+  en: black
+- tailo: pe̍h-sik
+  hanji: 白色
+  en: white
+- tailo: pí
+  hanji: 比
+  en: compared with (than)
+- tailo: hó-khuànn
+  hanji: 好看
+  en: good-looking
+- tailo: pah
+  hanji: 百
+  en: hundred
+exercises:
+  translate:
+  - tailo: Beh tshuē siánn?
+    hanji: 欲揣啥？
+    en: What are you looking for?
+  - tailo: Oo-sik pí âng-sik khah hó-khuànn.
+    hanji: 烏色比紅色較好看。
+    en: Black looks better than red.
+  fill:
+  - tailo: Siunn ___--ah.
+    hanji: 傷___矣。
+    answer: sè
+    answer_hanji: 細
+    en: It's too small.
+  - tailo: Tsit niá ___ khah sio̍k.
+    hanji: 這領___較俗。
+    answer: koh
+    answer_hanji: 閣
+    en: This one is even cheaper.
+audio: []

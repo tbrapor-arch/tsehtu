@@ -1,0 +1,132 @@
+id: 9
+title:
+  en: What's the weather like?
+  tailo: Kám ē lo̍h-hōo?
+  hanji: 敢會落雨？
+phase: passive
+review: false
+setting: In A-hun's car. A-hun is A-bîng's younger sister.
+dialogue:
+- n: 1
+  speaker: A-hun
+  hanji: 今仔日誠熱乎？
+  tailo: Kin-á-ji̍t tsiânn jua̍h--honnh?
+  en: It's really hot today, isn't it?
+- n: 2
+  speaker: Sam
+  hanji: 著啊，臺北這馬較寒。
+  tailo: Tio̍h--ah, Tâi-pak tsit-má khah kuânn.
+  en: Yes, Taipei is colder at the moment.
+- n: 3
+  speaker: A-hun
+  hanji: 臺南較少落雨。
+  tailo: Tâi-lâm khah tsió lo̍h-hōo.
+  en: It rains less in Tainan.
+- n: 4
+  speaker: Sam
+  hanji: 毋過天頂烏烏，敢會落雨？
+  tailo: M̄-koh thinn-tíng oo-oo, kám ē lo̍h-hōo?
+  en: But the sky is dark. Is it going to rain?
+- n: 5
+  speaker: A-hun
+  hanji: 下晡可能會落雷公雨。
+  tailo: Ē-poo khó-lîng ē lo̍h luî-kong-hōo.
+  en: There may be a thunderstorm this afternoon.
+- n: 6
+  speaker: Sam
+  hanji: 我無紮雨傘。
+  tailo: Guá bô tsah hōo-suànn.
+  en: I didn't bring an umbrella.
+- n: 7
+  speaker: A-hun
+  hanji: 無要緊，阮兜有。
+  tailo: Bô iàu-kín, guán tau ū.
+  en: No problem, we have some at home.
+- n: 8
+  speaker: A-bîng
+  hanji: 看，日頭出來矣！
+  tailo: Khuànn, ji̍t-thâu tshut--lâi--ah!
+  en: Look, the sun's come out!
+notes:
+- ref: 1
+  topic: vocab
+  text: 今仔日 kin-á-ji̍t = today. 熱 jua̍h = hot (weather). Hot food or water is 燒 sio (lesson 3).
+- ref: 2
+  topic: grammar
+  text: '較 khah + adjective = more: 較寒 ''colder''. 寒 kuânn = cold (weather). 著啊 tio̍h--ah ''yes, right''.'
+- ref: 3
+  topic: vocab
+  text: '落雨 lo̍h-hōo = to rain (下雨). 少 tsió = little, few: 較少落雨 ''rains less''.'
+- ref: 4
+  topic: grammar
+  text: >-
+    Doubling an adjective softens or paints it: 烏烏 oo-oo 'darkish, all dark'. 烏 oo = black, dark (黑). 敢會…？ kám ē…? 'is it
+    going to …?': 會 ē is 'will, likely'. 天頂 thinn-tíng = sky.
+- ref: 5
+  topic: vocab
+  text: >-
+    下晡 ē-poo = afternoon. 雷公雨 luî-kong-hōo = a summer thunderstorm (literally 'thunder-god rain'). 可能 khó-lîng = maybe.
+- ref: 6
+  topic: false-friend
+  text: 紮 tsah = carry with you, bring (帶). 無紮 'didn't bring'. 雨傘 hōo-suànn = umbrella.
+- ref: 8
+  topic: grammar
+  text: >-
+    日頭 ji̍t-thâu = the sun. 出來 tshut--lâi 'come out': the direction part is in neutral tone, and --ah says it just happened.
+new_words:
+- tailo: kin-á-ji̍t
+  hanji: 今仔日
+  en: today
+- tailo: jua̍h
+  hanji: 熱
+  en: hot (weather)
+- tailo: kuânn
+  hanji: 寒
+  en: cold (weather)
+- tailo: tsió
+  hanji: 少
+  en: little, few
+- tailo: lo̍h-hōo
+  hanji: 落雨
+  en: rain
+- tailo: thinn-tíng
+  hanji: 天頂
+  en: sky
+- tailo: oo
+  hanji: 烏
+  en: black, dark
+- tailo: ē-poo
+  hanji: 下晡
+  en: afternoon
+- tailo: khó-lîng
+  hanji: 可能
+  en: maybe
+- tailo: tsah
+  hanji: 紮
+  en: bring, carry
+- tailo: hōo-suànn
+  hanji: 雨傘
+  en: umbrella
+- tailo: ji̍t-thâu
+  hanji: 日頭
+  en: sun
+exercises:
+  translate:
+  - tailo: Kám ē lo̍h-hōo?
+    hanji: 敢會落雨？
+    en: Is it going to rain?
+  - tailo: Guá bô tsah hōo-suànn.
+    hanji: 我無紮雨傘。
+    en: I didn't bring an umbrella.
+  fill:
+  - tailo: Tâi-pak tsit-má khah ___.
+    hanji: 臺北這馬較___。
+    answer: kuânn
+    answer_hanji: 寒
+    en: Taipei is colder at the moment.
+  - tailo: Kin-á-ji̍t tsiânn ___--honnh?
+    hanji: 今仔日誠___乎？
+    answer: jua̍h
+    answer_hanji: 熱
+    en: It's really hot today, isn't it?
+audio: []

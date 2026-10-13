@@ -1,0 +1,111 @@
+id: 7
+title:
+  en: Review 1
+  tailo: Ho̍k-si̍p
+  hanji: 復習
+phase: passive
+review: true
+setting: >-
+  On the train to Tainan. Nothing new in the dialogue: everything comes from lessons 1–6. The notes gather what you have met
+  so far.
+dialogue:
+- n: 1
+  speaker: Sam
+  hanji: 阿明，你食飽未？
+  tailo: A-bîng, lí tsia̍h-pá--buē?
+  en: A-bîng, have you eaten?
+- n: 2
+  speaker: A-bîng
+  hanji: 食飽矣。你咧？
+  tailo: Tsia̍h-pá--ah. Lí--leh?
+  en: Yes, I have. And you?
+- n: 3
+  speaker: Sam
+  hanji: 猶未。我欲食便當。
+  tailo: Iáu-buē. Guá beh tsia̍h piān-tong.
+  en: Not yet. I'm going to eat my lunch box.
+- n: 4
+  speaker: A-bîng
+  hanji: 這个便當誠好食，你食看覓。
+  tailo: Tsit ê piān-tong tsiânn hó-tsia̍h, lí tsia̍h khuànn-māi.
+  en: This lunch box is really good, try it.
+- n: 5
+  speaker: Sam
+  hanji: 真正袂䆀！幾箍？
+  tailo: Tsin-tsiànn bē-bái! Kuí khoo?
+  en: Really not bad! How much was it?
+- n: 6
+  speaker: A-bîng
+  hanji: 八十箍。毋免啦，我請你。
+  tailo: Peh-tsa̍p khoo. M̄-bián--lah, guá tshiánn lí.
+  en: Eighty. Never mind, it's on me.
+notes:
+- ref: 2
+  topic: grammar
+  text: >
+    Answering 食飽未？: yes = 食飽矣 tsia̍h-pá--ah; not yet = 猶未 iáu-buē. --ah marks something that has now happened; 未 buē asks
+    or says "not yet".
+- ref: 4
+  topic: grammar
+  text: >
+    This vs that. Before a classifier: 這 tsit / 彼 hit (tsit ê, hit khuán). On their own: 這 tse / 彼 he. Here / there: 遮 tsia
+    / 遐 hia. So / that much: 遮爾 tsiah-nī / 遐爾 hiah-nī.
+- ref: 5
+  topic: grammar
+  text: >
+    Four negatives so far. 毋 m̄: with 是 and 捌 (m̄-sī, m̄ bat). 無 bô: no / not have, and with 愛 (bô ài). 袂 bē: cannot, is not
+    (bē-bái "not bad", bē-sái "not allowed"). 未 buē: not yet. A later lesson adds 莫 mài "don't!".
+- ref: 5
+  topic: grammar
+  text: >
+    Three ways to ask a question: a question word (啥 siánn, 啥人 siánn-lâng, 佗位 tó-uī, 幾 kuí, 按怎 án-tsuánn); 敢 kám before the
+    verb; or a tag at the end (--bô, --buē, 好無 hó--bô).
+- ref: 6
+  topic: grammar
+  text: >
+    We: 阮 guán (not you) and 咱 lán (you too). You (plural): 恁 lín. They: 𪜶 in. With family and home, 阮 / 恁 also mean "my"
+    / "your".
+- ref: 6
+  topic: vocab
+  text: 'New in passing: 毋免 m̄-bián "no need", 請 tshiánn "treat (someone to a meal)". Numbers: 八十 peh-tsa̍p.
+
+    '
+new_words:
+- tailo: m̄-bián
+  hanji: 毋免
+  en: no need, don't bother
+- tailo: tshiánn
+  hanji: 請
+  en: treat (to a meal); invite
+- tailo: hó-tsia̍h
+  hanji: 好食
+  en: tasty
+- tailo: tsin-tsiànn
+  hanji: 真正
+  en: really
+- tailo: bē-bái
+  hanji: 袂䆀
+  en: not bad, pretty good
+exercises:
+  translate:
+  - tailo: Lí kám bat lim oo-liông-tê?
+    hanji: 你敢捌啉烏龍茶？
+    en: Have you ever had oolong tea?
+  - tailo: Hit khuán khah sio̍k.
+    hanji: 彼款較俗。
+    en: That kind is cheaper.
+  - tailo: Lán tsò-hué khì Tâi-lâm.
+    hanji: 咱做伙去臺南。
+    en: Let's go to Tainan together.
+  fill:
+  - tailo: Guá ___ sī Tâi-lâm-lâng.
+    hanji: 我___是臺南人。
+    answer: m̄
+    answer_hanji: 毋
+    en: I'm not from Tainan.
+  - tailo: Iáu-___. Guá beh tsia̍h piān-tong.
+    hanji: 猶___。我欲食便當。
+    answer: buē
+    answer_hanji: 未
+    en: Not yet. I'm going to eat my lunch box.
+audio: []

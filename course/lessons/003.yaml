@@ -1,146 +1,170 @@
 id: 3
 title:
-  en: "Try it"
-  tailo: "Lim khuànn-māi"
-  hanji: "啉看覓"
+  en: Try it
+  tailo: Lim khuànn-māi
+  hanji: 啉看覓
 phase: passive
 review: false
-setting: "A-bîng's flat, the same evening. He has made tea."
-
+setting: A-bîng's flat, the same evening. He has made tea.
 dialogue:
-  - n: 1
-    speaker: A-bîng
-    hanji: "來，坐。你捌啉烏龍茶無？"
-    tailo: "Lâi, tsē. Lí bat lim oo-liông-tê--bô?"
-    en: "Come, sit. Have you ever had oolong tea?"
-    zh: "來，坐。你喝過烏龍茶嗎？"
-  - n: 2
-    speaker: Sam
-    hanji: "毋捌。"
-    tailo: "M̄ bat."
-    en: "Never."
-  - n: 3
-    speaker: A-bîng
-    hanji: "按呢你啉看覓。"
-    tailo: "Án-ne lí lim khuànn-māi."
-    en: "Then have a taste."
-    groups: "Án-ne | lí lim khuànn-māi."
-  - n: 4
-    speaker: Sam
-    hanji: "會燒無？"
-    tailo: "Ē sio--bô?"
-    en: "Is it hot?"
-  - n: 5
-    speaker: A-bîng
-    hanji: "袂燒矣，會使啉矣。"
-    tailo: "Bē sio--ah, ē-sái lim--ah."
-    en: "It's not hot any more, you can drink it now."
-  - n: 6
-    speaker: Sam
-    hanji: "誠好啉！一屑仔都袂苦。"
-    tailo: "Tsiânn hó-lim! Tsi̍t-sut-á to bē khóo."
-    en: "It's really good! Not bitter at all."
-  - n: 7
-    speaker: A-bîng
-    hanji: "你欲加糖無？"
-    tailo: "Lí beh ke thn̂g--bô?"
-    en: "Do you want sugar in it?"
-  - n: 8
-    speaker: Sam
-    hanji: "無愛，按呢就好。"
-    tailo: "Bô ài, án-ne tō hó."
-    en: "No thanks, it's fine like this."
-
+- n: 1
+  speaker: A-bîng
+  hanji: 來，坐。你捌啉烏龍茶無？
+  tailo: Lâi, tsē. Lí bat lim oo-liông-tê--bô?
+  en: Come, sit. Have you ever had oolong tea?
+  zh: 來，坐。你喝過烏龍茶嗎？
+- n: 2
+  speaker: Sam
+  hanji: 毋捌。
+  tailo: M̄ bat.
+  en: Never.
+- n: 3
+  speaker: A-bîng
+  hanji: 按呢你啉看覓。
+  tailo: Án-ne lí lim khuànn-māi.
+  en: Then have a taste.
+  groups: Án-ne | lí lim khuànn-māi.
+- n: 4
+  speaker: Sam
+  hanji: 會燒無？
+  tailo: Ē sio--bô?
+  en: Is it hot?
+- n: 5
+  speaker: A-bîng
+  hanji: 袂燒矣，會使啉矣。
+  tailo: Bē sio--ah, ē-sái lim--ah.
+  en: It's not hot any more, you can drink it now.
+- n: 6
+  speaker: Sam
+  hanji: 誠好啉！一屑仔都袂苦。
+  tailo: Tsiânn hó-lim! Tsi̍t-sut-á to bē khóo.
+  en: It's really good! Not bitter at all.
+- n: 7
+  speaker: A-bîng
+  hanji: 你欲加糖無？
+  tailo: Lí beh ke thn̂g--bô?
+  en: Do you want sugar in it?
+- n: 8
+  speaker: Sam
+  hanji: 無愛，按呢就好。
+  tailo: Bô ài, án-ne tō hó.
+  en: No thanks, it's fine like this.
 notes:
-  - ref: 1
-    topic: grammar
-    text: >
-      捌 bat before a verb = "have ever" (Mandarin V + 過): Lí bat lim…? "Have you ever drunk…?".
-      The question tag --bô "…or not?" turns any statement into a yes/no question.
-  - ref: 1
-    topic: vocab
-    text: >
-      啉 lim = drink (喝), a Taigi-only character. 坐 tsē = sit: the colloquial reading of 坐.
-      來 lâi on its own: "come on, here you go".
-  - ref: 2
-    topic: grammar
-    text: >
-      毋捌 m̄ bat = "never have". bat takes 毋 m̄, not 無 bô. The same 捌 bat also means "know (a person)":
-      Guá bat i. "I know him."
-  - ref: 3
-    topic: grammar
-    text: >
-      看覓 khuànn-māi after a verb = "try (doing)", like Mandarin 看看: lim khuànn-māi "have a taste",
-      kóng khuànn-māi "try saying it".
-  - ref: 4
-    topic: false-friend
-    text: >
-      燒 sio = hot (of food, drinks, water). It does not mean "burn" here. 會 ē before an adjective asks or states
-      how something is: Ē sio--bô? "Is it hot?"
-  - ref: 5
-    topic: grammar
-    text: >
-      袂 bē is the negative of 會 ē: Bē sio. "It isn't hot." --ah (矣) at the end marks a change, like Mandarin 了:
-      "not hot any more", "you can drink it now". 會使 ē-sái = "may, be allowed to" (可以).
-  - ref: 6
-    topic: vocab
-    text: >
-      誠 tsiânn = very (很), a little stronger than 真 tsin. 好啉 hó-lim = good to drink (好喝); 好食 hó-tsia̍h is
-      "tasty". 一屑仔都袂… = "not … at all", literally "not even a bit".
-  - ref: 7
-    topic: vocab
-    text: >
-      加 ke = add (colloquial reading of 加; literary ka). 糖 thn̂g = sugar.
-  - ref: 8
-    topic: grammar
-    text: >
-      無愛 bô ài = "don't want". With ài the negative is 無 bô. 按呢就好 án-ne tō hó "this is fine as it is":
-      就 tō is the colloquial reading of 就.
-  - ref: 8
-    topic: grammar
-    text: >
-      Four ways to say "not" in one evening. A first overview, to be completed in lesson 7:
-      毋 m̄ with 是 and 捌 (m̄-sī, m̄ bat) · 無 bô with 愛 and 有 (bô ài) · 袂 bē for "is not / can't" (bē sio, bē khóo) ·
-      未 buē for "not yet" (lesson 1).
+- ref: 1
+  topic: grammar
+  text: >
+    捌 bat before a verb = "have ever" (Mandarin V + 過): Lí bat lim…? "Have you ever drunk…?". The question tag --bô "…or not?"
+    turns any statement into a yes/no question.
+- ref: 1
+  topic: vocab
+  text: >
+    啉 lim = drink (喝), a Taigi-only character. 坐 tsē = sit: the colloquial reading of 坐. 來 lâi on its own: "come on, here
+    you go".
+- ref: 2
+  topic: grammar
+  text: >
+    毋捌 m̄ bat = "never have". bat takes 毋 m̄, not 無 bô. The same 捌 bat also means "know (a person)": Guá bat i. "I know him."
+- ref: 3
+  topic: grammar
+  text: >
+    看覓 khuànn-māi after a verb = "try (doing)", like Mandarin 看看: lim khuànn-māi "have a taste", kóng khuànn-māi "try saying
+    it".
+- ref: 4
+  topic: false-friend
+  text: >
+    燒 sio = hot (of food, drinks, water). It does not mean "burn" here. 會 ē before an adjective asks or states how something
+    is: Ē sio--bô? "Is it hot?"
+- ref: 5
+  topic: grammar
+  text: >
+    袂 bē is the negative of 會 ē: Bē sio. "It isn't hot." --ah (矣) at the end marks a change, like Mandarin 了: "not hot any
+    more", "you can drink it now". 會使 ē-sái = "may, be allowed to" (可以).
+- ref: 6
+  topic: vocab
+  text: >
+    誠 tsiânn = very (很), a little stronger than 真 tsin. 好啉 hó-lim = good to drink (好喝); 好食 hó-tsia̍h is "tasty". 一屑仔都袂… =
+    "not … at all", literally "not even a bit".
+- ref: 7
+  topic: vocab
+  text: '加 ke = add (colloquial reading of 加; literary ka). 糖 thn̂g = sugar.
 
+    '
+- ref: 8
+  topic: grammar
+  text: >
+    無愛 bô ài = "don't want". With ài the negative is 無 bô. 按呢就好 án-ne tō hó "this is fine as it is": 就 tō is the colloquial
+    reading of 就.
+- ref: 8
+  topic: grammar
+  text: >
+    Four ways to say "not" in one evening. A first overview, to be completed in lesson 7: 毋 m̄ with 是 and 捌 (m̄-sī, m̄ bat)
+    · 無 bô with 愛 and 有 (bô ài) · 袂 bē for "is not / can't" (bē sio, bē khóo) · 未 buē for "not yet" (lesson 1).
 new_words:
-  - {tailo: tsē, hanji: 坐}
-  - {tailo: bat, hanji: 捌}
-  - {tailo: lim, hanji: 啉}
-  - {tailo: oo-liông-tê, hanji: 烏龍茶}
-  - {tailo: khuànn-māi, hanji: 看覓}
-  - {tailo: sio, hanji: 燒}
-  - {tailo: bē, hanji: 袂}
-  - {tailo: ē-sái, hanji: 會使}
-  - {tailo: tsiânn, hanji: 誠}
-  - {tailo: hó-lim, hanji: 好啉}
-  - {tailo: khóo, hanji: 苦}
-  - {tailo: ke, hanji: 加}
-  - {tailo: thn̂g, hanji: 糖}
-  - {tailo: bô ài, hanji: 無愛}
-  - {tailo: tō, hanji: 就}
-
+- tailo: tsē
+  hanji: 坐
+  en: sit
+- tailo: bat
+  hanji: 捌
+  en: have ever; know (a person)
+- tailo: lim
+  hanji: 啉
+  en: drink
+- tailo: oo-liông-tê
+  hanji: 烏龍茶
+  en: oolong tea
+- tailo: khuànn-māi
+  hanji: 看覓
+  en: try (doing)
+- tailo: sio
+  hanji: 燒
+  en: hot (food, drink)
+- tailo: bē
+  hanji: 袂
+  en: cannot; is not
+- tailo: ē-sái
+  hanji: 會使
+  en: may, be allowed to
+- tailo: tsiânn
+  hanji: 誠
+  en: very
+- tailo: hó-lim
+  hanji: 好啉
+  en: good to drink
+- tailo: khóo
+  hanji: 苦
+  en: bitter
+- tailo: ke
+  hanji: 加
+  en: add
+- tailo: thn̂g
+  hanji: 糖
+  en: sugar
+- tailo: bô ài
+  hanji: 無愛
+  en: don't want
+- tailo: tō
+  hanji: 就
+  en: then; just
 exercises:
   translate:
-    - tailo: "Lí bat lim oo-liông-tê--bô?"
-      hanji: "你捌啉烏龍茶無？"
-      en: "Have you ever had oolong tea?"
-    - tailo: "Bē sio--ah."
-      hanji: "袂燒矣。"
-      en: "It's not hot any more."
-    - tailo: "Kóng khuànn-māi."
-      hanji: "講看覓。"
-      en: "Try saying it."
+  - tailo: Lí bat lim oo-liông-tê--bô?
+    hanji: 你捌啉烏龍茶無？
+    en: Have you ever had oolong tea?
+  - tailo: Bē sio--ah.
+    hanji: 袂燒矣。
+    en: It's not hot any more.
+  - tailo: Kóng khuànn-māi.
+    hanji: 講看覓。
+    en: Try saying it.
   fill:
-    - tailo: "Guá ___ lim oo-liông-tê."
-      hanji: "我___啉烏龍茶。"
-      answer: "m̄ bat"
-      answer_hanji: "毋捌"
-      en: "I've never had oolong tea."
-    - tailo: "Lí beh ke thn̂g--bô? ___, án-ne tō hó."
-      hanji: "你欲加糖無？___，按呢就好。"
-      answer: "Bô ài"
-      answer_hanji: "無愛"
-      en: "Do you want sugar? No thanks, it's fine like this."
-
+  - tailo: Guá ___ lim oo-liông-tê.
+    hanji: 我___啉烏龍茶。
+    answer: m̄ bat
+    answer_hanji: 毋捌
+    en: I've never had oolong tea.
+  - tailo: Lí beh ke thn̂g--bô? ___, án-ne tō hó.
+    hanji: 你欲加糖無？___，按呢就好。
+    answer: Bô ài
+    answer_hanji: 無愛
+    en: Do you want sugar? No thanks, it's fine like this.
 audio: []

@@ -1,0 +1,249 @@
+id: health
+title:
+  en: Health
+  hanji: 健康
+  tailo: kiān-khong
+intro: >-
+  Feeling ill, symptoms, seeing a doctor and taking medicine. Words first, then a short text that uses them.
+sections:
+- n: 1
+  title:
+    en: Feeling well, feeling ill
+    hanji: 身體好、身體䆀
+    tailo: sin-thé hó, sin-thé bái
+  words:
+  - hanji: 身體
+    tailo: sin-thé
+    en: body; health
+    zh: 身體
+  - hanji: 健康
+    tailo: kiān-khong
+    en: healthy; health
+    zh: 健康
+  - hanji: 勇
+    tailo: ióng
+    en: strong, in good health
+    zh: 健壯
+  - hanji: 精神
+    tailo: tsing-sîn
+    en: energy; awake
+    zh: 精神
+  - hanji: 忝
+    tailo: thiám
+    en: exhausted
+    zh: 累
+  - hanji: 艱苦
+    tailo: kan-khóo
+    en: unwell, suffering
+    zh: 不舒服、難受
+  - hanji: 破病
+    tailo: phuà-pēnn
+    en: fall ill
+    zh: 生病
+  - hanji: 病
+    tailo: pēnn
+    en: illness; be ill
+    zh: 病
+  - hanji: 疼
+    tailo: thiànn
+    en: hurt, ache
+    zh: 痛
+  - hanji: 著傷
+    tailo: tio̍h-siong
+    en: get hurt
+    zh: 受傷
+  - hanji: 歇睏
+    tailo: hioh-khùn
+    en: rest, take a break
+    zh: 休息
+  text:
+  - hanji: 我昨昏破病，規工攏真艱苦。
+    tailo: Guá tsa-hng phuà-pēnn, kui-kang lóng tsin kan-khóo.
+    en: I fell ill yesterday and felt awful all day.
+  - hanji: 今仔日較有精神矣。
+    tailo: Kin-á-ji̍t khah ū tsing-sîn--ah.
+    en: Today I have a bit more energy.
+  - hanji: 醫生講我愛加歇睏。
+    tailo: I-sing kóng guá ài ke hioh-khùn.
+    en: The doctor says I need more rest.
+- n: 2
+  title:
+    en: Symptoms
+    hanji: 症頭
+    tailo: tsìng-thâu
+  words:
+  - hanji: 症頭
+    tailo: tsìng-thâu
+    en: symptom
+    zh: 症狀
+  - hanji: 感冒
+    tailo: kám-mōo
+    en: a cold; catch a cold
+    zh: 感冒
+  - hanji: 寒著
+    tailo: kuânn--tio̍h
+    en: catch a chill
+    zh: 著涼
+  - hanji: 發燒
+    tailo: huat-sio
+    en: have a fever
+    zh: 發燒
+  - hanji: 咳嗽
+    tailo: ka-sàu
+    en: cough
+    zh: 咳嗽
+  - hanji: 流鼻
+    tailo: lâu-phīnn
+    en: have a runny nose
+    zh: 流鼻涕
+  - hanji: 拍咳啾
+    tailo: phah-kha-tshiùnn
+    en: sneeze
+    zh: 打噴嚏
+  - hanji: 頭殼
+    tailo: thâu-khak
+    en: head
+    zh: 頭
+  - hanji: 嚨喉
+    tailo: nâ-âu
+    en: throat
+    zh: 喉嚨
+  - hanji: 腹肚
+    tailo: pak-tóo
+    en: belly, stomach
+    zh: 肚子
+  - hanji: 頭眩
+    tailo: thâu-hîn
+    en: dizzy
+    zh: 頭暈
+  text:
+  - hanji: 你敢是感冒矣？
+    tailo: Lí kám sī kám-mōo--ah?
+    en: Have you caught a cold?
+  - hanji: 我昨暗寒著，今仔日咧發燒。
+    tailo: Guá tsa-àm kuânn--tio̍h, kin-á-ji̍t teh huat-sio.
+    en: I caught a chill last night, and today I have a fever.
+  - hanji: 嚨喉疼，閣一直咳嗽、流鼻。
+    tailo: Nâ-âu thiànn, koh it-ti̍t ka-sàu, lâu-phīnn.
+    en: My throat hurts, and I keep coughing and my nose is running.
+- n: 3
+  title:
+    en: Seeing a doctor
+    hanji: 看醫生
+    tailo: khuànn-i-sing
+  words:
+  - hanji: 看醫生
+    tailo: khuànn-i-sing
+    en: see a doctor
+    zh: 看醫生
+  - hanji: 醫生
+    tailo: i-sing
+    en: doctor
+    zh: 醫生
+  - hanji: 護士
+    tailo: hōo-sū
+    en: nurse
+    zh: 護士
+  - hanji: 病院
+    tailo: pēnn-īnn
+    en: hospital
+    zh: 醫院
+  - hanji: 診所
+    tailo: tsín-sóo
+    en: clinic
+    zh: 診所
+  - hanji: 掛號
+    tailo: kuà-hō
+    en: register (at a clinic)
+    zh: 掛號
+  - hanji: 檢查
+    tailo: kiám-tsa
+    en: examine; check-up
+    zh: 檢查
+  - hanji: 量
+    tailo: niû
+    en: measure
+    zh: 量
+  - hanji: 體溫
+    tailo: thé-un
+    en: body temperature
+    zh: 體溫
+  - hanji: 血壓
+    tailo: hueh-ap
+    en: blood pressure
+    zh: 血壓
+  - hanji: 注射
+    tailo: tsù-siā
+    en: injection; give a shot
+    zh: 打針
+  - hanji: 急診
+    tailo: kip-tsín
+    en: emergency room
+    zh: 急診
+  text:
+  - hanji: 我去巷仔口的診所看醫生。
+    tailo: Guá khì hāng-á-kháu ê tsín-sóo khuànn-i-sing.
+    en: I went to the clinic at the end of the lane to see a doctor.
+  - hanji: 先掛號，護士共我量體溫佮血壓。
+    tailo: Sing kuà-hō, hōo-sū kā guá niû thé-un kap hueh-ap.
+    en: First I registered, and the nurse took my temperature and blood pressure.
+  - hanji: 醫生檢查了，講無要緊。
+    tailo: I-sing kiám-tsa liáu, kóng bô iàu-kín.
+    en: The doctor examined me and said it was nothing serious.
+- n: 4
+  title:
+    en: Medicine
+    hanji: 藥仔
+    tailo: io̍h-á
+  words:
+  - hanji: 藥仔
+    tailo: io̍h-á
+    en: medicine
+    zh: 藥
+  - hanji: 藥房
+    tailo: io̍h-pâng
+    en: pharmacy
+    zh: 藥房、藥局
+  - hanji: 藥丸
+    tailo: io̍h-uân
+    en: pill
+    zh: 藥丸
+  - hanji: 藥水
+    tailo: io̍h-tsuí
+    en: liquid medicine, syrup
+    zh: 藥水
+  - hanji: 開
+    tailo: khui
+    en: prescribe (medicine); open
+    zh: 開
+  - hanji: 擺
+    tailo: pái
+    en: time(s), occurrence
+    zh: 次
+  - hanji: 工
+    tailo: kang
+    en: day (counting days)
+    zh: 天
+  - hanji: 起色
+    tailo: khí-sik
+    en: improvement, getting better
+    zh: 好轉
+  text:
+  - hanji: 醫生開藥仔予我。
+    tailo: I-sing khui io̍h-á hōo guá.
+    en: The doctor prescribed me some medicine.
+  - hanji: 一工食三擺，食飽才食。
+    tailo: Tsi̍t kang tsia̍h sann pái, tsia̍h-pá tsiah tsia̍h.
+    en: Three times a day, after meals.
+  - hanji: 食兩工，就有起色矣。
+    tailo: Tsia̍h nn̄g kang, tō ū khí-sik--ah.
+    en: After two days I was already getting better.
+notes:
+- ref: 1
+  text: >-
+    勇 ióng is the everyday word for being in good health, especially for older people: 阿公猶真勇 “Grandpa is still going strong.”
+- ref: 1
+  text: >-
+    艱苦 kan-khóo is a false friend: in Taigi it is how you say you feel unwell (不舒服), not only “hardship”.
+- ref: 4
+  text: 'Medicine is eaten: 食藥仔 tsia̍h io̍h-á. Days are counted with 工 kang (三工 = 三天).'

@@ -1,0 +1,167 @@
+id: 6
+title:
+  en: Catching the train
+  tailo: Kuí tiám--ah?
+  hanji: 幾點矣？
+phase: passive
+review: false
+setting: Saturday morning, Taipei Main Station.
+dialogue:
+- n: 1
+  speaker: A-bîng
+  hanji: 這馬幾點矣？
+  tailo: Tsit-má kuí tiám--ah?
+  en: What time is it now?
+- n: 2
+  speaker: Sam
+  hanji: 七點半。火車幾點開？
+  tailo: Tshit tiám puànn. Hué-tshia kuí tiám khui?
+  en: Half past seven. What time does the train leave?
+- n: 3
+  speaker: A-bîng
+  hanji: 八點十分。咱閣有四十分鐘。
+  tailo: Peh tiám tsa̍p hun. Lán koh ū sì-tsa̍p hun-tsing.
+  en: Ten past eight. We still have forty minutes.
+- n: 4
+  speaker: Sam
+  hanji: 按呢咱先去買便當。
+  tailo: Án-ne lán sing khì bé piān-tong.
+  en: Then let's go and buy lunch boxes first.
+  groups: Án-ne | lán sing khì bé piān-tong.
+- n: 5
+  speaker: A-bîng
+  hanji: 好啊。到臺南愛四點鐘外。
+  tailo: Hó--ah. Kàu Tâi-lâm ài sì tiám-tsing guā.
+  en: Sure. It takes over four hours to Tainan.
+- n: 6
+  speaker: Sam
+  hanji: 遐爾久！咱敢袂使坐高鐵？
+  tailo: Hiah-nī kú! Lán kám bē-sái tsē ko-thih?
+  en: That long! Can't we take the high-speed train?
+- n: 7
+  speaker: A-bîng
+  hanji: 高鐵傷貴矣。坐火車較好耍。
+  tailo: Ko-thih siunn kuì--ah. Tsē hué-tshia khah hó-sńg.
+  en: The high-speed train is too expensive. The train is more fun.
+- n: 8
+  speaker: Sam
+  hanji: 嘛著。
+  tailo: Mā tio̍h.
+  en: That's true too.
+notes:
+- ref: 1
+  topic: grammar
+  text: '幾點矣？ kuí tiám--ah? "what time is it (now)?". 幾 kuí = how many, which; --ah marks the present state.
+
+    '
+- ref: 2
+  topic: grammar
+  text: >
+    Clock time: number + 點 tiám; 半 puànn = half past. 七 tshit, 八 peh. 開 khui = depart (of a train or bus), as well as "open".
+- ref: 3
+  topic: grammar
+  text: >
+    Minutes past: 十分 tsa̍p hun. Duration: 分鐘 hun-tsing (minutes), 點鐘 tiám-tsing (hours). 閣有 koh ū "still have".
+- ref: 4
+  topic: vocab
+  text: '先 sing = first (before something else); 便當 piān-tong = lunch box, the Taiwanese railway classic.
+
+    '
+- ref: 5
+  topic: grammar
+  text: >
+    愛 ài + duration = it takes (需要): 愛四點鐘外 "it takes over four hours". 外 guā after a number = "more than". 到 kàu = to, arrive
+    at.
+- ref: 6
+  topic: grammar
+  text: >
+    遐爾 hiah-nī = so, that (那麼): 遐爾久 "that long". 敢 kám before the verb makes a yes/no question, often with a tone of surprise:
+    咱敢袂使…？ "can't we …?". 袂使 bē-sái = may not, can't. 坐 tsē = take (a vehicle), sit.
+- ref: 7
+  topic: false-friend
+  text: '傷 siunn = too (太), not "hurt": 傷貴 "too expensive". 好耍 hó-sńg = fun (好玩).
+
+    '
+- ref: 8
+  topic: vocab
+  text: '嘛著 mā tio̍h "that''s right too": 嘛 = also, 著 = right (lesson 2).
+
+    '
+new_words:
+- tailo: kuí
+  hanji: 幾
+  en: how many; what (time)
+- tailo: tiám
+  hanji: 點
+  en: o'clock
+- tailo: puànn
+  hanji: 半
+  en: half
+- tailo: hué-tshia
+  hanji: 火車
+  en: train
+- tailo: khui
+  hanji: 開
+  en: depart; open
+- tailo: hun
+  hanji: 分
+  en: minute (past)
+- tailo: hun-tsing
+  hanji: 分鐘
+  en: minutes (duration)
+- tailo: sing
+  hanji: 先
+  en: first
+- tailo: piān-tong
+  hanji: 便當
+  en: lunch box
+- tailo: kàu
+  hanji: 到
+  en: arrive; to
+- tailo: tiám-tsing
+  hanji: 點鐘
+  en: hour (duration)
+- tailo: guā
+  hanji: 外
+  en: more than (after a number)
+- tailo: hiah-nī
+  hanji: 遐爾
+  en: so, that (much)
+- tailo: kú
+  hanji: 久
+  en: long (time)
+- tailo: kám
+  hanji: 敢
+  en: (yes/no question word)
+- tailo: bē-sái
+  hanji: 袂使
+  en: may not, can't
+- tailo: ko-thih
+  hanji: 高鐵
+  en: high-speed rail
+- tailo: siunn
+  hanji: 傷
+  en: too (much)
+- tailo: kuì
+  hanji: 貴
+  en: expensive
+exercises:
+  translate:
+  - tailo: Tsit-má kuí tiám--ah?
+    hanji: 這馬幾點矣？
+    en: What time is it now?
+  - tailo: Ko-thih siunn kuì--ah.
+    hanji: 高鐵傷貴矣。
+    en: The high-speed train is too expensive.
+  fill:
+  - tailo: Hué-tshia kuí tiám ___?
+    hanji: 火車幾點___？
+    answer: khui
+    answer_hanji: 開
+    en: What time does the train leave?
+  - tailo: Lán ___ bē-sái tsē ko-thih?
+    hanji: 咱___袂使坐高鐵？
+    answer: kám
+    answer_hanji: 敢
+    en: Can't we take the high-speed train?
+audio: []

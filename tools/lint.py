@@ -179,12 +179,32 @@ def lint(path, keys, pairs, moe_ex):
     return msgs
 
 
+def lint_theme(path, keys, pairs, moe_ex):
+    """Theme files: every word and every text sentence is checked like a dialogue line."""
+    d = yaml.safe_load(open(path, encoding='utf-8'))
+    fake = {'id': d.get('id'), 'title': d.get('title'), 'phase': 'theme', 'notes': [], 'new_words': [], 'dialogue': []}
+    for sec in d.get('sections', []):
+        for j, w in enumerate(sec.get('words', [])):
+            fake['dialogue'].append({'n': f"{sec['n']}.w{j + 1}", 'hanji': w['hanji'], 'tailo': w['tailo'], 'en': w.get('en')})
+            fake['new_words'].append({'tailo': w['tailo'], 'hanji': w['hanji']})
+        for j, t in enumerate(sec.get('text', [])):
+            fake['dialogue'].append({'n': f"{sec['n']}.t{j + 1}", **t})
+    tmp = path + '.lint.tmp'
+    yaml.safe_dump(fake, open(tmp, 'w', encoding='utf-8'), allow_unicode=True)
+    try:
+        return [(lv, t.replace(os.path.basename(tmp), os.path.basename(path))) for lv, t in lint(tmp, keys, pairs, moe_ex)]
+    finally:
+        os.remove(tmp)
+
+
 def main():
-    files = sys.argv[1:] or sorted(glob.glob(os.path.join(ROOT, 'course/lessons/[0-9]*.yaml')))
+    files = sys.argv[1:] or (sorted(glob.glob(os.path.join(ROOT, 'course/lessons/[0-9]*.yaml')))
+                             + sorted(glob.glob(os.path.join(ROOT, 'course/themes/*.yaml'))))
     keys, pairs, moe_ex = load_db()
     errors = 0
     for f in files:
-        for level, text in lint(f, keys, pairs, moe_ex):
+        fn = lint_theme if '/themes/' in f else lint
+        for level, text in fn(f, keys, pairs, moe_ex):
             print(text)
             errors += level == 'E'
     print(f'{len(files)} file(s), {errors} error(s)')

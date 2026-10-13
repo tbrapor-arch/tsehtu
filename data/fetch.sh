@@ -16,3 +16,18 @@ fetch moedict-data-twblg       https://github.com/g0v/moedict-data-twblg.git    
 fetch ChhoeTaigiDatabase       https://github.com/ChhoeTaigi/ChhoeTaigiDatabase.git       b33c6a1fcc2d11a2962e76b6055d528d11677c3b
 fetch Ungian_2009_KIPsupin     https://github.com/Taiwanese-Corpus/Ungian_2009_KIPsupin.git 9dc2c0bc516e731ff2ed7ee56f04b0dcf12bcac3
 fetch complete-hsk-vocabulary  https://github.com/drkameleon/complete-hsk-vocabulary.git  7ac65bf1a6387d35f1ade478906172a19311c7f9
+
+# Plangothic (SIL OFL 1.1) webfont chunks: glyphs for Taigi-only characters (𠢕, 𪜶, 𨑨…) that
+# common Chinese fonts lack. build_app.py embeds only the glyphs the app uses.
+if [ ! -d raw/plangothic/package ]; then
+  mkdir -p raw/plangothic
+  (cd raw/plangothic && npm pack @free-fonts/plangothic@1.0.0 --silent >/dev/null && tar xzf free-fonts-plangothic-1.0.0.tgz)
+fi
+echo "ok  plangothic @ 1.0.0"
+
+# CC-CEDICT (CC BY-SA 4.0) as JSON: pinyin and English for the Mandarin equivalents shown in the app.
+if [ ! -f raw/cedict/package/cedict.json ]; then
+  mkdir -p raw/cedict
+  (cd raw/cedict && npm pack cedict-json@1.3.20251213 --silent >/dev/null && tar xzf cedict-json-1.3.20251213.tgz)
+fi
+echo "ok  cedict-json @ 1.3.20251213"

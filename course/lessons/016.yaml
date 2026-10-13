@@ -1,0 +1,126 @@
+id: 16
+title:
+  en: A busy day at work
+  tailo: Bô-îng--lah!
+  hanji: 無閒啦！
+phase: passive
+review: false
+setting: Sam's office, late morning. A colleague comes to his desk.
+dialogue:
+- n: 1
+  speaker: Colleague
+  hanji: 你今仔日敢有閒？
+  tailo: Lí kin-á-ji̍t kám ū-îng?
+  en: Are you free today?
+- n: 2
+  speaker: Sam
+  hanji: 無閒啦，工課猶未做了。
+  tailo: Bô-îng--lah, khang-khuè iáu-buē tsò liáu.
+  en: I'm busy, I haven't finished my work yet.
+- n: 3
+  speaker: Colleague
+  hanji: 你咧創啥？
+  tailo: Lí teh tshòng siánn?
+  en: What are you doing?
+- n: 4
+  speaker: Sam
+  hanji: 我咧寫報告，下晡四點以前愛交。
+  tailo: Guá teh siá pò-kò, ē-poo sì tiám í-tsîng ài kau.
+  en: I'm writing a report; I have to hand it in before four this afternoon.
+- n: 5
+  speaker: Colleague
+  hanji: 按呢你緊寫，我毋共你吵。
+  tailo: Án-ne lí kín siá, guá m̄ kā lí tshá.
+  en: Then hurry and write it, I won't bother you.
+- n: 6
+  speaker: Colleague
+  hanji: 寫好才來食飯，我等你。
+  tailo: Siá hó tsiah lâi tsia̍h-pn̄g, guá tán lí.
+  en: Come for lunch once it's done; I'll wait for you.
+- n: 7
+  speaker: Sam
+  hanji: 多謝，我寫了就去。
+  tailo: To-siā, guá siá liáu tō khì.
+  en: Thanks, I'll come as soon as I've finished writing.
+notes:
+- ref: 1
+  topic: vocab
+  text: 有閒 ū-îng = free, have time (有空); 無閒 bô-îng = busy (忙). Built with 有 / 無 like 有空 / 沒空.
+- ref: 2
+  topic: false-friend
+  text: >-
+    Verb + 了 liáu = finish doing (V完): 做了 'finish doing', 寫了 'finish writing'. Not the Mandarin aspect particle 了: that job
+    is done by --ah.
+- ref: 3
+  topic: false-friend
+  text: '創 tshòng = do (做, 幹): 你咧創啥？ ''what are you doing?'', a very common question. Not ''create''.'
+- ref: 4
+  topic: grammar
+  text: 'Time + 以前 í-tsîng = before (之前): 四點以前 ''before four''. 愛 ài here = have to. 交 kau = hand in (交).'
+- ref: 5
+  topic: false-friend
+  text: >-
+    緊 kín = quick, hurry (快): 你緊寫 'hurry and write'. Not 'tight'. 毋 m̄ + verb = won't (refusal or promise): 我毋共你吵 'I won't
+    disturb you'. 共你吵 'bother you': 共 marks the person affected.
+- ref: 6
+  topic: grammar
+  text: >-
+    Verb + 好 hó = done properly (寫好 'finished writing'). …才… tsiah 'only then': 寫好才來 'come once it's written'. 等 tán = wait
+    (等).
+- ref: 7
+  topic: grammar
+  text: V了就… liáu tō… = as soon as …, then … (V完就…).
+new_words:
+- tailo: ū-îng
+  hanji: 有閒
+  en: free, have time
+- tailo: bô-îng
+  hanji: 無閒
+  en: busy
+- tailo: liáu
+  hanji: 了
+  en: finish (after a verb)
+- tailo: tshòng
+  hanji: 創
+  en: do
+- tailo: siá
+  hanji: 寫
+  en: write
+- tailo: pò-kò
+  hanji: 報告
+  en: report
+- tailo: í-tsîng
+  hanji: 以前
+  en: before
+- tailo: kau
+  hanji: 交
+  en: hand in
+- tailo: kín
+  hanji: 緊
+  en: quick; hurry
+- tailo: tshá
+  hanji: 吵
+  en: disturb, make noise
+- tailo: tán
+  hanji: 等
+  en: wait
+exercises:
+  translate:
+  - tailo: Lí teh tshòng siánn?
+    hanji: 你咧創啥？
+    en: What are you doing?
+  - tailo: Guá siá liáu tō khì.
+    hanji: 我寫了就去。
+    en: I'll go as soon as I've finished writing.
+  fill:
+  - tailo: Khang-khuè iáu-buē tsò ___.
+    hanji: 工課猶未做___。
+    answer: liáu
+    answer_hanji: 了
+    en: I haven't finished my work yet.
+  - tailo: Lí ___ siá!
+    hanji: 你___寫！
+    answer: kín
+    answer_hanji: 緊
+    en: Hurry and write it!
+audio: []

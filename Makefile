@@ -6,7 +6,7 @@ PY = python3 -I
 RAW = data/raw
 OUT = data/build
 
-.PHONY: data db db-nc lookup clean lint test
+.PHONY: data db db-nc lookup clean lint test app coverage
 data:
 	sh data/fetch.sh
 
@@ -31,3 +31,9 @@ lint:
 
 test:
 	$(PY) tools/sandhi.py --test
+
+app:
+	$(PY) tools/build_app.py
+
+coverage:
+	$(PY) tools/coverage.py

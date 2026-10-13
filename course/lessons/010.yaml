@@ -1,0 +1,130 @@
+id: 10
+title:
+  en: North and south
+  tailo: Pak-pōo kah lâm-pōo
+  hanji: 北部佮南部
+phase: passive
+review: false
+setting: Dinner at A-bîng's family home in Tainan. A-má, his grandmother, has cooked.
+dialogue:
+- n: 1
+  speaker: A-má
+  hanji: 來，食雞肉飯！
+  tailo: Lâi, tsia̍h ke-bah-pn̄g!
+  en: Come, have some chicken rice!
+- n: 2
+  speaker: Sam
+  hanji: 阿媽講ke，我佇臺北聽人講kue。
+  tailo: A-má kóng ke, guá tī Tâi-pak thiann lâng kóng kue.
+  en: Grandma says 'ke'; in Taipei I hear people say 'kue'.
+- n: 3
+  speaker: A-bîng
+  hanji: 著，北部佮南部有淡薄仔無仝。
+  tailo: Tio̍h, pak-pōo kah lâm-pōo ū tām-po̍h-á bô-kâng.
+  en: Right, the north and the south are a bit different.
+- n: 4
+  speaker: A-má
+  hanji: 阮講欲，有人講bueh。
+  tailo: Guán kóng beh, ū lâng kóng bueh.
+  en: We say 'beh', some people say 'bueh'.
+- n: 5
+  speaker: Sam
+  hanji: 按呢我欲學佗一款？
+  tailo: Án-ne guá beh o̍h tó tsi̍t khuán?
+  en: So which one should I learn?
+- n: 6
+  speaker: A-bîng
+  hanji: 攏會使，逐家攏聽有。
+  tailo: Lóng ē-sái, ta̍k-ke lóng thiann-ū.
+  en: Either is fine, everyone understands both.
+- n: 7
+  speaker: A-má
+  hanji: 上重要的是敢講！
+  tailo: Siōng tiōng-iàu--ê sī kánn kóng!
+  en: The most important thing is to dare to speak!
+notes:
+- ref: 1
+  topic: vocab
+  text: >-
+    雞肉飯 ke-bah-pn̄g = chicken rice, a Chiayi and Tainan classic. 肉 bah = meat (colloquial; literary jio̍k).
+- ref: 2
+  topic: pronunciation
+  text: >-
+    雞 is ke in Tainan and much of the south, kue in Taipei and in older Quanzhou-type speech. The same split runs through
+    火 hué / hé, 鞋 ê / uê, 糜 muê / bê. The dictionary spells one form; the Settings tab shows the tables by place.
+- ref: 2
+  topic: vocab
+  text: 聽人講 thiann lâng kóng = hear people say (聽人說).
+- ref: 3
+  topic: vocab
+  text: >-
+    北部 pak-pōo, 南部 lâm-pōo = the north, the south. 淡薄仔 tām-po̍h-á = a little, a bit. 無仝 bô-kâng = different (不同); 仝款 kāng-khuán
+    = the same.
+- ref: 4
+  topic: pronunciation
+  text: >-
+    欲 is beh in most places, bueh in Yilan, berh in Lukang and Kinmen. A-má uses 阮 guán, the southern form; northerners often
+    say gún.
+- ref: 5
+  topic: grammar
+  text: 佗一款 tó tsi̍t khuán = which kind (哪一種). 佗 tó + classifier = which.
+- ref: 6
+  topic: grammar
+  text: >-
+    攏 lóng = all, both (都). 逐家 ta̍k-ke = everyone (大家). 聽有 thiann-ū = understand (by listening); 聽無 thiann-bô = not understand.
+- ref: 7
+  topic: false-friend
+  text: >-
+    敢 kánn = dare (敢), with a falling tone and nasal vowel. Not to be confused with 敢 kám, the question word of lesson 6:
+    same character, two words. 上 siōng = most (最).
+new_words:
+- tailo: pak-pōo
+  hanji: 北部
+  en: the north
+- tailo: lâm-pōo
+  hanji: 南部
+  en: the south
+- tailo: tām-po̍h-á
+  hanji: 淡薄仔
+  en: a little, a bit
+- tailo: bô-kâng
+  hanji: 無仝
+  en: different
+- tailo: lóng
+  hanji: 攏
+  en: all, both
+- tailo: ta̍k-ke
+  hanji: 逐家
+  en: everyone
+- tailo: thiann-ū
+  hanji: 聽有
+  en: understand (by hearing)
+- tailo: siōng
+  hanji: 上
+  en: most
+- tailo: tiōng-iàu
+  hanji: 重要
+  en: important
+- tailo: kánn
+  hanji: 敢
+  en: dare
+exercises:
+  translate:
+  - tailo: Pak-pōo kah lâm-pōo ū tām-po̍h-á bô-kâng.
+    hanji: 北部佮南部有淡薄仔無仝。
+    en: The north and the south are a bit different.
+  - tailo: Ta̍k-ke lóng thiann-ū.
+    hanji: 逐家攏聽有。
+    en: Everyone understands.
+  fill:
+  - tailo: Guá beh o̍h ___ tsi̍t khuán?
+    hanji: 我欲學___一款？
+    answer: tó
+    answer_hanji: 佗
+    en: Which one should I learn?
+  - tailo: Siōng tiōng-iàu--ê sī ___ kóng!
+    hanji: 上重要的是___講！
+    answer: kánn
+    answer_hanji: 敢
+    en: The most important thing is to dare to speak!
+audio: []

@@ -1,0 +1,140 @@
+id: 17
+title:
+  en: Asking the way
+  tailo: Tī tó-uī?
+  hanji: 佇佗位？
+phase: passive
+review: false
+setting: A street corner after a shower of rain. Sam asks an older man for directions.
+dialogue:
+- n: 1
+  speaker: Sam
+  hanji: 歹勢，請問捷運站佇佗位？
+  tailo: Pháinn-sè, tshiánn-mn̄g tsia̍t-ūn-tsām tī tó-uī?
+  en: Excuse me, where's the metro station?
+- n: 2
+  speaker: Old man
+  hanji: 你對遮直直行，到第二个路口斡正手爿。
+  tailo: Lí uì tsia ti̍t-ti̍t kiânn, kàu tē-jī ê lōo-kháu uat tsiànn-tshiú-pîng.
+  en: Go straight on from here, and at the second junction turn right.
+- n: 3
+  speaker: Sam
+  hanji: 遠無？行路會到無？
+  tailo: Hn̄g--bô? Kiânn-lōo ē kàu--bô?
+  en: Is it far? Can I walk there?
+- n: 4
+  speaker: Old man
+  hanji: 無遠，五分鐘爾爾。毋過莫走，路足滑。
+  tailo: Bô hn̄g, gōo hun-tsing niā-niā. M̄-koh mài tsáu, lōo tsiok ku̍t.
+  en: Not far, only five minutes. But don't run, the road is very slippery.
+- n: 5
+  speaker: Sam
+  hanji: 我知。拄才落雨乎？
+  tailo: Guá tsai. Tú-tsiah lo̍h-hōo--honnh?
+  en: I know. It just rained, didn't it?
+- n: 6
+  speaker: Old man
+  hanji: 著啊，你看，塗跤攏澹澹。
+  tailo: Tio̍h--ah, lí khuànn, thôo-kha lóng tâm-tâm.
+  en: Yes, look, the ground is all wet.
+- n: 7
+  speaker: Sam
+  hanji: 多謝阿伯！
+  tailo: To-siā a-peh!
+  en: Thank you, sir!
+notes:
+- ref: 1
+  topic: vocab
+  text: >-
+    歹勢 pháinn-sè = excuse me, sorry (不好意思). 請問 tshiánn-mn̄g = may I ask. 捷運站 tsia̍t-ūn-tsām = metro station; 捷運 tsia̍t-ūn
+    = the MRT.
+- ref: 2
+  topic: false-friend
+  text: 行 kiânn = walk (走). 走 tsáu = run (跑) or leave (line 4). Mandarin 走 'walk' is the trap here.
+- ref: 2
+  topic: grammar
+  text: >-
+    直直 ti̍t-ti̍t = straight on (一直). Ordinals: 第 tē + number: 第二个路口 tē-jī ê lōo-kháu 'the second junction'. 斡 uat = turn (轉彎).
+    正手爿 tsiànn-tshiú-pîng = right-hand side (lesson 8 had left: 倒手爿).
+- ref: 3
+  topic: grammar
+  text: >-
+    行路 kiânn-lōo = walk, go on foot. 會到無？ 'can I get there?': 會 ē + result asks whether something is possible.
+- ref: 4
+  topic: grammar
+  text: 莫 mài + 走 = don't run. 滑 ku̍t = slippery. 足 tsiok = very.
+- ref: 5
+  topic: false-friend
+  text: '拄才 tú-tsiah = just now (剛才). 拄 tú on its own = just, exactly (剛): 拄好 tú-hó ''just right''.'
+- ref: 6
+  topic: vocab
+  text: 塗跤 thôo-kha = the ground, the floor (地上). 澹 tâm = wet; doubled, 澹澹 'all wet'.
+- ref: 7
+  topic: vocab
+  text: 阿伯 a-peh = uncle, the polite way to address an older man (阿伯 is also 'father's elder brother').
+new_words:
+- tailo: pháinn-sè
+  hanji: 歹勢
+  en: excuse me, sorry
+- tailo: tshiánn-mn̄g
+  hanji: 請問
+  en: may I ask
+- tailo: tsia̍t-ūn
+  hanji: 捷運
+  en: metro (MRT)
+- tailo: ti̍t-ti̍t
+  hanji: 直直
+  en: straight on
+- tailo: kiânn
+  hanji: 行
+  en: walk
+- tailo: lōo-kháu
+  hanji: 路口
+  en: junction, crossroads
+- tailo: uat
+  hanji: 斡
+  en: turn
+- tailo: tsiànn-tshiú-pîng
+  hanji: 正手爿
+  en: right-hand side
+- tailo: kiânn-lōo
+  hanji: 行路
+  en: walk, go on foot
+- tailo: tsáu
+  hanji: 走
+  en: run; leave
+- tailo: ku̍t
+  hanji: 滑
+  en: slippery
+- tailo: tú-tsiah
+  hanji: 拄才
+  en: just now
+- tailo: thôo-kha
+  hanji: 塗跤
+  en: ground, floor
+- tailo: tâm
+  hanji: 澹
+  en: wet
+- tailo: a-peh
+  hanji: 阿伯
+  en: uncle (older man)
+exercises:
+  translate:
+  - tailo: Lí uì tsia ti̍t-ti̍t kiânn.
+    hanji: 你對遮直直行。
+    en: Go straight on from here.
+  - tailo: Mài tsáu, lōo tsiok ku̍t.
+    hanji: 莫走，路足滑。
+    en: Don't run, the road is very slippery.
+  fill:
+  - tailo: Kàu lōo-kháu ___ tsiànn-tshiú-pîng.
+    hanji: 到路口___正手爿。
+    answer: uat
+    answer_hanji: 斡
+    en: Turn right at the junction.
+  - tailo: ___ lo̍h-hōo--honnh?
+    hanji: ___落雨乎？
+    answer: Tú-tsiah
+    answer_hanji: 拄才
+    en: It just rained, didn't it?
+audio: []

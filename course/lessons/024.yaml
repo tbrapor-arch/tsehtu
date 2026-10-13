@@ -1,0 +1,121 @@
+id: 24
+title:
+  en: At the pharmacy
+  tailo: Tī io̍h-pâng
+  hanji: 佇藥房
+phase: passive
+review: false
+setting: A neighbourhood pharmacy. Sam has a sore throat.
+dialogue:
+- n: 1
+  speaker: Pharmacist
+  hanji: 你好，欲買啥？
+  tailo: Lí hó, beh bé siánn?
+  en: Hello, what can I get you?
+- n: 2
+  speaker: Sam
+  hanji: 我嚨喉疼，閣一直咳嗽。
+  tailo: Guá nâ-âu thiànn, koh it-ti̍t ka-sàu.
+  en: My throat hurts and I keep coughing.
+- n: 3
+  speaker: Pharmacist
+  hanji: 有發燒無？
+  tailo: Ū huat-sio--bô?
+  en: Do you have a fever?
+- n: 4
+  speaker: Sam
+  hanji: 無，干焦頭殼小可仔疼。
+  tailo: Bô, kan-na thâu-khak sió-khuá-á thiànn.
+  en: No, just a bit of a headache.
+- n: 5
+  speaker: Pharmacist
+  hanji: 按呢你食這款藥仔，一工三擺，食飽才食。
+  tailo: Án-ne lí tsia̍h tsit khuán io̍h-á, tsi̍t kang sann pái, tsia̍h-pá tsiah tsia̍h.
+  en: Then take this one, three times a day, after meals.
+- n: 6
+  speaker: Pharmacist
+  hanji: 若兩工猶閣無好，愛去看醫生。
+  tailo: Nā nn̄g kang iáu-koh bô hó, ài khì khuànn-i-sing.
+  en: If you're not better in two days, you need to see a doctor.
+- n: 7
+  speaker: Sam
+  hanji: 一包偌濟錢？
+  tailo: Tsi̍t pau guā-tsē tsînn?
+  en: How much is a pack?
+- n: 8
+  speaker: Pharmacist
+  hanji: 一百二。
+  tailo: Tsi̍t-pah-jī.
+  en: A hundred and twenty.
+notes:
+- ref: 2
+  topic: vocab
+  text: >-
+    嚨喉 nâ-âu = throat (喉嚨: the two characters swap places). 一直 it-ti̍t = keep (doing), all the time. 咳嗽 ka-sàu = cough. More
+    in the Health theme.
+- ref: 4
+  topic: vocab
+  text: >-
+    頭殼 thâu-khak = head (頭); 頭殼疼 'headache'. 小可仔 sió-khuá-á = a little, slightly: a gentler word than 淡薄仔 (lesson 10).
+- ref: 5
+  topic: grammar
+  text: >-
+    Frequency: 一工三擺 tsi̍t kang sann pái 'three times a day' (一天三次). 擺 pái counts occurrences, 工 kang counts days. 食飽才食 'take
+    it after eating': 才 again, 'only then'.
+- ref: 6
+  topic: grammar
+  text: 若…猶閣無… nā … iáu-koh bô … = if … still not … . 愛 ài = must (here 'you need to').
+- ref: 7
+  topic: grammar
+  text: >-
+    偌濟錢？ guā-tsē tsînn? = how much (money)? (多少錢). 偌濟 guā-tsē = how much / how many; 錢 tsînn = money. 包 pau = a pack (classifier).
+- ref: 8
+  topic: grammar
+  text: >-
+    Prices are shortened as in Mandarin: 一百二 tsi̍t-pah-jī = 120 (the 十 is dropped). Note 二 jī here, not 兩 nn̄g: a digit trailing
+    after 百 or 千 is read jī (but 兩百 nn̄g-pah for 200).
+new_words:
+- tailo: io̍h-pâng
+  hanji: 藥房
+  en: pharmacy
+- tailo: nâ-âu
+  hanji: 嚨喉
+  en: throat
+- tailo: it-ti̍t
+  hanji: 一直
+  en: keep (doing), continuously
+- tailo: ka-sàu
+  hanji: 咳嗽
+  en: cough
+- tailo: thâu-khak
+  hanji: 頭殼
+  en: head
+- tailo: sió-khuá-á
+  hanji: 小可仔
+  en: a little, slightly
+- tailo: guā-tsē
+  hanji: 偌濟
+  en: how much, how many
+- tailo: tsînn
+  hanji: 錢
+  en: money
+exercises:
+  translate:
+  - tailo: Tsi̍t pau guā-tsē tsînn?
+    hanji: 一包偌濟錢？
+    en: How much is a pack?
+  - tailo: Tsi̍t kang sann pái, tsia̍h-pá tsiah tsia̍h.
+    hanji: 一工三擺，食飽才食。
+    en: Three times a day, after meals.
+  fill:
+  - tailo: Guá ___ thiànn.
+    hanji: 我___疼。
+    answer: nâ-âu
+    answer_hanji: 嚨喉
+    en: My throat hurts.
+  - tailo: Nā nn̄g kang ___ bô hó, ài khì khuànn-i-sing.
+    hanji: 若兩工___無好，愛去看醫生。
+    answer: iáu-koh
+    answer_hanji: 猶閣
+    en: If you're still not better in two days, see a doctor.
+audio: []

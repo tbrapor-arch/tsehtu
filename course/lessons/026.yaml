@@ -1,0 +1,121 @@
+id: 26
+title:
+  en: Hobbies
+  tailo: Lí kah-ì siánn?
+  hanji: 你佮意啥？
+phase: passive
+review: false
+setting: A-hun and Sam chat about free time.
+dialogue:
+- n: 1
+  speaker: A-hun
+  hanji: 你歇睏的時陣攏咧創啥？
+  tailo: Lí hioh-khùn ê sî-tsūn lóng teh tshòng siánn?
+  en: What do you usually do in your free time?
+- n: 2
+  speaker: Sam
+  hanji: 我佮意看電影，嘛定定去𬦰山。
+  tailo: Guá kah-ì khuànn tiān-iánn, mā tiānn-tiānn khì peh-suann.
+  en: I like watching films, and I often go hiking.
+- n: 3
+  speaker: A-hun
+  hanji: 我較興唱歌，禮拜六攏佮朋友去唱。
+  tailo: Guá khah hìng tshiùnn-kua, lé-pài-la̍k lóng kah pîng-iú khì tshiùnn.
+  en: I'm more into singing. Every Saturday I go and sing with friends.
+- n: 4
+  speaker: Sam
+  hanji: 你攏唱啥物歌？
+  tailo: Lí lóng tshiùnn siánn-mih kua?
+  en: What songs do you sing?
+- n: 5
+  speaker: A-hun
+  hanji: 臺語歌啊！較早的歌上好聽。
+  tailo: Tâi-gí kua--ah! Khah-tsá ê kua siōng hó-thiann.
+  en: Taiwanese songs! The old songs sound the best.
+- n: 6
+  speaker: Sam
+  hanji: 有影喔？下擺𤆬我去。
+  tailo: Ū-iánn--ooh? Ē-pái tshuā guá khì.
+  en: Really? Take me along next time.
+- n: 7
+  speaker: A-hun
+  hanji: 好，毋過你愛唱一條臺語歌。
+  tailo: Hó, m̄-koh lí ài tshiùnn tsi̍t tiâu Tâi-gí kua.
+  en: OK, but you have to sing a Taiwanese song.
+notes:
+- ref: 1
+  topic: grammar
+  text: '攏 lóng + 咧 + verb = usually be doing: 攏咧創啥 ''what do you (generally) do?''. …的時陣 = when (lesson 20).'
+- ref: 2
+  topic: vocab
+  text: >-
+    佮意 kah-ì = like, be fond of (喜歡). 定定 tiānn-tiānn = often (常常). 𬦰山 peh-suann = climb a mountain, go hiking; 𬦰 peh is a
+    rare character the app font supplies. 電影 tiān-iánn = film.
+- ref: 3
+  topic: grammar
+  text: >-
+    興 hìng = be keen on (愛好); 較興 'prefer, be more into'. 唱歌 tshiùnn-kua = sing; 歌 kua = song. 佮 kah + person = with someone.
+- ref: 5
+  topic: vocab
+  text: 好聽 hó-thiann = sound nice. 上 siōng + adjective = the most (lesson 10).
+- ref: 6
+  topic: vocab
+  text: >-
+    有影 ū-iánn = really, true (真的): 有影喔？ 'really?'. 下擺 ē-pái = next time (下次). 𤆬 tshuā = take (someone) along (lesson 12).
+- ref: 7
+  topic: grammar
+  text: '條 tiâu = classifier for songs (and long thin things, roads, debts): 一條歌.'
+new_words:
+- tailo: kah-ì
+  hanji: 佮意
+  en: like, be fond of
+- tailo: tiān-iánn
+  hanji: 電影
+  en: film
+- tailo: tiānn-tiānn
+  hanji: 定定
+  en: often
+- tailo: peh-suann
+  hanji: 𬦰山
+  en: go hiking
+- tailo: hìng
+  hanji: 興
+  en: be keen on
+- tailo: tshiùnn-kua
+  hanji: 唱歌
+  en: sing
+- tailo: kua
+  hanji: 歌
+  en: song
+- tailo: hó-thiann
+  hanji: 好聽
+  en: sound nice
+- tailo: ū-iánn
+  hanji: 有影
+  en: really, true
+- tailo: ē-pái
+  hanji: 下擺
+  en: next time
+- tailo: tiâu
+  hanji: 條
+  en: (classifier for songs, roads)
+exercises:
+  translate:
+  - tailo: Guá kah-ì khuànn tiān-iánn.
+    hanji: 我佮意看電影。
+    en: I like watching films.
+  - tailo: Ē-pái tshuā guá khì.
+    hanji: 下擺𤆬我去。
+    en: Take me along next time.
+  fill:
+  - tailo: Guá ___ khì peh-suann.
+    hanji: 我___去𬦰山。
+    answer: tiānn-tiānn
+    answer_hanji: 定定
+    en: I often go hiking.
+  - tailo: ___--ooh?
+    hanji: ___喔？
+    answer: Ū-iánn
+    answer_hanji: 有影
+    en: Really?
+audio: []

@@ -1,0 +1,127 @@
+id: 12
+title:
+  en: Not feeling well
+  tailo: Guá pak-tóo thiànn
+  hanji: 我腹肚疼
+phase: passive
+review: false
+setting: The next morning. Sam didn't sleep well after the night market.
+dialogue:
+- n: 1
+  speaker: A-bîng
+  hanji: 你哪會面色遐爾䆀？
+  tailo: Lí ná ē bīn-sik hiah-nī bái?
+  en: Why do you look so pale?
+- n: 2
+  speaker: Sam
+  hanji: 我腹肚疼，暗時攏睏袂去。
+  tailo: Guá pak-tóo thiànn, àm-sî lóng khùn bē khì.
+  en: My stomach hurts. I couldn't sleep all night.
+- n: 3
+  speaker: A-bîng
+  hanji: 敢是昨暗食傷濟？
+  tailo: Kám sī tsa-àm tsia̍h siunn tsē?
+  en: Did you eat too much last night?
+- n: 4
+  speaker: Sam
+  hanji: 可能。閣有淡薄仔發燒。
+  tailo: Khó-lîng. Koh ū tām-po̍h-á huat-sio.
+  en: Maybe. And I have a bit of a fever.
+- n: 5
+  speaker: A-bîng
+  hanji: 我𤆬你去看醫生。
+  tailo: Guá tshuā lí khì khuànn-i-sing.
+  en: I'll take you to the doctor.
+- n: 6
+  speaker: Doctor
+  hanji: 食藥仔，加歇睏，兩工就好矣。
+  tailo: Tsia̍h io̍h-á, ke hioh-khùn, nn̄g kang tō hó--ah.
+  en: Take the medicine, rest more, and you'll be fine in two days.
+- n: 7
+  speaker: Sam
+  hanji: 多謝醫生。
+  tailo: To-siā i-sing.
+  en: Thank you, doctor.
+notes:
+- ref: 1
+  topic: grammar
+  text: >-
+    哪會 ná ē = how come (怎麼會): surprise or concern. 面色 bīn-sik = complexion. 䆀 bái = bad, ugly: 面色䆀 'look unwell'.
+- ref: 2
+  topic: vocab
+  text: 腹肚 pak-tóo = belly, stomach; 疼 thiànn = hurt (痛). 暗時 àm-sî = at night.
+- ref: 2
+  topic: grammar
+  text: >-
+    睏袂去 khùn bē khì = can't get to sleep. Verb + 袂 + result is the Taigi form of Mandarin 睡不著: the 袂 sits between the verb
+    and its result. The positive is 睏會去 khùn ē khì.
+- ref: 3
+  topic: grammar
+  text: 傷濟 siunn tsē = too much (太多). 濟 tsē = many, much; 少 tsió = few. 昨暗 tsa-àm = last night.
+- ref: 5
+  topic: vocab
+  text: 𤆬 tshuā = take, lead (someone somewhere) (帶). A Taigi-only character; your app font shows it.
+- ref: 6
+  topic: grammar
+  text: >-
+    Medicine is 'eaten': 食藥仔 tsia̍h io̍h-á. 工 kang counts days: 兩工 'two days'. More words in the Health theme.
+new_words:
+- tailo: ná-ē
+  hanji: 哪會
+  en: how come
+- tailo: bīn-sik
+  hanji: 面色
+  en: complexion, look
+- tailo: bái
+  hanji: 䆀
+  en: bad, ugly
+- tailo: pak-tóo
+  hanji: 腹肚
+  en: belly, stomach
+- tailo: thiànn
+  hanji: 疼
+  en: hurt, ache
+- tailo: àm-sî
+  hanji: 暗時
+  en: at night
+- tailo: tsē
+  hanji: 濟
+  en: many, much
+- tailo: tsa-àm
+  hanji: 昨暗
+  en: last night
+- tailo: huat-sio
+  hanji: 發燒
+  en: have a fever
+- tailo: tshuā
+  hanji: 𤆬
+  en: take, lead (someone)
+- tailo: io̍h-á
+  hanji: 藥仔
+  en: medicine
+- tailo: hioh-khùn
+  hanji: 歇睏
+  en: rest
+- tailo: kang
+  hanji: 工
+  en: day (counting)
+exercises:
+  translate:
+  - tailo: Guá pak-tóo thiànn.
+    hanji: 我腹肚疼。
+    en: My stomach hurts.
+  - tailo: Guá tshuā lí khì khuànn-i-sing.
+    hanji: 我𤆬你去看醫生。
+    en: I'll take you to the doctor.
+  fill:
+  - tailo: Kám sī tsia̍h siunn ___?
+    hanji: 敢是食傷___？
+    answer: tsē
+    answer_hanji: 濟
+    en: Did you eat too much?
+  - tailo: Àm-sî lóng khùn ___ khì.
+    hanji: 暗時攏睏___去。
+    answer: bē
+    answer_hanji: 袂
+    en: I couldn't sleep all night.
+audio: []

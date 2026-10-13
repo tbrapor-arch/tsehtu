@@ -1,0 +1,72 @@
+id: 28
+title:
+  en: Review 4
+  tailo: Ho̍k-si̍p
+  hanji: 復習
+phase: passive
+review: true
+setting: Sam and A-hun exchange messages. Everything comes from lessons 22–27.
+dialogue:
+- n: 1
+  speaker: Sam
+  hanji: 阿芬，下擺咱做伙去唱歌好無？
+  tailo: A-hun, ē-pái lán tsò-hué khì tshiùnn-kua hó--bô?
+  en: A-hun, shall we go singing together next time?
+- n: 2
+  speaker: A-hun
+  hanji: 好啊！你若有閒，禮拜六下晡。
+  tailo: Hó--ah! Lí nā ū-îng, lé-pài-la̍k ē-poo.
+  en: Sure! Saturday afternoon, if you're free.
+- n: 3
+  speaker: Sam
+  hanji: 歹勢，我這禮拜無閒甲欲死，厝內冷氣閣歹去。
+  tailo: Pháinn-sè, guá tsit lé-pài bô-îng kah beh sí, tshù-lāi líng-khì koh pháinn--khì.
+  en: Sorry, I'm crazy busy this week, and the air conditioning at home has broken again.
+- n: 4
+  speaker: A-hun
+  hanji: 按呢下禮拜，你毋通袂記得喔！
+  tailo: Án-ne ē lé-pài, lí m̄-thang bē-kì-tit--ooh!
+  en: Then the week after. Don't forget!
+notes:
+- ref: 2
+  topic: grammar
+  text: >-
+    If: 若 nā (若…就…). Recap of time words: 下擺 ē-pái next time, 下禮拜 ē lé-pài next week, 這禮拜 tsit lé-pài this week, 禮拜一 … 禮拜六
+    / 禮拜日.
+- ref: 3
+  topic: grammar
+  text: '甲 kah + result: 無閒甲欲死 ''so busy I could die'', 熱甲…, 氣甲…, 吵甲…. 歹去 ''broke down''.'
+- ref: 3
+  topic: grammar
+  text: >-
+    Ability and result after a verb: V + 會 / 袂 + result = can / can't (揣會著, 睏袂去). Don't know: 毋知 m̄ tsai.
+- ref: 4
+  topic: grammar
+  text: >-
+    Likes and habits: 佮意 kah-ì like, 較興 khah hìng prefer, 定定 tiānn-tiānn often, 攏咧 + verb 'usually'. Really?: 有影喔？ Why?: 為啥物
+    uī-siánn-mih / 按怎.
+- ref: 4
+  topic: grammar
+  text: >-
+    Money and amounts: 偌濟錢？ how much; 一百二 120, 一萬二 12,000; classifiers 間 rooms, 包 packs, 條 songs, 張 photos.
+new_words: []
+exercises:
+  translate:
+  - tailo: Lí nā ū-îng, lán tsò-hué khì.
+    hanji: 你若有閒，咱做伙去。
+    en: If you're free, let's go together.
+  - tailo: Guá m̄ tsai beh kóng siánn.
+    hanji: 我毋知欲講啥。
+    en: I don't know what to say.
+  fill:
+  - tailo: Bô-îng ___ beh sí.
+    hanji: 無閒___欲死。
+    answer: kah
+    answer_hanji: 甲
+    en: So busy I could die.
+  - tailo: Tsi̍t pau ___ tsînn?
+    hanji: 一包___錢？
+    answer: guā-tsē
+    answer_hanji: 偌濟
+    en: How much is a pack?
+audio: []

@@ -1,0 +1,101 @@
+lessons:
+- {n: 1, en: 'Have you eaten?', focus: 'greetings, 欲 beh, 啥 siánn, classifiers 塊/杯'}
+- {n: 2, en: 'Where are you from?', focus: '是/毋是, 蹛佇, 咧 teh (progressive), first look at 共 kā'}
+- {n: 3, en: Try it, focus: '捌 bat, 看覓, 袂 bē, overview of negatives'}
+- {n: 4, en: At the market, focus: 'numbers 1–100, 箍, 斤, 按怎賣, 俗 (cheap), 予 hōo ''give'''}
+- {n: 5, en: A family photo, focus: '阮/咱/恁, family words, 阮兜, 啥人, 足 tsiok'}
+- {n: 6, en: Catching the train, focus: 'telling time, 點/點鐘, 敢 kám questions, 傷 siunn, 遐爾'}
+- {n: 7, en: Review 1, review: true}
+- {n: 8, en: Arriving in Tainan, focus: 'uì … kàu (from … to), 落車, directions'}
+- {n: 9, en: 'What''s the weather like?', focus: '會/袂 + adjectives, 落雨, 寒/熱, --ah change of state'}
+- {n: 10, en: North and south, focus: 'pronunciation variants: 咧 teh/leh, 阮 guán/gún, e/ue'}
+- {n: 11, en: At the night market, focus: '愛 ài, 好食, 欲 vs 愛, ordering'}
+- {n: 12, en: Not feeling well, focus: '艱苦, 疼, 看醫生 (links the Health theme)'}
+- {n: 13, en: A phone call, focus: '共 kā + person, 予 hōo ''let/to'', 講 kóng'}
+- {n: 14, en: Review 2, review: true}
+- {n: 15, en: Buying clothes, focus: 'comparison 較 khah, 比 pí, colours, 衫/褲'}
+- {n: 16, en: A busy day at work, focus: '無閒, 猶未, 才 tsiah, 就 tō'}
+- {n: 17, en: Asking the way, focus: '行/走 (walk/run), 斡 uat, 直直, 佇…邊仔'}
+- {n: 18, en: Weekend plans, focus: '𨑨迌, 欲 + time, 抑是 (or)'}
+- {n: 19, en: Cooking with A-má, focus: '煮, 囥, 加, 先…才…'}
+- {n: 20, en: A-má's old days, focus: '捌 (experience), 較早, 了 liáu'}
+- {n: 21, en: Review 3, review: true}
+- {n: 22, en: At the temple, focus: '拜拜, 燒香, 毋通 (don''t)'}
+- {n: 23, en: New Year, focus: '過年, 紅包, wishes'}
+- {n: 24, en: At the pharmacy, focus: '藥仔, 一工三擺, 食飽才食'}
+- {n: 25, en: Looking for a flat, focus: '厝, 稅厝, 偌濟錢, 會使'}
+- {n: 26, en: Hobbies, focus: '佮意, 興 hìng, 定定 (often)'}
+- {n: 27, en: Complaining, focus: 'V + 甲 kah (to the point that), 傷 + adj'}
+- {n: 28, en: Review 4, review: true}
+- {n: 29, en: Taking a scooter, focus: '騎, 戴安全帽, 會使/袂使'}
+- {n: 30, en: At the bank, focus: '提錢, 存, numbers in thousands (千/萬)'}
+- {n: 31, en: A birthday, focus: '生日, 送, 予 + recipient'}
+- {n: 32, en: The neighbours, focus: '厝邊隔壁, 聽講 (I heard), 好像'}
+- {n: 33, en: Lost phone, focus: '拍毋見, 揣 tshuē, 揣著 (result 著)'}
+- {n: 34, en: Rainy season, focus: '做風颱, 淹水, 驚 (afraid)'}
+- {n: 35, en: Review 5, review: true}
+- {n: 36, en: A day at the beach, focus: '泅水, 曝日, V + 看覓'}
+- {n: 37, en: Taigi on TV, focus: '布袋戲, 歌仔戲, literary vs colloquial readings'}
+- {n: 38, en: Ordering in a restaurant, focus: '點菜, 一碗/一盤, 毋免'}
+- {n: 39, en: Doctor's visit, focus: '症頭, 檢查, 開藥仔'}
+- {n: 40, en: Helping A-kong, focus: '鬥相共, 共 + V (for someone)'}
+- {n: 41, en: Feelings, focus: '歡喜, 受氣, 煩惱, 心適'}
+- {n: 42, en: Review 6, review: true}
+- {n: 43, en: A wedding invitation, focus: '結婚, 喜帖, 請人客'}
+- {n: 44, en: Proverbs at the table, focus: '俗語, reading set phrases'}
+- {n: 45, en: The countryside, focus: '庄跤, 作穡, 種田'}
+- {n: 46, en: Shopping online, focus: '網路, 寄, 收著'}
+- {n: 47, en: An argument, focus: '毋著, 共…講, sentence-final 啦/咧'}
+- {n: 48, en: Making up, focus: '歹勢, 無要緊, 原諒'}
+- {n: 49, en: Review 7, review: true}
+- {n: 50, en: Sam writes in Taigi, focus: second wave starts; written Taigi (Hàn-jī + Tâi-lô)}
+- {n: 51, en: At the post office, focus: '寄批, 包裹'}
+- {n: 52, en: A job interview, focus: 'polite register, 請問, 會當'}
+- {n: 53, en: Night-market food stories, focus: 'describing taste, 鹹/甜/薟'}
+- {n: 54, en: Ghost month, focus: '七月半, 普度, 禁忌'}
+- {n: 55, en: Mid-Autumn barbecue, focus: '中秋, 烘肉, 月餅'}
+- {n: 56, en: Review 8, review: true}
+- {n: 57, en: Elections on TV, focus: '選舉, 投票, opinions'}
+- {n: 58, en: A-má in hospital, focus: '住院, 看護, 照顧'}
+- {n: 59, en: Bargaining, focus: '算較俗咧, 講價'}
+- {n: 60, en: Taiwanese songs, focus: '台語歌, lyrics style, 思念'}
+- {n: 61, en: Learning to cook 滷肉飯, focus: 'steps, 了後, 才閣'}
+- {n: 62, en: Directions by scooter, focus: '路口, 紅綠燈, 斡正手/倒手'}
+- {n: 63, en: Review 9, review: true}
+- {n: 64, en: Childhood memories, focus: '細漢的時, 較早, past narration'}
+- {n: 65, en: Earthquake, focus: '地動, 驚惶, 逃'}
+- {n: 66, en: A trip to Lukang, focus: 'accent of Lukang, 古蹟'}
+- {n: 67, en: Tea mountain, focus: '茶山, 焙茶, processes'}
+- {n: 68, en: Football and baseball, focus: '比賽, 輸贏, 拍球'}
+- {n: 69, en: Money worries, focus: '趁錢, 開錢, 儉'}
+- {n: 70, en: Review 10, review: true}
+- {n: 71, en: Taigi at school, focus: '母語, 本土語言, language policy (neutral)'}
+- {n: 72, en: Telling a story, focus: '古早古早, narrative connectors'}
+- {n: 73, en: Moving house, focus: '搬厝, 撨, 鬥搬'}
+- {n: 74, en: Pets, focus: '飼, 狗仔/貓仔'}
+- {n: 75, en: Traditional medicine, focus: '漢藥, 補, 冷熱'}
+- {n: 76, en: Writing a message, focus: 'written register, 敬愛的'}
+- {n: 77, en: Review 11, review: true}
+- {n: 78, en: A typhoon day off, focus: '風颱假, 停班停課'}
+- {n: 79, en: Family conflicts, focus: 'obligation 著愛, 應該'}
+- {n: 80, en: Temple festival, focus: '迓媽祖, 鬧熱'}
+- {n: 81, en: Night shift, focus: '暗時, 透早, 規暝'}
+- {n: 82, en: Old Taipei, focus: '大稻埕, 艋舺, history words'}
+- {n: 83, en: Getting old, focus: '老, 退休, 健康'}
+- {n: 84, en: Review 12, review: true}
+- {n: 85, en: News headlines, focus: 'news vocabulary, literary readings'}
+- {n: 86, en: A love story, focus: '意愛, 相思'}
+- {n: 87, en: Humour and puns, focus: 'tone play, 白賊'}
+- {n: 88, en: Hakka and Taigi neighbours, focus: languages of Taiwan}
+- {n: 89, en: The environment, focus: '垃圾, 回收, 節約'}
+- {n: 90, en: Saying goodbye, focus: '離開, 保重, 後擺'}
+- {n: 91, en: Review 13, review: true}
+- {n: 92, en: Back in Taipei, focus: 'returning, 轉來'}
+- {n: 93, en: Teaching Taigi to a friend, focus: 'explaining, 意思'}
+- {n: 94, en: Reading a short text, focus: Taigi prose}
+- {n: 95, en: Debate, focus: 'opinions, 我認為, 毋過'}
+- {n: 96, en: Proverbs II, focus: 俗語}
+- {n: 97, en: Sam's speech, focus: public speaking register}
+- {n: 98, en: Review 14, review: true}
+- {n: 99, en: Planning the future, focus: '將來, 計畫'}
+- {n: 100, en: Farewell party, focus: 'wrap-up, 感謝'}

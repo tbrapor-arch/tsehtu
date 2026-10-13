@@ -1,0 +1,173 @@
+id: 5
+title:
+  en: A family photo
+  tailo: Guán tau ê lâng
+  hanji: 阮兜的人
+phase: passive
+review: false
+setting: Back home, A-bîng shows Sam a photo on his phone.
+dialogue:
+- n: 1
+  speaker: A-bîng
+  hanji: 你看，這是阮兜的人。
+  tailo: Lí khuànn, tse sī guán tau ê lâng.
+  en: Look, this is my family.
+  groups: Lí khuànn, tse | sī guán tau ê lâng.
+- n: 2
+  speaker: Sam
+  hanji: 這个是恁阿母乎？
+  tailo: Tsit ê sī lín a-bú--honnh?
+  en: This is your mother, right?
+- n: 3
+  speaker: A-bîng
+  hanji: 著，伊佇臺南教冊。
+  tailo: Tio̍h, i tī Tâi-lâm kà-tsheh.
+  en: Yes, she teaches in Tainan.
+- n: 4
+  speaker: Sam
+  hanji: 遮的囡仔是啥人？
+  tailo: Tsia ê gín-á sī siánn-lâng?
+  en: Who are these children?
+- n: 5
+  speaker: A-bîng
+  hanji: 是阮小妹的囝，兩个查某囡仔，一个查埔囡仔。
+  tailo: Sī guán sió-muē ê kiánn, nn̄g ê tsa-bóo gín-á, tsi̍t ê tsa-poo gín-á.
+  en: 'They''re my younger sister''s kids: two girls and a boy.'
+- n: 6
+  speaker: Sam
+  hanji: 恁阿公阿媽猶閣足勇喔！
+  tailo: Lín a-kong a-má iáu-koh tsiok ióng--ooh!
+  en: Your grandparents still look really fit!
+- n: 7
+  speaker: A-bîng
+  hanji: 阮阿公九十歲矣。
+  tailo: Guán a-kong káu-tsa̍p huè--ah.
+  en: My grandpa is ninety.
+- n: 8
+  speaker: A-bîng
+  hanji: 咱禮拜六做伙去臺南，好無？
+  tailo: Lán lé-pài-la̍k tsò-hué khì Tâi-lâm, hó--bô?
+  en: Shall we go to Tainan together on Saturday?
+- n: 9
+  speaker: Sam
+  hanji: 好啊！
+  tailo: Hó--ah!
+  en: Sure!
+notes:
+- ref: 1
+  topic: grammar
+  text: >
+    阮兜 guán tau "our home, my family". 阮 guán is "we (not you)", and with family and home it also means "my": 阮阿公 "my grandpa",
+    阮小妹 "my little sister". No 的 ê needed.
+- ref: 2
+  topic: grammar
+  text: '恁 lín = you (plural), and "your" with family: 恁阿母 "your mother". 阿母 a-bú = mum; 阿爸 a-pah = dad.
+
+    '
+- ref: 3
+  topic: vocab
+  text: '教冊 kà-tsheh = teach (教書). 冊 tsheh again: "book".
+
+    '
+- ref: 4
+  topic: grammar
+  text: '遮的 tsia ê = these; 啥人 siánn-lâng = who (誰). 囡仔 gín-á = child (小孩).
+
+    '
+- ref: 5
+  topic: vocab
+  text: >
+    小妹 sió-muē = younger sister. 囝 kiánn = son, child (of someone): 阮小妹的囝 "my sister's children". 查某 tsa-bóo = female, 查埔
+    tsa-poo = male: 查某囡仔 "girl", 查埔囡仔 "boy". Classifier for people: 个 ê.
+- ref: 6
+  topic: vocab
+  text: >
+    阿公 a-kong, 阿媽 a-má = grandfather, grandmother. 足 tsiok = very, a strong spoken word. 勇 ióng = healthy, strong (see the
+    Health theme). 猶閣 iáu-koh = still.
+- ref: 7
+  topic: grammar
+  text: 'Age: number + 歲 huè, with --ah at the end ("has reached"): 九十歲矣 "is ninety now".
+
+    '
+- ref: 8
+  topic: grammar
+  text: >
+    咱 lán = we (including you). Compare 阮 guán = we (not you): A-bîng uses 咱 because Sam is coming too. 禮拜六 lé-pài-la̍k =
+    Saturday (禮拜 + number, like 星期). …好無？ hó--bô? "how about it?", a suggestion.
+- ref: 8
+  topic: sandhi
+  text: '阿 a- in names and family words keeps its tone: A-bîng, a-kong, a-má.
+
+    '
+new_words:
+- tailo: tau
+  hanji: 兜
+  en: home
+- tailo: lín
+  hanji: 恁
+  en: you (plural); your
+- tailo: a-bú
+  hanji: 阿母
+  en: mum
+- tailo: kà-tsheh
+  hanji: 教冊
+  en: teach
+- tailo: gín-á
+  hanji: 囡仔
+  en: child
+- tailo: siánn-lâng
+  hanji: 啥人
+  en: who
+- tailo: sió-muē
+  hanji: 小妹
+  en: younger sister
+- tailo: kiánn
+  hanji: 囝
+  en: son; child (of someone)
+- tailo: tsa-bóo
+  hanji: 查某
+  en: female; woman
+- tailo: tsa-poo
+  hanji: 查埔
+  en: male; man
+- tailo: a-kong
+  hanji: 阿公
+  en: grandfather
+- tailo: a-má
+  hanji: 阿媽
+  en: grandmother
+- tailo: iáu-koh
+  hanji: 猶閣
+  en: still
+- tailo: tsiok
+  hanji: 足
+  en: very
+- tailo: huè
+  hanji: 歲
+  en: years old
+- tailo: lán
+  hanji: 咱
+  en: we (including you)
+- tailo: tsò-hué
+  hanji: 做伙
+  en: together
+exercises:
+  translate:
+  - tailo: Tse sī guán tau ê lâng.
+    hanji: 這是阮兜的人。
+    en: This is my family.
+  - tailo: Lán tsò-hué khì, hó--bô?
+    hanji: 咱做伙去，好無？
+    en: Shall we go together?
+  fill:
+  - tailo: Tsia ê gín-á sī ___?
+    hanji: 遮的囡仔是___？
+    answer: siánn-lâng
+    answer_hanji: 啥人
+    en: Who are these children?
+  - tailo: Guán a-kong káu-tsa̍p ___--ah.
+    hanji: 阮阿公九十___矣。
+    answer: huè
+    answer_hanji: 歲
+    en: My grandpa is ninety.
+audio: []

@@ -1,0 +1,127 @@
+id: 20
+title:
+  en: A-má's old days
+  tailo: Khah-tsá ê tāi-tsì
+  hanji: 較早的代誌
+phase: passive
+review: false
+setting: After dinner, Sam asks A-má about her childhood.
+dialogue:
+- n: 1
+  speaker: Sam
+  hanji: 阿媽，你細漢的時陣蹛佇佗位？
+  tailo: A-má, lí sè-hàn ê sî-tsūn tuà tī tó-uī?
+  en: Grandma, where did you live when you were little?
+- n: 2
+  speaker: A-má
+  hanji: 我蹛佇庄跤，阮兜咧作穡。
+  tailo: Guá tuà tī tsng-kha, guán tau teh tsoh-sit.
+  en: In the countryside. My family were farmers.
+- n: 3
+  speaker: Sam
+  hanji: 你敢捌讀冊？
+  tailo: Lí kám bat tha̍k-tsheh?
+  en: Did you go to school?
+- n: 4
+  speaker: A-má
+  hanji: 讀到國校爾爾。較早查某囡仔較無機會。
+  tailo: Tha̍k kàu kok-hāu niā-niā. Khah-tsá tsa-bóo gín-á khah bô ki-huē.
+  en: Only up to primary school. In the old days girls had fewer chances.
+- n: 5
+  speaker: A-má
+  hanji: 十五歲就去工場做工矣。
+  tailo: Tsa̍p-gōo huè tō khì kang-tiûnn tsò-kang--ah.
+  en: At fifteen I was already working in a factory.
+- n: 6
+  speaker: Sam
+  hanji: 真辛苦！
+  tailo: Tsin sin-khóo!
+  en: That must have been hard!
+- n: 7
+  speaker: A-má
+  hanji: 辛苦是辛苦，毋過彼陣嘛真快樂。
+  tailo: Sin-khóo sī sin-khóo, m̄-koh hit-tsūn mā tsin khuài-lo̍k.
+  en: Hard, yes, but we were happy back then too.
+notes:
+- ref: 1
+  topic: grammar
+  text: >-
+    …的時陣 ê sî-tsūn = when … (…的時候): 細漢的時陣 'when (you were) little'. 細漢 sè-hàn = young, small (as a child); its opposite 大漢
+    tuā-hàn = grown up.
+- ref: 2
+  topic: vocab
+  text: 庄跤 tsng-kha = the countryside (鄉下). 作穡 tsoh-sit = to farm, work the land (種田).
+- ref: 3
+  topic: grammar
+  text: 敢捌…？ kám bat…? = did you ever …? (你有沒有…過). 讀冊 tha̍k-tsheh = study, go to school.
+- ref: 4
+  topic: grammar
+  text: >-
+    Verb + 到 kàu + point = (do) up to: 讀到國校 'studied up to primary school'. 國校 kok-hāu = primary school (the older name).
+    較早 khah-tsá = in the past, formerly (以前), very common in storytelling. 機會 ki-huē = chance.
+- ref: 5
+  topic: grammar
+  text: >-
+    …就…矣 tō … --ah = already (by then): 十五歲就去做工矣 'at fifteen (she) was already working'. 工場 kang-tiûnn = factory; 做工 tsò-kang
+    = do manual work.
+- ref: 7
+  topic: grammar
+  text: >-
+    X 是 X，毋過… = it's X all right, but … (A是A，但是…). 彼陣 hit-tsūn = at that time (那時候). 快樂 khuài-lo̍k = happy.
+new_words:
+- tailo: sè-hàn
+  hanji: 細漢
+  en: young (as a child), small
+- tailo: sî-tsūn
+  hanji: 時陣
+  en: time, moment; when
+- tailo: tsng-kha
+  hanji: 庄跤
+  en: countryside
+- tailo: tsoh-sit
+  hanji: 作穡
+  en: farm, work the land
+- tailo: kok-hāu
+  hanji: 國校
+  en: primary school (old name)
+- tailo: khah-tsá
+  hanji: 較早
+  en: in the past, formerly
+- tailo: ki-huē
+  hanji: 機會
+  en: chance, opportunity
+- tailo: kang-tiûnn
+  hanji: 工場
+  en: factory
+- tailo: tsò-kang
+  hanji: 做工
+  en: do manual work
+- tailo: sin-khóo
+  hanji: 辛苦
+  en: hard, tough
+- tailo: hit-tsūn
+  hanji: 彼陣
+  en: at that time
+- tailo: khuài-lo̍k
+  hanji: 快樂
+  en: happy
+exercises:
+  translate:
+  - tailo: Lí sè-hàn ê sî-tsūn tuà tī tó-uī?
+    hanji: 你細漢的時陣蹛佇佗位？
+    en: Where did you live when you were little?
+  - tailo: Sin-khóo sī sin-khóo, m̄-koh tsin khuài-lo̍k.
+    hanji: 辛苦是辛苦，毋過真快樂。
+    en: It was hard, but we were happy.
+  fill:
+  - tailo: ___ tsa-bóo gín-á khah bô ki-huē.
+    hanji: ___查某囡仔較無機會。
+    answer: Khah-tsá
+    answer_hanji: 較早
+    en: In the old days girls had fewer chances.
+  - tailo: Lí kám ___ tha̍k-tsheh?
+    hanji: 你敢___讀冊？
+    answer: bat
+    answer_hanji: 捌
+    en: Did you ever go to school?
+audio: []

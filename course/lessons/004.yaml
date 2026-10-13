@@ -1,0 +1,153 @@
+id: 4
+title:
+  en: At the market
+  tailo: Án-tsuánn bē?
+  hanji: 按怎賣？
+phase: passive
+review: false
+setting: A traditional morning market in Taipei. Sam wants fruit; the stallholder is a man in his sixties.
+dialogue:
+- n: 1
+  speaker: Sam
+  hanji: 頭家，這个按怎賣？
+  tailo: Thâu-ke, tsit ê án-tsuánn bē?
+  en: Excuse me, how much is this?
+  zh: 老闆，這個怎麼賣？
+- n: 2
+  speaker: Stallholder
+  hanji: 一斤五十箍。
+  tailo: Tsi̍t kin gōo-tsa̍p khoo.
+  en: Fifty dollars a catty.
+- n: 3
+  speaker: Sam
+  hanji: 有較俗的無？
+  tailo: Ū khah sio̍k ê--bô?
+  en: Do you have anything cheaper?
+- n: 4
+  speaker: Stallholder
+  hanji: 彼款較俗，一斤三十箍。
+  tailo: Hit khuán khah sio̍k, tsi̍t kin sann-tsa̍p khoo.
+  en: That kind is cheaper, thirty a catty.
+- n: 5
+  speaker: Sam
+  hanji: 好，我買兩斤。
+  tailo: Hó, guá bé nn̄g kin.
+  en: OK, I'll take two catties.
+- n: 6
+  speaker: Stallholder
+  hanji: 兩斤六十箍。閣欲啥無？
+  tailo: Nn̄g kin la̍k-tsa̍p khoo. Koh beh siánn--bô?
+  en: Two catties, sixty dollars. Anything else?
+- n: 7
+  speaker: Sam
+  hanji: 按呢就好。予你一百箍。
+  tailo: Án-ne tō hó. Hōo lí tsi̍t-pah khoo.
+  en: That's all. Here's a hundred.
+- n: 8
+  speaker: Stallholder
+  hanji: 找你四十箍。多謝喔！
+  tailo: Tsāu lí sì-tsa̍p khoo. To-siā--ooh!
+  en: Forty dollars change. Thank you!
+notes:
+- ref: 1
+  topic: grammar
+  text: >
+    按怎賣？ án-tsuánn bē? "how is it sold?" is how you ask a price at a stall. 按怎 án-tsuánn = 怎麼. 頭家 thâu-ke "boss" is the polite
+    way to call any stallholder.
+- ref: 1
+  topic: pronunciation
+  text: >
+    賣 bē (sell, tone 7, mid) and 買 bé (buy, tone 2, falling) differ only by the tone. Mandarin has the same trap with mài
+    / mǎi. 這个 tsit ê: "this" before a classifier is tsit, not tse.
+- ref: 2
+  topic: grammar
+  text: >
+    Numbers when counting: tsi̍t, nn̄g, sann, sì, gōo, la̍k, tshit, peh, káu, tsa̍p. Tens are built like Mandarin: gōo-tsa̍p
+    50, la̍k-tsa̍p 60. 一百 tsi̍t-pah = 100. 斤 kin is the catty (600 g), still used in markets.
+- ref: 2
+  topic: vocab
+  text: '箍 khoo = dollar (元 / 塊), the everyday word for money amounts.
+
+    '
+- ref: 3
+  topic: false-friend
+  text: '俗 sio̍k means "cheap" (便宜), not "vulgar". 較 khah = more: 較俗 "cheaper". 有…無？ asks "is there any …?"
+
+    '
+- ref: 4
+  topic: vocab
+  text: '彼款 hit khuán = that kind (那種). 款 khuán is "kind, type"; 這款 tsit khuán "this kind".
+
+    '
+- ref: 6
+  topic: grammar
+  text: '閣 koh = again / more / else: 閣欲啥無？ "do you want anything else?". One word for Mandarin 還/再/又.
+
+    '
+- ref: 7
+  topic: grammar
+  text: '予 hōo = give: 予你 "(I) give you". Later it also means "let" and marks the passive.
+
+    '
+- ref: 8
+  topic: vocab
+  text: '找 tsāu = give change (找錢). Note the tone: tsāu, not Mandarin zhǎo''s falling-rising contour.
+
+    '
+new_words:
+- tailo: thâu-ke
+  hanji: 頭家
+  en: boss; stallholder
+- tailo: án-tsuánn
+  hanji: 按怎
+  en: how; why
+- tailo: bē
+  hanji: 賣
+  en: sell
+- tailo: bé
+  hanji: 買
+  en: buy
+- tailo: kin
+  hanji: 斤
+  en: catty (600 g)
+- tailo: khoo
+  hanji: 箍
+  en: dollar
+- tailo: sio̍k
+  hanji: 俗
+  en: cheap
+- tailo: khuán
+  hanji: 款
+  en: kind, type
+- tailo: hit
+  hanji: 彼
+  en: that (before a classifier)
+- tailo: koh
+  hanji: 閣
+  en: again, more, else
+- tailo: hōo
+  hanji: 予
+  en: give
+- tailo: tsāu
+  hanji: 找
+  en: give change
+exercises:
+  translate:
+  - tailo: Tsit ê án-tsuánn bē?
+    hanji: 這个按怎賣？
+    en: How much is this?
+  - tailo: Guá bé nn̄g kin.
+    hanji: 我買兩斤。
+    en: I'll buy two catties.
+  fill:
+  - tailo: Ū khah ___ ê--bô?
+    hanji: 有較___的無？
+    answer: sio̍k
+    answer_hanji: 俗
+    en: Do you have anything cheaper?
+  - tailo: ___ lí tsi̍t-pah khoo.
+    hanji: ___你一百箍。
+    answer: Hōo
+    answer_hanji: 予
+    en: Here's a hundred (I give you a hundred).
+audio: []

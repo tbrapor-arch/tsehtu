@@ -1,0 +1,126 @@
+id: 19
+title:
+  en: Cooking with A-má
+  tailo: Tsú tshài-thâu-thng
+  hanji: 煮菜頭湯
+phase: passive
+review: false
+setting: A-má is visiting Taipei and shows Sam how she makes radish soup.
+dialogue:
+- n: 1
+  speaker: A-má
+  hanji: 咱今仔日來煮菜頭湯。
+  tailo: Lán kin-á-ji̍t lâi tsú tshài-thâu-thng.
+  en: Today let's make radish soup.
+- n: 2
+  speaker: A-má
+  hanji: 先共菜頭洗清氣，閣切做一塊一塊。
+  tailo: Sing kā tshài-thâu sé tshing-khì, koh tshiat tsò tsi̍t tè tsi̍t tè.
+  en: First wash the radish clean, then cut it into pieces.
+- n: 3
+  speaker: Sam
+  hanji: 按呢好無？
+  tailo: Án-ne hó--bô?
+  en: Like this?
+- n: 4
+  speaker: A-má
+  hanji: 傷大塊矣，閣較細塊咧。
+  tailo: Siunn tuā tè--ah, koh khah sè tè--leh.
+  en: Too big. A bit smaller.
+- n: 5
+  speaker: A-má
+  hanji: 水滾了後，才共菜頭囥落去。
+  tailo: Tsuí kún liáu-āu, tsiah kā tshài-thâu khǹg--lo̍h-khì.
+  en: Once the water boils, put the radish in.
+- n: 6
+  speaker: Sam
+  hanji: 愛加鹽無？
+  tailo: Ài ke iâm--bô?
+  en: Should I add salt?
+- n: 7
+  speaker: A-má
+  hanji: 加一屑仔就好，莫傷鹹。
+  tailo: Ke tsi̍t-sut-á tō hó, mài siunn kiâm.
+  en: Just a little, don't make it too salty.
+notes:
+- ref: 1
+  topic: vocab
+  text: >-
+    煮 tsú = cook (in water), make (a dish). 菜頭 tshài-thâu = white radish (蘿蔔); 湯 thng = soup. Remember 菜頭粿 from lesson 1.
+- ref: 2
+  topic: grammar
+  text: >-
+    共 kā + object + verb = Mandarin 把: 共菜頭洗清氣 'wash the radish clean' (把蘿蔔洗乾淨). The object comes before the verb, and the
+    verb carries a result. 洗 sé = wash; 清氣 tshing-khì = clean.
+- ref: 2
+  topic: grammar
+  text: >-
+    先…閣… sing… koh… = first …, then …. 切做一塊一塊 'cut into pieces': 做 tsò = into (as), and a repeated 一塊一塊 means 'piece by piece'.
+- ref: 4
+  topic: grammar
+  text: '閣較細塊咧 ''a bit smaller still'': 較 + adjective + 咧 makes a soft request (lesson 11).'
+- ref: 5
+  topic: grammar
+  text: >-
+    了後 liáu-āu = after (之後): 水滾了後 'after the water boils'. 才 tsiah = (only) then. 囥 khǹg = put (放), a Taigi-only character.
+    落去 lo̍h-khì after a verb = into, down (下去): 囥落去 'put it in'.
+- ref: 6
+  topic: vocab
+  text: 加 ke = add (lesson 3); 鹽 iâm = salt. 愛…無？ 'do I need to …?'
+- ref: 7
+  topic: vocab
+  text: '鹹 kiâm = salty. Tastes so far: 苦 khóo bitter, 薟 hiam spicy, 鹹 kiâm salty; sweet is 甜 tinn.'
+new_words:
+- tailo: tsú
+  hanji: 煮
+  en: cook, make (a dish)
+- tailo: tshài-thâu
+  hanji: 菜頭
+  en: white radish
+- tailo: sé
+  hanji: 洗
+  en: wash
+- tailo: tshing-khì
+  hanji: 清氣
+  en: clean
+- tailo: tshiat
+  hanji: 切
+  en: cut
+- tailo: kún
+  hanji: 滾
+  en: boil
+- tailo: liáu-āu
+  hanji: 了後
+  en: after
+- tailo: khǹg
+  hanji: 囥
+  en: put
+- tailo: lo̍h-khì
+  hanji: 落去
+  en: down, into (after a verb)
+- tailo: iâm
+  hanji: 鹽
+  en: salt
+- tailo: kiâm
+  hanji: 鹹
+  en: salty
+exercises:
+  translate:
+  - tailo: Sing kā tshài-thâu sé tshing-khì.
+    hanji: 先共菜頭洗清氣。
+    en: First wash the radish clean.
+  - tailo: Mài siunn kiâm.
+    hanji: 莫傷鹹。
+    en: Don't make it too salty.
+  fill:
+  - tailo: Tsuí kún ___, tsiah kā tshài-thâu khǹg--lo̍h-khì.
+    hanji: 水滾___，才共菜頭囥落去。
+    answer: liáu-āu
+    answer_hanji: 了後
+    en: Once the water boils, put the radish in.
+  - tailo: ___ tshài-thâu sé tshing-khì.
+    hanji: ___菜頭洗清氣。
+    answer: Kā
+    answer_hanji: 共
+    en: Wash the radish clean.
+audio: []

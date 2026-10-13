@@ -1,0 +1,127 @@
+id: 8
+title:
+  en: Arriving in Tainan
+  tailo: Kàu--ah!
+  hanji: 到矣！
+phase: passive
+review: false
+setting: Tainan station, four hours later. Sam and A-bîng get off the train.
+dialogue:
+- n: 1
+  speaker: A-bîng
+  hanji: 到矣！咱佇遮落車。
+  tailo: Kàu--ah! Lán tī tsia lo̍h-tshia.
+  en: We're here! We get off here.
+- n: 2
+  speaker: Sam
+  hanji: 恁兜離車頭遠無？
+  tailo: Lín tau lī tshia-thâu hn̄g--bô?
+  en: Is your home far from the station?
+  zh: 你家離車站遠嗎？
+- n: 3
+  speaker: A-bîng
+  hanji: 無遠，坐公車十分鐘就到。
+  tailo: Bô hn̄g, tsē kong-tshia tsa̍p hun-tsing tō kàu.
+  en: Not far, ten minutes by bus.
+- n: 4
+  speaker: Sam
+  hanji: 公車佇佗位坐？
+  tailo: Kong-tshia tī tó-uī tsē?
+  en: Where do we get the bus?
+- n: 5
+  speaker: A-bîng
+  hanji: 對遮出去，倒手爿就有。
+  tailo: Uì tsia tshut--khì, tò-tshiú-pîng tō ū.
+  en: Go out this way, it's right there on the left.
+- n: 6
+  speaker: A-bîng
+  hanji: 啊，阮小妹敲電話來矣。
+  tailo: Ah, guán sió-muē khà tiān-uē lâi--ah.
+  en: Oh, my sister is calling.
+- n: 7
+  speaker: A-bîng
+  hanji: 伊講伊欲來載咱。
+  tailo: I kóng i beh lâi tsài lán.
+  en: She says she's coming to pick us up.
+- n: 8
+  speaker: Sam
+  hanji: 按呢真好，毋免坐公車矣。
+  tailo: Án-ne tsin hó, m̄-bián tsē kong-tshia--ah.
+  en: Great, then we don't need the bus.
+notes:
+- ref: 1
+  topic: vocab
+  text: '落車 lo̍h-tshia = get off (下車). 落 lo̍h is the colloquial 下 for going down: 落雨 ''rain falls'' (lesson 9).'
+- ref: 2
+  topic: grammar
+  text: >-
+    A 離 B 遠 / 近: A 離 lī B hn̄g = A is far from B, as in Mandarin. 遠 hn̄g has no final consonant: the n̄g is a syllabic ng.
+    車頭 tshia-thâu = station (車站).
+- ref: 3
+  topic: grammar
+  text: …就到 tō kàu 'and you're there'. 就 tō links a condition to its result, like Mandarin 就.
+- ref: 5
+  topic: grammar
+  text: >-
+    對 uì = from (從): 對遮出去 'go out from here'. Notice: the same 對 read tuì means 'towards, correct'. 倒手爿 tò-tshiú-pîng = left-hand
+    side; right is 正手爿 tsiànn-tshiú-pîng. 爿 pîng = side.
+- ref: 6
+  topic: vocab
+  text: 敲電話 khà tiān-uē = to phone (打電話). 敲 khà is the colloquial verb; 打 is rare in Taigi.
+- ref: 7
+  topic: vocab
+  text: 載 tsài = give someone a lift (by car or scooter).
+- ref: 8
+  topic: grammar
+  text: '毋免 m̄-bián = no need. With --ah at the end: ''no need any more'' (a change).'
+new_words:
+- tailo: lo̍h-tshia
+  hanji: 落車
+  en: get off (a vehicle)
+- tailo: lī
+  hanji: 離
+  en: from (distance)
+- tailo: tshia-thâu
+  hanji: 車頭
+  en: station
+- tailo: hn̄g
+  hanji: 遠
+  en: far
+- tailo: kong-tshia
+  hanji: 公車
+  en: bus
+- tailo: uì
+  hanji: 對
+  en: from
+- tailo: tò-tshiú-pîng
+  hanji: 倒手爿
+  en: left-hand side
+- tailo: khà
+  hanji: 敲
+  en: call (on the phone); knock
+- tailo: tiān-uē
+  hanji: 電話
+  en: telephone
+- tailo: tsài
+  hanji: 載
+  en: give a lift
+exercises:
+  translate:
+  - tailo: Lín tau lī tshia-thâu hn̄g--bô?
+    hanji: 恁兜離車頭遠無？
+    en: Is your home far from the station?
+  - tailo: Lán tī tsia lo̍h-tshia.
+    hanji: 咱佇遮落車。
+    en: We get off here.
+  fill:
+  - tailo: ___ tsia tshut--khì.
+    hanji: ___遮出去。
+    answer: Uì
+    answer_hanji: 對
+    en: Go out from here.
+  - tailo: I beh lâi ___ lán.
+    hanji: 伊欲來___咱。
+    answer: tsài
+    answer_hanji: 載
+    en: She's coming to pick us up.
+audio: []

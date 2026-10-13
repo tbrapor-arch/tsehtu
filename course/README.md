@@ -10,6 +10,11 @@ goes to false friends, Taigi-only words, colloquial readings, tone sandhi and gr
 - Passive phase first (listen, read, understand); an active phase starts partway through, where earlier lessons
   are revisited and translated back from English.
 
+## Priority
+Coverage of vocabulary and structures comes first; the recurring characters (Sam, A-bîng and family) are only a
+backdrop, and lessons may stand alone. `make coverage` shows how much of the core vocabulary the lessons cover and
+lists the most frequent words not yet taught, to pick from when writing the next lessons.
+
 ## Rules for content
 1. Everything here is original. No sentences, dialogues, storylines or notes from published courses.
 2. Romanisation is Tâi-lô only (MOE system). Characters follow the MOE dictionary's recommended Hàn-jī.

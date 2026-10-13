@@ -1,0 +1,138 @@
+id: 13
+title:
+  en: A phone call
+  tailo: Guá beh kā lí kóng
+  hanji: 我欲共你講
+phase: passive
+review: false
+setting: Sam phones Mr Tân, his landlord in Taipei, to say he'll be back late.
+dialogue:
+- n: 1
+  speaker: Sam
+  hanji: 喂，陳先生，我是Sam。
+  tailo: Uê, Tân--sian-sinn, guá sī Sam.
+  en: Hello, Mr Tân, it's Sam.
+- n: 2
+  speaker: Mr Tân
+  hanji: Sam喔，有啥代誌？
+  tailo: Sam--ooh, ū siánn tāi-tsì?
+  en: Ah, Sam. What's up?
+- n: 3
+  speaker: Sam
+  hanji: 我欲共你講，我禮拜一才轉去臺北。
+  tailo: Guá beh kā lí kóng, guá lé-pài-it tsiah tńg-khì Tâi-pak.
+  en: I wanted to tell you that I won't be back in Taipei until Monday.
+- n: 4
+  speaker: Mr Tân
+  hanji: 無問題。你的批我先共你收。
+  tailo: Bô būn-tê. Lí ê phue guá sing kā lí siu.
+  en: No problem. I'll take in your mail for you.
+- n: 5
+  speaker: Sam
+  hanji: 多謝。我的朋友明仔載會去提物件，請你予伊入去。
+  tailo: To-siā. Guá ê pîng-iú bîn-á-tsài ē khì the̍h mi̍h-kiānn, tshiánn lí hōo i ji̍p--khì.
+  en: Thanks. A friend of mine will come by tomorrow to pick something up; please let him in.
+- n: 6
+  speaker: Mr Tân
+  hanji: 好，我知矣。
+  tailo: Hó, guá tsai--ah.
+  en: OK, got it.
+- n: 7
+  speaker: Sam
+  hanji: 真多謝，再會！
+  tailo: Tsin to-siā, tsài-huē!
+  en: Thanks a lot, goodbye!
+notes:
+- ref: 1
+  topic: vocab
+  text: >-
+    喂 uê = hello (on the phone). Surname + 先生 sian-sinn = Mr. The surname 陳 is Tân; the two are said as one unit, 先生 in neutral
+    tone: Tân--sian-sinn.
+- ref: 2
+  topic: vocab
+  text: 代誌 tāi-tsì = matter, business (事情). 有啥代誌？ 'what's it about?'
+- ref: 3
+  topic: grammar
+  text: >-
+    共 kā + person + verb: 共你講 'tell you' (跟你說). This is kā's most common job: marking the person you say or do something to.
+- ref: 3
+  topic: grammar
+  text: >-
+    才 tsiah after a time = not until (才): 禮拜一才轉去 'not back until Monday'. 轉去 tńg-khì = go back (home) (回去). 禮拜一 lé-pài-it
+    = Monday.
+- ref: 4
+  topic: grammar
+  text: >-
+    共 kā + person can also mean 'for someone': 共你收 'take it in for you'. 批 phue = letter, mail; 收 siu = receive, put away.
+    無問題 bô būn-tê = no problem.
+- ref: 5
+  topic: grammar
+  text: >-
+    予 hōo + person + verb = let someone do: 予伊入去 'let him in' (讓他進去). In lesson 4 予 was 'give'; the same word now means 'let'.
+    提 the̍h = take, fetch (false friend: not 'lift'); 物件 mi̍h-kiānn = things (東西).
+- ref: 7
+  topic: vocab
+  text: 再會 tsài-huē = goodbye (再見).
+new_words:
+- tailo: uê
+  hanji: 喂
+  en: hello (phone)
+- tailo: sian-sinn
+  hanji: 先生
+  en: Mr; teacher; doctor
+- tailo: tāi-tsì
+  hanji: 代誌
+  en: matter, business
+- tailo: tsiah
+  hanji: 才
+  en: not until; only then
+- tailo: tńg-khì
+  hanji: 轉去
+  en: go back
+- tailo: būn-tê
+  hanji: 問題
+  en: problem, question
+- tailo: phue
+  hanji: 批
+  en: letter, mail
+- tailo: siu
+  hanji: 收
+  en: receive, put away
+- tailo: pîng-iú
+  hanji: 朋友
+  en: friend
+- tailo: bîn-á-tsài
+  hanji: 明仔載
+  en: tomorrow
+- tailo: the̍h
+  hanji: 提
+  en: take, fetch
+- tailo: mi̍h-kiānn
+  hanji: 物件
+  en: thing(s)
+- tailo: ji̍p
+  hanji: 入
+  en: enter
+- tailo: tsài-huē
+  hanji: 再會
+  en: goodbye
+exercises:
+  translate:
+  - tailo: Guá beh kā lí kóng.
+    hanji: 我欲共你講。
+    en: I want to tell you.
+  - tailo: Tshiánn lí hōo i ji̍p--khì.
+    hanji: 請你予伊入去。
+    en: Please let him in.
+  fill:
+  - tailo: Guá lé-pài-it ___ tńg-khì Tâi-pak.
+    hanji: 我禮拜一___轉去臺北。
+    answer: tsiah
+    answer_hanji: 才
+    en: I won't be back in Taipei until Monday.
+  - tailo: Ū siánn ___?
+    hanji: 有啥___？
+    answer: tāi-tsì
+    answer_hanji: 代誌
+    en: What's up?
+audio: []

@@ -11,6 +11,8 @@ None of these datasets are stored in this repository. `make data` downloads them
 | 台灣白話基礎語句 (1956) | via ChhoeTaigi | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Basic sentences, Mandarin/English glosses |
 | Maryknoll 台英辭典 (1976), Embree 台英辭典 (1973) | Maryknoll Language Service Center; Bernard L. M. Embree; via ChhoeTaigi | [CC BY-NC-SA 3.0 TW](https://creativecommons.org/licenses/by-nc-sa/3.0/tw/) | **Off by default.** English glosses only with `make db-nc`, for non-commercial builds. Not used in `course/`. |
 | 教育部臺灣閩南語字詞頻調查工作 (2009) | Iûⁿ Ún-giân et al., via [Taiwanese-Corpus](https://github.com/Taiwanese-Corpus/Ungian_2009_KIPsupin) | none stated | Read at build time to count word frequencies. No text is stored or redistributed. |
+| CC-CEDICT, via [cedict-json](https://www.npmjs.com/package/cedict-json) | MDBG and CC-CEDICT contributors | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Pinyin and English for the Mandarin equivalents in the app's word cards |
+| Plangothic (遍黑體), via [@free-fonts/plangothic](https://www.npmjs.com/package/@free-fonts/plangothic) | Plangothic Project | [SIL OFL 1.1](https://openfontlicense.org) | Glyphs for rare Taigi characters, subset and embedded in the app |
 | complete-hsk-vocabulary | Yanis Zafirópulos ([drkameleon](https://github.com/drkameleon/complete-hsk-vocabulary)) | MIT | HSK levels of Mandarin equivalents |
 
 Romanisation throughout is the Ministry of Education's 臺灣台語羅馬字拼音方案 (Tâi-lô).

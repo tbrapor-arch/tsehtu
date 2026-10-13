@@ -1,0 +1,129 @@
+id: 27
+title:
+  en: Complaining
+  tailo: Jua̍h kah beh sí!
+  hanji: 熱甲欲死！
+phase: passive
+review: false
+setting: A heatwave in Taipei. The air conditioning in Sam and A-bîng's building has broken down.
+dialogue:
+- n: 1
+  speaker: Sam
+  hanji: 今仔日熱甲欲死！
+  tailo: Kin-á-ji̍t jua̍h kah beh sí!
+  en: It's so hot today I could die!
+- n: 2
+  speaker: A-bîng
+  hanji: 冷氣歹去矣。
+  tailo: Líng-khì pháinn--khì--ah.
+  en: The air conditioning has broken.
+- n: 3
+  speaker: Sam
+  hanji: 厝主講幾工才欲來修理？
+  tailo: Tshù-tsú kóng kuí kang tsiah beh lâi siu-lí?
+  en: How many days did the landlord say before they come to fix it?
+- n: 4
+  speaker: A-bîng
+  hanji: 伊講禮拜五。我氣甲毋知欲講啥。
+  tailo: I kóng lé-pài-gōo. Guá khì kah m̄ tsai beh kóng siánn.
+  en: He said Friday. I'm so angry I don't know what to say.
+- n: 5
+  speaker: Sam
+  hanji: 隔壁閣咧吵，吵甲我頭殼疼。
+  tailo: Keh-piah koh teh tshá, tshá kah guá thâu-khak thiànn.
+  en: And next door are making noise again, so loud it's giving me a headache.
+- n: 6
+  speaker: A-bîng
+  hanji: 煞煞去，咱出去食冰！
+  tailo: Suah-suah--khì, lán tshut-khì tsia̍h ping!
+  en: Forget it, let's go out for shaved ice!
+- n: 7
+  speaker: Sam
+  hanji: 好主意！
+  tailo: Hó tsú-ì!
+  en: Good idea!
+notes:
+- ref: 1
+  topic: grammar
+  text: >-
+    Adjective / verb + 甲 kah + result = so … that (…得…): 熱甲欲死 'so hot I could die' (熱得要死). The most expressive Taigi structure:
+    everything after 甲 says how far it went.
+- ref: 2
+  topic: grammar
+  text: >-
+    歹去 pháinn--khì = break down, go bad (壞掉). 歹 pháinn = bad, broken; 去 after it (neutral tone) marks a change for the worse.
+    冷氣 líng-khì = air conditioning.
+- ref: 3
+  topic: vocab
+  text: 厝主 tshù-tsú = landlord, house owner (房東). 修理 siu-lí = repair. 幾工才 'how many days until'.
+- ref: 4
+  topic: grammar
+  text: >-
+    氣甲毋知欲講啥 'so angry I don't know what to say': the result after 甲 can be a whole clause. 氣 khì = angry. 禮拜五 lé-pài-gōo =
+    Friday.
+- ref: 5
+  topic: grammar
+  text: >-
+    吵甲我頭殼疼 'so noisy (it makes) my head ache': the result can have its own subject (我). 隔壁 keh-piah = next door, the neighbours.
+- ref: 6
+  topic: vocab
+  text: >-
+    煞煞去 suah-suah--khì = forget it, drop it (算了). 煞 suah on its own means 'stop, end' or 'unexpectedly'. 食冰 tsia̍h ping =
+    have shaved ice (冰 ping = ice, iced dessert).
+- ref: 7
+  topic: vocab
+  text: '主意 tsú-ì = idea: 好主意 ''good idea''.'
+new_words:
+- tailo: kah
+  hanji: 甲
+  en: so … that (after a verb or adjective)
+- tailo: sí
+  hanji: 死
+  en: die
+- tailo: líng-khì
+  hanji: 冷氣
+  en: air conditioning
+- tailo: pháinn
+  hanji: 歹
+  en: bad, broken
+- tailo: tshù-tsú
+  hanji: 厝主
+  en: landlord
+- tailo: siu-lí
+  hanji: 修理
+  en: repair
+- tailo: khì
+  hanji: 氣
+  en: angry
+- tailo: keh-piah
+  hanji: 隔壁
+  en: next door
+- tailo: suah-suah--khì
+  hanji: 煞煞去
+  en: forget it, drop it
+- tailo: ping
+  hanji: 冰
+  en: ice; shaved ice
+- tailo: tsú-ì
+  hanji: 主意
+  en: idea
+exercises:
+  translate:
+  - tailo: Kin-á-ji̍t jua̍h kah beh sí!
+    hanji: 今仔日熱甲欲死！
+    en: It's so hot today I could die!
+  - tailo: Líng-khì pháinn--khì--ah.
+    hanji: 冷氣歹去矣。
+    en: The air conditioning has broken.
+  fill:
+  - tailo: Guá khì ___ m̄ tsai beh kóng siánn.
+    hanji: 我氣___毋知欲講啥。
+    answer: kah
+    answer_hanji: 甲
+    en: I'm so angry I don't know what to say.
+  - tailo: ___, lán tshut-khì tsia̍h ping!
+    hanji: ___，咱出去食冰！
+    answer: Suah-suah--khì
+    answer_hanji: 煞煞去
+    en: Forget it, let's go out for shaved ice!
+audio: []

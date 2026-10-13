@@ -1,0 +1,138 @@
+id: 23
+title:
+  en: New Year
+  tailo: Kuè-nî
+  hanji: 過年
+phase: passive
+review: false
+setting: A few days before Lunar New Year.
+dialogue:
+- n: 1
+  speaker: A-bîng
+  hanji: 新年快樂！
+  tailo: Sin-nî khuài-lo̍k!
+  en: Happy New Year!
+- n: 2
+  speaker: Sam
+  hanji: 恭喜發財！
+  tailo: Kiong-hí huat-tsâi!
+  en: Wishing you prosperity!
+- n: 3
+  speaker: A-bîng
+  hanji: 今年過年你欲佮阮做伙轉去臺南圍爐無？
+  tailo: Kin-nî kuè-nî lí beh kah guán tsò-hué tńg-khì Tâi-lâm uî-lôo--bô?
+  en: This New Year, do you want to come back to Tainan with us for the reunion dinner?
+- n: 4
+  speaker: Sam
+  hanji: 好啊！圍爐是啥物意思？
+  tailo: Hó--ah! Uî-lôo sī siánn-mih ì-sù?
+  en: Sure! What does 'uî-lôo' mean?
+- n: 5
+  speaker: A-bîng
+  hanji: 就是年兜規家伙仔做伙食飯。
+  tailo: Tō sī nî-tau kui-ke-hué-á tsò-hué tsia̍h-pn̄g.
+  en: It's when the whole family eats together on New Year's Eve.
+- n: 6
+  speaker: A-bîng
+  hanji: 阿公阿媽閣會包紅包予囡仔。
+  tailo: A-kong a-má koh ē pau âng-pau hōo gín-á.
+  en: And Grandpa and Grandma give red envelopes to the children.
+- n: 7
+  speaker: Sam
+  hanji: 按呢我嘛愛包紅包予阿公阿媽無？
+  tailo: Án-ne guá mā ài pau âng-pau hōo a-kong a-má--bô?
+  en: So should I give a red envelope to your grandparents too?
+- n: 8
+  speaker: A-bîng
+  hanji: 你若有趁錢，包予序大人嘛會使。
+  tailo: Lí nā ū thàn-tsînn, pau hōo sī-tuā-lâng mā ē-sái.
+  en: If you earn money, you can give one to the elders too.
+notes:
+- ref: 1
+  topic: vocab
+  text: >-
+    新年快樂 sin-nî khuài-lo̍k and 恭喜發財 kiong-hí huat-tsâi: the two standard wishes, same characters as in Mandarin, Taigi readings.
+- ref: 3
+  topic: vocab
+  text: >-
+    今年 kin-nî = this year; 過年 kuè-nî = (celebrate) the New Year. 圍爐 uî-lôo = the New Year's Eve family dinner (literally 'gather
+    round the stove'). 佮 kah + person + 做伙 = together with someone.
+- ref: 4
+  topic: vocab
+  text: '意思 ì-sù = meaning: …是啥物意思？ ''what does … mean?'', a question you''ll use a lot.'
+- ref: 5
+  topic: vocab
+  text: >-
+    就是 tō sī = that is, it's (just) (就是). 年兜 nî-tau = New Year's Eve (除夕). 規家伙仔 kui-ke-hué-á = the whole family (全家人).
+- ref: 6
+  topic: grammar
+  text: >-
+    包紅包 pau âng-pau = give a red envelope. 予 hōo + person after the verb = to someone: 包紅包予囡仔 'give red envelopes to the children'.
+- ref: 8
+  topic: grammar
+  text: >-
+    若 nā = if (如果): 你若有趁錢 'if you earn money'. 若…就… nā … tō … is the full pattern. 趁錢 thàn-tsînn = earn money (賺錢): 趁 is a
+    false friend. 序大人 sī-tuā-lâng = one's elders, parents and grandparents.
+new_words:
+- tailo: sin-nî
+  hanji: 新年
+  en: New Year
+- tailo: kiong-hí
+  hanji: 恭喜
+  en: congratulations
+- tailo: huat-tsâi
+  hanji: 發財
+  en: get rich
+- tailo: kin-nî
+  hanji: 今年
+  en: this year
+- tailo: kuè-nî
+  hanji: 過年
+  en: celebrate New Year
+- tailo: uî-lôo
+  hanji: 圍爐
+  en: New Year's Eve family dinner
+- tailo: ì-sù
+  hanji: 意思
+  en: meaning
+- tailo: nî-tau
+  hanji: 年兜
+  en: New Year's Eve
+- tailo: kui-ke-hué-á
+  hanji: 規家伙仔
+  en: the whole family
+- tailo: pau
+  hanji: 包
+  en: wrap; give (an envelope)
+- tailo: âng-pau
+  hanji: 紅包
+  en: red envelope
+- tailo: nā
+  hanji: 若
+  en: if
+- tailo: thàn-tsînn
+  hanji: 趁錢
+  en: earn money
+- tailo: sī-tuā-lâng
+  hanji: 序大人
+  en: elders, parents
+exercises:
+  translate:
+  - tailo: Uî-lôo sī siánn-mih ì-sù?
+    hanji: 圍爐是啥物意思？
+    en: What does 'uî-lôo' mean?
+  - tailo: Lí nā ū thàn-tsînn, mā ē-sái.
+    hanji: 你若有趁錢，嘛會使。
+    en: If you earn money, that's fine too.
+  fill:
+  - tailo: A-kong koh ē pau âng-pau ___ gín-á.
+    hanji: 阿公閣會包紅包___囡仔。
+    answer: hōo
+    answer_hanji: 予
+    en: Grandpa gives red envelopes to the children.
+  - tailo: Lí ___ ū thàn-tsînn.
+    hanji: 你___有趁錢。
+    answer: nā
+    answer_hanji: 若
+    en: If you earn money.
+audio: []

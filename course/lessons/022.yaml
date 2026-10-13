@@ -1,0 +1,128 @@
+id: 22
+title:
+  en: At the temple
+  tailo: Ji̍p-khì biō pài-pài
+  hanji: 入去廟拜拜
+phase: passive
+review: false
+setting: Longshan Temple in Taipei. A-hun shows Sam what to do.
+dialogue:
+- n: 1
+  speaker: A-hun
+  hanji: 咱入去廟拜拜。
+  tailo: Lán ji̍p-khì biō pài-pài.
+  en: Let's go into the temple and pray.
+- n: 2
+  speaker: Sam
+  hanji: 我毋知愛按怎拜。
+  tailo: Guá m̄ tsai ài án-tsuánn pài.
+  en: I don't know how to do it.
+- n: 3
+  speaker: A-hun
+  hanji: 你看我。先點香，徛佇遮。
+  tailo: Lí khuànn guá. Sing tiám hiunn, khiā tī tsia.
+  en: Watch me. First light the incense and stand here.
+- n: 4
+  speaker: A-hun
+  hanji: 共神明講你的名，閣講你蹛佇佗位。
+  tailo: Kā sîn-bîng kóng lí ê miâ, koh kóng lí tuà tī tó-uī.
+  en: Tell the gods your name, and where you live.
+- n: 5
+  speaker: Sam
+  hanji: 為啥物愛講蹛佇佗位？
+  tailo: Uī-siánn-mih ài kóng tuà tī tó-uī?
+  en: Why do you have to say where you live?
+- n: 6
+  speaker: A-hun
+  hanji: 按呢神明才揣會著你，才會保庇你。
+  tailo: Án-ne sîn-bîng tsiah tshuē ē tio̍h lí, tsiah ē pó-pì lí.
+  en: That way the gods can find you, and protect you.
+- n: 7
+  speaker: A-hun
+  hanji: 啊，毋通用手指神明喔！
+  tailo: Ah, m̄-thang īng tshiú kí sîn-bîng--ooh!
+  en: Oh, don't point at the gods with your finger!
+- n: 8
+  speaker: Sam
+  hanji: 歹勢歹勢！
+  tailo: Pháinn-sè pháinn-sè!
+  en: Sorry, sorry!
+notes:
+- ref: 1
+  topic: vocab
+  text: >-
+    廟 biō = temple. 拜拜 pài-pài = worship, pray (at a temple or to ancestors). Taiwan Mandarin uses the same word.
+- ref: 2
+  topic: grammar
+  text: 毋知 m̄ tsai = don't know (不知道). 知 tsai is negated with 毋 m̄, like 是 and 捌. 愛按怎 'how one should …'.
+- ref: 3
+  topic: false-friend
+  text: >-
+    徛 khiā = stand (站). A Taigi-only character; 徛佇遮 'stand here'. 點香 tiám hiunn = light incense; 香 hiunn = incense.
+- ref: 4
+  topic: vocab
+  text: >-
+    神明 sîn-bîng = the gods, deities (worshipped in a temple). 共 kā + person + 講 = tell someone (lesson 13).
+- ref: 5
+  topic: grammar
+  text: '為啥物 uī-siánn-mih = why (為什麼). A shorter, very common alternative: 按怎 án-tsuánn (lesson 4).'
+- ref: 6
+  topic: grammar
+  text: >-
+    Verb + 會 ē / 袂 bē + result = can / can't (V得到 / V不到): 揣會著 'can find', 揣袂著 'can't find'. Lesson 12 had 睏袂去. 保庇 pó-pì =
+    protect, bless (保佑).
+- ref: 7
+  topic: vocab
+  text: >-
+    用 īng = use, with; 手 tshiú = hand; 指 kí = point at. A temple rule: you point with your whole open hand, not a finger.
+new_words:
+- tailo: biō
+  hanji: 廟
+  en: temple
+- tailo: pài-pài
+  hanji: 拜拜
+  en: worship, pray
+- tailo: m̄ tsai
+  hanji: 毋知
+  en: don't know
+- tailo: hiunn
+  hanji: 香
+  en: incense
+- tailo: khiā
+  hanji: 徛
+  en: stand
+- tailo: sîn-bîng
+  hanji: 神明
+  en: the gods
+- tailo: pó-pì
+  hanji: 保庇
+  en: protect, bless
+- tailo: īng
+  hanji: 用
+  en: use; with
+- tailo: tshiú
+  hanji: 手
+  en: hand
+- tailo: kí
+  hanji: 指
+  en: point at
+exercises:
+  translate:
+  - tailo: Guá m̄ tsai ài án-tsuánn pài.
+    hanji: 我毋知愛按怎拜。
+    en: I don't know how to do it.
+  - tailo: M̄-thang īng tshiú kí sîn-bîng.
+    hanji: 毋通用手指神明。
+    en: Don't point at the gods with your finger.
+  fill:
+  - tailo: Sing tiám hiunn, ___ tī tsia.
+    hanji: 先點香，___佇遮。
+    answer: khiā
+    answer_hanji: 徛
+    en: First light the incense and stand here.
+  - tailo: Sîn-bîng tsiah tshuē ___ tio̍h lí.
+    hanji: 神明才揣___著你。
+    answer: ē
+    answer_hanji: 會
+    en: Then the gods can find you.
+audio: []

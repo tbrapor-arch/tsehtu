@@ -5,7 +5,8 @@ behind it. Romanisation: **Tâi-lô**, the Ministry of Education system.
 
 ## Layout
 ```
-course/        lessons (YAML), original content — CC BY-SA 4.0
+course/        lessons, themes, syllabus (YAML), original content — CC BY-SA 4.0
+app/           reader app template; `make app` writes app/dist/index.html
 tools/         database build + lookup scripts — MIT
 data/fetch.sh  downloads open data sources at pinned commits (nothing committed)
 data/build/    generated: taigi.db, core_vocab.csv (git-ignored)
@@ -29,6 +30,17 @@ make test               # tone sandhi engine tests
 python3 tools/sandhi.py "Guá sī | Huat-kok-lâng."   # spoken tones for a line
 ```
 Start with `course/README.md`, `course/grammar-inventory.md` and `course/lessons/000-reading-tailo.md`.
+
+## Writing and checking lessons
+```sh
+make lint               # every word in course/lessons/*.yaml and course/themes/*.yaml must exist in the database
+make test               # tone sandhi engine tests
+make coverage           # how much of the core vocabulary the lessons cover, and what to teach next
+make app                # build the reader app: app/dist/index.html, one self-contained page
+python3 tools/sandhi.py "Guá sī | Huat-kok-lâng."   # spoken tones for a line
+```
+Start with `course/README.md`, `course/syllabus.yaml`, `course/grammar-inventory.md` and
+`course/lessons/000-reading-tailo.md`.
 
 ## What the database gives you
 - ~140k headwords from the MOE dictionary, iTaigi, 台華線頂對照典 and the 1956 basic sentences

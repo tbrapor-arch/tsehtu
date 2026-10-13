@@ -1,0 +1,89 @@
+id: 21
+title:
+  en: Review 3
+  tailo: Ho̍k-si̍p
+  hanji: 復習
+phase: passive
+review: true
+setting: Sunday in Tamsui. The dialogue uses only words from lessons 15–20.
+dialogue:
+- n: 1
+  speaker: Sam
+  hanji: 日頭欲落山矣，你看，誠媠！
+  tailo: Ji̍t-thâu beh lo̍h-suann--ah, lí khuànn, tsiânn suí!
+  en: The sun's about to set. Look, it's beautiful!
+- n: 2
+  speaker: A-bîng
+  hanji: 緊共伊翕起來！
+  tailo: Kín kā i hip--khí-lâi!
+  en: Quick, take a picture of it!
+- n: 3
+  speaker: Sam
+  hanji: 翕好矣。這張比頭前彼張較好看。
+  tailo: Hip hó--ah. Tsit tiunn pí thâu-tsîng hit tiunn khah hó-khuànn.
+  en: Done. This one looks better than the one before.
+- n: 4
+  speaker: A-bîng
+  hanji: 咱這馬去食飯抑是閣行一下？
+  tailo: Lán tsit-má khì tsia̍h-pn̄g ia̍h-sī koh kiânn--tsi̍t-ē?
+  en: Shall we go and eat now, or walk a bit more?
+- n: 5
+  speaker: Sam
+  hanji: 先食飯，食飽才閣行。
+  tailo: Sing tsia̍h-pn̄g, tsia̍h-pá tsiah koh kiânn.
+  en: Eat first, then walk again once we've eaten.
+notes:
+- ref: 2
+  topic: grammar
+  text: >-
+    共 kā + object before the verb (= 把) works with pronouns too: 共伊翕起來 'take a picture of it'. 起來 khí-lâi after a verb = up,
+    captured (起來). 緊 kín 'quick!'.
+- ref: 3
+  topic: grammar
+  text: >-
+    Comparison recap: A 比 B 較 + adjective (較好看), 閣較 'even more'. Classifier 張 tiunn for photos and flat things; 頭前 thâu-tsîng
+    = before, in front.
+- ref: 3
+  topic: grammar
+  text: 'Results after a verb: V好 (done properly: 翕好, 寫好), V了 (finished: 做了), V落去 (into: 囥落去), V起來 (up: 翕起來).'
+- ref: 4
+  topic: grammar
+  text: 'Or: 抑是 ia̍h-sī in questions. V + 一下 tsi̍t-ē = do a little (一下): 行一下 ''walk a bit''.'
+- ref: 5
+  topic: grammar
+  text: 'Order of events: 先…才… (first … only then …), …了後 (after …), …的時陣 (when …), …以前 (before …).'
+- ref: 5
+  topic: grammar
+  text: >-
+    Can / may / must not: 會當 ē-tàng (able), 會使 ē-sái (allowed), 袂使 bē-sái (not allowed), 莫 mài (don't), 毋通 m̄-thang (must
+    not, strong advice).
+new_words:
+- tailo: tiunn
+  hanji: 張
+  en: (classifier for photos, flat things)
+- tailo: thâu-tsîng
+  hanji: 頭前
+  en: before; in front
+exercises:
+  translate:
+  - tailo: Lí teh tshòng siánn?
+    hanji: 你咧創啥？
+    en: What are you doing?
+  - tailo: Guá iáu-buē kuat-tīng.
+    hanji: 我猶未決定。
+    en: I haven't decided yet.
+  - tailo: Kàu lōo-kháu uat tò-tshiú-pîng.
+    hanji: 到路口斡倒手爿。
+    en: Turn left at the junction.
+  fill:
+  - tailo: Oo-sik ___ âng-sik khah hó-khuànn.
+    hanji: 烏色___紅色較好看。
+    answer: pí
+    answer_hanji: 比
+    en: Black looks better than red.
+  - tailo: M̄-thang ___ tsah guā-thò.
+    hanji: 毋通___紮外套。
+    answer: bē-kì-tit
+    answer_hanji: 袂記得
+    en: Don't forget to bring a jacket.
+audio: []

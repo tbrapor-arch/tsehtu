@@ -1,0 +1,115 @@
+id: 25
+title:
+  en: Looking for a flat
+  tailo: Beh suè-tshù
+  hanji: 欲稅厝
+phase: passive
+review: false
+setting: Sam visits a room for rent. The landlady shows him around.
+dialogue:
+- n: 1
+  speaker: Sam
+  hanji: 你好，我欲稅厝。
+  tailo: Lí hó, guá beh suè-tshù.
+  en: Hello, I'm looking for a place to rent.
+- n: 2
+  speaker: Landlady
+  hanji: 這間房間一個月一萬二。
+  tailo: Tsit king pâng-king tsi̍t kò gue̍h tsi̍t-bān-jī.
+  en: This room is twelve thousand a month.
+- n: 3
+  speaker: Sam
+  hanji: 有較俗的無？
+  tailo: Ū khah sio̍k ê--bô?
+  en: Is there anything cheaper?
+- n: 4
+  speaker: Landlady
+  hanji: 彼間較細，一萬爾爾，毋過無窗仔。
+  tailo: Hit king khah sè, tsi̍t-bān niā-niā, m̄-koh bô thang-á.
+  en: That one is smaller, only ten thousand, but it has no window.
+- n: 5
+  speaker: Sam
+  hanji: 無窗仔袂使。厝內會使煮食無？
+  tailo: Bô thang-á bē-sái. Tshù-lāi ē-sái tsú-tsia̍h--bô?
+  en: No window won't do. Can I cook in the flat?
+- n: 6
+  speaker: Landlady
+  hanji: 會使，毋過莫傷晏吵人。
+  tailo: Ē-sái, m̄-koh mài siunn uànn tshá lâng.
+  en: Yes, but don't make noise too late.
+- n: 7
+  speaker: Sam
+  hanji: 好，我閣想看覓，明仔載共你講。
+  tailo: Hó, guá koh siūnn khuànn-māi, bîn-á-tsài kā lí kóng.
+  en: OK, I'll think about it and let you know tomorrow.
+notes:
+- ref: 1
+  topic: false-friend
+  text: 稅厝 suè-tshù = rent a home (租房子). 稅 suè means 'rent' here, not 'tax'. 厝 tshù = house, home.
+- ref: 2
+  topic: grammar
+  text: >-
+    間 king = classifier for rooms and buildings: 這間房間 'this room'. 一個月 tsi̍t kò gue̍h = a month, per month. 萬 bān = ten thousand:
+    一萬二 tsi̍t-bān-jī = 12,000, shortened like 一百二 in lesson 24.
+- ref: 4
+  topic: vocab
+  text: 窗仔 thang-á = window. 爾爾 niā-niā = only (lesson 1).
+- ref: 5
+  topic: grammar
+  text: >-
+    袂使 bē-sái = won't do, not allowed (不行). 會使…無？ ē-sái … --bô? = may I …? 厝內 tshù-lāi = indoors, in the house. 煮食 tsú-tsia̍h
+    = cook (做飯).
+- ref: 6
+  topic: vocab
+  text: 晏 uànn = late (晚). 傷晏 'too late (at night)'. 吵人 tshá lâng = disturb people.
+- ref: 7
+  topic: grammar
+  text: 想看覓 siūnn khuànn-māi = think it over. 共你講 'let you know' (lesson 13).
+new_words:
+- tailo: suè-tshù
+  hanji: 稅厝
+  en: rent a home
+- tailo: king
+  hanji: 間
+  en: (classifier for rooms, buildings)
+- tailo: pâng-king
+  hanji: 房間
+  en: room
+- tailo: gue̍h
+  hanji: 月
+  en: month
+- tailo: bān
+  hanji: 萬
+  en: ten thousand
+- tailo: thang-á
+  hanji: 窗仔
+  en: window
+- tailo: tshù-lāi
+  hanji: 厝內
+  en: indoors, at home
+- tailo: tsú-tsia̍h
+  hanji: 煮食
+  en: cook
+- tailo: uànn
+  hanji: 晏
+  en: late
+exercises:
+  translate:
+  - tailo: Guá beh suè-tshù.
+    hanji: 我欲稅厝。
+    en: I'm looking for a place to rent.
+  - tailo: Mài siunn uànn tshá lâng.
+    hanji: 莫傷晏吵人。
+    en: Don't make noise too late.
+  fill:
+  - tailo: Tsit ___ pâng-king tsi̍t kò gue̍h tsi̍t-bān-jī.
+    hanji: 這___房間一個月一萬二。
+    answer: king
+    answer_hanji: 間
+    en: This room is twelve thousand a month.
+  - tailo: Tshù-lāi ___ tsú-tsia̍h--bô?
+    hanji: 厝內___煮食無？
+    answer: ē-sái
+    answer_hanji: 會使
+    en: Can I cook in the flat?
+audio: []
