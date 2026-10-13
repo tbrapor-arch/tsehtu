@@ -38,7 +38,7 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: data/raw
-          key: raw-${{ hashFiles('data/fetch.sh') }}-audio-1
+          key: raw-${{ hashFiles('data/fetch.sh') }}-audio-2
 
       - name: Database
         run: make db
