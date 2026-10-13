@@ -12,3 +12,6 @@ Exception: sentences quoted **verbatim** from the Ministry of Education dictiona
 instead. See ATTRIBUTION.md.
 
 Source code (`tools/`, `app/`) is under the MIT licence in `LICENSE`.
+
+Exception: the voice recordings in `course/audio/` are **not** covered by this licence. They are used with the
+speaker's permission in the Tsheh-tû app only; all rights stay with her. Do not reuse them elsewhere without asking.

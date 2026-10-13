@@ -43,8 +43,9 @@ GitHub Actions. `python3 tools/smoke.py` clicks through every lesson in a phone-
 ## Native-speaker recordings
 `record.html` (published with the site: https://tbrapor-arch.github.io/tsehtu/record.html) lets a speaker record
 the dialogues line by line on a phone; clips stay in her browser until she sends a zip. Import it with
-`python3 tools/import_recordings.py file.zip` (silence trimmed, loudness evened out, MP3 in `course/audio/lessons/`,
-licence CC BY-SA 4.0), then commit. The name shown in the app is `voice` in `course/audio/recordings.yaml`.
+`python3 tools/import_recordings.py file.zip` (silence trimmed, loudness evened out, MP3 in `course/audio/lessons/`),
+then commit. The recordings are used with the speaker's permission in this app only: they are not under the
+course licence (see `LICENSE-CONTENT.md`). The name shown in the app is `voice` in `course/audio/recordings.yaml`.
 
 ## What the database gives you
 - ~140k headwords from the MOE dictionary, iTaigi, 台華線頂對照典 and the 1956 basic sentences

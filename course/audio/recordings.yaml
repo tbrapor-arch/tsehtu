@@ -1,4 +1,6 @@
-# Native-speaker recordings of the dialogues (course/audio/lessons/L057-03.mp3), licence CC BY-SA 4.0.
+# Native-speaker recordings of the dialogues (course/audio/lessons/L057-03.mp3).
+# Used with the speaker's permission in the Tsheh-tû app only (non-commercial). They are NOT under the course's
+# CC BY-SA licence: all rights stay with the speaker; do not reuse them elsewhere without asking her.
 # `voice`: the name shown in the app ("Voice: …") and written into each zip; change it when she gives her name.
 # Clips are added by tools/import_recordings.py.
 voice: native speaker

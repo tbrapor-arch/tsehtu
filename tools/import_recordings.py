@@ -3,7 +3,7 @@
   python3 tools/import_recordings.py tshehtu-recordings-….zip [--force]
 
 For each clip: trims the silence at both ends, evens out the loudness, converts to mono MP3
--> course/audio/lessons/L057-03.mp3, and records speaker, region and date in course/audio/recordings.yaml.
+-> course/audio/lessons/L057-03.mp3, and records speaker and date in course/audio/recordings.yaml.
 An existing clip is kept unless --force. Lines the speaker flagged (⚑) are listed at the end and saved in
 course/audio/flags.yaml, so the text can be corrected.
 """
@@ -47,7 +47,7 @@ def main():
             if man.get('app') != 'tshehtu-recordings':
                 sys.exit(f'{path}: not a Tsheh-tû recordings zip')
             sp = man['speaker']
-            meta['speakers'][sp] = {'region': man.get('region'), 'licence': man.get('consent'), 'consent_at': man.get('consentAt')}
+            meta['speakers'][sp] = {'use': man.get('use') or man.get('consent'), 'since': man.get('startedAt') or man.get('consentAt')}
             for c in man['clips']:
                 if c.get('flag'):
                     flags[c['id']] = {'speaker': sp, 'hanji': c.get('hanji'), 'tailo': c.get('tailo'), 'note': c['flag']}

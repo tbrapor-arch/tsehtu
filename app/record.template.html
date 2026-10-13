@@ -92,16 +92,12 @@ let L = null, idx = 0;
 // ---------- screens
 function showStart() {
   $('#app').innerHTML = `
-    <div><span class="eyebrow">冊櫥 Tsheh-tû · recording</span><h1>錄音 Lo̍k-im</h1></div>
+    <div><span class="eyebrow">冊櫥 Tsheh-tû · recording</span><h1>多謝！</h1></div>
     <div class="card raised">
-      <p style="margin:0">Thank you for lending your voice! You will read the course dialogues, one line at a time. Each recording stays on this phone until you send it.</p>
-      <label class="check"><input type="checkbox" id="consent"><span>I agree that my recordings are published with the free course <b>Tsheh-tû</b> under the licence <b>CC BY-SA 4.0</b> (anyone may reuse them, with credit).</span></label>
-      <div class="row"><button class="btn" id="go">Start</button><span class="sub" id="err"></span></div>
+      <p style="margin:0">Thank you for lending your voice! You will read the dialogues of the course, one line at a time. Your recordings stay on this phone until you send them, and they will be played in the Tsheh-tû app, a small free app for learning Taigi.</p>
+      <div class="row"><button class="btn" id="go">Start</button></div>
     </div>`;
-  $('#go').onclick = () => {
-    if (!$('#consent').checked) { $('#err').textContent = 'Please tick the agreement.'; return; }
-    LS.set('profile', { consent: true, at: new Date().toISOString() }); showLessons();
-  };
+  $('#go').onclick = () => { LS.set('profile', { at: new Date().toISOString() }); showLessons(); };
 }
 function lessonStats(l) { const ids = l.lines.map(x => clipId(l.id, x.n)); const has = ids.filter(i => CLIPS[i]); return { total: ids.length, done: has.length, unsent: has.filter(i => !CLIPS[i].sentAt).length }; }
 function showLessons() {
@@ -232,7 +228,7 @@ async function makeZip(files) {   // files: [{name, data: Blob|string}]
 async function send(ids, label) {
   ids = ids.filter(Boolean);
   if (!ids.length) return alert('Nothing recorded yet.');
-  const p = profile(), files = [], manifest = { app: 'tshehtu-recordings', v: 1, speaker: RDATA.voice || 'native speaker', consent: 'CC BY-SA 4.0', consentAt: p.at, sentAt: new Date().toISOString(), clips: [] };
+  const p = profile(), files = [], manifest = { app: 'tshehtu-recordings', v: 1, speaker: RDATA.voice || 'native speaker', use: 'Tsheh-tû app, non-commercial, with permission', startedAt: p.at, sentAt: new Date().toISOString(), clips: [] };
   for (const id of ids.sort()) {
     const c = await DB.get(id); const l = RDATA.lessons.find(x => x.id === c.lesson); const ln = l && l.lines.find(x => x.n === c.n);
     const ext = /mp4|m4a|aac/.test(c.mime || '') ? 'm4a' : /ogg/.test(c.mime || '') ? 'ogg' : 'webm';
