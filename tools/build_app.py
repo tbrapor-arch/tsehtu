@@ -154,6 +154,15 @@ def _in_big5(ch):
         return False
 
 
+def tailo_font_css():
+    """Noto Sans (OFL), subset to Latin + all combining marks, with its mark-positioning tables. The Google Fonts
+    subsets leave out U+030D and U+0358 and the anchors for m̄ / n̄, so tone marks floated beside the letter."""
+    p = os.path.join(ROOT, 'app/fonts/tailo-noto-sans.woff2')
+    b64 = base64.b64encode(open(p, 'rb').read()).decode()
+    return (f"@font-face{{font-family:'TailoSans';font-weight:400 800;font-display:swap;"
+            f"src:url(data:font/woff2;base64,{b64}) format('woff2');}}")
+
+
 def ext_font_css(text):
     """@font-face rules with only the glyphs of rare characters (not in Big5) used by the app, from Plangothic."""
     from fontTools import subset
@@ -320,7 +329,7 @@ for L in lessons:
             n_rec += 1
 data['recorded'] = n_rec
 tpl = open(os.path.join(ROOT, 'app/index.template.html'), encoding='utf-8').read()
-tpl = tpl.replace('/*__FONTS__*/', ext_font_css(json.dumps(data, ensure_ascii=False)))
+tpl = tpl.replace('/*__FONTS__*/', tailo_font_css() + '\n' + ext_font_css(json.dumps(data, ensure_ascii=False)))
 payload = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
 os.makedirs(os.path.join(ROOT, 'app/dist'), exist_ok=True)
 out = os.path.join(ROOT, 'app/dist/index.html')
@@ -329,6 +338,6 @@ open(out, 'w', encoding='utf-8').write(unicodedata.normalize('NFC', tpl.replace(
 rtpl = open(os.path.join(ROOT, 'app/record.template.html'), encoding='utf-8').read()
 rdata = {'voice': rec_meta.get('voice', 'native speaker'), 'lessons': [{'id': L['id'], 'title': L['title'], 'lines': [{k: ln[k] for k in ('n', 'speaker', 'hanji', 'tailo', 'en')} for ln in L['lines']]} for L in lessons]}
 rjson = json.dumps(rdata, ensure_ascii=False)
-rtpl = rtpl.replace('/*__FONTS__*/', ext_font_css(rjson)).replace('/*__DATA__*/null', rjson.replace('</', '<\\/'))
+rtpl = rtpl.replace('/*__FONTS__*/', tailo_font_css() + '\n' + ext_font_css(rjson)).replace('/*__DATA__*/null', rjson.replace('</', '<\\/'))
 open(os.path.join(ROOT, 'app/dist/record.html'), 'w', encoding='utf-8').write(unicodedata.normalize('NFC', rtpl))
 print(out, f'{len(lessons)} lessons, {len(dictionary)} dictionary cards, {have}/{len(need)} with audio, {have_ex}/{len(need_ex)} examples with audio, {n_rec} recorded lines, {len(show['episodes']) if show else 0} podcast episodes, {os.path.getsize(out) // 1024} KB')

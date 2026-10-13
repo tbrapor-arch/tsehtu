@@ -22,3 +22,6 @@ Romanisation throughout is the Ministry of Education's 臺灣台語羅馬字拼�
 《隔壁 ê 戇人》 (Keh-piah ê gōng-lâng), a Taigi podcast by 欸緒利, 阿尹 and 阿莉莎, hosted by SoundOn. The app shows the
 episode notes from the show's public RSS feed (titles, chapters, the hosts' 臺語補給站 word lists) and plays the
 audio from SoundOn's own URLs. No audio is copied or re-hosted; all rights stay with the hosts.
+
+## Font for Tâi-lô
+Noto Sans (Google, SIL Open Font License 1.1), subset to Latin and the combining marks, embedded in the app so that tone marks such as m̄, a̍ and o͘ sit on their letter: `app/fonts/tailo-noto-sans.woff2`.
