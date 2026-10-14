@@ -431,6 +431,12 @@ button.card.wave { text-align: left; }
 .pv b.han { font-size: 1.25rem; } .pv .rom { color: var(--brand); font-weight: 600; } .pv .zh { font-size: .88rem; }
 .podmini { position: fixed; left: 12px; right: 12px; bottom: calc(4.6rem + env(safe-area-inset-bottom, 0px)); z-index: 14; display: flex; gap: .5rem; align-items: center; background: var(--surface); border: var(--border); border-radius: var(--r); box-shadow: var(--shadow); padding: .35rem .5rem; }
 body.has-mini main { padding-bottom: 11rem; }
+.podmini.float { padding: .45rem .6rem .35rem; overflow: hidden; }
+.podmini .pm-sk { border: var(--border); background: var(--surface); color: var(--text); border-radius: 999px; padding: .35rem .6rem; font: inherit; font-size: .85rem; flex: none; }
+.podmini .pm-time { flex: 1; text-align: center; font-variant-numeric: tabular-nums; font-size: .85rem; color: var(--sub); white-space: nowrap; }
+.podmini .pm-up { padding: .35rem .7rem; }
+.podmini .pm-bar { position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--soft-line); }
+.podmini .pm-bar i { display: block; height: 100%; background: var(--brand); }
 .podmini .pm-play { width: 2.6rem; height: 2.6rem; border-radius: 50%; border: 0; background: var(--brand); color: var(--brand-ink); flex: none; }
 .podmini .pm-t { flex: 1; min-width: 0; text-align: left; border: 0; background: none; display: flex; flex-direction: column; line-height: 1.2; }
 .podmini .pm-t b { font-size: .75rem; color: var(--sub); } .podmini .pm-t span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: .9rem; }
@@ -877,7 +883,7 @@ const podState = () => store.get('pod', {});
 function podSave(ep, t, finished) { const st = podState(), g = ep.guid; st[g] = Object.assign(st[g] || {}, { t: Math.floor(t) }, finished ? { done: true } : {}); store.set('pod', st); }
 const mmss = s => { s = Math.max(0, Math.floor(s || 0)); const h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), x = String(s % 60).padStart(2, '0'); return h ? `${h}:${String(m).padStart(2, '0')}:${x}` : `${m}:${x}`; };
 const epTitle = ep => ep.title.replace(/^EP\s*\d+\s*[：:]\s*/i, '');
-let pod = null, podCur = null, podLoop = null, podSaveT = 0;
+let pod = null, podCur = null, podLoop = null, podSaveT = 0, podOut = false;   // podOut: the episode page's player is scrolled out of view
 function podAudio() {
   if (pod) return pod;
   pod = new Audio(); pod.preload = 'metadata';
@@ -885,6 +891,8 @@ function podAudio() {
     if (podLoop && podLoop.b != null && pod.currentTime >= podLoop.b) pod.currentTime = podLoop.a;
     if (podCur && Date.now() - podSaveT > 4000) { podSaveT = Date.now(); podSave(podCur, pod.currentTime, pod.duration && pod.currentTime > pod.duration * .95); }
     podUI();
+    const mt = $('#podmini .pm-time'); if (mt) mt.textContent = `${mmss(pod.currentTime)} / ${mmss(pod.duration || (podCur && podCur.dur))}`;
+    const mb = $('#podmini .pm-bar i'); if (mb) mb.style.width = (100 * pod.currentTime / (pod.duration || 1)) + '%';
   });
   ['play', 'pause', 'ratechange', 'loadedmetadata'].forEach(ev => pod.addEventListener(ev, () => { if (podCur && ev === 'pause') podSave(podCur, pod.currentTime); podUI(); podMini(); }));
   pod.addEventListener('ended', () => { if (podCur) podSave(podCur, 0, true); podUI(); podMini(); });
@@ -923,10 +931,21 @@ function podUI() {
 }
 function podMini() {
   let bar = $('#podmini');
-  const show = pod && podCur && !(location.hash === '#ep-' + podKey(podCur)) && (!pod.paused || pod.currentTime > 0);
+  const onEp = pod && podCur && location.hash === '#ep-' + podKey(podCur);
+  const show = pod && podCur && (onEp ? podOut : (!pod.paused || pod.currentTime > 0));
   document.body.classList.toggle('has-mini', !!show);
   if (!show) { if (bar) bar.remove(); return; }
   if (!bar) { bar = document.createElement('div'); bar.id = 'podmini'; bar.className = 'podmini'; document.body.append(bar); }
+  bar.classList.toggle('float', !!onEp);
+  if (onEp) {   // floating controls while the player itself is scrolled away (reading the transcript, the word list…)
+    bar.innerHTML = `<span class="pm-bar"><i style="width:${100 * pod.currentTime / (pod.duration || 1)}%"></i></span><button class="pm-sk" data-d="-5" aria-label="Back 5 seconds">↺ 5</button>
+      <button class="pm-play" aria-label="${pod.paused ? 'Play' : 'Pause'}">${pod.paused ? '▶' : '⏸'}</button><button class="pm-sk" data-d="10" aria-label="Forward 10 seconds">10 ↻</button>
+      <span class="pm-time">${mmss(pod.currentTime)} / ${mmss(pod.duration || podCur.dur)}</span><button class="pm-sk pm-up" aria-label="Back to the player">↑</button>`;
+    $('.pm-play', bar).onclick = () => pod.paused ? pod.play().catch(() => {}) : pod.pause();
+    $$('[data-d]', bar).forEach(b => b.onclick = () => podSeek(+b.dataset.d));
+    $('.pm-up', bar).onclick = () => { const r = $('#podplayer'); if (r) r.scrollIntoView({ block: 'center', behavior: 'smooth' }); };
+    return;
+  }
   bar.innerHTML = `<button class="pm-play" aria-label="${pod.paused ? 'Play' : 'Pause'}">${pod.paused ? '▶' : '⏸'}</button><button class="pm-t" data-go="ep-${podKey(podCur)}"><b>${esc(POD.title)}</b><span>${esc(podCur.n != null ? 'EP' + podCur.n + ' · ' : '')}${esc(epTitle(podCur))}</span></button>`;
   $('.pm-play', bar).onclick = () => pod.paused ? pod.play() : pod.pause();
   wireGo(bar);
@@ -977,6 +996,11 @@ function showEpisode(ep) {
     <p class="sub" style="font-size:.8rem;margin:0">${esc(POD.title)} by ${esc(POD.author)}. Notes from the show's feed; audio streamed from its host.</p>
   </div>`;
   const root = $('#podplayer', m); root._ep = ep;
+  podOut = false;
+  if ('IntersectionObserver' in window) new IntersectionObserver(([e]) => {
+    const out = root.isConnected && !e.isIntersecting && e.boundingClientRect.bottom < 0;
+    if (out !== podOut) { podOut = out; podMini(); }
+  }).observe(root);
   wireGo(m);
   $('#pp-play', root).onclick = () => a.paused ? a.play().catch(() => toast('Could not play: are you online?')) : a.pause();
   $('#pp-back', root).onclick = () => podSeek(-5);
