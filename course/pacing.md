@@ -1,6 +1,6 @@
 # Pacing (from reading four published self-study courses; counts only, no content)
 
-| Course looked at | Lessons | Review lessons | Active phase ("second wave") | Notes |
+| Course looked at | Lessons | Review lessons | Second wave (active recall) | Notes |
 |---|---|---|---|---|
 | Japanese, 2017 edition | 98 | every 7th | starts at lesson 51 (51 ↔ 1) | early dialogues ~10 numbered sentences |
 | Italian, advanced level | ~70+ | every 7th | from about lesson 50 (N ↔ N−49) | long lessons: about 3–4 pages each with notes |

@@ -4,8 +4,10 @@ What a learner who speaks Mandarin at B2 actually has to learn in Taigi, grouped
 course introduces it. Ranks (`#`) are frequency ranks among MOE dictionary words in the written corpus
 (`data/build/taigi.db`, view `v_core`). Hàn-jī follow the MOE dictionary.
 
-**Stages** (provisional, to be fitted to the final pacing):
-**A** = first quarter of the course (survival core) · **B** = middle half · **C** = last quarter.
+**Stages** (observed on lessons 1-63, see `docs/course-plan.md`):
+**A** = lessons 1-25 (survival core; 31 of the 39 grammar sheets first appear here) · **B** = lessons 26-49 (longer
+sentences, linking clauses, complements) · **C** = lessons 50-100 are dense, and from lesson 76 stage C is defined by
+content, not length: formal and written register, literary readings, narrative and discourse connectors, proverbs.
 
 ## How the vocabulary splits for this learner
 Of the 4,265 core words:

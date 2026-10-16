@@ -1,8 +1,7 @@
 id: 51
 title: {en: "At the post office", tailo: "Kià pau-kó", hanji: "寄包裹"}
-phase: active
 review: false
-setting: "Sam's mother turns sixty next week. He takes a box of tea to the post office near his flat in Tainan."
+setting: "Sam's mother turns sixty next week. He is staying with A-má in Tainan for a few weeks and takes a box of tea to the post office near her house."
 dialogue:
   - {n: 1, speaker: Sam, hanji: "小姐，我欲寄這个包裹去法國。", tailo: "Sió-tsiá, guá beh kià tsit ê pau-kó khì Huat-kok.", en: "Excuse me, I'd like to send this parcel to France."}
   - {n: 2, speaker: Clerk, hanji: "好，先下佇遮，我共你秤看覓。", tailo: "Hó, sing hē tī tsia, guá kā lí tshìn khuànn-māi.", en: "Sure, put it down here first and I'll weigh it for you."}

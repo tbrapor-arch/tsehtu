@@ -4,7 +4,6 @@ title:
   en: "Template"
   tailo: ""
   hanji: ""
-phase: passive          # passive | active
 review: false           # true on every 7th lesson
 setting: ""             # one line: who is talking, where
 
@@ -32,7 +31,7 @@ new_words:              # Tâi-lô as in the MOE dictionary; checked against the
     hanji: 佗位
 
 exercises:
-  translate:            # passive phase: understand the Taigi; active phase: produce it from the English
+  translate:            # first wave: understand the Taigi; second wave (reading the English first): produce it
     - tailo: "Lí beh khì tó-uī?"
       hanji: "你欲去佗位？"
       en: "Where are you going?"

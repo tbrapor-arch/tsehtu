@@ -16,7 +16,7 @@ reader app. Public repo: https://github.com/tbrapor-arch/tsehtu. Start with `PRO
 - `course/audio/` recordings belong to the speaker, used with permission in this app only (not CC BY-SA).
 - Maryknoll/Embree glosses (non-commercial) never go into `course/`.
 
-## Commands (Python 3.9+, `python3 -I` is used by the Makefile)
+## Commands (Python 3.9+ for the database, lint and tests; `tools/build_app.py` needs 3.12, as in CI. The Makefile uses `python3 -I`)
 `make db` (downloads pinned sources, builds `data/build/taigi.db`) · `make lint` · `make test` (tone sandhi) ·
 `make coverage` (what to teach next) · `make app` (writes `app/dist/index.html`) ·
 `python3 tools/smoke.py` (needs Playwright). `make db` and the audio/podcast fetches use the network.
@@ -24,6 +24,7 @@ reader app. Public repo: https://github.com/tbrapor-arch/tsehtu. Start with `PRO
 ## Writing lessons
 Rules are in `course/README.md`, `course/pacing.md`, `course/grammar-inventory.md`; the file format is
 `course/lessons/_template.yaml`. In short:
+- Waves: all 100 lessons are the first wave; from lesson 50 the second wave redoes N−49 (reviews included). There is no `phase` field. See `docs/course-plan.md` for stages, targets and the plan for lessons 64–100.
 - Lesson `NNN.yaml`: dialogue (Hàn-jī + Tâi-lô + English), notes, new words, two exercises (translate, fill the gap).
 - Tâi-lô only, MOE Hàn-jī. Every word must exist in the database: run `make lint` (and `make test`) before finishing.
 - Every 7th lesson is a review; lessons 50+ get a second wave (N ↔ N−49). Dialogues 8–10 lines early, 15–20 later.
@@ -33,4 +34,4 @@ Rules are in `course/README.md`, `course/pacing.md`, `course/grammar-inventory.m
 
 ## Where things are
 `course/` content · `tools/` build and checks · `app/index.template.html` the whole app (one file) ·
-`design-decisions.md` look and app structure · `ATTRIBUTION.md` / `LICENSE-CONTENT.md` licences · `docs/` references.
+`design-decisions.md` look and app structure · `docs/themes-taxonomy.md` plan for the Themes dictionary · `ATTRIBUTION.md` / `LICENSE-CONTENT.md` licences · `docs/` references.

@@ -600,7 +600,7 @@ function showLessons() {
       <div class="nc-main"><span class="nc-n">${next.id}</span><span class="nc-t"><span class="han">${esc(next.title.hanji)}</span><span class="rom sub">${esc(next.title.tailo)} · ${esc(next.title.en)}</span></span>
         <button class="btn" data-go="lesson-${next.id}">${last === next.id ? 'Resume' : 'Start'} →</button></div></div>`
       : `<div class="card raised"><span class="eyebrow">All written lessons are done</span><span>New lessons will appear here as they are written.</span></div>`}
-    ${wv ? `<div class="card wave"><span class="eyebrow">Second wave · active phase</span>
+    ${wv ? `<div class="card wave"><span class="eyebrow">${wv.review ? 'Review · second wave' : 'Second wave'}</span>
       <div class="nc-main"><span class="nc-n">${wv.id}</span><span class="nc-t"><span class="han">${esc(wv.title.hanji)}</span><span class="sub">Read the English, say it in Taigi, then check.</span></span>
         <button class="btn line" data-go="wave-${wv.id}">Do it →</button></div></div>` : ''}
     <button class="item" data-go="lesson-0"><span class="no">0</span><span><span class="tt">讀臺羅</span><br><span class="ts">Reading Tâi-lô · start here</span></span><span class="chev">›</span></button>
@@ -612,9 +612,10 @@ function showLessons() {
   </div>`;
   wireGo($('#main'));
 }
-// second wave: the first lesson (not a review) whose wave is not done and whose lesson N+49 is done
+// second wave: the first lesson (reviews included: 49 = 7 x 7, so a review's wave is triggered by a review) whose wave
+// is not done and whose lesson N+49 is done
 function nextWave() {
-  for (const l of DATA.lessons) { if (l.review || waveAt[l.id]) continue; return done.has(l.id + 49) ? l : null; }
+  for (const l of DATA.lessons) { if (waveAt[l.id]) continue; return done.has(l.id + 49) ? l : null; }
   return null;
 }
 
@@ -692,13 +693,13 @@ function showLesson(L) {
       <span class="where">${WAVE ? '2nd wave · ' : ''}Lesson ${L.id} · ${esc(L.title.en)}</span>
       <button class="icon" data-go="${WAVE ? 'wave' : 'lesson'}-${prev}" aria-label="Previous lesson" ${prev ? '' : 'disabled'}>‹</button>
       <button class="icon" data-go="${WAVE ? 'wave' : 'lesson'}-${nxt}" aria-label="Next lesson" ${nxt ? '' : 'disabled'}>›</button></div>
-    <div class="head"><span class="eyebrow">${WAVE ? `Second wave · active phase` : `Lesson ${L.id} · ${L.phase === 'passive' ? 'Passive phase' : 'Active phase'}`}</span>
+    <div class="head"><span class="eyebrow">${WAVE ? (L.review ? `Review · second wave` : `Second wave`) : (L.review ? `Lesson ${L.id} · Review` : `Lesson ${L.id}`)}</span>
       <h1>${esc(L.title.hanji)}</h1><span class="rom">${esc(L.title.tailo)} · ${esc(L.title.en)}</span>
       ${(() => { const v = [...new Set(L.lines.filter(x => x.audio).map(x => x.voice).filter(Boolean))]; return v.length ? `<span class="sub" style="font-size:.85rem">Voice: ${v.map(esc).join(', ')}</span>` : ''; })()}</div>
     ${chips.length ? `<nav class="lnav" aria-label="Sections">${chips.map(([id, t]) => `<button data-jump="${id}">${t}</button>`).join('')}</nav>` : ''}
     ${WAVE ? `<p class="wave-intro">Each line shows the English. Say it in Taigi out loud, then tap <b>Show Taigi</b> to check. Tap a word to open its card; the notes are in the normal lesson.</p>`
       : `<p class="setting" style="margin:0">${esc(L.setting)}</p>`}
-    ${!WAVE && L.id >= 50 && DATA.lessons.some(l => l.id === L.id - 49) ? `<button class="card wave" data-go="wave-${L.id - 49}"><span class="eyebrow">Second wave${waveAt[L.id - 49] ? ' · done ✓' : ''}</span><span>With this lesson, also redo <b>lesson ${L.id - 49}</b> in active mode: read the English, say it in Taigi.</span></button>` : ''}
+    ${!WAVE && L.id >= 50 && DATA.lessons.some(l => l.id === L.id - 49) ? `<button class="card wave" data-go="wave-${L.id - 49}"><span class="eyebrow">${L.review ? 'Review · second wave' : 'Second wave'}${waveAt[L.id - 49] ? ' · done ✓' : ''}</span><span>With this lesson, also redo <b>lesson ${L.id - 49}</b> in active mode: read the English, say it in Taigi.</span></button>` : ''}
     ${toolbar(!WAVE)}
     <div class="lines" id="dlg">${L.lines.map((ln, li) => { REVEAL['l' + li] = [ln.en, ln.zh]; return `
       <div class="sent" id="line-${ln.n}">

@@ -6,7 +6,8 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 ## Status
 - **Lessons:** 1–63 written (`course/lessons/`), 64–100 planned as titles in `course/syllabus.yaml`. Lesson 0 is
   `000-reading-tailo.md`. Review lessons: 7, 14, …, 63 so far.
-- **Themes:** one (`health`). The app is built for several.
+- **Themes:** one (`health`). The Themes tab is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
+- **Coverage:** 1,526 of 4,265 core words (36 %); top 1,000: 72 %. Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
 - **App tabs:** Lessons, Themes, Grammar, Review (includes Bridge and tone drill), Podcast, Settings, plus a hidden
   Exam tab that exists only when this device's token can read the private repo.
@@ -23,8 +24,9 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 - Build fails soft: MOE audio and the podcast feed are optional, the site deploys without them.
 
 ## Open items
-- Write lessons 64–100 and more themes; fit the grammar-inventory stages A/B/C to real lessons.
+- Write lessons 64–100 following `course/syllabus.yaml` (`plan:` field); classify the vocabulary for the Themes tab, starting with a pilot domain.
 - Record lessons with a native speaker; lines she flags go to `course/audio/flags.yaml`.
 - Sync/exam token expires about 12 Nov 2026 (30-day token); see `docs/sync-and-private-module.md`.
 - The podcast feed URL is hard-coded in `tools/fetch_podcast.py` and also in the private repo's tools. Change all copies together.
-- `tools/smoke.py` and the lesson dialogue lengths have not been re-checked since the lessons 57–63 were added.
+- Not run since the wave/phase change: the built app and `tools/smoke.py` (the lint and the sandhi tests were).
+- Lesson 90/92/100 story (leaving Tainan, back in Taipei, farewell party) still to be settled when written.

@@ -227,7 +227,7 @@ for f in lesson_files:
     new_words = [{'tailo': w['tailo'], 'hanji': w['hanji'], 'en': w.get('en'), 'id': lookup(w['hanji'], key(w['tailo']))}
                  for w in d.get('new_words') or []]
     ex = [dict(it, kind=kind) for kind, items in (d.get('exercises') or {}).items() for it in items or []]
-    lessons.append({'id': d['id'], 'title': d['title'], 'phase': d['phase'], 'review': d.get('review', False),
+    lessons.append({'id': d['id'], 'title': d['title'], 'review': d.get('review', False),
                     'setting': d.get('setting', ''), 'lines': lines, 'notes': d.get('notes') or [],
                     'new_words': new_words, 'exercises': ex})
 

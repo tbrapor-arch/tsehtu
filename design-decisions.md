@@ -40,7 +40,7 @@ Progress, deck and preferences are stored in the browser only (per device).
 - **Lesson bar** (stays at the top): back, "Lesson N · title", previous / next (also ← → keys). Section chips:
   Dialogue, Notes, New words, Practice, Pronunciation.
 - **Second wave** has its own page (`#wave-N`): English shown, "Show Taigi" per line or all at once, mark as done.
-  It no longer switches every lesson into active mode.
+  It no longer switches every lesson into active mode. Reviews have a second wave too (a review's wave is triggered by a review).
 - **End of lesson:** mark as done (dated; new words go to review), undo, next lesson.
 - **Script modes:** 漢字 + Tâi-lô · Tâi-lô on tap (first tap shows the reading, second opens the card) · Tâi-lô · 漢字.
 - **Practice** accepts tone numbers (bue7 = buē). **New words:** copy for Anki (tab-separated).

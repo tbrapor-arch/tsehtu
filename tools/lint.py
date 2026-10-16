@@ -105,7 +105,7 @@ def lint(path, keys, pairs, moe_ex):
     except yaml.YAMLError as e:
         m('E', 0, f'YAML error: {e}')
         return msgs
-    for f in ('id', 'title', 'phase', 'dialogue', 'notes', 'new_words'):
+    for f in ('id', 'title', 'dialogue', 'notes', 'new_words'):
         if f not in d:
             m('E', 0, f'missing field: {f}')
 
@@ -182,7 +182,7 @@ def lint(path, keys, pairs, moe_ex):
 def lint_theme(path, keys, pairs, moe_ex):
     """Theme files: every word and every text sentence is checked like a dialogue line."""
     d = yaml.safe_load(open(path, encoding='utf-8'))
-    fake = {'id': d.get('id'), 'title': d.get('title'), 'phase': 'theme', 'notes': [], 'new_words': [], 'dialogue': []}
+    fake = {'id': d.get('id'), 'title': d.get('title'), 'notes': [], 'new_words': [], 'dialogue': []}
     for sec in d.get('sections', []):
         for j, w in enumerate(sec.get('words', [])):
             fake['dialogue'].append({'n': f"{sec['n']}.w{j + 1}", 'hanji': w['hanji'], 'tailo': w['tailo'], 'en': w.get('en')})
@@ -203,7 +203,7 @@ def main():
     keys, pairs, moe_ex = load_db()
     errors = 0
     for f in files:
-        fn = lint_theme if '/themes/' in f else lint
+        fn = lint_theme if 'themes' in os.path.normpath(f).split(os.sep) else lint
         for level, text in fn(f, keys, pairs, moe_ex):
             print(text)
             errors += level == 'E'
