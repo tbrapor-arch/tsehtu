@@ -15,11 +15,12 @@ Characters missing from common fonts (𠢕 𪜶 𨑨 𤆬 𬦰 …) are embedded
 what the app uses.
 
 ## App structure
-Tabs: **Lessons** (home = grid of the 100 lessons, Mainichi-style; review every 7th; unwritten ones greyed with their
-planned title) · **Themes** (thematic vocabulary, "Le Mot et l'Idée" structure: numbered groups + a short text) ·
-**Review** (segmented by lesson and theme group; cloze cards in the lesson sentence; Leitner 1/3/7/16/35 days) ·
-**Bridge** (trial: guess the Taigi reading of a Mandarin character, with the sound rules) · **Settings** (look, night
-mode, accent + regional tables). No "Today" tab.
+Tabs: **Lessons** (home = grid of the 100 planned lessons, Mainichi-style; review every 7th; the 63 written so far, the
+rest greyed with their planned title) · **Themes** (thematic vocabulary, "Le Mot et l'Idée" structure: numbered groups +
+a short text) · **Grammar** · **Review** (segmented by lesson and theme group; cloze cards in the lesson sentence;
+Leitner 1/3/7/16/35 days; the **Bridge** trial and tone-change practice live here) · **Podcast** (see `docs/podcast.md`) ·
+**Settings** (look, night mode, accent + regional tables, sync). A hidden **Exam** tab appears only on devices with
+access to an optional private module (`docs/sync-and-private-module.md`). No "Today" tab.
 
 ## Lesson page
 Toolbar: active mode (EN → Taigi), script (漢字 + Tâi-lô / Tâi-lô / 漢字), spoken tones, English. Notes open as pop-ups
@@ -49,7 +50,7 @@ Progress, deck and preferences are stored in the browser only (per device).
 - Back to the lesson grid returns to where you were.
 
 ## Learning tools added (no native speaker needed)
-- **Grammar tab** (文法): 40 structures from `course/grammar.yaml`; each sheet lists every course line that uses it
+- **Grammar tab** (文法): 39 structures from `course/grammar.yaml`; each sheet lists every course line that uses it
   (found by a pattern at build time), so new lessons add examples by themselves.
 - **Tone-change practice** (Review tab): words from the lessons, written form shown, pick the spoken form; wrong
   options are typical mistakes (no change, last syllable changed too, wrong new tone). Rule-based (`tools/sandhi.py`).

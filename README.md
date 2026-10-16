@@ -31,6 +31,7 @@ make coverage           # how much of the core vocabulary the lessons cover, and
 make app                # build the reader app: app/dist/index.html, one self-contained page
 python3 tools/sandhi.py "Guá sī | Huat-kok-lâng."   # spoken tones for a line
 ```
+Project state: `PROJECT_NOTES.md`; rules for Claude: `CLAUDE.md`; references in `docs/`.
 Start with `course/README.md`, `course/syllabus.yaml`, `course/grammar-inventory.md` and
 `course/lessons/000-reading-tailo.md`.
 
@@ -44,7 +45,7 @@ GitHub Actions. `python3 tools/smoke.py` clicks through every lesson in a phone-
 `record.html` (published with the site: https://tbrapor-arch.github.io/tsehtu/record.html) lets a speaker record
 the dialogues line by line on a phone; clips stay in her browser until she sends a zip. Import it with
 `python3 tools/import_recordings.py file.zip` (silence trimmed, loudness evened out, MP3 in `course/audio/lessons/`),
-then commit. The recordings are used with the speaker's permission in this app only: they are not under the
+then commit (`.gitignore` allows `course/audio/lessons/*.mp3`). The recordings are used with the speaker's permission in this app only: they are not under the
 course licence (see `LICENSE-CONTENT.md`). The name shown in the app is `voice` in `course/audio/recordings.yaml`.
 
 ## What the database gives you

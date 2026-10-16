@@ -12,6 +12,8 @@ data/build/
 *.pdf
 *.epub
 *.mp3
+# native-speaker clips are committed (docs/audio.md)
+!course/audio/lessons/*.mp3
 *.m4a
 
 __pycache__/
