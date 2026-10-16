@@ -1,0 +1,58 @@
+id: 66
+title: {en: "A trip to Lukang", tailo: "Lo̍k-káng tsi̍t-ji̍t-iû", hanji: "鹿港一日遊"}
+review: false
+setting: "A Saturday day-trip: Sam and A-hun take the bus up to Lukang, an old coastal town, to see its temples and old street."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "今仔日咱來鹿港行行，看廟寺佮古蹟。", tailo: "Kin-á-ji̍t lán lâi Lo̍k-káng kiânn-kiânn, khuànn biō-sī kah kóo-tsik.", en: "Today let's walk around Lukang and see the temples and historic sites."}
+  - {n: 2, speaker: Sam, hanji: "好啊！聽講遮的人講話的腔口佮別位無仝。", tailo: "Hó--ah! Thiann-kóng tsia ê lâng kóng-uē ê khiunn-kháu kah pa̍t uī bô-kâng.", en: "Great! I've heard people here speak with a different accent from elsewhere."}
+  - {n: 3, speaker: A-hun, hanji: "著，鹿港是海口庄，老一輩的人猶講真正的海口腔口。", tailo: "Tio̍h, Lo̍k-káng sī hái-kháu tsng, lāu tsi̍t puè ê lâng iáu kóng tsin-tsiànn ê hái-kháu khiunn-kháu.", en: "Right, Lukang is a coastal town; the older generation there still speaks a genuinely coastal accent."}
+  - {n: 4, speaker: Sam, hanji: "佮咱佇臺南聽著的，無仝的所在佇佗？", tailo: "Kah lán tī Tâi-lâm thiann-tio̍h--ê, bô-kâng ê sóo-tsāi tī tó?", en: "Where's it different from what we hear in Tainan?"}
+  - {n: 5, speaker: A-hun, hanji: "親像「豬」字，阮臺南人唸「ti」，鹿港有的老人唸「tu」。", tailo: "Tshin-tshiūnn “ti” jī, guán Tâi-lâm lâng liām “ti”, Lo̍k-káng ū--ê lāu-lâng liām “tu”.", en: "Take the word for 'pig': we Tainan people say 'ti', but some of the old folks in Lukang say 'tu'."}
+  - {n: 6, speaker: Sam, hanji: "有趣味！按呢「豬跤」佇遮敢是叫「tu-kha」？", tailo: "Ū tshù-bī! Án-ne “ti-kha” tī tsia kám sī kiò “tu-kha”?", en: "Interesting! So is 'pig's foot' called 'tu-kha' here?"}
+  - {n: 7, speaker: A-hun, hanji: "有可能。毋過這馬少年人加減受標準腔影響，腔口無一定遐爾重。", tailo: "Ū khó-lîng. M̄-koh tsit-má siàu-liân-lâng ke-kiám siū piau-tsún khiunn íng-hióng, khiunn-kháu bô it-tīng hiah-nī tāng.", en: "Could be. But these days young people are affected to some extent by the standard accent, so the accent isn't necessarily that strong any more."}
+  - {n: 8, speaker: Sam, hanji: "遮的廟寺真古早，木雕足媠。", tailo: "Tsia ê biō-sī tsin kóo-tsá, bo̍k-tiau tsiok suí.", en: "These temples are really old, the woodcarving is gorgeous."}
+  - {n: 9, speaker: A-hun, hanji: "龍山寺是鹿港上出名的古蹟，師傅手工做的木雕，逐項攏有故事。", tailo: "Liông-san-sī sī Lo̍k-káng siōng tshut-miâ ê kóo-tsik, sai-hū tshiú-kang tsò--ê bo̍k-tiau, ta̍k hāng lóng ū kòo-sū.", en: "Longshan Temple is Lukang's most famous historic site; every piece of woodcarving the craftsmen made by hand has a story."}
+  - {n: 10, speaker: Sam, hanji: "我欲買一本介紹古蹟的冊，通好那行那看。", tailo: "Guá beh bé tsi̍t pún kài-siāu kóo-tsik ê tsheh, thang hó ná kiânn ná khuànn.", en: "I want to buy a book introducing the historic sites, so I can look as I walk."}
+  - {n: 11, speaker: A-hun, hanji: "街仔的店仔有賣，順紲買幾塊牛舌餅，鹿港的特產。", tailo: "Ke-á ê tiàm-á ū bē, sūn-suà bé kuí tè gû-tsi̍h-piánn, Lo̍k-káng ê ti̍k-sán.", en: "The shops on the old street sell them; let's also buy some ox-tongue biscuits while we're at it, Lukang's local specialty."}
+  - {n: 12, speaker: Sam, hanji: "這本冊內底講，彼條巷仔叫「摸乳巷」，有影遮爾狹？", tailo: "Tsit pún tsheh lāi-té kóng, hit tiâu hāng-á kiò “Bong-ling-hāng”, ū-iánn tsiah-nī e̍h?", en: "This book says that lane is called 'Groping-Breast Lane' — is it really that narrow?"}
+  - {n: 13, speaker: A-hun, hanji: "有影，過去查埔佮查某行對向，無細膩就會相挵著。", tailo: "Ū-iánn, kuè-khì tsa-poo kah tsa-bóo kiânn tuì-hiòng, bô sè-jī tō ē sio-lòng-tio̍h.", en: "It really is; in the old days men and women walking from opposite directions could easily bump into each other if they weren't careful."}
+  - {n: 14, speaker: Sam, hanji: "遮的街仔攏猶保存甲遮爾好，有夠好佳哉。", tailo: "Tsia ê ke-á lóng iáu pó-tsûn kah tsiah-nī hó, ū-kàu hó-ka-tsài.", en: "These streets have all been kept in such good condition — that's really a blessing."}
+  - {n: 15, speaker: A-hun, hanji: "毋過真濟古蹟是靠地方的人逐年鬥跤手才會保存落來。", tailo: "M̄-koh tsin tsē kóo-tsik sī khò tē-hng ê lâng ta̍k-nî tàu-kha-tshiú tsiah ē pó-tsûn--lo̍h-lâi.", en: "But a lot of these historic sites only survive because local people have been pitching in year after year."}
+  - {n: 16, speaker: Sam, hanji: "下擺咱紮查某囝的冬粉鴨來鹿港食，順紲閣踅一逝老街。", tailo: "Ē-pái lán tsah tsa-bóo-kiánn ê tang-hún-ah lâi Lo̍k-káng tsia̍h, sūn-suà koh se̍h tsi̍t tsuā lāu-ke.", en: "Next time let's bring some vermicelli duck to eat in Lukang, and take another turn around the old street while we're at it."}
+notes:
+  - {ref: 2, topic: vocab, text: "腔口 khiunn-kháu = accent (口音). 別位 pa̍t uī = elsewhere, another place (位 uī, lesson 1's 佗位)."}
+  - {ref: 3, topic: culture, text: "海口 hái-kháu = coastal area (靠海的地方); 海口腔 is the general name for the coastal accents of the central-west coast, which differ in several vowels from the accent this course teaches."}
+  - {ref: 5, topic: pronunciation, text: "A safely documented example: the word for 'pig' is 豬 ti in most of the accent this course uses, but tu in the coastal (hái-kháu) accent spoken by many older people around Lukang. The course keeps to one accent throughout; real speech varies village by village."}
+  - {ref: 7, topic: vocab, text: "標準 piau-tsún = standard. 影響 íng-hióng = influence, affect. 加減 ke-kiám = to some extent, more or less (lit. 'add or subtract')."}
+  - {ref: 9, topic: vocab, text: "出名 tshut-miâ = famous (有名). 師傅 sai-hū = craftsman, master of a trade. 木雕 bo̍k-tiau = woodcarving. 逐項 ta̍k hāng = every item."}
+  - {ref: 10, topic: grammar, text: "本 pún = classifier for books (lesson 8's table of classifiers). 那 V 那 V ná … ná … = while doing one, do the other (lesson 56): 那行那看 'look as you walk'."}
+  - {ref: 11, topic: vocab, text: "街仔 ke-á = (old) street — the everyday word; this course has so far only used 路 lōo and 巷仔 hāng-á. 順紲 sūn-suà = while at it, incidentally (順便, lesson 25's note style). 特產 ti̍k-sán = local specialty."}
+  - {ref: 12, topic: culture, text: "摸乳巷 Bong-ling-hāng, one of Lukang's famous historic lanes, so narrow two people can barely pass side by side."}
+  - {ref: 13, topic: vocab, text: "對向 tuì-hiòng = opposite direction. 相挵著 sio-lòng-tio̍h = bump into each other (相 + V + 著, lesson 62's 撞著 for the same idea with a different verb)."}
+  - {ref: 15, topic: grammar, text: "靠 khò = depend on, rely on. 鬥跤手 tàu-kha-tshiú = pitch in, help out (lesson 44's 鬥相共 is the close synonym). 保存落來 pó-tsûn--lo̍h-lâi = survive, be preserved (V + 落來, keep on existing)."}
+  - {ref: 16, topic: culture, text: "冬粉鴨 tang-hún-ah = vermicelli duck soup, a Lukang specialty A-hun's daughter (lesson 70's family) would enjoy. 踅 se̍h = stroll around, go round; 逝 tsuā here is the classifier for a walk around a place (lesson 67 picks this up again)."}
+new_words:
+  - {tailo: kóo-tsik, hanji: 古蹟, en: "historic site"}
+  - {tailo: khiunn-kháu, hanji: 腔口, en: "accent"}
+  - {tailo: hái-kháu, hanji: 海口, en: "coastal area"}
+  - {tailo: pún, hanji: 本, en: "classifier for books"}
+  - {tailo: sai-hū, hanji: 師傅, en: "craftsman"}
+  - {tailo: bo̍k-tiau, hanji: 木雕, en: "woodcarving"}
+  - {tailo: kòo-sū, hanji: 故事, en: "story"}
+  - {tailo: kài-siāu, hanji: 介紹, en: "introduce"}
+  - {tailo: piau-tsún, hanji: 標準, en: "standard"}
+  - {tailo: "íng-hióng", hanji: 影響, en: "influence, affect"}
+  - {tailo: sūn-suà, hanji: 順紲, en: "while at it, incidentally"}
+  - {tailo: "gû-tsi̍h-piánn", hanji: 牛舌餅, en: "ox-tongue biscuit"}
+  - {tailo: ti̍k-sán, hanji: 特產, en: "local specialty"}
+  - {tailo: ke-á, hanji: 街仔, en: "street"}
+  - {tailo: tsng, hanji: 庄, en: "village, town"}
+exercises:
+  translate:
+    - {tailo: "Lo̍k-káng sī hái-kháu tsng.", hanji: "鹿港是海口庄。", en: "Lukang is a coastal town."}
+    - {tailo: "Guá beh bé tsi̍t pún kài-siāu kóo-tsik ê tsheh.", hanji: "我欲買一本介紹古蹟的冊。", en: "I want to buy a book introducing the historic sites."}
+    - {tailo: "Ta̍k hāng bo̍k-tiau lóng ū kòo-sū.", hanji: "逐項木雕攏有故事。", en: "Every piece of woodcarving has a story."}
+  fill:
+    - {tailo: "Guán Tâi-lâm lâng liām “ti”, Lo̍k-káng ū--ê lāu-lâng liām ___.", hanji: "阮臺南人唸「ti」，鹿港有的老人唸___。", answer: "“tu”", answer_hanji: "「tu」", en: "We Tainan people say 'ti', some old folks in Lukang say 'tu'."}
+    - {tailo: "Guá beh bé tsi̍t ___ tsheh.", hanji: "我欲買一___冊。", answer: "pún", answer_hanji: "本", en: "I want to buy a book."}
+audio: []

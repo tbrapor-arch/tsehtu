@@ -1,0 +1,61 @@
+id: 65
+title: {en: "Earthquake", tailo: "Tē-tāng", hanji: "地動"}
+review: false
+setting: "The middle of the night at A-má's house. The ground shakes."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "哈！規个厝咧幌？！", tailo: "Hah! Kui ê tshù teh hàinn?!", en: "Huh?! Is the whole house swaying?!"}
+  - n: 2
+    speaker: A-kong
+    hanji: "地動啦！緊跳落眠床，覕佇桌跤！"
+    tailo: "Tē-tāng--lah! Kín thiàu lo̍h bîn-tshn̂g, bih tī toh-kha!"
+    en: "It's an earthquake! Quick, jump out of bed and hide under the table!"
+    groups: "Tē-tāng--lah! | Kín thiàu lo̍h bîn-tshn̂g, | bih tī toh-kha!"
+  - {n: 3, speaker: Sam, hanji: "阿媽！你有要緊無？", tailo: "A-má! Lí ū iàu-kín--bô?", en: "A-má! Are you all right?"}
+  - {n: 4, speaker: A-má, hanji: "我無代誌，毋過規身軀猶咧幌，跤手軟，袂行。", tailo: "Guá bô tāi-tsì, m̄-koh kui sin-khu iáu teh hàinn, kha-tshiú nńg, bē kiânn.", en: "I'm fine, but my whole body is still swaying, my arms and legs are weak, I can't walk."}
+  - {n: 5, speaker: Sam, hanji: "我共你牽去外口，徛佇空地較安全。", tailo: "Guá kā lí khan khì guā-kháu, khiā tī khàng-tē khah an-tsuân.", en: "I'll lead you outside; standing in the open is safer."}
+  - {n: 6, speaker: A-kong, hanji: "有夠雄！眠床攏咧幌，電火嘛咧搖。", tailo: "Ū-kàu hiông! Bîn-tshn̂g lóng teh hàinn, tiān-hué mā teh iô.", en: "That was incredibly violent! The bed was swaying, the lights were swinging too."}
+  - {n: 7, speaker: Sam, hanji: "附近敢有厝崩去，抑是有人著傷？", tailo: "Hù-kīn kám ū tshù pang--khì, ia̍h-sī ū lâng tio̍h-siong?", en: "Did any nearby houses collapse, or anyone get hurt?"}
+  - {n: 8, speaker: A-kong, hanji: "電視咧報，有一間厝的壁裂開，毋過無人著傷。", tailo: "Tiān-sī teh pò, ū tsi̍t king tshù ê piah li̍h--khui, m̄-koh bô lâng tio̍h-siong.", en: "The TV is reporting that one house's wall has cracked open, but no one was hurt."}
+  - {n: 9, speaker: Sam, hanji: "我雄雄想起九二一。你彼陣敢有感覺？", tailo: "Guá hiông-hiông siūnn-khí Káu-jī-it. Lí hit-tsūn kám ū kám-kak?", en: "I suddenly thought of the 921 earthquake. Did you feel that one too, back then?"}
+  - {n: 10, speaker: A-kong, hanji: "有，彼一改較恐怖，規个厝幾若秒就崩一半，逐家攏走出去外口，喝救人。", tailo: "Ū, hit tsi̍t kái khah khióng-pòo, kui ê tshù kuí-nā bió tō pang tsi̍t puànn, ta̍k-ke lóng tsáu tshut-khì guā-kháu, huah kiù-lâng.", en: "Yes, that time was more terrifying — the whole house collapsed half in a few seconds, and everyone ran outside shouting for help."}
+  - {n: 11, speaker: A-má, hanji: "我會記得你彼暗驚甲袂睏，逃去阮阿兄兜徛幾工。", tailo: "Guá ē-kì--tit lí hit àm kiann kah bē khùn, tô khì guán a-hiann tau khiā kuí kang.", en: "I remember you were so scared that night you couldn't sleep, and you fled to stay at my elder brother's place for a few days."}
+  - {n: 12, speaker: A-kong, hanji: "毋通講矣啦！我才無遐爾驚惶！", tailo: "M̄-thang kóng--ah--lah! Guá tsiah bô hiah-nī kiann-hiânn!", en: "Don't bring that up! I wasn't that panicked!"}
+  - {n: 13, speaker: Sam, hanji: "地動了後，厝敢有愛修理？", tailo: "Tē-tāng liáu-āu, tshù kám ū ài siu-lí?", en: "After an earthquake, does the house need repairs?"}
+  - {n: 14, speaker: A-má, hanji: "愛叫師仔來看，驚壁予地動搝甲有空縫。", tailo: "Ài kiò sai-á lâi khuànn, kiann piah hōo tē-tāng khiú kah ū khang-phāng.", en: "We should get a workman to come look, in case the wall got pulled by the earthquake until there are gaps."}
+  - {n: 15, speaker: Sam, hanji: "好佳哉，逐家攏平安。", tailo: "Hó-ka-tsài, ta̍k-ke lóng pîng-an.", en: "Thank goodness, everyone's safe."}
+  - {n: 16, speaker: A-kong, hanji: "著，人平安就好，物件損去才閣買就有。", tailo: "Tio̍h, lâng pîng-an tō hó, mi̍h-kiānn sńg--khì tsiah koh bé tō ū.", en: "Right — as long as people are safe, that's enough; things that get damaged can always be bought again."}
+notes:
+  - {ref: 1, topic: vocab, text: "幌 hàinn = sway, swing (晃): an on-and-off motion, like a hammock or a loose sign. Compare 搖 iô (line 6), a to-and-fro or trembling motion — the two overlap but 幌 leans wider, 搖 leans faster."}
+  - {ref: 2, topic: sandhi, text: "Short urgent clauses each keep their own tone group, shown by | here: the sandhi inside 緊跳落眠床 runs as usual, but it resets at each comma and exclamation mark, exactly as Lesson 0 said punctuation always ends a group — useful to know when a sentence is really several short shouted commands."}
+  - {ref: 5, topic: vocab, text: "空地 khàng-tē = open, empty ground (空無所有的地), the safest place to stand in a quake."}
+  - {ref: 6, topic: grammar, text: "有夠 ū-kàu + adjective = incredibly, (lesson 59): 有夠雄 'incredibly violent'. 雄 hiông here is an adjective (fierce, violent); 雄雄 hiông-hiông (line 9) is the unrelated adverb 'suddenly' — same syllable, different word."}
+  - {ref: 7, topic: vocab, text: "崩去 pang--khì = collapse (崩 + 去, change of state). 著傷 tio̍h-siong = get injured (受傷)."}
+  - {ref: 9, topic: culture, text: "九二一 Káu-jī-it = the 21 September 1999 earthquake (the Chi-Chi earthquake), the most destructive in Taiwan in decades; still the reference point whenever a strong quake is discussed."}
+  - {ref: 10, topic: vocab, text: "恐怖 khióng-pòo = terrifying. 幾若 kuí-nā = several, quite a few (好幾), a quantity word placed straight before the classifier: 幾若秒, 幾若隻. 喝 huah = shout, call out — a different reading of 喝 from 食 tsia̍h's sense 'drink' (lesson 1), one character for two unrelated words."}
+  - {ref: 11, topic: grammar, text: "逃 tô = flee (離開、躲避). 徛 khiā here is 'stay, lodge' rather than 'stand' or 'live' (lesson 2, 62): 徛幾工 'stayed a few days'."}
+  - {ref: 14, topic: grammar, text: "予 hōo as a passive marker: 壁予地動搝 'the wall got pulled by the earthquake' (壁 被地動拉). Compare 予 'give/let' (lesson 60): the three uses — give, let, passive by — are the same word, told apart by what comes after it. 搝 khiú = pull, tug. 空縫 khang-phāng = a gap or crack."}
+new_words:
+  - {tailo: tē-tāng, hanji: 地動, en: "earthquake"}
+  - {tailo: kiann-hiânn, hanji: 驚惶, en: "panicked, scared"}
+  - {tailo: hàinn, hanji: 幌, en: "sway, swing"}
+  - {tailo: iô, hanji: 搖, en: "shake"}
+  - {tailo: pang, hanji: 崩, en: "collapse"}
+  - {tailo: "li̍h", hanji: 裂, en: "crack, split"}
+  - {tailo: tio̍h-kiann, hanji: 著驚, en: "startled"}
+  - {tailo: thiàu, hanji: 跳, en: "jump"}
+  - {tailo: huah, hanji: 喝, en: "shout"}
+  - {tailo: kiù-lâng, hanji: 救人, en: "call for help"}
+  - {tailo: an-tsuân, hanji: 安全, en: "safe"}
+  - {tailo: tô, hanji: 逃, en: "flee"}
+  - {tailo: toh-kha, hanji: 桌跤, en: "under the table"}
+  - {tailo: tio̍h-siong, hanji: 著傷, en: "get injured"}
+  - {tailo: khióng-pòo, hanji: 恐怖, en: "terrifying"}
+exercises:
+  translate:
+    - {tailo: "Tē-tāng--lah! Kín thiàu lo̍h bîn-tshn̂g, bih tī toh-kha!", hanji: "地動啦！緊跳落眠床，覕佇桌跤！", en: "It's an earthquake! Quick, jump out of bed and hide under the table!"}
+    - {tailo: "Hù-kīn kám ū tshù pang--khì?", hanji: "附近敢有厝崩去？", en: "Did any nearby houses collapse?"}
+    - {tailo: "Lâng pîng-an tō hó.", hanji: "人平安就好。", en: "As long as people are safe, that's enough."}
+  fill:
+    - {tailo: "Ū-kàu ___! Bîn-tshn̂g lóng teh hàinn.", hanji: "有夠___！眠床攏咧幌。", answer: "hiông", answer_hanji: "雄", en: "That was incredibly violent! The bed was swaying."}
+    - {tailo: "Piah ___ tē-tāng khiú kah ū khang-phāng.", hanji: "壁___地動搝甲有空縫。", answer: "hōo", answer_hanji: "予", en: "The wall got pulled by the earthquake until there were gaps."}
+audio: []

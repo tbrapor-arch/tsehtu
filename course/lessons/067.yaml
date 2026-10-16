@@ -1,0 +1,59 @@
+id: 67
+title: {en: "Tea mountain", tailo: "Tê-suann", hanji: "茶山"}
+review: false
+setting: "A day trip up to a tea mountain: A-kong visits an old friend, A-peh, who grows and roasts tea."
+dialogue:
+  - {n: 1, speaker: A-kong, hanji: "這片山坪，逐逝茶欉攏種甲真整齊。", tailo: "Tsit phiàn suann-phiânn, ta̍k tsuā tê-tsâng lóng tsìng kah tsin tsíng-tsê.", en: "On this hillside, every row of tea bushes is planted so neatly."}
+  - {n: 2, speaker: A-peh, hanji: "著啊，一逝一逝攏愛留路，才有法度行入去挽茶。", tailo: "Tio̍h--ah, tsi̍t tsuā tsi̍t tsuā lóng ài lâu lōo, tsiah ū huat-tōo kiânn--ji̍p-khì bán tê.", en: "That's right — every row has to leave a path, so there's a way to walk in and pick the leaves."}
+  - {n: 3, speaker: Sam, hanji: "逐款茶欉敢攏仝款挽？", tailo: "Ta̍k khuán tê-tsâng kám lóng kāng-khuán bán?", en: "Is the picking the same for every kind of tea bush?"}
+
+  - {n: 4, speaker: A-peh, hanji: "無仝，有的愛挽一心兩葉，上幼彼枝才用。", tailo: "Bô-kâng, ū--ê ài bán tsi̍t sim nn̄g hio̍h, siōng iù hit ki tsiah īng.", en: "No — some need picking as 'one bud, two leaves'; only the tenderest sprig is used."}
+  - {n: 5, speaker: Sam, hanji: "了後咧？挽起來就會使泡茶矣？", tailo: "Liáu-āu--leh? Bán--khí-lâi tō ē-sái phàu-tê--ah?", en: "And then? Once it's picked, can you brew it right away?"}
+  - {n: 6, speaker: A-peh, hanji: "猶未。愛先曝日，予伊消一下水，才落去揀，挕掉歹的。", tailo: "Iáu-buē. Ài sing pha̍k-ji̍t, hōo i siau tsi̍t-ē tsuí, tsiah lo̍h-khì kíng, hìnn-tiāu pháinn--ê.", en: "Not yet. First it has to be sun-dried a while, to lose some moisture, then it's sorted, throwing out the bad bits."}
+  - {n: 7, speaker: Sam, hanji: "紲落來咧？", tailo: "Suà--lo̍h-lâi--leh?", en: "And after that?"}
+  - {n: 8, speaker: A-peh, hanji: "紲落來愛炒，予伊發酵煞，才落去焙。火的度數真要緊，無拄好就反味。", tailo: "Suà--lo̍h-lâi ài tshá, hōo i huat-kànn suah, tsiah lo̍h-khì puē. Hué ê tōo-sòo tsin iàu-kín, bô tú-hó tō huán-bī.", en: "After that it has to be tossed and fried, to stop the fermentation, and only then is it roasted. The heat has to be just right, or the flavour turns."}
+  - {n: 9, speaker: Sam, hanji: "規个過程遮爾複雜，一斤茶愛偌濟心血？", tailo: "Kui ê kuè-tsîng tsiah-nī ho̍k-tsa̍p, tsi̍t kin tê ài guā-tsē sim-hiat?", en: "The whole process is so complicated — how much effort does a pound of tea take?"}
+  - {n: 10, speaker: A-peh, hanji: "真濟！雖然這馬有機器通好鬥相共，毋過上要緊的步數，猶著靠跤手。", tailo: "Tsin tsē! Sui-jiân tsit-má ū ki-khì thang hó tàu-sann-kāng, m̄-koh siōng iàu-kín ê pōo-sòo, iáu tio̍h khò kha-tshiú.", en: "A lot! Although there are machines to help out these days, the most important steps still depend on human hands."}
+  - {n: 11, speaker: A-kong, hanji: "這杯茶的芳味，是我今年啉過上好的。", tailo: "Tsit pue tê ê phang-bī, sī guá kin-nî lim-kuè siōng hó--ê.", en: "The fragrance of this cup of tea is the best I've drunk this year."}
+  - {n: 12, speaker: A-peh, hanji: "你愛啉看覓這款，是逐年當中做了上細膩的一逝。", tailo: "Lí ài lim khuànn-māi tsit khuán, sī ta̍k nî tang-tiong tsò liáu siōng sè-jī ê tsi̍t tsuā.", en: "You should try this kind — it's the row we make with the most care each year."}
+  - {n: 13, speaker: Sam, hanji: "逐逝的味敢攏無仝？", tailo: "Ta̍k tsuā ê bī kám lóng bô-kâng?", en: "Does every row taste different?"}
+  - {n: 14, speaker: A-peh, hanji: "差淡薄仔。日頭照較濟的彼逝，味上重。", tailo: "Tsha tām-po̍h-á. Ji̍t-thâu tsiò khah tsē ê hit tsuā, bī siōng tāng.", en: "A little. The row that gets more sun has the strongest flavour."}
+  - {n: 15, speaker: Sam, hanji: "紙囥的字寫「本山最高品質」，「最」佮「上」是仝意思無？", tailo: "Tsuá khǹg--ê jī siá “pún-suann tsuè-ko phín-tsit”, “tsuè” kah “siōng” sī kāng ì-sù--bô?", en: "The words on the tin say 'this mountain's finest quality' — do 'tsuè' and 'siōng' mean the same thing?"}
+  - {n: 16, speaker: A-peh, hanji: "仝款，毋過「最」較捷用佇寫的，「上」才是日常講話捷用的。你這馬會曉共本地的茶介紹予人矣。", tailo: "Kāng-khuán, m̄-koh “tsuè” khah tsia̍p īng tī siá--ê, “siōng” tsiah sī ji̍t-siông kóng-uē tsia̍p īng--ê. Lí tsit-má ē-hiáu kā pún-tē ê tê kài-siāu hōo lâng--ah.", en: "Same thing — but 'tsuè' is used more in writing, while 'siōng' is the one used more in everyday speech. You can introduce the local tea to people now!"}
+notes:
+  - {ref: 1, topic: vocab, text: "逝 tsuā = classifier for a row (of plants) or a trip (lesson 62's table). 整齊 tsíng-tsê = neat, orderly."}
+  - {ref: 2, topic: vocab, text: "挽茶 bán tê = pick tea (挽, lesson 56's 挽草). 法度 huat-tōo = a way (to do something), from 無法度 bô-huat-tōo (lesson 51)."}
+  - {ref: 4, topic: grammar, text: "枝 ki = classifier for pens and sticks (lesson 8); here for a single leaf-bearing sprig: 一枝 tsi̍t ki. 一心二葉 tsi̍t sim nn̄g hio̍h 'one bud, two leaves' is the picker's own term for the tenderest growth."}
+  - {ref: 6, topic: vocab, text: "曝日 pha̍k-ji̍t = dry in the sun (lesson 50). 消 siau = reduce, dissipate: 消水 'lose moisture'. 揀 kíng = sort, pick through. 挕掉 hìnn-tiāu = throw away."}
+  - {ref: 8, topic: vocab, text: "發酵 huat-kànn = ferment; 予伊發酵煞 'stop it fermenting' (予 + V + 煞, lesson 56's suah). 焙 puē (in 焙茶 puē-tê, this lesson's title) = roast/dry over heat, different from 曝 pha̍k (sun) and 炒 tshá (a wok). 度數 tōo-sòo = (here) temperature setting. 反味 huán-bī = the flavour turns/spoils."}
+  - {ref: 9, topic: vocab, text: "複雜 ho̍k-tsa̍p = complicated. 心血 sim-hiat = effort, painstaking care (心力)."}
+  - {ref: 10, topic: grammar, text: "雖然 X，毋過 Y = although X, still Y (lesson 57's 毋過 alone already does this; 雖然 makes the contrast explicit and is slightly more formal). 跤手 kha-tshiú (lesson 56) here means 'manual labour, hands'."}
+  - {ref: 12, topic: grammar, text: "V 了 liáu + adjective = having done it, (turns out) …: 做了上細膩 'done with the most care' (了 here is the lesson 61 result-liáu, not the aspect one)."}
+  - {ref: 14, topic: vocab, text: "差 tsha = differ, be off by: 差淡薄仔 'a little different' (差 + 淡薄仔, lesson 50's 'a little')."}
+  - {ref: 15, topic: grammar, text: "最 tsuè = most (上/上蓋's more literary synonym): common on signs, labels and in writing. 本山 pún-suann 'this (very) mountain' uses 本 pún in its older sense 'this, the original' (lesson 66's 本 is the classifier use of the same character)."}
+  - {ref: 16, topic: grammar, text: "最 tsuè is the written register's word for 'most'; 上 siōng is the one used in ordinary speech (lesson 59). 捷 tsia̍p = often, frequently — a literary-sounding word that is nonetheless common. 日常 ji̍t-siông = everyday, ordinary. 本地 pún-tē = local, this area."}
+new_words:
+  - {tailo: tê-suann, hanji: 茶山, en: "tea mountain"}
+  - {tailo: tê-tsâng, hanji: 茶欉, en: "tea bush"}
+  - {tailo: tsuā, hanji: 逝, en: "classifier: a row; a trip"}
+  - {tailo: ki, hanji: 枝, en: "classifier: a twig, a pen"}
+  - {tailo: "tsíng-tsê", hanji: 整齊, en: "neat, orderly"}
+  - {tailo: kíng, hanji: 揀, en: "sort, pick through"}
+  - {tailo: "hìnn-tiāu", hanji: 挕掉, en: "throw away"}
+  - {tailo: "huat-kànn", hanji: 發酵, en: "ferment"}
+  - {tailo: "tōo-sòo", hanji: 度數, en: "degree, setting"}
+  - {tailo: "huán-bī", hanji: 反味, en: "the flavour turns"}
+  - {tailo: "ho̍k-tsa̍p", hanji: 複雜, en: "complicated"}
+  - {tailo: "sim-hiat", hanji: 心血, en: "effort, painstaking care"}
+  - {tailo: "sui-jiân", hanji: 雖然, en: "although"}
+  - {tailo: "tsuè", hanji: 最, en: "most (literary)"}
+  - {tailo: "phín-tsit", hanji: 品質, en: "quality"}
+exercises:
+  translate:
+    - {tailo: "Ta̍k tsuā tê-tsâng lóng tsìng kah tsin tsíng-tsê.", hanji: "逐逝茶欉攏種甲真整齊。", en: "Every row of tea bushes is planted so neatly."}
+    - {tailo: "Sui-jiân ū ki-khì, m̄-koh siōng iàu-kín ê pōo-sòo iáu tio̍h khò kha-tshiú.", hanji: "雖然有機器，毋過上要緊的步數猶著靠跤手。", en: "Although there are machines, the most important steps still depend on human hands."}
+    - {tailo: "“Tsuè” kah “siōng” sī kāng ì-sù.", hanji: "「最」佮「上」是仝意思。", en: "'Tsuè' and 'siōng' mean the same thing."}
+  fill:
+    - {tailo: "Siōng iù hit ___ tsiah īng.", hanji: "上幼彼___才用。", answer: "ki", answer_hanji: "枝", en: "Only the tenderest sprig is used."}
+    - {tailo: "Ji̍t-thâu tsiò khah tsē ê hit ___, bī siōng tāng.", hanji: "日頭照較濟的彼___，味上重。", answer: "tsuā", answer_hanji: "逝", en: "The row that gets more sun has the strongest flavour."}
+audio: []

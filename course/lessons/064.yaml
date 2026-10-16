@@ -1,0 +1,57 @@
+id: 64
+title: {en: "Childhood memories", tailo: "Sè-hàn ê sî", hanji: "細漢的時"}
+review: false
+setting: "A few days later. A-kong is sorting an old box and finds a photograph; he tells Sam about his own childhood in the countryside."
+dialogue:
+  - {n: 1, speaker: A-kong, hanji: "你看，這張是我細漢的時翕的。", tailo: "Lí khuànn, tsit tiunn sī guá sè-hàn ê sî hip--ê.", en: "Look, this one was taken when I was little."}
+  - {n: 2, speaker: Sam, hanji: "你哪會攏無穿鞋？跤敢毋會疼？", tailo: "Lí ná ē lóng bô tshīng ê? Kha kám m̄ ē thiànn?", en: "Why aren't you wearing any shoes at all? Doesn't your foot hurt?"}
+  - {n: 3, speaker: A-kong, hanji: "彼陣阮逐家攏赤跤，鞋愛留咧過年才穿。", tailo: "Hit-tsūn guán ta̍k-ke lóng tshiah-kha, ê ài lâu--leh kuè-nî tsiah tshīng.", en: "Back then we all went barefoot; shoes were kept for New Year."}
+  - {n: 4, speaker: Sam, hanji: "按呢敢毋艱苦？", tailo: "Án-ne kám m̄ kan-khóo?", en: "Wasn't that hard?"}
+  - {n: 5, speaker: A-kong, hanji: "就我來講，彼陣逐家攏仝款散赤，袂感覺特別艱苦。", tailo: "Tsiū guá lâi kóng, hit-tsūn ta̍k-ke lóng kāng-khuán sàn-tshiah, bē kám-kak ti̍k-pia̍t kan-khóo.", en: "Speaking for myself, everyone was equally poor back then, so it didn't feel especially hard."}
+  - {n: 6, speaker: A-kong, hanji: "天猶咧欲光，我就著起來牽牛去食草。", tailo: "Thinn iáu teh-beh kng, guá tō tio̍h khí--lâi khan gû khì tsia̍h tsháu.", en: "The sky was only just about to grow light, and I already had to get up and lead the cow out to graze."}
+  - {n: 7, speaker: Sam, hanji: "了後咧？", tailo: "Liáu-āu--leh?", en: "And then?"}
+  - {n: 8, speaker: A-kong, hanji: "散學了後，紮一寡柴轉來，予阿母燃柴煮暗頓。", tailo: "Suànn-o̍h liáu-āu, tsah tsi̍t-kuá tshâ tńg--lâi, hōo a-bú hiânn-tshâ tsú àm-tǹg.", en: "After school let out, I'd carry some firewood back, so my mother could burn it to cook dinner."}
+  - {n: 9, speaker: Sam, hanji: "逐工攏按呢？連禮拜日嘛無歇睏？", tailo: "Ta̍k-kang lóng án-ne? Liân lé-pài-ji̍t mā bô hioh-khùn?", en: "Every day like that? Not even a day off on Sundays?"}
+  - {n: 10, speaker: A-kong, hanji: "作穡人無禮拜日。田裡的代誌，袂等人。", tailo: "Tsoh-sit-lâng bô lé-pài-ji̍t. Tshân--lí ê tāi-tsì, bē tán lâng.", en: "Farmers have no Sundays. The work in the fields won't wait for anyone."}
+  - {n: 11, speaker: Sam, hanji: "彼陣你有去讀冊無？", tailo: "Hit-tsūn lí ū khì tha̍k-tsheh--bô?", en: "Did you go to school back then?"}
+  - {n: 12, speaker: A-kong, hanji: "有，毋過冊包內底除了冊，閣紮一寡番薯予中晝食。", tailo: "Ū, m̄-koh tsheh-pau lāi-té tû-liáu tsheh, koh tsah tsi̍t-kuá han-tsî hōo tiong-tàu tsia̍h.", en: "I did, but besides the books, my schoolbag also had some sweet potatoes in it, to eat at noon."}
+  - {n: 13, speaker: Sam, hanji: "連番薯都紮去學校？", tailo: "Liân han-tsî to tsah khì ha̍k-hāu?", en: "Even sweet potatoes, carried all the way to school?"}
+  - {n: 14, speaker: A-kong, hanji: "著啊，彼時陣有通食就好矣，毋管好食歹食。", tailo: "Tio̍h--ah, hit sî-tsūn ū thang tsia̍h tō hó--ah, m̄-kuán hó-tsia̍h pháinn-tsia̍h.", en: "That's right. Back then, as long as there was something to eat, that was enough — never mind whether it tasted good or not."}
+  - {n: 15, speaker: Sam, hanji: "想起來，這馬的囡仔足好命。", tailo: "Siūnn--khí-lâi, tsit-má ê gín-á tsiok hó-miā.", en: "Thinking about it, kids these days have it so easy."}
+  - {n: 16, speaker: A-kong, hanji: "後來的生活漸漸較好，毋過彼段日子我永遠會記得。", tailo: "Āu--lâi ê sing-ua̍h tsiām-tsiām khah hó, m̄-koh hit tuānn ji̍t-tsí guá íng-uán ē-kì--tit.", en: "Life gradually got better afterwards, but I'll always remember those days."}
+notes:
+  - {ref: 1, topic: vocab, text: "翕 hip = take a photo (拍照), Taigi-only; 翕相 hip-siòng (lesson 15) is the same verb with its object. 張 tiunn here is the classifier for photos, like paper."}
+  - {ref: 3, topic: vocab, text: "赤跤 tshiah-kha = barefoot. 留 lâu = keep, save for later: 留咧過年才穿 'kept to wear at New Year'."}
+  - {ref: 5, topic: grammar, text: "就我來講 tsiū guá lâi kóng = 'speaking for myself, as far as I'm concerned': 就 tsiū here is a different, more literary word from 就 tō (lesson 5); it means 'with regard to, based on', mostly in this kind of fixed phrase. 仝款 kāng-khuán = the same (lesson 28)."}
+  - {ref: 6, topic: grammar, text: "咧欲 teh-beh = about to, on the verge of (快要): stronger and more immediate than 欲 beh alone. 天猶咧欲光 'the sky was only just about to get light'. 牽牛 khan gû = lead a cow/ox by a rope."}
+  - {ref: 8, topic: vocab, text: "散學 suànn-o̍h = get out of school, Taigi-only (this course's 讀冊/學校 already cover 'study/school'). 柴 tshâ = firewood; 燃柴 hiânn-tshâ = burn firewood as fuel: the everyday stove before gas and electricity."}
+  - {ref: 9, topic: grammar, text: "連 X 嘛/都 V = even X …: 連禮拜日嘛無歇睏 'not even resting on Sundays'. 嘛 mā and 都 to can both close the pattern; 嘛 is the more spoken one."}
+  - {ref: 10, topic: vocab, text: "作穡人 tsoh-sit-lâng = farmer (作穡 tsoh-sit, lesson 56). 袂等人 'won't wait for anyone' (lesson 39's 袂 + result pattern)."}
+  - {ref: 12, topic: grammar, text: "除了 X，閣 Y = besides X, also Y (除了…還). 中晝 tiong-tàu = noon, midday meal; the everyday word, alongside 中午."}
+  - {ref: 14, topic: vocab, text: "有通食 ū thang 'there was [something] to eat': 通 thang = can, in order to (lesson 48). 毋管 X Y = no matter X, Y (lesson 57), recycled here with two opposite adjectives."}
+  - {ref: 16, topic: grammar, text: "後來 āu--lâi = afterwards, later on: unlike 了後 liáu-āu (right after a specific event) or 以後 í-āu (from now/then on), 後來 looks back over a longer stretch of time. 會記得 ē-kì--tit = remember; its negative is 袂記得 bē-kì-tit (lesson 29)."}
+new_words:
+  - {tailo: teh-beh, hanji: 咧欲, en: "about to"}
+  - {tailo: liân, hanji: 連, en: "even"}
+  - {tailo: tsiū, hanji: 就, en: "with regard to, as for (literary)"}
+  - {tailo: "āu--lâi", hanji: 後來, en: "afterwards, later on"}
+  - {tailo: tshiah-kha, hanji: 赤跤, en: "barefoot"}
+  - {tailo: kan-khóo, hanji: 艱苦, en: "hardship; hard"}
+  - {tailo: suànn-o̍h, hanji: 散學, en: "get out of school"}
+  - {tailo: gû, hanji: 牛, en: "ox, cow"}
+  - {tailo: khan, hanji: 牽, en: "lead (by hand)"}
+  - {tailo: tshâ, hanji: 柴, en: "firewood"}
+  - {tailo: hiânn-tshâ, hanji: 燃柴, en: "burn firewood"}
+  - {tailo: tsoh-sit-lâng, hanji: 作穡人, en: "farmer"}
+  - {tailo: tsheh-pau, hanji: 冊包, en: "schoolbag"}
+  - {tailo: khó-sioh, hanji: 可惜, en: "a pity"}
+  - {tailo: siūnn-khí, hanji: 想起, en: "recall, think of"}
+exercises:
+  translate:
+    - {tailo: "Hit-tsūn guán ta̍k-ke lóng tshiah-kha.", hanji: "彼陣阮逐家攏赤跤。", en: "Back then we all went barefoot."}
+    - {tailo: "Thinn iáu teh-beh kng, guá tō tio̍h khí--lâi.", hanji: "天猶咧欲光，我就著起來。", en: "The sky was only just about to grow light, and I already had to get up."}
+    - {tailo: "Liân lé-pài-ji̍t mā bô hioh-khùn.", hanji: "連禮拜日嘛無歇睏。", en: "Not even a day off on Sundays."}
+  fill:
+    - {tailo: "___ guá lâi kóng, hit-tsūn ta̍k-ke lóng kāng-khuán sàn-tshiah.", hanji: "___我來講，彼陣逐家攏仝款散赤。", answer: "Tsiū", answer_hanji: "就", en: "Speaking for myself, everyone was equally poor back then."}
+    - {tailo: "___ ê sing-ua̍h tsiām-tsiām khah hó.", hanji: "___的生活漸漸較好。", answer: "Āu--lâi", answer_hanji: "後來", en: "Life gradually got better afterwards."}
+audio: []
