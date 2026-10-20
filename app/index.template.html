@@ -1561,8 +1561,9 @@ function play(src, btn) {
 }
 // a dialogue line, word by word, with the dictionary's recordings. These are citation forms: the tone changes of
 // connected speech (spoken tones) are not heard. A word the dictionary has no recording of is played from its
-// recorded pieces (sub-words or single syllables, `audio_seq`, see build_app.py); only words with none are skipped.
-function wordAudio(t) { const c = t.w && t.w.id && DATA.dict[t.w.id]; return !c ? [] : c.audio ? [c.audio] : c.audio_seq || []; }
+// recorded pieces (sub-words or single syllables, `audio_seq`, see build_app.py); a romanised word in a Hàn-jī line
+// (ke / kue…) from recordings of exactly that sound (`as`). Only words with no such sound recorded are skipped.
+function wordAudio(t) { const c = t.w && t.w.id && DATA.dict[t.w.id]; return !c ? (t.w && t.w.as) || [] : c.audio ? [c.audio] : c.audio_seq || []; }
 function lineAudio(tokens) { return tokens.map((t, i) => [t, i]).filter(([t]) => wordAudio(t).length); }
 let lineRun = 0;
 async function playLine(li, btn) {

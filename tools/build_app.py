@@ -292,9 +292,15 @@ os.makedirs(os.path.join(ROOT, 'app/dist'), exist_ok=True)
 # recording, used everywhere. 2) Otherwise the word is cut into the fewest recorded pieces (sub-words, then single
 # syllables with the same reading), played one after the other by the line player (`moe_seq`).
 REC_KEY = {}
+SOUND = {}                       # reading -> a recording of exactly that sound (main reading of its entry only)
+_seen = set()
 for _hk, _sid in ((SUTIAN or {}).get('w') or {}).items():
     _h, _, _t = _hk.partition('|')
-    REC_KEY.setdefault(f'{_h}|{key(_t)}', _sid)
+    _k = key(_t)
+    REC_KEY.setdefault(f'{_h}|{_k}', _sid)
+    if _sid not in _seen and _k:   # 'ē/uē': only the first reading is the one recorded in <id>.mp3
+        SOUND.setdefault(_k, _sid)
+    _seen.add(_sid)
 
 
 def rec_id(h, k):
@@ -305,27 +311,35 @@ def rec_id(h, k):
 
 
 def rec_pieces(seg, k):
-    """[(id or None, syllables)] covering the word: most syllables recorded first, then fewest pieces."""
-    chars, syls = UNIT_RE.findall(seg), k.split('-')
-    if len(chars) != len(syls):
-        return []
+    """[(id or None, syllables, by_sound)] covering the word. Pieces are recordings of the same Hàn-jī with the same
+    reading, or, failing that, any recording with exactly the same sound (a homophone: identical in citation form).
+    Most syllables recorded first, then fewest pieces, then fewest homophones. `seg` None: romanised text, sound only."""
+    syls = k.split('-')
+    chars = UNIT_RE.findall(seg) if seg else None
+    if chars is not None and len(chars) != len(syls):
+        chars = None
     n = len(syls)
-    best = [(0, 0, [])] + [None] * n            # (unrecorded syllables, pieces, plan) for the first i syllables
+    best = [(0, 0, 0, [])] + [None] * n
     for i in range(n):
         if best[i] is None:
             continue
-        miss, cnt, plan = best[i]
+        miss, cnt, snd, plan = best[i]
         for j in range(i + 1, min(n, i + 4) + 1):
-            rid = rec_id(''.join(chars[i:j]), '-'.join(syls[i:j]))
+            kk = '-'.join(syls[i:j])
+            rid = rec_id(''.join(chars[i:j]), kk) if chars else None
+            by_sound = False
+            if rid is None:
+                rid, by_sound = SOUND.get(kk), True
             if rid is None and j > i + 1:
                 continue
-            cand = (miss + (0 if rid else 1), cnt + 1, plan + [(rid, j - i)])
-            if best[j] is None or cand[:2] < best[j][:2]:
+            cand = (miss + (0 if rid else 1), cnt + 1, snd + (1 if rid and by_sound else 0),
+                    plan + [(rid, j - i, rid is not None and by_sound)])
+            if best[j] is None or cand[:3] < best[j][:3]:
                 best[j] = cand
-    return best[n][2]
+    return best[n][3]
 
 
-n_same = n_seq = 0
+n_same = n_seq = n_tok = 0
 for c in dictionary.values():
     if c.get('moe_id') or not c.get('tkey'):
         continue
@@ -335,12 +349,29 @@ for c in dictionary.values():
         n_same += 1
         continue
     plan = rec_pieces(c['hanji'], c['tkey'])
-    if any(r for r, _ in plan):
-        c['moe_seq'] = [r for r, _ in plan if r]
-        c['seq_full'] = all(r for r, _ in plan)
+    if any(r for r, _, _ in plan):
+        c['moe_seq'] = [r for r, _, _ in plan if r]
+        c['seq_full'] = all(r for r, _, _ in plan)
+        c['seq_sound'] = any(b for _, _, b in plan)
         n_seq += 1
+# romanised words inside a Hàn-jī line (the sounds a dialogue talks about: ke / kue, ti / tu, káu / kàu / kâu…):
+# no card, so the token itself carries the recordings of that exact sound (w['as'])
+for L in lessons:
+    for ln in L['lines']:
+        if len(ln['tokens']) == 1:
+            continue
+        for t in ln['tokens']:
+            w = t.get('w')
+            if w and not w.get('id') and key(w['t']):
+                plan = rec_pieces(None, key(w['t']))
+                if any(r for r, _, _ in plan):
+                    w['as_ids'] = [r for r, _, _ in plan if r]
+                    w['as_full'] = all(r for r, _, _ in plan)
+                    n_tok += 1
 need = sorted({c['moe_id'] for c in dictionary.values() if c.get('moe_id')}
-              | {r for c in dictionary.values() for r in c.get('moe_seq', [])}, key=int)
+              | {r for c in dictionary.values() for r in c.get('moe_seq', [])}
+              | {r for L in lessons for ln in L['lines'] for t in ln['tokens'] for r in (t.get('w') or {}).get('as_ids', [])},
+              key=int)
 open(os.path.join(ROOT, 'app/dist/audio-needed.txt'), 'w').write('\n'.join(need) + '\n')
 need_ex = sorted({c['example']['leku'] for c in dictionary.values() if c.get('example', {}).get('leku')})
 open(os.path.join(ROOT, 'app/dist/audio-needed-examples.txt'), 'w').write('\n'.join(need_ex) + '\n')
@@ -358,10 +389,24 @@ for c in dictionary.values():
 for c in dictionary.values():
     seq = [f'audio/w/{r}.mp3' for r in c.pop('moe_seq', []) if os.path.exists(os.path.join(AUDIO, r + '.mp3'))]
     full = c.pop('seq_full', False)
+    sound = c.pop('seq_sound', False)
     if seq and not c.get('audio'):
         c['audio_seq'] = seq
         if not full:
             c['seq_part'] = True     # some syllables have no recording at all
+        if sound:
+            c['seq_sound'] = True    # some pieces are homophones (same sound, other characters)
+for L in lessons:
+    for ln in L['lines']:
+        for t in ln['tokens']:
+            w = t.get('w')
+            if w and 'as_ids' in w:
+                ids, full = w.pop('as_ids'), w.pop('as_full')
+                seq = [f'audio/w/{r}.mp3' for r in ids if os.path.exists(os.path.join(AUDIO, r + '.mp3'))]
+                if seq:
+                    w['as'] = seq
+                    if not full:
+                        w['as_part'] = True
 # ---- report: every word a dialogue line plays (or skips) without a recording of its own
 #      app/dist/audio-missing.txt: cause, Hàn-jī, Tâi-lô, times used, lessons (P1 = 進修 1)
 _miss = {}
@@ -383,9 +428,12 @@ for L in lessons:
             if c and c.get('audio'):
                 continue
             if not w.get('id'):
-                cause = 'line not split into words' if len(ln['tokens']) == 1 else 'no card'
+                cause = ('line not split into words' if len(ln['tokens']) == 1 else
+                         'romanised, same sound (some syllables silent)' if w.get('as_part') else
+                         'romanised, same sound' if w.get('as') else 'no card, no recording of that sound')
             elif c.get('audio_seq'):
-                cause = 'pieces (some syllables silent)' if c.get('seq_part') else 'pieces'
+                cause = ('pieces (some syllables silent)' if c.get('seq_part') else
+                         'pieces, some by same sound' if c.get('seq_sound') else 'pieces')
             elif c.get('moe_id') or c.get('moe_seq'):
                 cause = 'recording not downloaded'
             elif c.get('source') == 'moe':
@@ -406,7 +454,8 @@ with open(os.path.join(ROOT, 'app/dist/audio-missing.txt'), 'w', encoding='utf-8
     f.write('# words played by a dialogue ▶ without their own recording (cause, Hàn-jī, Tâi-lô, uses, lessons)\n')
     for (cause, h, tl), (cnt, ls) in sorted(_miss.items(), key=lambda x: (x[0][0], -x[1][0])):
         f.write(f"{cause}\t{h}\t{tl}\t{cnt}\t{','.join(ls[:6])}{f' +{len(ls) - 6}' if len(ls) > 6 else ''}\n")
-print(f'line audio: {_tok_total} word tokens; own recording found for {n_same} non-MOE cards, pieces for {n_seq}; '
+print(f'line audio: {_tok_total} word tokens; own recording found for {n_same} non-MOE cards, pieces for {n_seq} cards '
+      f'and {n_tok} romanised words; '
       f'without own recording: ' + ', '.join(f'{k} {v}' for k, v in _by_cause.most_common()))
 if os.environ.get('GITHUB_ACTIONS') and have:
     print(f'::notice title=Line audio::{_tok_total} word tokens in lessons; {sum(_by_cause.values())} without their own '
