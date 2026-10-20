@@ -1,0 +1,1188 @@
+# English for word cards (tools/english.py). Columns: Hàn-jī <TAB> Tâi-lô <TAB> English.
+# Short glosses written for the course from the MOE meanings; the first sense is the most common one in speech.
+# Words declared in lessons' or themes' new_words use that English instead. Lines starting with # are ignored.
+的	--ê	possessive / modifier particle ('s, of)
+是	sī	to be; yes, right
+無	bô	not have; there is no; not, didn't
+我	guá	I, me
+有	ū	to have; there is; did (affirms an action)
+伊	i	he, she, it
+一	tsi̍t	one; a; whole (一日 the whole day)
+你	lí	you
+來	lâi	to come
+人	lâng	person, people; others
+講	kóng	to say, speak, talk
+毋	m̄	not (won't, don't want; also with 是, 知, 捌)
+這	tsit	this (+ classifier)
+啊	--ah	particle: ah! (surprise; marks the topic)
+个	ê	classifier for people and things (个); also possessive particle
+真	tsin	very; truly, really
+看	khuànn	to look, see, watch; to think, judge
+會	ē	can, will, would; to be likely to
+好	hó	good, fine; OK; easy to (好食 tasty)
+做	tsò	to do, make; to work as
+較	khah	more, -er (comparison); rather
+啦	--lah	particle: emphasis, insistence ("…lah!")
+想	siūnn	to think; to miss (someone); to want
+通	thang	may, can; so that
+對	tuì	toward; from; to treat; right, correct
+阮	guán	we, us (not including you); my, our
+乎	--honnh	particle: right?, isn't it? (asks agreement)
+兩	nn̄g	two
+咧	--leh	particle after a verb or at the end: (keeps doing); emphasis
+聽	thiann	to listen, hear; to obey
+時	sî	time, moment; when
+出	tshut	to go out, come out; to produce
+年	nî	year
+話	uē	speech, words, language
+為	uī	for, because of; to side with
+遐	hia	there
+日	ji̍t	day; sun; Japan
+落	lo̍h	to go down, fall; to put in
+起	khí	to rise, go up; to build
+所	sóo	place; office
+問	mn̄g	to ask
+那	ná	while (那…那… while…); the more… (the more)
+心	sim	heart, mind
+都	to	already; even; all
+拍	phah	to hit, beat; to make (拍電話 phone)
+轉	tńg	to turn; to return (home)
+在	tsāi	steady, firm; at (formal)
+得	tit	to get, obtain; can (得 + verb)
+用	iōng	to use
+厝	tshù	house, home
+阿	a	prefix for kin terms and names (阿母, 阿明)
+仔	á	suffix: small; forms nouns (椅仔, 囡仔)
+一下	tsi̍t-ē	a little, a moment (after a verb); as soon as
+水	tsuí	water
+頭	thâu	head; first; end (頭前 front)
+猶	iáu	still, yet
+尾	bué	tail; end, last
+項	hāng	item; kind (classifier for things, matters)
+遐	hiah	so, that (遐濟 that many)
+實在	si̍t-tsāi	really, truly; real
+逐	ta̍k	every, each
+四	sì	four
+紲	suà	to continue, go on; then
+聲	siann	sound, voice
+十	tsa̍p	ten
+路	lōo	road, way; distance; way of doing
+天	thinn	sky, heaven; weather
+睏	khùn	to sleep
+五	gōo	five
+算	sǹg	to count, calculate; to consider as
+受	siū	to receive; to suffer
+粒	lia̍p	grain, small round thing; classifier for round things
+面	bīn	face; side, surface
+讀	tha̍k	to read; to study
+像	tshiūnn	to look like, resemble; like, as
+蛤	kap	clam
+號	hō	number; to name
+趁	thàn	to earn; to take the chance
+風	hong	wind
+生	senn	to give birth; to grow
+第一	tē-it	first; most, best
+喔	--ooh	particle: oh!, OK (warning, realization)
+呢	--neh	particle: (exclamation, mild surprise)
+法度	huat-tōo	way, means (無法度 can't help it)
+感覺	kám-kak	to feel; feeling
+又	iū	again; also
+八	peh	eight
+早	tsá	early; morning
+報	pò	to tell, report; to sign up
+愈	jú	the more (愈來愈 more and more)
+句	kù	sentence; line
+來去	lâi-khì	to go (let's go, I'm going)
+暗	àm	dark; evening, night
+再	tsài	again
+下	ē	under, below; classifier for a short action (time)
+位	uī	place; seat; classifier for people (polite)
+花	hue	flower; messy, confused
+變	piàn	to change; incident
+一	it	one (literary reading: 第一, 一月)
+空	khang	hole, gap
+酒	tsiú	alcohol, wine
+紅	âng	red; popular
+山	suann	mountain, hill
+王	ông	king; best of its kind; surname Ông (Wang)
+哭	khàu	to cry
+拜	pài	to worship, pray; to bow
+七	tshit	seven
+矣	--ah	particle: (already) done, change of state (like 了)
+小	sió	small, little; a bit
+陳	tân	surname Tân (Chen)
+前	tsîng	before, front
+跤	kha	foot, leg; below
+時間	sî-kan	time
+就是	tō sī	exactly, that is; it's just that
+每	muí	every, each
+內面	lāi-bīn	inside
+永遠	íng-uán	forever, always
+後	āu	after, behind; next
+出來	tshut-lâi	to come out
+六	la̍k	six
+學校	ha̍k-hāu	school
+兄弟	hiann-tī	brothers; buddies
+分	pun	to divide, share out; to give
+共	kāng	same (= 仝)
+幾若	kuí-nā	several
+開	khai	to spend (money)
+社會	siā-huē	society
+信	sìn	to believe; letter
+道理	tō-lí	reason, sense; principle
+過去	kuè-khì	the past; to go over, pass
+邊	pinn	side, edge
+顧	kòo	to look after, take care of; to guard
+白	pe̍h	white; plain
+車	tshia	car, vehicle
+應	ìn	to answer, reply; to talk back
+逐个	ta̍k ê	everyone, each one
+隨	suî	to follow; immediately
+少年	siàu-liân	young; young person
+挽	bán	to pick, pluck
+救	kiù	to save, rescue
+變	pìnn	to do, fiddle with (變啥物 what are you up to)
+唱	tshiùnn	to sing
+爿	pîng	side (這爿 this side)
+論	lūn	to discuss; according to
+有時	ū-sî	sometimes
+古早	kóo-tsá	old times, the old days
+米	bí	rice (uncooked)
+門	mn̂g	door, gate
+正	tsiànn	right (side); straight; genuine
+世界	sè-kài	world
+春	tshun	spring (season)
+排	pâi	to line up, arrange; row
+日子	ji̍t-tsí	day, date; life, days
+中間	tiong-kan	middle, in between
+起來	khí-lâi	to get up; to go up (north)
+向望	ǹg-bāng	to hope; hope
+嘛	--mah	particle: (obviously, come on)
+當	tng	right at, during (當時 then)
+長	tn̂g	long
+小弟	sió-tī	younger brother
+冊	tsheh	book
+林	lîm	surname Lîm (Lin); forest
+國	kok	country, nation
+台	tâi	stage, platform
+回	huê	to return, reply
+人生	jîn-sing	life
+配	phuè	to eat with (rice); to match
+關係	kuan-hē	relation, connection
+當時	tong-sî	at that time
+別	pa̍t	other
+隨時	suî-sî	at any time
+傳	thuân	to pass on, hand down
+身邊	sin-pinn	by one's side
+肉	bah	meat, flesh
+第	tē	-th (ordinal prefix)
+菜	tshài	vegetables; dish
+總	tsóng	all, in total; anyway
+討	thó	to ask for, demand
+魚	hî	fish
+海	hái	sea
+火	hué	fire; light
+飯	pn̄g	rice (cooked); meal
+漸漸	tsiām-tsiām	gradually
+哩	--lih	particle: (assertion)
+陣	tīn	group, crowd
+伴	phuānn	companion; to accompany
+哪	ná	how (could), why
+停	thîng	to stop
+摸	bong	to touch, feel; to dawdle
+歇	hioh	to rest, take a break
+邊仔	pinn--á	side, nearby
+代	tāi	generation; era
+倒	tò	left (side); to pour
+拚	piànn	to strive, work hard; to compete
+準	tsún	accurate; to count as
+若像	ná-tshiūnn	seem, as if
+豬	ti	pig
+飽	pá	full (after eating)
+醫	i	to cure, treat
+向	ǹg	to face, toward
+特別	ti̍k-pia̍t	special; especially
+部份	pōo-hūn	part
+頂面	tíng-bīn	top, above, on
+方面	hong-bīn	aspect, side
+段	tuānn	section, stretch
+出去	tshut-khì	to go out
+快	khuài	quick; easy; happy
+冷	líng	cold
+鼻	phīnn	nose; to smell
+還	hîng	to give back
+入去	ji̍p-khì	to go in
+以	í	with, by (formal)
+定著	tiānn-tio̍h	surely, certainly
+交代	kau-tài	to instruct, tell (someone to do); to explain
+照	tsiò	to shine on; to look in (a mirror)
+寡	kuá	some, a little (一寡 some)
+通知	thong-ti	to inform, notify; notice
+草	tsháu	grass
+拜託	pài-thok	please; to ask a favour
+民族	bîn-tso̍k	nation, people
+袂曉	bē-hiáu	can't, don't know how to
+合	ha̍h	to fit, suit
+大人	tāi-jîn	policeman (Japanese era, old)
+唸	liām	to read aloud; to nag
+大學	tāi-ha̍k	university
+明明	bîng-bîng	clearly, obviously
+注意	tsù-ì	to pay attention, be careful
+悲哀	pi-ai	sad, sorrowful
+佗	tó	which; where
+踅	se̍h	to walk around, stroll; to turn
+方式	hong-sik	way, method
+紙	tsuá	paper
+場	tiûnn	place, field; classifier for events
+幸福	hīng-hok	happy, happiness
+家	ke	family, home
+所有	sóo-ū	all
+樹仔	tshiū-á	tree
+本身	pún-sin	oneself, itself
+分開	hun-khui	to separate
+西	sai	west
+意	ì	meaning; intention
+圓	înn	round; circle
+路邊	lōo-pinn	roadside
+曝	pha̍k	to dry in the sun; to sunbathe
+門口	mn̂g-kháu	doorway, entrance
+口	kháu	mouth; opening
+插	tshah	to stick in, insert
+希望	hi-bāng	to hope; hope
+全部	tsuân-pōo	all, whole
+浮	phû	to float
+法	huat	way, method; law
+學習	ha̍k-si̍p	to learn
+個	kò	month (classifier: 一個月)
+老人	lāu-lâng	old person
+味	bī	taste, flavour; smell
+搶	tshiúnn	to grab, rob
+探聽	thàm-thiann	to inquire, find out
+輕鬆	khin-sang	relaxed, easy
+房	pâng	room; branch of a family
+崁	khàm	to cover
+壁	piah	wall
+省	síng	to save (money); province
+仝	kāng	same
+大概	tāi-khài	probably, roughly
+主要	tsú-iàu	main, mainly
+擔	tànn	stall (food stand); load
+褲	khòo	trousers
+使	sái	to use; to drive (a vehicle); to signal
+頓	tǹg	meal (classifier: 三頓 three meals)
+期待	kî-thāi	to look forward to
+布	pòo	cloth
+編	pian	to edit, compile; to make up
+投	tâu	to complain (to someone)
+鳥鼠	niáu-tshí	mouse, rat
+剪	tsián	to cut (with scissors)
+表示	piáu-sī	to show, express
+當初	tong-tshoo	at first, originally
+入來	ji̍p-lâi	to come in
+參加	tsham-ka	to take part, join
+掉	tiāu	(verb +) away, off
+本來	pún-lâi	originally
+語	gí	language
+囉	--looh	particle: (now, already)
+葉	hio̍h	leaf
+數	sòo	number; accounts; fate
+班	pan	class, shift; group
+差	tsha	to differ; difference
+桌頂	toh-tíng	on the table
+東爿	tang-pîng	east side
+祭	tsè	to offer sacrifices
+姓	sènn	surname; to be surnamed
+哈	hah	(sound) ha
+禮	lé	courtesy, rites; gift
+落來	lo̍h-lâi	to come down
+犧牲	hi-sing	to sacrifice
+發現	huat-hiān	to discover, find
+物	mih	thing (in 啥物 what)
+度	tōo	degree; to spend (time)
+溪	khe	river, stream
+鞋	ê	shoe
+白賊	pe̍h-tsha̍t	lie; to lie
+差	tshe	to send (someone on an errand)
+義	gī	righteousness; meaning
+泅	siû	to swim
+件	kiānn	classifier for clothes, matters, items
+規个	kui-ê	whole, entire
+見面	kìnn-bīn	to meet
+把	pé	bunch, handful (classifier)
+博士	phok-sū	doctor (PhD)
+橋	kiô	bridge
+外國	guā-kok	foreign country; foreign
+方法	hong-huat	method, way
+頭毛	thâu-mn̂g	hair (on the head)
+群	kûn	group, flock
+試	tshì	to try; test
+千萬	tshian-bān	by all means (千萬毋通 never ever)
+勉強	bián-kióng	reluctant; to force
+選	suán	to choose; to elect
+講起	kóng-khí	speaking of, to mention
+確實	khak-si̍t	really, indeed
+甚至	sīm-tsì	even
+站	tsām	station, stop
+失禮	sit-lé	sorry, excuse me
+帶	tài	to carry; area, zone
+無夠	bô-kàu	not enough
+經驗	king-giām	experience
+普通	phóo-thong	ordinary, usual
+防	hông	to guard against
+查埔人	tsa-poo-lâng	man; husband
+地方	tē-hng	place
+通好	thang-hó	so that one can
+勇氣	ióng-khì	courage
+作	tsoh	to farm, work the land
+天氣	thinn-khì	weather
+當時	tang-sî	when? (at what time)
+路尾	lōo-bué	later, in the end
+爛	nuā	rotten; soft, mushy
+好歹	hó-pháinn	good and bad; anyway, at least
+樣	iūnn	shape, way, style
+哈	ha	to drink (hot tea); laugh
+大路	tuā-lōo	main road; generous
+阿舅	a-kū	uncle (mother's brother)
+貼	tah	to stick, paste
+內容	luē-iông	content
+正經	tsìng-king	serious, proper; really
+建立	kiàn-li̍p	to build, establish
+組	tsoo	group, team; set
+古	kóo	old, ancient; story
+金金	kim-kim	(staring) wide-eyed
+中晝	tiong-tàu	noon; lunch
+值	ta̍t	to be worth
+擲	tàn	to throw
+罕得	hán-tit	rarely
+佔	tsiàm	to occupy, take up
+淡水	Tām-tsuí	Tamsui (town near Taipei)
+平常	pîng-siông	usually; ordinary
+大的	tuā--ê	the eldest; boss, big brother
+未來	bī-lâi	future
+皮	phuê	skin; leather
+軁	nǹg	to squeeze through, crawl through
+套	thò	set, suit (classifier); to put over
+功勞	kong-lô	merit, credit
+鐵	thih	iron
+熱天	jua̍h-thinn	summer
+跤骨	kha-kut	legs
+袋	tē	bag; to put in a bag
+動	tāng	to move
+粗	tshoo	rough, coarse
+南	lâm	south
+好命	hó-miā	lucky, fortunate (in life)
+風景	hong-kíng	scenery
+寫字	siá-jī	to write (characters)
+戇戇	gōng-gōng	dazed, stupidly
+雄	hiông	fierce; quick, sudden
+生做	senn-tsò	to look (生做真媠 she's pretty)
+原本	guân-pún	originally
+跳舞	thiàu-bú	to dance
+電視	tiān-sī	television
+節	tsat	joint; section
+一點仔	tsi̍t-tiám-á	a little, a bit
+關心	kuan-sim	to care about
+發表	huat-piáu	to publish, present
+改變	kái-piàn	to change
+完成	uân-sîng	to finish, complete
+索仔	soh-á	rope, string
+教授	kàu-siū	professor
+幼	iù	fine, delicate, tender
+萬事	bān-sū	everything
+彼爿	hit pîng	that side, over there
+湯	thng	soup
+西瓜	si-kue	watermelon
+行李	hîng-lí	luggage
+配合	phuè-ha̍p	to cooperate, go along with
+論文	lūn-bûn	thesis, paper
+其他	kî-thann	other
+竟然	kìng-jiân	unexpectedly, actually
+根本	kin-pún	at all; basically
+化	huà	to melt, dissolve
+聽著	thiann-tio̍h	to hear
+巴	pa	(used in names, e.g. 巴黎 Paris)
+捷	tsia̍p	often, frequently
+加減	ke-kiám	more or less; a little anyway
+相會	siong-huē	to meet
+獅	sai	lion
+腰	io	waist
+處理	tshú-lí	to handle, deal with
+性	sìng	nature, temper; sex
+啥款	siánn-khuán	what kind, how
+後悔	hiō-hué	to regret
+毋捌	m̄ bat	never (have); don't know (someone)
+瘦	sán	thin, skinny
+早前	tsá-tsîng	before, earlier
+成績	sîng-tsik	results, grades
+付	hù	to pay
+利	lāi	sharp
+過頭	kuè-thâu	too much, excessive
+用心	iōng-sim	attentive, with care
+解決	kái-kuat	to solve
+便所	piān-sóo	toilet
+芳味	phang-bī	fragrance, nice smell
+結束	kiat-sok	to end
+好好仔	hó-hó-á	properly, carefully
+河	hô	river
+舊年	kū-nî	last year
+身軀邊	sin-khu-pinn	on one's person, at hand
+毛	mn̂g	hair, fur, feathers
+佇咧	tī-leh	be at; be (doing)
+乳	ling	milk; breast
+借問	tsioh-mn̄g	excuse me, may I ask
+堅持	kian-tshî	to insist
+耳空	hīnn-khang	ear
+正式	tsìng-sik	formal, official
+逐工	ta̍k-kang	every day
+反	píng	to turn over, flip
+提起	thê-khí	to mention, bring up
+備	pī	to prepare
+觀念	kuan-liām	idea, concept
+電火	tiān-hué	light, lamp
+城市	siânn-tshī	city
+理解	lí-kái	to understand
+伯	peh	uncle (father's elder brother); polite for older men
+搝	khiú	to pull, tug
+昨昏	tsa-hng	yesterday
+方向	hong-hiòng	direction
+證明	tsìng-bîng	to prove; certificate
+手頭	tshiú-thâu	money at hand, finances
+流行	liû-hîng	popular, in fashion
+當中	tang-tiong	in the middle, among
+火炭	hué-thuànn	charcoal
+無去	bô--khì	gone, lost; to pass away
+興趣	hìng-tshù	interest; to be interested
+黏	liâm	to stick; sticky
+特色	ti̍k-sik	feature, characteristic
+心意	sim-ì	thought, wish; feelings
+一路	tsi̍t-lōo	all the way, along the way
+百萬	pah-bān	million
+輪	lûn	turn, round
+程度	thîng-tōo	level
+例	lē	example
+階段	kai-tuānn	stage, phase
+懷疑	huâi-gî	to doubt, suspect
+罐	kuàn	can, jar, bottle
+州	tsiu	state, prefecture
+享受	hiáng-siū	to enjoy
+教學	kàu-ha̍k	teaching
+觀光	kuan-kong	tourism, sightseeing
+查某囡仔	tsa-bóo gín-á	girl
+答應	tah-ìng	to agree, promise
+消	siau	to fade, go down (swelling, anger)
+響	hiáng	loud; echo
+美	bí	beautiful; America
+皮膚	phuê-hu	skin
+虎姑婆	Hóo-koo-pô	Tiger Granny (folk-tale bogeywoman)
+遮的	tsia--ê	these
+對頭	tuì-thâu	enemy, rival
+模樣	bôo-iūnn	look, appearance
+煩	huân	annoying; to worry
+蓮霧	lián-bū	wax apple
+丸	uân	ball (meatball, fishball)
+牲醴	sing-lé	sacrificial meats (offerings)
+浸	tsìm	to soak
+衛生	uē-sing	hygiene; clean
+畢業	pit-gia̍p	to graduate
+牢	tiâu	stuck, firmly (verb + 牢)
+費	huì	fee, cost
+國語	kok-gí	Mandarin (national language)
+電	tiān	electricity
+業	gia̍p	trade, business
+蔥	tshang	spring onion
+基本	ki-pún	basic
+個性	kò-sìng	personality
+真實	tsin-si̍t	true, real
+氣氛	khì-hun	atmosphere
+接觸	tsiap-tshiok	to come into contact
+中秋	Tiong-tshiu	Mid-Autumn Festival
+方	hong	side, direction
+咖啡	ka-pi	coffee
+公道	kong-tō	fair, just; reasonably priced
+招呼	tsio-hoo	to look after (guests), greet
+狀況	tsōng-hóng	situation
+這世人	tsit-sì-lâng	this life, all one's life
+生理人	sing-lí-lâng	businessman, trader
+彼當陣	hit-tang-tsūn	at that time
+納	la̍p	to pay (tax, fees)
+步數	pōo-sòo	trick, way of doing
+民主	bîn-tsú	democracy
+作用	tsok-iōng	effect, function
+烘	hang	to roast, warm by the fire
+臺	tâi	Taiwan; platform
+豬跤	ti-kha	pork knuckle
+理論	lí-lūn	theory; to argue
+坎	khám	step (of stairs)
+功課	kong-khò	homework
+寒天	kuânn-thinn	winter
+籃仔	nâ-á	basket
+廟寺	biō-sī	temple
+逐擺	ta̍k-pái	every time
+總共	tsóng-kiōng	in total
+集	tsi̍p	to gather; episode
+逼	pik	to force
+鹿	lo̍k	deer
+想講	siūnn-kóng	to think (that)
+落水	lo̍h-tsuí	to go into the water
+年歲	nî-huè	age
+年貨	nî-huè	New Year goods, New Year shopping
+相𫝛	sio-siāng	the same
+戇人	gōng-lâng	fool
+祖	tsóo	ancestor
+以早	í-tsá	before, in the past
+現象	hiān-siōng	phenomenon
+有時仔	ū-sî-á	sometimes
+嘿	--heh	yeah; hey
+𬦰	peh	to climb
+體會	thé-huē	to come to understand (by experience)
+剝	pak	to peel; to take off
+塔	thah	tower, pagoda
+興旺	hing-ōng	prosperous
+數	siàu	bill, account
+細聲	sè-siann	quietly, softly
+樓跤	lâu-kha	downstairs
+忍	lún	to bear, endure
+夜市	iā-tshī	night market
+現場	hiān-tiûnn	on site, live
+遐的	hia--ê	those
+偷偷仔	thau-thau-á	secretly
+菜市仔	tshài-tshī-á	(traditional) market
+予伊	hōo i	let him/her; give him/her
+本地	pún-tē	local
+禮貌	lé-māu	manners, polite
+面貌	bīn-māu	face, looks
+國內	kok-lāi	domestic, in the country
+明顯	bîng-hián	obvious
+表情	piáu-tsîng	expression (of the face)
+適合	sik-ha̍p	suitable
+歐	au	(used in names: 歐洲 Europe)
+山坪	suann-phiânn	hillside
+平常時	pîng-siông-sî	usually, normally
+阿姆	a-ḿ	aunt (father's elder brother's wife)
+讚	tsán	great, awesome
+節目	tsiat-bo̍k	programme, show
+認同	jīn-tông	to identify with; identity
+紲落來	suà--lo̍h-lâi	next, then
+鬥跤手	tàu-kha-tshiú	to help out, give a hand
+齁	honn	snore
+歹看	pháinn-khuànn	ugly; embarrassing
+拍球	phah-kiû	to play ball
+做生理	tsò-sing-lí	to do business
+毋敢	m̄ kánn	not dare
+順風	sūn-hong	have a good trip; tailwind
+穿	tshng	hole
+商	siong	commerce
+有名	ū-miâ	famous
+巷	hāng	lane, alley
+做戲	tsò-hì	to act (in a play)
+宣佈	suan-pòo	to announce
+兩爿	nn̄g-pîng	both sides
+豆油	tāu-iû	soy sauce
+冰糖	ping-thn̂g	rock sugar
+社	siā	community; society, club
+到尾	kàu-bué	in the end
+食物	si̍t-bu̍t	food
+掰	pué	to brush off, push aside
+票	phiò	ticket
+霧	bū	fog; blurry
+蓋	kuà	lid, cover
+杉	sam	fir (wood)
+巷仔	hāng-á	lane, alley
+暗頓	àm-tǹg	dinner
+確定	khak-tīng	sure; to confirm
+觀察	kuan-tshat	to observe
+燙	thǹg	to blanch; to burn, scald
+負擔	hū-tam	burden; to bear
+單純	tan-sûn	simple
+英	ing	(used in names: 英國 Britain)
+倒反	tò-píng	upside down, inside out
+駛車	sái-tshia	to drive (a car)
+四季	sù-kuì	the four seasons
+努力	lóo-li̍k	to work hard
+頭拄仔	thâu-tú-á	just now
+日常	ji̍t-siông	daily, everyday
+自動	tsū-tōng	automatic; of one's own accord
+統	thóng	to govern; whole
+無要緊	bô iàu-kín	it doesn't matter, never mind
+茶葉	tê-hio̍h	tea leaves
+阿爸	a-pah	dad
+水準	tsuí-tsún	level, standard
+宣傳	suan-thuân	to promote, publicize
+舉	kí	to raise, lift
+印象	ìn-siōng	impression
+創辦	tshòng-pān	to found
+本人	pún-lâng	oneself, in person
+壓力	ap-li̍k	pressure, stress
+長期	tn̂g-kî	long-term
+應用	ìng-iōng	to apply, use
+行禮	kiânn-lé	to bow, salute
+樹尾	tshiū-bué	treetop
+鐵齒	thih-khí	stubborn (won't believe)
+突然	tu̍t-jiân	suddenly
+秒	bió	second (time)
+課程	khò-tîng	course, curriculum
+車站	tshia-tsām	station (train, bus)
+好奇	hònn-kî	curious
+媽	má	grandmother; Mazu (goddess)
+維持	î-tshî	to maintain
+重點	tiōng-tiám	key point
+公共	kong-kiōng	public
+食頭路	tsia̍h-thâu-lōo	to have a job, work for a living
+申請	sin-tshíng	to apply (for)
+逐年	ta̍k-nî	every year
+拜訪	pài-hóng	to visit, call on
+泡茶	phàu tê	to make tea
+規工	kui-kang	all day
+司機	su-ki	driver
+有時陣	ū-sî-tsūn	sometimes
+護理	hōo-lí	nursing
+翕	hip	to take a photo; stuffy
+產業	sán-gia̍p	industry; property
+態度	thāi-tōo	attitude
+迷信	bê-sìn	superstition; superstitious
+答案	tap-àn	answer
+店仔	tiàm-á	small shop
+收音機	siu-im-ki	radio
+膨	phòng	to swell; puffy
+姊	tsé	elder sister
+補充	póo-tshiong	to add, supplement
+爾	niā	only, just (= 爾爾 niā-niā)
+當咧	tng-teh	right in the middle of (doing)
+驚死	kiann--sí	scared to death; afraid of dying
+案件	àn-kiānn	case
+餐廳	tshan-thiann	restaurant
+下班	hā-pan	to get off work
+順序	sūn-sī	smooth, going well
+差別	tsha-pia̍t	difference
+海產	hái-sán	seafood
+垃圾	lah-sap	dirty
+世代	sè-tāi	generation, era
+空縫	khang-phāng	gap, crack; loophole
+板	pán	board; beat (music)
+礙虐	gāi-gio̍h	awkward, uncomfortable
+交流	kau-liû	exchange
+願望	guān-bōng	wish
+烏趖趖	oo-sô-sô	pitch-black; filthy
+交	kiau	and, with (Hsinchu usage)
+鼎蓋	tiánn-kuà	wok lid
+當地	tong-tē	local, there
+節	tseh	festival
+保留	pó-liû	to keep, preserve
+體驗	thé-giām	to experience
+廣告	kóng-kò	advertisement
+飯店	pn̄g-tiàm	hotel; restaurant
+細的	sè--ê	little brother; underling
+規身軀	kui-sin-khu	the whole body
+活潑	hua̍t-phuat	lively
+頂真	tíng-tsin	careful, conscientious
+鈕仔	liú-á	button
+中	tìng	to suit, please (中意 to like)
+高麗菜	ko-lê-tshài	cabbage
+頂司	tíng-si	boss, superior
+謙卑	khiam-pi	humble
+費用	huì-iōng	cost, expenses
+這站	tsit-tsām	these days, lately
+恬去	tiām--khì	to fall silent
+欸	--eh	hey?, huh? (surprise)
+巷仔口	hāng-á-kháu	end of the lane
+颱	thai	typhoon
+局	kio̍k	bureau, office; round (game)
+食苦	tsia̍h-khóo	to suffer hardship
+部	phō	set (classifier for books)
+輩	puè	generation
+金紙	kim-tsuá	joss paper (burned for gods)
+討債	thó-tsè	wasteful; to waste
+堂	tn̂g	hall
+折	tsiat	to fold; discount
+團結	thuân-kiat	to unite
+揤	tshi̍h	to press (a button)
+排隊	pâi-tuī	to queue
+無仝	bô kāng	different
+遐爾仔	hiah-nī-á	so, that (much)
+遮爾仔	tsiah-nī-á	so, this (much)
+上尾	siōng-bué	last, finally
+市長	tshī-tiúnn	mayor
+同學	tông-ha̍k	classmate
+假	ká	holiday, day off
+戒	kài	to give up (a habit)
+國外	kok-guā	abroad
+感想	kám-sióng	thoughts, impressions
+先輩	sian-puè	elder, senior
+神像	sîn-siōng	statue of a god
+查	tsa	to check, look up
+獎勵	tsióng-lē	reward; to encourage
+鹹酸甜	kiâm-sng-tinn	candied fruit
+百貨	pah-huè	general merchandise (百貨公司 department store)
+退後	thè-āu	to step back
+企業	khì-gia̍p	company, enterprise
+服裝	ho̍k-tsong	clothing
+燥	sò	"heaty" (food in Chinese medicine)
+代	tē	generation
+頂擺	tíng-pái	last time
+痟的	siáu--ê	madman
+歹食	pháinn-tsia̍h	tastes bad
+計程車	kè-thîng-tshia	taxi
+家教	ka-kàu	upbringing; private tutor
+旅行	lí-hîng	to travel
+鼻水	phīnn-tsuí	runny nose
+學費	ha̍k-huì	tuition fees
+免費	bián-huì	free (of charge)
+烏糖	oo-thn̂g	brown sugar
+少數	tsió-sòo	minority, few
+選手	suán-tshiú	athlete, player
+早	tsái	early (in 早起 morning)
+等咧	tán--leh	wait a moment
+應酬	ìng-siû	social dinners (for work)
+體力	thé-la̍t	physical strength
+行去	kiânn--khì	to pass away
+灣	uan	bay
+化妝	huà-tsong	to put on make-up
+實習	si̍t-si̍p	internship; to train
+囡仔歌	gín-á-kua	children's song
+失望	sit-bōng	disappointed
+手工	tshiú-kang	handmade
+款	khuánn	money, funds
+杯仔	pue-á	cup
+機密	ki-bi̍t	secret
+罐仔	kuàn-á	jar, can
+米酒	bí-tsiú	rice wine
+身材	sin-tsâi	figure, build
+人權	jîn-khuân	human rights
+糋	tsìnn	to deep-fry; fried food
+重新	tiông-sin	again, anew
+反正	huán-tsìng	anyway
+師	sai	master (craftsman)
+一家伙仔	tsi̍t-ke-hué-á	the whole family
+影片	iánn-phìnn	video, film
+惠	huī	kindness, favour
+涼的	liâng--ê	cold drink
+底	tī	which, what (底時 when)
+脈	me̍h	pulse; vein
+累積	luí-tsik	to accumulate
+厝稅	tshù-suè	rent (for a house)
+愛護	ài-hōo	to cherish, take care of
+薑母	kiunn-bó	mature ginger
+中秋節	Tiong-tshiu-tseh	Mid-Autumn Festival
+季	kuì	season
+冗	līng	loose
+做頭	tsò-thâu	to take the lead
+倫	lûn	(used in names: 倫敦 London)
+錄音	lo̍k-im	to record (sound)
+電子	tiān-tsú	electronic
+煙腸	ian-tshiâng	sausage
+攑手	gia̍h-tshiú	to raise one's hand
+敦	tun	(used in names: 倫敦 London)
+管	kńg	tube, pipe
+到	tàu	(in 到底 after all)
+糊瘰瘰	hôo-luì-luì	(talk) wildly, exaggerating
+全	tsn̂g	(used in names)
+準算	tsún-sǹg	to count, be valid
+福利	hok-lī	welfare, benefits
+徹	thiat	thorough
+挵破	lòng-phuà	to smash, break
+三層肉	sam-tsân-bah	pork belly
+化	hua	to go out (fire, light)
+適	sik	to suit
+捷	tsia̍t	quick (捷運 metro)
+先進	sian-tsìn	advanced; senior
+空地	khàng-tē	vacant lot
+註冊	tsù-tsheh	to register, enrol
+包	pâu	(used in names, words)
+美容	bí-iông	beauty treatment
+呼噓仔	khoo-si-á	to whistle
+油蔥	iû-tshang	fried shallots
+幫	png	to sublet; to expand
+舒	soo	to spread out
+浴間仔	i̍k-king-á	bathroom
+保養	pó-ióng	maintenance; skin care
+毋好	m̄ hó	not good; mustn't
+無暝無日	bô-mê-bô-ji̍t	day and night, nonstop
+七月半	tshit-gue̍h-puànn	Ghost Festival (15th of the 7th month)
+百樣	pah-iūnn	all kinds
+看重	khuànn-tiōng	to value
+裡	lí	lining
+克	khik	to overcome, restrain
+洲	tsiu	continent
+萊	lâi	(used in names)
+案	uànn	(used in words: 方案 plan)
+公斤	kong-kin	kilogram
+枸杞	kóo-kí	goji berry
+權利	khuân-lī	right(s)
+無一定	bô-it-tīng	not necessarily
+烏	u	(used in names)
+回覆	huê-hok	to reply
+滷肉	lóo-bah	braised pork
+加油站	ka-iû-tsām	petrol station
+漢藥店	hàn-io̍h-tiàm	Chinese medicine shop
+柚	iū	pomelo
+塞	sat	blocked
+普	puh	(used in names)
+課	khuè	(used in words)
+彼个	hit ê	that one
+是按怎	sī-án-tsuánn	why
+猶是	iáu-sī	still
+媽媽	má-mah	mum
+才會	tsiah ē	that's why
+嘛是	mā sī	also
+考慮	khó-lī	to consider
+敢是	kám-sī	could it be that…?
+看有	khuànn-ū	to understand, make out
+練痟話	liān-siáu-uē	to talk nonsense
+無定著	bô-tiānn-tio̍h	maybe
+分的	pun--ê	adopted (child)
+攏是	lóng sī	all are
+口座	kháu-tsō	bank account
+彼款	hit khuán	that kind
+著頭	tio̍h-thâu	on the right track
+有的無的	ū--ê-bô--ê	nonsense, idle talk
+無毋著	bô m̄-tio̍h	that's right
+揣頭路	tshuē thâu-lōo	to look for a job
+總講一句	tsóng-kóng--tsi̍t-kù	in a word
+猶有	iáu-ū	still have; also
+嘛欲	mā beh	also want
+檨	suāinn	mango
+焙茶	puē-tê	to roast tea
+學理	ha̍k-lí	theory
+講好	kóng-hó	agreed
+是講	sī-kóng	by the way
+蘋果	phông-kó	apple
+平信	pîng-sìn	ordinary mail
+五香	ngóo-hiang	five-spice
+撞著	tōng-tio̍h	to bump into
+點醒	tiám-tshénn	to make someone realize
+無啥物	bô-siánn-mih	nothing much, it's nothing
+臭豆腐	tshàu-tāu-hū	stinky tofu
+媒人喙	muê-lâng-tshuì	smooth talk
+食餐廳	tsia̍h-tshan-thiann	to eat out
+基	ke	(used in names)
+吧	pa	(used in names)
+哎	ai	ah! (interjection)
+尼	nî	(used in names)
+連	nî	(used in names)
+黎	lê	(used in names: 巴黎 Paris)
+券	kǹg	ticket, voucher
+本	pńg	(used in names)
+洛	lo̍k	(used in names)
+迪	ti̍k	(used in names)
+率	lu̍t	rate
+亂	lān	(used in names)
+錄	li̍k	(used in names)
+灣	uân	(used in names)
+傳	thn̂g	to pass on (lineage)
+川	tshng	(used in names)
+玲	lîng	(used in names)
+超	thiau	(used in names)
+敢有	kám ū	is there…?; how could there be
+當歸	tong-kui	angelica root (Chinese herb)
+碩士	si̍k-sū	master's degree
+恢復	khue-ho̍k	to recover
+鬼門	kuí-mn̂g	gate of hell (opens in Ghost Month)
+文言	bûn-giân	classical Chinese
+航空	hâng-khong	aviation; airmail
+敢毋是	kám m̄ sī	isn't it?
+佗一个	tó tsi̍t ê	which one
+薑母鴨	kiunn-bó-ah	ginger duck hotpot
+毋知影	m̄ tsai-iánn	don't know
+塑膠袋仔	sok-ka-tē-á	plastic bag
+滷肉飯	lóo-bah-pn̄g	braised pork rice
+一下仔	tsi̍t-ē-á	a little while
+一切	it-tshè	everything
+一千	tsit8-tshing	one thousand
+一千二	tsit8-tshing-ji7	1,200
+一千六	tsit8-tshing-lak8	1,600
+一百	tsi̍t-pah	one hundred
+一百二	tsit8-pah-ji7	120
+一百四	tsit8-pah-si3	140
+一萬	tsit8-ban7	ten thousand
+一萬二	tsit8-ban7-ji7	12,000
+七月	tshit-gueh8	July; seventh month
+三十	sann-tsa̍p	thirty
+三十六	sann-tsap8-lak8	thirty-six
+三百	sann-pah	three hundred
+中山	Tiong-san	Zhongshan (district, MRT station)
+中級	tiong-kip	intermediate
+中部	tiong-pōo	central (Taiwan)
+主播	tsú-pòo	news anchor
+主題	tsú-tê	theme, topic
+九二一	kau2-ji7-it	the 21 September 1999 earthquake
+九份	kau2-hun7	Jiufen (old mining town)
+九十	kau2-tsap8	ninety
+事故	sū-kòo	accident
+二十	jī-tsa̍p	twenty
+二十八	ji7-tsap8-peh	twenty-eight
+二十幾	ji7-tsap8-kui2	twenty-something
+二百	ji7-pah	two hundred
+五十	goo7-tsap8	fifty
+五千	goo7-tshing	five thousand
+亞洲	A-tsiu	Asia
+人山人海	lang5-suann-lang5-hai2	huge crowds
+人間	jîn-kan	the human world
+今仔暝	kin-a2-me5	tonight
+以上	í-siōng	above, more than
+任何	jīm-hô	any
+任務	jīm-bū	task, mission
+個人	kò-jîn	individual, personal
+個案	kò-àn	individual case
+做官	tsò-kuann	to be an official
+停班	thing5-pan	offices closed (typhoon day)
+停課	thîng-khò	classes cancelled
+健身	kiān-sin	to work out, fitness
+傳播	thuân-pòo	to spread; media
+傳統	thuân-thóng	tradition; traditional
+免錢	bián-tsînn	free (no charge)
+入站	jip8-tsam7	to enter the station
+全國	tsuân-kok	nationwide
+兩百	nng7-pah	two hundred
+八十	peh-tsap8	eighty
+八十二	peh-tsap8-ji7	eighty-two
+六十	lak8-tsap8	sixty
+冷冷冷	ling2-ling2-ling2	so cold
+冷熱	ling2-juah8	cold and hot (temperature)
+出國	tshut-kok	to go abroad
+分手	hun-tshiú	to break up
+初中	tshoo-tiong	junior high school
+加入	ka-ji̍p	to join
+加班	ka-pan	to work overtime
+包含	pau-hâm	to include
+十五	tsap8-goo7	fifteen
+十八	tsa̍p-peh	eighteen
+去過	khì-kuè	have been to
+參考	tsham-khó	to refer to; reference
+參訪	tsham-hóng	to visit (officially)
+台語	Tâi-gí	Taiwanese (language)
+台語歌	tai5-gi2-kua	Taiwanese song
+合作	ha̍p-tsok	to cooperate
+哀哀叫	ai-ai-kiò	to moan, complain loudly
+哈哈	ha-ha	haha
+哈哈哈	ha-ha-ha	hahaha
+員工	uân-kang	employee, staff
+啉過	lim-kue3	have drunk (before)
+問卷	būn-kuàn	questionnaire
+喝聲	huah-siann	to shout
+四十	si3-tsap8	forty
+四百	si3-pah	four hundred
+困擾	khùn-jiáu	trouble; to bother
+國家	kok-ka	country, state
+國會	kok-huē	parliament
+國有	kok-iú	state-owned
+國道	kok-tō	national highway, freeway
+圓輾輾	înn-lìn-lìn	perfectly round
+培育	puê-io̍k	to train, cultivate
+外表	guā-piáu	appearance
+多數	to-sòo	majority
+夜班	iā-pan	night shift
+夢想	bāng-sióng	dream
+大火	tuā-hué	big fire; high heat
+大稻埕	Tuā-tiū-tiânn	Dadaocheng (old Taipei district)
+奧運	Ò-ūn	the Olympics
+好好	hó-hó	properly, well
+好笑	hó-tshiò	funny
+好耍	hó-sńg	fun
+如意	jû-ì	as one wishes
+媒體	muî-thé	media
+媽祖生	ma2-tsoo2-senn	Mazu's birthday (festival)
+學分	ha̍k-hun	credit (course)
+學著	o̍h-tio̍h	to learn, pick up
+學長	ha̍k-tiúnn	senior (student)
+學院	ha̍k-īnn	college, faculty
+安打	an-tánn	hit (baseball)
+完美	uân-bí	perfect
+官方	kuann-hong	official
+客家人	Kheh-ka-lâng	Hakka person
+害死	hāi-sí	to get someone killed; ruin
+家庭	ka-tîng	family, household
+對向	tuì-hiòng	oncoming (traffic)
+對方	tuì-hong	the other side, the other person
+導覽	tō-lám	guided tour
+尹	Ún	surname Ún (Yin)
+履歷	lí-li̍k	CV, résumé
+崎崎	kia7-kia7	steep
+已經	í-king	already
+平台	pênn-tâi	platform
+庄內	tsng-lai7	in the village
+店內	tiam3-lai7	in the shop
+廟口	bio7-khau2	temple square
+廬山	Lôo-san	Lushan (hot spring area)
+形象	hîng-siōng	image
+影展	iánn-tián	film festival
+從來	tsiông-lâi	always, ever
+必修	pit-siu	compulsory (course)
+惠惠	hui7-hui7	(name)
+想像	sióng-siōng	to imagine
+想法	siūnn-huat	idea, way of thinking
+想著	siūnn-tio̍h	to think of, remember
+捷運站	tsia̍t-ūn-tsām	MRT (metro) station
+推薦	thui-tsiàn	to recommend
+提去	the̍h--khì	to take away
+提著	the̍h-tio̍h	to get, win
+揣著	tshuē-tio̍h	to find
+摸乳巷	bong-ling-hang7	Moru Lane (narrow lane in Lukang)
+收件	siu-kiānn	to receive (mail)
+收看	siu-khuànn	to watch (TV)
+收聽	siu-thiann	to listen (radio)
+效果	hāu-kó	effect
+教練	kàu-liān	coach
+教育部	kàu-io̍k-pōo	Ministry of Education
+文化節	bun5-hua3-tseh	cultural festival
+文教	bûn-kàu	culture and education
+日本	Ji̍t-pún	Japan
+日語	Ji̍t-gí	Japanese (language)
+最近	tsuè-kīn	recently
+最高	tsue3-ko	highest
+會記	e7-ki3	to remember
+會議室	huē-gī-sik	meeting room
+本山	pun2-suann	(name)
+本文	pún-bûn	main text
+東區	Tang-khu	East District
+柚仔皮	iu7-a2-phue5	pomelo peel
+柴桮	tsha5-pue	divination blocks (moon blocks)
+條理	tiâu-lí	order, logic
+概念	kài-liām	concept
+檨仔冰	suainn7-a2-ping	mango shaved ice
+正常	tsìng-siông	normal
+步調	pōo-tiāu	pace
+比如	pí-jû	for example
+氣象局	Khì-siōng-kio̍k	Weather Bureau
+水邊	tsui2-pinn	waterside
+油價	iû-kè	fuel price
+法國	Huat-kok	France
+法國人	Huat-kok-lâng	French person
+活力	ua̍h-li̍k	energy, vitality
+流汗	lâu-kuānn	to sweat
+清楚	tshing-tshó	clear
+清淡	tshing-tām	light (food)
+溝通	koo-thong	to communicate
+溫度	un-tōo	temperature
+澹澹	tâm-tâm	wet
+炒肉	tshá-bah	stir-fried meat
+為啥物	ui7-siann2-mih	why
+為著	uī-tio̍h	for, in order to
+烏烏	oo-oo	dark, black
+無味	bô-bī	tasteless
+煞煞	suah-suah	that's it, forget it
+燒燒	sio-sio	hot (warm)
+爛爛	nuā-nuā	mushy, soft
+狀態	tsōng-thài	state, condition
+獎學金	tsióng-ha̍k-kim	scholarship
+王伯	ong5-peh	Uncle Ông (Mr Wang)
+甜甜	tinn-tinn	sweet
+田頭	tshân-thâu	edge of the field
+畢竟	pit-kìng	after all
+畫面	uē-bīn	picture, scene
+監視器	kàm-sī-khì	CCTV camera
+相挵著	sio-long3-tioh8	to collide
+相關	siong-kuan	related
+看護	khàn-hōo	carer, nurse
+睏過頭	khùn-kuè-thâu	to oversleep
+確認	khak-jīn	to confirm
+社長	siā-tiúnn	club president
+禮拜一	lé-pài-it	Monday
+禮拜五	le2-pai3-goo7	Friday
+禮拜六	le2-pai3-lak8	Saturday
+私底下	su-té-hā	privately
+科技	kho-ki	technology
+科系	kho-hē	department, major
+第三	te7-sann	third
+第二	tē-jī	second
+算是	sǹg-sī	count as, sort of
+簽證	tshiam-tsìng	visa
+米飯	bi2-png7	cooked rice
+精彩	tsing-tshái	brilliant, exciting
+紀錄	kì-lo̍k	record
+紅紅	ang5-ang5	red
+細隻	sè-tsiah	small (animal, size)
+統一獅	thong2-it-sai	Uni-Lions (baseball team)
+美濃	Bí-lông	Meinong (Hakka town)
+美玲	bi2-ling5	Bí-lîng (name)
+美金	Bí-kim	US dollar
+群體	kûn-thé	group
+聽眾	thiann-tsiòng	audience, listeners
+聽過	thiann--kuè	have heard
+臭臭	tshàu-tshàu	smelly
+臺中	Tâi-tiong	Taichung
+臺北	Tâi-pak	Taipei
+臺北市	Tâi-pak-tshī	Taipei City
+臺南	Tâi-lâm	Tainan
+臺南人	tai5-lam5-lang5	Tainan person
+臺灣	Tâi-uân	Taiwan
+臺灣府	tai5-uan5-hu2	Taiwan Prefecture (old capital)
+臺語	Tâi-gí	Taiwanese (language)
+芳芳	phang-phang	fragrant
+英文	Ing-bûn	English
+茶行	tê-hâng	tea shop
+菜價	tshai3-ke3	vegetable prices
+菜頭湯	tshai3-thau5-thng	radish soup
+華	Huà	surname Huà (Hua)
+華語	Huâ-gí	Mandarin Chinese
+行政	hîng-tsìng	administration
+行程	hîng-tîng	itinerary, schedule
+行行	kiann5-kiann5	walking along
+袂算	be7-sng3	doesn't count; can't count
+要求	iau-kiû	to demand; request
+見過	kìnn--kuè	have met
+規四界	kui-sì-kè	everywhere
+規暝	kui-mê	all night
+訊息	sìn-sit	message
+訓練	hùn-liān	training
+講法	kóng-huat	way of saying
+譬如	phì-jû	for example
+議題	gī-tê	issue, topic
+贏輸	iann5-su	winning or losing
+走去	tsáu--khì	to run off, go
+起去	khí-khì	to go up
+超市	tshiau-tshī	supermarket
+路上	lōo-siōng	on the way
+身份	sin-hūn	identity, status
+身為	sin-uî	as (being)
+軟體	nńg-thé	software
+轉換	tsuán-uānn	to switch, convert
+轎跤	kio7-kha	under the palanquin (crawl under the god's sedan for blessing)
+辦公室	pān-kong-sik	office
+迪化街	tik8-hua3-ke	Dihua Street (Taipei)
+追蹤	tui-tsong	to follow, track
+這種	tsit-tsióng	this kind
+連結	liân-kiat	link
+運作	ūn-tsok	to operate, work
+過來	kuè--lâi	to come over
+過程	kuè-tîng	process
+達成	ta̍t-sîng	to achieve
+部門	pōo-mn̂g	department
+酸酸	sng-sng	sour
+釣魚	tiò-hî	to fish
+錄影	lo̍k-iánn	to record (video)
+長長	tng5-tng5	long
+阮	gún	we, us (excl.); my (= guán)
+阿勇	A-ióng	A-ióng (name)
+阿明	a-bîng	A-bîng (name)
+阿春	a-tshun	A-tshun (name)
+阿春姊	a-tshun-tsi2	Sister A-tshun
+阿芬	a-hun	A-hun (name)
+附近	hù-kīn	nearby
+除了	tû-liáu	except, besides
+隱私	ún-su	privacy
+雞湯	ke-thng	chicken soup
+雞肉飯	ke-bah-png7	chicken rice (Chiayi dish)
+雷公雨	luî-kong-hōo	thunderstorm
+需要	su-iàu	to need
+面對	bīn-tuì	to face
+面目	bīn-bo̍k	face, look
+面試	biān-tshì	job interview
+音樂會	im-ga̍k-huē	concert
+頭殼頂	thâu-khak-tíng	top of the head
+頭頂	thâu-tíng	top of the head; overhead
+風颱假	hong-thai-ka2	typhoon day off
+食物	tsia̍h-mi̍h	food
+食緊	tsiah8-kin2	eat fast
+食著	tsia̍h--tio̍h	to get to eat; to eat something bad
+食飯	tsia̍h-pn̄g	to eat (a meal)
+飲料	ím-liāu	drink
+養生	ióng-sing	healthy living
+驚驚	kiann-kiann	fearful, timid
+高溫	ko-un	high temperature
+魚丸湯	hi5-uan5-thng	fish ball soup
+魚仔	hî-á	fish
+魚湯	hi5-thng	fish soup
+鹹鹹	kiam5-kiam5	salty
+鹿港	Lo̍k-káng	Lukang (old port town)
+麻油雞	muâ-iû-ke	sesame-oil chicken
+龍山寺	Liông-san-sī	Longshan Temple

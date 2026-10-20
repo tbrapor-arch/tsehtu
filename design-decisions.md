@@ -32,6 +32,12 @@ Header (characters, Tâi-lô, close button) stays visible while scrolling. Order
 English, Mandarin equivalents with pinyin and English (CC-CEDICT), MOE definitions (Chinese, unaltered: CC BY-ND),
 example, pronunciation choices, "Around Taiwan" table (folded), parts, add to review.
 
+**English on every card** (`tools/english.py`, also used by the private module for podcast transcripts and exam
+texts): the lesson/theme `new_words` English, else `course/glosses_en.tsv` (short glosses written for the course from
+the MOE meanings), else automatic: Maryknoll (only in `make db-nc` builds), the CC-CEDICT English of the Mandarin
+equivalent, or the parts joined with "+". Automatic English shows its source in small print under it. `make app`
+prints the count per source and lists automatic ones in `app/dist/english-auto.txt`: add those to the TSV.
+
 Progress, deck and preferences are stored in the browser only (per device).
 
 ## Conveniences (from Mainichi)

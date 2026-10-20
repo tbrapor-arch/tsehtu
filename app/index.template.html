@@ -1057,6 +1057,14 @@ function showEpisode(ep) {
 function splitZh(l) { const x = l.match(/^(.*?)\s*[（(]([^（()）]*)[)）]\s*$/); return x && x[1] ? [x[1], x[2]] : [l, '']; }
 
 // ---------- word sheet
+// where a card's English comes from, when it was not written for the course (tools/english.py)
+function glossSrc(c) {
+  const s = c.gloss_src;
+  if (!s) return '';
+  const t = s.startsWith('mandarin:') ? `via the Mandarin <span class="han">${esc(s.slice(9))}</span> (CC-CEDICT)`
+    : s === 'maryknoll' ? 'Maryknoll dictionary (1976)' : s === 'parts' ? 'from its parts' : esc(s);
+  return `<div class="wc-src">${t}</div>`;
+}
 function openCard(id, w) {
   const c = id ? DATA.dict[id] : null, sh = $('#sheet');
   const top = (h, t, extra) => `<div class="grab"></div><div class="wc-top"><div><div class="wc-h">${esc(h)}</div><div class="wc-t">${esc(t)}</div>${extra || ''}</div><button class="x" aria-label="Close">×</button></div>`;
@@ -1067,7 +1075,7 @@ function openCard(id, w) {
     const src = { moe: '教育部臺灣台語常用詞辭典 (MOE), CC BY-ND 3.0 TW', itaigi: 'iTaigi, CC0', taihoa: '台華線頂對照典, CC BY-SA 4.0', tgb: '台灣白話基礎語句, CC BY-SA 4.0' }[c.source];
     sh.innerHTML = top(c.hanji, c.tailo || (w && w.t) || c.tkey, spoken + (c.audio ? `<button class="btn small line play" id="play" aria-label="Play the recording">▶ Listen</button>` : '')) + `
       ${pt || c.rank ? `<div class="row">${pt ? `<span class="pill ${pc}">${pt}</span>` : ''}${c.rank ? `<span class="pos">#${c.rank} most common</span>` : ''}${c.wenbai && c.wenbai !== 'substitute-char' ? `<span class="pos">${esc(c.wenbai)} reading</span>` : ''}</div>` : ''}
-      ${c.gloss ? `<div class="wc-sec"><h3>English</h3><div class="wc-gloss">${esc(c.gloss)}</div></div>` : ''}
+      ${c.gloss ? `<div class="wc-sec"><h3>English</h3><div class="wc-gloss">${esc(c.gloss)}</div>${glossSrc(c)}</div>` : ''}
       ${c.mand && c.mand.length ? `<div class="wc-sec"><h3>Mandarin${c.hsk ? ` · HSK ${c.hsk}` : ''}</h3><ul class="mlist">${c.mand.map(m => `<li><span class="han">${esc(m.w)}</span> <span class="py">${esc(m.py)}</span>${m.en ? ` <span class="men">${esc(m.en)}</span>` : ''}</li>`).join('')}</ul></div>` : (c.mandarin && c.mandarin.length ? `<div class="wc-sec"><h3>Mandarin</h3><div class="han">${c.mandarin.map(esc).join('、')}</div></div>` : '')}
       ${c.senses && c.senses.length ? `<div class="wc-sec"><h3>Dictionary</h3><ol>${c.senses.map(s => `<li><span class="pos">${esc(s.pos)}</span>${esc(s.def)}</li>`).join('')}</ol></div>` : ''}
       ${c.example ? `<div class="wc-sec wc-ex"><h3>Example</h3><div class="h">${esc(c.example.hanji)}</div><div class="t">${esc(c.example.tailo)}</div><div class="m">${esc(c.example.mandarin || '')}</div>${c.example.audio ? `<button class="btn small line" id="explay" style="align-self:start;margin-top:.3rem">▶ Listen to the sentence</button>` : ''}</div>` : ''}

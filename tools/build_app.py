@@ -23,6 +23,7 @@ from sandhi import sandhi  # noqa: E402
 from tailo import key  # noqa: E402
 from variants import Variants  # noqa: E402
 import bridge  # noqa: E402
+import english  # noqa: E402
 import moe_examples  # noqa: E402
 import sutian  # noqa: E402
 import tone_drill  # noqa: E402
@@ -57,14 +58,8 @@ def _py_marks(num):
     return ' '.join(out)
 
 
-CEDICT = {}
-_ced = os.path.join(ROOT, 'data/raw/cedict/package/cedict.json')
-if os.path.exists(_ced):
-    for e in json.load(open(_ced, encoding='utf-8')):
-        if e['pinyin'][:1].isupper():      # proper names: keep only if nothing else
-            CEDICT.setdefault(e['traditional'], e)
-        elif e['traditional'] not in CEDICT or CEDICT[e['traditional']]['pinyin'][:1].isupper():
-            CEDICT[e['traditional']] = e
+CEDICT = english.load_cedict()
+ENGLISH = None   # set once the course glosses are read (see '---- lessons')
 
 
 def mandarin_gloss(word):
@@ -87,9 +82,11 @@ def lookup(seg, k):
     rows = con.execute("""SELECT id, source, hanji, tailo, cognate, mandarin_best, hsk_old, hsk_new, freq_rank, wenbai, src_id
                           FROM entry WHERE tkey=? AND source IN ('moe','itaigi','taihoa','tgb') AND kind != 'xref'
                           ORDER BY (hanji=?) DESC, source='moe' DESC, freq DESC LIMIT 1""", (k, seg)).fetchall()
-    card = {'hanji': seg, 'tkey': k, 'gloss': glosses.get(k)}
+    card = {'hanji': seg, 'tkey': k}
+    eid = dh = None
     if rows:
         eid, src, h, t, cog, mb, ho, hn, rank, wb, sid = rows[0]
+        dh = h
         mand = [w for (w,) in con.execute('SELECT DISTINCT word FROM mandarin WHERE entry_id=? LIMIT 6', (eid,))]
         card.update(source=src, dict_hanji=h, tailo=t, cognate=cog, mandarin=mand, hsk=ho or hn, rank=rank,
                     mand=[mandarin_gloss(w) for w in mand[:4]], wenbai=wb)
@@ -116,6 +113,12 @@ def lookup(seg, k):
         syls = k.split('-')
         chars = UNIT_RE.findall(seg)
         card['parts'] = [lookup(c, s) for c, s in zip(chars, syls)] if len(syls) > 1 and len(chars) == len(syls) else []
+    parts = [(dictionary[p].get('gloss'), dictionary[p].get('gloss_src')) for p in card.get('parts', [])]
+    en, en_src = ENGLISH.gloss(seg, k, eid, dh, parts)
+    if en:
+        card['gloss'] = en
+        if en_src not in ('course', 'written'):
+            card['gloss_src'] = en_src
     dictionary[did] = card
     return did
 
@@ -216,6 +219,7 @@ for f in theme_files:
     for sec in yaml.safe_load(open(f, encoding='utf-8'))['sections']:
         for w in sec['words']:
             glosses.setdefault(key(w['tailo']), w.get('en'))
+ENGLISH = english.English(con, {k: v for k, v in glosses.items() if v}, CEDICT)
 
 lessons = []
 for f in lesson_files + perf_files:
@@ -349,4 +353,10 @@ rdata = {'voice': rec_meta.get('voice', 'native speaker'), 'lessons': [{'id': L[
 rjson = json.dumps(rdata, ensure_ascii=False)
 rtpl = rtpl.replace('/*__FONTS__*/', tailo_font_css() + '\n' + ext_font_css(rjson)).replace('/*__DATA__*/null', rjson.replace('</', '<\\/'))
 open(os.path.join(ROOT, 'app/dist/record.html'), 'w', encoding='utf-8').write(unicodedata.normalize('NFC', rtpl))
+from collections import Counter  # noqa: E402
+_src = Counter((c.get('gloss_src') or ('written/course' if c.get('gloss') else 'none')).split(':')[0] for c in dictionary.values())
+print('English on word cards:', ', '.join(f'{k} {v}' for k, v in _src.most_common()))
+open(os.path.join(ROOT, 'app/dist/english-auto.txt'), 'w', encoding='utf-8').write(''.join(
+    f"{c['hanji']}\t{c.get('tailo') or c['tkey']}\t{c.get('gloss_src') or 'none'}\t{c.get('gloss') or ''}\n"
+    for c in dictionary.values() if c.get('gloss_src') or not c.get('gloss')))
 print(out, f'{len(lessons)} lessons, {len(dictionary)} dictionary cards, {have}/{len(need)} with audio, {have_ex}/{len(need_ex)} examples with audio, {n_rec} recorded lines, {len(show['episodes']) if show else 0} podcast episodes, {os.path.getsize(out) // 1024} KB')

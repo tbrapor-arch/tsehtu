@@ -42,6 +42,8 @@ before committing. Language QC: `tools/qc_readings.py` and `tools/qc_glosses.py`
 - Progress stays in the browser; optional sync through a secret gist.
 - Native-speaker clips are committed to `course/audio/lessons/` (git ignore has an exception for them).
 - Build fails soft: MOE audio and the podcast feed are optional, the site deploys without them.
+- Every word card has English (`tools/english.py`): words not in `new_words` get a gloss from `course/glosses_en.tsv`;
+  new words that fall back to automatic English are listed by `make app` (`app/dist/english-auto.txt`).
 
 ## Open items
 - Classify the vocabulary for the Themes tab, starting with a pilot domain. Optional: a native-speaker pass over lessons 64–100 (written 16–20 Oct 2026, not native-checked).
