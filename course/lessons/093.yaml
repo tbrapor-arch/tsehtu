@@ -1,0 +1,58 @@
+id: 93
+title: {en: "Teaching Taigi to a friend", tailo: "Kà pîng-iú Tâi-gí", hanji: "教朋友台語"}
+review: false
+setting: "Sunday afternoon at A-tshun's flat. Her teenage daughter Hui-hui understands Taigi but hardly dares speak it; A-tshun asks Sam to help."
+dialogue:
+  - {n: 1, speaker: A-tshun, hanji: "Sam，阮查某囝惠惠聽有台語，毋過攏毋敢講。你會使教伊無？", tailo: "Sam, guán tsa-bóo-kiánn Hui-hui thiann ū Tâi-gí, m̄-koh lóng m̄ kánn kóng. Lí ē-sái kà--i--bô?", en: "Sam, my daughter Hui-hui understands Taigi but never dares to speak it. Could you teach her?"}
+  - {n: 2, speaker: Sam, hanji: "我？我家己嘛猶咧學呢。", tailo: "Guá? Guá ka-kī mā iáu teh o̍h--neh.", en: "Me? I'm still learning myself!"}
+  - {n: 3, speaker: A-tshun, hanji: "就是按呢才好。你知影學台語的人佇佗位會拄著困難。", tailo: "Tō sī án-ne tsiah hó. Lí tsai-iánn o̍h Tâi-gí ê lâng tī tó-uī ē tú-tio̍h khùn-lân.", en: "That's exactly why. You know where Taigi learners run into trouble."}
+  - {n: 4, speaker: Hui-hui, hanji: "Sam 哥，「生份」是啥物意思？阮阿母定定講。", tailo: "Sam-ko, “senn-hūn” sī siánn-mih ì-sù? Guán a-bú tiānn-tiānn kóng.", en: "Sam, what does 'senn-hūn' mean? Mum says it all the time."}
+  - {n: 5, speaker: Sam, hanji: "「生份」就是你無熟似，感覺怪怪的。比論講，你去一个新的所在，遐的人你攏毋捌，你就感覺生份。", tailo: "“Senn-hūn” tō sī lí bô si̍k-sāi, kám-kak kuài-kuài--ê. Pí-lūn kóng, lí khì tsi̍t ê sin ê sóo-tsāi, hia ê lâng lí lóng m̄-bat, lí tō kám-kak senn-hūn.", en: "'Senn-hūn' means you don't know something and it feels a bit strange. For example, you go somewhere new and don't know anyone there: you feel 'senn-hūn'."}
+  - {n: 6, speaker: Hui-hui, hanji: "我了解矣。按呢「熟似」就是倒反的意思？", tailo: "Guá liáu-kái--ah. Án-ne “si̍k-sāi” tō sī tò-píng ê ì-sù?", en: "I see. So 'si̍k-sāi' means the opposite?"}
+  - {n: 7, speaker: Sam, hanji: "著！你真巧。學新的詞，上好揣一个倒反的詞做伙記。", tailo: "Tio̍h! Lí tsin khiáu. O̍h sin ê sû, siōng hó tshuē tsi̍t ê tò-píng ê sû tsò-hué kì.", en: "Yes! You're quick. When you learn a new word, it's best to find its opposite and remember them together."}
+  - {n: 8, speaker: Hui-hui, hanji: "我上驚聲調。遐濟聲調，我攏分袂清楚。", tailo: "Guá siōng kiann siann-tiāu. Hiah tsē siann-tiāu, guá lóng hun bē tshing-tshó.", en: "What scares me most is the tones. There are so many, I can't tell them apart."}
+  - {n: 9, speaker: Sam, hanji: "我嘛是。我的老師講，毋免一擺就學好，先聽，才講。", tailo: "Guá mā sī. Guá ê lāu-su kóng, m̄-bián tsi̍t pái tō o̍h hó, sing thiann, tsiah kóng.", en: "Me too. My teacher says you don't have to get it right all at once: listen first, then speak."}
+  - {n: 10, speaker: Hui-hui, hanji: "你會曉用羅馬字寫台語？", tailo: "Lí ē-hiáu iōng Lô-má-jī siá Tâi-gí?", en: "You can write Taigi in romanisation?"}
+  - {n: 11, speaker: Sam, hanji: "會，羅馬字會當共聲調寫出來，對發音真有幫助。", tailo: "Ē, Lô-má-jī ē-tàng kā siann-tiāu siá--tshut-lâi, tuì huat-im tsin ū pang-tsōo.", en: "Yes. Romanisation can show the tones, which really helps with pronunciation."}
+  - {n: 12, speaker: Hui-hui, hanji: "若是有一个字我毋知按怎寫，欲按怎？", tailo: "Nā-sī ū tsi̍t ê jī guá m̄ tsai án-tsuánn siá, beh án-tsuánn?", en: "And if there's a word I don't know how to write?"}
+  - {n: 13, speaker: Sam, hanji: "會使查教育部的台語辭典，內底有漢字、羅馬字，閣有聲音通好聽。", tailo: "Ē-sái tshâ Kàu-io̍k-pōo ê Tâi-gí sû-tián, lāi-té ū Hàn-jī, Lô-má-jī, koh ū siann-im thang-hó thiann.", en: "You can look it up in the Ministry of Education's Taigi dictionary: it has the characters, the romanisation, and recordings to listen to."}
+  - {n: 14, speaker: Hui-hui, hanji: "「上蓋」佮「上」敢仝款？", tailo: "“Siōng-kài” kah “siōng” kám kāng-khuán?", en: "Are 'siōng-kài' and 'siōng' the same?"}
+  - {n: 15, speaker: Sam, hanji: "意思差不多，毋過「上蓋」較強。換一句話講，「上蓋好」就是非常好。", tailo: "Ì-sù tsha-put-to, m̄-koh “siōng-kài” khah kiông. Uānn tsi̍t kù uē kóng, “siōng-kài hó” tō sī hui-siông hó.", en: "They mean about the same, but 'siōng-kài' is stronger. In other words, 'siōng-kài hó' means 'extremely good'."}
+  - {n: 16, speaker: A-tshun, hanji: "Sam 解說甲真清楚。惠惠，你嘛講一句台語予 Sam 聽。", tailo: "Sam kái-sueh kah tsin tshing-tshó. Hui-hui, lí mā kóng tsi̍t kù Tâi-gí hōo Sam thiann.", en: "Sam explains things so clearly. Hui-hui, say something in Taigi for Sam too."}
+  - {n: 17, speaker: Hui-hui, hanji: "Sam 哥，多謝你。你教甲上蓋好！", tailo: "Sam-ko, to-siā--lí. Lí kà kah siōng-kài hó!", en: "Thank you, Sam. You're the best teacher!"}
+  - {n: 18, speaker: Sam, hanji: "你看，你講甲真好。勇敢講，就是學語言上要緊的一步。", tailo: "Lí khuànn, lí kóng kah tsin hó. Ióng-kám kóng, tō sī o̍h gí-giân siōng iàu-kín ê tsi̍t pōo.", en: "See, you said that perfectly. Being brave enough to speak is the most important step in learning a language."}
+notes:
+  - {ref: 3, topic: vocab, text: "拄著 tú-tio̍h = run into, meet with. 困難 khùn-lân = difficulty."}
+  - {ref: 4, topic: vocab, text: "哥 ko = elder brother; after a name, a friendly way to address a young man a little older than you: Sam 哥."}
+  - {ref: 5, topic: grammar, text: "Explaining a word: X 就是 … 'X means …'; 比論講 pí-lūn kóng 'for example'; 換一句話講 uānn tsi̍t kù uē kóng 'in other words' (line 15); …的意思 'the meaning of …'. 怪怪 kuài-kuài = a bit odd."}
+  - {ref: 7, topic: vocab, text: "詞 sû = word (a term, in grammar talk); 字 jī is a character or a written word."}
+  - {ref: 11, topic: vocab, text: "發音 huat-im = pronunciation. 幫助 pang-tsōo = help, be of use."}
+  - {ref: 13, topic: culture, text: "教育部 Kàu-io̍k-pōo = Ministry of Education. Its online Taigi dictionary (辭典 sû-tián) gives MOE characters, Tâi-lô and recordings; this course's vocabulary is checked against it."}
+  - {ref: 15, topic: vocab, text: "非常 hui-siông = extremely (lesson 76)."}
+  - {ref: 16, topic: vocab, text: "解說 kái-sueh = explain."}
+  - {ref: 18, topic: vocab, text: "勇敢 ióng-kám = brave. 步 pōo = step."}
+new_words:
+  - {tailo: tú-tio̍h, hanji: 拄著, en: "run into, meet with"}
+  - {tailo: khùn-lân, hanji: 困難, en: "difficulty"}
+  - {tailo: ko, hanji: 哥, en: "elder brother"}
+  - {tailo: pí-lūn, hanji: 比論, en: "for example"}
+  - {tailo: kuài-kuài, hanji: 怪怪, en: "a bit odd"}
+  - {tailo: sû, hanji: 詞, en: "word, term"}
+  - {tailo: kì, hanji: 記, en: "remember, memorise"}
+  - {tailo: huat-im, hanji: 發音, en: "pronunciation"}
+  - {tailo: pang-tsōo, hanji: 幫助, en: "help"}
+  - {tailo: tshâ, hanji: 查, en: "look up"}
+  - {tailo: sû-tián, hanji: 辭典, en: "dictionary"}
+  - {tailo: siann-im, hanji: 聲音, en: "sound, voice"}
+  - {tailo: kái-sueh, hanji: 解說, en: "explain"}
+  - {tailo: ióng-kám, hanji: 勇敢, en: "brave"}
+  - {tailo: pōo, hanji: 步, en: "step"}
+exercises:
+  translate:
+    - {tailo: "“Senn-hūn” tō sī lí bô si̍k-sāi, kám-kak kuài-kuài--ê.", hanji: "「生份」就是你無熟似，感覺怪怪的。", en: "'Senn-hūn' means you don't know something and it feels a bit strange."}
+    - {tailo: "O̍h sin ê sû, siōng hó tshuē tsi̍t ê tò-píng ê sû tsò-hué kì.", hanji: "學新的詞，上好揣一个倒反的詞做伙記。", en: "When you learn a new word, it's best to find its opposite and remember them together."}
+    - {tailo: "Ióng-kám kóng, tō sī o̍h gí-giân siōng iàu-kín ê tsi̍t pōo.", hanji: "勇敢講，就是學語言上要緊的一步。", en: "Being brave enough to speak is the most important step in learning a language."}
+  fill:
+    - {tailo: "___ kóng, lí khì tsi̍t ê sin ê sóo-tsāi.", hanji: "___講，你去一个新的所在。", answer: "Pí-lūn", answer_hanji: "比論", en: "For example, you go somewhere new."}
+    - {tailo: "Ē-sái ___ Kàu-io̍k-pōo ê Tâi-gí sû-tián.", hanji: "會使___教育部的台語辭典。", answer: "tshâ", answer_hanji: "查", en: "You can look it up in the Ministry of Education's Taigi dictionary."}
+audio: []

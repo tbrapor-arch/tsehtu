@@ -1,0 +1,58 @@
+id: 92
+title: {en: "Back in Taipei", tailo: "Tńg-lâi Tâi-pak", hanji: "轉來臺北"}
+review: false
+setting: "Sam's first morning back at work in Taipei. A colleague, A-tshun, comes over to his desk."
+dialogue:
+  - {n: 1, speaker: A-tshun, hanji: "你就是 Sam？我是阿春。聽講你會曉台語？", tailo: "Lí tō sī Sam? Guá sī A-tshun. Thiann-kóng lí ē-hiáu Tâi-gí?", en: "You must be Sam? I'm A-tshun. I hear you speak Taigi?"}
+  - {n: 2, speaker: Sam, hanji: "會曉一屑仔。我拄對臺南轉來，佇遐蹛幾若個月。", tailo: "Ē-hiáu tsi̍t-sut-á. Guá tú tuì Tâi-lâm tńg--lâi, tī hia tuà kuí-nā kò gue̍h.", en: "A little. I've just come back from Tainan; I stayed there several months."}
+  - {n: 3, speaker: A-tshun, hanji: "原來按呢，所以你講話有南部腔。", tailo: "Guân-lâi án-ne, sóo-í lí kóng-uē ū lâm-pōo khiunn.", en: "That explains it: you speak with a southern accent."}
+  - {n: 4, speaker: Sam, hanji: "有影？我家己攏毋知。", tailo: "Ū-iánn? Guá ka-kī lóng m̄ tsai.", en: "Really? I had no idea."}
+  - {n: 5, speaker: A-tshun, hanji: "轉來臺北，敢有習慣？", tailo: "Tńg--lâi Tâi-pak, kám ū si̍p-kuàn?", en: "Have you got used to Taipei again?"}
+  - {n: 6, speaker: Sam, hanji: "猶未。臺北人較濟、較無閒，捷運內底逐家攏咧看手機仔，攏無人講話。", tailo: "Iáu-buē. Tâi-pak lâng khah tsē, khah bô-îng, tsia̍t-ūn lāi-té ta̍k-ke lóng teh khuànn tshiú-ki-á, lóng bô lâng kóng-uē.", en: "Not yet. Taipei is more crowded and busier; on the MRT everyone is looking at their phone and nobody talks."}
+  - {n: 7, speaker: A-tshun, hanji: "都市就是按呢。佇臺南，厝邊頭尾攏熟似；佇臺北，隔壁的人嘛生份。", tailo: "Too-tshī tō sī án-ne. Tī Tâi-lâm, tshù-pinn-thâu-bué lóng si̍k-sāi; tī Tâi-pak, keh-piah ê lâng mā senn-hūn.", en: "That's the city for you. In Tainan you know everyone in the neighbourhood; in Taipei even your next-door neighbours are strangers."}
+  - {n: 8, speaker: Sam, hanji: "臺南人較熱情，臺北人感覺較冷淡。", tailo: "Tâi-lâm lâng khah jia̍t-tsîng, Tâi-pak lâng kám-kak khah líng-tām.", en: "People in Tainan are warmer; Taipei people seem colder."}
+  - {n: 9, speaker: A-tshun, hanji: "毋是冷淡，是無閒。熟似了後，臺北人嘛真好鬥陣。", tailo: "M̄ sī líng-tām, sī bô-îng. Si̍k-sāi liáu-āu, Tâi-pak lâng mā tsin hó tàu-tīn.", en: "They're not cold, they're busy. Once you know them, Taipei people are good company too."}
+  - {n: 10, speaker: Sam, hanji: "著。我昨暗轉來厝，感覺有淡薄仔寂寞。", tailo: "Tio̍h. Guá tsa-àm tńg--lâi tshù, kám-kak ū tām-po̍h-á tsi̍k-bo̍k.", en: "Yes. When I got home last night I felt a bit lonely."}
+  - {n: 11, speaker: A-tshun, hanji: "慢慢仔就會習慣。你佇臺北敢有熟似的人？", tailo: "Bān-bān-á tō ē si̍p-kuàn. Lí tī Tâi-pak kám ū si̍k-sāi ê lâng?", en: "You'll get used to it. Do you know anyone in Taipei?"}
+  - {n: 12, speaker: Sam, hanji: "阿芬佇遮食頭路，伊是阮臺南朋友的小妹。拜六欲佮伊去大稻埕。", tailo: "A-hun tī tsia tsia̍h thâu-lōo, i sī guán Tâi-lâm pîng-iú ê sió-muē. Pài-la̍k beh kah i khì Tuā-tiū-tiânn.", en: "A-hun works here; she's my Tainan friend's younger sister. On Saturday I'm going to Dadaocheng with her."}
+  - {n: 13, speaker: A-tshun, hanji: "按呢真好。我嘛是嘉義人，三十冬前來臺北，頭幾年嘛足想厝。", tailo: "Án-ne tsin hó. Guá mā sī Ka-gī lâng, sann-tsa̍p tang tsîng lâi Tâi-pak, thâu kuí nî mā tsiok siūnn tshù.", en: "Good. I'm from Chiayi myself; I came to Taipei thirty years ago, and the first few years I was terribly homesick too."}
+  - {n: 14, speaker: Sam, hanji: "後來咧？", tailo: "Āu--lâi--leh?", en: "And then?"}
+  - {n: 15, speaker: A-tshun, hanji: "後來就慣勢矣，這馬臺北嘛是我的故鄉。人去佗位，心就佇佗位。", tailo: "Āu--lâi tō kuàn-sì--ah, tsit-má Tâi-pak mā sī guá ê kòo-hiong. Lâng khì tó-uī, sim tō tī tó-uī.", en: "Then I got used to it, and now Taipei is home too. Wherever you go, your heart goes with you."}
+  - {n: 16, speaker: Sam, hanji: "我嘛向望會當按呢。", tailo: "Guá mā ǹg-bāng ē-tàng án-ne.", en: "I hope it'll be like that for me too."}
+  - {n: 17, speaker: A-tshun, hanji: "來，經理叫咱去會議室開會。", tailo: "Lâi, king-lí kiò lán khì huē-gī-sik khui-huē.", en: "Come on, the manager wants us in the meeting room."}
+  - {n: 18, speaker: Sam, hanji: "開會敢愛講華語？", tailo: "Khui-huē kám ài kóng Huâ-gí?", en: "Do meetings have to be in Mandarin?"}
+  - {n: 19, speaker: A-tshun, hanji: "開會講華語，毋過食中晝的時，咱兩个講台語。按呢你就袂袂記得。", tailo: "Khui-huē kóng Huâ-gí, m̄-koh tsia̍h tiong-tàu ê sî, lán nn̄g ê kóng Tâi-gí. Án-ne lí tō bē bē-kì-tit.", en: "Meetings are in Mandarin, but at lunch the two of us will speak Taigi. That way you won't forget it."}
+  - {n: 20, speaker: Sam, hanji: "多謝阿春姊！有你佇咧，臺北較袂遐爾生份矣。", tailo: "To-siā A-tshun-tsí! Ū lí tī--leh, Tâi-pak khah bē hiah-nī senn-hūn--ah.", en: "Thank you, A-tshun! With you around, Taipei doesn't feel so strange any more."}
+notes:
+  - {ref: 3, topic: vocab, text: "腔 khiunn = accent (腔口 khiunn-kháu, lesson 66): 南部腔 'a southern accent'. Taipei speakers often notice the Tainan accent of someone who learned there."}
+  - {ref: 5, topic: vocab, text: "習慣 si̍p-kuàn = be used to, habit: a more formal synonym of 慣勢 kuàn-sì (line 13)."}
+  - {ref: 7, topic: false-friend, text: "生份 senn-hūn = unfamiliar, strange (陌生), Taigi-only. 厝邊頭尾 tshù-pinn-thâu-bué = the whole neighbourhood (lesson 32). 都市 too-tshī = city (lesson 45)."}
+  - {ref: 8, topic: vocab, text: "熱情 jia̍t-tsîng = warm, friendly; 冷淡 líng-tām = cold, aloof. 好鬥陣 hó tàu-tīn = easy to get along with, good company."}
+  - {ref: 10, topic: vocab, text: "寂寞 tsi̍k-bo̍k = lonely (more literary than 孤單 koo-tuann, lesson 83)."}
+  - {ref: 12, topic: vocab, text: "拜六 pài-la̍k = Saturday, a shorter form of 禮拜六 lé-pài-la̍k."}
+  - {ref: 13, topic: vocab, text: "嘉義 Ka-gī = Chiayi. 想厝 siūnn tshù = be homesick."}
+  - {ref: 15, topic: grammar, text: "人去佗位，心就佇佗位 'wherever you go, your heart is there': question words used as 'wherever', in a matching pair: 佗位 … 佗位."}
+  - {ref: 17, topic: vocab, text: "經理 king-lí = manager. 會議 huē-gī = meeting; 會議室 'meeting room'; 開會 khui-huē = hold a meeting."}
+  - {ref: 20, topic: culture, text: "Name + 姊 tsí ('elder sister') is a friendly, respectful way to address a slightly older woman colleague: 阿春姊."}
+new_words:
+  - {tailo: khiunn, hanji: 腔, en: "accent"}
+  - {tailo: si̍p-kuàn, hanji: 習慣, en: "be used to; habit"}
+  - {tailo: senn-hūn, hanji: 生份, en: "unfamiliar, strange"}
+  - {tailo: tsi̍k-bo̍k, hanji: 寂寞, en: "lonely"}
+  - {tailo: pài-la̍k, hanji: 拜六, en: "Saturday"}
+  - {tailo: Ka-gī, hanji: 嘉義, en: "Chiayi"}
+  - {tailo: king-lí, hanji: 經理, en: "manager"}
+  - {tailo: huē-gī, hanji: 會議, en: "meeting"}
+  - {tailo: khui-huē, hanji: 開會, en: "hold a meeting"}
+  - {tailo: tsí, hanji: 姊, en: "elder sister (after a name)"}
+  - {tailo: jia̍t-tsîng, hanji: 熱情, en: "warm, friendly"}
+  - {tailo: líng-tām, hanji: 冷淡, en: "cold, aloof"}
+exercises:
+  translate:
+    - {tailo: "Tńg--lâi Tâi-pak, kám ū si̍p-kuàn?", hanji: "轉來臺北，敢有習慣？", en: "Have you got used to Taipei again?"}
+    - {tailo: "Tī Tâi-pak, keh-piah ê lâng mā senn-hūn.", hanji: "佇臺北，隔壁的人嘛生份。", en: "In Taipei even your next-door neighbours are strangers."}
+    - {tailo: "Lâng khì tó-uī, sim tō tī tó-uī.", hanji: "人去佗位，心就佇佗位。", en: "Wherever you go, your heart goes with you."}
+  fill:
+    - {tailo: "Kám-kak ū tām-po̍h-á ___.", hanji: "感覺有淡薄仔___。", answer: "tsi̍k-bo̍k", answer_hanji: "寂寞", en: "I felt a bit lonely."}
+    - {tailo: "Sóo-í lí kóng-uē ū lâm-pōo ___.", hanji: "所以你講話有南部___。", answer: "khiunn", answer_hanji: "腔", en: "So you speak with a southern accent."}
+audio: []

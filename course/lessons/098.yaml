@@ -1,0 +1,34 @@
+id: 98
+title: {en: "Review 14", tailo: "Ho̍k-si̍p", hanji: "復習"}
+review: true
+setting: "Saturday in Dadaocheng. Sam and A-hun finally find the old tea house where A-kong was an apprentice. Everything comes from lessons 92–97."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "就是這間！招牌猶是古早的字。", tailo: "Tō sī tsit king! Tsiau-pâi iáu-sī kóo-tsá ê jī.", en: "This is the one! The sign still has the old characters."}
+  - {n: 2, speaker: Owner, hanji: "歡迎。恁兩个少年人，敢是欲買茶？", tailo: "Huan-gîng. Lín nn̄g ê siàu-liân-lâng, kám sī beh bé tê?", en: "Welcome. Are you two young people here to buy tea?"}
+  - {n: 3, speaker: Sam, hanji: "頭家你好。阮阿公五十冬前佇遮做師仔，伊叫阮來共恁問好。", tailo: "Thâu-ke lí hó. Guán a-kong gōo-tsa̍p tang tsîng tī tsia tsò sai-á, i kiò guán lâi kā lín mn̄g hó.", en: "Hello. Our grandfather was an apprentice here fifty years ago, and he asked us to come and give you his regards."}
+  - {n: 4, speaker: Owner, hanji: "五十冬前？彼時是阮阿公咧做頭家。恁阿公叫啥物名？", tailo: "Gōo-tsa̍p tang tsîng? Hit-sî sī guán a-kong teh tsò thâu-ke. Lín a-kong kiò siánn-mih miâ?", en: "Fifty years ago? My grandfather ran the shop then. What's your grandfather's name?"}
+  - {n: 5, speaker: A-hun, hanji: "伊姓林，臺南人，彼時才十八歲。", tailo: "I sènn Lîm, Tâi-lâm lâng, hit-sî tsiah tsa̍p-peh huè.", en: "His surname is Lîm, he's from Tainan, and he was only eighteen then."}
+  - {n: 6, speaker: Owner, hanji: "……阮阿公的簿仔內底有寫！「林師仔，臺南人，真認真。」原來是恁的阿公。", tailo: "…… Guán a-kong ê phōo-á lāi-té ū siá! “Lîm sai-á, Tâi-lâm lâng, tsin jīn-tsin.” Guân-lâi sī lín ê a-kong.", en: "…It's in my grandfather's notebook! 'Apprentice Lîm, from Tainan, very hard-working.' So that was your grandfather."}
+  - {n: 7, speaker: Sam, hanji: "真想袂到！阿公若知影，一定歡喜甲。", tailo: "Tsin siūnn bē kàu! A-kong nā tsai-iánn, it-tīng huann-hí kah.", en: "I can hardly believe it! A-kong will be over the moon when he hears."}
+  - {n: 8, speaker: Owner, hanji: "這包茶送恁，紮轉去予恁阿公。俗語講，食人一口，報人一斗。", tailo: "Tsit pau tê sàng lín, tsah tńg-khì hōo lín a-kong. Sio̍k-gí kóng, tsia̍h lâng tsi̍t kháu, pò lâng tsi̍t táu.", en: "Take this packet of tea for your grandfather. As the saying goes, eat a mouthful, repay a bushel."}
+  - {n: 9, speaker: A-hun, hanji: "是阮欠你才著。多謝頭家，阮一定共你的心意帶到。", tailo: "Sī guán khiàm--lí tsiah tio̍h. To-siā thâu-ke, guán it-tīng kā lí ê sim-ì tài kàu.", en: "It's we who owe you. Thank you; we'll make sure your kindness reaches him."}
+  - {n: 10, speaker: Sam, hanji: "（細聲）阿芬，這是我來臺北了後，上蓋無生份的一工。", tailo: "(Sè-siann) A-hun, tse sī guá lâi Tâi-pak liáu-āu, siōng-kài bô senn-hūn ê tsi̍t kang.", en: "(Quietly) A-hun, this is the day Taipei has felt least strange since I came back."}
+notes:
+  - {ref: 1, topic: vocab, text: "Back in Taipei (lesson 92): 習慣, 生份 (strange, unfamiliar), 寂寞, 熱情 / 冷淡, 腔, 經理, 開會. 招牌 tsiau-pâi = shop sign (lesson 38)."}
+  - {ref: 3, topic: grammar, text: "Speech register (lesson 97): 各位, 分享, 當做, 祝福, 主辦, 演講. Here the polite formula 共恁問好 kā lín mn̄g hó 'give you (his) regards'. 師仔 sai-á = apprentice (lesson 82)."}
+  - {ref: 5, topic: vocab, text: "姓 sènn = be surnamed (lesson 52). 林 Lîm, the most common surname in Taiwan after 陳 Tân."}
+  - {ref: 6, topic: vocab, text: "Explaining and reading (lessons 93–94): 比論講, 換一句話講, 解說, 查辭典, 文章, 篇. 簿仔 phōo-á = notebook (lesson 30)."}
+  - {ref: 7, topic: grammar, text: "想袂到 siūnn bē kàu = never have imagined, unexpectedly. 歡喜甲 'so happy (you can't imagine)': V 甲 with the result left out."}
+  - {ref: 8, topic: culture, text: "Proverbs (lesson 96): 食人一口，報人一斗; 戲棚跤徛久就是你的; 一樣米飼百樣人; 三年一閏，好歹照輪; 人兩跤，錢四跤."}
+  - {ref: 9, topic: grammar, text: "Opinions and debate (lesson 95): 我認為, 同意, 意見, 理由, 好處 / 歹處, 一方面 … 另外一方面. Here: 是阮欠你才著 'it's we who owe you' (才著 tsiah tio̍h 'that's how it should be'). 心意 sim-ì = kind thought; 帶到 tài kàu = pass on."}
+  - {ref: 10, topic: grammar, text: "上蓋無生份 'the least strange of all': 上蓋 + negative adjective."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Guán a-kong gōo-tsa̍p tang tsîng tī tsia tsò sai-á.", hanji: "阮阿公五十冬前佇遮做師仔。", en: "Our grandfather was an apprentice here fifty years ago."}
+    - {tailo: "Tsin siūnn bē kàu!", hanji: "真想袂到！", en: "I can hardly believe it!"}
+    - {tailo: "Tse sī guá lâi Tâi-pak liáu-āu, siōng-kài bô senn-hūn ê tsi̍t kang.", hanji: "這是我來臺北了後，上蓋無生份的一工。", en: "This is the day Taipei has felt least strange since I came."}
+  fill:
+    - {tailo: "I ___ Lîm, Tâi-lâm lâng.", hanji: "伊___林，臺南人。", answer: "sènn", answer_hanji: "姓", en: "His surname is Lîm, he's from Tainan."}
+    - {tailo: "Guán it-tīng kā lí ê sim-ì ___ kàu.", hanji: "阮一定共你的心意___到。", answer: "tài", answer_hanji: "帶", en: "We'll make sure your kindness reaches him."}
+audio: []

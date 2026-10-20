@@ -1,0 +1,63 @@
+id: 95
+title: {en: "Debate", tailo: "Thó-lūn", hanji: "討論"}
+review: false
+setting: "The team's monthly meeting. The manager, who is from Tainan, holds it in Taigi today 'for Sam's sake'. On the agenda: working from home."
+dialogue:
+  - {n: 1, speaker: Manager, hanji: "今仔日欲討論一个提案：公司敢欲予逐家每禮拜佇厝做工課兩工？逐家講看覓恁的意見。", tailo: "Kin-á-ji̍t beh thó-lūn tsi̍t ê thê-àn: kong-si kám beh hōo ta̍k-ke muí lé-pài tī tshù tsò khang-khuè nn̄g kang? Ta̍k-ke kóng khuànn-māi lín ê ì-kiàn.", en: "Today we're discussing a proposal: should the company let everyone work from home two days a week? Let's hear your opinions."}
+  - {n: 2, speaker: A-tshun, hanji: "我認為這是好的提案。上班坐捷運愛一點鐘，佇厝做會使省時間。", tailo: "Guá jīn-uî tse sī hó ê thê-àn. Siōng-pan tsē tsia̍t-ūn ài tsi̍t tiám-tsing, tī tshù tsò ē-sái síng sî-kan.", en: "I think it's a good proposal. The MRT to work takes an hour; working from home would save time."}
+  - {n: 3, speaker: A-ióng, hanji: "我無同意。佇厝做，討論代誌較無方便，逐家見面較少，感情會冷去。", tailo: "Guá bô tông-ì. Tī tshù tsò, thó-lūn tāi-tsì khah bô hong-piān, ta̍k-ke kìnn-bīn khah tsió, kám-tsîng ē líng--khì.", en: "I disagree. Working from home makes it harder to discuss things; we'd see each other less and the team would drift apart."}
+  - {n: 4, speaker: Sam, hanji: "我感覺兩爿攏有道理。佇厝做有好處，嘛有歹處。", tailo: "Guá kám-kak nn̄g pîng lóng ū tō-lí. Tī tshù tsò ū hó-tshù, mā ū pháinn-tshù.", en: "I think both sides have a point. Working from home has advantages and disadvantages."}
+  - {n: 5, speaker: Manager, hanji: "Sam，你講較詳細咧。", tailo: "Sam, lí kóng khah siông-sè--leh.", en: "Sam, can you go into more detail?"}
+  - {n: 6, speaker: Sam, hanji: "優點是省時間，閣較自由。缺點是佇厝內較袂專心，眠床就佇邊仔。", tailo: "Iu-tiám sī síng sî-kan, koh khah tsū-iû. Khuat-tiám sī tī tshù-lāi khah bē tsuan-sim, bîn-tshn̂g tō tī pinn--á.", en: "The advantages are saving time and more freedom. The disadvantage is that it's harder to concentrate at home, with the bed right there."}
+  - {n: 7, speaker: A-ióng, hanji: "哈哈，這个理由我上了解。", tailo: "Ha-ha, tsit ê lí-iû guá siōng liáu-kái.", en: "Ha ha, I know that one well."}
+  - {n: 8, speaker: A-tshun, hanji: "毋過若是有規定上班的時間，嘛會使專心。", tailo: "M̄-koh nā-sī ū kui-tīng siōng-pan ê sî-kan, mā ē-sái tsuan-sim.", en: "But if working hours are fixed, you can still concentrate."}
+  - {n: 9, speaker: A-ióng, hanji: "我毋是反對，我是驚溝通出問題。一方面愛自由，另外一方面嘛愛鬥陣。", tailo: "Guá m̄ sī huán-tuì, guá sī kiann koo-thong tshut būn-tê. Tsi̍t hong-bīn ài tsū-iû, līng-guā tsi̍t hong-bīn mā ài tàu-tīn.", en: "I'm not against it; I'm worried about communication going wrong. On the one hand we want freedom, on the other hand we need to work together."}
+  - {n: 10, speaker: Sam, hanji: "我的意見是：先試一個月，才閣討論。", tailo: "Guá ê ì-kiàn sī: sing tshì tsi̍t kò gue̍h, tsiah koh thó-lūn.", en: "My suggestion is: try it for a month first, then discuss it again."}
+  - {n: 11, speaker: Manager, hanji: "這个意見袂䆀。有人反對無？", tailo: "Tsit ê ì-kiàn bē-bái. Ū lâng huán-tuì--bô?", en: "That's not a bad idea. Anyone against?"}
+  - {n: 12, speaker: A-ióng, hanji: "試一個月，我會使接受。毋過每禮拜猶是愛有一工逐家攏來公司。", tailo: "Tshì tsi̍t kò gue̍h, guá ē-sái tsiap-siū. M̄-koh muí lé-pài iáu-sī ài ū tsi̍t kang ta̍k-ke lóng lâi kong-si.", en: "I can accept a month's trial. But there should still be one day a week when everyone comes in."}
+  - {n: 13, speaker: A-tshun, hanji: "我同意。按呢兩爿攏照顧著。", tailo: "Guá tông-ì. Án-ne nn̄g pîng lóng tsiàu-kòo--tio̍h.", en: "I agree. That way both sides are taken care of."}
+  - {n: 14, speaker: Manager, hanji: "好，咱來投票。同意的人攑手。", tailo: "Hó, lán lâi tâu-phiò. Tông-ì ê lâng gia̍h-tshiú.", en: "Right, let's vote. Hands up if you agree."}
+  - {n: 15, speaker: Manager, hanji: "多數同意，少數反對。結論是：下個月開始試，每禮拜兩工佇厝，一工逐家攏來公司。", tailo: "To-sòo tông-ì, tsió-sòo huán-tuì. Kiat-lūn sī: ē kò gue̍h khai-sí tshì, muí lé-pài nn̄g kang tī tshù, tsi̍t kang ta̍k-ke lóng lâi kong-si.", en: "The majority agree, a minority are against. Conclusion: from next month we'll try two days a week at home and one day when everyone comes in."}
+  - {n: 16, speaker: A-ióng, hanji: "好，我尊重逐家的決定。", tailo: "Hó, guá tsun-tiōng ta̍k-ke ê kuat-tīng.", en: "All right, I respect everyone's decision."}
+  - {n: 17, speaker: A-tshun, hanji: "（細聲）Sam，你頭拄仔講甲真有條理。", tailo: "(Sè-siann) Sam, lí thâu-tú-á kóng kah tsin ū tiâu-lí.", en: "(Quietly) Sam, you put that really clearly just now."}
+  - {n: 18, speaker: Sam, hanji: "是阿公教我的：先講別人的道理，才講家己的意見，按呢人較聽會入去。", tailo: "Sī a-kong kà--guá--ê: sing kóng pa̍t-lâng ê tō-lí, tsiah kóng ka-kī ê ì-kiàn, án-ne lâng khah thiann ē ji̍p--khì.", en: "A-kong taught me that: first acknowledge the other side's point, then give your own opinion. People listen better that way."}
+notes:
+  - {ref: 1, topic: vocab, text: "討論 thó-lūn = discuss. 提案 thê-àn = proposal. 意見 ì-kiàn = opinion; also 'suggestion' (line 10)."}
+  - {ref: 2, topic: grammar, text: "Giving opinions: 我認為 guá jīn-uî … 'I think, in my view' (more formal than 我感覺 guá kám-kak, line 4); 我的意見是 … (line 10); 我同意 / 我無同意 'I agree / disagree' (同意 tông-ì)."}
+  - {ref: 3, topic: vocab, text: "方便 hong-piān = convenient. 冷去 líng--khì = cool off, grow distant."}
+  - {ref: 4, topic: grammar, text: "Weighing both sides: 兩爿攏有道理 'both sides have a point' (爿 pîng 'side', lesson 62); 有好處，嘛有歹處 'there are advantages and disadvantages' (好處 hó-tshù / 歹處 pháinn-tshù); 優點 iu-tiám / 缺點 khuat-tiám (line 6) are the more formal pair."}
+  - {ref: 5, topic: vocab, text: "詳細 siông-sè = in detail."}
+  - {ref: 6, topic: vocab, text: "專心 tsuan-sim = concentrate."}
+  - {ref: 7, topic: vocab, text: "理由 lí-iû = reason, argument."}
+  - {ref: 8, topic: vocab, text: "規定 kui-tīng = fix, lay down (a rule); a rule."}
+  - {ref: 9, topic: grammar, text: "毋是 X，是 Y 'it's not that X, it's Y' (lesson 79). 一方面 …，另外一方面 … tsi̍t hong-bīn …, līng-guā tsi̍t hong-bīn … = on the one hand …, on the other …. 溝通 koo-thong = communication."}
+  - {ref: 12, topic: vocab, text: "接受 tsiap-siū = accept."}
+  - {ref: 14, topic: vocab, text: "投票 tâu-phiò = vote (lesson 57). 攑手 gia̍h-tshiú = raise one's hand."}
+  - {ref: 15, topic: vocab, text: "多數 to-sòo / 少數 tsió-sòo = majority / minority. 結論 kiat-lūn = conclusion."}
+  - {ref: 17, topic: vocab, text: "條理 tiâu-lí = clear order, logic: 講甲真有條理 'put it very clearly'."}
+new_words:
+  - {tailo: thó-lūn, hanji: 討論, en: "discuss"}
+  - {tailo: thê-àn, hanji: 提案, en: "proposal"}
+  - {tailo: ì-kiàn, hanji: 意見, en: "opinion"}
+  - {tailo: jīn-uî, hanji: 認為, en: "think, consider"}
+  - {tailo: tông-ì, hanji: 同意, en: "agree"}
+  - {tailo: hong-piān, hanji: 方便, en: "convenient"}
+  - {tailo: hó-tshù, hanji: 好處, en: "advantage"}
+  - {tailo: pháinn-tshù, hanji: 歹處, en: "disadvantage"}
+  - {tailo: siông-sè, hanji: 詳細, en: "in detail"}
+  - {tailo: iu-tiám, hanji: 優點, en: "strong point"}
+  - {tailo: khuat-tiám, hanji: 缺點, en: "weak point"}
+  - {tailo: tsuan-sim, hanji: 專心, en: "concentrate"}
+  - {tailo: lí-iû, hanji: 理由, en: "reason"}
+  - {tailo: kui-tīng, hanji: 規定, en: "rule; lay down"}
+  - {tailo: tsiap-siū, hanji: 接受, en: "accept"}
+  - {tailo: kiat-lūn, hanji: 結論, en: "conclusion"}
+exercises:
+  translate:
+    - {tailo: "Guá jīn-uî tse sī hó ê thê-àn.", hanji: "我認為這是好的提案。", en: "I think it's a good proposal."}
+    - {tailo: "Guá kám-kak nn̄g pîng lóng ū tō-lí.", hanji: "我感覺兩爿攏有道理。", en: "I think both sides have a point."}
+    - {tailo: "Tsi̍t hong-bīn ài tsū-iû, līng-guā tsi̍t hong-bīn mā ài tàu-tīn.", hanji: "一方面愛自由，另外一方面嘛愛鬥陣。", en: "On the one hand we want freedom, on the other hand we need to work together."}
+  fill:
+    - {tailo: "Guá bô ___.", hanji: "我無___。", answer: "tông-ì", answer_hanji: "同意", en: "I disagree."}
+    - {tailo: "Tī tshù tsò ū hó-tshù, mā ū ___.", hanji: "佇厝做有好處，嘛有___。", answer: "pháinn-tshù", answer_hanji: "歹處", en: "Working from home has advantages and disadvantages."}
+audio: []

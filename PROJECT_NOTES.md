@@ -4,10 +4,10 @@ Migrated from a long Claude Project conversation. In that conversation lessons w
 course files as a model for pacing and structure only (kept in the git-ignored `reference/`).
 
 ## Status
-- **Lessons:** 1–91 written (`course/lessons/`), 92–100 planned as titles in `course/syllabus.yaml`. Lesson 0 is
-  `000-reading-tailo.md`. Review lessons: 7, 14, …, 91 so far.
+- **Lessons:** 1–98 written (`course/lessons/`), 99–100 planned as titles in `course/syllabus.yaml`. Lesson 0 is
+  `000-reading-tailo.md`. Review lessons: 7, 14, …, 98 (all 14).
 - **Themes:** one (`health`). The Themes tab is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
-- **Coverage** (after lesson 91): top 100: 100 %, top 300: 96 %, top 1,000: 86 % (72 % after 63, 84 % after 84). Plan for lessons 64–100: `docs/course-plan.md`.
+- **Coverage** (after lesson 98): top 100: 100 %, top 300: 96 %, top 1,000: 88 % (72 % after 63, 86 % after 91). Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
 - **App tabs:** Lessons, Themes, Grammar, Review (includes Bridge and tone drill), Podcast, Settings, plus a hidden
   Exam tab that exists only when this device's token can read the private repo.
@@ -43,7 +43,7 @@ before committing (lessons 64–76 had many guessed numbers, fixed on 20 Oct 202
 - Build fails soft: MOE audio and the podcast feed are optional, the site deploys without them.
 
 ## Open items
-- Write lessons 92–100 following `course/syllabus.yaml` (`plan:` field); classify the vocabulary for the Themes tab, starting with a pilot domain.
+- Write lessons 99–100 following `course/syllabus.yaml` (`plan:` field); classify the vocabulary for the Themes tab, starting with a pilot domain.
 - Record lessons with a native speaker; lines she flags go to `course/audio/flags.yaml`.
 - Sync/exam token expires about 12 Nov 2026 (30-day token); see `docs/sync-and-private-module.md`.
 - The podcast feed URL is hard-coded in `tools/fetch_podcast.py` and also in the private repo's tools. Change all copies together.

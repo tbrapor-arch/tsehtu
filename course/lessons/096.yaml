@@ -1,0 +1,59 @@
+id: 96
+title: {en: "Proverbs II", tailo: "Sio̍k-gí", hanji: "俗語"}
+review: false
+setting: "Lunchtime. Sam has had a bad week at work, and A-tshun cheers him up the way her mother used to: with proverbs. The proverbs and their readings are as in the MOE dictionary."
+dialogue:
+  - {n: 1, speaker: A-tshun, hanji: "Sam，你哪會規个面憂頭結面？", tailo: "Sam, lí ná ē kui ê bīn iu-thâu-kat-bīn?", en: "Sam, why the long face?"}
+  - {n: 2, speaker: Sam, hanji: "我這禮拜做毋著代誌，報告寫錯，予經理罵。", tailo: "Guá tsit lé-pài tsò m̄-tio̍h tāi-tsì, pò-kò siá tshò, hōo king-lí mē.", en: "I messed up this week: I got a report wrong and the manager told me off."}
+  - {n: 3, speaker: A-tshun, hanji: "新來的人攏按呢。俗語講：「戲棚跤徛久就是你的。」", tailo: "Sin lâi ê lâng lóng án-ne. Sio̍k-gí kóng: “Hì-pênn kha khiā kú tō sī lí ê.”", en: "Everyone new goes through that. As the saying goes: 'Stand long enough in front of the stage, and the spot is yours.'"}
+  - {n: 4, speaker: Sam, hanji: "意思是徛較久，位就是你的？", tailo: "Ì-sù sī khiā khah kú, uī tō sī lí ê?", en: "Meaning that if you stand there long enough, you get the place?"}
+  - {n: 5, speaker: A-tshun, hanji: "著，做代誌愛有耐心，莫一擺失敗就放棄。", tailo: "Tio̍h, tsò tāi-tsì ài ū nāi-sim, mài tsi̍t pái sit-pāi tō hòng-khì.", en: "Yes: you need patience, and you shouldn't give up after one failure."}
+  - {n: 6, speaker: Sam, hanji: "毋過經理真嚴，閣定定嫌東嫌西。", tailo: "M̄-koh king-lí tsin giâm, koh tiānn-tiānn hiâm tang hiâm sai.", en: "But the manager is strict, and he's always finding fault with something."}
+  - {n: 7, speaker: A-tshun, hanji: "一樣米飼百樣人。", tailo: "Tsi̍t iūnn bí tshī pah-iūnn lâng.", en: "The same rice feeds a hundred kinds of people.", source: moe}
+  - {n: 8, speaker: A-tshun, hanji: "啥款的人都有。伊嚴，毋過伊嘛是想欲咱做較好。", tailo: "Siánn khuán ê lâng to ū. I giâm, m̄-koh i mā sī siūnn-beh lán tsò khah hó.", en: "It takes all kinds. He's strict, but he wants us to do better too."}
+  - {n: 9, speaker: Sam, hanji: "上班遮辛苦，趁錢遮僫。", tailo: "Siōng-pan tsiah sin-khóo, thàn-tsînn tsiah oh.", en: "Work is so hard, and money is so hard to earn."}
+  - {n: 10, speaker: A-tshun, hanji: "所以古早人講：「人兩跤，錢四跤。」錢走較緊，人愛較拍拚。", tailo: "Sóo-í kóo-tsá lâng kóng: “Lâng nn̄g kha, tsînn sì kha.” Tsînn tsáu khah kín, lâng ài khah phah-piànn.", en: "That's why the old saying goes: 'People have two legs, money has four.' Money runs faster, so people have to work harder."}
+  - {n: 11, speaker: Sam, hanji: "阿芬佇伊的公司做甲真順，我煞……", tailo: "A-hun tī i ê kong-si tsò kah tsin sūn, guá suah……", en: "A-hun is doing so well at her company, and I…"}
+  - {n: 12, speaker: A-tshun, hanji: "三年一閏，好歹照輪。", tailo: "Sann nî tsi̍t jūn, hó-pháinn tsiàu lûn.", en: "Every three years a leap month: good and bad come round in turn.", source: moe}
+  - {n: 13, speaker: A-tshun, hanji: "這馬伊較順，後擺換你。莫佮人比，嘛莫笑人：「龜笑鱉無尾，鱉笑龜粗皮。」", tailo: "Tsit-má i khah sūn, āu-pái uānn lí. Mài kah lâng pí, mā mài tshiò lâng: “Ku tshiò pih bô bué, pih tshiò ku tshoo phuê.”", en: "She's doing well now; next time it'll be your turn. Don't compare yourself with others, and don't laugh at them either: 'The tortoise laughs at the turtle for having no tail; the turtle laughs at the tortoise for its rough skin.'"}
+  - {n: 14, speaker: Sam, hanji: "哈，我無咧笑人，是人咧笑我。", tailo: "Hah, guá bô teh tshiò lâng, sī lâng teh tshiò guá.", en: "Ha, I'm not laughing at anyone; they're laughing at me."}
+  - {n: 15, speaker: A-tshun, hanji: "上要緊是基礎愛穩：「樹頭徛予在，毋驚樹尾做風颱。」", tailo: "Siōng iàu-kín sī ki-tshóo ài ún: “Tshiū-thâu khiā hōo tsāi, m̄ kiann tshiū-bué tsò-hong-thai.”", en: "What matters most is a solid foundation: 'If the roots stand firm, the treetop doesn't fear a typhoon.'"}
+  - {n: 16, speaker: Sam, hanji: "阿春姊，多謝你。你遮爾照顧我，我欲請你食中晝。", tailo: "A-tshun-tsí, to-siā--lí. Lí tsiah-nī tsiàu-kòo--guá, guá beh tshiánn lí tsia̍h tiong-tàu.", en: "Thank you, A-tshun. You've been so good to me, let me buy you lunch."}
+  - {n: 17, speaker: A-tshun, hanji: "好啊。你這款就是：「食人一口，報人一斗。」", tailo: "Hó--ah. Lí tsit khuán tō sī: “Tsia̍h lâng tsi̍t kháu, pò lâng tsi̍t táu.”", en: "All right. That's just like the saying: 'Eat a mouthful from someone, repay them a bushel.'"}
+  - {n: 18, speaker: Sam, hanji: "我才請一頓飯爾爾，哪有一斗遐濟！", tailo: "Guá tsiah tshiánn tsi̍t tǹg pn̄g niā-niā, ná ū tsi̍t táu hiah tsē!", en: "It's only one lunch, hardly a bushel!"}
+notes:
+  - {ref: 1, topic: vocab, text: "憂頭結面 iu-thâu-kat-bīn = with a worried, gloomy face."}
+  - {ref: 2, topic: vocab, text: "報告 pò-kò = report. 寫錯 siá tshò = write (it) wrong. 予經理罵 'got told off by the manager' (passive 予, lesson 65)."}
+  - {ref: 3, topic: culture, text: "戲棚跤徛久就是你的 'stand at the foot of the stage long enough and the place is yours': at an open-air opera the best spots go to those who wait. Perseverance pays."}
+  - {ref: 5, topic: vocab, text: "耐心 nāi-sim = patience. 失敗 sit-pāi = fail, failure. 放棄 hòng-khì = give up."}
+  - {ref: 6, topic: vocab, text: "嚴 giâm = strict. 嫌東嫌西 hiâm tang hiâm sai = find fault with everything (嫌, lesson 79)."}
+  - {ref: 7, topic: culture, text: "一樣米飼百樣人 'the same rice feeds a hundred kinds of people': it takes all sorts. Quoted from the MOE dictionary."}
+  - {ref: 10, topic: culture, text: "人兩跤，錢四跤 'people have two legs, money has four': earning money is hard, it always runs faster than you."}
+  - {ref: 11, topic: vocab, text: "順 sūn = go smoothly, do well."}
+  - {ref: 12, topic: culture, text: "三年一閏，好歹照輪: the lunar calendar adds a leap month (閏 jūn) about every three years; just so, good and bad times take their turn. Quoted from the MOE dictionary."}
+  - {ref: 13, topic: culture, text: "龜笑鱉無尾，鱉笑龜粗皮: the pot calling the kettle black. 龜 ku = tortoise; 鱉 pih = soft-shelled turtle."}
+  - {ref: 15, topic: culture, text: "樹頭徛予在，毋驚樹尾做風颱 'if the roots stand firm, the treetop doesn't fear typhoons': build a solid base. 基礎 ki-tshóo = foundation; 穩 ún = stable, steady."}
+  - {ref: 17, topic: culture, text: "食人一口，報人一斗 'eat one mouthful from someone, repay a bushel (斗 táu)': repay kindness generously. The proverbs in this lesson are written and read as in the MOE dictionary; 俗語 sio̍k-gí = proverb (lesson 44)."}
+new_words:
+  - {tailo: iu-thâu-kat-bīn, hanji: 憂頭結面, en: "gloomy-faced"}
+  - {tailo: hì-pênn, hanji: 戲棚, en: "(open-air) stage"}
+  - {tailo: nāi-sim, hanji: 耐心, en: "patience"}
+  - {tailo: sit-pāi, hanji: 失敗, en: "fail, failure"}
+  - {tailo: hòng-khì, hanji: 放棄, en: "give up"}
+  - {tailo: giâm, hanji: 嚴, en: "strict"}
+  - {tailo: sūn, hanji: 順, en: "go smoothly"}
+  - {tailo: jūn, hanji: 閏, en: "leap (month)"}
+  - {tailo: ku, hanji: 龜, en: "tortoise"}
+  - {tailo: pih, hanji: 鱉, en: "soft-shelled turtle"}
+  - {tailo: ki-tshóo, hanji: 基礎, en: "foundation"}
+  - {tailo: ún, hanji: 穩, en: "stable, steady"}
+  - {tailo: táu, hanji: 斗, en: "bushel (old measure)"}
+exercises:
+  translate:
+    - {tailo: "Hì-pênn kha khiā kú tō sī lí ê.", hanji: "戲棚跤徛久就是你的。", en: "Stand long enough in front of the stage, and the spot is yours."}
+    - {tailo: "Lâng nn̄g kha, tsînn sì kha.", hanji: "人兩跤，錢四跤。", en: "People have two legs, money has four."}
+    - {tailo: "Mài tsi̍t pái sit-pāi tō hòng-khì.", hanji: "莫一擺失敗就放棄。", en: "Don't give up after one failure."}
+  fill:
+    - {tailo: "Tsi̍t iūnn bí tshī ___ lâng.", hanji: "一樣米飼___人。", answer: "pah-iūnn", answer_hanji: "百樣", en: "The same rice feeds a hundred kinds of people."}
+    - {tailo: "Sann nî tsi̍t jūn, hó-pháinn tsiàu ___.", hanji: "三年一閏，好歹照___。", answer: "lûn", answer_hanji: "輪", en: "Good and bad come round in turn."}
+audio: []

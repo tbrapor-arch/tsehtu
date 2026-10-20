@@ -1,0 +1,61 @@
+id: 94
+title: {en: "Reading a short text", tailo: "Tha̍k tsi̍t phinn bûn-tsiong", hanji: "讀一篇文章"}
+review: false
+setting: "A-kong has posted Sam a short piece of Taigi prose he wrote. Sam reads it aloud at lunch, and A-tshun listens. The text is original to this course."
+dialogue:
+  - {n: 1, speaker: Text, hanji: "我出世佇臺南的庄跤，彼時路邊攏是田。", tailo: "Guá tshut-sì tī Tâi-lâm ê tsng-kha, hit-sî lōo-pinn lóng sī tshân.", en: "I was born in the countryside near Tainan. In those days there were fields all along the roads."}
+  - {n: 2, speaker: Text, hanji: "每年春天，田岸的花開甲滿四界，風一下吹，規片田袂輸咧笑。", tailo: "Muí nî tshun-thinn, tshân-huānn ê hue khui kah muá sì-kè, hong tsi̍t-ē tshue, kui phìnn tshân bē-su teh tshiò.", en: "Every spring the flowers along the field paths bloomed everywhere; when the wind blew, the whole field seemed to laugh."}
+  - {n: 3, speaker: Text, hanji: "阮老爸講，土地有性命，你按怎待伊，伊就按怎報答你。", tailo: "Guán lāu-pē kóng, thóo-tē ū sènn-miā, lí án-tsuánn thāi--i, i tō án-tsuánn pò-tap--lí.", en: "My father used to say the land is alive: however you treat it, that is how it repays you."}
+  - {n: 4, speaker: Text, hanji: "後來我去都市拍拚，沿路看著真濟美麗的所在，毋過心頭上數念的，猶是故鄉的日頭。", tailo: "Āu--lâi guá khì too-tshī phah-piànn, iân-lōo khuànn-tio̍h tsin tsē bí-lē ê sóo-tsāi, m̄-koh sim-thâu siōng siàu-liām--ê, iáu-sī kòo-hiong ê ji̍t-thâu.", en: "Later I went to the city to make my way, and along the road I saw many beautiful places; but what my heart missed most was still the sun of home."}
+  - {n: 5, speaker: Text, hanji: "人生親像一條路，有平嘛有崎。", tailo: "Jîn-sing tshin-tshiūnn tsi̍t tiâu lōo, ū pênn mā ū kiā.", en: "Life is like a road: there are flat stretches and steep ones."}
+  - {n: 6, speaker: Text, hanji: "世間的代誌，無一定攏照咱的意思行。", tailo: "Sè-kan ê tāi-tsì, bô it-tīng lóng tsiàu lán ê ì-sù kiânn.", en: "Things in this world don't always go the way we want."}
+  - {n: 7, speaker: Text, hanji: "毋過只要心頭有一个所在通轉去，人就毋驚行遠路。", tailo: "M̄-koh tsí-iàu sim-thâu ū tsi̍t ê sóo-tsāi thang tńg-khì, lâng tō m̄ kiann kiânn hn̄g lōo.", en: "But as long as there is a place in your heart to go back to, you're not afraid of a long road."}
+  - {n: 8, speaker: Text, hanji: "這馬我老矣，逐工透早坐佇門口，等待日頭對東爿浮出來。", tailo: "Tsit-má guá lāu--ah, ta̍k-kang thàu-tsá tsē tī mn̂g-kháu, tán-thāi ji̍t-thâu tuì tang-pîng phû--tshut-lâi.", en: "Now I am old. Every morning I sit at the door, waiting for the sun to rise in the east."}
+  - {n: 9, speaker: Text, hanji: "日頭逐工攏仝款，毋過看日頭的人，一工比一工較知足。", tailo: "Ji̍t-thâu ta̍k-kang lóng kāng-khuán, m̄-koh khuànn ji̍t-thâu ê lâng, tsi̍t kang pí tsi̍t kang khah ti-tsiok.", en: "The sun is the same every day, but the man watching it is a little more content each day."}
+  - {n: 10, speaker: A-tshun, hanji: "這篇文章是恁阿公寫的？寫甲真媠。", tailo: "Tsit phinn bûn-tsiong sī lín a-kong siá--ê? Siá kah tsin suí.", en: "Your grandpa wrote this? It's beautifully written."}
+  - {n: 11, speaker: Sam, hanji: "是。伊講伊用台語寫文章，已經寫二十冬矣。", tailo: "Sī. I kóng i iōng Tâi-gí siá bûn-tsiong, í-king siá jī-tsa̍p tang--ah.", en: "Yes. He says he's been writing in Taigi for twenty years."}
+  - {n: 12, speaker: A-tshun, hanji: "「有平嘛有崎」，這句我真佮意。「崎」是啥，你知無？", tailo: "“Ū pênn mā ū kiā”, tsit kù guá tsin kah-ì. “Kiā” sī siánn, lí tsai--bô?", en: "'Flat stretches and steep ones': I love that line. Do you know what 'kiā' is?"}
+  - {n: 13, speaker: Sam, hanji: "是山坪彼款崎崎的路，愛𬦰的。", tailo: "Sī suann-phiânn hit khuán kiā-kiā ê lōo, ài peh--ê.", en: "It's the kind of steep road on a hillside that you have to climb."}
+  - {n: 14, speaker: A-tshun, hanji: "著。寫文章佮講話無仝，用字較媠，較有畫面。", tailo: "Tio̍h. Siá bûn-tsiong kah kóng-uē bô-kâng, iōng jī khah suí, khah ū uē-bīn.", en: "Right. Writing isn't like speaking: the words are more beautiful, and they paint more of a picture."}
+  - {n: 15, speaker: Sam, hanji: "我讀了，煞想著臺南的日頭佮阿媽的菜脯。", tailo: "Guá tha̍k liáu, suah siūnn-tio̍h Tâi-lâm ê ji̍t-thâu kah a-má ê tshài-póo.", en: "Reading it, I suddenly thought of the Tainan sun and A-má's dried radish."}
+  - {n: 16, speaker: A-tshun, hanji: "好的文章就是按呢：讀的人會想著家己的故事。", tailo: "Hó ê bûn-tsiong tō sī án-ne: tha̍k ê lâng ē siūnn-tio̍h ka-kī ê kòo-sū.", en: "That's what good writing does: it makes readers think of their own story."}
+  - {n: 17, speaker: Sam, hanji: "我嘛想欲用台語寫一篇，寫我佇臺南的日子。", tailo: "Guá mā siūnn-beh iōng Tâi-gí siá tsi̍t phinn, siá guá tī Tâi-lâm ê ji̍t-tsí.", en: "I'd like to write a piece in Taigi too, about my days in Tainan."}
+  - {n: 18, speaker: A-tshun, hanji: "好啊，寫好予我看，我共你改。", tailo: "Hó--ah, siá hó hōo guá khuànn, guá kā lí kái.", en: "Go on, show it to me when it's done and I'll correct it for you."}
+notes:
+  - {ref: 1, topic: vocab, text: "出世 tshut-sì = be born. 篇 phinn = classifier for pieces of writing; 文章 bûn-tsiong = essay, piece of writing (title)."}
+  - {ref: 2, topic: grammar, text: "Written Taigi prose uses the same grammar as speech but chooses more images: 開甲滿四界 'bloomed till they filled everywhere' (滿 muá 'full'), 規片田袂輸咧笑 'the whole field as if laughing'. 春天 tshun-thinn = spring. 田岸 tshân-huānn = the raised paths between fields. 每年 muí nî = every year."}
+  - {ref: 3, topic: vocab, text: "待 thāi = treat (someone). 報答 pò-tap = repay (kindness)."}
+  - {ref: 4, topic: vocab, text: "沿路 iân-lōo = all along the way. 美麗 bí-lē = beautiful (written; 媠 suí is the spoken word). 心頭 sim-thâu = in one's heart (lesson 80)."}
+  - {ref: 5, topic: vocab, text: "平 pênn = flat, level. 崎 kiā = steep; a slope."}
+  - {ref: 6, topic: vocab, text: "世間 sè-kan = the world, this life."}
+  - {ref: 7, topic: grammar, text: "只要 X，就 Y = as long as X, Y."}
+  - {ref: 8, topic: vocab, text: "等待 tán-thāi = wait for (written; 等 tán in speech). 東爿 tang-pîng = the east side. 浮出來 phû--tshut-lâi = rise up, appear."}
+  - {ref: 9, topic: vocab, text: "知足 ti-tsiok = content, satisfied with what one has."}
+  - {ref: 14, topic: vocab, text: "畫面 uē-bīn = picture, image (in the mind)."}
+  - {ref: 18, topic: vocab, text: "改 kái = correct, change."}
+new_words:
+  - {tailo: phinn, hanji: 篇, en: "classifier for writings"}
+  - {tailo: bûn-tsiong, hanji: 文章, en: "essay, piece of writing"}
+  - {tailo: tshut-sì, hanji: 出世, en: "be born"}
+  - {tailo: tshun-thinn, hanji: 春天, en: "spring"}
+  - {tailo: tshân-huānn, hanji: 田岸, en: "path between fields"}
+  - {tailo: muá, hanji: 滿, en: "full"}
+  - {tailo: thāi, hanji: 待, en: "treat"}
+  - {tailo: pò-tap, hanji: 報答, en: "repay"}
+  - {tailo: iân-lōo, hanji: 沿路, en: "all along the way"}
+  - {tailo: bí-lē, hanji: 美麗, en: "beautiful"}
+  - {tailo: pênn, hanji: 平, en: "flat, level"}
+  - {tailo: kiā, hanji: 崎, en: "steep; slope"}
+  - {tailo: sè-kan, hanji: 世間, en: "the world"}
+  - {tailo: tsí-iàu, hanji: 只要, en: "as long as"}
+  - {tailo: tán-thāi, hanji: 等待, en: "wait for"}
+  - {tailo: ti-tsiok, hanji: 知足, en: "content"}
+exercises:
+  translate:
+    - {tailo: "Jîn-sing tshin-tshiūnn tsi̍t tiâu lōo, ū pênn mā ū kiā.", hanji: "人生親像一條路，有平嘛有崎。", en: "Life is like a road: there are flat stretches and steep ones."}
+    - {tailo: "Sè-kan ê tāi-tsì, bô it-tīng lóng tsiàu lán ê ì-sù kiânn.", hanji: "世間的代誌，無一定攏照咱的意思行。", en: "Things in this world don't always go the way we want."}
+    - {tailo: "Hó ê bûn-tsiong tō sī án-ne.", hanji: "好的文章就是按呢。", en: "That's what good writing does."}
+  fill:
+    - {tailo: "M̄-koh ___ sim-thâu ū tsi̍t ê sóo-tsāi thang tńg-khì, lâng tō m̄ kiann kiânn hn̄g lōo.", hanji: "毋過___心頭有一个所在通轉去，人就毋驚行遠路。", answer: "tsí-iàu", answer_hanji: "只要", en: "But as long as there is a place in your heart to go back to, you're not afraid of a long road."}
+    - {tailo: "Lí án-tsuánn thāi--i, i tō án-tsuánn ___--lí.", hanji: "你按怎待伊，伊就按怎___你。", answer: "pò-tap", answer_hanji: "報答", en: "However you treat it, that is how it repays you."}
+audio: []

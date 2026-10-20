@@ -1,0 +1,61 @@
+id: 97
+title: {en: "Sam's speech", tailo: "Sam ê ián-káng", hanji: "Sam 的演講"}
+review: false
+setting: "A community-college speech event for Taigi learners in Taipei. A-tshun and A-hun are in the audience."
+dialogue:
+  - {n: 1, speaker: Host, hanji: "紲落來，請咱下一位，Sam，上台。", tailo: "Suà--lo̍h-lâi, tshiánn lán ē tsi̍t uī, Sam, tsiūnn-tâi.", en: "Next, please welcome our next speaker, Sam."}
+  - {n: 2, speaker: Sam, hanji: "各位評審、各位先生小姐，逐家好。", tailo: "Kok-uī phîng-sím, kok-uī sian-sinn sió-tsiá, ta̍k-ke hó.", en: "Members of the jury, ladies and gentlemen, good evening."}
+  - {n: 3, speaker: Sam, hanji: "我是 Sam。今仔日真歡喜有這个機會，來佮逐家分享我學台語的經驗。", tailo: "Guá sī Sam. Kin-á-ji̍t tsin huann-hí ū tsit ê ki-huē, lâi kah ta̍k-ke hun-hióng guá o̍h Tâi-gí ê king-giām.", en: "I'm Sam. I'm very happy to have this chance today to share with you my experience of learning Taigi."}
+  - {n: 4, speaker: Sam, hanji: "我頭一擺聽著台語，是佇臺北的計程車頂。收音機咧唱歌，我一句都聽無。", tailo: "Guá thâu tsi̍t pái thiann-tio̍h Tâi-gí, sī tī Tâi-pak ê kè-thîng-tshia tíng. Siu-im-ki teh tshiùnn-kua, guá tsi̍t kù to thiann bô.", en: "The first time I heard Taigi was in a taxi in Taipei. The radio was playing a song, and I didn't understand a word."}
+  - {n: 5, speaker: Sam, hanji: "後來我去臺南，佮一對老大人蹛做伙。𪜶毋是我真正的阿公阿媽，毋過𪜶共我當做家己的孫。", tailo: "Āu--lâi guá khì Tâi-lâm, kah tsi̍t tuì lāu-tuā-lâng tuà tsò-hué. In m̄ sī guá tsin-tsiànn ê a-kong a-má, m̄-koh in kā guá tòng-tsò ka-kī ê sun.", en: "Later I went to Tainan and lived with an elderly couple. They're not my real grandparents, but they treated me as their own grandson."}
+  - {n: 6, speaker: Sam, hanji: "𪜶教我講話，教我煮滷肉飯，閣教我真濟俗語。", tailo: "In kà guá kóng-uē, kà guá tsú lóo-bah-pn̄g, koh kà guá tsin tsē sio̍k-gí.", en: "They taught me to speak, to make braised pork rice, and a great many proverbs."}
+  - {n: 7, speaker: Sam, hanji: "我嘛捌講毋著，共「買」講做「賣」，共「四」講做「死」，予人笑甲袂煞。", tailo: "Guá mā bat kóng m̄-tio̍h, kā “bé” kóng tsò “bē”, kā “sì” kóng tsò “sí”, hōo lâng tshiò kah bē suah.", en: "I've got things wrong too: I said 'sell' for 'buy' and 'die' for 'four', and people couldn't stop laughing."}
+  - {n: 8, speaker: Sam, hanji: "毋過我慢慢仔了解，語言毋但是字佮聲調，閣是人佮人之間的感情。", tailo: "M̄-koh guá bān-bān-á liáu-kái, gí-giân m̄-nā sī jī kah siann-tiāu, koh sī lâng kah lâng tsi-kan ê kám-tsîng.", en: "But slowly I came to understand that a language isn't just words and tones; it's the feeling between people."}
+  - {n: 9, speaker: Sam, hanji: "講台語的時，菜市仔的頭家較熱情，廟口的阿伯較愛佮我開講。", tailo: "Kóng Tâi-gí ê sî, tshài-tshī-á ê thâu-ke khah jia̍t-tsîng, biō-kháu ê a-peh khah ài kah guá khai-káng.", en: "When I speak Taigi, the stallholders at the market are warmer, and the old men outside the temple are keener to chat with me."}
+  - {n: 10, speaker: Sam, hanji: "俗語講：「戲棚跤徛久就是你的。」我學台語猶未徛夠久，毋過我會繼續徛落去。", tailo: "Sio̍k-gí kóng: “Hì-pênn kha khiā kú tō sī lí ê.” Guá o̍h Tâi-gí iáu-buē khiā kàu kú, m̄-koh guá ē kè-sio̍k khiā--lo̍h-khì.", en: "As the proverb says: 'Stand long enough in front of the stage, and the spot is yours.' I haven't stood there long enough with Taigi yet, but I'll keep standing."}
+  - {n: 11, speaker: Sam, hanji: "最後，我欲感謝主辦的單位，嘛感謝臺南的阿公阿媽，佮我的朋友阿明、阿芬、阿春姊。", tailo: "Tsuè-āu, guá beh kám-siā tsú-pān ê tan-uī, mā kám-siā Tâi-lâm ê a-kong a-má, kah guá ê pîng-iú A-bîng, A-hun, A-tshun-tsí.", en: "Finally, I'd like to thank the organisers, and my grandparents in Tainan, and my friends A-bîng, A-hun and A-tshun."}
+  - {n: 12, speaker: Sam, hanji: "祝福逐家身體健康，台語愈講愈好。多謝！", tailo: "Tsiok-hok ta̍k-ke sin-thé kiān-khong, Tâi-gí jú kóng jú hó. To-siā!", en: "I wish you all good health, and Taigi that keeps getting better. Thank you!"}
+  - {n: 13, speaker: Host, hanji: "多謝 Sam 精彩的演講！", tailo: "To-siā Sam tsing-tshái ê ián-káng!", en: "Thank you, Sam, for a wonderful speech!"}
+  - {n: 14, speaker: A-tshun, hanji: "伊講甲真好，連一張稿都無看。", tailo: "I kóng kah tsin hó, liân tsi̍t tiunn kó to bô khuànn.", en: "He spoke so well, and he didn't even look at his notes."}
+  - {n: 15, speaker: A-hun, hanji: "伊昨暝練到半暝，閣敲電話予阿媽聽三擺。", tailo: "I tsa-mê liān kàu puànn-mê, koh khà tiān-uē hōo a-má thiann sann pái.", en: "He practised till midnight last night, and phoned A-má three times so she could hear it."}
+  - {n: 16, speaker: Sam, hanji: "我頭拄仔緊張甲跤咧顫，恁敢有看著？", tailo: "Guá thâu-tú-á kín-tiunn kah kha teh tsùn, lín kám ū khuànn--tio̍h?", en: "I was so nervous my legs were shaking just now. Could you tell?"}
+  - {n: 17, speaker: A-tshun, hanji: "無人看會出來。你徛佇舞台頂，袂輸專業的。", tailo: "Bô lâng khuànn ē tshut--lâi. Lí khiā tī bú-tâi tíng, bē-su tsuan-gia̍p--ê.", en: "Nobody could tell. Up on the stage you looked like a professional."}
+  - {n: 18, speaker: A-hun, hanji: "阿媽佇電話內底講，伊聽甲目屎攏流出來。", tailo: "A-má tī tiān-uē lāi-té kóng, i thiann kah ba̍k-sái lóng lâu--tshut-lâi.", en: "A-má said on the phone that listening to it brought tears to her eyes."}
+notes:
+  - {ref: 1, topic: vocab, text: "上台 tsiūnn-tâi = go up on stage. 位 uī = polite classifier for people: 下一位 'the next person'."}
+  - {ref: 2, topic: grammar, text: "Public-speaking register: 各位 kok-uī + group 'everyone (in the group)': 各位評審 'members of the jury' (評審 phîng-sím), 各位先生小姐 'ladies and gentlemen'. 各 kok is the literary reading of 各 koh (lesson 88)."}
+  - {ref: 3, topic: grammar, text: "Set phrases for a speech: 真歡喜有這个機會 'I'm glad to have this opportunity', 來佮逐家分享 'to share with you' (分享 hun-hióng), 最後 'finally' (line 11), 祝福逐家… 'I wish you all …' (line 12, 祝福 tsiok-hok)."}
+  - {ref: 4, topic: vocab, text: "收音機 siu-im-ki = radio (lesson 60)."}
+  - {ref: 5, topic: vocab, text: "當做 tòng-tsò = treat as, regard as."}
+  - {ref: 9, topic: vocab, text: "廟口 biō-kháu = the square in front of a temple, where people gather to chat."}
+  - {ref: 11, topic: vocab, text: "主辦 tsú-pān = organise (an event); 單位 tan-uī = unit, organisation: 主辦的單位 'the organisers'."}
+  - {ref: 13, topic: vocab, text: "演講 ián-káng = speech, give a speech."}
+  - {ref: 14, topic: vocab, text: "稿 kó = draft, script, notes (for a speech)."}
+  - {ref: 15, topic: vocab, text: "練 liān = practise. 昨暝 tsa-mê = last night."}
+  - {ref: 16, topic: vocab, text: "顫 tsùn = tremble, shake."}
+  - {ref: 17, topic: vocab, text: "舞台 bú-tâi = stage. 專業 tsuan-gia̍p = professional."}
+new_words:
+  - {tailo: tsiūnn-tâi, hanji: 上台, en: "go up on stage"}
+  - {tailo: kok-uī, hanji: 各位, en: "everyone (in a group)"}
+  - {tailo: phîng-sím, hanji: 評審, en: "judge, jury"}
+  - {tailo: hun-hióng, hanji: 分享, en: "share"}
+  - {tailo: tòng-tsò, hanji: 當做, en: "treat as"}
+  - {tailo: tsú-pān, hanji: 主辦, en: "organise (an event)"}
+  - {tailo: tan-uī, hanji: 單位, en: "organisation, unit"}
+  - {tailo: tsiok-hok, hanji: 祝福, en: "wish, bless"}
+  - {tailo: ián-káng, hanji: 演講, en: "speech"}
+  - {tailo: kó, hanji: 稿, en: "draft, notes"}
+  - {tailo: liān, hanji: 練, en: "practise"}
+  - {tailo: tsa-mê, hanji: 昨暝, en: "last night"}
+  - {tailo: tsùn, hanji: 顫, en: "tremble"}
+  - {tailo: bú-tâi, hanji: 舞台, en: "stage"}
+  - {tailo: tsuan-gia̍p, hanji: 專業, en: "professional"}
+exercises:
+  translate:
+    - {tailo: "Kok-uī phîng-sím, kok-uī sian-sinn sió-tsiá, ta̍k-ke hó.", hanji: "各位評審、各位先生小姐，逐家好。", en: "Members of the jury, ladies and gentlemen, good evening."}
+    - {tailo: "Gí-giân m̄-nā sī jī kah siann-tiāu, koh sī lâng kah lâng tsi-kan ê kám-tsîng.", hanji: "語言毋但是字佮聲調，閣是人佮人之間的感情。", en: "A language isn't just words and tones; it's the feeling between people."}
+    - {tailo: "Tsiok-hok ta̍k-ke sin-thé kiān-khong.", hanji: "祝福逐家身體健康。", en: "I wish you all good health."}
+  fill:
+    - {tailo: "Lâi kah ta̍k-ke ___ guá o̍h Tâi-gí ê king-giām.", hanji: "來佮逐家___我學台語的經驗。", answer: "hun-hióng", answer_hanji: "分享", en: "To share with you my experience of learning Taigi."}
+    - {tailo: "In kā guá ___ ka-kī ê sun.", hanji: "𪜶共我___家己的孫。", answer: "tòng-tsò", answer_hanji: "當做", en: "They treated me as their own grandson."}
+audio: []
