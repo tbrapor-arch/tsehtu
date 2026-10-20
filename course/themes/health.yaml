@@ -1,10 +1,10 @@
 id: health
 title:
-  en: Health
-  hanji: 健康
-  tailo: kiān-khong
+  en: Body and health
+  hanji: 身體佮健康
+  tailo: sin-thé kap kiān-khong
 intro: >-
-  Feeling ill, symptoms, seeing a doctor and taking medicine. Words first, then a short text that uses them.
+  The body and health: feeling ill, symptoms, the doctor, medicine, then the parts of the body, its needs, birth and death. Sections 1–4 end with a short text that uses the words.
 sections:
 - n: 1
   title:
@@ -56,6 +56,66 @@ sections:
     tailo: hioh-khùn
     en: rest, take a break
     zh: 休息
+  - hanji: 勇健
+    tailo: ióng-kiānn
+    en: healthy and strong, hale
+    zh: 健朗
+  - hanji: 康健
+    tailo: khong-kiān
+    en: healthy
+    zh: 健康
+  - hanji: 元氣
+    tailo: guân-khì
+    en: vitality, energy
+    zh: 元氣
+  - hanji: 身命
+    tailo: sin-miā
+    en: constitution, physical health
+    zh: 體質
+  - hanji: 虛
+    tailo: hi
+    en: weak, run-down
+    zh: 虛弱
+  - hanji: 軟弱
+    tailo: luán-jio̍k
+    en: weak, frail
+    zh: 虛弱
+  - hanji: 力
+    tailo: la̍t
+    en: strength
+    zh: 力氣
+  - hanji: 氣力
+    tailo: khuì-la̍t
+    en: strength, energy
+    zh: 力氣
+  - hanji: 力量
+    tailo: li̍k-liōng
+    en: strength, power
+    zh: 力量
+  - hanji: 運動
+    tailo: ūn-tōng
+    en: exercise; sport
+    zh: 運動
+  - hanji: 保重
+    tailo: pó-tiōng
+    en: take care (of your health)
+    zh: 保重
+  - hanji: 著病
+    tailo: tio̍h-pēnn
+    en: fall ill
+    zh: 生病
+  - hanji: 致
+    tailo: tì
+    en: contract (an illness)
+    zh: 患(病)
+  - hanji: 病疼
+    tailo: pēnn-thiànn
+    en: ailments, aches and pains
+    zh: 病痛
+  - hanji: 傷
+    tailo: siong
+    en: wound, injury
+    zh: 傷
   text:
   - hanji: 我昨昏破病，規工攏真艱苦。
     tailo: Guá tsa-hng phuà-pēnn, kui-kang lóng tsin kan-khóo.
@@ -116,6 +176,46 @@ sections:
     tailo: thâu-hîn
     en: dizzy
     zh: 頭暈
+  - hanji: 症
+    tailo: tsìng
+    en: illness, ailment (in compounds)
+    zh: 病症
+  - hanji: 畏寒
+    tailo: uì-kuânn
+    en: feel chilly, have the shivers
+    zh: 怕冷
+  - hanji: 痠
+    tailo: sng
+    en: ache, be sore
+    zh: 痠
+  - hanji: 癢
+    tailo: tsiūnn
+    en: itchy
+    zh: 癢
+  - hanji: 眩
+    tailo: hîn
+    en: dizzy
+    zh: 暈
+  - hanji: 吐
+    tailo: thòo
+    en: vomit, throw up
+    zh: 吐
+  - hanji: 喘
+    tailo: tshuán
+    en: pant, be out of breath
+    zh: 喘
+  - hanji: 落屎
+    tailo: làu-sái
+    en: have diarrhoea
+    zh: 拉肚子
+  - hanji: 癗
+    tailo: luî
+    en: bump, lump (from a knock)
+    zh: 腫包
+  - hanji: 昏去
+    tailo: hūn--khì
+    en: faint, pass out
+    zh: 昏倒
   text:
   - hanji: 你敢是感冒矣？
     tailo: Lí kám sī kám-mōo--ah?
@@ -180,6 +280,38 @@ sections:
     tailo: kip-tsín
     en: emergency room
     zh: 急診
+  - hanji: 醫
+    tailo: i
+    en: treat, cure
+    zh: 醫治
+  - hanji: 醫治
+    tailo: i-tī
+    en: treat (an illness)
+    zh: 醫治
+  - hanji: 醫療
+    tailo: i-liâu
+    en: medical care
+    zh: 醫療
+  - hanji: 醫學
+    tailo: i-ha̍k
+    en: medicine (the science)
+    zh: 醫學
+  - hanji: 醫生館
+    tailo: i-sing-kuán
+    en: doctor's surgery, clinic (older word)
+    zh: 診所
+  - hanji: 看護婦
+    tailo: khàn-hōo-hū
+    en: nurse (older word, from Japanese)
+    zh: 護士
+  - hanji: 病人
+    tailo: pēnn-lâng
+    en: patient, sick person
+    zh: 病人
+  - hanji: 患者
+    tailo: huān-tsiá
+    en: patient (formal)
+    zh: 患者
   text:
   - hanji: 我去巷仔口的診所看醫生。
     tailo: Guá khì hāng-á-kháu ê tsín-sóo khuànn-i-sing.
@@ -228,6 +360,22 @@ sections:
     tailo: khí-sik
     en: improvement, getting better
     zh: 好轉
+  - hanji: 藥
+    tailo: io̍h
+    en: medicine, drug
+    zh: 藥
+  - hanji: 毒
+    tailo: to̍k
+    en: poison; poisonous
+    zh: 毒
+  - hanji: 毒藥
+    tailo: to̍k-io̍h
+    en: poison
+    zh: 毒藥
+  - hanji: 鴉片
+    tailo: a-phiàn
+    en: opium
+    zh: 鴉片
   text:
   - hanji: 醫生開藥仔予我。
     tailo: I-sing khui io̍h-á hōo guá.
@@ -238,6 +386,574 @@ sections:
   - hanji: 食兩工，就有起色矣。
     tailo: Tsia̍h nn̄g kang, tō ū khí-sik--ah.
     en: After two days I was already getting better.
+- n: 5
+  title:
+    en: Head and face
+    hanji: 頭佮面
+    tailo: thâu kap bīn
+  words:
+  - hanji: 頭
+    tailo: thâu
+    en: head
+    zh: 頭
+  - hanji: 面
+    tailo: bīn
+    en: face
+    zh: 臉
+  - hanji: 面肉
+    tailo: bīn-bah
+    en: face, facial skin
+    zh: 臉
+  - hanji: 滿面
+    tailo: muá-bīn
+    en: the whole face
+    zh: 滿臉
+  - hanji: 面色
+    tailo: bīn-sik
+    en: complexion, colour of the face
+    zh: 臉色
+  - hanji: 頭腦
+    tailo: thâu-náu
+    en: head; brains
+    zh: 頭腦
+  - hanji: 頭毛
+    tailo: thâu-mn̂g
+    en: hair (on the head)
+    zh: 頭髮
+  - hanji: 頭鬃
+    tailo: thâu-tsang
+    en: hair (on the head)
+    zh: 頭髮
+  - hanji: 目睭
+    tailo: ba̍k-tsiu
+    en: eye
+    zh: 眼睛
+  - hanji: 目
+    tailo: ba̍k
+    en: eye
+    zh: 眼睛
+  - hanji: 目眉
+    tailo: ba̍k-bâi
+    en: eyebrow
+    zh: 眉毛
+  - hanji: 目箍
+    tailo: ba̍k-khoo
+    en: eye socket, rims of the eyes
+    zh: 眼眶
+  - hanji: 目尾
+    tailo: ba̍k-bué
+    en: corner of the eye
+    zh: 眼角
+  - hanji: 眼神
+    tailo: gán-sîn
+    en: look in the eyes, expression
+    zh: 眼神
+  - hanji: 鼻
+    tailo: phīnn
+    en: nose
+    zh: 鼻子
+  - hanji: 鼻仔
+    tailo: phīnn-á
+    en: nose
+    zh: 鼻子
+  - hanji: 鼻空
+    tailo: phīnn-khang
+    en: nostril
+    zh: 鼻孔
+  - hanji: 耳
+    tailo: hīnn
+    en: ear
+    zh: 耳朵
+  - hanji: 耳仔
+    tailo: hīnn-á
+    en: ear
+    zh: 耳朵
+  - hanji: 耳空
+    tailo: hīnn-khang
+    en: ear; earhole
+    zh: 耳朵
+  - hanji: 耳
+    tailo: ní
+    en: ear (literary reading, in compounds)
+    zh: 耳
+  - hanji: 喙
+    tailo: tshuì
+    en: mouth
+    zh: 嘴
+  - hanji: 口
+    tailo: kháu
+    en: mouth; opening
+    zh: 口
+  - hanji: 喙脣
+    tailo: tshuì-tûn
+    en: lip
+    zh: 嘴唇
+  - hanji: 喙角
+    tailo: tshuì-kak
+    en: corner of the mouth
+    zh: 嘴角
+  - hanji: 喙䫌
+    tailo: tshuì-phué
+    en: cheek
+    zh: 臉頰
+  - hanji: 下頦
+    tailo: ē-hâi
+    en: chin
+    zh: 下巴
+  - hanji: 喙齒
+    tailo: tshuì-khí
+    en: tooth
+    zh: 牙齒
+  - hanji: 齒
+    tailo: khí
+    en: tooth (in compounds)
+    zh: 齒
+  - hanji: 牙
+    tailo: gê
+    en: tooth; tusk
+    zh: 牙
+  - hanji: 喙舌
+    tailo: tshuì-tsi̍h
+    en: tongue
+    zh: 舌頭
+  - hanji: 舌
+    tailo: tsi̍h
+    en: tongue
+    zh: 舌
+  - hanji: 喙鬚
+    tailo: tshuì-tshiu
+    en: beard, moustache
+    zh: 鬍鬚
+  - hanji: 鬚
+    tailo: tshiu
+    en: beard; whiskers
+    zh: 鬍子
+  - hanji: 喉
+    tailo: âu
+    en: throat
+    zh: 喉
+  - hanji: 頷頸
+    tailo: ām-kún
+    en: neck
+    zh: 脖子
+- n: 6
+  title:
+    en: Body and limbs
+    hanji: 身軀佮跤手
+    tailo: sin-khu kap kha-tshiú
+  words:
+  - hanji: 身
+    tailo: sin
+    en: body
+    zh: 身體
+  - hanji: 身軀
+    tailo: sin-khu
+    en: body
+    zh: 身體
+  - hanji: 體
+    tailo: thé
+    en: body (in compounds)
+    zh: 身體
+  - hanji: 手
+    tailo: tshiú
+    en: hand; arm
+    zh: 手
+  - hanji: 雙手
+    tailo: siang-tshiú
+    en: both hands
+    zh: 雙手
+  - hanji: 正手
+    tailo: tsiànn-tshiú
+    en: right hand
+    zh: 右手
+  - hanji: 倒手
+    tailo: tò-tshiú
+    en: left hand
+    zh: 左手
+  - hanji: 手骨
+    tailo: tshiú-kut
+    en: arm
+    zh: 胳臂
+  - hanji: 指頭仔
+    tailo: tsíng-thâu-á
+    en: finger; toe
+    zh: 手指
+  - hanji: 拳頭
+    tailo: kûn-thâu
+    en: fist
+    zh: 拳頭
+  - hanji: 跤
+    tailo: kha
+    en: foot; leg
+    zh: 腳
+  - hanji: 跤骨
+    tailo: kha-kut
+    en: leg
+    zh: 腿
+  - hanji: 跤腿
+    tailo: kha-thuí
+    en: leg
+    zh: 腿
+  - hanji: 腿
+    tailo: thuí
+    en: leg; thigh
+    zh: 腿
+  - hanji: 跤頭趺
+    tailo: kha-thâu-u
+    en: knee
+    zh: 膝蓋
+  - hanji: 跤手
+    tailo: kha-tshiú
+    en: hands and feet, limbs; helper
+    zh: 手腳
+  - hanji: 跤步
+    tailo: kha-pōo
+    en: step, footstep
+    zh: 腳步
+  - hanji: 肩頭
+    tailo: king-thâu
+    en: shoulder
+    zh: 肩膀
+  - hanji: 肩胛頭
+    tailo: king-kah-thâu
+    en: shoulder
+    zh: 肩膀
+  - hanji: 胸坎
+    tailo: hing-khám
+    en: chest
+    zh: 胸部
+  - hanji: 奶
+    tailo: ling
+    en: breast
+    zh: 乳房
+  - hanji: 腰
+    tailo: io
+    en: waist, lower back
+    zh: 腰
+  - hanji: 腹
+    tailo: pak
+    en: belly (in compounds)
+    zh: 肚子
+  - hanji: 肚
+    tailo: tōo
+    en: belly, abdomen
+    zh: 腹部
+  - hanji: 肚臍
+    tailo: tōo-tsâi
+    en: navel, belly button
+    zh: 肚臍
+  - hanji: 尻川
+    tailo: kha-tshng
+    en: buttocks, bottom
+    zh: 屁股
+  - hanji: 尻脊
+    tailo: kha-tsiah
+    en: back
+    zh: 背部
+  - hanji: 尻脊骿
+    tailo: kha-tsiah-phiann
+    en: back
+    zh: 背部
+  - hanji: 𡳞脬
+    tailo: lān-pha
+    en: scrotum (vulgar)
+    zh: 陰囊
+- n: 7
+  title:
+    en: Inside the body
+    hanji: 身軀內底
+    tailo: sin-khu lāi-té
+  words:
+  - hanji: 心
+    tailo: sim
+    en: heart; mind
+    zh: 心
+  - hanji: 胃
+    tailo: uī
+    en: stomach
+    zh: 胃
+  - hanji: 膽
+    tailo: tánn
+    en: gall bladder; courage
+    zh: 膽
+  - hanji: 腹內
+    tailo: pak-lāi
+    en: internal organs, innards
+    zh: 內臟
+  - hanji: 骨
+    tailo: kut
+    en: bone
+    zh: 骨頭
+  - hanji: 血
+    tailo: hueh
+    en: blood
+    zh: 血
+  - hanji: 血
+    tailo: hiat
+    en: blood (literary reading, in compounds)
+    zh: 血
+  - hanji: 皮
+    tailo: phuê
+    en: skin; peel
+    zh: 皮
+  - hanji: 皮膚
+    tailo: phuê-hu
+    en: skin
+    zh: 皮膚
+  - hanji: 毛
+    tailo: mn̂g
+    en: body hair, fur
+    zh: 毛
+  - hanji: 汗
+    tailo: kuānn
+    en: sweat
+    zh: 汗
+  - hanji: 目屎
+    tailo: ba̍k-sái
+    en: tears
+    zh: 眼淚
+  - hanji: 淚
+    tailo: luī
+    en: tears (literary)
+    zh: 淚
+  - hanji: 珠淚
+    tailo: tsu-luī
+    en: tears, teardrops (literary)
+    zh: 淚珠
+  - hanji: 喙瀾
+    tailo: tshuì-nuā
+    en: saliva, spit
+    zh: 口水
+  - hanji: 瀾
+    tailo: nuā
+    en: saliva
+    zh: 口水
+  - hanji: 氣
+    tailo: khuì
+    en: breath
+    zh: 氣息
+  - hanji: 大氣
+    tailo: tuā-khuì
+    en: deep breath
+    zh: 大口氣
+  - hanji: 喘氣
+    tailo: tshuán-khuì
+    en: breathe
+    zh: 呼吸
+- n: 8
+  title:
+    en: The body's needs
+    hanji: 身軀的需要
+    tailo: sin-khu ê su-iàu
+  words:
+  - hanji: 睏
+    tailo: khùn
+    en: sleep
+    zh: 睡覺
+  - hanji: 眠
+    tailo: bîn
+    en: sleep
+    zh: 睡眠
+  - hanji: 齁
+    tailo: honn
+    en: (sound of) snoring
+    zh: 打鼾聲
+  - hanji: 枵
+    tailo: iau
+    en: hungry
+    zh: 餓
+  - hanji: 餓
+    tailo: gō
+    en: hungry, starving
+    zh: 餓
+  - hanji: 飽
+    tailo: pá
+    en: full (after eating)
+    zh: 飽
+  - hanji: 喙焦
+    tailo: tshuì-ta
+    en: thirsty
+    zh: 口渴
+  - hanji: 渴
+    tailo: khuah
+    en: thirsty, dry-mouthed
+    zh: 渴
+  - hanji: 渴
+    tailo: khat
+    en: thirst (literary reading)
+    zh: 渴
+  - hanji: 哺
+    tailo: pōo
+    en: chew
+    zh: 咀嚼
+  - hanji: 醉
+    tailo: tsuì
+    en: drunk
+    zh: 醉
+  - hanji: 酒醉
+    tailo: tsiú-tsuì
+    en: drunk
+    zh: 酒醉
+  - hanji: 屎
+    tailo: sái
+    en: excrement, poo
+    zh: 大便
+  - hanji: 放屎
+    tailo: pàng-sái
+    en: poo, defecate
+    zh: 大便
+  - hanji: 尿
+    tailo: jiō
+    en: urine
+    zh: 尿
+  - hanji: 屁
+    tailo: phuì
+    en: fart
+    zh: 屁
+  - hanji: 放屁
+    tailo: pàng-phuì
+    en: fart, break wind
+    zh: 放屁
+  - hanji: 洗面
+    tailo: sé-bīn
+    en: wash one's face
+    zh: 洗臉
+  - hanji: 洗浴
+    tailo: sé-i̍k
+    en: bathe, take a bath
+    zh: 洗澡
+  - hanji: 衛生
+    tailo: uē-sing
+    en: hygiene; hygienic
+    zh: 衛生
+- n: 9
+  title:
+    en: Build and impairments
+    hanji: 體格佮破相
+    tailo: thé-keh kap phuà-siùnn
+  words:
+  - hanji: 肥
+    tailo: puî
+    en: fat
+    zh: 胖
+  - hanji: 瘦
+    tailo: sán
+    en: thin
+    zh: 瘦
+  - hanji: 漢
+    tailo: hàn
+    en: build, stature
+    zh: 身材
+  - hanji: 曲痀
+    tailo: khiau-ku
+    en: hunchbacked
+    zh: 駝背
+  - hanji: 隱痀
+    tailo: ún-ku
+    en: hunchbacked
+    zh: 駝背
+  - hanji: 跛跤
+    tailo: pái-kha
+    en: lame
+    zh: 跛腳
+  - hanji: 青盲
+    tailo: tshenn-mê
+    en: blind
+    zh: 失明
+  - hanji: 啞口
+    tailo: é-káu
+    en: mute (person)
+    zh: 啞巴
+  - hanji: 臭頭
+    tailo: tshàu-thâu
+    en: scabby head (ringworm)
+    zh: 癩痢頭
+  - hanji: 痟
+    tailo: siáu
+    en: mad, crazy
+    zh: 瘋
+  - hanji: 起痟
+    tailo: khí-siáu
+    en: go mad
+    zh: 發瘋
+  - hanji: 神經
+    tailo: sîn-king
+    en: nerve; (colloquial) crazy
+    zh: 神經
+- n: 10
+  title:
+    en: Birth and death
+    hanji: 出世佮過身
+    tailo: tshut-sì kap kuè-sin
+  words:
+  - hanji: 性命
+    tailo: sènn-miā
+    en: life
+    zh: 生命
+  - hanji: 壽
+    tailo: siū
+    en: lifespan; longevity
+    zh: 壽
+  - hanji: 歲壽
+    tailo: huè-siū
+    en: lifespan
+    zh: 壽命
+  - hanji: 生產
+    tailo: sing-sán
+    en: give birth
+    zh: 分娩
+  - hanji: 生囝
+    tailo: senn-kiánn
+    en: have a baby
+    zh: 生孩子
+  - hanji: 有身
+    tailo: ū-sin
+    en: be pregnant
+    zh: 懷孕
+  - hanji: 大腹肚
+    tailo: tuā-pak-tóo
+    en: pregnant; big belly
+    zh: 大肚子
+  - hanji: 胎
+    tailo: the
+    en: foetus
+    zh: 胎兒
+  - hanji: 產婆
+    tailo: sán-pô
+    en: midwife (older word)
+    zh: 助產士
+  - hanji: 死
+    tailo: sí
+    en: die; dead
+    zh: 死
+  - hanji: 亡
+    tailo: bông
+    en: die, perish (literary)
+    zh: 死亡
+  - hanji: 餓死
+    tailo: gō--sí
+    en: starve to death
+    zh: 餓死
+  - hanji: 過身
+    tailo: kuè-sin
+    en: pass away
+    zh: 過世
+  - hanji: 過往
+    tailo: kuè-óng
+    en: pass away
+    zh: 過世
+  - hanji: 往生
+    tailo: óng-sing
+    en: pass away (Buddhist)
+    zh: 往生
+  - hanji: 身屍
+    tailo: sin-si
+    en: corpse
+    zh: 屍體
+  - hanji: 屍
+    tailo: si
+    en: corpse
+    zh: 屍體
 notes:
 - ref: 1
   text: >-

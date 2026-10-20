@@ -7,7 +7,7 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 - **Lessons:** all 100 written (`course/lessons/`), following `course/syllabus.yaml`. Lesson 0 is
   `000-reading-tailo.md`. Review lessons: 7, 14, …, 98.
 - **Part 2, 進修 Perfectionnement** (in progress): 70 longer lessons in varied genres, P1–P7 published. Spec, method and handover: `docs/perfectionnement-plan.md`.
-- **Themes:** one (`health`). The Themes part of Practice is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
+- **Themes:** one domain done as a pilot (`health` = Body and health, 212 words); draft domain for every core word in `docs/themes-classification-draft.tsv`. The Themes part of Practice is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
 - **Coverage** (after lesson 100): top 100: 100 %, top 300: 97 %, top 1,000: 88 % (72 % after 63). The plan's 95 % target for the top 1,000 was not reached. Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
 - **App tabs:** Lessons, Practice (溫習: Vocabulary by theme, Grammar, Drills = tone changes + Bridge, Cards; merged 20 Oct 2026), Podcast, Video, Settings, plus a hidden

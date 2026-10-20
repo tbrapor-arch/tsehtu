@@ -1,0 +1,4267 @@
+# Draft domain per core word (Haiku pass + review). domain 01-16 as in docs/themes-taxonomy.md; sub = split of 14; reviewed=yes: checked by hand
+rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
+1	的	--ê	的	same	16		H		
+3	是	sī	是	same	16		H		
+4	無	bô	不	same	16		H		
+5	我	guá	我	same	16		H		
+6	有	ū	有	same	16	moved	M		
+7	伊	i	他	different	16		H		
+8	一	tsi̍t	一	same	08		H		
+9	你	lí	你	same	16		H		
+10	來	lâi	來	same	14	14a	H		
+11	人	lâng	人	same	01		H		
+12	著	tio̍h	到	same-chars-diff-use	16		M		
+13	講	kóng	說	same	10		H		
+14	去	khì	去	same	07		H		
+15	欲	beh		n/a	16		M		
+16	毋	m̄	不	different	16		H		
+17	這	tsit	這	same	16		H		
+18	啊	--ah	啊	same	16		H		
+19	共	kā	幫	same-chars-diff-use	16		M		
+20	佇	tī	在	different	16		H		
+21	个	ê	個	different	16		M		
+22	予	hōo	被	same	16		M		
+23	真	tsin	很	same	16		M		
+24	看	khuànn	見	same	14	14d	M		
+25	彼	hit	那	different	16		H		
+26	就	tō	就	same	16		H		
+27	若	nā	如果	same	16		H		
+28	到	kàu	到	same	07		H		
+29	會	ē	能	same	16		M		
+30	攏	lóng	都	different	16		H		
+31	咧	teh	在	different	16		H		
+32	就	tsiū	就	same	14	14f	M		
+33	好	hó	好	same	16		M		
+34	愛	ài	喜歡	same	13		H		
+35	也	iā	也	same	16		H		
+36	做	tsò	做	same	14	14g	H		
+37	較	khah	比較	same	16		M		
+38	才	tsiah	才	same	16		H		
+39	咱	lán	我們	same-chars-diff-use	16		H		
+40	啦	--lah	啦	same	16		H		
+41	食	tsia̍h	吃	same	03		H		
+42	想	siūnn	想	same	13		H		
+43	通	thang	可以	same-chars-diff-use	16		M		
+44	對	tuì	從	same	14	14f	M		
+45	阮	guán	我	different	16		H		
+46	乎	--honnh	乎	same	16		H		
+47	知	tsai	知	same	10		M		
+48	兩	nn̄g	二	same	08		H		
+49	咧	--leh	呢	different	16		H		
+50	閣	koh	再	same	16		L	def 名 樓房; 義項再	
+52	因	in	因	same	16		M		
+53	嘛	mā	也	same-chars-diff-use	16		H		
+54	袂	bē	不	different	16		H		
+55	隻	tsiah	隻	same	16		M		
+56	大	tuā	大	same	15		H		
+57	佮	kap	和	different	16		H		
+58	叫	kiò	叫	same	14	14b	H		
+59	這	tse	這	same	16		H		
+60	甲	kah	到	same	?		L	天干義項; 語法義不明	
+62	聽	thiann	聽	same	14	14b	H		
+63	行	kiânn	走	same	14	14a	H		
+64	廣	kóng	廣	same	15		H		
+65	時	sî	時候	same	08		H		
+66	未	buē		same	16		H		
+67	彼	he	那	different	16		H		
+68	恁	lín	你們	different	16		H		
+69	出	tshut	出	same	14	14e	M		
+70	𪜶	in		n/a	16		H		
+71	三	sann	三	same	08		H		
+72	按呢	án-ne	這樣	different	16		H		
+73	年	nî	年	same	08		H		
+74	話	uē	話	same	10		H		
+75	過	kuè		same	14	14a	M		
+76	了	liáu	好	same-chars-diff-use	16		M		
+77	為	uī	因為	same-chars-diff-use	16		H		
+78	遐	hia		n/a	16		H		
+79	所以	sóo-í	所以	same	16		H		
+80	日	ji̍t	日	same	08		M		
+81	死	sí	死	same	02		M		yes
+82	落	lo̍h	下	same	14	14a	H		
+83	起	khí	起	same	14	14g	H		
+84	親像	tshin-tshiūnn	好像	partial	16		H		
+85	因為	in-uī	因為	same	16		H		
+86	錢	tsînn	錢	same	09		H		
+87	所	sóo	所	same	07		M		
+88	敢	kánn	敢	same	13		M		
+89	用	īng	用	same	14	14c	H		
+90	遮	tsia	這	same-chars-diff-use	16		H		
+91	免	bián	不用	same	16		M		
+92	走	tsáu	跑	same-chars-diff-use	14	14a	H		
+93	款	khuán	款	same	09		M		
+94	今	tann	現在	different	08		H		
+95	上	siōng	上	same	07		H		
+96	濟	tsē		n/a	08		M		
+97	請	tshiánn	請	same	14	14f	H		
+98	囡仔	gín-á	小孩子	different	01		H		
+99	驚	kiann	怕	same	13		H		
+100	問	mn̄g	問	same	10		M		
+101	娘	niû	娘	same	01		H		
+102	煞	suah	怎麼	different	?		L	def 結束; 普通話怎麼 不一致	
+103	那	ná	一邊…一邊…	same-chars-diff-use	16		H		
+104	賣	bē		same	09		H		
+105	入	ji̍p	進	same	14	14a	H		
+106	心	sim	心	same	02		M		yes
+107	都	to	都	same	16		M		
+108	提	the̍h	拿	same-chars-diff-use	14	14c	H		
+109	代誌	tāi-tsì	事情	different	09	moved	M		
+110	最	tsuè	最	same	16		M		
+112	坐	tsē	坐	same	14	14a	M		
+113	帶	tuà	帶	same	14	14c	H		
+114	拍	phah	打	same-chars-diff-use	14	14f	M		
+115	轉	tńg	轉	same	14	14a	M		
+116	抑	ia̍h	或	different	16		H		
+117	在	tsāi	在	same	16		H		
+118	知影	tsai-iánn	知道	partial	10		M		
+119	囝	kiánn	小	different	01		H		
+120	得	tit	可以	same	14	14g	M		
+121	用	iōng	用	same	14	14c	L	renvoi vers 用	
+122	厝	tshù	房子	different	04		H		
+123	雨	hōo	雨	same	06		H		
+124	所在	sóo-tsāi	地方	same	07		H		
+125	緊	kín	快	same-chars-diff-use	15		M		
+126	將	tsiong	將	same	16		H		
+127	足	tsiok	很	same	16		M		
+128	揣	tshuē	找	same-chars-diff-use	14	14c	M		
+129	時陣	sî-tsūn	時候	partial	08		H		
+130	捌	bat	認識	different	10		M		
+131	阿	a	阿	same	16		M		
+132	鴉	a	鴉	same	06		M		
+133	女	lú	女	same	01		H		
+134	條	tiâu	條	same	16		M		
+135	益	iah	益	same	?		L	普通話益; 義項不清	
+136	娶	tshuā	娶	same	01		H		
+137	放	pàng	放	same	14	14c	M		
+138	治	tī	治	same	11		M		
+139	開	khui	開	same	14	14c	H		
+140	心肝	sim-kuann	心裡	same	13		M		
+141	久	kú	久	same	08		H		
+142	幾	kuí	幾	same	16		H		
+143	嫁	kè	嫁	same	01		H		
+144	仔	á	子	same	16		M		
+145	一下	tsi̍t-ē	一	same	08		M		
+146	手	tshiú	手	same	02		H		yes
+147	工	kang	日	same	08		M		
+148	水	tsuí	水	same	06		H		
+149	頭	thâu	第一	same	02		H		yes
+150	歡喜	huann-hí	高興	same	13		H		
+151	猶	iáu	還	same	16		H		
+152	啥	siánn	什麼	same	16		H		
+153	尾	bué	尾	same	06		M		
+154	敢	kám	敢	same	13		M		
+155	君	kun	君	same	11		H		
+156	𠢕	gâu	會	different	15		M		
+157	查某	tsa-bóo	女生	different	01		H		
+158	掠	lia̍h	讓	different	14	14c	M		
+159	罪	tsuē	罪	same	11		H		
+160	塊	tè	塊	same	16		M		
+161	擺	pái	回	same	14	14c	M		
+162	寫	siá	寫	same	10		H		
+163	拄	tú	剛	same-chars-diff-use	14	14c	M		
+164	項	hāng	項	same	16		M		
+165	遐	hiah	那麼	different	16		H		
+166	了後	liáu-āu	之後	partial	08		H		
+167	實在	si̍t-tsāi	真的	same	15		H		
+168	逐	ta̍k	每	different	16		M		
+169	毋通	m̄-thang	不要	different	16		H		
+170	咬	kā	咬	same	14	14c	M		
+171	四	sì	四	same	08		H		
+172	紲	suà	續	different	14	14e	M		
+173	誠	tsiânn	很	different	16		M		
+174	聲	siann	聲	same	10		M		
+175	啥物	siánn-mih	什麼	different	16		H		
+176	十	tsa̍p	十	same	08		H		
+177	號做	hō-tsò	叫做	partial	10		M		
+178	路	lōo	路	same	07		H		
+179	這馬	tsit-má	現在	different	08		H		
+180	穿	tshīng	穿	same	05		H		
+181	點	tiám	點	same	?		L	小痕跡; 義項不清	
+182	總是	tsóng--sī	但是	same-chars-diff-use	16		H		
+183	買	bé		same	09		H		
+184	佮	kah	和	different	16		H		
+185	自	tsū	自	same	16		H		
+186	害	hāi	壞	same	14	14f	M		
+187	歹	pháinn	壞	different	15		H		
+188	會當	ē-tàng	可以	different	16		H		
+189	天	thinn	天	same	06		H		
+190	睏	khùn	睡覺	same	02		H		yes
+191	內	lāi	裡	same	07		H		
+192	五	gōo	五	same	08		H		
+193	外	guā	外	same	07		H		
+194	算	sǹg	算	same	08		M		
+195	名	miâ	名	same	10		M		
+196	受	siū	受	same	14	14h	M		yes
+197	粒	lia̍p	粒	same	16		M		
+198	先	sing	前	same	08		H		
+199	面	bīn	塊	same	02		H		yes
+200	好	hònn	好	same	13		H		
+201	按怎	án-tsuánn	怎麼	partial	16		H		
+202	讀	tha̍k	讀	same	10		H		
+203	目睭	ba̍k-tsiu	眼睛	different	02		H		yes
+204	間	king	間	same	04		H		
+205	真正	tsin-tsiànn	真的	same	15		M		
+206	不	put	不	same	16		H		
+207	等	tán	等	same	08		M		
+208	枝	ki	枝	same	06		H		
+209	情	tsîng	情	same	13		H		
+210	歸	kui	歸	same	14	14a	H		
+211	哥	ko	哥	same	01		H		
+212	罵	mā	責備	same	14	14b	H		
+213	之	tsi	之	same	16		H		
+214	朋友	pîng-iú	朋友	same	01		H		
+215	學	o̍h	學	same	10		H		
+216	兄	hiann	哥哥	same	01		H		
+217	流	lâu	流	same	06		M		
+218	毋過	m̄-koh	但是	different	16		H		
+219	像	tshiūnn	像	same	14	14d	M		
+220	家己	ka-kī	自己	partial	16		H		
+221	喙	tshuì	嘴	different	02		H		yes
+222	蛤	kap	蛤	same	06		M		
+224	號	hō	號	same	10		M		
+225	趁	thàn	賺	same	09		H		
+226	風	hong	風	same	06		H		
+227	目屎	ba̍k-sái	眼淚	different	02		H		yes
+228	雖然	sui-jiân	雖然	same	16		H		
+229	比	pí	比	same	14	14d	M		
+230	轉來	tńg--lâi	回來	partial	07		M		
+231	別人	pa̍t-lâng	別人	same	01		H		
+232	照	tsiàu	按照	same-chars-diff-use	14	14h	M		yes
+233	先生	sian-sinn	先生	same	10		M		
+234	看見	khuànn-kìnn	看見	same	14	14d	M		
+235	箍	khoo	元	different	?		L	圈子; 義項不清	
+236	箭	tsìnn	箭	same	11		M		
+237	心內	sim-lāi	心裡	partial	13		M		
+238	送	sàng	送	same	14	14f	M		
+239	張	tiunn	張	same	14	14g	M		
+240	生	senn		same	01		H		
+241	月	gue̍h		same	06		M		
+242	刣	thâi	切	different	14	14g	M		
+243	第一	tē-it	第一	same	08		M		
+244	喔	--ooh	喔	same	16		H		
+245	學生	ha̍k-sing	學生	same	10		H		
+246	徛	khiā	站	different	14	14a	H		
+247	老爸	lāu-pē	爸	partial	01		H		
+248	呢	--neh	呢	same	16		H		
+249	法度	huat-tōo	辦法	partial	10	moved	M		
+250	本	pún	本	same	06		M		
+251	全	tsuân	都	same	16		M		
+252	啥人	siánn-lâng	誰	different	16		H		
+253	感覺	kám-kak	感覺	same	13		H		
+254	勸	khǹg	勸	same	14	14b	M		
+255	中	tiong	中	same	07		M		
+256	又	iū	再	same	16		H		
+257	艱苦	kan-khóo	難過	same	15		H		
+258	種	tsióng	種	same	16		M		
+259	事	sū	事	same	09	moved	M		
+260	八	peh		same	08		H		
+261	兜	tau	家	same-chars-diff-use	04		M		
+262	早	tsá	早	same	08		H		
+263	但是	tān-sī	但是	same	16		H		
+264	報	pò	報	same	10		M		
+265	一直	it-ti̍t	一直	same	16		M		
+266	飼	tshī	餵	different	14	14g	M		
+267	愈	jú	越	same	16		M		
+268	狗	káu	狗	same	06		H		
+269	教	kà	叫	same	10		H		
+270	句	kù	句	same	10		H		
+271	直直	ti̍t-ti̍t	一直	partial	15		H		
+272	笑	tshiò	笑	same	13		H		
+273	老	lāu	老	same	15		H		
+274	疼	thiànn	疼	same	02		H		yes
+275	老師	lāu-su	先生	same	10		H		
+276	歲	huè		same	08		H		
+277	來去	lâi-khì	去	partial	14	14a	H		
+278	頂	tíng	頂	same	07		M		
+279	分	hun	分	same	08		H		
+280	內底	lāi-té	裡面	same	07		H		
+281	暗	àm	晚	same	08		M		
+282	離開	lī-khui	離開	same	14	14a	H		
+283	再	tsài	再	same	16		H		
+284	換	uānn	換	same	14	14e	M		
+285	下	ē	下	same	07		H		
+286	某	bóo	妻子	same	01		H		
+288	位	uī	位	same	07		M		
+289	花	hue	花	same	06		H		
+290	文學	bûn-ha̍k	文學	same	10		H		
+291	變	piàn	變	same	14	14e	H		
+292	後來	āu--lâi	接下來	same	08		H		
+293	趕緊	kuánn-kín	趕快	same-chars-diff-use	16	moved	H		
+294	凹	nah	凹	same	14	14e	M		
+295	半	puànn	半	same	08		H		
+296	加	ke	加	same	14	14e	M		
+297	今仔日	kin-á-ji̍t	今天	partial	08		H		
+298	一	it	一	same	08		H		
+299	逐家	ta̍k-ke	大家	partial	16		M		
+300	牛	gû	牛	same	06		H		
+301	要緊	iàu-kín	重要	same-chars-diff-use	15		H		
+302	新	sin	新	same	15		H		
+303	踮	tiàm	在	different	16		H		
+304	物件	mi̍h-kiānn	東西	different	04		H		
+305	講話	kóng-uē	說話	same	14	14b	H		
+306	衫	sann	衣服	different	05		H		
+307	牽	khan	牽	same	14	14c	H		
+308	娘	niâ	媽	same	01		H		
+309	創	tshòng	做	same-chars-diff-use	14	14g	M		
+310	有影	ū-iánn	真的	different	15		M		
+311	身	sin	身體	same	02		H		yes
+312	飛	pue		same	14	14a	H		
+313	鴨	ah	鴨子	same	06		H		
+314	倒	tó	倒	same	14	14a	H		
+315	空	khang	白	same	?		L	mandarin 白 incohérent avec la def	
+316	阿母	a-bú	媽媽	different	01		H		
+317	查某囝	tsa-bóo-kiánn	女兒	different	01		H		
+318	上帝	Siōng-tè	上帝	same	12		H		
+319	酒	tsiú	酒	same	03		H		
+320	紅	âng	紅	same	15		H		
+321	山	suann	山	same	06		H		
+322	生活	sing-ua̍h	生	same	09		M		
+323	王	ông	第一	same	11		H		
+324	哭	khàu	哭	same	13		H		
+325	夯	giâ	漲	different	14	14c	M		
+326	拜	pài	拜	same	12		H		
+327	字	jī	字	same	10		H		
+328	成	tsiânn	成	same	08		M		
+329	綴	tuè		n/a	14	14f	H		
+330	老母	lāu-bú	媽媽	different	01		H		
+331	一定	it-tīng	不一定	same	16		H		
+332	七	tshit	七	same	08		H		
+333	水	suí	河	same-chars-diff-use	06		H		
+334	啉	lim	喝	different	03		H		
+335	阿公	a-kong	爺爺	different	01		H		
+336	矣	--ah	了	same	16		H		
+337	小	sió	小	same	15		H		
+338	箸	tī	箸	same	04		H		
+339	陳	tân	陳	same	?		L	pas de définition	
+340	前	tsîng	前	same	07		H		
+341	店	tiàm	小店	same-chars-diff-use	09		H		
+342	跤	kha	腳	different	02		H		yes
+344	時間	sî-kan	時候	same	08		H		
+345	支	ki	支	same	08		H		
+346	就是	tō sī	正是	same	16		M		
+347	每	muí	每	same	16		H		
+348	爸母	pē-bú	父母	partial	01		H		
+349	燒	sio	燒	same	14	14g	M		
+350	內面	lāi-bīn	裡面	same	07		H		
+351	懸	kuân	高	same-chars-diff-use	15		H		
+352	二	jī	二	same	08		H		
+353	抾	khioh	撿	different	14	14c	H		
+354	會使	ē-sái	可以	different	16		H		
+355	媠	suí	好看	different	05		M		
+356	開花	khui-hue	開花	same	06		H		
+357	莫	mài	不要	different	16		H		
+358	拄好	tú-hó	正好	partial	16		M		
+359	煩惱	huân-ló	煩惱	same	13		H		
+360	主	tsú	主	same	11		M		
+361	做伙	tsò-hué	一塊兒	different	16		H		
+362	相	sio	相	same	16		H		
+363	連	liân	連	same	14	14c	M		
+364	的確	tik-khak	不一定	same-chars-diff-use	16		L	def et mandarin contradictoires	
+365	永遠	íng-uán	永遠	same	08		H		
+366	牧師	bo̍k-su	牧師	same	12		H		
+367	見	kìnn	見	same	14	14f	H		
+368	後	āu	後	same	08		H		
+369	成	sîng	成	same	14	14e	M		
+370	出來	tshut-lâi	出來	same	14	14a	H		
+371	較早	khah-tsá	從前	different	08		H		
+372	六	la̍k	六	same	08		H		
+373	意思	ì-sù	意思	same	10		M		
+374	阿媽	a-má	奶奶	different	01		H		
+375	船	tsûn	船	same	07		H		
+376	應該	ing-kai	應當	same	16		H		
+377	學校	ha̍k-hāu	學校	same	10		H		
+378	兄弟	hiann-tī	兄弟	same	01		H		
+379	喝	huah	叫	same-chars-diff-use	14	14b	H		
+380	轉去	tńg--khì	回去	partial	14	14a	H		
+381	地	tē		same	07		H		
+382	一寡	--tsi̍t-kuá	一些	partial	08		M		
+383	分	pun	分	same	14	14c	M		
+384	收	siu	收	same	14	14c	M		
+385	上	tsiūnn	上	same	14	14a	H		
+386	賴	luā	賴	same	14	14b	M		
+387	共	kāng	和	same	16		H		
+388	幾若	kuí-nā	若干	partial	08		H		
+389	開	khai	開	same	09		M		
+390	出世	tshut-sì	出生	partial	01		M		
+391	百	pah	百	same	08		H		
+392	鬼	kuí	鬼	same	12		H		
+393	社會	siā-huē	社會	same	11		H		
+394	日頭	ji̍t-thâu	太陽	different	06		H		
+395	破	phuà	破	same	14	14e	M		
+396	新娘	sin-niû	新人	same	01		M		
+397	望	bāng	盼望	same	13		H		
+398	招	tsio	招	same	14	14f	H		
+399	領	niá	領	same	05		H		
+400	萬	bān	萬	same	08		H		
+401	信	sìn	信	same	13		H		
+402	道理	tō-lí	理由	same	13		M		
+403	耶穌	Iâ-soo	耶穌	same	12		H		
+404	過去	kuè-khì	以前	same	08		H		
+405	離	lī	分開	same	14	14a	M		
+406	通	thong	通	same	14	14f	M		
+407	白話字	Pe̍h-uē-jī	白話字	same	10		H		
+408	邊	pinn	旁邊	same	07		H		
+409	著愛	tio̍h-ài	得	different	16		M		
+410	顧	kòo	顧	same	14	14f	H		
+411	皇帝	hông-tè	皇帝	same	11		H		
+412	設	siat	設計	same	14	14g	M		
+413	白	pe̍h	白	same	15		H		
+414	不止	put-tsí	不但	same	16		H		
+415	步	pōo	步	same	14	14a	H		
+416	馬	bé	馬	same	06		H		
+417	虎	hóo	老虎	same	06		H		
+418	車	tshia	車	same	07		H		
+419	物	mi̍h		n/a	?		L	terme générique, sens trop large	
+420	頭殼	thâu-khak	頭腦	partial	02		H		yes
+421	應	ìn	應	same	14	14b	H		
+422	逐个	ta̍k ê	各個	different	16		M		
+423	隨	suî	馬上	same	14	14f	H		
+424	記	kì	記	same	13		M		
+425	尪	ang	人偶	different	04		M		
+426	陣	tsūn	陣	same	08		H		
+427	仝款	kāng-khuán	同樣	different	15		H		
+428	少年	siàu-liân	少年	same	01		H		
+429	世間	sè-kan	世俗	same	11		M		
+430	冬	tang	年	same	08		M		
+431	九	káu	九	same	08		H		
+432	借	tsioh	借	same	09		H		
+433	挽	bán	拔	same	14	14c	H		
+434	救	kiù	救	same	14	14f	H		
+435	拍算	phah-sǹg	打算	partial	14	14d	H		
+436	變	pìnn	變	same	14	14e	H		
+437	人客	lâng-kheh	客人	partial	01		H		
+438	唱	tshiùnn	唱	same	14	14b	M		
+439	求	kiû	求	same	14	14f	M		
+440	命	miā	命	same	12		M		
+441	吹	tshue		same	06		M		
+442	擔	tann	抬	same	14	14c	H		
+443	爿	pîng	邊	different	07		H		
+444	嫌	hiâm	嫌	same	13		H		
+445	另外	līng-guā	另外	same	16		H		
+446	畫	uē	畫	same	14	14g	M		
+447	論	lūn	依據	same	14	14d	M		
+448	有時	ū-sî	有時候	same	08		H		
+449	差不多	tsha-put-to	差不多	same	16		M		
+450	遠	hn̄g	遠	same	07		H		
+451	古早	kóo-tsá	古代	partial	08		H		
+452	亞	a	亞	same	?		L	pas de définition	
+453	米	bí	米	same	03		H		
+454	包	pau	一定	same	14	14c	H		
+455	雪	seh	雪	same	06		H		
+456	門	mn̂g	門	same	04		H		
+457	讀冊	tha̍k-tsheh	上課	different	10		H		
+458	正	tsiànn	右	same	07		M		
+459	世界	sè-kài	世界	same	07		M		
+460	心情	sim-tsîng	心情	same	13		H		
+461	交	kau	交	same	14	14c	H		
+462	有	iú	有	same	16		M		
+463	假	ké	假	same	15		H		
+464	彼陣	hit-tsūn	那時	different	08		H		
+465	春	tshun	春	same	08		M		
+466	減	kiám	減	same	14	14e	H		
+467	若	ná	好像	same	16		H		
+468	尾仔	bué-á	後來	different	07		M		
+469	留	lâu	留	same	14	14c	M		
+470	小姐	sió-tsiá	姑娘	same-chars-diff-use	01		H		
+471	願	guān	願	same	13		H		
+472	排	pâi	排	same	14	14c	M		
+473	日子	ji̍t-tsí	日	same	08		H		
+474	不時	put-sî	常常	same	08		M		
+475	定定	tiānn-tiānn	常常	different	08		M		
+476	中間	tiong-kan	中間	same	07		H		
+477	甘願	kam-guān	滿足	same	13		M		
+478	腹肚	pak-tóo	肚子	partial	02		H		yes
+479	起來	khí-lâi	起床	same-chars-diff-use	14	14a	H		
+480	頭家	thâu-ke	先生	same	09		H		
+481	俺	án	我	different	16		H		
+482	佗位	tó-uī	哪裡	different	16		H		
+483	倚	uá	近	same-chars-diff-use	07		M		
+484	向望	ǹg-bāng	希望	partial	13		H		
+485	細漢	sè-hàn	小時候	different	01		M		
+486	重	tāng	重	same	15		H		
+487	了解	liáu-kái	了解	same	10		M		
+488	蹛	tuà	在	different	07		M		
+489	彼號	hit-lō	那種	different	16		H		
+490	嘛	--mah	嘛	same	16		H		
+491	當	tng	當	same	08		H		
+492	眠床	bîn-tshn̂g	床	partial	04		H		
+493	說	sueh		same	14	14b	H		
+494	盡	tsīn	盡	same	14	14e	M		
+495	杯	pue	杯	same	04		H		
+496	長	tn̂g	長	same	08		M		
+497	小弟	sió-tī	小弟	same	01		H		
+498	時代	sî-tāi	時代	same	08		H		
+499	會曉	ē-hiáu	會	partial	16		M		
+500	娘仔	niû-á	蠶	different	06		H		
+501	道	tō	道	same	13		M		
+502	閣再	koh-tsài	重新	different	16		H		
+503	苦	khóo	苦	same	03		M		
+504	冊	tsheh	書	same	10		H		
+505	傷	siunn	太	same-chars-diff-use	16		H		
+506	跳	thiàu	跳	same	14	14a	H		
+507	運動	ūn-tōng	運動	same	02		M		yes
+508	孤單	koo-tuann	孤單	same	13		H		
+509	烏	oo	黑	same	15		H		
+510	故事	kòo-sū	故事	same	10		H		
+511	醫生	i-sing	先生	same	02		H		yes
+512	文化	bûn-huà	文化	same	11		M		
+513	落	loh	大	same-chars-diff-use	08		M		
+514	林	lîm	林	same	06		H		
+515	搖	iô	搖	same	14	14c	M		
+516	光	kng	光	same	06		M		
+517	阿兄	a-hiann	哥哥	different	01		H		
+518	國	kok	國	same	11		H		
+519	台	tâi	台	same	07		M		
+520	回	huê	回	same	14	14a	M		
+521	各	kok	各	same	16		L	def vide, déterminant probable	
+522	下	hē	放	same-chars-diff-use	14	14c	H		
+523	人生	jîn-sing	人生	same	01		M		
+524	可能	khó-lîng	可能	same	16		H		
+525	嫂	só	嫂	same	01		H		
+526	滴	tih	滴	same	14	14a	M		
+527	遮	tsiah	這麼	same-chars-diff-use	16		H		
+528	發	huat	發	same	14	14e	M		
+529	替	thè	因為	same	16	moved	M		
+530	吼	háu	哭	same	13		H		
+531	配	phuè	配	same	03		H		
+532	雙	siang	雙	same	08		M		
+533	清	tshing	清	same	15		H		
+534	拍拚	phah-piànn	認真	different	14	14g	M		
+535	關係	kuan-hē	關係	same	11		M		
+536	碗	uánn	碗	same	04		H		
+537	雞	ke	雞	same	06		H		
+538	當時	tong-sî	那時	same	08		H		
+539	乞食	khit-tsia̍h	乞丐	partial	11		M		
+540	野	iá	野	same	07		M		
+541	掛	kuà	掛	same	14	14c	H		
+542	埃	ia	埃	same	?		L	pas de définition	
+543	故鄉	kòo-hiong	家鄉	same	07		H		
+544	出門	tshut-mn̂g	出門	same	14	14a	H		
+545	畏	uì	害怕	different	13		H		
+546	別	pa̍t	別	same	16		M		
+547	代先	tāi-sing	以前	different	08		M		
+548	為	uî	為	same	14	14e	M		
+549	少	tsió	少	same	08		M		
+550	隨時	suî-sî	常常	same	08		H		
+551	囥	khǹg	放	different	14	14c	H		
+552	身軀	sin-khu	身體	same-chars-diff-use	02		H		yes
+553	硩	teh	壓	different	14	14c	H		
+554	完	uân	完	same	16	moved	M		
+555	傳	thuân	傳	same	12		M		
+556	查埔	tsa-poo	男生	different	01		H		
+557	卡	khah	卡	same	04		M		
+558	又閣	iū-koh	再	different	16		H		
+559	閣較	koh-khah	更加	different	16		H		
+560	身邊	sin-pinn	身邊	same	07		M		
+561	肉	bah	肉	same	03		H		
+562	靠	khò	靠	same	14	14f	M		
+563	洗	sé	洗	same	14	14c	H		
+564	活	ua̍h	活	same	14	14e	M		
+565	䆀	bái	惡劣	different	15		H		
+566	抱	phō	抱	same	14	14c	H		
+567	第	tē	第	same	16		H		
+568	經過	king-kuè	經過	same	14	14a	M		
+569	感情	kám-tsîng	感情	same	13		H		
+570	拖	thua	拖	same	14	14c	H		
+571	菜	tshài	菜	same	03		H		
+572	精神	tsing-sîn	精神	same	13		M		
+573	語言	gí-giân	語言	same	10		H		
+574	靴	hia	靴子	same	05		H		
+575	生理	sing-lí	生意	same-chars-diff-use	09		H		
+576	深	tshim	深	same	15		H		
+577	攏總	lóng-tsóng	一共	different	08		M		
+578	房間	pâng-king	房間	same	04		H		
+579	接	tsiap	接	same	14	14f	H		
+580	親	tshin	親	same	01		H		
+581	天頂	thinn-tíng	天上	partial	06		H		
+582	規	kui	規定	same	?		L	compas ou règle	
+583	禮拜	lé-pài	星期	same	08		H		
+584	夢	bāng	夢	same	13		M		
+585	爾爾	niā-niā	而已	different	16		H		
+586	快樂	khuài-lo̍k	快樂	same	13		H		
+587	總	tsóng	都	same	16		H		
+588	無論	bô-lūn	不論	same	16		H		
+589	人	jîn		same	01		H		
+590	當	tàng	當	same	?		L	pas de définition	
+591	火車	hué-tshia	火車	same	07		H		
+592	金	kim	金	same	06		M		
+593	討	thó	要求	same	14	14b	M		
+594	魚	hî	魚	same	06		H		
+595	大漢	tuā-hàn	長大	partial	15		M		
+596	踏	ta̍h	踩	same-chars-diff-use	14	14a	M		
+597	翁	ang	先生	same	01		H		
+598	文	bûn	文	same	10		H		
+599	𨑨迌	tshit-thô	玩	different	14	14f	H		
+600	偷	thau	偷	same	14	14c	M		
+601	頭前	thâu-tsîng	前面	partial	07		H		
+602	骨	kut	骨	same	02		H		yes
+603	煮	tsú	烹調	same-chars-diff-use	03		H		
+604	扇	sìnn	扇	same	04		H		
+605	厝內	tshù-lāi	家裡	different	04		M		
+606	甘	kam	疼	same	15		M		
+607	氣	khì	氣	same	13		H		
+608	猶未	iáu-buē	尚未	partial	16		H		
+609	寒	kuânn	冷	same	06		H		
+610	千	tshing	千	same	08		H		
+611	趣味	tshù-bī	興趣	same-chars-diff-use	15		H		
+612	欉	tsâng	欉	same	16		M		
+613	叫做	kiò-tsò	叫做	same	14	14b	M		
+614	歌	kua	歌	same	10		M		
+615	倩	tshiànn	聘僱	different	09		H		
+616	以後	í-āu	以後	same	08		H		
+617	銀	gîn	銀	same	06		M		
+618	心愛	sim-ài	心愛	same	13		H		
+619	海	hái	海	same	06		H		
+620	火	hué		same	06		H		
+621	互	hōo	互	same	16		M		
+622	活動	ua̍h-tāng	活動	same	13		M		
+623	呵咾	o-ló	表揚	different	14	14b	H		
+624	飯	pn̄g	飯	same	03		H		
+625	對	uì	從	same-chars-diff-use	16		H		
+626	機會	ki-huē	機會	same	08		M		
+627	愛情	ài-tsîng	愛情	same	13		H		
+628	管	kuán	管	same	14	14h	M		yes
+629	茶	tê	茶	same	03		H		
+630	漸漸	tsiām-tsiām	慢慢	same	16		H		
+631	被	pī	被	same	16		H		
+632	鬥	tàu	鬥	same	14	14f	H		
+633	哩	--lih	呢	same	16		H		
+634	李	lí	李	same	06		M		
+635	太	thài	太	same	16		H		
+636	一生	it-sing	一生	same	08		H		
+637	縛	pa̍k	綁	different	14	14c	H		
+638	念	liām	念	same	13		H		
+639	落雨	lo̍h-hōo	下雨	partial	06		H		
+640	寄	kià	寄	same	14	14c	M		
+641	陣	tīn	陣	same	16		M		
+642	僫	oh	慢	different	15		H		
+643	毋但	m̄-nā	不但	partial	16		H		
+644	暝	mê	晚	different	08		H		
+645	眾人	tsìng-lâng	大眾	same	11		M		
+646	戇	gōng	笨	different	13		H		
+647	明	bîng	明	same	?		L	pas de définition	
+648	輸	su	輸	same	14	14e	H		
+649	層	tsân	件	same	16		M		
+650	結果	kiat-kó	結果	same	15	moved	M		
+651	搤	iah	划	different	14	14c	M		
+652	自己	tsū-kí	自己	same	16		H		
+653	押	ah	押	same	14	14a	M		
+654	塗	thôo	土	same	06		H		
+655	枵	iau	餓	different	02		H		yes
+656	地理	tē-lí	地理	same	10		H		
+657	里	lí	里	same	07		M		
+658	坐	tshē	道歉	same-chars-diff-use	14	14b	M		
+659	到底	tàu-té	究竟	same	16		H		
+660	路用	lōo-īng	用途	partial	?		L	sens du terme peu clair	
+661	伴	phuānn	陪同	same	01		H		
+662	厝邊	tshù-pinn	鄰居	different	01		H		
+663	欠	khiàm	欠	same	09		H		
+664	哪	ná	怎麼	same	16		H		
+665	受氣	siū-khì	生氣	partial	13		H		
+666	汗	kuānn	汗	same	02		H		yes
+667	等待	tán-thāi	等到	same	14	14f	H		
+668	難	lân	難	same	15		H		
+669	相信	siong-sìn	相信	same	13		H		
+670	舊	kū	舊	same	15		H		
+671	透	thàu	完	same	14	14a	M		
+672	辦	pān	辦	same	14	14g	M		
+673	種	tsìng	種	same	14	14g	H		
+674	準備	tsún-pī	準備	same	14	14g	M		
+675	大聲	tuā-siann	大聲	same	15		H		
+676	黃	n̂g	黃	same	15		M		
+677	好額	hó-gia̍h	富有	different	09		H		
+678	彼時	hit-sî	那時	partial	08		H		
+679	箱	siunn	箱	same	04		H		
+680	結	kiat	結	same	15		H		
+681	停	thîng	停	same	14	14e	M		
+682	神	sîn	神	same	12		H		
+683	影	iánn	見	same	06		M		
+684	摸	bong		same	14	14c	H		
+685	楊	iûnn	楊	same	?		L	pas de définition	
+686	毋著	m̄-tio̍h	不對	different	15		H		
+687	出外	tshut-guā	出外	same	14	14a	H		
+688	平	pîng	平	same	15		H		
+689	騙	phiàn	騙	same	14	14f	M		
+690	朗	lóng	朗	same	?		L	pas de définition	
+691	直	ti̍t	直	same	15		H		
+692	石頭	tsio̍h-thâu	石頭	same	06		H		
+693	自然	tsū-jiân	自然	same	15		H		
+694	歇	hioh	放假	same	14	14h	M		yes
+695	傷心	siong-sim	傷心	same	13		H		
+696	工課	khang-khuè	工作	partial	09		H		
+697	邊仔	pinn--á	旁邊	partial	07		H		
+698	攑	gia̍h	拿	different	14	14c	H		
+699	代	tāi	事	same	08		M		
+701	此	tshú	此	same	16		H		
+702	將來	tsiong-lâi	將來	same	08		H		
+703	爸	pē	爸	same	01		H		
+704	亂	luān	亂	same	15		H		
+705	批	phue	信	same	10		M		
+706	可	khó	或者	same	16		M		
+707	成功	sîng-kong	成功	same	14	14e	H		
+708	身體	sin-thé	身體	same	02		H		yes
+709	角	kak	角	same	?		L	corne ou coin	
+710	並	pīng	並	same	16		H		
+711	細	sè	小	same-chars-diff-use	15		H		
+712	親情	tshin-tsiânn	親戚	same-chars-diff-use	01		H		
+713	贏	iânn	贏	same	14	14e	M		
+714	感謝	kám-siā	謝謝	same	13		H		
+715	倒	tò	左	same	14	14c	M		
+716	參	tsham	和	same	16		H		
+717	一半	tsi̍t-puànn	一半	same	08		H		
+718	後壁	āu-piah	後面	same	07		H		
+719	主人	tsú-lâng	主人	same	01		H		
+720	拚	piànn	拚	same	14	14f	M		
+721	準	tsún	準	same	15		H		
+722	土地	thóo-tē	土地	same	06		H		
+723	若像	ná-tshiūnn	好像	partial	16		H		
+724	斷	tn̄g	斷	same	14	14c	H		
+725	常常	siông-siông	常常	same	08		H		
+726	曉	hiáu	曉	same	?		L	pas de définition	
+727	仙	sian	前	same	12		M		
+728	芳	phang	香	same	15		H		
+729	歇睏	hioh-khùn	放假	different	02		M		yes
+730	今年	kin-nî	今年	same	08		H		
+731	向	hiòng	向	same	16		M		
+732	只	tsí	只	same	16		H		
+734	蕊	luí	朵	same	06		H		
+735	頭路	thâu-lōo	工作	different	09		H		
+736	歷史	li̍k-sú	歷史	same	10		M		
+737	怨嘆	uàn-thàn	怨恨	same	13		H		
+738	祈禱	kî-tó	祈禱	same	12		H		
+739	狀元	tsiōng-guân	狀元	same	10		H		
+740	豬	ti	豬	same	06		H		
+741	飽	pá	飽	same	02		H		yes
+742	介	kài	介	same	?		L	pas de définition	
+743	番薯	han-tsî	甘藷	same	03		H		
+744	心頭	sim-thâu	心中	same	13		H		
+745	山頂	suann-tíng	山頂	same	06		H		
+746	外口	guā-kháu	外邊	partial	07		H		
+747	猴	kâu	猴	same	06		H		
+748	四界	sì-kè	到處	different	07		H		
+749	教示	kà-sī	教訓	partial	10		M		
+750	醫	i	醫	same	02		H		yes
+751	好勢	hó-sè	舒服	different	15		M		
+752	向	ǹg	向	same	16		M		
+753	認真	jīn-tsin	認真	same	13		M		
+754	龜	ku	龜	same	06		H		
+755	塗跤	thôo-kha	地上	different	06		M		
+756	覕	bih	躲	different	14	14c	H		
+757	羊仔	iûnn-á	羊	partial	06		H		
+758	蛇	tsuâ	蛇	same	06		H		
+759	特別	ti̍k-pia̍t	特別	same	15		H		
+760	多	to	多	same	08		H		
+761	中央	tiong-ng	中間	same-chars-diff-use	07		H		
+762	困	khùn	困	same	?		H		yes
+763	廟	biō	寺	same	12		H		
+764	甜	tinn	甜	same	03		H		
+765	天光	thinn-kng	天亮	partial	08		H		
+766	扛	kng	抬	same	14	14c	M		
+767	趕	kuánn	趕	same	14	14a	M		
+768	鳥仔	tsiáu-á	鳥	partial	06		H		
+769	額	gia̍h	額	same	08		M		
+770	部份	pōo-hūn	部分	partial	08		M		
+771	月娘	gue̍h-niû	月	partial	06		H		
+772	夜	iā	晚	same	08		H		
+773	頂面	tíng-bīn	上面	partial	07		H		
+774	方面	hong-bīn	方向	same	?		L	aspect ou direction	
+775	恨	hūn	恨	same	13		H		
+776	照顧	tsiàu-kòo	照顧	same	01		M		
+777	改	kái	回	same	14	14e	H		
+778	攢	tshuân	準備	same-chars-diff-use	14	14g	M		
+779	囝兒	kiánn-jî	兒子	partial	01		H		
+780	妻	tshe	妻子	same	01		H		
+781	多謝	to-siā	謝謝	same	13		H		
+782	段	tuānn	段	same	16		M		
+783	以前	í-tsîng	以前	same	08		H		
+784	要	iàu	要	same	16		H		
+785	進前	tsìn-tsîng	以前	partial	08		H		
+786	看覓	khuànn-māi	看看	partial	14	14d	M		
+787	大人	tuā-lâng	成人	same-chars-diff-use	01		H		
+788	卻	khiok	卻	same	16		H		
+789	非常	hui-siông	非常	same	16		H		
+790	派	phài	派	same	14	14f	M		
+791	鄭	tēnn	鄭	same	01		M		
+792	專	tsuan	專	same	14	14h	L	sens peu clair, 獨占	yes
+793	福氣	hok-khì	福氣	same	12		M		
+794	出去	tshut-khì	出去	same	07		M		
+795	其實	kî-si̍t	其實	same	16		H		
+796	如	jû	像	same	16		M		
+797	官	kuann	官	same	11		H		
+798	趙	tiō	趙	same	01		M		
+799	思念	su-liām	想念	same	13		H		
+800	京	kiann	京	same	07		M		
+801	趁錢	thàn-tsînn	賺錢	partial	09		H		
+802	騎	khiâ	騎	same	14	14a	H		
+803	佮意	kah-ì	滿足	different	13		H		
+804	快	khuài	快	same	15		H		
+805	平安	pîng-an	平安	same	15		H		
+806	燒酒	sio-tsiú	酒	same	03		H		
+807	冷	líng	冷	same	15		M		
+808	食飽	tsia̍h-pá	吃飽	partial	03		H		
+809	鼻	phīnn	鼻子	same	02		H		yes
+810	搬	puann	搬	same	14	14c	H		
+811	柴	tshâ	柴	same	06		H		
+812	罩	tàu	罩	same	04		M		
+813	恬恬	tiām-tiām	安靜	different	15		M		
+814	逢	hông	逢	same	14	14f	L	définition vide, rencontrer	
+815	可惜	khó-sioh	可惜	same	13		M		
+816	還	hîng	還	same	14	14c	M		
+817	桌	toh	桌子	same	04		H		
+818	青春	tshing-tshun	青春	same	08		M		
+819	家	ka	家	same	01		H		
+820	強	kiông	強	same	15		H		
+821	刀	to	刀	same	04		H		
+822	教育	kàu-io̍k	教育	same	10		H		
+823	胡	ôo	胡	same	?		L	pas de définition, sens incertain	
+824	無	bû	沒有	same	16		H		
+825	當做	tòng-tsò	當做	same	14	14d	M		
+826	入去	ji̍p-khì	進去	partial	07		H		
+827	以及	í-ki̍p	和	same	16		H		
+828	隔壁	keh-piah	鄰居	same	07		M		
+829	而且	jî-tshiánn	而且	same	16		H		
+830	肯	khíng	同意	same	14	14d	H		
+831	屎	sái	大便	different	02		H		yes
+832	母	bú	母	same	01		M		
+833	造	tsō	做	same	14	14g	H		
+834	割	kuah	割	same	14	14c	H		
+835	以	í	以	same	16		M		
+836	聖經	sìng-king	聖經	same	12		H		
+837	歹命	pháinn-miā	不幸	different	15		M		
+838	貓	niau	貓	same	06		H		
+839	有夠	ū-kàu	很	different	16		M		
+840	定著	tiānn-tio̍h	一定	partial	16		M		
+841	篇	phinn	篇	same	10		M		
+842	自由	tsū-iû	自由	same	11		H		
+843	緣	iân	緣	same	13		L	destin, lien entre personnes	
+844	透早	thàu-tsá	七早八早	partial	08		H		
+845	名聲	miâ-siann	名譽	same	11		M		
+846	振動	tín-tāng	動	same	14	14a	M		
+847	厲害	lī-hāi	厲害	same	15		H		
+848	怎樣	tsuánn-iūnn	怎麼	same-chars-diff-use	16		H		
+849	滿	muá	全部	same	08		M		
+850	交代	kau-tài	囑咐	same	14	14b	H		
+851	謼	hooh	喔	different	16		H		
+852	照	tsiò	照	same	14	14h	L	sens : briller, éclairer	yes
+853	早起	tsá-khí	上午	different	08		H		
+854	鬥陣	tàu-tīn	一塊兒	different	16		M		
+855	田	tshân	水田	same-chars-diff-use	06		H		
+856	濟濟	tsē-tsē	濟濟	same	08		M		
+857	無愛	bô ài	不	different	16		H		
+858	底	té		same	07		M		
+859	寡	kuá	一些	same	08		M		
+860	通知	thong-ti	告訴	same	10		M		
+861	何	hô	何	same	16		H		
+862	絕對	tsua̍t-tuì	一定	same	16		M		
+863	草	tsháu	草	same	06		H		
+864	拜託	pài-thok	拜託	same	14	14b	H		
+865	庄	tsng	庄	same	07		H		
+866	暗時	àm-sî	夜裡	different	08		H		
+867	不過	put-kò	不過	same	16		H		
+868	這陣	tsit-tsūn	現在	different	08		H		
+869	民族	bîn-tso̍k	民族	same	11		H		
+870	人人	lâng-lâng	人人	same	01		H		
+871	吊	tiàu	掛	same	14	14c	H		
+872	當然	tong-jiân	當然	same	16		M		
+873	袂曉	bē-hiáu	不會	different	16		M		
+874	賊	tsha̍t	小偷	same	11		H		
+875	認	jīn	認	same	14	14d	H		
+876	駛	sái	開	same	07		M		
+877	到位	kàu-uī	到達目的地	same-chars-diff-use	07		H		
+878	詩	si	詩	same	10		H		
+879	合	ha̍h	合	same	14	14f	M		
+880	行路	kiânn-lōo	走路	partial	07		H		
+881	環境	khuân-kíng	環境	same	07		M		
+882	簡單	kán-tan	簡單	same	15		H		
+883	跋	pua̍h	跌	different	14	14a	H		
+884	研究	gián-kiù	考慮	same	10		M		
+885	春天	tshun-thinn	春天	same	08		H		
+886	跪	kuī	跪	same	14	14a	M		
+887	大人	tāi-jîn		same	11		M		
+888	越頭	ua̍t-thâu	回頭	partial	14	14a	M		
+889	辮	pīnn	辮	same	05		M		
+890	相好	siong-hó	親愛	same	13		H		
+891	唸	liām	讀	same	10		H		
+892	查某人	tsa-bóo-lâng	女生	different	01		H		
+893	和	hām	和	same	16		H		
+894	姑娘	koo-niû	姑娘	same	01		H		
+895	且	tshiánn	且	same	?		L	pas de définition, sens incertain	
+896	樹	tshiū	樹	same	06		H		
+897	等	tíng	等	same	?		L	rang ou niveau, sens incertain	
+898	合	kap	合	same	08		H		
+899	誠實	tsiânn-si̍t	真的	same-chars-diff-use	16		M		
+900	酸	sng	酸	same	03		M		
+901	歹勢	pháinn-sè	害羞	different	13		H		
+902	大學	tāi-ha̍k	大學	same	10		H		
+903	散	sàn	散	same	09		M		
+904	袂使	bē-sái	不行	different	16		H		
+905	捀	phâng	捧	different	14	14c	H		
+906	弟	tī	弟	same	01		H		
+907	每日	muí-ji̍t	每天	same	08		H		
+908	吩咐	huan-hù	囑咐	same-chars-diff-use	14	14b	H		
+909	醉	tsuì	醉	same	02		M		yes
+910	明明	bîng-bîng	確實	same	16		M		
+911	繼續	kè-sio̍k	繼續	same	16	moved	M		
+912	搭	tah	拍	same	14	14c	M		
+913	落去	lo̍h-khì	下去	partial	07		H		
+914	漢字	hàn-jī	漢字	same	10		H		
+915	怨	uàn	怨	same	13		H		
+916	注意	tsù-ì	小心	same	13		M		
+917	由	iû	從	same	16		H		
+918	婦人人	hū-jîn-lâng	婦女	partial	01		H		
+919	熟似	si̍k-sāi	熟識	partial	01		M		
+920	美麗	bí-lē	好看	same	05		H		
+921	東	tang	東	same	07		H		
+922	悲哀	pi-ai	傷心	same	13		H		
+923	兼	kiam	兼	same	09		M		
+924	計	kè	計	same	08		M		
+925	奇怪	kî-kuài	奇怪	same	15		H		
+926	罔	bóng	姑且	different	16		M		
+927	詳細	siông-sè	詳細	same	15		M		
+928	祝	tsiok	祝	same	12		H		
+929	兵	ping	兵	same	11		H		
+930	佗	tó	哪	different	16		H		
+931	作	tsok	作	same	14	14e	M		
+932	利益	lī-ik	利益	same	09		H		
+933	踅	se̍h	轉	same	14	14a	M		
+934	見笑	kiàn-siàu	害羞	different	13		H		
+935	拆	thiah	拆	same	14	14c	H		
+936	摃	kòng	敲	same-chars-diff-use	14	14c	M		
+937	臆	ioh	猜	different	14	14d	H		
+938	覓	māi	看看	different	16		M		
+939	相	sann	相	same	16		H		
+940	最後	tsuè-āu	最後	same	08		H		
+941	方式	hong-sik	方法	same	10	moved	L	méthode, nom abstrait	
+942	挵	lòng	敲	same-chars-diff-use	14	14c	M		
+943	石	tsio̍h	石	same	06	moved	H		
+944	和尚	huê-siūnn	和尚	same	06		H		
+945	囝婿	kiánn-sài	女婿	partial	12		H		
+946	礪	lè	摩擦	different	01		H		
+947	守	siú	守	same	14	14f	M		
+948	原因	guân-in	原因	same	15	moved	L	nom abstrait, cause	
+949	合	ha̍p	合	same	14	14c	M		
+950	沿路	iân-lōo	沿路	same	07		H		
+951	捾	kuānn	提	different	14	14c	H		
+952	檢采	kiám-tshái	如果	different	16		H		
+953	夫妻	hu-tshe	夫妻	same	01		H		
+954	吞	thun	合	same	14	14c	M		
+955	清氣	tshing-khì	乾淨	different	15		H		
+956	定	tiānn	停	same	14	14e	M		
+957	慢	bān	慢	same	15		H		
+958	政府	tsìng-hú	政府	same	11		H		
+959	然後	jiân-āu	然後	same	16		H		
+960	紙	tsuá	紙	same	04		H		
+961	天	thian	天	same	06		H		
+962	幫贊	pang-tsān	幫助	partial	14	14f	M		
+963	倒轉	tò-tńg	回去	different	07		H		
+964	其中	kî-tiong	其中	same	16		H		
+965	場	tiûnn	場	same	07		H		
+966	結婚	kiat-hun	結婚	same	01		H		
+967	劉	lâu	劉	same	01		M		
+968	兩	niú	兩	same	08		H		
+969	貯	té		n/a	14	14c	H		
+970	重要	tiōng-iàu	重要	same	15		H		
+971	著	to̍h	燒	same-chars-diff-use	14	14g	M		
+972	恩	in		n/a	13		M		
+973	引	ín	引	same	14	14a	M		
+974	幸福	hīng-hok	幸福	same	13		H		
+975	家	ke	家	same	01		H		
+976	即時	tsik-sî	馬上	different	08		H		
+977	發生	huat-sing	發生	same	14	14e	H		
+978	所有	sóo-ū	所有	same	16		M		
+979	樹仔	tshiū-á	樹	partial	06		H		
+980	娶某	tshuā-bóo	娶妻	partial	01		H		
+981	本身	pún-sin	自己	same	16		H		
+982	分開	hun-khui	分開	same	14	14a	M		
+983	西	sai	西	same	07		H		
+984	謹	kín	謹	same	?		L	pas de définition, sens incertain	
+985	戲	hì	戲	same	10		H		
+986	雄雄	hiông-hiông	突然	different	16		M		
+987	袂當	bē-tàng	不行	different	16		H		
+988	熱	jua̍h		same	06		H		
+989	意	ì	意	same	13		M		
+990	敗	pāi	敗	same	14	14e	M		
+991	富貴	hù-kuì	富貴	same	09		H		
+992	圓	înn	圓	same	15		M		
+993	路邊	lōo-pinn	路邊	same	07		H		
+994	無閒	bô-îng	忙碌	different	15		M		
+995	斗	táu	次	same	08		H		
+996	卵	nn̄g	蛋	same	03		H		
+997	囝孫	kiánn-sun	子孫	partial	01		H		
+998	出名	tshut-miâ	有名	same	15		H		
+999	曝	pha̍k	晒	same	14	14h	M		yes
+1000	力	la̍t	力	same	02		M		yes
+1001	考	khó	考	same	10		H		
+1002	雲	hûn	雲	same	06		H		
+1003	無疑	bô-gî	沒想到	same-chars-diff-use	16		M		
+1004	門口	mn̂g-kháu	門口	same	07		M		
+1005	外面	guā-bīn	外邊	same	07		H		
+1006	瓜	kue	瓜	same	06		H		
+1007	可比	khó-pí	好像	different	16		M		
+1008	見	kiàn	見	same	14	14d	M		
+1009	男	lâm	男	same	01		H		
+1010	首	siú	首	same	?		L	pas de définition, sens incertain	
+1011	鬧熱	lāu-jia̍t	熱鬧	partial	15		H		
+1012	極	ki̍k	極	same	16		M		
+1013	口	kháu	口	same	02		H		yes
+1014	插	tshah	扶	same	14	14c	H		
+1015	罵	mē		same	14	14b	H		
+1016	便	piān	便	same	15		H		
+1017	希望	hi-bāng	希望	same	13		H		
+1018	無影	bô-iánn	不實的	different	15		M		
+1019	油	iû	油	same	03		H		
+1020	田園	tshân-hn̂g	田園	same	06		H		
+1021	闊	khuah	窄	same	15		H		
+1022	戶	hōo	戶	same	04		M		
+1023	挨	e	推	same	14	14g	M		
+1024	格	kik	格	same	?		L	pas de définition, sens incertain	
+1025	甘蔗	kam-tsià	甘蔗	same	06		H		
+1026	全部	tsuân-pōo	全部	same	08		M		
+1027	點鐘	tiám-tsing	小時	same	08		H		
+1028	斟酌	tsim-tsiok	小心	same-chars-diff-use	13		M		
+1029	翁某	ang-bóo	夫妻	different	01		H		
+1030	目	ba̍k	眼睛	same	02		H		yes
+1031	周	tsiu	周	same	?		L	pas de définition, sens incertain	
+1032	財產	tsâi-sán	財產	same	09		H		
+1033	完全	uân-tsuân	完全	same	15		H		
+1034	抽	thiu	抽	same	14	14c	M		
+1035	性命	sènn-miā	生命	same-chars-diff-use	02		M		yes
+1036	而	jî	而	same	16		H		
+1037	戴	tì	戴	same	05		M		
+1038	雙手	siang-tshiú	雙手	same	02		H		yes
+1039	炒	tshá	炒	same	03		H		
+1040	浮	phû	浮	same	14	14a	M		
+1041	份	hūn	份	same	08		M		
+1042	須	su	須	same	16		L	modal, pas de définition	
+1043	章	tsiong	章	same	10		H		
+1044	法	huat	法	same	09	moved	M		
+1045	學習	ha̍k-si̍p	學習	same	10		H		
+1046	個	kò	個	same	08		H		
+1047	老人	lāu-lâng	老人	same	01		H		
+1048	理	lí	理	same	11		M		
+1049	佗	toh	哪裡	different	16		H		
+1050	味	bī	味道	partial	03		H		
+1051	搶	tshiúnn	搶	same	14	14c	M		
+1052	探聽	thàm-thiann	打聽	partial	14	14b	H		
+1053	疼痛	thiànn-thàng	疼愛	same-chars-diff-use	13		H		
+1054	蔡	tshuà	蔡	same	01		M		
+1055	千	tshian	千	same	08		H		
+1056	雨水	hōo-tsuí	雨	same	06		H		
+1057	藥	io̍h	藥	same	02		H		yes
+1058	思	su	想	same	13		M		
+1059	失	sit	違背	same	14	14e	M		
+1060	面前	bīn-tsîng	現在	same-chars-diff-use	07		M		
+1061	女	lí		same	01		H		
+1062	小妹	sió-muē	小妹	same	01		H		
+1063	情形	tsîng-hîng	情況	same	15		M		
+1064	焦	ta	乾	same	15		H		
+1065	安慰	an-uì	安慰	same	13		H		
+1066	輕鬆	khin-sang	快樂	same	13		M		
+1067	房	pâng	房	same	04		H		
+1068	死人	sí-lâng	死人	same	01		M		
+1069	斤	kin	斤	same	08		H		
+1070	尺	tshioh	尺	same	08		H		
+1071	子	tsú	子	same	01		H		
+1072	城	siânn	城	same	07		H		
+1073	職	tsit	行	same	09		H		
+1074	崁	khàm	頓	different	04		M		
+1075	聲音	siann-im	聲音	same	10		M		
+1076	盤	puânn	盤	same	04		H		
+1077	一世人	tsi̍t-sì-lâng	一生	partial	08		H		
+1078	瓦	uá	瓦	same	04		M		
+1079	相佮	sann-kap	一塊兒	different	16		H		
+1080	毋才	m̄-tsiah	才	partial	16		H		
+1081	工夫	kang-hu	工夫	same	?		L	武術或工夫時間義	
+1082	知	ti	知	same	13		M		
+1083	壁	piah	牆	same	04		H		
+1084	踢	that	踢	same	14	14c	M		
+1085	何必	hô-pit	何必	same	16		H		
+1086	省	síng	便宜	same	09		M		
+1087	神明	sîn-bîng	神	same	12		H		
+1088	雷	luî	雷	same	06		H		
+1089	起頭	khí-thâu	起初	same	08		M		
+1090	夠	kàu	夠	same	15		H		
+1091	淡薄	tām-po̍h	淡薄	same	15		M		
+1092	印	ìn	印	same	14	14g	M		
+1093	明仔載	bîn-á-tsài	明天	partial	08		H		
+1094	拭	tshit	擦	same	14	14c	H		
+1095	姻緣	in-iân	姻緣	same	01		M		
+1096	仝	kāng	同	same	15		H		
+1097	馬	má	馬	same	06		H		
+1098	大概	tāi-khài	大概	same	16		M		
+1099	縣	kuān	縣	same	11		H		
+1100	族	tso̍k	族	same	01		H		
+1101	惜	sioh	疼	same	13		M		
+1102	啼	thî	啼	same	06		H		
+1103	對面	tuì-bīn	前面	same	07		H		
+1104	其	kî	其	same	16		H		
+1105	先	sian	前	same	08		M		
+1106	狗仔	káu-á	狗	partial	06		H		
+1107	忽然	hut-jiân	突然	same	16		M		
+1108	後擺	āu-pái	下次	different	08		M		
+1109	主要	tsú-iàu	主要	same	15		H		
+1110	發展	huat-tián	發展	same	14	14e	H		
+1111	忍耐	jím-nāi	忍耐	same	13		H		
+1112	暫時	tsiām-sî	暫時	same	08		H		
+1113	厚	kāu	多	same	15		M		
+1114	安	an	安	same	15		H		
+1115	無彩	bô-tshái	可惜	different	13		M		
+1116	靈魂	lîng-hûn	靈魂	same	12		M		
+1117	影響	íng-hióng	影響	same	14	14e	H		
+1118	進	tsìn	進	same	14	14a	H		
+1119	阿婆	a-pô	老婦	same	01		H		
+1120	擔	tànn	擔	same	09		M		
+1121	後生	hāu-senn	小	same	01		H		
+1122	耍	sńg	玩	same-chars-diff-use	14	14f	H		
+1123	前途	tsiân-tôo	前途	same	08		M		
+1124	風颱	hong-thai	颱風	partial	06		H		
+1125	褲	khòo	褲	same	05		H		
+1126	烏狗	oo-káu	時髦男子	different	01		M		
+1127	使	sái	叫	same	14	14c	M		
+1128	阿伯	a-peh	伯父	partial	01		H		
+1129	眾	tsìng	眾	same	11		M		
+1130	展	tián	打開	same	14	14h	M		yes
+1131	雖	sui	雖	same	16		H		
+1132	孫	sun	孫子	same	01		H		
+1133	有孝	iú-hàu	孝順	partial	13		M		
+1134	顛倒	tian-tò	反而	same	15		L	def形容倒置，mandarin副詞	
+1135	頓	tǹg	頓	same	14	14c	M		
+1136	船仔	tsûn-á	船	partial	07		H		
+1137	逝	tsuā	回	different	08		H		
+1138	放捒	pàng-sak	放棄	partial	14	14c	M		
+1139	期待	kî-thāi	希望	same	13		H		
+1140	烏白	oo-pe̍h	隨便	different	16		M		
+1141	姊夫	tsí-hu	姊夫	same	01		H		
+1142	公	kong	公	same	01		H		
+1143	意義	ì-gī	意義	same	10		M		
+1144	按	àn	從	same-chars-diff-use	14	14d	M		
+1145	悲傷	pi-siong	傷心	same	13		H		
+1146	貴	kuì	貴	same	09		M		
+1147	布	pòo	布	same	05		H		
+1148	頭鬃	thâu-tsang	頭髮	partial	02		M		yes
+1149	補	póo	補	same	14	14g	H		
+1150	揀	kíng	選	same	14	14d	M		
+1151	肥	puî	胖	same	02		H		yes
+1152	編	pian	編	same	14	14g	M		
+1153	危險	guî-hiám	危險	same	15		H		
+1154	電話	tiān-uē	電話	same	10		M		
+1155	獻	hiàn	獻	same	14	14c	M		
+1156	定	tīng	定	same	14	14d	M		
+1157	出現	tshut-hiān	出現	same	14	14e	H		
+1158	逐	jiok		n/a	?		L	無釋義，義不明	
+1159	鼓	kóo	鼓	same	04		M		
+1160	屬	sio̍k	屬	same	?		L	無釋義，義不定	
+1161	警察	kíng-tshat	警察	same	11		H		
+1162	設使	siat-sú	如果	different	16		H		
+1163	投	tâu	投	same	11		H		
+1164	鳥鼠	niáu-tshí	老鼠	partial	06		H		
+1165	含	hâm	含	same	14	14c	L	no definition; mandarin only	
+1166	剪	tsián	剪	same	14	14c	H		
+1167	富	hù	富	same	09		M		
+1168	謝	siā	謝	same	13		M		
+1169	皆	kai	都	same	16		H		
+1170	表示	piáu-sī	表示	same	14	14b	M		
+1171	低	kē	低	same	15		H		
+1172	挖	óo	挖	same	14	14c	M		
+1173	湖	ôo	湖	same	06		H		
+1174	當初	tong-tshoo	那時	same	08		H		
+1175	載	tsài	載	same	07		H		
+1176	牽手	khan-tshiú	妻子	same	01		H		
+1177	晏	uànn	晚	different	08		H		
+1178	入來	ji̍p-lâi	進來	partial	07		H		
+1179	參加	tsham-ka	參加	same	14	14f	M		
+1180	翁婿	ang-sài	先生	different	01		H		
+1181	發落	hua̍t-lo̍h	安排	same	14	14g	M		
+1182	真情	tsin-tsîng	真情	same	13		H		
+1183	稀微	hi-bî	寂寞	different	13		H		
+1184	交通	kau-thong	交通	same	07		H		
+1185	食茶	tsia̍h-tê	喝茶	partial	03		H		
+1186	錯	tshò	錯	same	15		M		
+1187	下晡	ē-poo	下午	partial	08		H		
+1188	師傅	sai-hū	師傅	same	09		M		
+1189	慘	tshám	慘	same	13		M		
+1190	順	sūn	順	same	14	14d	M		
+1191	掉	tiāu	掉	same	16		H		
+1192	碎	tshuì	碎	same	14	14e	M		
+1193	滇	tīnn	滿	different	15		M		
+1194	小賣	sió-bē	零售商	different	09		H		
+1195	名字	miâ-jī	名字	same	10		M		
+1196	雨傘	hōo-suànn	雨傘	same	04		H		
+1197	病	pēnn		same	02		H		yes
+1198	兄哥	hiann-ko	哥哥	partial	01		H		
+1199	趁食	thàn-tsia̍h	謀生	different	09		H		
+1200	只是	tsí-sī	只有	same	16		H		
+1201	消息	siau-sit	消息	same	10		M		
+1202	下	hā	下	same	14	14e	M		
+1203	遍	piàn	回	same-chars-diff-use	08		H		
+1204	文字	bûn-jī	文字	same	10		H		
+1205	聽候	thìng-hāu	等到	same	14	14f	H		
+1206	歕	pûn	吹	different	14	14c	M		
+1207	本來	pún-lâi	本來	same	16		H		
+1208	語	gí		n/a	10		H		
+1209	呢	ne	呢	same	16		H		
+1210	福	hok	福	same	12		M		
+1211	簡	kán	簡	same	15		M		
+1212	探	thàm	探	same	14	14a	M		
+1213	拔	pua̍h	拔	same	08		M		
+1214	摻	tsham	加入	same-chars-diff-use	14	14g	M		
+1215	囉	--looh	囉	same	16		H		
+1216	永	íng	永	same	08		M		
+1217	葉	hio̍h	葉子	same	06		H		
+1218	大家	ta-ke	婆婆	same-chars-diff-use	01		H		
+1219	會得	ē-tit	可以	same	16		H		
+1220	跤手	kha-tshiú	辦法	different	02		L	身體義或辦法義	yes
+1221	夫人	hu-jîn	夫人	same	01		H		
+1222	鹹	kiâm	鹹	same	03		H		
+1223	三	sam	三	same	08		H		
+1224	熟	si̍k	熟	same	03		M		
+1225	弄	lāng	弄	same	14	14c	M		
+1226	短	té	短	same	15		H		
+1227	淡薄仔	tām-po̍h-á	一點點	different	08		M		
+1228	廳	thiann	廳	same	12		M		
+1229	智識	tì-sik	知識	partial	10		H		
+1230	祖先	tsóo-sian	祖先	same	01		H		
+1231	鮮	tshinn	鮮	same	03		H		
+1232	數	sòo	數	same	08		H		
+1233	班	pan	班	same	08		M		
+1234	差	tsha	差	same	15		M		
+1235	毒	to̍k	毒	same	02		M		yes
+1236	塗豆	thôo-tāu	花生	different	03		H		
+1237	曷	a̍h	哪	different	16		H		
+1238	看破	khuànn-phuà	看穿	same	13		M		
+1239	夫	hu	夫	same	01		H		
+1240	狐狸	hôo-lî	狐狸	same	06		H		
+1241	政治	tsìng-tī	政治	same	11		H		
+1242	交陪	kau-puê	應酬	different	11		M		
+1243	咧欲	teh-beh	快要	different	16		H		
+1244	棉	mî	棉	same	06		H		
+1245	綿	mî	綿	same	15		H		
+1246	冤家	uan-ke	爭論	same	13		L	冤家或爭論義不一	
+1247	天地	thinn-tē	天地	same	06		M		
+1248	傷	siong	傷	same	02		H		yes
+1249	鳥	tsiáu	鳥	same	06		H		
+1250	勇	ióng	堅固	same	02		M		yes
+1251	明白	bîng-pi̍k	知道	same	13		M		
+1252	桌頂	toh-tíng	桌上	partial	04		H		
+1253	學問	ha̍k-būn	學問	same	10		H		
+1254	土地公	Thóo-tī-kong	土地公	same	12		H		
+1255	揹	phāinn	承擔	same	14	14c	M		
+1256	取	tshú	取	same	14	14c	H		
+1257	線	suànn	線	same	04		M		
+1258	臭	tshàu	臭	same	03		M		
+1259	反	huán	變	same	14	14e	H		
+1260	笑容	tshiò-iông	笑容	same	13		M		
+1261	細膩	sè-jī	小心	same-chars-diff-use	13		M		
+1262	燈	ting	燈	same	04		H		
+1263	宮	king	宮	same	12		H		
+1264	尻川	kha-tshng	屁股	different	02		H		yes
+1265	東爿	tang-pîng	東邊	partial	07		H		
+1266	跤步	kha-pōo	行為	different	02	moved	M		yes
+1267	拄拄	tú-tú	就	different	16		H		
+1268	真心	tsin-sim	真心	same	13		H		
+1269	失敗	sit-pāi	失敗	same	14	14e	H		
+1270	抹	buah	打	same	14	14c	H		
+1271	巡	sûn	回	same	14	14a	M		
+1272	祭	tsè	祭	same	12		H		
+1273	內山	lāi-suann	深山	partial	06		H		
+1274	約	iok	約	same	14	14f	M		
+1275	伸	tshun	伸	same	14	14a	M		
+1276	姓	sènn		same	01		H		
+1277	好額人	hó-gia̍h-lâng	富翁	different	09		H		
+1278	哈	hah	哈	same	16		L	無釋義，疑為語氣詞	
+1279	戀愛	luân-ài	戀愛	same	13		H		
+1280	生	sing	生	same	14	14e	L	state: be alive	
+1281	糖	thn̂g	糖	same	03		H		
+1282	參詳	tsham-siông	討論	different	10		M		
+1283	王爺	ông-iâ	王爺	same	12		H		
+1284	三頓	sann tǹg	三餐	partial	03		H		
+1285	嫁翁	kè-ang	出嫁	partial	01		M		
+1286	稅	suè	租	same	09		H		
+1287	某囝	bóo-kiánn	妻子	different	01		H		
+1288	服侍	ho̍k-sāi	伺候	same	14	14f	M		
+1289	古錐	kóo-tsui	可愛	different	15		M		
+1290	財	tsâi	財	same	09		H		
+1291	講	káng	講	same	10		H		
+1292	既然	kì-jiân	既然	same	16		H		
+1293	禮	lé	禮	same	12		M		
+1294	尚	siōng	尚	same	16		M		
+1295	貨	huè		same	09		H		
+1296	媽祖	Má-tsóo	天上聖母	same	12		H		
+1297	落來	lo̍h-lâi	下來	partial	07		H		
+1298	賰	tshun	剩	different	14	14e	M		
+1299	成做	tsiânn-tsò	變成	partial	14	14e	H		
+1300	帆	phâng	帆	same	07		M		
+1301	主意	tsú-ì	主意	same	13		M		
+1302	犧牲	hi-sing	犧牲	same	13		M		
+1303	佛	Pu̍t	佛	same	12		M		
+1304	故	kòo	故	same	08		M		
+1305	逐項	ta̍k hāng	每樣	different	16		M		
+1306	發現	huat-hiān	發現	same	14	14d	M		
+1307	毋管	m̄-kuán	不論	different	16		H		
+1308	庄跤	tsng-kha	農村	different	07		H		
+1309	物	mih	物	same	04		M		
+1310	僥	hiau	翻	different	14	14e	M		
+1311	流浪	liû-lōng	流浪	same	14	14a	H		
+1312	會	huē	會	same	11		M		
+1313	後面	āu-bīn	後面	same	07		H		
+1314	關	kuainn		same	14	14c	H		
+1315	度	tōo	度	same	08		H		
+1316	溪	khe	溪	same	06		H		
+1317	青年	tshing-liân	青年	same	01		H		
+1318	新聞	sin-bûn	報紙	same	10		H		
+1319	猶閣	iáu-koh	還	different	16		H		
+1320	喙齒	tshuì-khí	牙齒	partial	02		H		yes
+1321	風水	hong-suí	墳墓	same	12		H		
+1322	蔗	tsià	甘蔗	same	06		H		
+1323	滋味	tsu-bī	味道	same	03		H		
+1324	風吹	hong-tshue	風箏	partial	04		M		
+1325	現	hiān	立刻	same	08		M		
+1326	羊	iûnn	羊	same	06		H		
+1327	掘	ku̍t	掘	same	14	14g	H		
+1328	心適	sim-sik	有趣	different	15		M		
+1329	鞋	ê		same	05		H		
+1330	聞	bûn	聞	same	14	14d	M	no definition; sense verb	
+1331	丈人	tiūnn-lâng	岳父	different	01		H		
+1332	國寶	kok-pó	國寶	same	11		M		
+1333	命運	miā-ūn	命運	same	12		M		
+1334	莫	bo̍k	莫	same	16		H		
+1335	果子	kué-tsí	水果	partial	03		H		
+1336	困難	khùn-lân	難過	same	15		M		
+1337	白賊	pe̍h-tsha̍t	吹牛	different	13		M		
+1338	差	tshe	差	same	14	14f	M		
+1339	新婦	sin-pū	媳婦	same	01		H		
+1340	拈	ni	用手指取物	same	14	14c	H		
+1341	路頭	lōo-thâu	十字路口	partial	07		H		
+1342	相	siòng	相	same	05		M		
+1343	義	gī	義	same	13		M		
+1344	泅	siû	游泳	different	14	14a	H		
+1345	鼎	tiánn	鍋	same	03		H		
+1346	進行	tsìn-hîng	進行	same	14	14e	H		
+1347	紮	tsah	帶	same-chars-diff-use	14	14c	M		
+1348	著驚	tio̍h-kiann	吃驚	partial	13		H		
+1349	件	kiānn	件	same	08		M		
+1350	黃昏	hông-hun	傍晚	same	08		H		
+1351	相招	sio-tsio	邀約	different	14	14f	H		
+1352	僥倖	hiau-hīng	遺憾	same	13		M		
+1353	料理	liāu-lí	料理	same	14	14g	M		
+1354	常	siông	常	same	16		M		
+1355	迷	bê	迷	same	13		M		
+1356	分鐘	hun-tsing	分鐘	same	08		H		
+1357	雞仔	ke-á	雞	partial	06		H		
+1358	作品	tsok-phín	作品	same	10		M		
+1359	奴	lôo	奴隸	same	11		M		
+1360	文獻	bûn-hiàn	文獻	same	10		H		
+1361	未	bī	不	same-chars-diff-use	16		L	négation 不 ou 地支 未	
+1362	貪	tham	貪	same	13		H		
+1363	痛苦	thòng-khóo	難過	same	13		M		
+1364	日時	ji̍t--sî	白天	different	08		H		
+1365	出力	tshut-la̍t	使勁	different	14	14g	H		
+1366	實	si̍t	很	same	16		M		
+1367	拜堂	pài-tn̂g	結婚	different	12		H		
+1368	情意	tsîng-ì	感情	same	13		H		
+1369	近	kīn	近	same	07		M		
+1370	色	sik	色	same	05		M		
+1371	將軍	tsiong-kun	將軍	same	11		H		
+1372	界	kài	界	same	07		L	sens non donné	
+1373	賜	sù	賜	same	14	14c	H		
+1374	逐日	ta̍k-ji̍t	每天	different	08		H		
+1375	喙鬚	tshuì-tshiu	鬍鬚	partial	02		H		yes
+1376	規个	kui-ê	整個	different	16		M		
+1377	見面	kìnn-bīn	見面	same	14	14f	H		
+1378	事業	sū-gia̍p	企業	same	09		H		
+1379	把	pé	把	same	14	14c	H		
+1380	安排	an-pâi	安排	same	14	14g	M		
+1381	保庇	pó-pì	保佑	partial	12		H		
+1382	誤	gōo	誤	same	15	moved	M		
+1383	咒誓	tsiù-tsuā	發誓	partial	12		M		
+1384	博士	phok-sū	博士	same	10		H		
+1385	解	kái	消除	same	14	14e	M		
+1386	橋	kiô	橋	same	07		H		
+1387	風俗	hong-sio̍k	習慣	same	12		H		
+1388	啥貨	siánn-huè	什麼	different	16		H		
+1389	八	pat	八	same	08		H		
+1390	西爿	sai-pîng	西邊	partial	07		H		
+1391	精差	tsing-tsha	相差	partial	14	14e	L	difference, state	
+1392	反悔	huán-hué	後悔	same	13		H		
+1393	府	hú	府	same	11		H		
+1394	次	tshù	次	same	08		H		
+1395	外國	guā-kok	外國	same	07		M		
+1396	款待	khuán-thāi	接待	same	14	14f	H		
+1397	窗	thang	窗戶	same	04		H		
+1398	窗仔	thang-á	窗戶	partial	04		H		
+1399	師父	su-hū	師父	same	01		M		
+1400	寂寞	tsi̍k-bo̍k	孤單	same	13		H		
+1401	公園	kong-hn̂g	公園	same	07		H		
+1402	目箍	ba̍k-khoo	眼眶	different	02		H		yes
+1403	港	káng	注	same	07		M		
+1404	磨	buâ	磨	same	14	14g	H		
+1405	笑微微	tshiò-bi-bi	笑瞇瞇	partial	13		H		
+1406	轎	kiō	轎	same	07		H		
+1407	現代	hiān-tāi	現代	same	08		H		
+1408	樹林	tshiū-nâ	樹林	same	06		H		
+1409	閒	îng	閒	same	15		M		
+1410	攬	lám	抱	same	14	14f	M		
+1411	方法	hong-huat	辦法	same	09	moved	M		
+1412	埋	tâi	埋	same	12		M		
+1413	尊	tsun	尊	same	15		M		
+1414	事實	sū-si̍t	事實	same	?		L	notion abstraite	
+1415	凊彩	tshìn-tshái	任何	different	16		M		
+1416	順紲	sūn-suà	順便	partial	16		M		
+1417	頭毛	thâu-mn̂g	頭髮	partial	02		H		yes
+1418	可愛	khó-ài	可愛	same	15		M		
+1419	做伴	tsò-phuānn	作伴	same	01		M		
+1420	同	tông	同	same	15		M		
+1421	可憐	khó-liân	可憐	same	13		M		
+1422	群	kûn	群	same	08		M		
+1423	出聲	tshut-siann	出聲	same	14	14b	H		
+1424	試	tshì	試	same	14	14g	M		
+1425	落	lak	掉	same	14	14a	H		
+1426	叢	tsâng		same	?		L	aucune donnée	
+1427	阿姑	a-koo	姑姑	partial	01		H		
+1428	現金	hiān-kim	現金	same	09		H		
+1429	袂輸	bē-su	好像	different	16		H		
+1430	屐	kia̍h	屐	same	?		L	aucune donnée	
+1431	千萬	tshian-bān	一定	same	16		M		
+1432	陪	puê	陪	same	01		M		
+1433	初	tshoo	初	same	08		M		
+1434	勉強	bián-kióng	勉強	same	16	moved	M		
+1435	選	suán	選	same	14	14d	M		
+1436	堆	tui	堆	same	08		M		
+1437	熱心	jia̍t-sim	熱心	same	13		M		
+1438	講起	kóng-khí	提起	partial	14	14b	H		
+1439	各位	kok-uī	各位	same	01		M		
+1440	保護	pó-hōo	照顧	same	14	14f	H		
+1441	已	í	已	same	16		M		
+1442	確實	khak-si̍t	實在	same	15		M		
+1443	穩當	ún-tàng	一定	same	16		M		
+1444	滿腹	muá-pak	滿腔	same	13		M		
+1445	郎君	lông-kun	郎君	same	01		H		
+1446	海墘	hái-kînn	海邊	partial	07		H		
+1447	思考	su-khó	思考	same	13		M		
+1448	碟	ti̍h	碟	same	03		M		
+1449	長老	tiúnn-ló	大老	same	01		M		
+1450	甚至	sīm-tsì	甚至	same	16		H		
+1451	開喙	khui-tshuì	開口	partial	14	14b	H		
+1452	離別	lī-pia̍t	分離	partial	14	14f	M		
+1453	遊	iû	遊	same	14	14a	M		
+1454	文明	bûn-bîng	文明	same	11		M		
+1455	站	tsām	站	same	07		H		
+1456	遮爾	tsiah-nī	這麼	different	16		H		
+1457	上	siāng	上	same	16		L	sens non donné	
+1458	女兒	lú-jî	女兒	same	01		H		
+1459	胭脂	ian-tsi	口紅	different	05		H		
+1460	失禮	sit-lé	抱歉	same	14	14f	M		
+1461	帶	tài	帶	same	14	14c	H		
+1462	遲	tî	遲	same	08		M		
+1463	時常	sî-siông	常常	same	16		M		
+1464	無夠	bô-kàu	不夠	partial	15		M		
+1465	善	siān	善	same	13		M		
+1466	百姓	peh-sènn	百姓	same	11		H		
+1467	辦法	pān-huat	辦法	same	09	moved	M		
+1468	經驗	king-giām	經驗	same	10		M		
+1469	偏偏	phian-phian	故意	same	16		M		
+1470	敬	kìng	敬	same	13		M		
+1471	進步	tsìn-pōo	進步	same	14	14e	H		
+1472	普通	phóo-thong	普通	same	15		H		
+1473	隔	keh	隔	same	14	14e	M		
+1474	頂頭	tíng-thâu	上面	different	07		H		
+1475	教	kàu	教	same	12		H		
+1476	接受	tsiap-siū	接受	same	14	14c	M		
+1477	告	kò	告	same	11		H		
+1478	防	hông	防	same	14	14f	M		
+1479	查埔人	tsa-poo-lâng	先生	different	01		H		
+1480	意愛	ì-ài	喜歡	different	13		H		
+1481	吐	thòo	發	same	02		M		yes
+1482	阿爹	a-tia	爸	different	01		H		
+1483	地方	tē-hng	地方	same	07		H		
+1484	聰明	tshong-bîng	聰明	same	13		M		
+1485	翻譯	huan-i̍k	翻譯	same	10		H		
+1486	基督教	Ki-tok-kàu	基督教	same	12		H		
+1487	銃	tshìng	槍	different	11		M		
+1488	上蓋	siōng-kài	非常	different	16		M		
+1489	癩	thái	癩	same	?		L	aucune donnée	
+1490	烏貓	oo-niau	黑貓	partial	06		H		
+1491	通好	thang-hó		n/a	?		L	aucune donnée	
+1492	勇氣	ióng-khì	勇氣	same	13		H		
+1493	註定	tsù-tiānn	註定	same	12		M		
+1494	衰	sue	倒楣	different	15		M		
+1495	作	tsoh	做	same	14	14g	H		
+1496	能	lîng	能	same	16		L	能力 ou modal	
+1497	水牛	tsuí-gû	水牛	same	06		H		
+1498	擋	tòng	擋	same	14	14c	M		
+1499	鼓勵	kóo-lē	鼓勵	same	13		M		
+1500	代表	tāi-piáu	代表	same	11		H		
+1501	山跤	suann-kha	山腳	partial	06		H		
+1502	糕仔	ko-á	糕	partial	03		H		
+1503	了了	liáu-liáu	完	different	16		L	complément ou état	
+1505	兩	lióng	兩	same	08		H		
+1506	從	tsiông	從	same	16		M		
+1507	天氣	thinn-khì	天氣	same	06		H		
+1508	母	bó	媽媽	same	01		H		
+1509	都市	too-tshī	城市	same	07		H		
+1510	果然	kó-jiân	果然	same	16		H		
+1511	番	huan	番	same	11		M		
+1512	大兄	tuā-hiann	哥哥	different	01		H		
+1513	毋免	m̄-bián	不用	different	16		H		
+1514	太太	thài-thài	太太	same	01		H		
+1515	客	kheh	客	same	01		M		
+1516	當時	tang-sî	何時	same-chars-diff-use	16		H		
+1517	路尾	lōo-bué	後來	different	08		M		
+1518	合	kah	合	same	14	14f	M	no definition; mandarin only	
+1519	整	tsíng	整	same	09		M		
+1520	爛	nuā	爛	same	15		M		
+1521	柳	liú	柳	same	06		M		
+1522	好歹	hó-pháinn	好歹	same	15		M		
+1523	吠	puī	吠	same	06		M		
+1524	下面	ē-bīn	下面	same	07		M		
+1525	庄頭	tsng-thâu	村落	different	07		H		
+1526	仔	ah		n/a	16		L	suffixe diminutif	
+1527	回頭	huê-thâu	回頭	same	14	14a	H		
+1528	添丁	thiam-ting	生男孩	same	01		H		
+1529	樣	iūnn	形式	same	15		M		
+1530	哈	ha	喝	same	16		M		
+1531	大路	tuā-lōo	公路	same	07		H		
+1532	片	phìnn	脾氣	same	13		H		
+1533	遇	gū	剛	same	14	14f	M		
+1534	鐘	tsing	鐘	same	04		H		
+1535	不孝	put-hàu	不孝	same	13		M		
+1536	退	thè	退	same	14	14a	H		
+1537	至	tsì	至	same	16		M		
+1538	阿舅	a-kū	舅舅	partial	01		H		
+1539	光明	kong-bîng	光明	same	13		M		
+1540	貼	tah	貼	same	14	14c	H		
+1541	備辦	pī-pān	準備	partial	14	14g	M		
+1542	區	khu	區	same	07		H		
+1543	內容	luē-iông	內容	same	?		L	notion générale	
+1544	親家	tshin-ke	親家	same	01		H		
+1545	毋甘	m̄-kam	難過	different	13		M		
+1546	遐爾	hiah-nī	那麼	different	16		H		
+1547	難得	lân-tit	難得	same	15		M		
+1548	天下	thian-hā	世界	same	07		M		
+1549	正經	tsìng-king	真的	same	15		M		
+1550	奴才	lôo-tsâi	奴才	same	11		M		
+1551	奏	tsàu	奏	same	10		M		
+1552	與	í		same	?		L	aucune donnée	
+1553	過年	kuè-nî	過年	same	12		H		
+1554	佳哉	ka-tsài	幸虧	different	16		M		
+1555	水雞	tsuí-ke	青蛙	different	06		H		
+1556	相𤆬	sio-tshuā	一起	different	16		M		
+1557	無奈	bô-nāi	不得已	same-chars-diff-use	13		M		
+1558	溫柔	un-jiû	溫柔	same	13		M		
+1559	巢	tsâu	巢	same	?		L	aucune donnée	
+1560	等候	tán-hāu	等到	same	14	14f	H		
+1561	薰	hun	薰	same	?		L	cigarette, catégorie floue	
+1562	氣力	khuì-la̍t	力氣	partial	02		M		yes
+1563	建立	kiàn-li̍p	建立	same	14	14g	H		
+1564	萬萬	bān-bān	一定	same	08		M		
+1565	無情	bô-tsîng	無情	same	13		H		
+1566	路途	lōo-tôo	行程	same	07		H		
+1567	爽快	sóng-khuài	爽快	same	13		M		
+1568	滾	kún	滾	same	14	14g	M		
+1569	利便	lī-piān	方便	partial	15		H		
+1570	言	giân	言	same	10		M		
+1571	巧	khiáu	聰明	same-chars-diff-use	13		M		
+1572	蓋	kài	彈	same	14	14h	L	surpass, outdo	yes
+1573	嬰仔	enn-á	嬰兒	partial	01		H		
+1574	組	tsoo	組	same	11		M		
+1575	厝頂	tshù-tíng	屋頂	partial	04		H		
+1576	基督	Ki-tok	耶穌	same	12		H		
+1577	兄嫂	hiann-só	嫂子	partial	01		H		
+1578	夠額	kàu-gia̍h	足額	partial	08		M		
+1579	中心	tiong-sim	中心	same	07		M		
+1580	翁仔某	ang-á-bóo	夫妻	different	01		H		
+1581	討論	thó-lūn	討論	same	10		H		
+1582	底時	tī-sî	何時	partial	16		H		
+1583	拖磨	thua-buâ	折磨	partial	13		M		
+1584	全然	tsuân-jiân	全然	same	16		H		
+1585	主張	tsú-tiunn	主張	same	13		M		
+1586	椅仔	í-á	椅子	partial	04		H		
+1587	重	tiōng	重	same	15		M		
+1588	只要	tsí-iàu	只要	same	16		H		
+1589	相當	siong-tong	差不多	same	16		M		
+1590	古	kóo	古	same	08		H		
+1591	金金	kim-kim	睜大眼睛	different	15		M		yes
+1592	俗	sio̍k	便宜	same-chars-diff-use	09		M		
+1593	糊	kôo	貼	same	04		M		
+1594	怪	kuài	怪	same	15		M		
+1595	園	hn̂g	園	same	06		M		
+1596	創造	tshòng-tsō	創造	same	14	14g	H		
+1597	中晝	tiong-tàu	中午	partial	08		H		
+1598	頂懸	tíng-kuân	上面	different	07		H		
+1599	跛跤	pái-kha	跛腳	partial	02		H		yes
+1600	眠夢	bîn-bāng	夢想	partial	13		M		
+1601	歌詩	kua-si	詩歌	partial	10		H		
+1602	入門	ji̍p-mn̂g	入門	same	14	14a	H		
+1603	值	ta̍t	值	same	09		M		
+1604	圍	uî	包圍	same-chars-diff-use	14	14a	M		
+1605	座	tsō	座	same	08		M		
+1606	契兄	khè-hiann	姘夫	different	01		M		
+1607	禮拜日	lé-pài-ji̍t	星期天	same	08		H		
+1608	雷公	luî-kong	雷	same	06		H		
+1609	摔	siak	摔	same	14	14a	H		
+1610	擲	tàn	扔	same	14	14c	H		
+1611	泉	tsuânn	泉	same	06		H		
+1612	呢	--nih	是不是	same-chars-diff-use	16		H		
+1613	剉柴	tshò-tshâ	砍柴	partial	14	14g	M		
+1614	寸	tshùn	寸	same	08		H		
+1615	運	ūn	運氣	same-chars-diff-use	15		M		
+1616	齣	tshut	齣	same	10		M		
+1617	克虧	khik-khui	可憐	different	15		M		
+1618	考試	khó-tshì	考試	same	10		H		
+1619	徙	suá	移	same	14	14a	H		
+1620	骨力	kut-la̍t	勤勞	different	13		M		
+1621	一般	it-puann	一般	same	15		H		
+1622	生日	senn-ji̍t	生日	same	12		M		
+1623	狗蟻	káu-hiā	螞蟻	partial	06		H		
+1624	蜘蛛	ti-tu	蜘蛛	same	06		H		
+1625	激	kik	激	same	14	14h	L	stimulate, provoke	yes
+1626	北	pak	北	same	07		H		
+1627	岸	huānn	岸	same	06		M		
+1628	罕得	hán-tit	難得	partial	16		M		
+1629	佔	tsiàm		same	?		L	pas de définition fournie	
+1630	淡水	Tām-tsuí	淡水	same	07		H		
+1631	頭家娘	thâu-ke-niû	老闆娘	partial	09		M		
+1632	平常	pîng-siông	平常	same	08		M		
+1633	作穡	tsoh-sit	工作	partial	09		M		
+1634	過身	kuè-sin	過去	partial	02		H		yes
+1635	主義	tsú-gī	主義	same	11		H		
+1636	大的	tuā--ê	大哥	partial	01		M		
+1637	做人	tsò--lâng	為人	same	01		M		
+1639	大哥	tuā-ko	大哥	same	01		H		
+1640	鄉里	hiunn-lí	家鄉	same	07		H		
+1641	恨	hīn		same	?		L	pas de définition fournie	
+1642	未來	bī-lâi	將來	same	08		H		
+1643	輕	khin	輕	same	15		H		
+1644	景	kíng	景	same	06		M		
+1645	興	hing	發展	same	14	14e	H		
+1646	賊仔	tsha̍t-á	小偷	different	11		M		
+1647	命令	bīng-līng	命令	same	14	14b	M		
+1648	鋤頭	tî-thâu	鋤頭	same	04		H		
+1649	序大	sī-tuā	長輩	different	01		H		
+1650	灶跤	tsàu-kha	廚房	different	04		H		
+1651	毋就	m̄-tō	不就	partial	16		M		
+1652	憂愁	iu-tshiû	憂愁	same	13		H		
+1653	運命	ūn-miā	命運	partial	13		M		
+1654	賞	siúnn	賞	same	14	14d	M		
+1655	皮	phuê		same	02		M		yes
+1656	好意	hó-ì	好意	same	13		M		
+1657	議論	gī-lūn	議論	same	14	14b	H		
+1658	神魂	sîn-hûn	魂魄	partial	13		M		
+1659	願意	guān-ì	願意	same	13		M		
+1660	烏暗	oo-àm	黑暗	partial	15		H		
+1661	大廳	tuā-thiann	大廳	same	04		H		
+1662	正月	tsiann--gue̍h	正月	same	08		H		
+1663	儉	khiām	節省	same	13		M		
+1664	藏	tshàng	躲	same	14	14c	H		
+1665	慣勢	kuàn-sì	習慣	partial	14	14d	M		
+1666	感動	kám-tōng	感動	same	13		H		
+1667	直接	ti̍t-tsiap	直接	same	16		H		
+1668	整理	tsíng-lí	收拾	same	14	14g	M		
+1669	粿	kué	粿	same	03		H		
+1670	工人	kang-lâng	工人	same	09		H		
+1671	孫仔	sun-á	孫子	partial	01		H		
+1672	蠓仔	báng-á	蚊子	different	06		H		
+1673	敲	khà	打	same	14	14c	M		
+1674	捒	sak	推	different	14	14c	H		
+1675	軁	nǹg	穿	different	14	14a	M		
+1676	針	tsiam	針	same	04		M		
+1677	出頭	tshut-thâu	出頭	same	14	14e	H		
+1678	阿姨	a-î	阿姨	same	01		H		
+1679	人情	jîn-tsîng	人情	same	11		M		
+1680	動物	tōng-bu̍t	動物	same	06		H		
+1681	工作	kang-tsok	工作	same	09		H		
+1682	哀	ai	叫	same	13		M		
+1683	尪仔	ang-á	偶	different	04		M		
+1684	夭壽	iáu-siū	很	same	14	14e	M		
+1685	套	thò	袋	same	08		M		
+1686	出版	tshut-pán	出版	same	10		H		
+1687	陪伴	puê-phuānn	陪伴	same	14	14f	H		
+1688	英雄	ing-hiông	英雄	same	13		M		
+1689	功勞	kong-lô	功勞	same	11		M		
+1690	近來	kīn-lâi	最近	same-chars-diff-use	08		H		
+1691	鐵	thih	鐵	same	04		M		
+1692	只好	tsí-hó	只好	same	16		H		
+1693	好心	hó-sim	好心	same	13		H		
+1694	翻	huan	翻譯	same	14	14c	M		
+1695	期	kî	期	same	08		H		
+1696	熱天	jua̍h-thinn	夏天	partial	06		H		
+1697	貓仔	niau-á	貓	partial	06		H		
+1698	棺柴	kuann-tshâ	棺材	partial	12		M		
+1699	跤骨	kha-kut	腳	different	02		H		yes
+1700	花蕊	hue-luí	花朵	same	06		H		
+1701	不幸	put-hīng	不幸	same	15		M		
+1702	豆腐	tāu-hū	豆腐	same	03		H		
+1703	開講	khai-káng	聊天	same	14	14b	H		
+1704	袋	tē	袋	same	04		H		
+1705	才調	tsâi-tiāu	才能	partial	15		M		
+1706	動	tāng	動	same	14	14e	M		
+1707	藝旦	gē-tuànn	藝旦	same	09		M		
+1708	粗	tshoo	粗	same	15		H		
+1709	起行	khí-kiânn	出發	different	07		M		
+1710	保	pó	保	same	09		M		
+1711	南	lâm	南	same	07		H		
+1712	所費	sóo-huì	費用	partial	09		H		
+1713	疼惜	thiànn-sioh	疼愛	same	13		H		
+1714	沃	ak	澆	different	14	14c	M		
+1715	書	tsu	書	same	10		H		
+1716	刻	khik	刻	same	14	14g	H		
+1717	地名	tē-miâ/tuē-miâ	地名	same	07		H		
+1718	竹仔	tik-á	竹子	partial	06		H		
+1719	事件	sū-kiānn	事情	same-chars-diff-use	09	moved	M		
+1720	家伙	ke-hué	家產	same-chars-diff-use	09		M		
+1721	斟	thîn	倒	same	14	14c	H		
+1722	紅	hông	紅	same	15		H		
+1723	痴情	tshi-tsîng	痴情	same	13		H		
+1724	再會	tsài-huē	再見	same	14	14f	M		
+1725	娘娘	niû-niû	皇后	different	11		M		
+1726	好命	hó-miā	命好	same	15		H		
+1727	營	iânn	營	same	11		M		
+1728	扶	hû	管	same	14	14f	M		
+1729	追	tui	追	same	14	14a	H		
+1730	吐	thóo	超過	same	14	14c	M		
+1731	根	kin	根	same	06		H		
+1732	爬	pê	爬	same	14	14a	H		
+1733	中	tiòng	中	same	14	14e	M		
+1734	細姨	sè-î	小老婆	same	01		H		
+1735	帽仔	bō-á	帽子	partial	05		H		
+1736	利用	lī-iōng	利用	same	14	14c	M		
+1737	毋成	m̄-tsiânn	不成	partial	16		M		
+1738	計較	kè-kàu	計較	same	13		M		
+1739	公路	kong-lōo	公路	same	07		H		
+1740	糊塗	hôo-tôo	胡塗	same-chars-diff-use	13		M		
+1741	圖	tôo	圖	same	10		H		
+1742	風景	hong-kíng	風景	same	06		H		
+1743	釘	tìng	釘	same	14	14c	H		
+1744	隨在	suî-tsāi	隨便	partial	16		M		
+1745	寶貝	pó-puè	寶貝	same	04		M		
+1746	行	hîng	行	same	?		L	pas de définition fournie	
+1747	臣	sîn	臣	same	11		H		
+1748	血	hueh		same	02		H		yes
+1749	烏鴉	oo-a	烏鴉	same	06		H		
+1750	聽講	thiann-kóng	聽說	same-chars-diff-use	16		M		
+1751	沉	tîm	沉	same	14	14a	M		
+1752	正	tsìng	正	same	13		M		
+1753	轉	tsuán	變	same	14	14a	M		
+1754	略仔	lio̍h-á	稍微	different	16		M		
+1755	啉酒	lim tsiú	喝酒	partial	03		H		
+1756	刣死	thâi--sí	殺死	partial	14	14e	M		
+1757	濫糝	lām-sám	隨便	different	16		M		
+1758	醫學	i-ha̍k	醫學	same	02		M		yes
+1759	攑頭	gia̍h-thâu	抬頭	partial	14	14a	M		
+1760	刑事	hîng-sū	刑事	same	11		H		
+1761	腹內	pak-lāi	內臟	partial	02		H		yes
+1762	恭喜	kiong-hí	恭喜	same	12		M		
+1763	和	hô	和	same	09		M		
+1764	怨恨	uàn-hūn	怨恨	same	13		H		
+1765	寫字	siá-jī	寫字	same	10		H		
+1766	或	hi̍k	或	same	16		H		
+1767	天公	Thinn-kong	上天	partial	12		H		
+1768	欺	khi	欺	same	14	14b	M		
+1769	椅	í	椅子	same	04		H		
+1770	越	ua̍t	回	same-chars-diff-use	14	14a	H		
+1771	數念	siàu-liām	想念	partial	13		H		
+1772	比較	pí-kàu	比較	same	14	14d	H		
+1773	經濟	king-tsè	經濟	same	09		H		
+1774	信仰	sìn-gióng	信仰	same	12		H		
+1775	跋筊	pua̍h-kiáu	賭博	different	14	14f	M		
+1776	批信	phue-sìn	信	partial	10		M		
+1777	當	tong	當	same	?		L	mandarin ambigu, pas de définition	
+1778	秋	tshiu	秋	same	06		H		
+1779	戇戇	gōng-gōng	愚蠢	different	13		H		
+1780	熱	jia̍t		same	15		H		
+1781	屆	kài	屆	same	08		M		
+1782	雄	hiông	急	same	?		L	def et mandarin divergent	
+1783	宗教	tsong-kàu	宗教	same	12		H		
+1784	景緻	kíng-tì	風景	partial	06		H		
+1785	序大人	sī-tuā-lâng	父母親	different	01		H		
+1786	布袋	pòo-tē	布袋	same	04		H		
+1787	生做	senn-tsò	長成	different	14	14e	H		
+1788	好看	hó-khuànn	好看	same	15		H		
+1789	分明	hun-bîng	分明	same	16		M		
+1790	爹	tia	爸爸	same	01		H		
+1791	志氣	tsì-khì	志氣	same	13		H		
+1792	歌仔	kua-á	小調	different	10		H		
+1793	酒醉	tsiú-tsuì	酒醉	same	02		M		yes
+1794	經	king	經	same	12		H		
+1795	落山	lo̍h-suann	下山	partial	14	14a	H		
+1796	絲	si	絲	same	05		M		
+1797	價值	kè-ta̍t	價值	same	09		H		
+1798	驚惶	kiann-hiânn	害怕	same	13		H		
+1799	原本	guân-pún	本來	same	16		M		
+1800	跳舞	thiàu-bú	跳舞	same	14	14a	M		
+1801	往	óng	往	same	16		H		
+1802	同情	tông-tsîng	同情	same	13		H		
+1803	感	kám	感	same	13		H		
+1804	除	tû	除	same	14	14c	M		
+1805	興	hìng	愛好	same	13		M		
+1806	本成	pún-tsiânn	本來	partial	16		M		
+1807	種種	tsióng-tsióng	各種	same	16		M		
+1808	旗	kî	旗	same	04		H		
+1809	偌	guā	多少	different	16		H		
+1810	共	kiōng	共	same	16		M		
+1811	緣故	iân-kòo	原因	same	?		L	notion abstraite, peu clair	
+1812	竹篙	tik-ko	竹竿	partial	04		H		
+1813	分別	hun-pia̍t	區別	same	14	14d	H		
+1814	電視	tiān-sī	電視	same	10		H		
+1815	尾溜	bué-liu	尾巴	partial	07		M		yes
+1816	節	tsat	節	same	08		M		yes
+1817	大約	tāi-iok	大約	same	16		M		
+1818	相拍	sio-phah	相打	partial	14	14f	H		
+1819	蠓罩	báng-tà	蚊帳	different	04		H		
+1820	鹽	iâm	鹽	same	03		H		
+1821	勞力	lóo-la̍t	謝謝	different	16		M		
+1822	犯	huān	犯	same	11		M		
+1823	孝	hàu	孝	same	01		M		
+1824	忍	jím		same	13		M		
+1825	一點仔	tsi̍t-tiám-á	一些	partial	08		M		
+1826	輸贏	su-iânn	勝負	same	15	moved	M		
+1827	收成	siu-sîng	收成	same	06		M		
+1828	別位	pa̍t-uī	他處	different	07		H		
+1829	唐山	Tn̂g-suann	唐山	same	07		H		
+1830	關心	kuan-sim	關心	same	13		H		
+1831	歡迎	huan-gîng	歡迎	same	14	14f	H		
+1832	貢	kòng	貢	same	?		L	pas de définition fournie	
+1833	鴨仔	ah-á	鴨子	partial	06		H		
+1834	番仔	huan-á	洋人	different	11		M		
+1835	發表	huat-piáu	發表	same	10		H		
+1836	鬼仔	kuí-á	鬼	partial	12		H		
+1837	徛起	khiā-khí	立足	different	14	14a	H		
+1838	矸仔	kan-á	瓶	different	04		H		
+1839	司公	sai-kong	巫婆	different	12		H		
+1840	關	kuan	關	same	07		M		
+1841	久長	kú-tn̂g	長久	partial	08		H		
+1842	迫	pik	逼迫	same	15		H		
+1843	牽成	khan-sîng	栽培	different	14	14f	M		
+1844	紅包	âng-pau	紅包	same	12		H		
+1845	改變	kái-piàn	改變	same	14	14e	H		
+1846	赴	hù	赴	same	14	14a	M		
+1847	閃	siám	閃	same	14	14a	H		
+1848	完成	uân-sîng	完成	same	14	14e	H		
+1849	辭	sî	辭	same	09		M		
+1850	戰爭	tsiàn-tsing	戰爭	same	11		H		
+1851	半路	puànn-lōo	途中	same	07		M		
+1852	田螺	tshân-lê	田螺	same	06		H		
+1853	府城	Hú-siânn	府城	same	07		H		
+1854	思想	su-sióng	想法	same	13		M		
+1855	頁	ia̍h	頁	same	10		H		
+1856	污	u	污	same	15		M		
+1857	形影	hîng-iánn	行蹤	different	?		L	sens peu clair	
+1858	祝福	tsiok-hok	祝賀	same	12		H		
+1859	分	hūn	分	same	?		L	pas de définition fournie	
+1860	健康	kiān-khong	健康	same	02		H		yes
+1861	姑	koo	姑	same	01		H		
+1862	索仔	soh-á	繩子	different	04		H		
+1863	片	phiàn	片	same	?		L	pas de définition fournie	
+1864	棟	tòng	棟	same	04		M		
+1865	乖	kuai	巧	same	13		M		
+1866	世	sè	世	same	08		M		
+1867	准	tsún	准	same	11		M		
+1868	大姊	tuā-tsí	大姊	same	01		H		
+1869	禮拜堂	lé-pài-tn̂g	教堂	partial	12		H		
+1870	番婆	huan-pô	無理取鬧	different	13		M		
+1871	教授	kàu-siū	教授	same	10		H		
+1872	妥當	thò-tòng	一定	same	15		H		
+1873	長工	tn̂g-kang	長工	same	09		H		
+1874	燃	hiânn	燒	same	14	14e	M		
+1875	兌	tuē	兌	same	09		H		
+1876	幼	iù	小	same	15		M		
+1877	萬事	bān-sū	凡事	same	16		M		
+1878	高	ko	高	same	15		H		
+1879	軟	nńg	軟	same	15		H		
+1880	令	līng	令	same	11		M		
+1881	散赤	sàn-tshiah	貧困	different	15		M		
+1882	栽	tsai	種	same-chars-diff-use	14	14g	H		
+1883	好禮	hó-lé	有禮	partial	13		M		
+1884	決心	kuat-sim	決心	same	13		M		
+1885	肚	tōo	心裡	same	02		M		yes
+1886	奇	kî	奇怪	same	15		H		
+1887	豈	khí	豈	same	16		M		
+1888	豬肉	ti-bah	豬肉	same	03		H		
+1889	象	tshiūnn	象	same	06		H		
+1890	人物	jîn-bu̍t	人物	same	01		M		
+1891	條件	tiâu-kiānn	條件	same	?		L	notion abstraite générique	
+1892	重	tîng	層	same	16		M		
+1893	望	bōng	望	same	14	14d	M		
+1894	坵	khu	塊	different	08		H		
+1895	鬱卒	ut-tsut	苦悶	same	13		H		
+1896	海湧	hái-íng	海浪	partial	06		H		
+1897	資料	tsu-liāu	資料	same	10		M		
+1898	檳榔	pin-nn̂g	檳榔	same	06		H		
+1899	鋪	phoo	鋪	same	14	14c	M		
+1900	藏	tsông	藏	same	14	14c	L	no definition; mandarin only	
+1901	鴨卵	ah-nn̄g	鴨蛋	partial	03		H		
+1902	彼爿	hit pîng	那邊	different	16		H		
+1903	雜誌	tsa̍p-tsì	雜誌	same	10		H		
+1904	厄	eh	厄	same	?		L	malheur, catégorie floue	
+1905	拭仔	tshit-á	板擦	different	04		H		
+1906	海邊	hái-pinn	海邊	same	07		H		
+1907	富戶	hù-hōo	有錢人	same	09		M		
+1908	光景	kong-kíng	風景	same	?		L	situation ou paysage	
+1909	平	pênn		same	15		H		
+1910	溫暖	un-luán	暖和	same	15		H		
+1911	樓	lâu	樓	same	04		H		
+1912	迎	ngiâ	迎	same	12		H		
+1913	淚	luī	淚	same	02		M		yes
+1914	大水	tuā-tsuí	水災	partial	06		M		
+1915	鬥相共	tàu-sann-kāng	幫助	different	14	14f	H		
+1916	解說	kái-sueh	解釋	same	10		M		
+1917	放屎	pàng-sái	大便	different	02		H		yes
+1918	地位	tē-uī	地位	same	11		M		
+1919	半暝	puànn-mê	半夜	partial	08		H		
+1920	阿叔	a-tsik	叔叔	partial	01		H		
+1921	目前	bo̍k-tsiân	現在	same	08		M		
+1922	設計	siat-kè	設計	same	14	14g	M		
+1923	穩	ún	在	same	15		H		
+1924	相刣	sio-thâi	廝殺	different	14	14f	H		
+1925	趖	sô	緩慢	different	14	14a	H		
+1926	面頂	bīn-tíng	上面	partial	07		H		
+1927	蠓	báng	蚊子	different	06		H		
+1928	湯	thng	湯	same	03		H		
+1929	餅	piánn	餅	same	03		H		
+1930	分離	hun-lī	分離	same	14	14f	L	no definition; mandarin only	
+1931	珠淚	tsu-luī	眼淚	same	02		M		yes
+1932	西瓜	si-kue	西瓜	same	03		H		
+1933	對待	tuì-thāi	待遇	same	14	14f	M		
+1934	比賽	pí-sài	比賽	same	09	moved	H		
+1935	為難	uî-lân	為難	same	13		M		
+1936	表兄	piáu-hiann	表哥	partial	01		H		
+1937	惡	ok	兇狠	same	13		M		
+1938	眾	tsiòng	眾	same	?		L	pas de définition	
+1939	冤枉	uan-óng	冤枉	same	11		M		
+1940	鏡	kiànn	鏡	same	04		H		
+1941	發達	huat-ta̍t	發達	same	09		M		
+1942	行李	hîng-lí	行李	same	07		M		
+1943	禁	kìm	禁止	same	14	14f	M		
+1944	釣	tiò	釣	same	14	14g	M		
+1945	勇敢	ióng-kám	勇敢	same	13		H		
+1946	么	io	一	same	08		H		
+1947	赤	tshiah	紅	same	15		M		
+1948	查	tshâ	查	same	14	14d	M		
+1949	表現	piáu-hiān	表現	same	14	14b	M		
+1950	配合	phuè-ha̍p	配合	same	14	14f	H		
+1951	工場	kang-tiûnn	工廠	same	09		M		
+1952	獨立	to̍k-li̍p	獨立	same	15		M		
+1953	論文	lūn-bûn	論文	same	10		H		
+1954	作家	tsok-ka	作家	same	10		H		
+1955	拄才	tú-tsiah	剛才	partial	08		H		
+1956	採	tshái	採	same	14	14c	M		
+1957	憂悶	iu-būn	憂愁	same	13		H		
+1958	舌	tsi̍h	舌	same	02		H		yes
+1959	冬天	tang-thinn	冬天	same	08		H		
+1960	土匪	thóo-huí	土匪	same	11		M		
+1961	上山	tsiūnn-suann	爬山	same	14	14a	H		
+1962	報紙	pò-tsuá	報紙	same	10		H		
+1963	燈火	ting-hué	燈光	same	04		H		
+1964	香	hiunn	香	same	12		H		
+1965	平平	pênn-pênn	相同	different	15		M		
+1966	歹人	pháinn-lâng	壞人	partial	01		H		
+1967	李仔	lí-á	李	partial	03		M		
+1968	姊妹	tsí-muē	姐妹	same	01		H		
+1969	倚靠	uá-khò	依靠	same	14	14f	H		
+1970	其他	kî-thann	其他	same	16		H		
+1971	住	tsū	住	same	14	14a	M	no definition; reside	
+1972	齊	tsiâu	齊	same	15		H		
+1973	忝	thiám	嚴重	different	15		L	def 疲累, mandarin 嚴重	
+1974	北爿	pak-pîng	北邊	partial	07		H		
+1975	貧惰	pîn-tuānn	懶惰	partial	13		M		
+1976	泡	phàu	泡	same	03		M		
+1977	蝦	hê	蝦	same	06		H		
+1978	白白	pe̍h-pe̍h	完	same	15		M		
+1979	機器	ki-khì	機器	same	04		M		
+1980	結	kat	結	same	04		M		
+1981	蟲	thâng	蟲	same	06		H		
+1982	債	tsè	債	same	09		H		
+1983	緣投	iân-tâu	英俊	different	05		H		
+1984	朝	tiâu	朝	same	11		M		
+1985	尊重	tsun-tiōng	尊重	same	13		M		
+1986	縫	phāng	漏洞	same	?		L	fente ou brèche	
+1987	點心	tiám-sim	零食	same	03		H		
+1988	專門	tsuan-bûn	專門	same	15		M		
+1989	演講	ián-káng	演講	same	10		H		
+1990	大細	tuā-sè	大小	partial	08		M		
+1991	系統	hē-thóng	系統	same	?		L	notion abstraite	
+1992	立	li̍p	立	same	14	14e	M		
+1993	絚	ân	緊	different	15		H		
+1994	祀	tshāi	祀	same	12		H		
+1995	必	pit	必	same	15		L	def ne colle pas au mandarin	yes
+1997	下港	ē-káng	南部	different	07		H		
+1998	竟然	kìng-jiân	竟然	same	16		H		
+1999	加	ka	加	same	?		L	préfixe nominal	
+2001	溝	kau	溝	same	06		M		
+2002	兒	jî	兒	same	01		M		
+2003	纏	tînn	纏	same	14	14c	M		
+2004	千金	tshian-kim	千金	same	01		H		
+2005	喉	âu	喉	same	02		H		yes
+2006	阿姊	a-tsí	大姊	partial	01		H		
+2007	嘆	thàn	嘆	same	13		M		
+2008	放棄	hòng-khì	放棄	same	14	14e	M		
+2009	裙	kûn	裙	same	05		H		
+2010	上課	siōng-khò	上課	same	10		H		
+2011	該	kai	該	same	16		H		
+2012	宣	suan	宣	same	14	14b	L	no definition; mandarin only	
+2013	辛苦	sin-khóo	難過	same	15		M		
+2014	經營	king-îng	經營	same	14	14g	M		
+2015	根本	kin-pún	本來	same	06		M		
+2016	化	huà	分解	same-chars-diff-use	14	14e	H		
+2017	真珠	tsin-tsu	珍珠	same	05		M		
+2018	袂䆀	bē-bái	不錯	different	15		M		
+2019	但	nā	但	same	16		H		
+2020	聽著	thiann-tio̍h	聽見	partial	14	14b	H		
+2021	緊張	kín-tiunn	緊張	same	13		H		
+2022	挲	so	打	different	14	14c	M		
+2023	巴	pa	巴	same	?		L	pas de définition	
+2024	王梨	ông-lâi	鳳梨	partial	03		H		
+2025	褪	thǹg	脫	same	05		M		
+2026	捷	tsia̍p	捷	same	08		M		
+2027	往過	íng-kuè	以前	different	08		H		
+2028	南爿	lâm-pîng	南邊	partial	07		H		
+2029	規陣	kui-tīn	整群	different	15		M		
+2030	鄉	hiong	鄉	same	07		M		
+2032	大	tāi	大	same	15		H		
+2033	毋知	m̄ tsai	不知	partial	16		M		
+2034	毋驚	m̄ kiann	不怕	different	13		M		
+2035	筆	pit	筆	same	04		H		
+2036	春風	tshun-hong	東風	same	06		H		
+2037	挽茶	bán tê	採茶	partial	14	14g	H		
+2038	快活	khuìnn-ua̍h	快樂	same-chars-diff-use	13		M		
+2039	照實	tsiàu-si̍t	照實	same	16		M		
+2040	看輕	khuànn-khin	輕視	partial	13		M		
+2041	加減	ke-kiám	多少	different	16		H		
+2042	凍	tàng	凍	same	06		M		
+2043	通過	thong-kuè	通過	same	14	14a	H		
+2044	吟	gîm	吟	same	10		M		
+2045	我	ngóo	我	same	16		H		
+2046	病院	pēnn-īnn	醫院	partial	02		M		yes
+2047	郡	kūn	郡	same	11		M		
+2048	喙脣	tshuì-tûn	脣	partial	02		H		yes
+2049	相會	siong-huē	見面	same	14	14f	H		
+2050	冤仇	uan-siû	仇	same	13		M		
+2051	獅	sai	獅	same	06		H		
+2052	冤	uan	吵	same-chars-diff-use	14	14f	M		
+2053	種	tsíng	種	same	06		H		
+2054	孤	koo	孤	same	15		M		
+2055	贊成	tsàn-sîng	同意	same	14	14d	H		
+2056	腰	io	腰	same	02		H		yes
+2057	裝	tsng	裝	same	14	14c	H		
+2058	處理	tshú-lí	結束	same	14	14g	M		
+2059	劍	kiàm	劍	same	04		M		
+2060	好聽	hó-thiann	好聽	same	15		M		
+2061	性	sìng	性	same	?		L	notion abstraite	
+2062	隨便	suî-piān	任何	same	16		M		
+2063	音	im	音	same	10		M		
+2064	黨	tóng	黨	same	11		H		
+2065	世紀	sè-kí	世紀	same	08		H		
+2066	圓仔	înn-á	湯圓	partial	03		H		
+2067	農業	lông-gia̍p	農業	same	09		H		
+2068	宋	Sòng	宋	same	11		M		
+2069	本底	pún-té	本來	partial	16		M		
+2070	性地	sìng-tē	脾氣	different	13		H		
+2071	畚箕	pùn-ki	畚斗	same	04		H		
+2072	扒	pe	扒	same	14	14c	M		
+2073	床	tshn̂g	床	same	04		H		
+2074	延遲	iân-tî	耽誤	same	14	14e	H		
+2075	姨仔	î-á	妻子姊妹	same	01		H		
+2076	光復	kong-ho̍k	光復	same	11		M		
+2077	問題	būn-tê/būn-tuê	問題	same	10		M		
+2078	由來	iû-lâi	向來	same	16		M		
+2079	鎮	tìn	鎮	same	07		H		
+2080	粟	tshik	稻穀	same	06		M		
+2081	桶	tháng	桶	same	04		H		
+2082	菜瓜	tshài-kue	絲瓜	partial	03		H		
+2083	西北雨	sai-pak-hōo	西北雨	same	06		H		
+2084	呼	hoo	呼	same	14	14b	M		
+2085	吵	tshá	吵	same	14	14f	H		
+2086	囡仔人	gín-á-lâng	小孩	different	01		H		
+2087	扒	pê	抓	same-chars-diff-use	14	14c	M		
+2088	欣賞	him-sióng	欣賞	same	13		M		
+2089	承認	sîng-jīn	承認	same	14	14b	M		
+2090	韭菜	kú-tshài	韭菜	same	03		H		
+2091	阿娘	a-niâ	媽媽	different	01		H		
+2092	各樣	koh-iūnn	各樣	same	15		M		
+2093	基礎	ki-tshóo	基礎	same	?		L	notion abstraite	
+2094	稱呼	tshing-hoo	稱呼	same	10		M		
+2095	啥款	siánn-khuán	怎麼樣	different	16		H		
+2096	歹囝	pháinn-kiánn	小混混	different	01		M		
+2097	陷	hām	陷	same	14	14a	M		
+2098	人參	jîn-sim	人參	same	06		M		
+2099	暢	thiòng	快樂	different	13		H		
+2100	出手	tshut-tshiú	動手	same	14	14f	M		
+2101	計智	kè-tì	策略	different	11	moved	M		
+2102	後悔	hiō-hué	後悔	same	13		H		
+2103	及	ki̍p	及	same	16		M		
+2104	懷念	huâi-liām	懷念	same	13		H		
+2105	擔當	tam-tng	擔當	same	13		M		
+2106	盡忠	tsīn-tiong	盡忠	same	13		M		
+2107	喘	tshuán	喘	same	02		M		yes
+2108	移	î	移	same	14	14a	L	def vide, déduit du mandarin	
+2109	欲	io̍k	欲	same	16		M		
+2110	雞公	ke-kang	公雞	partial	06		H		
+2111	遮	jia		same	14	14c	M		
+2112	硬	ngē		same	15		H		
+2113	蜂	phang	蜂	same	06		H		
+2114	盡量	tsīn-liōng	盡量	same	16		M		
+2115	靜	tsīng	靜	same	15		H		
+2116	獨	to̍k	獨	same	15		M		
+2117	拋	pha	拋	same	14	14c	M		
+2118	提	thê	提	same	14	14b	M		
+2119	談	tâm	談	same	14	14b	H		
+2120	澹	tâm	溼	different	15		H		
+2121	阿嫂	a-só	嫂子	partial	01		H		
+2122	反對	huán-tuì	反對	same	14	14d	M		
+2123	亂操操	luān-tshau-tshau	亂	partial	15		H		
+2124	毋捌	m̄ bat	不曾	different	16		H		
+2125	藥仔	io̍h-á	藥	partial	02		H		yes
+2126	莫怪	bo̍k-kuài	怪不得	partial	16		H		
+2127	瘦	sán	瘦	same	02		M		yes
+2128	命	bīng	命	same	11		M		
+2129	山	san	山	same	06		H		
+2130	急	kip	急	same	13		M		
+2131	早前	tsá-tsîng	以前	partial	08		H		
+2132	地動	tē-tāng	地震	partial	06		H		
+2133	祖公	tsóo-kong	祖先	partial	01		H		
+2134	樓頂	lâu-tíng	樓上	partial	07		H		
+2135	成績	sîng-tsik	成績	same	10		H		
+2136	怎	tsuánn	怎	same	16		H		
+2137	消失	siau-sit	去世	same	14	14e	H		
+2138	監獄	kann-ga̍k	監獄	same	11		H		
+2139	付	hù	付	same	09		H		
+2140	剉	tshò	打	different	14	14c	M		
+2141	蘇	soo	蘇	same	?		L	pas de définition	
+2142	表	piáu	表	same	?		L	sens : surface ou extérieur	
+2143	男子	lâm-tsú	男人	same	01		H		
+2144	幅	pak	幅	same	08		H		
+2145	下底	ē-té	下面	partial	07		H		
+2146	龍	liông	龍	same	?		L	renvoi, pas de définition	
+2147	偕	kai	偕	same	16		M		
+2148	利	lāi	利	same	15		M		
+2149	大箍	tuā-khoo	胖	different	05		M		
+2150	力量	li̍k-liōng	力氣	same	02		M		yes
+2151	過頭	kuè-thâu	稱	same	15		H		
+2152	慢慢仔	bān-bān-á	慢慢	partial	16		M		
+2153	練	liān	練	same	10		M		
+2154	南部	lâm-pōo	南部	same	07		H		
+2155	鑿	tsha̍k	刺	same	14	14c	M		
+2156	捻	liàm	摘	different	14	14c	H		
+2157	患者	huān-tsiá	病人	same	02		H		yes
+2158	梅	muî	梅	same	06		H		
+2159	詞	sû	詞	same	10		H		
+2160	員	uân	員	same	08		M		
+2161	雙爿	siang-pîng	兩邊	different	07		M		
+2162	下晝	ē-tàu	下午	partial	08		H		
+2163	車頭	tshia-thâu	車站	partial	07		H		
+2164	用心	iōng-sim	用心	same	13		M		
+2165	牡丹	bóo-tan	牡丹	same	06		H		
+2166	心神	sim-sîn	精神	partial	13		H		
+2167	意見	ì-kiàn	辦法	same	13		M		
+2168	沉重	tîm-tāng	沉重	same	15		M		
+2169	尼姑	nî-koo	尼姑	same	12		H		
+2170	珠	tsu	珠	same	05		M		
+2171	雞母	ke-bó	母雞	partial	06		H		
+2172	下課	hā-khò	下課	same	10		H		
+2173	便當	piān-tong	便當	same	03		H		
+2174	良心	liông-sim	良心	same	13		H		
+2175	廖	liāu	廖	same	01		H		
+2176	介紹	kài-siāu	介紹	same	14	14f	H		
+2177	解決	kái-kuat	結束	same	14	14e	M		
+2178	依	i	依	same	16		M		
+2179	江	kang	江	same	06		H		
+2180	護士	hōo-sū	護士	same	02		H		yes
+2181	民間	bîn-kan	民間	same	11		H		
+2182	潘	phuann	潘	same	01		H		
+2183	譬喻	phì-jū	例如	same	10		M		
+2184	張持	tiunn-tî	小心	different	13		M		
+2185	噯	aih	哎	different	16		H		
+2186	主任	tsú-jīm	主任	same	09		H		
+2187	火金蛄	hué-kim-koo	螢火蟲	partial	06		H		
+2188	嘐潲	hau-siâu	吹牛	different	13		M		
+2189	非	hui	非	same	16		L	sens négation ou faute	
+2190	便所	piān-sóo	廁所	partial	04		H		
+2191	封	hong	封	same	14	14c	H		
+2192	會社	huē-siā	公司	same	09		H		
+2193	許	khóo	許	same	16		L	permettre ou approximatif	
+2194	掃	sàu	掃	same	04		M		
+2195	假使	ká-sú	如果	same	16		H		
+2196	古蹟	kóo-tsik	古蹟	same	07		M		
+2197	芳味	phang-bī	香味	partial	15		M		
+2198	類	luī	類	same	16		L	nom générique de catégorie	
+2199	建設	kiàn-siat	建設	same	14	14g	H		
+2200	舞	bú	變	same	12	moved	M		
+2201	悽慘	tshi-tshám	不幸	same	13		M		
+2202	時機	sî-ki	機會	same	08		M		
+2203	結束	kiat-sok	結束	same	14	14e	H		
+2204	藝術	gē-su̍t	藝術	same	10		H		
+2205	原	guân	原	same	15		L	original ou plaine	
+2206	溪仔	khe-á	溪	partial	06		H		
+2207	字母	jī-bú	字母	same	10		H		
+2208	客人	Kheh-lâng	客家人	same-chars-diff-use	11		H		
+2209	電腦	tiān-náu	電腦	same	04		M		
+2210	損	sńg	損	same	14	14e	M		
+2211	甲	kap	甲	same	?		L	sens trop incertain	
+2212	引𤆬	ín-tshuā	引導	partial	14	14f	M		
+2213	心事	sim-sū	心事	same	13		H		
+2214	好話	hó-uē	吉祥話	same	10		M		
+2215	耳	hīnn		n/a	02		H		yes
+2216	目尾	ba̍k-bué	眼神	different	02		H		yes
+2217	好好仔	hó-hó-á	好好	partial	16		M		
+2218	情理	tsîng-lí	道理	same	11		M		
+2219	淺	tshián	淺	same	15		H		
+2220	錯誤	tshò-gōo	錯誤	same	15		M		
+2221	河	hô	河	same	06		H		
+2222	切	tshiat	破	same	14	14c	H		
+2223	舊年	kū-nî	去年	partial	08		H		
+2224	安全	an-tsuân	安全	same	15		H		
+2225	身軀邊	sin-khu-pinn	身上	partial	07		M		
+2226	過日	kuè-ji̍t	過日	same	08		M		
+2227	竹	tik	竹子	same	06		H		
+2228	悲	pi	悲	same	13		H		
+2229	荔枝	nāi-tsi	荔枝	same	03		H		
+2230	鱸鰻	lôo-muâ	流氓	different	06		M		
+2231	毛	mn̂g	毛	same	02		H		yes
+2232	引起	ín-khí	引起	same	14	14e	H		
+2233	米粉	bí-hún	米粉	same	03		H		
+2234	變化	piàn-huà	變化	same	14	14e	H		
+2235	榮	îng	榮	same	11		L	gloire ou prospérité	
+2236	占	tsiàm	占	same	14	14c	M		
+2237	北部	pak-pōo	北部	same	07		H		
+2238	虛華	hi-hua	不切實際	same	13		M		
+2239	調	tiāu	調	same	10		M		
+2240	面頭前	bīn-thâu-tsîng	前面	partial	07		H		
+2241	佇咧	tī-leh	在	different	16		H		
+2242	斡	uat	轉	different	14	14a	H		
+2243	反應	huán-ìng	反應	same	14	14e	M		
+2244	甕	àng	罈	same	04		H		
+2245	奶	ling		same	02		H		yes
+2246	插	tshap	管	same-chars-diff-use	14	14f	M		
+2247	盜	tō	盜	same	11		H		
+2248	鴛鴦	uan-iunn	鴛鴦	same	06		H		
+2249	開錢	khai-tsînn	花錢	partial	09		H		
+2250	風流	hong-liû	風流	same	13		M		
+2251	跋倒	pua̍h-tó	摔倒	partial	14	14a	H		
+2252	自在	tsū-tsāi	自由	same	15		H		
+2253	借問	tsioh-mn̄g	請問	partial	16		M		
+2254	接	tsih	接	same	09		M		
+2255	起厝	khí-tshù	造房子	different	04		M		
+2256	目鏡	ba̍k-kiànn	眼鏡	partial	05		H		
+2257	桌仔	toh-á	桌子	partial	04		H		
+2258	致蔭	tì-ìm	庇蔭	partial	11		M		
+2259	堅持	kian-tshî	堅持	same	13		H		
+2260	處	tshù	處	same	07		L	lieu ou traiter	
+2261	校長	hāu-tiúnn	校長	same	10		H		
+2262	海口	hái-kháu	海口	same	07		H		
+2263	感激	kám-kik	謝謝	same	13		H		
+2264	耳空	hīnn-khang	耳朵	partial	02		H		yes
+2265	少年人	siàu-liân-lâng	年輕人	partial	01		H		
+2266	臭頭	tshàu-thâu	狗血淋頭	partial	02		M		yes
+2267	鹿仔	lo̍k-á	小鹿	partial	06		H		
+2268	慢且	bān-tshiánn	暫停	different	08		M		
+2269	正式	tsìng-sik	正式	same	15		H		
+2270	擔水	tann-tsuí	挑水	partial	04		M		
+2271	喂	uê	喂	same	16		H		
+2272	下跤	ē-kha	下面	partial	07		H		
+2273	梟	hiau	梟	same	06		L	hibou ou tyran	
+2274	相辭	sio-sî	告辭	partial	14	14b	M		
+2275	目眉	ba̍k-bâi	眉毛	partial	02		H		yes
+2276	身屍	sin-si	屍體	partial	02		M		yes
+2277	不得已	put-tik-í	不得已	same	15		M		
+2278	老實	láu-si̍t	老實	same	13		H		
+2279	逐工	ta̍k-kang	每天	different	08		H		
+2280	磅空	pōng-khang	隧道	different	07		H		
+2281	官廳	kuann-thiann	官方	partial	11		H		
+2282	正手	tsiànn-tshiú	右手	partial	02		H		yes
+2283	冰	ping	冷	same	06		H		
+2284	渡	tōo	渡	same	07		M		
+2285	丁	ting	男子	same	08		L	天干 ou homme	
+2286	市	tshī	市	same	07		H		
+2287	斬	tsám	斬	same	14	14c	M		
+2288	胸坎	hing-khám	胸部	partial	02		H		yes
+2289	洗衫	sé-sann	洗衣服	partial	04		M		
+2290	信徒	sìn-tôo	學生	same	12		M		
+2291	成立	sîng-li̍p	成立	same	14	14e	M		
+2292	蝶仔	ia̍h-á	蝴蝶	partial	06		H		
+2293	反	píng	反	same	14	14c	M		
+2294	幌	hàinn	晃	different	14	14a	M		
+2295	爐	lôo	爐	same	04		H		
+2296	勼	kiu	縮	different	14	14e	M		
+2297	提起	thê-khí	拿出	same	14	14b	H		
+2298	備	pī	備	same	14	14g	M		
+2299	操煩	tshau-huân	擔心	different	13		H		
+2300	做陣	tsò-tīn	一塊兒	different	16		M		
+2301	寶	pó	寶	same	15		M		
+2302	喜	hí	喜	same	13		H		
+2303	鬧	nāu	鬧	same	14	14b	M		
+2304	初一	tshe-it	初一	same	08		H		
+2305	朱	tsu	朱	same	15		M		
+2306	繡	siù	繡	same	05		M		
+2307	眠	bîn	眠	same	02		M		yes
+2308	喘氣	tshuán-khuì	放假	same-chars-diff-use	02		M		yes
+2309	餓	gō	餓	same	02		H		yes
+2310	破病	phuà-pēnn	生病	partial	02		H		yes
+2311	灶	tsàu	灶	same	04		H		
+2312	聖旨	sìng-tsí	聖旨	same	11		H		
+2313	捲	kńg	捲	same	14	14c	H		
+2314	觀念	kuan-liām	觀念	same	13		M		
+2315	規氣	kui-khì	乾脆	different	13		M		
+2316	地理師	tē-lí-su	地理先生	same	12		M		
+2317	偝	āinn	背	different	14	14c	M		
+2318	月	gua̍t	月	same	06		H		
+2319	電火	tiān-hué	電燈	partial	04		H		
+2320	城市	siânn-tshī	城市	same	07		H		
+2321	暝日	mê-ji̍t	日夜	partial	08		H		
+2322	毋值	m̄-ta̍t	不如	different	15		M		
+2323	堅定	kian-tīng	堅定	same	13		H		
+2324	粉	hún	粉	same	04		M		
+2325	鳳	hōng	鳳	same	06		M		
+2326	靈	lîng	靈	same	12		H		
+2327	理解	lí-kái	明白	same	13		M		
+2328	鉛筆	iân-pit	鉛筆	same	10		M		
+2329	禮數	lé-sòo	禮貌	same	12		M		
+2330	終身	tsiong-sin	終身	same	08		M		
+2331	幫助	pang-tsōo	幫助	same	14	14f	H		
+2332	症頭	tsìng-thâu	病症	partial	02		H		yes
+2333	良	liông	良	same	15		M		
+2334	險險	hiám-hiám	險些	partial	16		M		
+2335	戰	tsiàn	戰	same	11		M		
+2336	海底	hái-té	海底	same	06		H		
+2337	大某	tuā-bóo	正室	different	01		H		
+2338	幫忙	pang-bâng	幫助	same	14	14f	H		
+2339	做工	tsò-kang	工作	same	09		H		
+2340	五	ngóo	五	same	08		H		
+2341	到	tò	到	same	16		L	arriver ou préposition	
+2342	律	lu̍t	規則	same	11		H		
+2343	聖	siànn	聖	same	12		H		
+2344	到今	kàu-tann	如今	partial	08		H		
+2345	報告	pò-kò	報告	same	09		M		
+2346	糞埽	pùn-sò	垃圾	different	04		H		
+2347	太監	thài-kàm	太監	same	11		M		
+2348	因端	in-tuann	原因	partial	16	moved	M		
+2349	伯	peh	伯	same	01		H		
+2350	擘	peh	剝	different	14	14c	H		
+2351	頷頸	ām-kún	脖子	different	02		H		yes
+2352	搝	khiú	拉	different	14	14c	H		
+2353	跍	khû	蹲	different	14	14a	H		
+2354	爁	nah		n/a	14	14h	M		yes
+2355	後日	āu--ji̍t		n/a	08		H		
+2357	昨昏	tsa-hng	昨天	partial	08		H		
+2358	食老	tsia̍h-lāu	老年	partial	01		M		
+2359	小心	sió-sim	小心	same	13		M		
+2360	兔	thòo	兔	same	06		H		
+2361	典	tián	典	same	10		M		
+2362	傷害	siong-hāi	傷害	same	14	14e	H		
+2363	漢	hàn	漢	same	02		M		yes
+2364	觀音	Kuan-im	觀世音菩薩	same	12		H		
+2365	生產	sing-sán	生產	same	02		M		yes
+2366	燒香	sio-hiunn	燒香	same	12		H		
+2367	服務	ho̍k-bū	上班	same	09		H		
+2368	拐	kuái	騙	same	11		M		
+2369	圓圓	înn-înn	圓圓的	partial	15		H		
+2370	示	sī	示	same	14	14b	M		
+2371	幫	pang	幫	same	11		M		
+2372	一屑仔	tsi̍t-sut-á	一點兒	partial	08		H		
+2373	同	tâng	同	same	16		L	même ou ensemble	
+2374	方向	hong-hiòng	方向	same	07		H		
+2375	施	si	施	same	14	14g	M		
+2376	組織	tsoo-tsit	組織	same	11		H		
+2377	證明	tsìng-bîng	證明	same	14	14d	M		
+2378	心肝頭	sim-kuann-thâu	心中	partial	13		M		
+2379	演	ián	演	same	10		M		
+2380	公里	kong-lí	公里	same	08		H		
+2381	勻勻仔	ûn-ûn-á	慢慢	different	16		M		
+2382	膨風	phòng-hong	吹牛	different	13		L	ballonnement ou vantardise	yes
+2383	致使	tì-sú	致使	same	16		M		
+2384	袂得	bē-tit	無法	different	16		H		
+2385	氣	khuì	氣	same	02		H		yes
+2386	俗語	sio̍k-gí	俗語	same	10		H		
+2387	揬	tu̍h	刺	different	14	14c	H		
+2388	手頭	tshiú-thâu	手頭	same	09		H		
+2389	枉費	óng-huì	白費	same	14	14e	M		
+2390	月日	gue̍h-ji̍t	一個月	partial	08		H		
+2391	紅柿	âng-khī	柿子	partial	03		H		
+2392	與	ú	與	same	16		H		
+2393	疑	gî	疑	same	13		H		
+2394	亡	bông	死	same	02		M		yes
+2395	習慣	si̍p-kuàn	習慣	same	14	14d	M		
+2396	衝	tshiong	衝	same	14	14a	H		
+2397	手骨	tshiú-kut	上肢胳臂	same	02		H		yes
+2398	菜店	tshài-tiàm	酒店	partial	03		M		
+2399	大厝	tuā-tshù	棺材	different	04		M		
+2400	稱	tshing	稱	same	08		M		
+2401	傷重	siong-tiōng	花費昂貴	different	09		M		
+2402	卦	kuà	卦	same	12		M		
+2403	險	hiám	險	same	15		H		
+2404	使	sú	讓	same	16		M		
+2405	左右	tsó-iū	上下	same	16		M		
+2406	蝦仔	hê-á	蝦	partial	06		H		
+2407	勝	sìng	勝	same	14	14e	M		
+2408	賞賜	siúnn-sù	賞賜	same	14	14c	M		
+2409	獨獨	to̍k-to̍k	只有	different	16		H		
+2410	流行	liû-hîng	流行	same	11		M		
+2411	阻擋	tsóo-tòng	阻止	same-chars-diff-use	14	14f	M		
+2412	山賊	suann-tsha̍t	山賊	same	11		H		
+2413	外媽	guā-má	外婆	partial	01		H		
+2414	當中	tang-tiong	當中	same	07		M		
+2415	火炭	hué-thuànn	木炭	partial	04		M		
+2416	株	tu	株	same	08		M		
+2417	掣	tshuah	怕	different	14	14c	H		
+2418	夥計	hué-kì	姘婦	same	09		M		
+2419	血	hiat	血	same	02		H		yes
+2420	唸歌	liām-kua	唸歌	same	14	14b	M		
+2421	拍歹	phah-pháinn	損壞	different	14	14e	M		
+2422	早日	tsá-ji̍t	以前	same-chars-diff-use	08		H		
+2423	彈	tuânn	彈	same	14	14f	M		
+2424	散	suànn	結束	same	14	14a	M		
+2425	好天	hó-thinn	好天	same	06		H		
+2426	奉	hōng	奉	same	?		L	def_moe vide	
+2427	帶念	tài-liām	顧念	partial	13		M		
+2428	勇健	ióng-kiānn	健朗	partial	02		H		yes
+2429	麵	mī	麵	same	03		H		
+2430	利	lī		same	?		L	def et mandarin vides	
+2431	層	tsàn	層	same	08		H		
+2432	埕	tiânn	院子	same	04		M		
+2433	子弟	tsú-tē	子弟	same	01		H		
+2434	無去	bô--khì	去世	partial	14	14e	H		
+2436	親人	tshin-lâng	親人	same	01		H		
+2437	致意	tì-ì	全心全意	same	14	14f	M		
+2438	人民	jîn-bîn	人民	same	11		H		
+2439	三更	sann-kenn	三更	same	08		H		
+2440	粧	tsng	粧	same	05		M		
+2441	興趣	hìng-tshù	興趣	same	13		H		
+2442	刺	tshì	刺	same	06		M		
+2443	笑咍咍	tshiò-hai-hai	哈哈笑	partial	13		M		
+2444	學堂	o̍h-tn̂g	學校	same	10		H		
+2445	淹	im	淹	same	14	14e	M		
+2446	黏	liâm	黏	same	14	14c	H		
+2447	價	kè	價	same	09		H		
+2448	唚	tsim	接吻	different	14	14f	H		
+2449	黃金	n̂g-kim	黃金	same	09		M		
+2450	特色	ti̍k-sik	特色	same	15		H		
+2451	沓沓仔	ta̍uh-ta̍uh-á	慢慢	different	16		M		
+2452	姑婆	koo-pô	姑婆	same	01		H		
+2453	比並	pí-phīng	比較	partial	14	14d	H		
+2454	喙瀾	tshuì-nuā	口水	different	02		H		yes
+2455	作者	tsok-tsiá	作者	same	10		H		
+2456	生囝	senn-kiánn	生產	partial	02		M		yes
+2457	丸仔	uân-á	丸	partial	03		M		
+2458	原仔	uân-á		n/a	?		L	def et mandarin vides	
+2459	言語	giân-gí	言語	same	10		H		
+2460	日後	ji̍t-āu	以後	same	08		H		
+2461	失戀	sit-luân	失戀	same	13		M		
+2462	心意	sim-ì	想法	same	13		H		
+2463	薄	po̍h	薄	same	15		H		
+2464	八字	peh-jī	八字	same	12		H		
+2465	一路	tsi̍t-lōo	路上	same	07		H		
+2466	本錢	pún-tsînn	本錢	same	09		H		
+2467	伸手	tshun-tshiú	伸手	same	14	14c	M		
+2468	罩	tà	蓋	same	04		H		
+2469	時行	sî-kiânn	流行	partial	15		H		
+2470	百萬	pah-bān	百萬	same	08		H		
+2471	會記得	ē-kì--tit	記得	partial	13		M		
+2472	韓	hân	韓	same	07		M		
+2473	豬哥	ti-ko	好色	different	06		M		
+2474	清水	tshing-tsuí	清水	same	06		H		
+2475	勢	sè	勢	same	06		M		
+2476	崩	pang	崩	same	14	14e	H		
+2477	輪	lûn	輪流	same-chars-diff-use	14	14f	M		
+2478	染	jiám		same	14	14e	M		
+2479	家後	ke-āu	妻子	different	01		H		
+2480	鴨母	ah-bó	母鴨	partial	06		H		
+2481	妝	tsng	妝	same	05		H		
+2482	信心	sìn-sim	信心	same	13		H		
+2483	茶甌	tê-au	茶杯	partial	04		H		
+2484	茄	kiô	茄子	partial	03		H		
+2485	道德	tō-tik	道德	same	11		M		
+2486	科學	kho-ha̍k	科學	same	10		H		
+2487	豐富	hong-hù	豐富	same	15		H		
+2488	提供	thê-kiong	提供	same	14	14c	H		
+2489	原在	guân-tsāi	仍然	different	16		M		
+2490	程度	thîng-tōo	水平	same	15		M		
+2491	例	lē	例	same	10		M		
+2492	地	tè	地	same	?		L	def et mandarin vides	
+2493	鱉	pih	甲魚	same	06		H		
+2494	街仔	ke-á	街	partial	07		H		
+2495	階段	kai-tuānn	程度	same	08		M		
+2496	豆仔	tāu-á	豆子	partial	03		H		
+2497	重視	tiōng-sī	重視	same	13		M		
+2498	老歲仔	lāu-huè-á	老人	partial	01		H		
+2499	喙焦	tshuì-ta	口渴	different	02		H		yes
+2500	浪子	lōng-tsú	浪子	same	13		M		
+2501	君子	kun-tsú	君子	same	13		M		
+2502	沙	sua	沙	same	06		H		
+2503	蝴蝶	ôo-tia̍p	蝴蝶	same	06		H		
+2504	幕	bōo	幕	same	04		M		
+2505	阻礙	tsóo-gāi	阻礙	same	14	14f	M		
+2506	才情	tsâi-tsîng	才能	partial	13		M		
+2507	萬項	bān-hāng	凡事	different	08		M		
+2508	雙頭	siang-thâu	兩端	different	07		M		
+2509	奸臣	kan-sîn	小人	same	11		H		
+2510	結局	kiat-kio̍k	結果	same	15	moved	H		
+2511	桃仔	thô-á	桃	partial	03		H		
+2512	間	kan	間	same	16		M		
+2513	今	kim	今	same	?		L	def et mandarin vides	
+2514	流	liû	流	same	15		M		
+2515	公家	kong-ke	公家	same	11		M		
+2516	位置	uī-tì	位置	same	07		H		
+2517	冬瓜	tang-kue	冬瓜	same	03		H		
+2518	懷疑	huâi-gî	懷疑	same	13		H		
+2519	山頭	suann-thâu	山頂	partial	06		H		
+2520	方便	hong-piān	方便	same	15		H		
+2521	罐	kuàn	瓶	same	04		H		
+2522	羞	siu	羞	same	?		L	def et mandarin vides	
+2523	陰間	im-kan	陰間	same	12		H		
+2524	梳	se	梳子	same	05		H		
+2525	煙	ian	煙	same	06		M		
+2526	鑽	tsǹg	鑽	same	14	14c	H		
+2527	創治	tshòng-tī	欺負	different	14	14f	M		
+2528	追求	tui-kiû	追求	same	14	14d	M		
+2529	州	tsiu	州	same	07		M		
+2530	母親	bú-tshin	媽媽	same	01		H		
+2531	爽	sóng	快樂	same	13		H		
+2532	享受	hiáng-siū	享受	same	13		M		
+2533	婆	pô	婆	same	01		H		
+2534	含	kâm	含	same	14	14c	H		
+2535	倒去	tò--khì	回去	partial	07		M		
+2536	禍	hō	禍	same	15	moved	M		
+2537	賀	hō	賀	same	?		L	def et mandarin vides	
+2538	胡蠅	hôo-sîn	蒼蠅	partial	06		H		
+2539	一寡仔	tsi̍t-kuá-á	一點兒	partial	08		M		
+2540	教學	kàu-ha̍k	教學	same	10		H		
+2541	同時	tông-sî	同時	same	08		H		
+2542	大氣	tuā-khuì	大口呼吸	same-chars-diff-use	02		M		yes
+2543	赦免	sià-bián	赦免	same	11		H		
+2544	之間	tsi-kan	之間	same	?		L	def et mandarin vides	
+2545	閻羅王	Giâm-lô-ông	閻君	same	12		H		
+2546	觀光	kuan-kong	觀光	same	07		H		
+2547	鸚哥	ing-ko	鸚哥	same	06		H		
+2548	心酸	sim-sng	傷心	same	13		H		
+2549	查某囡仔	tsa-bóo gín-á	女孩子	different	01		H		
+2550	拍破	phah-phuà	打破	partial	14	14e	M		
+2551	抐	lā	攪	different	14	14g	M		
+2552	電影	tiān-iánn	電影	same	10		H		
+2553	明知	bîng-tsai	明知	same	13		M		
+2554	殺	sat	切	same	14	14f	M		
+2555	時鐘	sî-tsing	鐘	same	04		H		
+2556	答應	tah-ìng	允許	same	14	14b	M		
+2557	亦	i̍k	也	same-chars-diff-use	16		H		
+2558	消	siau	分解	same	14	14e	M		
+2559	待	thāi	等	same	14	14f	H		
+2560	手指	tshiú-tsí	戒指	same-chars-diff-use	05		H		
+2561	原諒	guân-liōng	原諒	same	13		H		
+2562	市場	tshī-tiûnn	市場	same	07		H		
+2563	潑	phuah	潑	same	14	14c	M		
+2564	連鞭	liâm-mi	馬上	different	08		H		
+2565	繳	kiáu	繳	same	09		H		
+2566	豬仔	ti-á	豬	partial	06		H		
+2567	響	hiáng	響	same	15		M		
+2568	修	siu	修	same	14	14g	H		
+2569	明年	mê-nî	明年	same	08		H		
+2570	窗仔門	thang-á-mn̂g	窗戶	partial	04		H		
+2571	相片	siòng-phìnn	照片	same	10		M		
+2572	囉	lô	囉	same	?		L	def et mandarin vides	
+2573	胎	the	胎	same	02		M		yes
+2574	偷食	thau tsia̍h	偷吃	partial	14	14h	M		yes
+2575	美	bí	好	same	15		H		
+2576	豆	tāu	豆子	same	03		H		
+2577	陸	la̍k	陸	same	?		L	def et mandarin vides	
+2578	食菜	tsia̍h-tshài	素食	partial	03		H		
+2579	啄	tok	啄	same	14	14c	M		
+2580	空	khong	空	same	?		L	def et mandarin vides	
+2581	出入	tshut-ji̍p	出入	same	14	14a	H		
+2582	對重	tuì-tiōng	重要	partial	13		M		
+2583	現此時	hiān-tshú-sî	現在	partial	08		H		
+2584	皮膚	phuê-hu	皮膚	same	02		H		yes
+2585	實際	si̍t-tsè	實際	same	15		M		
+2586	植物	si̍t-bu̍t	植物	same	06		H		
+2587	虎姑婆	Hóo-koo-pô	虎姑婆	same	12		M		
+2588	毋願	m̄-guān	不甘心	different	13		H		
+2589	政策	tsìng-tshik	政策	same	11		H		
+2590	爍	sih	閃	different	14	14e	M		
+2591	遮的	tsia--ê	這些	different	16		H		
+2592	相送	sio-sàng	送行	partial	14	14f	H		
+2593	干焦	kan-na	只有	different	16		H		
+2594	海風	hái-hong	海風	same	06		H		
+2595	彭	phênn		n/a	?		L	def et mandarin vides	
+2596	蜜	bi̍t	蜂蜜	same	03		H		
+2597	對頭	tuì-thâu	冤家	same	13		M		
+2598	苦勸	khóo-khǹg	苦諫	same	14	14b	H		
+2599	犁	lê	犁	same	04		H		
+2600	嚴重	giâm-tiōng	嚴重	same	15		H		
+2601	致	tì	到	same	02		M		yes
+2602	模樣	bôo-iūnn	模樣	same	05		M		
+2603	悶	būn	悶	same	?		L	def et mandarin vides	
+2604	絕	tsua̍t	絕	same	14	14e	M		
+2605	煩	huân	煩	same	13		H		
+2606	倒手	tò-tshiú	左手	partial	02		H		yes
+2607	超過	tshiau-kuè	超過	same	14	14e	M		
+2608	射	siā	彈	same	14	14c	H		
+2609	刑	hîng	刑	same	11		H		
+2610	秤	tshìn	量	same	08		H		
+2611	心理	sim-lí	心理	same	13		H		
+2612	增加	tsing-ka	增加	same	14	14e	H		
+2613	出在	tshut-tsāi	隨	different	16		H		
+2614	頭尾	thâu-bué	前後	same	08	moved	M		
+2615	大腹肚	tuā-pak-tóo	懷孕	different	02		H		yes
+2616	落車	lo̍h-tshia	下車	partial	07		H		
+2617	匏仔	pû-á	匏瓜	partial	03		H		
+2618	號名	hō-miâ	命名	partial	14	14b	M		
+2619	製造	tsè-tsō	製造	same	14	14g	H		
+2620	蓮霧	lián-bū	蓮霧	same	03		H		
+2621	講古	kóng-kóo	說故事	different	10		H		
+2622	年紀	nî-kí	年齡	same	08		H		
+2623	按算	àn-sǹg	打算	partial	14	14d	M		
+2624	搧	siàn	打	same	14	14f	M		
+2625	笑詼	tshiò-khue	笑話	partial	13		M		
+2626	葉仔	hio̍h-á	葉子	partial	06		H		
+2627	辛勞	sin-lô	雇員	different	09		M		
+2628	原則	guân-tsik	原則	same	11		M		
+2629	錢	tshiân	錢	same	09		H		
+2630	丸	uân	丸	same	04		L	objet générique	
+2631	大官	ta-kuann	公公	different	01		H		
+2632	牲醴	sing-lé	三牲	same	12		H		
+2633	青盲	tshenn-mê	失明	different	02		H		yes
+2634	通人	thong-lâng	大家	different	16		M		
+2635	少爺	siàu-iâ	少主	same	01		H		
+2636	世事	sè-sū	世事	same	11	moved	M		
+2637	地形	tē-hîng	地形	same	06		H		
+2638	浸	tsìm	浸	same	14	14c	H		
+2639	衛生	uē-sing	衛生	same	02		H		yes
+2640	草埔	tsháu-poo	草地	partial	06		H		
+2641	強欲	kiōng-beh	幾乎	different	16		H		
+2642	單	tuann	單	same	15		H		
+2643	客氣	kheh-khì	客氣	same	13		H		
+2644	父	hū	爸	same	01		H		
+2645	積	tsik	存	same	09		M		
+2646	受苦	siū-khóo	吃苦	same	13		M		
+2647	哺	pōo	咀嚼	different	02		M		yes
+2648	任	jīm		same	09		H		
+2649	打	tánn	打	same	08		H		
+2650	地區	tē-khu/tuē-khu	地區	same	07		H		
+2651	畢業	pit-gia̍p	畢業	same	10		M		
+2652	值得	ta̍t-tit	值得	same	15		M		
+2653	刺	tshiah	兇	same	15		M		
+2654	公媽	kong-má	祖先	different	12		H		
+2655	觸	tak	牴	different	14	14f	M		
+2656	欣羨	him-siān	羨慕	same	13		H		
+2657	牢	tiâu	牢靠	same-chars-diff-use	06		M		
+2658	一面	tsi̍t-bīn	一邊	same	08		M		
+2659	牛奶	gû-ling	牛奶	same	03		H		
+2660	盛	sīng	盛	same	15		M		
+2661	回答	huê-tap	回答	same	14	14b	H		
+2662	跡	jiah		n/a	?		L	trace, pas de domaine net	
+2663	摒	piànn	打掃	different	04		H		
+2664	紅龜	âng-ku	紅龜	same	03		H		
+2665	記號	kì-hō	記號	same	10		M		
+2666	學	ha̍k	學	same	10		H		
+2667	敨	tháu	打開	different	14	14c	H		
+2668	大眾	tāi-tsiòng	大眾	same	11		M		
+2669	娘嬭	niû-lé	媽媽	different	01		H		
+2670	閃爍	siám-sih	閃爍	same	15		M		
+2671	拄仔好	tú-á-hó	正好	partial	16		M		
+2672	單身	tuann-sin	單身	same	01		H		
+2673	若	jio̍k		same	?		L	def et mandarin vides	
+2674	費	huì	費	same	09		M		
+2675	墜落	tuī-lo̍h	墜落	same	14	14a	H		
+2676	三八	sam-pat	八珍	same	13		M		
+2677	降	kàng	降	same	14	14a	H		
+2678	出身	tshut-sin	底	same-chars-diff-use	01		M		
+2679	故意	kòo-ì	故意	same	13		M		
+2680	現現	hiān-hiān	明白	different	16		M		
+2681	存	tshûn	存	same	?		L	def vide	
+2682	國語	kok-gí	國語	same	10		H		
+2683	放心	hòng-sim	放心	same	13		M		
+2684	蜈蚣	giâ-kang	蜈蚣	same	06		H		
+2685	嶺	niá	嶺	same	06		H		
+2686	露	lōo	露	same	06		H		
+2687	風聲	hong-siann	消息	same	06		M		
+2688	排列	pâi-lia̍t	排列	same	14	14c	M		
+2689	功	kong	功	same	?		L	sens abstrait, réussite	
+2690	攻	kong	攻	same	14	14f	H		
+2691	年	liân	年	same	08		H		
+2692	讓	niū	讓	same	14	14f	M		
+2693	電	tiān	電	same	06		M		
+2694	弄	lōng	弄	same	14	14c	L	def vide, sens générique	
+2695	同齊	tâng-tsê	一起	different	16		H		
+2696	布袋戲	pòo-tē-hì	布袋戲	same	10		M		
+2697	清芳	tshing-phang	清香	partial	15		H		
+2698	休	hiu	休	same	14	14h	M		yes
+2699	業	gia̍p	行	same	09		H		
+2700	蔥	tshang	蔥	same	06		H		
+2701	答	tap	答	same	14	14b	M		
+2702	偷提	thau-the̍h	竊取	different	14	14c	H		
+2703	科	kho	科	same	?		L	sens abstrait, catégorie	
+2704	八卦	pat-kuà	八卦	same	12		M		
+2705	貪心	tham-sim	貪心	same	13		H		
+2706	小學	sió-ha̍k	小學	same	10		H		
+2707	基本	ki-pún	根本	same	15		M		
+2708	鐵馬	thih-bé	自行車	different	07		H		
+2709	旦	tàn	旦	same	?		L	pas de définition	
+2710	難	lān	難	same	15	moved	M		
+2711	子	tsí	子	same	?		L	suffixe, sens peu clair	
+2712	多情	to-tsîng	多情	same	13		H		
+2713	情義	tsîng-gī	情義	same	13		M		
+2714	保重	pó-tiōng	保重	same	02		H		yes
+2715	甜茶	tinn-tê	飲料	same	03		H		
+2716	個性	kò-sìng	個性	same	13		M		
+2717	了錢	liáu-tsînn	賠錢	partial	09		H		
+2718	東	tong	東	same	07		H		
+2719	跑	pháu	跑	same	14	14a	H		
+2720	親身	tshin-sin	親自	same	16		M		
+2721	限	hān	限	same	14	14f	M		
+2722	觀	kuan	觀	same	14	14d	M		
+2723	漸	tsiām	漸	same	16		M		
+2724	工業	kang-gia̍p	工業	same	09		H		
+2725	泅水	siû-tsuí	游泳	different	14	14a	H		
+2726	滿面	muá-bīn	滿面	same	02		H		yes
+2727	蔭	ìm	蔭	same	14	14h	M		yes
+2728	量	liōng	量	same	08		M		
+2729	葡萄	phû-tô	葡萄	same	03		H		
+2730	淋	lâm	澆	same	14	14c	M		
+2731	龍	lîng	龍	same	12		M		
+2732	往來	óng-lâi	往來	same	14	14f	M		
+2733	冷水	líng-tsuí	冷水	same	06		M		
+2734	球	kiû	球	same	04		M		
+2735	鉸刀	ka-to	剪刀	partial	04		H		
+2736	好膽	hó-tánn	大膽	partial	13		M		
+2737	傀儡	ka-lé	傀儡	same	10		M		
+2738	欺負	khi-hū	侮辱	same	14	14f	H		
+2739	料	liāu	材料	same-chars-diff-use	04		M		
+2740	銅	tâng	銅	same	06		M		
+2741	嚨喉	nâ-âu	喉嚨	partial	02		H		yes
+2742	當	tǹg	當	same	09		H		
+2743	遠	uán	遠	same	07		M		
+2744	抄	tshau	抄	same	10		H		
+2745	然	jiân	然	same	16		M		
+2746	真實	tsin-si̍t	真的	same	15		H		
+2747	街路	ke-lōo		n/a	07		H		
+2748	面色	bīn-sik	臉色	partial	02		H		yes
+2749	鵁鴒	ka-līng	八哥	different	06		H		
+2750	掀	hian	反	same	14	14c	H		
+2751	列	lia̍t	列	same	08		M		
+2752	結合	kiat-ha̍p	結合	same	14	14f	M		
+2753	表演	piáu-ián	表演	same	10		M		
+2754	氣氛	khì-hun	氣氛	same	13		M		
+2755	葩	pha	串	same	08		M		
+2756	麵線	mī-suànn	麵線	same	03		H		
+2757	金仔	kim-á	金	partial	06		M		
+2758	織	tsit	織	same	14	14g	H		
+2759	頭仔	thâu--á	最初	different	16		H		
+2760	刁工	thiau-kang	故意	different	16		H		
+2761	礁	ta	礁	same	06		H		
+2762	接觸	tsiap-tshiok	接觸	same	14	14c	M		
+2763	都	too	都	same	16		H		
+2764	散凶	sàn-hiong	貧困	different	15		M		
+2765	夾	ngeh	夾	same	04		H		
+2766	家私	ke-si	工具	different	04		H		
+2767	縛跤	pa̍k-kha	纏足	different	12		M		
+2768	止	tsí	止	same	14	14e	H		
+2769	留戀	liû-luân	留戀	same	13		H		
+2770	甚	sīm	甚	same	16		M		
+2771	柑仔	kam-á	橘子	different	03		M		
+2772	中秋	Tiong-tshiu	中秋節	partial	12		H		
+2773	菜頭	tshài-thâu	蘿蔔	different	03		H		
+2774	親事	tshin-sū	親戚	same	01		M		
+2775	咒	tsiù	咒	same	14	14b	H		
+2776	花枝	hue-ki	花枝	same	06		H		
+2777	好得	hó-tit	幸虧	different	16		H		
+2778	桃花	thô-hue	桃花	same	06		H		
+2779	露水	lōo-tsuí	露水	same	06		H		
+2780	四邊	sì-pinn	周邊	partial	07		H		
+2781	鼠	tshí		same	06		H		
+2782	恐驚	khióng-kiann	恐怕	partial	16		H		
+2783	滿滿是	muá-muá-sī	到處	different	16		M		
+2784	乾	kan	乾	same	03		M		
+2785	彎	uan	轉	same	15		H		
+2786	牧	bo̍k	牧	same	?		L	pas de définition	
+2787	值錢	ta̍t-tsînn	值錢	same	09		M		
+2788	得	tik	可以	same	14	14g	M		
+2789	爭	tsing	爭	same	14	14f	M		
+2790	頭人	thâu-lâng	首腦	different	11		H		
+2791	膽	tánn	膽	same	02		H		yes
+2792	籠	láng	籠	same	04		H		
+2793	犯罪	huān-tsuē	犯罪	same	11		H		
+2794	行船	kiânn-tsûn	行船	same	07		M		
+2795	鑼	lô	鑼	same	10		M		
+2796	洞	tōng	空	same	06		M		
+2797	支持	tsi-tshî	幫助	same	14	14f	M		
+2798	丈	tn̄g	丈	same	08		H		
+2799	大欉	tuā-tsâng	高大	partial	15		H		
+2800	種作	tsìng-tsoh	種植	partial	14	14g	H		
+2801	林投	nâ-tâu	林投	same	06		H		
+2802	窟	khut	窩	same	06		M		
+2803	棄嫌	khì-hiâm	嫌棄	partial	13		H		
+2804	滿足	buán-tsiok	滿足	same	13		M		
+2805	穡頭	sit-thâu	工作	different	09		H		
+2806	葬	tsòng	葬	same	12		H		
+2807	挃	ti̍h	要	different	16		M		
+2808	管	kóng	管	same	04		M		
+2809	紲落去	suà--lo̍h-khì	接下來	different	16		H		
+2810	楔	seh	塞	different	14	14c	H		
+2811	妖怪	iau-kuài	妖怪	same	12		M		
+2812	娘囝	niû-kiánn	妻子	different	01		H		
+2813	豬仔囝	ti-á-kiánn	豬	partial	06		H		
+2814	凡勢	huān-sè	不一定	different	16		H		
+2815	曲痀	khiau-ku	駝背	different	02		H		yes
+2816	龍眼	lîng-gíng	龍眼	same	06		M		
+2817	落台	lo̍h-tâi	下臺	different	14	14a	H		
+2818	稟	pín	報告	same	14	14b	H		
+2819	牆	tshiûnn	牆	same	04		H		
+2820	相公	siòng-kong	相公	same	01		H		
+2821	逃走	tô-tsáu	逃走	same	14	14a	H		
+2822	殘忍	tsân-jím	殘忍	same	13		H		
+2823	好人	hó-lâng	好人	same	13		M		
+2824	方	hong	方向	same	?		L	方法 ou 方向, ambigu	
+2825	卿	khing	卿	same	?		L	pas de définition	
+2826	彩	tshái	彩	same	?		L	sens vague	
+2827	機關	ki-kuan	機關	same	04		M		
+2828	窮	khîng	整理	same-chars-diff-use	14	14c	M		
+2829	毛	moo	毛	same	?		L	polysémie, sans définition	
+2830	咖啡	ka-pi	咖啡	same	03		M		
+2831	公道	kong-tō	公平	same-chars-diff-use	11		M		
+2832	指示	tsí-sī	指示	same	14	14b	M		
+2833	田庄	tshân-tsng	農村	different	07		H		
+2834	招呼	tsio-hoo	招呼	same	14	14f	H		
+2835	四面	sì-bīn	周圍	same	07		H		
+2836	烘爐	hang-lôo	火爐	same	04		H		
+2837	專心	tsuan-sim	專心	same	13		H		
+2838	肩頭	king-thâu	肩膀	partial	02		H		yes
+2839	尊敬	tsun-kìng	尊敬	same	13		H		
+2840	成就	sîng-tsiū	成績	same	15	moved	M		
+2841	初	tshe		same	?		L	sens abstrait, commencement	
+2842	鼓吹	kóo-tshue		n/a	10		M		
+2843	鴉片	a-phiàn	鴉片	same	02		M		yes
+2844	狀況	tsōng-hóng	狀況	same	15		M		
+2845	這世人	tsit-sì-lâng	這一生	partial	01		M		
+2846	者	tsiá	者	same	16		H		
+2847	租	tsoo	租	same	09		H		
+2848	門口埕	mn̂g-kháu-tiânn	前庭	different	07		H		
+2849	農民	lông-bîn	農人	same-chars-diff-use	09		M		
+2850	形式	hîng-sik	形式	same	15		M		
+2851	捎	sa	拿	same-chars-diff-use	14	14c	H		
+2852	體	thé	身體	partial	02		H		yes
+2853	生理人	sing-lí-lâng	商人	partial	09		H		
+2854	牌仔	pâi-á	牌子	partial	04		M		
+2855	貼心	tah-sim	貼心	same	13		H		
+2856	智慧	tì-huī	聰明	same	13		M		
+2857	拚命	piànn-miā	拼命	same	14	14f	M		
+2858	護	hōo	護	same	14	14f	M		
+2859	彼當陣	hit-tang-tsūn	那時候	different	08		H		
+2860	夭	iáu	夭	same	?		L	sens vague	
+2861	期間	kî-kan	期間	same	08		H		
+2862	人事	jîn-sū	人力	same	09		M		
+2863	飄撇	phiau-phiat	瀟灑	different	15		M		
+2864	好喙	hó-tshuì	好言好語	partial	13		M		
+2865	親堂	tshin-tông	同宗	different	01		H		
+2866	公事	kong-sū	公事	same	11		M		
+2867	尻脊骿	kha-tsiah-phiann	背脊	partial	02		H		yes
+2868	隱痀	ún-ku	駝背	different	02		H		yes
+2869	路燈	lōo-ting	路燈	same	07		M		
+2870	納	la̍p	交	same	14	14g	M		
+2871	失志	sit-tsì	灰心喪氣	different	13		H		
+2872	責任	tsik-jīm	責任	same	11		M		
+2873	由在	iû-tsāi	隨便	different	16		H		
+2874	離	lî		same	?		L	pas de définition	
+2875	守	tsiú	守	same	14	14f	M		
+2876	步數	pōo-sòo	辦法	different	?		L	sens: méthode ou pas, ambigu	
+2877	堅強	kian-kiông	堅強	same	15		H		
+2878	珍	tin	珍	same	15		M		
+2879	地獄	tē-ga̍k	地獄	same	12		M		
+2880	將	tsiòng	將	same	11		M		
+2881	江湖	kang-ôo	江湖	same	07		M		
+2882	飄	phiau	飄	same	14	14a	M		
+2883	世俗	sè-sio̍k	世俗	same	12		M		
+2884	添	thinn	加	same	14	14e	M		
+2885	串	tshuàn	見	same	14	14c	M		
+2886	修理	siu-lí	整理	same	14	14g	H		
+2887	蓮花	liân-hue	荷花	same	06		H		
+2888	草地	tsháu-tē	草地	same	06		H		
+2889	貳	jī	貳	same	08		H		
+2890	華	huâ	華	same	?		L	sens vague	
+2891	報仇	pò-siû	報仇	same	14	14f	H		
+2892	民主	bîn-tsú	民主	same	11		H		
+2893	形	hîng	樣子	same	15		M		
+2894	添	thiam	加	same	14	14e	M		
+2895	生番	tshenn-huan	原住民	different	11		M		
+2896	誰	suî	誰	same	16		H		
+2897	土	thóo	土	same	06		H		
+2898	作用	tsok-iōng	作用	same	15	moved	M		
+2899	滾水	kún-tsuí	開水	partial	03		M		
+2900	枋	pang	板	different	04		H		
+2901	壽	siū	壽	same	02		M		yes
+2902	老大	láu-tuā	老大	same	01		H		
+2903	百二	pah-jī	一百二十	partial	08		H		
+2904	白色	pe̍h-sik	白色	same	15		M		
+2905	烘	hang	烘	same	14	14g	M		
+2906	價數	kè-siàu	價錢	partial	09		H		
+2907	袂記得	bē-kì-tit	忘記	partial	13		M		
+2908	臺	tâi	臺	same	07		M		
+2909	磚仔	tsng-á	磚	partial	04		H		
+2910	五穀	ngóo-kok	糧食	same	03		H		
+2911	尪姨	ang-î	巫婆	different	12		H		
+2912	呼	khoo	呼	same	14	14b	H		
+2913	主席	tsú-si̍k	主席	same	11		H		
+2914	冷吱吱	líng-ki-ki	冷冰冰	partial	15		H		
+2915	看命	khuànn-miā	算命	partial	12		H		
+2916	指頭仔	tsíng-thâu-á	手指	partial	02		H		yes
+2917	喙䫌	tshuì-phué	臉頰	different	02		H		yes
+2918	豬跤	ti-kha	豬腳	partial	03		H		
+2919	理論	lí-lūn	理論	same	10		M		
+2920	主持	tsú-tshî	主持	same	14	14g	M		
+2921	茶鈷	tê-kóo	茶壺	partial	04		H		
+2922	寶惜	pó-sioh	珍惜	partial	13		H		
+2923	蹧躂	tsau-that	糟蹋	different	14	14f	H		
+2924	輾	liàn	滾	different	14	14a	M		
+2925	冗早	liōng-tsá	從前	different	16		H		
+2926	按呢生	án-ne-senn	這樣	different	16		H		
+2927	炤	tshiō	照	same-chars-diff-use	14	14h	M		yes
+2928	菱角	lîng-kak	紅菱	same	03		H		
+2929	剃頭	thì-thâu	理髮	different	05		H		
+2930	總統	tsóng-thóng	總統	same	11		H		
+2931	巧神	khiáu-sîn	伶俐	different	13		M		
+2932	拆散	thiah-suànn	分離	same	14	14f	M		
+2933	哀怨	ai-uàn	哀怨	same	13		H		
+2934	坎	khám	階梯	same	04		M		
+2935	畫圖	uē-tôo	畫圖	same	10		M		
+2936	食穿	tsia̍h-tshīng	吃穿	partial	03		M		
+2937	會議	huē-gī	會議	same	09		M		
+2938	功課	kong-khò	功課	same	10		H		
+2939	誤會	gōo-huē	誤會	same	13		M		
+2940	寒天	kuânn-thinn	冬天	partial	06		M		
+2941	外家	guā-ke	後面	different	01		H		
+2942	菜園	tshài-hn̂g	菜圃	same	06		M		
+2943	花	hua	花	same	06		H		
+2944	桃	thô	桃	same	06		H		
+2945	不管	put-kuán	不管	same	16		H		
+2946	少年家	siàu-liân-ke	小伙子	different	01		H		
+2947	昨暝	tsa-mê	昨夜	partial	08		H		
+2948	小姑	sió-koo	小姑	same	01		H		
+2949	相干	siong-kan	關係	different	14	14f	M		
+2950	行踏	kiânn-ta̍h	行為舉止	partial	14	14f	M		
+2951	古意	kóo-ì	老實	different	13		H		
+2952	鑼鼓	lô-kóo	鑼鼓	same	10		M		
+2953	同胞	tông-pau	同胞	same	01		H		
+2954	苦毒	khóo-to̍k	虐待	different	14	14f	H		
+2955	面容	bīn-iông	面貌	same	05		H		
+2956	漢文	hàn-bûn	漢字	same	10		H		
+2957	批評	phue-phîng	批評	same	14	14b	H		
+2958	勞	lô	勞	same	14	14g	H		
+2959	動	tōng	動	same	16	moved	M		
+2960	籃仔	nâ-á	籃	partial	04		H		
+2961	衫仔褲	sann-á-khòo	衣服	different	05		H		
+2962	本份	pún-hūn	本分	partial	11		M		
+2963	驗	giām	驗	same	14	14d	M		
+2964	國民	kok-bîn	國民	same	11		M		
+2965	建築	kiàn-tio̍k	建築	same	07		M		
+2966	樹頭	tshiū-thâu	樹上	partial	06		M		
+2967	廟寺	biō-sī	寺廟	partial	12		H		
+2968	逐擺	ta̍k-pái	每次	different	08		H		
+2969	煮食	tsú-tsia̍h	烹飪	different	03		H		
+2970	明仔日	bîn-á-ji̍t	明天	partial	08		H		
+2971	雞卵	ke-nn̄g	雞蛋	partial	03		H		
+2972	總共	tsóng-kiōng	一共	same	08		M		
+2973	鏨	tsām	刻	different	04		M		
+2974	初初	tshoo-tshoo	起初	partial	08		H		
+2975	掠準	lia̍h-tsún	以為	different	13		M		
+2976	葉	ia̍p	葉	same	06		H		
+2977	𤆬	tshuā	帶	different	14	14f	M		
+2978	吐氣	thóo-khuì	嘆氣	partial	13		M		
+2979	本土	pún-thóo	本土	same	07		M		
+2980	塗炭	thôo-thuànn	煤炭	partial	06		M		
+2981	鼓井	kóo-tsénn	水井	partial	07		M		
+2982	巾仔	kin-á	巾	partial	04		M		
+2983	查某𡢃	tsa-bóo-kán	丫鬟	different	01		H		
+2984	絕情	tsua̍t-tsîng	絕情	same	13		H		
+2985	啟	khé	啟	same	14	14c	L	def vide, sens probable	
+2986	短命	té-miā	非常	same	?		L	sens ambigu : malédiction ou « très »	
+2987	變心	piàn-sim	變心	same	13		H		
+2988	變卦	piàn-kuà	變卦	same	14	14e	H		
+2989	新人	sin-lâng	新人	same	01		H		
+2990	茫	bâng	茫	same	13		M		
+2991	元氣	guân-khì	精神	same	02		H		yes
+2992	集	tsi̍p	集	same	14	14c	M		
+2993	罰	hua̍t	罰	same	11		M		
+2994	束縛	sok-pa̍k	限制	same	14	14f	M		
+2995	意志	ì-tsì	意向	same	13		H		
+2996	聘金	phìng-kim	聘金	same	12		M		
+2997	結拜	kiat-pài	拜把兄弟	same	01		M		
+2998	池	tî	池	same	07		M		
+2999	逼	pik	逼	same	14	14f	M		
+3000	徐	tshî	徐	same	15		M		
+3001	街頭	ke-thâu	街頭	same	07		H		
+3002	肚臍	tōo-tsâi	肚臍	same	02		H		yes
+3003	溫泉	un-tsuânn	溫泉	same	06		H		
+3004	救人	kiù-lâng	救命	partial	14	14f	H		
+3005	菜脯	tshài-póo	蘿蔔乾	different	03		H		
+3006	課	khò	課	same	10		H		
+3007	則	tsik	則	same	?		L	sens incertain, pas de glose	
+3008	灌	kuàn	灌	same	14	14c	H		
+3009	疊	thia̍p	疊	same	14	14c	H		
+3010	拜拜	pài-pài	拜拜	same	12		H		
+3011	手段	tshiú-tuānn	辦法	same	09	moved	M		
+3012	袋仔	tē-á	袋	partial	04		H		
+3013	注文	tsù-bûn	點	different	09		M		
+3014	逃	tô	逃	same	14	14a	H		
+3015	終	tsiong	終	same	08		M		
+3016	烏鶖	oo-tshiu	大卷尾	different	06		H		
+3017	花草	hue-tsháu	花紋	same	06		L	définition et mandarin divergent	
+3018	隊	tuī	隊	same	11		M		
+3019	製	tsè	製	same	14	14g	M		
+3020	鹿	lo̍k	鹿	same	06		H		
+3021	建置	kiàn-tì	設置	partial	14	14g	M		
+3022	脫離	thuat-lī	脫離	same	14	14a	M		
+3023	現實	hiān-si̍t	現實	same	13		M		
+3024	貢獻	kòng-hiàn	貢獻	same	14	14c	M		
+3025	背	puē	背	same	16		M		
+3026	症	tsìng	症	same	02		H		yes
+3027	聯合	liân-ha̍p	聯合	same	11		M		
+3028	職業	tsit-gia̍p	工作	same	09		H		
+3029	食	si̍t	食品	same	03		H		
+3030	資源	tsu-guân	資源	same	09		M		
+3031	轉世	tsuán-sè	投胎	same	12		H		
+3032	想講	siūnn-kóng	想	partial	13		M		
+3033	背景	puē-kíng	背景	same	07		M		
+3034	後	hōo	後	same	16		M		
+3035	門跤口	mn̂g-kha-kháu	門口	partial	07		H		
+3036	莫非	bo̍k-hui	難道	same	16		H		
+3037	落水	lo̍h-tsuí	下水	same	14	14a	H		
+3038	鐵枝	thih-ki	鋼筋	different	04		M		
+3039	輕重	khin-tāng	輕重	same	15		M		
+3040	面皮	bīn-phuê	面子	partial	13		M		
+3041	怨慼	uàn-tsheh	怨恨	partial	13		H		
+3042	註	tsù	註	same	?		L	définition et mandarin divergent	
+3043	新年	sin-nî	新年	same	12		H		
+3044	合該	ha̍p-kai	應該	same	16		H		
+3045	刑罰	hîng-hua̍t	處罰	same	11		H		
+3046	軍	kun	軍	same	11		H		
+3047	存	tsûn	存	same	09		H		
+3048	夫婦	hu-hū	夫妻	same	01		H		
+3049	武藝	bú-gē	武藝	same	12	moved	M		
+3050	簿仔	phōo-á	本子	different	10		M		
+3051	啞口	é-káu	啞巴	partial	02		H		yes
+3052	恩	un	恩	same	13		M		
+3053	精	tsing	精	same	13		M		
+3054	海岸	hái-huānn	海濱	same	06		H		
+3055	艱難	kan-lân	困難	same	15		H		
+3056	體貼	thé-thiap	體貼	same	13		H		
+3057	武	bú	武	same	11		M		
+3058	節	tsiat	節	same	12		H		
+3059	大伯	tuā-peh	大伯	same	01		H		
+3060	專工	tsuan-kang	故意	different	16		M		
+3061	星	tshenn		n/a	06		H		
+3062	年歲	nî-huè	年齡	same	08		H		
+3063	親切	tshin-tshiat	親切	same	13		H		
+3064	講究	káng-kiù	講究	same	15		M		
+3065	水車	tsuí-tshia	水車	same	04		M		
+3066	墓仔埔	bōng-á-poo	墓地	partial	12		M		
+3067	慈悲	tsû-pi	善良	same	13		M		
+3068	高中	ko-tiong	高中	same	10		H		
+3069	行動	hîng-tōng	行動	same	13	moved	H		
+3070	成	siânn	成	same	08		H		
+3071	紹介	siāu-kài	介紹	same	14	14f	H		
+3072	噴	phùn	噴	same	14	14c	M		
+3073	帝	tè	帝	same	11		H		
+3074	痟	siáu	瘋	different	02		M		yes
+3075	堅固	kian-kòo	堅固	same	15		H		
+3076	夏	hē	夏	same	08		H		
+3077	好囝	hó-kiánn	好孩子	partial	01		H		
+3078	發覺	huat-kak	發現	same	14	14d	H		
+3079	泔	ám	米湯	different	03		H		
+3080	案	àn	案	same	11		H		
+3081	唯一	uî-it	唯一	same	15		M		
+3082	寬寬仔	khuann-khuann-á	慢慢	different	16		M		
+3083	恬	tiām	靜	different	15		H		
+3084	拍損	phah-sńg	可惜	different	14	14e	M		
+3085	香菇	hiunn-koo	香菇	same	03		H		
+3086	雺霧	bông-bū	霧	partial	06		H		
+3087	磕	kha̍p	磕	same	14	14c	M		
+3088	絪	in	絪	same	?		L	pas de glose ni mandarin	
+3089	欶	suh	吸	different	14	14c	M		
+3090	抌	tìm	扔	different	14	14c	H		
+3091	原頭	guân-thâu	原先	partial	08		H		
+3092	相𫝛	sio-siāng		n/a	15		H		
+3093	蜈	gôo	蜈	same	06		M		
+3094	娛	gôo		n/a	?		L	pas de glose ni mandarin	
+3095	犯人	huān-lâng	犯人	same	11		H		
+3096	煎	tsian	煎	same	03		H		
+3097	婿	sài	婿	same	01		H		
+3098	助	tsōo	幫助	partial	14	14f	H		
+3099	堅心	kian-sim	堅決	partial	13		M		
+3100	團圓	thuân-înn	團圓	same	01		H		
+3101	面肉	bīn-bah	臉	different	02		H		yes
+3102	歲壽	huè-siū	壽命	partial	02		M		yes
+3103	放蕩	hòng-tōng	放縱	same	13		M		
+3104	暫	tsiām	暫	same	08		M		
+3105	身命	sin-miā	體質	different	02		H		yes
+3106	各人	kok-lâng	各人	same	16		H		
+3107	催	tshui	催	same	14	14f	M		
+3108	久久	kú-kú	久久	same	08		H		
+3109	手環	tshiú-khuân	手鐲	partial	05		H		
+3110	請	tshíng	請	same	16		M		
+3111	麵包	mī-pau	麵包	same	03		H		
+3112	竹筍	tik-sún	竹筍	same	03		H		
+3113	伶俐	líng-lī	伶俐	same	13		M		
+3114	錢財	tsînn-tsâi	錢財	same	09		H		
+3115	一旦	it-tàn	一旦	same	08		H		
+3116	紳士	sin-sū	紳士	same	13		M		
+3117	氣味	khì-bī	味道	same	15		M		
+3118	栽培	tsai-puê	栽培	same	14	14g	H		
+3119	申	sin	告狀	same	08		H		
+3120	叔公	tsik-kong	叔公	same	01		H		
+3121	街	ke	街	same	07		H		
+3122	人家	jîn-ke	住宅	same-chars-diff-use	04		M		
+3123	推辭	the-sî	回	same	14	14b	M		
+3124	別項	pa̍t-hāng	其他	same	16		M		
+3125	央	iang	請	same	14	14b	H		
+3126	島嶼	tó-sū/tóo-sū	島嶼	same	06		H		
+3127	拳頭	kûn-thâu	拳頭	same	02		H		yes
+3128	寒	hân	寒	same	06		H		
+3129	青	tshenn		same	05		M		
+3130	風神	hong-sîn	威風	partial	13		M		
+3131	戇人	gōng-lâng	傻瓜	different	13		M		
+3132	祖	tsóo	祖	same	01		H		
+3133	費氣	huì-khì	麻煩	different	15		M		
+3134	隊長	tuī-tiúnn	隊長	same	11		M		
+3135	屍	si	屍體	same	02		M		yes
+3136	以早	í-tsá	以前	partial	08		H		
+3137	隔日	keh-ji̍t	明天	different	08		H		
+3138	情	tsiânn	情	same	13		H		
+3139	現象	hiān-siōng	現象	same	15		M		
+3140	屈	khut	彎曲	same	14	14a	M		
+3141	彈	tân	彈	same	14	14c	L	def vide, sens probable	
+3142	有時仔	ū-sî-á	有時候	partial	08		H		
+3143	嬸婆	tsím-pô	嬸婆	same	01		H		
+3144	嘿	--heh	是	same	16		H		
+3145	虼蚤	ka-tsáu	跳蚤	partial	06		H		
+3146	市內	tshī-lāi	市區	same	07		H		
+3147	醫療	i-liâu	醫療	same	02		H		yes
+3148	懸山	kuân suann	高山	partial	06		H		
+3149	紅記記	âng-kì-kì	紅彤彤	partial	15		M		
+3150	仙	sián	分	different	09		M		
+3151	結子	kiat-tsí	結成種子	partial	06		M		
+3152	交落	ka-la̍uh	遺失	different	14	14a	M		
+3153	𬦰	peh		n/a	14	14a	H		
+3154	鼻空	phīnn-khang	鼻孔	partial	02		H		yes
+3155	漚	àu	爛	different	15		H		
+3156	生相	senn-siùnn	生肖	partial	12		M		
+3157	桌跤	toh-kha	桌腳	partial	04		H		
+3158	𠢕早	gâu-tsá	早安	partial	16		M		
+3159	情勢	tsîng-sè	情況	same	15		M		
+3160	鹼	kinn	鹼	same	06		L	substance chimique, domaine incertain	
+3161	交關	kau-kuan	買賣	different	09		H		
+3162	相愛	siong-ài	相愛	same	13		H		
+3163	恩情	un-tsîng	恩情	same	13		H		
+3164	佛	Hu̍t	佛	same	12		H		
+3165	苦瓜	khóo-kue	苦瓜	same	03		H		
+3166	老大人	lāu-tuā-lâng	老人	partial	01		H		
+3167	翻身	huan-sin	翻身	same	14	14a	M		
+3168	大膽	tuā-tánn	大膽	same	13		H		
+3169	號頭	hō-thâu	標誌	different	10		M		
+3170	才	tsâi	才	same	13		M		
+3171	君王	kun-ông	君王	same	11		H		
+3172	罕	hán	罕	same	08		M		
+3173	忍受	jím-siū/lím-siū	忍受	same	13		M		
+3174	秋凊	tshiu-tshìn	涼	different	06		M		
+3175	有閒	ū-îng	有空	partial	08		M		
+3176	冷淡	líng-tām	冷淡	same	13		H		
+3177	便便	piān-piān	現成	different	15		M		
+3178	虛	hi	虛	same	02		H		yes
+3179	說明	suat-bîng	解釋	same	10		H		
+3180	易	ī	易	same	15		H		
+3181	老	ló	老	same	15		M		
+3182	烏枋	oo-pang	黑板	different	10		H		
+3183	倒轉去	tò-tńg--khì	回去	partial	07		H		
+3184	澀	siap	吝嗇	same	13		M		
+3185	瀾	nuā	口水	different	02		H		yes
+3186	損害	sún-hāi	破壞	same	14	14e	H		
+3187	體會	thé-huē	體會	same	13		H		
+3188	剝	pak	搶	same	14	14c	H		
+3189	漏	lāu	漏	same	14	14a	M		
+3190	嚴	giâm	嚴	same	15		H		
+3191	哀求	ai-kiû	乞求	same	14	14b	M		
+3192	餓死	gō--sí	餓死	same	02		M		yes
+3193	樹枝	tshiū-ki	樹枝	same	06		H		
+3194	居	ki		n/a	?		L	pas de glose ni mandarin	
+3195	氏	sī	氏	same	01		H		
+3196	嬰	enn		n/a	01		M		
+3197	罪惡	tsuē-ok	罪惡	same	11		H		
+3198	掃帚	sàu-tshiú	掃把	same	04		H		
+3199	鰗鰡	hôo-liu	泥鰍	different	06		H		
+3200	各種	kok-tsióng	各種	same	16		H		
+3201	塔	thah	塔	same	07		H		
+3202	生存	sing-tsûn	生	same	14	14e	M	survie, garder en vie	
+3203	龍船	lîng-tsûn	龍舟	same	12		H		
+3204	種子	tsíng-tsí	種子	same	06		H		
+3205	數想	siàu-siūnn	妄想	partial	13		M		
+3206	晟	tshiânn	養育	different	14	14f	L	élever, éduquer	
+3207	著急	tio̍h-kip	著急	same	13		H		
+3208	師仔	sai-á	學生	different	10		M		
+3209	仆	phak	撲倒	different	14	14a	H		
+3210	起痟	khí-siáu	發情	different	02		L	définition et mandarin divergent	yes
+3211	烏金	oo-kim	烏黑柔亮	partial	15		H		
+3212	撼	hám	砸	different	14	14c	M		
+3213	跤頭趺	kha-thâu-u	膝蓋	different	02		H		yes
+3214	約會	iok-huē	約會	same	14	14f	H		
+3215	奪	tua̍t	奪	same	14	14c	M		
+3216	破	phò	破	same	14	14e	M		
+3217	賭	tóo	跌	same	14	14f	M		
+3218	疊	tha̍h	疊	same	14	14c	M		
+3219	前日	tsîng-ji̍t	前天	same	08		H		
+3220	興旺	hing-ōng	發展	same-chars-diff-use	15		M		
+3221	堪	kham	承受	same	14	14h	L	endurer, supporter	yes
+3222	僥心	hiau-sim	變心	partial	13		H		
+3223	法律	huat-lu̍t	法律	same	11		H		
+3224	尖	tsiam	尖	same	15		H		
+3225	容	iông	容	same	14	14d	M		
+3226	小叔	sió-tsik	小叔	same	01		H		
+3227	人影	lâng-iánn	人影	same	01		M		
+3228	鵝	gô		same	06		H		
+3229	水災	tsuí-tsai	水災	same	06		H		
+3230	師	su	匠	same	09		M		
+3231	謂	uī	謂	same	?		L	釋義空白	
+3232	數	siàu	算	same-chars-diff-use	09		H		
+3233	得意	tik-ì	得意	same	13		M		
+3234	鎖匙	só-sî	鑰匙	partial	04		H		
+3235	叔	tsik	叔	same	01		H		
+3236	即	tsik	即	same	16		L	釋義空白	
+3237	升	sing	升	same	14	14a	M		
+3238	拜六	pài-la̍k	星期六	partial	08		H		
+3239	品行	phín-hīng	人格	same-chars-diff-use	13		H		
+3240	轉變	tsuán-piàn	轉變	same	14	14e	H		
+3241	出業	tshut-gia̍p	畢業	partial	10		H		
+3242	寶貴	pó-kuì	寶貴	same	15		H		
+3243	曲	khik	歌	same	10		M		
+3244	八仙	pat-sian	八仙	same	12		H		
+3245	客廳	kheh-thiann	大廳	same	04		H		
+3246	旺	ōng	猛	same	15		H		
+3247	地面	tē-bīn/tuē-bīn	地面	same	06		M		
+3248	天堂	thian-tông	天堂	same	12		H		
+3249	姦	kàn	幹	different	14	14h	L	rapport sexuel, vulgaire	yes
+3250	動作	tōng-tsok	動作	same	15	moved	H		
+3251	算數	sǹg-siàu	算帳	same-chars-diff-use	09		H		
+3252	溜	liu	逃走	same	14	14a	M		
+3253	阿祖	a-tsóo	曾祖父母	partial	01		H		
+3254	兔仔	thòo-á	兔	partial	06		H		
+3255	細聲	sè-siann	小聲	partial	15		H		
+3256	冇	phànn	闊綽	different	15		M		
+3257	粟仔	tshik-á	稻穀	different	06		H		
+3258	徛家	khiā-ke	住家	partial	04		H		
+3259	翻頭	huan-thâu	回頭	partial	14	14a	H		
+3260	捌字	bat-jī	識字	partial	10		H		
+3261	茈	tsínn	細	different	15		H		
+3262	𢯾	mooh	抱	different	14	14c	M		
+3263	到地	kàu-tè	到此地步	partial	16		L	動詞後綴	
+3264	樓跤	lâu-kha	樓下	partial	07		H		
+3265	美人	bí-jîn	美女	same	01		H		
+3266	櫻桃	ing-thô	櫻桃	same	06		H		
+3267	辜負	koo-hū	辜負	same	13		M		
+3268	產婆	sán-pô	助產士	same	02		M		yes
+3269	奈	nāi	奈	same	16		L	釋義空白	
+3270	水螺	tsuí-lê	汽笛	different	07		M		
+3271	買賣	bé-bē	生意	same	09		H		
+3272	忍	lún	忍	same	13		H		
+3273	扁	pínn	扁	same	15		H		
+3274	剃	thì	剃	same	05		H		
+3275	羞	tshiu	羞	same	14	14f	M		
+3276	工廠	kang-tshiúnn	工廠	same	09		H		
+3277	帖	thiap	帖	same	10		M		
+3278	夜市	iā-tshī	夜市	same	07		H		
+3279	威	ui	威	same	?		L	釋義空白	
+3280	本事	pún-sū	才能	same	13		M		
+3281	豬母	ti-bó	母豬	partial	06		H		
+3282	國際	kok-tsè	國際	same	11		H		
+3283	自殺	tsū-sat	自殺	same	14	14e	M		
+3284	邊	pian	邊	same	07		M		
+3285	嫁娶	kè-tshuā	結婚	same	01		M		
+3286	眼	gán	瞄	same-chars-diff-use	14	14d	M	regarder brièvement	
+3287	杜	tōo	杜	same	?		L	釋義空白	
+3288	前	tsiân	前	same	07		M		
+3289	現場	hiān-tiûnn	現場	same	07		H		
+3290	出頭天	tshut-thâu-thinn	出人頭地	same	14	14e	M		
+3291	指	kí	指	same	14	14c	M		
+3292	橫直	huâinn-ti̍t	反正	different	16		H		
+3293	樂	lo̍k	樂	same	13		H		
+3294	像	siōng	像	same	15		M		
+3295	保存	pó-tsûn	保存	same	14	14c	H		
+3296	駕	kà	駕	same	07		L	釋義空白，僅依國語	
+3297	搖頭	iô-thâu	搖頭	same	14	14c	M	geste de la tête	
+3298	滑	ku̍t	滑	same	15		H		
+3299	請安	tshíng-an	請安	same	12		H		
+3300	遐的	hia--ê	那些	different	16		H		
+3301	煙筒	ian-tâng	煙囪	partial	04		M		
+3302	計畫	kè-uē	計畫	same	09	moved	M		
+3303	猴山仔	kâu-san--á	猴子	partial	06		H		
+3304	嫁粧	kè-tsng	嫁妝	partial	12		M		
+3305	田嬰	tshân-enn	蜻蜓	different	06		H		
+3306	尾手	bué-tshiú	最後	different	16		M		
+3307	指點	tsí-tiám	引導	same	14	14b	M		
+3308	發行	huat-hîng	發行	same	09		M		
+3309	梟雄	hiau-hiông	梟雄	same	13		M		
+3310	讀者	tho̍k-tsiá	讀者	same	10		H		
+3311	正爿	tsiànn-pîng	右邊	different	07		H		
+3312	歹運	pháinn-ūn	背運	partial	15		M		
+3313	戽	hòo	潑	same	14	14c	M		
+3314	傱	tsông	跑	different	14	14a	H		
+3315	偷偷仔	thau-thau-á	偷偷地	partial	16		M		
+3316	捶	tuî	搥	same-chars-diff-use	14	14c	H		
+3317	恁爸	lín-pē	老子	different	01		M		
+3318	逞	thíng	放縱	different	14	14h	L	agir librement, se laisser aller	yes
+3319	憢疑	giâu-gî	懷疑	partial	13		H		
+3320	頕	tàm	低垂	different	15	moved	M	pendre, s'affaisser	
+3321	咖哩	ka-lí	咖哩	same	03		H		
+3322	貧	pîn	貧	same	15		M		
+3324	苦苦	khóo-khóo	苦苦	same	13		M		
+3325	惹	jiá	引起	same	14	14e	M		
+3326	網	bāng	網	same	04		M		
+3327	若無	nā-bô	不然	different	16		H		
+3328	小人	siáu-jîn	小人	same	13		M		
+3329	允	ín	准	same	14	14d	M		
+3330	湧	íng	浪	same-chars-diff-use	06		H		
+3331	鐵路	thih-lōo	鐵路	same	07		H		
+3332	元宵	Guân-siau	元宵節	same	12		H		
+3333	姑丈	koo-tiūnn	姑丈	same	01		H		
+3334	洪	âng	洪	same	06		L	釋義空白	
+3335	野蠻	iá-bân	野蠻	same	13		M		
+3336	宛然	uán-jiân	好像	different	16		H		
+3337	菜市仔	tshài-tshī-á	菜市場	partial	07		H		
+3338	索	soh	繩子	same	04		H		
+3339	應	ìng	應	same	?		L	釋義空白	
+3340	安心	an-sim	放心	same	13		H		
+3341	梳頭	se-thâu	梳頭	same	05		H		
+3342	平靜	pîng-tsīng	平靜	same	15		H		
+3343	予伊	hōo i	讓	different	16		H		
+3344	西洋	se-iûnn	西洋	same	11		M		
+3345	腹	pak	內容	same	02		H		yes
+3346	意外	ì-guā	意外	same	15	moved	M		
+3347	本地	pún-tē	當地	same	07		H		
+3348	禮貌	lé-māu	禮貌	same	12		M		
+3349	看護婦	khàn-hōo-hū	護士	partial	02		H		yes
+3350	周圍	tsiu-uî	周圍	same	07		H		
+3351	山內	suann-lāi	山裡	partial	07		H		
+3352	島	tó	島	same	06		H		
+3353	真理	tsin-lí	真理	same	10		M		
+3354	面貌	bīn-māu	面貌	same	05		H		
+3355	陰	im	陰	same	?		L	多義，抽象	
+3356	軟弱	luán-jio̍k	軟弱	same	02		M		yes
+3357	度晬	tōo-tsè	抓週	different	12		H		
+3358	空殼	khang-khak	空心不實	same	15		H		
+3359	偉大	uí-tāi	偉大	same	15		H		
+3360	隱	ún	藏匿	different	14	14c	M		
+3361	技術	ki-su̍t	技術	same	09		M		
+3362	國內	kok-lāi	國內	same	11		M		
+3363	聯絡	liân-lo̍k	聯絡	same	14	14b	M		
+3364	遭	tso	遭	same	14	14e	M		
+3365	捅	thóng	超過	same-chars-diff-use	08		M		
+3366	規世人	kui-sì-lâng	一生	different	08		H		
+3367	躼	lò	高	different	05		M		
+3368	拍毋見	phah-m̄-kìnn	遺失	different	14	14e	M		
+3369	南方	lâm-hong	南方	same	07		H		
+3370	鑢	lù	刷	different	14	14g	H		
+3371	抑無	iah-bô	不然	different	16		H		
+3372	標致	phiau-tì	標致	same	05		H		
+3373	延延	iân-tshiân	遲延	partial	14	14e	M		
+3374	世情	sè-tsîng	世故	partial	13		M		
+3375	敢若	kánn-ná	好像	different	16		H		
+3376	心腸	sim-tn̂g	心裡	same	13		H		
+3377	玻璃	po-lê	玻璃	same	04		H		
+3378	道士	tō-sū	道士	same	12		H		
+3379	挽回	bán-huê	挽回	same	14	14e	M		
+3380	戲弄	hì-lāng	戲弄	same	14	14f	M		
+3381	甜蜜	tinn-bi̍t	甜蜜	same	15		M		
+3382	開聲	khui-siann	放聲	partial	14	14b	H		
+3383	飛	hui	飛	same	14	14a	H		
+3384	瓦厝	hiā-tshù	瓦舍	partial	04		H		
+3385	賒	sia	賒	same	09		H		
+3386	滅	bia̍t	滅	same	14	14e	M		
+3387	溢	ik	溢	same	14	14a	M		
+3388	訴	sòo	訴	same	14	14b	H		
+3389	物	bu̍t	物	same	04		M		
+3390	報答	pò-tap	報答	same	13		M		
+3391	在生	tsāi-senn	生前	partial	08		M		
+3392	劫	kiap	劫	same	14	14c	M		
+3393	山嶺	suann-niá	山	same-chars-diff-use	06		H		
+3394	找	tsāu	找	same	09		H		
+3395	金魚	kim-hî	文魚	same	06		H		
+3396	逍遙	siau-iâu	逍遙	same	13		M		
+3397	忠厚	tiong-hōo	老實	same	13		H		
+3398	頭目	thâu-ba̍k	頭目	same	11		M		
+3399	光	kong	光	same	06		M		
+3400	目地	ba̍k-tē	起眼	different	15		M		
+3401	同意	tông-ì	同意	same	14	14d	M		
+3402	後尾	āu-bué	後面	partial	16		M		
+3403	樓梯	lâu-thui	樓梯	same	04		H		
+3404	崙	lūn	崙	same	06		L	釋義空白	
+3405	好運	hó-ūn	好運	same	15		M		
+3406	蝨母	sat-bó	蝨子	partial	06		H		
+3407	打扮	tánn-pān	打扮	same	05		H		
+3408	田岸	tshân-huānn	田埂	partial	06		M		
+3409	召	tiàu	召	same	14	14f	M		
+3410	誠意	sîng-ì	真心	same	13		H		
+3411	凝	gîng	凝	same	15		M		
+3412	入教	ji̍p-kàu	受洗	different	12		H		
+3413	水果	tsuí-kó	水果	same	03		H		
+3414	衣	i	衣服	same	05		H		
+3415	九	kiú	九	same	08		H		
+3416	面桶	bīn-tháng	臉盆	different	04		H		
+3417	聲調	siann-tiāu	聲調	same	10		H		
+3418	弟	tē	弟	same	01		H		
+3419	砧	tiam	刺痛	different	04		H		
+3420	開墾	khai-khún	開墾	same	14	14g	H		
+3421	明顯	bîng-hián	明顯	same	15		H		
+3422	著傷	tio̍h-siong	受傷	partial	02		H		yes
+3423	一時仔	tsi̍t-sî-á	一下子	partial	08		H		
+3424	章	tsiunn	章	same	10		M		
+3425	壓迫	ap-pik	壓迫	same	11		M		
+3426	薰吹	hun-tshue	菸管	different	04		M		
+3427	教員	kàu-uân	教師	same	10		H		
+3428	圓滿	uân-buán	圓滿	same	15		H		
+3429	北京	Pak-kiann	北京	same	07		H		
+3430	連紲	liân-suà	連續	partial	08		M		
+3431	存在	tsûn-tsāi	存在	same	15	moved	M		
+3432	表情	piáu-tsîng	表情	same	13		H		
+3433	衝突	tshiong-tu̍t	衝突	same	14	14f	M		
+3434	厭	ià	飽	same	13		M		
+3435	成長	sîng-tióng	成長	same	14	14e	H		
+3436	水庫	tsuí-khòo	水庫	same	06		H		
+3437	沖沖滾	tshiâng-tshiâng-kún	沸騰	different	15		H		
+3438	勘	khàm	勘	same	?		L	釋義空白	
+3439	輸入	su-ji̍p	入口	same	09		H		
+3440	老婆仔	lāu-pô-á	老媽子	partial	01		H		
+3441	橐	lok	袋	different	14	14c	H		
+3442	殼	khak	殼	same	06		H		
+3443	慶	khìng	慶	same	12		L	釋義空白	
+3444	品	phín	吹捧	same-chars-diff-use	13		M		
+3445	抱	phāu	抱	same	14	14c	H		
+3446	涼	liâng	涼	same	15		H		
+3447	開開	khui--khui	打開	partial	14	14c	H		
+3449	恩愛	un-ài	恩愛	same	13		H		
+3450	甜粿	tinn-kué	甜年糕	partial	03		H		
+3451	歡歡喜喜	huann-huann-hí-hí	高興	same	13		H		
+3452	蒙	bông	蒙	same	?		L	釋義空白	
+3453	勤	khîn	勤	same	13		M		
+3454	注	tsù	注	same	14	14c	M		
+3455	痕	hûn	回	same	15		M		
+3456	烏雲	oo-hûn	烏雲	same	06		H		
+3457	別	pia̍t	別	same	14	14a	M		
+3458	適合	sik-ha̍p	適合	same	15		M		
+3459	粽	tsàng	粽	same	03		H		
+3460	養	ióng	養	same	14	14f	M		
+3461	行為	hîng-uî	行為	same	13	moved	H		
+3462	港口	káng-kháu	港口	same	07		H		
+3463	狹	e̍h		n/a	15		H		
+3464	搵	ùn	沾	different	14	14c	H		
+3465	草仔	tsháu-á	草	partial	06		H		
+3466	歐	au	歐	same	07		M		
+3467	富	pù	富	same	09		H		
+3468	民	bîn	人民	same	11		H		
+3469	陸	lio̍k	陸	same	06		M		
+3470	開會	khui-huē	開會	same	14	14f	M		
+3471	城隍	Sîng-hông	城池	partial	12		H		
+3472	山坪	suann-phiânn	小山坡	partial	06		H		
+3473	平常時	pîng-siông-sî	平時	partial	08		H		
+3474	阿姆	a-ḿ	伯母	different	01		H		
+3475	閹雞	iam-ke	閹雞	same	06		H		
+3476	起床	khí-tshn̂g	起床	same	14	14a	H		
+3477	四	sù	四	same	08		H		
+3478	金龜	kim-ku	金龜子	partial	06		H		
+3479	豹	pà	豹	same	06		H		
+3480	讚	tsán	棒	same	15		H		
+3481	有身	ū-sin	懷孕	different	02		H		yes
+3482	討海	thó-hái	出海打魚	partial	09		H		
+3483	節目	tsiat-bo̍k	節目	same	10		H		
+3484	欠缺	khiàm-khueh	不夠	same-chars-diff-use	15		M		
+3485	皮鞋	phuê-ê	皮鞋	same	05		H		
+3486	西裝	se-tsong	西裝	same	05		H		
+3487	發揮	huat-hui	發揮	same	14	14g	M		
+3488	外公	guā-kong	外公	same	01		H		
+3489	尿	jiō	尿	same	02		H		yes
+3490	佛祖	Pu̍t-tsóo	佛祖	same	12		H		
+3491	毒藥	to̍k-io̍h	毒藥	same	02		H		yes
+3492	眼神	gán-sîn	眼神	same	02		M		yes
+3493	運用	ūn-iōng	利用	same	14	14c	M		
+3494	官員	kuann-uân	官吏	same	11		H		
+3495	認同	jīn-tông	認同	same	14	14d	M		
+3496	郭	kueh	郭	same	?		L	pas de définition	
+3497	功效	kong-hāu	功效	same	15		M		
+3498	常在	tshiâng-tsāi	常常	partial	08		H		
+3499	紲落來	suà--lo̍h-lâi	接下來	partial	16		H		
+3500	麥	be̍h	麥	same	06		H		
+3501	袂赴	bē-hù	來不及	different	08		M		
+3502	鬥跤手	tàu-kha-tshiú	幫助	different	14	14f	H		
+3503	涵	hâm	涵	same	?		L	pas de définition	
+3504	圈	khian	圈	same	04		H		
+3505	棕蓑	tsang-sui	雨衣	different	05		H		
+3506	今仔	tann-á	現在	different	08		H		
+3507	佳人	ka-jîn	佳人	same	01		M		
+3508	戶橂	hōo-tīng	門檻	different	04		H		
+3509	旅	lú	旅	same	?		L	pas de définition	
+3510	槳	tsiúnn	槳	same	07		H		
+3511	痴迷	tshi-bê	著迷	same-chars-diff-use	13		H		
+3512	火烌	hué-hu	灰燼	different	06		M		
+3513	𠢕人	gâu-lâng	能人	partial	13		M		
+3514	齁	honn	打呼	different	02		M		yes
+3515	呼	honn	呼	same	?		L	pas de définition	
+3516	情面	tsîng-bīn	情面	same	11		M		
+3517	落雨天	lo̍h-hōo-thinn	下雨天	partial	06		H		
+3518	無了時	bô-liáu-sî	永無終止	partial	08		M		
+3519	請問	tshiánn-mn̄g	請問	same	16		M		
+3520	難免	lân-bián	不免	same	16		M		
+3521	風波	hong-pho	風波	same	11		M		
+3522	憂	iu	憂	same	13		H		
+3523	規矩	kui-kí	規矩	same	11		M		
+3524	廟埕	biō-tiânn	廟口	partial	07		H		
+3525	才子	tsâi-tsú	才子	same	13		M		
+3526	梁	niû	梁	same	?		L	pas de définition	
+3527	出產	tshut-sán	出產	same	09		H		
+3528	雞卵糕	ke-nn̄g-ko	蛋糕	partial	03		H		
+3529	歹看	pháinn-khuànn	難看	partial	05		M		
+3530	痠	sng	痠	same	02		H		yes
+3531	暗淡	àm-tām	暗淡	same	15		H		
+3532	心性	sim-sìng	心性	same	13		M		
+3533	舖	phòo	鋪	same-chars-diff-use	09		M		
+3534	判	phuànn	判	same	11		M		
+3535	必要	pit-iàu	必要	same	15		H		
+3536	乞	khit	乞	same	14	14b	M		
+3537	宮	kiong	宮	same	04		M		
+3538	早暗	tsá-àm	早晚	partial	08		H		
+3539	到時	kàu-sî	屆時	same	08		H		
+3540	海面	hái-bīn	海面	same	06		H		
+3541	頂港	tíng-káng	北部	different	07		H		
+3542	枕	tsím	枕	same	04		M		
+3543	禁止	kìm-tsí	禁止	same	11		M		
+3544	但	tān	但	same	16		H		
+3545	教師	kàu-su	教師	same	10		H		
+3546	有情	ū-tsîng	有情	same	13		H		
+3547	葫蘆	hôo-lôo	扁蒲	same	06		M		
+3548	口供	kháu-king	口供	same	11		H		
+3549	齒	khí	齒	same	02		H		yes
+3550	白話	pe̍h-uē	白話	same	10		H		
+3551	面子	bīn-tsú	名譽	same	11		M		
+3552	四散	sì-suànn	分散	same	14	14a	H		
+3553	菅蓁	kuann-tsin	芒草	different	06		H		
+3554	晡	poo	晡	same	08		H		
+3555	後山	āu-suann	後台	same	07		M		
+3556	督	tok	督	same	?		L	pas de définition	
+3557	嬈	hiâu	風騷	different	13		M		
+3558	指導	tsí-tō	指導	same	10		M		
+3559	感心	kám-sim	感動	partial	13		H		
+3560	拍球	phah-kiû	打球	partial	14	14f	M		
+3561	赦	sià	赦	same	11		H		
+3562	山豬	suann-ti	山豬	same	06		H		
+3563	悲慘	pi-tshám	不幸	same	15		M		
+3564	透風	thàu-hong	颳風	partial	06		H		
+3565	發明	huat-bîng	發明	same	14	14g	H		
+3566	歇熱	hioh-jua̍h	放暑假	different	10		M		
+3567	摒掃	piànn-sàu	打掃	partial	04		H		
+3568	普遍	phóo-phiàn	普通	same	15		H		
+3569	匏	pû	匏	same	06		M		
+3570	精牲	tsing-senn	牲畜	partial	06		H		
+3571	善良	siān-liông	善良	same	13		H		
+3572	送	sòng	送	same	14	14c	H		
+3573	煠	sa̍h	燙	different	03		H		
+3574	落	làu	拉	same	14	14a	M		
+3575	捷捷	tsia̍p-tsia̍p	常常	different	08		H		
+3576	媠噹噹	suí-tang-tang	美麗	different	05		H		
+3577	記持	kì-tî	記憶	partial	13		M		
+3578	大力	tuā-la̍t	用力	same-chars-diff-use	15	moved	M		
+3579	花欉	hue-tsâng	花株	partial	06		H		
+3580	雞仔囝	ke-á-kiánn	小雞	partial	06		H		
+3581	謝	tsiā	謝	same	14	14b	M		
+3582	東海	Tang-hái	東海	same	07		M		
+3583	訪問	hóng-būn	訪問	same	14	14f	H		
+3584	不止仔	put-tsí-á	非常	different	16		M		
+3585	北方	pak-hong	北方	same	07		H		
+3586	建議	kiàn-gī	辦法	same	14	14b	M		
+3587	試驗	tshì-giām	考試	same	14	14g	M		
+3588	超	tshiau	超	same	14	14e	M	dépasser, excéder	
+3589	跤腿	kha-thuí	腿	partial	02		H		yes
+3590	向	ànn	垂頭	same-chars-diff-use	14	14a	M		
+3591	佈田	pòo-tshân	插秧	different	14	14g	H		
+3592	做生理	tsò-sing-lí	做生意	partial	09		H		
+3593	哪會	ná ē	怎麼會	partial	16		H		
+3594	男子漢	lâm-tsú-hàn	大丈夫	same	01		M		
+3595	毋敢	m̄ kánn	不敢	partial	16		H		
+3596	順風	sūn-hong	順風	same	14	14f	H		
+3597	煎	tsuann	煎	same	03		H		
+3598	耳仔	hīnn-á	耳朵	partial	02		H		yes
+3599	奸雄	kan-hiông	奸巧	same	13		H		
+3600	判官	phuànn-kuann	法官	same	11		H		
+3601	無限	bû-hān	無限	same	08		M		
+3602	拜候	pài-hāu	拜會	same	14	14f	H		
+3603	薄情	po̍k-tsîng	無情	same	13		H		
+3604	外頭	guā-thâu	外邊	same	07		H		
+3605	依倚	i-uá	依靠	partial	14	14f	M		
+3606	招待	tsiau-thāi	接待	same-chars-diff-use	14	14f	H		
+3607	穿	tshng	穿	same	14	14a	M		
+3608	禮儀	lé-gî	禮儀	same	12		M		
+3609	閻君	Giâm-kun	閻君	same	12		H		
+3610	閒人	îng-lâng	閒人	same	01		M		
+3611	商	siong	商	same	09		H		
+3612	食虧	tsia̍h-khui	可憐	different	14	14e	M		
+3613	攪擾	kiáu-jiáu	打擾	partial	14	14f	M		
+3614	范	huān	范	same	?		L	pas de définition	
+3615	時時	sî-sî	常常	same-chars-diff-use	08		H		
+3616	暝時	mê--sî	夜裡	different	08		H		
+3617	童乩	tâng-ki	乩童	partial	12		H		
+3618	長	tiông	長	same	?		L	sens multiples	
+3619	有名	ū-miâ	有名	same	15		H		
+3620	鼻仔	phīnn-á	鼻子	partial	02		H		yes
+3621	東洋	Tang-iûnn	亞洲	same	07		H		
+3622	馬上	má-siōng	馬上	same	08		H		
+3623	三不五時	sam-put-gōo-sî	有時候	partial	08		H		
+3624	巷	hāng	巷	same	07		H		
+3625	資格	tsu-keh	資格	same	09		M		
+3626	做戲	tsò-hì	表演	different	10		M		
+3627	討食	thó-tsia̍h	謀生	different	09		M		
+3628	請教	tshíng-kàu	請問	same	16		M		
+3629	公學校	kong-ha̍k-hāu	公學校	same	10		H		
+3630	梯	the	梯	same	04		M		
+3631	彈	tuānn	彈	same	14	14c	M		
+3632	媽祖婆	Má-tsóo-pô	天上聖母	same	12		H		
+3633	縒	tsua̍h	縒	same	?		L	pas de définition	
+3634	嫌疑	hiâm-gî	懷疑	same	13		H		
+3635	光彩	kong-tshái	光彩	same	15		M		
+3636	翁	ong	翁	same	01		H		
+3637	臨時	lîm-sî	臨時	same	08		H		
+3638	粗糠	tshoo-khng	米糠	partial	06		M		
+3639	歹心	pháinn-sim	壞心眼	partial	13		H		
+3640	作穡人	tsoh-sit-lâng	農人	partial	09		M		
+3641	軍隊	kun-tuī	軍隊	same	11		H		
+3642	電氣	tiān-khì	電氣	same	04		M		
+3643	囡仔兄	gín-á-hiann	小男孩	different	01		H		
+3644	寮仔	liâu-á	小屋	different	04		H		
+3645	宣佈	suan-pòo	宣布	same	14	14b	H		
+3646	相借問	sio-tsioh-mn̄g	打招呼	different	14	14f	H		
+3647	扛轎	kng-kiō	抬轎	partial	14	14c	H		
+3648	尾後	bué-āu	後面	partial	07		M		
+3649	唷	--ioh	唷	same	16		M		
+3650	鼓舞	kóo-bú	鼓舞	same	13		M		
+3651	測驗	tshik-giām	考試	same	10		H		
+3652	競爭	kīng-tsing	競爭	same	14	14f	M		
+3653	圖書館	tôo-su-kuán	圖書館	same	10		H		
+3654	枋仔	pang-á	木板	different	04		H		
+3655	派出所	phài-tshut-sóo	派出所	same	11		H		
+3656	天庭	thian-tîng	天界	same	12		H		
+3657	落屎	làu-sái	腹瀉	different	02		H		yes
+3658	兩爿	nn̄g-pîng	兩邊	partial	07		M		
+3659	秫米	tsu̍t-bí	糯米	partial	03		H		
+3660	徛算	khiā-sǹg	權	different	14	14d	M		
+3661	跤桶	kha-tháng	洗衣盆	different	04		H		
+3662	卵清	nn̄g-tshing	蛋白	different	03		H		
+3663	半仙	puàn-sian	半仙	same	12		H		
+3664	洋服	iûnn-ho̍k	西裝	different	05		H		
+3665	豆油	tāu-iû	醬油	partial	03		H		
+3666	盆	phûn	盆	same	08		H		
+3667	楊桃	iûnn-tô	楊桃	same	03		M		
+3668	雨	ú	雨	same	06		H		
+3669	幸	hīng	幸	same	13		M		
+3670	齊	tsê		same	15		H		
+3671	瞞	muâ	騙	same	14	14f	M		
+3672	落難	lo̍h-lān	落難	same	14	14e	H		
+3673	冰糖	ping-thn̂g	冰糖	same	03		H		
+3674	實情	si̍t-tsîng	實情	same	15		M		
+3675	勿	bu̍t	勿	same	16		H		
+3676	名	bîng	名	same	10		M		
+3677	弟子	tē-tsú	學生	same	10		H		
+3678	屁	phuì	屁	same	02		H		yes
+3679	幼秀	iù-siù	可愛	different	05		M		
+3680	軀	su	套	different	08		H		yes
+3681	胃	uī	胃	same	02		H		yes
+3682	一概	it-khài	完全	same	16		M		
+3683	仙桃	sian-thô	仙桃	same	12		M		
+3684	論真	lūn-tsin	其實	different	16		H		
+3685	芋仔	ōo-á	芋	partial	03		M		
+3686	枵鬼	iau-kuí	貪吃	different	13		M		
+3687	制度	tsè-tōo	制度	same	11		H		
+3688	運動埕	ūn-tōng-tiânn	操場	different	07		M		
+3689	西	se	西	same	07		H		
+3690	社	siā	社	same	11		M		
+3691	剛	kong	剛	same	16		M		
+3692	累	luī	累	same	14	14f	M		yes
+3693	蓆	tshio̍h	蓆	same	04		H		
+3694	羅	lô	羅	same	?		L	pas de définition	
+3695	救兵	kiù-ping	救兵	same	11		M		
+3696	放火	pàng-hué	放火	same	14	14c	M		
+3697	檨仔	suāinn-á	芒果	different	03		H		
+3698	莊	tsng	莊	same	09		H		
+3699	說	suat	說	same	10		H		
+3700	和平	hô-pîng	和平	same	11		M		
+3701	修行	siu-hīng	修行	same	12		H		
+3702	開發	khai-huat	開發	same	14	14g	H		
+3703	開闊	khui-khuah	開闊	same	15		H		
+3704	聖	sìng	聖	same	12		M		
+3705	圳溝	tsùn-kau	大水溝	partial	06		M		
+3706	頭腦	thâu-náu	頭腦	same	02		H		yes
+3707	迎接	gîng-tsiap	迎接	same	14	14f	H		
+3708	澹糊糊	tâm-kôo-kôo	溼淋淋	different	15		H		
+3709	設立	siat-li̍p	設立	same	14	14g	M		
+3710	到尾	kàu-bué	到頭來	partial	08		H		
+3711	鯽仔魚	tsit-á-hî	鯽	partial	06		H		
+3712	中學	tiong-ha̍k	中學	same	10		H		
+3713	落塗	lo̍h-thôo	出生	different	14	14e	H		
+3714	複雜	ho̍k-tsa̍p	複雜	same	15		H		
+3715	試看	tshì-khuànn	試一試	partial	14	14g	M		
+3716	移民	î-bîn	移民	same	11		H		
+3717	柴箍	tshâ-khoo	圓木塊	different	04		M		
+3718	腥臊	tshenn-tshau	豐富	different	03		M		
+3719	肩胛頭	king-kah-thâu	肩膀	partial	02		H		yes
+3720	投機	tâu-ki	投機	same	13		M		
+3721	對照	tuì-tsiàu	對照	same	14	14d	M		
+3722	蕹菜	ìng-tshài	空心菜	partial	03		H		
+3723	屎礐仔	sái-ha̍k-á	廁所	different	04		H		
+3724	採用	tshái-iōng	採用	same	14	14d	M		
+3725	趒	tiô	跳動	different	14	14a	H		
+3726	唱	tshiàng	唱	same	14	14b	M		
+3727	食物	si̍t-bu̍t	食品	same	03		H		
+3728	性質	sìng-tsit	本質	same	15		H		
+3729	奉待	hōng-thāi	服侍	different	01		M		
+3730	白蔥蔥	pe̍h-tshang-tshang	蒼白	partial	15		H		
+3731	閘	tsa̍h	擋	same	14	14c	M		
+3732	角色	kak-sik	角色	same	10		M		
+3733	尻脊	kha-tsiah	背脊	partial	02		H		yes
+3734	窟仔	khut-á	坑	different	06		M		
+3735	昏去	hūn--khì	昏迷	partial	02		H		yes
+3736	伐	hua̍h	伐	same	14	14a	M		
+3737	大囝	tuā-kiánn	大兒子	partial	01		H		
+3738	寒人	kuânn--lâng	冬天	different	08		H		
+3739	盒	a̍h	盒	same	04		H		
+3740	跋桮	pua̍h-pue	擲筊	different	12		H		
+3741	掰	pué	撥	same-chars-diff-use	14	14c	H		
+3742	厭𤺪	ià-siān	厭倦	partial	13		H		
+3743	早慢	tsá-bān	早晚	partial	08		H		
+3744	洗面	sé-bīn	洗臉	partial	02		H		yes
+3745	流星	liû-tshenn/liû-tshinn	流星	same	06		H		
+3746	夫君	hu-kun	相公	different	01		H		
+3747	損失	sún-sit	損失	same	09		M		
+3748	酒矸	tsiú-kan	酒瓶	partial	04		H		
+3749	上等	siōng-tíng	高級	same	15		H		
+3750	票	phiò	票	same	09		M		
+3751	賢	hiân	賢	same	13		H		
+3752	公婆	kong-pô	列祖列宗	same-chars-diff-use	12		H		
+3753	商業	siong-gia̍p	商業	same	09		H		
+3754	霧	bū	冒	same	06		H		
+3755	後	hiō	後	same	16		M		
+3756	協力	hia̍p-li̍k	協力	same	16	moved	M		
+3757	金瓜	kim-kue	南瓜	partial	03		M		
+3758	調查	tiâu-tsa	調查	same	14	14b	M		
+3759	借錢	tsioh tsînn	借錢	same	09		H		
+3760	妹	muē	妹	same	01		H		
+3761	魂	hûn	魂	same	13		M		
+3762	陽	iông	陽	same	06		L	sens abstrait (yin-yang)	
+3763	斷	tuān	斷	same	14	14c	H		
+3764	下落	hē-lo̍h	下落	same	07		H		
+3765	芥菜	kuà-tshài	芥菜	same	03		M		
+3766	被單	phuē-tuann	被單	same	04		H		
+3767	沖	tshiong	沖	same	14	14c	H		
+3768	坐位	tsē-uī	座位	partial	04		H		
+3769	菜籃	tshài-nâ	菜籃	same	04		H		
+3770	牙	gê	牙	same	02		H		yes
+3771	智	tì	智	same	13		L	pas de définition, sens probable	
+3772	暗示	àm-sī	暗示	same	14	14b	H		
+3773	可惡	khó-ònn	可惡	same	13		M		
+3774	來往	lâi-óng	交際	same-chars-diff-use	14	14f	M		
+3775	蓋	kuà	蓋子	same-chars-diff-use	04		H		
+3776	磅	pōng	量	same	08		H		
+3777	序細	sī-sè	後輩	different	01		H		
+3778	家長	ka-tiúnn	家長	same	01		H		
+3779	閃避	siám-pī	逃避	same	14	14a	M		
+3780	絞	ká	捲	same	14	14c	H		
+3781	裂	li̍h	裂	same	14	14e	M		
+3782	偏	phian	偏	same	15		H		
+3783	新郎	sin-lông	新人	same	01		M		
+3784	杉	sam	杉	same	06		H		
+3785	登	ting	登	same	14	14a	H		
+3786	入學	ji̍p-o̍h	入學	same	10		H		
+3787	巷仔	hāng-á	巷	partial	07		H		
+3788	暗頓	àm-tǹg	晚飯	different	03		H		
+3789	放學	pàng-o̍h	放學	same	10		H		
+3790	恥笑	thí-tshiò	嘲笑	same-chars-diff-use	13		M		
+3791	寮	liâu	小屋	same	04		H		
+3792	暗暝	àm-mê	夜裡	different	08		H		
+3793	通用	thong-iōng	通用	same	15		M		
+3794	同窗	tông-tshong	同學	same	10		H		
+3795	小可仔	sió-khuá-á	稍微	different	16		H		
+3796	棄	khì	棄	same	14	14c	M		
+3798	醫治	i-tī	醫療	same	02		H		yes
+3799	後代	āu-tāi	後代	same	01		H		
+3800	牽連	khan-liân	涉及	same	14	14f	M		
+3801	結論	kiat-lūn	結論	same	10		M		
+3802	大房	tuā-pâng	長房	partial	01		H		
+3803	確定	khak-tīng	確定	same	15		M		
+3804	照常	tsiàu-siông	照常	same	16		H		
+3805	托	thuh	托	same	14	14c	H		
+3806	晝	tàu	午餐	different	08		H		
+3807	獨	ta̍k	獨	same	15		M		
+3808	少	siáu	少	same	08		M		
+3809	嚷	jiáng	嚷	same	14	14b	H		
+3810	委員	uí-uân	委員	same	11		H		
+3811	掩	am	遮	same	14	14c	M		
+3812	掛	khuà	掛	same	14	14c	H		
+3813	至少	tsì-tsió	至少	same	16		H		
+3814	清閒	tshing-îng	悠閒	same	15		H		
+3815	觀察	kuan-tshat	觀察	same	14	14d	M		
+3816	眩	hîn	暈	same	02		H		yes
+3817	薅	khau	除草	different	14	14g	H		
+3818	燙	thǹg	燙	same	03		H		
+3819	搣	me	抓	different	14	14c	H		
+3820	銃子	tshìng-tsí	子彈	partial	11		M		
+3821	坦橫	thán-huâinn	打橫	partial	07		M		
+3822	生湠	senn-thuànn	生育繁殖	partial	01		M		
+3823	迵	thàng	通	different	14	14a	M		
+3824	荏懶	lám-nuā	懶惰	partial	13		M		
+3825	蚶	ham	蚶	same	06		M		
+3826	劃	ue̍h		same	10		M		
+3827	句讀	kù-tāu	句讀	same	10		H		
+3828	是非	sī-hui	是非	same	11		M		
+3829	風霜	hong-song	風霜	same	06		M		
+3830	孤鳥	koo-tsiáu	孤獨的人	partial	13		M		
+3831	喪事	song-sū	喪事	same	12		H		
+3832	好款	hó-khuán	教養差	different	13		M		
+3833	透流	thàu-lâu	有始有終	different	?		L	définition et sens divergents	
+3834	改革	kái-kik	改變	same-chars-diff-use	14	14e	H		
+3835	監督	kàm-tok	監督	same	11		M		
+3836	銀行	gîn-hâng	銀行	same	09		H		
+3837	愁	tshiû	愁	same	13		H		
+3838	陷害	hām-hāi	陷害	same	14	14f	M		
+3839	損	sún	損	same	14	14e	M		
+3840	心悶	sim-būn	想念	different	13		H		
+3841	勢面	sè-bīn	形勢	partial	11		M		
+3842	得罪	tik-tsuē	得罪	same	14	14f	H		
+3843	病人	pēnn-lâng	病人	same	02		H		yes
+3844	麻	muâ	麻	same	06		H		
+3845	印仔	ìn-á	印章	partial	04		M		
+3846	賤	tsiān	賤	same	13		M		
+3847	人格	jîn-keh	人格	same	13		H		
+3848	暗中	àm-tiong	私下	same	16		H		
+3849	達	ta̍t	達	same	14	14a	M		
+3850	相	siunn	相	same	?		L	sens très polysémique	
+3851	下山	hā-san	下山	same	14	14a	H		
+3852	負擔	hū-tam	承擔	same	09		M		
+3853	管理	kuán-lí	安排	same	09		M		
+3854	外人	guā-lâng	外人	same	01		H		
+3855	褲帶	khòo-tuà	腰帶	partial	05		H		
+3856	車路	tshia-lōo	馬路	partial	07		H		
+3857	放屁	pàng-phuì	嚇	same	02		M		yes
+3858	臭臊	tshàu-tsho	生青味	different	15		M		
+3859	奸	kan	奸	same	13		H		
+3860	途	tôo	回	same	07		H		
+3861	保證	pó-tsìng	保證	same	09		M		
+3862	提出	thê-tshut	拿出	same	14	14c	H		
+3863	豬公	ti-kong	存錢筒	same	?		L	sens rituel ou tirelire	
+3864	新式	sin-sik	新式	same	15		H		
+3865	神經	sîn-king	神經	same	02		M		yes
+3866	欠用	khiàm-īng	需要	different	09		H		
+3867	皇宮	hông-kiong	皇宮	same	07		M		
+3868	芋	ōo	芋	same	03		M		
+3869	股	kóo	捲	same	08		H		yes
+3870	接納	tsiap-la̍p	接受	same	14	14d	M		
+3871	癢	tsiūnn	癢	same	02		H		yes
+3872	天色	thinn-sik	天色	same	06		H		
+3873	連累	liân-luī	拖累	same	14	14f	M		
+3874	弓	king	弓	same	11		M		
+3875	下頦	ē-hâi	下巴	partial	02		H		yes
+3876	燒金	sio-kim	燒紙錢	partial	12		H		
+3877	收入	siu-ji̍p	收入	same	09		H		
+3878	練習	liān-si̍p	練習	same	10		H		
+3879	巧	khá	巧	same	15		M		
+3880	臨	lîm	臨	same	14	14a	M		
+3881	柱	thiāu	柱子	same	04		H		
+3882	單純	tan-sûn	單純	same	15		H		
+3883	安靜	an-tsīng	安靜	same	15		H		
+3884	破壞	phò-huāi	破壞	same	14	14e	M		
+3885	培養	puê-ióng	培養	same	10		M		
+3886	軒	hian	軒	same	04		L	pas de définition	
+3887	墓	bōng		same	12		M		
+3888	仙人	sian-jîn	神仙	same	12		H		
+3889	災難	tsai-lān	災難	same	11		M		
+3890	財寶	tsâi-pó	財寶	same	09		H		
+3891	表面	piáu-bīn	表面	same	15		L	surface ou apparence	
+3892	英	ing	英	same	?		L	sens incertain	
+3893	空	khòng	零	same	08		H		
+3895	恐怖	khióng-pòo	可怕	same	13		H		
+3896	樹葉	tshiū-hio̍h	樹葉	same	06		H		
+3897	蝶	tia̍p	蝶	same	06		H		
+3898	贊	tsān	贊	same	14	14b	M		
+3899	姊仔	tsí--á	姊姊	partial	01		H		
+3900	海翁	hái-ang	鯨魚	different	06		H		
+3901	丈姆	tiūnn-ḿ	岳母	different	01		H		
+3902	化學	huà-ha̍k	化學	same	10		H		
+3903	色彩	sik-tshái	色彩	same	15		M		
+3904	犁田	lê-tshân	犁田	same	06		M		
+3905	暗頭仔	àm-thâu-á	傍晚	different	08		H		
+3906	鐵枝路	thih-ki-lōo	鐵路	partial	07		H		
+3907	撒	suah	撒	same	03		M		
+3908	會使得	ē-sái-tit	可以	different	16		H		
+3909	偏	phinn	占便宜	same-chars-diff-use	14	14f	M		
+3910	倒反	tò-píng	倒反	same	16		H		
+3911	喙舌	tshuì-tsi̍h	舌頭	partial	02		H		yes
+3912	卓	toh	卓	same	04		M		
+3913	囉嗦	lo-so	囉哩囉嗦	same	13		M		
+3914	米芳	bí-phang	爆米花	partial	03		H		
+3915	喙角	tshuì-kak	嘴角	partial	02		H		yes
+3916	病疼	pēnn-thiànn	病痛	partial	02		H		yes
+3917	濫	lām	摻	different	14	14c	M		
+3918	沖	tshiâng	沖	same	04		M		
+3919	東風	tang-hong	東風	same	06		H		
+3920	敆	kap	配合	different	14	14c	M		
+3921	挈	khe̍h	拿	different	14	14c	H		
+3922	喈	kainn	叫	different	06		M		
+3923	桔仔	kiat-á	金桔	partial	03		M		
+3924	拄搪	tú-tn̄g	遇到	different	14	14e	M		
+3925	遛	liù	脫	same-chars-diff-use	14	14c	M		
+3926	蝶	ia̍h	蝶	same	06		H		
+3927	拉	la	拉	same	14	14c	H		
+3928	橄欖	kan-ná	草橄欖	same	03		M		
+3929	癮頭	giàn-thâu	傻瓜	different	13		M		
+3930	𡳞脬	lān-pha	陰囊	different	02		H		yes
+3931	桑材	sng-tsâi	桑椹	partial	06		H		
+3932	駛車	sái-tshia	開車	partial	07		H		
+3933	刀仔	to-á	小刀	partial	04		H		
+3934	當面	tng-bīn	面對面	same	16		M		
+3935	吞忍	thun-lún	忍耐	partial	13		M		
+3936	樹梅	tshiū-m̂	楊梅	partial	03		M		
+3937	公開	kong-khai	公開	same	11		M		
+3938	肉粽	bah-tsàng	粽子	same	03		H		
+3939	告示	kò-sī	告示	same	11		H		
+3940	四季	sù-kuì	四季	same	08		H		
+3941	好漢	hó-hàn	大丈夫	same	13		M		
+3942	相請	sio-tshiánn	請客	partial	14	14f	H		
+3943	推	thui	打	same	14	14c	M		yes
+3944	漆	tshat	漆	same	04		M		
+3945	算盤	sǹg-puânn	算盤	same	09		H		
+3946	鹹菜	kiâm-tshài	酸菜	partial	03		H		
+3947	鬚	tshiu	鬚	same	02		H		yes
+3948	另	līng	另	same	16		M		
+3949	相倚	sio-uá	相互靠近	same	14	14a	M		
+3950	小生	sió-sing	小生	same	01		M		
+3951	景色	kíng-sik	風景	same-chars-diff-use	06		H		
+3952	天良	thian-liông	良心	same	13		H		
+3953	炎	iām	猛	same	06		M		
+3954	秦	tsîn	秦	same	11		L	dynastie, nom propre	
+3955	斯文	su-bûn	優美	same	15		M		
+3956	努力	lóo-li̍k	努力	same	14	14g	M		
+3957	前後	tsîng-āu	前後	same	08		M		
+3958	價錢	kè-tsînn	價錢	same	09		H		
+3959	削	siah	競爭	same	03		M		
+3960	部	pōo	部	same	11		M		
+3961	征	tsing	征	same	11		L	sens peu clair	
+3962	攤	thuann	攤	same	09		M		
+3963	檢查	kiám-tsa	檢查	same	14	14g	M		
+3964	投降	tâu-hâng	投降	same	11		H		
+3965	海洋	hái-iûnn	海洋	same	06		H		
+3966	墘	kînn	邊	different	07		M		
+3967	舞台	bú-tâi	舞臺	same	10		M		
+3968	驕傲	kiau-ngōo	驕傲	same	13		H		
+3969	掖	iā	播	different	14	14c	M		
+3970	董	táng	董	same	11		L	pas de définition	
+3971	生	tshenn		same	15		M		
+3972	橫	huâinn		same	13		M		
+3973	字典	jī-tián	字典	same	10		H		
+3974	別日	pa̍t-ji̍t	改日	partial	08		H		
+3975	尊嚴	tsun-giâm	莊嚴	same	13		M		
+3976	樹木	tshiū-ba̍k	樹	same	06		H		
+3977	提醒	thê-tshénn	提醒	same	14	14b	H		
+3978	包仔	pau-á	包子	partial	03		H		
+3979	頌	siōng	頌	same	12		M		
+3980	利息	lī-sik	利息	same	09		H		
+3981	諍	tsènn		n/a	14	14b	H		
+3982	叫是	kiò-sī	以為	different	13		M		
+3983	白鶴	pe̍h-ho̍h	白鶴	same	06		H		
+3984	談論	tâm-lūn	談論	same	10		M		
+3985	食薰	tsia̍h-hun	吸煙	different	03	moved	M		
+3986	鄉鎮	hiong-tìn	鄉鎮	same	07		H		
+3987	微微仔	bî-bî-á	一點點	different	16		M		
+3988	海賊	hái-tsha̍t	海盜	same	11		M		
+3989	老公仔	lāu-kong-á	老人	partial	01		H		
+3990	頭拄仔	thâu-tú-á	剛才	different	08		H		
+3991	喂	--ueh	喂	same	16		H		
+3992	範	pān	範	same	?		L	pas de définition, sens normatif	
+3993	忠	tiong	忠	same	13		H		
+3994	元	guân	元	same	09		M		
+3995	凡若	huān-nā		n/a	?		L	pas de définition	
+3996	日常	ji̍t-siông	日常	same	08		H		
+3997	縖	hâ	圍	different	14	14c	H		
+3998	好空	hó-khang	好事情	partial	?		L	sens flou (occasion)	
+3999	𬦰山	peh-suann		n/a	14	14a	H		
+4000	改良	kái-liông	改善	same	14	14e	H		
+4005	喊	hiàm	叫	same	14	14b	H		
+4027	無要緊	bô iàu-kín	沒關係	different	16		M		
+4043	街仔路	ke-á-lōo	街道	partial	07		H		
+4044	看顧	khuànn-kòo	照顧	same	14	14f	M		
+4051	婦	hū	妻子	same	01		H		
+4055	根據	kin-kì	根據	same	16		M		
+4059	夏	hā	夏	same	08		H		
+4060	副	hù	雙	same	08		M		
+4075	水準	tsuí-tsún	水平	same	15		M		
+4076	成親	sîng-tshin	結婚	same	01		M		
+4090	聽好	thìng-hó	可以	different	16		M		
+4101	著	tù	著	same	16		M		
+4125	辭典	sû-tián	字典	same	10		H		
+4141	搬戲	puann-hì	表演	different	10		M		
+4149	明瞭	bîng-liâu	瞭解	same	10		M		
+4183	謹慎	kín-sīn	小心	same	13		H		
+4191	經理	king-lí	經理	same	09		H		
+4208	出喙	tshut-tshuì	說話	different	10		M		
+4212	精光	tsing-kong	聰明	different	13		M		
+4233	聽	thìng	聽	same	14	14b	L	renvoi, écouter	
+4248	畏寒	uì-kuânn	害怕	different	02		H		yes
+4255	心願	sim-guān	希望	same	13		H		
+4265	更	kenn		same	08		H		
+4266	鳥	niáu	鳥	same	06		H		
+4273	書	su	書	same	10		H		
+4287	藍	nâ	藍	same	15		M		
+4290	並	phīng	最	same-chars-diff-use	16		M		
+4308	餾	liū	複習	different	03		L	gloss 複習 incohérente	
+4309	久	kiú	久	same	08		H		
+4319	突然	tu̍t-jiân	突然	same	16		M		
+4323	必須	pit-su	必須	same	16		M		
+4347	倒爿	tò-pîng	左邊	different	07		H		
+4364	蹔	tsàm	踢	same-chars-diff-use	14	14c	M		
+4371	存範	tshûn-pān	打算	different	13		M		
+4378	驚人	kiann--lâng	害怕	same-chars-diff-use	13		H		
+4381	眼前	gán-tsiân	現在	same	08		H		
+4407	束	sok	把	same	14	14c	H		
+4430	原早	guân-tsá	以前	different	08		H		
+4457	地頭	tē-thâu	地方	same	07		H		
+4482	老板	láu-pán	先生	same	09		H		
+4483	特殊	ti̍k-sû	特別	same	15		H		
+4490	燒烙	sio-lō	發燒	partial	15		M		yes
+4494	禮物	lé-bu̍t	禮物	same	12		M		
+4497	存心	tsûn-sim	打算	same	13		M		
+4509	錶仔	pió-á	手錶	partial	04		H		
+4511	弓蕉	king-tsio	香蕉	partial	03		H		
+4514	食頭路	tsia̍h-thâu-lōo	上班	different	09		H		
+4516	綠	li̍k	綠	same	15		M		
+4520	四海	sù-hái	世界	same	07		M		
+4522	順利	sūn-lī	舒服	same	15		M		
+4523	申請	sin-tshíng	要求	same	14	14b	M		
+4524	作田	tsoh-tshân	工作	partial	09		M		
+4529	從	tsîng	從	same	16		H		
+4536	據	kì	在	same-chars-diff-use	16		M		
+4555	感恩	kám-un	謝謝	same	13		M		
+4562	身	sian	隻	same	08		M		
+4563	承	sîn	接	same	14	14c	M		
+4587	小	siáu	小	same	15		H		
+4590	作業	tsok-gia̍p	作業	same	09		M		
+4593	司機	su-ki	司機	same	07		H		
+4628	信用	sìn-iōng	相信	same	13		M		
+4650	沿	iân	層	same	16		L	gloss 層 incohérente	
+4654	放	hòng	放	same	14	14c	H		
+4671	碗公	uánn-kong	碗	same	04		H		
+4676	問	būn	問	same	14	14b	H		
+4679	還	huân	還	same	14	14c	H		
+4692	六	lio̍k	六	same	08		H		
+4695	來賓	lâi-pin	客人	same	01		H		
+4714	朕	tīm	我	same	16		H		
+4739	濟少	tsē-tsió	多少	partial	08		M		
+4745	往擺	íng-pái	以前	different	08		H		
+4749	膨	phòng	包	same	14	14e	M		
+4760	若準	nā-tsún	如果	different	16		H		
+4781	當咧	tng-teh	正在	different	16		H		
+4803	提議	thê-gī	辦法	same	14	14b	H		
+4812	火車頭	hué-tshia-thâu	火車站	same	07		H		
+4818	帽	bō	帽子	same	05		H		
+4823	掠做	lia̍h-tsò	以為	different	13		M		
+4829	題	tê	題	same	10		H		
+4833	青	tshing	藍	same	15		M		
+4845	長	tióng	多	same-chars-diff-use	08		M		
+4852	猛	mé	快	same	15		H		
+4856	舊底	kū-té	以前	different	08		H		
+4865	耳	ní	耳朵	same	02		H		yes
+4871	數學	sòo-ha̍k	數學	same	10		H		
+4875	恬靜	tiām-tsīng	安靜	partial	15		H		
+4907	門	bûn	門	same	04		H		
+4921	躼跤	lò-kha	高	different	05		M		
+4947	飲	ím	喝	same	03		H		
+4949	後頭	āu-thâu	後面	same	07		H		
+4968	店頭	tiàm-thâu	商店	partial	07		M		
+5043	跤踏車	kha-ta̍h-tshia	自行車	partial	07		H		
+5048	捆	khún	把	same	14	14c	H		
+5050	如果	jû-kó/lû-kó	如果	same	16		H		
+5061	買	mái	買	same	09		M		
+5074	歲	suè	年	same	08		H		
+5085	復習	ho̍k-si̍p	復習	same	10		H		
+5088	半	puàn	半	same	08		H		
+5101	願望	guān-bōng	希望	same	13		H		
+5144	相見	sio-kìnn	見面	same	14	14f	H		
+5150	穡	sit	工作	same	09		M		
+5173	人頭	lâng-thâu	人	same	01		H		
+5178	咻	hiu	叫	different	14	14b	H		
+5195	過往	kuè-óng	過去	same-chars-diff-use	02		H		yes
+5199	食晝	tsia̍h-tàu	中午	different	08		H		
+5207	渴	khuah	渴	same	02		H		yes
+5214	飛行機	hue-lîng-ki	飛機	partial	07		H		
+5227	交	kiau	和	same-chars-diff-use	16		H		
+5253	向時	hiàng-sî	以前	different	08		H		
+5255	按怎樣	án-tsuánn-iūnn	怎麼	partial	16		H		
+5263	感冒	kám-mōo	感冒	same	02		H		yes
+5264	被	phuē		same	04		H		
+5271	康健	khong-kiān	健康	same	02		M		yes
+5316	死亡	sí-bông	過去	same	14	14e	H		
+5346	跟	kin	跟	same	14	14f	H		
+5347	魚	gû	魚	same	06		H		
+5357	矮	é	矮	same	15		H		
+5408	應話	ìn-uē	回答	different	10		H		
+5424	細的	sè--ê	弟弟	different	01		H		
+5432	渴	khat	渴	same	02		L	sens soif ou désir	yes
+5441	外	guē	外	same	07		H		
+5449	麥仔酒	be̍h-á-tsiú	啤酒	partial	03		H		
+5452	燒熱	sio-jua̍h	發燒	partial	15		L	gloss 溫暖 vs 發燒	yes
+5460	頂真	tíng-tsin	認真	partial	13		H		
+5476	上午	siōng-ngóo	上午	same	08		H		
+5483	更	kìng	更	same	16		M		
+5486	孝孤	hàu-koo	吃	different	12		M		
+5490	同事	tông-sū	同事	same	09		H		
+5491	色水	sik-tsuí	顏色	partial	15		M		
+5512	冰箱	ping-siunn	冰箱	same	04		H		
+5539	直透	ti̍t-thàu	一直	partial	16		M		
+5545	張	tng	張	same	14	14f	M		
+5548	條	liâu	條	same	04		M		
+5574	時候	sî-hāu	時候	same	08		H		
+5599	剾	khau	刮	different	14	14c	H		
+5611	跤兜	kha-tau	附近	different	07		H		
+5614	這站	tsit-tsām	現在	different	08		H		
+5621	倒手爿	tò-tshiú-pîng	左邊	different	07		H		
+5628	恬去	tiām--khì	安靜	different	15		M		
+5633	喂	--eh	喂	same	16		M		
+5642	飯碗	pn̄g-uánn	工作	same	04		M		
+5667	掛意	kuà-ì	擔心	same	13		H		
+5696	甌仔	au-á	杯子	different	04		H		
+5746	老	láu	老	same	15		M		
+5755	讀	tho̍k	讀	same	10		H		
+5768	呢	nî	呢	same	16		H		
+5786	停睏	thîng-khùn	休息	different	14	14h	M		yes
+5822	認捌	jīn-bat	認識	partial	10		M		
+5841	正手爿	tsiànn-tshiú-pîng	右邊	different	07		H		
+5858	隔轉工	keh-tńg-kang	明天	different	08		H		
+5880	色緻	sik-tī	顏色	partial	15		M		
+5887	十	si̍p	十	same	08		H		
+5893	應聲	ìn-siann	回答	same	10		H		
+5913	收山	siu-suann	結束	different	14	14e	H		
+5924	無張持	bô-tiunn-tî	突然	different	16		M		
+5925	火車站	hué-tshia-tsām	火車站	same	07		H		
+5928	百	pik	百	same	08		H		
+5934	少	siàu	少	same	08		M		
+5940	不才	put-tsâi	我	same	16		H		
+5947	操心	tshau-sim	擔心	same	13		H		
+5950	少歲	tsió-huè	年輕	different	15		M		
+5989	醫生館	i-sing-kuán	醫院	partial	02		H		yes
+6041	尻脊後	kha-tsiah-āu	後面	partial	07		H		
+6061	號	lō	號	same	08		L	sens non précisé	
+6064	馬仔	bé-á	馬	partial	06		H		
+6080	迒	hānn	越	different	14	14a	M		
+6094	長	tiúnn	長	same	09		M		
+6096	快	khuìnn	快	same	15		H		
+6107	馬	ma	馬	same	06		H		
+6167	隨後	suî-āu	一會兒	same-chars-diff-use	08		H		
+6168	多少	to-siáu	多少	same	16		H		
+6187	運轉手	ūn-tsuán-tshiú	司機	different	07		H		
+6206	同學	tông-ha̍k	同學	same	10		H		
+6217	後頭厝	āu-thâu-tshù	後面	partial	01		H		
+6227	拿	ná	拿	same	14	14c	H		
+6244	地盤	tē-puânn	地方	same	07		M		
+6245	援助	uān-tsōo	幫助	same	14	14f	H		
+6257	姓	sìng	姓	same	01		H		
+6274	客戶	kheh-hōo	客人	same	09		H		
+6279	選擇	suán-ti̍k	選擇	same	14	14d	M		
+6295	跟隨	kin-suî	跟	same	14	14f	H		
+6298	交插	kau-tshap	關係	different	01		M		
+6307	手錶仔	tshiú-pió-á	手錶	partial	04		H		
+6334	讓	jiōng		same	14	14f	M	laisser, céder	
+6355	向	hiàng	向	same	16		H		
+6376	店面	tiàm-bīn	商店	same	07		M		
+6394	他	thann	他	same	16		H		
+6397	便宜	pân-gî	便宜	same	15		H		
+6399	對答	tuì-tap	回答	same	10		H		
+6421	掛心	khuà-sim	擔心	same	13		H		
+6436	鬥鬧熱	tàu-lāu-jia̍t	幫忙	different	14	14f	H		
+6447	腿	thuí	腿	same	02		H		yes
+6449	洗浴	sé-i̍k	洗澡	partial	02		M		yes
+6457	頂晡	tíng-poo	上午	different	08		H		
+6475	奕	ī	玩	different	14	14f	H		
+6507	煞尾	suah-bué	結束	different	08		M		
+6510	考驗	khó-giām	考試	same	10		H		
+6513	服裝	ho̍k-tsong	衣服	same	05		H		
+6544	相仝	sio-kāng	相同	partial	15		H		
+6551	對同	tuì-tâng	相同	partial	15		H		
+6573	機場	ki-tiûnn	機場	same	07		H		
+6580	協助	hia̍p-tsōo	幫助	same	14	14f	H		
+6661	抑是	ia̍h-sī	或者	different	16		H		
+6678	貫	kǹg	穿	same	14	14a	M		
+6700	貓	bâ	貓	same	06		H		
+6755	晴	tsîng	晴	same	06		H		
+6779	步頻	pōo-pîn	突然	different	16		L	gloss 突然 incohérente	
+6807	草	tshó	草	same	13		M		
+6815	寢	tshím	剛才	same	08		H		
+6825	新鮮	sin-sian	新鮮	same	15		H		
+6847	破膽	phuà-tánn	害怕	same	13		H		
+6851	甜粅粅	tinn-but-but	甜	partial	03		M		
+6854	一睏仔	tsi̍t-khùn-á	一會兒	partial	08		H		
+6866	玩	uán	玩	same	14	14f	M		
+6874	牽的	khan--ê	妻子	different	01		H		
+6885	盤仔	puânn-á	盤子	partial	04		H		
+6886	膽膽	tám-tám	害怕	different	13		H		
+6947	菜單	tshài-tuann	菜單	same	03		H		
+6960	囷	khûn	把	different	14	14c	H		
+7002	載	tsáinn	年	same	08		H		
+7009	目𥍉仔	ba̍k-nih-á	馬上	different	08		H		
+7011	真誠	tsin-tsiânn	很	same-chars-diff-use	16		H		
+7017	往生	óng-sing	過去	same	02		M		yes
+7081	再見	tsài-kiàn	再見	same	10		M		
+7084	向前	hiòng-tsiân	以前	same	07		M		
+7089	勻	ûn	層	different	08		M		
+7091	白	pi̍k	白	same	15		M		
+7107	下午	hā-ngóo	下午	same	08		H		
+7131	請求	tshíng-kiû	要求	same	14	14b	H		
+7145	把	pá	把	same	16		M		
+7167	種	tsiòng	種	same	06		M		
+7170	後斗	āu-táu	後面	partial	07		M		
+7223	綠	lio̍k	綠	same	15		M		
+7226	想	sióng	想	same	13		H		
+7279	鄰	lîn	旁邊	same	07		H		
+7305	廚房	tû-pâng	廚房	same	04		H		
+7336	姆仔	ḿ--á	媽媽	different	01		H		
+7381	捨施	siá-sì	給	different	14	14c	H		
+7423	人面	lâng-bīn	人	partial	01		M		
+7424	會用得	ē-īng-tit	可以	different	16		H		
+7438	告訴	kò-sòo	告訴	same	11		M		
+7501	手機仔	tshiú-ki-á	手機	partial	04		H		
+7512	云	ûn	云	same	14	14b	M		
+7525	傘	suànn	傘	same	04		H		
+7554	影戲	iánn-hì	電影	partial	10		M		
+7560	面會	biān-huē	見面	partial	14	14f	H		
+7661	伴手	phuānn-tshiú	禮物	different	12		M		
+7674	寒	gân	冷	different	06		M		
+7684	熁	hannh	熱	different	15		M		
+7693	差	tsua̍h	差	same	15		M		
+7707	上	tshiūnn	上	same	14	14a	H		
+7729	夠夠	kàu-kàu	非常	different	16		M		
+7757	著病	tio̍h-pēnn	生病	partial	02		H		yes
+7768	影片	iánn-phìnn	電影	same	10		M		
+7783	要	iau	要	same	16		M		
+7793	熥	thn̄g	熱	different	03		H		
+7809	信篤	sìn-táu	相信	partial	13		M		
+7833	贊助	tsàn-tsōo	幫助	same	14	14f	H		
+7911	先的	sian--ê	老師	different	10		H		
+7966	發燒	huat-sio	發燒	same	02		H		yes
+7998	看	khàn	看	same	14	14f	L	garder, surveiller	
+8048	無意中	bô-ì-tiong	突然	different	16		M		
+8078	忙	bâng	忙	same	15		H		
+8126	商店	siong-tiàm	商店	same	07		M		
+8133	料想	liāu-sióng	以為	same	13		M		
+8136	尻川後	kha-tshng-āu	後面	partial	07		H		
+8157	覓	bā	找	same	14	14c	M		
+8170	癗	luî	包	different	02		M		yes
+8172	贌	pa̍k	包	different	09		M		
+8195	藉	tsioh	藉	same	16		L	sens non fourni	
+8203	新奇	sin-kî	新鮮	same	15		M		
+8208	往時	íng-sî	以前	different	08		H		
+8257	電子	tiān-tsú	電子	same	10		M		
+8264	少缺	tsió-khueh	多	different	08		M		
+8267	清潔	tshing-kiat	乾淨	same	15		H		
+8268	睏房	khùn-pâng	房間	partial	04		H		
+8283	強強	kiōng-kiōng	幾乎	different	16		M		
+8305	到	tàu	到	same	14	14a	H		
+8336	有通	ū-thong	可以	different	16		M		
+8340	時辰	sî-sîn	時候	partial	08		H		
+8423	學仔	o̍h-á	學校	partial	10		H		
+8424	包穩	pau-ún	一定	different	16		M		
+8433	綿爛	mî-nuā	認真	different	13		M		
+8485	借	tsià	借	same	09		M		
+8510	無打緊	--bô-tánn-kín	沒關係	different	16		M		
