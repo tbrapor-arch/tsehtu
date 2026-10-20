@@ -1534,8 +1534,10 @@ function play(src, btn) {
   player.play().catch(() => { if (btn) { btn.disabled = true; btn.textContent = 'No recording here'; } });
 }
 // a dialogue line, word by word, with the dictionary's recordings. These are citation forms: the tone changes of
-// connected speech (spoken tones) are not heard, and words without a recording are skipped.
-function lineAudio(tokens) { return tokens.map((t, i) => [t, i]).filter(([t]) => t.w && t.w.id && DATA.dict[t.w.id] && DATA.dict[t.w.id].audio); }
+// connected speech (spoken tones) are not heard. A word the dictionary has no recording of is played from its
+// recorded pieces (sub-words or single syllables, `audio_seq`, see build_app.py); only words with none are skipped.
+function wordAudio(t) { const c = t.w && t.w.id && DATA.dict[t.w.id]; return !c ? [] : c.audio ? [c.audio] : c.audio_seq || []; }
+function lineAudio(tokens) { return tokens.map((t, i) => [t, i]).filter(([t]) => wordAudio(t).length); }
 let lineRun = 0;
 async function playLine(li, btn) {
   const run = ++lineRun, L = DATA.lessons.find(l => location.hash.endsWith('-' + l.id));
@@ -1555,7 +1557,12 @@ async function playLine(li, btn) {
     if (run !== lineRun) return;
     const el = document.querySelector(`[data-tok="L${li}:${i}"]`);
     $$('.tok.say').forEach(x => x.classList.remove('say')); if (el) el.classList.add('say');
-    await new Promise(res => { try { if (player) player.pause(); player = new Audio(DATA.dict[t.w.id].audio); player.onended = res; player.onerror = res; player.play().catch(res); } catch { res(); } });
+    const srcs = wordAudio(t);
+    for (let j = 0; j < srcs.length; j++) {
+      if (run !== lineRun) return;
+      await new Promise(res => { try { if (player) player.pause(); player = new Audio(srcs[j]); player.onended = res; player.onerror = res; player.play().catch(res); } catch { res(); } });
+      if (j < srcs.length - 1) await new Promise(r => setTimeout(r, 30));
+    }
     await new Promise(r => setTimeout(r, 120));
   }
   if (run === lineRun) { btn.classList.remove('on'); $$('.tok.say').forEach(x => x.classList.remove('say')); }

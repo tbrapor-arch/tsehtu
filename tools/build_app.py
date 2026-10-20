@@ -3,6 +3,7 @@
   python3 tools/build_app.py
 """
 import base64
+from collections import Counter
 import datetime
 import glob
 import io
@@ -286,7 +287,60 @@ syllabus = yaml.safe_load(open(os.path.join(ROOT, 'course/syllabus.yaml'), encod
 # (run by the GitHub workflow; the MOE site cannot be reached from everywhere). Cards get a ▶ only if the file is there.
 AUDIO = os.path.join(ROOT, 'app/dist/audio/w')
 os.makedirs(os.path.join(ROOT, 'app/dist'), exist_ok=True)
-need = sorted({c['moe_id'] for c in dictionary.values() if c.get('moe_id')}, key=int)
+# Words with no recording of their own (cards from iTaigi / 台華, MOE words the ministry's table doesn't match, words
+# the course builds itself). 1) The ministry recorded the same Hàn-jī with the same reading: that is the word's own
+# recording, used everywhere. 2) Otherwise the word is cut into the fewest recorded pieces (sub-words, then single
+# syllables with the same reading), played one after the other by the line player (`moe_seq`).
+REC_KEY = {}
+for _hk, _sid in ((SUTIAN or {}).get('w') or {}).items():
+    _h, _, _t = _hk.partition('|')
+    REC_KEY.setdefault(f'{_h}|{key(_t)}', _sid)
+
+
+def rec_id(h, k):
+    if not k:
+        return None
+    h = sutian._h(h)
+    return REC_KEY.get(f'{h}|{k}') or (REC_KEY.get(f"{h.replace('台', '臺')}|{k}") if '台' in h else None)
+
+
+def rec_pieces(seg, k):
+    """[(id or None, syllables)] covering the word: most syllables recorded first, then fewest pieces."""
+    chars, syls = UNIT_RE.findall(seg), k.split('-')
+    if len(chars) != len(syls):
+        return []
+    n = len(syls)
+    best = [(0, 0, [])] + [None] * n            # (unrecorded syllables, pieces, plan) for the first i syllables
+    for i in range(n):
+        if best[i] is None:
+            continue
+        miss, cnt, plan = best[i]
+        for j in range(i + 1, min(n, i + 4) + 1):
+            rid = rec_id(''.join(chars[i:j]), '-'.join(syls[i:j]))
+            if rid is None and j > i + 1:
+                continue
+            cand = (miss + (0 if rid else 1), cnt + 1, plan + [(rid, j - i)])
+            if best[j] is None or cand[:2] < best[j][:2]:
+                best[j] = cand
+    return best[n][2]
+
+
+n_same = n_seq = 0
+for c in dictionary.values():
+    if c.get('moe_id') or not c.get('tkey'):
+        continue
+    rid = rec_id(c['hanji'], c['tkey'])
+    if rid:
+        c['moe_id'] = rid
+        n_same += 1
+        continue
+    plan = rec_pieces(c['hanji'], c['tkey'])
+    if any(r for r, _ in plan):
+        c['moe_seq'] = [r for r, _ in plan if r]
+        c['seq_full'] = all(r for r, _ in plan)
+        n_seq += 1
+need = sorted({c['moe_id'] for c in dictionary.values() if c.get('moe_id')}
+              | {r for c in dictionary.values() for r in c.get('moe_seq', [])}, key=int)
 open(os.path.join(ROOT, 'app/dist/audio-needed.txt'), 'w').write('\n'.join(need) + '\n')
 need_ex = sorted({c['example']['leku'] for c in dictionary.values() if c.get('example', {}).get('leku')})
 open(os.path.join(ROOT, 'app/dist/audio-needed-examples.txt'), 'w').write('\n'.join(need_ex) + '\n')
@@ -301,6 +355,65 @@ for c in dictionary.values():
     if c.get('moe_id') and os.path.exists(os.path.join(AUDIO, c['moe_id'] + '.mp3')):
         c['audio'] = f"audio/w/{c['moe_id']}.mp3"
         have += 1
+for c in dictionary.values():
+    seq = [f'audio/w/{r}.mp3' for r in c.pop('moe_seq', []) if os.path.exists(os.path.join(AUDIO, r + '.mp3'))]
+    full = c.pop('seq_full', False)
+    if seq and not c.get('audio'):
+        c['audio_seq'] = seq
+        if not full:
+            c['seq_part'] = True     # some syllables have no recording at all
+# ---- report: every word a dialogue line plays (or skips) without a recording of its own
+#      app/dist/audio-missing.txt: cause, Hàn-jī, Tâi-lô, times used, lessons (P1 = 進修 1)
+_miss = {}
+
+
+def _lid(L):
+    return f"P{L['id'] - 100}" if L['id'] > 100 else str(L['id'])
+
+
+_tok_total = 0
+for L in lessons:
+    for ln in L['lines']:
+        for t in ln['tokens']:
+            w = t.get('w')
+            if not w:
+                continue
+            _tok_total += 1
+            c = dictionary.get(w['id']) if w.get('id') else None
+            if c and c.get('audio'):
+                continue
+            if not w.get('id'):
+                cause = 'line not split into words' if len(ln['tokens']) == 1 else 'no card'
+            elif c.get('audio_seq'):
+                cause = 'pieces (some syllables silent)' if c.get('seq_part') else 'pieces'
+            elif c.get('moe_id') or c.get('moe_seq'):
+                cause = 'recording not downloaded'
+            elif c.get('source') == 'moe':
+                cause = 'MOE word, no id in the ministry table'
+            elif c.get('source'):
+                cause = f"{c['source']} word, not recorded by MOE"
+            else:
+                cause = 'course compound, not recorded by MOE'
+            k = (cause, w['h'], w['t'])
+            e = _miss.setdefault(k, [0, []])
+            e[0] += 1
+            if _lid(L) not in e[1]:
+                e[1].append(_lid(L))
+_by_cause = Counter()
+for (cause, _, _), (cnt, _) in _miss.items():
+    _by_cause[cause] += cnt
+with open(os.path.join(ROOT, 'app/dist/audio-missing.txt'), 'w', encoding='utf-8') as f:
+    f.write('# words played by a dialogue ▶ without their own recording (cause, Hàn-jī, Tâi-lô, uses, lessons)\n')
+    for (cause, h, tl), (cnt, ls) in sorted(_miss.items(), key=lambda x: (x[0][0], -x[1][0])):
+        f.write(f"{cause}\t{h}\t{tl}\t{cnt}\t{','.join(ls[:6])}{f' +{len(ls) - 6}' if len(ls) > 6 else ''}\n")
+print(f'line audio: {_tok_total} word tokens; own recording found for {n_same} non-MOE cards, pieces for {n_seq}; '
+      f'without own recording: ' + ', '.join(f'{k} {v}' for k, v in _by_cause.most_common()))
+if os.environ.get('GITHUB_ACTIONS') and have:
+    print(f'::notice title=Line audio::{_tok_total} word tokens in lessons; {sum(_by_cause.values())} without their own '
+          f'recording: ' + ' | '.join(f'{k} {v}' for k, v in _by_cause.most_common()))
+    for cause, _ in _by_cause.most_common(6):
+        top = sorted(((cnt, h, tl, ls) for (c_, h, tl), (cnt, ls) in _miss.items() if c_ == cause), reverse=True)[:25]
+        print(f'::notice title=No recording: {cause}::' + ' · '.join(f'{h} {tl} ×{cnt} ({ls[0]})' for cnt, h, tl, ls in top))
 # ---- grammar sheets: every course line that uses each structure (course/grammar.yaml)
 grammar = yaml.safe_load(open(os.path.join(ROOT, 'course/grammar.yaml'), encoding='utf-8'))['groups']
 for g in grammar:
@@ -356,7 +469,6 @@ rdata = {'voice': rec_meta.get('voice', 'native speaker'), 'lessons': [{'id': L[
 rjson = json.dumps(rdata, ensure_ascii=False)
 rtpl = rtpl.replace('/*__FONTS__*/', tailo_font_css() + '\n' + ext_font_css(rjson)).replace('/*__DATA__*/null', rjson.replace('</', '<\\/'))
 open(os.path.join(ROOT, 'app/dist/record.html'), 'w', encoding='utf-8').write(unicodedata.normalize('NFC', rtpl))
-from collections import Counter  # noqa: E402
 _src = Counter((c.get('gloss_src') or ('written/course' if c.get('gloss') else 'none')).split(':')[0] for c in dictionary.values())
 print('English on word cards:', ', '.join(f'{k} {v}' for k, v in _src.most_common()))
 open(os.path.join(ROOT, 'app/dist/english-auto.txt'), 'w', encoding='utf-8').write(''.join(
