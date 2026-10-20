@@ -18,20 +18,20 @@ dialogue:
   - {n: 12, speaker: A-peh, hanji: "你愛啉看覓這款，是逐年當中做了上細膩的一逝。", tailo: "Lí ài lim khuànn-māi tsit khuán, sī ta̍k nî tang-tiong tsò liáu siōng sè-jī ê tsi̍t tsuā.", en: "You should try this kind — it's the row we make with the most care each year."}
   - {n: 13, speaker: Sam, hanji: "逐逝的味敢攏無仝？", tailo: "Ta̍k tsuā ê bī kám lóng bô-kâng?", en: "Does every row taste different?"}
   - {n: 14, speaker: A-peh, hanji: "差淡薄仔。日頭照較濟的彼逝，味上重。", tailo: "Tsha tām-po̍h-á. Ji̍t-thâu tsiò khah tsē ê hit tsuā, bī siōng tāng.", en: "A little. The row that gets more sun has the strongest flavour."}
-  - {n: 15, speaker: Sam, hanji: "紙囥的字寫「本山最高品質」，「最」佮「上」是仝意思無？", tailo: "Tsuá khǹg--ê jī siá “pún-suann tsuè-ko phín-tsit”, “tsuè” kah “siōng” sī kāng ì-sù--bô?", en: "The words on the tin say 'this mountain's finest quality' — do 'tsuè' and 'siōng' mean the same thing?"}
+  - {n: 15, speaker: Sam, hanji: "罐仔頂的字寫「本山最高品質」，「最」佮「上」是仝意思無？", tailo: "Kuàn-á tíng ê jī siá “pún-suann tsuè-ko phín-tsit”, “tsuè” kah “siōng” sī kāng ì-sù--bô?", en: "The words on the tin say 'this mountain's finest quality' — do 'tsuè' and 'siōng' mean the same thing?"}
   - {n: 16, speaker: A-peh, hanji: "仝款，毋過「最」較捷用佇寫的，「上」才是日常講話捷用的。你這馬會曉共本地的茶介紹予人矣。", tailo: "Kāng-khuán, m̄-koh “tsuè” khah tsia̍p īng tī siá--ê, “siōng” tsiah sī ji̍t-siông kóng-uē tsia̍p īng--ê. Lí tsit-má ē-hiáu kā pún-tē ê tê kài-siāu hōo lâng--ah.", en: "Same thing — but 'tsuè' is used more in writing, while 'siōng' is the one used more in everyday speech. You can introduce the local tea to people now!"}
 notes:
-  - {ref: 1, topic: vocab, text: "逝 tsuā = classifier for a row (of plants) or a trip (lesson 62's table). 整齊 tsíng-tsê = neat, orderly."}
-  - {ref: 2, topic: vocab, text: "挽茶 bán tê = pick tea (挽, lesson 56's 挽草). 法度 huat-tōo = a way (to do something), from 無法度 bô-huat-tōo (lesson 51)."}
-  - {ref: 4, topic: grammar, text: "枝 ki = classifier for pens and sticks (lesson 8); here for a single leaf-bearing sprig: 一枝 tsi̍t ki. 一心二葉 tsi̍t sim nn̄g hio̍h 'one bud, two leaves' is the picker's own term for the tenderest growth."}
-  - {ref: 6, topic: vocab, text: "曝日 pha̍k-ji̍t = dry in the sun (lesson 50). 消 siau = reduce, dissipate: 消水 'lose moisture'. 揀 kíng = sort, pick through. 挕掉 hìnn-tiāu = throw away."}
-  - {ref: 8, topic: vocab, text: "發酵 huat-kànn = ferment; 予伊發酵煞 'stop it fermenting' (予 + V + 煞, lesson 56's suah). 焙 puē (in 焙茶 puē-tê, this lesson's title) = roast/dry over heat, different from 曝 pha̍k (sun) and 炒 tshá (a wok). 度數 tōo-sòo = (here) temperature setting. 反味 huán-bī = the flavour turns/spoils."}
+  - {ref: 1, topic: vocab, text: "逝 tsuā = classifier for a row (of plants) or a trip. 整齊 tsíng-tsê = neat, orderly."}
+  - {ref: 2, topic: vocab, text: "挽茶 bán tê = pick tea (挽 as in 挽草, lesson 40). 法度 huat-tōo = a way (to do something), from 無法度 bô-huat-tōo (lesson 59)."}
+  - {ref: 4, topic: grammar, text: "枝 ki = classifier for long thin things (支 ki, lesson 33, for pens); here for a single leaf-bearing sprig: 一枝 tsi̍t ki. 一心二葉 tsi̍t sim nn̄g hio̍h 'one bud, two leaves' is the picker's own term for the tenderest growth."}
+  - {ref: 6, topic: vocab, text: "曝日 pha̍k-ji̍t = dry in the sun (lesson 36). 消 siau = reduce, dissipate: 消水 'lose moisture'. 揀 kíng = sort, pick through. 挕掉 hìnn-tiāu = throw away."}
+  - {ref: 8, topic: vocab, text: "發酵 huat-kànn = ferment; 予伊發酵煞 'stop it fermenting' (予 + V + 煞; 煞 suah, lesson 33). 焙 puē (in 焙茶 puē-tê, this lesson's title) = roast/dry over heat, different from 曝 pha̍k (sun) and 炒 tshá (a wok). 度數 tōo-sòo = (here) temperature setting. 反味 huán-bī = the flavour turns/spoils."}
   - {ref: 9, topic: vocab, text: "複雜 ho̍k-tsa̍p = complicated. 心血 sim-hiat = effort, painstaking care (心力)."}
-  - {ref: 10, topic: grammar, text: "雖然 X，毋過 Y = although X, still Y (lesson 57's 毋過 alone already does this; 雖然 makes the contrast explicit and is slightly more formal). 跤手 kha-tshiú (lesson 56) here means 'manual labour, hands'."}
-  - {ref: 12, topic: grammar, text: "V 了 liáu + adjective = having done it, (turns out) …: 做了上細膩 'done with the most care' (了 here is the lesson 61 result-liáu, not the aspect one)."}
-  - {ref: 14, topic: vocab, text: "差 tsha = differ, be off by: 差淡薄仔 'a little different' (差 + 淡薄仔, lesson 50's 'a little')."}
+  - {ref: 10, topic: grammar, text: "雖然 X，毋過 Y = although X, still Y (毋過 alone already does this; 雖然 makes the contrast explicit and is slightly more formal). 跤手 kha-tshiú (lesson 40) here means 'manual labour, hands'."}
+  - {ref: 12, topic: grammar, text: "V 了 liáu + adjective = having done it, (turns out) …: 做了上細膩 'done with the most care' (了 liáu 'finish', lesson 16)."}
+  - {ref: 14, topic: vocab, text: "差 tsha = differ, be off by: 差淡薄仔 'a little different' (淡薄仔 'a little', lesson 10)."}
   - {ref: 15, topic: grammar, text: "最 tsuè = most (上/上蓋's more literary synonym): common on signs, labels and in writing. 本山 pún-suann 'this (very) mountain' uses 本 pún in its older sense 'this, the original' (lesson 66's 本 is the classifier use of the same character)."}
-  - {ref: 16, topic: grammar, text: "最 tsuè is the written register's word for 'most'; 上 siōng is the one used in ordinary speech (lesson 59). 捷 tsia̍p = often, frequently — a literary-sounding word that is nonetheless common. 日常 ji̍t-siông = everyday, ordinary. 本地 pún-tē = local, this area."}
+  - {ref: 16, topic: grammar, text: "最 tsuè is the written register's word for 'most'; 上 siōng is the one used in ordinary speech (lesson 10). 捷 tsia̍p = often, frequently — a literary-sounding word that is nonetheless common. 日常 ji̍t-siông = everyday, ordinary. 本地 pún-tē = local, this area."}
 new_words:
   - {tailo: tê-suann, hanji: 茶山, en: "tea mountain"}
   - {tailo: tê-tsâng, hanji: 茶欉, en: "tea bush"}

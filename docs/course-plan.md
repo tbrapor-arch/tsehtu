@@ -32,8 +32,10 @@ Targets for lessons 64–100 (32 new lessons, 5 reviews, about 15 new words each
 top 2,000 ≈ 60 %, whole core ≈ 47 %. Check with `python3 tools/coverage.py` (after `make db`).
 
 ## Lessons 64–100
-Progress: 64–70 written (20 Oct 2026). Placed so far: 咧欲, 連…嘛, 就 tsiū, 後來, 予 passive, 本, 枝, 逝, 最, 雖然,
-看見, 但是, 學生, 別人 (and 毋管, 因為…所以, 有夠 recycled). Sandhi / pronunciation notes: 65 (tone groups), 66 (Lukang accent).
+Progress: 64–77 written (20 Oct 2026). Placed so far: 咧欲, 連…嘛, 就 tsiū, 後來, 予 passive, 本, 枝, 逝, 最, 雖然,
+看見, 但是, 學生, 別人, 若是, 上蓋, 老爸, 爸母 (and 毋管, 毋但, 袂輸, 因為…所以, 有夠 recycled). False friends added: 巧, 無疑,
+斟酌, 耍, 熟似, 摻, 性命, 近來, 大人. Sandhi / pronunciation notes: 65 (tone groups), 66 (Lukang accent), 74 (仔 á sandhi).
+Still to place from the list above: 囉 / 哩 (78), proverbs and literary readings (stage C, 78+).
 `course/syllabus.yaml` holds the topic (`focus`) and, for each new lesson, a `plan:` with the gaps to fill. Rules:
 - Dialogues 15–18 lines until about 84, then 18–20; never more than 20. Reviews about 10 lines.
 - 14–16 new words per lesson, never a word already declared new in an earlier lesson (37 words were declared twice

@@ -1,0 +1,59 @@
+id: 75
+title: {en: "Traditional medicine", tailo: "Hàn-io̍h", hanji: "漢藥"}
+review: false
+setting: "Sam has caught a cold. A-má takes him to the old herbal medicine shop at the end of the street."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "你鼻水一直流，嚨喉閣疼，是寒著矣。", tailo: "Lí phīnn-tsuí it-ti̍t lâu, nâ-âu koh thiànn, sī kuânn--tio̍h--ah.", en: "Your nose keeps running and your throat hurts: you've caught a chill."}
+  - {n: 2, speaker: Sam, hanji: "我去西醫遐提藥仔就好。", tailo: "Guá khì se-i hia the̍h io̍h-á tō hó.", en: "I'll just go and get medicine from a Western doctor."}
+  - {n: 3, speaker: A-má, hanji: "先來阮熟似的漢藥店，予頭家看覓。", tailo: "Sing lâi guán si̍k-sāi ê hàn-io̍h-tiàm, hōo thâu-ke khuànn-māi.", en: "First come to the herbal shop I know, and let the owner have a look."}
+  - {n: 4, speaker: Thâu-ke, hanji: "少年的，你這幾工是毋是定定啉冰的？", tailo: "Siàu-liân--ê, lí tsit kuí kang sī m̄ sī tiānn-tiānn lim ping--ê?", en: "Young man, have you been drinking a lot of cold drinks these last few days?"}
+  - {n: 5, speaker: Sam, hanji: "是啊，天氣遐熱，我逐工啉兩杯冰茶。", tailo: "Sī--ah, thinn-khì hiah jua̍h, guá ta̍k-kang lim nn̄g pue ping tê.", en: "Yes, it's so hot, I drink two glasses of iced tea a day."}
+  - {n: 6, speaker: Thâu-ke, hanji: "你的體質較虛、較冷，冰的愛少啉。若是體質較燥的人，才會使食較涼的。", tailo: "Lí ê thé-tsit khah hi, khah líng, ping--ê ài tsió lim. Nā-sī thé-tsit khah sò ê lâng, tsiah ē-sái tsia̍h khah liâng--ê.", en: "Your constitution is on the weak, cold side, so drink fewer cold things. Only people with a dry, hot constitution should eat a lot of cooling food."}
+  - {n: 7, speaker: Sam, hanji: "冷佮熱，毋是講溫度？", tailo: "Líng kah jua̍h, m̄ sī kóng un-tōo?", en: "Don't hot and cold mean temperature?"}
+  - {n: 8, speaker: Thâu-ke, hanji: "漢醫講的冷熱，是講食物佮身體的性。親像西瓜較冷，薑母較熱。", tailo: "Hàn-i kóng ê líng-jua̍h, sī kóng tsia̍h-mi̍h kah sin-thé ê sìng. Tshin-tshiūnn si-kue khah líng, kiunn-bó khah jua̍h.", en: "In Chinese medicine, hot and cold describe the nature of foods and of the body. Watermelon, for example, is cold; ginger is hot."}
+  - {n: 9, speaker: A-má, hanji: "所以寒天阮攏食薑母鴨、麻油雞來補。", tailo: "Sóo-í kuânn-thinn guán lóng tsia̍h kiunn-bó-ah, muâ-iû-ke lâi póo.", en: "That's why in winter we eat ginger duck and sesame-oil chicken to build ourselves up."}
+  - {n: 10, speaker: Thâu-ke, hanji: "我共你摻幾味藥材，燉雞湯啉。內底有當歸、枸杞。", tailo: "Guá kā lí tsham kuí bī io̍h-tsâi, tūn ke-thng lim. Lāi-té ū tong-kui, kóo-kí.", en: "I'll mix you a few herbs to stew in chicken soup. There's angelica root and goji berries in it."}
+  - {n: 11, speaker: Sam, hanji: "漢藥敢真正有效？", tailo: "Hàn-io̍h kám tsin-tsiànn ū-hāu?", en: "Does herbal medicine really work?"}
+  - {n: 12, speaker: Thâu-ke, hanji: "漢藥較慢，是顧身體。若是發燒、病較重，猶是愛去看醫生。", tailo: "Hàn-io̍h khah bān, sī kòo sin-thé. Nā-sī huat-sio, pēnn khah tāng, iáu-sī ài khì khuànn i-sing.", en: "Herbal medicine works slowly; it's for looking after your health. If you have a fever or are seriously ill, you should still see a doctor."}
+  - {n: 13, speaker: A-má, hanji: "伊講了真公道。性命上要緊，毋通鐵齒。", tailo: "I kóng liáu tsin kong-tō. Sènn-miā siōng iàu-kín, m̄-thang thih-khí.", en: "That's fair. Your life comes first, so don't be stubborn."}
+  - {n: 14, speaker: Sam, hanji: "近來我嘛較會注意食物，毋過冰的實在真僫戒。", tailo: "Kīn-lâi guá mā khah ē tsù-ì tsia̍h-mi̍h, m̄-koh ping--ê si̍t-tsāi tsin oh kài.", en: "Lately I've been paying more attention to what I eat, but cold drinks are really hard to give up."}
+  - {n: 15, speaker: Thâu-ke, hanji: "大人嘛仝款，攏知影，毋過做袂到。慢慢仔來。", tailo: "Tuā-lâng mā kāng-khuán, lóng tsai-iánn, m̄-koh tsò bē kàu. Bān-bān-á lâi.", en: "Adults are the same: they all know, but they can't do it. Take it slowly."}
+  - {n: 16, speaker: A-má, hanji: "轉去我燉予你啉，啉了好好仔睏一暝。", tailo: "Tńg--khì guá tūn hōo lí lim, lim liáu hó-hó-á khùn tsi̍t mê.", en: "When we get home I'll stew it for you; drink it and have a good night's sleep."}
+notes:
+  - {ref: 1, topic: vocab, text: "寒著 kuânn--tio̍h = catch a chill, catch cold (感冒 kám-mōo is the medical word). 鼻水 phīnn-tsuí = runny nose; 嚨喉 nâ-âu = throat (lesson 24)."}
+  - {ref: 2, topic: vocab, text: "西醫 se-i = Western medicine, a Western doctor; 漢醫 hàn-i (line 8) = Chinese medicine, its doctor; 漢藥 hàn-io̍h = herbal medicine (中藥). 漢 hàn, not 中: the older Taigi name."}
+  - {ref: 3, topic: false-friend, text: "熟似 si̍k-sāi = be acquainted with, know (someone) (認識). 頭家 thâu-ke = shop owner, boss (lesson 4)."}
+  - {ref: 6, topic: grammar, text: "若是 nā-sī = if (如果, 要是): a fuller form of 若 nā (lesson 23), common at the start of a clause. 體質 thé-tsit = (body) constitution. 虛 hi = weak, run down. 燥 sò = dry, 'heaty'; 涼 liâng = cool, cooling."}
+  - {ref: 8, topic: culture, text: "In Chinese medicine foods are 'cold' (冷, 涼) or 'hot' (熱, 燥): watermelon, bitter melon and iced drinks cool; ginger, sesame oil and lamb warm. 性 sìng = nature; 薑母 kiunn-bó = (mature) ginger."}
+  - {ref: 9, topic: vocab, text: "補 póo = build up one's strength with food or tonics (進補): winter is the season for 薑母鴨 ginger duck and 麻油雞 sesame-oil chicken. 寒天 kuânn-thinn = winter."}
+  - {ref: 10, topic: false-friend, text: "摻 tsham = mix in, add (加入). 味 bī = classifier for herbs in a prescription. 藥材 io̍h-tsâi = medicinal herbs. 燉 tūn = stew, double-boil."}
+  - {ref: 12, topic: vocab, text: "顧 kòo = look after, take care of. 醫生 i-sing = doctor."}
+  - {ref: 13, topic: false-friend, text: "性命 sènn-miā = life (生命), not 'fate'. 鐵齒 thih-khí = stubborn, refusing to believe ('iron teeth'), Taigi-only. 公道 kong-tō = fair, reasonable."}
+  - {ref: 14, topic: false-friend, text: "近來 kīn-lâi = lately, recently (最近). 實在 si̍t-tsāi = really, truly. 戒 kài = give up (a habit)."}
+  - {ref: 15, topic: false-friend, text: "大人 tuā-lâng = adult, grown-up (成人), not 'Your Excellency'."}
+new_words:
+  - {tailo: kuânn--tio̍h, hanji: 寒著, en: "catch a chill"}
+  - {tailo: se-i, hanji: 西醫, en: "Western medicine, doctor"}
+  - {tailo: hàn-i, hanji: 漢醫, en: "Chinese medicine, doctor"}
+  - {tailo: hàn-io̍h, hanji: 漢藥, en: "herbal medicine"}
+  - {tailo: si̍k-sāi, hanji: 熟似, en: "be acquainted with"}
+  - {tailo: thé-tsit, hanji: 體質, en: "constitution"}
+  - {tailo: hi, hanji: 虛, en: "weak, run down"}
+  - {tailo: liâng, hanji: 涼, en: "cool"}
+  - {tailo: nā-sī, hanji: 若是, en: "if"}
+  - {tailo: póo, hanji: 補, en: "build up (with food or tonics)"}
+  - {tailo: tsham, hanji: 摻, en: "mix in, add"}
+  - {tailo: io̍h-tsâi, hanji: 藥材, en: "medicinal herbs"}
+  - {tailo: tūn, hanji: 燉, en: "stew"}
+  - {tailo: sènn-miā, hanji: 性命, en: "life"}
+  - {tailo: kīn-lâi, hanji: 近來, en: "lately"}
+  - {tailo: tuā-lâng, hanji: 大人, en: "adult"}
+exercises:
+  translate:
+    - {tailo: "Lí phīnn-tsuí it-ti̍t lâu, sī kuânn--tio̍h--ah.", hanji: "你鼻水一直流，是寒著矣。", en: "Your nose keeps running: you've caught a chill."}
+    - {tailo: "Nā-sī huat-sio, iáu-sī ài khì khuànn i-sing.", hanji: "若是發燒，猶是愛去看醫生。", en: "If you have a fever, you should still see a doctor."}
+    - {tailo: "Sènn-miā siōng iàu-kín, m̄-thang thih-khí.", hanji: "性命上要緊，毋通鐵齒。", en: "Your life comes first, so don't be stubborn."}
+  fill:
+    - {tailo: "Guá kā lí ___ kuí bī io̍h-tsâi.", hanji: "我共你___幾味藥材。", answer: "tsham", answer_hanji: "摻", en: "I'll mix you a few herbs."}
+    - {tailo: "___ guá mā khah ē tsù-ì tsia̍h-mi̍h.", hanji: "___我嘛較會注意食物。", answer: "Kīn-lâi", answer_hanji: "近來", en: "Lately I've been paying more attention to what I eat."}
+audio: []

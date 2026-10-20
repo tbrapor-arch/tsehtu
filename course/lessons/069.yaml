@@ -22,12 +22,12 @@ dialogue:
 notes:
   - {ref: 1, topic: vocab, text: "物價 bu̍t-kè = prices (in general, of goods). 開 khai = spend (money); 開錢 khai-tsînn = spend money (lesson title)."}
   - {ref: 2, topic: vocab, text: "退休 thè-hiu = retire. 薪水 sin-suí = salary, wages. 開銷 khai-siau = (one's) expenses."}
-  - {ref: 3, topic: grammar, text: "毋管 X，攏 Y = no matter X, Y (lesson 57), recycled here as the lesson's main structure: 毋管生活按怎變，咱逐家攏愛會曉儉."}
-  - {ref: 4, topic: grammar, text: "因為 X，所以 Y = because X, so Y (lessons 51/59's 因為 and 所以 used together). 拍工 phah-kang = do paid work, especially casual or part-time (打工). 收入 siu-ji̍p = income."}
+  - {ref: 3, topic: grammar, text: "毋管 X，攏 Y = no matter X, Y (lesson 52), recycled here as the lesson's main structure: 毋管生活按怎變，咱逐家攏愛會曉儉."}
+  - {ref: 4, topic: grammar, text: "因為 X，所以 Y = because X, so Y (因為, lesson 44, and 所以, lesson 50, used together). 拍工 phah-kang = do paid work, especially casual or part-time (打工). 收入 siu-ji̍p = income."}
   - {ref: 5, topic: grammar, text: "別人 pa̍t-lâng = other people, somebody else — combined here with 毋管 for 'no matter what others think' (毋管別人按怎想)."}
   - {ref: 6, topic: vocab, text: "這世人 tsit-sì-lâng = one's whole life, this lifetime."}
   - {ref: 7, topic: vocab, text: "堅持 kian-tshî = stick to, insist on. 底 té here means a reserve, something to fall back on (lit. 'a bottom/base'): 有儉就有底."}
-  - {ref: 9, topic: vocab, text: "小可仔 sió-khuá-á = a little, small things (lesson 50). 咖啡 ka-pi = coffee."}
+  - {ref: 9, topic: vocab, text: "小可仔 sió-khuá-á = a little, small things (lesson 24). 咖啡 ka-pi = coffee."}
   - {ref: 10, topic: vocab, text: "人生 jîn-sing = (one's) life, a lifetime."}
   - {ref: 11, topic: vocab, text: "反悔 huán-hué = regret, have second thoughts — the word MOE gives for 'regret', even though it looks like 'go back on a promise' at first glance (false-friend-adjacent). 好空 hó-khang = a good thing, a good opportunity."}
   - {ref: 12, topic: vocab, text: "按算 àn-sǹg = a plan, to plan (also 'budget' in this sense). 數 sòo = a figure, a number (literary register)."}

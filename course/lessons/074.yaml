@@ -1,0 +1,59 @@
+id: 74
+title: {en: "Pets", tailo: "Tshī káu-á tshī niau-á", hanji: "飼狗仔飼貓仔"}
+review: false
+setting: "A-bîng's new flat allows pets. He and Sam go to A-hun's house, where her cat has just had kittens."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "新厝會使飼動物，我想欲飼一隻貓仔。", tailo: "Sin tshù ē-sái tshī tōng-bu̍t, guá siūnn-beh tshī tsi̍t tsiah niau-á.", en: "Pets are allowed in the new flat. I'd like to get a cat."}
+  - {n: 2, speaker: Sam, hanji: "哪會毋飼狗仔？狗仔較乖，閣會陪你去散步。", tailo: "Ná ē m̄ tshī káu-á? Káu-á khah kuai, koh ē puê lí khì sàn-pōo.", en: "Why not a dog? Dogs are better behaved, and they'll keep you company on walks."}
+  - {n: 3, speaker: A-bîng, hanji: "狗仔逐工愛牽出去，我上班無閒。貓仔較會曉家己照顧家己。", tailo: "Káu-á ta̍k-kang ài khan--tshut-khì, guá siōng-pan bô-îng. Niau-á khah ē-hiáu ka-kī tsiàu-kòo ka-kī.", en: "A dog has to be taken out every day, and I'm busy at work. Cats are better at looking after themselves."}
+  - {n: 4, speaker: A-hun, hanji: "阮兜的貓仔生四隻細隻的，恁家己揀。", tailo: "Guán tau ê niau-á senn sì tsiah sè-tsiah--ê, lín ka-kī kíng.", en: "Our cat has had four little ones. Take your pick."}
+  - {n: 5, speaker: Sam, hanji: "這隻烏的，尾溜長長，足古錐！", tailo: "Tsit tsiah oo--ê, bué-liu tn̂g-tn̂g, tsiok kóo-tsui!", en: "This black one, with the long tail, is so cute!"}
+  - {n: 6, speaker: A-hun, hanji: "伊上愛耍，毋過有時仔會咬人。", tailo: "I siōng ài sńg, m̄-koh ū-sî-á ē kā lâng.", en: "That one loves playing most, but sometimes it bites."}
+  - {n: 7, speaker: A-bîng, hanji: "無要緊，細隻的咬袂疼。", tailo: "Bô-iàu-kín, sè-tsiah--ê kā bē thiànn.", en: "Doesn't matter, the little ones' bites don't hurt."}
+  - {n: 8, speaker: Sam, hanji: "隔壁的狗仔一直吠，敢會驚著伊？", tailo: "Keh-piah ê káu-á it-ti̍t puī, kám ē kiann--tio̍h i?", en: "The dog next door keeps barking. Won't it frighten the kitten?"}
+  - {n: 9, speaker: A-hun, hanji: "慣勢就好。阮的貓仔佮狗仔、鴨仔攏做伙大漢。", tailo: "Kuàn-sì tō hó. Guán ê niau-á kah káu-á, ah-á lóng tsò-hué tuā-hàn.", en: "It'll get used to it. Our cats grew up together with dogs and ducks."}
+  - {n: 10, speaker: A-bîng, hanji: "伊愛食啥物？愛買飼料無？", tailo: "I ài tsia̍h siánn-mih? Ài bé tshī-liāu--bô?", en: "What does it eat? Do I need to buy pet food?"}
+  - {n: 11, speaker: A-hun, hanji: "飼料就好，毋通予伊食人食的物件，傷鹹。逐年閣愛紮去予獸醫看。", tailo: "Tshī-liāu tō hó, m̄-thang hōo i tsia̍h lâng tsia̍h ê mi̍h-kiānn, siunn kiâm. Ta̍k nî koh ài tsah khì hōo siù-i khuànn.", en: "Pet food is fine. Don't give it people food, it's too salty. And take it to the vet once a year."}
+  - {n: 12, speaker: Sam, hanji: "阮細漢的時，厝裡飼兔仔，閣有一隻鳥仔。", tailo: "Guán sè-hàn ê sî, tshù--lí tshī thòo-á, koh ū tsi̍t tsiah tsiáu-á.", en: "When I was little we kept rabbits at home, and a bird."}
+  - {n: 13, speaker: Sam, hanji: "毋過我發現，「兔仔」的「兔」，聽起來佮平常的變調無仝款。", tailo: "M̄-koh guá huat-hiān, “thòo-á” ê “thòo”, thiann--khí-lâi kah pîng-siông ê piàn-tiāu bô kāng-khuán.", en: "But I've noticed that the 'thòo' of 'thòo-á' doesn't sound like the usual tone change."}
+  - {n: 14, speaker: A-hun, hanji: "著，「仔」頭前的字有家己的變調。你講毋著，人嘛聽有，免驚。", tailo: "Tio̍h, “á” thâu-tsîng ê jī ū ka-kī ê piàn-tiāu. Lí kóng m̄-tio̍h, lâng mā thiann ū, bián kiann.", en: "Right, a syllable before 'á' has its own tone change. Even if you get it wrong, people will understand you, don't worry."}
+  - {n: 15, speaker: A-bîng, hanji: "好，我決定矣：飼這隻烏貓仔，號做「烏糖」。", tailo: "Hó, guá kuat-tīng--ah: tshī tsit tsiah oo niau-á, hō-tsò “Oo-thn̂g”.", en: "Right, I've decided: I'll take this black kitten and call it 'Brown Sugar'."}
+  - {n: 16, speaker: Sam, hanji: "烏糖，以後你就是阮的家己人矣！", tailo: "Oo-thn̂g, í-āu lí tō sī guán ê ka-kī-lâng--ah!", en: "Brown Sugar, from now on you're one of the family!"}
+notes:
+  - {ref: 1, topic: vocab, text: "飼 tshī = keep (an animal), feed (lesson 40); 動物 tōng-bu̍t = animal. 貓仔 niau-á = cat; 狗仔 káu-á = dog."}
+  - {ref: 2, topic: vocab, text: "陪 puê = keep someone company. 散步 sàn-pōo = take a walk."}
+  - {ref: 4, topic: vocab, text: "生 senn = give birth. 細隻 sè-tsiah = small (of animals); 細隻的 'the little ones'."}
+  - {ref: 5, topic: vocab, text: "尾溜 bué-liu = tail. 古錐 kóo-tsui = cute, Taigi-only."}
+  - {ref: 6, topic: false-friend, text: "耍 sńg = play (玩) — Mandarin 耍 is 'show off, play tricks'. 咬 kā = bite: a homophone of 共 kā (the object marker); the context always tells them apart."}
+  - {ref: 8, topic: vocab, text: "吠 puī = bark. 驚著 kiann--tio̍h = be frightened."}
+  - {ref: 11, topic: vocab, text: "飼料 tshī-liāu = (animal) feed. 獸醫 siù-i = vet."}
+  - {ref: 12, topic: vocab, text: "兔仔 thòo-á = rabbit; 鳥仔 tsiáu-á = bird; 鴨仔 ah-á (line 9) = duck."}
+  - {ref: 13, topic: sandhi, text: "仔 á has its own sandhi rule (仔前變調). Before á, tones 1, 2 and 5 change as usual (貓仔 niau-á → niāu, 狗仔 káu-á → kau). The special cases: tone 3 goes to tone 1, not tone 2 (兔仔 thòo-á → thoo-á); tone 4 in -h goes to tone 1 (鴨仔 ah-á → a-á); tone 7 stays tone 7 instead of going to tone 3 (帽仔 bō-á); tone 8 in -h goes to tone 7. After -m, -n, -ng, -p, -t, -k the final consonant also runs into the á: 囡仔 gín-á is often heard as gin-ná. This is the usual description; speakers vary, and the app's tone tool (tools/sandhi.py) does not model it."}
+  - {ref: 13, topic: vocab, text: "發現 huat-hiān = notice, discover. 變調 piàn-tiāu = tone change, tone sandhi."}
+  - {ref: 15, topic: vocab, text: "號做 hō-tsò = name, call (lesson 52). 烏糖 oo-thn̂g = brown sugar (lit. 'black sugar')."}
+new_words:
+  - {tailo: tōng-bu̍t, hanji: 動物, en: "animal"}
+  - {tailo: niau-á, hanji: 貓仔, en: "cat"}
+  - {tailo: káu-á, hanji: 狗仔, en: "dog"}
+  - {tailo: puê, hanji: 陪, en: "keep company"}
+  - {tailo: sàn-pōo, hanji: 散步, en: "take a walk"}
+  - {tailo: bué-liu, hanji: 尾溜, en: "tail"}
+  - {tailo: kóo-tsui, hanji: 古錐, en: "cute"}
+  - {tailo: sńg, hanji: 耍, en: "play"}
+  - {tailo: kā, hanji: 咬, en: "bite"}
+  - {tailo: puī, hanji: 吠, en: "bark"}
+  - {tailo: tshī-liāu, hanji: 飼料, en: "animal feed"}
+  - {tailo: siù-i, hanji: 獸醫, en: "vet"}
+  - {tailo: thòo-á, hanji: 兔仔, en: "rabbit"}
+  - {tailo: tsiáu-á, hanji: 鳥仔, en: "bird"}
+  - {tailo: ah-á, hanji: 鴨仔, en: "duck"}
+  - {tailo: piàn-tiāu, hanji: 變調, en: "tone sandhi"}
+exercises:
+  translate:
+    - {tailo: "Guá siūnn-beh tshī tsi̍t tsiah niau-á.", hanji: "我想欲飼一隻貓仔。", en: "I'd like to get a cat."}
+    - {tailo: "Káu-á khah kuai, koh ē puê lí khì sàn-pōo.", hanji: "狗仔較乖，閣會陪你去散步。", en: "Dogs are better behaved, and they'll keep you company on walks."}
+    - {tailo: "I siōng ài sńg, m̄-koh ū-sî-á ē kā lâng.", hanji: "伊上愛耍，毋過有時仔會咬人。", en: "It loves playing most, but sometimes it bites."}
+  fill:
+    - {tailo: "Tsit tsiah oo--ê, ___ tn̂g-tn̂g, tsiok kóo-tsui!", hanji: "這隻烏的，___長長，足古錐！", answer: "bué-liu", answer_hanji: "尾溜", en: "This black one, with the long tail, is so cute!"}
+    - {tailo: "Keh-piah ê káu-á it-ti̍t ___.", hanji: "隔壁的狗仔一直___。", answer: "puī", answer_hanji: "吠", en: "The dog next door keeps barking."}
+audio: []

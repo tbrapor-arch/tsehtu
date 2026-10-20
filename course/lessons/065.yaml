@@ -28,12 +28,12 @@ notes:
   - {ref: 1, topic: vocab, text: "幌 hàinn = sway, swing (晃): an on-and-off motion, like a hammock or a loose sign. Compare 搖 iô (line 6), a to-and-fro or trembling motion — the two overlap but 幌 leans wider, 搖 leans faster."}
   - {ref: 2, topic: sandhi, text: "Short urgent clauses each keep their own tone group, shown by | here: the sandhi inside 緊跳落眠床 runs as usual, but it resets at each comma and exclamation mark, exactly as Lesson 0 said punctuation always ends a group — useful to know when a sentence is really several short shouted commands."}
   - {ref: 5, topic: vocab, text: "空地 khàng-tē = open, empty ground (空無所有的地), the safest place to stand in a quake."}
-  - {ref: 6, topic: grammar, text: "有夠 ū-kàu + adjective = incredibly, (lesson 59): 有夠雄 'incredibly violent'. 雄 hiông here is an adjective (fierce, violent); 雄雄 hiông-hiông (line 9) is the unrelated adverb 'suddenly' — same syllable, different word."}
+  - {ref: 6, topic: grammar, text: "有夠 ū-kàu + adjective = incredibly (lesson 38): 有夠雄 'incredibly violent'. 雄 hiông here is an adjective (fierce, violent); 雄雄 hiông-hiông (line 9) is the unrelated adverb 'suddenly' — same syllable, different word."}
   - {ref: 7, topic: vocab, text: "崩去 pang--khì = collapse (崩 + 去, change of state). 著傷 tio̍h-siong = get injured (受傷)."}
   - {ref: 9, topic: culture, text: "九二一 Káu-jī-it = the 21 September 1999 earthquake (the Chi-Chi earthquake), the most destructive in Taiwan in decades; still the reference point whenever a strong quake is discussed."}
-  - {ref: 10, topic: vocab, text: "恐怖 khióng-pòo = terrifying. 幾若 kuí-nā = several, quite a few (好幾), a quantity word placed straight before the classifier: 幾若秒, 幾若隻. 喝 huah = shout, call out — a different reading of 喝 from 食 tsia̍h's sense 'drink' (lesson 1), one character for two unrelated words."}
-  - {ref: 11, topic: grammar, text: "逃 tô = flee (離開、躲避). 徛 khiā here is 'stay, lodge' rather than 'stand' or 'live' (lesson 2, 62): 徛幾工 'stayed a few days'."}
-  - {ref: 14, topic: grammar, text: "予 hōo as a passive marker: 壁予地動搝 'the wall got pulled by the earthquake' (壁 被地動拉). Compare 予 'give/let' (lesson 60): the three uses — give, let, passive by — are the same word, told apart by what comes after it. 搝 khiú = pull, tug. 空縫 khang-phāng = a gap or crack."}
+  - {ref: 10, topic: vocab, text: "恐怖 khióng-pòo = terrifying. 幾若 kuí-nā = several, quite a few (好幾), a quantity word placed straight before the classifier: 幾若秒, 幾若隻. 喝 huah = shout, call out (lesson 47); 喝救人 huah kiù-lâng = shout for help."}
+  - {ref: 11, topic: grammar, text: "逃 tô = flee (離開、躲避). 徛 khiā here is 'stay, lodge' rather than 'stand' or 'live' (lesson 22): 徛幾工 'stayed a few days'."}
+  - {ref: 14, topic: grammar, text: "予 hōo as a passive marker: 壁予地動搝 'the wall got pulled by the earthquake' (壁 被地動拉). Compare 予 'give/let' (lesson 4): the three uses — give, let, passive by — are the same word, told apart by what comes after it. 搝 khiú = pull, tug. 空縫 khang-phāng = a gap or crack."}
 new_words:
   - {tailo: tē-tāng, hanji: 地動, en: "earthquake"}
   - {tailo: kiann-hiânn, hanji: 驚惶, en: "panicked, scared"}
@@ -43,7 +43,6 @@ new_words:
   - {tailo: "li̍h", hanji: 裂, en: "crack, split"}
   - {tailo: tio̍h-kiann, hanji: 著驚, en: "startled"}
   - {tailo: thiàu, hanji: 跳, en: "jump"}
-  - {tailo: huah, hanji: 喝, en: "shout"}
   - {tailo: kiù-lâng, hanji: 救人, en: "call for help"}
   - {tailo: an-tsuân, hanji: 安全, en: "safe"}
   - {tailo: tô, hanji: 逃, en: "flee"}

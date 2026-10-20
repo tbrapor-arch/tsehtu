@@ -1,0 +1,58 @@
+id: 71
+title: {en: "Taigi at school", tailo: "Ha̍k-hāu ê bú-gí-khò", hanji: "學校的母語課"}
+review: false
+setting: "Sam goes with A-bîng to pick up his niece from primary school. After her weekly local-language class they talk with her teacher."
+dialogue:
+  - {n: 1, speaker: Niece, hanji: "阿舅！今仔日阮上台語課，老師教阮唱囡仔歌。", tailo: "A-kū! Kin-á-ji̍t guán siōng Tâi-gí khò, lāu-su kà guán tshiùnn gín-á-kua.", en: "Uncle! We had Taigi class today; the teacher taught us children's songs."}
+  - {n: 2, speaker: Teacher, hanji: "你好，我是伊的母語老師。逐禮拜有一節本土語言課。", tailo: "Lí hó, guá sī i ê bú-gí lāu-su. Ta̍k lé-pài ū tsi̍t tsat pún-thóo gí-giân khò.", en: "Hello, I'm her mother-tongue teacher. There's one local-language period every week."}
+  - {n: 3, speaker: Sam, hanji: "干焦一節？按呢敢有夠？", tailo: "Kan-na tsi̍t tsat? Án-ne kám ū kàu?", en: "Just one period? Is that enough?"}
+  - {n: 4, speaker: Teacher, hanji: "有的爸母感覺傷少，嘛有人感覺囡仔欲讀的物件已經傷濟。", tailo: "Ū--ê pē-bú kám-kak siunn tsió, mā ū lâng kám-kak gín-á beh tha̍k ê mi̍h-kiānn í-king siunn tsē.", en: "Some parents feel it's too little; others feel children already have too much to study."}
+  - {n: 5, speaker: A-bîng, hanji: "阮老爸細漢的時，佇學校講台語閣會予老師罰錢。", tailo: "Guán lāu-pē sè-hàn ê sî, tī ha̍k-hāu kóng Tâi-gí koh ē hōo lāu-su hua̍t-tsînn.", en: "When my father was little, you could even be fined by the teacher for speaking Taigi at school."}
+  - {n: 6, speaker: Teacher, hanji: "著，彼陣的政策是講國語。這馬倒反，學校愛保存本土語言。", tailo: "Tio̍h, hit-tsūn ê tsìng-tshik sī kóng kok-gí. Tsit-má tò-píng, ha̍k-hāu ài pó-tsûn pún-thóo gí-giân.", en: "Yes, the policy back then was to speak Mandarin. Now it's the other way round: schools are meant to preserve the local languages."}
+  - {n: 7, speaker: Sam, hanji: "本土語言除了台語，閣有啥物？", tailo: "Pún-thóo gí-giân tû-liáu Tâi-gí, koh ū siánn-mih?", en: "Apart from Taigi, which local languages are there?"}
+  - {n: 8, speaker: Teacher, hanji: "閣有客語佮原住民的語言。學生會使家己選擇。", tailo: "Koh ū Kheh-gí kah guân-tsū-bîn ê gí-giân. Ha̍k-sing ē-sái ka-kī suán-ti̍k.", en: "There's also Hakka and the Indigenous languages. Students can choose for themselves."}
+  - {n: 9, speaker: A-bîng, hanji: "阮兜講華語較濟，囡仔佇厝裡無啥機會講台語。", tailo: "Guán tau kóng Huâ-gí khah tsē, gín-á tī tshù--lí bô siánn ki-huē kóng Tâi-gí.", en: "At home we speak Mandarin more; the kids hardly get a chance to speak Taigi there."}
+  - {n: 10, speaker: Teacher, hanji: "這就是問題。干焦學校教無夠，環境嘛真要緊。", tailo: "Tse tō sī būn-tê. Kan-na ha̍k-hāu kà bô kàu, khuân-kíng mā tsin iàu-kín.", en: "That's exactly the problem. School alone isn't enough; the environment matters too."}
+  - {n: 11, speaker: Sam, hanji: "我嘛是靠阿公阿媽逐工佮我講，才學會曉。", tailo: "Guá mā sī khò a-kong a-má ta̍k-kang kah guá kóng, tsiah o̍h ē-hiáu.", en: "Me too: I only learned because A-kong and A-má talk to me every day."}
+  - {n: 12, speaker: Niece, hanji: "阿舅，Sam 毋但會曉講，閣會曉寫羅馬字！", tailo: "A-kū, Sam m̄-nā ē-hiáu kóng, koh ē-hiáu siá Lô-má-jī!", en: "Uncle, Sam can not only speak it, he can write romanisation too!"}
+  - {n: 13, speaker: Teacher, hanji: "真好。學語言上要緊是自信，毋通驚講毋著。", tailo: "Tsin hó. O̍h gí-giân siōng iàu-kín sī tsū-sìn, m̄-thang kiann kóng m̄-tio̍h.", en: "Great. The most important thing in learning a language is confidence; don't be afraid of getting it wrong."}
+  - {n: 14, speaker: A-bîng, hanji: "我嘛欲較重視。以後佇厝裡，我佮囡仔講台語。", tailo: "Guá mā beh khah tiōng-sī. Í-āu tī tshù--lí, guá kah gín-á kóng Tâi-gí.", en: "I'll take it more seriously too. From now on I'll speak Taigi with the kids at home."}
+  - {n: 15, speaker: Teacher, hanji: "按呢上好。語言愛靠囝孫一代一代傳落去。", tailo: "Án-ne siōng hó. Gí-giân ài khò kiánn-sun tsi̍t tāi tsi̍t tāi thuân--lo̍h-khì.", en: "That's best. A language lives on only if it's handed down, generation after generation."}
+  - {n: 16, speaker: Niece, hanji: "阿舅，按呢你嘛愛來上課！", tailo: "A-kū, án-ne lí mā ài lâi siōng-khò!", en: "Uncle, then you have to come to class too!"}
+notes:
+  - {ref: 1, topic: vocab, text: "阿舅 a-kū = uncle (mother's brother): A-bîng is her mother's brother. 囡仔歌 gín-á-kua = children's song. 上課 siōng-khò = have a class; 課 khò = lesson, class."}
+  - {ref: 2, topic: vocab, text: "母語 bú-gí = mother tongue; 本土語言 pún-thóo gí-giân = the local (non-Mandarin) languages of Taiwan. 節 tsat = classifier for a class period."}
+  - {ref: 4, topic: vocab, text: "爸母 pē-bú = parents (父母). 已經 í-king = already."}
+  - {ref: 5, topic: culture, text: "For decades after 1945, Mandarin was the only language allowed at school; children who spoke Taigi or another local language could be fined or punished. 老爸 lāu-pē = father (in speech about him; 阿爸 a-pah when addressing him)."}
+  - {ref: 6, topic: vocab, text: "政策 tsìng-tshik = policy. 國語 kok-gí = 'the national language', the older name for Mandarin. 倒反 tò-píng = the other way round, reversed. 保存 pó-tsûn = preserve (seen in lesson 66)."}
+  - {ref: 8, topic: culture, text: "Primary schools offer Taigi, Hakka (客語 Kheh-gí) and the Indigenous (原住民 guân-tsū-bîn) languages. 華語 Huâ-gí (line 9) is today's usual neutral name for Mandarin. 選擇 suán-ti̍k = choose."}
+  - {ref: 10, topic: vocab, text: "環境 khuân-kíng = environment, surroundings."}
+  - {ref: 12, topic: grammar, text: "毋但 X，閣 Y = not only X but also Y (lesson 51): 毋但會曉講，閣會曉寫. 閣 koh can be replaced by 嘛 mā: 毋但…嘛…."}
+  - {ref: 13, topic: vocab, text: "自信 tsū-sìn = confidence. 重視 tiōng-sī (line 14) = take seriously, value."}
+  - {ref: 15, topic: vocab, text: "囝孫 kiánn-sun = descendants, children and grandchildren. 一代一代 tsi̍t tāi tsi̍t tāi = generation after generation. 傳落去 thuân--lo̍h-khì = hand down, pass on."}
+new_words:
+  - {tailo: bú-gí, hanji: 母語, en: "mother tongue"}
+  - {tailo: pún-thóo, hanji: 本土, en: "local, native"}
+  - {tailo: gí-giân, hanji: 語言, en: "language"}
+  - {tailo: khò, hanji: 課, en: "lesson, class"}
+  - {tailo: siōng-khò, hanji: 上課, en: "have a class"}
+  - {tailo: pē-bú, hanji: 爸母, en: "parents"}
+  - {tailo: lāu-pē, hanji: 老爸, en: "father"}
+  - {tailo: tsìng-tshik, hanji: 政策, en: "policy"}
+  - {tailo: pó-tsûn, hanji: 保存, en: "preserve"}
+  - {tailo: Kheh-gí, hanji: 客語, en: "Hakka (language)"}
+  - {tailo: guân-tsū-bîn, hanji: 原住民, en: "Indigenous people"}
+  - {tailo: suán-ti̍k, hanji: 選擇, en: "choose"}
+  - {tailo: khuân-kíng, hanji: 環境, en: "environment"}
+  - {tailo: tsū-sìn, hanji: 自信, en: "confidence"}
+  - {tailo: tiōng-sī, hanji: 重視, en: "take seriously, value"}
+  - {tailo: kiánn-sun, hanji: 囝孫, en: "descendants"}
+exercises:
+  translate:
+    - {tailo: "Ta̍k lé-pài ū tsi̍t tsat pún-thóo gí-giân khò.", hanji: "逐禮拜有一節本土語言課。", en: "There's one local-language period every week."}
+    - {tailo: "O̍h gí-giân siōng iàu-kín sī tsū-sìn.", hanji: "學語言上要緊是自信。", en: "The most important thing in learning a language is confidence."}
+    - {tailo: "Gí-giân ài khò kiánn-sun tsi̍t tāi tsi̍t tāi thuân--lo̍h-khì.", hanji: "語言愛靠囝孫一代一代傳落去。", en: "A language lives on only if it's handed down, generation after generation."}
+  fill:
+    - {tailo: "Sam ___ ē-hiáu kóng, koh ē-hiáu siá Lô-má-jī.", hanji: "Sam ___會曉講，閣會曉寫羅馬字。", answer: "m̄-nā", answer_hanji: "毋但", en: "Sam can not only speak it, he can write romanisation too."}
+    - {tailo: "Ū--ê ___ kám-kak siunn tsió.", hanji: "有的___感覺傷少。", answer: "pē-bú", answer_hanji: "爸母", en: "Some parents feel it's too little."}
+audio: []

@@ -1,0 +1,59 @@
+id: 73
+title: {en: "Moving house", tailo: "Puann-tshù", hanji: "搬厝"}
+review: false
+setting: "A-bîng is moving to a fourth-floor flat with no lift. Sam and A-hun have come to help."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "多謝恁來鬥搬厝！貨車佇樓跤，物件攏囥佇箱仔內底矣。", tailo: "To-siā lín lâi tàu puann-tshù! Huè-tshia tī lâu-kha, mi̍h-kiānn lóng khǹg tī siunn-á lāi-té--ah.", en: "Thanks for coming to help me move! The van's downstairs, and everything's already packed in boxes."}
+  - {n: 2, speaker: Sam, hanji: "新厝佇幾樓？有電梯無？", tailo: "Sin tshù tī kuí lâu? Ū tiān-thui--bô?", en: "Which floor is the new place on? Is there a lift?"}
+  - {n: 3, speaker: A-bîng, hanji: "四樓，無電梯。歹勢，愛用扛的。", tailo: "Sì lâu, bô tiān-thui. Pháinn-sè, ài iōng kng--ê.", en: "Fourth floor, no lift. Sorry, we'll have to carry everything up."}
+  - {n: 4, speaker: A-hun, hanji: "冊的箱仔上重，予恁兩个扛；衫的較輕，我捾就好。", tailo: "Tsheh ê siunn-á siōng tāng, hōo lín nn̄g ê kng; sann ê khah khin, guá kuānn tō hó.", en: "The boxes of books are the heaviest, you two carry those; the clothes are lighter, I'll just carry them in my hands."}
+  - {n: 5, speaker: Sam, hanji: "這塊桌仔遮大，樓梯遮狹，敢會入去？", tailo: "Tsit tè toh-á tsiah tuā, lâu-thui tsiah e̍h, kám ē ji̍p--khì?", en: "This table's so big and the stairs so narrow. Will it go in?"}
+  - {n: 6, speaker: A-bîng, hanji: "斟酌！先共桌仔徛起來，才慢慢仔拖。", tailo: "Tsim-tsiok! Sing kā toh-á khiā--khí-lâi, tsiah bān-bān-á thua.", en: "Careful! Stand the table on its end first, then drag it slowly."}
+  - {n: 7, speaker: Sam, hanji: "你佇頭前拖，我佇後壁捒。一、二、三！", tailo: "Lí tī thâu-tsîng thua, guá tī āu-piah sak. It, jī, sann!", en: "You pull from the front and I'll push from the back. One, two, three!"}
+  - {n: 8, speaker: A-hun, hanji: "小心壁！莫挵著。", tailo: "Sió-sim piah! Mài lòng--tio̍h.", en: "Mind the wall! Don't bang into it."}
+  - {n: 9, speaker: A-bîng, hanji: "好佳哉，入去矣。囥佇窗仔邊就好。", tailo: "Hó-ka-tsài, ji̍p--khì--ah. Khǹg tī thang-á pinn tō hó.", en: "Phew, it's in. Just put it by the window."}
+  - {n: 10, speaker: A-hun, hanji: "按呢歹看，閣共伊撨較倚壁一屑仔。", tailo: "Án-ne pháinn-khuànn, koh kā i tshiâu khah uá piah tsi̍t-sut-á.", en: "That looks wrong. Shift it a little closer to the wall."}
+  - {n: 11, speaker: Sam, hanji: "櫥仔欲囥佗位？", tailo: "Tû-á beh khǹg tó-uī?", en: "Where does the cupboard go?"}
+  - {n: 12, speaker: A-bîng, hanji: "房間內底。別人搬厝攏倩人，我家己搬，會使省一寡錢。", tailo: "Pâng-king lāi-té. Pa̍t-lâng puann-tshù lóng tshiànn lâng, guá ka-kī puann, ē-sái síng tsi̍t-kuá tsînn.", en: "In the bedroom. Other people hire movers; doing it myself saves a bit of money."}
+  - {n: 13, speaker: A-hun, hanji: "省錢是省錢，毋過你看，阮規身軀攏流汗。", tailo: "Síng tsînn sī síng tsînn, m̄-koh lí khuànn, guán kui sin-khu lóng lâu-kuānn.", en: "Saving money is all very well, but look at us: we're drenched in sweat."}
+  - {n: 14, speaker: A-bîng, hanji: "家私收拾好勢，我請恁食飯。", tailo: "Ke-si siu-si̍p hó-sè, guá tshiánn lín tsia̍h-pn̄g.", en: "Once everything's put away, dinner's on me."}
+  - {n: 15, speaker: Sam, hanji: "好！毋過我先坐一下，跤已經軟去矣。", tailo: "Hó! M̄-koh guá sing tsē--tsi̍t-ē, kha í-king nńg--khì--ah.", en: "Great! But let me sit down first, my legs have gone weak."}
+  - {n: 16, speaker: A-bîng, hanji: "搬一擺厝，袂輸做三工的工課。", tailo: "Puann tsi̍t pái tshù, bē-su tsò sann kang ê khang-khuè.", en: "Moving house once is like doing three days' work."}
+notes:
+  - {ref: 1, topic: vocab, text: "搬厝 puann-tshù = move house (搬 puann, lesson 32); 鬥搬 tàu puann 'help move'. 貨車 huè-tshia = van, lorry. 樓跤 lâu-kha = downstairs; 樓頂 lâu-tíng = upstairs. 箱仔 siunn-á = box."}
+  - {ref: 3, topic: grammar, text: "Verbs of carrying and moving: 扛 kng = carry (heavy things, often two people, or on the shoulder); 捾 kuānn = carry hanging from the hand; 拖 thua = drag, pull; 捒 sak = push; 撨 tshiâu = shift, adjust the position of; 搬 puann = move. 用扛的 'by carrying it'."}
+  - {ref: 4, topic: vocab, text: "重 tāng = heavy; 輕 khin = light. 予恁兩个扛 'let you two carry them' (予 = let)."}
+  - {ref: 5, topic: vocab, text: "桌仔 toh-á = table (桌 toh, lesson 49). 樓梯 lâu-thui = stairs."}
+  - {ref: 6, topic: false-friend, text: "斟酌 tsim-tsiok = careful, pay attention (小心) — in Mandarin 斟酌 is 'consider, deliberate'. 小心 sió-sim (line 8) is the same idea, closer to Mandarin."}
+  - {ref: 10, topic: vocab, text: "撨 tshiâu = shift slightly, adjust (調整位置), Taigi-only: 撨較倚壁 'move it closer to the wall'; also 'arrange (a time)': 撨時間. 歹看 pháinn-khuànn = unsightly."}
+  - {ref: 11, topic: vocab, text: "櫥仔 tû-á = cupboard, wardrobe."}
+  - {ref: 12, topic: grammar, text: "別人 pa̍t-lâng = other people (lesson 69). 倩 tshiànn = hire (lesson 52)."}
+  - {ref: 13, topic: grammar, text: "X 是 X，毋過… = X is all very well, but …: 省錢是省錢. 流汗 lâu-kuānn = sweat."}
+  - {ref: 14, topic: vocab, text: "家私 ke-si = household things, furniture; also tools. 收拾 siu-si̍p = put away, tidy. 好勢 hó-sè = in order, done properly."}
+  - {ref: 16, topic: grammar, text: "袂輸 bē-su = just like (lessons 53, 72)."}
+new_words:
+  - {tailo: puann-tshù, hanji: 搬厝, en: "move house"}
+  - {tailo: huè-tshia, hanji: 貨車, en: "van, lorry"}
+  - {tailo: siunn-á, hanji: 箱仔, en: "box"}
+  - {tailo: tiān-thui, hanji: 電梯, en: "lift, elevator"}
+  - {tailo: kng, hanji: 扛, en: "carry (heavy things)"}
+  - {tailo: tāng, hanji: 重, en: "heavy"}
+  - {tailo: khin, hanji: 輕, en: "light (in weight)"}
+  - {tailo: toh-á, hanji: 桌仔, en: "table"}
+  - {tailo: tsim-tsiok, hanji: 斟酌, en: "careful"}
+  - {tailo: thua, hanji: 拖, en: "drag, pull"}
+  - {tailo: sak, hanji: 捒, en: "push"}
+  - {tailo: sió-sim, hanji: 小心, en: "careful; mind"}
+  - {tailo: tshiâu, hanji: 撨, en: "shift, adjust"}
+  - {tailo: tû-á, hanji: 櫥仔, en: "cupboard"}
+  - {tailo: ke-si, hanji: 家私, en: "household things"}
+  - {tailo: siu-si̍p, hanji: 收拾, en: "put away, tidy"}
+exercises:
+  translate:
+    - {tailo: "Tsheh ê siunn-á siōng tāng.", hanji: "冊的箱仔上重。", en: "The boxes of books are the heaviest."}
+    - {tailo: "Lí tī thâu-tsîng thua, guá tī āu-piah sak.", hanji: "你佇頭前拖，我佇後壁捒。", en: "You pull from the front and I'll push from the back."}
+    - {tailo: "Ke-si siu-si̍p hó-sè, guá tshiánn lín tsia̍h-pn̄g.", hanji: "家私收拾好勢，我請恁食飯。", en: "Once everything's put away, dinner's on me."}
+  fill:
+    - {tailo: "___! Sing kā toh-á khiā--khí-lâi.", hanji: "___！先共桌仔徛起來。", answer: "Tsim-tsiok", answer_hanji: "斟酌", en: "Careful! Stand the table on its end first."}
+    - {tailo: "Koh kā i ___ khah uá piah tsi̍t-sut-á.", hanji: "閣共伊___較倚壁一屑仔。", answer: "tshiâu", answer_hanji: "撨", en: "Shift it a little closer to the wall."}
+audio: []

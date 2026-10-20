@@ -21,16 +21,16 @@ dialogue:
   - {n: 16, speaker: Sam, hanji: "好啊！我欲紮家己的旗仔去喝聲。", tailo: "Hó--ah! Guá beh tsah ka-kī ê kî-á khì huah-siann.", en: "Sounds good! I'll bring my own flag to cheer with."}
 notes:
   - {ref: 1, topic: culture, text: "統一獅 Thóng-it-sai, the Uni-Lions, is Tainan's own professional baseball team; baseball (棒球) is still the island's most-watched sport."}
-  - {ref: 2, topic: vocab, text: "精彩 tsing-tshái = exciting, brilliant (of a performance). 分 hun here is 'point(s)', the same word as 'minute' (lesson 51's 分鐘) and the fractional 'part' — one word for several measuring uses."}
+  - {ref: 2, topic: vocab, text: "精彩 tsing-tshái = exciting, brilliant (of a performance). 分 hun here is 'point(s)', the same word as 'minute' (分鐘, lesson 6) and the fractional 'part' — one word for several measuring uses."}
   - {ref: 3, topic: grammar, text: "予 hōo as a passive marker again (lesson 65): 予對方拍全壘打 'had a home run hit off him by the other side'. 對方 tuì-hong = the other side, the opposing party."}
-  - {ref: 4, topic: grammar, text: "但是 tān-sī = but, however — a more written-sounding alternative to 毋過 m̄-koh (lesson 24); the two are largely interchangeable, but 毋過 is far more common in speech."}
-  - {ref: 5, topic: grammar, text: "看見 khuànn-kìnn = see, catch sight of (看到): slightly more literary than 看著 khuànn-tio̍h (lesson 7), and often used, as here, to insist 'yes, I did see it'. 局 kio̍k = classifier for an inning or a round of play."}
+  - {ref: 4, topic: grammar, text: "但是 tān-sī = but, however — a more written-sounding alternative to 毋過 m̄-koh (lesson 2); the two are largely interchangeable, but 毋過 is far more common in speech."}
+  - {ref: 5, topic: grammar, text: "看見 khuànn-kìnn = see, catch sight of (看到): slightly more literary than 看著 khuànn-tio̍h (lesson 32), and often used, as here, to insist 'yes, I did see it'. 局 kio̍k = classifier for an inning or a round of play."}
   - {ref: 6, topic: vocab, text: "邊仔 pinn--á = next to, beside (旁邊). 活力 ua̍h-li̍k = energy, vigour."}
   - {ref: 7, topic: vocab, text: "體力 thé-la̍t = physical stamina. 經驗 king-giām = experience."}
   - {ref: 9, topic: vocab, text: "初中 tshoo-tiong, the older name for middle school (now usually 國中 kok-tiong); 國小 kok-sió = elementary school."}
   - {ref: 10, topic: vocab, text: "學生 ha̍k-sing = student, pupil (the everyday word, alongside this course's 讀冊 'study'). 幸福 hīng-hok = fortunate, blessed with an easy life."}
   - {ref: 11, topic: vocab, text: "壓力 ap-li̍k = pressure, stress."}
-  - {ref: 13, topic: grammar, text: "鬥陣 tàu-tīn = do something together, as a team (lesson 44); here used for 'teamwork' without borrowing a separate noun for it."}
+  - {ref: 13, topic: grammar, text: "鬥陣 tàu-tīn = do something together, as a team (lesson 43); here used for 'teamwork' without borrowing a separate noun for it."}
   - {ref: 14, topic: vocab, text: "向望 ǹg-bāng = hope, look forward to — the everyday Taigi word; it does not share characters with Mandarin 希望."}
 new_words:
   - {tailo: "pāng-kiû", hanji: 棒球, en: "baseball"}

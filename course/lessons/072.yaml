@@ -1,0 +1,58 @@
+id: 72
+title: {en: "Telling a story", tailo: "Kóng-kóo", hanji: "講古"}
+review: false
+setting: "A rainy night at A-má's. A-bîng's niece is staying over, and A-má tells her (and Sam) her own version of the old tale of Tiger Granny."
+dialogue:
+  - {n: 1, speaker: Niece, hanji: "阿祖，講古予我聽！", tailo: "A-tsóo, kóng-kóo hōo guá thiann!", en: "Great-grandma, tell me a story!"}
+  - {n: 2, speaker: A-má, hanji: "好，我講虎姑婆的故事。古早古早，有一个所在，蹛一對姊妹。", tailo: "Hó, guá kóng Hóo-koo-pô ê kòo-sū. Kóo-tsá kóo-tsá, ū tsi̍t ê sóo-tsāi, tuà tsi̍t tuì tsí-muē.", en: "All right, I'll tell you the story of Tiger Granny. Long, long ago, in a certain place, there lived two sisters."}
+  - {n: 3, speaker: A-má, hanji: "有一工，𪜶老母欲出門，吩咐𪜶：「暗時毋通開門予人。」", tailo: "Ū tsi̍t kang, in lāu-bú beh tshut-mn̂g, huan-hù in: “Àm-sî m̄-thang khui mn̂g hōo lâng.”", en: "One day their mother had to go out, and she told them: 'Don't open the door to anyone tonight.'"}
+  - {n: 4, speaker: A-má, hanji: "半暝，有人敲門，講：「我是恁阿姑，開門予我入來。」", tailo: "Puànn-mê, ū lâng khà mn̂g, kóng: “Guá sī lín a-koo, khui mn̂g hōo guá ji̍p--lâi.”", en: "At midnight someone knocked and said: 'I'm your auntie, open the door and let me in.'"}
+  - {n: 5, speaker: Sam, hanji: "𪜶敢有開？", tailo: "In kám ū khui?", en: "Did they open it?"}
+  - {n: 6, speaker: A-má, hanji: "小妹戇戇，就去開矣。起先阿姊嘛無感覺怪。", tailo: "Sió-muē gōng-gōng, tō khì khui--ah. Khí-sing a-tsí mā bô kám-kak kuài.", en: "The little sister was silly and went and opened it. At first the elder sister didn't notice anything strange either."}
+  - {n: 7, speaker: A-má, hanji: "毋過彼个阿姑的手，毛真長，聲嘛真粗，袂輸查埔人。", tailo: "M̄-koh hit ê a-koo ê tshiú, mn̂g tsin tn̂g, siann mā tsin tshoo, bē-su tsa-poo-lâng.", en: "But that auntie's hands were very hairy, and her voice was rough, just like a man's."}
+  - {n: 8, speaker: Niece, hanji: "原來伊是虎！", tailo: "Guân-lâi i sī hóo!", en: "So she was a tiger!"}
+  - {n: 9, speaker: A-má, hanji: "著。阿姊真巧，伊假影欲去便所，偷偷仔𬦰起去樹仔頂。", tailo: "Tio̍h. A-tsí tsin khiáu, i ké-iánn beh khì piān-sóo, thau-thau-á peh--khí-khì tshiū-á tíng.", en: "Yes. The elder sister was clever: she pretended to go to the toilet and quietly climbed up a tree."}
+  - {n: 10, speaker: Sam, hanji: "小妹咧？", tailo: "Sió-muē--leh?", en: "And the little sister?"}
+  - {n: 11, speaker: A-má, hanji: "無疑，虎姑婆已經共小妹縛佇房間，想欲食伊。", tailo: "Bô-gî, Hóo-koo-pô í-king kā sió-muē pa̍k tī pâng-king, siūnn-beh tsia̍h--i.", en: "Who'd have thought it: Tiger Granny had already tied the little sister up in the bedroom, meaning to eat her."}
+  - {n: 12, speaker: A-má, hanji: "阿姊佇樹仔頂共虎姑婆騙：「你煮一鼎燒油，我欲糋鳥仔予你食。」", tailo: "A-tsí tī tshiū-á tíng kā Hóo-koo-pô phiàn: “Lí tsú tsi̍t tiánn sio iû, guá beh tsìnn tsiáu-á hōo lí tsia̍h.”", en: "From the tree the elder sister tricked Tiger Granny: 'Heat a wok of hot oil, and I'll fry some birds for you to eat.'"}
+  - {n: 13, speaker: A-má, hanji: "虎姑婆戇戇共燒油捀來樹仔跤。阿姊共油倒落去，虎姑婆予燒油沃著，疼甲哀哀叫，緊走。", tailo: "Hóo-koo-pô gōng-gōng kā sio iû phâng lâi tshiū-á kha. A-tsí kā iû tò--lo̍h-khì, Hóo-koo-pô hōo sio iû ak--tio̍h, thiànn kah ai-ai-kiò, kín tsáu.", en: "Tiger Granny foolishly carried the hot oil to the foot of the tree. The elder sister poured it down; Tiger Granny was drenched in hot oil, howled with pain and ran off."}
+  - {n: 14, speaker: Niece, hanji: "最後小妹咧？", tailo: "Tsuè-āu sió-muē--leh?", en: "And in the end, the little sister?"}
+  - {n: 15, speaker: A-má, hanji: "最後老母轉來，共小妹救出來。結局是好的，毋過虎姑婆後來閣有轉來無，無人知。", tailo: "Tsuè-āu lāu-bú tńg--lâi, kā sió-muē kiù--tshut-lâi. Kiat-kio̍k sī hó--ê, m̄-koh Hóo-koo-pô āu--lâi koh ū tńg--lâi--bô, bô lâng tsai.", en: "In the end their mother came home and rescued the little sister. It ends well, but whether Tiger Granny ever came back, nobody knows."}
+  - {n: 16, speaker: Sam, hanji: "阿媽講古，講甲袂輸咧做戲！", tailo: "A-má kóng-kóo, kóng kah bē-su teh tsò-hì!", en: "A-má, you tell stories as if you were acting in a play!"}
+notes:
+  - {ref: 1, topic: vocab, text: "講古 kóng-kóo = tell (old) stories; also the traditional storyteller's art. 阿祖 a-tsóo = great-grandparent."}
+  - {ref: 2, topic: grammar, text: "Story openers and connectors: 古早古早 kóo-tsá kóo-tsá 'long, long ago' (從前從前), 有一工 ū tsi̍t kang 'one day', 起先 khí-sing 'at first' (line 6), 原來 guân-lâi 'so it turns out' (line 8), 無疑 bô-gî 'who'd have thought' (line 11), 最後 tsuè-āu 'in the end' (line 14), 後來 āu--lâi 'later on' (lesson 64). 姊妹 tsí-muē = sisters; 一對 tsi̍t tuì = a pair."}
+  - {ref: 3, topic: vocab, text: "吩咐 huan-hù = tell, instruct (lesson 58). 開門予人 'open the door to someone': 予 hōo = let, for."}
+  - {ref: 4, topic: vocab, text: "半暝 puànn-mê = midnight, the middle of the night. 阿姑 a-koo = auntie (father's sister)."}
+  - {ref: 6, topic: vocab, text: "阿姊 a-tsí = elder sister. 小妹 sió-muē = younger sister (lesson 5)."}
+  - {ref: 7, topic: grammar, text: "袂輸 bē-su = just like, as if (lesson 53): 袂輸查埔人 'like a man'. 粗 tshoo = coarse, rough."}
+  - {ref: 9, topic: false-friend, text: "巧 khiáu = clever, smart (聰明) — not Mandarin 巧 'coincidence, skilful'. 假影 ké-iánn = pretend (假裝). 偷偷仔 thau-thau-á = quietly, secretly. 𬦰 peh = climb (as in 𬦰山, lesson 26)."}
+  - {ref: 11, topic: false-friend, text: "無疑 bô-gî = unexpectedly, who'd have thought (沒想到) — not Mandarin 無疑 'no doubt'. 縛 pa̍k = tie up (lesson 51)."}
+  - {ref: 12, topic: vocab, text: "騙 phiàn = trick, deceive. 油 iû = oil. 糋 tsìnn = deep-fry (炸). 鳥仔 tsiáu-á = bird (lesson 74)."}
+  - {ref: 13, topic: vocab, text: "倒落去 tò--lo̍h-khì = pour down. 予燒油沃著 hōo sio iû ak--tio̍h 'got drenched in hot oil': passive 予 again, with 沃 ak 'pour water over' (lesson 40, watering plants). 哀哀叫 ai-ai-kiò = cry out in pain."}
+  - {ref: 15, topic: culture, text: "結局 kiat-kio̍k = ending. 虎姑婆 Hóo-koo-pô is a folk tale every Taiwanese child knows, told to make children stay in bed; the versions differ, and the older ones are much darker than A-má's. 做戲 tsò-hì (line 16) = act in a play."}
+new_words:
+  - {tailo: kóng-kóo, hanji: 講古, en: "tell stories"}
+  - {tailo: a-tsóo, hanji: 阿祖, en: "great-grandparent"}
+  - {tailo: tsí-muē, hanji: 姊妹, en: "sisters"}
+  - {tailo: a-tsí, hanji: 阿姊, en: "elder sister"}
+  - {tailo: a-koo, hanji: 阿姑, en: "aunt (father's sister)"}
+  - {tailo: puànn-mê, hanji: 半暝, en: "midnight"}
+  - {tailo: khí-sing, hanji: 起先, en: "at first"}
+  - {tailo: hóo, hanji: 虎, en: "tiger"}
+  - {tailo: khiáu, hanji: 巧, en: "clever"}
+  - {tailo: ké-iánn, hanji: 假影, en: "pretend"}
+  - {tailo: bô-gî, hanji: 無疑, en: "unexpectedly"}
+  - {tailo: phiàn, hanji: 騙, en: "trick, deceive"}
+  - {tailo: iû, hanji: 油, en: "oil"}
+  - {tailo: tsuè-āu, hanji: 最後, en: "in the end"}
+  - {tailo: kiat-kio̍k, hanji: 結局, en: "ending"}
+exercises:
+  translate:
+    - {tailo: "Kóo-tsá kóo-tsá, ū tsi̍t ê sóo-tsāi, tuà tsi̍t tuì tsí-muē.", hanji: "古早古早，有一个所在，蹛一對姊妹。", en: "Long, long ago, in a certain place, there lived two sisters."}
+    - {tailo: "A-tsí tsin khiáu.", hanji: "阿姊真巧。", en: "The elder sister was clever."}
+    - {tailo: "Tsuè-āu lāu-bú tńg--lâi, kā sió-muē kiù--tshut-lâi.", hanji: "最後老母轉來，共小妹救出來。", en: "In the end their mother came home and rescued the little sister."}
+  fill:
+    - {tailo: "Siann mā tsin tshoo, ___ tsa-poo-lâng.", hanji: "聲嘛真粗，___查埔人。", answer: "bē-su", answer_hanji: "袂輸", en: "Her voice was rough, just like a man's."}
+    - {tailo: "___, Hóo-koo-pô í-king kā sió-muē pa̍k tī pâng-king.", hanji: "___，虎姑婆已經共小妹縛佇房間。", answer: "Bô-gî", answer_hanji: "無疑", en: "Who'd have thought it: Tiger Granny had already tied the little sister up in the bedroom."}
+audio: []

@@ -18,19 +18,19 @@ dialogue:
   - {n: 13, speaker: A-hun, hanji: "有影，過去查埔佮查某行對向，無細膩就會相挵著。", tailo: "Ū-iánn, kuè-khì tsa-poo kah tsa-bóo kiânn tuì-hiòng, bô sè-jī tō ē sio-lòng-tio̍h.", en: "It really is; in the old days men and women walking from opposite directions could easily bump into each other if they weren't careful."}
   - {n: 14, speaker: Sam, hanji: "遮的街仔攏猶保存甲遮爾好，有夠好佳哉。", tailo: "Tsia ê ke-á lóng iáu pó-tsûn kah tsiah-nī hó, ū-kàu hó-ka-tsài.", en: "These streets have all been kept in such good condition — that's really a blessing."}
   - {n: 15, speaker: A-hun, hanji: "毋過真濟古蹟是靠地方的人逐年鬥跤手才會保存落來。", tailo: "M̄-koh tsin tsē kóo-tsik sī khò tē-hng ê lâng ta̍k-nî tàu-kha-tshiú tsiah ē pó-tsûn--lo̍h-lâi.", en: "But a lot of these historic sites only survive because local people have been pitching in year after year."}
-  - {n: 16, speaker: Sam, hanji: "下擺咱紮查某囝的冬粉鴨來鹿港食，順紲閣踅一逝老街。", tailo: "Ē-pái lán tsah tsa-bóo-kiánn ê tang-hún-ah lâi Lo̍k-káng tsia̍h, sūn-suà koh se̍h tsi̍t tsuā lāu-ke.", en: "Next time let's bring some vermicelli duck to eat in Lukang, and take another turn around the old street while we're at it."}
+  - {n: 16, speaker: Sam, hanji: "下擺咱閣來，踅一逝街仔，閣食一擺牛舌餅。", tailo: "Ē-pái lán koh lâi, se̍h tsi̍t tsuā ke-á, koh tsia̍h tsi̍t pái gû-tsi̍h-piánn.", en: "Let's come again some time, take another stroll down the old street and have ox-tongue biscuits again."}
 notes:
-  - {ref: 2, topic: vocab, text: "腔口 khiunn-kháu = accent (口音). 別位 pa̍t uī = elsewhere, another place (位 uī, lesson 1's 佗位)."}
+  - {ref: 2, topic: vocab, text: "腔口 khiunn-kháu = accent (口音). 別位 pa̍t uī = elsewhere, another place (位 uī, as in 佗位, lesson 2)."}
   - {ref: 3, topic: culture, text: "海口 hái-kháu = coastal area (靠海的地方); 海口腔 is the general name for the coastal accents of the central-west coast, which differ in several vowels from the accent this course teaches."}
   - {ref: 5, topic: pronunciation, text: "A safely documented example: the word for 'pig' is 豬 ti in most of the accent this course uses, but tu in the coastal (hái-kháu) accent spoken by many older people around Lukang. The course keeps to one accent throughout; real speech varies village by village."}
   - {ref: 7, topic: vocab, text: "標準 piau-tsún = standard. 影響 íng-hióng = influence, affect. 加減 ke-kiám = to some extent, more or less (lit. 'add or subtract')."}
   - {ref: 9, topic: vocab, text: "出名 tshut-miâ = famous (有名). 師傅 sai-hū = craftsman, master of a trade. 木雕 bo̍k-tiau = woodcarving. 逐項 ta̍k hāng = every item."}
-  - {ref: 10, topic: grammar, text: "本 pún = classifier for books (lesson 8's table of classifiers). 那 V 那 V ná … ná … = while doing one, do the other (lesson 56): 那行那看 'look as you walk'."}
-  - {ref: 11, topic: vocab, text: "街仔 ke-á = (old) street — the everyday word; this course has so far only used 路 lōo and 巷仔 hāng-á. 順紲 sūn-suà = while at it, incidentally (順便, lesson 25's note style). 特產 ti̍k-sán = local specialty."}
+  - {ref: 10, topic: grammar, text: "本 pún = classifier for books. 那 V 那 V ná … ná … = while doing one, do the other: 那行那看 'look as you walk'."}
+  - {ref: 11, topic: vocab, text: "街仔 ke-á = (old) street — the everyday word; this course has so far only used 路 lōo and 巷仔 hāng-á. 順紲 sūn-suà = while at it, incidentally (順便). 特產 ti̍k-sán = local specialty."}
   - {ref: 12, topic: culture, text: "摸乳巷 Bong-ling-hāng, one of Lukang's famous historic lanes, so narrow two people can barely pass side by side."}
-  - {ref: 13, topic: vocab, text: "對向 tuì-hiòng = opposite direction. 相挵著 sio-lòng-tio̍h = bump into each other (相 + V + 著, lesson 62's 撞著 for the same idea with a different verb)."}
-  - {ref: 15, topic: grammar, text: "靠 khò = depend on, rely on. 鬥跤手 tàu-kha-tshiú = pitch in, help out (lesson 44's 鬥相共 is the close synonym). 保存落來 pó-tsûn--lo̍h-lâi = survive, be preserved (V + 落來, keep on existing)."}
-  - {ref: 16, topic: culture, text: "冬粉鴨 tang-hún-ah = vermicelli duck soup, a Lukang specialty A-hun's daughter (lesson 70's family) would enjoy. 踅 se̍h = stroll around, go round; 逝 tsuā here is the classifier for a walk around a place (lesson 67 picks this up again)."}
+  - {ref: 13, topic: vocab, text: "對向 tuì-hiòng = opposite direction. 相挵著 sio-lòng-tio̍h = bump into each other (相 + V + 著; lesson 62 has 撞著 for the same idea)."}
+  - {ref: 15, topic: grammar, text: "靠 khò = depend on, rely on. 鬥跤手 tàu-kha-tshiú = pitch in, help out (鬥相共, lesson 32, is a close synonym). 保存落來 pó-tsûn--lo̍h-lâi = survive, be preserved (V + 落來, keep on existing)."}
+  - {ref: 16, topic: vocab, text: "踅 se̍h = stroll around, go round. 逝 tsuā = classifier for a trip or a walk round a place (lesson 67 adds 'a row')."}
 new_words:
   - {tailo: kóo-tsik, hanji: 古蹟, en: "historic site"}
   - {tailo: khiunn-kháu, hanji: 腔口, en: "accent"}

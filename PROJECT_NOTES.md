@@ -4,10 +4,10 @@ Migrated from a long Claude Project conversation. In that conversation lessons w
 course files as a model for pacing and structure only (kept in the git-ignored `reference/`).
 
 ## Status
-- **Lessons:** 1–70 written (`course/lessons/`), 71–100 planned as titles in `course/syllabus.yaml`. Lesson 0 is
-  `000-reading-tailo.md`. Review lessons: 7, 14, …, 70 so far.
+- **Lessons:** 1–77 written (`course/lessons/`), 78–100 planned as titles in `course/syllabus.yaml`. Lesson 0 is
+  `000-reading-tailo.md`. Review lessons: 7, 14, …, 77 so far.
 - **Themes:** one (`health`). The Themes tab is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
-- **Coverage** (after lesson 70): top 100: 100 %, top 300: 93 %, top 1,000: 76 % (was 72 % after 63). Plan for lessons 64–100: `docs/course-plan.md`.
+- **Coverage** (after lesson 77): top 100: 100 %, top 300: 95 %, top 1,000: 79 % (72 % after 63, 76 % after 70). Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
 - **App tabs:** Lessons, Themes, Grammar, Review (includes Bridge and tone drill), Podcast, Settings, plus a hidden
   Exam tab that exists only when this device's token can read the private repo.
@@ -30,7 +30,9 @@ Format `course/lessons/_template.yaml`; rules `course/README.md`, `docs/course-p
 `make app` (Python 3.12) before a push. `tools/smoke.py` is a full regression run (clicks every token of every
 lesson, no single-lesson option, slow): run it in the background after app/template changes, not per lesson.
 Workflow that keeps cost down: plan a batch of lessons together, verify all candidate words with
-`tools/lookup.py` in one pass, then draft dialogue only from verified words.
+`tools/lookup.py` in one pass, then draft dialogue only from verified words. Cross-references such as
+"(lesson 40)" in notes must point to the lesson that declares the word in `new_words`; check them with a script
+before committing (lessons 64–76 had many guessed numbers, fixed on 20 Oct 2026).
 
 ## Decisions (why)
 - Mandarin B2 learner: same-character words are taught as pronunciation; time goes to false friends and Taigi-only words.
@@ -41,7 +43,7 @@ Workflow that keeps cost down: plan a batch of lessons together, verify all cand
 - Build fails soft: MOE audio and the podcast feed are optional, the site deploys without them.
 
 ## Open items
-- Write lessons 71–100 following `course/syllabus.yaml` (`plan:` field); classify the vocabulary for the Themes tab, starting with a pilot domain.
+- Write lessons 78–100 following `course/syllabus.yaml` (`plan:` field); classify the vocabulary for the Themes tab, starting with a pilot domain.
 - Record lessons with a native speaker; lines she flags go to `course/audio/flags.yaml`.
 - Sync/exam token expires about 12 Nov 2026 (30-day token); see `docs/sync-and-private-module.md`.
 - The podcast feed URL is hard-coded in `tools/fetch_podcast.py` and also in the private repo's tools. Change all copies together.

@@ -1,0 +1,57 @@
+id: 76
+title: {en: "Writing a message", tailo: "Siá phue", hanji: "寫批"}
+review: false
+setting: "Back from the tea mountain (lesson 67), Sam writes a thank-you letter to A-peh. A-kong helps him with the written style."
+dialogue:
+  - {n: 1, speaker: Sam, hanji: "阿公，我想欲寫一張批予阿伯，多謝伊招待。", tailo: "A-kong, guá siūnn-beh siá tsi̍t tiunn phue hōo a-peh, to-siā i tsiau-thāi.", en: "A-kong, I'd like to write a letter to A-peh to thank him for having us."}
+  - {n: 2, speaker: A-kong, hanji: "好啊。寫批佮講話無仝，愛較有禮數。頭一句寫「敬愛的阿伯」。", tailo: "Hó--ah. Siá phue kah kóng-uē bô-kâng, ài khah ū lé-sòo. Thâu tsi̍t kù siá “Kìng-ài ê a-peh”.", en: "Good idea. Writing a letter isn't like talking; it needs more formality. Start with 'Dear (respected) A-peh'."}
+  - {n: 3, speaker: Sam, hanji: "紲落來咧？我欲寫「多謝你，茶上好啉」。", tailo: "Suà--lo̍h-lâi--leh? Guá beh siá “To-siā lí, tê siōng hó-lim”.", en: "And then? I want to write 'Thank you, the tea was the best'."}
+  - {n: 4, speaker: A-kong, hanji: "批內底會使較文。寫「你的茶上蓋芳」，較有感情。", tailo: "Phue lāi-té ē-sái khah bûn. Siá “lí ê tê siōng-kài phang”, khah ū kám-tsîng.", en: "A letter can be a bit more literary. Write 'your tea is the most fragrant of all'; it has more feeling."}
+  - {n: 5, speaker: Sam, hanji: "「上蓋」佮「上」、「最」有啥無仝？", tailo: "“Siōng-kài” kah “siōng”, “tsuè” ū siánn bô-kâng?", en: "What's the difference between 'siōng-kài', 'siōng' and 'tsuè'?"}
+  - {n: 6, speaker: A-kong, hanji: "攏是「最」的意思。「上」上捷用；「上蓋」較強，閣會使講「非常」；「最」較文。", tailo: "Lóng sī “tsuè” ê ì-sù. “Siōng” siōng tsia̍p īng; “siōng-kài” khah kiông, koh ē-sái kóng “hui-siông”; “tsuè” khah bûn.", en: "They all mean 'most'. 'Siōng' is the commonest; 'siōng-kài' is stronger and can also mean 'extremely'; 'tsuè' is more literary."}
+  - {n: 7, speaker: Sam, hanji: "我寫：「自從離開茶山，我逐工攏數念阿伯的茶。」", tailo: "Guá siá: “Tsū-tsiông lī-khui tê-suann, guá ta̍k-kang lóng siàu-liām a-peh ê tê.”", en: "I'll write: 'Since leaving the tea mountain, I've missed your tea every day.'"}
+  - {n: 8, speaker: A-kong, hanji: "真好。數念就是思念，寫批的時真捷用。", tailo: "Tsin hó. Siàu-liām tō sī su-liām, siá phue ê sî tsin tsia̍p īng.", en: "Very good. 'Siàu-liām' means 'miss', and it's very common in letters."}
+  - {n: 9, speaker: Sam, hanji: "上尾愛按怎收尾？", tailo: "Siōng bué ài án-tsuánn siu-bué?", en: "How do I end it?"}
+  - {n: 10, speaker: A-kong, hanji: "寫「敬祝身體健康，萬事如意」，閣寫你的名佮日子。", tailo: "Siá “kìng-tsiok sin-thé kiān-khong, bān-sū jû-ì”, koh siá lí ê miâ kah ji̍t-tsí.", en: "Write 'Wishing you good health and every success', then your name and the date."}
+  - {n: 11, speaker: Sam, hanji: "這馬人攏寄電子批，敢閣有人寫紙的批？", tailo: "Tsit-má lâng lóng kià tiān-tsú-phue, kám koh ū lâng siá tsuá ê phue?", en: "Everyone sends emails these days. Does anyone still write paper letters?"}
+  - {n: 12, speaker: A-kong, hanji: "較少矣。毋過老一輩的人收著用手寫的批，上蓋歡喜。", tailo: "Khah tsió--ah. M̄-koh lāu tsi̍t puè ê lâng siu--tio̍h iōng tshiú siá ê phue, siōng-kài huann-hí.", en: "Fewer and fewer. But the older generation is happiest of all to get a handwritten letter."}
+  - {n: 13, speaker: Sam, hanji: "我的字真䆀，阿伯敢看有？", tailo: "Guá ê jī tsin bái, a-peh kám khuànn ū?", en: "My handwriting is terrible. Will A-peh be able to read it?"}
+  - {n: 14, speaker: A-kong, hanji: "字䆀無要緊，誠意上要緊。寫好，我共你寫批囊頂的地址。", tailo: "Jī bái bô-iàu-kín, sîng-ì siōng iàu-kín. Siá hó, guá kā lí siá phue-lông tíng ê tē-tsí.", en: "Ugly handwriting doesn't matter; sincerity is what counts. When you've finished, I'll write the address on the envelope for you."}
+  - {n: 15, speaker: Sam, hanji: "阿伯若回批，我欲閣寫一張予伊。", tailo: "A-peh nā huê-phue, guá beh koh siá tsi̍t tiunn hōo--i.", en: "If A-peh writes back, I'll write him another one."}
+  - {n: 16, speaker: A-kong, hanji: "按呢恁就變做寫批的朋友矣。", tailo: "Án-ne lín tō piàn-tsò siá phue ê pîng-iú--ah.", en: "Then you'll have become pen friends."}
+notes:
+  - {ref: 1, topic: vocab, text: "批 phue = letter (lesson 13); 寫批 siá phue = write a letter. 招待 tsiau-thāi = hospitality, have someone as a guest."}
+  - {ref: 2, topic: vocab, text: "敬愛的 kìng-ài ê = dear (respected), the formal opening of a letter to an elder. 禮數 lé-sòo = manners, formality (lesson 43)."}
+  - {ref: 4, topic: grammar, text: "Written register: a letter may be 文 bûn (literary) where speech is plain: 上蓋 siōng-kài 'the most, extremely' instead of 上 siōng; 數念 siàu-liām instead of 想 siūnn; 自從 tsū-tsiông 'since'; set phrases like 敬祝身體健康，萬事如意."}
+  - {ref: 6, topic: grammar, text: "Three words for 'most': 上 siōng (everyday), 上蓋 siōng-kài (emphatic; also 'extremely', 非常 hui-siông), 最 tsuè (literary, signs and labels: lesson 67). 強 kiông = strong."}
+  - {ref: 7, topic: vocab, text: "自從 tsū-tsiông = since (a point in time). 數念 siàu-liām = miss, think fondly of; 思念 su-liām (lesson 60) is the song word."}
+  - {ref: 9, topic: vocab, text: "收尾 siu-bué = end, round off."}
+  - {ref: 10, topic: culture, text: "敬祝 kìng-tsiok = respectfully wish: the usual closing formula, followed by 身體健康 (good health) and 萬事如意 (may everything go as you wish). The name and date go last."}
+  - {ref: 11, topic: vocab, text: "電子批 tiān-tsú-phue = email ('electronic letter')."}
+  - {ref: 14, topic: vocab, text: "誠意 sîng-ì = sincerity. 批囊 phue-lông = envelope. 地址 tē-tsí = address (lesson 51)."}
+  - {ref: 15, topic: vocab, text: "回批 huê-phue = write back, reply to a letter. 變做 piàn-tsò (line 16) = become, turn into."}
+new_words:
+  - {tailo: tsiau-thāi, hanji: 招待, en: "hospitality; host"}
+  - {tailo: kìng-ài, hanji: 敬愛, en: "respect and love (in 'Dear …')"}
+  - {tailo: bûn, hanji: 文, en: "literary, refined"}
+  - {tailo: siōng-kài, hanji: 上蓋, en: "the most; extremely"}
+  - {tailo: hui-siông, hanji: 非常, en: "extremely"}
+  - {tailo: kiông, hanji: 強, en: "strong"}
+  - {tailo: tsū-tsiông, hanji: 自從, en: "since"}
+  - {tailo: siàu-liām, hanji: 數念, en: "miss, think fondly of"}
+  - {tailo: siu-bué, hanji: 收尾, en: "end, round off"}
+  - {tailo: kìng-tsiok, hanji: 敬祝, en: "respectfully wish"}
+  - {tailo: tiān-tsú-phue, hanji: 電子批, en: "email"}
+  - {tailo: sîng-ì, hanji: 誠意, en: "sincerity"}
+  - {tailo: phue-lông, hanji: 批囊, en: "envelope"}
+  - {tailo: huê-phue, hanji: 回批, en: "write back"}
+  - {tailo: piàn-tsò, hanji: 變做, en: "become"}
+exercises:
+  translate:
+    - {tailo: "Siá phue kah kóng-uē bô-kâng, ài khah ū lé-sòo.", hanji: "寫批佮講話無仝，愛較有禮數。", en: "Writing a letter isn't like talking; it needs more formality."}
+    - {tailo: "Tsū-tsiông lī-khui tê-suann, guá ta̍k-kang lóng siàu-liām a-peh ê tê.", hanji: "自從離開茶山，我逐工攏數念阿伯的茶。", en: "Since leaving the tea mountain, I've missed your tea every day."}
+    - {tailo: "Jī bái bô-iàu-kín, sîng-ì siōng iàu-kín.", hanji: "字䆀無要緊，誠意上要緊。", en: "Ugly handwriting doesn't matter; sincerity is what counts."}
+  fill:
+    - {tailo: "Lí ê tê ___ phang.", hanji: "你的茶___芳。", answer: "siōng-kài", answer_hanji: "上蓋", en: "Your tea is the most fragrant of all."}
+    - {tailo: "A-peh nā ___, guá beh koh siá tsi̍t tiunn hōo--i.", hanji: "阿伯若___，我欲閣寫一張予伊。", answer: "huê-phue", answer_hanji: "回批", en: "If A-peh writes back, I'll write him another one."}
+audio: []

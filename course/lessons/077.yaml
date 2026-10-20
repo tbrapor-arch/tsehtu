@@ -1,0 +1,33 @@
+id: 77
+title: {en: "Review 11", tailo: "Ho̍k-si̍p", hanji: "復習"}
+review: true
+setting: "A-bîng's house-warming dinner, with his new cat. Everything comes from lessons 71–76."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "新厝收拾甲真好勢。搬厝彼工，阮扛甲規身軀流汗。", tailo: "Sin tshù siu-si̍p kah tsin hó-sè. Puann-tshù hit kang, guán kng kah kui sin-khu lâu-kuānn.", en: "The new place looks so neat. On moving day we carried things till we were drenched in sweat."}
+  - {n: 2, speaker: A-bîng, hanji: "多謝恁。烏糖嘛慣勢矣，逐工佇窗仔邊曝日。", tailo: "To-siā lín. Oo-thn̂g mā kuàn-sì--ah, ta̍k-kang tī thang-á pinn pha̍k-ji̍t.", en: "Thank you. Brown Sugar has settled in too; she lies in the sun by the window every day."}
+  - {n: 3, speaker: Sam, hanji: "伊上愛耍，昨昏閣咬我的跤。", tailo: "I siōng ài sńg, tsa-hng koh kā guá ê kha.", en: "She loves playing; yesterday she bit my foot again."}
+  - {n: 4, speaker: A-má, hanji: "細隻的咬袂疼。你寒著好矣無？", tailo: "Sè-tsiah--ê kā bē thiànn. Lí kuânn--tio̍h hó--ah--bô?", en: "Little ones' bites don't hurt. Is your cold better?"}
+  - {n: 5, speaker: Sam, hanji: "好矣。啉阿媽燉的雞湯，冰的嘛較少啉，近來較勇矣。", tailo: "Hó--ah. Lim a-má tūn ê ke-thng, ping--ê mā khah tsió lim, kīn-lâi khah ióng--ah.", en: "Yes. I drank A-má's chicken soup and cut down on cold drinks; I've been feeling stronger lately."}
+  - {n: 6, speaker: A-bîng, hanji: "阮小妹的囝閣吵欲聽阿祖講古。", tailo: "Guán sió-muē ê kiánn koh tshá beh thiann a-tsóo kóng-kóo.", en: "My sister's little girl is pestering to hear her great-grandma tell stories again."}
+  - {n: 7, speaker: A-má, hanji: "伊毋但愛聽古，閣佇學校學台語，這馬講甲誠好。", tailo: "I m̄-nā ài thiann kóo, koh tī ha̍k-hāu o̍h Tâi-gí, tsit-má kóng kah tsiânn hó.", en: "She doesn't just love stories; she's learning Taigi at school too, and now she speaks it really well."}
+  - {n: 8, speaker: Sam, hanji: "阿伯回批矣！伊講我的批上蓋有誠意。", tailo: "A-peh huê-phue--ah! I kóng guá ê phue siōng-kài ū sîng-ì.", en: "A-peh wrote back! He says my letter was extremely sincere."}
+  - {n: 9, speaker: A-kong, hanji: "你看，字䆀無要緊。寫批佮學語言仝款，愛用心。", tailo: "Lí khuànn, jī bái bô-iàu-kín. Siá phue kah o̍h gí-giân kāng-khuán, ài iōng-sim.", en: "You see, bad handwriting doesn't matter. Writing letters is like learning a language: you have to put your heart into it."}
+  - {n: 10, speaker: A-bîng, hanji: "來，逐家食飯！新厝第一頓，烏糖嘛有份。", tailo: "Lâi, ta̍k-ke tsia̍h-pn̄g! Sin tshù tē-it tǹg, Oo-thn̂g mā ū hūn.", en: "Come on, everyone, let's eat! First meal in the new place, and Brown Sugar gets her share too."}
+notes:
+  - {ref: 1, topic: grammar, text: "Moving (lesson 73): 搬厝, 扛, 拖, 捒, 撨, 捾; 重 / 輕; 斟酌 = careful; 家私, 收拾, 好勢. V 甲 + result: 扛甲規身軀流汗."}
+  - {ref: 3, topic: sandhi, text: "Pets (lesson 74): 貓仔, 狗仔, 兔仔, 鴨仔, 鳥仔; 耍 = play; 咬 = bite; 吠 = bark. Before 仔: tone 3 and tone 4 (-h) → tone 1, tone 7 and tone 8 (-h) → tone 7; 兔仔 thoo-á, 鴨仔 a-á, 帽仔 bō-á."}
+  - {ref: 4, topic: grammar, text: "Medicine (lesson 75): 寒著, 漢藥 / 漢醫 / 西醫, 體質, 虛, 涼, 補, 燉, 摻. 若是 nā-sī = if. False friends: 熟似 (know someone), 性命 (life), 近來 (lately), 大人 (adult)."}
+  - {ref: 6, topic: grammar, text: "Telling a story (lesson 72): 古早古早, 有一工, 起先, 原來, 無疑 (unexpectedly), 最後, 結局; 巧 = clever; 假影 = pretend; 騙 = trick; 袂輸 = just like."}
+  - {ref: 7, topic: grammar, text: "毋但 X，閣 Y = not only X, but also Y (lesson 71). School and languages: 母語, 本土語言, 課 / 上課, 客語, 原住民, 環境, 自信, 重視, 囝孫."}
+  - {ref: 8, topic: grammar, text: "Letters (lesson 76): 批, 回批, 電子批, 批囊; 上蓋 = the most, extremely; 數念 = miss; 自從 = since; 敬愛的…, 敬祝身體健康. 誠意 = sincerity."}
+  - {ref: 10, topic: vocab, text: "頓 tǹg = classifier for meals. 有份 ū hūn = have a share."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Puann-tshù hit kang, guán kng kah kui sin-khu lâu-kuānn.", hanji: "搬厝彼工，阮扛甲規身軀流汗。", en: "On moving day we carried things till we were drenched in sweat."}
+    - {tailo: "I m̄-nā ài thiann kóo, koh tī ha̍k-hāu o̍h Tâi-gí.", hanji: "伊毋但愛聽古，閣佇學校學台語。", en: "She doesn't just love stories, she's learning Taigi at school too."}
+    - {tailo: "I kóng guá ê phue siōng-kài ū sîng-ì.", hanji: "伊講我的批上蓋有誠意。", en: "He says my letter was extremely sincere."}
+  fill:
+    - {tailo: "___ guá mā khah ióng--ah.", hanji: "___我嘛較勇矣。", answer: "Kīn-lâi", answer_hanji: "近來", en: "Lately I've been feeling stronger too."}
+    - {tailo: "Lí ___ hó--ah--bô?", hanji: "你___好矣無？", answer: "kuânn--tio̍h", answer_hanji: "寒著", en: "Is your cold better?"}
+audio: []
