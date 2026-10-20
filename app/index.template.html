@@ -439,8 +439,20 @@ button.card.wave { text-align: left; }
 .pv b.han { font-size: 1.25rem; } .pv .rom { color: var(--brand); font-weight: 600; } .pv .zh { font-size: .88rem; }
 .podmini { position: fixed; left: 12px; right: 12px; bottom: calc(4.6rem + env(safe-area-inset-bottom, 0px)); z-index: 14; display: flex; gap: .5rem; align-items: center; background: var(--surface); border: var(--border); border-radius: var(--r); box-shadow: var(--shadow); padding: .35rem .5rem; }
 body.has-mini main { padding-bottom: 11rem; }
-.vidbox { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: var(--r); overflow: hidden; }
-.vidbox iframe, .vidbox > div { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.vidslot { position: relative; width: 100%; aspect-ratio: 16 / 9; }
+.vidbox { position: absolute; inset: 0; background: #000; border-radius: var(--r); overflow: hidden; }
+.vidbox iframe, .vidbox #vidframe, .vidbox .vidmsg { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.vidfx { display: none; }
+/* phone and tablet: once the player is scrolled away, the picture stays at the top of the screen */
+.vidplayer.float .vidbox { position: fixed; z-index: 16; top: env(safe-area-inset-top, 0px); left: 0; right: 0; bottom: auto; width: 100%; height: auto; aspect-ratio: 16 / 9; max-height: 40vh; border-radius: 0; box-shadow: 0 4px 14px rgba(0, 0, 0, .3); }
+.vidplayer.float .vidfx { display: grid; place-items: center; position: absolute; z-index: 2; top: .35rem; right: .35rem; width: 2rem; height: 2rem; border: 0; border-radius: 50%; background: rgba(0, 0, 0, .55); color: #fff; font-size: 1rem; }
+/* wide screens: picture and controls on the left (they stay put), transcript on the right */
+@media (min-width: 1100px) {
+  .col.vidpage { max-width: 82rem; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 2rem; align-items: start; }
+  .vidleft { position: sticky; top: 1rem; display: flex; flex-direction: column; gap: 1.25rem; }
+  .vidside:empty { display: none; }
+}
+@media (max-width: 1099px) { .vidleft, .vidside { display: flex; flex-direction: column; gap: 1.5rem; } .col.vidpage { gap: 1.5rem; } }
 .vidbox .vidmsg { display: grid; place-items: center; color: #fff; padding: 1rem; text-align: center; font-size: .9rem; }
 .podmini.float { padding: .45rem .6rem .35rem; overflow: hidden; }
 .podmini .pm-sk { border: var(--border); background: var(--surface); color: var(--text); border-radius: 999px; padding: .35rem .6rem; font: inherit; font-size: .85rem; flex: none; }
@@ -1063,8 +1075,8 @@ function showEpisode(ep) {
   podUI(); podMini();
 }
 // ---------- video: Taigi drama on the broadcaster's own YouTube channel (course/video.yaml), played in YouTube's
-// embedded player; nothing is copied. The private module can add a transcript under the player: it uses vidTime(),
-// vidSeek() and the #vidplayer element, as for the podcast.
+// embedded player; nothing is copied. The private module can add a transcript: it puts it in #vidside (beside the
+// player on wide screens, under it otherwise) and uses vidTime(), vidSeek() and vidInset(), as for the podcast.
 const VID = DATA.video || { shows: [] };
 const vidState = () => store.get('vid', {});
 const vidKey = (S, ep) => `${S.id}-${ep.n}`;
@@ -1082,6 +1094,8 @@ function ytReady() {
   });
 }
 const vidTime = () => (yt && yt.getCurrentTime ? yt.getCurrentTime() : 0);
+// height covered at the top of the screen by the floating picture (0 when it is not floating)
+const vidInset = () => { const b = $('.vidplayer.float .vidbox'); return b ? b.getBoundingClientRect().bottom : 0; };
 function vidSeek(t, play) { if (yt && yt.seekTo) { yt.seekTo(Math.max(0, t), true); if (play) yt.playVideo(); } }
 function showVideo() {
   renderTabs('video');
@@ -1103,11 +1117,11 @@ function showVideoEp(S, ep) {
   if (yt && yt.destroy) { try { yt.destroy(); } catch {} }
   yt = null; ytLoop = null; ytEp = { S, ep };
   const k = vidKey(S, ep), m = $('#main'), t0 = (vidState()[k] || {}).t || 0;
-  m.innerHTML = `<div class="col">
+  m.innerHTML = `<div class="col vidpage"><div class="vidleft">
     <div class="lbar"><button class="icon" data-go="video" aria-label="Back to episodes">←</button><span class="where">EP${ep.n} · ${esc(ep.title)}</span></div>
     <div class="head"><span class="eyebrow">${esc(S.title)} · ${esc(S.en)}</span><h1 style="font-size:clamp(1.5rem,5vw,2rem)">EP${ep.n} ${esc(ep.title)}</h1></div>
-    <div class="card raised podplayer" id="vidplayer">
-      <div class="vidbox"><div id="vidframe"><div class="vidmsg">Loading the player…</div></div></div>
+    <div class="card raised podplayer vidplayer" id="vidplayer">
+      <div class="vidslot"><div class="vidbox"><div id="vidframe"><div class="vidmsg">Loading the player…</div></div><button class="vidfx" aria-label="Put the video back in the page">×</button></div></div>
       <div class="row" style="justify-content:space-between"><span id="vp-t" class="sub">${mmss(t0)}${ep.dur ? ' / ' + mmss(ep.dur) : ''}</span>
         <button class="btn small quiet" id="vp-rate" title="Speed">${store.get('vidRate', 1)}×</button></div>
       <div class="row pp-ctl"><button class="btn line" id="vp-back" aria-label="Back 5 seconds">↺ 5</button>
@@ -1118,9 +1132,21 @@ function showVideoEp(S, ep) {
     </div>
     <p class="sub" style="margin:0;max-width:65ch">Spoken in Taigi; the subtitles on screen are Mandarin, written for the meaning, not word for word.</p>
     <p class="sub" style="font-size:.8rem;margin:0">${esc(S.title)} © ${esc(S.by)}. Played from the channel's own upload: <a href="https://www.youtube.com/watch?v=${esc(ep.video)}" target="_blank" rel="noopener">open on YouTube</a>.</p>
-  </div>`;
+  </div><div class="vidside" id="vidside"></div></div>`;
   wireGo(m);
   const root = $('#vidplayer', m);
+  // narrow screens: float the picture at the top once the player is scrolled up out of view (× puts it back until the
+  // player has been seen again); wide screens have it side by side with the transcript instead
+  const narrow = matchMedia('(max-width: 1099px)');
+  let docked = false;
+  const slot = $('.vidslot', root);
+  const setFloat = on => root.classList.toggle('float', on);
+  if ('IntersectionObserver' in window) new IntersectionObserver(([e]) => {
+    if (!root.isConnected) return;
+    if (e.isIntersecting) docked = false;
+    setFloat(narrow.matches && !docked && !e.isIntersecting && e.boundingClientRect.bottom < 0 && !!yt);
+  }).observe(slot);
+  $('.vidfx', root).onclick = () => { docked = true; setFloat(false); };
   const ui = () => {
     if (!root.isConnected) return;
     const t = vidTime(), d = (yt && yt.getDuration && yt.getDuration()) || ep.dur || 0, st = yt && yt.getPlayerState ? yt.getPlayerState() : -1;
