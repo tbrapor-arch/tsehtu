@@ -4,10 +4,10 @@ Migrated from a long Claude Project conversation. In that conversation lessons w
 course files as a model for pacing and structure only (kept in the git-ignored `reference/`).
 
 ## Status
-- **Lessons:** 1–98 written (`course/lessons/`), 99–100 planned as titles in `course/syllabus.yaml`. Lesson 0 is
-  `000-reading-tailo.md`. Review lessons: 7, 14, …, 98 (all 14).
+- **Lessons:** all 100 written (`course/lessons/`), following `course/syllabus.yaml`. Lesson 0 is
+  `000-reading-tailo.md`. Review lessons: 7, 14, …, 98.
 - **Themes:** one (`health`). The Themes tab is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
-- **Coverage** (after lesson 98): top 100: 100 %, top 300: 96 %, top 1,000: 88 % (72 % after 63, 86 % after 91). Plan for lessons 64–100: `docs/course-plan.md`.
+- **Coverage** (after lesson 100): top 100: 100 %, top 300: 97 %, top 1,000: 88 % (72 % after 63). The plan's 95 % target for the top 1,000 was not reached. Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
 - **App tabs:** Lessons, Themes, Grammar, Review (includes Bridge and tone drill), Podcast, Settings, plus a hidden
   Exam tab that exists only when this device's token can read the private repo.
@@ -43,9 +43,9 @@ before committing (lessons 64–76 had many guessed numbers, fixed on 20 Oct 202
 - Build fails soft: MOE audio and the podcast feed are optional, the site deploys without them.
 
 ## Open items
-- Write lessons 99–100 following `course/syllabus.yaml` (`plan:` field); classify the vocabulary for the Themes tab, starting with a pilot domain.
+- Classify the vocabulary for the Themes tab, starting with a pilot domain. Optional: a native-speaker pass over lessons 64–100 (written 16–20 Oct 2026, not native-checked).
 - Record lessons with a native speaker; lines she flags go to `course/audio/flags.yaml`.
 - Sync/exam token expires about 12 Nov 2026 (30-day token); see `docs/sync-and-private-module.md`.
 - The podcast feed URL is hard-coded in `tools/fetch_podcast.py` and also in the private repo's tools. Change all copies together.
-- Not run since the wave/phase change: `tools/smoke.py` (lint, sandhi tests and `make app` were).
-- Story: lesson 90 is Sam leaving Tainan by high-speed rail after several months (not weeks); A-hun has moved to Taipei (82–84). Lessons 92 and 100 (back in Taipei, farewell party) still to write; 90 sets up a Taigi-speaking colleague at Sam's company for 93.
+- Not run since the wave/phase change: `tools/smoke.py` (lint, sandhi tests and `make app` were, after every batch up to lesson 100).
+- Story 64–100: Sam stays several months in Tainan (51 said 'a few weeks'; 90 acknowledges it ran long), A-hun moves to Taipei (82–84), Sam returns to Taipei (90–92), colleague A-tshun (92–98), A-bîng's engagement (99), New Year's Eve reunion in Tainan (100). The A-kong/A-hun family surname is 林 Lîm (lessons 52, 98).

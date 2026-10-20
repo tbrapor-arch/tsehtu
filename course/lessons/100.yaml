@@ -1,0 +1,54 @@
+id: 100
+title: {en: "Farewell party", tailo: "Sî-nî", hanji: "辭年"}
+review: false
+setting: "New Year's Eve at A-má's in Tainan: the reunion dinner that sees out the old year. Everyone has come home, and A-bîng has brought someone with him."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "逐家攏轉來矣！今年圍爐，人上齊。", tailo: "Ta̍k-ke lóng tńg--lâi--ah! Kin-nî uî-lôo, lâng siōng tsiâu.", en: "Everyone's home! This year's reunion dinner has the whole family."}
+  - {n: 2, speaker: A-bîng, hanji: "阿媽，我共你介紹：這是阮女朋友，美玲。阮明年欲結婚。", tailo: "A-má, guá kā lí kài-siāu: tse sī guán lú-pîng-iú, Bí-lîng. Guán mê-nî beh kiat-hun.", en: "A-má, let me introduce my girlfriend, Bí-lîng. We're getting married next year."}
+  - {n: 3, speaker: Bí-lîng, hanji: "阿媽好，阿公好。我聽阿明講真濟恁的代誌。", tailo: "A-má hó, a-kong hó. Guá thiann A-bîng kóng tsin tsē lín ê tāi-tsì.", en: "Hello, A-má, hello, A-kong. A-bîng has told me so much about you."}
+  - {n: 4, speaker: A-má, hanji: "這是今年上大的驚喜！來，坐阿媽邊仔。", tailo: "Tse sī kin-nî siōng tuā ê kiann-hí! Lâi, tsē a-má pinn--á.", en: "This is the best surprise of the year! Come and sit next to me."}
+  - {n: 5, speaker: A-kong, hanji: "好、好！咱兜閣欲加一个人矣。", tailo: "Hó, hó! Lán tau koh beh ke tsi̍t ê lâng--ah.", en: "Wonderful! Our family is about to grow by one."}
+  - {n: 6, speaker: A-hun, hanji: "Sam 嘛有好消息：伊報名台語認證矣。", tailo: "Sam mā ū hó siau-sit: i pò-miâ Tâi-gí jīn-tsìng--ah.", en: "Sam has good news too: he's signed up for the Taigi proficiency test."}
+  - {n: 7, speaker: A-kong, hanji: "真好！拄來的時連「多謝」都講袂好勢，這馬欲考試矣。", tailo: "Tsin hó! Tú lâi ê sî liân “to-siā” to kóng bē hó-sè, tsit-má beh khó-tshì--ah.", en: "Excellent! When he first came he couldn't even say 'thank you' properly, and now he's taking an exam."}
+  - {n: 8, speaker: Sam, hanji: "攏是恁教我的。今仔日辭年，我有幾句話想欲講。", tailo: "Lóng sī lín kà--guá--ê. Kin-á-ji̍t sî-nî, guá ū kuí kù uē siūnn-beh kóng.", en: "It's all thanks to you. Tonight, as we see out the year, there's something I'd like to say."}
+  - {n: 9, speaker: A-má, hanji: "好，逐家恬恬，聽 Sam 講。", tailo: "Hó, ta̍k-ke tiām-tiām, thiann Sam kóng.", en: "All right, everyone, quiet, let's listen to Sam."}
+  - {n: 10, speaker: Sam, hanji: "一年前，我一句台語都聽無。是恁予我一个厝，教我講話、煮食、講古。", tailo: "Tsi̍t nî tsîng, guá tsi̍t kù Tâi-gí to thiann bô. Sī lín hōo guá tsi̍t ê tshù, kà guá kóng-uē, tsú-tsia̍h, kóng-kóo.", en: "A year ago I couldn't understand a word of Taigi. You gave me a home and taught me to talk, to cook and to tell stories."}
+  - {n: 11, speaker: Sam, hanji: "地動彼暝、迎媽祖彼工、阿媽教我煮滷肉飯彼時，我攏會記得。", tailo: "Tē-tāng hit mê, ngiâ Má-tsóo hit kang, a-má kà guá tsú lóo-bah-pn̄g hit-sî, guá lóng ē-kì--tit.", en: "The night of the earthquake, the day of the Mazu procession, the time A-má taught me braised pork rice: I'll remember them all."}
+  - {n: 12, speaker: Sam, hanji: "我真感恩。毋管我將來佇佗位，這搭就是我的第二个故鄉。", tailo: "Guá tsin kám-un. M̄-kuán guá tsiong-lâi tī tó-uī, tsit-tah tō sī guá ê tē-jī ê kòo-hiong.", en: "I'm truly grateful. Wherever I end up, this place will be my second home."}
+  - {n: 13, speaker: A-má, hanji: "戇囡仔，講甲阿媽目屎都流出來矣。", tailo: "Gōng gín-á, kóng kah a-má ba̍k-sái to lâu--tshut-lâi--ah.", en: "Silly boy, you've made me cry."}
+  - {n: 14, speaker: A-pah, hanji: "Sam，你嘛是阮兜的人。後擺過年，你攏愛轉來。", tailo: "Sam, lí mā sī guán tau ê lâng. Āu-pái kuè-nî, lí lóng ài tńg--lâi.", en: "Sam, you're part of our family too. Every New Year from now on, you have to come home."}
+  - {n: 15, speaker: A-kong, hanji: "來，逐家攑杯仔！祝咱逐家新年快樂，身體健康！", tailo: "Lâi, ta̍k-ke gia̍h pue-á! Tsiok lán ta̍k-ke sin-nî khuài-lo̍k, sin-thé kiān-khong!", en: "Come on, everyone, raise your glasses! To a happy New Year and good health for us all!"}
+  - {n: 16, speaker: Everyone, hanji: "乾杯！", tailo: "Kan-pue!", en: "Cheers!"}
+  - {n: 17, speaker: A-hun, hanji: "Sam，你的台語真正會使出師矣。", tailo: "Sam, lí ê Tâi-gí tsin-tsiànn ē-sái tshut-sai--ah.", en: "Sam, your Taigi really is good enough to graduate now."}
+  - {n: 18, speaker: Sam, hanji: "猶未啦。戲棚跤徛久就是你的，我猶愛閣徛足久。", tailo: "Iáu-buē--lah. Hì-pênn kha khiā kú tō sī lí ê, guá iáu ài koh khiā tsiok kú.", en: "Not yet. Stand long enough in front of the stage and the spot is yours; I've got a lot more standing to do."}
+  - {n: 19, speaker: A-má, hanji: "好啦，莫講矣，菜攏冷去矣。食飯皇帝大！", tailo: "Hó--lah, mài kóng--ah, tshài lóng líng--khì--ah. Tsia̍h-pn̄g hông-tè tuā!", en: "That's enough talking, the food's getting cold. Eating comes first!"}
+notes:
+  - {ref: 1, topic: culture, text: "辭年 sî-nî = see out the old year (the title): New Year's Eve, when the family gathers for 圍爐 uî-lôo, the reunion dinner (lesson 23). 齊 tsiâu = all present, complete."}
+  - {ref: 2, topic: vocab, text: "女朋友 lú-pîng-iú = girlfriend (女 lú, literary reading; 查某 tsa-bóo is the everyday word for 'woman'). 介紹 kài-siāu = introduce (lesson 66)."}
+  - {ref: 5, topic: vocab, text: "加 ke = add (lesson 3): 加一个人 'one more person'."}
+  - {ref: 6, topic: vocab, text: "報名 pò-miâ = sign up, register. 認證 jīn-tsìng = certification (lesson 99)."}
+  - {ref: 9, topic: vocab, text: "恬恬 tiām-tiām = quiet, silent (lesson 54)."}
+  - {ref: 12, topic: grammar, text: "毋管 X，Y = wherever, whatever (lesson 52). 這搭 tsit-tah = here, this place. 感恩 kám-un = be grateful (a deeper word than 感謝 kám-siā)."}
+  - {ref: 13, topic: vocab, text: "戇囡仔 gōng gín-á 'silly child': an affectionate scolding, not an insult."}
+  - {ref: 15, topic: culture, text: "攑杯 gia̍h pue = raise one's glass. 新年快樂 sin-nî khuài-lo̍k = Happy New Year. 乾杯 kan-pue = cheers (lit. 'dry the glass')."}
+  - {ref: 17, topic: vocab, text: "出師 tshut-sai = finish one's apprenticeship, be fully trained (師仔 sai-á, lesson 82)."}
+  - {ref: 18, topic: culture, text: "Two proverbs from earlier lessons close the course: 戲棚跤徛久就是你的 (lesson 96) and 食飯皇帝大 (lesson 44). This is the last lesson; its second wave brings back lesson 51, from Sam's first weeks in Tainan."}
+new_words:
+  - {tailo: tsiâu, hanji: 齊, en: "all present, complete"}
+  - {tailo: lú-pîng-iú, hanji: 女朋友, en: "girlfriend"}
+  - {tailo: pò-miâ, hanji: 報名, en: "sign up"}
+  - {tailo: khó-tshì, hanji: 考試, en: "exam, take an exam"}
+  - {tailo: tsit-tah, hanji: 這搭, en: "here, this place"}
+  - {tailo: kám-un, hanji: 感恩, en: "be grateful"}
+  - {tailo: kan-pue, hanji: 乾杯, en: "cheers"}
+  - {tailo: tshut-sai, hanji: 出師, en: "finish one's apprenticeship"}
+  - {tailo: sî-nî, hanji: 辭年, en: "see out the old year"}
+exercises:
+  translate:
+    - {tailo: "Ta̍k-ke lóng tńg--lâi--ah!", hanji: "逐家攏轉來矣！", en: "Everyone's home!"}
+    - {tailo: "M̄-kuán guá tsiong-lâi tī tó-uī, tsit-tah tō sī guá ê tē-jī ê kòo-hiong.", hanji: "毋管我將來佇佗位，這搭就是我的第二个故鄉。", en: "Wherever I end up, this place will be my second home."}
+    - {tailo: "Tsiok lán ta̍k-ke sin-nî khuài-lo̍k, sin-thé kiān-khong!", hanji: "祝咱逐家新年快樂，身體健康！", en: "To a happy New Year and good health for us all!"}
+  fill:
+    - {tailo: "Guá tsin ___.", hanji: "我真___。", answer: "kám-un", answer_hanji: "感恩", en: "I'm truly grateful."}
+    - {tailo: "Tsia̍h-pn̄g hông-tè ___!", hanji: "食飯皇帝___！", answer: "tuā", answer_hanji: "大", en: "Eating comes first!"}
+audio: []

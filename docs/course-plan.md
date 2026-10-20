@@ -12,13 +12,15 @@ Decisions of 16 Oct 2026, from the audit of lessons 1–63 and a measured vocabu
 - Only lessons 1–51 get a second wave (N ≤ 100). Lessons 52–100 do not.
 - The course ends: review 14 (lesson 98), then lessons 99–100 (their waves redo lessons 50 and 51).
 
-## Stages (observed; lessons 1–63)
+## Stages (observed; new lessons only, reviews excluded)
 | Block | Lines | New words | Chars/line | Chars/dialogue |
 |---|---|---|---|---|
 | 1–6 | 8.3 | 17.3 | 9.6 | 80 |
 | 8–25 | 7.4 | 11.5 | 10.5 | 78 |
 | 26–49 | 7.5 | 13.4 | 13.5 | 102 |
 | 51–63 | 15 | 14.5 | 16.8 | 253 |
+| 64–76 | 16 | 15.2 | 16.2 | 259 |
+| 78–100 | 17.6 | 14.6 | 17.0 | 299 |
 
 A = 1–25 (31 of 39 grammar sheets first appear here). B = 26–49. Lessons 50–100 are dense (the jump is at 50–51, not 76).
 Stage C (76–100) is defined by content: formal and written register, literary readings, narrative and discourse
@@ -32,10 +34,14 @@ Targets for lessons 64–100 (32 new lessons, 5 reviews, about 15 new words each
 top 2,000 ≈ 60 %, whole core ≈ 47 %. Check with `python3 tools/coverage.py` (after `make db`).
 
 ## Lessons 64–100
-Progress: 64–77 written (20 Oct 2026). Placed so far: 咧欲, 連…嘛, 就 tsiū, 後來, 予 passive, 本, 枝, 逝, 最, 雖然,
-看見, 但是, 學生, 別人, 若是, 上蓋, 老爸, 爸母 (and 毋管, 毋但, 袂輸, 因為…所以, 有夠 recycled). False friends added: 巧, 無疑,
-斟酌, 耍, 熟似, 摻, 性命, 近來, 大人. Sandhi / pronunciation notes: 65 (tone groups), 66 (Lukang accent), 74 (仔 á sandhi).
-Still to place from the list above: 囉 / 哩 (78), proverbs and literary readings (stage C, 78+).
+Progress: all 100 lessons written (20 Oct 2026). Placed: 咧欲, 連…嘛, 就 tsiū, 後來, 予 passive, 本, 枝, 逝, 最, 雖然, 看見,
+但是, 學生, 別人, 若是, 上蓋, 囉, 哩, 嘛 / 呢 (particles), 老爸, 爸母, 將來, 拍算; recycled: 毋管, 毋但, 袂輸, 因為…所以, 有夠.
+Sandhi / pronunciation notes: 65 (tone groups), 66 (Lukang accent), 74 (仔 á sandhi), 79 and 82 (literary readings), 87 (tones).
+Proverbs from the MOE dictionary: 86, 96. Coverage after 100: top 300 97 %, top 1,000 88 % (target 95 % not reached).
+112 top-1,000 words remain: literary single-character readings (益, 君, 罪), names (楊, 鄭, 趙), Christian vocabulary
+from the corpus (上帝, 耶穌, 牧師, 聖經), but also ordinary words a revision pass could add (社會, 世界, 關係, 成功, 常常,
+奇怪, 總是, 無愛, 查某人). 後來 and 邊仔 are used in lessons but still counted as missing, probably because of their
+neutral-tone spelling (--); check `tools/coverage.py` before relying on the figure.
 `course/syllabus.yaml` holds the topic (`focus`) and, for each new lesson, a `plan:` with the gaps to fill. Rules:
 - Dialogues 15–18 lines until about 84, then 18–20; never more than 20. Reviews about 10 lines.
 - 14–16 new words per lesson, never a word already declared new in an earlier lesson (37 words were declared twice

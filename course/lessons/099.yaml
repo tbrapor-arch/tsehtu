@@ -1,0 +1,58 @@
+id: 99
+title: {en: "Planning the future", tailo: "Tsiong-lâi ê kè-uē", hanji: "將來的計畫"}
+review: false
+setting: "Late December. A-bîng is in Taipei for work and has dinner with Sam and his sister A-hun."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "Sam，今年欲過去矣，你明年有啥物拍算？", tailo: "Sam, kin-nî beh kuè--khì--ah, lí mê-nî ū siánn-mih phah-sǹg?", en: "Sam, the year's nearly over. What are your plans for next year?"}
+  - {n: 2, speaker: Sam, hanji: "我有一个計畫：明年欲去考台語認證。", tailo: "Guá ū tsi̍t ê kè-uē: mê-nî beh khì khó Tâi-gí jīn-tsìng.", en: "I have a plan: next year I'm going to take the Taigi proficiency test."}
+  - {n: 3, speaker: A-hun, hanji: "教育部辦的彼个？聽講真僫。", tailo: "Kàu-io̍k-pōo pān ê hit ê? Thiann-kóng tsin oh.", en: "The one the Ministry of Education runs? I hear it's really hard."}
+  - {n: 4, speaker: Sam, hanji: "有分幾若級。我先考中級，目標是三年內考著高級。", tailo: "Ū hun kuí-nā kip. Guá sing khó tiong-kip, bo̍k-piau sī sann nî lāi khó--tio̍h ko-kip.", en: "It has several levels. I'll take the intermediate first; my goal is to pass the advanced level within three years."}
+  - {n: 5, speaker: A-bîng, hanji: "你按算按怎準備？", tailo: "Lí àn-sǹg án-tsuánn tsún-pī?", en: "How are you planning to prepare?"}
+  - {n: 6, speaker: Sam, hanji: "逐工聽台語新聞，逐禮拜寫一篇文章予阿春姊改，閣逐個月轉去臺南佮阿公阿媽開講。", tailo: "Ta̍k-kang thiann Tâi-gí sin-bûn, ta̍k lé-pài siá tsi̍t phinn bûn-tsiong hōo A-tshun-tsí kái, koh ta̍k kò gue̍h tńg-khì Tâi-lâm kah a-kong a-má khai-káng.", en: "Listen to the Taigi news every day, write a piece every week for A-tshun to correct, and go back to Tainan every month to chat with A-kong and A-má."}
+  - {n: 7, speaker: A-hun, hanji: "轉去臺南？你敢有想欲搬轉去？", tailo: "Tńg-khì Tâi-lâm? Lí kám ū siūnn-beh puann tńg-khì?", en: "Back to Tainan? Are you thinking of moving back?"}
+  - {n: 8, speaker: Sam, hanji: "將來可能。等我工課較穩，我想欲佇臺南揣頭路。", tailo: "Tsiong-lâi khó-lîng. Tán guá khang-khuè khah ún, guá siūnn-beh tī Tâi-lâm tshuē thâu-lōo.", en: "Maybe one day. Once my work is more settled, I'd like to find a job in Tainan."}
+  - {n: 9, speaker: A-bîng, hanji: "阿媽若聽著，一定歡喜甲睏袂去。", tailo: "A-má nā thiann--tio̍h, it-tīng huann-hí kah khùn bē khì.", en: "If A-má hears that, she'll be too happy to sleep."}
+  - {n: 10, speaker: Sam, hanji: "恁咧？恁明年有啥物夢想？", tailo: "Lín--leh? Lín mê-nî ū siánn-mih bāng-sióng?", en: "And you two? What are your dreams for next year?"}
+  - {n: 11, speaker: A-hun, hanji: "我想欲存錢，家己開一間細間的茶行。", tailo: "Guá siūnn-beh tsûn tsînn, ka-kī khui tsi̍t king sè king ê tê-hâng.", en: "I want to save up and open a little tea shop of my own."}
+  - {n: 12, speaker: A-bîng, hanji: "茶行？你嘛綴阿公的跤步。", tailo: "Tê-hâng? Lí mā tuè a-kong ê kha-pōo.", en: "A tea shop? You're following in A-kong's footsteps."}
+  - {n: 13, speaker: A-hun, hanji: "是啊。大稻埕彼間茶行的頭家講，會使教我焙茶。", tailo: "Sī--ah. Tuā-tiū-tiânn hit king tê-hâng ê thâu-ke kóng, ē-sái kà guá puē-tê.", en: "Yes. The owner of that tea house in Dadaocheng says he can teach me to roast tea."}
+  - {n: 14, speaker: Sam, hanji: "阿明，你咧？", tailo: "A-bîng, lí--leh?", en: "And you, A-bîng?"}
+  - {n: 15, speaker: A-bîng, hanji: "我的計畫上簡單：明年欲娶某。", tailo: "Guá ê kè-uē siōng kán-tan: mê-nî beh tshuā-bóo.", en: "My plan is the simplest: next year I'm getting married."}
+  - {n: 16, speaker: A-hun, hanji: "啥物？！啥人？阮哪會攏毋知？", tailo: "Siánn-mih?! Siánn-lâng? Guán ná ē lóng m̄ tsai?", en: "What?! Who? How come we didn't know?"}
+  - {n: 17, speaker: A-bîng, hanji: "過年轉去臺南，恁就知矣。拄好予阿媽一个驚喜。", tailo: "Kuè-nî tńg-khì Tâi-lâm, lín tō tsai--ah. Tú-hó hōo a-má tsi̍t ê kiann-hí.", en: "You'll find out when we go back to Tainan for New Year. It'll be a nice surprise for A-má."}
+  - {n: 18, speaker: Sam, hanji: "按呢今年過年，一定上蓋鬧熱！", tailo: "Án-ne kin-nî kuè-nî, it-tīng siōng-kài lāu-jia̍t!", en: "Then this New Year is going to be the liveliest ever!"}
+notes:
+  - {ref: 1, topic: vocab, text: "拍算 phah-sǹg = plan, intend (打算); 按算 àn-sǹg (lesson 69) is close. 明年 mê-nî = next year."}
+  - {ref: 2, topic: culture, text: "計畫 kè-uē = plan. 認證 jīn-tsìng = certification: the Ministry of Education's Taigi proficiency test (台語認證) has several levels, from basic to advanced, and is taken by teachers, broadcasters and learners."}
+  - {ref: 4, topic: vocab, text: "級 kip = level, grade: 中級 tiong-kip intermediate, 高級 ko-kip advanced. 目標 bo̍k-piau = goal. 三年內 'within three years' (內 lāi). 考著 khó--tio̍h = pass (an exam)."}
+  - {ref: 8, topic: vocab, text: "將來 tsiong-lâi = in the future, one day. 穩 ún = stable (lesson 96)."}
+  - {ref: 9, topic: grammar, text: "睏袂去 khùn bē khì = can't get to sleep (V 袂 + result)."}
+  - {ref: 10, topic: vocab, text: "夢想 bāng-sióng = dream (an ambition); 夢 bāng = a dream (in sleep)."}
+  - {ref: 11, topic: vocab, text: "存錢 tsûn tsînn = save money (存 tsûn, lesson 30; 儉錢, lesson 69, is the everyday word). 細間 sè king = small (of a shop, a room)."}
+  - {ref: 12, topic: vocab, text: "跤步 kha-pōo = footsteps; 綴…的跤步 'follow in someone's footsteps'."}
+  - {ref: 13, topic: vocab, text: "焙茶 puē-tê = roast tea (lesson 67)."}
+  - {ref: 15, topic: vocab, text: "娶某 tshuā-bóo = (of a man) get married, take a wife; 嫁 kè (lesson 32) is the woman's word."}
+  - {ref: 17, topic: vocab, text: "驚喜 kiann-hí = (pleasant) surprise. 拄好 tú-hó = just right, conveniently."}
+new_words:
+  - {tailo: phah-sǹg, hanji: 拍算, en: "plan, intend"}
+  - {tailo: mê-nî, hanji: 明年, en: "next year"}
+  - {tailo: kè-uē, hanji: 計畫, en: "plan"}
+  - {tailo: jīn-tsìng, hanji: 認證, en: "certification"}
+  - {tailo: kip, hanji: 級, en: "level, grade"}
+  - {tailo: bo̍k-piau, hanji: 目標, en: "goal"}
+  - {tailo: ko-kip, hanji: 高級, en: "advanced, high-level"}
+  - {tailo: tsiong-lâi, hanji: 將來, en: "in the future"}
+  - {tailo: bāng, hanji: 夢, en: "dream"}
+  - {tailo: kha-pōo, hanji: 跤步, en: "footsteps"}
+  - {tailo: puē, hanji: 焙, en: "roast, bake dry"}
+  - {tailo: tshuā-bóo, hanji: 娶某, en: "take a wife, marry"}
+  - {tailo: kiann-hí, hanji: 驚喜, en: "surprise"}
+exercises:
+  translate:
+    - {tailo: "Lí mê-nî ū siánn-mih phah-sǹg?", hanji: "你明年有啥物拍算？", en: "What are your plans for next year?"}
+    - {tailo: "Tán guá khang-khuè khah ún, guá siūnn-beh tī Tâi-lâm tshuē thâu-lōo.", hanji: "等我工課較穩，我想欲佇臺南揣頭路。", en: "Once my work is more settled, I'd like to find a job in Tainan."}
+    - {tailo: "Lí mā tuè a-kong ê kha-pōo.", hanji: "你嘛綴阿公的跤步。", en: "You're following in A-kong's footsteps."}
+  fill:
+    - {tailo: "___ sī sann nî lāi khó--tio̍h ko-kip.", hanji: "___是三年內考著高級。", answer: "Bo̍k-piau", answer_hanji: "目標", en: "My goal is to pass the advanced level within three years."}
+    - {tailo: "Mê-nî beh ___.", hanji: "明年欲___。", answer: "tshuā-bóo", answer_hanji: "娶某", en: "Next year I'm getting married."}
+audio: []
