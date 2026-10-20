@@ -1,0 +1,39 @@
+name: diag (temporary)
+on:
+  push:
+    branches: [diag-audio]
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install pandas odfpy
+      - uses: actions/cache/restore@v4
+        with:
+          path: data/raw
+          key: raw-${{ hashFiles('data/fetch.sh') }}-audio-3
+      - run: ls -la data/raw/moe-audio || true
+      - run: python3 tools/fetch_audio.py --table
+      - name: rows
+        run: |
+          python3 - <<'PY'
+          import pandas as pd, zipfile, re, os
+          ods = 'data/raw/moe-audio/kautian.ods'
+          sh = pd.read_excel(ods, engine='odf', sheet_name=None, dtype=str)
+          print('::notice::sheets ' + ' | '.join(f"{k}: {list(v.columns)}" for k, v in sh.items()))
+          w = sh['詞目']
+          hit = w[w['漢字'].fillna('').str.contains('最|贅|喂|哇') | w['羅馬字'].fillna('').str.contains('tsuè|tsè')]
+          for _, r in hit.head(40).iterrows():
+              print('::notice::' + ' || '.join(f"{c}={r[c]}" for c in w.columns))
+          ids = set()
+          for _, r in hit.iterrows():
+              m = re.match(r'(\d+)', str(r.get('羅馬字音檔檔名') or ''))
+              if m: ids.add(m.group(1))
+          z = 'data/raw/moe-audio/sutiau-mp3.zip'
+          if os.path.exists(z):
+              names = zipfile.ZipFile(z).namelist()
+              print('::notice::zip members for ids ' + ' '.join(n for n in names if re.search(r'(?:^|/)(' + '|'.join(ids or {'x'}) + r')\b', n))[:3000])
+              print('::notice::zip with (2) or more: ' + str(sum(1 for n in names if re.search(r'\((?:[2-9])\)\.mp3$', n))))
+          PY
