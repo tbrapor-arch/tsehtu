@@ -24,16 +24,18 @@ jobs:
           sh = pd.read_excel(ods, engine='odf', sheet_name=None, dtype=str)
           print('::notice::sheets ' + ' | '.join(f"{k}: {list(v.columns)}" for k, v in sh.items()))
           w = sh['詞目']
-          hit = w[w['漢字'].fillna('').str.contains('最|贅|喂|哇') | w['羅馬字'].fillna('').str.contains('tsuè|tsè')]
-          for _, r in hit.head(40).iterrows():
-              print('::notice::' + ' || '.join(f"{c}={r[c]}" for c in w.columns))
-          ids = set()
-          for _, r in hit.iterrows():
-              m = re.match(r'(\d+)', str(r.get('羅馬字音檔檔名') or ''))
-              if m: ids.add(m.group(1))
+          hit = w[w['漢字'].fillna('').str.contains('最|贅')]
+          print('::notice title=rows 最 贅::' + ' ## '.join(f"{r['詞目id']} {r['詞目類型']} {r['漢字']} {r['羅馬字']} file={r['羅馬字音檔檔名']}" for _, r in hit.iterrows()))
+          tw = w[w['羅馬字'].fillna('').str.contains('tsuè')]
+          print('::notice title=rows reading tsuè::' + ' ## '.join(f"{r['詞目id']} {r['漢字']} {r['羅馬字']} file={r['羅馬字音檔檔名']}" for _, r in tw.head(60).iterrows()))
+          for k in ('又唸作', '俗唸作'):
+              x = sh[k]; y = x[x['漢字'].fillna('').str.contains('最') | x['羅馬字'].fillna('').str.contains('tsuè')]
+              print(f'::notice title={k}::' + ' ## '.join(' '.join(str(v) for v in r) for _, r in y.head(40).iterrows()))
+          ex = sh['例句']; e = ex[ex['漢字'].fillna('').str.startswith('最')]
+          print('::notice title=examples starting with 最::' + ' ## '.join(f"{r['漢字']} {r['羅馬字']} {r['音檔檔名']}" for _, r in e.head(20).iterrows()))
+          ids = [str(i) for i in hit['詞目id']]
           z = 'data/raw/moe-audio/sutiau-mp3.zip'
           if os.path.exists(z):
               names = zipfile.ZipFile(z).namelist()
-              print('::notice::zip members for ids ' + ' '.join(n for n in names if re.search(r'(?:^|/)(' + '|'.join(ids or {'x'}) + r')\b', n))[:3000])
-              print('::notice::zip with (2) or more: ' + str(sum(1 for n in names if re.search(r'\((?:[2-9])\)\.mp3$', n))))
+              print('::notice title=zip::' + ' '.join(n for n in names if re.search(r'(?:^|/)(' + '|'.join(ids) + r')\(', n)) + f' || with (2)+: {sum(1 for n in names if re.search(r"\\(([2-9])\\)\\.mp3$", n))}')
           PY
