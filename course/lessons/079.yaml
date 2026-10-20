@@ -1,0 +1,61 @@
+id: 79
+title: {en: "Family conflicts", tailo: "Tshù-lāi uan-ke", hanji: "厝內冤家"}
+review: false
+setting: "Sunday lunch at A-má's. A-hun (A-bîng's younger sister) has been offered a job in Taipei; their father is against it."
+dialogue:
+  - {n: 1, speaker: A-pah, hanji: "欲去臺北食頭路？我無贊成。", tailo: "Beh khì Tâi-pak tsia̍h thâu-lōo? Guá bô tsàn-sîng.", en: "Going to work in Taipei? I'm against it."}
+  - {n: 2, speaker: A-hun, hanji: "阿爸，你到底是按怎毋肯？這是真好的機會。", tailo: "A-pah, lí tàu-té sī án-tsuánn m̄ khíng? Tse sī tsin hó ê ki-huē.", en: "Dad, why on earth won't you agree? This is a really good opportunity."}
+  - {n: 3, speaker: A-pah, hanji: "查某囡仔一个人出外，我袂放心。", tailo: "Tsa-bóo gín-á tsi̍t ê lâng tshut-guā, guá bē hòng-sim.", en: "A girl going off on her own: I'd never stop worrying."}
+  - {n: 4, speaker: A-hun, hanji: "我已經二十八歲矣，應該會使家己決定。", tailo: "Guá í-king jī-tsa̍p-peh huè--ah, ing-kai ē-sái ka-kī kuat-tīng.", en: "I'm twenty-eight; I should be able to decide for myself."}
+  - {n: 5, speaker: A-pah, hanji: "無論幾歲，你攏是阮的囝兒。爸母煩惱囝兒，是定著的。", tailo: "Bô-lūn kuí huè, lí lóng sī guán ê kiánn-jî. Pē-bú huân-ló kiánn-jî, sī tiānn-tio̍h--ê.", en: "Whatever your age, you're still our child. Parents worry about their children; that's only natural."}
+  - {n: 6, speaker: A-hun, hanji: "我知影你疼我，毋過你定定替我安排一切，我感覺無自由。", tailo: "Guá tsai-iánn lí thiànn--guá, m̄-koh lí tiānn-tiānn thè guá an-pâi it-tshè, guá kám-kak bô tsū-iû.", en: "I know you love me, but you're always arranging everything for me. I feel I have no freedom."}
+  - {n: 7, speaker: A-pah, hanji: "我是為你好！你哪會按呢嫌阮？", tailo: "Guá sī uī lí hó! Lí ná ē án-ne hiâm--guán?", en: "It's for your own good! How can you find fault with us like that?"}
+  - {n: 8, speaker: A-má, hanji: "好矣，恁兩个莫冤家。坐落來好好仔講。", tailo: "Hó--ah, lín nn̄g ê mài uan-ke. Tsē--lo̍h-lâi hó-hó-á kóng.", en: "That's enough, you two, stop quarrelling. Sit down and talk it over properly."}
+  - {n: 9, speaker: A-má, hanji: "阿芬，你講看覓，你欲去的原因是啥？", tailo: "A-hun, lí kóng khuànn-māi, lí beh khì ê guân-in sī siánn?", en: "A-hun, tell us: why do you want to go?"}
+  - {n: 10, speaker: A-hun, hanji: "臺北的公司較大，會使學較濟。我想欲獨立，家己拍拚看覓。", tailo: "Tâi-pak ê kong-si khah tuā, ē-sái o̍h khah tsē. Guá siūnn-beh to̍k-li̍p, ka-kī phah-piànn khuànn-māi.", en: "The company in Taipei is bigger, I can learn more. I want to be independent and see what I can do on my own."}
+  - {n: 11, speaker: A-pah, hanji: "我毋是毋相信你，是驚你佇外口食苦。", tailo: "Guá m̄ sī m̄ siong-sìn--lí, sī kiann lí tī guā-kháu tsia̍h-khóo.", en: "It's not that I don't trust you; I'm afraid you'll have a hard time out there."}
+  - {n: 12, speaker: A-má, hanji: "你少年的時，十八歲就出外食頭路。阿媽彼陣嘛反對，你敢袂記得矣？", tailo: "Lí siàu-liân ê sî, tsa̍p-peh huè tō tshut-guā tsia̍h thâu-lōo. A-má hit-tsūn mā huán-tuì, lí kám bē-kì-tit--ah?", en: "When you were young, you left home to work at eighteen. I was against it too, back then. Have you forgotten?"}
+  - {n: 13, speaker: A-pah, hanji: "……我無袂記得。彼陣我真怨嘆，感覺恁攏毋了解我。", tailo: "…… Guá bô bē-kì-tit. Hit-tsūn guá tsin uàn-thàn, kám-kak lín lóng m̄ liáu-kái--guá.", en: "…I haven't forgotten. I was so bitter then; I felt none of you understood me."}
+  - {n: 14, speaker: A-hun, hanji: "阿爸，我絕對會照顧家己，逐禮拜敲電話轉來。", tailo: "A-pah, guá tsua̍t-tuì ē tsiàu-kòo ka-kī, ta̍k lé-pài khà tiān-uē tńg--lâi.", en: "Dad, I'll definitely look after myself, and I'll phone home every week."}
+  - {n: 15, speaker: A-pah, hanji: "……好啦。你若真正甘願，我就毋閣講矣。毋過我有交代：錢愛儉，人愛斟酌。", tailo: "…… Hó--lah. Lí nā tsin-tsiànn kam-guān, guá tō m̄ koh kóng--ah. M̄-koh guá ū kau-tài: tsînn ài khiām, lâng ài tsim-tsiok.", en: "…All right. If you really want this, I won't say any more. But remember what I tell you: save your money, and be careful with people."}
+  - {n: 16, speaker: Sam, hanji: "（細聲）阿媽，你講話上蓋有效。", tailo: "(Sè-siann) A-má, lí kóng-uē siōng-kài ū-hāu.", en: "(Quietly) A-má, nobody gets results like you."}
+notes:
+  - {ref: 1, topic: vocab, text: "贊成 tsàn-sîng = agree with, be in favour; its opposite 反對 huán-tuì = oppose (line 12). 阿爸 a-pah = Dad (lesson 5)."}
+  - {ref: 2, topic: grammar, text: "到底 tàu-té = (in questions) on earth, exactly: 你到底是按怎…？ 肯 khíng = be willing; 毋肯 m̄ khíng = refuse."}
+  - {ref: 3, topic: vocab, text: "出外 tshut-guā = leave home (to work or live elsewhere). 放心 hòng-sim = be at ease (lesson 48): 袂放心 'can't stop worrying'."}
+  - {ref: 4, topic: grammar, text: "Obligation and 'should': 應該 ing-kai = should, ought to; 著愛 tio̍h-ài = must, have to (lesson 39). 會使 ē-sái = may, be allowed."}
+  - {ref: 5, topic: pronunciation, text: "Literary readings (文讀) turn up in abstract and borrowed words: 囝兒 kiánn-jî, 自由 tsū-iû, 一切 it-tshè (一 it, not tsi̍t), 獨立 to̍k-li̍p. The same characters in everyday words take colloquial readings: 一个 tsi̍t ê. Other pairs the course has met: 大 tuā / tāi, 成 tsiânn / sîng, 生 senn / sing. 無論 bô-lūn = no matter (a more formal 毋管). 定著 tiānn-tio̍h = certain, only natural."}
+  - {ref: 6, topic: vocab, text: "替 thè = for, on someone's behalf. 安排 an-pâi = arrange, organise. 一切 it-tshè = everything. 自由 tsū-iû = freedom, free."}
+  - {ref: 7, topic: false-friend, text: "嫌 hiâm = find fault with, complain about (嫌棄) — stronger than Mandarin 嫌 'dislike'. 為你好 uī lí hó 'for your own good'."}
+  - {ref: 9, topic: vocab, text: "原因 guân-in = reason, cause."}
+  - {ref: 10, topic: vocab, text: "獨立 to̍k-li̍p = independent."}
+  - {ref: 11, topic: grammar, text: "毋是 X，是 Y = it's not X, it's Y. 相信 siong-sìn = believe, trust. 食苦 tsia̍h-khóo = suffer hardship ('eat bitterness')."}
+  - {ref: 13, topic: vocab, text: "怨嘆 uàn-thàn = feel bitter and resentful, complain about one's lot."}
+  - {ref: 15, topic: vocab, text: "甘願 kam-guān = be willing, want to (of one's own free will). 交代 kau-tài = instruct, tell someone what they must do. 絕對 tsua̍t-tuì (line 14) = definitely, absolutely."}
+  - {ref: 16, topic: vocab, text: "細聲 sè-siann = quietly, in a low voice (the opposite of 大聲 tuā-siann, lesson 47)."}
+new_words:
+  - {tailo: tsàn-sîng, hanji: 贊成, en: "agree, be in favour"}
+  - {tailo: huán-tuì, hanji: 反對, en: "oppose"}
+  - {tailo: tàu-té, hanji: 到底, en: "(in questions) on earth"}
+  - {tailo: khíng, hanji: 肯, en: "be willing"}
+  - {tailo: tshut-guā, hanji: 出外, en: "leave home (to work)"}
+  - {tailo: bô-lūn, hanji: 無論, en: "no matter"}
+  - {tailo: kiánn-jî, hanji: 囝兒, en: "children (one's own)"}
+  - {tailo: an-pâi, hanji: 安排, en: "arrange"}
+  - {tailo: tsū-iû, hanji: 自由, en: "freedom, free"}
+  - {tailo: hiâm, hanji: 嫌, en: "find fault with"}
+  - {tailo: guân-in, hanji: 原因, en: "reason, cause"}
+  - {tailo: to̍k-li̍p, hanji: 獨立, en: "independent"}
+  - {tailo: siong-sìn, hanji: 相信, en: "believe, trust"}
+  - {tailo: uàn-thàn, hanji: 怨嘆, en: "feel bitter"}
+  - {tailo: tsua̍t-tuì, hanji: 絕對, en: "definitely"}
+  - {tailo: kam-guān, hanji: 甘願, en: "be willing (freely)"}
+exercises:
+  translate:
+    - {tailo: "Bô-lūn kuí huè, lí lóng sī guán ê kiánn-jî.", hanji: "無論幾歲，你攏是阮的囝兒。", en: "Whatever your age, you're still our child."}
+    - {tailo: "Guá m̄ sī m̄ siong-sìn--lí, sī kiann lí tī guā-kháu tsia̍h-khóo.", hanji: "我毋是毋相信你，是驚你佇外口食苦。", en: "It's not that I don't trust you; I'm afraid you'll have a hard time out there."}
+    - {tailo: "Lí nā tsin-tsiànn kam-guān, guá tō m̄ koh kóng--ah.", hanji: "你若真正甘願，我就毋閣講矣。", en: "If you really want this, I won't say any more."}
+  fill:
+    - {tailo: "A-pah, lí ___ sī án-tsuánn m̄ khíng?", hanji: "阿爸，你___是按怎毋肯？", answer: "tàu-té", answer_hanji: "到底", en: "Dad, why on earth won't you agree?"}
+    - {tailo: "Guá ___ ē tsiàu-kòo ka-kī.", hanji: "我___會照顧家己。", answer: "tsua̍t-tuì", answer_hanji: "絕對", en: "I'll definitely look after myself."}
+audio: []

@@ -1,0 +1,59 @@
+id: 78
+title: {en: "A typhoon day off", tailo: "Hong-thai pàng-ká", hanji: "風颱放假"}
+review: false
+setting: "A typhoon is passing over Tainan. The city has announced a day off work and school, and the family is stuck at home."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "政府公佈囉！明仔載停班停課。", tailo: "Tsìng-hú kong-pòo--looh! Bîn-á-tsài thîng-pan thîng-khò.", en: "The government's announced it! No work and no school tomorrow."}
+  - {n: 2, speaker: Sam, hanji: "上班的人嘛會使歇睏？", tailo: "Siōng-pan ê lâng mā ē-sái hioh-khùn?", en: "So people with jobs get the day off too?"}
+  - {n: 3, speaker: A-hun, hanji: "會啊。風颱來，逐家攏放風颱假。毋過毋是去𨑨迌，是愛踮厝內。", tailo: "Ē--ah. Hong-thai lâi, ta̍k-ke lóng pàng hong-thai-ká. M̄-koh m̄ sī khì tshit-thô, sī ài tiàm tshù-lāi.", en: "Yes. When a typhoon comes, everyone gets a typhoon day. But it's not for going out; you have to stay indoors."}
+  - {n: 4, speaker: A-má, hanji: "窗仔門愛關予絚，外口的物件攏收入來。", tailo: "Thang-á-mn̂g ài kuainn hōo ân, guā-kháu ê mi̍h-kiānn lóng siu--ji̍p-lâi.", en: "Shut the windows tight and bring everything in from outside."}
+  - {n: 5, speaker: Sam, hanji: "風咧吼，雨嘛愈落愈大。樹仔攏咧振動。", tailo: "Hong teh háu, hōo mā jú lo̍h jú tuā. Tshiū-á lóng teh tín-tāng.", en: "The wind is howling and the rain is getting heavier. The trees are all shaking."}
+  - {n: 6, speaker: A-hun, hanji: "這擺的風颱足厲害，電視講，有的所在已經停電囉。", tailo: "Tsit pái ê hong-thai tsiok lī-hāi, tiān-sī kóng, ū--ê sóo-tsāi í-king thîng-tiān--looh.", en: "This typhoon is a strong one. The TV says some places have already lost power."}
+  - {n: 7, speaker: A-má, hanji: "蠟燭佮手電仔我攏準備好矣。罐頭嘛買足濟。", tailo: "La̍h-tsik kah tshiú-tiān-á guá lóng tsún-pī hó--ah. Kuàn-thâu mā bé tsiok tsē.", en: "I've got the candles and torches ready, and I bought plenty of tins."}
+  - {n: 8, speaker: Sam, hanji: "阿媽真有經驗，準備甲遮爾齊全哩！", tailo: "A-má tsin ū king-giām, tsún-pī kah tsiah-nī tsê-tsuân--lih!", en: "You're so experienced, A-má, you've got absolutely everything ready!"}
+  - {n: 9, speaker: A-má, hanji: "食到遮老，風颱看甲袂算得。", tailo: "Tsia̍h kàu tsiah lāu, hong-thai khuànn kah bē-sǹg--tit.", en: "At my age, I've seen more typhoons than I can count."}
+  - {n: 10, speaker: Sam, hanji: "（電火雄雄烏去）啊！我著驚一下。停電矣！", tailo: "(Tiān-hué hiông-hiông oo--khì) Ah! Guá tio̍h-kiann--tsi̍t-ē. Thîng-tiān--ah!", en: "(The lights suddenly go out) Oh! That made me jump. The power's gone!"}
+  - {n: 11, speaker: A-hun, hanji: "莫驚，我點蠟燭。手機仔的電愛儉咧用。", tailo: "Mài kiann, guá tiám la̍h-tsik. Tshiú-ki-á ê tiān ài khiām--leh iōng.", en: "Don't panic, I'll light a candle. Save your phone battery."}
+  - {n: 12, speaker: Sam, hanji: "無電視、無網路，有夠無聊。", tailo: "Bô tiān-sī, bô bāng-lōo, ū-kàu bô-liâu.", en: "No TV, no internet, so boring."}
+  - {n: 13, speaker: A-má, hanji: "較早無電視，暗時逐家攏坐做伙開講。咱嘛來講古囉。", tailo: "Khah-tsá bô tiān-sī, àm-sî ta̍k-ke lóng tsē tsò-hué khai-káng. Lán mā lâi kóng-kóo--looh.", en: "In the old days there was no TV; in the evening everyone sat together and chatted. Let's tell stories too, then."}
+  - {n: 14, speaker: A-hun, hanji: "外口有啥物聲？敢是樹仔予風吹斷去？", tailo: "Guā-kháu ū siánn-mih siann? Kám sī tshiū-á hōo hong tshue tn̄g--khì?", en: "What's that noise outside? Has a tree been snapped by the wind?"}
+  - {n: 15, speaker: A-má, hanji: "免煩惱，天光才出去看。今仔暝早睏，明仔載閣愛掃塗跤的糞埽。", tailo: "Bián huân-ló, thinn-kng tsiah tshut-khì khuànn. Kin-á-mê tsá khùn, bîn-á-tsài koh ài sàu thôo-kha ê pùn-sò.", en: "Don't worry, we'll go and look when it's light. Early night tonight: tomorrow there'll be rubbish to sweep up off the ground."}
+  - {n: 16, speaker: Sam, hanji: "原來風颱假毋是放假，是另外一種工課！", tailo: "Guân-lâi hong-thai-ká m̄ sī pàng-ká, sī līng-guā tsi̍t tsióng khang-khuè!", en: "So a typhoon day isn't a holiday at all, it's just a different kind of work!"}
+notes:
+  - {ref: 1, topic: grammar, text: "囉 --looh, neutral tone at the end of a sentence: 'it's done, that's how it is now' (MOE: 表示已經完成的語氣). 公佈囉 'they've announced it!', 停電囉 (line 6), 講古囉 (line 13, 'let's get on with the stories'). Stronger and more final than 矣 --ah."}
+  - {ref: 1, topic: vocab, text: "政府 tsìng-hú = government (here the city government). 公佈 kong-pòo = announce. 停班停課 thîng-pan thîng-khò = offices and schools closed, the official phrase on typhoon days."}
+  - {ref: 3, topic: culture, text: "風颱假 hong-thai-ká 'typhoon day off': local governments announce closures the evening before, and the news is followed closely. 放假 pàng-ká = have a holiday, a day off."}
+  - {ref: 4, topic: grammar, text: "Verb complements: V 予 + adjective = V it until it's …: 關予絚 'shut tight' (絚 ân, lesson 51); V + 入來 'in (towards here)': 收入來 'bring in'."}
+  - {ref: 5, topic: vocab, text: "吼 háu = howl, roar; also 'cry'. 振動 tín-tāng = shake, move. 愈落愈大 'falls harder and harder' (愈…愈…, lesson 60)."}
+  - {ref: 6, topic: vocab, text: "厲害 lī-hāi = fierce, severe (of a storm, an illness); also 'formidable, impressive'."}
+  - {ref: 8, topic: grammar, text: "哩 --lih, neutral tone: firm affirmation, 'really, I tell you' (MOE: 表示肯定的語氣): 準備甲遮爾齊全哩！ 齊全 tsê-tsuân = complete, with nothing missing."}
+  - {ref: 9, topic: grammar, text: "V 甲袂算得 kah bē-sǹg--tit = so much it can't be counted. 食到遮老 'having lived to this age' (食 'eat' for 'live (to an age)')."}
+  - {ref: 11, topic: grammar, text: "儉咧用 khiām--leh iōng = use sparingly (儉 'save', lesson 69; V 咧 V)."}
+  - {ref: 12, topic: vocab, text: "無聊 bô-liâu = bored, boring."}
+  - {ref: 14, topic: grammar, text: "予風吹斷去 'snapped by the wind': passive 予 + V + result 斷 tn̄g 'break' + 去 (change of state)."}
+  - {ref: 15, topic: vocab, text: "天光 thinn-kng = daybreak, when it gets light. 今仔暝 kin-á-mê = tonight. 掃 sàu = sweep; 糞埽 pùn-sò = rubbish."}
+  - {ref: 16, topic: vocab, text: "另外 līng-guā = another, other. 種 tsióng = kind, type (here the literary reading; 款 khuán is the everyday word)."}
+new_words:
+  - {tailo: tsìng-hú, hanji: 政府, en: "government"}
+  - {tailo: kong-pòo, hanji: 公佈, en: "announce"}
+  - {tailo: pàng-ká, hanji: 放假, en: "have a day off, a holiday"}
+  - {tailo: háu, hanji: 吼, en: "howl; cry"}
+  - {tailo: tín-tāng, hanji: 振動, en: "shake, move"}
+  - {tailo: lī-hāi, hanji: 厲害, en: "fierce; formidable"}
+  - {tailo: tsê-tsuân, hanji: 齊全, en: "complete"}
+  - {tailo: bô-liâu, hanji: 無聊, en: "bored, boring"}
+  - {tailo: tn̄g, hanji: 斷, en: "break, snap"}
+  - {tailo: thinn-kng, hanji: 天光, en: "daybreak"}
+  - {tailo: sàu, hanji: 掃, en: "sweep"}
+  - {tailo: pùn-sò, hanji: 糞埽, en: "rubbish"}
+  - {tailo: līng-guā, hanji: 另外, en: "another, other"}
+  - {tailo: tsióng, hanji: 種, en: "kind, type (literary)"}
+exercises:
+  translate:
+    - {tailo: "Bîn-á-tsài thîng-pan thîng-khò.", hanji: "明仔載停班停課。", en: "No work and no school tomorrow."}
+    - {tailo: "Hong teh háu, hōo mā jú lo̍h jú tuā.", hanji: "風咧吼，雨嘛愈落愈大。", en: "The wind is howling and the rain is getting heavier."}
+    - {tailo: "Kám sī tshiū-á hōo hong tshue tn̄g--khì?", hanji: "敢是樹仔予風吹斷去？", en: "Has a tree been snapped by the wind?"}
+  fill:
+    - {tailo: "Ū--ê sóo-tsāi í-king thîng-tiān--___.", hanji: "有的所在已經停電___。", answer: "looh", answer_hanji: "囉", en: "Some places have already lost power."}
+    - {tailo: "Tsún-pī kah tsiah-nī tsê-tsuân--___!", hanji: "準備甲遮爾齊全___！", answer: "lih", answer_hanji: "哩", en: "You've got absolutely everything ready!"}
+audio: []

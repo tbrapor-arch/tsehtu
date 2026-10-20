@@ -1,0 +1,60 @@
+id: 81
+title: {en: "Night shift", tailo: "Iā-pan", hanji: "夜班"}
+review: false
+setting: "Sam is covering a friend's night shifts at a convenience store near A-má's. At two in the morning A-bîng drops by."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "半暝兩點，你猶咧顧店？", tailo: "Puànn-mê nn̄g tiám, lí iáu teh kòo tiàm?", en: "Two in the morning and you're still minding the shop?"}
+  - {n: 2, speaker: Sam, hanji: "我替朋友輪班，這禮拜攏做夜班，對暗時十點做到透早六點。", tailo: "Guá thè pîng-iú lûn-pan, tsit lé-pài lóng tsò iā-pan, tuì àm-sî tsa̍p tiám tsò kàu thàu-tsá la̍k tiám.", en: "I'm covering a friend's shifts. All this week I'm on nights, from ten in the evening to six in the morning."}
+  - {n: 3, speaker: A-bîng, hanji: "規暝無睏，你袂忝？", tailo: "Kui-mê bô khùn, lí bē thiám?", en: "No sleep all night: aren't you exhausted?"}
+  - {n: 4, speaker: Sam, hanji: "頭兩工真忝，這馬較慣勢矣。日時睏，暗時做工課。", tailo: "Thâu nn̄g kang tsin thiám, tsit-má khah kuàn-sì--ah. Ji̍t--sî khùn, àm-sî tsò khang-khuè.", en: "The first two days were really tiring; I'm more used to it now. I sleep in the daytime and work at night."}
+  - {n: 5, speaker: A-bîng, hanji: "半暝敢有人客？", tailo: "Puànn-mê kám ū lâng-kheh?", en: "Are there any customers in the middle of the night?"}
+  - {n: 6, speaker: Sam, hanji: "不時有。計程車司機、讀冊的學生，閣有啉燒酒啉甲醉的人。", tailo: "Put-sî ū. Kè-thîng-tshia su-ki, tha̍k-tsheh ê ha̍k-sing, koh ū lim sio-tsiú lim kah tsuì ê lâng.", en: "All the time. Taxi drivers, students, and people who've been drinking till they're drunk."}
+  - {n: 7, speaker: A-bîng, hanji: "醉的人敢會烏白來？", tailo: "Tsuì ê lâng kám ē oo-pe̍h lâi?", en: "Do the drunk ones cause trouble?"}
+  - {n: 8, speaker: Sam, hanji: "進前有一个阿伯，買一罐燒酒，然後坐佇門口唱歌，唱到天光。", tailo: "Tsìn-tsîng ū tsi̍t ê a-peh, bé tsi̍t kuàn sio-tsiú, jiân-āu tsē tī mn̂g-kháu tshiùnn-kua, tshiùnn kàu thinn-kng.", en: "The other day an old man bought a bottle of rice wine, then sat at the door singing until it got light."}
+  - {n: 9, speaker: A-bîng, hanji: "哈哈，按呢你有免費的台語歌通聽。", tailo: "Ha-ha, án-ne lí ū bián-huì ê Tâi-gí-kua thang thiann.", en: "Ha ha, so you got free Taiwanese songs."}
+  - {n: 10, speaker: Sam, hanji: "毋過頭家有交代，半暝愛斟酌賊仔，有人會偷物件。", tailo: "M̄-koh thâu-ke ū kau-tài, puànn-mê ài tsim-tsiok tsha̍t-á, ū lâng ē thau mi̍h-kiānn.", en: "But the boss told me to watch out for thieves at night; some people steal things."}
+  - {n: 11, speaker: A-bîng, hanji: "你家己一个人，敢有危險？", tailo: "Lí ka-kī tsi̍t ê lâng, kám ū guî-hiám?", en: "On your own here, isn't it dangerous?"}
+  - {n: 12, speaker: Sam, hanji: "店內有監視器，閣有一个鈕仔，揤落去警察就會來。", tailo: "Tiàm-lāi ū kàm-sī-khì, koh ū tsi̍t ê liú-á, tshi̍h--lo̍h-khì kíng-tshat tō ē lâi.", en: "There are cameras in the shop, and there's a button: press it and the police come."}
+  - {n: 13, speaker: A-bîng, hanji: "你做工課真認真。毋過莫每日攏無睏，身體會歹去。", tailo: "Lí tsò khang-khuè tsin jīn-tsin. M̄-koh mài muí-ji̍t lóng bô khùn, sin-thé ē pháinn--khì.", en: "You work really conscientiously. But don't go without sleep every day, or you'll ruin your health."}
+  - {n: 14, speaker: Sam, hanji: "放心，干焦這禮拜。後禮拜我就恢復正常的時間。", tailo: "Hòng-sim, kan-na tsit lé-pài. Āu lé-pài guá tō khue-ho̍k tsìng-siông ê sî-kan.", en: "Don't worry, it's only this week. Next week I'll be back to normal hours."}
+  - {n: 15, speaker: A-bîng, hanji: "好，我陪你開講到三點，才轉去睏。", tailo: "Hó, guá puê lí khai-káng kàu sann tiám, tsiah tńg-khì khùn.", en: "All right, I'll keep you company and chat till three, then go home to bed."}
+  - {n: 16, speaker: Sam, hanji: "多謝。有你佇遮，我較有精神，會當繼續做到天光。", tailo: "To-siā. Ū lí tī tsia, guá khah ū tsing-sîn, ē-tàng kè-sio̍k tsò kàu thinn-kng.", en: "Thanks. With you here I feel more awake; I can keep going till daybreak."}
+notes:
+  - {ref: 1, topic: vocab, text: "顧 kòo = mind, look after (lesson 75): 顧店 'mind the shop'. 店 tiàm = shop."}
+  - {ref: 2, topic: grammar, text: "Time words: 暗時 àm-sî (evening, night), 半暝 puànn-mê (the middle of the night, lesson 72), 透早 thàu-tsá (early morning), 天光 thinn-kng (daybreak, lesson 78), 日時 ji̍t--sî (daytime, line 4), 規暝 kui-mê (all night, line 3). 對 X 做到 Y = work from X until Y. 輪班 lûn-pan = take turns on shifts; 夜班 iā-pan = night shift."}
+  - {ref: 3, topic: false-friend, text: "忝 thiám = exhausted (累), Taigi-only in this sense. 規 kui = whole (lesson 47): 規暝, 規工, 規禮拜."}
+  - {ref: 6, topic: vocab, text: "不時 put-sî = all the time, constantly. 司機 su-ki = driver. 燒酒 sio-tsiú = (strong) alcohol, rice wine. 醉 tsuì = drunk."}
+  - {ref: 7, topic: vocab, text: "烏白 oo-pe̍h = recklessly, any old how ('black and white'): 烏白來 'misbehave', 烏白講 'talk nonsense'."}
+  - {ref: 8, topic: grammar, text: "Sequencing: 進前 tsìn-tsîng = before, the other day; 然後 jiân-āu = and then (more formal than 紲落來 suà--lo̍h-lâi). 罐 kuàn = bottle, can (classifier)."}
+  - {ref: 9, topic: vocab, text: "免費 bián-huì = free (of charge)."}
+  - {ref: 10, topic: vocab, text: "賊仔 tsha̍t-á = thief; 偷 thau = steal."}
+  - {ref: 12, topic: vocab, text: "監視器 kàm-sī-khì = security camera. 鈕仔 liú-á = button. 揤 tshi̍h = press (with a finger)."}
+  - {ref: 13, topic: vocab, text: "認真 jīn-tsin = conscientious, hard-working. 每日 muí-ji̍t = every day (more formal than 逐工 ta̍k-kang). 歹去 pháinn--khì = break down, go bad."}
+  - {ref: 14, topic: vocab, text: "恢復 khue-ho̍k = go back to, recover. 正常 tsìng-siông = normal. 時間 sî-kan = time, hours."}
+  - {ref: 16, topic: vocab, text: "精神 tsing-sîn = awake, alert (清醒) — also 'spirit'. 繼續 kè-sio̍k = continue."}
+new_words:
+  - {tailo: tiàm, hanji: 店, en: "shop"}
+  - {tailo: lûn-pan, hanji: 輪班, en: "take turns on shifts"}
+  - {tailo: thiám, hanji: 忝, en: "exhausted"}
+  - {tailo: ji̍t--sî, hanji: 日時, en: "daytime"}
+  - {tailo: put-sî, hanji: 不時, en: "all the time"}
+  - {tailo: sio-tsiú, hanji: 燒酒, en: "alcohol, rice wine"}
+  - {tailo: tsuì, hanji: 醉, en: "drunk"}
+  - {tailo: oo-pe̍h, hanji: 烏白, en: "recklessly, any old how"}
+  - {tailo: tsìn-tsîng, hanji: 進前, en: "before, the other day"}
+  - {tailo: jiân-āu, hanji: 然後, en: "and then"}
+  - {tailo: tsha̍t-á, hanji: 賊仔, en: "thief"}
+  - {tailo: thau, hanji: 偷, en: "steal"}
+  - {tailo: jīn-tsin, hanji: 認真, en: "conscientious"}
+  - {tailo: muí-ji̍t, hanji: 每日, en: "every day"}
+  - {tailo: tsing-sîn, hanji: 精神, en: "awake, alert; spirit"}
+  - {tailo: kè-sio̍k, hanji: 繼續, en: "continue"}
+exercises:
+  translate:
+    - {tailo: "Kui-mê bô khùn, lí bē thiám?", hanji: "規暝無睏，你袂忝？", en: "No sleep all night: aren't you exhausted?"}
+    - {tailo: "Ji̍t--sî khùn, àm-sî tsò khang-khuè.", hanji: "日時睏，暗時做工課。", en: "I sleep in the daytime and work at night."}
+    - {tailo: "Bé tsi̍t kuàn sio-tsiú, jiân-āu tsē tī mn̂g-kháu tshiùnn-kua.", hanji: "買一罐燒酒，然後坐佇門口唱歌。", en: "He bought a bottle of rice wine, then sat at the door singing."}
+  fill:
+    - {tailo: "___ ū. Kè-thîng-tshia su-ki, tha̍k-tsheh ê ha̍k-sing.", hanji: "___有。計程車司機、讀冊的學生。", answer: "Put-sî", answer_hanji: "不時", en: "All the time. Taxi drivers, students."}
+    - {tailo: "Tsuì ê lâng kám ē ___ lâi?", hanji: "醉的人敢會___來？", answer: "oo-pe̍h", answer_hanji: "烏白", en: "Do the drunk ones cause trouble?"}
+audio: []

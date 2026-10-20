@@ -1,0 +1,61 @@
+id: 83
+title: {en: "Getting old", tailo: "Tsia̍h-lāu", hanji: "食老"}
+review: false
+setting: "Early morning in the park. A-kong does tai chi with his old friend Ông-peh, and Sam comes along."
+dialogue:
+  - {n: 1, speaker: A-kong, hanji: "Sam，透早來公園運動，對身體上好。", tailo: "Sam, thàu-tsá lâi kong-hn̂g ūn-tōng, tuì sin-thé siōng hó.", en: "Sam, exercising in the park first thing in the morning is the best thing for your health."}
+  - {n: 2, speaker: Sam, hanji: "遮的老大人攏真勇，有的咧拍拳，有的咧跳舞。", tailo: "Tsia ê lāu-tuā-lâng lóng tsin ióng, ū--ê teh phah-kûn, ū--ê teh thiàu-bú.", en: "The old people here are all so fit. Some are doing tai chi, some are dancing."}
+  - {n: 3, speaker: Ông-peh, hanji: "少年的，你嘛來做伙。食老愛活動，袂使規工坐咧看電視。", tailo: "Siàu-liân--ê, lí mā lâi tsò-hué. Tsia̍h-lāu ài ua̍h-tāng, bē-sái kui-kang tsē--leh khuànn tiān-sī.", en: "Young man, come and join us. When you get old you have to keep moving; you can't sit watching TV all day."}
+  - {n: 4, speaker: Sam, hanji: "王伯，請問你今年貴庚？", tailo: "Ông-peh, tshiánn-mn̄g lí kin-nî kuì-kenn?", en: "Ông-peh, may I ask how old you are?"}
+  - {n: 5, speaker: Ông-peh, hanji: "八十二囉。退休二十冬矣，逐工攏來遮。", tailo: "Peh-tsa̍p-jī--looh. Thè-hiu jī-tsa̍p tang--ah, ta̍k-kang lóng lâi tsia.", en: "Eighty-two. I retired twenty years ago and I come here every day."}
+  - {n: 6, speaker: A-kong, hanji: "伊是我的老朋友，阮兩个對少年做伙到老。", tailo: "I sī guá ê lāu pîng-iú, guán nn̄g ê tuì siàu-liân tsò-hué kàu lāu.", en: "He's my old friend. We've been together since we were young."}
+  - {n: 7, speaker: Sam, hanji: "王伯的身體遮爾健康，有啥物祕訣？", tailo: "Ông-peh ê sin-thé tsiah-nī kiān-khong, ū siánn-mih pì-kuat?", en: "You're so healthy, Ông-peh. What's your secret?"}
+  - {n: 8, speaker: Ông-peh, hanji: "食較清淡，暗時早睏，心情愛放輕鬆。閣有，逐年愛去病院檢查身體。", tailo: "Tsia̍h khah tshing-tām, àm-sî tsá khùn, sim-tsîng ài pàng khin-sang. Koh ū, ta̍k nî ài khì pēnn-īnn kiám-tsa sin-thé.", en: "Eat plainly, go to bed early, and stay relaxed. And have a check-up at the hospital every year."}
+  - {n: 9, speaker: Sam, hanji: "你的牽手咧？伊敢嘛會來？", tailo: "Lí ê khan-tshiú--leh? I kám mā ē lâi?", en: "And your wife? Does she come too?"}
+  - {n: 10, speaker: Ông-peh, hanji: "伊三冬前過身矣。這馬我一个人蹛，有時仔會感覺孤單。", tailo: "I sann tang tsîng kuè-sin--ah. Tsit-má guá tsi̍t ê lâng tuà, ū-sî-á ē kám-kak koo-tuann.", en: "She passed away three years ago. I live on my own now, and sometimes I feel lonely."}
+  - {n: 11, speaker: Sam, hanji: "歹勢，我毋知影。", tailo: "Pháinn-sè, guá m̄ tsai-iánn.", en: "I'm sorry, I didn't know."}
+  - {n: 12, speaker: Ông-peh, hanji: "無要緊。伊一生陪我食苦，我真感謝。囝兒攏佇臺北，新婦逐禮拜敲電話來。", tailo: "Bô-iàu-kín. I it-sing puê guá tsia̍h-khóo, guá tsin kám-siā. Kiánn-jî lóng tī Tâi-pak, sin-pū ta̍k lé-pài khà tiān-uē lâi.", en: "That's all right. She went through hard times with me all her life, and I'm very grateful. My children are all in Taipei; my daughter-in-law phones every week."}
+  - {n: 13, speaker: A-kong, hanji: "所以伊逐工來公園，有朋友佇身邊，較袂孤單。", tailo: "Sóo-í i ta̍k-kang lâi kong-hn̂g, ū pîng-iú tī sin-pinn, khah bē koo-tuann.", en: "That's why he comes to the park every day: with friends around him, he's less lonely."}
+  - {n: 14, speaker: Ông-peh, hanji: "著。老矣就愛有伴。青春過去矣，毋過心袂使老。", tailo: "Tio̍h. Lāu--ah tō ài ū phuānn. Tshing-tshun kuè--khì--ah, m̄-koh sim bē-sái lāu.", en: "That's right. When you're old you need company. Youth is gone, but your heart mustn't grow old."}
+  - {n: 15, speaker: Sam, hanji: "王伯講話真有道理。我嘛欲學拍拳。", tailo: "Ông-peh kóng-uē tsin ū tō-lí. Guá mā beh o̍h phah-kûn.", en: "What you say makes a lot of sense, Ông-peh. I want to learn tai chi too."}
+  - {n: 16, speaker: A-kong, hanji: "好，明仔載透早六點，袂使睏過頭喔！", tailo: "Hó, bîn-á-tsài thàu-tsá la̍k tiám, bē-sái khùn-kuè-thâu--ooh!", en: "Good: six o'clock tomorrow morning, and don't oversleep!"}
+notes:
+  - {ref: 1, topic: vocab, text: "公園 kong-hn̂g = park. 運動 ūn-tōng = exercise, do sport."}
+  - {ref: 2, topic: grammar, text: "Register: 老大人 lāu-tuā-lâng is the respectful word for elderly people; 老人 lāu-lâng is neutral, and 食老 tsia̍h-lāu (line 3) means 'grow old'. 拍拳 phah-kûn = do tai chi or martial arts. 有的…，有的… = some …, others …."}
+  - {ref: 3, topic: vocab, text: "活動 ua̍h-tāng = move about, be active."}
+  - {ref: 4, topic: grammar, text: "Register: 貴庚 kuì-kenn is the polite way to ask an older person's age (幾歲 kuí huè is for children and equals). 請問 tshiánn-mn̄g = may I ask. 王伯 Ông-peh: surname + 伯 peh 'uncle', the usual way to address an older man."}
+  - {ref: 6, topic: vocab, text: "老朋友 lāu pîng-iú = old friend."}
+  - {ref: 7, topic: vocab, text: "健康 kiān-khong = healthy. 祕訣 pì-kuat = secret, trick."}
+  - {ref: 8, topic: vocab, text: "清淡 tshing-tām = (of food) plain, light. 輕鬆 khin-sang = relaxed. 檢查 kiám-tsa = check, examine."}
+  - {ref: 9, topic: vocab, text: "牽手 khan-tshiú = wife (or husband), lit. 'the one you hold hands with', a warm Taigi word; 翁某 ang-bóo (lesson 32) = husband and wife."}
+  - {ref: 10, topic: grammar, text: "Register: 過身 kuè-sin = pass away, the gentle word; 死 sí is blunt. 孤單 koo-tuann = lonely, alone."}
+  - {ref: 12, topic: vocab, text: "一生 it-sing = one's whole life (literary 一 it). 新婦 sin-pū = daughter-in-law. 囝兒 kiánn-jî = one's children (lesson 79)."}
+  - {ref: 13, topic: vocab, text: "身邊 sin-pinn = by one's side, around one."}
+  - {ref: 14, topic: vocab, text: "伴 phuānn = companion, company; 老伴 lāu-phuānn = companion in old age. 青春 tshing-tshun = youth."}
+  - {ref: 16, topic: vocab, text: "睏過頭 khùn-kuè-thâu = oversleep."}
+new_words:
+  - {tailo: kong-hn̂g, hanji: 公園, en: "park"}
+  - {tailo: ūn-tōng, hanji: 運動, en: "exercise, sport"}
+  - {tailo: lāu-tuā-lâng, hanji: 老大人, en: "elderly person (respectful)"}
+  - {tailo: tsia̍h-lāu, hanji: 食老, en: "grow old"}
+  - {tailo: phah-kûn, hanji: 拍拳, en: "do tai chi, martial arts"}
+  - {tailo: ua̍h-tāng, hanji: 活動, en: "be active; activity"}
+  - {tailo: kuì-kenn, hanji: 貴庚, en: "(polite) age"}
+  - {tailo: kiān-khong, hanji: 健康, en: "healthy"}
+  - {tailo: pì-kuat, hanji: 祕訣, en: "secret, trick"}
+  - {tailo: kiám-tsa, hanji: 檢查, en: "check, examine"}
+  - {tailo: khan-tshiú, hanji: 牽手, en: "wife, spouse"}
+  - {tailo: kuè-sin, hanji: 過身, en: "pass away"}
+  - {tailo: koo-tuann, hanji: 孤單, en: "lonely"}
+  - {tailo: it-sing, hanji: 一生, en: "one's whole life"}
+  - {tailo: sin-pū, hanji: 新婦, en: "daughter-in-law"}
+  - {tailo: tshing-tshun, hanji: 青春, en: "youth"}
+exercises:
+  translate:
+    - {tailo: "Tsia̍h-lāu ài ua̍h-tāng.", hanji: "食老愛活動。", en: "When you get old you have to keep moving."}
+    - {tailo: "Tsit-má guá tsi̍t ê lâng tuà, ū-sî-á ē kám-kak koo-tuann.", hanji: "這馬我一个人蹛，有時仔會感覺孤單。", en: "I live on my own now, and sometimes I feel lonely."}
+    - {tailo: "Tshing-tshun kuè--khì--ah, m̄-koh sim bē-sái lāu.", hanji: "青春過去矣，毋過心袂使老。", en: "Youth is gone, but your heart mustn't grow old."}
+  fill:
+    - {tailo: "Ông-peh, tshiánn-mn̄g lí kin-nî ___?", hanji: "王伯，請問你今年___？", answer: "kuì-kenn", answer_hanji: "貴庚", en: "Ông-peh, may I ask how old you are?"}
+    - {tailo: "I sann tang tsîng ___--ah.", hanji: "伊三冬前___矣。", answer: "kuè-sin", answer_hanji: "過身", en: "She passed away three years ago."}
+audio: []

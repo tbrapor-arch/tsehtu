@@ -1,0 +1,59 @@
+id: 80
+title: {en: "Temple festival", tailo: "Ngiâ Má-tsóo", hanji: "迎媽祖"}
+review: false
+setting: "Mazu's procession passes through A-má's neighbourhood. Sam and A-bîng join the crowd outside the temple."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "緊來看！迎媽祖的陣頭到位矣。", tailo: "Kín lâi khuànn! Ngiâ Má-tsóo ê tīn-thâu kàu-uī--ah.", en: "Quick, come and look! The procession troupes for Mazu have arrived."}
+  - {n: 2, speaker: Sam, hanji: "人山人海，炮仔聲大甲耳空攏咧疼！", tailo: "Lâng-suann-lâng-hái, phàu-á siann tuā kah hīnn-khang lóng teh thiànn!", en: "There are people everywhere, and the firecrackers are so loud my ears hurt!"}
+  - {n: 3, speaker: A-bîng, hanji: "迎媽祖就是愛鬧熱嘛！炮仔愈濟，表示愈興。", tailo: "Ngiâ Má-tsóo tō sī ài lāu-jia̍t--mah! Phàu-á jú tsē, piáu-sī jú hìng.", en: "A Mazu procession is supposed to be noisy, you know! The more firecrackers, the more popular it is."}
+  - {n: 4, speaker: Sam, hanji: "媽祖是啥物神？", tailo: "Má-tsóo sī siánn-mih sîn?", en: "What kind of goddess is Mazu?"}
+  - {n: 5, speaker: A-bîng, hanji: "媽祖是海的神，古早人坐船過海，攏求伊保庇。這馬逐家攏拜伊。", tailo: "Má-tsóo sī hái ê sîn, kóo-tsá lâng tsē tsûn kuè hái, lóng kiû i pó-pì. Tsit-má ta̍k-ke lóng pài--i.", en: "Mazu is the goddess of the sea. In the old days, people who crossed the sea by boat all prayed for her protection. Now everyone worships her."}
+  - {n: 6, speaker: Sam, hanji: "彼頂轎內底是媽祖？", tailo: "Hit tíng kiō lāi-té sī Má-tsóo?", en: "Is Mazu in that sedan chair?"}
+  - {n: 7, speaker: A-bîng, hanji: "著，是媽祖的神像。眾人攏跪佇路邊，予轎對頭頂過，講按呢會有福氣。", tailo: "Tio̍h, sī Má-tsóo ê sîn-siōng. Tsìng-lâng lóng kuī tī lōo-pinn, hōo kiō tuì thâu-tíng kuè, kóng án-ne ē ū hok-khì.", en: "Yes, it's Mazu's statue. People kneel by the roadside and let the chair pass over their heads; they say it brings good fortune."}
+  - {n: 8, speaker: Sam, hanji: "我嘛會使去軁轎跤無？", tailo: "Guá mā ē-sái khì nǹg kiō-kha--bô?", en: "Can I go and crawl under the chair too?"}
+  - {n: 9, speaker: A-bîng, hanji: "人人攏會使，媽祖毋管你是佗位人。", tailo: "Lâng-lâng lóng ē-sái, Má-tsóo m̄-kuán lí sī tó-uī lâng.", en: "Anyone can. Mazu doesn't care where you're from."}
+  - {n: 10, speaker: Sam, hanji: "（軁過了後）感覺心頭燒燒，真特別呢！", tailo: "(Nǹg--kuè liáu-āu) Kám-kak sim-thâu sio-sio, tsin ti̍k-pia̍t--neh!", en: "(After crawling under) My heart feels all warm. That's really special!"}
+  - {n: 11, speaker: A-bîng, hanji: "等一下咱去廟埕燒香，閣跋桮問媽祖。", tailo: "Tán--tsi̍t-ē lán khì biō-tiânn sio-hiunn, koh pua̍h-pue mn̄g Má-tsóo.", en: "In a minute let's go to the temple square, burn incense, and cast the moon blocks to ask Mazu something."}
+  - {n: 12, speaker: Sam, hanji: "跋桮是啥？", tailo: "Pua̍h-pue sī siánn?", en: "What's 'casting the blocks'?"}
+  - {n: 13, speaker: A-bîng, hanji: "兩塊柴桮擲落塗跤，一片正一片反，就是媽祖答應囉。", tailo: "Nn̄g tè tshâ-pue tàn lo̍h thôo-kha, tsi̍t phìnn tsiànn tsi̍t phìnn píng, tō sī Má-tsóo tah-ìng--looh.", en: "You drop two wooden blocks on the ground. If one lands face up and the other face down, Mazu has said yes."}
+  - {n: 14, speaker: Sam, hanji: "按呢我欲問：我的台語敢會愈來愈好？", tailo: "Án-ne guá beh mn̄g: guá ê Tâi-gí kám ē jú lâi jú hó?", en: "Then I'll ask: will my Taigi keep getting better?"}
+  - {n: 15, speaker: A-bîng, hanji: "這个問題，免跋桮嘛知影答案啦！", tailo: "Tsit ê būn-tê, bián pua̍h-pue mā tsai-iánn tap-àn--lah!", en: "You don't need the blocks to know the answer to that one!"}
+  - {n: 16, speaker: A-bîng, hanji: "暗時閣有布袋戲佮辦桌，今仔日規條街攏真鬧熱。", tailo: "Àm-sî koh ū pòo-tē-hì kah pān-toh, kin-á-ji̍t kui tiâu ke lóng tsin lāu-jia̍t.", en: "Tonight there's puppet theatre and a banquet too; the whole street is buzzing today."}
+notes:
+  - {ref: 1, topic: culture, text: "迎媽祖 ngiâ Má-tsóo = carry Mazu in procession (迎 ngiâ 'welcome, parade'). 陣頭 tīn-thâu = the performing troupes of a temple procession: drummers, lion dancers, the tall puppet gods."}
+  - {ref: 2, topic: vocab, text: "人山人海 lâng-suann-lâng-hái = huge crowds. 炮仔 phàu-á = firecrackers. 耳空 hīnn-khang = ear."}
+  - {ref: 3, topic: grammar, text: "嘛 --mah (neutral tone, end of a sentence) = 'obviously, that's the point' (MOE: 表示肯定…的語氣): 就是愛鬧熱嘛！ Different from 嘛 mā 'also'. 表示 piáu-sī = show, indicate. 興 hìng = popular, thriving."}
+  - {ref: 5, topic: vocab, text: "神 sîn = god, deity. 船 tsûn = boat. 求 kiû = pray for, ask for. 保庇 pó-pì = protect (lesson 22). 古早人 kóo-tsá lâng = people long ago."}
+  - {ref: 7, topic: culture, text: "轎 kiō = sedan chair; 神像 sîn-siōng = statue of a god. 眾人 tsìng-lâng = everyone, the crowd. 跪 kuī = kneel. Kneeling or crawling under the god's chair (軁轎跤 nǹg kiō-kha, line 8) is believed to bring 福氣 hok-khì, good fortune."}
+  - {ref: 9, topic: grammar, text: "人人 lâng-lâng = everybody (each and every person)."}
+  - {ref: 10, topic: grammar, text: "呢 --neh (neutral tone) = admiring or emphatic 'really!' (MOE: 表示讚許、得意或加強語氣): 真特別呢！ 心頭 sim-thâu = heart, inside oneself."}
+  - {ref: 11, topic: culture, text: "廟埕 biō-tiânn = temple square. 燒香 sio-hiunn = burn incense. 跋桮 pua̍h-pue = cast the two crescent-shaped wooden blocks (桮 pue) to ask a god a yes/no question."}
+  - {ref: 13, topic: vocab, text: "擲 tàn = throw down. 正 tsiànn / 反 píng = face up / face down. 答應 tah-ìng = agree, say yes."}
+  - {ref: 15, topic: vocab, text: "答案 tap-àn = answer (to a question)."}
+  - {ref: 16, topic: vocab, text: "布袋戲 pòo-tē-hì = glove-puppet theatre; 辦桌 pān-toh = outdoor banquet: both part of a temple festival. 鬧熱 lāu-jia̍t = lively, bustling."}
+new_words:
+  - {tailo: ngiâ, hanji: 迎, en: "carry in procession, welcome"}
+  - {tailo: Má-tsóo, hanji: 媽祖, en: "Mazu (sea goddess)"}
+  - {tailo: tīn-thâu, hanji: 陣頭, en: "procession troupe"}
+  - {tailo: phàu-á, hanji: 炮仔, en: "firecracker"}
+  - {tailo: sîn, hanji: 神, en: "god, deity"}
+  - {tailo: tsûn, hanji: 船, en: "boat, ship"}
+  - {tailo: kiû, hanji: 求, en: "pray for, ask for"}
+  - {tailo: kiō, hanji: 轎, en: "sedan chair"}
+  - {tailo: tsìng-lâng, hanji: 眾人, en: "everyone, the crowd"}
+  - {tailo: kuī, hanji: 跪, en: "kneel"}
+  - {tailo: hok-khì, hanji: 福氣, en: "good fortune"}
+  - {tailo: lâng-lâng, hanji: 人人, en: "everybody"}
+  - {tailo: sim-thâu, hanji: 心頭, en: "heart, inside"}
+  - {tailo: biō-tiânn, hanji: 廟埕, en: "temple square"}
+  - {tailo: sio-hiunn, hanji: 燒香, en: "burn incense"}
+  - {tailo: pua̍h-pue, hanji: 跋桮, en: "cast divination blocks"}
+exercises:
+  translate:
+    - {tailo: "Ngiâ Má-tsóo tō sī ài lāu-jia̍t--mah!", hanji: "迎媽祖就是愛鬧熱嘛！", en: "A Mazu procession is supposed to be noisy, you know!"}
+    - {tailo: "Tsìng-lâng lóng kuī tī lōo-pinn.", hanji: "眾人攏跪佇路邊。", en: "People kneel by the roadside."}
+    - {tailo: "Lán khì biō-tiânn sio-hiunn.", hanji: "咱去廟埕燒香。", en: "Let's go to the temple square and burn incense."}
+  fill:
+    - {tailo: "Kám-kak sim-thâu sio-sio, tsin ti̍k-pia̍t--___!", hanji: "感覺心頭燒燒，真特別___！", answer: "neh", answer_hanji: "呢", en: "My heart feels all warm. That's really special!"}
+    - {tailo: "Má-tsóo sī hái ê ___.", hanji: "媽祖是海的___。", answer: "sîn", answer_hanji: "神", en: "Mazu is the goddess of the sea."}
+audio: []

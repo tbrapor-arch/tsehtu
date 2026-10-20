@@ -1,0 +1,34 @@
+id: 84
+title: {en: "Review 12", tailo: "Ho̍k-si̍p", hanji: "復習"}
+review: true
+setting: "A-hun's last evening in Tainan before she leaves for Taipei. Everything comes from lessons 78–83."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "阿芬明仔載就欲出外囉。行李收拾好勢未？", tailo: "A-hun bîn-á-tsài tō beh tshut-guā--looh. Hîng-lí siu-si̍p hó-sè--buē?", en: "A-hun leaves home tomorrow. Is your luggage packed yet?"}
+  - {n: 2, speaker: A-hun, hanji: "好矣。阿爸嘛贊成矣，伊昨昏閣共我交代規暝。", tailo: "Hó--ah. A-pah mā tsàn-sîng--ah, i tsa-hng koh kā guá kau-tài kui-mê.", en: "Yes. Dad's come round too; last night he spent the whole night giving me instructions."}
+  - {n: 3, speaker: A-pah, hanji: "我是驚你袂曉照顧家己。到臺北愛認真，毋通烏白開錢。", tailo: "Guá sī kiann lí bē-hiáu tsiàu-kòo ka-kī. Kàu Tâi-pak ài jīn-tsin, m̄-thang oo-pe̍h khai-tsînn.", en: "I'm just afraid you won't look after yourself. Work hard in Taipei, and don't spend money carelessly."}
+  - {n: 4, speaker: A-kong, hanji: "閣會記得無？去大稻埕的茶行，替阿公問頭家好。", tailo: "Koh ē-kì--tit--bô? Khì Tuā-tiū-tiânn ê tê-hâng, thè a-kong mn̄g thâu-ke hó.", en: "Remember? Go to the tea house in Dadaocheng and give the owner my regards."}
+  - {n: 5, speaker: Sam, hanji: "阿公，五十冬前的頭家，敢猶佇咧？", tailo: "A-kong, gōo-tsa̍p tang tsîng ê thâu-ke, kám iáu tī--leh?", en: "A-kong, would the owner from fifty years ago still be around?"}
+  - {n: 6, speaker: A-kong, hanji: "……這你講了有道理。按呢問伊的孫好。", tailo: "…… Tse lí kóng liáu ū tō-lí. Án-ne mn̄g i ê sun hó.", en: "…You have a point there. Then give my regards to his grandson."}
+  - {n: 7, speaker: A-hun, hanji: "我會不時轉來。媽祖生的時，我一定轉來迎媽祖。", tailo: "Guá ē put-sî tńg--lâi. Má-tsóo-senn ê sî, guá it-tīng tńg--lâi ngiâ Má-tsóo.", en: "I'll come back often. For Mazu's birthday I'll definitely come back for the procession."}
+  - {n: 8, speaker: A-má, hanji: "好。毋管佇佗位，身體健康上要緊。袂使規暝無睏！", tailo: "Hó. M̄-kuán tī tó-uī, sin-thé kiān-khong siōng iàu-kín. Bē-sái kui-mê bô khùn!", en: "Good. Wherever you are, your health comes first. No staying up all night!"}
+  - {n: 9, speaker: Sam, hanji: "（細聲）阿媽，這句是講我的哩。", tailo: "(Sè-siann) A-má, tsit kù sī kóng--guá--ê--lih.", en: "(Quietly) A-má, that one's meant for me, isn't it."}
+  - {n: 10, speaker: A-kong, hanji: "來，逐家啉一杯，祝阿芬一路順風！", tailo: "Lâi, ta̍k-ke lim tsi̍t pue, tsiok A-hun tsi̍t-lōo sūn-hong!", en: "Come on, everyone, a toast: have a safe journey, A-hun!"}
+notes:
+  - {ref: 1, topic: grammar, text: "囉 --looh = 'that's how it is now' (lesson 78): 欲出外囉. 出外 tshut-guā = leave home to work (lesson 79). 行李 hîng-lí = luggage: 行 hîng, the literary reading of 行 kiânn."}
+  - {ref: 2, topic: grammar, text: "Family conflicts (lesson 79): 贊成 / 反對, 肯, 到底, 無論, 相信, 甘願, 交代, 嫌, 怨嘆. 規暝 kui-mê = all night (lesson 81)."}
+  - {ref: 3, topic: vocab, text: "Night shift (lesson 81): 認真, 烏白 (recklessly), 不時, 忝, 燒酒 / 醉, 賊仔 / 偷, 進前, 然後, 繼續, 精神."}
+  - {ref: 4, topic: vocab, text: "Old Taipei (lesson 82): 歷史, 艋舺, 大稻埕, 茶行, 府, 港口, 出口, 繁華, 興 / 衰, 時代. 替 thè = on someone's behalf: 替阿公問頭家好 'say hello to the owner for me'."}
+  - {ref: 7, topic: culture, text: "Temple festival (lesson 80): 迎媽祖, 陣頭, 炮仔, 轎, 跪, 福氣, 燒香, 跋桮. 媽祖生 Má-tsóo-senn = Mazu's birthday (the 23rd of the third lunar month), the high point of the festival year."}
+  - {ref: 8, topic: vocab, text: "Getting old (lesson 83): 健康, 運動, 活動, 檢查, 孤單, 過身, 貴庚, 牽手, 老大人. 毋管 … = wherever, whatever."}
+  - {ref: 9, topic: grammar, text: "哩 --lih = firm 'you know' (lesson 78). Other sentence-final particles: 嘛 --mah (obviously), 呢 --neh (admiring), lesson 80."}
+  - {ref: 10, topic: culture, text: "祝 tsiok = wish; 一路順風 tsi̍t-lōo sūn-hong = have a safe journey, the standard send-off."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "M̄-kuán tī tó-uī, sin-thé kiān-khong siōng iàu-kín.", hanji: "毋管佇佗位，身體健康上要緊。", en: "Wherever you are, your health comes first."}
+    - {tailo: "Kàu Tâi-pak ài jīn-tsin, m̄-thang oo-pe̍h khai-tsînn.", hanji: "到臺北愛認真，毋通烏白開錢。", en: "Work hard in Taipei, and don't spend money carelessly."}
+    - {tailo: "Guá ē put-sî tńg--lâi.", hanji: "我會不時轉來。", en: "I'll come back often."}
+  fill:
+    - {tailo: "A-hun bîn-á-tsài tō beh tshut-guā--___.", hanji: "阿芬明仔載就欲出外___。", answer: "looh", answer_hanji: "囉", en: "A-hun leaves home tomorrow."}
+    - {tailo: "Tsiok A-hun tsi̍t-lōo ___!", hanji: "祝阿芬一路___！", answer: "sūn-hong", answer_hanji: "順風", en: "Have a safe journey, A-hun!"}
+audio: []

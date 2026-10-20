@@ -1,0 +1,58 @@
+id: 82
+title: {en: "Old Taipei", tailo: "Kóo-tsá ê Tâi-pak", hanji: "古早的臺北"}
+review: false
+setting: "A-hun moves to Taipei next month. A-kong, who worked in Dadaocheng as a young man, tells her and Sam about the old city."
+dialogue:
+  - {n: 1, speaker: A-kong, hanji: "阿芬，你欲去臺北，阿公共你講一寡臺北的歷史。", tailo: "A-hun, lí beh khì Tâi-pak, a-kong kā lí kóng tsi̍t-kuá Tâi-pak ê li̍k-sú.", en: "A-hun, since you're going to Taipei, let me tell you a bit of Taipei's history."}
+  - {n: 2, speaker: A-hun, hanji: "好啊。臺北上早的所在是佗位？", tailo: "Hó--ah. Tâi-pak siōng tsá ê sóo-tsāi sī tó-uī?", en: "All right. Which is the oldest part of Taipei?"}
+  - {n: 3, speaker: A-kong, hanji: "是艋舺。古早人講：「一府、二鹿、三艋舺。」", tailo: "Sī Báng-kah. Kóo-tsá lâng kóng: “It hú, jī lo̍k, sann Báng-kah.”", en: "Báng-kah. The old saying goes: 'First the Prefecture, second Lukang, third Báng-kah.'"}
+  - {n: 4, speaker: Sam, hanji: "「府」敢是臺南？", tailo: "“Hú” kám sī Tâi-lâm?", en: "Is the 'Prefecture' Tainan?"}
+  - {n: 5, speaker: A-kong, hanji: "著，彼時臺南是臺灣府，上大；鹿港第二；艋舺第三。三个攏是港口，船來船去。", tailo: "Tio̍h, hit-sî Tâi-lâm sī Tâi-uân-hú, siōng tuā; Lo̍k-káng tē-jī; Báng-kah tē-sann. Sann ê lóng sī káng-kháu, tsûn lâi tsûn khì.", en: "Yes. Back then Tainan was the seat of Taiwan Prefecture, the biggest town; Lukang was second and Báng-kah third. All three were ports, with ships coming and going."}
+  - {n: 6, speaker: A-hun, hanji: "按呢大稻埕咧？", tailo: "Án-ne Tuā-tiū-tiânn--leh?", en: "And Dadaocheng?"}
+  - {n: 7, speaker: A-kong, hanji: "大稻埕較慢起來。後來淡水河的船攏停佇遐，茶葉、布、藥材對遐出口，生理人愈來愈濟。", tailo: "Tuā-tiū-tiânn khah bān khí--lâi. Āu--lâi Tām-tsuí-hô ê tsûn lóng thîng tī hia, tê-hio̍h, pòo, io̍h-tsâi tuì hia tshut-kháu, sing-lí-lâng jú lâi jú tsē.", en: "Dadaocheng grew up later. Then the ships on the Tamsui River all started stopping there; tea, cloth and herbs were exported from there, and there were more and more merchants."}
+  - {n: 8, speaker: Sam, hanji: "所以臺北是用生理發展起來的。", tailo: "Sóo-í Tâi-pak sī iōng sing-lí huat-tián--khí-lâi--ê.", en: "So Taipei grew on trade."}
+  - {n: 9, speaker: A-kong, hanji: "會使按呢講。我十八歲去大稻埕的茶行做師仔，彼時的街仔真繁華。", tailo: "Ē-sái án-ne kóng. Guá tsa̍p-peh huè khì Tuā-tiū-tiânn ê tê-hâng tsò sai-á, hit-sî ê ke-á tsin huân-huâ.", en: "You could say that. At eighteen I went to work as an apprentice in a tea house in Dadaocheng; the streets were very busy then."}
+  - {n: 10, speaker: A-hun, hanji: "這馬猶有古早的樓仔厝無？", tailo: "Tsit-má iáu ū kóo-tsá ê lâu-á-tshù--bô?", en: "Are any of the old buildings still there?"}
+  - {n: 11, speaker: A-kong, hanji: "有，迪化街有真濟。過年進前逐家攏去遐買年貨，人𤲍甲袂行得。", tailo: "Ū, Ti̍k-huà-ke ū tsin tsē. Kuè-nî tsìn-tsîng ta̍k-ke lóng khì hia bé nî-huè, lâng kheh kah bē kiânn--tit.", en: "Yes, lots on Dihua Street. Before New Year everyone goes there to buy New Year goods; it's so packed you can hardly move."}
+  - {n: 12, speaker: Sam, hanji: "時代變囉。這馬臺北上鬧熱的所在毋是遐矣。", tailo: "Sî-tāi piàn--looh. Tsit-má Tâi-pak siōng lāu-jia̍t ê sóo-tsāi m̄ sī hia--ah.", en: "Times have changed. Those aren't the busiest parts of Taipei any more."}
+  - {n: 13, speaker: A-kong, hanji: "著，一个所在有興嘛有衰。毋過歷史留落來的物件，猶是愛保存。", tailo: "Tio̍h, tsi̍t ê sóo-tsāi ū hing mā ū sue. M̄-koh li̍k-sú lâu--lo̍h-lâi ê mi̍h-kiānn, iáu-sī ài pó-tsûn.", en: "Right: every place rises and declines. But what history leaves behind should still be preserved."}
+  - {n: 14, speaker: A-hun, hanji: "我到臺北，頭一个禮拜就去艋舺佮大稻埕行行。", tailo: "Guá kàu Tâi-pak, thâu tsi̍t ê lé-pài tō khì Báng-kah kah Tuā-tiū-tiânn kiânn-kiânn.", en: "When I get to Taipei, I'll go and walk round Báng-kah and Dadaocheng the very first week."}
+  - {n: 15, speaker: A-kong, hanji: "順紲去茶行，講是我的孫，看頭家閣會記得阿公無。", tailo: "Sūn-suà khì tê-hâng, kóng sī guá ê sun, khuànn thâu-ke koh ē-kì--tit a-kong--bô.", en: "And while you're there, go to the tea house, say you're my grandchild, and see if the owner still remembers me."}
+  - {n: 16, speaker: Sam, hanji: "阿公，彼是五十冬前的代誌矣！", tailo: "A-kong, he sī gōo-tsa̍p tang tsîng ê tāi-tsì--ah!", en: "A-kong, that was fifty years ago!"}
+notes:
+  - {ref: 1, topic: vocab, text: "歷史 li̍k-sú = history."}
+  - {ref: 3, topic: pronunciation, text: "一府、二鹿、三艋舺 It hú, jī lo̍k, sann Báng-kah, the saying for the three biggest towns of Qing-era Taiwan. It uses literary readings: 一 it (not tsi̍t), 二 jī (not nn̄g), 鹿 lo̍k as in 鹿港. Fixed sayings, ordinal numbers and names keep these readings: 第一 tē-it, 第二 tē-jī."}
+  - {ref: 3, topic: culture, text: "艋舺 Báng-kah is today's Wanhua; the name comes from the Indigenous word for a canoe."}
+  - {ref: 5, topic: vocab, text: "彼時 hit-sî = at that time (more formal than 彼陣 hit-tsūn). 府 hú = prefecture (the Qing administrative seat). 港口 káng-kháu = port. 船來船去 'ships coming and going'."}
+  - {ref: 7, topic: vocab, text: "大稻埕 Tuā-tiū-tiânn: 稻 tiū (colloquial, as in 稻仔) and 埕 tiânn 'drying ground': 'the great rice-drying ground'. 淡水河 Tām-tsuí-hô = the Tamsui River. 出口 tshut-kháu = export. 生理人 sing-lí-lâng = merchant (生理 'business', lesson 59)."}
+  - {ref: 8, topic: vocab, text: "發展 huat-tián = develop, grow."}
+  - {ref: 9, topic: vocab, text: "茶行 tê-hâng = tea merchant's house. 師仔 sai-á = apprentice (做師仔 'serve an apprenticeship'; 師傅 sai-hū, lesson 66, is the master). 繁華 huân-huâ = bustling, prosperous."}
+  - {ref: 10, topic: vocab, text: "樓仔厝 lâu-á-tshù = (two-storey or taller) town house, as opposed to a single-storey farmhouse."}
+  - {ref: 11, topic: vocab, text: "迪化街 Ti̍k-huà-ke = Dihua Street, famous for dried goods, herbs and cloth. 年貨 nî-huè = New Year shopping. 𤲍 kheh = be crowded, squeeze. 袂行得 bē kiânn--tit = can't move."}
+  - {ref: 12, topic: grammar, text: "時代變囉 sî-tāi piàn--looh 'times have changed' (an MOE example sentence for 囉, lesson 78). 時代 sî-tāi = era, the times."}
+  - {ref: 13, topic: vocab, text: "興 hing = prosper, rise; 衰 sue = decline (also 'unlucky'). 留落來 lâu--lo̍h-lâi = leave behind, survive."}
+new_words:
+  - {tailo: li̍k-sú, hanji: 歷史, en: "history"}
+  - {tailo: Báng-kah, hanji: 艋舺, en: "Mengjia (Wanhua)"}
+  - {tailo: hú, hanji: 府, en: "prefecture"}
+  - {tailo: hit-sî, hanji: 彼時, en: "at that time"}
+  - {tailo: káng-kháu, hanji: 港口, en: "port"}
+  - {tailo: Tām-tsuí-hô, hanji: 淡水河, en: "Tamsui River"}
+  - {tailo: tshut-kháu, hanji: 出口, en: "export; exit"}
+  - {tailo: huat-tián, hanji: 發展, en: "develop"}
+  - {tailo: sai-á, hanji: 師仔, en: "apprentice"}
+  - {tailo: huân-huâ, hanji: 繁華, en: "bustling, prosperous"}
+  - {tailo: lâu-á-tshù, hanji: 樓仔厝, en: "town house"}
+  - {tailo: kheh, hanji: 𤲍, en: "be crowded"}
+  - {tailo: sî-tāi, hanji: 時代, en: "era, the times"}
+  - {tailo: hing, hanji: 興, en: "prosper"}
+  - {tailo: sue, hanji: 衰, en: "decline; unlucky"}
+exercises:
+  translate:
+    - {tailo: "Sann ê lóng sī káng-kháu, tsûn lâi tsûn khì.", hanji: "三个攏是港口，船來船去。", en: "All three were ports, with ships coming and going."}
+    - {tailo: "Hit-sî ê ke-á tsin huân-huâ.", hanji: "彼時的街仔真繁華。", en: "The streets were very busy then."}
+    - {tailo: "Tsi̍t ê sóo-tsāi ū hing mā ū sue.", hanji: "一个所在有興嘛有衰。", en: "Every place rises and declines."}
+  fill:
+    - {tailo: "___ piàn--looh.", hanji: "___變囉。", answer: "Sî-tāi", answer_hanji: "時代", en: "Times have changed."}
+    - {tailo: "Tê-hio̍h, pòo, io̍h-tsâi tuì hia ___.", hanji: "茶葉、布、藥材對遐___。", answer: "tshut-kháu", answer_hanji: "出口", en: "Tea, cloth and herbs were exported from there."}
+audio: []
