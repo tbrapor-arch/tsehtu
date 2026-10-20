@@ -1,0 +1,59 @@
+id: 88
+title: {en: "Hakka and Taigi neighbours", tailo: "Kheh-lâng tshù-pinn", hanji: "客人厝邊"}
+review: false
+setting: "Sam drops in at the little restaurant next to A-má's house, run by A-tsím, a Hakka woman from Meinong."
+dialogue:
+  - {n: 1, speaker: A-tsím, hanji: "Sam，入來坐。今仔日我煮客家的菜，你食看覓。", tailo: "Sam, ji̍p-lâi tsē. Kin-á-ji̍t guá tsú Kheh-ka ê tshài, lí tsia̍h khuànn-māi.", en: "Sam, come in and sit down. Today I'm cooking Hakka food; try some."}
+  - {n: 2, speaker: Sam, hanji: "阿嬸，你是客人？毋過你的台語講甲遮爾好。", tailo: "A-tsím, lí sī Kheh-lâng? M̄-koh lí ê Tâi-gí kóng kah tsiah-nī hó.", en: "Auntie, you're Hakka? But your Taigi is so good."}
+  - {n: 3, speaker: A-tsím, hanji: "我是美濃人，嫁來臺南三十外冬矣。客話、台語我攏會曉。", tailo: "Guá sī Bí-lông lâng, kè lâi Tâi-lâm sann-tsa̍p guā tang--ah. Kheh-uē, Tâi-gí guá lóng ē-hiáu.", en: "I'm from Meinong. I married into Tainan more than thirty years ago. I speak both Hakka and Taigi."}
+  - {n: 4, speaker: Sam, hanji: "「客人」是客家人，毋是「人客」？", tailo: "“Kheh-lâng” sī Kheh-ka-lâng, m̄ sī “lâng-kheh”?", en: "So 'Kheh-lâng' means Hakka people, not 'lâng-kheh'?"}
+  - {n: 5, speaker: A-tsím, hanji: "著，倒反講就無仝意思。「人客」是來恁兜的人。", tailo: "Tio̍h, tò-píng kóng tō bô-kâng ì-sù. “Lâng-kheh” sī lâi lín tau ê lâng.", en: "Right: say it the other way round and the meaning changes. 'Lâng-kheh' means a guest who comes to your house."}
+  - {n: 6, speaker: Sam, hanji: "客話佮台語差偌濟？", tailo: "Kheh-uē kah Tâi-gí tsha guā-tsē?", en: "How different are Hakka and Taigi?"}
+  - {n: 7, speaker: A-tsím, hanji: "差真濟。有的字寫仝款，毋過音無仝，袂曉的人聽無。", tailo: "Tsha tsin tsē. Ū--ê jī siá kāng-khuán, m̄-koh im bô-kâng, bē-hiáu ê lâng thiann bô.", en: "Very different. Some words are written the same, but the sounds aren't; people who don't know it can't understand."}
+  - {n: 8, speaker: Sam, hanji: "按呢恁厝內講啥物話？", tailo: "Án-ne lín tshù-lāi kóng siánn-mih uē?", en: "So what do you speak at home?"}
+  - {n: 9, speaker: A-tsím, hanji: "佮阮翁講客話，佮囡仔講華語，佮厝邊講台語。一工換三種話。", tailo: "Kah guán ang kóng Kheh-uē, kah gín-á kóng Huâ-gí, kah tshù-pinn kóng Tâi-gí. Tsi̍t kang uānn sann tsióng uē.", en: "Hakka with my husband, Mandarin with the kids, Taigi with the neighbours. Three languages a day."}
+  - {n: 10, speaker: Sam, hanji: "真厲害！臺灣到底有幾種語言？", tailo: "Tsin lī-hāi! Tâi-uân tàu-té ū kuí tsióng gí-giân?", en: "Impressive! How many languages are there in Taiwan, then?"}
+  - {n: 11, speaker: A-tsím, hanji: "台語、客話、華語，閣有十外種原住民的語言。各族群攏有家己的話佮文化。", tailo: "Tâi-gí, Kheh-uē, Huâ-gí, koh ū tsa̍p guā tsióng guân-tsū-bîn ê gí-giân. Koh tso̍k-kûn lóng ū ka-kī ê uē kah bûn-huà.", en: "Taigi, Hakka, Mandarin, and more than ten Indigenous languages. Each community has its own language and culture."}
+  - {n: 12, speaker: Sam, hanji: "古早客人佮講台語的人敢有冤家？", tailo: "Kóo-tsá Kheh-lâng kah kóng Tâi-gí ê lâng kám ū uan-ke?", en: "In the past, did the Hakka and the Taigi speakers fight?"}
+  - {n: 13, speaker: A-tsím, hanji: "古早有，為著土地佮水，族群之間有衝突。毋過這馬逐家攏是厝邊，互相尊重。", tailo: "Kóo-tsá ū, uī-tio̍h thóo-tē kah tsuí, tso̍k-kûn tsi-kan ū tshiong-tu̍t. M̄-koh tsit-má ta̍k-ke lóng sī tshù-pinn, hōo-siong tsun-tiōng.", en: "Long ago, yes: there were clashes between communities over land and water. But now we're all neighbours and respect each other."}
+  - {n: 14, speaker: Sam, hanji: "我嘛想欲學幾句客話。", tailo: "Guá mā siūnn-beh o̍h kuí kù Kheh-uē.", en: "I'd like to learn a few phrases of Hakka too."}
+  - {n: 15, speaker: A-tsím, hanji: "好啊。毋過你台語猶未學好，莫一擺學兩種，頭殼會亂去。", tailo: "Hó--ah. M̄-koh lí Tâi-gí iáu-buē o̍h hó, mài tsi̍t pái o̍h nn̄g tsióng, thâu-khak ē luān--khì.", en: "Sure. But you haven't finished learning Taigi yet; don't learn two at once or your head will get muddled."}
+  - {n: 16, speaker: Sam, hanji: "阿嬸講了著。我驚兩種我攏學甲差不多，攏無好。", tailo: "A-tsím kóng liáu tio̍h. Guá kiann nn̄g tsióng guá lóng o̍h kah tsha-put-to, lóng bô hó.", en: "You're right, Auntie. I'm afraid I'd learn both only halfway and be good at neither."}
+  - {n: 17, speaker: A-tsím, hanji: "來，先食飯。這盤是客家的炒肉，鹹鹹芳芳，配飯上好。", tailo: "Lâi, sing tsia̍h-pn̄g. Tsit puânn sī Kheh-ka ê tshá-bah, kiâm-kiâm phang-phang, phuè pn̄g siōng hó.", en: "Come on, eat first. This is a Hakka stir-fry: salty and fragrant, perfect with rice."}
+  - {n: 18, speaker: Sam, hanji: "好食！這款菜，毋管是客人抑是講台語的人，攏會佮意。", tailo: "Hó-tsia̍h! Tsit khuán tshài, m̄-kuán sī Kheh-lâng ia̍h-sī kóng Tâi-gí ê lâng, lóng ē kah-ì.", en: "Delicious! Hakka or Taigi speaker, everyone would love this."}
+notes:
+  - {ref: 1, topic: vocab, text: "客家 Kheh-ka = Hakka; 客家人 Kheh-ka-lâng = Hakka people. 阿嬸 a-tsím = auntie (an older woman; strictly, an uncle's wife)."}
+  - {ref: 2, topic: false-friend, text: "客人 Kheh-lâng = Hakka people, not 'guest': 'guest' is 人客 lâng-kheh (lesson 43), the same two characters in the other order."}
+  - {ref: 3, topic: culture, text: "美濃 Bí-lông (Meinong, in Kaohsiung) is one of the best-known Hakka towns, with Taoyuan, Hsinchu, Miaoli and parts of Pingtung. 嫁來 kè lâi = marry into (a place or family). 客話 Kheh-uē = the Hakka language (also 客語 Kheh-gí, lesson 71)."}
+  - {ref: 6, topic: grammar, text: "差偌濟 tsha guā-tsē = how different (差 tsha 'differ', lesson 67)."}
+  - {ref: 9, topic: vocab, text: "翁 ang = husband (阮翁 'my husband'). 換 uānn = change, switch (lesson 46)."}
+  - {ref: 11, topic: vocab, text: "族群 tso̍k-kûn = ethnic group, community. 各 koh = each (各族群 'every community'; literary reading kok in 各國 kok-kok). 文化 bûn-huà = culture."}
+  - {ref: 13, topic: vocab, text: "為著 uī-tio̍h = because of, for the sake of. 土地 thóo-tē = land. 之間 tsi-kan = between. 衝突 tshiong-tu̍t = conflict, clash. 互相 hōo-siong = each other. 尊重 tsun-tiōng = respect."}
+  - {ref: 15, topic: vocab, text: "亂去 luān--khì = get muddled, become a mess (亂 luān = chaotic)."}
+  - {ref: 16, topic: vocab, text: "差不多 tsha-put-to = about, roughly; 學甲差不多 'learn only halfway'."}
+  - {ref: 17, topic: vocab, text: "配 phuè = go with (food): 配飯 'with rice'. 炒肉 tshá-bah = stir-fried meat."}
+new_words:
+  - {tailo: Kheh-ka, hanji: 客家, en: "Hakka"}
+  - {tailo: Kheh-lâng, hanji: 客人, en: "Hakka people"}
+  - {tailo: a-tsím, hanji: 阿嬸, en: "auntie"}
+  - {tailo: Kheh-uē, hanji: 客話, en: "Hakka (language)"}
+  - {tailo: ang, hanji: 翁, en: "husband"}
+  - {tailo: tso̍k-kûn, hanji: 族群, en: "ethnic group"}
+  - {tailo: koh, hanji: 各, en: "each"}
+  - {tailo: bûn-huà, hanji: 文化, en: "culture"}
+  - {tailo: thóo-tē, hanji: 土地, en: "land"}
+  - {tailo: tsi-kan, hanji: 之間, en: "between"}
+  - {tailo: tshiong-tu̍t, hanji: 衝突, en: "conflict, clash"}
+  - {tailo: hōo-siong, hanji: 互相, en: "each other"}
+  - {tailo: tsun-tiōng, hanji: 尊重, en: "respect"}
+  - {tailo: luān, hanji: 亂, en: "chaotic, muddled"}
+  - {tailo: tsha-put-to, hanji: 差不多, en: "about, roughly"}
+exercises:
+  translate:
+    - {tailo: "Kheh-uē, Tâi-gí guá lóng ē-hiáu.", hanji: "客話、台語我攏會曉。", en: "I speak both Hakka and Taigi."}
+    - {tailo: "Koh tso̍k-kûn lóng ū ka-kī ê uē kah bûn-huà.", hanji: "各族群攏有家己的話佮文化。", en: "Each community has its own language and culture."}
+    - {tailo: "Tsit-má ta̍k-ke lóng sī tshù-pinn, hōo-siong tsun-tiōng.", hanji: "這馬逐家攏是厝邊，互相尊重。", en: "Now we're all neighbours and respect each other."}
+  fill:
+    - {tailo: "“Lâng-kheh” sī lâi lín tau ê lâng; “___” sī Kheh-ka-lâng.", hanji: "「人客」是來恁兜的人；「___」是客家人。", answer: "Kheh-lâng", answer_hanji: "客人", en: "'Lâng-kheh' is a guest; 'Kheh-lâng' are the Hakka."}
+    - {tailo: "Tsi̍t kang ___ sann tsióng uē.", hanji: "一工___三種話。", answer: "uānn", answer_hanji: "換", en: "Three languages a day."}
+audio: []

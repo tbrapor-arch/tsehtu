@@ -1,0 +1,33 @@
+id: 91
+title: {en: "Review 13", tailo: "Ho̍k-si̍p", hanji: "復習"}
+review: true
+setting: "That evening Sam phones A-má from Taipei to say he has arrived safely. Everything comes from lessons 85–90."
+dialogue:
+  - {n: 1, speaker: Sam, hanji: "阿媽，我到位矣，來共你報平安。", tailo: "A-má, guá kàu-uī--ah, lâi kā lí pò pîng-an.", en: "A-má, I've arrived. I'm calling to let you know I'm safe."}
+  - {n: 2, speaker: A-má, hanji: "好佳哉。阿公頭拄仔看新聞，講國道發生車禍，伊緊張甲。", tailo: "Hó-ka-tsài. A-kong thâu-tú-á khuànn sin-bûn, kóng kok-tō huat-sing tshia-hō, i kín-tiunn kah.", en: "Thank goodness. A-kong just saw on the news that there was a crash on the motorway; he was so worried."}
+  - {n: 3, speaker: Sam, hanji: "我是坐高鐵，毋是坐車，免煩惱。", tailo: "Guá sī tsē ko-thih, m̄ sī tsē tshia, bián huân-ló.", en: "I came by high-speed rail, not by road, so don't worry."}
+  - {n: 4, speaker: A-kong, hanji: "（佇邊仔）我毋是緊張，是關心。", tailo: "(Tī pinn--á) Guá m̄ sī kín-tiunn, sī kuan-sim.", en: "(In the background) I wasn't worried, I was concerned."}
+  - {n: 5, speaker: A-má, hanji: "恁阿公，喙講毋是，心內上蓋寶惜你。", tailo: "Lín a-kong, tshuì kóng m̄ sī, sim-lāi siōng-kài pó-sioh--lí.", en: "Your grandpa says he isn't, but deep down he treasures you more than anyone."}
+  - {n: 6, speaker: Sam, hanji: "我知。臺北的厝內底有夠濟糞埽，我拄才分類，提去回收。", tailo: "Guá tsai. Tâi-pak ê tshù lāi-té ū-kàu tsē pùn-sò, guá tú-tsiah hun-luī, the̍h khì huê-siu.", en: "I know. There was loads of rubbish in my Taipei flat; I've just sorted it and taken it to the recycling."}
+  - {n: 7, speaker: A-má, hanji: "真乖。阿嬸嘛叫你有閒閣來食客家菜。", tailo: "Tsin kuai. A-tsím mā kiò lí ū-îng koh lâi tsia̍h Kheh-ka tshài.", en: "Good boy. A-tsím says to come back and eat Hakka food when you're free."}
+  - {n: 8, speaker: Sam, hanji: "好啊。我佇車頂學一句客話，毋過毋敢講，驚講毋著，予人笑。", tailo: "Hó--ah. Guá tī tshia tíng o̍h tsi̍t kù Kheh-uē, m̄-koh m̄-kánn kóng, kiann kóng m̄-tio̍h, hōo lâng tshiò.", en: "Sure. I learned a phrase of Hakka on the train, but I don't dare say it in case I get it wrong and people laugh."}
+  - {n: 9, speaker: A-kong, hanji: "毋免驚！講毋著嘛是笑詼，又閣毋是臭彈。", tailo: "M̄-bián kiann! Kóng m̄-tio̍h mā sī tshiò-khue, iū-koh m̄ sī tshàu-tuānn.", en: "Don't be afraid! Getting it wrong is just a joke, and it's not as if you're telling tall stories."}
+  - {n: 10, speaker: A-má, hanji: "好啦，早睏。保重，後擺過年等你轉來。", tailo: "Hó--lah, tsá khùn. Pó-tiōng, āu-pái kuè-nî tán lí tńg--lâi.", en: "All right, get an early night. Take care; we'll be waiting for you at New Year."}
+notes:
+  - {ref: 1, topic: culture, text: "報平安 pò pîng-an = call to say you've arrived safely (lesson 90). Goodbyes (lesson 90): 保重, 後擺, 紀念, 毋甘, 本底, 擛手; announcements: 往, 旅客, 上車."}
+  - {ref: 2, topic: grammar, text: "News register (lesson 85): 發生, 車禍, 目前, 民眾, 指出, 調查, 而且, 其中, 所有, 國際, 經濟. 緊張甲 'so nervous (you can't imagine)': V 甲 with the result left unsaid."}
+  - {ref: 4, topic: vocab, text: "緊張 kín-tiunn = nervous; 關心 kuan-sim = care about, be concerned."}
+  - {ref: 5, topic: vocab, text: "A love story (lesson 86): 意愛, 相思, 媒人, 提親, 夫妻, 緣份, 寶惜, 一世人, 浪漫. 喙講毋是 'says no with his mouth'."}
+  - {ref: 6, topic: grammar, text: "The environment (lesson 89): 分類, 回收, 塑膠, 節約, 減少, 浪費, 保護, 地球. 有夠 + adjective = really (lesson 38)."}
+  - {ref: 8, topic: vocab, text: "Hakka neighbours (lesson 88): 客人 (Hakka) vs 人客 (guest), 客話, 客家, 族群, 互相, 尊重, 文化. 毋敢 m̄-kánn = not dare."}
+  - {ref: 9, topic: vocab, text: "Humour (lesson 87): 笑詼, 笑話, 臭彈, 白賊, 謎猜, 故意, 聲調. 又閣 iū-koh = and besides (lesson 47)."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Guá kàu-uī--ah, lâi kā lí pò pîng-an.", hanji: "我到位矣，來共你報平安。", en: "I've arrived; I'm calling to let you know I'm safe."}
+    - {tailo: "Guá m̄ sī kín-tiunn, sī kuan-sim.", hanji: "我毋是緊張，是關心。", en: "I wasn't worried, I was concerned."}
+    - {tailo: "Kóng m̄-tio̍h mā sī tshiò-khue.", hanji: "講毋著嘛是笑詼。", en: "Getting it wrong is just a joke."}
+  fill:
+    - {tailo: "Sim-lāi siōng-kài ___--lí.", hanji: "心內上蓋___你。", answer: "pó-sioh", answer_hanji: "寶惜", en: "Deep down he treasures you more than anyone."}
+    - {tailo: "Guá tú-tsiah ___, the̍h khì huê-siu.", hanji: "我拄才___，提去回收。", answer: "hun-luī", answer_hanji: "分類", en: "I've just sorted it and taken it to the recycling."}
+audio: []

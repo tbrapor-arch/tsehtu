@@ -1,0 +1,60 @@
+id: 87
+title: {en: "Humour and puns", tailo: "Tshiò-khue", hanji: "笑詼"}
+review: false
+setting: "A lazy afternoon. A-bîng teases Sam with tongue-twisters and tall tales."
+dialogue:
+  - {n: 1, speaker: A-bîng, hanji: "Sam，我考你一題。", tailo: "Sam, guá khó lí tsi̍t tê.", en: "Sam, here's a test for you."}
+  - {n: 2, speaker: Sam, hanji: "好啊，我上愛臆謎猜。", tailo: "Hó--ah, guá siōng ài ioh bī-tshai.", en: "Go on, I love guessing riddles."}
+  - {n: 3, speaker: A-bîng, hanji: "毋是謎猜，是緊講。你講看覓：「九隻狗走到猴的兜。」", tailo: "M̄ sī bī-tshai, sī kín kóng. Lí kóng khuànn-māi: “Káu tsiah káu tsáu kàu kâu ê tau.”", en: "Not a riddle, a tongue-twister. Try saying: 'Nine dogs ran to the monkey's house.'"}
+  - {n: 4, speaker: Sam, hanji: "九隻狗……走到……猴……啊，我的喙舌拍結矣！", tailo: "Káu tsiah káu…… tsáu kàu…… kâu…… Ah, guá ê tshuì-tsi̍h phah-kat--ah!", en: "Nine dogs… ran to… monkey… argh, my tongue's in a knot!"}
+  - {n: 5, speaker: A-bîng, hanji: "káu、káu、kàu、kâu，音攏仝款，干焦聲調無仝。台語的笑詼，定定是對聲調來的。", tailo: "Káu, káu, kàu, kâu, im lóng kāng-khuán, kan-na siann-tiāu bô-kâng. Tâi-gí ê tshiò-khue, tiānn-tiānn sī tuì siann-tiāu lâi--ê.", en: "Káu, káu, kàu, kâu: the sounds are the same, only the tones differ. A lot of Taigi humour comes from tones."}
+  - {n: 6, speaker: Sam, hanji: "我頭一擺去菜市仔，欲講「買」，煞講做「賣」，頭家笑甲袂煞。", tailo: "Guá thâu tsi̍t pái khì tshài-tshī-á, beh kóng “bé”, suah kóng tsò “bē”, thâu-ke tshiò kah bē suah.", en: "The first time I went to the market, I meant to say 'buy' and said 'sell' instead. The stallholder couldn't stop laughing."}
+  - {n: 7, speaker: A-bîng, hanji: "買佮賣，干焦聲調無仝，意思煞倒反。這就是聲調的趣味。", tailo: "Bé kah bē, kan-na siann-tiāu bô-kâng, ì-sù suah tò-píng. Tse tō sī siann-tiāu ê tshù-bī.", en: "Buy and sell differ only in tone, yet they mean the opposite. That's the fun of tones."}
+  - {n: 8, speaker: Sam, hanji: "閣有一擺，我欲講「四」，人攏聽做「死」，誠歹勢。", tailo: "Koh ū tsi̍t pái, guá beh kóng “sì”, lâng lóng thiann tsò “sí”, tsiânn pháinn-sè.", en: "Another time I meant to say 'four' and everyone heard 'die'. So embarrassing."}
+  - {n: 9, speaker: A-bîng, hanji: "四佮死音近，所以有的人無愛四樓，有的病院嘛無四號房。", tailo: "Sì kah sí im kīn, sóo-í ū--ê lâng bô ài sì lâu, ū--ê pēnn-īnn mā bô sì hō pâng.", en: "'Four' sounds like 'die', so some people avoid the fourth floor, and some hospitals have no room number four."}
+  - {n: 10, speaker: Sam, hanji: "按呢台語講笑話，愛先學會曉聲調。", tailo: "Án-ne Tâi-gí kóng tshiò-uē, ài sing o̍h ē-hiáu siann-tiāu.", en: "So to tell jokes in Taigi you have to master the tones first."}
+  - {n: 11, speaker: A-bîng, hanji: "閣有一種笑詼，就是故意講白賊，予人臆。", tailo: "Koh ū tsi̍t tsióng tshiò-khue, tō sī kòo-ì kóng-pe̍h-tsha̍t, hōo lâng ioh.", en: "Another kind of joke is to tell a lie on purpose and let people guess."}
+  - {n: 12, speaker: A-bîng, hanji: "我共你講：阿公昨昏去比賽跳舞，提著第一。", tailo: "Guá kā lí kóng: a-kong tsa-hng khì pí-sài thiàu-bú, the̍h-tio̍h tē-it.", en: "Listen: yesterday A-kong entered a dancing competition and came first."}
+  - {n: 13, speaker: Sam, hanji: "白賊！阿公袂曉跳舞，伊干焦會曉拍拳。", tailo: "Pe̍h-tsha̍t! A-kong bē-hiáu thiàu-bú, i kan-na ē-hiáu phah-kûn.", en: "Liar! A-kong can't dance; all he can do is tai chi."}
+  - {n: 14, speaker: A-bîng, hanji: "哈哈，你臆著矣。你嘛來講一个看覓。", tailo: "Ha-ha, lí ioh--tio̍h--ah. Lí mā lâi kóng tsi̍t ê khuànn-māi.", en: "Ha ha, you got it. Now you tell one."}
+  - {n: 15, speaker: Sam, hanji: "我昨昏佇菜市仔看著一隻猴，咧賣九隻狗。", tailo: "Guá tsa-hng tī tshài-tshī-á khuànn-tio̍h tsi̍t tsiah kâu, teh bē káu tsiah káu.", en: "Yesterday at the market I saw a monkey selling nine dogs."}
+  - {n: 16, speaker: A-bîng, hanji: "哈哈哈！你這个毋是白賊，是臭彈。", tailo: "Ha-ha-ha! Lí tsit ê m̄ sī pe̍h-tsha̍t, sī tshàu-tuānn.", en: "Ha ha ha! That's not a lie, that's a tall story."}
+  - {n: 17, speaker: Sam, hanji: "臭彈佮白賊有啥無仝？", tailo: "Tshàu-tuānn kah pe̍h-tsha̍t ū siánn bô-kâng?", en: "What's the difference between a tall story and a lie?"}
+  - {n: 18, speaker: A-bîng, hanji: "白賊是欲騙人相信；臭彈是講甲誇張，逐家攏知是假的，聽了歡喜就好。", tailo: "Pe̍h-tsha̍t sī beh phiàn lâng siong-sìn; tshàu-tuānn sī kóng kah khua-tiong, ta̍k-ke lóng tsai sī ké--ê, thiann liáu huann-hí tō hó.", en: "A lie is meant to make people believe it; a tall story is so exaggerated that everyone knows it's false, and it's just for fun."}
+notes:
+  - {ref: 1, topic: vocab, text: "考 khó = test, examine. 題 tê = question (in a test). 謎猜 bī-tshai = riddle; 臆 ioh = guess (lesson 57)."}
+  - {ref: 3, topic: sandhi, text: "九隻狗走到猴的兜 káu tsiah káu tsáu kàu kâu ê tau: 九 káu (tone 2), 狗 káu (2), 到 kàu (3), 猴 kâu (5), and 厚 kāu (7, lesson 86) are one syllable in five tones. In speech, sandhi changes them again: 九 and 狗 here are pronounced kau (tone 1) before the next word, so the tongue-twister tests sandhi as much as tones."}
+  - {ref: 4, topic: vocab, text: "喙舌 tshuì-tsi̍h = tongue. 拍結 phah-kat = tie in a knot."}
+  - {ref: 5, topic: vocab, text: "聲調 siann-tiāu = tone (of a syllable). 音 im = sound. 笑詼 tshiò-khue = joke, funny (lesson 41)."}
+  - {ref: 6, topic: pronunciation, text: "買 bé (tone 2, 'buy') and 賣 bē (tone 7, 'sell'): the classic tone pair every learner mixes up. Remember that 賣 is the low, level one. 笑甲袂煞 'laughed and couldn't stop' (煞 suah 'stop', lesson 33)."}
+  - {ref: 8, topic: culture, text: "四 sì (tone 3) and 死 sí (tone 2) sound close, so 'four' is avoided in some places, as in other Chinese-speaking communities. 聽做 thiann tsò = hear as, take for."}
+  - {ref: 9, topic: vocab, text: "近 kīn = near, close. 號 hō = number (of a room, a house)."}
+  - {ref: 10, topic: vocab, text: "笑話 tshiò-uē = joke (a story)."}
+  - {ref: 11, topic: vocab, text: "故意 kòo-ì = on purpose. 講白賊 kóng-pe̍h-tsha̍t = tell lies (lesson 47); 白賊 pe̍h-tsha̍t alone (line 13) = 'liar!, that's a lie!'."}
+  - {ref: 16, topic: vocab, text: "臭彈 tshàu-tuānn = tall story, bragging, Taigi-only."}
+  - {ref: 18, topic: vocab, text: "誇張 khua-tiong = exaggerated. 假 ké = false, fake."}
+new_words:
+  - {tailo: khó, hanji: 考, en: "test, examine"}
+  - {tailo: tê, hanji: 題, en: "question (in a test)"}
+  - {tailo: bī-tshai, hanji: 謎猜, en: "riddle"}
+  - {tailo: káu, hanji: 九, en: "nine"}
+  - {tailo: kâu, hanji: 猴, en: "monkey"}
+  - {tailo: tshuì-tsi̍h, hanji: 喙舌, en: "tongue"}
+  - {tailo: phah-kat, hanji: 拍結, en: "tie in a knot"}
+  - {tailo: siann-tiāu, hanji: 聲調, en: "tone"}
+  - {tailo: im, hanji: 音, en: "sound"}
+  - {tailo: kīn, hanji: 近, en: "near"}
+  - {tailo: tshiò-uē, hanji: 笑話, en: "joke"}
+  - {tailo: kòo-ì, hanji: 故意, en: "on purpose"}
+  - {tailo: tshàu-tuānn, hanji: 臭彈, en: "tall story, bragging"}
+  - {tailo: khua-tiong, hanji: 誇張, en: "exaggerated"}
+  - {tailo: ké, hanji: 假, en: "false, fake"}
+exercises:
+  translate:
+    - {tailo: "Káu tsiah káu tsáu kàu kâu ê tau.", hanji: "九隻狗走到猴的兜。", en: "Nine dogs ran to the monkey's house."}
+    - {tailo: "Bé kah bē, kan-na siann-tiāu bô-kâng.", hanji: "買佮賣，干焦聲調無仝。", en: "Buy and sell differ only in tone."}
+    - {tailo: "Lí tsit ê m̄ sī pe̍h-tsha̍t, sī tshàu-tuānn.", hanji: "你這个毋是白賊，是臭彈。", en: "That's not a lie, that's a tall story."}
+  fill:
+    - {tailo: "Guá ê ___ phah-kat--ah!", hanji: "我的___拍結矣！", answer: "tshuì-tsi̍h", answer_hanji: "喙舌", en: "My tongue's in a knot!"}
+    - {tailo: "Tō sī ___ kóng-pe̍h-tsha̍t, hōo lâng ioh.", hanji: "就是___講白賊，予人臆。", answer: "kòo-ì", answer_hanji: "故意", en: "It's telling a lie on purpose and letting people guess."}
+audio: []

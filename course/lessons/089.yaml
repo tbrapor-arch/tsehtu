@@ -1,0 +1,63 @@
+id: 89
+title: {en: "The environment", tailo: "Pó-hōo khuân-kíng", hanji: "保護環境"}
+review: false
+setting: "Evening at A-má's. The rubbish truck is on its way, playing its tune, and the family hurries to sort the recycling."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "緊咧，糞埽車咧欲來矣。你聽，音樂咧響。", tailo: "Kín--leh, pùn-sò-tshia teh-beh lâi--ah. Lí thiann, im-ga̍k teh hiáng.", en: "Hurry, the rubbish truck is about to come. Listen, its music is playing."}
+  - {n: 2, speaker: Sam, hanji: "臺灣的糞埽車攏會唱歌，袂輸咧開音樂會。", tailo: "Tâi-uân ê pùn-sò-tshia lóng ē tshiùnn-kua, bē-su teh khui im-ga̍k-huē.", en: "Taiwan's rubbish trucks all sing; it's like a concert."}
+  - {n: 3, speaker: A-má, hanji: "糞埽愛分類：紙、塑膠、罐仔、玻璃，攏愛回收。", tailo: "Pùn-sò ài hun-luī: tsuá, sok-ka, kuàn-á, po-lê, lóng ài huê-siu.", en: "Rubbish has to be sorted: paper, plastic, cans, glass, all for recycling."}
+  - {n: 4, speaker: Sam, hanji: "毋但愛分類，閣愛洗清氣，有夠麻煩。", tailo: "M̄-nā ài hun-luī, koh ài sé tshing-khì, ū-kàu mâ-huân.", en: "Not only do you have to sort it, you have to wash it too. Such a hassle."}
+  - {n: 5, speaker: A-má, hanji: "若是無洗清氣，回收的人嘛袂收。", tailo: "Nā-sī bô sé tshing-khì, huê-siu ê lâng mā bē siu.", en: "If it isn't clean, the recycling people won't take it."}
+  - {n: 6, speaker: Sam, hanji: "我知影。因為臺灣人口濟、土地細，所以資源愛節約。", tailo: "Guá tsai-iánn. In-uī Tâi-uân jîn-kháu tsē, thóo-tē sè, sóo-í tsu-guân ài tsiat-iok.", en: "I know. Because Taiwan has many people and little land, resources have to be used sparingly."}
+  - {n: 7, speaker: A-kong, hanji: "較早連塑膠袋仔嘛無，買菜攏用籃仔。", tailo: "Khah-tsá liân sok-ka-tē-á mā bô, bé tshài lóng iōng nâ-á.", en: "In the old days there weren't even plastic bags; we used baskets to buy vegetables."}
+  - {n: 8, speaker: Sam, hanji: "這馬塑膠的物件規四界，海內底的魚仔定定予塑膠害死。", tailo: "Tsit-má sok-ka ê mi̍h-kiānn kui-sì-kè, hái lāi-té ê hî-á tiānn-tiānn hōo sok-ka hāi-sí.", en: "Now there's plastic everywhere, and fish in the sea are often killed by it."}
+  - {n: 9, speaker: A-kong, hanji: "所以我出門攏紮家己的袋仔佮杯仔。雖然較麻煩，毋過會使減少糞埽。", tailo: "Sóo-í guá tshut-mn̂g lóng tsah ka-kī ê tē-á kah pue-á. Sui-jiân khah mâ-huân, m̄-koh ē-sái kiám-tsió pùn-sò.", en: "That's why I always take my own bag and cup when I go out. It's more trouble, but it means less rubbish."}
+  - {n: 10, speaker: A-má, hanji: "閣有，冷氣莫開規工，電火無人用就愛關。浪費電上蓋無彩。", tailo: "Koh ū, líng-khì mài khui kui-kang, tiān-hué bô lâng iōng tō ài kuainn. Lōng-huì tiān siōng-kài bô-tshái.", en: "And don't run the air conditioning all day; turn off lights nobody's using. Wasting electricity is the worst waste of all."}
+  - {n: 11, speaker: Sam, hanji: "毋管是電抑是水，攏愛節約，地球才會較健康。", tailo: "M̄-kuán sī tiān ia̍h-sī tsuí, lóng ài tsiat-iok, tē-kiû tsiah ē khah kiān-khong.", en: "Whether it's electricity or water, we have to save it; only then will the planet be healthier."}
+  - {n: 12, speaker: A-kong, hanji: "你講甲袂輸老師咧。", tailo: "Lí kóng kah bē-su lāu-su--leh.", en: "You sound just like a teacher."}
+  - {n: 13, speaker: Sam, hanji: "是電視講的啦！", tailo: "Sī tiān-sī kóng--ê--lah!", en: "I got it from the TV!"}
+  - {n: 14, speaker: A-má, hanji: "（糞埽車到位）緊！糞埽車咧欲走矣！", tailo: "(Pùn-sò-tshia kàu-uī) Kín! Pùn-sò-tshia teh-beh tsáu--ah!", en: "(The truck arrives) Quick! It's about to leave!"}
+  - {n: 15, speaker: Sam, hanji: "（走去）等一下！猶有一袋回收的！", tailo: "(Tsáu--khì) Tán--tsi̍t-ē! Iáu ū tsi̍t tē huê-siu--ê!", en: "(Running off) Wait! There's one more bag of recycling!"}
+  - {n: 16, speaker: A-kong, hanji: "伊走甲比糞埽車閣較緊。", tailo: "I tsáu kah pí pùn-sò-tshia koh-khah kín.", en: "He's running faster than the truck."}
+  - {n: 17, speaker: Sam, hanji: "（轉來）好佳哉，有赴。保護環境，嘛愛𠢕走才會使。", tailo: "(Tńg--lâi) Hó-ka-tsài, ū hù. Pó-hōo khuân-kíng, mā ài gâu tsáu tsiah ē-sái.", en: "(Coming back) Phew, I made it. Protecting the environment takes fast legs too."}
+  - {n: 18, speaker: A-má, hanji: "愛護地球，對倒糞埽開始。", tailo: "Ài-hōo tē-kiû, tuì tò pùn-sò khai-sí.", en: "Caring for the planet starts with taking out the rubbish."}
+notes:
+  - {ref: 1, topic: culture, text: "Rubbish trucks in Taiwan play a tune (often Beethoven's Für Elise) as they come; people wait in the street and throw their bags in themselves. 糞埽車 pùn-sò-tshia = rubbish truck. 咧欲 teh-beh = about to (lesson 64). 音樂 im-ga̍k = music; 響 hiáng = sound, ring."}
+  - {ref: 2, topic: grammar, text: "This lesson recycles the course's harder structures. 袂輸 bē-su = just like (line 2, line 12)."}
+  - {ref: 3, topic: vocab, text: "分類 hun-luī = sort, classify. 塑膠 sok-ka = plastic. 玻璃 po-lê = glass. 回收 huê-siu = recycle."}
+  - {ref: 4, topic: grammar, text: "毋但 X，閣 Y = not only X, also Y (lesson 51). 有夠 + adjective = really (lesson 38). 麻煩 mâ-huân = troublesome, a hassle."}
+  - {ref: 5, topic: grammar, text: "若是 nā-sī = if (lesson 75)."}
+  - {ref: 6, topic: grammar, text: "因為 X，所以 Y = because X, so Y. 人口 jîn-kháu = population. 資源 tsu-guân = resources. 節約 tsiat-iok = economise, use sparingly."}
+  - {ref: 7, topic: grammar, text: "連 X 嘛 V = not even X (lesson 64). 塑膠袋仔 sok-ka-tē-á = plastic bag. 籃仔 nâ-á = basket."}
+  - {ref: 8, topic: grammar, text: "予 hōo + agent + V = passive (lesson 65): 予塑膠害死 'killed by plastic'. 規四界 kui-sì-kè = all over the place (四界, lesson 53)."}
+  - {ref: 9, topic: grammar, text: "雖然 X，毋過 Y = although X, Y (lesson 67). 減少 kiám-tsió = reduce."}
+  - {ref: 10, topic: grammar, text: "上蓋 siōng-kài = the most (lesson 76). 浪費 lōng-huì = waste. 無彩 bô-tshái = a waste, a pity (lesson 46)."}
+  - {ref: 11, topic: grammar, text: "毋管 X，攏 Y = no matter X (lesson 52). 地球 tē-kiû = the earth, the planet."}
+  - {ref: 17, topic: vocab, text: "赴 hù = be in time (for), make it. 𠢕 gâu = good at, quick at: 𠢕走 'quick on one's feet'. 保護 pó-hōo = protect. 環境 khuân-kíng = environment (lesson 71)."}
+  - {ref: 18, topic: vocab, text: "愛護 ài-hōo = care for, cherish. 倒糞埽 tò pùn-sò = take out the rubbish."}
+new_words:
+  - {tailo: pùn-sò-tshia, hanji: 糞埽車, en: "rubbish truck"}
+  - {tailo: im-ga̍k, hanji: 音樂, en: "music"}
+  - {tailo: hun-luī, hanji: 分類, en: "sort, classify"}
+  - {tailo: sok-ka, hanji: 塑膠, en: "plastic"}
+  - {tailo: po-lê, hanji: 玻璃, en: "glass"}
+  - {tailo: huê-siu, hanji: 回收, en: "recycle"}
+  - {tailo: mâ-huân, hanji: 麻煩, en: "troublesome"}
+  - {tailo: jîn-kháu, hanji: 人口, en: "population"}
+  - {tailo: tsu-guân, hanji: 資源, en: "resources"}
+  - {tailo: tsiat-iok, hanji: 節約, en: "economise"}
+  - {tailo: kiám-tsió, hanji: 減少, en: "reduce"}
+  - {tailo: lōng-huì, hanji: 浪費, en: "waste"}
+  - {tailo: tē-kiû, hanji: 地球, en: "the earth, the planet"}
+  - {tailo: hù, hanji: 赴, en: "be in time"}
+  - {tailo: gâu, hanji: 𠢕, en: "good at, quick at"}
+  - {tailo: pó-hōo, hanji: 保護, en: "protect"}
+exercises:
+  translate:
+    - {tailo: "Pùn-sò ài hun-luī, lóng ài huê-siu.", hanji: "糞埽愛分類，攏愛回收。", en: "Rubbish has to be sorted, all for recycling."}
+    - {tailo: "Hái lāi-té ê hî-á tiānn-tiānn hōo sok-ka hāi-sí.", hanji: "海內底的魚仔定定予塑膠害死。", en: "Fish in the sea are often killed by plastic."}
+    - {tailo: "Sui-jiân khah mâ-huân, m̄-koh ē-sái kiám-tsió pùn-sò.", hanji: "雖然較麻煩，毋過會使減少糞埽。", en: "It's more trouble, but it means less rubbish."}
+  fill:
+    - {tailo: "Pùn-sò-tshia ___ lâi--ah.", hanji: "糞埽車___來矣。", answer: "teh-beh", answer_hanji: "咧欲", en: "The rubbish truck is about to come."}
+    - {tailo: "Khah-tsá ___ sok-ka-tē-á mā bô.", hanji: "較早___塑膠袋仔嘛無。", answer: "liân", answer_hanji: "連", en: "In the old days there weren't even plastic bags."}
+audio: []

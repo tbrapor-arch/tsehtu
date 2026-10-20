@@ -1,0 +1,58 @@
+id: 90
+title: {en: "Saying goodbye", tailo: "Sio-sàng", hanji: "相送"}
+review: false
+setting: "Tainan high-speed rail station. Sam's stay is over and he is going back to Taipei. A-má, A-kong and A-bîng have come to see him off."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "時間過了真緊，你來遮，一下仔就幾若個月矣。", tailo: "Sî-kan kuè liáu tsin kín, lí lâi tsia, tsi̍t-ē-á tō kuí-nā kò gue̍h--ah.", en: "Time flies. You came here, and suddenly it's been several months."}
+  - {n: 2, speaker: Sam, hanji: "本底講蹛幾禮拜爾爾，煞蹛甲毋甘走。", tailo: "Pún-té kóng tuà kuí lé-pài niā-niā, suah tuà kah m̄-kam tsáu.", en: "I was only supposed to stay a few weeks, and now I can't bear to leave."}
+  - {n: 3, speaker: A-kong, hanji: "臺北的頭路敢已經講好矣？", tailo: "Tâi-pak ê thâu-lōo kám í-king kóng hó--ah?", en: "Is your job in Taipei all settled?"}
+  - {n: 4, speaker: Sam, hanji: "講好矣，後禮拜開始上班。臺北的厝嘛猶咧等我。", tailo: "Kóng hó--ah, āu lé-pài khai-sí siōng-pan. Tâi-pak ê tshù mā iáu teh tán--guá.", en: "Yes, I start next week. And my flat in Taipei is still waiting for me."}
+  - {n: 5, speaker: A-má, hanji: "這是阿媽家己做的菜脯，紮去臺北食。", tailo: "Tse sī a-má ka-kī tsò ê tshài-póo, tsah khì Tâi-pak tsia̍h.", en: "Here's some dried radish I made myself. Take it to Taipei."}
+  - {n: 6, speaker: Sam, hanji: "多謝阿媽。我會逐工配飯食，予家己會記得臺南的味。", tailo: "To-siā a-má. Guá ē ta̍k-kang phuè pn̄g tsia̍h, hōo ka-kī ē-kì--tit Tâi-lâm ê bī.", en: "Thank you, A-má. I'll have it with rice every day so I remember the taste of Tainan."}
+  - {n: 7, speaker: A-bîng, hanji: "這張相片予你做紀念，是咱迎媽祖彼工翕的。", tailo: "Tsit tiunn siòng-phìnn hōo lí tsò kì-liām, sī lán ngiâ Má-tsóo hit kang hip--ê.", en: "Here's a photo to remember us by. It was taken on the day of the Mazu procession."}
+  - {n: 8, speaker: Sam, hanji: "我會囥佇桌頂，逐工看。", tailo: "Guá ē khǹg tī toh tíng, ta̍k-kang khuànn.", en: "I'll put it on my desk and look at it every day."}
+  - {n: 9, speaker: A-kong, hanji: "你的台語進步真濟。拄來的時，連「多謝」都講袂好勢。", tailo: "Lí ê Tâi-gí tsìn-pōo tsin tsē. Tú lâi ê sî, liân “to-siā” to kóng bē hó-sè.", en: "Your Taigi has come on a lot. When you first came, you couldn't even say 'thank you' properly."}
+  - {n: 10, speaker: Sam, hanji: "攏是恁教我的。可惜時間傷短，猶有真濟物件未學。", tailo: "Lóng sī lín kà--guá--ê. Khó-sioh sî-kan siunn té, iáu ū tsin tsē mi̍h-kiānn buē o̍h.", en: "It's all thanks to you. It's a pity the time was so short; there's still so much I haven't learned."}
+  - {n: 11, speaker: A-má, hanji: "學語言是一世人的代誌，慢慢仔來。轉去臺北，嘛愛繼續講台語。", tailo: "O̍h gí-giân sī tsi̍t-sì-lâng ê tāi-tsì, bān-bān-á lâi. Tńg-khì Tâi-pak, mā ài kè-sio̍k kóng Tâi-gí.", en: "Learning a language takes a lifetime; take it slowly. When you're back in Taipei, keep speaking Taigi."}
+  - {n: 12, speaker: Sam, hanji: "我會。阮公司有一个同事會曉台語，我欲逐工佮伊講。", tailo: "Guá ē. Guán kong-si ū tsi̍t ê tông-sū ē-hiáu Tâi-gí, guá beh ta̍k-kang kah i kóng.", en: "I will. There's a colleague at my company who speaks Taigi; I'll talk with her every day."}
+  - {n: 13, speaker: Announcement, hanji: "往臺北的高鐵咧欲入站，請旅客準備上車。", tailo: "Óng Tâi-pak ê ko-thih teh-beh ji̍p-tsām, tshiánn lí-kheh tsún-pī tsiūnn-tshia.", en: "The high-speed train to Taipei is now arriving. Passengers, please get ready to board."}
+  - {n: 14, speaker: A-bîng, hanji: "車到矣。一路順風，到位敲電話來報平安。", tailo: "Tshia kàu--ah. Tsi̍t-lōo sūn-hong, kàu-uī khà tiān-uē lâi pò pîng-an.", en: "Here's the train. Have a good journey, and phone to let us know you've arrived safely."}
+  - {n: 15, speaker: A-má, hanji: "保重身體，莫閣規暝無睏。有閒就轉來看阿媽。", tailo: "Pó-tiōng sin-thé, mài koh kui-mê bô khùn. Ū-îng tō tńg--lâi khuànn a-má.", en: "Look after yourself, and no more nights without sleep. Come back and see me when you're free."}
+  - {n: 16, speaker: Sam, hanji: "我一定會轉來。後擺過年，我轉來佮恁圍爐。", tailo: "Guá it-tīng ē tńg--lâi. Āu-pái kuè-nî, guá tńg--lâi kah lín uî-lôo.", en: "I'll definitely come back. Next New Year, I'll come back for the family dinner with you."}
+  - {n: 17, speaker: A-kong, hanji: "好，阮等你。去啦，莫予車走去。", tailo: "Hó, guán tán--lí. Khì--lah, mài hōo tshia tsáu--khì.", en: "Good, we'll be waiting. Off you go, don't miss the train."}
+  - {n: 18, speaker: Sam, hanji: "（擛手）再會！阿公、阿媽、阿明，多謝恁！", tailo: "(Ia̍t-tshiú) Tsài-huē! A-kong, a-má, A-bîng, to-siā lín!", en: "(Waving) Goodbye! A-kong, A-má, A-bîng, thank you all!"}
+notes:
+  - {ref: 1, topic: vocab, text: "一下仔 tsi̍t-ē-á = in no time, suddenly. 幾若個月 kuí-nā kò gue̍h = several months (幾若, lesson 65)."}
+  - {ref: 2, topic: vocab, text: "本底 pún-té = originally, at first (本來). 爾爾 niā-niā = only (lesson 1). 毋甘 m̄-kam = can't bear to (lesson 40): 毋甘走 'can't bear to leave'."}
+  - {ref: 5, topic: vocab, text: "菜脯 tshài-póo = dried, salted radish, the taste of home for many Taiwanese."}
+  - {ref: 7, topic: vocab, text: "相片 siòng-phìnn = photo. 紀念 kì-liām = keepsake, souvenir; 做紀念 'as a keepsake'."}
+  - {ref: 9, topic: vocab, text: "進步 tsìn-pōo = improve, progress (lesson 14). 拄來的時 'when you had just arrived' (拄 tú 'just', lesson 32)."}
+  - {ref: 10, topic: vocab, text: "可惜 khó-sioh = it's a pity (lesson 64). 短 té = short."}
+  - {ref: 13, topic: grammar, text: "Announcement register: 往 óng = bound for; 入站 ji̍p-tsām = enter the station; 旅客 lí-kheh = passengers; 上車 tsiūnn-tshia = board. 咧欲 teh-beh = about to (lesson 64)."}
+  - {ref: 14, topic: culture, text: "報平安 pò pîng-an = let someone know you've arrived safely: a call everyone expects after a journey. 一路順風 tsi̍t-lōo sūn-hong = have a good journey."}
+  - {ref: 15, topic: vocab, text: "保重 pó-tiōng = take care (of yourself), the usual parting word for a longer absence."}
+  - {ref: 16, topic: vocab, text: "後擺 āu-pái = next time (also 下擺 ē-pái). 圍爐 uî-lôo = the New Year's Eve family dinner (lesson 23)."}
+  - {ref: 18, topic: vocab, text: "擛手 ia̍t-tshiú = wave (the hand). 再會 tsài-huē = goodbye."}
+new_words:
+  - {tailo: pún-té, hanji: 本底, en: "originally"}
+  - {tailo: tshài-póo, hanji: 菜脯, en: "dried radish"}
+  - {tailo: siòng-phìnn, hanji: 相片, en: "photo"}
+  - {tailo: kì-liām, hanji: 紀念, en: "keepsake"}
+  - {tailo: té, hanji: 短, en: "short"}
+  - {tailo: óng, hanji: 往, en: "bound for"}
+  - {tailo: lí-kheh, hanji: 旅客, en: "passenger, traveller"}
+  - {tailo: tsiūnn-tshia, hanji: 上車, en: "get on (a vehicle)"}
+  - {tailo: pó-tiōng, hanji: 保重, en: "take care"}
+  - {tailo: āu-pái, hanji: 後擺, en: "next time"}
+  - {tailo: ia̍t-tshiú, hanji: 擛手, en: "wave"}
+  - {tailo: pîng-an, hanji: 平安, en: "safe and sound"}
+  - {tailo: hó-sè, hanji: 好勢, en: "properly, in order"}
+exercises:
+  translate:
+    - {tailo: "Pún-té kóng tuà kuí lé-pài niā-niā, suah tuà kah m̄-kam tsáu.", hanji: "本底講蹛幾禮拜爾爾，煞蹛甲毋甘走。", en: "I was only supposed to stay a few weeks, and now I can't bear to leave."}
+    - {tailo: "O̍h gí-giân sī tsi̍t-sì-lâng ê tāi-tsì.", hanji: "學語言是一世人的代誌。", en: "Learning a language takes a lifetime."}
+    - {tailo: "Āu-pái kuè-nî, guá tńg--lâi kah lín uî-lôo.", hanji: "後擺過年，我轉來佮恁圍爐。", en: "Next New Year, I'll come back for the family dinner with you."}
+  fill:
+    - {tailo: "___ sin-thé, mài koh kui-mê bô khùn.", hanji: "___身體，莫閣規暝無睏。", answer: "Pó-tiōng", answer_hanji: "保重", en: "Look after yourself, and no more nights without sleep."}
+    - {tailo: "Tsit tiunn siòng-phìnn hōo lí tsò ___.", hanji: "這張相片予你做___。", answer: "kì-liām", answer_hanji: "紀念", en: "Here's a photo to remember us by."}
+audio: []

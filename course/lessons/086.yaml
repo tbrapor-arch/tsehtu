@@ -1,0 +1,63 @@
+id: 86
+title: {en: "A love story", tailo: "Ì-ài ê kòo-sū", hanji: "意愛的故事"}
+review: false
+setting: "An evening on the veranda. Sam asks A-má how she and A-kong met, sixty years ago."
+dialogue:
+  - {n: 1, speaker: Sam, hanji: "阿媽，你佮阿公是按怎熟似的？", tailo: "A-má, lí kah a-kong sī án-tsuánn si̍k-sāi--ê?", en: "A-má, how did you and A-kong meet?"}
+  - {n: 2, speaker: A-má, hanji: "彼時陣毋是自由戀愛，是媒人來阮兜講親情。", tailo: "Hit sî-tsūn m̄ sī tsū-iû luân-ài, sī muê-lâng lâi guán tau kóng tshin-tsiânn.", en: "In those days people didn't marry for love; a matchmaker came to our house to propose a match."}
+  - {n: 3, speaker: Sam, hanji: "按呢恁結婚進前攏毋捌見過面？", tailo: "Án-ne lín kiat-hun tsìn-tsîng lóng m̄-bat kìnn-kuè bīn?", en: "So you'd never met before you married?"}
+  - {n: 4, speaker: A-má, hanji: "見過一擺。伊來阮兜提親，我佇灶跤偷看，伊穿一領白衫，戇戇坐佇遐。", tailo: "Kìnn-kuè tsi̍t pái. I lâi guán tau thê-tshin, guá tī tsàu-kha thau khuànn, i tshīng tsi̍t niá pe̍h sann, gōng-gōng tsē tī hia.", en: "Once. He came to our house to ask for my hand. I peeked from the kitchen: he was wearing a white shirt, sitting there looking awkward."}
+  - {n: 5, speaker: A-kong, hanji: "我毋是戇，是緊張。媒人講你是庄內上媠的姑娘。", tailo: "Guá m̄ sī gōng, sī kín-tiunn. Muê-lâng kóng lí sī tsng-lāi siōng suí ê koo-niû.", en: "I wasn't awkward, I was nervous. The matchmaker said you were the prettiest girl in the village."}
+  - {n: 6, speaker: A-má, hanji: "媒人喙，糊瘰瘰。", tailo: "Muê-lâng-tshuì, hôo-luì-luì.", en: "A matchmaker will make anything sound wonderful.", source: moe}
+  - {n: 7, speaker: A-kong, hanji: "毋過我無看毋著人啊。彼工了後，我心內就意愛你矣。", tailo: "M̄-koh guá bô khuànn m̄-tio̍h lâng--ah. Hit kang liáu-āu, guá sim-lāi tō ì-ài--lí--ah.", en: "But I wasn't wrong about you. From that day on, I was in love with you."}
+  - {n: 8, speaker: Sam, hanji: "阿公真浪漫！結婚了後咧？", tailo: "A-kong tsin lōng-bān! Kiat-hun liáu-āu--leh?", en: "A-kong, how romantic! And after the wedding?"}
+  - {n: 9, speaker: A-má, hanji: "結婚第二年，伊去臺北食頭路，我佇庄跤顧囡仔。一年見無幾擺面。", tailo: "Kiat-hun tē-jī nî, i khì Tâi-pak tsia̍h thâu-lōo, guá tī tsng-kha kòo gín-á. Tsi̍t nî kìnn bô kuí pái bīn.", en: "The second year after we married, he went to work in Taipei and I looked after the children in the countryside. We hardly saw each other all year."}
+  - {n: 10, speaker: A-kong, hanji: "彼幾年，我逐禮拜寫一張批轉來。寫甲規本冊遐厚。", tailo: "Hit kuí nî, guá ta̍k lé-pài siá tsi̍t tiunn phue tńg--lâi. Siá kah kui pún tsheh hiah kāu.", en: "Those years, I wrote a letter home every week. They'd make a pile as thick as a book."}
+  - {n: 11, speaker: A-má, hanji: "批內底攏寫「相思」、「數念」，予人看著會見笑。", tailo: "Phue lāi-té lóng siá “siunn-si”, “siàu-liām”, hōo lâng khuànn--tio̍h ē kiàn-siàu.", en: "The letters were full of 'longing' and 'missing you'. I'd have been embarrassed if anyone had read them."}
+  - {n: 12, speaker: Sam, hanji: "遐的批猶佇咧無？", tailo: "Hiah ê phue iáu tī--leh--bô?", en: "Do you still have those letters?"}
+  - {n: 13, speaker: A-má, hanji: "佇咧，我攏囥佇櫥仔內底的箱仔，一張都無擲掉。", tailo: "Tī--leh, guá lóng khǹg tī tû-á lāi-té ê siunn-á, tsi̍t tiunn to bô tàn-tiāu.", en: "Yes, I've kept them all in a box in the cupboard. I haven't thrown away a single one."}
+  - {n: 14, speaker: A-kong, hanji: "你看，伊喙講見笑，其實上蓋寶惜。", tailo: "Lí khuànn, i tshuì kóng kiàn-siàu, kî-si̍t siōng-kài pó-sioh.", en: "You see: she says she's embarrassed, but really she treasures them more than anything."}
+  - {n: 15, speaker: Sam, hanji: "恁兩个做夫妻六十冬，敢捌冤家？", tailo: "Lín nn̄g ê tsò hu-tshe la̍k-tsa̍p tang, kám bat uan-ke?", en: "You've been married sixty years. Have you ever quarrelled?"}
+  - {n: 16, speaker: A-má, hanji: "哪有可能無！毋過冤家了後，第二工猶是共伊煮早頓。", tailo: "Ná ū khó-lîng bô! M̄-koh uan-ke liáu-āu, tē-jī kang iáu-sī kā i tsú tsá-tǹg.", en: "Of course we have! But after a quarrel, I'd still make him breakfast the next day."}
+  - {n: 17, speaker: A-kong, hanji: "這就是緣份。毋是逐對夫妻攏有這款福氣。", tailo: "Tse tō sī iân-hūn. M̄ sī ta̍k tuì hu-tshe lóng ū tsit khuán hok-khì.", en: "That's fate. Not every couple is so lucky."}
+  - {n: 18, speaker: Sam, hanji: "聽恁講，我嘛想欲揣一个人，鬥陣行一世人。", tailo: "Thiann lín kóng, guá mā siūnn-beh tshuē tsi̍t ê lâng, tàu-tīn kiânn tsi̍t-sì-lâng.", en: "Listening to you, I'd like to find someone to go through life with too."}
+notes:
+  - {ref: 2, topic: culture, text: "媒人 muê-lâng = matchmaker; 講親情 kóng tshin-tsiânn = arrange a match (親情 'relatives; a marriage', lesson 55). 自由戀愛 tsū-iû luân-ài = marrying for love, the phrase for the change from arranged marriages in the 1950s–60s. 戀愛 luân-ài = romantic love (written register)."}
+  - {ref: 3, topic: vocab, text: "見面 kìnn-bīn = meet (in person); 見過面 'have met'. 見 kìnn = see, meet."}
+  - {ref: 4, topic: vocab, text: "提親 thê-tshin = formally propose marriage (to the girl's family). 領 niá = classifier for clothes (lesson 15)."}
+  - {ref: 5, topic: vocab, text: "緊張 kín-tiunn = nervous. 姑娘 koo-niû = young woman, girl (a literary or old-fashioned word)."}
+  - {ref: 6, topic: culture, text: "媒人喙，糊瘰瘰 'a matchmaker's mouth runs away with itself': a saying, quoted from the MOE dictionary. 糊瘰瘰 hôo-luì-luì = exaggerated, making things sound far better than they are (天花亂墜)."}
+  - {ref: 7, topic: vocab, text: "意愛 ì-ài = love, be in love with (formal and a little literary; 佮意 kah-ì, lesson 26, is 'like, fancy'). 看毋著人 'misjudge someone'."}
+  - {ref: 8, topic: vocab, text: "浪漫 lōng-bān = romantic."}
+  - {ref: 10, topic: vocab, text: "厚 kāu = thick (of a book, a coat); also 'a lot of'. Its tone pair 猴 kâu / 九 káu / 到 kàu returns in lesson 87."}
+  - {ref: 11, topic: vocab, text: "相思 siunn-si = longing, lovesickness: a song and letter word. 見笑 kiàn-siàu = embarrassed (lesson 48)."}
+  - {ref: 13, topic: vocab, text: "擲掉 tàn-tiāu = throw away (lesson 67's 挕掉 hìnn-tiāu is the same)."}
+  - {ref: 14, topic: vocab, text: "寶惜 pó-sioh = treasure, cherish. 其實 kî-si̍t = actually (lesson 41)."}
+  - {ref: 15, topic: vocab, text: "夫妻 hu-tshe = husband and wife (more formal than 翁某 ang-bóo)."}
+  - {ref: 17, topic: vocab, text: "緣份 iân-hūn = fate, the bond that brings two people together."}
+  - {ref: 18, topic: grammar, text: "一世人 tsi̍t-sì-lâng = a whole lifetime (compare 這世人, lesson 69). 鬥陣行 'walk together', i.e. share a life."}
+new_words:
+  - {tailo: luân-ài, hanji: 戀愛, en: "romantic love"}
+  - {tailo: muê-lâng, hanji: 媒人, en: "matchmaker"}
+  - {tailo: kìnn, hanji: 見, en: "see, meet"}
+  - {tailo: thê-tshin, hanji: 提親, en: "propose marriage"}
+  - {tailo: kín-tiunn, hanji: 緊張, en: "nervous"}
+  - {tailo: koo-niû, hanji: 姑娘, en: "young woman"}
+  - {tailo: ì-ài, hanji: 意愛, en: "love, be in love with"}
+  - {tailo: lōng-bān, hanji: 浪漫, en: "romantic"}
+  - {tailo: kāu, hanji: 厚, en: "thick; a lot of"}
+  - {tailo: siunn-si, hanji: 相思, en: "longing, lovesickness"}
+  - {tailo: tàn-tiāu, hanji: 擲掉, en: "throw away"}
+  - {tailo: pó-sioh, hanji: 寶惜, en: "treasure, cherish"}
+  - {tailo: hu-tshe, hanji: 夫妻, en: "husband and wife"}
+  - {tailo: iân-hūn, hanji: 緣份, en: "fate (in love)"}
+  - {tailo: tsi̍t-sì-lâng, hanji: 一世人, en: "a whole lifetime"}
+exercises:
+  translate:
+    - {tailo: "Hit sî-tsūn m̄ sī tsū-iû luân-ài.", hanji: "彼時陣毋是自由戀愛。", en: "In those days people didn't marry for love."}
+    - {tailo: "Hit kang liáu-āu, guá sim-lāi tō ì-ài--lí--ah.", hanji: "彼工了後，我心內就意愛你矣。", en: "From that day on, I was in love with you."}
+    - {tailo: "Tse tō sī iân-hūn.", hanji: "這就是緣份。", en: "That's fate."}
+  fill:
+    - {tailo: "Guá m̄ sī gōng, sī ___.", hanji: "我毋是戇，是___。", answer: "kín-tiunn", answer_hanji: "緊張", en: "I wasn't awkward, I was nervous."}
+    - {tailo: "Lín nn̄g ê tsò ___ la̍k-tsa̍p tang.", hanji: "恁兩个做___六十冬。", answer: "hu-tshe", answer_hanji: "夫妻", en: "You've been married sixty years."}
+audio: []

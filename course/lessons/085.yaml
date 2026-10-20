@@ -1,0 +1,61 @@
+id: 85
+title: {en: "News headlines", tailo: "Sin-bûn pò-tō", hanji: "新聞報導"}
+review: false
+setting: "Breakfast at A-má's. A-kong has the Taigi news channel on, and Sam tries to follow the headlines. The news items are invented."
+dialogue:
+  - {n: 1, speaker: Presenter, hanji: "逐家早安，歡迎收看早起的新聞。先來看今仔日的頭一條消息。", tailo: "Ta̍k-ke tsá-an, huan-gîng siu-khuànn tsá-khí ê sin-bûn. Sing lâi khuànn kin-á-ji̍t ê thâu tsi̍t tiâu siau-sit.", en: "Good morning, everyone, and welcome to the morning news. First, today's top story."}
+  - {n: 2, speaker: Presenter, hanji: "氣象局指出，這禮拜全國攏是高溫，南部地區上懸會到三十六度。", tailo: "Khì-siōng-kio̍k tsí-tshut, tsit lé-pài tsuân-kok lóng sī ko-un, lâm-pōo tē-khu siōng kuân ē kàu sann-tsa̍p-la̍k tōo.", en: "The weather bureau says the whole country will be hot this week, with highs of 36 degrees in the south."}
+  - {n: 3, speaker: Sam, hanji: "阿公，主播講話佮咱厝內講的無啥仝款。", tailo: "A-kong, tsú-pòo kóng-uē kah lán tshù-lāi kóng--ê bô siánn kāng-khuán.", en: "A-kong, the presenter doesn't talk quite the way we do at home."}
+  - {n: 4, speaker: A-kong, hanji: "新聞用較濟文言的詞，親像「指出」、「目前」、「民眾」。日常講話較少用。", tailo: "Sin-bûn iōng khah tsē bûn-giân ê sû, tshin-tshiūnn “tsí-tshut”, “bo̍k-tsiân”, “bîn-tsiòng”. Ji̍t-siông kóng-uē khah tsió iōng.", en: "The news uses more literary words, like 'tsí-tshut' (point out), 'bo̍k-tsiân' (at present), 'bîn-tsiòng' (the public). We use them less in everyday talk."}
+  - {n: 5, speaker: Presenter, hanji: "紲落來是交通消息。昨暗國道發生車禍，目前有兩人著傷，已經送去病院。", tailo: "Suà--lo̍h-lâi sī kau-thong siau-sit. Tsa-àm kok-tō huat-sing tshia-hō, bo̍k-tsiân ū nn̄g lâng tio̍h-siong, í-king sàng khì pēnn-īnn.", en: "Next, the traffic news. Last night there was a crash on the motorway; two people were injured and have been taken to hospital."}
+  - {n: 6, speaker: Sam, hanji: "「發生車禍」，這我聽有。", tailo: "“Huat-sing tshia-hō”, tse guá thiann ū.", en: "'There was a crash': that I understood."}
+  - {n: 7, speaker: Presenter, hanji: "警察當咧調查事故的原因，嘛請民眾駛車愛斟酌。", tailo: "Kíng-tshat tng teh tiâu-tsa sū-kòo ê guân-in, mā tshiánn bîn-tsiòng sái-tshia ài tsim-tsiok.", en: "Police are investigating the cause of the accident, and they ask the public to drive carefully."}
+  - {n: 8, speaker: A-kong, hanji: "「當咧」就是「拄咧」，新聞較愛用「當咧」。", tailo: "“Tng teh” tō sī “tú teh”, sin-bûn khah ài iōng “tng teh”.", en: "'Tng teh' means the same as 'tú teh' (in the middle of); the news prefers 'tng teh'."}
+  - {n: 9, speaker: Presenter, hanji: "經濟方面，因為油價起，目前真濟物件攏咧起價，其中以菜價上明顯。", tailo: "King-tsè hong-bīn, in-uī iû-kè khí, bo̍k-tsiân tsin tsē mi̍h-kiānn lóng teh khí-kè, kî-tiong í tshài-kè siōng bîng-hián.", en: "On the economy: because oil prices are up, many prices are rising, most clearly those of vegetables."}
+  - {n: 10, speaker: A-má, hanji: "這我毋免聽新聞嘛知，菜市仔的菜一工比一工貴。", tailo: "Tse guá m̄-bián thiann sin-bûn mā tsai, tshài-tshī-á ê tshài tsi̍t kang pí tsi̍t kang kuì.", en: "I don't need the news to tell me that: vegetables at the market get dearer by the day."}
+  - {n: 11, speaker: Presenter, hanji: "國際新聞，日本今年的奧運選手訓練，研究單位講，訓練的方式有改變。", tailo: "Kok-tsè sin-bûn, Ji̍t-pún kin-nî ê Ò-ūn suán-tshiú hùn-liān, gián-kiù tan-uī kóng, hùn-liān ê hong-sik ū kái-piàn.", en: "International news: researchers say Japan's Olympic athletes are training in a new way this year."}
+  - {n: 12, speaker: Sam, hanji: "這句傷長，我干焦聽著「奧運」佮「研究」。", tailo: "Tsit kù siunn tn̂g, guá kan-na thiann-tio̍h “Ò-ūn” kah “gián-kiù”.", en: "That sentence was too long; I only caught 'Olympics' and 'research'."}
+  - {n: 13, speaker: A-kong, hanji: "無要緊，聽新聞先掠重點：啥人、佗位、發生啥物代誌。", tailo: "Bô-iàu-kín, thiann sin-bûn sing lia̍h tiōng-tiám: siánn-lâng, tó-uī, huat-sing siánn-mih tāi-tsì.", en: "Never mind. When you listen to the news, grab the key points first: who, where, and what happened."}
+  - {n: 14, speaker: Presenter, hanji: "上尾是地方消息。臺南市長宣佈，下個月的文化節，所有的活動攏免錢，而且有台語導覽。", tailo: "Siōng bué sī tē-hng siau-sit. Tâi-lâm tshī-tiúnn suan-pòo, ē kò gue̍h ê bûn-huà-tseh, sóo-iú ê ua̍h-tāng lóng bián-tsînn, jî-tshiánn ū Tâi-gí tō-lám.", en: "Finally, local news. Tainan's mayor has announced that all events at next month's culture festival will be free, and there will be guided tours in Taigi."}
+  - {n: 15, speaker: Sam, hanji: "這條我攏聽有！免錢，閣有台語導覽。", tailo: "Tsit tiâu guá lóng thiann ū! Bián-tsînn, koh ū Tâi-gí tō-lám.", en: "I understood that one completely! Free, and with Taigi tours."}
+  - {n: 16, speaker: A-kong, hanji: "你看，聽有興趣的消息，就會較好記。", tailo: "Lí khuànn, thiann ū hìng-tshù ê siau-sit, tō ē khah hó kì.", en: "You see: news you're interested in is easier to remember."}
+  - {n: 17, speaker: A-má, hanji: "記者講甲遐緊，我嘛毋是逐句攏聽有。", tailo: "Kì-tsiá kóng kah hiah kín, guá mā m̄ sī ta̍k kù lóng thiann ū.", en: "The reporters talk so fast that even I don't catch every sentence."}
+  - {n: 18, speaker: Presenter, hanji: "以上是今仔日早起的新聞，感謝逐家收看，咱明仔載再會。", tailo: "Í-siōng sī kin-á-ji̍t tsá-khí ê sin-bûn, kám-siā ta̍k-ke siu-khuànn, lán bîn-á-tsài tsài-huē.", en: "That's all from this morning's news. Thank you for watching, and see you tomorrow."}
+notes:
+  - {ref: 1, topic: vocab, text: "消息 siau-sit = news, piece of news; 新聞 sin-bûn = the news. 收看 siu-khuànn = watch (a programme), broadcast language. 早安 tsá-an = good morning (formal)."}
+  - {ref: 2, topic: vocab, text: "氣象局 khì-siōng-kio̍k = weather bureau. 指出 tsí-tshut = point out, state. 全國 tsuân-kok = the whole country. 高溫 ko-un = high temperatures. 地區 tē-khu = region, area."}
+  - {ref: 4, topic: grammar, text: "Formal register: news Taigi uses many literary (文讀) words that ordinary speech replaces: 目前 bo̍k-tsiân (= 這馬 tsit-má), 民眾 bîn-tsiòng (= 逐家, 一般人), 指出 (= 講), 當咧 tng teh (= 咧, 拄咧), 以上 í-siōng 'that's all', 而且 jî-tshiánn (= 閣), 其中 kî-tiong 'among them', 方面 hong-bīn 'as for'. 文言 bûn-giân = literary language; 詞 sû = word."}
+  - {ref: 5, topic: vocab, text: "交通 kau-thong = traffic. 國道 kok-tō = motorway. 發生 huat-sing = happen. 車禍 tshia-hō = road accident. 事故 sū-kòo (line 7) = accident, incident."}
+  - {ref: 7, topic: vocab, text: "調查 tiâu-tsa = investigate. 駛車 sái-tshia = drive (a car)."}
+  - {ref: 9, topic: grammar, text: "經濟 king-tsè = economy. 以 X 上明顯 í X siōng bîng-hián = 'most noticeably X', a written construction. 起價 khí-kè = (prices) rise (lesson 46)."}
+  - {ref: 10, topic: grammar, text: "一工比一工 + adjective = more … every day: 一工比一工貴."}
+  - {ref: 11, topic: vocab, text: "國際 kok-tsè = international. 選手 suán-tshiú = athlete. 研究 gián-kiù = research. 方式 hong-sik = way, method."}
+  - {ref: 13, topic: vocab, text: "掠重點 lia̍h tiōng-tiám = pick out the main points."}
+  - {ref: 14, topic: vocab, text: "市長 tshī-tiúnn = mayor. 宣佈 suan-pòo = announce. 所有 sóo-iú = all. 而且 jî-tshiánn = and also, moreover. 導覽 tō-lám = guided tour."}
+  - {ref: 17, topic: vocab, text: "記者 kì-tsiá = reporter, journalist."}
+new_words:
+  - {tailo: siau-sit, hanji: 消息, en: "news, piece of news"}
+  - {tailo: tsí-tshut, hanji: 指出, en: "point out, state"}
+  - {tailo: tē-khu, hanji: 地區, en: "region, area"}
+  - {tailo: bo̍k-tsiân, hanji: 目前, en: "at present"}
+  - {tailo: bîn-tsiòng, hanji: 民眾, en: "the public"}
+  - {tailo: kau-thong, hanji: 交通, en: "traffic, transport"}
+  - {tailo: huat-sing, hanji: 發生, en: "happen"}
+  - {tailo: tshia-hō, hanji: 車禍, en: "road accident"}
+  - {tailo: tiâu-tsa, hanji: 調查, en: "investigate"}
+  - {tailo: king-tsè, hanji: 經濟, en: "economy"}
+  - {tailo: kî-tiong, hanji: 其中, en: "among them"}
+  - {tailo: kok-tsè, hanji: 國際, en: "international"}
+  - {tailo: gián-kiù, hanji: 研究, en: "research"}
+  - {tailo: sóo-iú, hanji: 所有, en: "all"}
+  - {tailo: jî-tshiánn, hanji: 而且, en: "moreover"}
+  - {tailo: kì-tsiá, hanji: 記者, en: "reporter"}
+exercises:
+  translate:
+    - {tailo: "Tsa-àm kok-tō huat-sing tshia-hō.", hanji: "昨暗國道發生車禍。", en: "Last night there was a crash on the motorway."}
+    - {tailo: "Kíng-tshat tng teh tiâu-tsa sū-kòo ê guân-in.", hanji: "警察當咧調查事故的原因。", en: "Police are investigating the cause of the accident."}
+    - {tailo: "Thiann sin-bûn sing lia̍h tiōng-tiám.", hanji: "聽新聞先掠重點。", en: "When you listen to the news, grab the key points first."}
+  fill:
+    - {tailo: "___ ū nn̄g lâng tio̍h-siong.", hanji: "___有兩人著傷。", answer: "Bo̍k-tsiân", answer_hanji: "目前", en: "Two people have been injured."}
+    - {tailo: "Sóo-iú ê ua̍h-tāng lóng bián-tsînn, ___ ū Tâi-gí tō-lám.", hanji: "所有的活動攏免錢，___有台語導覽。", answer: "jî-tshiánn", answer_hanji: "而且", en: "All the events are free, and there will be Taigi tours too."}
+audio: []
