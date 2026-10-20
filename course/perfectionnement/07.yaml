@@ -1,0 +1,64 @@
+id: 7
+title: {en: "Review 1", tailo: "Ho̍k-si̍p", hanji: "復習"}
+genre: review
+review: true
+setting: "Sunday afternoon in Sam's freshly cleaned flat. A-má and A-kong have just arrived from Tainan; A-ióng and A-tshun are still there. Everything comes from 進修 1–6."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "（入門）哇，Sam 孫仔，你的厝遮清氣！桌頂、塗跤攏無一點仔糞埽。", tailo: "(Ji̍p mn̂g) Uah, Sam sun-á, lí ê tshù tsiah tshing-khì! Toh-tíng, thôo-kha lóng bô tsi̍t-tiám-á pùn-sò.", en: "(Coming in) Oh, Sam my boy, your flat is so clean! Not a speck of rubbish on the table or the floor."}
+  - {n: 2, speaker: A-ióng, hanji: "阿媽，這是阮昨昏大摒掃的……（阿春共伊使目尾）啊，毋是，攏是 Sam 家己摒的。", tailo: "A-má, tse sī guán tsa-hng tuā-piànn-sàu ê…… (A-tshun kā i sái-ba̍k-bué) Ah, m̄ sī, lóng sī Sam ka-kī piànn--ê.", en: "A-má, that's from our big clean-up yesterd… (A-tshun gives him a look) Er, no, Sam did it all himself."}
+  - {n: 3, speaker: A-kong, hanji: "哈哈，你這个頂港囡仔，白賊攏講袂好勢。", tailo: "Ha-ha, lí tsit ê tíng-káng gín-á, pe̍h-tsha̍t lóng kóng bē hó-sè.", en: "Ha ha, you northern lad, you can't even tell a fib properly."}
+  - {n: 4, speaker: A-tshun, hanji: "阿公、阿媽恁好。我是阿春，嘉義人；這个是阿勇，愛膨風的臺北人。", tailo: "A-kong, a-má lín hó. Guá sī A-tshun, Ka-gī lâng; tsit ê sī A-ióng, ài phòng-hong ê Tâi-pak lâng.", en: "Hello A-kong, hello A-má. I'm A-tshun, from Chiayi, and this is A-ióng, a Taipei man who likes to show off."}
+  - {n: 5, speaker: A-ióng, hanji: "阿春姊，莫烏白講。我是正港好禮的少年人。", tailo: "A-tshun-tsí, mài oo-pe̍h kóng. Guá sī tsiànn-káng hó-lé ê siàu-liân-lâng.", en: "A-tshun, don't talk nonsense. I'm a genuinely well-mannered young man."}
+  - {n: 6, speaker: A-má, hanji: "好禮就好。來，阿公曝乾的塗豆，逐家食看覓。", tailo: "Hó-lé tō hó. Lâi, a-kong pha̍k-kuann ê thôo-tāu, ta̍k-ke tsia̍h khuànn-māi.", en: "Well-mannered is good. Here, try some of the peanuts A-kong dried in the sun."}
+  - {n: 7, speaker: Sam, hanji: "阿公的喙齒補好矣，這馬咬塗豆攏無問題。", tailo: "A-kong ê tshuì-khí póo hó--ah, tsit-má kā thôo-tāu lóng bô būn-tê.", en: "A-kong's teeth are fixed, so now he can crunch peanuts no problem."}
+  - {n: 8, speaker: A-kong, hanji: "著，我這馬勇健甲閣會當去山頂剉柴！干焦跤頭趺較袂堪得。", tailo: "Tio̍h, guá tsit-má ióng-kiānn kah koh ē-tàng khì suann-tíng tshò-tshâ! Kan-na kha-thâu-u khah bē-kham-tit.", en: "That's right, I'm fit enough to go up the mountain and chop wood again! Only my knees aren't what they were."}
+  - {n: 9, speaker: A-má, hanji: "（越頭）壁空邊仔彼是啥物咧走？", tailo: "(Ua̍t-thâu) Piah-khang pinn--á he sī siánn-mih teh tsáu?", en: "(Turning round) What's that running by the hole in the wall?"}
+  - {n: 10, speaker: A-tshun, hanji: "（大聲喝咻）鳥鼠！", tailo: "(Tuā-siann huah-hiu) Niáu-tshí!", en: "(Shrieking) The rat!"}
+  - {n: 11, speaker: A-má, hanji: "鳥鼠爾爾。（提一个布袋，一下就共掠起來）好矣，提去外口放。", tailo: "Niáu-tshí niā-niā. (The̍h tsi̍t ê pòo-tē, tsi̍t-ē tō kā lia̍h--khí-lâi) Hó--ah, the̍h khì guā-kháu pàng.", en: "Only a rat. (She takes a sack and catches it in one go) There. Take it outside and let it go."}
+  - {n: 12, speaker: A-ióng, hanji: "（金金看）阿媽……你實在有夠好膽。", tailo: "(Kim-kim-khuànn) A-má…… lí si̍t-tsāi ū-kàu hó-tánn.", en: "(Staring) A-má… you're really brave."}
+  - {n: 13, speaker: A-má, hanji: "阮彼輩的人，佇庄跤大漢，啥物無看過？蛇嘛掠過。", tailo: "Guán hit puè ê lâng, tī tsng-kha tuā-hàn, siánn-mih bô khuànn-kuè? Tsuâ mā lia̍h--kuè.", en: "People of my generation grew up in the countryside. What haven't we seen? I've caught snakes too."}
+  - {n: 14, speaker: Sam, hanji: "阿媽細漢的時，熱天暗時敢有看過火金蛄？", tailo: "A-má sè-hàn ê sî, jua̍h-thinn àm-sî kám ū khuànn-kuè hué-kim-koo?", en: "When you were little, A-má, did you see fireflies on summer nights?"}
+  - {n: 15, speaker: A-má, hanji: "規陣攏是！阮會掠來囥佇蠓罩內底。這馬臺南庄跤猶有，恁熱天來，阿媽𤆬恁去看。", tailo: "Kui-tīn lóng sī! Guán ē lia̍h--lâi khǹg tī báng-tà lāi-té. Tsit-má Tâi-lâm tsng-kha iáu ū, lín jua̍h-thinn lâi, a-má tshuā lín khì khuànn.", en: "Swarms of them! We'd catch them and let them loose in the mosquito net. There are still some in the countryside round Tainan: come in summer and I'll take you to see them."}
+  - {n: 16, speaker: A-tshun, hanji: "好啊！阿媽，聽講阿明欲娶某矣？好日揀好矣無？", tailo: "Hó--ah! A-má, thiann-kóng A-bîng beh tshuā-bóo--ah? Hó-ji̍t kíng hó--ah--bô?", en: "We'd love to! A-má, I hear A-bîng is getting married? Have they chosen the day?"}
+  - {n: 17, speaker: A-má, hanji: "揀好矣，十月。美玲彼个查某囡仔生做媠，人閣好禮、閣貼心。", tailo: "Kíng hó--ah, tsa̍p--gue̍h. Bí-lîng hit ê tsa-bóo gín-á senn-tsò suí, lâng koh hó-lé, koh tah-sim.", en: "Yes, October. Bí-lîng is a pretty girl, and polite and thoughtful as well."}
+  - {n: 18, speaker: A-kong, hanji: "阮孫仔嘛生做真緣投。（笑微微）毋過無我少年的時遐緣投。", tailo: "Guán sun-á mā senn-tsò tsin iân-tâu. (Tshiò-bi-bi) M̄-koh bô guá siàu-liân ê sî hiah iân-tâu.", en: "Our grandson's a handsome lad too. (Smiling) Though not as handsome as I was at his age."}
+  - {n: 19, speaker: A-ióng, hanji: "阿公，你少年的時敢是烏狗兄？", tailo: "A-kong, lí siàu-liân ê sî kám sī oo-káu-hiann?", en: "A-kong, were you a bit of a dandy when you were young?"}
+  - {n: 20, speaker: A-kong, hanji: "我？我是古意人，干焦知影勤儉趁食。恁阿媽就是看我古意，才欲嫁翁。", tailo: "Guá? Guá sī kóo-ì lâng, kan-na tsai-iánn khîn-khiām thàn-tsia̍h. Lín a-má tō sī khuànn guá kóo-ì, tsiah beh kè-ang.", en: "Me? I was an honest fellow who only knew how to work hard and earn a living. That's exactly why your grandma agreed to marry me."}
+  - {n: 21, speaker: A-má, hanji: "是媒人共我講伊緣投，結果……（笑）媒人喙，糊瘰瘰。", tailo: "Sī muê-lâng kā guá kóng i iân-tâu, kiat-kó…… (Tshiò) Muê-lâng-tshuì, hôo-luì-luì.", en: "The matchmaker told me he was handsome, and then… (laughing) Never trust a matchmaker's mouth."}
+  - {n: 22, speaker: A-kong, hanji: "毋過咱翁仔某做陣五十冬，原在真好。媒人保入房，賰的是咱家己。", tailo: "M̄-koh lán ang-á-bóo tsò-tīn gōo-tsa̍p tang, guân-tsāi tsin hó. Muê-lâng pó ji̍p pâng, tshun--ê sī lán ka-kī.", en: "But we've been together fifty years as husband and wife and we're still fine. The matchmaker saw us into the bridal chamber; the rest was up to us."}
+  - {n: 23, speaker: A-tshun, hanji: "阿公阿媽感情遮好，阮看甲足感動。", tailo: "A-kong a-má kám-tsîng tsiah hó, guán khuànn kah tsiok kám-tōng.", en: "You two are so close, it's really touching to see."}
+  - {n: 24, speaker: A-ióng, hanji: "Sam，你真好命。阮臺北人罕得有遮疼人的阿公阿媽。", tailo: "Sam, lí tsin hó-miā. Guán Tâi-pak lâng hán-tit ū tsiah thiànn lâng ê a-kong a-má.", en: "Sam, you're a lucky man. We Taipei people seldom have grandparents this loving."}
+  - {n: 25, speaker: A-kong, hanji: "Sam 一个外國人，戇戇學台語，學甲遮好，咱逐家攏疼伊。人講：天公疼戇人。", tailo: "Sam tsi̍t ê guā-kok-lâng, gōng-gōng o̍h Tâi-gí, o̍h kah tsiah hó, lán ta̍k-ke lóng thiànn--i. Lâng kóng: Thinn-kong thiànn gōng-lâng.", en: "Sam, a foreigner, plodding away at Taigi until he's this good: we all love him for it. As they say, Heaven looks after simple souls."}
+  - {n: 26, speaker: Sam, hanji: "阿公，你是咧呵咾我，抑是咧笑我？", tailo: "A-kong, lí sī teh o-ló--guá, ia̍h-sī teh tshiò--guá?", en: "A-kong, are you praising me or laughing at me?"}
+  - {n: 27, speaker: A-má, hanji: "攏有啦！來，暗頓阿媽請，予阮孫仔的朋友食較飽咧。", tailo: "Lóng ū--lah! Lâi, àm-tǹg a-má tshiánn, hōo guán sun-á ê pîng-iú tsia̍h khah pá--leh.", en: "Both! Come on, dinner's on me. Sam's friends must eat their fill."}
+  - {n: 28, speaker: A-ióng, hanji: "阿媽，我……我猶欠 Sam 一矸酒。", tailo: "A-má, guá…… guá iáu khiàm Sam tsi̍t kan tsiú.", en: "A-má, I… I still owe Sam a bottle."}
+  - {n: 29, speaker: A-má, hanji: "啥物酒？……毋免講，阿媽攏知影。", tailo: "Siánn-mih tsiú? …… M̄-bián kóng, a-má lóng tsai-iánn.", en: "What bottle? …No need to say. I know everything."}
+notes:
+  - {ref: 1, topic: vocab, text: "Letters and family (進修 3): 孫仔, 舊年, 熱天 / 寒天, 勇健, 操煩, 掛心, 張持, 罕得; in-laws 丈人 / 丈姆, 親家 / 親姆. 一點仔 tsi̍t-tiám-á = the least bit: 無一點仔 'not a speck'."}
+  - {ref: 2, topic: vocab, text: "The big clean-up (進修 6): 大摒掃, 摒, 亂操操, 桌頂, 頂面 / 下底, 徙, 擲, 賰, 拭, 夠額. 使目尾 sái-ba̍k-bué 'give someone a look': 目尾 from 進修 5."}
+  - {ref: 3, topic: vocab, text: "North and south (進修 1): 頂港 / 下港, 膨風, 正港, 烏白講, 凊彩. 白賊 pe̍h-tsha̍t = a lie: 講白賊 'tell lies' (lesson 47)."}
+  - {ref: 8, topic: grammar, text: "勇健甲 + clause 'so fit that …': adjective + 甲 + result. 袂堪得 'not up to it', 跤頭趺 (進修 3); 剉柴 (進修 2)."}
+  - {ref: 11, topic: vocab, text: "A-má is not afraid of the rat (鳥鼠, 進修 6). 掠起來 'catch'; 放 pàng = let go, release."}
+  - {ref: 12, topic: vocab, text: "The tale (進修 2): 金金看, 好膽, 險險, 強欲, 連鞭, 刁工, 原在, 克虧, 參詳, 看輕, 古意."}
+  - {ref: 13, topic: grammar, text: "啥物無看過？ 'what haven't I seen?': a rhetorical question meaning 'I've seen everything'. 彼輩的人 'people of that generation', as in 進修 6."}
+  - {ref: 15, topic: vocab, text: "Fireflies and childhood (進修 4): 火金蛄, 蠓罩, 規陣, 草埔, 風吹, 鐵馬, 磅空, 往過, 叫是."}
+  - {ref: 17, topic: vocab, text: "The matchmaker (進修 5): 生做, 緣投, 好禮, 嫁翁 / 娶某, 翁仔某, 對看, 八字, 時行, 現此時."}
+  - {ref: 20, topic: vocab, text: "古意人 kóo-ì lâng 'an honest, simple man': 古意 (進修 2) + 人. 勤儉趁食 'work hard, live thriftily and earn one's living'."}
+  - {ref: 22, topic: culture, text: "A-kong bends the proverb 媒人保入房，無保一世人 from 進修 5: 賰的是咱家己 'the rest was up to us'. 原在 = still (進修 2)."}
+  - {ref: 25, topic: culture, text: "天公疼戇人, the saying from 進修 2, used affectionately: Sam's plodding honesty is rewarded. 戇戇學 'study away doggedly, without cleverness'."}
+  - {ref: 27, topic: grammar, text: "予 … 食較飽咧 'let … eat their fill': 較 + adjective + 咧 softens an order or a wish."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Toh-tíng, thôo-kha lóng bô tsi̍t-tiám-á pùn-sò.", hanji: "桌頂、塗跤攏無一點仔糞埽。", en: "Not a speck of rubbish on the table or the floor."}
+    - {tailo: "Lí tsit ê tíng-káng gín-á, pe̍h-tsha̍t lóng kóng bē hó-sè.", hanji: "你這个頂港囡仔，白賊攏講袂好勢。", en: "You northern lad, you can't even tell a fib properly."}
+    - {tailo: "Tsit-má Tâi-lâm tsng-kha iáu ū, lín jua̍h-thinn lâi, a-má tshuā lín khì khuànn.", hanji: "這馬臺南庄跤猶有，恁熱天來，阿媽𤆬恁去看。", en: "There are still some in the countryside round Tainan: come in summer and I'll take you to see them."}
+    - {tailo: "Lán ang-á-bóo tsò-tīn gōo-tsa̍p tang, guân-tsāi tsin hó.", hanji: "咱翁仔某做陣五十冬，原在真好。", en: "We've been together fifty years as husband and wife and we're still fine."}
+    - {tailo: "Lí si̍t-tsāi ū-kàu hó-tánn.", hanji: "你實在有夠好膽。", en: "You're really brave."}
+  fill:
+    - {tailo: "Guá tsit-má ___ kah koh ē-tàng khì suann-tíng tshò-tshâ!", hanji: "我這馬___甲閣會當去山頂剉柴！", answer: "ióng-kiānn", answer_hanji: "勇健", en: "I'm fit enough to go up the mountain and chop wood again!"}
+    - {tailo: "Bí-lîng ___ suí, lâng koh hó-lé.", hanji: "美玲___媠，人閣好禮。", answer: "senn-tsò", answer_hanji: "生做", en: "Bí-lîng is pretty, and polite as well."}
+    - {tailo: "Guá sī ___ lâng, kan-na tsai-iánn khîn-khiām thàn-tsia̍h.", hanji: "我是___人，干焦知影勤儉趁食。", answer: "kóo-ì", answer_hanji: "古意", en: "I was an honest fellow who only knew how to work hard and earn a living."}
+    - {tailo: "Guán Tâi-pak lâng ___ ū tsiah thiànn lâng ê a-kong a-má.", hanji: "阮臺北人___有遮疼人的阿公阿媽。", answer: "hán-tit", answer_hanji: "罕得", en: "We Taipei people seldom have grandparents this loving."}
+    - {tailo: "Guá iáu khiàm Sam tsi̍t ___ tsiú.", hanji: "我猶欠 Sam 一___酒。", answer: "kan", answer_hanji: "矸", en: "I still owe Sam a bottle."}
+audio: []

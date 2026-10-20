@@ -1,7 +1,22 @@
 # Part 2: 進修 Tsìn-siu (Perfectionnement), spec and handover
 
-State on 20 Oct 2026: the app section is built and P1 is written and published (`course/perfectionnement/01.yaml`).
-Next: P2–P7 (P7 = review).
+State on 20 Oct 2026 (evening): P1 is published; **P2–P7 are written** on branch `perfectionnement-p2-p7`
+(not yet merged into `main`, so not on the site). Next batch: P8–P14 (P14 = review).
+
+## Batch 1 (P1–P7)
+| # | genre | title | new words | lines |
+|---|---|---|---|---|
+| P1 | dialogue | 頂港有名聲，下港上出名 (north/south teasing) | 29 | 21 |
+| P2 | tale | 天公疼戇人 (woodcutter, jar of gold, greedy rich man) | 43 | 25 |
+| P3 | letter | 惜花連盆，疼囝連孫 (A-má's letter: garden, health, A-bîng's wedding in October, visit to Taipei) | 44 | 26 |
+| P4 | essay | 火金蛄去佗位矣？ (newspaper column: village childhood, fireflies) | 44 | 26 |
+| P5 | interview | 一錢，二緣，三媠，四少年 (radio interview with a matchmaker) | 45 | 30 |
+| P6 | play | 大摒掃 (cleaning Sam's flat before A-má's visit; cockroach, rat, broken bottle) | 40 | 33 |
+| P7 | review | 復習 (A-má and A-kong at Sam's flat; recombines P1–P6) | 0 | 29 |
+
+Story threads to pick up: A-bîng and Bí-lîng's wedding in October (A-má's letter, P3); A-má's promise to show
+A-tshun and A-ióng the fireflies in Tainan next summer (P7); A-ióng still owes Sam a bottle (P6–P7).
+New words ran a little above 40 in P2–P5 (vocabulary is the goal); dialogue length stayed within 20–33.
 
 ## What was decided with the user
 - **Spirit:** an Assimil *Perfectionnement* volume. It is used only for ideas and counts; nothing from the
@@ -43,8 +58,16 @@ P1 was written the other way, theme first; its words were checked afterwards. Fr
 - `python3 -I tools/lint.py course/perfectionnement/NN.yaml` (0 errors) and `make test`.
 - No duplicate `new_words`: every Hàn-jī must be absent from earlier `new_words`, base course included.
   - P1 had two duplicates, 𤆬 (lesson 12) and 熱情 (lesson 92); both are fixed.
-- "(lesson N)" references in notes must point to the lesson that declares the word.
-  - Check with a short script over all `new_words`. The scratch scripts from the 20 Oct session are not in the repo.
+- "(lesson N)" / "(進修 N)" references in notes must point to the lesson that declares the word: `python3 -I tools/xrefs.py`
+  (also reports duplicate `new_words` in 進修 lessons). The checker looks at the Hàn-jī just before the parenthesis,
+  so put the reference right after the declared word, not after a phrase.
+- Candidate words, in one pass: `python3 -I tools/candidates.py 參詳 好額人 … ex=1` (MOE readings, meanings, one
+  example, and whether a lesson already declares the word).
+- English on every card: after `build_app.py`, `app/dist/english-auto.txt` must be empty. Add any word listed there
+  (names, compounds, words used but not in `new_words`) to `course/glosses_en.tsv` with a gloss that fits the lesson.
+- Proverbs that are MOE *headwords* (一錢，二緣，三媠，四少年; 惜花連盆，疼囝連孫) are not in the example table, so
+  they can't carry `source: moe`; quote them unaltered and say "a proverb from the MOE dictionary" in the note.
+  A line that contains an MOE example plus other words is split so the example stands alone with `source: moe`.
 - Language QC (cheap, run on every batch): `python3 -I tools/qc_readings.py FILES` flags character/syllable pairs
   MOE never attests; `python3 -I tools/qc_glosses.py FILES` lists glosses that don't match MOE meanings, to read by eye.
   Also read the Hàn-jī of each dialogue once, looking for Mandarin calques (早安, 彼平 for 彼爿…).
@@ -55,5 +78,6 @@ P1 was written the other way, theme first; its words were checked afterwards. Fr
 ## Status of decisions
 - Exercises: 5 + 5 (decided 20 Oct 2026). Publishing: P1 published with the part-2 section on 20 Oct 2026.
 - To do: describe part 2 in `design-decisions.md`.
+- To decide with the user: merge P2–P7 into `main` (publishes them). Smoke run on 進修 lessons only: 0 problems.
 - Language QC pass on 20 Oct 2026 (all 100 lessons + P1): 6 lessons fixed (54, 67, 68, 73, 85, 93); no other
   unattested readings, no Mandarin function words, no inconsistent readings across lessons.

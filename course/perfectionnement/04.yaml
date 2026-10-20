@@ -1,0 +1,114 @@
+id: 4
+title: {en: "Where have the fireflies gone?", tailo: "Hué-kim-koo khì tó-uī--ah?", hanji: "火金蛄去佗位矣？"}
+genre: essay
+review: false
+setting: "A column from the Sunday page of a Taigi newspaper. The writer grew up in a village at the foot of the mountains and now lives in town with her ten-year-old son. The text is original to this course."
+dialogue:
+  - {n: 1, hanji: "往過，阮庄跤熱天的暗時，是火金蛄的世界。", tailo: "Íng-kuè, guán tsng-kha jua̍h-thinn ê àm-sî, sī hué-kim-koo ê sè-kài.", en: "In the old days, summer nights in our village belonged to the fireflies."}
+  - {n: 2, hanji: "食飽暗頓，規陣囡仔人就走去溪仔邊的草埔，看火金蛄佇草仔頂懸一爍一爍。", tailo: "Tsia̍h-pá àm-tǹg, kui-tīn gín-á-lâng tō tsáu khì khe-á-pinn ê tsháu-poo, khuànn hué-kim-koo tī tsháu-á tíng-kuân tsi̍t-sih tsi̍t-sih.", en: "After supper, the whole gang of us children would run down to the grassy bank by the stream to watch the fireflies blinking above the grass."}
+  - {n: 3, hanji: "阮會掠幾隻轉去，囥佇蠓罩內底，假影是天頂的星。", tailo: "Guán ē lia̍h kuí tsiah tńg--khì, khǹg tī báng-tà lāi-té, ké-iánn sī thinn-tíng ê tshenn.", en: "We'd catch a few and take them home, and let them loose inside the mosquito net, pretending they were stars in the sky."}
+  - {n: 4, hanji: "頭仔阿母會罵，講火金蛄嘛有老爸老母；落尾伊嘛隨在阮。", tailo: "Thâu--á a-bú ē mē, kóng hué-kim-koo mā ū lāu-pē lāu-bú; lo̍h-bué i mā suî-tsāi--guán.", en: "At first Mother would scold us, saying fireflies have mothers and fathers too; in the end she let us do as we liked."}
+  - {n: 5, hanji: "毋過透早起來，火金蛄攏死了了，阮看甲強欲哭出來。", tailo: "M̄-koh thàu-tsá khí--lâi, hué-kim-koo lóng sí--liáu-liáu, guán khuànn kah kiōng-beh khàu--tshut-lâi.", en: "But when we got up in the morning they were all dead, and we nearly burst into tears."}
+  - {n: 6, hanji: "蠓仔就無遐古錐。熱天的暗暝，蠓仔規陣飛來，叮甲阮規身軀攏是。", tailo: "Báng-á tō bô hiah kóo-tsui. Jua̍h-thinn ê àm-mê, báng-á kui-tīn pue--lâi, tìng kah guán kui-sin-khu lóng sī.", en: "The mosquitoes weren't so sweet. On summer nights they came in swarms and bit us all over."}
+  - {n: 7, hanji: "彼陣無冷氣，阿媽逐暗攏共蠓罩掛好，才叫阮去睏。", tailo: "Hit-tsūn bô líng-khì, a-má ta̍k-àm lóng kā báng-tà kuà hó, tsiah kiò guán khì khùn.", en: "There was no air conditioning then; every night Grandma hung up the mosquito net before sending us to bed."}
+  - {n: 8, hanji: "阮食西瓜，西瓜皮若囥佇門口，規陣狗蟻佮胡蠅隨就來矣。", tailo: "Guán tsia̍h si-kue, si-kue-phuê nā khǹg tī mn̂g-kháu, kui-tīn káu-hiā kah hôo-sîn suî tō lâi--ah.", en: "When we ate watermelon and left the rinds by the door, swarms of ants and flies turned up at once."}
+  - {n: 9, hanji: "日時，阮的世界是溪仔佮竹仔林。", tailo: "Ji̍t--sî, guán ê sè-kài sī khe-á kah tik-á-nâ.", en: "By day, our world was the stream and the bamboo grove."}
+  - {n: 10, hanji: "阮掠水雞、掠蝶仔，嘛去竹仔林剉竹仔，用竹篙做風吹。", tailo: "Guán lia̍h tsuí-ke, lia̍h ia̍h-á, mā khì tik-á-nâ tshò tik-á, iōng tik-ko tsò hong-tshue.", en: "We caught frogs and butterflies, and went into the bamboo grove to cut bamboo and make kites from the canes."}
+  - {n: 11, hanji: "風吹若飛起去，規陣人攑頭看，笑咍咍。", tailo: "Hong-tshue nā pue--khí-khì, kui-tīn lâng gia̍h-thâu khuànn, tshiò-hai-hai.", en: "When a kite took off, we all looked up and laughed out loud."}
+  - {n: 12, hanji: "有一擺，我的風吹予風吹甲斷去，飛過山，我走去逐，險險跋落溪仔。", tailo: "Ū tsi̍t pái, guá ê hong-tshue hōo hong tshue kah tn̄g--khì, pue kuè suann, guá tsáu khì jiok, hiám-hiám pua̍h-lo̍h khe-á.", en: "Once the wind snapped my kite's string and it flew off over the hill; I ran after it and very nearly fell into the stream."}
+  - {n: 13, hanji: "透中晝日頭赤焱焱，大人攏佇樹仔跤歇睏，阮猶是佇外口走傱。", tailo: "Thàu-tiong-tàu ji̍t-thâu tshiah-iānn-iānn, tuā-lâng lóng tī tshiū-á-kha hioh-khùn, guán iáu-sī tī guā-kháu tsáu-tsông.", en: "At midday, with the sun blazing, the grown-ups rested in the shade of the trees while we went on charging about outside."}
+  - {n: 14, hanji: "寒天阿媽叫阮加穿衫，阮攏毋穿。伊笑講：「囡仔人尻川三斗火。」", tailo: "Kuânn-thinn a-má kiò guán ke tshīng sann, guán lóng m̄ tshīng. I tshiò kóng: “Gín-á-lâng kha-tshng sann táu hué.”", en: "In winter Grandma told us to put on more clothes and we never would. She'd laugh and say: 'Children have three bushels of fire in their bottoms.'"}
+  - {n: 15, hanji: "暗時轉去，阿母看阮規身軀澹糊糊、垃儳甲，就叫阮跍佇灶跤口洗跤。", tailo: "Àm-sî tńg--khì, a-bú khuànn guán kui-sin-khu tâm-kôo-kôo, lâ-sâm kah, tō kiò guán khû tī tsàu-kha kháu sé kha.", en: "When we got home at dusk, soaked through and filthy, Mother made us squat outside the kitchen door and wash our feet."}
+  - {n: 16, hanji: "小弟較細漢，行無路就欲人偝。我做阿姊的，定定偝伊轉去。", tailo: "Sió-tī khah sè-hàn, kiânn bô lōo tō beh lâng āinn. Guá tsò a-tsí--ê, tiānn-tiānn āinn i tńg--khì.", en: "My little brother was the youngest, and as soon as he got tired he wanted a piggyback. Being his big sister, I often carried him home."}
+  - {n: 17, hanji: "阮庄頭欲去街仔，愛過一个磅空。磅空內底暗摸摸，閣有夜婆。", tailo: "Guán tsng-thâu beh khì ke-á, ài kuè tsi̍t ê pōng-khang. Pōng-khang lāi-té àm-bong-bong, koh ū iā-pô.", en: "To get from our village into town you had to go through a tunnel. It was pitch-dark inside, and there were bats."}
+  - {n: 18, hanji: "阮騎鐵馬過磅空，攏毋敢越頭，驚後壁有歹物仔綴咧。", tailo: "Guán khiâ thih-bé kuè pōng-khang, lóng m̄ kánn ua̍t-thâu, kiann āu-piah ū pháinn-mih-á tuè--leh.", en: "We rode our bikes through the tunnel and never dared look back, in case some evil thing was following us."}
+  - {n: 19, hanji: "這馬想起來，彼陣的囡仔人實在誠暢。", tailo: "Tsit-má siūnn--khí-lâi, hit-tsūn ê gín-á-lâng si̍t-tsāi tsiânn thiòng.", en: "Thinking back now, we children really had a wonderful time."}
+  - {n: 20, hanji: "舊年我轉去庄跤，溪仔邊已經攏是紅毛塗，竹仔林嘛剉了了，起一排一排的厝。", tailo: "Kū-nî guá tńg-khì tsng-kha, khe-á-pinn í-king lóng sī âng-mn̂g-thôo, tik-á-nâ mā tshò--liáu-liáu, khí tsi̍t pâi tsi̍t pâi ê tshù.", en: "Last year I went back to the village. The stream banks are all concrete now, and the bamboo grove has been cut down to make way for rows of houses."}
+  - {n: 21, hanji: "我佇溪仔邊等到半暝，干焦看著兩三隻火金蛄，飛無偌久就無看見矣。", tailo: "Guá tī khe-á-pinn tán kàu puànn-mê, kan-na khuànn-tio̍h nn̄g-sann tsiah hué-kim-koo, pue bô guā kú tō bô khuànn-kìnn--ah.", en: "I waited by the stream until midnight and saw only two or three fireflies, and they soon disappeared."}
+  - {n: 22, hanji: "阮後生今年十歲，伊叫是火金蛄是故事冊內底才有的物件。", tailo: "Guán hāu-senn kin-nî tsa̍p huè, i kiò-sī hué-kim-koo sī kòo-sū-tsheh lāi-té tsiah ū ê mi̍h-kiānn.", en: "My son is ten this year, and he thought fireflies only existed in storybooks."}
+  - {n: 23, hanji: "伊捌看過鵁鴒學人講話，毋過是佇手機仔看的。", tailo: "I bat khuànn-kuè ka-līng o̍h lâng kóng-uē, m̄-koh sī tī tshiú-ki-á khuànn--ê.", en: "He has seen a mynah bird imitating people talking, but on a phone."}
+  - {n: 24, hanji: "毋過我欲離開庄跤的時，看著國小的門口貼一張紙，寫講：", tailo: "M̄-koh guá beh lī-khui tsng-kha ê sî, khuànn-tio̍h kok-sió ê mn̂g-kháu tah tsi̍t tiunn tsuá, siá kóng:", en: "But as I was leaving the village, I noticed a sheet of paper stuck on the primary school gate. It said:"}
+  - {n: 25, hanji: "學校後山有火金蛄。", tailo: "Ha̍k-hāu āu-suann ū hué-kim-koo.", en: "There are fireflies on the hill behind the school.", source: moe}
+  - {n: 26, hanji: "這个熱天，我欲𤆬阮後生轉去，予伊跍佇草埔，看一擺真正的火金蛄。", tailo: "Tsit ê jua̍h-thinn, guá beh tshuā guán hāu-senn tńg--khì, hōo i khû tī tsháu-poo, khuànn tsi̍t pái tsin-tsiànn ê hué-kim-koo.", en: "This summer I'm taking my son back there, to crouch in the grass and see real fireflies for once."}
+notes:
+  - {ref: 1, topic: vocab, text: "往過 íng-kuè = in the past, in the old days (以往): 往過的生活 'the way we used to live'. 火金蛄 hué-kim-koo = firefly, literally 'fire golden-bug'."}
+  - {ref: 2, topic: vocab, text: "規陣 kui-tīn = a whole crowd, the whole gang (陣 tīn 'group'). 囡仔人 gín-á-lâng = children (as a category: 'we children', 'children shouldn't…'). 草埔 tsháu-poo = grassy ground, a meadow; 草仔 tsháu-á = grass. 頂懸 tíng-kuân = above, on top."}
+  - {ref: 2, topic: grammar, text: "一爍一爍 tsi̍t-sih tsi̍t-sih = blink, flash on and off: 爍 sih 'flash, twinkle' (閃). The pattern 一 V 一 V describes a repeated movement."}
+  - {ref: 3, topic: vocab, text: "蠓罩 báng-tà = mosquito net (蠓 báng 'mosquito' + 罩 'cover'). 星 tshenn = star; 天頂的星 'the stars in the sky'."}
+  - {ref: 4, topic: grammar, text: "頭仔 thâu--á … 落尾 lo̍h-bué … = 'at first … in the end …'. Note the neutral tone in thâu--á. 隨在 suî-tsāi = let (someone) do as they please (任憑): 隨在你 'as you like', 隨在伊去 'let him be'."}
+  - {ref: 6, topic: vocab, text: "蠓仔 báng-á = mosquito; 叮 tìng = bite (of insects). 規身軀 kui-sin-khu = all over the body. 暗暝 àm-mê = night."}
+  - {ref: 8, topic: vocab, text: "狗蟻 káu-hiā = ant, literally 'dog ant'; 胡蠅 hôo-sîn = fly. Neither looks like its Mandarin name, so learn them as pairs: 螞蟻 / 狗蟻, 蒼蠅 / 胡蠅. 隨 suî = at once."}
+  - {ref: 10, topic: vocab, text: "水雞 tsuí-ke = frog ('water chicken'). Careful: in parts of the south 水雞 is also slang for the female genitals, so people there say 四跤仔 sì-kha-á 'four-legs' for the animal. 蝶仔 ia̍h-á = butterfly. 竹篙 tik-ko = bamboo pole; 竹仔 tik-á = bamboo; 竹仔林 tik-á-nâ = bamboo grove."}
+  - {ref: 11, topic: vocab, text: "風吹 hong-tshue = kite ('wind-blow'), Taigi-only. 攑頭 gia̍h-thâu = look up, raise one's head. 笑咍咍 tshiò-hai-hai = laugh heartily (哈哈笑)."}
+  - {ref: 12, topic: vocab, text: "予風吹甲斷去 hōo hong tshue kah tn̄g--khì 'the wind blew (it) until it snapped': the noun 風吹 hong-tshue 'kite' and the phrase 風吹 hong tshue 'the wind blows' are written alike, and only the sentence tells them apart. 逐 jiok = chase. 跋落溪仔 'fall into the stream'."}
+  - {ref: 13, topic: vocab, text: "透中晝 thàu-tiong-tàu = right at midday. 赤焱焱 tshiah-iānn-iānn = blazing hot (of the sun). 樹仔跤 tshiū-á-kha = under the trees: 跤 is the foot or bottom of something, like 山跤. 走傱 tsáu-tsông = rush about; also 'be busy scraping a living'."}
+  - {ref: 14, topic: culture, text: "囡仔人尻川三斗火 'children have three bushels of fire in their bottoms': children don't feel the cold. A proverb from the MOE dictionary. 尻川 kha-tshng = bottom, behind, everyday and not rude."}
+  - {ref: 15, topic: vocab, text: "澹糊糊 tâm-kôo-kôo = soaking wet (澹 tâm 'wet', lesson 17). 垃儳 lâ-sâm = dirty, filthy; 垃儳甲 'filthy (beyond words)', with the result left out. 跍 khû = squat. 灶跤口 tsàu-kha kháu = (just outside) the kitchen door."}
+  - {ref: 16, topic: vocab, text: "偝 āinn = carry (a person) on one's back: 偝囡仔 'give a child a piggyback'. Things on the back are 揹 phāinn. 行無路 'can't walk any further', said of a tired child."}
+  - {ref: 17, topic: vocab, text: "磅空 pōng-khang = tunnel, Taigi-only: from 磅 pōng 'blast' (with dynamite) + 空 'hole'. 暗摸摸 àm-bong-bong = pitch-dark. 夜婆 iā-pô = bat."}
+  - {ref: 18, topic: vocab, text: "鐵馬 thih-bé = bicycle ('iron horse'), the older word next to 跤踏車. 越頭 ua̍t-thâu = turn one's head, look back; also 'in a moment' (越頭就來). 歹物仔 pháinn-mih-á = evil thing, ghost (a euphemism; it also means a malignant tumour)."}
+  - {ref: 19, topic: vocab, text: "暢 thiòng = delighted, having great fun. Some speakers, especially women, avoid it because it can have a sexual sense; 歡喜 and 心適 are always safe."}
+  - {ref: 20, topic: vocab, text: "紅毛塗 âng-mn̂g-thôo = cement, concrete ('red-hair earth': 紅毛 'red-haired' was the old name for the Dutch and other Westerners). 剉了了 tshò--liáu-liáu = cut down completely, with --了了 (進修 3)."}
+  - {ref: 22, topic: false-friend, text: "後生 hāu-senn = son (兒子), not Mandarin 後生 'young man, younger generation'. 叫是 kiò-sī = wrongly think, take for (以為): 我叫是你毋來 'I thought you weren't coming'."}
+  - {ref: 23, topic: vocab, text: "鵁鴒 ka-līng = crested mynah, a black bird that imitates voices, common in Taiwan."}
+  - {ref: 25, topic: culture, text: "Firefly-watching (賞螢) in April and May has become a popular outing, and many villages now protect their streams for it. The sentence is an MOE dictionary example."}
+  - {ref: 26, topic: grammar, text: "看一擺 'see (it) once': V + 一擺 = do something just once, for the experience."}
+new_words:
+  - {tailo: íng-kuè, hanji: 往過, en: "in the past"}
+  - {tailo: hué-kim-koo, hanji: 火金蛄, en: "firefly"}
+  - {tailo: àm-tǹg, hanji: 暗頓, en: "supper"}
+  - {tailo: kui-tīn, hanji: 規陣, en: "a whole crowd"}
+  - {tailo: gín-á-lâng, hanji: 囡仔人, en: "children"}
+  - {tailo: tsháu-poo, hanji: 草埔, en: "grassy ground, meadow"}
+  - {tailo: tsháu-á, hanji: 草仔, en: "grass"}
+  - {tailo: tíng-kuân, hanji: 頂懸, en: "above, on top"}
+  - {tailo: sih, hanji: 爍, en: "flash, twinkle"}
+  - {tailo: báng-tà, hanji: 蠓罩, en: "mosquito net"}
+  - {tailo: tshenn, hanji: 星, en: "star"}
+  - {tailo: thâu--á, hanji: 頭仔, en: "at first"}
+  - {tailo: lo̍h-bué, hanji: 落尾, en: "in the end, later"}
+  - {tailo: suî-tsāi, hanji: 隨在, en: "let (someone) do as they like"}
+  - {tailo: báng-á, hanji: 蠓仔, en: "mosquito"}
+  - {tailo: tìng, hanji: 叮, en: "bite (insects)"}
+  - {tailo: kui-sin-khu, hanji: 規身軀, en: "all over the body"}
+  - {tailo: káu-hiā, hanji: 狗蟻, en: "ant"}
+  - {tailo: hôo-sîn, hanji: 胡蠅, en: "fly"}
+  - {tailo: tsuí-ke, hanji: 水雞, en: "frog"}
+  - {tailo: ia̍h-á, hanji: 蝶仔, en: "butterfly"}
+  - {tailo: tik-á, hanji: 竹仔, en: "bamboo"}
+  - {tailo: tik-ko, hanji: 竹篙, en: "bamboo pole"}
+  - {tailo: hong-tshue, hanji: 風吹, en: "kite"}
+  - {tailo: gia̍h-thâu, hanji: 攑頭, en: "look up"}
+  - {tailo: tshiò-hai-hai, hanji: 笑咍咍, en: "laugh heartily"}
+  - {tailo: thàu-tiong-tàu, hanji: 透中晝, en: "right at midday"}
+  - {tailo: tshiah-iānn-iānn, hanji: 赤焱焱, en: "blazing hot (sun)"}
+  - {tailo: tsáu-tsông, hanji: 走傱, en: "rush about"}
+  - {tailo: kha-tshng, hanji: 尻川, en: "bottom, behind"}
+  - {tailo: tâm-kôo-kôo, hanji: 澹糊糊, en: "soaking wet"}
+  - {tailo: lâ-sâm, hanji: 垃儳, en: "dirty, filthy"}
+  - {tailo: khû, hanji: 跍, en: "squat"}
+  - {tailo: āinn, hanji: 偝, en: "carry on one's back"}
+  - {tailo: pōng-khang, hanji: 磅空, en: "tunnel"}
+  - {tailo: iā-pô, hanji: 夜婆, en: "bat"}
+  - {tailo: thih-bé, hanji: 鐵馬, en: "bicycle"}
+  - {tailo: ua̍t-thâu, hanji: 越頭, en: "turn one's head, look back"}
+  - {tailo: pháinn-mih-á, hanji: 歹物仔, en: "evil thing, ghost"}
+  - {tailo: thiòng, hanji: 暢, en: "delighted, having fun"}
+  - {tailo: âng-mn̂g-thôo, hanji: 紅毛塗, en: "cement, concrete"}
+  - {tailo: hāu-senn, hanji: 後生, en: "son"}
+  - {tailo: kiò-sī, hanji: 叫是, en: "wrongly think"}
+  - {tailo: ka-līng, hanji: 鵁鴒, en: "crested mynah"}
+exercises:
+  translate:
+    - {tailo: "Guán ē lia̍h kuí tsiah tńg--khì, khǹg tī báng-tà lāi-té.", hanji: "阮會掠幾隻轉去，囥佇蠓罩內底。", en: "We'd catch a few and take them home, and let them loose inside the mosquito net."}
+    - {tailo: "Thâu--á a-bú ē mē; lo̍h-bué i mā suî-tsāi--guán.", hanji: "頭仔阿母會罵；落尾伊嘛隨在阮。", en: "At first Mother would scold us; in the end she let us do as we liked."}
+    - {tailo: "Guán khiâ thih-bé kuè pōng-khang, lóng m̄ kánn ua̍t-thâu.", hanji: "阮騎鐵馬過磅空，攏毋敢越頭。", en: "We rode our bikes through the tunnel and never dared look back."}
+    - {tailo: "Sió-tī kiânn bô lōo tō beh lâng āinn.", hanji: "小弟行無路就欲人偝。", en: "As soon as my little brother got tired he wanted a piggyback."}
+    - {tailo: "I kiò-sī hué-kim-koo sī kòo-sū-tsheh lāi-té tsiah ū ê mi̍h-kiānn.", hanji: "伊叫是火金蛄是故事冊內底才有的物件。", en: "He thought fireflies only existed in storybooks."}
+  fill:
+    - {tailo: "Kui-tīn lâng gia̍h-thâu khuànn, ___.", hanji: "規陣人攑頭看，___。", answer: "tshiò-hai-hai", answer_hanji: "笑咍咍", en: "We all looked up and laughed out loud."}
+    - {tailo: "Báng-á kui-tīn pue--lâi, ___ kah guán kui-sin-khu lóng sī.", hanji: "蠓仔規陣飛來，___甲阮規身軀攏是。", answer: "tìng", answer_hanji: "叮", en: "The mosquitoes came in swarms and bit us all over."}
+    - {tailo: "Guán hāu-senn kin-nî tsa̍p huè, i ___ hué-kim-koo sī kòo-sū-tsheh lāi-té tsiah ū ê.", hanji: "阮後生今年十歲，伊___火金蛄是故事冊內底才有的。", answer: "kiò-sī", answer_hanji: "叫是", en: "My son is ten this year, and he thought fireflies only existed in storybooks."}
+    - {tailo: "Ji̍t-thâu ___, tuā-lâng lóng tī tshiū-á-kha hioh-khùn.", hanji: "日頭___，大人攏佇樹仔跤歇睏。", answer: "tshiah-iānn-iānn", answer_hanji: "赤焱焱", en: "With the sun blazing, the grown-ups rested under the trees."}
+    - {tailo: "Guá ê hong-tshue hōo hong tshue kah tn̄g--khì, guá tsáu khì ___.", hanji: "我的風吹予風吹甲斷去，我走去___。", answer: "jiok", answer_hanji: "逐", en: "The wind snapped my kite's string, and I ran after it."}
+audio: []

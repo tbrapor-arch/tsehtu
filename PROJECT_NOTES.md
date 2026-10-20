@@ -6,7 +6,7 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 ## Status
 - **Lessons:** all 100 written (`course/lessons/`), following `course/syllabus.yaml`. Lesson 0 is
   `000-reading-tailo.md`. Review lessons: 7, 14, …, 98.
-- **Part 2, 進修 Perfectionnement** (in progress): 70 longer lessons in varied genres, P1 published. Spec, method and handover: `docs/perfectionnement-plan.md`.
+- **Part 2, 進修 Perfectionnement** (in progress): 70 longer lessons in varied genres, P1 published, P2–P7 written (branch `perfectionnement-p2-p7`). Spec, method and handover: `docs/perfectionnement-plan.md`.
 - **Themes:** one (`health`). The Themes tab is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
 - **Coverage** (after lesson 100): top 100: 100 %, top 300: 97 %, top 1,000: 88 % (72 % after 63). The plan's 95 % target for the top 1,000 was not reached. Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).

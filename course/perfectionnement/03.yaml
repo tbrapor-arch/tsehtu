@@ -1,0 +1,116 @@
+id: 3
+title: {en: "Love the flower, love the pot", tailo: "Sioh hue liân phûn, thiànn kiánn liân sun", hanji: "惜花連盆，疼囝連孫"}
+genre: letter
+review: false
+setting: "Late summer. A letter from A-má in Tainan to Sam in Taipei. Her eyes are no longer good, so A-má speaks and A-kong writes it down."
+dialogue:
+  - {n: 1, hanji: "Sam 孫仔：", tailo: "Sam sun-á:", en: "Dear Sam, my boy,"}
+  - {n: 2, hanji: "你舊年寒天寫予阮的彼張批，阿媽到今猶囥佇身軀邊，有閒就提出來看。", tailo: "Lí kū-nî kuânn-thinn siá hōo guán ê hit tiunn phue, a-má kàu-tann iáu khǹg tī sin-khu-pinn, ū-îng tō the̍h--tshut-lâi khuànn.", en: "The letter you wrote us last winter I still keep with me, and whenever I have a moment I take it out and read it."}
+  - {n: 3, hanji: "這張批是阿媽講，阿公代筆。阿媽的目睭無好，戴目鏡嘛看無偌清楚。", tailo: "Tsit tiunn phue sī a-má kóng, a-kong tāi-pit. A-má ê ba̍k-tsiu bô hó, tì ba̍k-kiànn mā khuànn bô guā tshing-tshó.", en: "I'm saying this letter and A-kong is writing it for me. My eyes aren't good any more; even with my glasses I can't see very clearly."}
+  - {n: 4, hanji: "你一个人佇臺北，三頓有食飽無？外口的物件較鹹較油，你愛張持。", tailo: "Lí tsi̍t ê lâng tī Tâi-pak, sann tǹg ū tsia̍h pá--bô? Guā-kháu ê mi̍h-kiānn khah kiâm khah iû, lí ài tiunn-tî.", en: "You're on your own in Taipei: are you eating properly, three meals a day? Food from outside is saltier and greasier, so be careful."}
+  - {n: 5, hanji: "阿明講你逐日攏加班，暗時轉去攏遐晏，阿媽聽著真操煩。", tailo: "A-bîng kóng lí ta̍k-ji̍t lóng ka-pan, àm-sî tńg-khì lóng hiah uànn, a-má thiann--tio̍h tsin tshau-huân.", en: "A-bîng says you work overtime every day and get home so late. It worries me to hear it."}
+  - {n: 6, hanji: "毋過阿公講，少年人拍拚是應該的，叫我莫傷掛心。", tailo: "M̄-koh a-kong kóng, siàu-liân-lâng phah-piànn sī ing-kai--ê, kiò guá mài siunn khuà-sim.", en: "But A-kong says it's right for young people to work hard, and tells me not to fret so much."}
+  - {n: 7, hanji: "阮兩个老的攏真勇健，你免煩惱。", tailo: "Guán nn̄g ê lāu--ê lóng tsin ióng-kiānn, lí bián huân-ló.", en: "We two old folk are both hale and hearty, so don't you worry."}
+  - {n: 8, hanji: "干焦阿公的跤頭趺較袂堪得，若落雨就會痠。", tailo: "Kan-na a-kong ê kha-thâu-u khah bē-kham-tit, nā lo̍h-hōo tō ē sng.", en: "Only A-kong's knees aren't what they were: they ache whenever it rains."}
+  - {n: 9, hanji: "伊去補喙齒，前後補一个月日，這馬咬塗豆攏無問題矣。", tailo: "I khì póo tshuì-khí, tsîng-āu póo tsi̍t ê gue̍h-ji̍t, tsit-má kā thôo-tāu lóng bô būn-tê--ah.", en: "He had his teeth fixed, a whole month of it from start to finish, and now he can crunch peanuts with no trouble at all."}
+  - {n: 10, hanji: "伊閣共喙鬚剃清氣，阿媽看伊加少年十歲。", tailo: "I koh kā tshuì-tshiu thì tshing-khì, a-má khuànn i ke siàu-liân tsa̍p huè.", en: "He's also shaved off his beard; to me he looks ten years younger."}
+  - {n: 11, hanji: "阿媽的頭毛已經白了了矣，毋過猶是逐日透早去菜園沃水。", tailo: "A-má ê thâu-mn̂g í-king pe̍h--liáu-liáu--ah, m̄-koh iáu-sī ta̍k-ji̍t thàu-tsá khì tshài-hn̂g ak-tsuí.", en: "My hair has gone completely white, but I still go out to water the vegetable garden every morning."}
+  - {n: 12, hanji: "今年熱天，菜園的菜瓜佮匏仔生甲真濟，食袂了，攏分予厝邊頭尾。", tailo: "Kin-nî jua̍h-thinn, tshài-hn̂g ê tshài-kue kah pû-á senn kah tsin tsē, tsia̍h bē liáu, lóng pun hōo tshù-pinn-thâu-bué.", en: "This summer the loofahs and gourds in the garden grew so thick we couldn't eat them all, so we gave them away to the neighbours."}
+  - {n: 13, hanji: "塗豆嘛收成矣。阿公曝乾了後，欲寄一包予你做點心。", tailo: "Thôo-tāu mā siu-sîng--ah. A-kong pha̍k-kuann liáu-āu, beh kià tsi̍t pau hōo lí tsò tiám-sim.", en: "The peanuts are in too. Once A-kong has dried them in the sun, he'll post you a bag for snacks."}
+  - {n: 14, hanji: "阮飼的雞母逐日生一粒卵；雞公逐工透早佇窗仔外口啼，比時鐘閣較準。", tailo: "Guán tshī ê ke-bó ta̍k-ji̍t senn tsi̍t lia̍p nn̄g; ke-kang ta̍k-kang thàu-tsá tī thang-á guā-kháu thî, pí sî-tsing koh khah tsún.", en: "Our hen lays an egg every day, and the rooster crows outside the window every morning, more reliable than a clock."}
+  - {n: 15, hanji: "隔壁阿嫂的查某囝舊年大腹肚，頂禮拜生囝矣，生一个查埔嬰仔。", tailo: "Keh-piah a-só ê tsa-bóo-kiánn kū-nî tuā-pak-tóo, tíng lé-pài senn-kiánn--ah, senn tsi̍t ê tsa-poo enn-á.", en: "The neighbour's daughter, who was expecting since last year, had her baby last week: a little boy."}
+  - {n: 16, hanji: "阿嫂做外媽矣，歡喜甲逐工抱孫仔佇巷仔口行來行去。", tailo: "A-só tsò guā-má--ah, huann-hí kah ta̍k-kang phō sun-á tī hāng-á-kháu kiânn-lâi-kiânn-khì.", en: "Our neighbour's a grandmother now, and so pleased she walks up and down at the end of the lane every day with the baby in her arms."}
+  - {n: 17, hanji: "阿明佮美玲的好日已經揀好矣，佇十月。", tailo: "A-bîng kah Bí-lîng ê hó-ji̍t í-king kíng hó--ah, tī tsa̍p--gue̍h.", en: "A-bîng and Bí-lîng have chosen their wedding day: it's in October."}
+  - {n: 18, hanji: "美玲的老爸老母，就是阿明的丈人佮丈姆，頂禮拜有來臺南食飯。", tailo: "Bí-lîng ê lāu-pē lāu-bú, tō sī A-bîng ê tiūnn-lâng kah tiūnn-ḿ, tíng lé-pài ū lâi Tâi-lâm tsia̍h-pn̄g.", en: "Bí-lîng's parents, A-bîng's future in-laws, came to Tainan for a meal last week."}
+  - {n: 19, hanji: "阿公佮親家兩个啉甲面紅紅，親姆佮阿媽講甲袂煞。", tailo: "A-kong kah tshin-ke nn̄g ê lim kah bīn âng-âng, tshenn-ḿ kah a-má kóng kah bē suah.", en: "A-kong and Bí-lîng's father drank until they were red in the face, and her mother and I talked and talked."}
+  - {n: 20, hanji: "美玲嘛真貼心，逐禮拜攏敲電話來共阮問好。", tailo: "Bí-lîng mā tsin tah-sim, ta̍k lé-pài lóng khà tiān-uē lâi kā guán mn̄g hó.", en: "Bí-lîng is a dear too: she phones every week to see how we are."}
+  - {n: 21, hanji: "阮疼阿明，當然嘛疼美玲。俗語講：惜花連盆，疼囝連孫。", tailo: "Guán thiànn A-bîng, tong-jiân mā thiànn Bí-lîng. Sio̍k-gí kóng: sioh hue liân phûn, thiànn kiánn liân sun.", en: "We love A-bîng, so of course we love Bí-lîng too. As the saying goes: love the flower, love the pot; love your child, love your grandchild."}
+  - {n: 22, hanji: "下個月阮欲去臺北，佮阿明做陣去美玲𪜶兜，順紲去看你蹛的所在。", tailo: "Ē kò gue̍h guán beh khì Tâi-pak, kah A-bîng tsò-tīn khì Bí-lîng in tau, sūn-suà khì khuànn lí tuà ê sóo-tsāi.", en: "Next month we're coming to Taipei, to go with A-bîng to Bí-lîng's family, and we'll drop by to see where you live."}
+  - {n: 23, hanji: "會記得：天氣變化大，衫愛加穿一領；菜嘛愛食，毋通干焦食肉。", tailo: "Ē-kì--tit: thinn-khì piàn-huà tuā, sann ài ke tshīng tsi̍t niá; tshài mā ài tsia̍h, m̄-thang kan-na tsia̍h bah.", en: "Remember: the weather changes a lot, so wear an extra layer; and eat your vegetables too, not just meat."}
+  - {n: 24, hanji: "你罕得敲電話轉來。阿媽幾若禮拜聽無你的聲，心肝頭就毋知按怎。", tailo: "Lí hán-tit khà tiān-uē tńg--lâi. A-má kuí-nā lé-pài thiann bô lí ê siann, sim-kuann-thâu tō m̄ tsai án-tsuánn.", en: "You seldom phone home. When I go weeks without hearing your voice, I feel all out of sorts."}
+  - {n: 25, hanji: "祝你身體勇健，工課順序。", tailo: "Tsiok lí sin-thé ióng-kiānn, khang-khuè sūn-sī.", en: "Wishing you good health and that your work goes smoothly."}
+  - {n: 26, hanji: "阿媽（阿公代筆），八月初三", tailo: "A-má (a-kong tāi-pit), peh--gue̍h tshe-sann", en: "A-má (written by A-kong), the third day of the eighth month"}
+notes:
+  - {ref: 1, topic: culture, text: "A letter in Taigi opens with the name and a colon. 孫仔 sun-á = grandchild; A-má uses it for Sam, who is not family by blood, as a mark of affection. It also means nephew or niece. Letters (批 phue, lesson 13; more formally 批信 phue-sìn) are rare now, which makes this one precious."}
+  - {ref: 2, topic: vocab, text: "舊年 kū-nî = last year (去年); 寒天 kuânn-thinn = winter, 熱天 jua̍h-thinn (line 12) = summer. The seasons are 春天, 熱天, 秋天, 寒天. 身軀邊 sin-khu-pinn = with one, on one's person."}
+  - {ref: 3, topic: vocab, text: "代筆 tāi-pit = write for someone else. 目鏡 ba̍k-kiànn = glasses: 戴目鏡 tì ba̍k-kiànn 'wear glasses'. 看無偌清楚 'can't see very clearly' (無偌 + adjective, as in 進修 2)."}
+  - {ref: 4, topic: vocab, text: "三頓 sann tǹg = the three meals (三餐): 頓 tǹg is the classifier for meals. 張持 tiunn-tî = be careful, watch out (小心), Taigi-only: 過路愛張持 'be careful crossing the road'."}
+  - {ref: 5, topic: vocab, text: "操煩 tshau-huân = worry, fret (操心煩惱); 掛心 khuà-sim (line 6) = be anxious about someone. Both are stronger than 煩惱 huân-ló. 逐日 ta̍k-ji̍t = every day, a written-style twin of 逐工."}
+  - {ref: 7, topic: vocab, text: "勇健 ióng-kiānn = hale, in good health (said especially of older people): 阿公猶真勇健 'A-kong is still going strong'. 老的 lāu--ê = the old folk; 兩个老的 'the two of us old ones'."}
+  - {ref: 8, topic: vocab, text: "跤頭趺 kha-thâu-u = knee. 袂堪得 bē-kham-tit = can't take it, isn't up to it any more (受不了). 痠 sng = ache (the dull ache of muscles and joints), the same sound as 酸 sng 'sour'."}
+  - {ref: 9, topic: vocab, text: "喙齒 tshuì-khí = teeth (牙齒); 補喙齒 póo tshuì-khí = have dental work; 假喙齒 ké-tshuì-khí = dentures. 月日 gue̍h-ji̍t = a month's time: 一个月日 'a whole month'. 塗豆 thôo-tāu = peanuts (花生), literally 'earth beans'."}
+  - {ref: 10, topic: vocab, text: "喙鬚 tshuì-tshiu = beard, moustache. 剃 thì = shave. 加少年十歲 'ten years younger': 加 ke + adjective + amount = more … by."}
+  - {ref: 11, topic: grammar, text: "白了了 pe̍h--liáu-liáu 'all white': --了了 --liáu-liáu after a verb or adjective means 'completely, all gone' (食了了 'eaten up', 開了了 'spent it all'), in neutral tone. 頭毛 thâu-mn̂g = hair (頭髮); 沃水 ak-tsuí = water (plants)."}
+  - {ref: 12, topic: vocab, text: "菜瓜 tshài-kue = loofah, sponge gourd (絲瓜), eaten young; 匏仔 pû-á = bottle gourd. Both grow on trellises in Taiwanese gardens. 食袂了 tsia̍h bē liáu = can't eat them all."}
+  - {ref: 13, topic: vocab, text: "曝乾 pha̍k-kuann = dry in the sun (曝 pha̍k 'expose to the sun'). 點心 tiám-sim = snack."}
+  - {ref: 14, topic: vocab, text: "雞母 ke-bó = hen, 雞公 ke-kang = rooster: in Taigi the sex comes after the animal (鴨母 'duck', 豬公 'boar'). 生卵 senn nn̄g = lay eggs; 啼 thî = crow (also 'cry, weep')."}
+  - {ref: 15, topic: vocab, text: "大腹肚 tuā-pak-tóo = pregnant ('big belly'); 生囝 senn-kiánn = give birth. 嬰仔 enn-á = baby; 查埔嬰仔 'a baby boy'. 阿嫂 a-só = elder brother's wife; also a friendly way to address a married woman of the neighbourhood."}
+  - {ref: 16, topic: vocab, text: "外媽 guā-má = maternal grandmother (外婆): the baby is her daughter's child. 孫仔 = grandchild. 巷仔口 hāng-á-kháu = the end of the lane. 行來行去 kiânn-lâi-kiânn-khì = walk up and down."}
+  - {ref: 17, topic: culture, text: "好日 hó-ji̍t = an auspicious day, especially for a wedding; families still choose it with an almanac or a fortune-teller. 揀 kíng = choose (lesson 67)."}
+  - {ref: 18, topic: vocab, text: "丈人 tiūnn-lâng = father-in-law and 丈姆 tiūnn-ḿ = mother-in-law, said by a man of his wife's parents. Between the two sets of parents: 親家 tshin-ke (the other father) and 親姆 tshenn-ḿ (the other mother), line 19. Note the reading tshenn in 親姆."}
+  - {ref: 19, topic: grammar, text: "講甲袂煞 kóng kah bē suah = talk without stopping: 袂煞 'can't stop'. 面紅紅 bīn âng-âng = red in the face."}
+  - {ref: 20, topic: false-friend, text: "貼心 tah-sim = close, affectionate, considerate (also 'sweetheart'). The reading is tah, not thiap: 貼 tah 'stick'. 問好 mn̄g hó = send one's regards, ask after someone."}
+  - {ref: 21, topic: culture, text: "惜花連盆，疼囝連孫 'cherish the flower and its pot too; love your child and your grandchild too': love for someone extends to those close to them (愛屋及烏). A proverb from the MOE dictionary. 惜 sioh = cherish, love tenderly."}
+  - {ref: 22, topic: vocab, text: "做陣 tsò-tīn = together, in company (一起), a neighbour of 鬥陣 (lesson 43). 下個月 ē kò gue̍h = next month."}
+  - {ref: 23, topic: grammar, text: "會記得 ē-kì--tit = remember, don't forget (記得): 會記得 + instruction is a gentle reminder. 一領 tsi̍t niá = one garment (領 niá, classifier for shirts and jackets). Careful: 食菜 tsia̍h-tshài as one word usually means 'be vegetarian'; A-má writes 菜嘛愛食 'eat vegetables too' to avoid that."}
+  - {ref: 24, topic: vocab, text: "罕得 hán-tit = seldom, rarely (難得); at the end of a phrase it is read hán--tit. 心肝頭 sim-kuann-thâu = (in) one's heart. 幾若 kuí-nā = several."}
+  - {ref: 25, topic: culture, text: "Closing wishes: 祝你身體勇健 'wishing you good health'. 順序 sūn-sī = going smoothly (順利): note the reading sī. 八月初三 = the 3rd of the 8th lunar month; older people date letters by the lunar calendar."}
+new_words:
+  - {tailo: sun-á, hanji: 孫仔, en: "grandchild"}
+  - {tailo: kū-nî, hanji: 舊年, en: "last year"}
+  - {tailo: kuânn-thinn, hanji: 寒天, en: "winter"}
+  - {tailo: jua̍h-thinn, hanji: 熱天, en: "summer"}
+  - {tailo: sin-khu-pinn, hanji: 身軀邊, en: "with one, on one's person"}
+  - {tailo: tāi-pit, hanji: 代筆, en: "write for someone"}
+  - {tailo: ba̍k-kiànn, hanji: 目鏡, en: "glasses"}
+  - {tailo: sann tǹg, hanji: 三頓, en: "three meals a day"}
+  - {tailo: tiunn-tî, hanji: 張持, en: "be careful"}
+  - {tailo: tshau-huân, hanji: 操煩, en: "worry, fret"}
+  - {tailo: khuà-sim, hanji: 掛心, en: "be anxious about"}
+  - {tailo: ta̍k-ji̍t, hanji: 逐日, en: "every day"}
+  - {tailo: ióng-kiānn, hanji: 勇健, en: "hale and hearty"}
+  - {tailo: kha-thâu-u, hanji: 跤頭趺, en: "knee"}
+  - {tailo: bē-kham-tit, hanji: 袂堪得, en: "can't take it, not up to it"}
+  - {tailo: sng, hanji: 痠, en: "ache"}
+  - {tailo: tshuì-khí, hanji: 喙齒, en: "tooth, teeth"}
+  - {tailo: gue̍h-ji̍t, hanji: 月日, en: "a month's time"}
+  - {tailo: thôo-tāu, hanji: 塗豆, en: "peanut"}
+  - {tailo: tshuì-tshiu, hanji: 喙鬚, en: "beard, moustache"}
+  - {tailo: thâu-mn̂g, hanji: 頭毛, en: "hair"}
+  - {tailo: liáu-liáu, hanji: 了了, en: "completely, all gone"}
+  - {tailo: ak-tsuí, hanji: 沃水, en: "water (plants)"}
+  - {tailo: tshài-kue, hanji: 菜瓜, en: "loofah, sponge gourd"}
+  - {tailo: pû-á, hanji: 匏仔, en: "bottle gourd"}
+  - {tailo: pha̍k-kuann, hanji: 曝乾, en: "dry in the sun"}
+  - {tailo: ke-bó, hanji: 雞母, en: "hen"}
+  - {tailo: ke-kang, hanji: 雞公, en: "rooster"}
+  - {tailo: thî, hanji: 啼, en: "crow; cry"}
+  - {tailo: tuā-pak-tóo, hanji: 大腹肚, en: "pregnant"}
+  - {tailo: senn-kiánn, hanji: 生囝, en: "give birth"}
+  - {tailo: enn-á, hanji: 嬰仔, en: "baby"}
+  - {tailo: a-só, hanji: 阿嫂, en: "elder brother's wife"}
+  - {tailo: guā-má, hanji: 外媽, en: "maternal grandmother"}
+  - {tailo: hó-ji̍t, hanji: 好日, en: "auspicious day; wedding day"}
+  - {tailo: tiūnn-lâng, hanji: 丈人, en: "father-in-law (wife's father)"}
+  - {tailo: tiūnn-ḿ, hanji: 丈姆, en: "mother-in-law (wife's mother)"}
+  - {tailo: tshin-ke, hanji: 親家, en: "co-father-in-law"}
+  - {tailo: tshenn-ḿ, hanji: 親姆, en: "co-mother-in-law"}
+  - {tailo: tah-sim, hanji: 貼心, en: "close, considerate"}
+  - {tailo: tsò-tīn, hanji: 做陣, en: "together"}
+  - {tailo: hán-tit, hanji: 罕得, en: "seldom, rarely"}
+  - {tailo: sim-kuann-thâu, hanji: 心肝頭, en: "one's heart"}
+  - {tailo: sūn-sī, hanji: 順序, en: "smooth, going well"}
+exercises:
+  translate:
+    - {tailo: "Lí tsi̍t ê lâng tī Tâi-pak, sann tǹg ū tsia̍h pá--bô?", hanji: "你一个人佇臺北，三頓有食飽無？", en: "You're on your own in Taipei: are you eating properly?"}
+    - {tailo: "Kan-na a-kong ê kha-thâu-u khah bē-kham-tit.", hanji: "干焦阿公的跤頭趺較袂堪得。", en: "Only A-kong's knees aren't what they were."}
+    - {tailo: "A-má ê thâu-mn̂g í-king pe̍h--liáu-liáu--ah.", hanji: "阿媽的頭毛已經白了了矣。", en: "My hair has gone completely white."}
+    - {tailo: "Guán thiànn A-bîng, tong-jiân mā thiànn Bí-lîng.", hanji: "阮疼阿明，當然嘛疼美玲。", en: "We love A-bîng, so of course we love Bí-lîng too."}
+    - {tailo: "Lí hán-tit khà tiān-uē tńg--lâi.", hanji: "你罕得敲電話轉來。", en: "You seldom phone home."}
+  fill:
+    - {tailo: "Guā-kháu ê mi̍h-kiānn khah kiâm khah iû, lí ài ___.", hanji: "外口的物件較鹹較油，你愛___。", answer: "tiunn-tî", answer_hanji: "張持", en: "Food from outside is saltier and greasier, so be careful."}
+    - {tailo: "Guán nn̄g ê lāu--ê lóng tsin ___.", hanji: "阮兩个老的攏真___。", answer: "ióng-kiānn", answer_hanji: "勇健", en: "We two old folk are both hale and hearty."}
+    - {tailo: "Kiò guá mài siunn ___.", hanji: "叫我莫傷___。", answer: "khuà-sim", answer_hanji: "掛心", en: "He tells me not to fret so much."}
+    - {tailo: "Ke-kang ta̍k-kang thàu-tsá tī thang-á guā-kháu ___.", hanji: "雞公逐工透早佇窗仔外口___。", answer: "thî", answer_hanji: "啼", en: "The rooster crows outside the window every morning."}
+    - {tailo: "A-bîng kah Bí-lîng ê ___ í-king kíng hó--ah.", hanji: "阿明佮美玲的___已經揀好矣。", answer: "hó-ji̍t", answer_hanji: "好日", en: "A-bîng and Bí-lîng have chosen their wedding day."}
+audio: []

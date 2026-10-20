@@ -1,0 +1,120 @@
+id: 5
+title: {en: "Money, charm, looks and youth", tailo: "It tshiân, jī iân, sann suí, sì siàu-liân", hanji: "一錢，二緣，三媠，四少年"}
+genre: interview
+review: false
+setting: "A Sunday-morning programme on a Tainan radio station. The host talks to A-khîm-î, who has been a matchmaker for fifty years."
+dialogue:
+  - {n: 1, speaker: Host, hanji: "各位聽眾，逐家好。今仔日阮請著一位特別的來賓：做五十冬媒人婆的阿琴姨。", tailo: "Kok-uī thiann-tsiòng, ta̍k-ke hó. Kin-á-ji̍t guán tshiánn-tio̍h tsi̍t uī ti̍k-pia̍t ê lâi-pin: tsò gōo-tsa̍p tang muê-lâng-pô ê A-khîm-î.", en: "Good morning, listeners. Today we have a special guest: A-khîm-î, who has been a matchmaker for fifty years."}
+  - {n: 2, speaker: A-khîm, hanji: "逐家好！我十八歲嫁翁，二十五歲開始做媒人，講成的親情強欲有三百對。", tailo: "Ta̍k-ke hó! Guá tsa̍p-peh huè kè-ang, jī-tsa̍p-gōo huè khai-sí tsò muê-lâng, kóng-sîng ê tshin-tsiânn kiōng-beh ū sann-pah tuì.", en: "Hello everyone! I married at eighteen, started matchmaking at twenty-five, and I've arranged nearly three hundred matches."}
+  - {n: 3, speaker: Host, hanji: "三百對！彼陣的人敢攏是靠媒人？", tailo: "Sann-pah tuì! Hit-tsūn ê lâng kám lóng sī khò muê-lâng?", en: "Three hundred! Did everyone rely on matchmakers back then?"}
+  - {n: 4, speaker: A-khîm, hanji: "往過查某囡仔欲嫁翁，攏是序大做主。查埔彼爿會先探聽，查某彼爿嘛會探聽。", tailo: "Íng-kuè tsa-bóo gín-á beh kè-ang, lóng sī sī-tuā tsò-tsú. Tsa-poo hit pîng ē sing thàm-thiann, tsa-bóo hit pîng mā ē thàm-thiann.", en: "In the old days, when a girl was to marry, the elders decided. The man's side made enquiries first, and the woman's side made enquiries too."}
+  - {n: 5, speaker: A-khîm, hanji: "探聽啥物？探聽這个人古意無、性地好無、有貧惰無。", tailo: "Thàm-thiann siánn-mih? Thàm-thiann tsit ê lâng kóo-ì--bô, sìng-tē hó--bô, ū pîn-tuānn--bô.", en: "Enquiries about what? Whether the person was honest, good-tempered, and whether they were lazy."}
+  - {n: 6, speaker: Host, hanji: "我聽講閣愛合八字？", tailo: "Guá thiann-kóng koh ài ha̍p peh-jī?", en: "I've heard you also had to match the horoscopes?"}
+  - {n: 7, speaker: A-khîm, hanji: "著。八字若合，兩家就約一工對看。查埔的坐佇廳裡，查某囡仔捀茶出來。", tailo: "Tio̍h. Peh-jī nā ha̍p, nn̄g ka tō iok tsi̍t kang tuì-khuànn. Tsa-poo--ê tsē tī thiann--lí, tsa-bóo gín-á phâng tê tshut--lâi.", en: "That's right. If the horoscopes matched, the two families set a day for the young people to meet. The man sat in the main room, and the girl brought out the tea."}
+  - {n: 8, speaker: A-khîm, hanji: "彼時查某囡仔誠歹勢，頭攏犁犁，干焦用目尾偷看。", tailo: "Hit-sî tsa-bóo gín-á tsiânn pháinn-sè, thâu lóng lê-lê, kan-na iōng ba̍k-bué thau khuànn.", en: "In those days girls were very shy. They kept their heads down and only stole glances out of the corner of their eye."}
+  - {n: 9, speaker: Host, hanji: "按呢看會清楚無？", tailo: "Án-ne khuànn ē tshing-tshó--bô?", en: "Could they see him properly like that?"}
+  - {n: 10, speaker: A-khîm, hanji: "看無清楚啦！有的人是拜堂了後，才知影翁婿生做啥款。", tailo: "Khuànn bô tshing-tshó--lah! Ū--ê lâng sī pài-tn̂g liáu-āu, tsiah tsai-iánn ang-sài senn-tsò siánn-khuán.", en: "Not at all! Some only found out what their husband looked like after the wedding."}
+  - {n: 11, speaker: Host, hanji: "敢有人嫌伊歹看？", tailo: "Kám ū lâng hiâm i pháinn-khuànn?", en: "Did anyone complain he was ugly?"}
+  - {n: 12, speaker: A-khîm, hanji: "有喔！有一个查某囡仔，別个媒人共伊講查埔的真緣投，結果拜堂才知影是一个大箍呆。", tailo: "Ū--ooh! Ū tsi̍t ê tsa-bóo gín-á, pa̍t ê muê-lâng kā i kóng tsa-poo--ê tsin iân-tâu, kiat-kó pài-tn̂g tsiah tsai-iánn sī tsi̍t ê tuā-khoo-tai.", en: "Oh yes! There was one girl whose matchmaker, not me, told her the man was very handsome, and at the wedding she found he was a great fat lump."}
+  - {n: 13, speaker: Host, hanji: "按呢彼个媒人毋就足歹勢？", tailo: "Án-ne hit ê muê-lâng m̄-tō tsiok pháinn-sè?", en: "Wasn't that matchmaker terribly embarrassed?"}
+  - {n: 14, speaker: A-khîm, hanji: "（笑微微）所以人講：「媒人喙，糊瘰瘰。」毋過我攏講實話，我是較古意的媒人。", tailo: "(Tshiò-bi-bi) Sóo-í lâng kóng: “Muê-lâng-tshuì, hôo-luì-luì.” M̄-koh guá lóng kóng si̍t-uē, guá sī khah kóo-ì ê muê-lâng.", en: "(Smiling) That's why they say a matchmaker's mouth will spin you any tale. But I always tell the truth: I'm one of the honest ones."}
+  - {n: 15, speaker: Host, hanji: "阿琴姨，往過的查埔人欲娶某，上要緊的條件是啥物？", tailo: "A-khîm-î, íng-kuè ê tsa-poo-lâng beh tshuā-bóo, siōng iàu-kín ê tiâu-kiānn sī siánn-mih?", en: "A-khîm-î, in the old days, what did a man most need to win a wife?"}
+  - {n: 16, speaker: A-khîm, hanji: "古早人講：一錢，二緣，三媠，四少年。", tailo: "Kóo-tsá lâng kóng: it tshiân, jī iân, sann suí, sì siàu-liân.", en: "The old saying goes: first money, second charm, third looks, fourth youth."}
+  - {n: 17, speaker: A-khîm, hanji: "頭一項是錢，第二是人緣，第三是生做媠，第四是少年。你看，媠佮少年攏排佇尾仔。", tailo: "Thâu tsi̍t hāng sī tsînn, tē-jī sī lâng-iân, tē-sann sī senn-tsò suí, tē-sì sī siàu-liân. Lí khuànn, suí kah siàu-liân lóng pâi tī bué--á.", en: "First comes money, then being likeable, then good looks, then youth. You see, looks and youth come last."}
+  - {n: 18, speaker: Host, hanji: "現此時呢？", tailo: "Hiān-tshú-sî--neh?", en: "And nowadays?"}
+  - {n: 19, speaker: A-khîm, hanji: "現此時的少年人時行用手機仔揣對象，家己揀翁婿、揀家後，阮媒人婆煞強欲無頭路矣！", tailo: "Hiān-tshú-sî ê siàu-liân-lâng sî-kiânn iōng tshiú-ki-á tshuē tuì-siōng, ka-kī kíng ang-sài, kíng ke-āu, guán muê-lâng-pô suah kiōng-beh bô thâu-lōo--ah!", en: "Young people nowadays find partners on their phones and choose their own husbands and wives. We matchmakers are almost out of work!"}
+  - {n: 20, speaker: A-khîm, hanji: "毋過條件無差偌濟。查某囡仔仝款欲揣一个好禮、有才調、會疼家後的人。", tailo: "M̄-koh tiâu-kiānn bô tsha guā-tsē. Tsa-bóo gín-á kāng-khuán beh tshuē tsi̍t ê hó-lé, ū tsâi-tiāu, ē thiànn ke-āu ê lâng.", en: "But what people look for hasn't changed much. Girls still want someone polite, capable, and good to his wife."}
+  - {n: 21, speaker: Host, hanji: "生做的款呢？敢有變？", tailo: "Senn-tsò ê khuán--neh? Kám ū piàn?", en: "What about looks? Has that changed?"}
+  - {n: 22, speaker: A-khîm, hanji: "時行逐年咧變。我少年的時，查埔人頭鬃抹油，穿甲真時行，號做烏狗兄；這馬時行瘦抽、目眉烏閣粗。", tailo: "Sî-kiânn ta̍k-nî teh piàn. Guá siàu-liân ê sî, tsa-poo-lâng thâu-tsang buah iû, tshīng kah tsin sî-kiânn, hō-tsò oo-káu-hiann; tsit-má sî-kiânn sán-thiu, ba̍k-bâi oo koh tshoo.", en: "Fashion changes every year. When I was young, men slicked their hair with oil, dressed in the latest style, and were called 'black dog brothers'; now it's tall and slim with thick dark eyebrows."}
+  - {n: 23, speaker: A-khîm, hanji: "查某囡仔往過喙脣抹一點仔胭脂就算真媠矣，這馬的化妝我攏看無。", tailo: "Tsa-bóo gín-á íng-kuè tshuì-tûn buah tsi̍t-tiám-á ian-tsi tō sǹg tsin suí--ah, tsit-má ê huà-tsong guá lóng khuànn bô.", en: "Girls used to count as beautiful with a dab of lipstick; today's make-up is beyond me."}
+  - {n: 24, speaker: A-khîm, hanji: "閣有，這馬拜堂，新郎提手指共新娘戴，閣當眾人面前唚落去。阮彼時，啥人敢！", tailo: "Koh-ū, tsit-má pài-tn̂g, sin-lông the̍h tshiú-tsí kā sin-niû tì, koh tng tsìng-lâng bīn-tsîng tsim--lo̍h-khì. Guán hit-sî, siánn-lâng kánn!", en: "And another thing: at weddings nowadays, the groom puts the ring on the bride and kisses her in front of everyone. In my day, who would have dared!"}
+  - {n: 25, speaker: Host, hanji: "阿琴姨，你做媒人遮久，有啥物話欲予少年人？", tailo: "A-khîm-î, lí tsò muê-lâng tsiah kú, ū siánn-mih uē beh hōo siàu-liân-lâng?", en: "A-khîm-î, after all your years as a matchmaker, what advice would you give young people?"}
+  - {n: 26, speaker: A-khîm, hanji: "嫁娶毋是兩个人的代誌。嫁翁有大家、大官，娶某有丈人、丈姆，攏愛好禮對待。", tailo: "Kè-tshuā m̄ sī nn̄g ê lâng ê tāi-tsì. Kè-ang ū ta-ke, ta-kuann, tshuā-bóo ū tiūnn-lâng, tiūnn-ḿ, lóng ài hó-lé tuì-thāi.", en: "Marriage isn't just about two people. Marry a man and you get his parents; marry a woman and you get hers. Treat them all with courtesy."}
+  - {n: 27, speaker: A-khîm, hanji: "聘金佮嫁粧攏是小事。翁仔某毋通佮別人比並，家己過甲好就好。", tailo: "Phìng-kim kah kè-tsng lóng sī sió-sū. Ang-á-bóo m̄-thang kah pa̍t-lâng pí-phīng, ka-kī kuè kah hó tō hó.", en: "Bride price and dowry are minor matters. A couple mustn't compare themselves with others; as long as they get on well, that's enough."}
+  - {n: 28, speaker: A-khîm, hanji: "啊，查某囡仔愛會記得：查埔的若是豬哥，看著別个查某就金金看，緊走！", tailo: "Ah, tsa-bóo gín-á ài ē-kì--tit: tsa-poo--ê nā-sī ti-ko, khuànn-tio̍h pa̍t ê tsa-bóo tō kim-kim-khuànn, kín tsáu!", en: "Oh, and girls, remember this: if a man is a lecher who stares at every other woman he sees, run!"}
+  - {n: 29, speaker: A-khîm, hanji: "俗語講：媒人保入房，無保一世人。會當久長抑袂，愛靠恁家己。", tailo: "Sio̍k-gí kóng: muê-lâng pó ji̍p pâng, bô pó tsi̍t-sì-lâng. Ē-tàng kú-tn̂g ia̍h bē, ài khò lín ka-kī.", en: "As the saying goes, the matchmaker sees you into the bridal chamber, not through the rest of your life. Whether it lasts is up to you."}
+  - {n: 30, speaker: Host, hanji: "多謝阿琴姨。聽眾朋友，咱下禮拜閣會。", tailo: "To-siā A-khîm-î. Thiann-tsiòng pîng-iú, lán ē lé-pài koh huē.", en: "Thank you, A-khîm-î. Dear listeners, until next week."}
+notes:
+  - {ref: 1, topic: vocab, text: "媒人婆 muê-lâng-pô = (woman) matchmaker; 媒人 muê-lâng (lesson 86) is the general word. 姨 î 'auntie' after a name is a polite, friendly way to address an older woman: 阿琴姨 A-khîm-î. 聽眾 thiann-tsiòng = listeners; 來賓 lâi-pin = guest."}
+  - {ref: 2, topic: vocab, text: "嫁翁 kè-ang = (of a woman) marry, 'marry a husband'; the man's verb is 娶某 tshuā-bóo (lesson 99). 講親情 kóng-tshin-tsiânn = arrange a match: here 親情 means 'a marriage', and 講成 'talk into being, settle'."}
+  - {ref: 4, topic: vocab, text: "探聽 thàm-thiann = make enquiries; in marriage it means checking up on the other family (their reputation, health, money). 做主 tsò-tsú = decide, have the final say. 查埔彼爿 / 查某彼爿 = the man's side / the woman's side."}
+  - {ref: 5, topic: vocab, text: "性地 sìng-tē = temper, character: 性地好 'good-natured', 性地歹 'bad-tempered', 起性地 'lose one's temper'. 貧惰 pîn-tuānn = lazy, Taigi-only (懶惰)."}
+  - {ref: 6, topic: culture, text: "八字 peh-jī = the 'eight characters' of one's birth date and hour, used in fortune-telling. Before an arranged match the two sets were compared (合八字 ha̍p peh-jī) to see whether the pair suited each other."}
+  - {ref: 7, topic: culture, text: "對看 tuì-khuànn = the formal first meeting of a prospective couple (相親). The custom: the girl serves tea, and when the guests hand back the cups, a man who likes her leaves a red envelope in his. 捀 phâng = carry in both hands (lesson 61). 廳 thiann = main room, hall."}
+  - {ref: 8, topic: vocab, text: "頭犁犁 thâu lê-lê = head bowed (from shyness or shame): 犁 lê is a plough and, as a verb, to bow low. 目尾 ba̍k-bué = the corner of the eye; also a glance, a look: 使目尾 'give someone a look'."}
+  - {ref: 10, topic: vocab, text: "拜堂 pài-tn̂g = the traditional wedding ceremony, bowing to Heaven and Earth and the parents; it can also mean a church. 翁婿 ang-sài = husband (said by a wife, a bit old-fashioned); 家後 ke-āu (line 19) = wife. 生做 senn-tsò = look, be built: 生做真媠 'is very pretty'. 啥款 siánn-khuán = what kind, what like."}
+  - {ref: 12, topic: vocab, text: "緣投 iân-tâu = handsome (of men only), Taigi-only. 大箍 tuā-khoo = fat, stout; 大箍呆 tuā-khoo-tai is an insult, 'fat oaf'. 歹看 pháinn-khuànn (line 11) = ugly; also 'embarrassing': 按呢真歹看 'that looks bad'."}
+  - {ref: 14, topic: culture, text: "笑微微 tshiò-bi-bi = smiling gently (笑瞇瞇). 媒人喙，糊瘰瘰, first heard in lesson 86: a matchmaker's word can't be trusted."}
+  - {ref: 15, topic: vocab, text: "條件 tiâu-kiānn = requirement, condition; in marriage talk, what someone has to offer (job, house, looks)."}
+  - {ref: 16, topic: culture, text: "一錢，二緣，三媠，四少年 'first money, second charm, third looks, fourth youth': what a man needs to win a woman, in order. A proverb from the MOE dictionary. Note the reading tshiân for 錢 here, not tsînn."}
+  - {ref: 17, topic: vocab, text: "人緣 lâng-iân = how much people like you, being likeable: 伊真有人緣 'everyone likes her'. 尾仔 bué--á = the end: 排佇尾仔 'come last'."}
+  - {ref: 18, topic: vocab, text: "現此時 hiān-tshú-sî = nowadays, at present, more formal than 這馬. Its opposite here is 往過 (進修 4)."}
+  - {ref: 19, topic: vocab, text: "時行 sî-kiânn = be in fashion, be popular (流行); 穿甲真時行 'dressed in the latest fashion'. 對象 tuì-siōng = a partner, someone to marry."}
+  - {ref: 20, topic: vocab, text: "好禮 hó-lé = courteous, considerate, well-mannered. 才調 tsâi-tiāu = ability, competence: 你有才調你來 'you do it, if you're so clever'. 差 tsha = differ: 無差偌濟 'not much different'."}
+  - {ref: 22, topic: culture, text: "烏狗兄 oo-káu-hiann 'black dog brother' = a dandy, a sharp dresser, an old word; a fashionable woman was an 烏貓 oo-niau 'black cat'. 頭鬃 thâu-tsang = hair, once especially long hair worn in a braid; today the same as 頭毛 (進修 3). 瘦抽 sán-thiu = tall and slim. 目眉 ba̍k-bâi = eyebrows."}
+  - {ref: 23, topic: vocab, text: "喙脣 tshuì-tûn = lips; 胭脂 ian-tsi = lipstick (older 'rouge'). 抹 buah = apply, spread on. 一點仔 tsi̍t-tiám-á = a tiny bit."}
+  - {ref: 24, topic: false-friend, text: "手指 tshiú-tsí = a ring (戒指), not a finger; a finger is 手指頭仔 tshiú-tsíng-thâu-á. 唚 tsim = kiss. 當眾人面前 'in front of everyone'."}
+  - {ref: 26, topic: vocab, text: "嫁娶 kè-tshuā = marriage ('marrying out and marrying in'). A married woman calls her husband's mother 大家 ta-ke and his father 大官 ta-kuann: a false friend, since 大家 here is not 'everyone' (that is 逐家 ta̍k-ke)."}
+  - {ref: 27, topic: culture, text: "聘金 phìng-kim = bride price, paid by the groom's family; 嫁粧 kè-tsng = dowry, what the bride brings. 比並 pí-phīng = compare (oneself), Taigi-only: 莫佮人比並 'don't compare yourself with others'. 翁仔某 ang-á-bóo = husband and wife, a couple."}
+  - {ref: 28, topic: vocab, text: "豬哥 ti-ko = a breeding boar, and so a lecher, a man who ogles women: 豬哥神 'a leer'. 金金看 (進修 2) kim-kim-khuànn = stare."}
+  - {ref: 29, topic: culture, text: "媒人保入房，無保一世人 'the matchmaker guarantees the bridal chamber, not a lifetime': every guarantee has its limits. A proverb from the MOE dictionary. 久長 kú-tn̂g = lasting, for a long time (長久)."}
+new_words:
+  - {tailo: muê-lâng-pô, hanji: 媒人婆, en: "matchmaker"}
+  - {tailo: thiann-tsiòng, hanji: 聽眾, en: "listeners, audience"}
+  - {tailo: lâi-pin, hanji: 來賓, en: "guest"}
+  - {tailo: kè-ang, hanji: 嫁翁, en: "(of a woman) marry"}
+  - {tailo: kóng-tshin-tsiânn, hanji: 講親情, en: "arrange a match"}
+  - {tailo: thàm-thiann, hanji: 探聽, en: "make enquiries"}
+  - {tailo: sìng-tē, hanji: 性地, en: "temper, character"}
+  - {tailo: pîn-tuānn, hanji: 貧惰, en: "lazy"}
+  - {tailo: peh-jī, hanji: 八字, en: "birth horoscope"}
+  - {tailo: tuì-khuànn, hanji: 對看, en: "formal first meeting (of a couple)"}
+  - {tailo: ba̍k-bué, hanji: 目尾, en: "corner of the eye; a look"}
+  - {tailo: pài-tn̂g, hanji: 拜堂, en: "wedding ceremony"}
+  - {tailo: ang-sài, hanji: 翁婿, en: "husband"}
+  - {tailo: senn-tsò, hanji: 生做, en: "look, be built (appearance)"}
+  - {tailo: siánn-khuán, hanji: 啥款, en: "what kind, what like"}
+  - {tailo: pháinn-khuànn, hanji: 歹看, en: "ugly; embarrassing"}
+  - {tailo: iân-tâu, hanji: 緣投, en: "handsome"}
+  - {tailo: tuā-khoo, hanji: 大箍, en: "fat, stout"}
+  - {tailo: tuā-khoo-tai, hanji: 大箍呆, en: "fat oaf"}
+  - {tailo: tshiò-bi-bi, hanji: 笑微微, en: "smiling gently"}
+  - {tailo: tiâu-kiānn, hanji: 條件, en: "requirement, condition"}
+  - {tailo: lâng-iân, hanji: 人緣, en: "likeability, popularity"}
+  - {tailo: hiān-tshú-sî, hanji: 現此時, en: "nowadays"}
+  - {tailo: sî-kiânn, hanji: 時行, en: "fashionable; be in fashion"}
+  - {tailo: tuì-siōng, hanji: 對象, en: "partner (to marry)"}
+  - {tailo: ke-āu, hanji: 家後, en: "wife"}
+  - {tailo: hó-lé, hanji: 好禮, en: "courteous, considerate"}
+  - {tailo: tsâi-tiāu, hanji: 才調, en: "ability, competence"}
+  - {tailo: thâu-tsang, hanji: 頭鬃, en: "hair"}
+  - {tailo: oo-káu-hiann, hanji: 烏狗兄, en: "dandy, sharp dresser"}
+  - {tailo: sán-thiu, hanji: 瘦抽, en: "tall and slim"}
+  - {tailo: ba̍k-bâi, hanji: 目眉, en: "eyebrow"}
+  - {tailo: tshuì-tûn, hanji: 喙脣, en: "lips"}
+  - {tailo: ian-tsi, hanji: 胭脂, en: "lipstick, rouge"}
+  - {tailo: tshiú-tsí, hanji: 手指, en: "ring"}
+  - {tailo: tsim, hanji: 唚, en: "kiss"}
+  - {tailo: kè-tshuā, hanji: 嫁娶, en: "marriage"}
+  - {tailo: ta-ke, hanji: 大家, en: "mother-in-law (husband's mother)"}
+  - {tailo: ta-kuann, hanji: 大官, en: "father-in-law (husband's father)"}
+  - {tailo: phìng-kim, hanji: 聘金, en: "bride price"}
+  - {tailo: kè-tsng, hanji: 嫁粧, en: "dowry"}
+  - {tailo: pí-phīng, hanji: 比並, en: "compare"}
+  - {tailo: ang-á-bóo, hanji: 翁仔某, en: "husband and wife"}
+  - {tailo: ti-ko, hanji: 豬哥, en: "lecher; breeding boar"}
+  - {tailo: kú-tn̂g, hanji: 久長, en: "lasting, long-lasting"}
+exercises:
+  translate:
+    - {tailo: "Thàm-thiann tsit ê lâng kóo-ì--bô, sìng-tē hó--bô, ū pîn-tuānn--bô.", hanji: "探聽這个人古意無、性地好無、有貧惰無。", en: "Find out whether the person is honest, good-tempered, and whether they're lazy."}
+    - {tailo: "Ū--ê lâng sī pài-tn̂g liáu-āu, tsiah tsai-iánn ang-sài senn-tsò siánn-khuán.", hanji: "有的人是拜堂了後，才知影翁婿生做啥款。", en: "Some only found out what their husband looked like after the wedding."}
+    - {tailo: "Tsa-bóo gín-á kāng-khuán beh tshuē tsi̍t ê hó-lé, ū tsâi-tiāu ê lâng.", hanji: "查某囡仔仝款欲揣一个好禮、有才調的人。", en: "Girls still want someone polite and capable."}
+    - {tailo: "Ang-á-bóo m̄-thang kah pa̍t-lâng pí-phīng.", hanji: "翁仔某毋通佮別人比並。", en: "A couple mustn't compare themselves with others."}
+    - {tailo: "Ē-tàng kú-tn̂g ia̍h bē, ài khò lín ka-kī.", hanji: "會當久長抑袂，愛靠恁家己。", en: "Whether it lasts is up to you."}
+  fill:
+    - {tailo: "Guá tsa̍p-peh huè ___, jī-tsa̍p-gōo huè khai-sí tsò muê-lâng.", hanji: "我十八歲___，二十五歲開始做媒人。", answer: "kè-ang", answer_hanji: "嫁翁", en: "I married at eighteen and started matchmaking at twenty-five."}
+    - {tailo: "Tsa-bóo gín-á thâu lóng lê-lê, kan-na iōng ___ thau khuànn.", hanji: "查某囡仔頭攏犁犁，干焦用___偷看。", answer: "ba̍k-bué", answer_hanji: "目尾", en: "The girls kept their heads down and only stole glances from the corner of their eye."}
+    - {tailo: "Siàu-liân-lâng ___ iōng tshiú-ki-á tshuē tuì-siōng.", hanji: "少年人___用手機仔揣對象。", answer: "sî-kiânn", answer_hanji: "時行", en: "It's the fashion for young people to find partners on their phones."}
+    - {tailo: "Muê-lâng kā i kóng tsa-poo--ê tsin ___.", hanji: "媒人共伊講查埔的真___。", answer: "iân-tâu", answer_hanji: "緣投", en: "The matchmaker told her the man was very handsome."}
+    - {tailo: "Sin-lông the̍h ___ kā sin-niû tì.", hanji: "新郎提___共新娘戴。", answer: "tshiú-tsí", answer_hanji: "手指", en: "The groom puts the ring on the bride."}
+audio: []

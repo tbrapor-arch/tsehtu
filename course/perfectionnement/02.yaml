@@ -1,0 +1,113 @@
+id: 2
+title: {en: "Heaven looks after simple souls", tailo: "Thinn-kong thiànn gōng-lâng", hanji: "天公疼戇人"}
+genre: tale
+review: false
+setting: "A folk tale of the kind grandparents tell, written for this course. A poor woodcutter digs up a jar of gold, and a rich neighbour wants it."
+dialogue:
+  - {n: 1, hanji: "古早古早，內山有一个庄頭，庄頭內底蹛一个少年人，名叫阿土。", tailo: "Kóo-tsá kóo-tsá, lāi-suann ū tsi̍t ê tsng-thâu, tsng-thâu lāi-té tuà tsi̍t ê siàu-liân-lâng, miâ kiò A-thóo.", en: "Long, long ago, deep in the mountains there was a village, and in that village lived a young man called A-thóo."}
+  - {n: 2, hanji: "阿土厝內真散凶，逐工透早就去山頂剉柴，擔落去山跤賣，趁食飼某囝。", tailo: "A-thóo tshù-lāi tsin sàn-hiong, ta̍k-kang thàu-tsá tō khì suann-tíng tshò-tshâ, tann lo̍h-khì suann-kha bē, thàn-tsia̍h tshī bóo-kiánn.", en: "A-thóo's family was very poor. Every day at dawn he went up the mountain to cut wood and carried it down to the foot of the mountain to sell, scraping a living to feed his wife and children."}
+  - {n: 3, hanji: "伊人真古意，講話戇戇，庄頭的人攏叫伊「戇土」，有的人閣真看輕伊。", tailo: "I lâng tsin kóo-ì, kóng-uē gōng-gōng, tsng-thâu ê lâng lóng kiò i “Gōng-thóo”, ū--ê lâng koh tsin khuànn-khin--i.", en: "He was an honest soul and a bit slow of speech. The villagers all called him 'Simple Thóo', and some of them looked down on him."}
+  - {n: 4, hanji: "伊的序大干焦留一坵田予伊，毋過塗真歹，種啥物都袂大。", tailo: "I ê sī-tuā kan-na lâu tsi̍t khu tshân hōo--i, m̄-koh thôo tsin pháinn, tsìng siánn-mih to bē tuā.", en: "His elders had left him nothing but one plot of land, and the soil was so poor that nothing would grow on it."}
+  - {n: 5, hanji: "有一工，伊佇田裡用鋤頭掘塗，掘無偌深，煞掘著一个甕仔。", tailo: "Ū tsi̍t kang, i tī tshân--lí iōng tî-thâu ku̍t thôo, ku̍t bô guā tshim, suah ku̍t-tio̍h tsi̍t ê àng-á.", en: "One day, as he was turning the soil with his hoe, he hadn't dug very deep when he struck a jar."}
+  - {n: 6, hanji: "伊共甕仔的蓋掀開，內底規甕攏是金仔！", tailo: "I kā àng-á ê kuà hian-khui, lāi-té kui àng lóng sī kim-á!", en: "He lifted the lid, and the whole jar was full of gold!"}
+  - {n: 7, hanji: "阿土驚一趒，險險跋倒。伊想：「這毋知是啥人囥佇遮的寶貝，我毋通提。」", tailo: "A-thóo kiann-tsi̍t-tiô, hiám-hiám pua̍h-tó. I siūnn: “Tse m̄ tsai sī siánn-lâng khǹg tī tsia ê pó-puè, guá m̄-thang the̍h.”", en: "A-thóo jumped and nearly fell over. He thought: 'Someone must have hidden this treasure here. I mustn't take it.'"}
+  - {n: 8, hanji: "伊轉去佮𪜶某參詳。𪜶某講：「咱雖然散凶，毋過毋是咱的，就毋通提。你去庄頭問看覓。」", tailo: "I tńg-khì kah in bóo tsham-siông. In bóo kóng: “Lán sui-jiân sàn-hiong, m̄-koh m̄ sī lán--ê, tō m̄-thang the̍h. Lí khì tsng-thâu mn̄g khuànn-māi.”", en: "He went home to talk it over with his wife. She said: 'We may be poor, but if it isn't ours we mustn't take it. Go and ask around the village.'"}
+  - {n: 9, hanji: "庄頭有一个好額人，家伙真大，毋過人真貪心。伊聽著這个消息，連鞭想一个計智。", tailo: "Tsng-thâu ū tsi̍t ê hó-gia̍h-lâng, ke-hué tsin tuā, m̄-koh lâng tsin tham-sim. I thiann-tio̍h tsit ê siau-sit, liâm-mi siūnn tsi̍t ê kè-tì.", en: "In the village lived a rich man with a great fortune, but he was a greedy man. When he heard the news, he came up with a scheme on the spot."}
+  - {n: 10, hanji: "伊刁工走來阿土𪜶兜，講：「彼坵田早前是阮祖公的，甕仔內的金仔當然是阮的。」", tailo: "I thiau-kang tsáu lâi A-thóo in tau, kóng: “Hit khu tshân tsá-tsîng sī guán tsóo-kong--ê, àng-á lāi ê kim-á tong-jiân sī guán--ê.”", en: "He made a special trip to A-thóo's house and said: 'That field belonged to my ancestors long ago, so of course the gold in the jar is mine.'"}
+  - {n: 11, hanji: "阿土問：「敢有影？」好額人講：「我敢佇公媽頭前咒誓。若是無影，予雷公摃死！」", tailo: "A-thóo mn̄g: “Kám ū-iánn?” Hó-gia̍h-lâng kóng: “Guá kánn tī kong-má thâu-tsîng tsiù-tsuā. Nā-sī bô-iánn, hōo luî-kong kòng--sí!”", en: "'Is that true?' asked A-thóo. 'I'll swear it before my ancestors' tablets,' said the rich man. 'If it isn't true, may lightning strike me dead!'"}
+  - {n: 12, hanji: "阿土想：人都咒誓矣，應該袂騙人。伊規氣共規甕金仔予伊。", tailo: "A-thóo siūnn: lâng to tsiù-tsuā--ah, ing-kai bē phiàn--lâng. I kui-khì kā kui àng kim-á hōo--i.", en: "A-thóo thought: he's sworn an oath, he can't be lying. So he simply gave him the whole jar of gold."}
+  - {n: 13, hanji: "庄頭的人攏笑伊：「戇土實在有夠戇，好好的金仔送予人，家己克虧。」", tailo: "Tsng-thâu ê lâng lóng tshiò--i: “Gōng-thóo si̍t-tsāi ū-kàu gōng, hó-hó ê kim-á sàng hōo lâng, ka-kī khik-khui.”", en: "The whole village laughed at him: 'Simple Thóo really is simple. Giving away perfectly good gold and losing out himself!'"}
+  - {n: 14, hanji: "好額人歡喜甲強欲飛起來，叫兩个辛勞共甕仔扛轉去。", tailo: "Hó-gia̍h-lâng huann-hí kah kiōng-beh pue--khí-lâi, kiò nn̄g ê sin-lô kā àng-á kng--tńg-khì.", en: "The rich man was so happy he could almost fly, and had two of his hired men carry the jar home."}
+  - {n: 15, hanji: "轉到厝，伊共門關起來，喘一下氣，才共蓋掀開。", tailo: "Tńg kàu tshù, i kā mn̂g kuainn--khí-lâi, tshuán tsi̍t-ē khuì, tsiah kā kuà hian-khui.", en: "Back home he shut the door, caught his breath, and only then lifted the lid."}
+  - {n: 16, hanji: "這擺內底無金仔，干焦一大堆塗佮石頭，閣有一尾蛇對內底趖出來！", tailo: "Tsit pái lāi-té bô kim-á, kan-na tsi̍t-tuā-tui thôo kah tsio̍h-thâu, koh ū tsi̍t bué tsuâ uì lāi-té sô--tshut-lâi!", en: "This time there was no gold inside, only a heap of earth and stones, and a snake came slithering out!"}
+  - {n: 17, hanji: "好額人驚甲險險昏去。伊想：「一定是戇土共金仔換去矣。」", tailo: "Hó-gia̍h-lâng kiann kah hiám-hiám hūn--khì. I siūnn: “It-tīng sī Gōng-thóo kā kim-á uānn--khì--ah.”", en: "The rich man was so frightened he nearly fainted. He thought: 'Simple Thóo must have swapped the gold.'"}
+  - {n: 18, hanji: "伊氣甲半小死，叫辛勞共甕仔扛去阿土𪜶兜，欲對伊的厝內倒落去，創治伊。", tailo: "I khì kah puànn-sió-sí, kiò sin-lô kā àng-á kng khì A-thóo in tau, beh uì i ê tshù-lāi tò--lo̍h-khì, tshòng-tī--i.", en: "Furious, he had his men carry the jar to A-thóo's house to tip it out all over his floor and get even with him."}
+  - {n: 19, hanji: "毋過甕仔一下倒，倒出來的煞閣變做金仔，倒甲規厝間攏是。", tailo: "M̄-koh àng-á tsi̍t-ē tò, tò--tshut-lâi ê suah koh piàn-tsò kim-á, tò kah kui tshù-king lóng sī.", en: "But the moment the jar was tipped, what poured out had turned back into gold, and it spilled all over the room."}
+  - {n: 20, hanji: "好額人看甲金金看，一句話都講袂出來。", tailo: "Hó-gia̍h-lâng khuànn kah kim-kim-khuànn, tsi̍t kù uē to kóng bē tshut--lâi.", en: "The rich man could only stare, unable to get a single word out."}
+  - {n: 21, hanji: "阿土猶是無貪心。伊講：「這原在毋是我的，咱分予庄頭較散凶的人。」", tailo: "A-thóo iáu-sī bô tham-sim. I kóng: “Tse guân-tsāi m̄ sī guá--ê, lán pun hōo tsng-thâu khah sàn-hiong ê lâng.”", en: "A-thóo was still not greedy. He said: 'This still isn't mine. Let's share it out among the poorest people in the village.'"}
+  - {n: 22, hanji: "庄頭的人知影了後，攏毋敢閣看輕伊；好額人嘛無好膽閣來。", tailo: "Tsng-thâu ê lâng tsai-iánn liáu-āu, lóng m̄ kánn koh khuànn-khin--i; hó-gia̍h-lâng mā bô hó-tánn koh lâi.", en: "Once the villagers heard, none of them dared look down on him again, and the rich man never had the nerve to come back."}
+  - {n: 23, hanji: "阿土照常逐工去剉柴，勤儉過日，毋過𪜶某囝已經毋免閣枵。", tailo: "A-thóo tsiàu-siông ta̍k-kang khì tshò-tshâ, khîn-khiām kuè-ji̍t, m̄-koh in bóo-kiánn í-king m̄-bián koh iau.", en: "A-thóo went on cutting wood every day as before and lived frugally, but his wife and children never went hungry again."}
+  - {n: 24, hanji: "到今，庄頭的序大若欲教示囡仔，猶是會講這个故事，上尾仔閣加一句：", tailo: "Kàu-tann, tsng-thâu ê sī-tuā nā beh kà-sī gín-á, iáu-sī ē kóng tsit ê kòo-sū, siōng-bué-á koh ke tsi̍t kù:", en: "To this day, when the village elders want to teach the children a lesson, they still tell this story, and at the end they add one line:"}
+  - {n: 25, hanji: "天公疼戇人。", tailo: "Thinn-kong thiànn gōng-lâng.", en: "Heaven looks after simple souls.", source: moe}
+notes:
+  - {ref: 1, topic: culture, text: "古早古早 kóo-tsá kóo-tsá 'long, long ago' is how tales begin, like 從前從前. 內山 lāi-suann = deep in the mountains, the remote interior; 庄頭 tsng-thâu = village, settlement (庄跤 tsng-kha is 'the countryside' in general)."}
+  - {ref: 2, topic: vocab, text: "散凶 sàn-hiong = poor, a neighbour of 散赤 (lesson 60). 剉柴 tshò-tshâ = cut firewood: 剉 tshò is to hack with a slanting blow. 趁食 thàn-tsia̍h = earn a living (謀生). Careful: the MOE gives a second sense, 'live by prostitution'; in 趁食飼某囝 the context makes the meaning plain. 某囝 bóo-kiánn = wife and children."}
+  - {ref: 2, topic: vocab, text: "擔 tann = carry on a shoulder pole. 山頂 suann-tíng 'on the mountain' and 山跤 suann-kha 'the foot of the mountain': 跤 kha 'foot' is used for the bottom of things."}
+  - {ref: 3, topic: false-friend, text: "古意 kóo-ì means honest, simple and kind (忠厚老實), not 'old-fashioned' or 'ancient feel' as in Mandarin 古意. 看輕 khuànn-khin = look down on (輕視). 戇戇 gōng-gōng = dazed, a bit slow."}
+  - {ref: 4, topic: vocab, text: "序大 sī-tuā = one's elders, the senior generation (長輩); the opposite is 序細 sī-sè. 坵 khu = classifier for plots of land: 一坵田 'a field'. 塗 thôo = soil, earth."}
+  - {ref: 5, topic: vocab, text: "鋤頭 tî-thâu = hoe; 掘 ku̍t = dig, turn the soil (with a hoe). 甕仔 àng-á = earthenware jar. 掘無偌深 'didn't dig very deep': 無偌 + adjective = not very."}
+  - {ref: 6, topic: vocab, text: "蓋 kuà (here) = lid; the same character is read kah 'to cover' and kài 'very'. 掀開 hian-khui = lift off, open (a lid, a book). 規甕 kui àng 'the whole jar': 規 + classifier or container = the whole …"}
+  - {ref: 7, topic: vocab, text: "驚一趒 kiann-tsi̍t-tiô = jump with fright (嚇一跳). 險險 hiám-hiám = very nearly (差一點): 險險跋倒 'nearly fell over'. 寶貝 pó-puè = treasure; also a pet name for a child or sweetheart."}
+  - {ref: 8, topic: grammar, text: "參詳 tsham-siông = talk over, consult (商量), Taigi-only: 我想欲佮你參詳一項代誌 'there's something I'd like to talk over with you'. 𪜶某 in bóo 'his wife': 𪜶 is the plural pronoun used as a possessive, like 阮 / 恁."}
+  - {ref: 9, topic: vocab, text: "好額人 hó-gia̍h-lâng = a rich man (好額 'rich', lesson 57). 家伙 ke-hué = family fortune, property: a false friend of Mandarin 傢伙 'guy, tool'. 貪心 tham-sim = greedy. 連鞭 liâm-mi = at once, in a moment (馬上). 計智 kè-tì = a scheme, a trick."}
+  - {ref: 10, topic: vocab, text: "刁工 thiau-kang has two meanings: 'specially, on purpose' (我刁工來看你 'I came specially to see you') and 'deliberately' with a bad intention. Here both fit. 早前 tsá-tsîng = formerly. 祖公 tsóo-kong = ancestors; in a curse it is a coarse insult, so keep it for family history."}
+  - {ref: 11, topic: culture, text: "公媽 kong-má = the ancestors, and the ancestral tablets on the family altar. Swearing an oath (咒誓 tsiù-tsuā) before them is serious. 予雷公摃死 'may the thunder god strike me dead' is a set oath: 雷公 luî-kong = thunder (the thunder god), 摃 kòng = strike, hit hard. 無影 bô-iánn = untrue, 'no such thing', the opposite of 有影."}
+  - {ref: 13, topic: vocab, text: "克虧 khik-khui = lose out, get the worse deal (吃虧); it can also mean 'poor thing, hard done by': 伊真克虧 'it's unfair on her'. 好好的 hó-hó ê = perfectly good."}
+  - {ref: 14, topic: grammar, text: "強欲 kiōng-beh = almost, on the point of (幾乎要): 歡喜甲強欲飛起來 'so happy he nearly took off'. Compare 險險 (line 7), used for something that nearly happened by accident. 辛勞 sin-lô = hired hand, farm worker (a false friend: not 'toil')."}
+  - {ref: 15, topic: grammar, text: "喘一下氣 tshuán tsi̍t-ē khuì 'take a breath': 喘氣 tshuán-khuì (breathe; take a short rest) splits around 一下, like 洗一下身軀."}
+  - {ref: 16, topic: vocab, text: "一尾蛇 tsi̍t bué tsuâ 'a snake': 尾 bué is the classifier for fish and snakes. 趖 sô = crawl, slither (snakes, worms); also 'dawdle': 你莫佇遐趖 'stop dawdling'."}
+  - {ref: 18, topic: vocab, text: "半小死 puànn-sió-sí 'half dead' (氣甲半小死 'furious', 驚甲半小死 'scared stiff'). 倒 tò = pour, tip out; read tó, the same character means 'fall over' (跋倒). 創治 tshòng-tī = play a nasty trick on, bully (捉弄、欺負)."}
+  - {ref: 20, topic: vocab, text: "金金看 kim-kim-khuànn = stare, look fixedly (注視): 看甲金金看 'stared and stared'."}
+  - {ref: 21, topic: grammar, text: "原在 guân-tsāi = still, as before (仍舊): 物件原在囥佇遐 'the things are still where they were'. 分 pun = share out, hand out."}
+  - {ref: 22, topic: vocab, text: "好膽 hó-tánn = bold, brave; often with an edge: 你誠好膽！ 'You've got a nerve!'. 無好膽 'not dare'. 毋敢 m̄ kánn = dare not."}
+  - {ref: 23, topic: vocab, text: "勤儉 khîn-khiām = hard-working and thrifty, the classic Taiwanese virtue. 過日 kuè-ji̍t = get by, live one's days."}
+  - {ref: 24, topic: vocab, text: "教示 kà-sī = teach (someone) a lesson, instruct (教訓): a false friend of Mandarin 教示 'instruction' in religious texts. 到今 kàu-tann = to this day, up to now."}
+  - {ref: 25, topic: culture, text: "天公疼戇人 'Heaven loves the simple-minded': the honest and naive are protected in the end. 天公 Thinn-kong = Heaven, the Jade Emperor; his birthday, 天公生, is the 9th day of the first lunar month. 戇人 gōng-lâng = a simpleton. Quoted from the MOE dictionary."}
+new_words:
+  - {tailo: Thinn-kong, hanji: 天公, en: "Heaven, the Jade Emperor"}
+  - {tailo: gōng-lâng, hanji: 戇人, en: "simpleton"}
+  - {tailo: kóo-tsá, hanji: 古早, en: "long ago, old times"}
+  - {tailo: lāi-suann, hanji: 內山, en: "deep in the mountains"}
+  - {tailo: tsng-thâu, hanji: 庄頭, en: "village"}
+  - {tailo: sàn-hiong, hanji: 散凶, en: "poor"}
+  - {tailo: tshò-tshâ, hanji: 剉柴, en: "cut firewood"}
+  - {tailo: thàn-tsia̍h, hanji: 趁食, en: "earn a living"}
+  - {tailo: bóo-kiánn, hanji: 某囝, en: "wife and children"}
+  - {tailo: kóo-ì, hanji: 古意, en: "honest, simple and kind"}
+  - {tailo: khuànn-khin, hanji: 看輕, en: "look down on"}
+  - {tailo: sī-tuā, hanji: 序大, en: "one's elders"}
+  - {tailo: khu, hanji: 坵, en: "(classifier for plots of land)"}
+  - {tailo: tî-thâu, hanji: 鋤頭, en: "hoe"}
+  - {tailo: ku̍t, hanji: 掘, en: "dig"}
+  - {tailo: àng-á, hanji: 甕仔, en: "earthenware jar"}
+  - {tailo: kim-á, hanji: 金仔, en: "gold"}
+  - {tailo: hiám-hiám, hanji: 險險, en: "very nearly"}
+  - {tailo: pó-puè, hanji: 寶貝, en: "treasure; darling"}
+  - {tailo: tsham-siông, hanji: 參詳, en: "talk over, consult"}
+  - {tailo: hó-gia̍h-lâng, hanji: 好額人, en: "rich person"}
+  - {tailo: ke-hué, hanji: 家伙, en: "family fortune, property"}
+  - {tailo: tham-sim, hanji: 貪心, en: "greedy"}
+  - {tailo: liâm-mi, hanji: 連鞭, en: "at once, in a moment"}
+  - {tailo: kè-tì, hanji: 計智, en: "scheme, trick"}
+  - {tailo: thiau-kang, hanji: 刁工, en: "specially; deliberately"}
+  - {tailo: tsá-tsîng, hanji: 早前, en: "formerly, before"}
+  - {tailo: tsóo-kong, hanji: 祖公, en: "ancestors"}
+  - {tailo: kong-má, hanji: 公媽, en: "ancestors; ancestral tablets"}
+  - {tailo: tsiù-tsuā, hanji: 咒誓, en: "swear an oath"}
+  - {tailo: bô-iánn, hanji: 無影, en: "untrue, not so"}
+  - {tailo: khik-khui, hanji: 克虧, en: "lose out; hard done by"}
+  - {tailo: kiōng-beh, hanji: 強欲, en: "almost, about to"}
+  - {tailo: sin-lô, hanji: 辛勞, en: "hired hand"}
+  - {tailo: tshuán-khuì, hanji: 喘氣, en: "breathe; take a breather"}
+  - {tailo: sô, hanji: 趖, en: "crawl, slither; dawdle"}
+  - {tailo: tshòng-tī, hanji: 創治, en: "play a nasty trick on"}
+  - {tailo: kim-kim-khuànn, hanji: 金金看, en: "stare"}
+  - {tailo: guân-tsāi, hanji: 原在, en: "still, as before"}
+  - {tailo: hó-tánn, hanji: 好膽, en: "bold; have the nerve"}
+  - {tailo: khîn-khiām, hanji: 勤儉, en: "hard-working and thrifty"}
+  - {tailo: kà-sī, hanji: 教示, en: "teach a lesson, instruct"}
+  - {tailo: kàu-tann, hanji: 到今, en: "to this day, until now"}
+exercises:
+  translate:
+    - {tailo: "Lán sui-jiân sàn-hiong, m̄-koh m̄ sī lán--ê, tō m̄-thang the̍h.", hanji: "咱雖然散凶，毋過毋是咱的，就毋通提。", en: "We may be poor, but if it isn't ours we mustn't take it."}
+    - {tailo: "I kui-khì kā kui àng kim-á hōo--i.", hanji: "伊規氣共規甕金仔予伊。", en: "He simply gave him the whole jar of gold."}
+    - {tailo: "Hó-gia̍h-lâng kiann kah hiám-hiám hūn--khì.", hanji: "好額人驚甲險險昏去。", en: "The rich man was so frightened he nearly fainted."}
+    - {tailo: "Tse guân-tsāi m̄ sī guá--ê.", hanji: "這原在毋是我的。", en: "This still isn't mine."}
+    - {tailo: "Tsng-thâu ê lâng lóng m̄ kánn koh khuànn-khin--i.", hanji: "庄頭的人攏毋敢閣看輕伊。", en: "None of the villagers dared look down on him again."}
+  fill:
+    - {tailo: "I tńg-khì kah in bóo ___.", hanji: "伊轉去佮𪜶某___。", answer: "tsham-siông", answer_hanji: "參詳", en: "He went home to talk it over with his wife."}
+    - {tailo: "I ___ siūnn tsi̍t ê kè-tì.", hanji: "伊___想一个計智。", answer: "liâm-mi", answer_hanji: "連鞭", en: "He came up with a scheme on the spot."}
+    - {tailo: "Guá ___ lâi khuànn--lí.", hanji: "我___來看你。", answer: "thiau-kang", answer_hanji: "刁工", en: "I came specially to see you."}
+    - {tailo: "Hó-gia̍h-lâng huann-hí kah ___ pue--khí-lâi.", hanji: "好額人歡喜甲___飛起來。", answer: "kiōng-beh", answer_hanji: "強欲", en: "The rich man was so happy he could almost fly."}
+    - {tailo: "Hó-hó ê kim-á sàng hōo lâng, ka-kī ___.", hanji: "好好的金仔送予人，家己___。", answer: "khik-khui", answer_hanji: "克虧", en: "Giving away perfectly good gold and losing out himself."}
+audio: []

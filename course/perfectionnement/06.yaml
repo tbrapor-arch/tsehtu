@@ -1,0 +1,119 @@
+id: 6
+title: {en: "The big clean-up", tailo: "Tuā-piànn-sàu", hanji: "大摒掃"}
+genre: play
+review: false
+setting: "A comedy in one act. Saturday morning in Sam's flat in Taipei: A-má and A-kong arrive tomorrow (進修 3) and the place is a mess. A-ióng and A-tshun have come to help."
+dialogue:
+  - {n: 1, speaker: A-ióng, hanji: "（門一下開）哇，Sam，你這間厝是去予風颱掃過喔？", tailo: "(Mn̂g tsi̍t-ē khui) Uah, Sam, lí tsit king tshù sī khì hōo hong-thai sàu--kuè--ooh?", en: "(The door opens) Wow, Sam, did a typhoon sweep through your flat?"}
+  - {n: 2, speaker: Sam, hanji: "歹勢啦。這個月工課傷無閒，規个厝亂操操。明仔載阮阿媽就欲來矣。", tailo: "Pháinn-sè--lah. Tsit kò gue̍h khang-khuè siunn bô-îng, kui-ê tshù luān-tshau-tshau. Bîn-á-tsài guán a-má tō beh lâi--ah.", en: "Sorry. Work's been too busy this month, and the whole place is a tip. And my grandma's coming tomorrow."}
+  - {n: 3, speaker: A-tshun, hanji: "莫驚，咱三个做伙，一个下晡就摒好勢矣。今仔日大摒掃！", tailo: "Mài kiann, lán sann ê tsò-hué, tsi̍t ê ē-poo tō piànn hó-sè--ah. Kin-á-ji̍t tuā-piànn-sàu!", en: "Don't panic. With the three of us it'll be sorted in an afternoon. Today it's the big clean-up!"}
+  - {n: 4, speaker: A-ióng, hanji: "好，我來指揮。逐項攏聽我的！", tailo: "Hó, guá lâi tsí-hui. Ta̍k hāng lóng thiann guá--ê!", en: "Right, I'm in charge. Everyone does as I say!"}
+  - {n: 5, speaker: A-tshun, hanji: "你？恁兜敢有較清氣？……好啦，隨在你。", tailo: "Lí? Lín tau kám ū khah tshing-khì? …… Hó--lah, suî-tsāi--lí.", en: "You? Is your place any cleaner? …Oh, all right, have it your way."}
+  - {n: 6, speaker: A-ióng, hanji: "頭一項：塗跤的物件先提起來，囥佇桌頂。", tailo: "Thâu tsi̍t hāng: thôo-kha ê mi̍h-kiānn sing the̍h--khí-lâi, khǹg tī toh-tíng.", en: "Step one: pick everything up off the floor and put it on the table."}
+  - {n: 7, speaker: Sam, hanji: "桌頂早就囥甲滇矣。", tailo: "Toh-tíng tsá tō khǹg kah tīnn--ah.", en: "The table's been piled full for ages."}
+  - {n: 8, speaker: A-ióng, hanji: "按呢就囥椅仔頂。衫仔褲先擲入去布袋，等一下才揀。", tailo: "Án-ne tō khǹg í-á tíng. Sann-á-khòo sing tàn--ji̍p-khì pòo-tē, tán--tsi̍t-ē tsiah kíng.", en: "Then put it on the chairs. Throw the clothes into a sack first; we'll sort them later."}
+  - {n: 9, speaker: A-tshun, hanji: "（共屜仔敨開）Sam，你這个屜仔內底是啥物？鉸刀、電池、薰……你閣咧食薰？", tailo: "(Kā thuah-á tháu--khui) Sam, lí tsit ê thuah-á lāi-té sī siánn-mih? Ka-to, tiān-tî, hun…… Lí koh teh tsia̍h-hun?", en: "(Pulling a drawer open) Sam, what's in this drawer? Scissors, batteries, cigarettes… You still smoke?"}
+  - {n: 10, speaker: Sam, hanji: "無啦，彼是朋友囥的。我早就無食矣。", tailo: "Bô--lah, he sī pîng-iú khǹg--ê. Guá tsá tō bô tsia̍h--ah.", en: "No, those are a friend's. I gave up ages ago."}
+  - {n: 11, speaker: A-tshun, hanji: "無食就擲掉，囥佇遐也無路用。", tailo: "Bô tsia̍h tō tàn-tiāu, khǹg tī hia iā bô lōo-īng.", en: "Then throw them out. Keeping them there is no use to anyone."}
+  - {n: 12, speaker: A-ióng, hanji: "（佇冊櫥頭前）哇，遮濟冊！你這个冊櫥比圖書館閣較滇。", tailo: "(Tī tsheh-tû thâu-tsîng) Uah, tsiah tsē tsheh! Lí tsit ê tsheh-tû pí tôo-su-kuán koh khah tīnn.", en: "(In front of the bookcase) Wow, so many books! Your bookcase is fuller than a library."}
+  - {n: 13, speaker: Sam, hanji: "彼攏是台語的冊，我一本都毋甘擲。", tailo: "He lóng sī Tâi-gí ê tsheh, guá tsi̍t pún to m̄-kam tàn.", en: "They're all Taigi books. I can't bear to throw out a single one."}
+  - {n: 14, speaker: A-tshun, hanji: "冊毋免擲，排予好勢就好。大本的囥下底，細本的囥頂面。", tailo: "Tsheh m̄-bián tàn, pâi hōo hó-sè tō hó. Tuā pún--ê khǹg ē-té, sè pún--ê khǹg tíng-bīn.", en: "No need to throw the books out, just arrange them neatly. Big ones at the bottom, small ones on top."}
+  - {n: 15, speaker: A-ióng, hanji: "來，Sam，咱共冊櫥徙去邊仔，伊的下底嘛愛摒。一、二、三，出力！", tailo: "Lâi, Sam, lán kā tsheh-tû suá khì pinn--á, i ê ē-té mā ài piànn. It, jī, sann, tshut-la̍t!", en: "Come on, Sam, let's shift the bookcase to one side, we need to clean under it too. One, two, three, heave!"}
+  - {n: 16, speaker: Sam, hanji: "噯，遮重！我規身軀的氣力攏用了了矣。", tailo: "Aih, tsiah tāng! Guá kui-sin-khu ê khuì-la̍t lóng iōng--liáu-liáu--ah.", en: "Oof, it's so heavy! I've used up every ounce of strength I've got."}
+  - {n: 17, speaker: A-tshun, hanji: "（大聲喝咻）啊！虼蚻！冊櫥下底有一隻虼蚻！", tailo: "(Tuā-siann huah-hiu) Ah! Ka-tsua̍h! Tsheh-tû ē-té ū tsi̍t tsiah ka-tsua̍h!", en: "(Shrieking) Aah! A cockroach! There's a cockroach under the bookcase!"}
+  - {n: 18, speaker: A-ióng, hanji: "一隻虼蚻爾爾，驚啥？……啊！閣有一隻鳥鼠！", tailo: "Tsi̍t tsiah ka-tsua̍h niā-niā, kiann siánn? …… Ah! Koh ū tsi̍t tsiah niáu-tshí!", en: "It's only a cockroach, what are you scared of? …Aah! And a rat!"}
+  - {n: 19, speaker: Sam, hanji: "（跳起來）鳥鼠佇佗位？", tailo: "(Thiàu--khí-lâi) Niáu-tshí tī tó-uī?", en: "(Jumping up) Where's the rat?"}
+  - {n: 20, speaker: A-ióng, hanji: "伊勼入去壁空內底矣。Sam，你蹛遮遐久，敢毋知影？", tailo: "I kiu--ji̍p-khì piah-khang lāi-té--ah. Sam, lí tuà tsia hiah kú, kám m̄ tsai-iánn?", en: "It's squeezed itself into a hole in the wall. Sam, you've lived here all this time and you didn't know?"}
+  - {n: 21, speaker: Sam, hanji: "我叫是彼是樓頂的人咧行路的聲……", tailo: "Guá kiò-sī he sī lâu-tíng ê lâng teh kiânn-lōo ê siann……", en: "I thought it was the people upstairs walking about…"}
+  - {n: 22, speaker: A-tshun, hanji: "（拍噗仔）好矣好矣，莫佇遐戇戇徛。阿勇，你嘛是：", tailo: "(Phah-phok-á) Hó--ah hó--ah, mài tī hia gōng-gōng khiā. A-ióng, lí mā sī:", en: "(Clapping her hands) Come on, come on, don't just stand there. You too, A-ióng:"}
+  - {n: 23, speaker: A-tshun, hanji: "小徙跤咧，人咧摒掃。", tailo: "Sió suá-kha--leh, lâng teh piànn-sàu.", en: "Shift your feet, someone's cleaning here.", source: moe}
+  - {n: 24, speaker: A-ióng, hanji: "（徙椅仔，挵著物件）……歹勢，我共你一矸酒拍破去矣。", tailo: "(Suá í-á, lòng-tio̍h mi̍h-kiānn) …… Pháinn-sè, guá kā lí tsi̍t kan tsiú phah-phuà--khì--ah.", en: "(Moving a chair, he bumps into something) …Sorry, I've broken one of your bottles."}
+  - {n: 25, speaker: Sam, hanji: "彼是阮阿公予我的酒！內底猶賰一半！", tailo: "He sī guán a-kong hōo guá ê tsiú! Lāi-té iáu tshun tsi̍t-puànn!", en: "That was the drink my grandpa gave me! There was still half of it left!"}
+  - {n: 26, speaker: A-tshun, hanji: "這馬賰的攏流甲塗跤澹糊糊。阿勇，你毋是講逐項攏聽你的？", tailo: "Tsit-má tshun--ê lóng lâu kah thôo-kha tâm-kôo-kôo. A-ióng, lí m̄ sī kóng ta̍k hāng lóng thiann lí--ê?", en: "And now what was left is all over the floor. A-ióng, weren't you the one in charge?"}
+  - {n: 27, speaker: A-ióng, hanji: "好啦，所費我出，我閣買一矸予你。", tailo: "Hó--lah, sóo-huì guá tshut, guá koh bé tsi̍t kan hōo--lí.", en: "All right, I'll pay for it. I'll buy you another bottle."}
+  - {n: 28, speaker: Sam, hanji: "免啦。你若欲賠，就共規个厝拭予清氣，雙爿的窗仔嘛愛拭。", tailo: "Bián--lah. Lí nā beh puê, tō kā kui-ê tshù tshit hōo tshing-khì, siang-pîng ê thang-á mā ài tshit.", en: "No need. If you want to make it up to me, wipe the whole flat clean, and the windows on both sides too."}
+  - {n: 29, speaker: A-tshun, hanji: "（三點鐘後）好矣！你看，規个厝清氣甲。", tailo: "(Sann tiám-tsing āu) Hó--ah! Lí khuànn, kui-ê tshù tshing-khì kah.", en: "(Three hours later) Done! Look how clean the whole place is."}
+  - {n: 30, speaker: Sam, hanji: "多謝恁。若無恁，我一个人摒到明仔載嘛摒袂好。暗頓我請。", tailo: "To-siā--lín. Nā-bô lín, guá tsi̍t ê lâng piànn kàu bîn-á-tsài mā piànn bē hó. Àm-tǹg guá tshiánn.", en: "Thanks, you two. Without you I'd have been at it till tomorrow and still not finished. Dinner's on me."}
+  - {n: 31, speaker: A-ióng, hanji: "一頓暗頓無夠額喔，閣愛加一矸酒！", tailo: "Tsi̍t tǹg àm-tǹg bô kàu-gia̍h--ooh, koh ài ke tsi̍t kan tsiú!", en: "One dinner isn't enough, mind. Throw in a bottle too!"}
+  - {n: 32, speaker: Sam, hanji: "啊，毋過彼隻鳥鼠欲按怎？", tailo: "Ah, m̄-koh hit tsiah niáu-tshí beh án-tsuánn?", en: "Oh, but what about the rat?"}
+  - {n: 33, speaker: A-tshun, hanji: "彼就予恁阿媽處理。阿媽彼輩的人，啥物都毋驚。", tailo: "He tō hōo lín a-má tshú-lí. A-má hit puè ê lâng, siánn-mih to m̄ kiann.", en: "Leave that to your grandma. Her generation isn't afraid of anything."}
+notes:
+  - {ref: 1, topic: vocab, text: "風颱 hong-thai = typhoon (lesson 34). 掃 sàu = sweep."}
+  - {ref: 2, topic: vocab, text: "亂操操 luān-tshau-tshau = in a mess, all over the place; also 'in a state, upset': 我的心亂操操. 規个 kui-ê = the whole: 規个厝 'the whole flat', 規个臺灣 'all of Taiwan'."}
+  - {ref: 3, topic: vocab, text: "摒 piànn = clean up, clear out; 摒掃 piànn-sàu = do the cleaning; 大摒掃 tuā-piànn-sàu = a big clean (大掃除), the one families do before New Year. 摒 also means 'tip out' (共水摒掉) and 'sell off cheap'."}
+  - {ref: 4, topic: vocab, text: "指揮 tsí-hui = direct, be in charge. 逐項 ta̍k hāng = every item, everything (每樣)."}
+  - {ref: 6, topic: vocab, text: "桌頂 toh-tíng = on the table: 頂 tíng after a noun means 'on, on top of' (椅仔頂 'on the chair'). Its partners: 頂面 tíng-bīn 'on top, above' and 下底 ē-té 'underneath, at the bottom' (line 14)."}
+  - {ref: 7, topic: vocab, text: "滇 tīnn = full, filled to the brim (滿), Taigi-only: 水滇矣 'the water's up to the top'; 囥甲滇 'packed full'. Of the sea it means high tide: 海水咧滇."}
+  - {ref: 8, topic: vocab, text: "椅仔 í-á = chair. 衫仔褲 sann-á-khòo = clothes (shirts and trousers). 擲 tàn = throw; throw away: 擲掉 tàn-tiāu 'throw out' (line 11). 布袋 pòo-tē = cloth sack; also Budai, a fishing town in Chiayi."}
+  - {ref: 9, topic: vocab, text: "屜仔 thuah-á = drawer. 敨開 tháu--khui = open, undo, untie: 敨索仔 'untie a rope'. 鉸刀 ka-to = scissors (鉸 ka 'cut with scissors'). 食薰 tsia̍h-hun = smoke: you 'eat' cigarettes in Taigi, as you 'eat' tea."}
+  - {ref: 11, topic: vocab, text: "路用 lōo-īng = use, usefulness: 無路用 'useless', 有啥物路用? 'what use is it?'. 無路用 is also said of a person, 'good-for-nothing'."}
+  - {ref: 12, topic: culture, text: "冊櫥 tsheh-tû = bookcase. It gives this app its name: Tsheh-tû, a cabinet of books."}
+  - {ref: 15, topic: vocab, text: "徙 suá = move, shift (a thing, or oneself): 徙位 'move to another place'. 邊仔 pinn--á = the side, nearby: note the neutral tone. 出力 tshut-la̍t = put your back into it, push hard."}
+  - {ref: 16, topic: vocab, text: "噯 aih = oh, ah (a sigh of dismay). 氣力 khuì-la̍t = strength, energy (力氣): the two characters are in the opposite order from Mandarin. 用了了 'used up', with --了了 (進修 3)."}
+  - {ref: 17, topic: vocab, text: "喝咻 huah-hiu = shout, yell. 虼蚻 ka-tsua̍h = cockroach, Taigi-only."}
+  - {ref: 18, topic: vocab, text: "鳥鼠 niáu-tshí = rat, mouse (老鼠). The characters mean 'bird-rat', but 鳥 is read niáu here."}
+  - {ref: 20, topic: vocab, text: "勼 kiu = shrink, curl up, draw back: 勼入去 'squeeze itself in'; 驚甲勼做一丸 'curled up in fright'. 壁空 piah-khang = a hole in the wall."}
+  - {ref: 21, topic: vocab, text: "樓頂 lâu-tíng = upstairs (樓上); 樓跤 lâu-kha = downstairs. 厝頂 tshù-tíng = the roof."}
+  - {ref: 23, topic: grammar, text: "小徙跤咧，人咧摒掃 'move your feet a little, someone's cleaning': an MOE example, said to people in the way. 小 sió … 咧 = do something a little, briefly. 拍噗仔 phah-phok-á (line 22) = clap."}
+  - {ref: 24, topic: vocab, text: "拍破 phah-phuà = break, smash (glass, plates); for machines that stop working, say 拍歹 phah-pháinn 'damage, break': 電腦拍歹去矣. 一矸酒 tsi̍t kan tsiú = a bottle of drink: 矸 kan is a bottle, and also its classifier; 酒矸 tsiú-kan = an empty bottle."}
+  - {ref: 25, topic: vocab, text: "賰 tshun = be left over, remain (剩): 賰偌濟? 'how much is left?'. Taigi-only character."}
+  - {ref: 27, topic: vocab, text: "所費 sóo-huì = the cost, expenses: 所費我出 'I'll pay'."}
+  - {ref: 28, topic: vocab, text: "賠 puê = compensate, pay for damage. 拭 tshit = wipe: 拭予清氣 'wipe clean'. 雙爿 siang-pîng = both sides (兩邊)."}
+  - {ref: 29, topic: grammar, text: "清氣甲 'so clean (you wouldn't believe it)': adjective + 甲 with the result left out, as in 歡喜甲 'overjoyed'."}
+  - {ref: 31, topic: vocab, text: "夠額 kàu-gia̍h = enough, the full amount (足額): 人有夠額矣 'we have enough people'."}
+  - {ref: 33, topic: vocab, text: "處理 tshú-lí = deal with. 彼輩的人 hit puè ê lâng = people of that generation (輩 puè)."}
+new_words:
+  - {tailo: tuā-piànn-sàu, hanji: 大摒掃, en: "big clean-up, spring cleaning"}
+  - {tailo: piànn, hanji: 摒, en: "clean up, clear out"}
+  - {tailo: piànn-sàu, hanji: 摒掃, en: "do the cleaning"}
+  - {tailo: luān-tshau-tshau, hanji: 亂操操, en: "in a mess"}
+  - {tailo: kui-ê, hanji: 規个, en: "the whole"}
+  - {tailo: ta̍k hāng, hanji: 逐項, en: "everything, every item"}
+  - {tailo: toh-tíng, hanji: 桌頂, en: "on the table"}
+  - {tailo: tīnn, hanji: 滇, en: "full (to the brim)"}
+  - {tailo: í-á, hanji: 椅仔, en: "chair"}
+  - {tailo: sann-á-khòo, hanji: 衫仔褲, en: "clothes"}
+  - {tailo: tàn, hanji: 擲, en: "throw; throw away"}
+  - {tailo: pòo-tē, hanji: 布袋, en: "cloth sack"}
+  - {tailo: thuah-á, hanji: 屜仔, en: "drawer"}
+  - {tailo: tháu, hanji: 敨, en: "open, undo, untie"}
+  - {tailo: ka-to, hanji: 鉸刀, en: "scissors"}
+  - {tailo: tsia̍h-hun, hanji: 食薰, en: "smoke (cigarettes)"}
+  - {tailo: lōo-īng, hanji: 路用, en: "use, usefulness"}
+  - {tailo: tsheh-tû, hanji: 冊櫥, en: "bookcase"}
+  - {tailo: ē-té, hanji: 下底, en: "underneath, at the bottom"}
+  - {tailo: tíng-bīn, hanji: 頂面, en: "on top, above"}
+  - {tailo: suá, hanji: 徙, en: "move, shift"}
+  - {tailo: pinn--á, hanji: 邊仔, en: "the side, nearby"}
+  - {tailo: tshut-la̍t, hanji: 出力, en: "push hard, make an effort"}
+  - {tailo: aih, hanji: 噯, en: "oh, ah (dismay)"}
+  - {tailo: khuì-la̍t, hanji: 氣力, en: "strength"}
+  - {tailo: huah-hiu, hanji: 喝咻, en: "shout, yell"}
+  - {tailo: ka-tsua̍h, hanji: 虼蚻, en: "cockroach"}
+  - {tailo: niáu-tshí, hanji: 鳥鼠, en: "rat, mouse"}
+  - {tailo: kiu, hanji: 勼, en: "shrink, curl up"}
+  - {tailo: piah-khang, hanji: 壁空, en: "hole in the wall"}
+  - {tailo: lâu-tíng, hanji: 樓頂, en: "upstairs"}
+  - {tailo: phah-phuà, hanji: 拍破, en: "break, smash"}
+  - {tailo: kan, hanji: 矸, en: "bottle"}
+  - {tailo: tshun, hanji: 賰, en: "be left over"}
+  - {tailo: sóo-huì, hanji: 所費, en: "cost, expenses"}
+  - {tailo: puê, hanji: 賠, en: "compensate, pay for"}
+  - {tailo: tshit, hanji: 拭, en: "wipe"}
+  - {tailo: siang-pîng, hanji: 雙爿, en: "both sides"}
+  - {tailo: kàu-gia̍h, hanji: 夠額, en: "enough"}
+  - {tailo: tshú-lí, hanji: 處理, en: "deal with"}
+exercises:
+  translate:
+    - {tailo: "Tsit kò gue̍h khang-khuè siunn bô-îng, kui-ê tshù luān-tshau-tshau.", hanji: "這個月工課傷無閒，規个厝亂操操。", en: "Work's been too busy this month, and the whole place is a mess."}
+    - {tailo: "Bô tsia̍h tō tàn-tiāu, khǹg tī hia iā bô lōo-īng.", hanji: "無食就擲掉，囥佇遐也無路用。", en: "Then throw them out; keeping them there is no use."}
+    - {tailo: "Tuā pún--ê khǹg ē-té, sè pún--ê khǹg tíng-bīn.", hanji: "大本的囥下底，細本的囥頂面。", en: "Big ones at the bottom, small ones on top."}
+    - {tailo: "Lán kā tsheh-tû suá khì pinn--á.", hanji: "咱共冊櫥徙去邊仔。", en: "Let's shift the bookcase to one side."}
+    - {tailo: "Sóo-huì guá tshut, guá koh bé tsi̍t kan hōo--lí.", hanji: "所費我出，我閣買一矸予你。", en: "I'll pay for it. I'll buy you another bottle."}
+  fill:
+    - {tailo: "Toh-tíng tsá tō khǹg kah ___--ah.", hanji: "桌頂早就囥甲___矣。", answer: "tīnn", answer_hanji: "滇", en: "The table's been piled full for ages."}
+    - {tailo: "Lāi-té iáu ___ tsi̍t-puànn!", hanji: "內底猶___一半！", answer: "tshun", answer_hanji: "賰", en: "There was still half of it left!"}
+    - {tailo: "Guá kui-sin-khu ê ___ lóng iōng--liáu-liáu--ah.", hanji: "我規身軀的___攏用了了矣。", answer: "khuì-la̍t", answer_hanji: "氣力", en: "I've used up all my strength."}
+    - {tailo: "Guá kā lí tsi̍t kan tsiú ___--khì--ah.", hanji: "我共你一矸酒___去矣。", answer: "phah-phuà", answer_hanji: "拍破", en: "I've broken one of your bottles."}
+    - {tailo: "Tsi̍t tǹg àm-tǹg bô ___--ooh.", hanji: "一頓暗頓無___喔。", answer: "kàu-gia̍h", answer_hanji: "夠額", en: "One dinner isn't enough, mind."}
+audio: []
