@@ -3,7 +3,7 @@ title: {en: "News headlines", tailo: "Sin-bûn pò-tō", hanji: "新聞報導"}
 review: false
 setting: "Breakfast at A-má's. A-kong has the Taigi news channel on, and Sam tries to follow the headlines. The news items are invented."
 dialogue:
-  - {n: 1, speaker: Presenter, hanji: "逐家早安，歡迎收看早起的新聞。先來看今仔日的頭一條消息。", tailo: "Ta̍k-ke tsá-an, huan-gîng siu-khuànn tsá-khí ê sin-bûn. Sing lâi khuànn kin-á-ji̍t ê thâu tsi̍t tiâu siau-sit.", en: "Good morning, everyone, and welcome to the morning news. First, today's top story."}
+  - {n: 1, speaker: Presenter, hanji: "逐家早，歡迎收看早起的新聞。先來看今仔日的頭一條消息。", tailo: "Ta̍k-ke tsá, huan-gîng siu-khuànn tsá-khí ê sin-bûn. Sing lâi khuànn kin-á-ji̍t ê thâu tsi̍t tiâu siau-sit.", en: "Good morning, everyone, and welcome to the morning news. First, today's top story."}
   - {n: 2, speaker: Presenter, hanji: "氣象局指出，這禮拜全國攏是高溫，南部地區上懸會到三十六度。", tailo: "Khì-siōng-kio̍k tsí-tshut, tsit lé-pài tsuân-kok lóng sī ko-un, lâm-pōo tē-khu siōng kuân ē kàu sann-tsa̍p-la̍k tōo.", en: "The weather bureau says the whole country will be hot this week, with highs of 36 degrees in the south."}
   - {n: 3, speaker: Sam, hanji: "阿公，主播講話佮咱厝內講的無啥仝款。", tailo: "A-kong, tsú-pòo kóng-uē kah lán tshù-lāi kóng--ê bô siánn kāng-khuán.", en: "A-kong, the presenter doesn't talk quite the way we do at home."}
   - {n: 4, speaker: A-kong, hanji: "新聞用較濟文言的詞，親像「指出」、「目前」、「民眾」。日常講話較少用。", tailo: "Sin-bûn iōng khah tsē bûn-giân ê sû, tshin-tshiūnn “tsí-tshut”, “bo̍k-tsiân”, “bîn-tsiòng”. Ji̍t-siông kóng-uē khah tsió iōng.", en: "The news uses more literary words, like 'tsí-tshut' (point out), 'bo̍k-tsiân' (at present), 'bîn-tsiòng' (the public). We use them less in everyday talk."}
@@ -22,7 +22,7 @@ dialogue:
   - {n: 17, speaker: A-má, hanji: "記者講甲遐緊，我嘛毋是逐句攏聽有。", tailo: "Kì-tsiá kóng kah hiah kín, guá mā m̄ sī ta̍k kù lóng thiann ū.", en: "The reporters talk so fast that even I don't catch every sentence."}
   - {n: 18, speaker: Presenter, hanji: "以上是今仔日早起的新聞，感謝逐家收看，咱明仔載再會。", tailo: "Í-siōng sī kin-á-ji̍t tsá-khí ê sin-bûn, kám-siā ta̍k-ke siu-khuànn, lán bîn-á-tsài tsài-huē.", en: "That's all from this morning's news. Thank you for watching, and see you tomorrow."}
 notes:
-  - {ref: 1, topic: vocab, text: "消息 siau-sit = news, piece of news; 新聞 sin-bûn = the news. 收看 siu-khuànn = watch (a programme), broadcast language. 早安 tsá-an = good morning (formal)."}
+  - {ref: 1, topic: vocab, text: "消息 siau-sit = news, piece of news; 新聞 sin-bûn = the news. 收看 siu-khuànn = watch (a programme), broadcast language. 逐家早 ta̍k-ke tsá = good morning, everyone: Taigi greets with 早 alone (also 𠢕早 gâu-tsá); 早安 is a Mandarin calque."}
   - {ref: 2, topic: vocab, text: "氣象局 khì-siōng-kio̍k = weather bureau. 指出 tsí-tshut = point out, state. 全國 tsuân-kok = the whole country. 高溫 ko-un = high temperatures. 地區 tē-khu = region, area."}
   - {ref: 4, topic: grammar, text: "Formal register: news Taigi uses many literary (文讀) words that ordinary speech replaces: 目前 bo̍k-tsiân (= 這馬 tsit-má), 民眾 bîn-tsiòng (= 逐家, 一般人), 指出 (= 講), 當咧 tng teh (= 咧, 拄咧), 以上 í-siōng 'that's all', 而且 jî-tshiánn (= 閣), 其中 kî-tiong 'among them', 方面 hong-bīn 'as for'. 文言 bûn-giân = literary language; 詞 sû = word."}
   - {ref: 5, topic: vocab, text: "交通 kau-thong = traffic. 國道 kok-tō = motorway. 發生 huat-sing = happen. 車禍 tshia-hō = road accident. 事故 sū-kòo (line 7) = accident, incident."}
