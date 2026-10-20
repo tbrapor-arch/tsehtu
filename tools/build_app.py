@@ -323,7 +323,10 @@ if show:
                 k = key(v['t'])
                 if con.execute("SELECT 1 FROM entry WHERE tkey=? AND source IN ('moe','itaigi','taihoa','tgb') LIMIT 1", (k,)).fetchone():
                     v['id'] = lookup(v['h'], k)
-data = {'podcast': show, 'tones': tone_drill.build(lessons), 'grammar': grammar, 'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'accents': accents, 'bridge': bridge.build(con, 160),
+# ---- video (course/video.yaml): shows on their broadcaster's own YouTube channel; ids and titles only
+VIDEO = os.path.join(ROOT, 'course/video.yaml')
+video = yaml.safe_load(open(VIDEO, encoding='utf-8')) if os.path.exists(VIDEO) else {'shows': []}
+data = {'podcast': show, 'video': video, 'tones': tone_drill.build(lessons), 'grammar': grammar, 'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'accents': accents, 'bridge': bridge.build(con, 160),
         'dict': dictionary, 'lesson0': lesson0, 'built': datetime.date.today().isoformat()}
 
 # ---- native-speaker recordings of the dialogues: course/audio/lessons/L057-03.mp3 (tools/import_recordings.py)

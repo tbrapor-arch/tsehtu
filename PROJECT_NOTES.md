@@ -10,11 +10,13 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 - **Themes:** one (`health`). The Themes tab is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
 - **Coverage** (after lesson 100): top 100: 100 %, top 300: 97 %, top 1,000: 88 % (72 % after 63). The plan's 95 % target for the top 1,000 was not reached. Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
-- **App tabs:** Lessons, Themes, Grammar, Review (includes Bridge and tone drill), Podcast, Settings, plus a hidden
+- **App tabs:** Lessons, Themes, Grammar, Review (includes Bridge and tone drill), Podcast, Video, Settings, plus a hidden
   Exam tab that exists only when this device's token can read the private repo.
 - **Audio:** MOE headword and example recordings are fetched at build time by the workflow. Native-speaker
   recordings: tooling done (`record.html`, `tools/import_recordings.py`), **no clips imported yet**.
 - **Podcast tab:** 《隔壁 ê 戇人》, show notes from the RSS feed, audio streamed from SoundOn.
+- **Video tab:** 《市井豪門》 (FTV drama, official YouTube uploads), episodes listed in `course/video.yaml` (EP1 so far),
+  played in YouTube's embedded player. Transcripts are private. See `docs/video.md`.
 
 ## Repository rules
 - Public repo: no exam papers, answers, recordings, transcripts, tokens or text derived from the ministry's exam

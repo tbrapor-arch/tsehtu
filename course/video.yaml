@@ -1,0 +1,16 @@
+# Video tab: Taigi shows published free by their broadcaster on its own YouTube channel. Only ids, titles and
+# lengths are kept here; the video plays in YouTube's embedded player. Add an episode when it is worked on.
+# Transcripts are not part of this repo (private).
+shows:
+  - id: haomen   # 市井豪門, FTV evening drama (routes #vid-haomen-<n>)
+    title: 市井豪門
+    en: Billionaire Story
+    by: FTV 民視
+    channel: https://www.youtube.com/@FTVDRAMA
+    total: 281
+    about: >-
+      FTV's evening drama (2022–23): a family of market stall-holders and the rich family in the mansion next door,
+      "two worlds on the same street". Spoken in everyday Taigi from start to finish; the subtitles on screen are in
+      Mandarin. Long episodes (about 1 h 20 min): take a scene at a time.
+    episodes:
+      - {n: 1, video: RRPBOCqO0wg, title: 兩個世界, dur: 5010}

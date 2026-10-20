@@ -18,7 +18,7 @@ what the app uses.
 Tabs: **Lessons** (home = grid of the 100 planned lessons, Mainichi-style; review every 7th; the 63 written so far, the
 rest greyed with their planned title) · **Themes** (thematic vocabulary, "Le Mot et l'Idée" structure: numbered groups +
 a short text) · **Grammar** · **Review** (segmented by lesson and theme group; cloze cards in the lesson sentence;
-Leitner 1/3/7/16/35 days; the **Bridge** trial and tone-change practice live here) · **Podcast** (see `docs/podcast.md`) ·
+Leitner 1/3/7/16/35 days; the **Bridge** trial and tone-change practice live here) · **Podcast** (see `docs/podcast.md`) · **Video** (Taigi drama in YouTube's player, `docs/video.md`) ·
 **Settings** (look, night mode, accent + regional tables, sync). A hidden **Exam** tab appears only on devices with
 access to an optional private module (`docs/sync-and-private-module.md`). No "Today" tab.
 

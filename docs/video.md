@@ -1,0 +1,18 @@
+# Video tab
+
+Shows published free by their broadcaster on its own YouTube channel. First show: 《市井豪門》 Billionaire Story
+(FTV 民視, 2022–23, 281 episodes of about 1 h 20 min, channel @FTVDRAMA). Rights stay with the broadcaster; nothing is
+copied or re-hosted.
+
+- `course/video.yaml`: per show `id`, `title`, `en`, `by`, `channel`, `total`, `about`, and the episodes that are listed
+  (`n`, YouTube `video` id, `title`, `dur` in seconds). An episode is added when it is worked on; the tab appears only
+  when at least one show is listed. `build_app.py` copies the file into the app data as `video`.
+- Routes: `#video` (list, with progress), `#vid-<show>-<n>` (episode).
+- Player: YouTube IFrame API (`youtube-nocookie.com`), loaded only when an episode page opens; needs the internet.
+  Own controls under the picture: back 5 s, play, forward 10 s, speed (0.75 / 1 / 1.25), A–B loop. The position is
+  saved in the browser every 4 s (`vid` in local storage) and resumed; an episode counts as watched at 97 %. Playing
+  a video pauses the podcast.
+- The on-screen subtitles are Mandarin wording, not the Taigi said.
+- Hook for the private module (same pattern as the podcast): it can override `showVideo` / `showVideoEp`, read
+  `vidTime()`, call `vidSeek(t, play)`, and insert a transcript after `#vidplayer`. Machine transcripts of episodes are
+  not part of this repo.
