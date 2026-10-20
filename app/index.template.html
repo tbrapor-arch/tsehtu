@@ -587,7 +587,7 @@ function renderTabs(cur) {
   const tabs = [['lessons', 'Lessons'], ['review', 'Practice'], ['podcast', 'Podcast'], ...(VID.shows.length ? [['video', 'Video']] : []), ...(Exam.on ? [['exam', 'Exam']] : []), ['settings', 'Settings']];
   $('#tabs').innerHTML = tabs.map(([k, t]) => `<button class="tab" data-tab="${k}" aria-current="${cur === k}">${ICONS[k]}<span>${t}</span>${k === 'review' && due ? `<span class="count">${due}</span>` : ''}</button>`).join('');
   // a tab always opens that tab's start page (the Practice tab leaves a running session and reopens its part used last; the Lessons tab goes to the top of the grid)
-  $$('[data-tab]', $('#tabs')).forEach(b => b.onclick = () => { const k = b.dataset.tab; if (k === 'review') { sess = null; tsess = null; go(store.get('pracSec', 'review')); return; } if (k === 'lessons') resetHome = true; go(k); });
+  $$('[data-tab]', $('#tabs')).forEach(b => b.onclick = () => { const k = b.dataset.tab; if (k === 'review') { sess = null; tsess = null; go(store.get('pracSec', 'themes')); return; } if (k === 'lessons') resetHome = true; go(k); });
 }
 
 // ---------- lessons list
@@ -861,7 +861,7 @@ function showLesson0() {
 function showThemes() {
   renderTabs('review');
   $('#main').innerHTML = `<div class="col">
-    ${pracHead('themes', 'words grouped by topic, each group with a short text')}
+    ${pracHead('themes', 'vocabulary by theme: words grouped by topic, each group with a short text')}
     <div class="tgrid">${DATA.themes.map(t => `<button class="tcard" data-go="theme-${t.id}"><span class="th">${esc(t.title.hanji)}</span><span class="tr">${esc(t.title.tailo)}</span><span>${esc(t.title.en)}</span>
       <span class="tn">${t.sections.length} groups · ${t.sections.reduce((a, s) => a + s.words.length, 0)} words</span></button>`).join('')}</div>
   </div>`;
@@ -1287,7 +1287,7 @@ function showReview() {
 }
 // Practice tab (溫習): word cards, themes, grammar and drills share one tab; a switch under the due count picks the part,
 // and the tab reopens the part used last
-const PRAC = [['review', 'Cards'], ['themes', 'Themes'], ['grammar', 'Grammar'], ['drills', 'Drills']];
+const PRAC = [['themes', 'Vocabulary'], ['grammar', 'Grammar'], ['drills', 'Drills'], ['review', 'Cards']];
 function pracHead(sec, what) {
   store.set('pracSec', sec);
   const due = dueCards();

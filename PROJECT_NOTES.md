@@ -10,7 +10,7 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 - **Themes:** one (`health`). The Themes part of Practice is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
 - **Coverage** (after lesson 100): top 100: 100 %, top 300: 97 %, top 1,000: 88 % (72 % after 63). The plan's 95 % target for the top 1,000 was not reached. Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
-- **App tabs:** Lessons, Practice (溫習: Cards, Themes, Grammar, Drills = tone changes + Bridge; merged 20 Oct 2026), Podcast, Video, Settings, plus a hidden
+- **App tabs:** Lessons, Practice (溫習: Vocabulary by theme, Grammar, Drills = tone changes + Bridge, Cards; merged 20 Oct 2026), Podcast, Video, Settings, plus a hidden
   Exam tab that exists only when this device's token can read the private repo.
 - **Audio:** MOE headword and example recordings are fetched at build time by the workflow. Native-speaker
   recordings: tooling done (`record.html`, `tools/import_recordings.py`), **no clips imported yet**.

@@ -17,7 +17,7 @@ what the app uses.
 ## App structure
 Tabs: **Lessons** (home = grid of the 100 planned lessons, Mainichi-style; review every 7th; the 63 written so far, the
 rest greyed with their planned title) · **Practice 溫習** (one tab since 20 Oct 2026, to keep the phone bar to five tabs: the due count and "Review all due"
-on top, then a switch Cards · Themes · Grammar · Drills; the tab reopens the part used last. Cards: segmented by lesson
+on top, then a switch Vocabulary (themes) · Grammar · Drills · Cards; the tab reopens the part used last. Cards: segmented by lesson
 and theme group, cloze cards in the lesson sentence, Leitner 1/3/7/16/35 days; a card session always runs on `#review`.
 Themes: thematic vocabulary, "Le Mot et l'Idée" structure, numbered groups + a short text. Grammar: the sheets.
 Drills: tone-change practice and the **Bridge** trial; old routes `#themes`, `#grammar`, `#bridge` still work) · **Podcast** (see `docs/podcast.md`) · **Video** (Taigi drama in YouTube's player, `docs/video.md`) ·
