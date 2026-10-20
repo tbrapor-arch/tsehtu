@@ -1,0 +1,33 @@
+id: 70
+title: {en: "Review 10", tailo: "Ho̍k-si̍p", hanji: "復習"}
+review: true
+setting: "A quiet evening at A-má's. The family looks back on the past few weeks. Everything comes from lessons 64–69."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "這幾个禮拜真鬧熱：地動、鹿港、茶山，閣有看比賽。", tailo: "Tsit kuí ê lé-pài tsin lāu-jia̍t: tē-tāng, Lo̍k-káng, tê-suann, koh ū khuànn pí-sài.", en: "These past few weeks have been so full: the earthquake, Lukang, the tea mountain, and the game too."}
+  - {n: 2, speaker: A-kong, hanji: "彼暝地動的時，逐家攏予驚甲袂睏。", tailo: "Hit mê tē-tāng ê sî, ta̍k-ke lóng hōo kiann kah bē khùn.", en: "The night of the earthquake, everyone was so frightened they couldn't sleep."}
+  - {n: 3, speaker: Sam, hanji: "好佳哉厝無損去，壁才小可仔裂。", tailo: "Hó-ka-tsài tshù bô sńg--khì, piah tsiah sió-khuá-á li̍h.", en: "Luckily the house wasn't damaged; the wall only cracked a little."}
+  - {n: 4, speaker: A-hun, hanji: "鹿港彼逝，我上愛老一輩的腔口，聽起來誠有味。", tailo: "Lo̍k-káng hit tsuā, guá siōng ài lāu tsi̍t puè ê khiunn-kháu, thiann--khí-lâi tsiânn ū bī.", en: "On the Lukang trip, what I liked best was the old people's accent; it sounded full of character."}
+  - {n: 5, speaker: A-kong, hanji: "我這世人啉過上好的茶，就是彼逝茶欉的。", tailo: "Guá tsit-sì-lâng lim-kuè siōng hó ê tê, tō sī hit tsuā tê-tsâng--ê.", en: "The best tea of my whole life came from that row of tea bushes."}
+  - {n: 6, speaker: Sam, hanji: "統一獅彼場比賽，雖然輸矣，毋過真精彩。", tailo: "Thóng-it-sai hit tiûnn pí-sài, sui-jiân su--ah, m̄-koh tsin tsing-tshái.", en: "That Uni-Lions game: although they lost, it was really exciting."}
+  - {n: 7, speaker: A-má, hanji: "贏輸無要緊，上要緊是逐家做伙看甲遮爾歡喜。", tailo: "Iânn-su bô iàu-kín, siōng iàu-kín sī ta̍k-ke tsò-hué khuànn kah tsiah-nī huann-hí.", en: "Winning or losing doesn't matter; what matters is that we all watched together and enjoyed it so much."}
+  - {n: 8, speaker: Sam, hanji: "我這馬嘛咧儉錢。毋管別人按怎開錢，我有家己的按算。", tailo: "Guá tsit-má mā teh khiām-tsînn. M̄-kuán pa̍t-lâng án-tsuánn khai-tsînn, guá ū ka-kī ê àn-sǹg.", en: "I'm saving money now too. Whatever other people spend, I have my own plan."}
+  - {n: 9, speaker: A-kong, hanji: "好囝！我細漢的時連鞋都無通穿，後來才知影儉的好處。", tailo: "Hó kiánn! Guá sè-hàn ê sî liân ê to bô thang tshīng, āu--lâi tsiah tsai-iánn khiām ê hó-tshù.", en: "Good boy! When I was little I didn't even have shoes to wear; only later did I learn the value of saving."}
+  - {n: 10, speaker: A-má, hanji: "逐家平安，有通食閣有通儉，就是好命。", tailo: "Ta̍k-ke pîng-an, ū thang tsia̍h koh ū thang khiām, tō sī hó-miā.", en: "Everyone safe, enough to eat and enough to save: that's a lucky life."}
+notes:
+  - {ref: 2, topic: grammar, text: "予 hōo + (cause) + V: 予驚 'be frightened (by it)'. The passive 予 from lessons 65 and 68: 壁予地動搝, 予對方拍全壘打. V 甲 + result: 驚甲袂睏 'so scared we couldn't sleep'."}
+  - {ref: 3, topic: vocab, text: "Earthquake words (lesson 65): 地動, 幌 / 搖, 崩去, 裂, 著傷, 覕佇桌跤, 逃, 驚惶, 恐怖, 喝救人."}
+  - {ref: 4, topic: grammar, text: "逝 tsuā = a trip (彼逝 'that trip') and a row (彼逝茶欉, line 5): lesson 67. Lukang (lesson 66): 古蹟, 腔口, 海口, 師傅, 木雕, 街仔, 特產, 順紲; 本 pún for books."}
+  - {ref: 5, topic: grammar, text: "上 siōng (speech) and 最 tsuè (writing) = most (lesson 67). 枝 ki: classifier for twigs, pens, home runs (lessons 67, 68)."}
+  - {ref: 6, topic: grammar, text: "雖然 X，毋過 Y = although X, Y (lesson 67). 但是 tān-sī = but, more written than 毋過 (lesson 68). Sport (lesson 68): 比賽, 贏 / 輸, 隊, 投手, 打擊, 全壘打, 球場, 支持."}
+  - {ref: 8, topic: grammar, text: "毋管 X，(攏) Y = no matter X (lesson 69); 別人 pa̍t-lâng = other people. Money (lesson 69): 開錢, 儉 / 儉錢, 物價, 薪水, 開銷, 收入, 按算, 利息. 因為…所以… = because … so …."}
+  - {ref: 9, topic: grammar, text: "連 X 都 / 嘛 V = not even X (lesson 64). 後來 āu--lâi = later on, looking back over time (lesson 64); also 咧欲 teh-beh 'about to' and 就我來講 tsiū guá lâi kóng 'as for me'. 好處 hó-tshù = advantage, benefit."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Ta̍k-ke lóng hōo kiann kah bē khùn.", hanji: "逐家攏予驚甲袂睏。", en: "Everyone was so frightened they couldn't sleep."}
+    - {tailo: "Sui-jiân su--ah, m̄-koh tsin tsing-tshái.", hanji: "雖然輸矣，毋過真精彩。", en: "Although they lost, it was really exciting."}
+    - {tailo: "M̄-kuán pa̍t-lâng án-tsuánn khai-tsînn, guá ū ka-kī ê àn-sǹg.", hanji: "毋管別人按怎開錢，我有家己的按算。", en: "Whatever other people spend, I have my own plan."}
+  fill:
+    - {tailo: "Guá sè-hàn ê sî ___ ê to bô thang tshīng.", hanji: "我細漢的時___鞋都無通穿。", answer: "liân", answer_hanji: "連", en: "When I was little I didn't even have shoes to wear."}
+    - {tailo: "Lo̍k-káng hit ___, guá siōng ài lāu tsi̍t puè ê khiunn-kháu.", hanji: "鹿港彼___，我上愛老一輩的腔口。", answer: "tsuā", answer_hanji: "逝", en: "On the Lukang trip, what I liked best was the old people's accent."}
+audio: []

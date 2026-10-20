@@ -1,19 +1,36 @@
-# Project notes (state as of 16 Oct 2026)
+# Project notes (state as of 20 Oct 2026)
 
 Migrated from a long Claude Project conversation. In that conversation lessons were written with four Assimil
 course files as a model for pacing and structure only (kept in the git-ignored `reference/`).
 
 ## Status
-- **Lessons:** 1–63 written (`course/lessons/`), 64–100 planned as titles in `course/syllabus.yaml`. Lesson 0 is
-  `000-reading-tailo.md`. Review lessons: 7, 14, …, 63 so far.
+- **Lessons:** 1–70 written (`course/lessons/`), 71–100 planned as titles in `course/syllabus.yaml`. Lesson 0 is
+  `000-reading-tailo.md`. Review lessons: 7, 14, …, 70 so far.
 - **Themes:** one (`health`). The Themes tab is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
-- **Coverage:** 1,526 of 4,265 core words (36 %); top 1,000: 72 %. Plan for lessons 64–100: `docs/course-plan.md`.
+- **Coverage** (after lesson 70): top 100: 100 %, top 300: 93 %, top 1,000: 76 % (was 72 % after 63). Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
 - **App tabs:** Lessons, Themes, Grammar, Review (includes Bridge and tone drill), Podcast, Settings, plus a hidden
   Exam tab that exists only when this device's token can read the private repo.
 - **Audio:** MOE headword and example recordings are fetched at build time by the workflow. Native-speaker
   recordings: tooling done (`record.html`, `tools/import_recordings.py`), **no clips imported yet**.
 - **Podcast tab:** 《隔壁 ê 戇人》, show notes from the RSS feed, audio streamed from SoundOn.
+
+## Repository rules
+- Public repo: no exam papers, answers, recordings, transcripts, tokens or text derived from the ministry's exam
+  material or from podcast audio; those live in the private repo.
+- `reference/` (Assimil files, git-ignored): only counts and pacing ideas may leave it, never text or storylines.
+- Never commit generated data (`data/raw`, `data/build`, `app/dist`, `*.db`) or ministry audio.
+- MOE dictionary text is CC BY-ND: quote unaltered, mark copied lines `source: moe`. Maryknoll/Embree glosses
+  (non-commercial) never go into `course/`. `course/audio/` clips belong to the speaker.
+- A push to `main` rebuilds and deploys the site. The Taigi is not native-checked.
+
+## Writing lessons (fast loop)
+Format `course/lessons/_template.yaml`; rules `course/README.md`, `docs/course-plan.md`. Per lesson:
+`python3 -I tools/lint.py course/lessons/NNN.yaml` (0 errors; W/I warnings tolerated) and `make test`.
+`make app` (Python 3.12) before a push. `tools/smoke.py` is a full regression run (clicks every token of every
+lesson, no single-lesson option, slow): run it in the background after app/template changes, not per lesson.
+Workflow that keeps cost down: plan a batch of lessons together, verify all candidate words with
+`tools/lookup.py` in one pass, then draft dialogue only from verified words.
 
 ## Decisions (why)
 - Mandarin B2 learner: same-character words are taught as pronunciation; time goes to false friends and Taigi-only words.
@@ -24,9 +41,9 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 - Build fails soft: MOE audio and the podcast feed are optional, the site deploys without them.
 
 ## Open items
-- Write lessons 64–100 following `course/syllabus.yaml` (`plan:` field); classify the vocabulary for the Themes tab, starting with a pilot domain.
+- Write lessons 71–100 following `course/syllabus.yaml` (`plan:` field); classify the vocabulary for the Themes tab, starting with a pilot domain.
 - Record lessons with a native speaker; lines she flags go to `course/audio/flags.yaml`.
 - Sync/exam token expires about 12 Nov 2026 (30-day token); see `docs/sync-and-private-module.md`.
 - The podcast feed URL is hard-coded in `tools/fetch_podcast.py` and also in the private repo's tools. Change all copies together.
-- Not run since the wave/phase change: the built app and `tools/smoke.py` (the lint and the sandhi tests were).
+- Not run since the wave/phase change: `tools/smoke.py` (lint, sandhi tests and `make app` were).
 - Lesson 90/92/100 story (leaving Tainan, back in Taipei, farewell party) still to be settled when written.

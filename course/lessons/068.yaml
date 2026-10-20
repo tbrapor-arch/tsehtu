@@ -1,0 +1,59 @@
+id: 68
+title: {en: "Football and baseball", tailo: "Kha-kiû kah pāng-kiû", hanji: "跤球佮棒球"}
+review: false
+setting: "Evening at A-má's. Sam and A-kong are watching the Uni-Lions' baseball game, Tainan's own team."
+dialogue:
+  - {n: 1, speaker: A-kong, hanji: "暗時統一獅的比賽，你有看無？", tailo: "Àm-sî Thóng-it-sai ê pí-sài, lí ū khuànn--bô?", en: "Did you watch the Uni-Lions' game tonight?"}
+  - {n: 2, speaker: Sam, hanji: "有！真精彩，毋過上尾輸三分。", tailo: "Ū! Tsin tsing-tshái, m̄-koh siōng bué su sann hun.", en: "Yes! Really exciting, but they lost by three points in the end."}
+  - {n: 3, speaker: A-kong, hanji: "我感覺投手今仔日無啥平常，予對方拍幾支全壘打。", tailo: "Guá kám-kak tâu-tshiú kin-á-ji̍t bô siánn pîng-siông, hōo tuì-hong phah kuí ki tsuân-luí-tánn.", en: "I felt the pitcher wasn't quite himself today — the other side hit several home runs off him."}
+  - {n: 4, speaker: Sam, hanji: "但是伊彼平的打擊猶袂䆀，有拍兩支安打。", tailo: "Tān-sī i hit pîng ê tánn-kik iáu bē-bái, ū phah nn̄g ki an-tánn.", en: "But that side's batting wasn't bad — they got two hits."}
+  - {n: 5, speaker: A-kong, hanji: "看見啦！上尾一局，兩方攏拍甲誠拍拚。", tailo: "Khuànn-kìnn--lah! Siōng bué tsi̍t kio̍k, nn̄g hong lóng phah kah tsiânn phah-piànn.", en: "I saw it! In the last inning both sides played their hearts out."}
+  - {n: 6, speaker: Sam, hanji: "我邊仔坐一个囡仔，伊支持的隊閣較少年，拍球閣較有活力。", tailo: "Guá pinn--á tsē tsi̍t ê gín-á, i tsi-tshî ê tuī koh-khah siàu-liân, phah-kiû koh-khah ū ua̍h-li̍k.", en: "A kid was sitting next to me; the team he supports is younger, and they play with more energy."}
+  - {n: 7, speaker: A-kong, hanji: "著，少年投手閣較有體力，毋過經驗猶無夠。", tailo: "Tio̍h, siàu-liân tâu-tshiú koh-khah ū thé-la̍t, m̄-koh king-giām iáu bô-kàu.", en: "Right, young pitchers have more stamina, but they still don't have enough experience."}
+  - {n: 8, speaker: Sam, hanji: "阿媽講，阿芬細漢的時定定去學校看伊的查埔朋友拍跤球。", tailo: "A-má kóng, A-hun sè-hàn ê sî tiānn-tiānn khì ha̍k-hāu khuànn i ê tsa-poo pîng-iú phah kha-kiû.", en: "A-má said that when A-hun was little, she often went to school to watch her boyfriend play football."}
+  - {n: 9, speaker: A-kong, hanji: "彼陣國小毋捌有跤球隊，是初中才有。", tailo: "Hit-tsūn kok-sió m̄-bat ū kha-kiû tuī, sī tshoo-tiong tsiah ū.", en: "Elementary schools back then never had football teams; only middle schools did."}
+  - {n: 10, speaker: Sam, hanji: "這馬學生較幸福，逐間國小都有運動隊。", tailo: "Tsit-má ha̍k-sing khah hīng-hok, ta̍k king kok-sió to ū ūn-tōng tuī.", en: "Students these days are luckier — every elementary school has sports teams."}
+  - {n: 11, speaker: A-kong, hanji: "毋過壓力嘛較大，拄咧讀冊就愛準備比賽。", tailo: "M̄-koh ap-li̍k mā khah tuā, tú teh tha̍k-tsheh tō ài tsún-pī pí-sài.", en: "But the pressure is bigger too — right while studying, they also have to prepare for matches."}
+  - {n: 12, speaker: Sam, hanji: "贏輸敢真正遐爾要緊？", tailo: "Iânn-su kám tsin-tsiànn hiah-nī iàu-kín?", en: "Does winning or losing really matter that much?"}
+  - {n: 13, speaker: A-kong, hanji: "贏當然歡喜，毋過教練定定講，拍球是學按怎佮逐家鬥陣，毋是逐項攏愛贏。", tailo: "Iânn tong-jiân huann-hí, m̄-koh kàu-liān tiānn-tiānn kóng, phah-kiû sī o̍h án-tsuánn kah ta̍k-ke tàu-tīn, m̄ sī ta̍k hāng lóng ài iânn.", en: "Winning is great, of course, but the coach always says playing ball is about learning to work together with everyone, not that you have to win at everything."}
+  - {n: 14, speaker: Sam, hanji: "有道理。毋過我猶是較向望統一獅贏。", tailo: "Ū tō-lí. M̄-koh guá iáu-sī khah ǹg-bāng Thóng-it-sai iânn.", en: "That makes sense. But I still hope the Uni-Lions win more."}
+  - {n: 15, speaker: A-kong, hanji: "按呢咱後禮拜才閣來球場看現場。", tailo: "Án-ne lán āu lé-pài tsiah koh lâi kiû-tiûnn khuànn hiān-tiûnn.", en: "In that case, let's come back to the stadium next week and watch it live."}
+  - {n: 16, speaker: Sam, hanji: "好啊！我欲紮家己的旗仔去喝聲。", tailo: "Hó--ah! Guá beh tsah ka-kī ê kî-á khì huah-siann.", en: "Sounds good! I'll bring my own flag to cheer with."}
+notes:
+  - {ref: 1, topic: culture, text: "統一獅 Thóng-it-sai, the Uni-Lions, is Tainan's own professional baseball team; baseball (棒球) is still the island's most-watched sport."}
+  - {ref: 2, topic: vocab, text: "精彩 tsing-tshái = exciting, brilliant (of a performance). 分 hun here is 'point(s)', the same word as 'minute' (lesson 51's 分鐘) and the fractional 'part' — one word for several measuring uses."}
+  - {ref: 3, topic: grammar, text: "予 hōo as a passive marker again (lesson 65): 予對方拍全壘打 'had a home run hit off him by the other side'. 對方 tuì-hong = the other side, the opposing party."}
+  - {ref: 4, topic: grammar, text: "但是 tān-sī = but, however — a more written-sounding alternative to 毋過 m̄-koh (lesson 24); the two are largely interchangeable, but 毋過 is far more common in speech."}
+  - {ref: 5, topic: grammar, text: "看見 khuànn-kìnn = see, catch sight of (看到): slightly more literary than 看著 khuànn-tio̍h (lesson 7), and often used, as here, to insist 'yes, I did see it'. 局 kio̍k = classifier for an inning or a round of play."}
+  - {ref: 6, topic: vocab, text: "邊仔 pinn--á = next to, beside (旁邊). 活力 ua̍h-li̍k = energy, vigour."}
+  - {ref: 7, topic: vocab, text: "體力 thé-la̍t = physical stamina. 經驗 king-giām = experience."}
+  - {ref: 9, topic: vocab, text: "初中 tshoo-tiong, the older name for middle school (now usually 國中 kok-tiong); 國小 kok-sió = elementary school."}
+  - {ref: 10, topic: vocab, text: "學生 ha̍k-sing = student, pupil (the everyday word, alongside this course's 讀冊 'study'). 幸福 hīng-hok = fortunate, blessed with an easy life."}
+  - {ref: 11, topic: vocab, text: "壓力 ap-li̍k = pressure, stress."}
+  - {ref: 13, topic: grammar, text: "鬥陣 tàu-tīn = do something together, as a team (lesson 44); here used for 'teamwork' without borrowing a separate noun for it."}
+  - {ref: 14, topic: vocab, text: "向望 ǹg-bāng = hope, look forward to — the everyday Taigi word; it does not share characters with Mandarin 希望."}
+new_words:
+  - {tailo: "pāng-kiû", hanji: 棒球, en: "baseball"}
+  - {tailo: "kha-kiû", hanji: 跤球, en: "football, soccer"}
+  - {tailo: "tâu-tshiú", hanji: 投手, en: "pitcher"}
+  - {tailo: "tánn-kik", hanji: 打擊, en: "batting; a blow"}
+  - {tailo: "tsuân-luí-tánn", hanji: 全壘打, en: "home run"}
+  - {tailo: tuī, hanji: 隊, en: "team"}
+  - {tailo: iânn, hanji: 贏, en: "win"}
+  - {tailo: su, hanji: 輸, en: "lose"}
+  - {tailo: "pí-sài", hanji: 比賽, en: "match, competition"}
+  - {tailo: "khuànn-kìnn", hanji: 看見, en: "see, catch sight of"}
+  - {tailo: "tān-sī", hanji: 但是, en: "but, however"}
+  - {tailo: "kok-sió", hanji: 國小, en: "elementary school"}
+  - {tailo: "ha̍k-sing", hanji: 學生, en: "student"}
+  - {tailo: "kiû-tiûnn", hanji: 球場, en: "stadium, field"}
+  - {tailo: "tsi-tshî", hanji: 支持, en: "support"}
+exercises:
+  translate:
+    - {tailo: "Siōng bué su sann hun.", hanji: "上尾輸三分。", en: "They lost by three points in the end."}
+    - {tailo: "Hōo tuì-hong phah kuí ki tsuân-luí-tánn.", hanji: "予對方拍幾支全壘打。", en: "The other side hit several home runs off him."}
+    - {tailo: "Guá iáu-sī khah ǹg-bāng Thóng-it-sai iânn.", hanji: "我猶是較向望統一獅贏。", en: "I still hope the Uni-Lions win more."}
+  fill:
+    - {tailo: "___ i hit pîng ê tánn-kik iáu bē-bái.", hanji: "___伊彼平的打擊猶袂䆀。", answer: "Tān-sī", answer_hanji: "但是", en: "But that side's batting wasn't bad."}
+    - {tailo: "___--lah! Siōng bué tsi̍t kio̍k, nn̄g hong lóng phah kah tsiânn phah-piànn.", hanji: "___啦！上尾一局，兩方攏拍甲誠拍拚。", answer: "Khuànn-kìnn", answer_hanji: "看見", en: "I saw it! In the last inning both sides played their hearts out."}
+audio: []

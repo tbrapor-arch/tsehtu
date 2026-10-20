@@ -1,0 +1,59 @@
+id: 69
+title: {en: "Money worries", tailo: "Khai-tsînn ê huân-ló", hanji: "開錢的煩惱"}
+review: false
+setting: "After dinner at A-má's. The family talks about rising prices and saving money."
+dialogue:
+  - {n: 1, speaker: Sam, hanji: "這幾年物價一直起，我感覺錢開甲真緊。", tailo: "Tsit kuí nî bu̍t-kè it-ti̍t khí, guá kám-kak tsînn khai kah tsin kín.", en: "Prices have kept rising these past few years; I feel money disappears so fast."}
+  - {n: 2, speaker: A-kong, hanji: "著啊，退休了後，無薪水通好領，逐月的開銷愛較注意。", tailo: "Tio̍h--ah, thè-hiu liáu-āu, bô sin-suí thang-hó niá, ta̍k gue̍h ê khai-siau ài khah tsù-ì.", en: "That's right. After retiring, with no salary to collect, I have to watch my monthly expenses more carefully."}
+  - {n: 3, speaker: A-má, hanji: "毋管生活按怎變，咱逐家攏愛會曉儉。", tailo: "M̄-kuán sing-ua̍h án-tsuánn piàn, lán ta̍k-ke lóng ài ē-hiáu khiām.", en: "No matter how life changes, we all need to know how to save."}
+  - {n: 4, speaker: Sam, hanji: "因為我是拍工的，收入無一定，所以我定定煩惱儉無夠錢。", tailo: "In-uī guá sī phah-kang--ê, siu-ji̍p bô it-tīng, sóo-í guá tiānn-tiānn huân-ló khiām bô kàu tsînn.", en: "Because I do odd jobs, my income isn't fixed, so I often worry about not saving enough money."}
+  - {n: 5, speaker: A-kong, hanji: "毋管別人按怎想，你愛有家己的按算。", tailo: "M̄-kuán pa̍t-lâng án-tsuánn siūnn, lí ài ū ka-kī ê àn-sǹg.", en: "No matter what others think, you need to have your own plan."}
+  - {n: 6, speaker: Sam, hanji: "阿公，你這世人上要緊的儉錢步數是啥？", tailo: "A-kong, lí tsit-sì-lâng siōng iàu-kín ê khiām-tsînn pōo-sòo sī siánn?", en: "A-kong, what's the most important money-saving method of your whole life?"}
+  - {n: 7, speaker: A-kong, hanji: "我這世人上堅持的一句話，就是「有儉就有底」。", tailo: "Guá tsit-sì-lâng siōng kian-tshî ê tsi̍t kù uē, tō sī “ū khiām tō ū té”.", en: "The one thing I've stuck to my whole life is: 'if you save, you'll always have something to fall back on.'"}
+  - {n: 8, speaker: Sam, hanji: "聽起來簡單，毋過做起來敢有遐爾簡單？", tailo: "Thiann--khí-lâi kán-tan, m̄-koh tsò--khí-lâi kám ū hiah-nī kán-tan?", en: "Sounds simple, but is it really that simple to do?"}
+  - {n: 9, speaker: A-kong, hanji: "無簡單，毋過愛對小可仔代誌開始。一杯仔咖啡省起來，一個月就濟真濟。", tailo: "Bô kán-tan, m̄-koh ài tuì sió-khuá-á tāi-tsì khai-sí. Tsi̍t pue-á ka-pi síng--khí-lâi, tsi̍t kò gue̍h tō tsē tsin tsē.", en: "It's not simple, but you have to start with small things. Save on one little cup of coffee, and after a month it adds up a lot."}
+  - {n: 10, speaker: A-má, hanji: "毋過嘛毋通儉甲家己袂歡喜。人生嘛愛有快樂的時。", tailo: "M̄-koh mā m̄-thang khiām kah ka-kī bē huann-hí. Jîn-sing mā ài ū khuài-lo̍k ê sî.", en: "But you also shouldn't save to the point of making yourself miserable. Life needs happy moments too."}
+  - {n: 11, speaker: Sam, hanji: "著，若無，儉甲老才來反悔無食著好空的。", tailo: "Tio̍h, nā bô, khiām kah lāu tsiah lâi huán-hué bô tsia̍h-tio̍h hó-khang--ê.", en: "Right — otherwise, you'll save until you're old and then regret not having enjoyed the good things."}
+  - {n: 12, speaker: A-kong, hanji: "我感覺上要緊的是按算：啥物錢愛開，啥物錢愛儉，心內愛有一个數。", tailo: "Guá kám-kak siōng iàu-kín ê sī àn-sǹg: siánn-mih tsînn ài khai, siánn-mih tsînn ài khiām, sim-lāi ài ū tsi̍t ê sòo.", en: "I think the most important thing is planning: knowing what money you need to spend and what to save, having a figure in your head."}
+  - {n: 13, speaker: Sam, hanji: "阿媽定定講，開錢愛開佇著的所在。", tailo: "A-má tiānn-tiānn kóng, khai-tsînn ài khai tī tio̍h ê sóo-tsāi.", en: "A-má always says, spend money in the right place."}
+  - {n: 14, speaker: A-má, hanji: "著，毋是逐項省，是愛知影啥物較要緊。", tailo: "Tio̍h, m̄ sī ta̍k hāng síng, sī ài tsai-iánn siánn-mih khah iàu-kín.", en: "Right — it's not about skimping on everything, it's about knowing what matters more."}
+  - {n: 15, speaker: Sam, hanji: "我這馬開始儉錢矣，下個月的利息我欲家己算看覓。", tailo: "Guá tsit-má khai-sí khiām-tsînn--ah, ē kò gue̍h ê lī-sik guá beh ka-kī sǹg khuànn-māi.", en: "I'm starting to save money now; next month I want to calculate the interest myself."}
+  - {n: 16, speaker: A-kong, hanji: "好，你若有儉錢的按算，我真歡喜鬥你想看覓。", tailo: "Hó, lí nā ū khiām-tsînn ê àn-sǹg, guá tsin huann-hí tàu lí siūnn khuànn-māi.", en: "Good — if you have a savings plan, I'd be happy to help you think it through."}
+notes:
+  - {ref: 1, topic: vocab, text: "物價 bu̍t-kè = prices (in general, of goods). 開 khai = spend (money); 開錢 khai-tsînn = spend money (lesson title)."}
+  - {ref: 2, topic: vocab, text: "退休 thè-hiu = retire. 薪水 sin-suí = salary, wages. 開銷 khai-siau = (one's) expenses."}
+  - {ref: 3, topic: grammar, text: "毋管 X，攏 Y = no matter X, Y (lesson 57), recycled here as the lesson's main structure: 毋管生活按怎變，咱逐家攏愛會曉儉."}
+  - {ref: 4, topic: grammar, text: "因為 X，所以 Y = because X, so Y (lessons 51/59's 因為 and 所以 used together). 拍工 phah-kang = do paid work, especially casual or part-time (打工). 收入 siu-ji̍p = income."}
+  - {ref: 5, topic: grammar, text: "別人 pa̍t-lâng = other people, somebody else — combined here with 毋管 for 'no matter what others think' (毋管別人按怎想)."}
+  - {ref: 6, topic: vocab, text: "這世人 tsit-sì-lâng = one's whole life, this lifetime."}
+  - {ref: 7, topic: vocab, text: "堅持 kian-tshî = stick to, insist on. 底 té here means a reserve, something to fall back on (lit. 'a bottom/base'): 有儉就有底."}
+  - {ref: 9, topic: vocab, text: "小可仔 sió-khuá-á = a little, small things (lesson 50). 咖啡 ka-pi = coffee."}
+  - {ref: 10, topic: vocab, text: "人生 jîn-sing = (one's) life, a lifetime."}
+  - {ref: 11, topic: vocab, text: "反悔 huán-hué = regret, have second thoughts — the word MOE gives for 'regret', even though it looks like 'go back on a promise' at first glance (false-friend-adjacent). 好空 hó-khang = a good thing, a good opportunity."}
+  - {ref: 12, topic: vocab, text: "按算 àn-sǹg = a plan, to plan (also 'budget' in this sense). 數 sòo = a figure, a number (literary register)."}
+  - {ref: 15, topic: vocab, text: "利息 lī-sik = interest (on savings or a loan). 算 sǹg = calculate, reckon."}
+new_words:
+  - {tailo: "khai-tsînn", hanji: 開錢, en: "spend money"}
+  - {tailo: khiām, hanji: 儉, en: "save, be thrifty"}
+  - {tailo: "khiām-tsînn", hanji: 儉錢, en: "save money"}
+  - {tailo: "thè-hiu", hanji: 退休, en: "retire"}
+  - {tailo: "sin-suí", hanji: 薪水, en: "salary"}
+  - {tailo: "bu̍t-kè", hanji: 物價, en: "prices"}
+  - {tailo: "khai-siau", hanji: 開銷, en: "expenses"}
+  - {tailo: "àn-sǹg", hanji: 按算, en: "plan, budget"}
+  - {tailo: "phah-kang", hanji: 拍工, en: "do paid/casual work"}
+  - {tailo: "siu-ji̍p", hanji: 收入, en: "income"}
+  - {tailo: "pa̍t-lâng", hanji: 別人, en: "other people"}
+  - {tailo: té, hanji: 底, en: "a reserve, something to fall back on"}
+  - {tailo: "hó-khang", hanji: 好空, en: "a good thing, opportunity"}
+  - {tailo: "huán-hué", hanji: 反悔, en: "regret"}
+  - {tailo: "lī-sik", hanji: 利息, en: "interest"}
+exercises:
+  translate:
+    - {tailo: "M̄-kuán sing-ua̍h án-tsuánn piàn, lán ta̍k-ke lóng ài ē-hiáu khiām.", hanji: "毋管生活按怎變，咱逐家攏愛會曉儉。", en: "No matter how life changes, we all need to know how to save."}
+    - {tailo: "In-uī siu-ji̍p bô it-tīng, sóo-í guá tiānn-tiānn huân-ló.", hanji: "因為收入無一定，所以我定定煩惱。", en: "Because my income isn't fixed, I often worry."}
+    - {tailo: "Lí ài ū ka-kī ê àn-sǹg.", hanji: "你愛有家己的按算。", en: "You need to have your own plan."}
+  fill:
+    - {tailo: "M̄-kuán ___ án-tsuánn siūnn, lí ài ū ka-kī ê àn-sǹg.", hanji: "毋管___按怎想，你愛有家己的按算。", answer: "pa̍t-lâng", answer_hanji: "別人", en: "No matter what others think, you need to have your own plan."}
+    - {tailo: "Ū khiām tō ū ___.", hanji: "有儉就有___。", answer: "té", answer_hanji: "底", en: "If you save, you'll always have something to fall back on."}
+audio: []

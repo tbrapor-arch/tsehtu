@@ -31,7 +31,7 @@ make coverage           # how much of the core vocabulary the lessons cover, and
 make app                # build the reader app: app/dist/index.html, one self-contained page
 python3 tools/sandhi.py "Guá sī | Huat-kok-lâng."   # spoken tones for a line
 ```
-Project state: `PROJECT_NOTES.md`; rules for Claude: `CLAUDE.md`; references in `docs/`.
+Project state: `PROJECT_NOTES.md`; references in `docs/`.
 Start with `course/README.md`, `course/syllabus.yaml`, `course/grammar-inventory.md` and
 `course/lessons/000-reading-tailo.md`.
 
