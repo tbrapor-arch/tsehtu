@@ -1,7 +1,7 @@
 # Part 2: 進修 Tsìn-siu (Perfectionnement), spec and handover
 
-State on 20 Oct 2026 (evening): P1 is published; **P2–P7 are written** on branch `perfectionnement-p2-p7`
-(not yet merged into `main`, so not on the site). Next batch: P8–P14 (P14 = review).
+State on 20 Oct 2026 (evening): **P1–P7 are published** (P2–P7 merged into `main` on 20 Oct).
+Next batch: P8–P14 (P14 = review).
 
 ## Batch 1 (P1–P7)
 | # | genre | title | new words | lines |
@@ -78,6 +78,6 @@ P1 was written the other way, theme first; its words were checked afterwards. Fr
 ## Status of decisions
 - Exercises: 5 + 5 (decided 20 Oct 2026). Publishing: P1 published with the part-2 section on 20 Oct 2026.
 - To do: describe part 2 in `design-decisions.md`.
-- To decide with the user: merge P2–P7 into `main` (publishes them). Smoke run on 進修 lessons only: 0 problems.
+- P2–P7 published on 20 Oct 2026 at the user's request. Smoke run on 進修 lessons only: 0 problems.
 - Language QC pass on 20 Oct 2026 (all 100 lessons + P1): 6 lessons fixed (54, 67, 68, 73, 85, 93); no other
   unattested readings, no Mandarin function words, no inconsistent readings across lessons.
