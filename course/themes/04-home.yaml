@@ -1,0 +1,689 @@
+id: home
+title:
+  en: Home and everyday objects
+  hanji: 厝佮物件
+  tailo: tshù kap mi̍h-kiānn
+intro: The house and its rooms, furniture, kitchen things, containers and tools, housework and everyday objects.
+sections:
+- n: 1
+  title:
+    en: House and rooms
+    hanji: 厝佮房間
+    tailo: tshù kap pâng-king
+  words:
+  - hanji: 厝
+    tailo: tshù
+    en: house
+    zh: 房子
+  - hanji: 兜
+    tailo: tau
+    en: home, (someone's) place
+    zh: 家
+  - hanji: 厝內
+    tailo: tshù-lāi
+    en: at home, in the house
+    zh: 家裡
+  - hanji: 徛家
+    tailo: khiā-ke
+    en: home, residence
+    zh: 住家
+  - hanji: 人家
+    tailo: jîn-ke
+    en: house, household
+    zh: 住宅
+  - hanji: 大厝
+    tailo: tuā-tshù
+    en: big house, mansion
+    zh: 大房子
+  - hanji: 瓦厝
+    tailo: hiā-tshù
+    en: tile-roofed house
+    zh: 瓦房
+  - hanji: 寮
+    tailo: liâu
+    en: hut, shed
+    zh: 小屋
+  - hanji: 寮仔
+    tailo: liâu-á
+    en: hut, shack
+    zh: 小屋
+  - hanji: 起厝
+    tailo: khí-tshù
+    en: build a house
+    zh: 蓋房子
+  - hanji: 間
+    tailo: king
+    en: room (in compounds)
+    zh: 間
+  - hanji: 房間
+    tailo: pâng-king
+    en: room
+    zh: 房間
+  - hanji: 房
+    tailo: pâng
+    en: room
+    zh: 房
+  - hanji: 睏房
+    tailo: khùn-pâng
+    en: bedroom
+    zh: 臥室
+  - hanji: 大廳
+    tailo: tuā-thiann
+    en: main hall, living room
+    zh: 客廳
+  - hanji: 客廳
+    tailo: kheh-thiann
+    en: living room, reception room
+    zh: 客廳
+  - hanji: 灶跤
+    tailo: tsàu-kha
+    en: kitchen
+    zh: 廚房
+  - hanji: 廚房
+    tailo: tû-pâng
+    en: kitchen
+    zh: 廚房
+  - hanji: 便所
+    tailo: piān-sóo
+    en: toilet
+    zh: 廁所
+  - hanji: 屎礐仔
+    tailo: sái-ha̍k-á
+    en: pit latrine (old)
+    zh: 茅坑
+  - hanji: 埕
+    tailo: tiânn
+    en: courtyard, yard
+    zh: 院子
+  - hanji: 樓
+    tailo: lâu
+    en: storey, floor; building
+    zh: 樓
+  - hanji: 棟
+    tailo: tòng
+    en: (measure word for buildings)
+    zh: 棟
+  - hanji: 樓梯
+    tailo: lâu-thui
+    en: stairs
+    zh: 樓梯
+  - hanji: 坎
+    tailo: khám
+    en: step, stairs
+    zh: 台階
+  - hanji: 梯
+    tailo: the
+    en: ladder; stairs
+    zh: 梯
+  - hanji: 厝頂
+    tailo: tshù-tíng
+    en: roof
+    zh: 屋頂
+- n: 2
+  title:
+    en: Doors, windows and walls
+    hanji: 門、窗、壁
+    tailo: mn̂g, thang, piah
+  words:
+  - hanji: 門
+    tailo: mn̂g
+    en: door
+    zh: 門
+  - hanji: 門
+    tailo: bûn
+    en: door (literary reading)
+    zh: 門
+  - hanji: 戶
+    tailo: hōo
+    en: door; household
+    zh: 戶
+  - hanji: 戶橂
+    tailo: hōo-tīng
+    en: threshold
+    zh: 門檻
+  - hanji: 窗
+    tailo: thang
+    en: window
+    zh: 窗戶
+  - hanji: 窗仔
+    tailo: thang-á
+    en: window
+    zh: 窗戶
+  - hanji: 窗仔門
+    tailo: thang-á-mn̂g
+    en: window
+    zh: 窗戶
+  - hanji: 壁
+    tailo: piah
+    en: wall
+    zh: 牆
+  - hanji: 牆
+    tailo: tshiûnn
+    en: wall
+    zh: 牆
+  - hanji: 柱
+    tailo: thiāu
+    en: pillar, post
+    zh: 柱子
+  - hanji: 瓦
+    tailo: uá
+    en: roof tile
+    zh: 瓦
+  - hanji: 磚仔
+    tailo: tsng-á
+    en: brick
+    zh: 磚
+  - hanji: 枋
+    tailo: pang
+    en: board, plank
+    zh: 木板
+  - hanji: 枋仔
+    tailo: pang-á
+    en: board, plank
+    zh: 木板
+  - hanji: 柴箍
+    tailo: tshâ-khoo
+    en: log, chunk of wood
+    zh: 圓木
+  - hanji: 鐵
+    tailo: thih
+    en: iron
+    zh: 鐵
+  - hanji: 鐵枝
+    tailo: thih-ki
+    en: iron bar, rebar
+    zh: 鋼筋
+  - hanji: 玻璃
+    tailo: po-lê
+    en: glass
+    zh: 玻璃
+  - hanji: 漆
+    tailo: tshat
+    en: paint, lacquer
+    zh: 油漆
+  - hanji: 煙筒
+    tailo: ian-tâng
+    en: chimney
+    zh: 煙囪
+  - hanji: 料
+    tailo: liāu
+    en: material
+    zh: 材料
+  - hanji: 糊
+    tailo: kôo
+    en: paste, glue; thick porridge
+    zh: 漿糊
+- n: 3
+  title:
+    en: Furniture and bedding
+    hanji: 家具佮眠床
+    tailo: ka-kū kap bîn-tshn̂g
+  words:
+  - hanji: 桌
+    tailo: toh
+    en: table
+    zh: 桌子
+  - hanji: 桌仔
+    tailo: toh-á
+    en: table
+    zh: 桌子
+  - hanji: 桌頂
+    tailo: toh-tíng
+    en: on the table
+    zh: 桌上
+  - hanji: 桌跤
+    tailo: toh-kha
+    en: table leg
+    zh: 桌腳
+  - hanji: 椅
+    tailo: í
+    en: chair
+    zh: 椅子
+  - hanji: 椅仔
+    tailo: í-á
+    en: chair
+    zh: 椅子
+  - hanji: 坐位
+    tailo: tsē-uī
+    en: seat
+    zh: 座位
+  - hanji: 眠床
+    tailo: bîn-tshn̂g
+    en: bed
+    zh: 床
+  - hanji: 床
+    tailo: tshn̂g
+    en: bed
+    zh: 床
+  - hanji: 被
+    tailo: phuē
+    en: quilt, duvet
+    zh: 被子
+  - hanji: 被單
+    tailo: phuē-tuann
+    en: quilt cover, sheet
+    zh: 被單
+  - hanji: 枕
+    tailo: tsím
+    en: pillow
+    zh: 枕頭
+  - hanji: 蓆
+    tailo: tshio̍h
+    en: mat (straw, bamboo)
+    zh: 蓆子
+  - hanji: 蠓罩
+    tailo: báng-tà
+    en: mosquito net
+    zh: 蚊帳
+  - hanji: 幕
+    tailo: bōo
+    en: curtain
+    zh: 簾幕
+  - hanji: 鏡
+    tailo: kiànn
+    en: mirror
+    zh: 鏡子
+  - hanji: 燈
+    tailo: ting
+    en: lamp, light
+    zh: 燈
+  - hanji: 燈火
+    tailo: ting-hué
+    en: lamplight
+    zh: 燈光
+  - hanji: 電火
+    tailo: tiān-hué
+    en: electric light; electricity
+    zh: 電燈
+  - hanji: 電氣
+    tailo: tiān-khì
+    en: electricity
+    zh: 電氣
+  - hanji: 冰箱
+    tailo: ping-siunn
+    en: fridge
+    zh: 冰箱
+  - hanji: 時鐘
+    tailo: sî-tsing
+    en: clock
+    zh: 時鐘
+  - hanji: 鐘
+    tailo: tsing
+    en: bell; clock
+    zh: 鐘
+- n: 4
+  title:
+    en: Kitchen and tableware
+    hanji: 灶跤的物件
+    tailo: tsàu-kha ê mi̍h-kiānn
+  words:
+  - hanji: 箸
+    tailo: tī
+    en: chopsticks
+    zh: 筷子
+  - hanji: 碗
+    tailo: uánn
+    en: bowl
+    zh: 碗
+  - hanji: 碗公
+    tailo: uánn-kong
+    en: large bowl
+    zh: 大碗
+  - hanji: 飯碗
+    tailo: pn̄g-uánn
+    en: rice bowl; (fig.) job
+    zh: 飯碗
+  - hanji: 盤
+    tailo: puânn
+    en: plate, tray
+    zh: 盤
+  - hanji: 盤仔
+    tailo: puânn-á
+    en: plate
+    zh: 盤子
+  - hanji: 碟
+    tailo: ti̍h
+    en: small dish, saucer
+    zh: 碟子
+  - hanji: 杯
+    tailo: pue
+    en: cup, glass
+    zh: 杯
+  - hanji: 甌仔
+    tailo: au-á
+    en: cup, teacup
+    zh: 杯子
+  - hanji: 茶甌
+    tailo: tê-au
+    en: teacup
+    zh: 茶杯
+  - hanji: 茶鈷
+    tailo: tê-kóo
+    en: teapot
+    zh: 茶壺
+  - hanji: 刀
+    tailo: to
+    en: knife
+    zh: 刀
+  - hanji: 刀仔
+    tailo: to-á
+    en: small knife
+    zh: 小刀
+  - hanji: 砧
+    tailo: tiam
+    en: chopping board
+    zh: 砧板
+  - hanji: 鼎
+    tailo: tiánn
+    en: wok, cooking pot
+    zh: 鍋
+  - hanji: 灶
+    tailo: tsàu
+    en: stove (brick, wood-fired)
+    zh: 灶
+  - hanji: 爐
+    tailo: lôo
+    en: stove, burner
+    zh: 爐
+  - hanji: 烘爐
+    tailo: hang-lôo
+    en: charcoal brazier
+    zh: 火爐
+  - hanji: 火炭
+    tailo: hué-thuànn
+    en: charcoal
+    zh: 木炭
+  - hanji: 桶
+    tailo: tháng
+    en: bucket, barrel
+    zh: 桶
+  - hanji: 甕
+    tailo: àng
+    en: earthenware jar
+    zh: 甕
+  - hanji: 罐
+    tailo: kuàn
+    en: jar, can, tin
+    zh: 罐
+  - hanji: 矸仔
+    tailo: kan-á
+    en: bottle
+    zh: 瓶子
+  - hanji: 酒矸
+    tailo: tsiú-kan
+    en: wine bottle
+    zh: 酒瓶
+  - hanji: 蓋
+    tailo: kuà
+    en: lid, cover
+    zh: 蓋子
+  - hanji: 崁
+    tailo: khàm
+    en: cover, lid
+    zh: 蓋子
+  - hanji: 罩
+    tailo: tàu
+    en: cover, mesh cover (for food)
+    zh: 罩
+  - hanji: 罩
+    tailo: tà
+    en: cover; (bamboo) basket
+    zh: 罩
+- n: 5
+  title:
+    en: Bags, containers and tools
+    hanji: 袋仔佮家私
+    tailo: tē-á kap ke-si
+  words:
+  - hanji: 箱
+    tailo: siunn
+    en: box, chest
+    zh: 箱子
+  - hanji: 袋
+    tailo: tē
+    en: bag; pocket
+    zh: 袋
+  - hanji: 袋仔
+    tailo: tē-á
+    en: bag
+    zh: 袋子
+  - hanji: 布袋
+    tailo: pòo-tē
+    en: sack, cloth bag
+    zh: 布袋
+  - hanji: 籃仔
+    tailo: nâ-á
+    en: basket
+    zh: 籃子
+  - hanji: 菜籃
+    tailo: tshài-nâ
+    en: shopping basket (for vegetables)
+    zh: 菜籃
+  - hanji: 籠
+    tailo: láng
+    en: steamer basket; cage
+    zh: 籠
+  - hanji: 盒
+    tailo: a̍h
+    en: box (with a lid)
+    zh: 盒子
+  - hanji: 面桶
+    tailo: bīn-tháng
+    en: washbasin
+    zh: 臉盆
+  - hanji: 跤桶
+    tailo: kha-tháng
+    en: washtub
+    zh: 洗衣盆
+  - hanji: 家私
+    tailo: ke-si
+    en: tools
+    zh: 工具
+  - hanji: 鉸刀
+    tailo: ka-to
+    en: scissors
+    zh: 剪刀
+  - hanji: 夾
+    tailo: ngeh
+    en: tongs, clamp
+    zh: 夾子
+  - hanji: 鏨
+    tailo: tsām
+    en: chisel
+    zh: 鑿子
+  - hanji: 針
+    tailo: tsiam
+    en: needle
+    zh: 針
+  - hanji: 線
+    tailo: suànn
+    en: thread; line
+    zh: 線
+  - hanji: 索
+    tailo: soh
+    en: rope
+    zh: 繩子
+  - hanji: 索仔
+    tailo: soh-á
+    en: rope, string
+    zh: 繩子
+  - hanji: 竹篙
+    tailo: tik-ko
+    en: bamboo pole
+    zh: 竹竿
+  - hanji: 管
+    tailo: kóng
+    en: tube, pipe
+    zh: 管子
+  - hanji: 網
+    tailo: bāng
+    en: net
+    zh: 網
+  - hanji: 結
+    tailo: kat
+    en: knot
+    zh: 結
+  - hanji: 圈
+    tailo: khian
+    en: ring, hook, loop
+    zh: 圈
+  - hanji: 機器
+    tailo: ki-khì
+    en: machine
+    zh: 機器
+  - hanji: 紙
+    tailo: tsuá
+    en: paper
+    zh: 紙
+- n: 6
+  title:
+    en: Housework
+    hanji: 厝內的工課
+    tailo: tshù-lāi ê khang-khuè
+  words:
+  - hanji: 掃
+    tailo: sàu
+    en: sweep
+    zh: 掃
+  - hanji: 摒
+    tailo: piànn
+    en: clean up, tidy
+    zh: 打掃
+  - hanji: 摒掃
+    tailo: piànn-sàu
+    en: clean, do the cleaning
+    zh: 打掃
+  - hanji: 掃帚
+    tailo: sàu-tshiú
+    en: broom
+    zh: 掃把
+  - hanji: 畚箕
+    tailo: pùn-ki
+    en: dustpan
+    zh: 畚斗
+  - hanji: 巾仔
+    tailo: kin-á
+    en: cloth, towel
+    zh: 毛巾
+  - hanji: 拭仔
+    tailo: tshit-á
+    en: eraser, duster
+    zh: 板擦
+  - hanji: 糞埽
+    tailo: pùn-sò
+    en: rubbish, garbage
+    zh: 垃圾
+  - hanji: 洗衫
+    tailo: sé-sann
+    en: do the laundry
+    zh: 洗衣服
+  - hanji: 擔水
+    tailo: tann-tsuí
+    en: carry water (on a pole)
+    zh: 挑水
+  - hanji: 沖
+    tailo: tshiâng
+    en: rinse, sluice with water
+    zh: 沖
+- n: 7
+  title:
+    en: Everyday things
+    hanji: 日常的物件
+    tailo: ji̍t-siông ê mi̍h-kiānn
+  words:
+  - hanji: 物件
+    tailo: mi̍h-kiānn
+    en: thing, object
+    zh: 東西
+  - hanji: 物
+    tailo: mih
+    en: thing (in compounds)
+    zh: 東西
+  - hanji: 物
+    tailo: bu̍t
+    en: thing, matter (literary reading)
+    zh: 物
+  - hanji: 寶貝
+    tailo: pó-puè
+    en: treasure; darling
+    zh: 寶貝
+  - hanji: 卡
+    tailo: khah
+    en: card
+    zh: 卡
+  - hanji: 鎖匙
+    tailo: só-sî
+    en: key
+    zh: 鑰匙
+  - hanji: 印仔
+    tailo: ìn-á
+    en: seal, name stamp
+    zh: 印章
+  - hanji: 電腦
+    tailo: tiān-náu
+    en: computer
+    zh: 電腦
+  - hanji: 手機仔
+    tailo: tshiú-ki-á
+    en: mobile phone
+    zh: 手機
+  - hanji: 錶仔
+    tailo: pió-á
+    en: watch
+    zh: 手錶
+  - hanji: 手錶仔
+    tailo: tshiú-pió-á
+    en: wristwatch
+    zh: 手錶
+  - hanji: 雨傘
+    tailo: hōo-suànn
+    en: umbrella
+    zh: 雨傘
+  - hanji: 傘
+    tailo: suànn
+    en: umbrella, parasol
+    zh: 傘
+  - hanji: 扇
+    tailo: sìnn
+    en: fan
+    zh: 扇子
+  - hanji: 薰吹
+    tailo: hun-tshue
+    en: tobacco pipe
+    zh: 菸斗
+  - hanji: 牌仔
+    tailo: pâi-á
+    en: playing cards; tiles
+    zh: 牌
+  - hanji: 尪
+    tailo: ang
+    en: doll, figurine
+    zh: 人偶
+  - hanji: 尪仔
+    tailo: ang-á
+    en: doll, puppet; picture of a person
+    zh: 人偶
+  - hanji: 風吹
+    tailo: hong-tshue
+    en: kite
+    zh: 風箏
+  - hanji: 球
+    tailo: kiû
+    en: ball
+    zh: 球
+  - hanji: 鼓
+    tailo: kóo
+    en: drum
+    zh: 鼓
+  - hanji: 丸
+    tailo: uân
+    en: small ball, pill
+    zh: 丸
+  - hanji: 粉
+    tailo: hún
+    en: powder
+    zh: 粉
+  - hanji: 條
+    tailo: liâu
+    en: strip, long thin thing
+    zh: 條

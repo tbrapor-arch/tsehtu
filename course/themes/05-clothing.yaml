@@ -1,0 +1,227 @@
+id: clothing
+title:
+  en: Clothing and looks
+  hanji: 穿插佮模樣
+  tailo: tshīng-tshah kap bôo-iūnn
+intro: Clothes, shoes and accessories, hair and make-up, and how people look.
+sections:
+- n: 1
+  title:
+    en: Clothes
+    hanji: 衫佮褲
+    tailo: sann kap khòo
+  words:
+  - hanji: 衫
+    tailo: sann
+    en: clothes; jacket, top
+    zh: 衣服
+  - hanji: 衣
+    tailo: i
+    en: clothes (literary, in compounds)
+    zh: 衣服
+  - hanji: 衫仔褲
+    tailo: sann-á-khòo
+    en: clothes
+    zh: 衣服
+  - hanji: 服裝
+    tailo: ho̍k-tsong
+    en: clothing, outfit
+    zh: 服裝
+  - hanji: 褲
+    tailo: khòo
+    en: trousers
+    zh: 褲子
+  - hanji: 裙
+    tailo: kûn
+    en: skirt
+    zh: 裙子
+  - hanji: 領
+    tailo: niá
+    en: collar
+    zh: 領子
+  - hanji: 西裝
+    tailo: se-tsong
+    en: suit (Western)
+    zh: 西裝
+  - hanji: 洋服
+    tailo: iûnn-ho̍k
+    en: Western clothes, suit (from Japanese)
+    zh: 西裝
+  - hanji: 褲帶
+    tailo: khòo-tuà
+    en: belt
+    zh: 腰帶
+  - hanji: 棕蓑
+    tailo: tsang-sui
+    en: palm-fibre rain cape
+    zh: 蓑衣
+  - hanji: 布
+    tailo: pòo
+    en: cloth, fabric
+    zh: 布
+  - hanji: 絲
+    tailo: si
+    en: silk; thread
+    zh: 絲
+  - hanji: 穿
+    tailo: tshīng
+    en: wear, put on (clothes, shoes)
+    zh: 穿
+  - hanji: 褪
+    tailo: thǹg
+    en: take off (clothes)
+    zh: 脫
+- n: 2
+  title:
+    en: Shoes, hats and jewellery
+    hanji: 鞋、帽佮珠寶
+    tailo: ê, bō kap tsu-pó
+  words:
+  - hanji: 鞋
+    tailo: ê
+    en: shoe
+    zh: 鞋
+  - hanji: 皮鞋
+    tailo: phuê-ê
+    en: leather shoes
+    zh: 皮鞋
+  - hanji: 靴
+    tailo: hia
+    en: boot
+    zh: 靴子
+  - hanji: 帽
+    tailo: bō
+    en: hat
+    zh: 帽子
+  - hanji: 帽仔
+    tailo: bō-á
+    en: hat, cap
+    zh: 帽子
+  - hanji: 戴
+    tailo: tì
+    en: wear (hat, glasses, jewellery)
+    zh: 戴
+  - hanji: 目鏡
+    tailo: ba̍k-kiànn
+    en: glasses
+    zh: 眼鏡
+  - hanji: 手指
+    tailo: tshiú-tsí
+    en: ring
+    zh: 戒指
+  - hanji: 手環
+    tailo: tshiú-khuân
+    en: bracelet
+    zh: 手鐲
+  - hanji: 真珠
+    tailo: tsin-tsu
+    en: pearl
+    zh: 珍珠
+  - hanji: 珠
+    tailo: tsu
+    en: pearl, bead
+    zh: 珠
+  - hanji: 繡
+    tailo: siù
+    en: embroider
+    zh: 繡
+- n: 3
+  title:
+    en: Hair and make-up
+    hanji: 頭毛佮妝
+    tailo: thâu-mn̂g kap tsng
+  words:
+  - hanji: 梳
+    tailo: se
+    en: comb (one's hair)
+    zh: 梳
+  - hanji: 梳頭
+    tailo: se-thâu
+    en: comb one's hair
+    zh: 梳頭
+  - hanji: 剃
+    tailo: thì
+    en: shave
+    zh: 剃
+  - hanji: 剃頭
+    tailo: thì-thâu
+    en: have a haircut; barber
+    zh: 理髮
+  - hanji: 辮
+    tailo: pīnn
+    en: braid, plait
+    zh: 編辮子
+  - hanji: 妝
+    tailo: tsng
+    en: put on make-up
+    zh: 化妝
+  - hanji: 胭脂
+    tailo: ian-tsi
+    en: lipstick; rouge
+    zh: 口紅
+  - hanji: 打扮
+    tailo: tánn-pān
+    en: dress up; get oneself ready
+    zh: 打扮
+- n: 4
+  title:
+    en: Looks
+    hanji: 模樣
+    tailo: bôo-iūnn
+  words:
+  - hanji: 媠
+    tailo: suí
+    en: pretty, beautiful; nice
+    zh: 漂亮
+  - hanji: 美麗
+    tailo: bí-lē
+    en: beautiful
+    zh: 美麗
+  - hanji: 媠噹噹
+    tailo: suí-tang-tang
+    en: really beautiful
+    zh: 非常漂亮
+  - hanji: 標致
+    tailo: phiau-tì
+    en: good-looking, pretty
+    zh: 標致
+  - hanji: 緣投
+    tailo: iân-tâu
+    en: handsome
+    zh: 英俊
+  - hanji: 幼秀
+    tailo: iù-siù
+    en: delicate, refined (looks)
+    zh: 秀氣
+  - hanji: 歹看
+    tailo: pháinn-khuànn
+    en: ugly
+    zh: 難看
+  - hanji: 模樣
+    tailo: bôo-iūnn
+    en: appearance, look
+    zh: 模樣
+  - hanji: 相
+    tailo: siòng
+    en: appearance, looks
+    zh: 相貌
+  - hanji: 面容
+    tailo: bīn-iông
+    en: face, features
+    zh: 面容
+  - hanji: 面貌
+    tailo: bīn-māu
+    en: face, features
+    zh: 面貌
+  - hanji: 躼
+    tailo: lò
+    en: tall (of a person)
+    zh: 高
+  - hanji: 躼跤
+    tailo: lò-kha
+    en: long-legged, tall
+    zh: 高
+  - hanji: 大箍
+    tailo: tuā-khoo
+    en: chubby, stout
+    zh: 胖

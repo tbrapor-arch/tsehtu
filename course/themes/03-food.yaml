@@ -1,0 +1,567 @@
+id: food
+title:
+  en: Food and drink
+  hanji: 食佮啉
+  tailo: tsia̍h kap lim
+intro: Meals, cooking, tastes, staples, vegetables, fruit, drinks and festive food.
+sections:
+- n: 1
+  title:
+    en: Eating and drinking
+    hanji: 食佮啉
+    tailo: tsia̍h kap lim
+  words:
+  - hanji: 食
+    tailo: tsia̍h
+    en: eat; (also) drink, take (medicine)
+    zh: 吃
+  - hanji: 啉
+    tailo: lim
+    en: drink
+    zh: 喝
+  - hanji: 飲
+    tailo: ím
+    en: drink (literary)
+    zh: 飲
+  - hanji: 食飽
+    tailo: tsia̍h-pá
+    en: eat one's fill; have eaten
+    zh: 吃飽
+  - hanji: 食茶
+    tailo: tsia̍h-tê
+    en: drink tea
+    zh: 喝茶
+  - hanji: 啉酒
+    tailo: lim tsiú
+    en: drink alcohol
+    zh: 喝酒
+  - hanji: 配
+    tailo: phuè
+    en: eat (a dish) with rice
+    zh: 配(飯)
+  - hanji: 乾
+    tailo: kan
+    en: drain a glass; cheers!
+    zh: 乾杯
+  - hanji: 扒
+    tailo: pe
+    en: shovel food into the mouth with chopsticks
+    zh: 扒(飯)
+  - hanji: 三頓
+    tailo: sann tǹg
+    en: the three meals
+    zh: 三餐
+  - hanji: 暗頓
+    tailo: àm-tǹg
+    en: dinner, evening meal
+    zh: 晚飯
+  - hanji: 點心
+    tailo: tiám-sim
+    en: snack, light refreshment
+    zh: 點心
+  - hanji: 便當
+    tailo: piān-tong
+    en: lunch box, bento
+    zh: 便當
+  - hanji: 菜單
+    tailo: tshài-tuann
+    en: menu
+    zh: 菜單
+  - hanji: 食物
+    tailo: si̍t-bu̍t
+    en: food
+    zh: 食物
+  - hanji: 食
+    tailo: si̍t
+    en: food (literary reading)
+    zh: 食物
+  - hanji: 五穀
+    tailo: ngóo-kok
+    en: grain, cereals
+    zh: 五穀
+  - hanji: 食穿
+    tailo: tsia̍h-tshīng
+    en: food and clothing, a living
+    zh: 吃穿
+  - hanji: 食菜
+    tailo: tsia̍h-tshài
+    en: eat vegetarian
+    zh: 吃素
+  - hanji: 腥臊
+    tailo: tshenn-tshau
+    en: lavish (of a meal)
+    zh: 豐盛
+  - hanji: 食薰
+    tailo: tsia̍h-hun
+    en: smoke (tobacco)
+    zh: 抽菸
+- n: 2
+  title:
+    en: Cooking
+    hanji: 煮食
+    tailo: tsú-tsia̍h
+  words:
+  - hanji: 煮
+    tailo: tsú
+    en: cook; boil
+    zh: 煮
+  - hanji: 煮食
+    tailo: tsú-tsia̍h
+    en: cook, do the cooking
+    zh: 做飯
+  - hanji: 炒
+    tailo: tshá
+    en: stir-fry
+    zh: 炒
+  - hanji: 煎
+    tailo: tsian
+    en: pan-fry
+    zh: 煎
+  - hanji: 煎
+    tailo: tsuann
+    en: simmer, decoct (medicine)
+    zh: 熬
+  - hanji: 煠
+    tailo: sa̍h
+    en: boil (in plain water)
+    zh: 水煮
+  - hanji: 燙
+    tailo: thǹg
+    en: blanch, scald
+    zh: 燙
+  - hanji: 泡
+    tailo: phàu
+    en: steep, make (tea, etc.) with hot water
+    zh: 泡
+  - hanji: 撒
+    tailo: suah
+    en: sprinkle (seasoning)
+    zh: 撒
+  - hanji: 削
+    tailo: siah
+    en: peel, pare
+    zh: 削
+  - hanji: 餾
+    tailo: liū
+    en: re-steam (leftovers)
+    zh: 再蒸
+  - hanji: 熥
+    tailo: thn̄g
+    en: reheat
+    zh: 熱(菜)
+  - hanji: 熟
+    tailo: si̍k
+    en: cooked; ripe
+    zh: 熟
+- n: 3
+  title:
+    en: Tastes
+    hanji: 滋味
+    tailo: tsu-bī
+  words:
+  - hanji: 味
+    tailo: bī
+    en: taste, flavour; smell
+    zh: 味道
+  - hanji: 滋味
+    tailo: tsu-bī
+    en: taste, flavour
+    zh: 滋味
+  - hanji: 甜
+    tailo: tinn
+    en: sweet
+    zh: 甜
+  - hanji: 酸
+    tailo: sng
+    en: sour
+    zh: 酸
+  - hanji: 苦
+    tailo: khóo
+    en: bitter
+    zh: 苦
+  - hanji: 鹹
+    tailo: kiâm
+    en: salty
+    zh: 鹹
+  - hanji: 臭
+    tailo: tshàu
+    en: smelly, stinking; spoiled
+    zh: 臭
+  - hanji: 鮮
+    tailo: tshinn
+    en: fresh
+    zh: 鮮
+  - hanji: 新鮮
+    tailo: sin-sian
+    en: fresh
+    zh: 新鮮
+  - hanji: 甜粅粅
+    tailo: tinn-but-but
+    en: very sweet
+    zh: 甜甜的
+- n: 4
+  title:
+    en: Rice, noodles, meat and eggs
+    hanji: 飯、麵、肉、卵
+    tailo: pn̄g, mī, bah, nn̄g
+  words:
+  - hanji: 米
+    tailo: bí
+    en: rice (uncooked)
+    zh: 米
+  - hanji: 飯
+    tailo: pn̄g
+    en: cooked rice; meal
+    zh: 飯
+  - hanji: 泔
+    tailo: ám
+    en: rice water, thin rice gruel
+    zh: 米湯
+  - hanji: 秫米
+    tailo: tsu̍t-bí
+    en: glutinous rice
+    zh: 糯米
+  - hanji: 米粉
+    tailo: bí-hún
+    en: rice noodles, rice vermicelli
+    zh: 米粉
+  - hanji: 麵
+    tailo: mī
+    en: noodles
+    zh: 麵
+  - hanji: 麵線
+    tailo: mī-suànn
+    en: thin wheat noodles, misua
+    zh: 麵線
+  - hanji: 麵包
+    tailo: mī-pau
+    en: bread
+    zh: 麵包
+  - hanji: 包仔
+    tailo: pau-á
+    en: steamed bun
+    zh: 包子
+  - hanji: 肉
+    tailo: bah
+    en: meat
+    zh: 肉
+  - hanji: 豬肉
+    tailo: ti-bah
+    en: pork
+    zh: 豬肉
+  - hanji: 豬跤
+    tailo: ti-kha
+    en: pig's trotters
+    zh: 豬腳
+  - hanji: 卵
+    tailo: nn̄g
+    en: egg
+    zh: 蛋
+  - hanji: 雞卵
+    tailo: ke-nn̄g
+    en: hen's egg
+    zh: 雞蛋
+  - hanji: 鴨卵
+    tailo: ah-nn̄g
+    en: duck egg
+    zh: 鴨蛋
+  - hanji: 卵清
+    tailo: nn̄g-tshing
+    en: egg white
+    zh: 蛋白
+  - hanji: 豆腐
+    tailo: tāu-hū
+    en: tofu
+    zh: 豆腐
+  - hanji: 豆
+    tailo: tāu
+    en: bean, beans
+    zh: 豆子
+  - hanji: 豆仔
+    tailo: tāu-á
+    en: beans
+    zh: 豆子
+  - hanji: 塗豆
+    tailo: thôo-tāu
+    en: peanut
+    zh: 花生
+  - hanji: 丸仔
+    tailo: uân-á
+    en: meatball, fishball
+    zh: 丸子
+  - hanji: 湯
+    tailo: thng
+    en: soup
+    zh: 湯
+  - hanji: 咖哩
+    tailo: ka-lí
+    en: curry
+    zh: 咖哩
+- n: 5
+  title:
+    en: Vegetables
+    hanji: 菜蔬
+    tailo: tshài-se
+  words:
+  - hanji: 菜
+    tailo: tshài
+    en: vegetables; dish (of food)
+    zh: 菜
+  - hanji: 番薯
+    tailo: han-tsî
+    en: sweet potato
+    zh: 地瓜
+  - hanji: 芋
+    tailo: ōo
+    en: taro
+    zh: 芋頭
+  - hanji: 芋仔
+    tailo: ōo-á
+    en: taro
+    zh: 芋頭
+  - hanji: 菜頭
+    tailo: tshài-thâu
+    en: white radish, daikon
+    zh: 蘿蔔
+  - hanji: 菜脯
+    tailo: tshài-póo
+    en: dried radish
+    zh: 蘿蔔乾
+  - hanji: 鹹菜
+    tailo: kiâm-tshài
+    en: pickled mustard greens
+    zh: 酸菜
+  - hanji: 菜瓜
+    tailo: tshài-kue
+    en: loofah, sponge gourd
+    zh: 絲瓜
+  - hanji: 韭菜
+    tailo: kú-tshài
+    en: Chinese chives
+    zh: 韭菜
+  - hanji: 茄
+    tailo: kiô
+    en: aubergine, eggplant
+    zh: 茄子
+  - hanji: 冬瓜
+    tailo: tang-kue
+    en: winter melon
+    zh: 冬瓜
+  - hanji: 金瓜
+    tailo: kim-kue
+    en: pumpkin
+    zh: 南瓜
+  - hanji: 苦瓜
+    tailo: khóo-kue
+    en: bitter melon
+    zh: 苦瓜
+  - hanji: 匏仔
+    tailo: pû-á
+    en: bottle gourd
+    zh: 瓠瓜
+  - hanji: 匏
+    tailo: pû
+    en: bottle gourd
+    zh: 瓠瓜
+  - hanji: 竹筍
+    tailo: tik-sún
+    en: bamboo shoot
+    zh: 竹筍
+  - hanji: 香菇
+    tailo: hiunn-koo
+    en: shiitake mushroom
+    zh: 香菇
+  - hanji: 蕹菜
+    tailo: ìng-tshài
+    en: water spinach
+    zh: 空心菜
+  - hanji: 芥菜
+    tailo: kuà-tshài
+    en: mustard greens
+    zh: 芥菜
+  - hanji: 菱角
+    tailo: lîng-kak
+    en: water caltrop
+    zh: 菱角
+- n: 6
+  title:
+    en: Fruit
+    hanji: 果子
+    tailo: kué-tsí
+  words:
+  - hanji: 果子
+    tailo: kué-tsí
+    en: fruit
+    zh: 水果
+  - hanji: 水果
+    tailo: tsuí-kó
+    en: fruit
+    zh: 水果
+  - hanji: 西瓜
+    tailo: si-kue
+    en: watermelon
+    zh: 西瓜
+  - hanji: 王梨
+    tailo: ông-lâi
+    en: pineapple
+    zh: 鳳梨
+  - hanji: 弓蕉
+    tailo: king-tsio
+    en: banana
+    zh: 香蕉
+  - hanji: 荔枝
+    tailo: nāi-tsi
+    en: lychee
+    zh: 荔枝
+  - hanji: 紅柿
+    tailo: âng-khī
+    en: persimmon
+    zh: 柿子
+  - hanji: 李仔
+    tailo: lí-á
+    en: plum
+    zh: 李子
+  - hanji: 桃仔
+    tailo: thô-á
+    en: peach
+    zh: 桃子
+  - hanji: 葡萄
+    tailo: phû-tô
+    en: grape
+    zh: 葡萄
+  - hanji: 柑仔
+    tailo: kam-á
+    en: mandarin orange, tangerine
+    zh: 橘子
+  - hanji: 桔仔
+    tailo: kiat-á
+    en: kumquat, calamansi
+    zh: 金桔
+  - hanji: 楊桃
+    tailo: iûnn-tô
+    en: star fruit, carambola
+    zh: 楊桃
+  - hanji: 檨仔
+    tailo: suāinn-á
+    en: mango
+    zh: 芒果
+  - hanji: 蓮霧
+    tailo: lián-bū
+    en: wax apple
+    zh: 蓮霧
+  - hanji: 橄欖
+    tailo: kan-ná
+    en: olive; Chinese olive
+    zh: 橄欖
+  - hanji: 樹梅
+    tailo: tshiū-m̂
+    en: Chinese bayberry
+    zh: 楊梅
+- n: 7
+  title:
+    en: Drinks and seasonings
+    hanji: 啉的佮調味
+    tailo: lim--ê kap tiâu-bī
+  words:
+  - hanji: 酒
+    tailo: tsiú
+    en: alcohol, liquor
+    zh: 酒
+  - hanji: 燒酒
+    tailo: sio-tsiú
+    en: alcohol; spirits
+    zh: 酒
+  - hanji: 麥仔酒
+    tailo: be̍h-á-tsiú
+    en: beer
+    zh: 啤酒
+  - hanji: 茶
+    tailo: tê
+    en: tea
+    zh: 茶
+  - hanji: 甜茶
+    tailo: tinn-tê
+    en: sweetened tea (served at engagements and weddings)
+    zh: 甜茶
+  - hanji: 咖啡
+    tailo: ka-pi
+    en: coffee
+    zh: 咖啡
+  - hanji: 牛奶
+    tailo: gû-ling
+    en: milk
+    zh: 牛奶
+  - hanji: 滾水
+    tailo: kún-tsuí
+    en: boiled water
+    zh: 開水
+  - hanji: 糖
+    tailo: thn̂g
+    en: sugar; sweets
+    zh: 糖
+  - hanji: 冰糖
+    tailo: ping-thn̂g
+    en: rock sugar
+    zh: 冰糖
+  - hanji: 蜜
+    tailo: bi̍t
+    en: honey
+    zh: 蜂蜜
+  - hanji: 鹽
+    tailo: iâm
+    en: salt
+    zh: 鹽
+  - hanji: 油
+    tailo: iû
+    en: oil
+    zh: 油
+  - hanji: 豆油
+    tailo: tāu-iû
+    en: soy sauce
+    zh: 醬油
+- n: 8
+  title:
+    en: Rice cakes and festive food
+    hanji: 粿佮點心
+    tailo: kué kap tiám-sim
+  words:
+  - hanji: 粿
+    tailo: kué
+    en: rice cake (kué)
+    zh: 粿
+  - hanji: 甜粿
+    tailo: tinn-kué
+    en: sweet New Year rice cake
+    zh: 甜年糕
+  - hanji: 紅龜
+    tailo: âng-ku
+    en: red turtle cake (for birthdays and offerings)
+    zh: 紅龜粿
+  - hanji: 圓仔
+    tailo: înn-á
+    en: glutinous rice ball
+    zh: 湯圓
+  - hanji: 粽
+    tailo: tsàng
+    en: rice dumpling (zongzi)
+    zh: 粽子
+  - hanji: 肉粽
+    tailo: bah-tsàng
+    en: meat rice dumpling
+    zh: 肉粽
+  - hanji: 糕仔
+    tailo: ko-á
+    en: pastry, cake
+    zh: 糕點
+  - hanji: 餅
+    tailo: piánn
+    en: cake, biscuit, flatbread
+    zh: 餅
+  - hanji: 雞卵糕
+    tailo: ke-nn̄g-ko
+    en: sponge cake
+    zh: 蛋糕
+  - hanji: 米芳
+    tailo: bí-phang
+    en: puffed rice
+    zh: 爆米花

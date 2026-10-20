@@ -39,7 +39,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 38	才	tsiah	才	same	16		H		
 39	咱	lán	我們	same-chars-diff-use	16		H		
 40	啦	--lah	啦	same	16		H		
-41	食	tsia̍h	吃	same	03		H		
+41	食	tsia̍h	吃	same	03		H		yes
 42	想	siūnn	想	same	13		H		
 43	通	thang	可以	same-chars-diff-use	16		M		
 44	對	tuì	從	same	14	14f	M		
@@ -117,7 +117,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 119	囝	kiánn	小	different	01		H		
 120	得	tit	可以	same	14	14g	M		
 121	用	iōng	用	same	14	14c	L	renvoi vers 用	
-122	厝	tshù	房子	different	04		H		
+122	厝	tshù	房子	different	04		H		yes
 123	雨	hōo	雨	same	06		H		
 124	所在	sóo-tsāi	地方	same	07		H		
 125	緊	kín	快	same-chars-diff-use	15		M		
@@ -175,7 +175,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 177	號做	hō-tsò	叫做	partial	10		M		
 178	路	lōo	路	same	07		H		
 179	這馬	tsit-má	現在	different	08		H		
-180	穿	tshīng	穿	same	05		H		
+180	穿	tshīng	穿	same	05		H		yes
 181	點	tiám	點	same	?		L	小痕跡; 義項不清	
 182	總是	tsóng--sī	但是	same-chars-diff-use	16		H		
 183	買	bé		same	09		H		
@@ -199,7 +199,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 201	按怎	án-tsuánn	怎麼	partial	16		H		
 202	讀	tha̍k	讀	same	10		H		
 203	目睭	ba̍k-tsiu	眼睛	different	02		H		yes
-204	間	king	間	same	04		H		
+204	間	king	間	same	04		H		yes
 205	真正	tsin-tsiànn	真的	same	15		M		
 206	不	put	不	same	16		H		
 207	等	tán	等	same	08		M		
@@ -255,7 +255,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 258	種	tsióng	種	same	16		M		
 259	事	sū	事	same	09	moved	M		
 260	八	peh		same	08		H		
-261	兜	tau	家	same-chars-diff-use	04		M		
+261	兜	tau	家	same-chars-diff-use	04		M		yes
 262	早	tsá	早	same	08		H		
 263	但是	tān-sī	但是	same	16		H		
 264	報	pò	報	same	10		M		
@@ -297,9 +297,9 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 301	要緊	iàu-kín	重要	same-chars-diff-use	15		H		
 302	新	sin	新	same	15		H		
 303	踮	tiàm	在	different	16		H		
-304	物件	mi̍h-kiānn	東西	different	04		H		
+304	物件	mi̍h-kiānn	東西	different	04		H		yes
 305	講話	kóng-uē	說話	same	14	14b	H		
-306	衫	sann	衣服	different	05		H		
+306	衫	sann	衣服	different	05		H		yes
 307	牽	khan	牽	same	14	14c	H		
 308	娘	niâ	媽	same	01		H		
 309	創	tshòng	做	same-chars-diff-use	14	14g	M		
@@ -312,7 +312,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 316	阿母	a-bú	媽媽	different	01		H		
 317	查某囝	tsa-bóo-kiánn	女兒	different	01		H		
 318	上帝	Siōng-tè	上帝	same	12		H		
-319	酒	tsiú	酒	same	03		H		
+319	酒	tsiú	酒	same	03		H		yes
 320	紅	âng	紅	same	15		H		
 321	山	suann	山	same	06		H		
 322	生活	sing-ua̍h	生	same	09		M		
@@ -327,11 +327,11 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 331	一定	it-tīng	不一定	same	16		H		
 332	七	tshit	七	same	08		H		
 333	水	suí	河	same-chars-diff-use	06		H		
-334	啉	lim	喝	different	03		H		
+334	啉	lim	喝	different	03		H		yes
 335	阿公	a-kong	爺爺	different	01		H		
 336	矣	--ah	了	same	16		H		
 337	小	sió	小	same	15		H		
-338	箸	tī	箸	same	04		H		
+338	箸	tī	箸	same	04		H		yes
 339	陳	tân	陳	same	?		L	pas de définition	
 340	前	tsîng	前	same	07		H		
 341	店	tiàm	小店	same-chars-diff-use	09		H		
@@ -347,7 +347,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 352	二	jī	二	same	08		H		
 353	抾	khioh	撿	different	14	14c	H		
 354	會使	ē-sái	可以	different	16		H		
-355	媠	suí	好看	different	05		M		
+355	媠	suí	好看	different	05		M		yes
 356	開花	khui-hue	開花	same	06		H		
 357	莫	mài	不要	different	16		H		
 358	拄好	tú-hó	正好	partial	16		M		
@@ -391,7 +391,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 396	新娘	sin-niû	新人	same	01		M		
 397	望	bāng	盼望	same	13		H		
 398	招	tsio	招	same	14	14f	H		
-399	領	niá	領	same	05		H		
+399	領	niá	領	same	05		H		yes
 400	萬	bān	萬	same	08		H		
 401	信	sìn	信	same	13		H		
 402	道理	tō-lí	理由	same	13		M		
@@ -417,7 +417,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 422	逐个	ta̍k ê	各個	different	16		M		
 423	隨	suî	馬上	same	14	14f	H		
 424	記	kì	記	same	13		M		
-425	尪	ang	人偶	different	04		M		
+425	尪	ang	人偶	different	04		M		yes
 426	陣	tsūn	陣	same	08		H		
 427	仝款	kāng-khuán	同樣	different	15		H		
 428	少年	siàu-liân	少年	same	01		H		
@@ -445,10 +445,10 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 450	遠	hn̄g	遠	same	07		H		
 451	古早	kóo-tsá	古代	partial	08		H		
 452	亞	a	亞	same	?		L	pas de définition	
-453	米	bí	米	same	03		H		
+453	米	bí	米	same	03		H		yes
 454	包	pau	一定	same	14	14c	H		
 455	雪	seh	雪	same	06		H		
-456	門	mn̂g	門	same	04		H		
+456	門	mn̂g	門	same	04		H		yes
 457	讀冊	tha̍k-tsheh	上課	different	10		H		
 458	正	tsiànn	右	same	07		M		
 459	世界	sè-kài	世界	same	07		M		
@@ -484,10 +484,10 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 489	彼號	hit-lō	那種	different	16		H		
 490	嘛	--mah	嘛	same	16		H		
 491	當	tng	當	same	08		H		
-492	眠床	bîn-tshn̂g	床	partial	04		H		
+492	眠床	bîn-tshn̂g	床	partial	04		H		yes
 493	說	sueh		same	14	14b	H		
 494	盡	tsīn	盡	same	14	14e	M		
-495	杯	pue	杯	same	04		H		
+495	杯	pue	杯	same	04		H		yes
 496	長	tn̂g	長	same	08		M		
 497	小弟	sió-tī	小弟	same	01		H		
 498	時代	sî-tāi	時代	same	08		H		
@@ -495,7 +495,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 500	娘仔	niû-á	蠶	different	06		H		
 501	道	tō	道	same	13		M		
 502	閣再	koh-tsài	重新	different	16		H		
-503	苦	khóo	苦	same	03		M		
+503	苦	khóo	苦	same	03		M		yes
 504	冊	tsheh	書	same	10		H		
 505	傷	siunn	太	same-chars-diff-use	16		H		
 506	跳	thiàu	跳	same	14	14a	H		
@@ -523,12 +523,12 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 528	發	huat	發	same	14	14e	M		
 529	替	thè	因為	same	16	moved	M		
 530	吼	háu	哭	same	13		H		
-531	配	phuè	配	same	03		H		
+531	配	phuè	配	same	03		H		yes
 532	雙	siang	雙	same	08		M		
 533	清	tshing	清	same	15		H		
 534	拍拚	phah-piànn	認真	different	14	14g	M		
 535	關係	kuan-hē	關係	same	11		M		
-536	碗	uánn	碗	same	04		H		
+536	碗	uánn	碗	same	04		H		yes
 537	雞	ke	雞	same	06		H		
 538	當時	tong-sî	那時	same	08		H		
 539	乞食	khit-tsia̍h	乞丐	partial	11		M		
@@ -549,11 +549,11 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 554	完	uân	完	same	16	moved	M		
 555	傳	thuân	傳	same	12		M		
 556	查埔	tsa-poo	男生	different	01		H		
-557	卡	khah	卡	same	04		M		
+557	卡	khah	卡	same	04		M		yes
 558	又閣	iū-koh	再	different	16		H		
 559	閣較	koh-khah	更加	different	16		H		
 560	身邊	sin-pinn	身邊	same	07		M		
-561	肉	bah	肉	same	03		H		
+561	肉	bah	肉	same	03		H		yes
 562	靠	khò	靠	same	14	14f	M		
 563	洗	sé	洗	same	14	14c	H		
 564	活	ua̍h	活	same	14	14e	M		
@@ -563,14 +563,14 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 568	經過	king-kuè	經過	same	14	14a	M		
 569	感情	kám-tsîng	感情	same	13		H		
 570	拖	thua	拖	same	14	14c	H		
-571	菜	tshài	菜	same	03		H		
+571	菜	tshài	菜	same	03		H		yes
 572	精神	tsing-sîn	精神	same	13		M		
 573	語言	gí-giân	語言	same	10		H		
-574	靴	hia	靴子	same	05		H		
+574	靴	hia	靴子	same	05		H		yes
 575	生理	sing-lí	生意	same-chars-diff-use	09		H		
 576	深	tshim	深	same	15		H		
 577	攏總	lóng-tsóng	一共	different	08		M		
-578	房間	pâng-king	房間	same	04		H		
+578	房間	pâng-king	房間	same	04		H		yes
 579	接	tsiap	接	same	14	14f	H		
 580	親	tshin	親	same	01		H		
 581	天頂	thinn-tíng	天上	partial	06		H		
@@ -595,9 +595,9 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 600	偷	thau	偷	same	14	14c	M		
 601	頭前	thâu-tsîng	前面	partial	07		H		
 602	骨	kut	骨	same	02		H		yes
-603	煮	tsú	烹調	same-chars-diff-use	03		H		
-604	扇	sìnn	扇	same	04		H		
-605	厝內	tshù-lāi	家裡	different	04		M		
+603	煮	tsú	烹調	same-chars-diff-use	03		H		yes
+604	扇	sìnn	扇	same	04		H		yes
+605	厝內	tshù-lāi	家裡	different	04		M		yes
 606	甘	kam	疼	same	15		M		
 607	氣	khì	氣	same	13		H		
 608	猶未	iáu-buē	尚未	partial	16		H		
@@ -616,12 +616,12 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 621	互	hōo	互	same	16		M		
 622	活動	ua̍h-tāng	活動	same	13		M		
 623	呵咾	o-ló	表揚	different	14	14b	H		
-624	飯	pn̄g	飯	same	03		H		
+624	飯	pn̄g	飯	same	03		H		yes
 625	對	uì	從	same-chars-diff-use	16		H		
 626	機會	ki-huē	機會	same	08		M		
 627	愛情	ài-tsîng	愛情	same	13		H		
 628	管	kuán	管	same	14	14h	M		yes
-629	茶	tê	茶	same	03		H		
+629	茶	tê	茶	same	03		H		yes
 630	漸漸	tsiām-tsiām	慢慢	same	16		H		
 631	被	pī	被	same	16		H		
 632	鬥	tàu	鬥	same	14	14f	H		
@@ -671,7 +671,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 676	黃	n̂g	黃	same	15		M		
 677	好額	hó-gia̍h	富有	different	09		H		
 678	彼時	hit-sî	那時	partial	08		H		
-679	箱	siunn	箱	same	04		H		
+679	箱	siunn	箱	same	04		H		yes
 680	結	kiat	結	same	15		H		
 681	停	thîng	停	same	14	14e	M		
 682	神	sîn	神	same	12		H		
@@ -733,7 +733,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 740	豬	ti	豬	same	06		H		
 741	飽	pá	飽	same	02		H		yes
 742	介	kài	介	same	?		L	pas de définition	
-743	番薯	han-tsî	甘藷	same	03		H		
+743	番薯	han-tsî	甘藷	same	03		H		yes
 744	心頭	sim-thâu	心中	same	13		H		
 745	山頂	suann-tíng	山頂	same	06		H		
 746	外口	guā-kháu	外邊	partial	07		H		
@@ -754,7 +754,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 761	中央	tiong-ng	中間	same-chars-diff-use	07		H		
 762	困	khùn	困	same	?		H		yes
 763	廟	biō	寺	same	12		H		
-764	甜	tinn	甜	same	03		H		
+764	甜	tinn	甜	same	03		H		yes
 765	天光	thinn-kng	天亮	partial	08		H		
 766	扛	kng	抬	same	14	14c	M		
 767	趕	kuánn	趕	same	14	14a	M		
@@ -796,22 +796,22 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 803	佮意	kah-ì	滿足	different	13		H		
 804	快	khuài	快	same	15		H		
 805	平安	pîng-an	平安	same	15		H		
-806	燒酒	sio-tsiú	酒	same	03		H		
+806	燒酒	sio-tsiú	酒	same	03		H		yes
 807	冷	líng	冷	same	15		M		
-808	食飽	tsia̍h-pá	吃飽	partial	03		H		
+808	食飽	tsia̍h-pá	吃飽	partial	03		H		yes
 809	鼻	phīnn	鼻子	same	02		H		yes
 810	搬	puann	搬	same	14	14c	H		
 811	柴	tshâ	柴	same	06		H		
-812	罩	tàu	罩	same	04		M		
+812	罩	tàu	罩	same	04		M		yes
 813	恬恬	tiām-tiām	安靜	different	15		M		
 814	逢	hông	逢	same	14	14f	L	définition vide, rencontrer	
 815	可惜	khó-sioh	可惜	same	13		M		
 816	還	hîng	還	same	14	14c	M		
-817	桌	toh	桌子	same	04		H		
+817	桌	toh	桌子	same	04		H		yes
 818	青春	tshing-tshun	青春	same	08		M		
 819	家	ka	家	same	01		H		
 820	強	kiông	強	same	15		H		
-821	刀	to	刀	same	04		H		
+821	刀	to	刀	same	04		H		yes
 822	教育	kàu-io̍k	教育	same	10		H		
 823	胡	ôo	胡	same	?		L	pas de définition, sens incertain	
 824	無	bû	沒有	same	16		H		
@@ -879,7 +879,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 886	跪	kuī	跪	same	14	14a	M		
 887	大人	tāi-jîn		same	11		M		
 888	越頭	ua̍t-thâu	回頭	partial	14	14a	M		
-889	辮	pīnn	辮	same	05		M		
+889	辮	pīnn	辮	same	05		M		yes
 890	相好	siong-hó	親愛	same	13		H		
 891	唸	liām	讀	same	10		H		
 892	查某人	tsa-bóo-lâng	女生	different	01		H		
@@ -890,7 +890,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 897	等	tíng	等	same	?		L	rang ou niveau, sens incertain	
 898	合	kap	合	same	08		H		
 899	誠實	tsiânn-si̍t	真的	same-chars-diff-use	16		M		
-900	酸	sng	酸	same	03		M		
+900	酸	sng	酸	same	03		M		yes
 901	歹勢	pháinn-sè	害羞	different	13		H		
 902	大學	tāi-ha̍k	大學	same	10		H		
 903	散	sàn	散	same	09		M		
@@ -910,7 +910,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 917	由	iû	從	same	16		H		
 918	婦人人	hū-jîn-lâng	婦女	partial	01		H		
 919	熟似	si̍k-sāi	熟識	partial	01		M		
-920	美麗	bí-lē	好看	same	05		H		
+920	美麗	bí-lē	好看	same	05		H		yes
 921	東	tang	東	same	07		H		
 922	悲哀	pi-ai	傷心	same	13		H		
 923	兼	kiam	兼	same	09		M		
@@ -950,7 +950,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 957	慢	bān	慢	same	15		H		
 958	政府	tsìng-hú	政府	same	11		H		
 959	然後	jiân-āu	然後	same	16		H		
-960	紙	tsuá	紙	same	04		H		
+960	紙	tsuá	紙	same	04		H		yes
 961	天	thian	天	same	06		H		
 962	幫贊	pang-tsān	幫助	partial	14	14f	M		
 963	倒轉	tò-tńg	回去	different	07		H		
@@ -986,7 +986,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 993	路邊	lōo-pinn	路邊	same	07		H		
 994	無閒	bô-îng	忙碌	different	15		M		
 995	斗	táu	次	same	08		H		
-996	卵	nn̄g	蛋	same	03		H		
+996	卵	nn̄g	蛋	same	03		H		yes
 997	囝孫	kiánn-sun	子孫	partial	01		H		
 998	出名	tshut-miâ	有名	same	15		H		
 999	曝	pha̍k	晒	same	14	14h	M		yes
@@ -1009,10 +1009,10 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1016	便	piān	便	same	15		H		
 1017	希望	hi-bāng	希望	same	13		H		
 1018	無影	bô-iánn	不實的	different	15		M		
-1019	油	iû	油	same	03		H		
+1019	油	iû	油	same	03		H		yes
 1020	田園	tshân-hn̂g	田園	same	06		H		
 1021	闊	khuah	窄	same	15		H		
-1022	戶	hōo	戶	same	04		M		
+1022	戶	hōo	戶	same	04		M		yes
 1023	挨	e	推	same	14	14g	M		
 1024	格	kik	格	same	?		L	pas de définition, sens incertain	
 1025	甘蔗	kam-tsià	甘蔗	same	06		H		
@@ -1027,9 +1027,9 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1034	抽	thiu	抽	same	14	14c	M		
 1035	性命	sènn-miā	生命	same-chars-diff-use	02		M		yes
 1036	而	jî	而	same	16		H		
-1037	戴	tì	戴	same	05		M		
+1037	戴	tì	戴	same	05		M		yes
 1038	雙手	siang-tshiú	雙手	same	02		H		yes
-1039	炒	tshá	炒	same	03		H		
+1039	炒	tshá	炒	same	03		H		yes
 1040	浮	phû	浮	same	14	14a	M		
 1041	份	hūn	份	same	08		M		
 1042	須	su	須	same	16		L	modal, pas de définition	
@@ -1040,7 +1040,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1047	老人	lāu-lâng	老人	same	01		H		
 1048	理	lí	理	same	11		M		
 1049	佗	toh	哪裡	different	16		H		
-1050	味	bī	味道	partial	03		H		
+1050	味	bī	味道	partial	03		H		yes
 1051	搶	tshiúnn	搶	same	14	14c	M		
 1052	探聽	thàm-thiann	打聽	partial	14	14b	H		
 1053	疼痛	thiànn-thàng	疼愛	same-chars-diff-use	13		H		
@@ -1057,23 +1057,23 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1064	焦	ta	乾	same	15		H		
 1065	安慰	an-uì	安慰	same	13		H		
 1066	輕鬆	khin-sang	快樂	same	13		M		
-1067	房	pâng	房	same	04		H		
+1067	房	pâng	房	same	04		H		yes
 1068	死人	sí-lâng	死人	same	01		M		
 1069	斤	kin	斤	same	08		H		
 1070	尺	tshioh	尺	same	08		H		
 1071	子	tsú	子	same	01		H		
 1072	城	siânn	城	same	07		H		
 1073	職	tsit	行	same	09		H		
-1074	崁	khàm	頓	different	04		M		
+1074	崁	khàm	頓	different	04		M		yes
 1075	聲音	siann-im	聲音	same	10		M		
-1076	盤	puânn	盤	same	04		H		
+1076	盤	puânn	盤	same	04		H		yes
 1077	一世人	tsi̍t-sì-lâng	一生	partial	08		H		
-1078	瓦	uá	瓦	same	04		M		
+1078	瓦	uá	瓦	same	04		M		yes
 1079	相佮	sann-kap	一塊兒	different	16		H		
 1080	毋才	m̄-tsiah	才	partial	16		H		
 1081	工夫	kang-hu	工夫	same	?		L	武術或工夫時間義	
 1082	知	ti	知	same	13		M		
-1083	壁	piah	牆	same	04		H		
+1083	壁	piah	牆	same	04		H		yes
 1084	踢	that	踢	same	14	14c	M		
 1085	何必	hô-pit	何必	same	16		H		
 1086	省	síng	便宜	same	09		M		
@@ -1115,7 +1115,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1122	耍	sńg	玩	same-chars-diff-use	14	14f	H		
 1123	前途	tsiân-tôo	前途	same	08		M		
 1124	風颱	hong-thai	颱風	partial	06		H		
-1125	褲	khòo	褲	same	05		H		
+1125	褲	khòo	褲	same	05		H		yes
 1126	烏狗	oo-káu	時髦男子	different	01		M		
 1127	使	sái	叫	same	14	14c	M		
 1128	阿伯	a-peh	伯父	partial	01		H		
@@ -1137,7 +1137,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1144	按	àn	從	same-chars-diff-use	14	14d	M		
 1145	悲傷	pi-siong	傷心	same	13		H		
 1146	貴	kuì	貴	same	09		M		
-1147	布	pòo	布	same	05		H		
+1147	布	pòo	布	same	05		H		yes
 1148	頭鬃	thâu-tsang	頭髮	partial	02		M		yes
 1149	補	póo	補	same	14	14g	H		
 1150	揀	kíng	選	same	14	14d	M		
@@ -1149,7 +1149,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1156	定	tīng	定	same	14	14d	M		
 1157	出現	tshut-hiān	出現	same	14	14e	H		
 1158	逐	jiok		n/a	?		L	無釋義，義不明	
-1159	鼓	kóo	鼓	same	04		M		
+1159	鼓	kóo	鼓	same	04		M		yes
 1160	屬	sio̍k	屬	same	?		L	無釋義，義不定	
 1161	警察	kíng-tshat	警察	same	11		H		
 1162	設使	siat-sú	如果	different	16		H		
@@ -1175,7 +1175,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1182	真情	tsin-tsîng	真情	same	13		H		
 1183	稀微	hi-bî	寂寞	different	13		H		
 1184	交通	kau-thong	交通	same	07		H		
-1185	食茶	tsia̍h-tê	喝茶	partial	03		H		
+1185	食茶	tsia̍h-tê	喝茶	partial	03		H		yes
 1186	錯	tshò	錯	same	15		M		
 1187	下晡	ē-poo	下午	partial	08		H		
 1188	師傅	sai-hū	師傅	same	09		M		
@@ -1186,7 +1186,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1193	滇	tīnn	滿	different	15		M		
 1194	小賣	sió-bē	零售商	different	09		H		
 1195	名字	miâ-jī	名字	same	10		M		
-1196	雨傘	hōo-suànn	雨傘	same	04		H		
+1196	雨傘	hōo-suànn	雨傘	same	04		H		yes
 1197	病	pēnn		same	02		H		yes
 1198	兄哥	hiann-ko	哥哥	partial	01		H		
 1199	趁食	thàn-tsia̍h	謀生	different	09		H		
@@ -1212,21 +1212,21 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1219	會得	ē-tit	可以	same	16		H		
 1220	跤手	kha-tshiú	辦法	different	02		L	身體義或辦法義	yes
 1221	夫人	hu-jîn	夫人	same	01		H		
-1222	鹹	kiâm	鹹	same	03		H		
+1222	鹹	kiâm	鹹	same	03		H		yes
 1223	三	sam	三	same	08		H		
-1224	熟	si̍k	熟	same	03		M		
+1224	熟	si̍k	熟	same	03		M		yes
 1225	弄	lāng	弄	same	14	14c	M		
 1226	短	té	短	same	15		H		
 1227	淡薄仔	tām-po̍h-á	一點點	different	08		M		
 1228	廳	thiann	廳	same	12		M		
 1229	智識	tì-sik	知識	partial	10		H		
 1230	祖先	tsóo-sian	祖先	same	01		H		
-1231	鮮	tshinn	鮮	same	03		H		
+1231	鮮	tshinn	鮮	same	03		H		yes
 1232	數	sòo	數	same	08		H		
 1233	班	pan	班	same	08		M		
 1234	差	tsha	差	same	15		M		
 1235	毒	to̍k	毒	same	02		M		yes
-1236	塗豆	thôo-tāu	花生	different	03		H		
+1236	塗豆	thôo-tāu	花生	different	03		H		yes
 1237	曷	a̍h	哪	different	16		H		
 1238	看破	khuànn-phuà	看穿	same	13		M		
 1239	夫	hu	夫	same	01		H		
@@ -1242,17 +1242,17 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1249	鳥	tsiáu	鳥	same	06		H		
 1250	勇	ióng	堅固	same	02		M		yes
 1251	明白	bîng-pi̍k	知道	same	13		M		
-1252	桌頂	toh-tíng	桌上	partial	04		H		
+1252	桌頂	toh-tíng	桌上	partial	04		H		yes
 1253	學問	ha̍k-būn	學問	same	10		H		
 1254	土地公	Thóo-tī-kong	土地公	same	12		H		
 1255	揹	phāinn	承擔	same	14	14c	M		
 1256	取	tshú	取	same	14	14c	H		
-1257	線	suànn	線	same	04		M		
-1258	臭	tshàu	臭	same	03		M		
+1257	線	suànn	線	same	04		M		yes
+1258	臭	tshàu	臭	same	03		M		yes
 1259	反	huán	變	same	14	14e	H		
 1260	笑容	tshiò-iông	笑容	same	13		M		
 1261	細膩	sè-jī	小心	same-chars-diff-use	13		M		
-1262	燈	ting	燈	same	04		H		
+1262	燈	ting	燈	same	04		H		yes
 1263	宮	king	宮	same	12		H		
 1264	尻川	kha-tshng	屁股	different	02		H		yes
 1265	東爿	tang-pîng	東邊	partial	07		H		
@@ -1271,10 +1271,10 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1278	哈	hah	哈	same	16		L	無釋義，疑為語氣詞	
 1279	戀愛	luân-ài	戀愛	same	13		H		
 1280	生	sing	生	same	14	14e	L	state: be alive	
-1281	糖	thn̂g	糖	same	03		H		
+1281	糖	thn̂g	糖	same	03		H		yes
 1282	參詳	tsham-siông	討論	different	10		M		
 1283	王爺	ông-iâ	王爺	same	12		H		
-1284	三頓	sann tǹg	三餐	partial	03		H		
+1284	三頓	sann tǹg	三餐	partial	03		H		yes
 1285	嫁翁	kè-ang	出嫁	partial	01		M		
 1286	稅	suè	租	same	09		H		
 1287	某囝	bóo-kiánn	妻子	different	01		H		
@@ -1299,7 +1299,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1306	發現	huat-hiān	發現	same	14	14d	M		
 1307	毋管	m̄-kuán	不論	different	16		H		
 1308	庄跤	tsng-kha	農村	different	07		H		
-1309	物	mih	物	same	04		M		
+1309	物	mih	物	same	04		M		yes
 1310	僥	hiau	翻	different	14	14e	M		
 1311	流浪	liû-lōng	流浪	same	14	14a	H		
 1312	會	huē	會	same	11		M		
@@ -1313,29 +1313,29 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1320	喙齒	tshuì-khí	牙齒	partial	02		H		yes
 1321	風水	hong-suí	墳墓	same	12		H		
 1322	蔗	tsià	甘蔗	same	06		H		
-1323	滋味	tsu-bī	味道	same	03		H		
-1324	風吹	hong-tshue	風箏	partial	04		M		
+1323	滋味	tsu-bī	味道	same	03		H		yes
+1324	風吹	hong-tshue	風箏	partial	04		M		yes
 1325	現	hiān	立刻	same	08		M		
 1326	羊	iûnn	羊	same	06		H		
 1327	掘	ku̍t	掘	same	14	14g	H		
 1328	心適	sim-sik	有趣	different	15		M		
-1329	鞋	ê		same	05		H		
+1329	鞋	ê		same	05		H		yes
 1330	聞	bûn	聞	same	14	14d	M	no definition; sense verb	
 1331	丈人	tiūnn-lâng	岳父	different	01		H		
 1332	國寶	kok-pó	國寶	same	11		M		
 1333	命運	miā-ūn	命運	same	12		M		
 1334	莫	bo̍k	莫	same	16		H		
-1335	果子	kué-tsí	水果	partial	03		H		
+1335	果子	kué-tsí	水果	partial	03		H		yes
 1336	困難	khùn-lân	難過	same	15		M		
 1337	白賊	pe̍h-tsha̍t	吹牛	different	13		M		
 1338	差	tshe	差	same	14	14f	M		
 1339	新婦	sin-pū	媳婦	same	01		H		
 1340	拈	ni	用手指取物	same	14	14c	H		
 1341	路頭	lōo-thâu	十字路口	partial	07		H		
-1342	相	siòng	相	same	05		M		
+1342	相	siòng	相	same	05		M		yes
 1343	義	gī	義	same	13		M		
 1344	泅	siû	游泳	different	14	14a	H		
-1345	鼎	tiánn	鍋	same	03		H		
+1345	鼎	tiánn	鍋	same	04		H		yes
 1346	進行	tsìn-hîng	進行	same	14	14e	H		
 1347	紮	tsah	帶	same-chars-diff-use	14	14c	M		
 1348	著驚	tio̍h-kiann	吃驚	partial	13		H		
@@ -1360,7 +1360,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1367	拜堂	pài-tn̂g	結婚	different	12		H		
 1368	情意	tsîng-ì	感情	same	13		H		
 1369	近	kīn	近	same	07		M		
-1370	色	sik	色	same	05		M		
+1370	色	sik	色	same	15		M		yes
 1371	將軍	tsiong-kun	將軍	same	11		H		
 1372	界	kài	界	same	07		L	sens non donné	
 1373	賜	sù	賜	same	14	14c	H		
@@ -1387,8 +1387,8 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1394	次	tshù	次	same	08		H		
 1395	外國	guā-kok	外國	same	07		M		
 1396	款待	khuán-thāi	接待	same	14	14f	H		
-1397	窗	thang	窗戶	same	04		H		
-1398	窗仔	thang-á	窗戶	partial	04		H		
+1397	窗	thang	窗戶	same	04		H		yes
+1398	窗仔	thang-á	窗戶	partial	04		H		yes
 1399	師父	su-hū	師父	same	01		M		
 1400	寂寞	tsi̍k-bo̍k	孤單	same	13		H		
 1401	公園	kong-hn̂g	公園	same	07		H		
@@ -1438,7 +1438,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1445	郎君	lông-kun	郎君	same	01		H		
 1446	海墘	hái-kînn	海邊	partial	07		H		
 1447	思考	su-khó	思考	same	13		M		
-1448	碟	ti̍h	碟	same	03		M		
+1448	碟	ti̍h	碟	same	04		M		yes
 1449	長老	tiúnn-ló	大老	same	01		M		
 1450	甚至	sīm-tsì	甚至	same	16		H		
 1451	開喙	khui-tshuì	開口	partial	14	14b	H		
@@ -1449,7 +1449,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1456	遮爾	tsiah-nī	這麼	different	16		H		
 1457	上	siāng	上	same	16		L	sens non donné	
 1458	女兒	lú-jî	女兒	same	01		H		
-1459	胭脂	ian-tsi	口紅	different	05		H		
+1459	胭脂	ian-tsi	口紅	different	05		H		yes
 1460	失禮	sit-lé	抱歉	same	14	14f	M		
 1461	帶	tài	帶	same	14	14c	H		
 1462	遲	tî	遲	same	08		M		
@@ -1492,7 +1492,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1499	鼓勵	kóo-lē	鼓勵	same	13		M		
 1500	代表	tāi-piáu	代表	same	11		H		
 1501	山跤	suann-kha	山腳	partial	06		H		
-1502	糕仔	ko-á	糕	partial	03		H		
+1502	糕仔	ko-á	糕	partial	03		H		yes
 1503	了了	liáu-liáu	完	different	16		L	complément ou état	
 1505	兩	lióng	兩	same	08		H		
 1506	從	tsiông	從	same	16		M		
@@ -1523,7 +1523,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1531	大路	tuā-lōo	公路	same	07		H		
 1532	片	phìnn	脾氣	same	13		H		
 1533	遇	gū	剛	same	14	14f	M		
-1534	鐘	tsing	鐘	same	04		H		
+1534	鐘	tsing	鐘	same	04		H		yes
 1535	不孝	put-hàu	不孝	same	13		M		
 1536	退	thè	退	same	14	14a	H		
 1537	至	tsì	至	same	16		M		
@@ -1564,7 +1564,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1572	蓋	kài	彈	same	14	14h	L	surpass, outdo	yes
 1573	嬰仔	enn-á	嬰兒	partial	01		H		
 1574	組	tsoo	組	same	11		M		
-1575	厝頂	tshù-tíng	屋頂	partial	04		H		
+1575	厝頂	tshù-tíng	屋頂	partial	04		H		yes
 1576	基督	Ki-tok	耶穌	same	12		H		
 1577	兄嫂	hiann-só	嫂子	partial	01		H		
 1578	夠額	kàu-gia̍h	足額	partial	08		M		
@@ -1575,14 +1575,14 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1583	拖磨	thua-buâ	折磨	partial	13		M		
 1584	全然	tsuân-jiân	全然	same	16		H		
 1585	主張	tsú-tiunn	主張	same	13		M		
-1586	椅仔	í-á	椅子	partial	04		H		
+1586	椅仔	í-á	椅子	partial	04		H		yes
 1587	重	tiōng	重	same	15		M		
 1588	只要	tsí-iàu	只要	same	16		H		
 1589	相當	siong-tong	差不多	same	16		M		
 1590	古	kóo	古	same	08		H		
 1591	金金	kim-kim	睜大眼睛	different	15		M		yes
 1592	俗	sio̍k	便宜	same-chars-diff-use	09		M		
-1593	糊	kôo	貼	same	04		M		
+1593	糊	kôo	貼	same	04		M		yes
 1594	怪	kuài	怪	same	15		M		
 1595	園	hn̂g	園	same	06		M		
 1596	創造	tshòng-tsō	創造	same	14	14g	H		
@@ -1636,9 +1636,9 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1645	興	hing	發展	same	14	14e	H		
 1646	賊仔	tsha̍t-á	小偷	different	11		M		
 1647	命令	bīng-līng	命令	same	14	14b	M		
-1648	鋤頭	tî-thâu	鋤頭	same	04		H		
+1648	鋤頭	tî-thâu	鋤頭	same	09		H		yes
 1649	序大	sī-tuā	長輩	different	01		H		
-1650	灶跤	tsàu-kha	廚房	different	04		H		
+1650	灶跤	tsàu-kha	廚房	different	04		H		yes
 1651	毋就	m̄-tō	不就	partial	16		M		
 1652	憂愁	iu-tshiû	憂愁	same	13		H		
 1653	運命	ūn-miā	命運	partial	13		M		
@@ -1649,7 +1649,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1658	神魂	sîn-hûn	魂魄	partial	13		M		
 1659	願意	guān-ì	願意	same	13		M		
 1660	烏暗	oo-àm	黑暗	partial	15		H		
-1661	大廳	tuā-thiann	大廳	same	04		H		
+1661	大廳	tuā-thiann	大廳	same	04		H		yes
 1662	正月	tsiann--gue̍h	正月	same	08		H		
 1663	儉	khiām	節省	same	13		M		
 1664	藏	tshàng	躲	same	14	14c	H		
@@ -1657,21 +1657,21 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1666	感動	kám-tōng	感動	same	13		H		
 1667	直接	ti̍t-tsiap	直接	same	16		H		
 1668	整理	tsíng-lí	收拾	same	14	14g	M		
-1669	粿	kué	粿	same	03		H		
+1669	粿	kué	粿	same	03		H		yes
 1670	工人	kang-lâng	工人	same	09		H		
 1671	孫仔	sun-á	孫子	partial	01		H		
 1672	蠓仔	báng-á	蚊子	different	06		H		
 1673	敲	khà	打	same	14	14c	M		
 1674	捒	sak	推	different	14	14c	H		
 1675	軁	nǹg	穿	different	14	14a	M		
-1676	針	tsiam	針	same	04		M		
+1676	針	tsiam	針	same	04		M		yes
 1677	出頭	tshut-thâu	出頭	same	14	14e	H		
 1678	阿姨	a-î	阿姨	same	01		H		
 1679	人情	jîn-tsîng	人情	same	11		M		
 1680	動物	tōng-bu̍t	動物	same	06		H		
 1681	工作	kang-tsok	工作	same	09		H		
 1682	哀	ai	叫	same	13		M		
-1683	尪仔	ang-á	偶	different	04		M		
+1683	尪仔	ang-á	偶	different	04		M		yes
 1684	夭壽	iáu-siū	很	same	14	14e	M		
 1685	套	thò	袋	same	08		M		
 1686	出版	tshut-pán	出版	same	10		H		
@@ -1679,7 +1679,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1688	英雄	ing-hiông	英雄	same	13		M		
 1689	功勞	kong-lô	功勞	same	11		M		
 1690	近來	kīn-lâi	最近	same-chars-diff-use	08		H		
-1691	鐵	thih	鐵	same	04		M		
+1691	鐵	thih	鐵	same	04		M		yes
 1692	只好	tsí-hó	只好	same	16		H		
 1693	好心	hó-sim	好心	same	13		H		
 1694	翻	huan	翻譯	same	14	14c	M		
@@ -1690,9 +1690,9 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1699	跤骨	kha-kut	腳	different	02		H		yes
 1700	花蕊	hue-luí	花朵	same	06		H		
 1701	不幸	put-hīng	不幸	same	15		M		
-1702	豆腐	tāu-hū	豆腐	same	03		H		
+1702	豆腐	tāu-hū	豆腐	same	03		H		yes
 1703	開講	khai-káng	聊天	same	14	14b	H		
-1704	袋	tē	袋	same	04		H		
+1704	袋	tē	袋	same	04		H		yes
 1705	才調	tsâi-tiāu	才能	partial	15		M		
 1706	動	tāng	動	same	14	14e	M		
 1707	藝旦	gē-tuànn	藝旦	same	09		M		
@@ -1723,7 +1723,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1732	爬	pê	爬	same	14	14a	H		
 1733	中	tiòng	中	same	14	14e	M		
 1734	細姨	sè-î	小老婆	same	01		H		
-1735	帽仔	bō-á	帽子	partial	05		H		
+1735	帽仔	bō-á	帽子	partial	05		H		yes
 1736	利用	lī-iōng	利用	same	14	14c	M		
 1737	毋成	m̄-tsiânn	不成	partial	16		M		
 1738	計較	kè-kàu	計較	same	13		M		
@@ -1733,7 +1733,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1742	風景	hong-kíng	風景	same	06		H		
 1743	釘	tìng	釘	same	14	14c	H		
 1744	隨在	suî-tsāi	隨便	partial	16		M		
-1745	寶貝	pó-puè	寶貝	same	04		M		
+1745	寶貝	pó-puè	寶貝	same	04		M		yes
 1746	行	hîng	行	same	?		L	pas de définition fournie	
 1747	臣	sîn	臣	same	11		H		
 1748	血	hueh		same	02		H		yes
@@ -1743,7 +1743,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1752	正	tsìng	正	same	13		M		
 1753	轉	tsuán	變	same	14	14a	M		
 1754	略仔	lio̍h-á	稍微	different	16		M		
-1755	啉酒	lim tsiú	喝酒	partial	03		H		
+1755	啉酒	lim tsiú	喝酒	partial	03		H		yes
 1756	刣死	thâi--sí	殺死	partial	14	14e	M		
 1757	濫糝	lām-sám	隨便	different	16		M		
 1758	醫學	i-ha̍k	醫學	same	02		M		yes
@@ -1757,7 +1757,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1766	或	hi̍k	或	same	16		H		
 1767	天公	Thinn-kong	上天	partial	12		H		
 1768	欺	khi	欺	same	14	14b	M		
-1769	椅	í	椅子	same	04		H		
+1769	椅	í	椅子	same	04		H		yes
 1770	越	ua̍t	回	same-chars-diff-use	14	14a	H		
 1771	數念	siàu-liām	想念	partial	13		H		
 1772	比較	pí-kàu	比較	same	14	14d	H		
@@ -1774,7 +1774,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1783	宗教	tsong-kàu	宗教	same	12		H		
 1784	景緻	kíng-tì	風景	partial	06		H		
 1785	序大人	sī-tuā-lâng	父母親	different	01		H		
-1786	布袋	pòo-tē	布袋	same	04		H		
+1786	布袋	pòo-tē	布袋	same	04		H		yes
 1787	生做	senn-tsò	長成	different	14	14e	H		
 1788	好看	hó-khuànn	好看	same	15		H		
 1789	分明	hun-bîng	分明	same	16		M		
@@ -1784,7 +1784,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1793	酒醉	tsiú-tsuì	酒醉	same	02		M		yes
 1794	經	king	經	same	12		H		
 1795	落山	lo̍h-suann	下山	partial	14	14a	H		
-1796	絲	si	絲	same	05		M		
+1796	絲	si	絲	same	05		M		yes
 1797	價值	kè-ta̍t	價值	same	09		H		
 1798	驚惶	kiann-hiânn	害怕	same	13		H		
 1799	原本	guân-pún	本來	same	16		M		
@@ -1796,19 +1796,19 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1805	興	hìng	愛好	same	13		M		
 1806	本成	pún-tsiânn	本來	partial	16		M		
 1807	種種	tsióng-tsióng	各種	same	16		M		
-1808	旗	kî	旗	same	04		H		
+1808	旗	kî	旗	same	11		H		yes
 1809	偌	guā	多少	different	16		H		
 1810	共	kiōng	共	same	16		M		
 1811	緣故	iân-kòo	原因	same	?		L	notion abstraite, peu clair	
-1812	竹篙	tik-ko	竹竿	partial	04		H		
+1812	竹篙	tik-ko	竹竿	partial	04		H		yes
 1813	分別	hun-pia̍t	區別	same	14	14d	H		
 1814	電視	tiān-sī	電視	same	10		H		
 1815	尾溜	bué-liu	尾巴	partial	07		M		yes
 1816	節	tsat	節	same	08		M		yes
 1817	大約	tāi-iok	大約	same	16		M		
 1818	相拍	sio-phah	相打	partial	14	14f	H		
-1819	蠓罩	báng-tà	蚊帳	different	04		H		
-1820	鹽	iâm	鹽	same	03		H		
+1819	蠓罩	báng-tà	蚊帳	different	04		H		yes
+1820	鹽	iâm	鹽	same	03		H		yes
 1821	勞力	lóo-la̍t	謝謝	different	16		M		
 1822	犯	huān	犯	same	11		M		
 1823	孝	hàu	孝	same	01		M		
@@ -1826,7 +1826,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1835	發表	huat-piáu	發表	same	10		H		
 1836	鬼仔	kuí-á	鬼	partial	12		H		
 1837	徛起	khiā-khí	立足	different	14	14a	H		
-1838	矸仔	kan-á	瓶	different	04		H		
+1838	矸仔	kan-á	瓶	different	04		H		yes
 1839	司公	sai-kong	巫婆	different	12		H		
 1840	關	kuan	關	same	07		M		
 1841	久長	kú-tn̂g	長久	partial	08		H		
@@ -1850,9 +1850,9 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1859	分	hūn	分	same	?		L	pas de définition fournie	
 1860	健康	kiān-khong	健康	same	02		H		yes
 1861	姑	koo	姑	same	01		H		
-1862	索仔	soh-á	繩子	different	04		H		
+1862	索仔	soh-á	繩子	different	04		H		yes
 1863	片	phiàn	片	same	?		L	pas de définition fournie	
-1864	棟	tòng	棟	same	04		M		
+1864	棟	tòng	棟	same	04		M		yes
 1865	乖	kuai	巧	same	13		M		
 1866	世	sè	世	same	08		M		
 1867	准	tsún	准	same	11		M		
@@ -1876,7 +1876,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1885	肚	tōo	心裡	same	02		M		yes
 1886	奇	kî	奇怪	same	15		H		
 1887	豈	khí	豈	same	16		M		
-1888	豬肉	ti-bah	豬肉	same	03		H		
+1888	豬肉	ti-bah	豬肉	same	03		H		yes
 1889	象	tshiūnn	象	same	06		H		
 1890	人物	jîn-bu̍t	人物	same	01		M		
 1891	條件	tiâu-kiānn	條件	same	?		L	notion abstraite générique	
@@ -1889,17 +1889,17 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1898	檳榔	pin-nn̂g	檳榔	same	06		H		
 1899	鋪	phoo	鋪	same	14	14c	M		
 1900	藏	tsông	藏	same	14	14c	L	no definition; mandarin only	
-1901	鴨卵	ah-nn̄g	鴨蛋	partial	03		H		
+1901	鴨卵	ah-nn̄g	鴨蛋	partial	03		H		yes
 1902	彼爿	hit pîng	那邊	different	16		H		
 1903	雜誌	tsa̍p-tsì	雜誌	same	10		H		
 1904	厄	eh	厄	same	?		L	malheur, catégorie floue	
-1905	拭仔	tshit-á	板擦	different	04		H		
+1905	拭仔	tshit-á	板擦	different	04		H		yes
 1906	海邊	hái-pinn	海邊	same	07		H		
 1907	富戶	hù-hōo	有錢人	same	09		M		
 1908	光景	kong-kíng	風景	same	?		L	situation ou paysage	
 1909	平	pênn		same	15		H		
 1910	溫暖	un-luán	暖和	same	15		H		
-1911	樓	lâu	樓	same	04		H		
+1911	樓	lâu	樓	same	04		H		yes
 1912	迎	ngiâ	迎	same	12		H		
 1913	淚	luī	淚	same	02		M		yes
 1914	大水	tuā-tsuí	水災	partial	06		M		
@@ -1916,11 +1916,11 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1925	趖	sô	緩慢	different	14	14a	H		
 1926	面頂	bīn-tíng	上面	partial	07		H		
 1927	蠓	báng	蚊子	different	06		H		
-1928	湯	thng	湯	same	03		H		
-1929	餅	piánn	餅	same	03		H		
+1928	湯	thng	湯	same	03		H		yes
+1929	餅	piánn	餅	same	03		H		yes
 1930	分離	hun-lī	分離	same	14	14f	L	no definition; mandarin only	
 1931	珠淚	tsu-luī	眼淚	same	02		M		yes
-1932	西瓜	si-kue	西瓜	same	03		H		
+1932	西瓜	si-kue	西瓜	same	03		H		yes
 1933	對待	tuì-thāi	待遇	same	14	14f	M		
 1934	比賽	pí-sài	比賽	same	09	moved	H		
 1935	為難	uî-lân	為難	same	13		M		
@@ -1928,7 +1928,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1937	惡	ok	兇狠	same	13		M		
 1938	眾	tsiòng	眾	same	?		L	pas de définition	
 1939	冤枉	uan-óng	冤枉	same	11		M		
-1940	鏡	kiànn	鏡	same	04		H		
+1940	鏡	kiànn	鏡	same	04		H		yes
 1941	發達	huat-ta̍t	發達	same	09		M		
 1942	行李	hîng-lí	行李	same	07		M		
 1943	禁	kìm	禁止	same	14	14f	M		
@@ -1951,11 +1951,11 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1960	土匪	thóo-huí	土匪	same	11		M		
 1961	上山	tsiūnn-suann	爬山	same	14	14a	H		
 1962	報紙	pò-tsuá	報紙	same	10		H		
-1963	燈火	ting-hué	燈光	same	04		H		
+1963	燈火	ting-hué	燈光	same	04		H		yes
 1964	香	hiunn	香	same	12		H		
 1965	平平	pênn-pênn	相同	different	15		M		
 1966	歹人	pháinn-lâng	壞人	partial	01		H		
-1967	李仔	lí-á	李	partial	03		M		
+1967	李仔	lí-á	李	partial	03		M		yes
 1968	姊妹	tsí-muē	姐妹	same	01		H		
 1969	倚靠	uá-khò	依靠	same	14	14f	H		
 1970	其他	kî-thann	其他	same	16		H		
@@ -1964,18 +1964,18 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 1973	忝	thiám	嚴重	different	15		L	def 疲累, mandarin 嚴重	
 1974	北爿	pak-pîng	北邊	partial	07		H		
 1975	貧惰	pîn-tuānn	懶惰	partial	13		M		
-1976	泡	phàu	泡	same	03		M		
+1976	泡	phàu	泡	same	03		M		yes
 1977	蝦	hê	蝦	same	06		H		
 1978	白白	pe̍h-pe̍h	完	same	15		M		
-1979	機器	ki-khì	機器	same	04		M		
-1980	結	kat	結	same	04		M		
+1979	機器	ki-khì	機器	same	04		M		yes
+1980	結	kat	結	same	04		M		yes
 1981	蟲	thâng	蟲	same	06		H		
 1982	債	tsè	債	same	09		H		
-1983	緣投	iân-tâu	英俊	different	05		H		
+1983	緣投	iân-tâu	英俊	different	05		H		yes
 1984	朝	tiâu	朝	same	11		M		
 1985	尊重	tsun-tiōng	尊重	same	13		M		
 1986	縫	phāng	漏洞	same	?		L	fente ou brèche	
-1987	點心	tiám-sim	零食	same	03		H		
+1987	點心	tiám-sim	零食	same	03		H		yes
 1988	專門	tsuan-bûn	專門	same	15		M		
 1989	演講	ián-káng	演講	same	10		H		
 1990	大細	tuā-sè	大小	partial	08		M		
@@ -1995,7 +1995,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2006	阿姊	a-tsí	大姊	partial	01		H		
 2007	嘆	thàn	嘆	same	13		M		
 2008	放棄	hòng-khì	放棄	same	14	14e	M		
-2009	裙	kûn	裙	same	05		H		
+2009	裙	kûn	裙	same	05		H		yes
 2010	上課	siōng-khò	上課	same	10		H		
 2011	該	kai	該	same	16		H		
 2012	宣	suan	宣	same	14	14b	L	no definition; mandarin only	
@@ -2003,15 +2003,15 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2014	經營	king-îng	經營	same	14	14g	M		
 2015	根本	kin-pún	本來	same	06		M		
 2016	化	huà	分解	same-chars-diff-use	14	14e	H		
-2017	真珠	tsin-tsu	珍珠	same	05		M		
+2017	真珠	tsin-tsu	珍珠	same	05		M		yes
 2018	袂䆀	bē-bái	不錯	different	15		M		
 2019	但	nā	但	same	16		H		
 2020	聽著	thiann-tio̍h	聽見	partial	14	14b	H		
 2021	緊張	kín-tiunn	緊張	same	13		H		
 2022	挲	so	打	different	14	14c	M		
 2023	巴	pa	巴	same	?		L	pas de définition	
-2024	王梨	ông-lâi	鳳梨	partial	03		H		
-2025	褪	thǹg	脫	same	05		M		
+2024	王梨	ông-lâi	鳳梨	partial	03		H		yes
+2025	褪	thǹg	脫	same	05		M		yes
 2026	捷	tsia̍p	捷	same	08		M		
 2027	往過	íng-kuè	以前	different	08		H		
 2028	南爿	lâm-pîng	南邊	partial	07		H		
@@ -2020,7 +2020,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2032	大	tāi	大	same	15		H		
 2033	毋知	m̄ tsai	不知	partial	16		M		
 2034	毋驚	m̄ kiann	不怕	different	13		M		
-2035	筆	pit	筆	same	04		H		
+2035	筆	pit	筆	same	10		H		yes
 2036	春風	tshun-hong	東風	same	06		H		
 2037	挽茶	bán tê	採茶	partial	14	14g	H		
 2038	快活	khuìnn-ua̍h	快樂	same-chars-diff-use	13		M		
@@ -2044,21 +2044,21 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2056	腰	io	腰	same	02		H		yes
 2057	裝	tsng	裝	same	14	14c	H		
 2058	處理	tshú-lí	結束	same	14	14g	M		
-2059	劍	kiàm	劍	same	04		M		
+2059	劍	kiàm	劍	same	11		M		yes
 2060	好聽	hó-thiann	好聽	same	15		M		
 2061	性	sìng	性	same	?		L	notion abstraite	
 2062	隨便	suî-piān	任何	same	16		M		
 2063	音	im	音	same	10		M		
 2064	黨	tóng	黨	same	11		H		
 2065	世紀	sè-kí	世紀	same	08		H		
-2066	圓仔	înn-á	湯圓	partial	03		H		
+2066	圓仔	înn-á	湯圓	partial	03		H		yes
 2067	農業	lông-gia̍p	農業	same	09		H		
 2068	宋	Sòng	宋	same	11		M		
 2069	本底	pún-té	本來	partial	16		M		
 2070	性地	sìng-tē	脾氣	different	13		H		
-2071	畚箕	pùn-ki	畚斗	same	04		H		
-2072	扒	pe	扒	same	14	14c	M		
-2073	床	tshn̂g	床	same	04		H		
+2071	畚箕	pùn-ki	畚斗	same	04		H		yes
+2072	扒	pe	扒	same	03		M		yes
+2073	床	tshn̂g	床	same	04		H		yes
 2074	延遲	iân-tî	耽誤	same	14	14e	H		
 2075	姨仔	î-á	妻子姊妹	same	01		H		
 2076	光復	kong-ho̍k	光復	same	11		M		
@@ -2066,8 +2066,8 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2078	由來	iû-lâi	向來	same	16		M		
 2079	鎮	tìn	鎮	same	07		H		
 2080	粟	tshik	稻穀	same	06		M		
-2081	桶	tháng	桶	same	04		H		
-2082	菜瓜	tshài-kue	絲瓜	partial	03		H		
+2081	桶	tháng	桶	same	04		H		yes
+2082	菜瓜	tshài-kue	絲瓜	partial	03		H		yes
 2083	西北雨	sai-pak-hōo	西北雨	same	06		H		
 2084	呼	hoo	呼	same	14	14b	M		
 2085	吵	tshá	吵	same	14	14f	H		
@@ -2075,7 +2075,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2087	扒	pê	抓	same-chars-diff-use	14	14c	M		
 2088	欣賞	him-sióng	欣賞	same	13		M		
 2089	承認	sîng-jīn	承認	same	14	14b	M		
-2090	韭菜	kú-tshài	韭菜	same	03		H		
+2090	韭菜	kú-tshài	韭菜	same	03		H		yes
 2091	阿娘	a-niâ	媽媽	different	01		H		
 2092	各樣	koh-iūnn	各樣	same	15		M		
 2093	基礎	ki-tshóo	基礎	same	?		L	notion abstraite	
@@ -2134,7 +2134,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2146	龍	liông	龍	same	?		L	renvoi, pas de définition	
 2147	偕	kai	偕	same	16		M		
 2148	利	lāi	利	same	15		M		
-2149	大箍	tuā-khoo	胖	different	05		M		
+2149	大箍	tuā-khoo	胖	different	05		M		yes
 2150	力量	li̍k-liōng	力氣	same	02		M		yes
 2151	過頭	kuè-thâu	稱	same	15		H		
 2152	慢慢仔	bān-bān-á	慢慢	partial	16		M		
@@ -2155,10 +2155,10 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2167	意見	ì-kiàn	辦法	same	13		M		
 2168	沉重	tîm-tāng	沉重	same	15		M		
 2169	尼姑	nî-koo	尼姑	same	12		H		
-2170	珠	tsu	珠	same	05		M		
+2170	珠	tsu	珠	same	05		M		yes
 2171	雞母	ke-bó	母雞	partial	06		H		
 2172	下課	hā-khò	下課	same	10		H		
-2173	便當	piān-tong	便當	same	03		H		
+2173	便當	piān-tong	便當	same	03		H		yes
 2174	良心	liông-sim	良心	same	13		H		
 2175	廖	liāu	廖	same	01		H		
 2176	介紹	kài-siāu	介紹	same	14	14f	H		
@@ -2175,11 +2175,11 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2187	火金蛄	hué-kim-koo	螢火蟲	partial	06		H		
 2188	嘐潲	hau-siâu	吹牛	different	13		M		
 2189	非	hui	非	same	16		L	sens négation ou faute	
-2190	便所	piān-sóo	廁所	partial	04		H		
+2190	便所	piān-sóo	廁所	partial	04		H		yes
 2191	封	hong	封	same	14	14c	H		
 2192	會社	huē-siā	公司	same	09		H		
 2193	許	khóo	許	same	16		L	permettre ou approximatif	
-2194	掃	sàu	掃	same	04		M		
+2194	掃	sàu	掃	same	04		M		yes
 2195	假使	ká-sú	如果	same	16		H		
 2196	古蹟	kóo-tsik	古蹟	same	07		M		
 2197	芳味	phang-bī	香味	partial	15		M		
@@ -2194,7 +2194,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2206	溪仔	khe-á	溪	partial	06		H		
 2207	字母	jī-bú	字母	same	10		H		
 2208	客人	Kheh-lâng	客家人	same-chars-diff-use	11		H		
-2209	電腦	tiān-náu	電腦	same	04		M		
+2209	電腦	tiān-náu	電腦	same	04		M		yes
 2210	損	sńg	損	same	14	14e	M		
 2211	甲	kap	甲	same	?		L	sens trop incertain	
 2212	引𤆬	ín-tshuā	引導	partial	14	14f	M		
@@ -2214,11 +2214,11 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2226	過日	kuè-ji̍t	過日	same	08		M		
 2227	竹	tik	竹子	same	06		H		
 2228	悲	pi	悲	same	13		H		
-2229	荔枝	nāi-tsi	荔枝	same	03		H		
+2229	荔枝	nāi-tsi	荔枝	same	03		H		yes
 2230	鱸鰻	lôo-muâ	流氓	different	06		M		
 2231	毛	mn̂g	毛	same	02		H		yes
 2232	引起	ín-khí	引起	same	14	14e	H		
-2233	米粉	bí-hún	米粉	same	03		H		
+2233	米粉	bí-hún	米粉	same	03		H		yes
 2234	變化	piàn-huà	變化	same	14	14e	H		
 2235	榮	îng	榮	same	11		L	gloire ou prospérité	
 2236	占	tsiàm	占	same	14	14c	M		
@@ -2229,7 +2229,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2241	佇咧	tī-leh	在	different	16		H		
 2242	斡	uat	轉	different	14	14a	H		
 2243	反應	huán-ìng	反應	same	14	14e	M		
-2244	甕	àng	罈	same	04		H		
+2244	甕	àng	罈	same	04		H		yes
 2245	奶	ling		same	02		H		yes
 2246	插	tshap	管	same-chars-diff-use	14	14f	M		
 2247	盜	tō	盜	same	11		H		
@@ -2240,9 +2240,9 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2252	自在	tsū-tsāi	自由	same	15		H		
 2253	借問	tsioh-mn̄g	請問	partial	16		M		
 2254	接	tsih	接	same	09		M		
-2255	起厝	khí-tshù	造房子	different	04		M		
-2256	目鏡	ba̍k-kiànn	眼鏡	partial	05		H		
-2257	桌仔	toh-á	桌子	partial	04		H		
+2255	起厝	khí-tshù	造房子	different	04		M		yes
+2256	目鏡	ba̍k-kiànn	眼鏡	partial	05		H		yes
+2257	桌仔	toh-á	桌子	partial	04		H		yes
 2258	致蔭	tì-ìm	庇蔭	partial	11		M		
 2259	堅持	kian-tshî	堅持	same	13		H		
 2260	處	tshù	處	same	07		L	lieu ou traiter	
@@ -2255,7 +2255,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2267	鹿仔	lo̍k-á	小鹿	partial	06		H		
 2268	慢且	bān-tshiánn	暫停	different	08		M		
 2269	正式	tsìng-sik	正式	same	15		H		
-2270	擔水	tann-tsuí	挑水	partial	04		M		
+2270	擔水	tann-tsuí	挑水	partial	04		M		yes
 2271	喂	uê	喂	same	16		H		
 2272	下跤	ē-kha	下面	partial	07		H		
 2273	梟	hiau	梟	same	06		L	hibou ou tyran	
@@ -2274,13 +2274,13 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2286	市	tshī	市	same	07		H		
 2287	斬	tsám	斬	same	14	14c	M		
 2288	胸坎	hing-khám	胸部	partial	02		H		yes
-2289	洗衫	sé-sann	洗衣服	partial	04		M		
+2289	洗衫	sé-sann	洗衣服	partial	04		M		yes
 2290	信徒	sìn-tôo	學生	same	12		M		
 2291	成立	sîng-li̍p	成立	same	14	14e	M		
 2292	蝶仔	ia̍h-á	蝴蝶	partial	06		H		
 2293	反	píng	反	same	14	14c	M		
 2294	幌	hàinn	晃	different	14	14a	M		
-2295	爐	lôo	爐	same	04		H		
+2295	爐	lôo	爐	same	04		H		yes
 2296	勼	kiu	縮	different	14	14e	M		
 2297	提起	thê-khí	拿出	same	14	14b	H		
 2298	備	pī	備	same	14	14g	M		
@@ -2291,12 +2291,12 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2303	鬧	nāu	鬧	same	14	14b	M		
 2304	初一	tshe-it	初一	same	08		H		
 2305	朱	tsu	朱	same	15		M		
-2306	繡	siù	繡	same	05		M		
+2306	繡	siù	繡	same	05		M		yes
 2307	眠	bîn	眠	same	02		M		yes
 2308	喘氣	tshuán-khuì	放假	same-chars-diff-use	02		M		yes
 2309	餓	gō	餓	same	02		H		yes
 2310	破病	phuà-pēnn	生病	partial	02		H		yes
-2311	灶	tsàu	灶	same	04		H		
+2311	灶	tsàu	灶	same	04		H		yes
 2312	聖旨	sìng-tsí	聖旨	same	11		H		
 2313	捲	kńg	捲	same	14	14c	H		
 2314	觀念	kuan-liām	觀念	same	13		M		
@@ -2304,12 +2304,12 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2316	地理師	tē-lí-su	地理先生	same	12		M		
 2317	偝	āinn	背	different	14	14c	M		
 2318	月	gua̍t	月	same	06		H		
-2319	電火	tiān-hué	電燈	partial	04		H		
+2319	電火	tiān-hué	電燈	partial	04		H		yes
 2320	城市	siânn-tshī	城市	same	07		H		
 2321	暝日	mê-ji̍t	日夜	partial	08		H		
 2322	毋值	m̄-ta̍t	不如	different	15		M		
 2323	堅定	kian-tīng	堅定	same	13		H		
-2324	粉	hún	粉	same	04		M		
+2324	粉	hún	粉	same	04		M		yes
 2325	鳳	hōng	鳳	same	06		M		
 2326	靈	lîng	靈	same	12		H		
 2327	理解	lí-kái	明白	same	13		M		
@@ -2331,7 +2331,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2343	聖	siànn	聖	same	12		H		
 2344	到今	kàu-tann	如今	partial	08		H		
 2345	報告	pò-kò	報告	same	09		M		
-2346	糞埽	pùn-sò	垃圾	different	04		H		
+2346	糞埽	pùn-sò	垃圾	different	04		H		yes
 2347	太監	thài-kàm	太監	same	11		M		
 2348	因端	in-tuann	原因	partial	16	moved	M		
 2349	伯	peh	伯	same	01		H		
@@ -2375,15 +2375,15 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2388	手頭	tshiú-thâu	手頭	same	09		H		
 2389	枉費	óng-huì	白費	same	14	14e	M		
 2390	月日	gue̍h-ji̍t	一個月	partial	08		H		
-2391	紅柿	âng-khī	柿子	partial	03		H		
+2391	紅柿	âng-khī	柿子	partial	03		H		yes
 2392	與	ú	與	same	16		H		
 2393	疑	gî	疑	same	13		H		
 2394	亡	bông	死	same	02		M		yes
 2395	習慣	si̍p-kuàn	習慣	same	14	14d	M		
 2396	衝	tshiong	衝	same	14	14a	H		
 2397	手骨	tshiú-kut	上肢胳臂	same	02		H		yes
-2398	菜店	tshài-tiàm	酒店	partial	03		M		
-2399	大厝	tuā-tshù	棺材	different	04		M		
+2398	菜店	tshài-tiàm	酒店	partial	09		M		yes
+2399	大厝	tuā-tshù	棺材	different	04		M		yes
 2400	稱	tshing	稱	same	08		M		
 2401	傷重	siong-tiōng	花費昂貴	different	09		M		
 2402	卦	kuà	卦	same	12		M		
@@ -2399,7 +2399,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2412	山賊	suann-tsha̍t	山賊	same	11		H		
 2413	外媽	guā-má	外婆	partial	01		H		
 2414	當中	tang-tiong	當中	same	07		M		
-2415	火炭	hué-thuànn	木炭	partial	04		M		
+2415	火炭	hué-thuànn	木炭	partial	04		M		yes
 2416	株	tu	株	same	08		M		
 2417	掣	tshuah	怕	different	14	14c	H		
 2418	夥計	hué-kì	姘婦	same	09		M		
@@ -2413,17 +2413,17 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2426	奉	hōng	奉	same	?		L	def_moe vide	
 2427	帶念	tài-liām	顧念	partial	13		M		
 2428	勇健	ióng-kiānn	健朗	partial	02		H		yes
-2429	麵	mī	麵	same	03		H		
+2429	麵	mī	麵	same	03		H		yes
 2430	利	lī		same	?		L	def et mandarin vides	
 2431	層	tsàn	層	same	08		H		
-2432	埕	tiânn	院子	same	04		M		
+2432	埕	tiânn	院子	same	04		M		yes
 2433	子弟	tsú-tē	子弟	same	01		H		
 2434	無去	bô--khì	去世	partial	14	14e	H		
 2436	親人	tshin-lâng	親人	same	01		H		
 2437	致意	tì-ì	全心全意	same	14	14f	M		
 2438	人民	jîn-bîn	人民	same	11		H		
 2439	三更	sann-kenn	三更	same	08		H		
-2440	粧	tsng	粧	same	05		M		
+2440	粧	tsng	粧	same	12		M		yes
 2441	興趣	hìng-tshù	興趣	same	13		H		
 2442	刺	tshì	刺	same	06		M		
 2443	笑咍咍	tshiò-hai-hai	哈哈笑	partial	13		M		
@@ -2440,7 +2440,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2454	喙瀾	tshuì-nuā	口水	different	02		H		yes
 2455	作者	tsok-tsiá	作者	same	10		H		
 2456	生囝	senn-kiánn	生產	partial	02		M		yes
-2457	丸仔	uân-á	丸	partial	03		M		
+2457	丸仔	uân-á	丸	partial	03		M		yes
 2458	原仔	uân-á		n/a	?		L	def et mandarin vides	
 2459	言語	giân-gí	言語	same	10		H		
 2460	日後	ji̍t-āu	以後	same	08		H		
@@ -2451,7 +2451,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2465	一路	tsi̍t-lōo	路上	same	07		H		
 2466	本錢	pún-tsînn	本錢	same	09		H		
 2467	伸手	tshun-tshiú	伸手	same	14	14c	M		
-2468	罩	tà	蓋	same	04		H		
+2468	罩	tà	蓋	same	04		H		yes
 2469	時行	sî-kiânn	流行	partial	15		H		
 2470	百萬	pah-bān	百萬	same	08		H		
 2471	會記得	ē-kì--tit	記得	partial	13		M		
@@ -2464,10 +2464,10 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2478	染	jiám		same	14	14e	M		
 2479	家後	ke-āu	妻子	different	01		H		
 2480	鴨母	ah-bó	母鴨	partial	06		H		
-2481	妝	tsng	妝	same	05		H		
+2481	妝	tsng	妝	same	05		H		yes
 2482	信心	sìn-sim	信心	same	13		H		
-2483	茶甌	tê-au	茶杯	partial	04		H		
-2484	茄	kiô	茄子	partial	03		H		
+2483	茶甌	tê-au	茶杯	partial	04		H		yes
+2484	茄	kiô	茄子	partial	03		H		yes
 2485	道德	tō-tik	道德	same	11		M		
 2486	科學	kho-ha̍k	科學	same	10		H		
 2487	豐富	hong-hù	豐富	same	15		H		
@@ -2479,7 +2479,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2493	鱉	pih	甲魚	same	06		H		
 2494	街仔	ke-á	街	partial	07		H		
 2495	階段	kai-tuānn	程度	same	08		M		
-2496	豆仔	tāu-á	豆子	partial	03		H		
+2496	豆仔	tāu-á	豆子	partial	03		H		yes
 2497	重視	tiōng-sī	重視	same	13		M		
 2498	老歲仔	lāu-huè-á	老人	partial	01		H		
 2499	喙焦	tshuì-ta	口渴	different	02		H		yes
@@ -2487,27 +2487,27 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2501	君子	kun-tsú	君子	same	13		M		
 2502	沙	sua	沙	same	06		H		
 2503	蝴蝶	ôo-tia̍p	蝴蝶	same	06		H		
-2504	幕	bōo	幕	same	04		M		
+2504	幕	bōo	幕	same	04		M		yes
 2505	阻礙	tsóo-gāi	阻礙	same	14	14f	M		
 2506	才情	tsâi-tsîng	才能	partial	13		M		
 2507	萬項	bān-hāng	凡事	different	08		M		
 2508	雙頭	siang-thâu	兩端	different	07		M		
 2509	奸臣	kan-sîn	小人	same	11		H		
 2510	結局	kiat-kio̍k	結果	same	15	moved	H		
-2511	桃仔	thô-á	桃	partial	03		H		
+2511	桃仔	thô-á	桃	partial	03		H		yes
 2512	間	kan	間	same	16		M		
 2513	今	kim	今	same	?		L	def et mandarin vides	
 2514	流	liû	流	same	15		M		
 2515	公家	kong-ke	公家	same	11		M		
 2516	位置	uī-tì	位置	same	07		H		
-2517	冬瓜	tang-kue	冬瓜	same	03		H		
+2517	冬瓜	tang-kue	冬瓜	same	03		H		yes
 2518	懷疑	huâi-gî	懷疑	same	13		H		
 2519	山頭	suann-thâu	山頂	partial	06		H		
 2520	方便	hong-piān	方便	same	15		H		
-2521	罐	kuàn	瓶	same	04		H		
+2521	罐	kuàn	瓶	same	04		H		yes
 2522	羞	siu	羞	same	?		L	def et mandarin vides	
 2523	陰間	im-kan	陰間	same	12		H		
-2524	梳	se	梳子	same	05		H		
+2524	梳	se	梳子	same	05		H		yes
 2525	煙	ian	煙	same	06		M		
 2526	鑽	tsǹg	鑽	same	14	14c	H		
 2527	創治	tshòng-tī	欺負	different	14	14f	M		
@@ -2538,12 +2538,12 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2552	電影	tiān-iánn	電影	same	10		H		
 2553	明知	bîng-tsai	明知	same	13		M		
 2554	殺	sat	切	same	14	14f	M		
-2555	時鐘	sî-tsing	鐘	same	04		H		
+2555	時鐘	sî-tsing	鐘	same	04		H		yes
 2556	答應	tah-ìng	允許	same	14	14b	M		
 2557	亦	i̍k	也	same-chars-diff-use	16		H		
 2558	消	siau	分解	same	14	14e	M		
 2559	待	thāi	等	same	14	14f	H		
-2560	手指	tshiú-tsí	戒指	same-chars-diff-use	05		H		
+2560	手指	tshiú-tsí	戒指	same-chars-diff-use	05		H		yes
 2561	原諒	guân-liōng	原諒	same	13		H		
 2562	市場	tshī-tiûnn	市場	same	07		H		
 2563	潑	phuah	潑	same	14	14c	M		
@@ -2553,15 +2553,15 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2567	響	hiáng	響	same	15		M		
 2568	修	siu	修	same	14	14g	H		
 2569	明年	mê-nî	明年	same	08		H		
-2570	窗仔門	thang-á-mn̂g	窗戶	partial	04		H		
+2570	窗仔門	thang-á-mn̂g	窗戶	partial	04		H		yes
 2571	相片	siòng-phìnn	照片	same	10		M		
 2572	囉	lô	囉	same	?		L	def et mandarin vides	
 2573	胎	the	胎	same	02		M		yes
 2574	偷食	thau tsia̍h	偷吃	partial	14	14h	M		yes
 2575	美	bí	好	same	15		H		
-2576	豆	tāu	豆子	same	03		H		
+2576	豆	tāu	豆子	same	03		H		yes
 2577	陸	la̍k	陸	same	?		L	def et mandarin vides	
-2578	食菜	tsia̍h-tshài	素食	partial	03		H		
+2578	食菜	tsia̍h-tshài	素食	partial	03		H		yes
 2579	啄	tok	啄	same	14	14c	M		
 2580	空	khong	空	same	?		L	def et mandarin vides	
 2581	出入	tshut-ji̍p	出入	same	14	14a	H		
@@ -2579,13 +2579,13 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2593	干焦	kan-na	只有	different	16		H		
 2594	海風	hái-hong	海風	same	06		H		
 2595	彭	phênn		n/a	?		L	def et mandarin vides	
-2596	蜜	bi̍t	蜂蜜	same	03		H		
+2596	蜜	bi̍t	蜂蜜	same	03		H		yes
 2597	對頭	tuì-thâu	冤家	same	13		M		
 2598	苦勸	khóo-khǹg	苦諫	same	14	14b	H		
-2599	犁	lê	犁	same	04		H		
+2599	犁	lê	犁	same	09		H		yes
 2600	嚴重	giâm-tiōng	嚴重	same	15		H		
 2601	致	tì	到	same	02		M		yes
-2602	模樣	bôo-iūnn	模樣	same	05		M		
+2602	模樣	bôo-iūnn	模樣	same	05		M		yes
 2603	悶	būn	悶	same	?		L	def et mandarin vides	
 2604	絕	tsua̍t	絕	same	14	14e	M		
 2605	煩	huân	煩	same	13		H		
@@ -2600,10 +2600,10 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2614	頭尾	thâu-bué	前後	same	08	moved	M		
 2615	大腹肚	tuā-pak-tóo	懷孕	different	02		H		yes
 2616	落車	lo̍h-tshia	下車	partial	07		H		
-2617	匏仔	pû-á	匏瓜	partial	03		H		
+2617	匏仔	pû-á	匏瓜	partial	03		H		yes
 2618	號名	hō-miâ	命名	partial	14	14b	M		
 2619	製造	tsè-tsō	製造	same	14	14g	H		
-2620	蓮霧	lián-bū	蓮霧	same	03		H		
+2620	蓮霧	lián-bū	蓮霧	same	03		H		yes
 2621	講古	kóng-kóo	說故事	different	10		H		
 2622	年紀	nî-kí	年齡	same	08		H		
 2623	按算	àn-sǹg	打算	partial	14	14d	M		
@@ -2613,7 +2613,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2627	辛勞	sin-lô	雇員	different	09		M		
 2628	原則	guân-tsik	原則	same	11		M		
 2629	錢	tshiân	錢	same	09		H		
-2630	丸	uân	丸	same	04		L	objet générique	
+2630	丸	uân	丸	same	04		L	objet générique	yes
 2631	大官	ta-kuann	公公	different	01		H		
 2632	牲醴	sing-lé	三牲	same	12		H		
 2633	青盲	tshenn-mê	失明	different	02		H		yes
@@ -2642,12 +2642,12 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2656	欣羨	him-siān	羨慕	same	13		H		
 2657	牢	tiâu	牢靠	same-chars-diff-use	06		M		
 2658	一面	tsi̍t-bīn	一邊	same	08		M		
-2659	牛奶	gû-ling	牛奶	same	03		H		
+2659	牛奶	gû-ling	牛奶	same	03		H		yes
 2660	盛	sīng	盛	same	15		M		
 2661	回答	huê-tap	回答	same	14	14b	H		
 2662	跡	jiah		n/a	?		L	trace, pas de domaine net	
-2663	摒	piànn	打掃	different	04		H		
-2664	紅龜	âng-ku	紅龜	same	03		H		
+2663	摒	piànn	打掃	different	04		H		yes
+2664	紅龜	âng-ku	紅龜	same	03		H		yes
 2665	記號	kì-hō	記號	same	10		M		
 2666	學	ha̍k	學	same	10		H		
 2667	敨	tháu	打開	different	14	14c	H		
@@ -2698,7 +2698,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2712	多情	to-tsîng	多情	same	13		H		
 2713	情義	tsîng-gī	情義	same	13		M		
 2714	保重	pó-tiōng	保重	same	02		H		yes
-2715	甜茶	tinn-tê	飲料	same	03		H		
+2715	甜茶	tinn-tê	飲料	same	03		H		yes
 2716	個性	kò-sìng	個性	same	13		M		
 2717	了錢	liáu-tsînn	賠錢	partial	09		H		
 2718	東	tong	東	same	07		H		
@@ -2712,17 +2712,17 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2726	滿面	muá-bīn	滿面	same	02		H		yes
 2727	蔭	ìm	蔭	same	14	14h	M		yes
 2728	量	liōng	量	same	08		M		
-2729	葡萄	phû-tô	葡萄	same	03		H		
+2729	葡萄	phû-tô	葡萄	same	03		H		yes
 2730	淋	lâm	澆	same	14	14c	M		
 2731	龍	lîng	龍	same	12		M		
 2732	往來	óng-lâi	往來	same	14	14f	M		
 2733	冷水	líng-tsuí	冷水	same	06		M		
-2734	球	kiû	球	same	04		M		
-2735	鉸刀	ka-to	剪刀	partial	04		H		
+2734	球	kiû	球	same	04		M		yes
+2735	鉸刀	ka-to	剪刀	partial	04		H		yes
 2736	好膽	hó-tánn	大膽	partial	13		M		
 2737	傀儡	ka-lé	傀儡	same	10		M		
 2738	欺負	khi-hū	侮辱	same	14	14f	H		
-2739	料	liāu	材料	same-chars-diff-use	04		M		
+2739	料	liāu	材料	same-chars-diff-use	04		M		yes
 2740	銅	tâng	銅	same	06		M		
 2741	嚨喉	nâ-âu	喉嚨	partial	02		H		yes
 2742	當	tǹg	當	same	09		H		
@@ -2739,7 +2739,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2753	表演	piáu-ián	表演	same	10		M		
 2754	氣氛	khì-hun	氣氛	same	13		M		
 2755	葩	pha	串	same	08		M		
-2756	麵線	mī-suànn	麵線	same	03		H		
+2756	麵線	mī-suànn	麵線	same	03		H		yes
 2757	金仔	kim-á	金	partial	06		M		
 2758	織	tsit	織	same	14	14g	H		
 2759	頭仔	thâu--á	最初	different	16		H		
@@ -2748,15 +2748,15 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2762	接觸	tsiap-tshiok	接觸	same	14	14c	M		
 2763	都	too	都	same	16		H		
 2764	散凶	sàn-hiong	貧困	different	15		M		
-2765	夾	ngeh	夾	same	04		H		
-2766	家私	ke-si	工具	different	04		H		
+2765	夾	ngeh	夾	same	04		H		yes
+2766	家私	ke-si	工具	different	04		H		yes
 2767	縛跤	pa̍k-kha	纏足	different	12		M		
 2768	止	tsí	止	same	14	14e	H		
 2769	留戀	liû-luân	留戀	same	13		H		
 2770	甚	sīm	甚	same	16		M		
-2771	柑仔	kam-á	橘子	different	03		M		
+2771	柑仔	kam-á	橘子	different	03		M		yes
 2772	中秋	Tiong-tshiu	中秋節	partial	12		H		
-2773	菜頭	tshài-thâu	蘿蔔	different	03		H		
+2773	菜頭	tshài-thâu	蘿蔔	different	03		H		yes
 2774	親事	tshin-sū	親戚	same	01		M		
 2775	咒	tsiù	咒	same	14	14b	H		
 2776	花枝	hue-ki	花枝	same	06		H		
@@ -2767,7 +2767,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2781	鼠	tshí		same	06		H		
 2782	恐驚	khióng-kiann	恐怕	partial	16		H		
 2783	滿滿是	muá-muá-sī	到處	different	16		M		
-2784	乾	kan	乾	same	03		M		
+2784	乾	kan	乾	same	03		M		yes
 2785	彎	uan	轉	same	15		H		
 2786	牧	bo̍k	牧	same	?		L	pas de définition	
 2787	值錢	ta̍t-tsînn	值錢	same	09		M		
@@ -2775,7 +2775,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2789	爭	tsing	爭	same	14	14f	M		
 2790	頭人	thâu-lâng	首腦	different	11		H		
 2791	膽	tánn	膽	same	02		H		yes
-2792	籠	láng	籠	same	04		H		
+2792	籠	láng	籠	same	04		H		yes
 2793	犯罪	huān-tsuē	犯罪	same	11		H		
 2794	行船	kiânn-tsûn	行船	same	07		M		
 2795	鑼	lô	鑼	same	10		M		
@@ -2791,7 +2791,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2805	穡頭	sit-thâu	工作	different	09		H		
 2806	葬	tsòng	葬	same	12		H		
 2807	挃	ti̍h	要	different	16		M		
-2808	管	kóng	管	same	04		M		
+2808	管	kóng	管	same	04		M		yes
 2809	紲落去	suà--lo̍h-khì	接下來	different	16		H		
 2810	楔	seh	塞	different	14	14c	H		
 2811	妖怪	iau-kuài	妖怪	same	12		M		
@@ -2802,7 +2802,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2816	龍眼	lîng-gíng	龍眼	same	06		M		
 2817	落台	lo̍h-tâi	下臺	different	14	14a	H		
 2818	稟	pín	報告	same	14	14b	H		
-2819	牆	tshiûnn	牆	same	04		H		
+2819	牆	tshiûnn	牆	same	04		H		yes
 2820	相公	siòng-kong	相公	same	01		H		
 2821	逃走	tô-tsáu	逃走	same	14	14a	H		
 2822	殘忍	tsân-jím	殘忍	same	13		H		
@@ -2810,16 +2810,16 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2824	方	hong	方向	same	?		L	方法 ou 方向, ambigu	
 2825	卿	khing	卿	same	?		L	pas de définition	
 2826	彩	tshái	彩	same	?		L	sens vague	
-2827	機關	ki-kuan	機關	same	04		M		
+2827	機關	ki-kuan	機關	same	11		M		yes
 2828	窮	khîng	整理	same-chars-diff-use	14	14c	M		
 2829	毛	moo	毛	same	?		L	polysémie, sans définition	
-2830	咖啡	ka-pi	咖啡	same	03		M		
+2830	咖啡	ka-pi	咖啡	same	03		M		yes
 2831	公道	kong-tō	公平	same-chars-diff-use	11		M		
 2832	指示	tsí-sī	指示	same	14	14b	M		
 2833	田庄	tshân-tsng	農村	different	07		H		
 2834	招呼	tsio-hoo	招呼	same	14	14f	H		
 2835	四面	sì-bīn	周圍	same	07		H		
-2836	烘爐	hang-lôo	火爐	same	04		H		
+2836	烘爐	hang-lôo	火爐	same	04		H		yes
 2837	專心	tsuan-sim	專心	same	13		H		
 2838	肩頭	king-thâu	肩膀	partial	02		H		yes
 2839	尊敬	tsun-kìng	尊敬	same	13		H		
@@ -2837,7 +2837,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2851	捎	sa	拿	same-chars-diff-use	14	14c	H		
 2852	體	thé	身體	partial	02		H		yes
 2853	生理人	sing-lí-lâng	商人	partial	09		H		
-2854	牌仔	pâi-á	牌子	partial	04		M		
+2854	牌仔	pâi-á	牌子	partial	04		M		yes
 2855	貼心	tah-sim	貼心	same	13		H		
 2856	智慧	tì-huī	聰明	same	13		M		
 2857	拚命	piànn-miā	拼命	same	14	14f	M		
@@ -2882,8 +2882,8 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2896	誰	suî	誰	same	16		H		
 2897	土	thóo	土	same	06		H		
 2898	作用	tsok-iōng	作用	same	15	moved	M		
-2899	滾水	kún-tsuí	開水	partial	03		M		
-2900	枋	pang	板	different	04		H		
+2899	滾水	kún-tsuí	開水	partial	03		M		yes
+2900	枋	pang	板	different	04		H		yes
 2901	壽	siū	壽	same	02		M		yes
 2902	老大	láu-tuā	老大	same	01		H		
 2903	百二	pah-jī	一百二十	partial	08		H		
@@ -2892,8 +2892,8 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2906	價數	kè-siàu	價錢	partial	09		H		
 2907	袂記得	bē-kì-tit	忘記	partial	13		M		
 2908	臺	tâi	臺	same	07		M		
-2909	磚仔	tsng-á	磚	partial	04		H		
-2910	五穀	ngóo-kok	糧食	same	03		H		
+2909	磚仔	tsng-á	磚	partial	04		H		yes
+2910	五穀	ngóo-kok	糧食	same	03		H		yes
 2911	尪姨	ang-î	巫婆	different	12		H		
 2912	呼	khoo	呼	same	14	14b	H		
 2913	主席	tsú-si̍k	主席	same	11		H		
@@ -2901,25 +2901,25 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2915	看命	khuànn-miā	算命	partial	12		H		
 2916	指頭仔	tsíng-thâu-á	手指	partial	02		H		yes
 2917	喙䫌	tshuì-phué	臉頰	different	02		H		yes
-2918	豬跤	ti-kha	豬腳	partial	03		H		
+2918	豬跤	ti-kha	豬腳	partial	03		H		yes
 2919	理論	lí-lūn	理論	same	10		M		
 2920	主持	tsú-tshî	主持	same	14	14g	M		
-2921	茶鈷	tê-kóo	茶壺	partial	04		H		
+2921	茶鈷	tê-kóo	茶壺	partial	04		H		yes
 2922	寶惜	pó-sioh	珍惜	partial	13		H		
 2923	蹧躂	tsau-that	糟蹋	different	14	14f	H		
 2924	輾	liàn	滾	different	14	14a	M		
 2925	冗早	liōng-tsá	從前	different	16		H		
 2926	按呢生	án-ne-senn	這樣	different	16		H		
 2927	炤	tshiō	照	same-chars-diff-use	14	14h	M		yes
-2928	菱角	lîng-kak	紅菱	same	03		H		
-2929	剃頭	thì-thâu	理髮	different	05		H		
+2928	菱角	lîng-kak	紅菱	same	03		H		yes
+2929	剃頭	thì-thâu	理髮	different	05		H		yes
 2930	總統	tsóng-thóng	總統	same	11		H		
 2931	巧神	khiáu-sîn	伶俐	different	13		M		
 2932	拆散	thiah-suànn	分離	same	14	14f	M		
 2933	哀怨	ai-uàn	哀怨	same	13		H		
-2934	坎	khám	階梯	same	04		M		
+2934	坎	khám	階梯	same	04		M		yes
 2935	畫圖	uē-tôo	畫圖	same	10		M		
-2936	食穿	tsia̍h-tshīng	吃穿	partial	03		M		
+2936	食穿	tsia̍h-tshīng	吃穿	partial	03		M		yes
 2937	會議	huē-gī	會議	same	09		M		
 2938	功課	kong-khò	功課	same	10		H		
 2939	誤會	gōo-huē	誤會	same	13		M		
@@ -2938,13 +2938,13 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2952	鑼鼓	lô-kóo	鑼鼓	same	10		M		
 2953	同胞	tông-pau	同胞	same	01		H		
 2954	苦毒	khóo-to̍k	虐待	different	14	14f	H		
-2955	面容	bīn-iông	面貌	same	05		H		
+2955	面容	bīn-iông	面貌	same	05		H		yes
 2956	漢文	hàn-bûn	漢字	same	10		H		
 2957	批評	phue-phîng	批評	same	14	14b	H		
 2958	勞	lô	勞	same	14	14g	H		
 2959	動	tōng	動	same	16	moved	M		
-2960	籃仔	nâ-á	籃	partial	04		H		
-2961	衫仔褲	sann-á-khòo	衣服	different	05		H		
+2960	籃仔	nâ-á	籃	partial	04		H		yes
+2961	衫仔褲	sann-á-khòo	衣服	different	05		H		yes
 2962	本份	pún-hūn	本分	partial	11		M		
 2963	驗	giām	驗	same	14	14d	M		
 2964	國民	kok-bîn	國民	same	11		M		
@@ -2952,11 +2952,11 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2966	樹頭	tshiū-thâu	樹上	partial	06		M		
 2967	廟寺	biō-sī	寺廟	partial	12		H		
 2968	逐擺	ta̍k-pái	每次	different	08		H		
-2969	煮食	tsú-tsia̍h	烹飪	different	03		H		
+2969	煮食	tsú-tsia̍h	烹飪	different	03		H		yes
 2970	明仔日	bîn-á-ji̍t	明天	partial	08		H		
-2971	雞卵	ke-nn̄g	雞蛋	partial	03		H		
+2971	雞卵	ke-nn̄g	雞蛋	partial	03		H		yes
 2972	總共	tsóng-kiōng	一共	same	08		M		
-2973	鏨	tsām	刻	different	04		M		
+2973	鏨	tsām	刻	different	04		M		yes
 2974	初初	tshoo-tshoo	起初	partial	08		H		
 2975	掠準	lia̍h-tsún	以為	different	13		M		
 2976	葉	ia̍p	葉	same	06		H		
@@ -2965,7 +2965,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 2979	本土	pún-thóo	本土	same	07		M		
 2980	塗炭	thôo-thuànn	煤炭	partial	06		M		
 2981	鼓井	kóo-tsénn	水井	partial	07		M		
-2982	巾仔	kin-á	巾	partial	04		M		
+2982	巾仔	kin-á	巾	partial	04		M		yes
 2983	查某𡢃	tsa-bóo-kán	丫鬟	different	01		H		
 2984	絕情	tsua̍t-tsîng	絕情	same	13		H		
 2985	啟	khé	啟	same	14	14c	L	def vide, sens probable	
@@ -2988,14 +2988,14 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3002	肚臍	tōo-tsâi	肚臍	same	02		H		yes
 3003	溫泉	un-tsuânn	溫泉	same	06		H		
 3004	救人	kiù-lâng	救命	partial	14	14f	H		
-3005	菜脯	tshài-póo	蘿蔔乾	different	03		H		
+3005	菜脯	tshài-póo	蘿蔔乾	different	03		H		yes
 3006	課	khò	課	same	10		H		
 3007	則	tsik	則	same	?		L	sens incertain, pas de glose	
 3008	灌	kuàn	灌	same	14	14c	H		
 3009	疊	thia̍p	疊	same	14	14c	H		
 3010	拜拜	pài-pài	拜拜	same	12		H		
 3011	手段	tshiú-tuānn	辦法	same	09	moved	M		
-3012	袋仔	tē-á	袋	partial	04		H		
+3012	袋仔	tē-á	袋	partial	04		H		yes
 3013	注文	tsù-bûn	點	different	09		M		
 3014	逃	tô	逃	same	14	14a	H		
 3015	終	tsiong	終	same	08		M		
@@ -3012,7 +3012,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3026	症	tsìng	症	same	02		H		yes
 3027	聯合	liân-ha̍p	聯合	same	11		M		
 3028	職業	tsit-gia̍p	工作	same	09		H		
-3029	食	si̍t	食品	same	03		H		
+3029	食	si̍t	食品	same	03		H		yes
 3030	資源	tsu-guân	資源	same	09		M		
 3031	轉世	tsuán-sè	投胎	same	12		H		
 3032	想講	siūnn-kóng	想	partial	13		M		
@@ -3021,7 +3021,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3035	門跤口	mn̂g-kha-kháu	門口	partial	07		H		
 3036	莫非	bo̍k-hui	難道	same	16		H		
 3037	落水	lo̍h-tsuí	下水	same	14	14a	H		
-3038	鐵枝	thih-ki	鋼筋	different	04		M		
+3038	鐵枝	thih-ki	鋼筋	different	04		M		yes
 3039	輕重	khin-tāng	輕重	same	15		M		
 3040	面皮	bīn-phuê	面子	partial	13		M		
 3041	怨慼	uàn-tsheh	怨恨	partial	13		H		
@@ -3048,7 +3048,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3062	年歲	nî-huè	年齡	same	08		H		
 3063	親切	tshin-tshiat	親切	same	13		H		
 3064	講究	káng-kiù	講究	same	15		M		
-3065	水車	tsuí-tshia	水車	same	04		M		
+3065	水車	tsuí-tshia	水車	same	09		M		yes
 3066	墓仔埔	bōng-á-poo	墓地	partial	12		M		
 3067	慈悲	tsû-pi	善良	same	13		M		
 3068	高中	ko-tiong	高中	same	10		H		
@@ -3062,13 +3062,13 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3076	夏	hē	夏	same	08		H		
 3077	好囝	hó-kiánn	好孩子	partial	01		H		
 3078	發覺	huat-kak	發現	same	14	14d	H		
-3079	泔	ám	米湯	different	03		H		
+3079	泔	ám	米湯	different	03		H		yes
 3080	案	àn	案	same	11		H		
 3081	唯一	uî-it	唯一	same	15		M		
 3082	寬寬仔	khuann-khuann-á	慢慢	different	16		M		
 3083	恬	tiām	靜	different	15		H		
 3084	拍損	phah-sńg	可惜	different	14	14e	M		
-3085	香菇	hiunn-koo	香菇	same	03		H		
+3085	香菇	hiunn-koo	香菇	same	03		H		yes
 3086	雺霧	bông-bū	霧	partial	06		H		
 3087	磕	kha̍p	磕	same	14	14c	M		
 3088	絪	in	絪	same	?		L	pas de glose ni mandarin	
@@ -3079,7 +3079,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3093	蜈	gôo	蜈	same	06		M		
 3094	娛	gôo		n/a	?		L	pas de glose ni mandarin	
 3095	犯人	huān-lâng	犯人	same	11		H		
-3096	煎	tsian	煎	same	03		H		
+3096	煎	tsian	煎	same	03		H		yes
 3097	婿	sài	婿	same	01		H		
 3098	助	tsōo	幫助	partial	14	14f	H		
 3099	堅心	kian-sim	堅決	partial	13		M		
@@ -3092,10 +3092,10 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3106	各人	kok-lâng	各人	same	16		H		
 3107	催	tshui	催	same	14	14f	M		
 3108	久久	kú-kú	久久	same	08		H		
-3109	手環	tshiú-khuân	手鐲	partial	05		H		
+3109	手環	tshiú-khuân	手鐲	partial	05		H		yes
 3110	請	tshíng	請	same	16		M		
-3111	麵包	mī-pau	麵包	same	03		H		
-3112	竹筍	tik-sún	竹筍	same	03		H		
+3111	麵包	mī-pau	麵包	same	03		H		yes
+3112	竹筍	tik-sún	竹筍	same	03		H		yes
 3113	伶俐	líng-lī	伶俐	same	13		M		
 3114	錢財	tsînn-tsâi	錢財	same	09		H		
 3115	一旦	it-tàn	一旦	same	08		H		
@@ -3105,14 +3105,14 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3119	申	sin	告狀	same	08		H		
 3120	叔公	tsik-kong	叔公	same	01		H		
 3121	街	ke	街	same	07		H		
-3122	人家	jîn-ke	住宅	same-chars-diff-use	04		M		
+3122	人家	jîn-ke	住宅	same-chars-diff-use	04		M		yes
 3123	推辭	the-sî	回	same	14	14b	M		
 3124	別項	pa̍t-hāng	其他	same	16		M		
 3125	央	iang	請	same	14	14b	H		
 3126	島嶼	tó-sū/tóo-sū	島嶼	same	06		H		
 3127	拳頭	kûn-thâu	拳頭	same	02		H		yes
 3128	寒	hân	寒	same	06		H		
-3129	青	tshenn		same	05		M		
+3129	青	tshenn		same	15		M		yes
 3130	風神	hong-sîn	威風	partial	13		M		
 3131	戇人	gōng-lâng	傻瓜	different	13		M		
 3132	祖	tsóo	祖	same	01		H		
@@ -3140,7 +3140,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3154	鼻空	phīnn-khang	鼻孔	partial	02		H		yes
 3155	漚	àu	爛	different	15		H		
 3156	生相	senn-siùnn	生肖	partial	12		M		
-3157	桌跤	toh-kha	桌腳	partial	04		H		
+3157	桌跤	toh-kha	桌腳	partial	04		H		yes
 3158	𠢕早	gâu-tsá	早安	partial	16		M		
 3159	情勢	tsîng-sè	情況	same	15		M		
 3160	鹼	kinn	鹼	same	06		L	substance chimique, domaine incertain	
@@ -3148,7 +3148,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3162	相愛	siong-ài	相愛	same	13		H		
 3163	恩情	un-tsîng	恩情	same	13		H		
 3164	佛	Hu̍t	佛	same	12		H		
-3165	苦瓜	khóo-kue	苦瓜	same	03		H		
+3165	苦瓜	khóo-kue	苦瓜	same	03		H		yes
 3166	老大人	lāu-tuā-lâng	老人	partial	01		H		
 3167	翻身	huan-sin	翻身	same	14	14a	M		
 3168	大膽	tuā-tánn	大膽	same	13		H		
@@ -3181,7 +3181,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3195	氏	sī	氏	same	01		H		
 3196	嬰	enn		n/a	01		M		
 3197	罪惡	tsuē-ok	罪惡	same	11		H		
-3198	掃帚	sàu-tshiú	掃把	same	04		H		
+3198	掃帚	sàu-tshiú	掃把	same	04		H		yes
 3199	鰗鰡	hôo-liu	泥鰍	different	06		H		
 3200	各種	kok-tsióng	各種	same	16		H		
 3201	塔	thah	塔	same	07		H		
@@ -3217,7 +3217,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3231	謂	uī	謂	same	?		L	釋義空白	
 3232	數	siàu	算	same-chars-diff-use	09		H		
 3233	得意	tik-ì	得意	same	13		M		
-3234	鎖匙	só-sî	鑰匙	partial	04		H		
+3234	鎖匙	só-sî	鑰匙	partial	04		H		yes
 3235	叔	tsik	叔	same	01		H		
 3236	即	tsik	即	same	16		L	釋義空白	
 3237	升	sing	升	same	14	14a	M		
@@ -3228,7 +3228,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3242	寶貴	pó-kuì	寶貴	same	15		H		
 3243	曲	khik	歌	same	10		M		
 3244	八仙	pat-sian	八仙	same	12		H		
-3245	客廳	kheh-thiann	大廳	same	04		H		
+3245	客廳	kheh-thiann	大廳	same	04		H		yes
 3246	旺	ōng	猛	same	15		H		
 3247	地面	tē-bīn/tuē-bīn	地面	same	06		M		
 3248	天堂	thian-tông	天堂	same	12		H		
@@ -3241,7 +3241,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3255	細聲	sè-siann	小聲	partial	15		H		
 3256	冇	phànn	闊綽	different	15		M		
 3257	粟仔	tshik-á	稻穀	different	06		H		
-3258	徛家	khiā-ke	住家	partial	04		H		
+3258	徛家	khiā-ke	住家	partial	04		H		yes
 3259	翻頭	huan-thâu	回頭	partial	14	14a	H		
 3260	捌字	bat-jī	識字	partial	10		H		
 3261	茈	tsínn	細	different	15		H		
@@ -3257,7 +3257,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3271	買賣	bé-bē	生意	same	09		H		
 3272	忍	lún	忍	same	13		H		
 3273	扁	pínn	扁	same	15		H		
-3274	剃	thì	剃	same	05		H		
+3274	剃	thì	剃	same	05		H		yes
 3275	羞	tshiu	羞	same	14	14f	M		
 3276	工廠	kang-tshiúnn	工廠	same	09		H		
 3277	帖	thiap	帖	same	10		M		
@@ -3284,7 +3284,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3298	滑	ku̍t	滑	same	15		H		
 3299	請安	tshíng-an	請安	same	12		H		
 3300	遐的	hia--ê	那些	different	16		H		
-3301	煙筒	ian-tâng	煙囪	partial	04		M		
+3301	煙筒	ian-tâng	煙囪	partial	04		M		yes
 3302	計畫	kè-uē	計畫	same	09	moved	M		
 3303	猴山仔	kâu-san--á	猴子	partial	06		H		
 3304	嫁粧	kè-tsng	嫁妝	partial	12		M		
@@ -3304,11 +3304,11 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3318	逞	thíng	放縱	different	14	14h	L	agir librement, se laisser aller	yes
 3319	憢疑	giâu-gî	懷疑	partial	13		H		
 3320	頕	tàm	低垂	different	15	moved	M	pendre, s'affaisser	
-3321	咖哩	ka-lí	咖哩	same	03		H		
+3321	咖哩	ka-lí	咖哩	same	03		H		yes
 3322	貧	pîn	貧	same	15		M		
 3324	苦苦	khóo-khóo	苦苦	same	13		M		
 3325	惹	jiá	引起	same	14	14e	M		
-3326	網	bāng	網	same	04		M		
+3326	網	bāng	網	same	04		M		yes
 3327	若無	nā-bô	不然	different	16		H		
 3328	小人	siáu-jîn	小人	same	13		M		
 3329	允	ín	准	same	14	14d	M		
@@ -3320,10 +3320,10 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3335	野蠻	iá-bân	野蠻	same	13		M		
 3336	宛然	uán-jiân	好像	different	16		H		
 3337	菜市仔	tshài-tshī-á	菜市場	partial	07		H		
-3338	索	soh	繩子	same	04		H		
+3338	索	soh	繩子	same	04		H		yes
 3339	應	ìng	應	same	?		L	釋義空白	
 3340	安心	an-sim	放心	same	13		H		
-3341	梳頭	se-thâu	梳頭	same	05		H		
+3341	梳頭	se-thâu	梳頭	same	05		H		yes
 3342	平靜	pîng-tsīng	平靜	same	15		H		
 3343	予伊	hōo i	讓	different	16		H		
 3344	西洋	se-iûnn	西洋	same	11		M		
@@ -3336,7 +3336,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3351	山內	suann-lāi	山裡	partial	07		H		
 3352	島	tó	島	same	06		H		
 3353	真理	tsin-lí	真理	same	10		M		
-3354	面貌	bīn-māu	面貌	same	05		H		
+3354	面貌	bīn-māu	面貌	same	05		H		yes
 3355	陰	im	陰	same	?		L	多義，抽象	
 3356	軟弱	luán-jio̍k	軟弱	same	02		M		yes
 3357	度晬	tōo-tsè	抓週	different	12		H		
@@ -3349,29 +3349,29 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3364	遭	tso	遭	same	14	14e	M		
 3365	捅	thóng	超過	same-chars-diff-use	08		M		
 3366	規世人	kui-sì-lâng	一生	different	08		H		
-3367	躼	lò	高	different	05		M		
+3367	躼	lò	高	different	05		M		yes
 3368	拍毋見	phah-m̄-kìnn	遺失	different	14	14e	M		
 3369	南方	lâm-hong	南方	same	07		H		
 3370	鑢	lù	刷	different	14	14g	H		
 3371	抑無	iah-bô	不然	different	16		H		
-3372	標致	phiau-tì	標致	same	05		H		
+3372	標致	phiau-tì	標致	same	05		H		yes
 3373	延延	iân-tshiân	遲延	partial	14	14e	M		
 3374	世情	sè-tsîng	世故	partial	13		M		
 3375	敢若	kánn-ná	好像	different	16		H		
 3376	心腸	sim-tn̂g	心裡	same	13		H		
-3377	玻璃	po-lê	玻璃	same	04		H		
+3377	玻璃	po-lê	玻璃	same	04		H		yes
 3378	道士	tō-sū	道士	same	12		H		
 3379	挽回	bán-huê	挽回	same	14	14e	M		
 3380	戲弄	hì-lāng	戲弄	same	14	14f	M		
 3381	甜蜜	tinn-bi̍t	甜蜜	same	15		M		
 3382	開聲	khui-siann	放聲	partial	14	14b	H		
 3383	飛	hui	飛	same	14	14a	H		
-3384	瓦厝	hiā-tshù	瓦舍	partial	04		H		
+3384	瓦厝	hiā-tshù	瓦舍	partial	04		H		yes
 3385	賒	sia	賒	same	09		H		
 3386	滅	bia̍t	滅	same	14	14e	M		
 3387	溢	ik	溢	same	14	14a	M		
 3388	訴	sòo	訴	same	14	14b	H		
-3389	物	bu̍t	物	same	04		M		
+3389	物	bu̍t	物	same	04		M		yes
 3390	報答	pò-tap	報答	same	13		M		
 3391	在生	tsāi-senn	生前	partial	08		M		
 3392	劫	kiap	劫	same	14	14c	M		
@@ -3385,30 +3385,30 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3400	目地	ba̍k-tē	起眼	different	15		M		
 3401	同意	tông-ì	同意	same	14	14d	M		
 3402	後尾	āu-bué	後面	partial	16		M		
-3403	樓梯	lâu-thui	樓梯	same	04		H		
+3403	樓梯	lâu-thui	樓梯	same	04		H		yes
 3404	崙	lūn	崙	same	06		L	釋義空白	
 3405	好運	hó-ūn	好運	same	15		M		
 3406	蝨母	sat-bó	蝨子	partial	06		H		
-3407	打扮	tánn-pān	打扮	same	05		H		
+3407	打扮	tánn-pān	打扮	same	05		H		yes
 3408	田岸	tshân-huānn	田埂	partial	06		M		
 3409	召	tiàu	召	same	14	14f	M		
 3410	誠意	sîng-ì	真心	same	13		H		
 3411	凝	gîng	凝	same	15		M		
 3412	入教	ji̍p-kàu	受洗	different	12		H		
-3413	水果	tsuí-kó	水果	same	03		H		
-3414	衣	i	衣服	same	05		H		
+3413	水果	tsuí-kó	水果	same	03		H		yes
+3414	衣	i	衣服	same	05		H		yes
 3415	九	kiú	九	same	08		H		
-3416	面桶	bīn-tháng	臉盆	different	04		H		
+3416	面桶	bīn-tháng	臉盆	different	04		H		yes
 3417	聲調	siann-tiāu	聲調	same	10		H		
 3418	弟	tē	弟	same	01		H		
-3419	砧	tiam	刺痛	different	04		H		
+3419	砧	tiam	刺痛	different	04		H		yes
 3420	開墾	khai-khún	開墾	same	14	14g	H		
 3421	明顯	bîng-hián	明顯	same	15		H		
 3422	著傷	tio̍h-siong	受傷	partial	02		H		yes
 3423	一時仔	tsi̍t-sî-á	一下子	partial	08		H		
 3424	章	tsiunn	章	same	10		M		
 3425	壓迫	ap-pik	壓迫	same	11		M		
-3426	薰吹	hun-tshue	菸管	different	04		M		
+3426	薰吹	hun-tshue	菸管	different	04		M		yes
 3427	教員	kàu-uân	教師	same	10		H		
 3428	圓滿	uân-buán	圓滿	same	15		H		
 3429	北京	Pak-kiann	北京	same	07		H		
@@ -3431,7 +3431,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3446	涼	liâng	涼	same	15		H		
 3447	開開	khui--khui	打開	partial	14	14c	H		
 3449	恩愛	un-ài	恩愛	same	13		H		
-3450	甜粿	tinn-kué	甜年糕	partial	03		H		
+3450	甜粿	tinn-kué	甜年糕	partial	03		H		yes
 3451	歡歡喜喜	huann-huann-hí-hí	高興	same	13		H		
 3452	蒙	bông	蒙	same	?		L	釋義空白	
 3453	勤	khîn	勤	same	13		M		
@@ -3440,7 +3440,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3456	烏雲	oo-hûn	烏雲	same	06		H		
 3457	別	pia̍t	別	same	14	14a	M		
 3458	適合	sik-ha̍p	適合	same	15		M		
-3459	粽	tsàng	粽	same	03		H		
+3459	粽	tsàng	粽	same	03		H		yes
 3460	養	ióng	養	same	14	14f	M		
 3461	行為	hîng-uî	行為	same	13	moved	H		
 3462	港口	káng-kháu	港口	same	07		H		
@@ -3466,8 +3466,8 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3482	討海	thó-hái	出海打魚	partial	09		H		
 3483	節目	tsiat-bo̍k	節目	same	10		H		
 3484	欠缺	khiàm-khueh	不夠	same-chars-diff-use	15		M		
-3485	皮鞋	phuê-ê	皮鞋	same	05		H		
-3486	西裝	se-tsong	西裝	same	05		H		
+3485	皮鞋	phuê-ê	皮鞋	same	05		H		yes
+3486	西裝	se-tsong	西裝	same	05		H		yes
 3487	發揮	huat-hui	發揮	same	14	14g	M		
 3488	外公	guā-kong	外公	same	01		H		
 3489	尿	jiō	尿	same	02		H		yes
@@ -3485,11 +3485,11 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3501	袂赴	bē-hù	來不及	different	08		M		
 3502	鬥跤手	tàu-kha-tshiú	幫助	different	14	14f	H		
 3503	涵	hâm	涵	same	?		L	pas de définition	
-3504	圈	khian	圈	same	04		H		
-3505	棕蓑	tsang-sui	雨衣	different	05		H		
+3504	圈	khian	圈	same	04		H		yes
+3505	棕蓑	tsang-sui	雨衣	different	05		H		yes
 3506	今仔	tann-á	現在	different	08		H		
 3507	佳人	ka-jîn	佳人	same	01		M		
-3508	戶橂	hōo-tīng	門檻	different	04		H		
+3508	戶橂	hōo-tīng	門檻	different	04		H		yes
 3509	旅	lú	旅	same	?		L	pas de définition	
 3510	槳	tsiúnn	槳	same	07		H		
 3511	痴迷	tshi-bê	著迷	same-chars-diff-use	13		H		
@@ -3509,8 +3509,8 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3525	才子	tsâi-tsú	才子	same	13		M		
 3526	梁	niû	梁	same	?		L	pas de définition	
 3527	出產	tshut-sán	出產	same	09		H		
-3528	雞卵糕	ke-nn̄g-ko	蛋糕	partial	03		H		
-3529	歹看	pháinn-khuànn	難看	partial	05		M		
+3528	雞卵糕	ke-nn̄g-ko	蛋糕	partial	03		H		yes
+3529	歹看	pháinn-khuànn	難看	partial	05		M		yes
 3530	痠	sng	痠	same	02		H		yes
 3531	暗淡	àm-tām	暗淡	same	15		H		
 3532	心性	sim-sìng	心性	same	13		M		
@@ -3518,12 +3518,12 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3534	判	phuànn	判	same	11		M		
 3535	必要	pit-iàu	必要	same	15		H		
 3536	乞	khit	乞	same	14	14b	M		
-3537	宮	kiong	宮	same	04		M		
+3537	宮	kiong	宮	same	12		M		yes
 3538	早暗	tsá-àm	早晚	partial	08		H		
 3539	到時	kàu-sî	屆時	same	08		H		
 3540	海面	hái-bīn	海面	same	06		H		
 3541	頂港	tíng-káng	北部	different	07		H		
-3542	枕	tsím	枕	same	04		M		
+3542	枕	tsím	枕	same	04		M		yes
 3543	禁止	kìm-tsí	禁止	same	11		M		
 3544	但	tān	但	same	16		H		
 3545	教師	kàu-su	教師	same	10		H		
@@ -3548,16 +3548,16 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3564	透風	thàu-hong	颳風	partial	06		H		
 3565	發明	huat-bîng	發明	same	14	14g	H		
 3566	歇熱	hioh-jua̍h	放暑假	different	10		M		
-3567	摒掃	piànn-sàu	打掃	partial	04		H		
+3567	摒掃	piànn-sàu	打掃	partial	04		H		yes
 3568	普遍	phóo-phiàn	普通	same	15		H		
-3569	匏	pû	匏	same	06		M		
+3569	匏	pû	匏	same	03		M		yes
 3570	精牲	tsing-senn	牲畜	partial	06		H		
 3571	善良	siān-liông	善良	same	13		H		
 3572	送	sòng	送	same	14	14c	H		
-3573	煠	sa̍h	燙	different	03		H		
+3573	煠	sa̍h	燙	different	03		H		yes
 3574	落	làu	拉	same	14	14a	M		
 3575	捷捷	tsia̍p-tsia̍p	常常	different	08		H		
-3576	媠噹噹	suí-tang-tang	美麗	different	05		H		
+3576	媠噹噹	suí-tang-tang	美麗	different	05		H		yes
 3577	記持	kì-tî	記憶	partial	13		M		
 3578	大力	tuā-la̍t	用力	same-chars-diff-use	15	moved	M		
 3579	花欉	hue-tsâng	花株	partial	06		H		
@@ -3578,7 +3578,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3594	男子漢	lâm-tsú-hàn	大丈夫	same	01		M		
 3595	毋敢	m̄ kánn	不敢	partial	16		H		
 3596	順風	sūn-hong	順風	same	14	14f	H		
-3597	煎	tsuann	煎	same	03		H		
+3597	煎	tsuann	煎	same	03		H		yes
 3598	耳仔	hīnn-á	耳朵	partial	02		H		yes
 3599	奸雄	kan-hiông	奸巧	same	13		H		
 3600	判官	phuànn-kuann	法官	same	11		H		
@@ -3611,7 +3611,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3627	討食	thó-tsia̍h	謀生	different	09		M		
 3628	請教	tshíng-kàu	請問	same	16		M		
 3629	公學校	kong-ha̍k-hāu	公學校	same	10		H		
-3630	梯	the	梯	same	04		M		
+3630	梯	the	梯	same	04		M		yes
 3631	彈	tuānn	彈	same	14	14c	M		
 3632	媽祖婆	Má-tsóo-pô	天上聖母	same	12		H		
 3633	縒	tsua̍h	縒	same	?		L	pas de définition	
@@ -3623,9 +3623,9 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3639	歹心	pháinn-sim	壞心眼	partial	13		H		
 3640	作穡人	tsoh-sit-lâng	農人	partial	09		M		
 3641	軍隊	kun-tuī	軍隊	same	11		H		
-3642	電氣	tiān-khì	電氣	same	04		M		
+3642	電氣	tiān-khì	電氣	same	04		M		yes
 3643	囡仔兄	gín-á-hiann	小男孩	different	01		H		
-3644	寮仔	liâu-á	小屋	different	04		H		
+3644	寮仔	liâu-á	小屋	different	04		H		yes
 3645	宣佈	suan-pòo	宣布	same	14	14b	H		
 3646	相借問	sio-tsioh-mn̄g	打招呼	different	14	14f	H		
 3647	扛轎	kng-kiō	抬轎	partial	14	14c	H		
@@ -3635,38 +3635,38 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3651	測驗	tshik-giām	考試	same	10		H		
 3652	競爭	kīng-tsing	競爭	same	14	14f	M		
 3653	圖書館	tôo-su-kuán	圖書館	same	10		H		
-3654	枋仔	pang-á	木板	different	04		H		
+3654	枋仔	pang-á	木板	different	04		H		yes
 3655	派出所	phài-tshut-sóo	派出所	same	11		H		
 3656	天庭	thian-tîng	天界	same	12		H		
 3657	落屎	làu-sái	腹瀉	different	02		H		yes
 3658	兩爿	nn̄g-pîng	兩邊	partial	07		M		
-3659	秫米	tsu̍t-bí	糯米	partial	03		H		
+3659	秫米	tsu̍t-bí	糯米	partial	03		H		yes
 3660	徛算	khiā-sǹg	權	different	14	14d	M		
-3661	跤桶	kha-tháng	洗衣盆	different	04		H		
-3662	卵清	nn̄g-tshing	蛋白	different	03		H		
+3661	跤桶	kha-tháng	洗衣盆	different	04		H		yes
+3662	卵清	nn̄g-tshing	蛋白	different	03		H		yes
 3663	半仙	puàn-sian	半仙	same	12		H		
-3664	洋服	iûnn-ho̍k	西裝	different	05		H		
-3665	豆油	tāu-iû	醬油	partial	03		H		
+3664	洋服	iûnn-ho̍k	西裝	different	05		H		yes
+3665	豆油	tāu-iû	醬油	partial	03		H		yes
 3666	盆	phûn	盆	same	08		H		
-3667	楊桃	iûnn-tô	楊桃	same	03		M		
+3667	楊桃	iûnn-tô	楊桃	same	03		M		yes
 3668	雨	ú	雨	same	06		H		
 3669	幸	hīng	幸	same	13		M		
 3670	齊	tsê		same	15		H		
 3671	瞞	muâ	騙	same	14	14f	M		
 3672	落難	lo̍h-lān	落難	same	14	14e	H		
-3673	冰糖	ping-thn̂g	冰糖	same	03		H		
+3673	冰糖	ping-thn̂g	冰糖	same	03		H		yes
 3674	實情	si̍t-tsîng	實情	same	15		M		
 3675	勿	bu̍t	勿	same	16		H		
 3676	名	bîng	名	same	10		M		
 3677	弟子	tē-tsú	學生	same	10		H		
 3678	屁	phuì	屁	same	02		H		yes
-3679	幼秀	iù-siù	可愛	different	05		M		
+3679	幼秀	iù-siù	可愛	different	05		M		yes
 3680	軀	su	套	different	08		H		yes
 3681	胃	uī	胃	same	02		H		yes
 3682	一概	it-khài	完全	same	16		M		
 3683	仙桃	sian-thô	仙桃	same	12		M		
 3684	論真	lūn-tsin	其實	different	16		H		
-3685	芋仔	ōo-á	芋	partial	03		M		
+3685	芋仔	ōo-á	芋	partial	03		M		yes
 3686	枵鬼	iau-kuí	貪吃	different	13		M		
 3687	制度	tsè-tōo	制度	same	11		H		
 3688	運動埕	ūn-tōng-tiânn	操場	different	07		M		
@@ -3674,11 +3674,11 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3690	社	siā	社	same	11		M		
 3691	剛	kong	剛	same	16		M		
 3692	累	luī	累	same	14	14f	M		yes
-3693	蓆	tshio̍h	蓆	same	04		H		
+3693	蓆	tshio̍h	蓆	same	04		H		yes
 3694	羅	lô	羅	same	?		L	pas de définition	
 3695	救兵	kiù-ping	救兵	same	11		M		
 3696	放火	pàng-hué	放火	same	14	14c	M		
-3697	檨仔	suāinn-á	芒果	different	03		H		
+3697	檨仔	suāinn-á	芒果	different	03		H		yes
 3698	莊	tsng	莊	same	09		H		
 3699	說	suat	說	same	10		H		
 3700	和平	hô-pîng	和平	same	11		M		
@@ -3698,17 +3698,17 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3714	複雜	ho̍k-tsa̍p	複雜	same	15		H		
 3715	試看	tshì-khuànn	試一試	partial	14	14g	M		
 3716	移民	î-bîn	移民	same	11		H		
-3717	柴箍	tshâ-khoo	圓木塊	different	04		M		
-3718	腥臊	tshenn-tshau	豐富	different	03		M		
+3717	柴箍	tshâ-khoo	圓木塊	different	04		M		yes
+3718	腥臊	tshenn-tshau	豐富	different	03		M		yes
 3719	肩胛頭	king-kah-thâu	肩膀	partial	02		H		yes
 3720	投機	tâu-ki	投機	same	13		M		
 3721	對照	tuì-tsiàu	對照	same	14	14d	M		
-3722	蕹菜	ìng-tshài	空心菜	partial	03		H		
-3723	屎礐仔	sái-ha̍k-á	廁所	different	04		H		
+3722	蕹菜	ìng-tshài	空心菜	partial	03		H		yes
+3723	屎礐仔	sái-ha̍k-á	廁所	different	04		H		yes
 3724	採用	tshái-iōng	採用	same	14	14d	M		
 3725	趒	tiô	跳動	different	14	14a	H		
 3726	唱	tshiàng	唱	same	14	14b	M		
-3727	食物	si̍t-bu̍t	食品	same	03		H		
+3727	食物	si̍t-bu̍t	食品	same	03		H		yes
 3728	性質	sìng-tsit	本質	same	15		H		
 3729	奉待	hōng-thāi	服侍	different	01		M		
 3730	白蔥蔥	pe̍h-tshang-tshang	蒼白	partial	15		H		
@@ -3720,7 +3720,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3736	伐	hua̍h	伐	same	14	14a	M		
 3737	大囝	tuā-kiánn	大兒子	partial	01		H		
 3738	寒人	kuânn--lâng	冬天	different	08		H		
-3739	盒	a̍h	盒	same	04		H		
+3739	盒	a̍h	盒	same	04		H		yes
 3740	跋桮	pua̍h-pue	擲筊	different	12		H		
 3741	掰	pué	撥	same-chars-diff-use	14	14c	H		
 3742	厭𤺪	ià-siān	厭倦	partial	13		H		
@@ -3729,7 +3729,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3745	流星	liû-tshenn/liû-tshinn	流星	same	06		H		
 3746	夫君	hu-kun	相公	different	01		H		
 3747	損失	sún-sit	損失	same	09		M		
-3748	酒矸	tsiú-kan	酒瓶	partial	04		H		
+3748	酒矸	tsiú-kan	酒瓶	partial	04		H		yes
 3749	上等	siōng-tíng	高級	same	15		H		
 3750	票	phiò	票	same	09		M		
 3751	賢	hiân	賢	same	13		H		
@@ -3738,7 +3738,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3754	霧	bū	冒	same	06		H		
 3755	後	hiō	後	same	16		M		
 3756	協力	hia̍p-li̍k	協力	same	16	moved	M		
-3757	金瓜	kim-kue	南瓜	partial	03		M		
+3757	金瓜	kim-kue	南瓜	partial	03		M		yes
 3758	調查	tiâu-tsa	調查	same	14	14b	M		
 3759	借錢	tsioh tsînn	借錢	same	09		H		
 3760	妹	muē	妹	same	01		H		
@@ -3746,17 +3746,17 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3762	陽	iông	陽	same	06		L	sens abstrait (yin-yang)	
 3763	斷	tuān	斷	same	14	14c	H		
 3764	下落	hē-lo̍h	下落	same	07		H		
-3765	芥菜	kuà-tshài	芥菜	same	03		M		
-3766	被單	phuē-tuann	被單	same	04		H		
+3765	芥菜	kuà-tshài	芥菜	same	03		M		yes
+3766	被單	phuē-tuann	被單	same	04		H		yes
 3767	沖	tshiong	沖	same	14	14c	H		
-3768	坐位	tsē-uī	座位	partial	04		H		
-3769	菜籃	tshài-nâ	菜籃	same	04		H		
+3768	坐位	tsē-uī	座位	partial	04		H		yes
+3769	菜籃	tshài-nâ	菜籃	same	04		H		yes
 3770	牙	gê	牙	same	02		H		yes
 3771	智	tì	智	same	13		L	pas de définition, sens probable	
 3772	暗示	àm-sī	暗示	same	14	14b	H		
 3773	可惡	khó-ònn	可惡	same	13		M		
 3774	來往	lâi-óng	交際	same-chars-diff-use	14	14f	M		
-3775	蓋	kuà	蓋子	same-chars-diff-use	04		H		
+3775	蓋	kuà	蓋子	same-chars-diff-use	04		H		yes
 3776	磅	pōng	量	same	08		H		
 3777	序細	sī-sè	後輩	different	01		H		
 3778	家長	ka-tiúnn	家長	same	01		H		
@@ -3769,10 +3769,10 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3785	登	ting	登	same	14	14a	H		
 3786	入學	ji̍p-o̍h	入學	same	10		H		
 3787	巷仔	hāng-á	巷	partial	07		H		
-3788	暗頓	àm-tǹg	晚飯	different	03		H		
+3788	暗頓	àm-tǹg	晚飯	different	03		H		yes
 3789	放學	pàng-o̍h	放學	same	10		H		
 3790	恥笑	thí-tshiò	嘲笑	same-chars-diff-use	13		M		
-3791	寮	liâu	小屋	same	04		H		
+3791	寮	liâu	小屋	same	04		H		yes
 3792	暗暝	àm-mê	夜裡	different	08		H		
 3793	通用	thong-iōng	通用	same	15		M		
 3794	同窗	tông-tshong	同學	same	10		H		
@@ -3798,7 +3798,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3815	觀察	kuan-tshat	觀察	same	14	14d	M		
 3816	眩	hîn	暈	same	02		H		yes
 3817	薅	khau	除草	different	14	14g	H		
-3818	燙	thǹg	燙	same	03		H		
+3818	燙	thǹg	燙	same	03		H		yes
 3819	搣	me	抓	different	14	14c	H		
 3820	銃子	tshìng-tsí	子彈	partial	11		M		
 3821	坦橫	thán-huâinn	打橫	partial	07		M		
@@ -3825,7 +3825,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3842	得罪	tik-tsuē	得罪	same	14	14f	H		
 3843	病人	pēnn-lâng	病人	same	02		H		yes
 3844	麻	muâ	麻	same	06		H		
-3845	印仔	ìn-á	印章	partial	04		M		
+3845	印仔	ìn-á	印章	partial	04		M		yes
 3846	賤	tsiān	賤	same	13		M		
 3847	人格	jîn-keh	人格	same	13		H		
 3848	暗中	àm-tiong	私下	same	16		H		
@@ -3835,7 +3835,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3852	負擔	hū-tam	承擔	same	09		M		
 3853	管理	kuán-lí	安排	same	09		M		
 3854	外人	guā-lâng	外人	same	01		H		
-3855	褲帶	khòo-tuà	腰帶	partial	05		H		
+3855	褲帶	khòo-tuà	腰帶	partial	05		H		yes
 3856	車路	tshia-lōo	馬路	partial	07		H		
 3857	放屁	pàng-phuì	嚇	same	02		M		yes
 3858	臭臊	tshàu-tsho	生青味	different	15		M		
@@ -3848,7 +3848,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3865	神經	sîn-king	神經	same	02		M		yes
 3866	欠用	khiàm-īng	需要	different	09		H		
 3867	皇宮	hông-kiong	皇宮	same	07		M		
-3868	芋	ōo	芋	same	03		M		
+3868	芋	ōo	芋	same	03		M		yes
 3869	股	kóo	捲	same	08		H		yes
 3870	接納	tsiap-la̍p	接受	same	14	14d	M		
 3871	癢	tsiūnn	癢	same	02		H		yes
@@ -3861,12 +3861,12 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3878	練習	liān-si̍p	練習	same	10		H		
 3879	巧	khá	巧	same	15		M		
 3880	臨	lîm	臨	same	14	14a	M		
-3881	柱	thiāu	柱子	same	04		H		
+3881	柱	thiāu	柱子	same	04		H		yes
 3882	單純	tan-sûn	單純	same	15		H		
 3883	安靜	an-tsīng	安靜	same	15		H		
 3884	破壞	phò-huāi	破壞	same	14	14e	M		
 3885	培養	puê-ióng	培養	same	10		M		
-3886	軒	hian	軒	same	04		L	pas de définition	
+3886	軒	hian	軒	same	?		L	pas de définition	yes
 3887	墓	bōng		same	12		M		
 3888	仙人	sian-jîn	神仙	same	12		H		
 3889	災難	tsai-lān	災難	same	11		M		
@@ -3886,46 +3886,46 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3904	犁田	lê-tshân	犁田	same	06		M		
 3905	暗頭仔	àm-thâu-á	傍晚	different	08		H		
 3906	鐵枝路	thih-ki-lōo	鐵路	partial	07		H		
-3907	撒	suah	撒	same	03		M		
+3907	撒	suah	撒	same	03		M		yes
 3908	會使得	ē-sái-tit	可以	different	16		H		
 3909	偏	phinn	占便宜	same-chars-diff-use	14	14f	M		
 3910	倒反	tò-píng	倒反	same	16		H		
 3911	喙舌	tshuì-tsi̍h	舌頭	partial	02		H		yes
-3912	卓	toh	卓	same	04		M		
+3912	卓	toh	卓	same	?		M		yes
 3913	囉嗦	lo-so	囉哩囉嗦	same	13		M		
-3914	米芳	bí-phang	爆米花	partial	03		H		
+3914	米芳	bí-phang	爆米花	partial	03		H		yes
 3915	喙角	tshuì-kak	嘴角	partial	02		H		yes
 3916	病疼	pēnn-thiànn	病痛	partial	02		H		yes
 3917	濫	lām	摻	different	14	14c	M		
-3918	沖	tshiâng	沖	same	04		M		
+3918	沖	tshiâng	沖	same	04		M		yes
 3919	東風	tang-hong	東風	same	06		H		
 3920	敆	kap	配合	different	14	14c	M		
 3921	挈	khe̍h	拿	different	14	14c	H		
 3922	喈	kainn	叫	different	06		M		
-3923	桔仔	kiat-á	金桔	partial	03		M		
+3923	桔仔	kiat-á	金桔	partial	03		M		yes
 3924	拄搪	tú-tn̄g	遇到	different	14	14e	M		
 3925	遛	liù	脫	same-chars-diff-use	14	14c	M		
 3926	蝶	ia̍h	蝶	same	06		H		
 3927	拉	la	拉	same	14	14c	H		
-3928	橄欖	kan-ná	草橄欖	same	03		M		
+3928	橄欖	kan-ná	草橄欖	same	03		M		yes
 3929	癮頭	giàn-thâu	傻瓜	different	13		M		
 3930	𡳞脬	lān-pha	陰囊	different	02		H		yes
 3931	桑材	sng-tsâi	桑椹	partial	06		H		
 3932	駛車	sái-tshia	開車	partial	07		H		
-3933	刀仔	to-á	小刀	partial	04		H		
+3933	刀仔	to-á	小刀	partial	04		H		yes
 3934	當面	tng-bīn	面對面	same	16		M		
 3935	吞忍	thun-lún	忍耐	partial	13		M		
-3936	樹梅	tshiū-m̂	楊梅	partial	03		M		
+3936	樹梅	tshiū-m̂	楊梅	partial	03		M		yes
 3937	公開	kong-khai	公開	same	11		M		
-3938	肉粽	bah-tsàng	粽子	same	03		H		
+3938	肉粽	bah-tsàng	粽子	same	03		H		yes
 3939	告示	kò-sī	告示	same	11		H		
 3940	四季	sù-kuì	四季	same	08		H		
 3941	好漢	hó-hàn	大丈夫	same	13		M		
 3942	相請	sio-tshiánn	請客	partial	14	14f	H		
 3943	推	thui	打	same	14	14c	M		yes
-3944	漆	tshat	漆	same	04		M		
+3944	漆	tshat	漆	same	04		M		yes
 3945	算盤	sǹg-puânn	算盤	same	09		H		
-3946	鹹菜	kiâm-tshài	酸菜	partial	03		H		
+3946	鹹菜	kiâm-tshài	酸菜	partial	03		H		yes
 3947	鬚	tshiu	鬚	same	02		H		yes
 3948	另	līng	另	same	16		M		
 3949	相倚	sio-uá	相互靠近	same	14	14a	M		
@@ -3938,7 +3938,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3956	努力	lóo-li̍k	努力	same	14	14g	M		
 3957	前後	tsîng-āu	前後	same	08		M		
 3958	價錢	kè-tsînn	價錢	same	09		H		
-3959	削	siah	競爭	same	03		M		
+3959	削	siah	競爭	same	03		M		yes
 3960	部	pōo	部	same	11		M		
 3961	征	tsing	征	same	11		L	sens peu clair	
 3962	攤	thuann	攤	same	09		M		
@@ -3957,14 +3957,14 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 3975	尊嚴	tsun-giâm	莊嚴	same	13		M		
 3976	樹木	tshiū-ba̍k	樹	same	06		H		
 3977	提醒	thê-tshénn	提醒	same	14	14b	H		
-3978	包仔	pau-á	包子	partial	03		H		
+3978	包仔	pau-á	包子	partial	03		H		yes
 3979	頌	siōng	頌	same	12		M		
 3980	利息	lī-sik	利息	same	09		H		
 3981	諍	tsènn		n/a	14	14b	H		
 3982	叫是	kiò-sī	以為	different	13		M		
 3983	白鶴	pe̍h-ho̍h	白鶴	same	06		H		
 3984	談論	tâm-lūn	談論	same	10		M		
-3985	食薰	tsia̍h-hun	吸煙	different	03	moved	M		
+3985	食薰	tsia̍h-hun	吸煙	different	03		M		yes
 3986	鄉鎮	hiong-tìn	鄉鎮	same	07		H		
 3987	微微仔	bî-bî-á	一點點	different	16		M		
 3988	海賊	hái-tsha̍t	海盜	same	11		M		
@@ -4007,7 +4007,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 4273	書	su	書	same	10		H		
 4287	藍	nâ	藍	same	15		M		
 4290	並	phīng	最	same-chars-diff-use	16		M		
-4308	餾	liū	複習	different	03		L	gloss 複習 incohérente	
+4308	餾	liū	複習	different	03		L	gloss 複習 incohérente	yes
 4309	久	kiú	久	same	08		H		
 4319	突然	tu̍t-jiân	突然	same	16		M		
 4323	必須	pit-su	必須	same	16		M		
@@ -4024,8 +4024,8 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 4490	燒烙	sio-lō	發燒	partial	15		M		yes
 4494	禮物	lé-bu̍t	禮物	same	12		M		
 4497	存心	tsûn-sim	打算	same	13		M		
-4509	錶仔	pió-á	手錶	partial	04		H		
-4511	弓蕉	king-tsio	香蕉	partial	03		H		
+4509	錶仔	pió-á	手錶	partial	04		H		yes
+4511	弓蕉	king-tsio	香蕉	partial	03		H		yes
 4514	食頭路	tsia̍h-thâu-lōo	上班	different	09		H		
 4516	綠	li̍k	綠	same	15		M		
 4520	四海	sù-hái	世界	same	07		M		
@@ -4043,7 +4043,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 4628	信用	sìn-iōng	相信	same	13		M		
 4650	沿	iân	層	same	16		L	gloss 層 incohérente	
 4654	放	hòng	放	same	14	14c	H		
-4671	碗公	uánn-kong	碗	same	04		H		
+4671	碗公	uánn-kong	碗	same	04		H		yes
 4676	問	būn	問	same	14	14b	H		
 4679	還	huân	還	same	14	14c	H		
 4692	六	lio̍k	六	same	08		H		
@@ -4056,7 +4056,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 4781	當咧	tng-teh	正在	different	16		H		
 4803	提議	thê-gī	辦法	same	14	14b	H		
 4812	火車頭	hué-tshia-thâu	火車站	same	07		H		
-4818	帽	bō	帽子	same	05		H		
+4818	帽	bō	帽子	same	05		H		yes
 4823	掠做	lia̍h-tsò	以為	different	13		M		
 4829	題	tê	題	same	10		H		
 4833	青	tshing	藍	same	15		M		
@@ -4066,9 +4066,9 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 4865	耳	ní	耳朵	same	02		H		yes
 4871	數學	sòo-ha̍k	數學	same	10		H		
 4875	恬靜	tiām-tsīng	安靜	partial	15		H		
-4907	門	bûn	門	same	04		H		
-4921	躼跤	lò-kha	高	different	05		M		
-4947	飲	ím	喝	same	03		H		
+4907	門	bûn	門	same	04		H		yes
+4921	躼跤	lò-kha	高	different	05		M		yes
+4947	飲	ím	喝	same	03		H		yes
 4949	後頭	āu-thâu	後面	same	07		H		
 4968	店頭	tiàm-thâu	商店	partial	07		M		
 5043	跤踏車	kha-ta̍h-tshia	自行車	partial	07		H		
@@ -4091,7 +4091,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 5253	向時	hiàng-sî	以前	different	08		H		
 5255	按怎樣	án-tsuánn-iūnn	怎麼	partial	16		H		
 5263	感冒	kám-mōo	感冒	same	02		H		yes
-5264	被	phuē		same	04		H		
+5264	被	phuē		same	04		H		yes
 5271	康健	khong-kiān	健康	same	02		M		yes
 5316	死亡	sí-bông	過去	same	14	14e	H		
 5346	跟	kin	跟	same	14	14f	H		
@@ -4101,7 +4101,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 5424	細的	sè--ê	弟弟	different	01		H		
 5432	渴	khat	渴	same	02		L	sens soif ou désir	yes
 5441	外	guē	外	same	07		H		
-5449	麥仔酒	be̍h-á-tsiú	啤酒	partial	03		H		
+5449	麥仔酒	be̍h-á-tsiú	啤酒	partial	03		H		yes
 5452	燒熱	sio-jua̍h	發燒	partial	15		L	gloss 溫暖 vs 發燒	yes
 5460	頂真	tíng-tsin	認真	partial	13		H		
 5476	上午	siōng-ngóo	上午	same	08		H		
@@ -4109,10 +4109,10 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 5486	孝孤	hàu-koo	吃	different	12		M		
 5490	同事	tông-sū	同事	same	09		H		
 5491	色水	sik-tsuí	顏色	partial	15		M		
-5512	冰箱	ping-siunn	冰箱	same	04		H		
+5512	冰箱	ping-siunn	冰箱	same	04		H		yes
 5539	直透	ti̍t-thàu	一直	partial	16		M		
 5545	張	tng	張	same	14	14f	M		
-5548	條	liâu	條	same	04		M		
+5548	條	liâu	條	same	04		M		yes
 5574	時候	sî-hāu	時候	same	08		H		
 5599	剾	khau	刮	different	14	14c	H		
 5611	跤兜	kha-tau	附近	different	07		H		
@@ -4120,9 +4120,9 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 5621	倒手爿	tò-tshiú-pîng	左邊	different	07		H		
 5628	恬去	tiām--khì	安靜	different	15		M		
 5633	喂	--eh	喂	same	16		M		
-5642	飯碗	pn̄g-uánn	工作	same	04		M		
+5642	飯碗	pn̄g-uánn	工作	same	04		M		yes
 5667	掛意	kuà-ì	擔心	same	13		H		
-5696	甌仔	au-á	杯子	different	04		H		
+5696	甌仔	au-á	杯子	different	04		H		yes
 5746	老	láu	老	same	15		M		
 5755	讀	tho̍k	讀	same	10		H		
 5768	呢	nî	呢	same	16		H		
@@ -4162,7 +4162,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 6279	選擇	suán-ti̍k	選擇	same	14	14d	M		
 6295	跟隨	kin-suî	跟	same	14	14f	H		
 6298	交插	kau-tshap	關係	different	01		M		
-6307	手錶仔	tshiú-pió-á	手錶	partial	04		H		
+6307	手錶仔	tshiú-pió-á	手錶	partial	04		H		yes
 6334	讓	jiōng		same	14	14f	M	laisser, céder	
 6355	向	hiàng	向	same	16		H		
 6376	店面	tiàm-bīn	商店	same	07		M		
@@ -4177,7 +4177,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 6475	奕	ī	玩	different	14	14f	H		
 6507	煞尾	suah-bué	結束	different	08		M		
 6510	考驗	khó-giām	考試	same	10		H		
-6513	服裝	ho̍k-tsong	衣服	same	05		H		
+6513	服裝	ho̍k-tsong	衣服	same	05		H		yes
 6544	相仝	sio-kāng	相同	partial	15		H		
 6551	對同	tuì-tâng	相同	partial	15		H		
 6573	機場	ki-tiûnn	機場	same	07		H		
@@ -4189,15 +4189,15 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 6779	步頻	pōo-pîn	突然	different	16		L	gloss 突然 incohérente	
 6807	草	tshó	草	same	13		M		
 6815	寢	tshím	剛才	same	08		H		
-6825	新鮮	sin-sian	新鮮	same	15		H		
+6825	新鮮	sin-sian	新鮮	same	03		H		yes
 6847	破膽	phuà-tánn	害怕	same	13		H		
-6851	甜粅粅	tinn-but-but	甜	partial	03		M		
+6851	甜粅粅	tinn-but-but	甜	partial	03		M		yes
 6854	一睏仔	tsi̍t-khùn-á	一會兒	partial	08		H		
 6866	玩	uán	玩	same	14	14f	M		
 6874	牽的	khan--ê	妻子	different	01		H		
-6885	盤仔	puânn-á	盤子	partial	04		H		
+6885	盤仔	puânn-á	盤子	partial	04		H		yes
 6886	膽膽	tám-tám	害怕	different	13		H		
-6947	菜單	tshài-tuann	菜單	same	03		H		
+6947	菜單	tshài-tuann	菜單	same	03		H		yes
 6960	囷	khûn	把	different	14	14c	H		
 7002	載	tsáinn	年	same	08		H		
 7009	目𥍉仔	ba̍k-nih-á	馬上	different	08		H		
@@ -4215,15 +4215,15 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 7223	綠	lio̍k	綠	same	15		M		
 7226	想	sióng	想	same	13		H		
 7279	鄰	lîn	旁邊	same	07		H		
-7305	廚房	tû-pâng	廚房	same	04		H		
+7305	廚房	tû-pâng	廚房	same	04		H		yes
 7336	姆仔	ḿ--á	媽媽	different	01		H		
 7381	捨施	siá-sì	給	different	14	14c	H		
 7423	人面	lâng-bīn	人	partial	01		M		
 7424	會用得	ē-īng-tit	可以	different	16		H		
 7438	告訴	kò-sòo	告訴	same	11		M		
-7501	手機仔	tshiú-ki-á	手機	partial	04		H		
+7501	手機仔	tshiú-ki-á	手機	partial	04		H		yes
 7512	云	ûn	云	same	14	14b	M		
-7525	傘	suànn	傘	same	04		H		
+7525	傘	suànn	傘	same	04		H		yes
 7554	影戲	iánn-hì	電影	partial	10		M		
 7560	面會	biān-huē	見面	partial	14	14f	H		
 7661	伴手	phuānn-tshiú	禮物	different	12		M		
@@ -4235,7 +4235,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 7757	著病	tio̍h-pēnn	生病	partial	02		H		yes
 7768	影片	iánn-phìnn	電影	same	10		M		
 7783	要	iau	要	same	16		M		
-7793	熥	thn̄g	熱	different	03		H		
+7793	熥	thn̄g	熱	different	03		H		yes
 7809	信篤	sìn-táu	相信	partial	13		M		
 7833	贊助	tsàn-tsōo	幫助	same	14	14f	H		
 7911	先的	sian--ê	老師	different	10		H		
@@ -4255,7 +4255,7 @@ rank	hanji	tailo	mandarin	vs_mandarin	domain	sub	conf	note	reviewed
 8257	電子	tiān-tsú	電子	same	10		M		
 8264	少缺	tsió-khueh	多	different	08		M		
 8267	清潔	tshing-kiat	乾淨	same	15		H		
-8268	睏房	khùn-pâng	房間	partial	04		H		
+8268	睏房	khùn-pâng	房間	partial	04		H		yes
 8283	強強	kiōng-kiōng	幾乎	different	16		M		
 8305	到	tàu	到	same	14	14a	H		
 8336	有通	ū-thong	可以	different	16		M		
