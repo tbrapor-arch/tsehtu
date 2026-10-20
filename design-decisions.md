@@ -16,9 +16,11 @@ what the app uses.
 
 ## App structure
 Tabs: **Lessons** (home = grid of the 100 planned lessons, Mainichi-style; review every 7th; the 63 written so far, the
-rest greyed with their planned title) · **Themes** (thematic vocabulary, "Le Mot et l'Idée" structure: numbered groups +
-a short text) · **Grammar** · **Review** (segmented by lesson and theme group; cloze cards in the lesson sentence;
-Leitner 1/3/7/16/35 days; the **Bridge** trial and tone-change practice live here) · **Podcast** (see `docs/podcast.md`) · **Video** (Taigi drama in YouTube's player, `docs/video.md`) ·
+rest greyed with their planned title) · **Practice 溫習** (one tab since 20 Oct 2026, to keep the phone bar to five tabs: the due count and "Review all due"
+on top, then a switch Cards · Themes · Grammar · Drills; the tab reopens the part used last. Cards: segmented by lesson
+and theme group, cloze cards in the lesson sentence, Leitner 1/3/7/16/35 days; a card session always runs on `#review`.
+Themes: thematic vocabulary, "Le Mot et l'Idée" structure, numbered groups + a short text. Grammar: the sheets.
+Drills: tone-change practice and the **Bridge** trial; old routes `#themes`, `#grammar`, `#bridge` still work) · **Podcast** (see `docs/podcast.md`) · **Video** (Taigi drama in YouTube's player, `docs/video.md`) ·
 **Settings** (look, night mode, accent + regional tables, sync). A hidden **Exam** tab appears only on devices with
 access to an optional private module (`docs/sync-and-private-module.md`). No "Today" tab.
 
@@ -56,9 +58,9 @@ Progress, deck and preferences are stored in the browser only (per device).
 - Back to the lesson grid returns to where you were.
 
 ## Learning tools added (no native speaker needed)
-- **Grammar tab** (文法): 39 structures from `course/grammar.yaml`; each sheet lists every course line that uses it
+- **Grammar** (文法, in Practice): 39 structures from `course/grammar.yaml`; each sheet lists every course line that uses it
   (found by a pattern at build time), so new lessons add examples by themselves.
-- **Tone-change practice** (Review tab): words from the lessons, written form shown, pick the spoken form; wrong
+- **Tone-change practice** (Practice › Drills): words from the lessons, written form shown, pick the spoken form; wrong
   options are typical mistakes (no change, last syllable changed too, wrong new tone). Rule-based (`tools/sandhi.py`).
 - **Recordings**: headwords and MOE example sentences (▶ on the word card), fetched at build time by the GitHub
   workflow. Dialogue lines: ▶ plays the words one by one (dictionary tones, not connected speech).

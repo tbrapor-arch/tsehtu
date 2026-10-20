@@ -7,10 +7,10 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 - **Lessons:** all 100 written (`course/lessons/`), following `course/syllabus.yaml`. Lesson 0 is
   `000-reading-tailo.md`. Review lessons: 7, 14, …, 98.
 - **Part 2, 進修 Perfectionnement** (in progress): 70 longer lessons in varied genres, P1–P7 published. Spec, method and handover: `docs/perfectionnement-plan.md`.
-- **Themes:** one (`health`). The Themes tab is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
+- **Themes:** one (`health`). The Themes part of Practice is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
 - **Coverage** (after lesson 100): top 100: 100 %, top 300: 97 %, top 1,000: 88 % (72 % after 63). The plan's 95 % target for the top 1,000 was not reached. Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
-- **App tabs:** Lessons, Themes, Grammar, Review (includes Bridge and tone drill), Podcast, Video, Settings, plus a hidden
+- **App tabs:** Lessons, Practice (溫習: Cards, Themes, Grammar, Drills = tone changes + Bridge; merged 20 Oct 2026), Podcast, Video, Settings, plus a hidden
   Exam tab that exists only when this device's token can read the private repo.
 - **Audio:** MOE headword and example recordings are fetched at build time by the workflow. Native-speaker
   recordings: tooling done (`record.html`, `tools/import_recordings.py`), **no clips imported yet**.
@@ -48,7 +48,7 @@ before committing. Language QC: `tools/qc_readings.py` and `tools/qc_glosses.py`
   new words that fall back to automatic English are listed by `make app` (`app/dist/english-auto.txt`).
 
 ## Open items
-- Classify the vocabulary for the Themes tab, starting with a pilot domain. Optional: a native-speaker pass over lessons 64–100 (written 16–20 Oct 2026, not native-checked).
+- Classify the vocabulary for Themes (in Practice), starting with a pilot domain. Optional: a native-speaker pass over lessons 64–100 (written 16–20 Oct 2026, not native-checked).
 - Record lessons with a native speaker; lines she flags go to `course/audio/flags.yaml`.
 - Sync/exam token expires about 12 Nov 2026 (30-day token); see `docs/sync-and-private-module.md`.
 - The podcast feed URL is hard-coded in `tools/fetch_podcast.py` and also in the private repo's tools. Change all copies together.

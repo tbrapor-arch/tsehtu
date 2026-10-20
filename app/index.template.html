@@ -395,6 +395,7 @@ h1, .hello .big, .todaycard .lt, .wotd .wh, .item .tt, .tcard .th, .wchip b, .vt
 .lnav button:hover { color: var(--brand); border-color: var(--brand); }
 #dlg, .allnotes, h2[id] { scroll-margin-top: 3.6rem; }
 .seg { flex-wrap: wrap; }
+.pracnav { align-self: flex-start; }
 /* "Tâi-lô on tap": readings hidden until a word is tapped */
 .mode-tap ruby.tok rt { visibility: hidden; }
 .mode-tap ruby.tok.show rt { visibility: visible; }
@@ -557,6 +558,7 @@ function route() {
   if ((m = h.match(/^theme-([a-z0-9-]+)$/))) { const T = DATA.themes.find(t => t.id === m[1]); if (T) return showTheme(T); }
   if (h === 'review') return showReview();
   if (h === 'bridge') return showBridge();
+  if (h === 'drills') return showDrills();
   if (h === 'grammar') return showGrammar();
   if (h === 'podcast') return showPodcast();
   if (h === 'video') return showVideo();
@@ -582,10 +584,10 @@ function wireGo(root) { $$('[data-go]', root).forEach(b => b.onclick = () => go(
 
 function renderTabs(cur) {
   const due = dueCards().length;
-  const tabs = [['lessons', 'Lessons'], ['themes', 'Themes'], ['grammar', 'Grammar'], ['review', 'Review'], ['podcast', 'Podcast'], ...(VID.shows.length ? [['video', 'Video']] : []), ...(Exam.on ? [['exam', 'Exam']] : []), ['settings', 'Settings']];
+  const tabs = [['lessons', 'Lessons'], ['review', 'Practice'], ['podcast', 'Podcast'], ...(VID.shows.length ? [['video', 'Video']] : []), ...(Exam.on ? [['exam', 'Exam']] : []), ['settings', 'Settings']];
   $('#tabs').innerHTML = tabs.map(([k, t]) => `<button class="tab" data-tab="${k}" aria-current="${cur === k}">${ICONS[k]}<span>${t}</span>${k === 'review' && due ? `<span class="count">${due}</span>` : ''}</button>`).join('');
-  // a tab always opens that tab's start page (the Review tab leaves a running session; the Lessons tab goes to the top of the grid)
-  $$('[data-tab]', $('#tabs')).forEach(b => b.onclick = () => { const k = b.dataset.tab; if (k === 'review') { sess = null; tsess = null; } if (k === 'lessons') resetHome = true; go(k); });
+  // a tab always opens that tab's start page (the Practice tab leaves a running session and reopens its part used last; the Lessons tab goes to the top of the grid)
+  $$('[data-tab]', $('#tabs')).forEach(b => b.onclick = () => { const k = b.dataset.tab; if (k === 'review') { sess = null; tsess = null; go(store.get('pracSec', 'review')); return; } if (k === 'lessons') resetHome = true; go(k); });
 }
 
 // ---------- lessons list
@@ -857,16 +859,16 @@ function showLesson0() {
 
 // ---------- themes (thematic vocabulary)
 function showThemes() {
-  renderTabs('themes');
+  renderTabs('review');
   $('#main').innerHTML = `<div class="col">
-    <div class="head"><span class="eyebrow">Vocabulary by theme</span><h1>主題詞彙</h1><span class="rom">Tsú-tê sû-lūi · words grouped by topic, each group with a short text</span></div>
+    ${pracHead('themes', 'words grouped by topic, each group with a short text')}
     <div class="tgrid">${DATA.themes.map(t => `<button class="tcard" data-go="theme-${t.id}"><span class="th">${esc(t.title.hanji)}</span><span class="tr">${esc(t.title.tailo)}</span><span>${esc(t.title.en)}</span>
       <span class="tn">${t.sections.length} groups · ${t.sections.reduce((a, s) => a + s.words.length, 0)} words</span></button>`).join('')}</div>
   </div>`;
-  wireGo($('#main'));
+  wirePrac($('#main'));
 }
 function showTheme(T) {
-  renderTabs('themes');
+  renderTabs('review');
   $('#main').innerHTML = `<div class="col mode-${prefs.mode}">
     <div class="head"><span class="eyebrow">Theme</span><h1>${esc(T.title.hanji)}</h1><span class="rom">${esc(T.title.tailo)} · ${esc(T.title.en)}</span></div>
     <p class="sub" style="margin:0">${esc(T.intro)}</p>
@@ -883,24 +885,24 @@ function showTheme(T) {
   const m = $('#main');
   wireToolbar(() => showTheme(T)); wireTokens(m); wireReveal(m);
   $$('[data-word]', m).forEach(r => { r.onclick = () => openCard(r.dataset.word); r.onkeydown = e => { if (e.key === 'Enter') openCard(r.dataset.word); }; });
-  $$('[data-addsec]', m).forEach(b => b.onclick = () => { const n = addToDeck(T.sections[+b.dataset.addsec].words.map(w => w.id)); studied(); toast(n ? `${n} words added to review` : 'Already in your deck'); renderTabs('themes'); });
+  $$('[data-addsec]', m).forEach(b => b.onclick = () => { const n = addToDeck(T.sections[+b.dataset.addsec].words.map(w => w.id)); studied(); toast(n ? `${n} words added to review` : 'Already in your deck'); renderTabs('review'); });
 }
 
 // ---------- grammar sheets: each structure with every course line that uses it
 function showGrammar() {
-  renderTabs('grammar');
+  renderTabs('review');
   const first = it => it.refs.length ? it.refs[0][0] : null;
   $('#main').innerHTML = `<div class="col">
-    <div class="head"><span class="eyebrow">Grammar</span><h1>文法</h1><span class="rom">Bûn-huat · every structure, with all the lines of the course that use it</span></div>
+    ${pracHead('grammar', 'every structure, with all the lines of the course that use it')}
     ${DATA.grammar.map(g => `<h2>${esc(g.name)}</h2><div class="list">${g.items.map(it => `<button class="item gitem" data-go="grammar-${encodeURIComponent(it.id)}">
       <span class="no">${it.refs.length}</span><span><span class="tt">${esc(it.form)}</span> <span class="rom sub">${esc(it.tailo)}</span><br>
       <span class="ts">${esc(it.zh)}${first(it) ? ` · from ${lname(first(it)).toLowerCase()}` : ''}${first(it) && !done.has(first(it)) ? ' · not reached yet' : ''}</span></span><span class="chev">›</span></button>`).join('')}</div>`).join('')}
     <p class="sub" style="font-size:.85rem;margin:0">The number is how many lines of the course use the structure. New lessons add new examples automatically.</p>
   </div>`;
-  wireGo($('#main'));
+  wirePrac($('#main'));
 }
 function showGrammarItem(it) {
-  renderTabs('grammar');
+  renderTabs('review');
   const LB = Object.fromEntries(DATA.lessons.map(l => [l.id, l]));
   const shown = showGrammarItem.all === it.id ? it.refs : it.refs.slice(0, 25);
   $('#main').innerHTML = `<div class="col mode-${prefs.mode}">
@@ -1221,7 +1223,7 @@ document.addEventListener('keydown', e => {
   if (e.target.closest('input, textarea, select') || e.metaKey || e.ctrlKey || e.altKey) return;
   const h = location.hash.slice(1);
   const click = sel => { const b = $(sel); if (b && !b.disabled) { e.preventDefault(); b.click(); } };
-  if (h === 'review' && tsess) {           // tone practice: 1-4 pick, space / enter = next
+  if ((h === 'review' || h === 'drills') && tsess) {           // tone practice: 1-4 pick, space / enter = next
     if (/^[1-4]$/.test(e.key)) click(`.opt:nth-child(${e.key})`); else if (e.key === ' ' || e.key === 'Enter') click('#tnext');
   } else if (h === 'review' && sess) {     // review: space / enter = show answer, 1 = again, 2 = got it
     if (e.key === ' ' || e.key === 'Enter') click('#flip');
@@ -1240,7 +1242,7 @@ document.addEventListener('click', e => {
   if (!sh.classList.contains('open') || !e.target.isConnected || sh.contains(e.target) || e.target.closest('.tok, [data-note], [data-word], [data-pick], .tab')) return;
   closeSheet();
 });
-function currentTab() { const h = location.hash.slice(1) || 'lessons'; return /^(lesson|wave)/.test(h) ? 'lessons' : h.startsWith('theme') ? 'themes' : h.startsWith('grammar') ? 'grammar' : /^(podcast|ep-)/.test(h) ? 'podcast' : /^(video|vid-)/.test(h) ? 'video' : h === 'bridge' ? 'review' : h.startsWith('exam') ? 'exam' : h; }
+function currentTab() { const h = location.hash.slice(1) || 'lessons'; return /^(lesson|wave)/.test(h) ? 'lessons' : /^(theme|grammar|drills)/.test(h) ? 'review' : /^(podcast|ep-)/.test(h) ? 'podcast' : /^(video|vid-)/.test(h) ? 'video' : h === 'bridge' ? 'review' : h.startsWith('exam') ? 'exam' : h; }
 
 // ---------- review deck (Leitner boxes; saved in this browser)
 function addToDeck(ids) { let n = 0; ids.forEach(id => { if (id && DATA.dict[id] && !deck[id]) { deck[id] = { box: 0, due: Date.now(), at: Date.now() }; n++; } }); store.set('deck', deck); return n; }
@@ -1265,7 +1267,7 @@ function showReview() {
   renderTabs('review');
   if (sess) return showCard();
   if (tsess) return showTone();
-  const now = Date.now(), m = $('#main'), due = dueCards();
+  const now = Date.now(), m = $('#main');
   const segRow = s => {
     const inDeck = s.ids.filter(id => deck[id]).length, d = s.ids.filter(id => deck[id] && deck[id].due <= now).length;
     return `<div class="seg-row">
@@ -1277,24 +1279,46 @@ function showReview() {
   const groups = {};
   segments().forEach(s => (groups[s.group] = groups[s.group] || []).push(s));
   m.innerHTML = `<div class="col">
-    <div class="head"><span class="eyebrow">Review</span><h1>溫習</h1><span class="rom">Un-si̍p · by lesson or by theme</span></div>
-    <div class="card raised"><div class="stat"><b>${due.length}</b><span class="sub">cards due across everything</span></div>
-      <div class="row">${due.length ? '<button class="btn" data-study="ALL" data-mode="due">Review all due</button>' : '<span class="sub">Nothing due right now.</span>'}</div></div>
-    <button class="item" data-go="bridge"><span class="no">華</span><span><span class="tt">華台橋 Mandarin bridge</span><br><span class="ts">Guess the Taigi reading of a Mandarin character (trial)</span></span><span class="chev">›</span></button>
-    <div class="card"><span class="eyebrow">Tone changes · 變調</span>
-      <span>Words are written with their dictionary tones but said with changed tones before another syllable. Pick how each word is really said.</span>
-      <div class="row"><button class="btn small" id="tones">Practise 10 words</button><span class="sub" style="font-size:.85rem">${DATA.tones.filter(t => done.has(t.l)).length} words from your finished lessons · ${DATA.tones.length} in all</span></div></div>
+    ${pracHead('review', 'word cards, by lesson or by theme')}
     ${Object.entries(groups).map(([g, list]) => `<h2>${esc(g)}</h2><div class="segs">${list.map(segRow).join('')}</div>`).join('')}
     <p class="sub" style="font-size:.85rem;margin:0">Cards show the word inside a sentence from its lesson or theme when there is one. They come back after 1, 3, 7, 16 and 35 days.</p>
   </div>`;
-  $$('[data-study]', m).forEach(b => b.onclick = () => startSession(b.dataset.study, b.dataset.mode));
+  wirePrac(m);
+}
+// Practice tab (溫習): word cards, themes, grammar and drills share one tab; a switch under the due count picks the part,
+// and the tab reopens the part used last
+const PRAC = [['review', 'Cards'], ['themes', 'Themes'], ['grammar', 'Grammar'], ['drills', 'Drills']];
+function pracHead(sec, what) {
+  store.set('pracSec', sec);
+  const due = dueCards();
+  return `<div class="head"><span class="eyebrow">Practice</span><h1>溫習</h1><span class="rom">Un-si̍p · ${what}</span></div>
+    <div class="card raised"><div class="stat"><b>${due.length}</b><span class="sub">cards due across everything</span></div>
+      <div class="row">${due.length ? '<button class="btn" data-study="ALL" data-mode="due">Review all due</button>' : '<span class="sub">Nothing due right now.</span>'}</div></div>
+    <div class="seg pracnav" role="group" aria-label="Practice">${PRAC.map(([k, t]) => `<button data-go="${k}" aria-pressed="${k === sec}">${t}</button>`).join('')}</div>`;
+}
+function wirePrac(m) {
+  // a card session always runs on #review (its keys and the tab badge expect it)
+  $$('[data-study]', m).forEach(b => b.onclick = () => { startSession(b.dataset.study, b.dataset.mode); if (sess && location.hash !== '#review') location.hash = 'review'; });
   wireGo(m);
+}
+function showDrills() {
+  renderTabs('review');
+  if (tsess) return showTone();
+  const m = $('#main');
+  m.innerHTML = `<div class="col">
+    ${pracHead('drills', 'tone changes and the Mandarin bridge')}
+    <div class="card"><span class="eyebrow">Tone changes · 變調</span>
+      <span>Words are written with their dictionary tones but said with changed tones before another syllable. Pick how each word is really said.</span>
+      <div class="row"><button class="btn small" id="tones">Practise 10 words</button><span class="sub" style="font-size:.85rem">${DATA.tones.filter(t => done.has(t.l)).length} words from your finished lessons · ${DATA.tones.length} in all</span></div></div>
+    <button class="item" data-go="bridge"><span class="no">華</span><span><span class="tt">華台橋 Mandarin bridge</span><br><span class="ts">Guess the Taigi reading of a Mandarin character (trial)</span></span><span class="chev">›</span></button>
+  </div>`;
+  wirePrac(m);
   $('#tones', m).onclick = () => {
     // words from finished lessons first; if fewer than 10, top up from the rest
     const mine = DATA.tones.filter(t => done.has(t.l)).sort(() => Math.random() - .5);
     const rest = DATA.tones.filter(t => !done.has(t.l)).sort((a, b) => a.l - b.l || Math.random() - .5);
     tsess = { items: [...mine, ...rest].slice(0, 10), i: 0, picked: null, right: 0 };
-    showReview();
+    showDrills();
   };
 }
 function showTone() {
@@ -1304,8 +1328,8 @@ function showTone() {
       <div class="card raised"><div class="stat"><b>${tsess.right}/${tsess.items.length}</b><span class="sub">right</span></div>
         <span class="sub">The rule in one line: inside a phrase every syllable but the last changes tone: 1→7, 7→3, 3→2, 2→1, 5→7 (5→3 in the south); -p -t -k: 4→8, 8→3; -h: drops, 4→2, 8→3.</span></div>
       <div class="row"><button class="btn" id="again10">10 more</button><button class="btn line" id="back">Back to review</button></div></div>`;
-    $('#back').onclick = () => { tsess = null; showReview(); };
-    $('#again10').onclick = () => { tsess = null; showReview(); $('#tones').click(); };
+    $('#back').onclick = () => { tsess = null; showDrills(); };
+    $('#again10').onclick = () => { tsess = null; showDrills(); $('#tones').click(); };
     return;
   }
   const it = tsess.items[tsess.i], answered = tsess.picked !== null, ok = tsess.picked === it.s;
@@ -1325,7 +1349,7 @@ function showTone() {
     <div class="row"><button class="btn small quiet" id="tquit">Stop</button></div></div>`;
   $$('[data-topt]', m).forEach(b => b.onclick = () => { tsess.picked = b.dataset.topt; if (tsess.picked === it.s) tsess.right++; studied(); showTone(); });
   if (answered) $('#tnext').onclick = () => { tsess.i++; tsess.picked = null; showTone(); };
-  $('#tquit').onclick = () => { tsess = null; showReview(); };
+  $('#tquit').onclick = () => { tsess = null; showDrills(); };
 }
 function startSession(key, mode) {
   const now = Date.now();

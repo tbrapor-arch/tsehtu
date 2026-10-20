@@ -1,6 +1,6 @@
-# Themes tab: thematic vocabulary dictionary (design, not yet implemented)
+# Themes (Practice tab): thematic vocabulary dictionary (design, not yet implemented)
 
-Goal: every word of the vocabulary database can be found by subject in the Themes tab. This is separate from the
+Goal: every word of the vocabulary database can be found by subject in Themes (Practice tab). This is separate from the
 course progression (which situations the lessons cover).
 
 ## Current state
