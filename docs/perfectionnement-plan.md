@@ -1,7 +1,7 @@
 # Part 2: 進修 Tsìn-siu (Perfectionnement), spec and handover
 
-State on 20 Oct 2026: the app section is built and P1 is written (`course/perfectionnement/01.yaml`).
-Branch `perfectionnement`, not merged into `main`: a push to `main` deploys the site.
+State on 20 Oct 2026: the app section is built and P1 is written and published (`course/perfectionnement/01.yaml`).
+Next: P2–P7 (P7 = review).
 
 ## What was decided with the user
 - **Spirit:** an Assimil *Perfectionnement* volume. It is used only for ideas and counts; nothing from the
@@ -18,6 +18,7 @@ Branch `perfectionnement`, not merged into `main`: a push to `main` deploys the 
 - **Length:** up to the longest lessons of the reference volume. Its longest lessons have about 26 numbered
   sentences, many of them long, so aim for **20–30 lines**.
   - New words: about 30–40 per lesson; reviews have none.
+- **Exercises:** as in the reference volume, two exercises of **5 items each** (translate ×5, fill the gap ×5).
 - **Control rules:** the user allows relaxing them when that improves the lessons. It must never cost quality.
   - Still mandatory: 0 lint errors, `make test`, real MOE Hàn-jī and readings, `source: moe` only for exact MOE examples.
 
@@ -44,11 +45,15 @@ P1 was written the other way, theme first; its words were checked afterwards. Fr
   - P1 had two duplicates, 𤆬 (lesson 12) and 熱情 (lesson 92); both are fixed.
 - "(lesson N)" references in notes must point to the lesson that declares the word.
   - Check with a short script over all `new_words`. The scratch scripts from the 20 Oct session are not in the repo.
+- Language QC (cheap, run on every batch): `python3 -I tools/qc_readings.py FILES` flags character/syllable pairs
+  MOE never attests; `python3 -I tools/qc_glosses.py FILES` lists glosses that don't match MOE meanings, to read by eye.
+  Also read the Hàn-jī of each dialogue once, looking for Mandarin calques (早安, 彼平 for 彼爿…).
 - `python3.12 -I tools/build_app.py`. Then take a phone-size Playwright screenshot of the part-2 home (`#part2`) and of the new lessons (`#lesson-10N`).
   - Click every token: P1 has 375 tokens, all with a card.
 - `tools/smoke.py` loops over every lesson, P lessons included, and is slow. Run it once in the background before merging.
 
-## Waiting for the user's answers
-- Exercises: keep two, or add a third (e.g. register: "say it politely")?
-- Publish: merge into `main` now, or after the first batch of 7?
-- Update `design-decisions.md` and `PROJECT_NOTES.md` once the format is confirmed.
+## Status of decisions
+- Exercises: 5 + 5 (decided 20 Oct 2026). Publishing: P1 published with the part-2 section on 20 Oct 2026.
+- To do: describe part 2 in `design-decisions.md`.
+- Language QC pass on 20 Oct 2026 (all 100 lessons + P1): 6 lessons fixed (54, 67, 68, 73, 85, 93); no other
+  unattested readings, no Mandarin function words, no inconsistent readings across lessons.

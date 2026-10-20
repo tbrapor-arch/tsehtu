@@ -6,8 +6,7 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 ## Status
 - **Lessons:** all 100 written (`course/lessons/`), following `course/syllabus.yaml`. Lesson 0 is
   `000-reading-tailo.md`. Review lessons: 7, 14, …, 98.
-- **Part 2, 進修 Perfectionnement** (in progress, branch `perfectionnement`): 70 longer lessons in varied genres, P1
-  written. Spec, method and handover: `docs/perfectionnement-plan.md`.
+- **Part 2, 進修 Perfectionnement** (in progress): 70 longer lessons in varied genres, P1 published. Spec, method and handover: `docs/perfectionnement-plan.md`.
 - **Themes:** one (`health`). The Themes tab is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
 - **Coverage** (after lesson 100): top 100: 100 %, top 300: 97 %, top 1,000: 88 % (72 % after 63). The plan's 95 % target for the top 1,000 was not reached. Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
@@ -34,7 +33,7 @@ lesson, no single-lesson option, slow): run it in the background after app/templ
 Workflow that keeps cost down: plan a batch of lessons together, verify all candidate words with
 `tools/lookup.py` in one pass, then draft dialogue only from verified words. Cross-references such as
 "(lesson 40)" in notes must point to the lesson that declares the word in `new_words`; check them with a script
-before committing (lessons 64–76 had many guessed numbers, fixed on 20 Oct 2026).
+before committing. Language QC: `tools/qc_readings.py` and `tools/qc_glosses.py` (see `docs/perfectionnement-plan.md`) (lessons 64–76 had many guessed numbers, fixed on 20 Oct 2026).
 
 ## Decisions (why)
 - Mandarin B2 learner: same-character words are taught as pronunciation; time goes to false friends and Taigi-only words.
