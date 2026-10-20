@@ -205,8 +205,10 @@ def ext_font_css(text):
 
 # ---- lessons
 lesson_files = sorted(glob.glob(os.path.join(ROOT, 'course/lessons/[0-9]*.yaml')))
+# Part 2 (進修, Perfectionnement): course/perfectionnement/NN.yaml with id N, stored in the app as 100 + N
+perf_files = sorted(glob.glob(os.path.join(ROOT, 'course/perfectionnement/[0-9]*.yaml')))
 theme_files = sorted(glob.glob(os.path.join(ROOT, 'course/themes/*.yaml')))
-for f in lesson_files:
+for f in lesson_files + perf_files:
     for w in yaml.safe_load(open(f, encoding='utf-8')).get('new_words', []) or []:
         if w.get('en'):
             glosses[key(w['tailo'])] = w['en']
@@ -216,18 +218,20 @@ for f in theme_files:
             glosses.setdefault(key(w['tailo']), w.get('en'))
 
 lessons = []
-for f in lesson_files:
+for f in lesson_files + perf_files:
     d = yaml.safe_load(open(f, encoding='utf-8'))
+    if f in perf_files:
+        d['id'] = 100 + d['id']
     lines = []
     for ln in d['dialogue']:
-        lines.append({'n': ln['n'], 'speaker': ln['speaker'], 'en': ln['en'], 'zh': ln.get('zh'),
+        lines.append({'n': ln['n'], 'speaker': ln.get('speaker') or '', 'en': ln['en'], 'zh': ln.get('zh'),
                       'tailo': ln['tailo'], 'hanji': ln['hanji'],
                       'spoken': sandhi(ln.get('groups') or ln['tailo'], 'phrase')[0],
                       'tokens': tokenize(ln['hanji'], ln['tailo'], ln.get('groups'))})
     new_words = [{'tailo': w['tailo'], 'hanji': w['hanji'], 'en': w.get('en'), 'id': lookup(w['hanji'], key(w['tailo']))}
                  for w in d.get('new_words') or []]
     ex = [dict(it, kind=kind) for kind, items in (d.get('exercises') or {}).items() for it in items or []]
-    lessons.append({'id': d['id'], 'title': d['title'], 'review': d.get('review', False),
+    lessons.append({'id': d['id'], 'title': d['title'], 'review': d.get('review', False), 'genre': d.get('genre', 'dialogue'),
                     'setting': d.get('setting', ''), 'lines': lines, 'notes': d.get('notes') or [],
                     'new_words': new_words, 'exercises': ex})
 

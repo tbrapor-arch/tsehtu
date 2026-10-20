@@ -198,7 +198,7 @@ def lint_theme(path, keys, pairs, moe_ex):
 
 
 def main():
-    files = sys.argv[1:] or (sorted(glob.glob(os.path.join(ROOT, 'course/lessons/[0-9]*.yaml')))
+    files = sys.argv[1:] or ((sorted(glob.glob(os.path.join(ROOT, 'course/lessons/[0-9]*.yaml'))) + sorted(glob.glob(os.path.join(ROOT, 'course/perfectionnement/[0-9]*.yaml'))))
                              + sorted(glob.glob(os.path.join(ROOT, 'course/themes/*.yaml'))))
     keys, pairs, moe_ex = load_db()
     errors = 0

@@ -1,0 +1,85 @@
+id: 1
+title: {en: "Famous up north, famous down south", tailo: "Tíng-káng ū miâ-siann, ē-káng siōng tshut-miâ", hanji: "頂港有名聲，下港上出名"}
+genre: dialogue
+review: false
+setting: "Lunch break at Sam's office in Taipei, after New Year. A-ióng, who grew up in Taipei, likes to tease; A-tshun is from Chiayi."
+dialogue:
+  - {n: 1, speaker: A-ióng, hanji: "Sam，過年轉去下港，敢有予阿媽飼甲肥朒朒才轉來？", tailo: "Sam, kuè-nî tńg-khì ē-káng, kám ū hōo a-má tshī kah puî-tsut-tsut tsiah tńg--lâi?", en: "Sam, you went down south for New Year: did A-má fatten you up before she let you come back?"}
+  - {n: 2, speaker: Sam, hanji: "肥是有較肥淡薄仔，毋過我嘛學著一大堆新的話。下港人講話，實在有夠心適。", tailo: "Puî sī ū khah puî tām-po̍h-á, m̄-koh guá mā o̍h-tio̍h tsi̍t-tuā-tui sin ê uē. Ē-káng lâng kóng-uē, si̍t-tsāi ū-kàu sim-sik.", en: "I did put on a bit of weight, but I also learned a whole lot of new words. The way people talk down south is such fun."}
+  - {n: 3, speaker: A-ióng, hanji: "心適？我看是濫糝。阮頂港人講話較有規矩，袂凊彩烏白講。", tailo: "Sim-sik? Guá khuànn sī lām-sám. Gún tíng-káng lâng kóng-uē khah ū kui-kí, bē tshìn-tshái oo-pe̍h kóng.", en: "Fun? Sloppy, I'd say. We northerners speak properly; we don't just say any old thing."}
+  - {n: 4, speaker: A-tshun, hanji: "阿勇，你莫佇遐膨風。你這个臺北囡仔，講「阮」煞講做「gún」，閣敢講人凊彩？", tailo: "A-ióng, lí mài tī hia phòng-hong. Lí tsit ê Tâi-pak gín-á, kóng “guán” suah kóng tsò “gún”, koh kánn kóng lâng tshìn-tshái?", en: "A-ióng, stop showing off. You Taipei kid say 'gún' instead of 'guán', and you dare call other people sloppy?"}
+  - {n: 5, speaker: A-ióng, hanji: "「gún」才是正港的！阿春姊，你是嘉義人，當然徛佇下港彼爿。", tailo: "“Gún” tsiah sī tsiànn-káng--ê! A-tshun-tsí, lí sī Ka-gī lâng, tong-jiân khiā tī ē-káng hit pîng.", en: "'Gún' is the real thing! A-tshun, you're from Chiayi, so of course you're on the south's side."}
+  - {n: 6, speaker: Sam, hanji: "恁兩个莫冤家。阮阿公講，兩種講法平平是台語，無啥物較標準的。", tailo: "Lín nn̄g ê mài uan-ke. Guán a-kong kóng, nn̄g tsióng kóng-huat pênn-pênn sī Tâi-gí, bô siánn-mih khah piau-tsún--ê.", en: "Stop squabbling, you two. My grandpa says both ways of saying it are just as much Taigi; neither is more correct."}
+  - {n: 7, speaker: A-tshun, hanji: "著。親像「雞」，臺南人講「ke」，臺北較濟人講「kue」。你若佇菜市仔講毋著，頭家嘛是照常賣你。", tailo: "Tio̍h. Tshin-tshiūnn “ke”, Tâi-lâm lâng kóng “ke”, Tâi-pak khah tsē lâng kóng “kue”. Lí nā tī tshài-tshī-á kóng m̄-tio̍h, thâu-ke mā sī tsiàu-siông bē--lí.", en: "Right. Take 'chicken': people in Tainan say 'ke', more people in Taipei say 'kue'. Say it 'wrong' at the market and the stallholder will sell to you all the same."}
+  - {n: 8, speaker: A-ióng, hanji: "好啦好啦，講話我輸恁。毋過下港人敢毋是較好客、較愛交陪？", tailo: "Hó--lah hó--lah, kóng-uē guá su--lín. M̄-koh ē-káng lâng kám m̄ sī khah hònn-kheh, khah ài kau-puê?", en: "All right, all right, you win on the talking. But aren't southerners more hospitable, keener on making friends?"}
+  - {n: 9, speaker: Sam, hanji: "有影。佇臺南，你若佇路邊停落來問路，阿伯會規氣𤆬你去，順紲請你啉一杯茶。", tailo: "Ū-iánn. Tī Tâi-lâm, lí nā tī lōo-pinn thîng--lo̍h-lâi mn̄g lōo, a-peh ē kui-khì tshuā lí khì, sūn-suà tshiánn lí lim tsi̍t pue tê.", en: "That's true. In Tainan, if you stop by the road to ask the way, some old man will simply take you there himself, and offer you a cup of tea while he's at it."}
+  - {n: 10, speaker: A-tshun, hanji: "阮遐的人錢趁較少，毋過朋友交陪較深。", tailo: "Guán hia ê lâng tsînn thàn khah tsió, m̄-koh pîng-iú kau-puê khah tshim.", en: "People back home earn less, but their friendships run deeper."}
+  - {n: 11, speaker: A-ióng, hanji: "錢趁較少，物價嘛較俗啊。佇臺北食一碗滷肉飯的錢，佇下港會使食兩碗。", tailo: "Tsînn thàn khah tsió, bu̍t-kè mā khah sio̍k--ah. Tī Tâi-pak tsia̍h tsi̍t uánn lóo-bah-pn̄g ê tsînn, tī ē-káng ē-sái tsia̍h nn̄g uánn.", en: "They earn less, but things are cheaper too. What a bowl of braised pork rice costs in Taipei buys you two bowls down south."}
+  - {n: 12, speaker: Sam, hanji: "毋過我轉來臺北了後，感覺誠稀微。厝邊攏毋捌，透早出門、暗時轉來，規工無人通開講。", tailo: "M̄-koh guá tńg--lâi Tâi-pak liáu-āu, kám-kak tsiânn hi-bî. Tshù-pinn lóng m̄-bat, thàu-tsá tshut-mn̂g, àm-sî tńg--lâi, kui-kang bô lâng thang khai-káng.", en: "But since I came back to Taipei I've felt rather lonely. I don't know any of the neighbours; I leave early, come back late, and there's nobody to chat to all day."}
+  - {n: 13, speaker: A-tshun, hanji: "慢且，你毋是有阮兩个？阿勇雖然喙較歹，其實心肝真軟。", tailo: "Bān-tshiánn, lí m̄ sī ū guán nn̄g ê? A-ióng sui-jiân tshuì khah pháinn, kî-si̍t sim-kuann tsin nńg.", en: "Hang on, haven't you got the two of us? A-ióng may have a sharp tongue, but he's soft-hearted really."}
+  - {n: 14, speaker: A-ióng, hanji: "啥人喙歹？我是講實話。毋過……拜六若有閒，咱相招去北投洗溫泉，按怎？", tailo: "Siánn-lâng tshuì pháinn? Guá sī kóng si̍t-uē. M̄-koh…… pài-la̍k nā ū-îng, lán sio-tsio khì Pak-tâu sé un-tsuânn, án-tsuánn?", en: "Who's got a sharp tongue? I just tell the truth. But… if you're free on Saturday, how about we all go to the hot springs in Beitou?"}
+  - {n: 15, speaker: Sam, hanji: "好啊！我毋捌去過北投。遐的溫泉敢真燒？", tailo: "Hó--ah! Guá m̄-bat khì-kuè Pak-tâu. Hia ê un-tsuânn kám tsin sio?", en: "Great! I've never been to Beitou. Are the hot springs really hot?"}
+  - {n: 16, speaker: A-ióng, hanji: "燒甲你會喝救人。臺北毋是干焦有捷運佮大樓，嘛有真濟好所在，你沓沓仔就會知。", tailo: "Sio kah lí ē huah kiù-lâng. Tâi-pak m̄ sī kan-na ū tsia̍t-ūn kah tuā-lâu, mā ū tsin tsē hó sóo-tsāi, lí ta̍uh-ta̍uh-á tō ē tsai.", en: "Hot enough to make you yell for help. Taipei isn't just the MRT and tower blocks; there are lots of lovely places, you'll find out bit by bit."}
+  - {n: 17, speaker: A-tshun, hanji: "你看，頂港人嘛真熱情，干焦是較愛面子，袂直接講。", tailo: "Lí khuànn, tíng-káng lâng mā tsin jia̍t-tsîng, kan-na sī khah ài bīn-tsú, bē ti̍t-tsiap kóng.", en: "You see, northerners are warm-hearted too; they're just prouder about it and won't say so directly."}
+  - {n: 18, speaker: Sam, hanji: "按呢我上好命：頂港有朋友，下港有阿公阿媽。", tailo: "Án-ne guá siōng hó-miā: tíng-káng ū pîng-iú, ē-káng ū a-kong a-má.", en: "Then I'm the luckiest of all: friends in the north, grandparents in the south."}
+  - {n: 19, speaker: A-ióng, hanji: "頂港有名聲，下港上出名。", tailo: "Tíng-káng ū miâ-siann, ē-káng siōng tshut-miâ.", en: "Well known up north, best known down south.", source: moe}
+  - {n: 20, speaker: A-tshun, hanji: "這句話是講一个人抑是一項物件規个臺灣攏出名。阿勇是咧呵咾你啦。", tailo: "Tsit kù uē sī kóng tsi̍t ê lâng ia̍h-sī tsi̍t hāng mi̍h-kiānn kui ê Tâi-uân lóng tshut-miâ. A-ióng sī teh o-ló--lí--lah.", en: "That saying means someone or something is famous all over Taiwan. A-ióng is paying you a compliment, you know."}
+  - {n: 21, speaker: Sam, hanji: "好，我欲做一个頂港有名聲、下港上出名的台語學生！", tailo: "Hó, guá beh tsò tsi̍t ê tíng-káng ū miâ-siann, ē-káng siōng tshut-miâ ê Tâi-gí ha̍k-sing!", en: "Right: I'm going to be a Taigi student famous up north and down south!"}
+notes:
+  - {ref: 1, topic: vocab, text: "下港 ē-káng = 'the lower ports', the south of Taiwan; 頂港 tíng-káng (line 3) = the north. Both are seen from the old sea routes along the west coast. 飼甲肥朒朒 tshī kah puî-tsut-tsut 'feed until plump': 肥 puî = fat, plump; the tail 朒朒 makes it vivid and affectionate."}
+  - {ref: 2, topic: grammar, text: "Concession: X 是有 X，毋過 … = 'X, yes, (a little), but …': 肥是有較肥，毋過… 'I did get fatter, but …'. The adjective is repeated around 是有. 一大堆 tsi̍t-tuā-tui = a whole pile, loads of. 心適 sim-sik = fun, enjoyable, Taigi-only (also 'pleased': 你去𨑨迌有心適無?)."}
+  - {ref: 3, topic: vocab, text: "濫糝 lām-sám = sloppy, slapdash, any old how. 凊彩 tshìn-tshái = careless, casual; also 'any' (凊彩一間 'any one at all') and 'easy-going' (伊真凊彩 'he's not fussy'). 烏白講 oo-pe̍h kóng = talk nonsense, say any old thing."}
+  - {ref: 3, topic: pronunciation, text: "阮 'we, us': guán in the south, gún in the north (the app's Settings › Around Taiwan table shows the spread). A-ióng, from Taipei, says gún; A-tshun mocks it in line 4. This course spells guán."}
+  - {ref: 4, topic: vocab, text: "膨風 phòng-hong = brag, show off; literally 'swell with wind' (腹肚膨風 is a bloated stomach). A coarser synonym, 嘐潲 hau-siâu, is very common among friends but rude in polite company: understand it, don't use it with elders."}
+  - {ref: 5, topic: vocab, text: "正港 tsiànn-káng = genuine, the real thing (正宗): 正港的台灣味 'the real Taiwanese flavour'. 徛佇…彼爿 khiā tī … hit pîng = take someone's side ('stand on that side')."}
+  - {ref: 6, topic: grammar, text: "平平 pênn-pênn = equally, just as much (同樣是): 平平是台語 'it's Taigi either way'; 平平是人 'we're all human'. Do not confuse with 平 pênn 'flat' (lesson 94). 講法 kóng-huat = way of saying something."}
+  - {ref: 7, topic: pronunciation, text: "雞 'chicken' is ke in Tainan and kue in much of Taipei (and in Lukang): the same e / ue split runs through 火, 鞋, 糜. 照常 tsiàu-siông = as usual, all the same."}
+  - {ref: 8, topic: vocab, text: "好客 hònn-kheh = hospitable: 好 is read hònn here, the literary 'like, be fond of' reading (as in 好學), not hó 'good'. 交陪 kau-puê = make friends, keep up social ties; also 'friendship' (line 10: 交陪較深)."}
+  - {ref: 9, topic: grammar, text: "規氣 kui-khì = simply, might as well, without further ado (乾脆): 規氣𤆬你去 'he'll simply take you there'. 𤆬 tshuā = take (someone) somewhere (lesson 12). 順紲 sūn-suà = while he's at it (lesson 66)."}
+  - {ref: 10, topic: vocab, text: "趁錢 thàn-tsînn 'earn money' split around its object: 錢趁較少 'earn less money' (the object comes first for contrast). 深 tshim = deep."}
+  - {ref: 12, topic: vocab, text: "稀微 hi-bî = lonely, desolate, a melancholy word often heard in songs (稀微的港邊); 寂寞 (lesson 92) and 孤單 (lesson 83) are its neighbours. 厝邊攏毋捌 'I don't know any of the neighbours': 捌 bat = know (a person)."}
+  - {ref: 13, topic: grammar, text: "慢且 bān-tshiánn = hang on, wait a moment (且慢), used to interrupt. 喙歹 tshuì pháinn 'bad mouth' = sharp-tongued; 心肝軟 sim-kuann nńg 'soft heart' = kind."}
+  - {ref: 14, topic: culture, text: "北投 Pak-tâu (Beitou), at the north end of Taipei, is known for its hot springs (溫泉 un-tsuânn): 洗溫泉 'bathe in a hot spring'. 相招 sio-tsio = invite each other, arrange to go together: 咱相招去… 'let's all go to …'. 實話 si̍t-uē = the truth."}
+  - {ref: 16, topic: grammar, text: "沓沓仔 ta̍uh-ta̍uh-á = little by little, gradually (慢慢地), a softer synonym of 慢慢仔. 燒甲你會喝救人 'so hot you'll shout for help': V/adj 甲 + a whole clause. 大樓 tuā-lâu = tower block."}
+  - {ref: 17, topic: vocab, text: "面子 bīn-tsú = face, pride: 愛面子 'care about face'. 直接 ti̍t-tsiap = directly."}
+  - {ref: 19, topic: culture, text: "頂港有名聲，下港上出名 'known in the north, most famous in the south': said of someone or something famous throughout Taiwan. Quoted from the MOE dictionary. 名聲 miâ-siann = reputation; 出名 tshut-miâ = famous."}
+  - {ref: 20, topic: vocab, text: "呵咾 o-ló = praise, compliment (lesson 38)."}
+new_words:
+  - {tailo: ē-káng, hanji: 下港, en: "the south (of Taiwan)"}
+  - {tailo: tíng-káng, hanji: 頂港, en: "the north (of Taiwan)"}
+  - {tailo: puî, hanji: 肥, en: "fat, plump"}
+  - {tailo: puî-tsut-tsut, hanji: 肥朒朒, en: "nice and plump"}
+  - {tailo: tsi̍t-tuā-tui, hanji: 一大堆, en: "a whole pile, loads"}
+  - {tailo: sim-sik, hanji: 心適, en: "fun, enjoyable"}
+  - {tailo: lām-sám, hanji: 濫糝, en: "sloppy, slapdash"}
+  - {tailo: tshìn-tshái, hanji: 凊彩, en: "careless; any; easy-going"}
+  - {tailo: phòng-hong, hanji: 膨風, en: "brag, show off"}
+  - {tailo: tsiànn-káng, hanji: 正港, en: "genuine, the real thing"}
+  - {tailo: pênn-pênn, hanji: 平平, en: "equally, just as much"}
+  - {tailo: tsiàu-siông, hanji: 照常, en: "as usual"}
+  - {tailo: hònn-kheh, hanji: 好客, en: "hospitable"}
+  - {tailo: kau-puê, hanji: 交陪, en: "make friends; friendship"}
+  - {tailo: kui-khì, hanji: 規氣, en: "simply, might as well"}
+  - {tailo: tshim, hanji: 深, en: "deep"}
+  - {tailo: hi-bî, hanji: 稀微, en: "lonely, desolate"}
+  - {tailo: bān-tshiánn, hanji: 慢且, en: "hang on, wait a moment"}
+  - {tailo: nńg, hanji: 軟, en: "soft"}
+  - {tailo: si̍t-uē, hanji: 實話, en: "the truth"}
+  - {tailo: sio-tsio, hanji: 相招, en: "go together, invite each other"}
+  - {tailo: Pak-tâu, hanji: 北投, en: "Beitou"}
+  - {tailo: un-tsuânn, hanji: 溫泉, en: "hot spring"}
+  - {tailo: tuā-lâu, hanji: 大樓, en: "tower block"}
+  - {tailo: ta̍uh-ta̍uh-á, hanji: 沓沓仔, en: "little by little"}
+  - {tailo: bīn-tsú, hanji: 面子, en: "face, pride"}
+  - {tailo: ti̍t-tsiap, hanji: 直接, en: "directly"}
+  - {tailo: miâ-siann, hanji: 名聲, en: "reputation"}
+  - {tailo: tshut-miâ, hanji: 出名, en: "famous"}
+exercises:
+  translate:
+    - {tailo: "Nn̄g tsióng kóng-huat pênn-pênn sī Tâi-gí.", hanji: "兩種講法平平是台語。", en: "Both ways of saying it are just as much Taigi."}
+    - {tailo: "A-peh ē kui-khì tshuā lí khì.", hanji: "阿伯會規氣𤆬你去。", en: "The old man will simply take you there himself."}
+    - {tailo: "Pài-la̍k nā ū-îng, lán sio-tsio khì Pak-tâu sé un-tsuânn.", hanji: "拜六若有閒，咱相招去北投洗溫泉。", en: "If you're free on Saturday, let's all go to the hot springs in Beitou."}
+  fill:
+    - {tailo: "Lí mài tī hia ___.", hanji: "你莫佇遐___。", answer: "phòng-hong", answer_hanji: "膨風", en: "Stop showing off."}
+    - {tailo: "Guá tńg--lâi Tâi-pak liáu-āu, kám-kak tsiânn ___.", hanji: "我轉來臺北了後，感覺誠___。", answer: "hi-bî", answer_hanji: "稀微", en: "Since I came back to Taipei I've felt rather lonely."}
+audio: []

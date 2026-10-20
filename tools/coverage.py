@@ -17,7 +17,7 @@ ROOT = os.path.dirname(HERE)
 con = sqlite3.connect(os.path.join(ROOT, 'data/build/taigi.db'))
 
 seen = set()
-files = sorted(glob.glob(os.path.join(ROOT, 'course/lessons/[0-9]*.yaml'))) + \
+files = (sorted(glob.glob(os.path.join(ROOT, 'course/lessons/[0-9]*.yaml'))) + sorted(glob.glob(os.path.join(ROOT, 'course/perfectionnement/[0-9]*.yaml')))) + \
     sorted(glob.glob(os.path.join(ROOT, 'course/themes/*.yaml')))
 for f in files:
     d = yaml.safe_load(open(f, encoding='utf-8'))
