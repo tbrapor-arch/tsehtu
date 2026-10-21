@@ -6,7 +6,7 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 ## Status
 - **Lessons:** all 100 written (`course/lessons/`), following `course/syllabus.yaml`. Lesson 0 is
   `000-reading-tailo.md`. Review lessons: 7, 14, …, 98.
-- **Part 2, 進修 Perfectionnement** (in progress): 70 longer lessons in varied genres, P1–P7 published. Spec, method and handover: `docs/perfectionnement-plan.md`.
+- **Part 2, 進修 Perfectionnement** (in progress): 70 longer lessons in varied genres, P1–P7 published, P8–P14 written (branch `perfectionnement-p8-p14`). Spec, method and handover: `docs/perfectionnement-plan.md`.
 - **Themes:** four domains done: `health` (Body and health, 212 words), `food` (128), `home` (160), `clothing` (49); draft domain for every core word in `docs/themes-classification-draft.tsv`. The Themes part of Practice is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
 - **Coverage** (after lesson 100): top 100: 100 %, top 300: 97 %, top 1,000: 88 % (72 % after 63). The plan's 95 % target for the top 1,000 was not reached. Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
@@ -53,5 +53,5 @@ before committing. Language QC: `tools/qc_readings.py` and `tools/qc_glosses.py`
 - Record lessons with a native speaker; lines she flags go to `course/audio/flags.yaml`.
 - Sync/exam token expires about 12 Nov 2026 (30-day token); see `docs/sync-and-private-module.md`.
 - The podcast feed URL is hard-coded in `tools/fetch_podcast.py` and also in the private repo's tools. Change all copies together.
-- Not run since the wave/phase change: `tools/smoke.py` (lint, sandhi tests and `make app` were, after every batch up to lesson 100).
+- `tools/smoke.py` times out at `#tones` since the Practice tab merge (20 Oct); lesson checks still run first. Not run since the wave/phase change: `tools/smoke.py` (lint, sandhi tests and `make app` were, after every batch up to lesson 100).
 - Story 64–100: Sam stays several months in Tainan (51 said 'a few weeks'; 90 acknowledges it ran long), A-hun moves to Taipei (82–84), Sam returns to Taipei (90–92), colleague A-tshun (92–98), A-bîng's engagement (99), New Year's Eve reunion in Tainan (100). The A-kong/A-hun family surname is 林 Lîm (lessons 52, 98).

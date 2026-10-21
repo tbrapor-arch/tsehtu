@@ -1,0 +1,98 @@
+id: 13
+title: {en: "The last bus", tailo: "Siōng-bué tsi̍t pan tshia", hanji: "上尾一班車"}
+genre: story
+review: false
+setting: "A ghost story written for this course. An old bus driver in the hills outside Tainan tells what happened to him one night, many years ago."
+dialogue:
+  - {n: 1, hanji: "我駛公車駛二十冬矣，逐暗攏駛上尾一班車，對市內駛去山頂的庄頭。", tailo: "Guá sái kong-tshia sái jī-tsa̍p tang--ah, ta̍k-àm lóng sái siōng-bué tsi̍t pan tshia, uì tshī-lāi sái khì suann-tíng ê tsng-thâu.", en: "I've been driving buses for twenty years, and every night I drive the last one, from town up to the villages in the hills."}
+  - {n: 2, hanji: "彼條山路彎來彎去，半路有一站，就佇墓仔埔邊仔。", tailo: "Hit tiâu suann-lōo uan-lâi-uan-khì, puànn-lōo ū tsi̍t tsām, tō tī bōng-á-poo pinn--á.", en: "The mountain road twists and turns, and halfway along there's a stop right next to the cemetery."}
+  - {n: 3, hanji: "暗時坐車的人無濟，到彼站的時，車頂定定干焦賰我一个。", tailo: "Àm-sî tsē tshia ê lâng bô tsē; kàu hit tsām ê sî, tshia-tíng tiānn-tiānn kan-na tshun guá tsi̍t ê.", en: "Few people take the bus at night; by the time I reach that stop there's often nobody left on board but me."}
+  - {n: 4, hanji: "有一暗，七月十五，天氣真歹，", tailo: "Ū tsi̍t àm, tshit--gue̍h tsa̍p-gōo, thinn-khì tsin pháinn,", en: "One night, on the fifteenth of the seventh month, the weather was terrible:"}
+  - {n: 5, hanji: "雷公爍爁直直來。", tailo: "Luî-kong sih-nah ti̍t-ti̍t lâi.", en: "thunder and lightning, one after another.", source: moe}
+  - {n: 6, hanji: "霧閣真厚，我開甲真慢。到墓仔埔彼站，我看著一个人影徛佇路邊，對我擛手。", tailo: "Bū koh tsin kāu, guá khui kah tsin bān. Kàu bōng-á-poo hit tsām, guá khuànn-tio̍h tsi̍t ê lâng-iánn khiā tī lōo-pinn, tuì guá ia̍t-tshiú.", en: "The fog was thick too, and I was driving very slowly. At the cemetery stop I saw a figure standing by the road, waving at me."}
+  - {n: 7, hanji: "我停車開門。是一个少年的查某囡仔，穿白色的衫，頭毛長長，規身軀澹糊糊。", tailo: "Guá thîng-tshia khui mn̂g. Sī tsi̍t ê siàu-liân ê tsa-bóo gín-á, tshīng pe̍h-sik ê sann, thâu-mn̂g tn̂g-tn̂g, kui-sin-khu tâm-kôo-kôo.", en: "I stopped and opened the door. It was a young woman in white, with long hair, soaked to the skin."}
+  - {n: 8, hanji: "伊恬恬上車，提一个銀角仔予我。彼个銀角仔冷吱吱，親像冰咧。", tailo: "I tiām-tiām tsiūnn-tshia, the̍h tsi̍t ê gîn-kak-á hōo--guá. Hit ê gîn-kak-á líng-ki-ki, tshin-tshiūnn ping--leh.", en: "She got on without a word and handed me a coin. It was icy cold, like ice."}
+  - {n: 9, hanji: "我共看，是一个銅錢，中央有一个四角的空，毋是這馬咧用的錢。", tailo: "Guá kā khuànn, sī tsi̍t ê tâng-tsînn, tiong-ng ū tsi̍t ê sì-kak ê khang, m̄ sī tsit-má teh iōng ê tsînn.", en: "I looked at it: it was an old copper coin with a square hole in the middle, not money anyone uses today."}
+  - {n: 10, hanji: "我想講：這个囡仔真古錐，可能是揣無路矣。就無講啥，予伊坐。", tailo: "Guá siūnn kóng: tsit ê gín-á tsin kóo-tsui, khó-lîng sī tshuē bô lōo--ah. Tō bô kóng siánn, hōo i tsē.", en: "I thought: what a sweet girl, she must have lost her way. So I said nothing and let her sit down."}
+  - {n: 11, hanji: "伊坐佇上後壁的坐位，頭犁犁，一句話都無講。", tailo: "I tsē tī siōng āu-piah ê tsē-uī, thâu lê-lê, tsi̍t kù uē to bô kóng.", en: "She sat in the very back seat, head bowed, and didn't say a word."}
+  - {n: 12, hanji: "車駛無偌久，我對頭前的鏡看後壁，煞看無人。", tailo: "Tshia sái bô guā kú, guá uì thâu-tsîng ê kiànn khuànn āu-piah, suah khuànn bô lâng.", en: "We hadn't gone far when I looked in the mirror at the back of the bus, and there was nobody there."}
+  - {n: 13, hanji: "坐位頂干焦一窟水，人已經消失去矣。", tailo: "Tsē-uī tíng kan-na tsi̍t khut tsuí, lâng í-king siau-sit--khì--ah.", en: "On the seat there was only a puddle of water. She had vanished."}
+  - {n: 14, hanji: "我寒甲起雞母皮。", tailo: "Guá kuânn kah khí-ke-bó-phuê.", en: "I went cold all over, my skin prickling with goosebumps.", source: moe}
+  - {n: 15, hanji: "我毋敢越頭，一直駛到尾站。一个阿婆佇遐等，看著我就問：", tailo: "Guá m̄ kánn ua̍t-thâu, it-ti̍t sái kàu bué tsām. Tsi̍t ê a-pô tī hia tán, khuànn-tio̍h guá tō mn̄g:", en: "I didn't dare look round, and drove straight on to the last stop. An old woman was waiting there, and when she saw me she asked:"}
+  - {n: 16, hanji: "「司機先生，你敢有載著一个穿白衫的查某囡仔？」", tailo: "“Su-ki sian-sinn, lí kám ū tsài-tio̍h tsi̍t ê tshīng pe̍h sann ê tsa-bóo gín-á?”", en: "'Driver, did you have a girl in a white blouse on board?'"}
+  - {n: 17, hanji: "我嚇一下，喙脣攏咧掣：「有……毋過伊無去矣。」", tailo: "Guá heh tsi̍t-ē, tshuì-tûn lóng teh tshuah: “Ū…… m̄-koh i bô--khì--ah.”", en: "I gave a start, my lips trembling: 'Yes… but she's gone.'"}
+  - {n: 18, hanji: "阿婆頕頭，目屎流落來：「伊是阮查某囝。三十冬前的今仔日，伊佇彼條路出代誌。」", tailo: "A-pô tàm-thâu, ba̍k-sái lâu--lo̍h-lâi: “I sī guán tsa-bóo-kiánn. Sann-tsa̍p tang tsîng ê kin-á-ji̍t, i tī hit tiâu lōo tshut tāi-tsì.”", en: "The old woman nodded, tears running down her face: 'She's my daughter. Thirty years ago today she had an accident on that road.'"}
+  - {n: 19, hanji: "「今仔日是伊的忌日。逐年這工，伊攏欲轉來厝看我。」", tailo: "“Kin-á-ji̍t sī i ê kī-ji̍t. Ta̍k-nî tsit kang, i lóng beh tńg-lâi tshù khuànn--guá.”", en: "'Today is the anniversary of her death. Every year on this day she tries to come home to see me.'"}
+  - {n: 20, hanji: "阿婆提一張符仔予我：「伊毋是歹鬼，無歹意，你莫驚。」講煞，伊就行入去霧內底。", tailo: "A-pô the̍h tsi̍t tiunn hû-á hōo--guá: “I m̄ sī pháinn kuí, bô pháinn-ì, lí mài kiann.” Kóng suah, i tō kiânn ji̍p-khì bū lāi-té.", en: "She handed me a paper charm: 'She's no evil spirit, she means no harm. Don't be afraid.' And with that she walked off into the fog."}
+  - {n: 21, hanji: "第二工，我去媽祖廟予人收驚。廟公聽我講了，問我：", tailo: "Tē-jī kang, guá khì Má-tsóo-biō hōo lâng siu-kiann. Biō-kong thiann guá kóng liáu, mn̄g--guá:", en: "The next day I went to the Mazu temple to have the fright taken off me. When the temple keeper had heard my story, he asked:"}
+  - {n: 22, hanji: "「彼个阿婆生做啥款？」我講伊頭毛白白，穿一領藍色的衫。", tailo: "“Hit ê a-pô senn-tsò siánn-khuán?” Guá kóng i thâu-mn̂g pe̍h-pe̍h, tshīng tsi̍t niá nâ-sik ê sann.", en: "'What did the old woman look like?' I said she had white hair and wore a blue top."}
+  - {n: 23, hanji: "廟公的面色變青：「彼个阿婆，五冬前就過身矣。𪜶母仔囝的墓，攏佇彼个墓仔埔。」", tailo: "Biō-kong ê bīn-sik piàn tshenn: “Hit ê a-pô, gōo tang tsîng tō kuè-sin--ah. In bú-á-kiánn ê bōng, lóng tī hit ê bōng-á-poo.”", en: "The temple keeper went pale. 'That old woman died five years ago. Mother and daughter are both buried in that cemetery.'"}
+  - {n: 24, hanji: "到今，我猶有囥彼个銅錢佮彼張符仔。", tailo: "Kàu-tann, guá iáu ū khǹg hit ê tâng-tsînn kah hit tiunn hû-á.", en: "To this day I still keep that coin and that charm."}
+  - {n: 25, hanji: "逐年七月十五暗時，駛到墓仔埔彼站，我攏會停車、開門，等一下。", tailo: "Ta̍k-nî tshit--gue̍h tsa̍p-gōo àm-sî, sái kàu bōng-á-poo hit tsām, guá lóng ē thîng-tshia, khui mn̂g, tán--tsi̍t-ē.", en: "Every year on the night of the fifteenth of the seventh month, when I reach the cemetery stop, I pull up, open the door and wait a moment."}
+  - {n: 26, hanji: "無人上車。毋過我知影，有兩个人坐佇後壁，母仔囝做伙轉去厝。", tailo: "Bô lâng tsiūnn-tshia. M̄-koh guá tsai-iánn, ū nn̄g ê lâng tsē tī āu-piah, bú-á-kiánn tsò-hué tńg-khì tshù.", en: "Nobody gets on. But I know that two people are sitting at the back: a mother and her daughter, going home together."}
+notes:
+  - {ref: 1, topic: vocab, text: "上尾一班車 siōng-bué tsi̍t pan tshia = the last bus: 上尾 'the very last' (進修 2, 上尾仔), 班 pan = classifier for scheduled services. 市內 tshī-lāi = in town."}
+  - {ref: 2, topic: vocab, text: "山路 suann-lōo = mountain road. 彎 uan = bend, curve: 彎來彎去 'twist and turn'. 站 tsām = stop, station. 墓仔埔 bōng-á-poo = cemetery, graveyard (墓 bōng 'grave' + 埔 'open ground')."}
+  - {ref: 3, topic: vocab, text: "車頂 tshia-tíng = on board, in the bus. 賰 = be left (進修 6)."}
+  - {ref: 4, topic: culture, text: "七月十五, the 15th of the seventh lunar month, is 中元 Tiong-guân, the height of 鬼月 (lesson 54), when the gates of the underworld stand open."}
+  - {ref: 5, topic: vocab, text: "爍爁 sih-nah = lightning, Taigi-only (閃電); 雷公 luî-kong = thunder (進修 2 note). 雷公爍爁 'thunder and lightning'. Quoted from the MOE dictionary."}
+  - {ref: 6, topic: vocab, text: "霧 bū = fog, mist: 霧真厚 'thick fog' (厚 kāu 'thick'). 開 khui = drive (開車). 人影 lâng-iánn = a figure, a silhouette; 無看見人影 'not a soul to be seen'. 擛手 = wave (lesson 90)."}
+  - {ref: 8, topic: vocab, text: "銀角仔 gîn-kak-á = coin (any coin, not only silver). 親像冰咧 'like ice': 親像 … 咧 = 'just like …'."}
+  - {ref: 9, topic: vocab, text: "銅錢 tâng-tsînn = old copper coin with a square hole, used until the early 20th century and still used in rituals. 中央 tiong-ng = the middle (lesson 55); 四角 sì-kak = square."}
+  - {ref: 10, topic: vocab, text: "揣無路 tshuē bô lōo = can't find the way, be lost."}
+  - {ref: 11, topic: vocab, text: "坐位 tsē-uī = seat. 頭犁犁 = head bowed, as in 進修 5."}
+  - {ref: 12, topic: vocab, text: "鏡 kiànn = mirror. 煞 suah = but, unexpectedly."}
+  - {ref: 13, topic: vocab, text: "窟 khut = a hollow, a pit: 一窟水 'a puddle'. 消失 siau-sit = vanish, disappear."}
+  - {ref: 14, topic: vocab, text: "起雞母皮 khí-ke-bó-phuê = get goosebumps ('raise hen's skin'), from cold or fear. Quoted from the MOE dictionary."}
+  - {ref: 15, topic: vocab, text: "尾站 bué tsām = the last stop, the terminus."}
+  - {ref: 16, topic: vocab, text: "載 tsài = carry (passengers): 載著 'have (someone) on board'."}
+  - {ref: 17, topic: vocab, text: "嚇 heh = frighten, give a start: 嚇一下 'gave a start'; 共人嚇驚 heh-kiann 'scare someone'. 掣 = tremble (進修 9)."}
+  - {ref: 18, topic: vocab, text: "頕頭 tàm-thâu = nod; its opposite is 搖頭 iô-thâu 'shake one's head'. 出代誌 tshut tāi-tsì = have an accident, something bad happens."}
+  - {ref: 19, topic: culture, text: "忌日 kī-ji̍t = the anniversary of someone's death, when the family makes offerings to them."}
+  - {ref: 20, topic: vocab, text: "符仔 hû-á = a paper charm, a talisman with red writing, from a temple. 鬼 kuí = ghost, spirit; 歹鬼 'an evil spirit'. 歹意 pháinn-ì = ill will: 伊無歹意 'he means no harm'. 講煞 kóng suah = having said that."}
+  - {ref: 21, topic: culture, text: "收驚 siu-kiann = a ritual to 'call back' the soul after a bad fright, done in temples or by an old woman of the neighbourhood with incense, rice and a piece of the person's clothing. MOE example: 囡仔煞著就愛𤆬去予人收驚 'if a child gets a fright, take him to have it taken off'."}
+  - {ref: 22, topic: vocab, text: "藍色 nâ-sik = blue. 白白 pe̍h-pe̍h = white."}
+  - {ref: 23, topic: vocab, text: "面色變青 'turn pale': in Taigi a frightened face goes 青 tshenn ('green, pale'). 過身 kuè-sin = pass away (lesson 83). 母仔囝 bú-á-kiánn = mother and child. 墓 bōng = grave."}
+  - {ref: 26, topic: grammar, text: "做伙轉去厝 'go home together'. Note how the story ends in the present: 無人上車 'nobody gets on'."}
+new_words:
+  - {tailo: pan, hanji: 班, en: "(classifier for scheduled services)"}
+  - {tailo: tshī-lāi, hanji: 市內, en: "in town"}
+  - {tailo: suann-lōo, hanji: 山路, en: "mountain road"}
+  - {tailo: uan, hanji: 彎, en: "bend, curve"}
+  - {tailo: tsām, hanji: 站, en: "stop, station"}
+  - {tailo: bōng-á-poo, hanji: 墓仔埔, en: "cemetery"}
+  - {tailo: bōng, hanji: 墓, en: "grave"}
+  - {tailo: sih-nah, hanji: 爍爁, en: "lightning"}
+  - {tailo: bū, hanji: 霧, en: "fog, mist"}
+  - {tailo: lâng-iánn, hanji: 人影, en: "figure, silhouette"}
+  - {tailo: gîn-kak-á, hanji: 銀角仔, en: "coin"}
+  - {tailo: tâng-tsînn, hanji: 銅錢, en: "old copper coin"}
+  - {tailo: tsē-uī, hanji: 坐位, en: "seat"}
+  - {tailo: kiànn, hanji: 鏡, en: "mirror"}
+  - {tailo: khut, hanji: 窟, en: "hollow, pit (一窟水 a puddle)"}
+  - {tailo: siau-sit, hanji: 消失, en: "vanish"}
+  - {tailo: khí-ke-bó-phuê, hanji: 起雞母皮, en: "get goosebumps"}
+  - {tailo: heh, hanji: 嚇, en: "frighten; give a start"}
+  - {tailo: tàm-thâu, hanji: 頕頭, en: "nod"}
+  - {tailo: iô-thâu, hanji: 搖頭, en: "shake one's head"}
+  - {tailo: kī-ji̍t, hanji: 忌日, en: "anniversary of a death"}
+  - {tailo: hû-á, hanji: 符仔, en: "paper charm, talisman"}
+  - {tailo: kuí, hanji: 鬼, en: "ghost, spirit"}
+  - {tailo: pháinn-ì, hanji: 歹意, en: "ill will"}
+  - {tailo: siu-kiann, hanji: 收驚, en: "ritual to cure a fright"}
+  - {tailo: nâ-sik, hanji: 藍色, en: "blue"}
+  - {tailo: bú-á-kiánn, hanji: 母仔囝, en: "mother and child"}
+exercises:
+  translate:
+    - {tailo: "Hit tiâu suann-lōo uan-lâi-uan-khì, puànn-lōo ū tsi̍t tsām.", hanji: "彼條山路彎來彎去，半路有一站。", en: "The mountain road twists and turns, and halfway along there's a stop."}
+    - {tailo: "I tiām-tiām tsiūnn-tshia, the̍h tsi̍t ê gîn-kak-á hōo--guá.", hanji: "伊恬恬上車，提一个銀角仔予我。", en: "She got on without a word and handed me a coin."}
+    - {tailo: "Tsē-uī tíng kan-na tsi̍t khut tsuí, lâng í-king siau-sit--khì--ah.", hanji: "坐位頂干焦一窟水，人已經消失去矣。", en: "On the seat there was only a puddle of water. She had vanished."}
+    - {tailo: "I bô pháinn-ì, lí mài kiann.", hanji: "伊無歹意，你莫驚。", en: "She means no harm, don't be afraid."}
+    - {tailo: "Guá khì Má-tsóo-biō hōo lâng siu-kiann.", hanji: "我去媽祖廟予人收驚。", en: "I went to the Mazu temple to have the fright taken off me."}
+  fill:
+    - {tailo: "Luî-kong ___ ti̍t-ti̍t lâi.", hanji: "雷公___直直來。", answer: "sih-nah", answer_hanji: "爍爁", en: "Thunder and lightning, one after another."}
+    - {tailo: "Guá uì thâu-tsîng ê ___ khuànn āu-piah.", hanji: "我對頭前的___看後壁。", answer: "kiànn", answer_hanji: "鏡", en: "I looked in the mirror at the back of the bus."}
+    - {tailo: "Guá kuânn kah ___.", hanji: "我寒甲___。", answer: "khí-ke-bó-phuê", answer_hanji: "起雞母皮", en: "I went cold all over, with goosebumps."}
+    - {tailo: "A-pô ___, ba̍k-sái lâu--lo̍h-lâi.", hanji: "阿婆___，目屎流落來。", answer: "tàm-thâu", answer_hanji: "頕頭", en: "The old woman nodded, tears running down her face."}
+    - {tailo: "Kin-á-ji̍t sī i ê ___.", hanji: "今仔日是伊的___。", answer: "kī-ji̍t", answer_hanji: "忌日", en: "Today is the anniversary of her death."}
+audio: []

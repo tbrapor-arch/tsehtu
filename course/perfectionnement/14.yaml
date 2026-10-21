@@ -1,0 +1,65 @@
+id: 14
+title: {en: "Review 2", tailo: "Ho̍k-si̍p", hanji: "復習"}
+genre: review
+review: true
+setting: "A cold winter evening in Sam's flat. A-ióng and A-tshun have come round; the television news is on. Everything comes from 進修 8–13."
+dialogue:
+  - {n: 1, speaker: A-tshun, hanji: "（入門）好寒喔！新聞講寒流來矣，懸山今仔暗會落雪。", tailo: "(Ji̍p mn̂g) Hó kuânn--ooh! Sin-bûn kóng hân-liû lâi--ah, kuân suann kin-á-àm ē lo̍h-seh.", en: "(Coming in) It's so cold! The news says the cold wave has arrived and it'll snow on the high mountains tonight."}
+  - {n: 2, speaker: Sam, hanji: "緊入來。我煮燒水矣，棉襀被嘛提出來，冷吱吱的跤就囥入去。", tailo: "Kín ji̍p--lâi. Guá tsú sio-tsuí--ah, mî-tsioh-phuē mā the̍h--tshut-lâi, líng-ki-ki ê kha tō khǹg--ji̍p-khì.", en: "Come in, quick. I've boiled some water, and I've got the quilt out: put your icy feet under it."}
+  - {n: 3, speaker: A-ióng, hanji: "（看電視）你看，這个司機閣啉酒醉駛車。照法律愛罰款，駕照嘛愛收去。", tailo: "(Khuànn tiān-sī) Lí khuànn, tsit ê su-ki koh lim-tsiú-tsuì sái-tshia. Tsiàu huat-lu̍t ài hua̍t-khuán, kà-tsiàu mā ài siu--khì.", en: "(Watching TV) Look, another driver driving drunk. By law he'll be fined and lose his licence."}
+  - {n: 4, speaker: A-tshun, hanji: "我上驚這款人。伊若啉酒醉，攏講伊無醉。", tailo: "Guá siōng kiann tsit khuán lâng. I nā lim-tsiú-tsuì, lóng kóng i bô tsuì.", en: "That's the kind of person I'm most afraid of. When they're drunk they always say they aren't."}
+  - {n: 5, speaker: Sam, hanji: "（樓頂有人咧唱歌）……閣來矣。樓頂的阿公逐暝攏透暝唱歌。", tailo: "(Lâu-tíng ū lâng teh tshiùnn-kua) …… Koh lâi--ah. Lâu-tíng ê a-kong ta̍k-mê lóng thàu-mê tshiùnn-kua.", en: "(Someone upstairs starts singing) …There he goes again. The old man upstairs sings all night, every night."}
+  - {n: 6, speaker: A-ióng, hanji: "你無去共伊講？", tailo: "Lí bô khì kā i kóng?", en: "Haven't you told him?"}
+  - {n: 7, speaker: Sam, hanji: "伊耳空重，講嘛無路用。毋過伊人真好，我拍無去鎖匙彼擺，是𪜶兜的人共我鬥揣的。", tailo: "I hīnn-khang-tāng, kóng mā bô-lōo-īng. M̄-koh i lâng tsin hó; guá phah-bô--khì só-sî hit pái, sī in tau ê lâng kā guá tàu tshuē--ê.", en: "He's hard of hearing, so there's no point. But he's a lovely man. When I lost my key, it was his family who helped me look for it."}
+  - {n: 8, speaker: A-tshun, hanji: "千金買厝，萬金買厝邊。好厝邊愛疼惜。", tailo: "Tshian kim bé tshù, bān kim bé tshù-pinn. Hó tshù-pinn ài thiànn-sioh.", en: "A house costs a thousand, good neighbours ten thousand. Treasure them."}
+  - {n: 9, speaker: A-ióng, hanji: "（聽一下）伊咧唱啥？「燈塔啊燈塔……」這是足舊的歌，阮阿媽嘛會唱。", tailo: "(Thiann--tsi̍t-ē) I teh tshiùnn siánn? “Ting-thah ah ting-thah……” Tse sī tsiok kū ê kua, guán a-má mā ē tshiùnn.", en: "(Listening) What's he singing? 'Lighthouse, oh lighthouse…' That's a really old song; my grandma sings it too."}
+  - {n: 10, speaker: A-tshun, hanji: "一个查某人佇碼頭等伊彼个人，等甲頭毛白，伊猶原堅心咧等。", tailo: "Tsi̍t ê tsa-bóo-lâng tī bé-thâu tán i hit ê lâng, tán kah thâu-mn̂g pe̍h, i iu-guân kian-sim teh tán.", en: "A woman waits on the quay for her man, waits till her hair turns white, and still won't give up."}
+  - {n: 11, speaker: A-ióng, hanji: "彼个查埔的實在有夠僥倖。毋過若是我，我早就放捒矣。", tailo: "Hit ê tsa-poo--ê si̍t-tsāi ū-kàu hiau-hīng. M̄-koh nā-sī guá, guá tsá tō pàng-sak--ah.", en: "That man really was heartless. But if it were me, I'd have given up long ago."}
+  - {n: 12, speaker: A-tshun, hanji: "你這个人就是無情。Sam，阿明的喜酒好食無？", tailo: "Lí tsit ê lâng tō sī bô-tsîng. Sam, A-bîng ê hí-tsiú hó-tsia̍h--bô?", en: "That's because you're heartless. Sam, how was the food at A-bîng's wedding?"}
+  - {n: 13, speaker: Sam, hanji: "好食甲！路邊規路攏是布棚，總舖師煮十二出菜，頭一出就是紅蟳米糕。", tailo: "Hó-tsia̍h kah! Lōo-pinn kui-lōo lóng sī pòo-pênn, tsóng-phòo-sai tsú tsa̍p-jī tshut tshài, thâu tsi̍t tshut tō sī âng-tsîm bí-ko.", en: "Amazing! There were awnings all along the street, the chef cooked twelve courses, and the first was red crab on sticky rice."}
+  - {n: 14, speaker: Sam, hanji: "新娘媠噹噹，阿明緊張甲手咧掣。閣有一个好命的婦人人唸四句聯。", tailo: "Sin-niû suí-tang-tang, A-bîng kín-tiunn kah tshiú teh tshuah. Koh ū tsi̍t ê hó-miā ê hū-jîn-lâng liām sì-kù-liân.", en: "The bride was gorgeous, and A-bîng was so nervous his hands shook. And a 'fortunate woman' recited a verse."}
+  - {n: 15, speaker: A-ióng, hanji: "菜尾咧？你有紮轉來無？", tailo: "Tshài-bué--leh? Lí ū tsah tńg--lâi--bô?", en: "And the leftovers? Did you bring any back?"}
+  - {n: 16, speaker: Sam, hanji: "早就食了了矣。食甲腹肚飽滇，閣食兩工。", tailo: "Tsá tō tsia̍h--liáu-liáu--ah. Tsia̍h kah pak-tóo pá-tīnn, koh tsia̍h nn̄g kang.", en: "All eaten long ago. I ate till I was fit to burst, and kept eating for two days."}
+  - {n: 17, speaker: A-tshun, hanji: "（看桌頂）這是啥物冊？字攏是羅馬字。", tailo: "(Khuànn toh-tíng) Tse sī siánn-mih tsheh? Jī lóng sī Lô-má-jī.", en: "(Looking at the table) What's this book? It's all in romanisation."}
+  - {n: 18, speaker: Sam, hanji: "是一百外冬前的白話字報紙，我佇古冊店買的。學會曉 Tâi-lô，讀古冊嘛袂費氣。", tailo: "Sī tsi̍t-pah-guā tang tsîng ê Pe̍h-uē-jī pò-tsuá, guá tī kóo-tsheh-tiàm bé--ê. O̍h ē-hiáu Tâi-lô, tha̍k kóo-tsheh mā bē huì-khì.", en: "It's a Pe̍h-uē-jī newspaper from over a hundred years ago; I bought it in a second-hand bookshop. Once you know Tâi-lô, old books are no trouble."}
+  - {n: 19, speaker: A-ióng, hanji: "（提另外一本冊）這篇咧講啥？「一个司機駛上尾一班車……」", tailo: "(The̍h līng-guā tsi̍t pún tsheh) Tsit phinn teh kóng siánn? “Tsi̍t ê su-ki sái siōng-bué tsi̍t pan tshia……”", en: "(Picking up another book) What's this one about? 'A driver was driving the last bus…'"}
+  - {n: 20, speaker: A-tshun, hanji: "莫唸！我知影彼个故事：墓仔埔、穿白衫的查某囡仔、冷吱吱的銅錢……", tailo: "Mài liām! Guá tsai-iánn hit ê kòo-sū: bōng-á-poo, tshīng pe̍h sann ê tsa-bóo gín-á, líng-ki-ki ê tâng-tsînn……", en: "Don't read it! I know that story: the cemetery, the girl in white, the icy copper coin…"}
+  - {n: 21, speaker: A-ióng, hanji: "（細聲）……閣有坐位頂的一窟水。", tailo: "(Sè-siann) …… koh ū tsē-uī tíng ê tsi̍t khut tsuí.", en: "(Quietly) …and the puddle of water on the seat."}
+  - {n: 22, speaker: A-tshun, hanji: "我已經起雞母皮矣！阿勇，你刁工欲嚇我是無？", tailo: "Guá í-king khí-ke-bó-phuê--ah! A-ióng, lí thiau-kang beh heh--guá sī--bô?", en: "I've already got goosebumps! A-ióng, you're trying to scare me on purpose, aren't you?"}
+  - {n: 23, speaker: A-ióng, hanji: "（笑咍咍）你遐好膽，閣會驚鬼？", tailo: "(Tshiò-hai-hai) Lí hiah hó-tánn, koh ē kiann kuí?", en: "(Laughing) Someone as brave as you, scared of ghosts?"}
+  - {n: 24, speaker: A-tshun, hanji: "人毋驚，毋過鬼我驚。明仔載我若睏袂落眠，就愛去廟裡收驚。", tailo: "Lâng m̄ kiann, m̄-koh kuí guá kiann. Bîn-á-tsài guá nā khùn bē lo̍h-bîn, tō ài khì biō--lí siu-kiann.", en: "People I'm not afraid of, but ghosts I am. If I can't sleep, tomorrow I'll have to go to the temple to have the fright taken off."}
+  - {n: 25, speaker: Sam, hanji: "（窗仔外口爍爁一下）……", tailo: "(Thang-á guā-kháu sih-nah tsi̍t-ē) ……", en: "(A flash of lightning outside the window) …"}
+  - {n: 26, speaker: A-tshun, hanji: "啊！（驚甲跳起來）", tailo: "Ah! (Kiann kah thiàu--khí-lâi)", en: "Aah! (Jumping out of her skin)"}
+  - {n: 27, speaker: A-ióng, hanji: "是爍爁啦！寒天閣有雷公爍爁，今年的天氣實在奇怪。", tailo: "Sī sih-nah--lah! Kuânn-thinn koh ū luî-kong sih-nah, kin-nî ê thinn-khì si̍t-tsāi kî-kuài.", en: "It's only lightning! Thunder and lightning in winter: this year's weather is really strange."}
+  - {n: 28, speaker: Sam, hanji: "來，逐家啉一杯燒茶，冷靜一下。我今仔暗陪恁，莫驚。", tailo: "Lâi, ta̍k-ke lim tsi̍t pue sio tê, líng-tsīng--tsi̍t-ē. Guá kin-á-àm puê--lín, mài kiann.", en: "Come on, everyone have a cup of hot tea and calm down. I'm here with you tonight, don't be scared."}
+  - {n: 29, speaker: A-tshun, hanji: "好……毋過你這間厝，敢有佇墓仔埔邊仔？", tailo: "Hó…… m̄-koh lí tsit king tshù, kám ū tī bōng-á-poo pinn--á?", en: "All right… but this flat of yours, it's not next to a cemetery, is it?"}
+notes:
+  - {ref: 1, topic: vocab, text: "The news (進修 8): 寒流, 冷吱吱, 懸山, 落雪, 棉襀被, 燒水, 提醒; 酒醉, 駛, 司機, 罰款, 駕照, 法律; 甘蔗, 好年冬 / 歹年冬, 拍損, 著賊偷, 偷提, 認罪."}
+  - {ref: 5, topic: vocab, text: "The notice board (進修 11): 住戶, 繳, 鎖匙, 拍無去, 抾著, 吊, 曝, 滴, 燒金, 擋, 透暝, 耳空重, 冷靜."}
+  - {ref: 7, topic: vocab, text: "講嘛無路用 'no use telling him': 路用 as in 進修 6. 鬥揣 tàu tshuē = help look for."}
+  - {ref: 8, topic: vocab, text: "疼惜 thiànn-sioh = cherish, love tenderly: 惜 sioh as in 進修 3."}
+  - {ref: 9, topic: vocab, text: "The song (進修 12): 碼頭, 燈塔, 海湧, 堅心, 等候, 流浪, 他鄉, 變心, 真情, 猶原, 薄情 / 痴情, 僥倖, 眠夢, 放捒."}
+  - {ref: 12, topic: vocab, text: "The wedding (進修 9): 喜酒, 布棚, 總舖師, 人才, 掣, 好命, 婦人人, 囝婿, 敬酒, 四句聯, 姻緣, 註定, 恩愛, 菜尾."}
+  - {ref: 13, topic: grammar, text: "好食甲！ 'amazingly good!': adjective + 甲 with the result left out, as in 清氣甲, 進修 6."}
+  - {ref: 17, topic: vocab, text: "Pe̍h-uē-jī (進修 10): 牧師, 聖經, 青盲牛, 學堂, 字母, 印刷, 翻譯, 禁止, 根據, 改良, 費氣, 古冊, 利便."}
+  - {ref: 18, topic: vocab, text: "古冊店 kóo-tsheh-tiàm = second-hand bookshop; 古冊 as in 進修 10."}
+  - {ref: 19, topic: vocab, text: "另外 līng-guā = another, other. 篇 phinn = classifier for articles (lesson 94)."}
+  - {ref: 20, topic: vocab, text: "The ghost story (進修 13): 墓仔埔, 站, 霧, 人影, 銀角仔, 銅錢, 鏡, 消失, 起雞母皮, 嚇, 頕頭, 忌日, 符仔, 歹意, 收驚."}
+  - {ref: 24, topic: grammar, text: "人毋驚，毋過鬼我驚 'people I don't fear, but ghosts I do': the object is put first for contrast (as in 錢趁較少, 進修 1)."}
+  - {ref: 27, topic: vocab, text: "雷公爍爁 'thunder and lightning', as in 進修 13."}
+  - {ref: 28, topic: vocab, text: "陪 puê = keep someone company."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Sin-bûn kóng hân-liû lâi--ah, kuân suann kin-á-àm ē lo̍h-seh.", hanji: "新聞講寒流來矣，懸山今仔暗會落雪。", en: "The news says the cold wave has arrived and it'll snow on the high mountains tonight."}
+    - {tailo: "I hīnn-khang-tāng, kóng mā bô-lōo-īng.", hanji: "伊耳空重，講嘛無路用。", en: "He's hard of hearing, so there's no point telling him."}
+    - {tailo: "Lōo-pinn kui-lōo lóng sī pòo-pênn, thâu tsi̍t tshut tō sī âng-tsîm bí-ko.", hanji: "路邊規路攏是布棚，頭一出就是紅蟳米糕。", en: "There were awnings all along the street, and the first course was red crab on sticky rice."}
+    - {tailo: "O̍h ē-hiáu Tâi-lô, tha̍k kóo-tsheh mā bē huì-khì.", hanji: "學會曉 Tâi-lô，讀古冊嘛袂費氣。", en: "Once you know Tâi-lô, old books are no trouble."}
+    - {tailo: "Lâng m̄ kiann, m̄-koh kuí guá kiann.", hanji: "人毋驚，毋過鬼我驚。", en: "People I'm not afraid of, but ghosts I am."}
+  fill:
+    - {tailo: "Guá phah-bô--khì ___ hit pái, sī in tau ê lâng kā guá tàu tshuē--ê.", hanji: "我拍無去___彼擺，是𪜶兜的人共我鬥揣的。", answer: "só-sî", answer_hanji: "鎖匙", en: "When I lost my key, it was his family who helped me look for it."}
+    - {tailo: "Tán kah thâu-mn̂g pe̍h, i ___ kian-sim teh tán.", hanji: "等甲頭毛白，伊___堅心咧等。", answer: "iu-guân", answer_hanji: "猶原", en: "She waits till her hair turns white, and still won't give up."}
+    - {tailo: "Hit ê tsa-poo--ê si̍t-tsāi ū-kàu ___.", hanji: "彼个查埔的實在有夠___。", answer: "hiau-hīng", answer_hanji: "僥倖", en: "That man really was heartless."}
+    - {tailo: "Guá í-king ___--ah!", hanji: "我已經___矣！", answer: "khí-ke-bó-phuê", answer_hanji: "起雞母皮", en: "I've already got goosebumps!"}
+    - {tailo: "Bîn-á-tsài guá nā khùn bē lo̍h-bîn, tō ài khì biō--lí ___.", hanji: "明仔載我若睏袂落眠，就愛去廟裡___。", answer: "siu-kiann", answer_hanji: "收驚", en: "If I can't sleep, I'll have to go to the temple tomorrow to have the fright taken off."}
+audio: []

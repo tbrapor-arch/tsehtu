@@ -1,7 +1,7 @@
 # Part 2: 進修 Tsìn-siu (Perfectionnement), spec and handover
 
-State on 20 Oct 2026 (evening): **P1–P7 are published** (P2–P7 merged into `main` on 20 Oct).
-Next batch: P8–P14 (P14 = review).
+State on 21 Oct 2026: **P1–P7 are published**; **P8–P14 are written** on branch `perfectionnement-p8-p14`
+(not yet merged into `main`, so not on the site). Next batch: P15–P21 (P21 = review).
 
 ## Batch 1 (P1–P7)
 | # | genre | title | new words | lines |
@@ -14,9 +14,25 @@ Next batch: P8–P14 (P14 = review).
 | P6 | play | 大摒掃 (cleaning Sam's flat before A-má's visit; cockroach, rat, broken bottle) | 40 | 33 |
 | P7 | review | 復習 (A-má and A-kong at Sam's flat; recombines P1–P6) | 0 | 29 |
 
-Story threads to pick up: A-bîng and Bí-lîng's wedding in October (A-má's letter, P3); A-má's promise to show
-A-tshun and A-ióng the fireflies in Tainan next summer (P7); A-ióng still owes Sam a bottle (P6–P7).
 New words ran a little above 40 in P2–P5 (vocabulary is the goal); dialogue length stayed within 20–33.
+
+## Batch 2 (P8–P14)
+| # | genre | title | new words | lines |
+|---|---|---|---|---|
+| P8 | news | 甘蔗無雙頭甜 (TV news: cold wave, sugarcane prices, temple burglary, drunk driver) | 44 | 27 |
+| P9 | dialogue | 囝婿是半子 (A-bîng and Bí-lîng's street wedding banquet in Tainan; 四句聯) | 37 | 31 |
+| P10 | article | 白話字的故事 (history of Pe̍h-uē-jī: missionaries, 1885 church newspaper, ban, Tâi-lô 2006) | 42 | 26 |
+| P11 | document | 千金買厝，萬金買厝邊 (notice board in Sam's block: rules and residents' notes) | 36 | 21 |
+| P12 | song | 碼頭的燈塔 (original lyrics in 1960s style: waiting on the quay) | 27 | 22 |
+| P13 | story | 上尾一班車 (ghost story: last bus, cemetery stop, 收驚) | 27 | 26 |
+| P14 | review | 復習 (cold night at Sam's: news, neighbours, wedding, POJ, ghost story) | 0 | 29 |
+
+Story threads to pick up: A-má's promise to show A-tshun and A-ióng the fireflies in Tainan next summer (P7);
+A-ióng still owes Sam a bottle (P6–P7); Sam's upstairs neighbour, the old man who sings all night (P11, P14);
+Sam is still single (P9). Genres not used yet: speech, interview again, letter again, play again; Mazu, 土地公 and
+the 普渡 are covered (P8, P11, P13), so prefer other cultural topics next.
+Facts in P10 (Barclay 1885, Mackay 1872, 1970s Bible confiscation, Tâi-lô October 2006) were written from general
+knowledge; worth a check against a source if the user wants it.
 
 ## What was decided with the user
 - **Spirit:** an Assimil *Perfectionnement* volume. It is used only for ideas and counts; nothing from the
@@ -65,6 +81,10 @@ P1 was written the other way, theme first; its words were checked afterwards. Fr
   example, and whether a lesson already declares the word).
 - English on every card: after `build_app.py`, `app/dist/english-auto.txt` must be empty. Add any word listed there
   (names, compounds, words used but not in `new_words`) to `course/glosses_en.tsv` with a gloss that fits the lesson.
+- One Hàn-jī = one declaration, whatever the reading: 照 tsiò (P12) was dropped from `new_words` because lesson 29
+  declares 照 tsiàu; explain the new reading in a note instead. `xrefs.py` keys on Hàn-jī only.
+- Review lessons must not bring in new words: check each word of the review against earlier `new_words` (P14 first
+  drafts had 鬼, 愛人, 攬, 離經…; 鬼 was then declared in P13).
 - Proverbs that are MOE *headwords* (一錢，二緣，三媠，四少年; 惜花連盆，疼囝連孫) are not in the example table, so
   they can't carry `source: moe`; quote them unaltered and say "a proverb from the MOE dictionary" in the note.
   A line that contains an MOE example plus other words is split so the example stands alone with `source: moe`.
@@ -79,5 +99,8 @@ P1 was written the other way, theme first; its words were checked afterwards. Fr
 - Exercises: 5 + 5 (decided 20 Oct 2026). Publishing: P1 published with the part-2 section on 20 Oct 2026.
 - To do: describe part 2 in `design-decisions.md`.
 - P2–P7 published on 20 Oct 2026 at the user's request. Smoke run on 進修 lessons only: 0 problems.
+- P8–P14 (21 Oct 2026): lint 0 errors, `make test` passes, QC clean, `english-auto.txt` empty after adding glosses.
+  The smoke script's lesson loop passes for P8–P14, but `tools/smoke.py` then times out waiting for `#tones`: the
+  tone drill moved into the Practice tab (20 Oct), so the script's later steps need updating.
 - Language QC pass on 20 Oct 2026 (all 100 lessons + P1): 6 lessons fixed (54, 67, 68, 73, 85, 93); no other
   unattested readings, no Mandarin function words, no inconsistent readings across lessons.

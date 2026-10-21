@@ -1,0 +1,115 @@
+id: 8
+title: {en: "Sugarcane is never sweet at both ends", tailo: "Kam-tsià bô siang thâu tinn", hanji: "甘蔗無雙頭甜"}
+genre: news
+review: false
+setting: "The evening news on a Taigi television channel, on a cold winter night. The news items, places aside, are invented."
+dialogue:
+  - {n: 1, speaker: Anchor, hanji: "各位觀眾逐家好，歡迎收看今仔日暗時的台語新聞。", tailo: "Kok-uī kuan-tsiòng ta̍k-ke hó, huan-gîng siu-khuànn kin-á-ji̍t àm-sî ê Tâi-gí sin-bûn.", en: "Good evening, viewers, and welcome to tonight's Taigi news."}
+  - {n: 2, speaker: Anchor, hanji: "頭一條新聞：寒流來矣。北部的平地今仔日透早干焦十度，規个臺灣冷吱吱。", tailo: "Thâu tsi̍t tiâu sin-bûn: hân-liû lâi--ah. Pak-pōo ê pênn-tē kin-á-ji̍t thàu-tsá kan-na tsa̍p tōo, kui-ê Tâi-uân líng-ki-ki.", en: "Our first story: the cold wave has arrived. On the plains in the north it was only ten degrees this morning, and the whole of Taiwan is freezing."}
+  - {n: 3, speaker: Reporter, hanji: "今仔日透早七點，我佇臺北的街仔路，看著真濟人頷頸圍圍巾，穿兩三領衫才出門。", tailo: "Kin-á-ji̍t thàu-tsá tshit tiám, guá tī Tâi-pak ê ke-á-lōo, khuànn-tio̍h tsin tsē lâng ām-kún uî uî-kin, tshīng nn̄g-sann niá sann tsiah tshut-mn̂g.", en: "At seven this morning, in the streets of Taipei, I saw lots of people with scarves round their necks, wearing two or three layers before they went out."}
+  - {n: 4, speaker: Reporter, hanji: "懸山今仔日暗時可能會落雪，真濟人已經駛車上山欲看雪。", tailo: "Kuân suann kin-á-ji̍t àm-sî khó-lîng ē lo̍h-seh, tsin tsē lâng í-king sái-tshia tsiūnn suann beh khuànn seh.", en: "It may snow on the high mountains tonight, and many people have already driven up to see it."}
+  - {n: 5, speaker: Reporter, hanji: "一位對臺南來的阿婆講：", tailo: "Tsi̍t uī uì Tâi-lâm lâi ê a-pô kóng:", en: "An old lady from Tainan told us:"}
+  - {n: 6, speaker: A-pô, hanji: "從到今我攏毋捌看過天頂落雪。", tailo: "Tsîng-kàu-tann guá lóng m̄ bat khuànn-kuè thinn-tíng lo̍h seh.", en: "I've never in my life seen snow fall from the sky.", source: moe}
+  - {n: 7, speaker: Reporter, hanji: "醫生提醒民眾，暗時睏的時棉襀被愛蓋予燒；若是跤手冷吱吱，就愛加穿衫、啉燒水。", tailo: "I-sing thê-tshénn bîn-tsiòng, àm-sî khùn ê sî mî-tsioh-phuē ài kah hōo sio; nā-sī kha-tshiú líng-ki-ki, tō ài ke tshīng sann, lim sio-tsuí.", en: "Doctors remind the public to keep well tucked up under the quilt at night, and if their hands and feet are icy, to put on more clothes and drink hot water."}
+  - {n: 8, speaker: Reporter, hanji: "老人佮囡仔人愛特別張持。", tailo: "Lāu-lâng kah gín-á-lâng ài ti̍k-pia̍t tiunn-tî.", en: "The elderly and children need to take special care."}
+  - {n: 9, speaker: Anchor, hanji: "第二條新聞。今年南部的甘蔗收成真好，是一个好年冬，毋過價數煞落甲真低。", tailo: "Tē-jī tiâu sin-bûn. Kin-nî lâm-pōo ê kam-tsià siu-sîng tsin hó, sī tsi̍t ê hó-nî-tang, m̄-koh kè-siàu suah lo̍h kah tsin kē.", en: "Our second story. The sugarcane harvest in the south has been excellent this year, a bumper year, but the price has fallen very low."}
+  - {n: 10, speaker: Reporter, hanji: "佇屏東，作穡人規工佇田裡刐甘蔗，一捆一捆擔去糖廠。", tailo: "Tī Pîn-tong, tsoh-sit-lâng kui-kang tī tshân--lí táinn kam-tsià, tsi̍t khún tsi̍t khún tann khì thn̂g-tshiúnn.", en: "In Pingtung, farmers spend all day in the fields cutting cane and carrying it, bundle after bundle, to the sugar mill."}
+  - {n: 11, speaker: Farmer, hanji: "今年雨水夠，甘蔗生甲真甜。毋過糖廠收的價數比舊年少三成，阮做甲半小死，攏無趁。", tailo: "Kin-nî hōo-tsuí kàu, kam-tsià senn kah tsin tinn. M̄-koh thn̂g-tshiúnn siu ê kè-siàu pí kū-nî tsió sann siânn, guán tsò kah puànn-sió-sí, lóng bô thàn.", en: "We had enough rain this year and the cane is lovely and sweet. But the mill is paying thirty per cent less than last year; we've worked ourselves half to death and earned nothing."}
+  - {n: 12, speaker: Farmer, hanji: "有的人規氣毋刐矣，囥佇田裡予伊歹去，實在真拍損。", tailo: "Ū--ê lâng kui-khì m̄ táinn--ah, khǹg tī tshân--lí hōo i pháinn--khì, si̍t-tsāi tsin phah-sńg.", en: "Some people aren't even bothering to cut it, they're just leaving it to rot in the fields. It's a real waste."}
+  - {n: 13, speaker: Reporter, hanji: "問伊明年猶欲種無，阿伯笑笑仔講：", tailo: "Mn̄g i mê-nî iáu beh tsìng--bô, a-peh tshiò-tshiò-á kóng:", en: "When we asked whether he would plant again next year, the old farmer smiled and said:"}
+  - {n: 14, speaker: Farmer, hanji: "甘蔗無雙頭甜。好年冬價數就歹，歹年冬收成就少，作穡人就是按呢。", tailo: "Kam-tsià bô siang thâu tinn. Hó-nî-tang kè-siàu tō pháinn, pháinn-nî-tang siu-sîng tō tsió, tsoh-sit-lâng tō sī án-ne.", en: "Sugarcane is never sweet at both ends. In a good year the price is bad, in a bad year the harvest is small. That's farming for you."}
+  - {n: 15, speaker: Anchor, hanji: "第三條新聞。臺南一間土地公廟仔，昨昏半暝著賊偷。", tailo: "Tē-sann tiâu sin-bûn. Tâi-lâm tsi̍t king Thóo-tī-kong biō-á, tsa-hng puànn-mê tio̍h-tsha̍t-thau.", en: "Our third story. A small temple to the Earth God in Tainan was burgled in the middle of last night."}
+  - {n: 16, speaker: Reporter, hanji: "廟公今仔日透早來開門，才發現錢櫃的鎖予人挵破，內底信徒添油香的錢攏予人偷提去矣。", tailo: "Biō-kong kin-á-ji̍t thàu-tsá lâi khui mn̂g, tsiah huat-hiān tsînn-kuī ê só hōo lâng lòng phuà, lāi-té sìn-tôo thiam-iû-hiunn ê tsînn lóng hōo lâng thau-the̍h--khì--ah.", en: "When the temple keeper came to open up this morning, he found the lock on the money chest smashed and all the offerings from worshippers stolen."}
+  - {n: 17, speaker: Resident, hanji: "夭壽！阮這條巷仔昨昏又閣著賊偷矣。", tailo: "Iáu-siū! Guán tsit tiâu hāng-á tsa-hng iū-koh tio̍h-tsha̍t-thau--ah.", en: "Good grief! Our lane got burgled again yesterday.", source: moe}
+  - {n: 18, speaker: Reporter, hanji: "厝邊講，這个月已經是第三擺，逐家暗時攏睏袂落眠。", tailo: "Tshù-pinn kóng, tsit ê gue̍h í-king sī tē-sann pái, ta̍k-ke àm-sî lóng khùn bē lo̍h-bîn.", en: "Neighbours say it's the third time this month, and nobody can sleep soundly at night."}
+  - {n: 19, speaker: Reporter, hanji: "警察看路口的影片，揣著一个少年人，下晡就佇伊兜共伊掠著。伊佇派出所已經認罪。", tailo: "Kíng-tshat khuànn lōo-kháu ê iánn-phìnn, tshuē-tio̍h tsi̍t ê siàu-liân-lâng, ē-poo tō tī i tau kā i lia̍h--tio̍h. I tī phài-tshut-sóo í-king jīn-tsuē.", en: "Police checked the footage from the crossroads, traced a young man, and arrested him at his home this afternoon. He has confessed at the police station."}
+  - {n: 20, speaker: Temple keeper, hanji: "伊講伊欠人錢，才一時戇去。錢若還轉來，土地公嘛會原諒伊。", tailo: "I kóng i khiàm lâng tsînn, tsiah tsi̍t-sî gōng--khì. Tsînn nā hîng--tńg-lâi, Thóo-tī-kong mā ē guân-liōng--i.", en: "He says he owed people money and lost his head for a moment. If the money comes back, the Earth God will forgive him."}
+  - {n: 21, speaker: Anchor, hanji: "最後一條新聞。昨暝佇高雄，一个司機啉酒醉駛車，挵著路邊三台機車。", tailo: "Tsuè-āu tsi̍t tiâu sin-bûn. Tsa-mê tī Ko-hiông, tsi̍t ê su-ki lim-tsiú-tsuì sái-tshia, lòng-tio̍h lōo-pinn sann tâi ki-tshia.", en: "Our last story. In Kaohsiung last night, a drunk driver crashed into three scooters parked by the road."}
+  - {n: 22, speaker: Reporter, hanji: "好佳哉無人受傷。警察到位的時，伊徛都徛袂好，閣一直講家己無醉。", tailo: "Hó-ka-tsài bô lâng siū-siong. Kíng-tshat kàu-uī ê sî, i khiā to khiā bē hó, koh it-ti̍t kóng ka-kī bô tsuì.", en: "Fortunately nobody was hurt. When the police arrived he couldn't stand up straight, and kept insisting he wasn't drunk."}
+  - {n: 23, speaker: Reporter, hanji: "伊的厝邊嘛講：", tailo: "I ê tshù-pinn mā kóng:", en: "One of his neighbours said:"}
+  - {n: 24, speaker: Neighbour, hanji: "伊若啉酒醉，攏講伊無醉。", tailo: "I nā lim-tsiú-tsuì, lóng kóng i bô tsuì.", en: "Whenever he's drunk, he always says he isn't.", source: moe}
+  - {n: 25, speaker: Reporter, hanji: "照法律，這个司機愛罰款九萬箍，駕照嘛會予人收去。", tailo: "Tsiàu huat-lu̍t, tsit ê su-ki ài hua̍t-khuán káu-bān khoo, kà-tsiàu mā ē hōo lâng siu--khì.", en: "Under the law, the driver faces a fine of ninety thousand dollars and will lose his licence."}
+  - {n: 26, speaker: Anchor, hanji: "明仔載的天氣：寒流猶未走，透早佮暗時攏真寒，中晝有日頭。出門愛加穿一領，嘛愛會記得圍巾。", tailo: "Bîn-á-tsài ê thinn-khì: hân-liû iáu-buē tsáu, thàu-tsá kah àm-sî lóng tsin kuânn, tiong-tàu ū ji̍t-thâu. Tshut-mn̂g ài ke tshīng tsi̍t niá, mā ài ē-kì--tit uî-kin.", en: "Tomorrow's weather: the cold wave hasn't gone yet. Very cold morning and evening, sunny at midday. Wear an extra layer when you go out, and don't forget your scarf."}
+  - {n: 27, speaker: Anchor, hanji: "今仔日的新聞就報到遮，多謝收看，咱明仔載閣會。", tailo: "Kin-á-ji̍t ê sin-bûn tō pò kàu tsia, to-siā siu-khuànn, lán bîn-á-tsài koh huē.", en: "That's all the news for today. Thank you for watching, and see you tomorrow."}
+notes:
+  - {ref: 1, topic: vocab, text: "News register: 各位觀眾 kok-uī kuan-tsiòng 'dear viewers' (on radio, 各位聽眾, 進修 5). 收看 siu-khuànn = watch (a programme). Taigi newsreaders use many Sino-Taiwanese words read the literary way: 觀眾, 法律, 認罪."}
+  - {ref: 2, topic: vocab, text: "寒流 hân-liû = cold wave, cold front from the north. 冷吱吱 líng-ki-ki = freezing, icy cold (冷冰冰): 跤尾冷吱吱 'icy feet'. 平地 pênn-tē = the plains, low ground. 度 tōo = degree."}
+  - {ref: 3, topic: vocab, text: "頷頸 ām-kún = neck, Taigi-only: 頷頸長 'long-necked'. 圍巾 uî-kin = scarf; 圍 uî = wrap round: 圍圍巾 'wear a scarf'. 兩三領衫 'two or three layers' (領, 進修 3)."}
+  - {ref: 4, topic: vocab, text: "懸山 kuân suann = high mountains. 落雪 lo̍h-seh = snow (like 落雨): Taiwan's highest peaks get snow in a cold wave, and people drive up to see it."}
+  - {ref: 6, topic: grammar, text: "從到今 tsîng-kàu-tann = up to now, never in all this time (到今, 進修 2). 毋捌 + V + 過 = have never done. Quoted from the MOE dictionary."}
+  - {ref: 7, topic: vocab, text: "提醒 thê-tshénn = remind, warn. 棉襀被 mî-tsioh-phuē = (cotton) quilt, the usual winter cover; 蓋予燒 'cover up warm'. 燒水 sio-tsuí = hot water: 燒 sio is 'hot' to the touch, while 熱 jua̍h is hot weather."}
+  - {ref: 8, topic: vocab, text: "老人 lāu-lâng = old people, the elderly; neutral, unlike 老歲仔 lāu-huè-á, which can sound disrespectful."}
+  - {ref: 9, topic: vocab, text: "好年冬 hó-nî-tang = a good harvest year; 歹年冬 pháinn-nî-tang = a bad year (line 14). 年冬 nî-tang means a year as measured by its harvest. MOE proverb: 歹年冬厚痟人 'bad years breed madmen'."}
+  - {ref: 10, topic: vocab, text: "甘蔗 kam-tsià = sugarcane. 刐 táinn = chop, cut with a blade: 刐甘蔗 'cut cane'. 捆 khún = bundle: 一捆一捆 'bundle by bundle'. 擔 tann = carry on a shoulder pole, as in 進修 2. 糖廠 thn̂g-tshiúnn = sugar mill: note tshiúnn for 廠."}
+  - {ref: 11, topic: vocab, text: "雨水 hōo-tsuí = rain, rainfall. 三成 sann siânn = thirty per cent: 成 siânn = a tenth, ten per cent (not sîng 'succeed'). 無趁 bô thàn 'earn nothing' (趁, lesson 69)."}
+  - {ref: 12, topic: vocab, text: "拍損 phah-sńg = waste (浪費): 毋通拍損物件 'don't waste things'; also 'what a pity' (真拍損！), said for instance when someone dies young. A close synonym of 討債 thó-tsè."}
+  - {ref: 14, topic: culture, text: "甘蔗無雙頭甜 'sugarcane isn't sweet at both ends': you can't have everything. A proverb from the MOE dictionary. 雙頭 siang-thâu = both ends."}
+  - {ref: 15, topic: culture, text: "土地公 Thóo-tī-kong = the Earth God, guardian of a neighbourhood or a field; small 土地公廟仔 are everywhere. Shopkeepers make offerings to him on the 2nd and 16th of each lunar month. 著賊偷 tio̍h-tsha̍t-thau = be burgled ('suffer a thief')."}
+  - {ref: 16, topic: vocab, text: "廟公 biō-kong = temple keeper. 錢櫃 tsînn-kuī = money chest, strongbox; 鎖 só = lock (鎖匙 só-sî 'key'). 添油香 thiam-iû-hiunn = make a donation to a temple ('add oil and incense'); 信徒 sìn-tôo = worshippers, believers. 偷提 thau-the̍h = steal."}
+  - {ref: 17, topic: vocab, text: "夭壽 iáu-siū literally means 'die young', but as an exclamation it is 'good grief!, damn!', and as an adverb 'terribly' (夭壽好食 'insanely good'). Not polite in front of elders. Quoted from the MOE dictionary."}
+  - {ref: 18, topic: vocab, text: "睏袂落眠 khùn bē lo̍h-bîn = can't get a deep sleep: 落眠 lo̍h-bîn = fall into a deep sleep."}
+  - {ref: 19, topic: vocab, text: "影片 iánn-phìnn = video, footage (and 'film'). 派出所 phài-tshut-sóo = police station (the local one). 認罪 jīn-tsuē = confess, plead guilty. 掠著 lia̍h--tio̍h = catch, arrest."}
+  - {ref: 20, topic: grammar, text: "一時戇去 tsi̍t-sî gōng--khì = lose one's head for a moment ('go stupid for a while'). 還轉來 hîng--tńg-lâi = give back, return (money): 還 hîng = repay."}
+  - {ref: 21, topic: vocab, text: "酒醉 tsiú-tsuì = drunk; 啉酒醉 lim-tsiú-tsuì = get drunk; 燒酒醉 sio-tsiú-tsuì = drunk (on spirits). 駛車 sái-tshia = drive a car: 駛 sái is the verb for driving vehicles and steering boats. 司機 su-ki = driver."}
+  - {ref: 22, topic: grammar, text: "徛都徛袂好 'couldn't even stand up properly': V 都 V 袂 … repeats the verb for 'not even'. 到位 kàu-uī = arrive (at the place). 受傷 siū-siong = be injured."}
+  - {ref: 25, topic: vocab, text: "罰款 hua̍t-khuán = a fine; 罰 hua̍t = fine, punish. 駕照 kà-tsiàu = driving licence. 照法律 tsiàu huat-lu̍t = according to the law."}
+  - {ref: 27, topic: culture, text: "Sign-off: 今仔日的新聞就報到遮 'that's all the news for today'; 咱明仔載閣會 'see you tomorrow' (會 huē 'meet')."}
+new_words:
+  - {tailo: kuan-tsiòng, hanji: 觀眾, en: "viewers, audience"}
+  - {tailo: siu-khuànn, hanji: 收看, en: "watch (a programme)"}
+  - {tailo: hân-liû, hanji: 寒流, en: "cold wave"}
+  - {tailo: líng-ki-ki, hanji: 冷吱吱, en: "freezing, icy cold"}
+  - {tailo: pênn-tē, hanji: 平地, en: "the plains, low ground"}
+  - {tailo: ām-kún, hanji: 頷頸, en: "neck"}
+  - {tailo: uî-kin, hanji: 圍巾, en: "scarf"}
+  - {tailo: kuân suann, hanji: 懸山, en: "high mountains"}
+  - {tailo: lo̍h-seh, hanji: 落雪, en: "snow, be snowing"}
+  - {tailo: thê-tshénn, hanji: 提醒, en: "remind, warn"}
+  - {tailo: mî-tsioh-phuē, hanji: 棉襀被, en: "quilt"}
+  - {tailo: sio-tsuí, hanji: 燒水, en: "hot water"}
+  - {tailo: lāu-lâng, hanji: 老人, en: "old people, the elderly"}
+  - {tailo: kam-tsià, hanji: 甘蔗, en: "sugarcane"}
+  - {tailo: hó-nî-tang, hanji: 好年冬, en: "good harvest year"}
+  - {tailo: pháinn-nî-tang, hanji: 歹年冬, en: "bad harvest year"}
+  - {tailo: táinn, hanji: 刐, en: "chop, cut (with a blade)"}
+  - {tailo: khún, hanji: 捆, en: "bundle; tie up"}
+  - {tailo: thn̂g-tshiúnn, hanji: 糖廠, en: "sugar mill"}
+  - {tailo: hōo-tsuí, hanji: 雨水, en: "rain, rainfall"}
+  - {tailo: siânn, hanji: 成, en: "ten per cent"}
+  - {tailo: phah-sńg, hanji: 拍損, en: "waste; what a pity"}
+  - {tailo: siang-thâu, hanji: 雙頭, en: "both ends"}
+  - {tailo: Thóo-tī-kong, hanji: 土地公, en: "the Earth God"}
+  - {tailo: tio̍h-tsha̍t-thau, hanji: 著賊偷, en: "be burgled"}
+  - {tailo: biō-kong, hanji: 廟公, en: "temple keeper"}
+  - {tailo: tsînn-kuī, hanji: 錢櫃, en: "money chest, strongbox"}
+  - {tailo: só, hanji: 鎖, en: "lock"}
+  - {tailo: sìn-tôo, hanji: 信徒, en: "worshippers, believers"}
+  - {tailo: thiam-iû-hiunn, hanji: 添油香, en: "make a donation to a temple"}
+  - {tailo: thau-the̍h, hanji: 偷提, en: "steal"}
+  - {tailo: iáu-siū, hanji: 夭壽, en: "good grief!; terribly"}
+  - {tailo: lo̍h-bîn, hanji: 落眠, en: "sleep deeply"}
+  - {tailo: iánn-phìnn, hanji: 影片, en: "video, footage"}
+  - {tailo: phài-tshut-sóo, hanji: 派出所, en: "police station"}
+  - {tailo: jīn-tsuē, hanji: 認罪, en: "confess, plead guilty"}
+  - {tailo: hîng, hanji: 還, en: "give back, repay"}
+  - {tailo: tsiú-tsuì, hanji: 酒醉, en: "drunk"}
+  - {tailo: sái, hanji: 駛, en: "drive (a vehicle)"}
+  - {tailo: su-ki, hanji: 司機, en: "driver"}
+  - {tailo: siū-siong, hanji: 受傷, en: "be injured"}
+  - {tailo: hua̍t-khuán, hanji: 罰款, en: "fine"}
+  - {tailo: kà-tsiàu, hanji: 駕照, en: "driving licence"}
+  - {tailo: huat-lu̍t, hanji: 法律, en: "the law"}
+exercises:
+  translate:
+    - {tailo: "Tsin tsē lâng ām-kún uî uî-kin, tshīng nn̄g-sann niá sann tsiah tshut-mn̂g.", hanji: "真濟人頷頸圍圍巾，穿兩三領衫才出門。", en: "Lots of people wear scarves round their necks and two or three layers before they go out."}
+    - {tailo: "Ū--ê lâng kui-khì m̄ táinn--ah, si̍t-tsāi tsin phah-sńg.", hanji: "有的人規氣毋刐矣，實在真拍損。", en: "Some people aren't even bothering to cut it. It's a real waste."}
+    - {tailo: "Hó-nî-tang kè-siàu tō pháinn, pháinn-nî-tang siu-sîng tō tsió.", hanji: "好年冬價數就歹，歹年冬收成就少。", en: "In a good year the price is bad, in a bad year the harvest is small."}
+    - {tailo: "Tsit ê gue̍h í-king sī tē-sann pái, ta̍k-ke àm-sî lóng khùn bē lo̍h-bîn.", hanji: "這个月已經是第三擺，逐家暗時攏睏袂落眠。", en: "It's the third time this month, and nobody can sleep soundly at night."}
+    - {tailo: "Tsit ê su-ki lim-tsiú-tsuì sái-tshia.", hanji: "這个司機啉酒醉駛車。", en: "This driver was driving drunk."}
+  fill:
+    - {tailo: "Kui-ê Tâi-uân ___.", hanji: "規个臺灣___。", answer: "líng-ki-ki", answer_hanji: "冷吱吱", en: "The whole of Taiwan is freezing."}
+    - {tailo: "Àm-sî khùn ê sî ___ ài kah hōo sio.", hanji: "暗時睏的時___愛蓋予燒。", answer: "mî-tsioh-phuē", answer_hanji: "棉襀被", en: "Keep well tucked up under the quilt at night."}
+    - {tailo: "Thn̂g-tshiúnn siu ê kè-siàu pí kū-nî tsió sann ___.", hanji: "糖廠收的價數比舊年少三___。", answer: "siânn", answer_hanji: "成", en: "The mill is paying thirty per cent less than last year."}
+    - {tailo: "Tâi-lâm tsi̍t king Thóo-tī-kong biō-á, tsa-hng puànn-mê ___.", hanji: "臺南一間土地公廟仔，昨昏半暝___。", answer: "tio̍h-tsha̍t-thau", answer_hanji: "著賊偷", en: "A small Earth God temple in Tainan was burgled in the middle of last night."}
+    - {tailo: "I tī phài-tshut-sóo í-king ___.", hanji: "伊佇派出所已經___。", answer: "jīn-tsuē", answer_hanji: "認罪", en: "He has confessed at the police station."}
+audio: []

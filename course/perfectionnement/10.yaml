@@ -1,0 +1,114 @@
+id: 10
+title: {en: "The story of Pe̍h-uē-jī", tailo: "Pe̍h-uē-jī ê kòo-sū", hanji: "白話字的故事"}
+genre: article
+review: false
+setting: "An article from a Taigi magazine for learners, on the romanisation the churches brought to Taiwan and how it led to the Tâi-lô used in this course."
+dialogue:
+  - {n: 1, hanji: "你今仔日讀的 Tâi-lô，毋是對天頂跋落來的。伊的阿公，叫做白話字。", tailo: "Lí kin-á-ji̍t tha̍k ê Tâi-lô, m̄ sī uì thinn-tíng pua̍h--lo̍h-lâi--ê. I ê a-kong, kiò-tsò Pe̍h-uē-jī.", en: "The Tâi-lô you read today didn't fall out of the sky. Its grandfather is called Pe̍h-uē-jī."}
+  - {n: 2, hanji: "十九世紀的時，有真濟西洋的牧師坐船來到東爿的國家，欲傳耶穌的道理。", tailo: "Tsa̍p-káu sè-kí ê sî, ū tsin tsē se-iûnn ê bo̍k-su tsē tsûn lâi-kàu tang-pîng ê kok-ka, beh thuân Iâ-soo ê tō-lí.", en: "In the nineteenth century, many Western missionaries came by ship to the countries of the East to spread the teachings of Jesus."}
+  - {n: 3, hanji: "毋過當時的普通人，真濟攏是青盲牛，看無漢字，閣較免講讀聖經。", tailo: "M̄-koh tong-sî ê phóo-thong lâng, tsin tsē lóng sī tshenn-mê-gû, khuànn bô hàn-jī, koh-khah bián kóng tha̍k sìng-king.", en: "But most ordinary people at the time couldn't read: they couldn't make out Chinese characters, let alone read the Bible."}
+  - {n: 4, hanji: "漢字愛讀幾若冬才會曉，干焦有錢人的囡仔栽有法度去學堂讀冊。", tailo: "Hàn-jī ài tha̍k kuí-nā tang tsiah ē hiáu, kan-na ū-tsînn-lâng ê gín-á-tsai ū huat-tōo khì o̍h-tn̂g tha̍k-tsheh.", en: "Characters take years of study to master, and only the children of the well-off could go to school."}
+  - {n: 5, hanji: "牧師就想一个方法：用羅馬字母來寫逐家喙裡講的白話。", tailo: "Bo̍k-su tō siūnn tsi̍t ê hong-huat: iōng Lô-má jī-bú lâi siá ta̍k-ke tshuì--lí kóng ê pe̍h-uē.", en: "So the missionaries came up with a method: write the everyday speech in everyone's mouths with the letters of the Roman alphabet."}
+  - {n: 6, hanji: "這款文字就是白話字。伊較早佇福建的廈門就有人咧用，後來綴牧師來到臺灣。", tailo: "Tsit khuán bûn-jī tō sī Pe̍h-uē-jī. I khah-tsá tī Hok-kiàn ê Ē-mn̂g tō ū lâng teh iōng, āu--lâi tuè bo̍k-su lâi-kàu Tâi-uân.", en: "That writing is Pe̍h-uē-jī. It was already in use earlier in Amoy, in Fujian, and later came to Taiwan with the missionaries."}
+  - {n: 7, hanji: "白話字的字母無濟，規則簡單。普通人學幾若禮拜，上濟幾個月，就會當讀冊、寫批。", tailo: "Pe̍h-uē-jī ê jī-bú bô tsē, kui-tsik kán-tan. Phóo-thong lâng o̍h kuí-nā lé-pài, siōng tsē kuí kò gue̍h, tō ē-tàng tha̍k-tsheh, siá phue.", en: "Pe̍h-uē-jī has few letters and simple rules. Ordinary people could read books and write letters after a few weeks, a few months at most."}
+  - {n: 8, hanji: "庄跤的阿伯、灶跤的婦人人，攏總變做會曉讀的人。這佇當時是真大的代誌。", tailo: "Tsng-kha ê a-peh, tsàu-kha ê hū-jîn-lâng, lóng-tsóng piàn-tsò ē-hiáu tha̍k ê lâng. Tse tī tong-sî sī tsin tuā ê tāi-tsì.", en: "Old men in the countryside and women in their kitchens all became people who could read. At the time, that was a very big thing."}
+  - {n: 9, hanji: "早期的牧師有真濟嘛是醫生。佇南部，𪜶開醫生館共人看病；佇北部，有一位牧師上出名的是共人挽喙齒。", tailo: "Tsá-kî ê bo̍k-su ū tsin tsē mā sī i-sing. Tī lâm-pōo, in khui i-sing-kuán kā lâng khuànn-pēnn; tī pak-pōo, ū tsi̍t uī bo̍k-su siōng tshut-miâ--ê sī kā lâng bán tshuì-khí.", en: "Many of the early missionaries were also doctors. In the south they opened clinics to treat the sick; in the north, one missionary was best known for pulling people's teeth."}
+  - {n: 10, hanji: "人的喙齒無疼矣，就較愛聽牧師講上帝的代誌。", tailo: "Lâng ê tshuì-khí bô thiànn--ah, tō khah ài thiann bo̍k-su kóng Siōng-tè ê tāi-tsì.", en: "Once their teeth stopped hurting, people were more willing to listen to what the missionary had to say about God."}
+  - {n: 11, hanji: "一八八五年，一位牧師佇臺南用白話字印報紙，叫做《臺灣府城教會報》。", tailo: "It-pat-pat-ngóo nî, tsi̍t uī bo̍k-su tī Tâi-lâm iōng Pe̍h-uē-jī ìn pò-tsuá, kiò-tsò “Tâi-uân Hú-siânn Kàu-huē-pò”.", en: "In 1885 a missionary in Tainan began printing a newspaper in Pe̍h-uē-jī, called the Taiwan Prefectural City Church News."}
+  - {n: 12, hanji: "這是臺灣頭一份佇本地印刷的報紙，到今猶閣有咧出。", tailo: "Tse sī Tâi-uân thâu tsi̍t hūn tī pún-tē ìn-suat ê pò-tsuá, kàu-tann iáu-koh ū teh tshut.", en: "It was the first newspaper printed in Taiwan, and it is still published today."}
+  - {n: 13, hanji: "報紙內底毋但有信仰的文章，閣有新聞、衛生的智識、故事佮歌詩。", tailo: "Pò-tsuá lāi-té m̄-nā ū sìn-gióng ê bûn-tsiunn, koh ū sin-bûn, uē-sing ê tì-sik, kòo-sū kah kua-si.", en: "The paper carried not only articles on faith, but also news, health advice, stories and songs."}
+  - {n: 14, hanji: "後來，有人用白話字翻譯規本聖經，嘛有人寫小說、編字典、寫醫學的冊。", tailo: "Āu--lâi, ū lâng iōng Pe̍h-uē-jī huan-i̍k kui pún sìng-king, mā ū lâng siá sió-suat, pian jī-tián, siá i-ha̍k ê tsheh.", en: "Later the whole Bible was translated into Pe̍h-uē-jī, and people wrote novels, compiled dictionaries and wrote medical books in it."}
+  - {n: 15, hanji: "毋是信基督教的人，嘛有人用白話字寫批、記數。", tailo: "M̄ sī sìn Ki-tok-kàu ê lâng, mā ū lâng iōng Pe̍h-uē-jī siá phue, kì-siàu.", en: "Even people who weren't Christians used Pe̍h-uē-jī to write letters and keep accounts."}
+  - {n: 16, hanji: "這寡文獻，這馬是研究台語的寶貝。", tailo: "Tsit kuá bûn-hiàn, tsit-má sī gián-kiù Tâi-gí ê pó-puè.", en: "These documents are now a treasure for anyone studying Taigi."}
+  - {n: 17, hanji: "毋過白話字的路，毋是一直遐爾好行。", tailo: "M̄-koh Pe̍h-uē-jī ê lōo, m̄ sī it-ti̍t hiah-nī hó kiânn.", en: "But the road for Pe̍h-uē-jī was not always so smooth."}
+  - {n: 18, hanji: "戰後，政府推廣國語，學校內底講台語會予人罰。", tailo: "Tsiàn-āu, tsìng-hú thui-kóng kok-gí, ha̍k-hāu lāi-té kóng Tâi-gí ē hōo lâng hua̍t.", en: "After the war, the government promoted Mandarin, and children who spoke Taigi at school were punished."}
+  - {n: 19, hanji: "一九七〇年代，政府閣禁止用羅馬字寫的聖經，連教會的聖經嘛予人沒收。", tailo: "It-kiú-tshit-khòng nî-tāi, tsìng-hú koh kìm-tsí iōng Lô-má-jī siá ê sìng-king, liân kàu-huē ê sìng-king mā hōo lâng bu̍t-siu.", en: "In the 1970s the government even banned Bibles written in romanisation, and church Bibles were confiscated."}
+  - {n: 20, hanji: "毋過真濟家庭佇冊房內底偷偷仔收起來，教囡仔讀，白話字才無斷去。", tailo: "M̄-koh tsin tsē ka-tîng tī tsheh-pâng lāi-té thau-thau-á siu--khí-lâi, kà gín-á tha̍k, Pe̍h-uē-jī tsiah bô tn̄g--khì.", en: "But many families hid their copies away in their studies and taught their children to read them, and so Pe̍h-uē-jī was never lost."}
+  - {n: 21, hanji: "到二〇〇六年，教育部公告台語的羅馬字方案，就是 Tâi-lô。", tailo: "Kàu jī-khòng-khòng-la̍k nî, Kàu-io̍k-pōo kong-kò Tâi-gí ê Lô-má-jī hong-àn, tō sī Tâi-lô.", en: "In 2006, the Ministry of Education published an official romanisation for Taigi: Tâi-lô."}
+  - {n: 22, hanji: "Tâi-lô 是根據白話字改良的，大部份攏仝款，干焦幾个所在無仝。", tailo: "Tâi-lô sī kin-kì Pe̍h-uē-jī kái-liông--ê, tuā-pōo-hūn lóng kāng-khuán, kan-na kuí ê sóo-tsāi bô kāng.", en: "Tâi-lô is an improved version of Pe̍h-uē-jī. Most of it is the same; only a few points differ."}
+  - {n: 23, hanji: "比論講，「清」這字，白話字的寫法佮 Tâi-lô 無仝，毋過讀音完全仝款。", tailo: "Pí-lūn kóng, “tshing” tsit jī, Pe̍h-uē-jī ê siá-huat kah Tâi-lô bô kāng, m̄-koh tha̍k-im uân-tsuân kāng-khuán.", en: "Take the word 清 'clear': Pe̍h-uē-jī spells it differently from Tâi-lô, but it is pronounced exactly the same."}
+  - {n: 24, hanji: "所以你若學會曉 Tâi-lô，看白話字的古冊嘛袂費氣，一百外冬前的報紙，你嘛讀會落去。", tailo: "Sóo-í lí nā o̍h ē-hiáu Tâi-lô, khuànn Pe̍h-uē-jī ê kóo-tsheh mā bē huì-khì; tsi̍t-pah-guā tang tsîng ê pò-tsuá, lí mā tha̍k ē lo̍h--khì.", en: "So once you've learnt Tâi-lô, old books in Pe̍h-uē-jī won't give you much trouble: you can read newspapers from over a hundred years ago."}
+  - {n: 25, hanji: "現代人用手機仔拍字，羅馬字閣變做上利便的寫法。", tailo: "Hiān-tāi lâng iōng tshiú-ki-á phah-jī, Lô-má-jī koh piàn-tsò siōng lī-piān ê siá-huat.", en: "Now that people type on their phones, romanisation has once again become the handiest way to write."}
+  - {n: 26, hanji: "一百外冬前，牧師欲予青盲牛會曉讀冊；這馬，伊煞予咱這寡外國學生，會當讀台語。", tailo: "Tsi̍t-pah-guā tang tsîng, bo̍k-su beh hōo tshenn-mê-gû ē-hiáu tha̍k-tsheh; tsit-má, i suah hōo lán tsit kuá guā-kok ha̍k-sing, ē-tàng tha̍k Tâi-gí.", en: "Over a hundred years ago, the missionaries wanted to teach the illiterate to read; today, it's what lets foreign students like us read Taigi."}
+notes:
+  - {ref: 1, topic: vocab, text: "白話字 Pe̍h-uē-jī = 'vernacular writing', the church romanisation of Taigi (POJ). In its own spelling it is Pe̍h-ōe-jī. 對天頂跋落來 'fall from the sky', i.e. appear from nowhere."}
+  - {ref: 2, topic: vocab, text: "世紀 sè-kí = century. 西洋 se-iûnn = the West, Western. 牧師 bo̍k-su = pastor, (Protestant) missionary. 傳 thuân = spread, pass on; 道理 tō-lí = teachings, doctrine. 耶穌 Iâ-soo = Jesus."}
+  - {ref: 3, topic: vocab, text: "青盲牛 tshenn-mê-gû = an illiterate person, literally 'blind ox'; 青盲 tshenn-mê = blind. It is blunt, so use it about the past, as here, not about someone in front of you. 閣較免講 'let alone, still less'. 聖經 sìng-king = the Bible."}
+  - {ref: 4, topic: vocab, text: "囡仔栽 gín-á-tsai = young children, kids ('child seedlings'). 學堂 o̍h-tn̂g = school (older word). 幾若冬 kuí-nā tang = several years."}
+  - {ref: 5, topic: vocab, text: "字母 jī-bú = letter of an alphabet: 羅馬字母 'the Roman alphabet'. 白話 pe̍h-uē = the spoken vernacular, as opposed to the literary language."}
+  - {ref: 6, topic: culture, text: "Amoy (廈門 Ē-mn̂g, Xiamen) in Fujian, across the strait, speaks a dialect very close to Taigi. Missionaries used the romanisation there before it reached Taiwan in the 1860s."}
+  - {ref: 7, topic: vocab, text: "規則 kui-tsik = rules. 上濟 siōng tsē = at most."}
+  - {ref: 8, topic: vocab, text: "攏總 lóng-tsóng = all, all together (lesson 38)."}
+  - {ref: 9, topic: culture, text: "早期 tsá-kî = early period. 醫生館 i-sing-kuán = a doctor's clinic (older word). 挽喙齒 bán tshuì-khí = pull teeth: 挽 bán = pull out, pluck (挽茶 'pick tea'). In the north the Canadian missionary George Leslie Mackay, who settled in Tamsui in 1872, famously pulled thousands of teeth."}
+  - {ref: 10, topic: vocab, text: "上帝 Siōng-tè = God (in Christian use)."}
+  - {ref: 11, topic: culture, text: "The 《臺灣府城教會報》 was founded in Tainan in 1885 by the Scottish missionary Thomas Barclay. Its successor, the Taiwan Church News (台灣教會公報), still appears every week. 印 ìn = print."}
+  - {ref: 12, topic: vocab, text: "印刷 ìn-suat = printing (note suat). 本地 pún-tē = local. 份 hūn = classifier for newspapers. 出 tshut = come out, be published."}
+  - {ref: 13, topic: vocab, text: "信仰 sìn-gióng = faith, religious belief. 衛生 uē-sing = hygiene, health. 智識 tì-sik = knowledge (知識): note the character 智. 歌詩 kua-si = songs, verses (often in four-line stanzas); in church use, hymns."}
+  - {ref: 14, topic: vocab, text: "翻譯 huan-i̍k = translate. 小說 sió-suat = novel. 編 pian = compile. 字典 jī-tián = dictionary (of characters); 辭典 (lesson 93) is a dictionary of words."}
+  - {ref: 15, topic: vocab, text: "基督教 Ki-tok-kàu = (Protestant) Christianity; 信基督教 'be a Christian'. 記數 kì-siàu = keep accounts."}
+  - {ref: 16, topic: vocab, text: "文獻 bûn-hiàn = documents, written records."}
+  - {ref: 18, topic: culture, text: "戰後 tsiàn-āu = after the war (after 1945). From the 1950s, under the 國語 kok-gí ('national language', Mandarin) policy, pupils who spoke Taigi at school were fined or made to wear a placard. 推廣 thui-kóng = promote."}
+  - {ref: 19, topic: vocab, text: "禁止 kìm-tsí = forbid, ban. 沒收 bu̍t-siu = confiscate. 教會 kàu-huē = church (the community)."}
+  - {ref: 20, topic: vocab, text: "冊房 tsheh-pâng = study, a room for books. 偷偷仔 thau-thau-á = secretly. 收起來 siu--khí-lâi = put away, hide."}
+  - {ref: 21, topic: culture, text: "In October 2006 the Ministry of Education published the Tâi-lô scheme (台灣閩南語羅馬字拼音方案). 公告 kong-kò = officially announce; 方案 hong-àn = scheme, plan."}
+  - {ref: 22, topic: vocab, text: "根據 kin-kì = based on. 改良 kái-liông = improve. 大部份 tuā-pōo-hūn = for the most part."}
+  - {ref: 23, topic: pronunciation, text: "The main differences: POJ ch / chh = Tâi-lô ts / tsh; POJ oa, oe = ua, ue (白話字 Pe̍h-ōe-jī = Pe̍h-uē-jī); POJ o͘ (o with a dot) = oo; POJ ⁿ = nn; POJ ek, eng = ik, ing. So 清 is chheng in POJ and tshing in Tâi-lô."}
+  - {ref: 24, topic: vocab, text: "費氣 huì-khì = troublesome, a bother (麻煩): 真費氣 'what a hassle'; also a polite 'sorry to trouble you'. 古冊 kóo-tsheh = old books. 讀會落去 tha̍k ē lo̍h--khì = be able to read through."}
+  - {ref: 25, topic: vocab, text: "現代 hiān-tāi = modern times. 拍字 phah-jī = type. 利便 lī-piān = convenient, handy (方便): the characters are reversed from Mandarin 便利."}
+new_words:
+  - {tailo: Pe̍h-uē-jī, hanji: 白話字, en: "church romanisation (POJ)"}
+  - {tailo: sè-kí, hanji: 世紀, en: "century"}
+  - {tailo: se-iûnn, hanji: 西洋, en: "the West, Western"}
+  - {tailo: bo̍k-su, hanji: 牧師, en: "pastor, missionary"}
+  - {tailo: thuân, hanji: 傳, en: "spread, pass on"}
+  - {tailo: tō-lí, hanji: 道理, en: "teachings; reason"}
+  - {tailo: Iâ-soo, hanji: 耶穌, en: "Jesus"}
+  - {tailo: tong-sî, hanji: 當時, en: "at that time"}
+  - {tailo: tshenn-mê-gû, hanji: 青盲牛, en: "illiterate person"}
+  - {tailo: sìng-king, hanji: 聖經, en: "the Bible"}
+  - {tailo: gín-á-tsai, hanji: 囡仔栽, en: "young children"}
+  - {tailo: o̍h-tn̂g, hanji: 學堂, en: "school (older word)"}
+  - {tailo: jī-bú, hanji: 字母, en: "letter (of an alphabet)"}
+  - {tailo: pe̍h-uē, hanji: 白話, en: "the spoken vernacular"}
+  - {tailo: kui-tsik, hanji: 規則, en: "rule"}
+  - {tailo: tsá-kî, hanji: 早期, en: "early period"}
+  - {tailo: i-sing-kuán, hanji: 醫生館, en: "doctor's clinic"}
+  - {tailo: bán, hanji: 挽, en: "pull out, pluck"}
+  - {tailo: Siōng-tè, hanji: 上帝, en: "God"}
+  - {tailo: ìn, hanji: 印, en: "print"}
+  - {tailo: ìn-suat, hanji: 印刷, en: "printing"}
+  - {tailo: pún-tē, hanji: 本地, en: "local"}
+  - {tailo: sìn-gióng, hanji: 信仰, en: "faith, belief"}
+  - {tailo: tì-sik, hanji: 智識, en: "knowledge"}
+  - {tailo: kua-si, hanji: 歌詩, en: "songs, verses; hymns"}
+  - {tailo: huan-i̍k, hanji: 翻譯, en: "translate"}
+  - {tailo: sió-suat, hanji: 小說, en: "novel"}
+  - {tailo: jī-tián, hanji: 字典, en: "dictionary (of characters)"}
+  - {tailo: Ki-tok-kàu, hanji: 基督教, en: "Christianity"}
+  - {tailo: bûn-hiàn, hanji: 文獻, en: "documents, written records"}
+  - {tailo: tsiàn-āu, hanji: 戰後, en: "after the war"}
+  - {tailo: thui-kóng, hanji: 推廣, en: "promote"}
+  - {tailo: kok-gí, hanji: 國語, en: "Mandarin ('national language')"}
+  - {tailo: kìm-tsí, hanji: 禁止, en: "forbid, ban"}
+  - {tailo: bu̍t-siu, hanji: 沒收, en: "confiscate"}
+  - {tailo: tsheh-pâng, hanji: 冊房, en: "study (room)"}
+  - {tailo: kin-kì, hanji: 根據, en: "based on"}
+  - {tailo: kái-liông, hanji: 改良, en: "improve"}
+  - {tailo: huì-khì, hanji: 費氣, en: "troublesome, a bother"}
+  - {tailo: kóo-tsheh, hanji: 古冊, en: "old books"}
+  - {tailo: hiān-tāi, hanji: 現代, en: "modern times"}
+  - {tailo: lī-piān, hanji: 利便, en: "convenient, handy"}
+exercises:
+  translate:
+    - {tailo: "Tsin tsē lóng sī tshenn-mê-gû, khuànn bô hàn-jī.", hanji: "真濟攏是青盲牛，看無漢字。", en: "Many couldn't read; they couldn't make out Chinese characters."}
+    - {tailo: "Bo̍k-su tō siūnn tsi̍t ê hong-huat: iōng Lô-má jī-bú lâi siá pe̍h-uē.", hanji: "牧師就想一个方法：用羅馬字母來寫白話。", en: "So the missionaries came up with a method: write the vernacular in Roman letters."}
+    - {tailo: "Tī pak-pōo, ū tsi̍t uī bo̍k-su siōng tshut-miâ--ê sī kā lâng bán tshuì-khí.", hanji: "佇北部，有一位牧師上出名的是共人挽喙齒。", en: "In the north, one missionary was best known for pulling people's teeth."}
+    - {tailo: "Tsit kuá bûn-hiàn, tsit-má sī gián-kiù Tâi-gí ê pó-puè.", hanji: "這寡文獻，這馬是研究台語的寶貝。", en: "These documents are now a treasure for anyone studying Taigi."}
+    - {tailo: "Lí nā o̍h ē-hiáu Tâi-lô, khuànn Pe̍h-uē-jī ê kóo-tsheh mā bē huì-khì.", hanji: "你若學會曉 Tâi-lô，看白話字的古冊嘛袂費氣。", en: "Once you've learnt Tâi-lô, old books in Pe̍h-uē-jī won't give you much trouble."}
+  fill:
+    - {tailo: "Kan-na ū-tsînn-lâng ê ___ ū huat-tōo khì o̍h-tn̂g tha̍k-tsheh.", hanji: "干焦有錢人的___有法度去學堂讀冊。", answer: "gín-á-tsai", answer_hanji: "囡仔栽", en: "Only the children of the well-off could go to school."}
+    - {tailo: "Ū lâng iōng Pe̍h-uē-jī ___ kui pún sìng-king.", hanji: "有人用白話字___規本聖經。", answer: "huan-i̍k", answer_hanji: "翻譯", en: "The whole Bible was translated into Pe̍h-uē-jī."}
+    - {tailo: "Tsìng-hú koh ___ iōng Lô-má-jī siá ê sìng-king.", hanji: "政府閣___用羅馬字寫的聖經。", answer: "kìm-tsí", answer_hanji: "禁止", en: "The government even banned Bibles written in romanisation."}
+    - {tailo: "Tâi-lô sī ___ Pe̍h-uē-jī kái-liông--ê.", hanji: "Tâi-lô 是___白話字改良的。", answer: "kin-kì", answer_hanji: "根據", en: "Tâi-lô is an improved version of Pe̍h-uē-jī."}
+    - {tailo: "Lô-má-jī koh piàn-tsò siōng ___ ê siá-huat.", hanji: "羅馬字閣變做上___的寫法。", answer: "lī-piān", answer_hanji: "利便", en: "Romanisation has once again become the handiest way to write."}
+audio: []

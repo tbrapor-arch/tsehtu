@@ -1,0 +1,98 @@
+id: 11
+title: {en: "A thousand for the house, ten thousand for the neighbours", tailo: "Tshian kim bé tshù, bān kim bé tshù-pinn", hanji: "千金買厝，萬金買厝邊"}
+genre: document
+review: false
+setting: "The notice board by the lift in Sam's block of flats in Taipei: a notice from the residents' committee, and the notes residents have stuck underneath it during the week."
+dialogue:
+  - {n: 1, speaker: Notice, hanji: "各位住戶逐家好：為著予咱的公寓較清氣、較安全，管理委員會拜託逐家遵守下面幾項。", tailo: "Kok-uī tsū-hōo ta̍k-ke hó: uī-tio̍h hōo lán ê kong-gū khah tshing-khì, khah an-tsuân, kuán-lí uí-uân-huē pài-thok ta̍k-ke tsun-siú ē-bīn kuí hāng.", en: "Dear residents: to keep our building cleaner and safer, the residents' committee asks everyone to observe the following points."}
+  - {n: 2, speaker: Notice, hanji: "一、管理費逐個月十號以前愛繳。超過期限，一律加收一百箍。", tailo: "It, kuán-lí-huì ta̍k kò gue̍h tsa̍p hō í-tsîng ài kiáu. Tshiau-kuè kî-hān, it-lu̍t ke siu tsi̍t-pah khoo.", en: "1. Service charges are due by the 10th of each month. Late payments will be charged an extra 100 dollars, without exception."}
+  - {n: 3, speaker: Notice, hanji: "二、大門的鎖匙若拍無去，愛隨通知管理員，毋通予生份人綴咧入來。", tailo: "Jī, tuā-mn̂g ê só-sî nā phah-bô--khì, ài suî thong-ti kuán-lí-uân, m̄-thang hōo senn-hūn-lâng tuè leh ji̍p--lâi.", en: "2. If you lose your key to the main door, tell the caretaker at once, and don't let strangers follow you in."}
+  - {n: 4, speaker: Notice, hanji: "三、飼狗仔的住戶，出入愛用鍊仔牽；狗仔的屎愛家己抾，暗時嘛莫予伊一直吠。", tailo: "Sann, tshī káu-á ê tsū-hōo, tshut-ji̍p ài iōng liān-á khan; káu-á ê sái ài ka-kī khioh, àm-sî mā mài hōo i it-ti̍t puī.", en: "3. Dog owners must keep their dogs on a lead when coming and going, pick up after them, and not let them bark on and on at night."}
+  - {n: 5, speaker: Notice, hanji: "四、衫毋通吊佇窗仔外口曝，水會滴落去樓跤的人身軀頂。", tailo: "Sì, sann m̄-thang tiàu tī thang-á guā-kháu pha̍k, tsuí ē tih--lo̍h-khì lâu-kha ê lâng sin-khu tíng.", en: "4. Don't hang washing outside your windows to dry: it drips on the people below."}
+  - {n: 6, speaker: Notice, hanji: "五、七月普渡，燒金請佇樓跤的金爐燒，毋通佇樓梯燒。煙傷大，會予厝邊嗽袂停。", tailo: "Gōo, tshit--gue̍h phóo-tōo, sio-kim tshiánn tī lâu-kha ê kim-lôo sio, m̄-thang tī lâu-thui sio. Ian siunn tuā, ē hōo tshù-pinn sàu bē thîng.", en: "5. During the ghost-month offerings in the seventh month, please burn paper money in the burner downstairs, never on the stairs. The smoke is too thick and sets the neighbours coughing."}
+  - {n: 7, speaker: Notice, hanji: "六、樓梯是逃生的路，毋通囥物件擋路。", tailo: "La̍k, lâu-thui sī tô-sing ê lōo, m̄-thang khǹg mi̍h-kiānn tòng lōo.", en: "6. The stairs are the escape route: don't leave things there blocking the way."}
+  - {n: 8, speaker: Notice, hanji: "七、下禮拜三下晡欲消毒蠓蟲，請共窗仔關予密。", tailo: "Tshit, ē lé-pài-sann ē-poo beh siau-to̍k báng-thâng, tshiánn kā thang-á kuainn hōo ba̍t.", en: "7. Next Wednesday afternoon there will be spraying against mosquitoes; please shut your windows tight."}
+  - {n: 9, speaker: Notice, hanji: "八、禮拜六透早，水電師傅欲修理水管，八點到十二點無水通用。", tailo: "Peh, lé-pài-la̍k thàu-tsá, tsuí-tiān sai-hū beh siu-lí tsuí-kóng, peh tiám kàu tsa̍p-jī tiám bô tsuí thang iōng.", en: "8. On Saturday morning the plumber will be repairing the pipes: no water from eight to twelve."}
+  - {n: 10, speaker: Notice, hanji: "俗語講：千金買厝，萬金買厝邊。感謝逐家配合。管理委員會。", tailo: "Sio̍k-gí kóng: tshian kim bé tshù, bān kim bé tshù-pinn. Kám-siā ta̍k-ke phuè-ha̍p. Kuán-lí uí-uân-huē.", en: "As the saying goes: a house costs a thousand in gold, good neighbours ten thousand. Thank you all for your cooperation. The residents' committee."}
+  - {n: 11, speaker: Note (3F), hanji: "請問是啥人透暝咧唱歌？逐暝十二點猶咧唱，吵甲阮規家伙仔攏睏袂去。", tailo: "Tshiánn-mn̄g sī siánn-lâng thàu-mê teh tshiùnn-kua? Ta̍k-mê tsa̍p-jī tiám iáu teh tshiùnn, tshá kah guán kui-ke-hué-á lóng khùn bē khì.", en: "May I ask who sings all night? Still singing at midnight every night: our whole family can't get to sleep."}
+  - {n: 12, speaker: Note (5F), hanji: "真歹勢，是阮阿公。伊耳空重，家己聽無偌大聲。阮會叫伊較細聲咧。", tailo: "Tsin pháinn-sè, sī guán a-kong. I hīnn-khang-tāng, ka-kī thiann bô guā tuā-siann. Guán ē kiò i khah sè-siann--leh.", en: "So sorry, it's my grandfather. He's hard of hearing, so to him it doesn't sound very loud. We'll ask him to keep it down."}
+  - {n: 13, speaker: Note (2F), hanji: "樓頂的衫逐工咧滴水，阮的衫愈曝愈澹！", tailo: "Lâu-tíng ê sann ta̍k-kang teh tih tsuí, guán ê sann jú pha̍k jú tâm!", en: "The washing upstairs drips every day: the longer our clothes dry, the wetter they get!"}
+  - {n: 14, speaker: Note (4F), hanji: "這馬換我踏著狗屎矣，閣是佇電梯內底。是佗一家的狗仔？", tailo: "Tsit-má uānn guá ta̍h-tio̍h káu-sái--ah, koh sī tī tiān-thui lāi-té. Sī tó tsi̍t ke ê káu-á?", en: "Now it's my turn to step in dog mess, and in the lift this time. Whose dog is it?"}
+  - {n: 15, speaker: Note (6F), hanji: "毋是阮的。阮的狗仔真乖，閣足驚電梯，攏嘛行樓梯。", tailo: "M̄ sī guán--ê. Guán ê káu-á tsin kuai, koh tsiok kiann tiān-thui, lóng mā kiânn lâu-thui.", en: "Not ours. Our dog is very good, and terrified of the lift; it always takes the stairs."}
+  - {n: 16, speaker: Note (7F), hanji: "我是七樓的 Sam。我昨昏共鎖匙拍無去矣，是一支紅色的。若是有人抾著，請送來七〇二。多謝！", tailo: "Guá sī tshit lâu ê Sam. Guá tsa-hng kā só-sî phah-bô--khì--ah, sī tsi̍t ki âng-sik--ê. Nā-sī ū lâng khioh--tio̍h, tshiánn sàng lâi tshit-khòng-jī. To-siā!", en: "I'm Sam on the seventh floor. I lost my key yesterday, a red one. If anyone finds it, please bring it to 702. Thanks!"}
+  - {n: 17, speaker: Caretaker, hanji: "Sam 先生，你的鎖匙佇管理員遮。是四樓的阿婆佇樓梯跤抾著的。", tailo: "Sam--sian-sinn, lí ê só-sî tī kuán-lí-uân tsia. Sī sì lâu ê a-pô tī lâu-thui-kha khioh--tio̍h--ê.", en: "Mr Sam, your key is with the caretaker. The old lady on the fourth floor found it at the bottom of the stairs."}
+  - {n: 18, speaker: Note (4F), hanji: "毋免客氣。我抾著鎖匙，閣抾著狗屎，今仔日運氣真好！", tailo: "M̄-bián kheh-khì. Guá khioh--tio̍h só-sî, koh khioh--tio̍h káu-sái, kin-á-ji̍t ūn-khì tsin hó!", en: "Don't mention it. I found a key and found the dog mess too: what a lucky day!"}
+  - {n: 19, speaker: Caretaker, hanji: "逐家冷靜。下禮拜日暗時七點，佇樓跤開住戶會議，有意見請來講，莫閣貼紙條仔矣。", tailo: "Ta̍k-ke líng-tsīng. Ē lé-pài-ji̍t àm-sî tshit tiám, tī lâu-kha khui tsū-hōo huē-gī, ū ì-kiàn tshiánn lâi kóng, mài koh tah tsuá-tiâu-á--ah.", en: "Calm down, everyone. Next Sunday at seven in the evening there's a residents' meeting downstairs. If you have something to say, come and say it, and stop sticking up notes."}
+  - {n: 20, speaker: Note (5F), hanji: "阮阿公講，開會了後伊欲唱一條歌予逐家聽，當做會失禮。", tailo: "Guán a-kong kóng, khui-huē liáu-āu i beh tshiùnn tsi̍t tiâu kua hōo ta̍k-ke thiann, tòng-tsò huē-sit-lé.", en: "My grandfather says that after the meeting he'll sing everyone a song, by way of apology."}
+  - {n: 21, speaker: Note (3F), hanji: "……好啦，干焦一條。", tailo: "…… Hó--lah, kan-na tsi̍t tiâu.", en: "…All right, but just the one."}
+notes:
+  - {ref: 1, topic: vocab, text: "Notice register: 各位住戶 kok-uī tsū-hōo 'dear residents'. 公寓 kong-gū = block of flats. 為著 uī-tio̍h = in order to, for the sake of. 遵守 tsun-siú = observe, abide by. 管理委員會 = residents' committee (委員 uí-uân 'committee member'; 管理 kuán-lí 'manage')."}
+  - {ref: 2, topic: vocab, text: "繳 kiáu = pay (a bill, fees, a fine): 繳電錢 'pay the electricity bill', 繳學費 'pay school fees'. 期限 kî-hān = deadline. 一律 it-lu̍t = without exception. 號 hō = day of the month in dates: 十號 'the 10th'."}
+  - {ref: 3, topic: vocab, text: "鎖匙 só-sî = key (鎖 'lock', 進修 8). 拍無去 phah-bô--khì = lose (something). 生份人 senn-hūn-lâng = stranger (生份 'unfamiliar', lesson 92). 通知 thong-ti = inform, notify."}
+  - {ref: 4, topic: vocab, text: "鍊仔 liān-á = chain, lead. 抾 khioh = pick up (lesson 33)."}
+  - {ref: 5, topic: vocab, text: "吊 tiàu = hang (up). 曝 pha̍k = dry in the sun (進修 3, 曝乾): 曝衫 'hang out washing'. 滴 tih = drip: 滴水 'drip water'."}
+  - {ref: 6, topic: culture, text: "普渡 phóo-tōo (lesson 54): in the seventh lunar month buildings set out offerings for the wandering ghosts and burn 金紙 kim-tsuá, paper money (燒金 sio-kim 'burn paper money'), in a 金爐 kim-lôo, a metal burner. 煙 ian = smoke."}
+  - {ref: 7, topic: vocab, text: "擋 tòng = block, stand in the way: 擋路 'block the way'. 逃生 tô-sing = escape (from danger)."}
+  - {ref: 8, topic: vocab, text: "消毒 siau-to̍k = disinfect, spray. 蠓蟲 báng-thâng = mosquitoes and other biting insects; 蟲 thâng = insect, bug. 關予密 kuainn hōo ba̍t 'shut tight': 密 ba̍t = tight, close."}
+  - {ref: 9, topic: vocab, text: "水電師傅 tsuí-tiān sai-hū = plumber and electrician (one trade in Taiwan). 水管 tsuí-kóng = water pipe."}
+  - {ref: 10, topic: culture, text: "千金買厝，萬金買厝邊 'a thousand in gold buys a house, ten thousand buys the neighbours': good neighbours are worth more than the house. A proverb from the MOE dictionary. 配合 phuè-ha̍p = cooperate."}
+  - {ref: 11, topic: vocab, text: "透暝 thàu-mê = all night long. 規家伙仔 kui-ke-hué-á = the whole family."}
+  - {ref: 12, topic: vocab, text: "耳空重 hīnn-khang-tāng = hard of hearing ('ear holes heavy'); 耳空 hīnn-khang = ear. MOE example: 食老耳空重 'deaf in old age'."}
+  - {ref: 13, topic: grammar, text: "愈 X 愈 Y jú … jú … = the more X, the more Y: 愈曝愈澹 'the more it dries, the wetter it gets'."}
+  - {ref: 14, topic: vocab, text: "踏著 ta̍h--tio̍h = step on. 換我 'now it's my turn'."}
+  - {ref: 16, topic: vocab, text: "支 ki = classifier for keys, pens and other long thin things. 抾著 khioh--tio̍h = find, pick up (something lost)."}
+  - {ref: 17, topic: vocab, text: "管理員 kuán-lí-uân = caretaker, building manager. 樓梯跤 lâu-thui-kha = the foot of the stairs."}
+  - {ref: 18, topic: vocab, text: "運氣 ūn-khì = luck: 運氣真好 'very lucky'. The old lady jokes on 抾: she 'picked up' a key and 'picked up' dog mess (on her shoe)."}
+  - {ref: 19, topic: vocab, text: "冷靜 líng-tsīng = calm down. 紙條仔 tsuá-tiâu-á = slip of paper, note. 住戶會議 tsū-hōo huē-gī = residents' meeting."}
+  - {ref: 20, topic: vocab, text: "會失禮 huē-sit-lé = apologise (lesson 48). 當做 tòng-tsò = as, by way of (lesson 97)."}
+new_words:
+  - {tailo: tsū-hōo, hanji: 住戶, en: "resident, household"}
+  - {tailo: kong-gū, hanji: 公寓, en: "block of flats"}
+  - {tailo: tsun-siú, hanji: 遵守, en: "observe, abide by"}
+  - {tailo: uí-uân, hanji: 委員, en: "committee member"}
+  - {tailo: kuán-lí, hanji: 管理, en: "manage"}
+  - {tailo: kiáu, hanji: 繳, en: "pay (a bill, fees)"}
+  - {tailo: kî-hān, hanji: 期限, en: "deadline"}
+  - {tailo: it-lu̍t, hanji: 一律, en: "without exception"}
+  - {tailo: só-sî, hanji: 鎖匙, en: "key"}
+  - {tailo: phah-bô--khì, hanji: 拍無去, en: "lose (something)"}
+  - {tailo: senn-hūn-lâng, hanji: 生份人, en: "stranger"}
+  - {tailo: thong-ti, hanji: 通知, en: "inform, notify"}
+  - {tailo: liān-á, hanji: 鍊仔, en: "chain, lead"}
+  - {tailo: tiàu, hanji: 吊, en: "hang (up)"}
+  - {tailo: pha̍k, hanji: 曝, en: "dry in the sun"}
+  - {tailo: tih, hanji: 滴, en: "drip"}
+  - {tailo: sio-kim, hanji: 燒金, en: "burn paper money"}
+  - {tailo: kim-tsuá, hanji: 金紙, en: "paper money (offerings)"}
+  - {tailo: kim-lôo, hanji: 金爐, en: "paper-money burner"}
+  - {tailo: ian, hanji: 煙, en: "smoke"}
+  - {tailo: tòng, hanji: 擋, en: "block"}
+  - {tailo: tô-sing, hanji: 逃生, en: "escape"}
+  - {tailo: siau-to̍k, hanji: 消毒, en: "disinfect, spray"}
+  - {tailo: báng-thâng, hanji: 蠓蟲, en: "mosquitoes, biting insects"}
+  - {tailo: thâng, hanji: 蟲, en: "insect, bug"}
+  - {tailo: ba̍t, hanji: 密, en: "tight, close"}
+  - {tailo: tsuí-tiān, hanji: 水電, en: "plumbing and wiring"}
+  - {tailo: tsuí-kóng, hanji: 水管, en: "water pipe"}
+  - {tailo: phuè-ha̍p, hanji: 配合, en: "cooperate"}
+  - {tailo: thàu-mê, hanji: 透暝, en: "all night long"}
+  - {tailo: hīnn-khang-tāng, hanji: 耳空重, en: "hard of hearing"}
+  - {tailo: hīnn-khang, hanji: 耳空, en: "ear"}
+  - {tailo: jú, hanji: 愈, en: "the more"}
+  - {tailo: khioh--tio̍h, hanji: 抾著, en: "find, pick up"}
+  - {tailo: ūn-khì, hanji: 運氣, en: "luck"}
+  - {tailo: líng-tsīng, hanji: 冷靜, en: "calm"}
+exercises:
+  translate:
+    - {tailo: "Tuā-mn̂g ê só-sî nā phah-bô--khì, ài suî thong-ti kuán-lí-uân.", hanji: "大門的鎖匙若拍無去，愛隨通知管理員。", en: "If you lose your key to the main door, tell the caretaker at once."}
+    - {tailo: "Sann m̄-thang tiàu tī thang-á guā-kháu pha̍k.", hanji: "衫毋通吊佇窗仔外口曝。", en: "Don't hang washing outside your windows to dry."}
+    - {tailo: "Lâu-thui sī tô-sing ê lōo, m̄-thang khǹg mi̍h-kiānn tòng lōo.", hanji: "樓梯是逃生的路，毋通囥物件擋路。", en: "The stairs are the escape route: don't leave things there blocking the way."}
+    - {tailo: "I hīnn-khang-tāng, ka-kī thiann bô guā tuā-siann.", hanji: "伊耳空重，家己聽無偌大聲。", en: "He's hard of hearing, so to him it doesn't sound very loud."}
+    - {tailo: "Guán ê sann jú pha̍k jú tâm!", hanji: "阮的衫愈曝愈澹！", en: "The longer our clothes dry, the wetter they get!"}
+  fill:
+    - {tailo: "Kuán-lí-huì ta̍k kò gue̍h tsa̍p hō í-tsîng ài ___.", hanji: "管理費逐個月十號以前愛___。", answer: "kiáu", answer_hanji: "繳", en: "Service charges are due by the 10th of each month."}
+    - {tailo: "Tshut-ji̍p ài iōng ___ khan.", hanji: "出入愛用___牽。", answer: "liān-á", answer_hanji: "鍊仔", en: "Keep (dogs) on a lead when coming and going."}
+    - {tailo: "Tshit--gue̍h phóo-tōo, ___ tshiánn tī lâu-kha ê kim-lôo sio.", hanji: "七月普渡，___請佇樓跤的金爐燒。", answer: "sio-kim", answer_hanji: "燒金", en: "During the ghost-month offerings, please burn paper money in the burner downstairs."}
+    - {tailo: "Sī tsi̍t ki âng-sik--ê. Nā-sī ū lâng ___, tshiánn sàng lâi tshit-khòng-jī.", hanji: "是一支紅色的。若是有人___，請送來七〇二。", answer: "khioh--tio̍h", answer_hanji: "抾著", en: "It's a red one. If anyone finds it, please bring it to 702."}
+    - {tailo: "Ta̍k-ke ___.", hanji: "逐家___。", answer: "líng-tsīng", answer_hanji: "冷靜", en: "Calm down, everyone."}
+audio: []

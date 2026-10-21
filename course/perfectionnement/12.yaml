@@ -1,0 +1,90 @@
+id: 12
+title: {en: "The lighthouse on the quay", tailo: "Bé-thâu ê ting-thah", hanji: "碼頭的燈塔"}
+genre: song
+review: false
+setting: "Song lyrics in the style of the sentimental Taigi songs of the 1960s, written for this course: a woman waits on the quay for the sailor who promised to come back."
+dialogue:
+  - {n: 1, hanji: "黃昏的碼頭，海風冷吱吱，", tailo: "Hông-hun ê bé-thâu, hái-hong líng-ki-ki,", en: "On the quay at dusk, the sea wind is icy,"}
+  - {n: 2, hanji: "船仔一隻一隻駛入港。", tailo: "tsûn-á tsi̍t tsiah tsi̍t tsiah sái ji̍p káng.", en: "the boats sail into the harbour one by one."}
+  - {n: 3, hanji: "你講出海三冬就轉來，", tailo: "Lí kóng tshut-hái sann tang tō tńg--lâi,", en: "You said you'd be back after three years at sea,"}
+  - {n: 4, hanji: "我堅心佇遮，等候你的船。", tailo: "guá kian-sim tī tsia, tán-hāu lí ê tsûn.", en: "and I stand here, unwavering, waiting for your ship."}
+  - {n: 5, hanji: "燈塔啊燈塔，你敢有看見？", tailo: "Ting-thah ah ting-thah, lí kám ū khuànn-kìnn?", en: "Lighthouse, oh lighthouse, have you seen him?"}
+  - {n: 6, hanji: "海湧遐爾大，伊的船佇佗位？", tailo: "Hái-íng hiah-nī tuā, i ê tsûn tī tó-uī?", en: "The waves are so high: where is his ship?"}
+  - {n: 7, hanji: "若是伊流浪佇遠遠的他鄉，", tailo: "Nā-sī i liû-lōng tī hn̄g-hn̄g ê thann-hiong,", en: "If he's wandering in some far-off land,"}
+  - {n: 8, hanji: "請你替我，照伊轉來的路。", tailo: "tshiánn lí thè guá, tsiò i tńg--lâi ê lōo.", en: "light the way home for him, for me."}
+  - {n: 9, hanji: "月娘出來矣，霧霧閣稀微，", tailo: "Gue̍h-niû tshut--lâi--ah, bū-bū koh hi-bî,", en: "The moon has risen, hazy and forlorn,"}
+  - {n: 10, hanji: "燈火一葩一葩，佇水面爍。", tailo: "ting-hué tsi̍t pha tsi̍t pha, tī tsuí-bīn sih.", en: "lights glimmer one after another on the water."}
+  - {n: 11, hanji: "厝邊攏講你已經變心，", tailo: "Tshù-pinn lóng kóng lí í-king piàn-sim,", en: "The neighbours all say your heart has changed,"}
+  - {n: 12, hanji: "佇他鄉娶新人，袂閣轉來。", tailo: "tī thann-hiong tshuā sin-lâng, bē koh tńg--lâi.", en: "that you've married someone new far away and won't come back."}
+  - {n: 13, hanji: "我毋相信，我毋相信，", tailo: "Guá m̄ siong-sìn, guá m̄ siong-sìn,", en: "I don't believe it, I don't believe it:"}
+  - {n: 14, hanji: "你的真情，干焦我上知。", tailo: "lí ê tsin-tsîng, kan-na guá siōng tsai.", en: "how true you are, only I know."}
+  - {n: 15, hanji: "一冬過一冬，青春沓沓仔過，", tailo: "Tsi̍t tang kuè tsi̍t tang, tshing-tshun ta̍uh-ta̍uh-á kuè,", en: "Year after year, my youth slips slowly by,"}
+  - {n: 16, hanji: "頭毛白矣，我猶原佇遮。", tailo: "thâu-mn̂g pe̍h--ah, guá iu-guân tī tsia.", en: "my hair has turned white, and still I am here."}
+  - {n: 17, hanji: "薄情的人啊，你敢遐僥倖？", tailo: "Po̍k-tsîng ê lâng ah, lí kám hiah hiau-hīng?", en: "Oh faithless one, could you really be so heartless?"}
+  - {n: 18, hanji: "痴情的我，眠夢嘛咧等。", tailo: "Tshi-tsîng ê guá, bîn-bāng mā teh tán.", en: "Lovesick, I wait for you even in my dreams."}
+  - {n: 19, hanji: "燈塔啊燈塔，你閣較光咧，", tailo: "Ting-thah ah ting-thah, lí koh-khah kng--leh,", en: "Lighthouse, oh lighthouse, shine brighter still:"}
+  - {n: 20, hanji: "毋管伊是真心，抑是無情，", tailo: "m̄-kuán i sī tsin-sim, ia̍h-sī bô-tsîng,", en: "whether his heart is true or cold,"}
+  - {n: 21, hanji: "我的心猶原放袂捒，", tailo: "guá ê sim iu-guân pàng bē sak,", en: "my heart still cannot let him go."}
+  - {n: 22, hanji: "徛佇碼頭，等伊一世人。", tailo: "khiā tī bé-thâu, tán i tsi̍t-sì-lâng.", en: "I'll stand on the quay and wait for him all my life."}
+notes:
+  - {ref: 1, topic: culture, text: "Taigi popular song (台語歌, lesson 60) of the 1950s–60s loved harbours, partings, rain and waiting women; many songs were set to Japanese tunes. This text is original. 黃昏 hông-hun = dusk; 碼頭 bé-thâu = quay, wharf; 海風 hái-hong = sea wind."}
+  - {ref: 2, topic: vocab, text: "船仔 tsûn-á = boat. 駛 sái = sail, steer (進修 8). 港 káng = harbour; 入港 ji̍p káng 'enter the harbour'."}
+  - {ref: 3, topic: vocab, text: "出海 tshut-hái = go to sea. 冬 tang = year (in counting years: 三冬 'three years')."}
+  - {ref: 4, topic: vocab, text: "堅心 kian-sim = resolute, unwavering: 伊堅心欲學台語 'he's set on learning Taigi'. 等候 tán-hāu = wait for, a more literary 等."}
+  - {ref: 5, topic: vocab, text: "燈塔 ting-thah = lighthouse. 啊 ah = oh (calling out in songs and poems)."}
+  - {ref: 6, topic: vocab, text: "海湧 hái-íng = waves (海浪), Taigi-only: 湧 íng is a wave."}
+  - {ref: 7, topic: vocab, text: "流浪 liû-lōng = wander, drift. 他鄉 thann-hiong = a foreign land, far from home (literary, a song word)."}
+  - {ref: 8, topic: vocab, text: "照 tsiò = shine on, light up: 照路 'light the way'. Read tsiàu, the same character means 'according to'."}
+  - {ref: 9, topic: vocab, text: "霧霧 bū-bū = hazy, blurred (霧 bū 'fog'); 目睭霧霧 'eyes blurred (with tears)'. 稀微 = forlorn (進修 1)."}
+  - {ref: 10, topic: vocab, text: "燈火 ting-hué = lights, lamplight. 葩 pha = classifier for lamps: 一葩電火 'a light'. 水面 tsuí-bīn = the surface of the water. 爍 = twinkle (進修 4)."}
+  - {ref: 11, topic: vocab, text: "變心 piàn-sim = fall out of love, become unfaithful ('change heart')."}
+  - {ref: 12, topic: vocab, text: "新人 sin-lâng = a new person: in love songs, a new lover; at a wedding, the newlyweds."}
+  - {ref: 14, topic: vocab, text: "真情 tsin-tsîng = true feelings; 真心 tsin-sim (line 20) = sincere, a true heart."}
+  - {ref: 16, topic: vocab, text: "猶原 iu-guân = still, as before (仍然), a song and literary word; in speech 猶是 or 原在 (進修 2)."}
+  - {ref: 17, topic: false-friend, text: "僥倖 hiau-hīng is not Mandarin 僥倖 'lucky escape'. In Taigi it means 'heartless, faithless', especially in love (你真僥倖！ 'how could you!'), and also 'what a shame, poor thing'. 薄情 po̍k-tsîng = faithless, fickle; its opposite 痴情 tshi-tsîng (line 18) = lovesick, hopelessly devoted."}
+  - {ref: 18, topic: vocab, text: "眠夢 bîn-bāng = dream (verb and noun): 眠夢嘛咧等 'waiting even in my dreams'; 我昨暝眠夢夢著你 'I dreamt of you last night'."}
+  - {ref: 19, topic: vocab, text: "光 kng = bright; shine. 較光咧 'a bit brighter'."}
+  - {ref: 20, topic: vocab, text: "無情 bô-tsîng = heartless, cold. 毋管 X 抑是 Y = whether X or Y."}
+  - {ref: 21, topic: grammar, text: "放捒 pàng-sak = abandon, give up on (放棄, 遺棄): 伊共某囝放捒 'he abandoned his wife and children'. With a potential complement it splits: 放袂捒 pàng bē sak 'can't let go'."}
+new_words:
+  - {tailo: hông-hun, hanji: 黃昏, en: "dusk"}
+  - {tailo: bé-thâu, hanji: 碼頭, en: "quay, wharf"}
+  - {tailo: hái-hong, hanji: 海風, en: "sea wind"}
+  - {tailo: tsûn-á, hanji: 船仔, en: "boat"}
+  - {tailo: káng, hanji: 港, en: "harbour"}
+  - {tailo: tshut-hái, hanji: 出海, en: "go to sea"}
+  - {tailo: kian-sim, hanji: 堅心, en: "resolute, unwavering"}
+  - {tailo: tán-hāu, hanji: 等候, en: "wait for"}
+  - {tailo: ting-thah, hanji: 燈塔, en: "lighthouse"}
+  - {tailo: hái-íng, hanji: 海湧, en: "waves"}
+  - {tailo: liû-lōng, hanji: 流浪, en: "wander, drift"}
+  - {tailo: thann-hiong, hanji: 他鄉, en: "a foreign land"}
+  - {tailo: bū-bū, hanji: 霧霧, en: "hazy, blurred"}
+  - {tailo: ting-hué, hanji: 燈火, en: "lights, lamplight"}
+  - {tailo: pha, hanji: 葩, en: "(classifier for lamps)"}
+  - {tailo: piàn-sim, hanji: 變心, en: "fall out of love, be unfaithful"}
+  - {tailo: sin-lâng, hanji: 新人, en: "new lover; newlyweds"}
+  - {tailo: tsin-tsîng, hanji: 真情, en: "true feelings"}
+  - {tailo: tsin-sim, hanji: 真心, en: "sincere; a true heart"}
+  - {tailo: iu-guân, hanji: 猶原, en: "still, as before"}
+  - {tailo: po̍k-tsîng, hanji: 薄情, en: "faithless, fickle"}
+  - {tailo: hiau-hīng, hanji: 僥倖, en: "heartless, faithless; what a shame"}
+  - {tailo: tshi-tsîng, hanji: 痴情, en: "lovesick, devoted"}
+  - {tailo: bîn-bāng, hanji: 眠夢, en: "dream"}
+  - {tailo: kng, hanji: 光, en: "bright; shine"}
+  - {tailo: bô-tsîng, hanji: 無情, en: "heartless, cold"}
+  - {tailo: pàng-sak, hanji: 放捒, en: "abandon, give up on"}
+exercises:
+  translate:
+    - {tailo: "Tsûn-á tsi̍t tsiah tsi̍t tsiah sái ji̍p káng.", hanji: "船仔一隻一隻駛入港。", en: "The boats sail into the harbour one by one."}
+    - {tailo: "Hái-íng hiah-nī tuā, i ê tsûn tī tó-uī?", hanji: "海湧遐爾大，伊的船佇佗位？", en: "The waves are so high: where is his ship?"}
+    - {tailo: "Tshù-pinn lóng kóng lí í-king piàn-sim.", hanji: "厝邊攏講你已經變心。", en: "The neighbours all say your heart has changed."}
+    - {tailo: "Thâu-mn̂g pe̍h--ah, guá iu-guân tī tsia.", hanji: "頭毛白矣，我猶原佇遮。", en: "My hair has turned white, and still I am here."}
+    - {tailo: "Guá ê sim iu-guân pàng bē sak.", hanji: "我的心猶原放袂捒。", en: "My heart still cannot let him go."}
+  fill:
+    - {tailo: "Guá ___ tī tsia, tán-hāu lí ê tsûn.", hanji: "我___佇遮，等候你的船。", answer: "kian-sim", answer_hanji: "堅心", en: "I stand here, unwavering, waiting for your ship."}
+    - {tailo: "Tshiánn lí thè guá, ___ i tńg--lâi ê lōo.", hanji: "請你替我，___伊轉來的路。", answer: "tsiò", answer_hanji: "照", en: "Light the way home for him, for me."}
+    - {tailo: "Po̍k-tsîng ê lâng ah, lí kám hiah ___?", hanji: "薄情的人啊，你敢遐___？", answer: "hiau-hīng", answer_hanji: "僥倖", en: "Oh faithless one, could you really be so heartless?"}
+    - {tailo: "Tshi-tsîng ê guá, ___ mā teh tán.", hanji: "痴情的我，___嘛咧等。", answer: "bîn-bāng", answer_hanji: "眠夢", en: "Lovesick, I wait for you even in my dreams."}
+    - {tailo: "Gue̍h-niû tshut--lâi--ah, ___ koh hi-bî.", hanji: "月娘出來矣，___閣稀微。", answer: "bū-bū", answer_hanji: "霧霧", en: "The moon has risen, hazy and forlorn."}
+audio: []

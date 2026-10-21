@@ -1,0 +1,111 @@
+id: 9
+title: {en: "A son-in-law is half a son", tailo: "Kiánn-sài sī puàn-tsú", hanji: "囝婿是半子"}
+genre: dialogue
+review: false
+setting: "October, a Saturday evening in Tainan. A-bîng and Bí-lîng's wedding banquet is held in the street outside A-má's house, under a big awning, and the whole neighbourhood is invited."
+dialogue:
+  - {n: 1, speaker: A-hun, hanji: "Sam，遮啦！阮佇第三桌。路邊規路攏是布棚，你敢有揣足久？", tailo: "Sam, tsia--lah! Guán tī tē-sann toh. Lōo-pinn kui-lōo lóng sī pòo-pênn, lí kám ū tshuē tsiok kú?", en: "Sam, over here! We're at table three. There are awnings all along the street; did it take you long to find us?"}
+  - {n: 2, speaker: Sam, hanji: "我綴炮仔聲就揣著矣。這是我頭一擺食臺南的喜酒，人挨挨陣陣，真鬧熱。", tailo: "Guá tuè phàu-á siann tō tshuē--tio̍h--ah. Tse sī guá thâu tsi̍t pái tsia̍h Tâi-lâm ê hí-tsiú, lâng e-e-tīn-tīn, tsin lāu-jia̍t.", en: "I just followed the sound of the firecrackers. It's my first Tainan wedding banquet: what a crowd, so lively."}
+  - {n: 3, speaker: A-má, hanji: "Sam 來矣！緊坐。總舖師今仔日透早三點就起來煮，菜真濟，你腹肚愛留予空。", tailo: "Sam lâi--ah! Kín tsē. Tsóng-phòo-sai kin-á-ji̍t thàu-tsá sann tiám tō khí-lâi tsú, tshài tsin tsē, lí pak-tóo ài lâu hōo khang.", en: "Sam's here! Sit down, quick. The chef was up at three this morning cooking; there are lots of dishes, so keep your stomach empty."}
+  - {n: 4, speaker: Sam, hanji: "阿媽，你今仔日穿甲遮媠，我看比新娘閣較媠。", tailo: "A-má, lí kin-á-ji̍t tshīng kah tsiah suí, guá khuànn pí sin-niû koh-khah suí.", en: "A-má, you're so dressed up today, I'd say you look lovelier than the bride."}
+  - {n: 5, speaker: A-má, hanji: "你這个囡仔真𠢕講好話！新娘才是媠噹噹。你看，咧行出來矣。", tailo: "Lí tsit ê gín-á tsin gâu kóng hó-uē! Sin-niû tsiah sī suí-tang-tang. Lí khuànn, teh kiânn--tshut-lâi--ah.", en: "What a flatterer you are! The bride is the one who's absolutely gorgeous. Look, here she comes."}
+  - {n: 6, speaker: A-hun, hanji: "阮阿兄今仔日人才嘛袂䆀。毋過伊緊張甲手咧掣，你看伊的面，紅記記。", tailo: "Guán a-hiann kin-á-ji̍t lâng-tsâi mā bē-bái. M̄-koh i kín-tiunn kah tshiú teh tshuah, lí khuànn i ê bīn, âng-kì-kì.", en: "My brother doesn't look bad himself today. But he's so nervous his hands are shaking. Look at his face: bright red."}
+  - {n: 7, speaker: Sam, hanji: "新娘邊仔彼个阿婆是啥人？伊一直共新娘打扎。", tailo: "Sin-niû pinn--á hit ê a-pô sī siánn-lâng? I it-ti̍t kā sin-niû tánn-tsah.", en: "Who's the old lady next to the bride? She keeps giving her an arm."}
+  - {n: 8, speaker: A-má, hanji: "彼是好命的婦人人，翁婿佇咧，囝孫滿堂。嫁娶的時，攏請這款人來𤆬新娘，予新娘嘛好命。", tailo: "He sī hó-miā ê hū-jîn-lâng, ang-sài tī--leh, kiánn-sun buán-tông. Kè-tshuā ê sî, lóng tshiánn tsit khuán lâng lâi tshuā sin-niû, hōo sin-niû mā hó-miā.", en: "She's a 'fortunate woman': husband still living, children and grandchildren aplenty. At weddings, a woman like that is asked to lead the bride, so the bride will be fortunate too."}
+  - {n: 9, speaker: A-hun, hanji: "來矣，菜捀出來矣！頭一出是紅蟳米糕。", tailo: "Lâi--ah, tshài phâng--tshut-lâi--ah! Thâu tsi̍t tshut sī âng-tsîm bí-ko.", en: "Here it comes, they're bringing out the food! The first dish is red crab on sticky rice."}
+  - {n: 10, speaker: Sam, hanji: "紅蟳遮大隻！閣有炕肉、糋的物件、雞仔湯……這是幾出菜？", tailo: "Âng-tsîm tsiah tuā tsiah! Koh ū khòng-bah, tsìnn ê mi̍h-kiānn, ke-á thng…… Tse sī kuí tshut tshài?", en: "Look at the size of that crab! And braised pork, fried things, chicken soup… How many courses is this?"}
+  - {n: 11, speaker: A-má, hanji: "十二出，上尾仔閣有甜湯。慢慢仔食，莫食甲傷飽滇，後面猶閣有。", tailo: "Tsa̍p-jī tshut, siōng-bué-á koh ū tinn-thng. Bān-bān-á tsia̍h, mài tsia̍h kah siunn pá-tīnn, āu-bīn iáu-koh ū.", en: "Twelve, and a sweet soup at the very end. Take your time, don't stuff yourself, there's more to come."}
+  - {n: 12, speaker: Mr. Tiunn, hanji: "（行過來）你就是 Sam 喔？我是美玲的老爸。阿明定定講著你。", tailo: "(Kiânn--kuè-lâi) Lí tō sī Sam--ooh? Guá sī Bí-lîng ê lāu-pē. A-bîng tiānn-tiānn kóng-tio̍h--lí.", en: "(Coming over) So you're Sam? I'm Bí-lîng's father. A-bîng often talks about you."}
+  - {n: 13, speaker: Sam, hanji: "張先生恭喜！今仔日真歡喜，你的查某囝佮阿明真四配。", tailo: "Tiunn--sian-sinn kiong-hí! Kin-á-ji̍t tsin huann-hí, lí ê tsa-bóo-kiánn kah A-bîng tsin sù-phuè.", en: "Congratulations, Mr. Tiunn! It's a happy day. Your daughter and A-bîng are a perfect match."}
+  - {n: 14, speaker: Mr. Tiunn, hanji: "多謝。我干焦一个查某囝，本成真毋甘伊嫁。毋過阿明這个少年人古意閣骨力。", tailo: "To-siā. Guá kan-na tsi̍t ê tsa-bóo-kiánn, pún-tsiânn tsin m̄-kam i kè. M̄-koh A-bîng tsit ê siàu-liân-lâng kóo-ì koh kut-la̍t.", en: "Thank you. She's my only daughter, and I really didn't want to let her go. But A-bîng is an honest, hard-working young man."}
+  - {n: 15, speaker: Mr. Tiunn, hanji: "人講：", tailo: "Lâng kóng:", en: "As they say:"}
+  - {n: 16, speaker: Mr. Tiunn, hanji: "囝婿是半子。", tailo: "Kiánn sài sī puàn-tsú.", en: "A son-in-law is half a son.", source: moe}
+  - {n: 17, speaker: Mr. Tiunn, hanji: "我無損失一个查某囝，是加一个後生。", tailo: "Guá bô sún-sit tsi̍t ê tsa-bóo-kiánn, sī ke tsi̍t ê hāu-senn.", en: "I'm not losing a daughter, I'm gaining a son."}
+  - {n: 18, speaker: A-hun, hanji: "新郎新娘來敬酒矣！逐家徛起來。", tailo: "Sin-lông sin-niû lâi kìng-tsiú--ah! Ta̍k-ke khiā--khí-lâi.", en: "The bride and groom are coming round with the toast! Everyone stand up."}
+  - {n: 19, speaker: A-bîng, hanji: "多謝逐家來食阮的喜酒。招待無周到，請逐家包涵。來，乾杯！", tailo: "To-siā ta̍k-ke lâi tsia̍h guán ê hí-tsiú. Tsiau-thāi bô tsiu-tò, tshiánn ta̍k-ke pau-hâm. Lâi, kan-pue!", en: "Thank you all for coming to our banquet. Forgive us if we haven't looked after you properly. Come on, cheers!"}
+  - {n: 20, speaker: Old lady, hanji: "等咧，我先唸一首四句聯：人客坐滿埕，姻緣天註定，翁仔某相疼，囝孫滿大廳！", tailo: "Tán--leh, guá sing liām tsi̍t siú sì-kù-liân: Lâng-kheh tsē muá tiânn, in-iân thinn tsù-tiānn, ang-á-bóo sio-thiànn, kiánn-sun muá tuā-thiann!", en: "Wait, let me recite a little verse first: 'Guests fill the yard, this match was fated by Heaven; may husband and wife love each other, and their children and grandchildren fill the hall!'"}
+  - {n: 21, speaker: Everyone, hanji: "好喔！", tailo: "Hó--ooh!", en: "Hear, hear!"}
+  - {n: 22, speaker: Bí-lîng, hanji: "（細聲）阿媽，我會好好仔照顧阿明，你免掛心。", tailo: "(Sè-siann) A-má, guá ē hó-hó-á tsiàu-kòo A-bîng, lí bián khuà-sim.", en: "(Quietly) A-má, I'll take good care of A-bîng, don't you worry."}
+  - {n: 23, speaker: A-má, hanji: "（目屎流出來）好、好……恁兩个愛恩愛到老。", tailo: "(Ba̍k-sái lâu--tshut-lâi) Hó, hó…… Lín nn̄g ê ài un-ài kàu lāu.", en: "(Tears running down) Yes, yes… Love each other till you're old, you two."}
+  - {n: 24, speaker: A-hun, hanji: "（共 Sam 撞一下）你看人遮恩愛，你咧？你的姻緣佇佗位？", tailo: "(Kā Sam tōng--tsi̍t-ē) Lí khuànn lâng tsiah un-ài, lí--leh? Lí ê in-iân tī tó-uī?", en: "(Nudging Sam) Look how much in love they are. What about you? Where's your Miss Right?"}
+  - {n: 25, speaker: Sam, hanji: "我猶咧等。人講：", tailo: "Guá iáu teh tán. Lâng kóng:", en: "I'm still waiting. As they say:"}
+  - {n: 26, speaker: Sam, hanji: "姻緣天註定", tailo: "in-iân thinn tsù-tiānn", en: "marriage is decided in Heaven", source: moe}
+  - {n: 27, speaker: A-hun, hanji: "好，按呢阿媽就閣愛請媒人婆矣。", tailo: "Hó, án-ne a-má tō koh ài tshiánn muê-lâng-pô--ah.", en: "Right, then A-má will have to call in the matchmaker again."}
+  - {n: 28, speaker: A-má, hanji: "（笑）食飽矣無？桌頂的菜賰遐濟，莫拍損。", tailo: "(Tshiò) Tsia̍h pá--ah--bô? Toh-tíng ê tshài tshun hiah tsē, mài phah-sńg.", en: "(Laughing) Have you all eaten your fill? There's so much food left on the table. Don't let it go to waste."}
+  - {n: 29, speaker: A-má, hanji: "遮的菜尾攏共包起來。", tailo: "Tsia-ê tshài-bué lóng kā pau--khí-lâi.", en: "Wrap up all these leftovers.", source: moe}
+  - {n: 30, speaker: A-hun, hanji: "Sam，你嘛紮一包轉去，明仔載的三頓就有矣。", tailo: "Sam, lí mā tsah tsi̍t pau tńg--khì, bîn-á-tsài ê sann tǹg tō ū--ah.", en: "Sam, take a bag home too, and that's tomorrow's three meals sorted."}
+  - {n: 31, speaker: Sam, hanji: "好！臺南的喜酒，閣會使食兩工。", tailo: "Hó! Tâi-lâm ê hí-tsiú, koh ē-sái tsia̍h nn̄g kang.", en: "Great! A Tainan wedding banquet you can eat for two days."}
+notes:
+  - {ref: 1, topic: culture, text: "In the south, wedding banquets are often held in the street (辦桌, lesson 43) under a 布棚 pòo-pênn, a big canvas awning: the road is closed and round tables fill it. 規路 kui-lōo = the whole length of the road."}
+  - {ref: 2, topic: vocab, text: "喜酒 hí-tsiú = wedding banquet: 食喜酒 'go to a wedding'. 挨挨陣陣 e-e-tīn-tīn = packed, jostling crowds."}
+  - {ref: 3, topic: vocab, text: "總舖師 tsóng-phòo-sai = the banquet chef who cooks 辦桌 meals, a respected trade. 留予空 lâu hōo khang 'keep (it) empty': 空 khang = empty, hollow."}
+  - {ref: 5, topic: vocab, text: "好話 hó-uē = compliments, nice words; also auspicious phrases said at New Year: 講好話. 媠噹噹 suí-tang-tang = gorgeous, stunning."}
+  - {ref: 6, topic: vocab, text: "人才 lâng-tsâi = looks, appearance (not 'talent' as in Mandarin 人才): 人才好 'good-looking'. 掣 tshuah = tremble, shake (from fear or nerves). 紅記記 âng-kì-kì = bright red."}
+  - {ref: 7, topic: vocab, text: "打扎 tánn-tsah = give someone an arm, support someone as they walk; also 'help, look after'."}
+  - {ref: 8, topic: culture, text: "好命 hó-miā = fortunate, blessed. A 好命的婦人人 'fortunate woman', with husband and children all living, walks the bride through the ceremonies so her luck rubs off. 婦人人 hū-jîn-lâng = a woman, womenfolk (婦女). 囝孫滿堂 kiánn-sun buán-tông = a house full of descendants (literary set phrase)."}
+  - {ref: 9, topic: vocab, text: "出 tshut = classifier for courses at a banquet (and for plays). 紅蟳米糕 âng-tsîm bí-ko = female mud crab, full of roe, steamed on sticky rice: the classic first or star dish of a Tainan wedding."}
+  - {ref: 10, topic: vocab, text: "炕肉 khòng-bah = pork braised slowly (炕 khòng 'stew slowly'). 糋 tsìnn = deep-fry: 糋的物件 'fried things'. 雞仔 ke-á = chicken."}
+  - {ref: 11, topic: vocab, text: "甜湯 tinn-thng = sweet soup, the dessert that closes a banquet. 飽滇 pá-tīnn = full to bursting (滇 'full', 進修 6); also 'plump, full' of grain."}
+  - {ref: 13, topic: vocab, text: "四配 sù-phuè = well matched, a good couple (匹配): 𪜶兩个真四配."}
+  - {ref: 14, topic: vocab, text: "本成 pún-tsiânn = originally, at first (本來): 我本成無想欲去 'I didn't mean to go at first'. 骨力 kut-la̍t = hard-working (lesson 52)."}
+  - {ref: 16, topic: culture, text: "囝婿是半子 'a son-in-law is half a son': a son-in-law is one of the family. Quoted from the MOE dictionary. 囝婿 kiánn-sài = son-in-law (女婿); 半子 puàn-tsú = half a son."}
+  - {ref: 17, topic: grammar, text: "無 X，是 Y = 'not X, but Y'. 損失 sún-sit = lose; a loss."}
+  - {ref: 18, topic: culture, text: "敬酒 kìng-tsiú = (go round and) toast the guests: at a Taiwanese wedding the couple and their parents visit every table in turn. 新郎 sin-lông = bridegroom."}
+  - {ref: 19, topic: culture, text: "招待無周到，請逐家包涵 'please forgive us if we haven't looked after you properly': the modest set phrase of every host. 包涵 pau-hâm = bear with, excuse."}
+  - {ref: 20, topic: culture, text: "四句聯 sì-kù-liân = a rhymed four-line verse, recited at weddings, housewarmings and festivals; good reciters improvise them. This one, written for the course, rhymes on -iann. 唸 liām = recite. 姻緣 in-iân = the fate that brings a couple together; 註定 tsù-tiānn = predestined. 埕 tiânn = yard, open space; 相疼 sio-thiànn = love each other."}
+  - {ref: 23, topic: vocab, text: "恩愛 un-ài = (of a couple) devoted, loving. 到老 kàu lāu = until old age."}
+  - {ref: 24, topic: vocab, text: "撞 tōng = bump, nudge. 你咧? lí--leh? 'and you?'"}
+  - {ref: 26, topic: culture, text: "姻緣天註定 'marriage is decided by Heaven'. Quoted from the MOE dictionary."}
+  - {ref: 29, topic: culture, text: "菜尾 tshài-bué = banquet leftovers. Taking them home is normal, and 菜尾湯, everything boiled up together the next day, is a dish people love. Quoted from the MOE dictionary."}
+new_words:
+  - {tailo: pòo-pênn, hanji: 布棚, en: "canvas awning, marquee"}
+  - {tailo: kui-lōo, hanji: 規路, en: "the whole length of the road"}
+  - {tailo: hí-tsiú, hanji: 喜酒, en: "wedding banquet"}
+  - {tailo: e-e-tīn-tīn, hanji: 挨挨陣陣, en: "packed, jostling crowds"}
+  - {tailo: tsóng-phòo-sai, hanji: 總舖師, en: "banquet chef"}
+  - {tailo: khang, hanji: 空, en: "empty, hollow"}
+  - {tailo: hó-uē, hanji: 好話, en: "compliments, kind words"}
+  - {tailo: suí-tang-tang, hanji: 媠噹噹, en: "gorgeous, stunning"}
+  - {tailo: lâng-tsâi, hanji: 人才, en: "looks, appearance"}
+  - {tailo: tshuah, hanji: 掣, en: "tremble, shake"}
+  - {tailo: âng-kì-kì, hanji: 紅記記, en: "bright red"}
+  - {tailo: tánn-tsah, hanji: 打扎, en: "give an arm, support"}
+  - {tailo: hó-miā, hanji: 好命, en: "fortunate, blessed"}
+  - {tailo: hū-jîn-lâng, hanji: 婦人人, en: "woman, womenfolk"}
+  - {tailo: âng-tsîm, hanji: 紅蟳, en: "mud crab (with roe)"}
+  - {tailo: bí-ko, hanji: 米糕, en: "sticky rice (steamed)"}
+  - {tailo: khòng-bah, hanji: 炕肉, en: "slow-braised pork"}
+  - {tailo: tsìnn, hanji: 糋, en: "deep-fry"}
+  - {tailo: ke-á, hanji: 雞仔, en: "chicken"}
+  - {tailo: tinn-thng, hanji: 甜湯, en: "sweet soup (dessert)"}
+  - {tailo: pá-tīnn, hanji: 飽滇, en: "full to bursting"}
+  - {tailo: pún-tsiânn, hanji: 本成, en: "originally, at first"}
+  - {tailo: sù-phuè, hanji: 四配, en: "well matched"}
+  - {tailo: kiánn-sài, hanji: 囝婿, en: "son-in-law"}
+  - {tailo: puàn-tsú, hanji: 半子, en: "half a son (son-in-law)"}
+  - {tailo: sún-sit, hanji: 損失, en: "lose; loss"}
+  - {tailo: kìng-tsiú, hanji: 敬酒, en: "toast (the guests)"}
+  - {tailo: sin-lông, hanji: 新郎, en: "bridegroom"}
+  - {tailo: pau-hâm, hanji: 包涵, en: "bear with, excuse"}
+  - {tailo: sì-kù-liân, hanji: 四句聯, en: "rhymed four-line verse"}
+  - {tailo: liām, hanji: 唸, en: "recite"}
+  - {tailo: in-iân, hanji: 姻緣, en: "marriage fate, Mr/Miss Right"}
+  - {tailo: tsù-tiānn, hanji: 註定, en: "predestined"}
+  - {tailo: tiânn, hanji: 埕, en: "yard, open space"}
+  - {tailo: un-ài, hanji: 恩愛, en: "(of a couple) devoted, loving"}
+  - {tailo: tōng, hanji: 撞, en: "bump, nudge"}
+  - {tailo: tshài-bué, hanji: 菜尾, en: "banquet leftovers"}
+exercises:
+  translate:
+    - {tailo: "Lōo-pinn kui-lōo lóng sī pòo-pênn.", hanji: "路邊規路攏是布棚。", en: "There are awnings all along the street."}
+    - {tailo: "Lí tsit ê gín-á tsin gâu kóng hó-uē!", hanji: "你這个囡仔真𠢕講好話！", en: "What a flatterer you are!"}
+    - {tailo: "I kín-tiunn kah tshiú teh tshuah.", hanji: "伊緊張甲手咧掣。", en: "He's so nervous his hands are shaking."}
+    - {tailo: "Guá bô sún-sit tsi̍t ê tsa-bóo-kiánn, sī ke tsi̍t ê hāu-senn.", hanji: "我無損失一个查某囝，是加一个後生。", en: "I'm not losing a daughter, I'm gaining a son."}
+    - {tailo: "Lín nn̄g ê ài un-ài kàu lāu.", hanji: "恁兩个愛恩愛到老。", en: "Love each other till you're old, you two."}
+  fill:
+    - {tailo: "Tse sī guá thâu tsi̍t pái tsia̍h Tâi-lâm ê ___.", hanji: "這是我頭一擺食臺南的___。", answer: "hí-tsiú", answer_hanji: "喜酒", en: "It's my first Tainan wedding banquet."}
+    - {tailo: "Guán a-hiann kin-á-ji̍t ___ mā bē-bái.", hanji: "阮阿兄今仔日___嘛袂䆀。", answer: "lâng-tsâi", answer_hanji: "人才", en: "My brother doesn't look bad himself today."}
+    - {tailo: "Bān-bān-á tsia̍h, mài tsia̍h kah siunn ___.", hanji: "慢慢仔食，莫食甲傷___。", answer: "pá-tīnn", answer_hanji: "飽滇", en: "Take your time, don't stuff yourself."}
+    - {tailo: "Guá ___ tsin m̄-kam i kè.", hanji: "我___真毋甘伊嫁。", answer: "pún-tsiânn", answer_hanji: "本成", en: "I really didn't want to let her go at first."}
+    - {tailo: "Sin-lông sin-niû lâi ___--ah!", hanji: "新郎新娘來___矣！", answer: "kìng-tsiú", answer_hanji: "敬酒", en: "The bride and groom are coming round with the toast!"}
+audio: []
