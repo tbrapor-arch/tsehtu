@@ -162,8 +162,9 @@ with sync_playwright() as pw:
             if not page.evaluate("document.getElementById('sheet').classList.contains('open')"):
                 p(f'grammar sheet {gi}: word does not open')
             page.keyboard.press('Escape')
-    # tone practice: answer 10, check the end screen
+    # tone practice (Practice tab, Drills): answer 10, check the end screen
     page.click('.tab[data-tab=review]')
+    page.evaluate("location.hash = 'drills'")
     page.wait_for_selector('#tones')
     page.click('#tones')
     for _ in range(10):
@@ -173,7 +174,7 @@ with sync_playwright() as pw:
     if not page.locator('#again10').count():
         p('tone practice did not reach its end screen')
     page.evaluate("location.hash = 'lessons'")
-    for h in ('themes', 'bridge', 'settings', 'lesson-0'):
+    for h in ('themes', 'grammar', 'drills', 'bridge', 'podcast', 'video', 'settings', 'lesson-0'):
         page.evaluate(f"location.hash = '{h}'")
         page.wait_for_timeout(150)
         overflow(page, h)

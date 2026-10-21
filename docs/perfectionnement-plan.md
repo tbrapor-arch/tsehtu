@@ -1,7 +1,7 @@
 # Part 2: 進修 Tsìn-siu (Perfectionnement), spec and handover
 
-State on 21 Oct 2026: **P1–P7 are published**; **P8–P14 are written** on branch `perfectionnement-p8-p14`
-(not yet merged into `main`, so not on the site). Next batch: P15–P21 (P21 = review).
+State on 21 Oct 2026: **P1–P14 are published** (P8–P14 merged into `main` on 21 Oct).
+Next batch: P15–P21 (P21 = review).
 
 ## Batch 1 (P1–P7)
 | # | genre | title | new words | lines |
@@ -31,8 +31,10 @@ Story threads to pick up: A-má's promise to show A-tshun and A-ióng the firefl
 A-ióng still owes Sam a bottle (P6–P7); Sam's upstairs neighbour, the old man who sings all night (P11, P14);
 Sam is still single (P9). Genres not used yet: speech, interview again, letter again, play again; Mazu, 土地公 and
 the 普渡 are covered (P8, P11, P13), so prefer other cultural topics next.
-Facts in P10 (Barclay 1885, Mackay 1872, 1970s Bible confiscation, Tâi-lô October 2006) were written from general
-knowledge; worth a check against a source if the user wants it.
+Facts in P10 checked on 21 Oct 2026: church newspaper founded by Barclay in Tainan in 1885, Taiwan's first printed
+newspaper, still weekly as 台灣教會公報; Mackay landed at Tamsui on 9 Mar 1872 and pulled thousands of teeth; POJ
+New Testament confiscated in 1975 (the paper itself dropped POJ in 1969 under the ban); Tâi-lô announced by the
+Ministry of Education on 7 Nov 2006 (the note first said October; corrected).
 
 ## What was decided with the user
 - **Spirit:** an Assimil *Perfectionnement* volume. It is used only for ideas and counts; nothing from the
@@ -100,7 +102,7 @@ P1 was written the other way, theme first; its words were checked afterwards. Fr
 - To do: describe part 2 in `design-decisions.md`.
 - P2–P7 published on 20 Oct 2026 at the user's request. Smoke run on 進修 lessons only: 0 problems.
 - P8–P14 (21 Oct 2026): lint 0 errors, `make test` passes, QC clean, `english-auto.txt` empty after adding glosses.
-  The smoke script's lesson loop passes for P8–P14, but `tools/smoke.py` then times out waiting for `#tones`: the
-  tone drill moved into the Practice tab (20 Oct), so the script's later steps need updating.
+  `tools/smoke.py` fixed the same day: the tone drill is reached through `#drills` (Practice tab), and the page
+  checks now cover themes, grammar, drills, bridge, podcast, video and settings. Full run on 21 Oct 2026 (114 lessons): 0 problems, about 19 minutes.
 - Language QC pass on 20 Oct 2026 (all 100 lessons + P1): 6 lessons fixed (54, 67, 68, 73, 85, 93); no other
   unattested readings, no Mandarin function words, no inconsistent readings across lessons.
