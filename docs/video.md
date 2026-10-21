@@ -5,7 +5,7 @@ Shows published free by their broadcaster on its own YouTube channel. First show
 copied or re-hosted.
 
 - `course/video.yaml`: per show `id`, `title`, `en`, `by`, `channel`, `total`, `about`, and the episodes that are listed
-  (`n`, YouTube `video` id, `title`, `dur` in seconds). An episode is added when it is worked on; the tab appears only
+  (`n`, YouTube `video` id, `title`, `dur` in seconds). An episode is added when it is worked on (EP1 and EP2 so far); the tab appears only
   when at least one show is listed. `build_app.py` copies the file into the app data as `video`.
 - Routes: `#video` (list, with progress), `#vid-<show>-<n>` (episode).
 - Player: YouTube IFrame API (`youtube-nocookie.com`), loaded only when an episode page opens; needs the internet.
