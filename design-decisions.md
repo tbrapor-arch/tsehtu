@@ -41,7 +41,8 @@ equivalent, or the parts joined with "+". Automatic English shows its source in 
 prints the count per source and lists automatic ones in `app/dist/english-auto.txt`: add those to the TSV.
 The `new_words` English is matched on **characters + reading**, not on the reading alone: a homophone must never
 take another word's English (until 21 Oct 2026 it did: 闊 khuah showed 渴's "thirsty", 講 kóng 管's "tube", 的 ê 鞋's
-"shoe" — 60 cards). The reading alone is used only for the same characters, or a word written without characters.
+"shoe" — 60 cards). The course English is stored per (characters, reading) pair, so 踮 tiàm 'stay at' and 店 tiàm 'shop' each keep
+their own (a second pass on 21 Oct 2026 fixed 52 more cards). The reading alone is used only for a romanised word.
 After changing `tools/english.py`, diff every card's `gloss` before/after a `make app` build.
 
 Progress, deck and preferences are stored in the browser only (per device).
