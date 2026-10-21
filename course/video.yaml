@@ -15,3 +15,15 @@ shows:
     episodes:
       - {n: 1, video: RRPBOCqO0wg, title: 兩個世界, dur: 5010}
       - {n: 2, video: iiAGbIG-Q8k, title: 宣戰, dur: 5832}
+  - id: guanbong   # 願望, SET evening drama (routes #vid-guanbong-<n>)
+    title: 願望
+    en: Desires
+    by: SET 三立
+    channel: https://www.youtube.com/@setdramatw
+    total: 291
+    about: >-
+      SET's evening drama (from July 2024): three sworn brothers, a deal gone wrong abroad, and the wishes each of them
+      carries home. Spoken in Taigi; the subtitles on screen are in Mandarin. Long episodes (about 1 h 35 min): take a
+      scene at a time.
+    episodes:
+      - {n: 1, video: TFAU39qtd9U, title: 相信願望就會實現, dur: 5823}
