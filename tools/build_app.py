@@ -488,7 +488,10 @@ if show:
 # ---- video (course/video.yaml): shows on their broadcaster's own YouTube channel; ids and titles only
 VIDEO = os.path.join(ROOT, 'course/video.yaml')
 video = yaml.safe_load(open(VIDEO, encoding='utf-8')) if os.path.exists(VIDEO) else {'shows': []}
-data = {'podcast': show, 'video': video, 'tones': tone_drill.build(lessons), 'grammar': grammar, 'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'accents': accents, 'bridge': bridge.build(con, 160),
+# ---- music (course/music.yaml): songs on the artist's own YouTube channel; ids and titles only (lyrics are private)
+MUSIC = os.path.join(ROOT, 'course/music.yaml')
+music = yaml.safe_load(open(MUSIC, encoding='utf-8')) if os.path.exists(MUSIC) else {'albums': []}
+data = {'podcast': show, 'video': video, 'music': music, 'tones': tone_drill.build(lessons), 'grammar': grammar, 'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'accents': accents, 'bridge': bridge.build(con, 160),
         'dict': dictionary, 'lesson0': lesson0, 'built': datetime.date.today().isoformat()}
 
 # ---- native-speaker recordings of the dialogues: course/audio/lessons/L057-03.mp3 (tools/import_recordings.py)

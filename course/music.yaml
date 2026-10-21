@@ -1,0 +1,23 @@
+# Music tab: Taigi songs played from the artist's own YouTube channel (official music videos). Only ids, titles and
+# lengths are kept here. Lyrics, their timing and word cards are not part of this repo (private module); `key` names
+# that private file. Add a song when it is worked on.
+albums:
+  - id: shuzhi   # 樹枝孤鳥 (routes #mus-shuzhi-<n>, n = track number)
+    title: 樹枝孤鳥
+    en: Lonely Tree, Lonely Bird
+    by: 伍佰 & China Blue
+    year: 1998
+    channel: https://www.youtube.com/channel/UCHocIer4qdnCmgvHlNrpqFA
+    about: >-
+      Wu Bai's first album sung entirely in Taigi (1998): rock built on the old Taiwanese ballads of the 1950s–60s,
+      about leaving home, love lost and the city at night. Clear, slow singing: a good first step into songs.
+    songs:
+      - {n: 2, video: EQI8oKA6X4o, title: 斷腸詩, en: Broken Heart Poetry}
+      - {n: 3, video: ouK4gL8xUyU, title: 漂浪, en: Hustling}
+      - {n: 4, video: QvE5BQSYAPs, title: 返去故鄉, en: Back to Hometown}
+      - {n: 6, video: kEXCoQNY6Mc, title: 心愛的再會啦, en: Farewell My Love}
+      - {n: 7, video: R-EqV3GXGfs, title: 徘徊夜都市, en: Wandering at Night City}
+      - {n: 8, video: GUIMi_WoSc4, title: 煞到你, en: Crush on You}
+      - {n: 9, video: sKwIcvv__sY, title: 空襲警報, en: Air Alert}
+      - {n: 10, video: ObSPLQ-1fJI, title: 樹枝孤鳥, en: 'Lonely Tree, Lonely Bird', dur: 287, key: wubai-shuzhi-gu-niao}
+      - {n: 11, video: YRMg3smsZTo, title: 飛在風中的小雨, en: Mist in the Wind}

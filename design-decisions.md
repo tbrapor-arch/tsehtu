@@ -20,7 +20,7 @@ rest greyed with their planned title) · **Practice 溫習** (one tab since 20 O
 on top, then a switch Vocabulary (themes) · Grammar · Drills · Cards; the tab reopens the part used last. Cards: segmented by lesson
 and theme group, cloze cards in the lesson sentence, Leitner 1/3/7/16/35 days; a card session always runs on `#review`.
 Themes: thematic vocabulary, "Le Mot et l'Idée" structure, numbered groups + a short text. Grammar: the sheets.
-Drills: tone-change practice and the **Bridge** trial; old routes `#themes`, `#grammar`, `#bridge` still work) · **Podcast** (see `docs/podcast.md`) · **Video** (Taigi drama in YouTube's player, `docs/video.md`) ·
+Drills: tone-change practice and the **Bridge** trial; old routes `#themes`, `#grammar`, `#bridge` still work) · **Podcast** (see `docs/podcast.md`) · **Video** (Taigi drama in YouTube's player, `docs/video.md`) · **Music** (Taigi songs, official music videos in the same player, `docs/music.md`) ·
 **Settings** (look, night mode, accent + regional tables, sync). A hidden **Exam** tab appears only on devices with
 access to an optional private module (`docs/sync-and-private-module.md`). No "Today" tab.
 

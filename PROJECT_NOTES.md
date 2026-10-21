@@ -10,13 +10,16 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 - **Themes:** four domains done: `health` (Body and health, 212 words), `food` (128), `home` (160), `clothing` (49); draft domain for every core word in `docs/themes-classification-draft.tsv`. The Themes part of Practice is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
 - **Coverage** (after lesson 100): top 100: 100 %, top 300: 97 %, top 1,000: 88 % (72 % after 63). The plan's 95 % target for the top 1,000 was not reached. Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
-- **App tabs:** Lessons, Practice (溫習: Vocabulary by theme, Grammar, Drills = tone changes + Bridge, Cards; merged 20 Oct 2026), Podcast, Video, Settings, plus a hidden
+- **App tabs:** Lessons, Practice (溫習: Vocabulary by theme, Grammar, Drills = tone changes + Bridge, Cards; merged 20 Oct 2026), Podcast, Video, Music, Settings, plus a hidden
   Exam tab that exists only when this device's token can read the private repo.
 - **Audio:** MOE headword and example recordings are fetched at build time by the workflow. Native-speaker
   recordings: tooling done (`record.html`, `tools/import_recordings.py`), **no clips imported yet**.
 - **Podcast tab:** 《隔壁 ê 戇人》, show notes from the RSS feed, audio streamed from SoundOn.
 - **Video tab:** 《市井豪門》 (FTV drama, official YouTube uploads), episodes listed in `course/video.yaml` (EP1 so far),
   played in YouTube's embedded player. Transcripts are private. See `docs/video.md`.
+- **Music tab** (21 Oct 2026): album 《樹枝孤鳥》 (伍佰 & China Blue, 1998), 9 official music videos listed in
+  `course/music.yaml`, same player as Video. Timed lyrics and word cards come from the private module (first song:
+  〈樹枝孤鳥〉). See `docs/music.md`.
 
 ## Repository rules
 - Public repo: no exam papers, answers, recordings, transcripts, tokens or text derived from the ministry's exam
