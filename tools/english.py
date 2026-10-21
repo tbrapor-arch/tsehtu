@@ -75,21 +75,52 @@ def course_glosses(root=ROOT):
     return out
 
 
+HAN = re.compile(r'[\u3400-\u9fff\U00020000-\U0003ffff]')
+
+
+def course_hanji(root=ROOT):
+    """{tkey: set of Hàn-jī} for the course's new words, to tell which characters a reading-keyed gloss belongs to."""
+    import glob
+    import yaml
+    out = {}
+    for f in sorted(glob.glob(os.path.join(root, 'course/lessons/[0-9]*.yaml'))) + \
+            sorted(glob.glob(os.path.join(root, 'course/perfectionnement/[0-9]*.yaml'))):
+        for w in yaml.safe_load(open(f, encoding='utf-8')).get('new_words') or []:
+            if w.get('en') and w.get('hanji'):
+                out.setdefault(_key(w['tailo']), set()).add(w['hanji'])
+    for f in sorted(glob.glob(os.path.join(root, 'course/themes/*.yaml'))):
+        for sec in yaml.safe_load(open(f, encoding='utf-8'))['sections']:
+            for w in sec['words']:
+                if w.get('en') and w.get('hanji'):
+                    out.setdefault(_key(w['tailo']), set()).add(w['hanji'])
+    return out
+
+
 class English:
     def __init__(self, con, course=None, ced=None):
         self.con = con
-        self.course = course if course is not None else course_glosses()   # {tkey: English}
+        self.course = course if course is not None else course_glosses()   # {tkey: English} (+ {(Hàn-jī, tkey): English})
+        self.course_hanji = course_hanji()   # {tkey: {Hàn-jī the course writes it with}}
         self.written = load_written()
         self.ced = ced if ced is not None else load_cedict()
         cols = [r[1] for r in con.execute('PRAGMA table_info(entry)')]
         self.has_en = 'english' in cols
 
-    def _course(self, hanji, k):
-        return self.course.get((hanji, k)) or self.course.get(k)
+    def _course(self, hanji, k, dict_hanji=None):
+        """The course's English for this word. Matched on Hàn-jī + reading when the course says which characters it
+        means; a bare reading only matches a word written the same way, or written without characters, so that a
+        homophone (闊 khuah) never takes another word's English (渴 khuah, thirsty)."""
+        en = self.course.get((hanji, k)) or (dict_hanji and self.course.get((dict_hanji, k)))
+        if en:
+            return en
+        hs = self.course_hanji.get(k)
+        if k in self.course and (not hs or hanji in hs or dict_hanji in hs or not HAN.search(hanji or '')):
+            return self.course[k]
+        return None
 
     def gloss(self, hanji, k, eid=None, dict_hanji=None, parts=()):
         """(English, source) for a word; ('', None) if nothing is known. `parts` = [(English, source), …]."""
-        en = self._course(hanji, k)
+        en = self._course(hanji, k, dict_hanji)
         if en:
             return en, 'course'
         en = self.written.get((hanji, k)) or (dict_hanji and self.written.get((dict_hanji, k)))

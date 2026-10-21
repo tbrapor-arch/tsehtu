@@ -1244,6 +1244,32 @@ function openNote(L, k) {
   sh.classList.add('open'); sh.setAttribute('aria-hidden', 'false');
 }
 function closeSheet() { $$('.sent.noted').forEach(x => x.classList.remove('noted')); const sh = $('#sheet'); sh.classList.remove('open'); sh.setAttribute('aria-hidden', 'true'); $$('.tok.sel').forEach(x => x.classList.remove('sel')); }
+// swipe the sheet down to close it (phones): a drag that starts while the sheet is scrolled to its top follows the
+// finger; let go past 90 px, or with a quick flick, and it closes, otherwise it springs back
+(() => {
+  const sh = document.getElementById('sheet');
+  let y0 = 0, t0 = 0, dy = 0, drag = false, armed = false;
+  const wide = () => matchMedia('(min-width: 1100px)').matches;
+  sh.addEventListener('touchstart', e => {
+    if (wide() || e.touches.length > 1) return;
+    armed = sh.scrollTop <= 0; drag = false; dy = 0; y0 = e.touches[0].clientY; t0 = Date.now();
+  }, { passive: true });
+  sh.addEventListener('touchmove', e => {
+    if (!armed) return;
+    dy = e.touches[0].clientY - y0;
+    if (!drag) { if (dy > 8 && sh.scrollTop <= 0) { drag = true; sh.style.transition = 'none'; } else if (dy < 0) { armed = false; return; } else return; }
+    e.preventDefault();
+    sh.style.transform = `translateY(${Math.max(0, dy)}px)`;
+  }, { passive: false });
+  const end = () => {
+    if (!drag) { armed = false; return; }
+    const fast = dy > 40 && dy / Math.max(1, Date.now() - t0) > .5;
+    sh.style.transition = ''; drag = armed = false;
+    if (dy > 90 || fast) { sh.style.transform = ''; closeSheet(); }
+    else sh.style.transform = '';
+  };
+  sh.addEventListener('touchend', end); sh.addEventListener('touchcancel', end);
+})();
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') return closeSheet();
   if (e.target.closest('input, textarea, select') || e.metaKey || e.ctrlKey || e.altKey) return;
