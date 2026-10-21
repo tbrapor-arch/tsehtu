@@ -39,6 +39,10 @@ texts): the lesson/theme `new_words` English, else `course/glosses_en.tsv` (shor
 the MOE meanings), else automatic: Maryknoll (only in `make db-nc` builds), the CC-CEDICT English of the Mandarin
 equivalent, or the parts joined with "+". Automatic English shows its source in small print under it. `make app`
 prints the count per source and lists automatic ones in `app/dist/english-auto.txt`: add those to the TSV.
+The `new_words` English is matched on **characters + reading**, not on the reading alone: a homophone must never
+take another word's English (until 21 Oct 2026 it did: 闊 khuah showed 渴's "thirsty", 講 kóng 管's "tube", 的 ê 鞋's
+"shoe" — 60 cards). The reading alone is used only for the same characters, or a word written without characters.
+After changing `tools/english.py`, diff every card's `gloss` before/after a `make app` build.
 
 Progress, deck and preferences are stored in the browser only (per device).
 
@@ -53,7 +57,9 @@ Progress, deck and preferences are stored in the browser only (per device).
 - **Script modes:** 漢字 + Tâi-lô · Tâi-lô on tap (first tap shows the reading, second opens the card) · Tâi-lô · 漢字.
 - **Practice** accepts tone numbers (bue7 = buē). **New words:** copy for Anki (tab-separated).
 - **Review:** keys space / 1 / 2; score counts words remembered the first time and lists the missed ones.
-- **Word card:** ▶ Listen (MOE recording, when the site was built with audio); tapping outside closes it.
+- **Word card:** ▶ Listen (MOE recording, when the site was built with audio); tapping outside closes it; on a
+  phone, swiping it down closes it too (drag from the top of the card: past 90 px or a quick flick closes, else it
+  springs back).
 - **Settings:** save / load a progress file (to move progress between devices), review audio on / off.
 - Back to the lesson grid returns to where you were.
 

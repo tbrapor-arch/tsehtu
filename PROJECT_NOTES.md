@@ -46,6 +46,7 @@ before committing. Language QC: `tools/qc_readings.py` and `tools/qc_glosses.py`
 - Build fails soft: MOE audio and the podcast feed are optional, the site deploys without them.
 - Every word card has English (`tools/english.py`): words not in `new_words` get a gloss from `course/glosses_en.tsv`;
   new words that fall back to automatic English are listed by `make app` (`app/dist/english-auto.txt`).
+  Course English is matched on characters + reading (fixed 21 Oct 2026: homophones took each other's English).
 
 ## Open items
 - Classify the vocabulary for Themes (in Practice), starting with a pilot domain. Optional: a native-speaker pass over lessons 64–100 (written 16–20 Oct 2026, not native-checked).
