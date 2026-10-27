@@ -330,6 +330,23 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .lname { display: flex; align-items: center; gap: .6rem; }
 .lname .icon.sq { flex: none; border: 1.5px solid var(--soft-line); border-radius: 8px; width: 2.2rem; height: 2.2rem; background: none; color: var(--brand); font-size: 1rem; }
 .lren { font: inherit; font-family: var(--f-han); font-size: 1.6rem; font-weight: 700; width: 100%; padding: .25rem .5rem; border: 1.5px solid var(--brand); border-radius: 8px; background: var(--surface); color: var(--text); }
+.tsearch { font: inherit; width: 100%; padding: .65rem .9rem; border: 1.5px solid var(--soft-line); border-radius: 999px; background: var(--surface); color: var(--text); }
+.tsearch:focus { outline: none; border-color: var(--brand); }
+.tsrc { display: block; color: var(--sub); font-size: .75rem; }
+.tlist { display: flex; flex-direction: column; border: 1.5px solid var(--soft-line); border-radius: 12px; background: var(--surface); overflow: hidden; }
+.trow + .trow { border-top: 1px solid var(--soft-line); }
+.trow-h { width: 100%; display: grid; grid-template-columns: 2.4rem 1fr auto 1rem; align-items: center; gap: .7rem; padding: .6rem .8rem; border: 0; background: none; color: var(--text); text-align: left; font: inherit; cursor: pointer; }
+.trow-h .tk { width: 2.4rem; height: 2.4rem; display: grid; place-items: center; border-radius: 10px; background: color-mix(in srgb, var(--brand) 12%, transparent); color: var(--brand); font-size: 1.3rem; font-weight: 700; }
+.trow-h .tt { display: flex; flex-direction: column; min-width: 0; }
+.trow-h .tt .han { font-size: 1.1rem; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.trow-h small { color: var(--sub); font-size: .78rem; }
+.trow-h .tc { display: flex; flex-direction: column; align-items: flex-end; font: 700 .85rem var(--f-ui); color: var(--brand); font-variant-numeric: tabular-nums; }
+.trow-h .chev { color: var(--sub); }
+.trow.open .trow-h { background: color-mix(in srgb, var(--brand) 6%, transparent); }
+.tgroups { display: flex; flex-wrap: wrap; gap: .4rem; padding: .2rem .8rem .8rem 3.9rem; }
+.tg { border: 1.5px solid var(--soft-line); background: var(--bg); color: var(--text); border-radius: 999px; padding: .3rem .7rem; font: inherit; font-size: .95rem; }
+.tg small { color: var(--sub); font-size: .75rem; }
+.tg.all { border-color: var(--brand); color: var(--brand); font-weight: 700; }
 .xback { border: 0; background: none; color: inherit; font: inherit; font-size: 1.1rem; padding: 0 .4rem 0 0; cursor: pointer; }
 .lbar .icon.sq { position: relative; border: 1.5px solid var(--soft-line); border-radius: 8px; width: 2.2rem; height: 2.2rem; display: inline-grid; place-items: center; color: var(--brand); }
 .lbar .icon.sq .dot { position: absolute; top: -.45rem; right: -.45rem; min-width: 1.1rem; height: 1.1rem; padding: 0 .2rem; border-radius: 999px; background: var(--brand); color: var(--brand-ink, #fff); font: 700 .65rem/1.1rem var(--f-ui); }
@@ -647,7 +664,7 @@ function route() {
   if (h === 'lesson-0') return showLesson0();
   if ((m = h.match(/^(lesson|wave)-(\d+)$/))) { const L = DATA.lessons.find(l => l.id === +m[2]); if (L) { WAVE = m[1] === 'wave'; fromLesson = L.id; store.set('last', L.id); return showLesson(L); } }
   if (h === 'themes') return showThemes();
-  if ((m = h.match(/^theme-([a-z0-9-]+)$/))) { const T = DATA.themes.find(t => t.id === m[1]); if (T) return showTheme(T); }
+  if ((m = h.match(/^theme-([a-z]+)(?:-(\d+))?$/))) { const T = DATA.themes.find(t => t.id === m[1]); if (T) return showTheme(T, m[2] ? +m[2] : null); }
   if (h === 'review') return showReview();
   if (h === 'lists') return showLists();
   if ((m = h.match(/^list-(.+)$/))) return showList(decodeURIComponent(m[1]));
@@ -956,16 +973,51 @@ function showLesson0() {
 }
 
 // ---------- themes (thematic vocabulary)
+// Vocabulary: one row per theme (its key character, title, counts); a row opens its groups in place, a group opens
+// the theme at that group; the search finds words in every theme (Hàn-jī, Tâi-lô with or without tones, English)
+const THEME_CHAR = { people: '人', health: '身', food: '食', home: '厝', clothing: '衫', nature: '天', places: '路' };
+let themeOpen = null, themeQ = '';
+const toneless = s => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9㐀-鿿\u{20000}-\u{3ffff} ]+/gu, ' ').trim();
+function themeHits(q) {
+  const n = toneless(q); if (!n) return [];
+  const out = [];
+  DATA.themes.forEach(t => t.sections.forEach(sec => sec.words.forEach(w => {
+    const hay = [w.hanji, toneless(w.tailo), toneless(w.tailo).replace(/ /g, ''), (w.en || '').toLowerCase()];
+    if (hay.some(h => h.includes(n) || h.includes(q.trim()))) out.push({ w, t, sec });
+  })));
+  return out;
+}
+function themeResults() {
+  const r = themeHits(themeQ);
+  if (!themeQ.trim()) return '';
+  if (!r.length) return `<p class="sub">No word found for “${esc(themeQ)}”.</p>`;
+  return `<span class="sub" style="font-size:.85rem">${r.length} word${r.length === 1 ? '' : 's'}${r.length > 80 ? ' · first 80' : ''}</span>
+    <div class="vwrap"><table class="vtable"><tbody>${r.slice(0, 80).map(({ w, t, sec }) => `<tr class="${w.id ? cog(w.id)[2] : ''}" data-word="${esc(w.id)}" tabindex="0">
+      <td class="vh">${esc(w.hanji)}</td><td class="vr">${esc(w.tailo)}</td><td class="ve">${esc(w.en)}<small class="tsrc">${esc(THEME_CHAR[t.id] || '')} ${esc(sec.title.en)}</small></td></tr>`).join('')}</tbody></table></div>`;
+}
 function showThemes() {
   renderTabs('review');
+  const inLists = id => Object.keys(lists).some(k => inList(k, id));
   $('#main').innerHTML = `<div class="col">
-    ${pracHead('themes', 'vocabulary by theme: words grouped by topic, each group with a short text')}
-    <div class="tgrid">${DATA.themes.map(t => `<button class="tcard" data-go="theme-${t.id}"><span class="th">${esc(t.title.hanji)}</span><span class="tr">${esc(t.title.tailo)}</span><span>${esc(t.title.en)}</span>
-      <span class="tn">${t.sections.length} groups · ${t.sections.reduce((a, s) => a + s.words.length, 0)} words</span></button>`).join('')}</div>
+    ${pracHead('themes', 'vocabulary by theme')}
+    <input class="tsearch" type="search" placeholder="Search: 雞, ke, chicken…" value="${esc(themeQ)}" aria-label="Search the vocabulary">
+    <div id="tres">${themeResults()}</div>
+    <div class="tlist">${DATA.themes.map(t => { const ids = t.sections.flatMap(x => x.words.map(w => w.id)), mine = ids.filter(id => id && inLists(id)).length, open = themeOpen === t.id;
+      return `<div class="trow ${open ? 'open' : ''}"><button class="trow-h" data-topen="${t.id}" aria-expanded="${open}">
+        <span class="tk han">${esc(THEME_CHAR[t.id] || t.title.hanji[0])}</span>
+        <span class="tt"><span class="han">${esc(t.title.hanji)}</span><small>${esc(t.title.en)}</small></span>
+        <span class="tc">${ids.length} words<small>${t.sections.length} groups${mine ? ` · ${mine} in lists` : ''}</small></span><span class="chev">${open ? '⌃' : '⌄'}</span></button>
+        ${open ? `<div class="tgroups"><button class="tg all" data-go="theme-${t.id}">All</button>${t.sections.map(x => `<button class="tg" data-go="theme-${t.id}-${x.n}"><span class="han">${esc(x.title.hanji)}</span> <small>${esc(x.title.en)}</small></button>`).join('')}</div>` : ''}</div>`; }).join('')}</div>
   </div>`;
-  wirePrac($('#main'));
+  const m = $('#main');
+  wirePrac(m);
+  $$('[data-topen]', m).forEach(b => b.onclick = () => { themeOpen = themeOpen === b.dataset.topen ? null : b.dataset.topen; showThemes(); });
+  const wireRes = () => $$('#tres [data-word]', m).forEach(r => { r.onclick = () => openCard(r.dataset.word); r.onkeydown = e => { if (e.key === 'Enter') openCard(r.dataset.word); }; });
+  const inp = $('.tsearch', m);
+  inp.oninput = () => { themeQ = inp.value; $('#tres', m).innerHTML = themeResults(); wireRes(); };
+  wireRes();
 }
-function showTheme(T) {
+function showTheme(T, n) {
   renderTabs('review');
   $('#main').innerHTML = `<div class="col mode-${prefs.mode}">
     <div class="head"><span class="eyebrow">Theme</span><h1>${esc(T.title.hanji)}</h1><span class="rom">${esc(T.title.tailo)} · ${esc(T.title.en)}</span></div>
@@ -981,9 +1033,11 @@ function showTheme(T) {
     ${T.notes.length ? `<h2><span class="han">注解</span> Notes</h2><ol class="notes">${T.notes.map((n, i) => `<li class="note"><span class="nn">${i + 1}</span><p><span class="tag">Group ${n.ref}</span>${fmt(n.text)}</p></li>`).join('')}</ol>` : ''}
   </div>`;
   const m = $('#main');
-  wireToolbar(() => showTheme(T)); wireTokens(m); wireReveal(m);
+  wireToolbar(() => showTheme(T, n)); wireTokens(m); wireReveal(m);
   $$('[data-word]', m).forEach(r => { r.onclick = () => openCard(r.dataset.word); r.onkeydown = e => { if (e.key === 'Enter') openCard(r.dataset.word); }; });
   $$('[data-addsec]', m).forEach(b => b.onclick = () => { const n = listSet('lessons', T.sections[+b.dataset.addsec].words.map(w => w.id), true); toast(n ? `${n} words added to Lessons` : 'Already in your Lessons list'); });
+  if (n) { const g = document.getElementById('sec-' + n); if (g) setTimeout(() => { const tb = $('.toolbar', m), sticky = tb && getComputedStyle(tb).position === 'sticky' ? tb.offsetHeight : 0;
+    window.scrollTo(0, g.getBoundingClientRect().top + window.scrollY - sticky - 12); }, 0); }
 }
 
 // ---------- grammar sheets: each structure with every course line that uses it
