@@ -315,6 +315,11 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .sent.saying .txt { background: var(--sun-soft); border-radius: 6px; }
 .lplay.on { background: var(--brand); color: var(--brand-ink); border-color: var(--brand); }
 .tok.say { background: var(--sun-soft); box-shadow: inset 0 -3px 0 var(--sun); }
+.wc-btns { margin-left: auto; display: flex; gap: .4rem; align-items: flex-start; flex: none; }
+.wc-add { display: flex; flex-direction: column; align-items: center; gap: .05rem; max-width: 4.6rem; border: var(--border-soft, 1.5px solid var(--soft-line)); background: var(--bg); color: var(--sub); border-radius: 12px; padding: .3rem .45rem .25rem; cursor: pointer; font: inherit; font-size: .62rem; font-weight: 800; }
+.wc-add svg { width: 1.3rem; height: 1.3rem; }
+.wc-add span { max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wc-add.on { color: var(--brand); border-color: var(--brand); background: color-mix(in srgb, var(--brand) 12%, var(--bg)); }
 .wc-top .x { margin-left: auto; border: 0; background: var(--surface); border-radius: 50%; width: 2.2rem; height: 2.2rem; font-size: 1.2rem; color: var(--sub); }
 .wc-h { font-family: var(--f-han); font-size: 2.8rem; font-weight: 700; line-height: 1.1; }
 .wc-t { font-size: 1.45rem; font-weight: 600; }
@@ -1370,7 +1375,7 @@ function glossSrc(c) {
 }
 function openCard(id, w) {
   const c = id ? DATA.dict[id] : null, sh = $('#sheet');
-  const top = (h, t, extra) => `<div class="grab"></div><div class="wc-top"><div><div class="wc-h">${esc(h)}</div><div class="wc-t">${esc(t)}</div>${extra || ''}</div><button class="x" aria-label="Close">×</button></div>`;
+  const top = (h, t, extra, btn) => `<div class="grab"></div><div class="wc-top"><div><div class="wc-h">${esc(h)}</div><div class="wc-t">${esc(t)}</div>${extra || ''}</div><div class="wc-btns">${btn || ''}<button class="x" aria-label="Close">×</button></div></div>`;
   if (!c) sh.innerHTML = top(w ? w.h : '', w ? w.t : '') + '<p class="empty">A name, or a word not in the dictionaries.</p>';
   else {
     const [pc, pt] = cog(id);
@@ -1385,7 +1390,10 @@ function openCard(id, w) {
     const xs = (w && w.x || []).filter(x => DATA.dict[x]);
     const splits = xs.length > 1 ? `<div class="wc-sec"><h3>Other splits</h3><div class="splits">${xs.map(x => `<button data-split="${esc(x)}" aria-pressed="${x === id}"><span class="han">${esc(DATA.dict[x].hanji)}</span><span class="r">${esc(DATA.dict[x].tailo || DATA.dict[x].tkey)}</span></button>`).join('')}</div></div>` : '';
     const src = { moe: '教育部臺灣台語常用詞辭典 (MOE), CC BY-ND 3.0 TW', itaigi: 'iTaigi, CC0', taihoa: '台華線頂對照典, CC BY-SA 4.0', tgb: '台灣白話基礎語句, CC BY-SA 4.0' }[c.source];
-    sh.innerHTML = top(c.hanji, c.tailo || (w && w.t) || c.tkey, spoken + (c.audio ? `<button class="btn small line play" id="play" aria-label="Play the recording">▶ Listen</button>` : '')) + comp + splits + `
+    // add to the list of the page being read: a bookmark in the card's top corner (filled once the word is in it)
+    const lk = listHere(), onL = inList(lk, id), alsoL = Object.keys(lists).filter(k => k !== lk && inList(k, id));
+    const addBtn = `<button class="wc-add ${onL ? 'on' : ''}" id="add-card" data-list="${esc(lk)}" aria-pressed="${onL}" aria-label="${onL ? `In ${esc(listTitle(lk))}: tap to remove` : `Add to ${esc(listTitle(lk))}`}" title="${onL ? 'In' : 'Add to'} ${esc(listTitle(lk))}"><svg viewBox="0 0 24 24" fill="${onL ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg><span>${esc(listTitle(lk))}</span></button>`;
+    sh.innerHTML = top(c.hanji, c.tailo || (w && w.t) || c.tkey, spoken + (c.audio ? `<button class="btn small line play" id="play" aria-label="Play the recording">▶ Listen</button>` : ''), addBtn) + comp + splits + `
       ${pt || c.rank ? `<div class="row">${pt ? `<span class="pill ${pc}">${pt}</span>` : ''}${c.rank ? `<span class="pos">#${c.rank} most common</span>` : ''}${c.wenbai && c.wenbai !== 'substitute-char' ? `<span class="pos">${esc(c.wenbai)} reading</span>` : ''}</div>` : ''}
       ${c.gloss ? `<div class="wc-sec"><h3>English</h3><div class="wc-gloss">${esc(c.gloss)}</div>${glossSrc(c)}</div>` : ''}
       ${c.mand && c.mand.length ? `<div class="wc-sec"><h3>Mandarin${c.hsk ? ` · HSK ${c.hsk}` : ''}</h3><ul class="mlist">${c.mand.map(m => `<li><span class="han">${esc(m.w)}</span> <span class="py">${esc(m.py)}</span>${m.en ? ` <span class="men">${esc(m.en)}</span>` : ''}</li>`).join('')}</ul></div>` : (c.mandarin && c.mandarin.length ? `<div class="wc-sec"><h3>Mandarin</h3><div class="han">${c.mandarin.map(esc).join('、')}</div></div>` : '')}
@@ -1399,8 +1407,7 @@ function openCard(id, w) {
         ${c.dialect.map(d => Object.entries(d.places).map(([p, r]) => `<tr><td class="han">${esc(d.char)}</td><td class="han">${esc(p)}</td><td>${esc(r)}</td></tr>`).join('')).join('')}</tbody></table></div></details>` : ''}
       ${c.in && c.in.length ? `<div class="wc-sec"><h3>Used in</h3><div class="parts">${c.in.filter(p => DATA.dict[p]).map(p => `<button data-part="${esc(p)}"><span class="han">${esc(DATA.dict[p].hanji)}</span> ${esc(DATA.dict[p].tailo || DATA.dict[p].tkey)}</button>`).join('')}</div></div>` : ''}
       ${c.parts && c.parts.length && cps.length < 2 ? `<div class="wc-sec"><h3>Made of</h3><div class="parts">${c.parts.map(p => `<button data-part="${esc(p)}"><span class="han">${esc(DATA.dict[p].hanji)}</span> ${esc(DATA.dict[p].tailo || DATA.dict[p].tkey)}</button>`).join('')}</div></div>` : ''}
-      ${(() => { const lk = listHere(), on = inList(lk, id), also = Object.keys(lists).filter(k => k !== lk && inList(k, id));
-        return `<div class="row"><button class="btn ${on ? 'quiet' : ''}" id="add-card" data-list="${esc(lk)}">${on ? `✓ In ${esc(listTitle(lk))}` : `+ Add to ${esc(listTitle(lk))}`}</button>${also.length ? `<span class="sub" style="font-size:.85rem">Also in ${also.map(k => esc(listTitle(k))).join(', ')}</span>` : ''}</div>`; })()}
+      ${alsoL.length ? `<span class="sub" style="font-size:.85rem">Also in your lists: ${alsoL.map(k => esc(listTitle(k))).join(', ')}</span>` : ''}
       ${src ? `<div class="wc-src">Source: ${esc(src)}${c.audio ? '. Recording: same dictionary, CC BY-ND 3.0 TW.' : ''}</div>` : ''}`;
     $('#add-card', sh).onclick = e => { const lk = e.currentTarget.dataset.list, on = !inList(lk, id); listSet(lk, [id], on); toast(on ? `Added to ${listTitle(lk)}` : `Removed from ${listTitle(lk)}`); openCard(id, w); const h = location.hash.slice(1); if (/^list-/.test(h)) { route.keepSheet = true; route(); route.keepSheet = false; } else rerenderCurrent(); };
     $$('[data-part]', sh).forEach(b => b.onclick = () => openCard(b.dataset.part));
