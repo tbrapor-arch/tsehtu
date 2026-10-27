@@ -1,0 +1,12 @@
+# Weekly update proposals (pull requests, nothing merges by itself) for the pinned GitHub Actions and Python packages.
+# A cooldown leaves new releases alone for a week, the time a compromised release is usually found and pulled.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule: {interval: weekly}
+    cooldown: {default-days: 7}
+  - package-ecosystem: pip
+    directory: /
+    schedule: {interval: weekly}
+    cooldown: {default-days: 7}

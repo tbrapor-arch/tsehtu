@@ -17,3 +17,9 @@ Loader contract (`Exam` object in `app/index.template.html`): the repo's `exam/i
 hashes; `app.css` and `app.js` are fetched through the GitHub API, cached in the browser by hash (works offline), and
 `window.ExamModule.init(loader)` / `.route(hash)` are called. `app/pwa/sw.js` leaves `api.github.com` alone.
 Keep this document generic: do not describe the module's content here.
+
+## Content Security Policy
+`tools/site.py` puts a CSP in the published page: only the page's own inline script (by hash, recomputed at each
+build), `blob:` scripts (the module), YouTube's player API and GitHub's API are allowed. The module must therefore not
+rely on `eval`, inline `<script>` or `on…=` attributes. A new outside source (script, API, frame) has to be added to
+the list in `tools/site.py`, or the browser refuses it.

@@ -9,6 +9,7 @@ course/audio/flags.yaml, so the text can be corrected.
 """
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
@@ -23,6 +24,12 @@ FLAGS = os.path.join(ROOT, 'course/audio/flags.yaml')
 FILTER = ('silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.12,areverse,'
           'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.25,areverse,'
           'loudnorm=I=-18:TP=-2:LRA=9,apad=pad_dur=0.15')
+
+
+# Names taken from the zip are used as file names: only plain ones (L057-03, L057-03.webm) are accepted, so a
+# damaged or crafted zip cannot write outside course/audio/lessons ('../', '/', '\\').
+SAFE_ID = re.compile(r'[A-Za-z0-9][A-Za-z0-9_-]{0,40}')
+SAFE_FILE = re.compile(r'[A-Za-z0-9][A-Za-z0-9_-]{0,40}\.[A-Za-z0-9]{1,5}')
 
 
 def convert(src, dst):
@@ -53,6 +60,8 @@ def main():
                     flags[c['id']] = {'speaker': sp, 'hanji': c.get('hanji'), 'tailo': c.get('tailo'), 'note': c['flag']}
                 if not c.get('file'):
                     continue
+                if not SAFE_ID.fullmatch(str(c.get('id', ''))) or not SAFE_FILE.fullmatch(str(c['file'])):
+                    sys.exit(f'{path}: unexpected clip name {c.get("id")!r} / {c["file"]!r}, nothing imported from it')
                 dst = os.path.join(OUT, c['id'] + '.mp3')
                 if os.path.exists(dst) and not force:
                     kept += 1
