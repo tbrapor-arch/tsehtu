@@ -11,6 +11,11 @@ dialogue:
   - {n: 6, speaker: A-bîng, hanji: "當然會使。毋過愛包紅包，這是禮數。", tailo: "Tong-jiân ē-sái. M̄-koh ài pau âng-pau, tse sī lé-sòo.", en: "Of course. But you have to give a red envelope; it's the custom."}
   - {n: 7, speaker: Sam, hanji: "偌濟較適當？", tailo: "Guā-tsē khah sik-tòng?", en: "How much is appropriate?"}
   - {n: 8, speaker: A-bîng, hanji: "一千二抑是一千六，雙數較好。莫包四，四聽起來親像「死」。", tailo: "Tsi̍t-tshing-jī ia̍h-sī tsi̍t-tshing-la̍k, siang-sòo khah hó. Mài pau sì, sì thiann--khí-lâi tshin-tshiūnn 'sí'.", en: "1,200 or 1,600; even numbers are better. Avoid fours: 四 sounds like 死 'death'."}
+  - {n: 9, speaker: "Sam", hanji: "恁表兄佮伊的同事是按怎做伙的？", tailo: "Lín piáu-hiann kah i ê tông-sū sī án-tsuánn tsò-hué--ê?", en: "How did your cousin and his colleague get together?"}
+  - {n: 10, speaker: "A-bîng", hanji: "𪜶佇公司鬥陣做代誌，做久就有愛情矣。", tailo: "In tī kong-si tàu-tīn tsò tāi-tsì, tsò kú tō ū ài-tsîng--ah.", en: "They worked together at the company, and over time love came along."}
+  - {n: 11, speaker: "Sam", hanji: "佇公司就揣著心愛的人，真難得。", tailo: "Tī kong-si tō tshuē-tio̍h sim-ài ê lâng, tsin lân-tit.", en: "Finding the one you love right there at work is quite something."}
+  - {n: 12, speaker: "A-bîng", hanji: "阮阿媽講𪜶是一對鴛鴦，庄跤的人攏真欣羨。", tailo: "Guán a-má kóng in sī tsi̍t tuì uan-iunn, tsng-kha ê lâng lóng tsin him-siān.", en: "My grandma says they're a pair of lovebirds, and the whole village envies them."}
+  - {n: 13, speaker: "A-bîng", hanji: "你若欲參加，我共表兄講一聲，請伊加算你一个。你嘛會使看覓庄跤的辦桌是偌鬧熱，兩百个人客做伙食，閣有人唱歌。", tailo: "Lí nā beh tsham-ka, guá kā piáu-hiann kóng tsi̍t siann, tshiánn i ke sǹg lí tsi̍t ê. Lí mā ē-sái khuànn-māi tsng-kha ê pān-toh sī guā lāu-jia̍t, nn̄g-pah ê lâng-kheh tsò-hué tsia̍h, koh ū lâng tshiùnn-kua.", en: "If you'd like to come, I'll have a word with my cousin and ask him to count you in. And you'll see how lively a country banquet is: two hundred guests eating together, and people singing too."}
 notes:
   - {ref: 1, topic: vocab, text: "表兄 piáu-hiann = (older) cousin on the mother's or a female relative's side. 結婚 kiat-hun = marry. 寄 kià = send (by post). 喜帖 hí-thiap = wedding invitation."}
   - {ref: 2, topic: vocab, text: "新娘 sin-niû = bride; 新郎 sin-lông = groom. 恭喜 kiong-hí = congratulations."}
@@ -20,6 +25,10 @@ notes:
   - {ref: 6, topic: vocab, text: "當然 tong-jiân = of course. 禮數 lé-sòo = etiquette, what's proper (禮節)."}
   - {ref: 7, topic: vocab, text: "適當 sik-tòng = appropriate."}
   - {ref: 8, topic: grammar, text: "雙數 siang-sòo = even number. 聽起來 thiann--khí-lâi = sounds (like) (聽起來). Taigi 四 sì and 死 sí differ only by tone, as in Mandarin. 一千二 tsi̍t-tshing-jī = 1,200."}
+  - {ref: 10, topic: "vocab", text: "愛情 ài-tsîng = love (romantic love). 做久 tsò kú 'after working a long time': V + 久 = after a long time doing."}
+  - {ref: 11, topic: "vocab", text: "心愛的人 sim-ài ê lâng = the person you love, your sweetheart. 難得 lân-tit = rare and precious, not easy to come by: 這款機會真難得 'chances like this are rare'."}
+  - {ref: 12, topic: "culture", text: "鴛鴦 uan-iunn = mandarin ducks, which swim in pairs: the classic image of a loving couple. 欣羨 him-siān = envy, admire (羨慕)."}
+  - {ref: 13, topic: "vocab", text: "參加 tsham-ka = take part, attend. 講一聲 kóng tsi̍t siann = have a word, let someone know. 加算你一个 'count you in as well': 算 sǹg = count. 偌鬧熱 'how lively': 偌 + adjective = how …"}
 new_words:
   - {tailo: piáu-hiann, hanji: 表兄, en: "(older) cousin"}
   - {tailo: kiat-hun, hanji: 結婚, en: "marry"}
@@ -36,11 +45,19 @@ new_words:
   - {tailo: lé-sòo, hanji: 禮數, en: "etiquette"}
   - {tailo: sik-tòng, hanji: 適當, en: "appropriate"}
   - {tailo: siang-sòo, hanji: 雙數, en: "even number"}
+  - {tailo: "ài-tsîng", hanji: "愛情", en: "love (romantic)"}
+  - {tailo: "sim-ài", hanji: "心愛", en: "beloved"}
+  - {tailo: "lân-tit", hanji: "難得", en: "rare and precious"}
+  - {tailo: "uan-iunn", hanji: "鴛鴦", en: "mandarin ducks; a loving couple"}
+  - {tailo: "him-siān", hanji: "欣羨", en: "envy, admire"}
+  - {tailo: "tsham-ka", hanji: "參加", en: "take part, attend"}
 exercises:
   translate:
     - {tailo: "Guá mā ē-sái khì tsia̍h-toh--bô?", hanji: "我嘛會使去食桌無？", en: "Can I come to the banquet too?"}
     - {tailo: "Siang-sòo khah hó.", hanji: "雙數較好。", en: "Even numbers are better."}
+    - {tailo: "Tī kong-si tō tshuē-tio̍h sim-ài ê lâng, tsin lân-tit.", hanji: "佇公司就揣著心愛的人，真難得。", en: "Finding the one you love at work is quite something."}
   fill:
     - {tailo: "In beh tī tsng-kha ___.", hanji: "𪜶欲佇庄跤___。", answer: "pān-toh", answer_hanji: "辦桌", en: "They're holding a banquet in the countryside."}
     - {tailo: "Hiah-nī ___.", hanji: "遐爾___。", answer: "lāu-jia̍t", answer_hanji: "鬧熱", en: "So lively."}
+    - {tailo: "Lí nā beh ___, guá kā piáu-hiann kóng tsi̍t siann.", hanji: "你若欲___，我共表兄講一聲。", answer: "tsham-ka", answer_hanji: "參加", en: "If you'd like to come, I'll have a word with my cousin."}
 audio: []

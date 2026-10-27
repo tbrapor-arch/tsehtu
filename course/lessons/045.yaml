@@ -11,6 +11,12 @@ dialogue:
   - {n: 6, speaker: A-kong, hanji: "是啊，毋過少年人攏走去都市矣，田無人欲作。", tailo: "Sī--ah, m̄-koh siàu-liân-lâng lóng tsáu-khì too-tshī--ah, tshân bô lâng beh tsoh.", en: "Yes, but the young people have all left for the cities, and nobody wants to farm."}
   - {n: 7, speaker: Sam, hanji: "毋過收成的時，恁孫會轉來鬥相共乎？", tailo: "M̄-koh siu-sîng ê sî, lín sun ē tńg--lâi tàu-sann-kāng--honnh?", en: "But at harvest time your grandchildren come back to help, don't they?"}
   - {n: 8, speaker: A-kong, hanji: "會啦！一家伙仔佇稻埕曝粟，上鬧熱。", tailo: "Ē--lah! Tsi̍t-ke-hué-á tī tiū-tiânn pha̍k tshik, siōng lāu-jia̍t.", en: "They do! The whole family drying the grain in the courtyard: that's the liveliest time."}
+  - {n: 9, speaker: "Sam", hanji: "阿公，彼片樹林是恁的無？", tailo: "A-kong, hit phìnn tshiū-nâ sī lín--ê--bô?", en: "Grandpa, is that wood over there yours?"}
+  - {n: 10, speaker: "A-kong", hanji: "毋是，彼是厝邊的。樹林內有人飼羊仔，溪仔邊閣有田螺。", tailo: "M̄ sī, he sī tshù-pinn--ê. Tshiū-nâ lāi ū lâng tshī iûnn-á, khe-á pinn koh ū tshân-lê.", en: "No, that's the neighbour's. Someone keeps goats in the wood, and there are river snails by the stream."}
+  - {n: 11, speaker: "A-kong", hanji: "我細漢的時，攏去田裡抾田螺，抾轉來予阮阿母煮。", tailo: "Guá sè-hàn ê sî, lóng khì tshân--lí khioh tshân-lê, khioh--tńg-lâi hōo guán a-bú tsú.", en: "When I was little I used to go and gather snails in the fields and bring them home for my mother to cook."}
+  - {n: 12, speaker: "Sam", hanji: "冬天嘛會當作穡無？", tailo: "Tang-thinn mā ē-tàng tsoh-sit--bô?", en: "Can you farm in winter too?"}
+  - {n: 13, speaker: "A-kong", hanji: "冬天嘛有種菜。啊，你看山頭遐，烏雲來矣，親像欲落雨。", tailo: "Tang-thinn mā ū tsìng tshài. Ah, lí khuànn suann-thâu hia, oo-hûn lâi--ah, tshin-tshiūnn beh lo̍h-hōo.", en: "We grow vegetables in winter too. Oh, look at the hilltop over there: dark clouds are coming. Looks like rain."}
+  - {n: 14, speaker: "A-kong", hanji: "緊轉去！稻埕的粟愛緊收起來，若予雨沃澹，阮規年的辛苦就無去矣。", tailo: "Kín tńg--khì! Tiū-tiânn ê tshik ài kín siu--khí-lâi, nā hōo hōo ak tâm, guán kui-nî ê sin-khóo tō bô--khì--ah.", en: "Quick, back home! We must get the grain in from the courtyard; if the rain soaks it, a whole year's work is lost."}
 notes:
   - {ref: 1, topic: vocab, text: "片 phìnn = a stretch, an area (classifier). 田 tshân = (rice) field: colloquial reading."}
   - {ref: 3, topic: vocab, text: "大部份 tuā-pōo-hūn = most (MOE writes 份). 稻仔 tiū-á = rice plants (on the stalk). 菜園 tshài-hn̂g = vegetable garden. 番薯 han-tsî = sweet potato, also a symbol for Taiwan and its people."}
@@ -19,6 +25,11 @@ notes:
   - {ref: 6, topic: grammar, text: "走去 tsáu-khì = go off to (跑去): 走 'leave, run' (lesson 17). 都市 too-tshī = city. 作 tsoh = work (the land), short for 作穡 (lesson 20). 無人欲… 'nobody wants to …'."}
   - {ref: 7, topic: vocab, text: "收成 siu-sîng = harvest. …的時 ê sî = when … (shorter than 的時陣). 孫 sun = grandchild."}
   - {ref: 8, topic: vocab, text: "一家伙仔 tsi̍t-ke-hué-á = the whole family. 稻埕 tiū-tiânn = the courtyard where grain is dried; 埕 tiânn = open yard. 曝粟 pha̍k tshik = dry unhusked rice in the sun (粟 tshik = paddy)."}
+  - {ref: 9, topic: "vocab", text: "樹林 tshiū-nâ = woods, a wood (also Shulin, a town near Taipei). 片 phìnn = classifier for an area of land (lesson 45)."}
+  - {ref: 10, topic: "vocab", text: "羊仔 iûnn-á = goat, sheep. 田螺 tshân-lê = river snail, field snail; country children used to collect them in the rice fields to eat."}
+  - {ref: 12, topic: "vocab", text: "冬天 tang-thinn = winter; 寒天 kuânn-thinn is the more colloquial word."}
+  - {ref: 13, topic: "vocab", text: "山頭 suann-thâu = hilltop (also, in funeral language, the grave site). 烏雲 oo-hûn = dark clouds (雲 hûn = cloud)."}
+  - {ref: 14, topic: "grammar", text: "予雨沃澹 hōo hōo ak tâm 'get soaked by the rain': 予 hōo + agent + verb is the passive (被); 沃 ak = pour on, soak. Note 予雨: hōo 'by' + hōo 'rain'."}
 new_words:
   - {tailo: phìnn, hanji: 片, en: "stretch, area"}
   - {tailo: tshân, hanji: 田, en: "field"}
@@ -36,6 +47,12 @@ new_words:
   - {tailo: sun, hanji: 孫, en: "grandchild"}
   - {tailo: tiū-tiânn, hanji: 稻埕, en: "grain-drying yard"}
   - {tailo: tshik, hanji: 粟, en: "paddy, unhusked rice"}
+  - {tailo: "tshiū-nâ", hanji: "樹林", en: "woods"}
+  - {tailo: "iûnn-á", hanji: "羊仔", en: "goat, sheep"}
+  - {tailo: "tshân-lê", hanji: "田螺", en: "river snail"}
+  - {tailo: "tang-thinn", hanji: "冬天", en: "winter"}
+  - {tailo: "suann-thâu", hanji: "山頭", en: "hilltop"}
+  - {tailo: "oo-hûn", hanji: "烏雲", en: "dark clouds"}
 exercises:
   translate:
     - {tailo: "Lín lóng tsìng siánn-mih?", hanji: "恁攏種啥物？", en: "What do you grow?"}
@@ -43,4 +60,5 @@ exercises:
   fill:
     - {tailo: "Tsng-kha ê khong-khì tsin hó, koh tsiok ___.", hanji: "庄跤的空氣真好，閣足___。", answer: "tiām-tsīng", answer_hanji: "恬靜", en: "The countryside air is good, and it's really peaceful."}
     - {tailo: "Khah-tsá lóng īng tsuí-gû ___.", hanji: "較早攏用水牛___。", answer: "lê-tshân", answer_hanji: "犁田", en: "In the old days we ploughed with water buffalo."}
+    - {tailo: "Lí khuànn suann-thâu hia, ___ lâi--ah.", hanji: "你看山頭遐，___來矣。", answer: "oo-hûn", answer_hanji: "烏雲", en: "Look at the hilltop over there: dark clouds are coming."}
 audio: []

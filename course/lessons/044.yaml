@@ -11,6 +11,12 @@ dialogue:
   - {n: 6, speaker: A-má, hanji: "是阿公種的。食果子拜樹頭；食米飯拜田頭。", tailo: "Sī a-kong tsìng--ê. Tsia̍h kué-tsí pài tshiū-thâu; tsia̍h bí-pn̄g pài tshân-thâu.", en: "Grandpa grew it. When you eat the fruit, thank the tree; when you eat the rice, thank the field."}
   - {n: 7, speaker: A-bîng, hanji: "阿媽，你哪會遮爾濟俗語？", tailo: "A-má, lí ná ē tsiah-nī tsē sio̍k-gí?", en: "Grandma, how do you know so many proverbs?"}
   - {n: 8, speaker: A-má, hanji: "活甲遮老，攏是生活教我的。", tailo: "Ua̍h kah tsiah lāu, lóng sī sing-ua̍h kà guá--ê.", en: "Living this long, life taught me all of them."}
+  - {n: 9, speaker: "A-má", hanji: "Sam，青菜嘛愛食，莫干焦夾肉。", tailo: "Sam, tshenn-tshài mā ài tsia̍h, mài kan-na ngeh bah.", en: "Sam, eat your greens too, don't just pick out the meat."}
+  - {n: 10, speaker: "A-má", hanji: "食魚食肉，也著菜佮。", tailo: "Tsia̍h hî tsia̍h bah, iā tio̍h tshài kah.", en: "Eat fish and meat, but vegetables must go with them.", source: "moe"}
+  - {n: 11, speaker: "Sam", hanji: "阿媽煮的菜遮好食，我欲共阮朋友講，叫𪜶嘛來食。", tailo: "A-má tsú ê tshài tsiah hó-tsia̍h, guá beh kā guán pîng-iú kóng, kiò in mā lâi tsia̍h.", en: "Your cooking is so good, Grandma, I'm going to tell my friends and get them to come and eat too."}
+  - {n: 12, speaker: "A-má", hanji: "食好鬥相報。", tailo: "Tsia̍h hó tàu sio-pò.", en: "When the food is good, people spread the word.", source: "moe"}
+  - {n: 13, speaker: "A-bîng", hanji: "阿媽，你家己哪攏無食？好料的攏夾予阮，你真正上疼痛阮。", tailo: "A-má, lí ka-kī ná lóng bô tsia̍h? Hó-liāu--ê lóng ngeh hōo guán, lí tsin-tsiànn siōng thiànn-thàng guán.", en: "Grandma, why aren't you eating anything? You keep putting all the best bits in our bowls; you really spoil us."}
+  - {n: 14, speaker: "A-má", hanji: "大人儉一喙，囡仔食甲飫。", tailo: "Tuā-lâng khiām tsi̍t tshuì, gín-á tsia̍h kah uì.", en: "If the grown-ups save a mouthful, the children eat till they're full.", source: "moe"}
 notes:
   - {ref: 2, topic: vocab, text: "食飯皇帝大 Tsia̍h-pn̄g hông-tè tuā: 'at mealtime (even) the emperor comes second': nothing should interrupt a meal. MOE definition: 形容吃飯這件事最重要。 皇帝 hông-tè = emperor."}
   - {ref: 3, topic: grammar, text: "緊緊 kín-kín = quickly (doubled adjective as adverb). 因為 in-uī = because. 等一下 tán--tsi̍t-ē = in a moment, later (等一下)."}
@@ -18,6 +24,11 @@ notes:
   - {ref: 6, topic: vocab, text: "食果子拜樹頭 … Tsia̍h kué-tsí pài tshiū-thâu; tsia̍h bí-pn̄g pài tshân-thâu: be grateful to those who made your good fortune possible (飲水思源). 果子 kué-tsí = fruit; 樹頭 tshiū-thâu = base of a tree; 田頭 tshân-thâu = edge of the field. 種 tsìng = grow, plant."}
   - {ref: 7, topic: vocab, text: "俗語 sio̍k-gí = proverb, saying. Two more to know: 一枝草，一點露。 Tsi̍t ki tsháu, tsi̍t tiám lōo. 'Every blade of grass gets its drop of dew': everyone finds their way. 歹竹出好筍。 Pháinn tik tshut hó sún. 'Bad bamboo can produce good shoots': good people can come from hard places."}
   - {ref: 8, topic: grammar, text: "活甲遮老 'having lived to be this old': V/adj + 甲 + result again. 生活 sing-ua̍h = life. …教我的 'taught me': the 是…的 pattern."}
+  - {ref: 9, topic: "vocab", text: "夾 ngeh = pick up with chopsticks: 夾菜 'help yourself (to food)', 夾予伊 'put some in his bowl'. 青菜 = greens (lesson 38)."}
+  - {ref: 10, topic: "culture", text: "食魚食肉，也著菜佮 'eat fish and meat, but vegetables must go with them': a balanced diet, and more widely, things need to balance each other. 佮 kah here = go with, be paired with. Quoted from the MOE dictionary."}
+  - {ref: 12, topic: "culture", text: "食好鬥相報 'when something's good to eat, people tell each other': word of mouth. 鬥相報 tàu sio-pò = pass the word on to each other. Quoted from the MOE dictionary."}
+  - {ref: 13, topic: "false-friend", text: "好料的 hó-liāu--ê = the good stuff, the tastiest bits. 疼痛 thiànn-thàng = love, dote on, care for (疼愛): a false friend, it has nothing to do with Mandarin 疼痛 'pain'. MOE example: 你就愛好好仔共伊疼痛 'you must take good care of her'."}
+  - {ref: 14, topic: "culture", text: "大人儉一喙，囡仔食甲飫 'if the adults save one mouthful, the children eat till they're sick of it': how parents and grandparents go without for the children. 儉 khiām = save, go without (lesson 69 comes back to it); 一喙 tsi̍t tshuì = a mouthful; 飫 uì = have eaten one's fill, be sick of (a food). Quoted from the MOE dictionary."}
 new_words:
   - {tailo: hông-tè, hanji: 皇帝, en: "emperor"}
   - {tailo: kín-kín, hanji: 緊緊, en: "quickly"}
@@ -31,10 +42,14 @@ new_words:
   - {tailo: sio̍k-gí, hanji: 俗語, en: "proverb"}
   - {tailo: ua̍h, hanji: 活, en: "live"}
   - {tailo: sing-ua̍h, hanji: 生活, en: "life"}
+  - {tailo: "ngeh", hanji: "夾", en: "pick up with chopsticks"}
+  - {tailo: "thiànn-thàng", hanji: "疼痛", en: "love, dote on"}
+  - {tailo: "uì", hanji: "飫", en: "full, sick of (a food)"}
 exercises:
   translate:
     - {tailo: "Tsia̍h-pn̄g hông-tè tuā.", hanji: "食飯皇帝大。", en: "Eating comes first."}
     - {tailo: "Bān-bān-á tsia̍h.", hanji: "慢慢仔食。", en: "Eat slowly."}
+    - {tailo: "Tshenn-tshài mā ài tsia̍h, mài kan-na ngeh bah.", hanji: "青菜嘛愛食，莫干焦夾肉。", en: "Eat your greens too, don't just pick out the meat."}
   fill:
     - {tailo: "Tsia̍h-kín ___ uánn.", hanji: "食緊___碗。", answer: "lòng-phuà", answer_hanji: "挵破", en: "Eat in a hurry and you break the bowl."}
     - {tailo: "Sī a-kong ___--ê.", hanji: "是阿公___的。", answer: "tsìng", answer_hanji: "種", en: "Grandpa grew it."}

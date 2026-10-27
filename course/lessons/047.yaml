@@ -10,6 +10,12 @@ dialogue:
   - {n: 5, speaker: A-hun, hanji: "我欲大聲就大聲！約束好的時間，你應該準時啊。", tailo: "Guá beh tuā-siann tō tuā-siann! Iok-sok hó ê sî-kan, lí ing-kai tsún-sî--ah.", en: "I'll be as loud as I like! We agreed on a time; you should be on time."}
   - {n: 6, speaker: A-bîng, hanji: "好啦好啦，攏是我毋著，莫閣怪我矣。", tailo: "Hó--lah hó--lah, lóng sī guá m̄-tio̍h, mài koh kuài guá--ah.", en: "OK, OK, it's all my fault. Stop blaming me."}
   - {n: 7, speaker: A-hun, hanji: "你逐擺攏按呢講，毋過下擺閣再遲到。", tailo: "Lí ta̍k pái lóng án-ne kóng, m̄-koh ē-pái koh-tsài tî-tò.", en: "You say that every time, and then you're late again the next time."}
+  - {n: 8, speaker: "A-bîng", hanji: "你莫遐計較好無？我嘛是不得已，頭家臨時叫我加班。", tailo: "Lí mài hiah kè-kàu hó--bô? Guá mā sī put-tik-í, thâu-ke lîm-sî kiò guá ka-pan.", en: "Don't make such a fuss, will you? I had no choice: my boss asked me to stay late at the last minute."}
+  - {n: 9, speaker: "A-hun", hanji: "你拄才講窒車，這馬閣講加班，你欲按怎證明？", tailo: "Lí tú-tsiah kóng that-tshia, tsit-má koh kóng ka-pan, lí beh án-tsuánn tsìng-bîng?", en: "A minute ago it was the traffic, now it's overtime. How are you going to prove it?"}
+  - {n: 10, speaker: "A-bîng", hanji: "……好啦，我照實講，我睏過頭矣。", tailo: "…… Hó--lah, guá tsiàu-si̍t kóng, guá khùn kuè-thâu--ah.", en: "…All right, I'll tell you the truth: I overslept."}
+  - {n: 11, speaker: "A-hun", hanji: "你看！我上討厭人講白賊。", tailo: "Lí khuànn! Guá siōng thó-ià lâng kóng-pe̍h-tsha̍t.", en: "See! What I hate most is people lying."}
+  - {n: 12, speaker: "A-bîng", hanji: "我驚你受氣，才毋敢講。", tailo: "Guá kiann lí siū-khì, tsiah m̄ kánn kóng.", en: "I was afraid you'd be angry, that's why I didn't dare say."}
+  - {n: 13, speaker: "A-hun", hanji: "你閣按呢，下擺我就毋等你矣。我家己去看電影，予你一个人佇遮慢慢仔睏！", tailo: "Lí koh án-ne, ē-pái guá tō m̄ tán lí--ah. Guá ka-kī khì khuànn tiān-iánn, hōo lí tsi̍t ê lâng tī tsia bān-bān-á khùn!", en: "Do that again and next time I won't wait for you. I'll go to the cinema on my own, and you can stay here and sleep as long as you like!"}
 notes:
   - {ref: 1, topic: grammar, text: "又閣 iū-koh = again (and annoyingly so) (又): stronger than 閣 alone. 遲到 tî-tò = be late. 規 kui + measure = a whole …: 規點鐘 'a whole hour', 規工 'a whole day'."}
   - {ref: 2, topic: vocab, text: "路裡 lōo--lí = on the way (路上). 窒車 that-tshia = traffic jam (塞車): MOE writes it with 窒 that, to block up."}
@@ -18,6 +24,11 @@ notes:
   - {ref: 5, topic: grammar, text: "欲 X 就 X 'I'll X if I want to': a defiant pattern. 約束 iok-sok = agree on, an appointment (約定). 應該 ing-kai = should. 準時 tsún-sî = on time."}
   - {ref: 6, topic: grammar, text: "啦 --lah at the end softens or concedes: 好啦好啦 'all right, all right'. 怪 kuài = blame. 攏是我毋著 'it's all my fault'."}
   - {ref: 7, topic: grammar, text: "逐 ta̍k + classifier = every: 逐擺 'every time', 逐家 'everyone', 逐工 'every day'. 閣再 koh-tsài = again (once more)."}
+  - {ref: 8, topic: "vocab", text: "計較 kè-kàu = make a fuss, be petty about something: 莫佮伊計較 'don't argue with him over it'. 不得已 put-tik-í = have no choice, can't help it. 臨時 lîm-sî = at the last minute, temporary. 加班 ka-pan = work overtime."}
+  - {ref: 9, topic: "vocab", text: "拄才 = just now (lesson 17). 證明 tsìng-bîng = prove; proof."}
+  - {ref: 10, topic: "vocab", text: "照實講 tsiàu-si̍t kóng = tell the truth, say it as it is (照實 'according to the facts'). 睏過頭 khùn kuè-thâu = oversleep: 過頭 kuè-thâu = too much, past the limit."}
+  - {ref: 11, topic: "vocab", text: "討厭 thó-ià = hate, find annoying."}
+  - {ref: 12, topic: "grammar", text: "才毋敢講 'that's why I didn't dare say': 才 links a cause to its result, as 毋才 does (lesson 22)."}
 new_words:
   - {tailo: uan-ke, hanji: 冤家, en: "quarrel"}
   - {tailo: iū-koh, hanji: 又閣, en: "again (annoyingly)"}
@@ -33,10 +44,18 @@ new_words:
   - {tailo: tsún-sî, hanji: 準時, en: "on time"}
   - {tailo: kuài, hanji: 怪, en: "blame"}
   - {tailo: koh-tsài, hanji: 閣再, en: "again, once more"}
+  - {tailo: "kè-kàu", hanji: "計較", en: "make a fuss, be petty"}
+  - {tailo: "put-tik-í", hanji: "不得已", en: "have no choice"}
+  - {tailo: "lîm-sî", hanji: "臨時", en: "at the last minute; temporary"}
+  - {tailo: "ka-pan", hanji: "加班", en: "work overtime"}
+  - {tailo: "tsìng-bîng", hanji: "證明", en: "prove; proof"}
+  - {tailo: "tsiàu-si̍t", hanji: "照實", en: "truthfully, as it is"}
+  - {tailo: "thó-ià", hanji: "討厭", en: "hate, find annoying"}
 exercises:
   translate:
     - {tailo: "Lí iū-koh tî-tò!", hanji: "你又閣遲到！", en: "You're late again!"}
     - {tailo: "Lóng sī guá m̄-tio̍h.", hanji: "攏是我毋著。", en: "It's all my fault."}
+    - {tailo: "Guá mā sī put-tik-í, thâu-ke lîm-sî kiò guá ka-pan.", hanji: "我嘛是不得已，頭家臨時叫我加班。", en: "I had no choice: my boss asked me to stay late at the last minute."}
   fill:
     - {tailo: "Lí mài hiah tuā-siann ___.", hanji: "你莫遐大聲___。", answer: "huah", answer_hanji: "喝", en: "Don't shout so loud."}
     - {tailo: "Lí mài koh ___!", hanji: "你莫閣___！", answer: "kóng-pe̍h-tsha̍t", answer_hanji: "講白賊", en: "Stop lying!"}

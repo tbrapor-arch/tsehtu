@@ -8,6 +8,10 @@ dialogue:
   - {n: 3, speaker: A-hun, hanji: "有！伊代先一點鐘就到矣，真無簡單。", tailo: "Ū! I tāi-sing tsi̍t tiám-tsing tō kàu--ah, tsin bô kán-tan.", en: "Yes! He arrived an hour early, quite something."}
   - {n: 4, speaker: Sam, hanji: "恁兩个和好矣，真好。阿媽閣有講俗語無？", tailo: "Lín nn̄g ê hô-hó--ah, tsin hó. A-má koh ū kóng sio̍k-gí--bô?", en: "You two made up, great. Did Grandma come out with proverbs again?"}
   - {n: 5, speaker: A-hun, hanji: "當然有：食飯皇帝大！", tailo: "Tong-jiân ū: Tsia̍h-pn̄g hông-tè tuā!", en: "Of course: 'eating comes first!'"}
+  - {n: 6, speaker: "Sam", hanji: "表兄佮新娘敢真正親像一對鴛鴦？", tailo: "Piáu-hiann kah sin-niû kám tsin-tsiànn tshin-tshiūnn tsi̍t tuì uan-iunn?", en: "Did your cousin and the bride really look like a pair of lovebirds?"}
+  - {n: 7, speaker: "A-hun", hanji: "真正！逐家攏欣羨。阿媽閣夾真濟好料的予阮，伊家己攏無食。", tailo: "Tsin-tsiànn! Ta̍k-ke lóng him-siān. A-má koh ngeh tsin tsē hó-liāu--ê hōo guán, i ka-kī lóng bô tsia̍h.", en: "They really did! Everyone was envious. And Grandma kept piling the best bits into our bowls without eating anything herself."}
+  - {n: 8, speaker: "Sam", hanji: "大人儉一喙，囡仔食甲飫。", tailo: "Tuā-lâng khiām tsi̍t tshuì, gín-á tsia̍h kah uì.", en: "If the grown-ups save a mouthful, the children eat till they're full.", source: "moe"}
+  - {n: 9, speaker: "A-hun", hanji: "你嘛會講俗語矣！下擺你佮阮做伙轉去庄跤，阿公會𤆬你去抾田螺。", tailo: "Lí mā ē kóng sio̍k-gí--ah! Ē-pái lí kah guán tsò-hué tńg-khì tsng-kha, a-kong ē tshuā lí khì khioh tshân-lê.", en: "You can quote proverbs now! Next time, come back to the countryside with us; Grandpa will take you to gather snails."}
 notes:
   - {ref: 1, topic: grammar, text: "Number + 幾 kuí = … and something: 二十幾桌 'twenty-odd tables'. 桌 toh = table (classifier for banquet tables). Reversed words: 人客, 鬧熱, 嚨喉."}
   - {ref: 3, topic: grammar, text: "Duration + 就 tō + verb + 矣: 代先一點鐘就到矣 'arrived a whole hour early'. 無簡單 bô kán-tan = impressive (不簡單)."}
@@ -15,6 +19,10 @@ notes:
   - {ref: 4, topic: grammar, text: "Apologising and making up: 歹勢 (sorry), 失禮 (excuse me), 會失禮 (apologise), 原諒 (forgive), 見笑 (ashamed), 和好 (make up). Hard / easy: 僫 oh + verb, 好 hó + verb."}
   - {ref: 5, topic: grammar, text: "Sentence-final particles so far: 矣 --ah (change), 啦 --lah (soften, concede), 喔 --ooh (surprise, warning), 咧 --leh (insist; 'and you?'), 乎 --honnh (right?), 無 --bô (yes/no question), 未 --buē (yet?)."}
   - {ref: 5, topic: grammar, text: "Buying and returning: 拍八折 (20% off), 起價 / 落價, 退 (return), 換 (exchange), 寄 (send), 無彩 (what a waste)."}
+  - {ref: 6, topic: "vocab", text: "Lessons 43–48 again: 鴛鴦, 欣羨 (43)."}
+  - {ref: 7, topic: "vocab", text: "夾, 好料的 (44)."}
+  - {ref: 8, topic: "culture", text: "The proverb from lesson 44."}
+  - {ref: 9, topic: "vocab", text: "田螺 (45)."}
 new_words:
   - {tailo: toh, hanji: 桌, en: "table (classifier)"}
   - {tailo: kán-tan, hanji: 簡單, en: "simple, easy"}
@@ -23,6 +31,7 @@ exercises:
     - {tailo: "Lí iū-koh tî-tò!", hanji: "你又閣遲到！", en: "You're late again!"}
     - {tailo: "Guá bé tsi̍t siang ê-á, phah peh tsiat.", hanji: "我買一雙鞋仔，拍八折。", en: "I bought a pair of shoes, 20% off."}
     - {tailo: "Tshiánn lí guân-liōng guá.", hanji: "請你原諒我。", en: "Please forgive me."}
+    - {tailo: "A-má ngeh tsin tsē hó-liāu--ê hōo guán.", hanji: "阿媽夾真濟好料的予阮。", en: "Grandma piled the best bits into our bowls."}
   fill:
     - {tailo: "Lâng-kheh tsē jī-tsa̍p-___ toh.", hanji: "人客坐二十___桌。", answer: "kuí", answer_hanji: "幾", en: "Twenty-odd tables of guests."}
     - {tailo: "Nā bē-sái thè, tsin ___.", hanji: "若袂使退，真___。", answer: "bô-tshái", answer_hanji: "無彩", en: "If you can't return it, what a waste."}

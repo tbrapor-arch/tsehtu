@@ -10,6 +10,12 @@ dialogue:
   - {n: 5, speaker: A-hun, hanji: "好，冰提來。毋過你愛保證以後會準時。", tailo: "Hó, ping the̍h--lâi. M̄-koh lí ài pó-tsìng í-āu ē tsún-sî.", en: "Fine, hand over the ice. But you have to promise to be on time from now on."}
   - {n: 6, speaker: A-bîng, hanji: "我保證！我會盡量改。", tailo: "Guá pó-tsìng! Guá ē tsīn-liōng kái.", en: "I promise! I'll do my best to change."}
   - {n: 7, speaker: A-hun, hanji: "哎，欲受氣你嘛真僫。好啦，放心，咱和好矣。", tailo: "Ai, beh siū-khì lí mā tsin oh. Hó--lah, hòng-sim, lán hô-hó--ah.", en: "Sigh, it's hard to stay angry with you. All right, don't worry, we're friends again."}
+  - {n: 8, speaker: "A-bîng", hanji: "多謝小妹，你上好矣。", tailo: "To-siā sió-muē, lí siōng hó--ah.", en: "Thanks, little sister, you're the best."}
+  - {n: 9, speaker: "A-hun", hanji: "毋過你愛知，我今仔日真正足受氣。", tailo: "M̄-koh lí ài tsai, guá kin-á-ji̍t tsin-tsiànn tsiok siū-khì.", en: "But you need to know I was really angry today."}
+  - {n: 10, speaker: "A-bîng", hanji: "我知。咱兩个冤家，嘛袂變冤仇啦。", tailo: "Guá tsai. Lán nn̄g ê uan-ke, mā bē piàn uan-siû--lah.", en: "I know. We squabble, but it'll never turn into a feud."}
+  - {n: 11, speaker: "A-hun", hanji: "阿兄，我遐大聲，你嘛莫怪我。我是驚你家己一个人佇外口有啥物代誌。", tailo: "A-hiann, guá hiah tuā-siann, lí mā mài kuài--guá. Guá sī kiann lí ka-kī tsi̍t ê lâng tī guā-kháu ū siánn-mih tāi-tsì.", en: "Big brother, don't hold it against me that I shouted so much. I was worried something had happened to you out there on your own."}
+  - {n: 12, speaker: "A-bîng", hanji: "我知你是疼惜我。緊食啦，檨仔冰欲溶去矣。", tailo: "Guá tsai lí sī thiànn-sioh--guá. Kín tsia̍h--lah, suāinn-á-ping beh iûnn--khì--ah.", en: "I know it's because you care about me. Eat up, quick, the mango ice is melting."}
+  - {n: 13, speaker: "A-bîng", hanji: "下禮拜我請你去看電影。我會提早到，若閣遲到，你就罰我請你食一個月的檨仔冰！", tailo: "Ē lé-pài guá tshiánn lí khì khuànn tiān-iánn. Guá ē thê-tsá kàu, nā koh tî-tò, lí tō hua̍t guá tshiánn lí tsia̍h tsi̍t kò gue̍h ê suāinn-á-ping!", en: "Next week I'll take you to the cinema. I'll get there early, and if I'm late again, you can make me buy you mango ice for a whole month!"}
 notes:
   - {ref: 1, topic: vocab, text: "會失禮 huē-sit-lé = apologise (賠罪、道歉). 共 kā + person + 會失禮 'apologise to someone'. 失禮 sit-lé alone = 'excuse me, how rude of me'."}
   - {ref: 2, topic: grammar, text: "閣來創啥？ 'what are you here for (this time)?': 閣 adds annoyance. 創啥 tshòng siánn 'do what' (lesson 16)."}
@@ -18,6 +24,10 @@ notes:
   - {ref: 5, topic: grammar, text: "冰提來 'the ice, bring it here': object first as a topic, a very natural Taigi order. 保證 pó-tsìng = promise, guarantee."}
   - {ref: 6, topic: vocab, text: "盡量 tsīn-liōng = do one's best to. 改 kái = change, correct (a habit)."}
   - {ref: 7, topic: grammar, text: "僫 oh = hard (to do) (難): 欲受氣你嘛真僫 'it's really hard to be angry with you'. Its opposite: 好 hó + verb 'easy to' (好食, 好聽). 放心 hòng-sim = don't worry, rest assured. 和好 hô-hó = make up, be reconciled."}
+  - {ref: 10, topic: "vocab", text: "冤仇 uan-siû = feud, enmity, a lasting grudge; 冤家 (lesson 47) is just a quarrel. 變 piàn = turn into."}
+  - {ref: 11, topic: "vocab", text: "怪 kuài = blame (lesson 47). 外口 = outside, out there (lesson 34)."}
+  - {ref: 12, topic: "vocab", text: "疼惜 thiànn-sioh = care for, cherish (疼 'love' + 惜 'treasure'). 溶 iûnn = melt: 冰溶去矣 'the ice has melted'."}
+  - {ref: 13, topic: "vocab", text: "提早 thê-tsá = early, ahead of time. 罰 hua̍t = punish, make someone pay (罰錢, lesson 29)."}
 new_words:
   - {tailo: huē-sit-lé, hanji: 會失禮, en: "apologise"}
   - {tailo: sîng-jīn, hanji: 承認, en: "admit"}
@@ -29,6 +39,10 @@ new_words:
   - {tailo: oh, hanji: 僫, en: "hard (to do)"}
   - {tailo: hòng-sim, hanji: 放心, en: "don't worry"}
   - {tailo: hô-hó, hanji: 和好, en: "make up"}
+  - {tailo: "uan-siû", hanji: "冤仇", en: "feud, enmity"}
+  - {tailo: "thiànn-sioh", hanji: "疼惜", en: "care for, cherish"}
+  - {tailo: "iûnn", hanji: "溶", en: "melt"}
+  - {tailo: "thê-tsá", hanji: "提早", en: "early, ahead of time"}
 exercises:
   translate:
     - {tailo: "Guá lâi kā lí huē-sit-lé.", hanji: "我來共你會失禮。", en: "I've come to apologise."}
@@ -36,4 +50,5 @@ exercises:
   fill:
     - {tailo: "Beh siū-khì lí mā tsin ___.", hanji: "欲受氣你嘛真___。", answer: "oh", answer_hanji: "僫", en: "It's hard to stay angry with you."}
     - {tailo: "Lí ài ___ í-āu ē tsún-sî.", hanji: "你愛___以後會準時。", answer: "pó-tsìng", answer_hanji: "保證", en: "You have to promise to be on time from now on."}
+    - {tailo: "Kín tsia̍h--lah, suāinn-á-ping beh ___--khì--ah.", hanji: "緊食啦，檨仔冰欲___去矣。", answer: "iûnn", answer_hanji: "溶", en: "Eat up, quick, the mango ice is melting."}
 audio: []

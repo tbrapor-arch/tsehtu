@@ -11,6 +11,12 @@ dialogue:
   - {n: 6, speaker: Sam, hanji: "七工內會使退，毋過運費愛家己出。", tailo: "Tshit kang lāi ē-sái thè, m̄-koh ūn-huì ài ka-kī tshut.", en: "Returns within seven days, but I have to pay the shipping myself."}
   - {n: 7, speaker: A-hun, hanji: "這馬物件攏咧起價，你換較大雙的就好。", tailo: "Tsit-má mi̍h-kiānn lóng teh khí-kè, lí uānn khah tuā siang--ê tō hó.", en: "Prices are all going up these days. Just exchange them for a bigger pair."}
   - {n: 8, speaker: Sam, hanji: "好，明仔載我寄轉去。", tailo: "Hó, bîn-á-tsài guá kià tńg-khì.", en: "OK, I'll send them back tomorrow."}
+  - {n: 9, speaker: "A-hun", hanji: "你逐擺攏佇網路買物件，敢袂驚買著歹物件？", tailo: "Lí ta̍k pái lóng tī bāng-lōo bé mi̍h-kiānn, kám bē kiann bé-tio̍h pháinn mi̍h-kiānn?", en: "You buy everything online. Aren't you afraid of getting rubbish?"}
+  - {n: 10, speaker: "Sam", hanji: "我攏會先比較，看別間賣偌濟，閣看買過的人按怎講。", tailo: "Guá lóng ē sing pí-kàu, khuànn pa̍t king bē guā-tsē, koh khuànn bé--kuè ê lâng án-tsuánn kóng.", en: "I always compare first: I look at what other shops charge, and at what people who've bought it say."}
+  - {n: 11, speaker: "A-hun", hanji: "我較無信心。衫仔我攏愛家己穿看覓才買。", tailo: "Guá khah bô sìn-sim. Sann-á guá lóng ài ka-kī tshīng khuànn-māi tsiah bé.", en: "I'm less confident. With clothes, I always have to try them on myself before I buy."}
+  - {n: 12, speaker: "Sam", hanji: "毋過網路較俗，有時半價就買會著。", tailo: "M̄-koh bāng-lōo khah sio̍k, ū-sî puànn-kè tō bé ē tio̍h.", en: "But online is cheaper; sometimes you can get things at half price."}
+  - {n: 13, speaker: "A-hun", hanji: "俗物無好貨。", tailo: "Sio̍k-mi̍h bô hó huè.", en: "Cheap things are never good.", source: "moe"}
+  - {n: 14, speaker: "A-hun", hanji: "你若隨便買，買毋著閣愛出運費寄轉去，加開的錢比俗的較濟，按呢敢有價值？", tailo: "Lí nā suî-piān bé, bé m̄-tio̍h koh ài tshut ūn-huì kià--tńg-khì, ke khai ê tsînn pí sio̍k--ê khah tsē, án-ne kám ū kè-ta̍t?", en: "If you buy without thinking and get the wrong thing, you have to pay the postage to send it back, and the extra you spend is more than you saved. Is that worth it?"}
 notes:
   - {ref: 1, topic: vocab, text: "包裹 pau-kó = parcel. 網路 bāng-lōo = the internet: 網 has its colloquial reading bāng."}
   - {ref: 2, topic: grammar, text: "Discounts: 拍 phah + number + 折 tsiat = … % of the price: 拍八折 'pay 80%' (20% off), as in Mandarin 打八折. 雙 siang = a pair (classifier). 鞋仔 ê-á = shoes."}
@@ -20,6 +26,11 @@ notes:
   - {ref: 6, topic: grammar, text: "Time + 內 lāi = within: 七工內 'within seven days'. 運費 ūn-huì = shipping cost. 家己出 ka-kī tshut = pay oneself: 出 tshut 'put up (money)'."}
   - {ref: 7, topic: vocab, text: "起價 khí-kè = (prices) go up; 落價 lo̍h-kè = go down. 換 uānn = exchange, change."}
   - {ref: 8, topic: grammar, text: "寄轉去 kià tńg-khì = send back. 寄 kià = send (by post)."}
+  - {ref: 10, topic: "vocab", text: "比較 pí-kàu = compare. 別間 pa̍t king = another shop. 買過的人 'people who have bought it'."}
+  - {ref: 11, topic: "vocab", text: "信心 sìn-sim = confidence: 較無信心 'less confident'. 衫仔 sann-á = clothes, a top."}
+  - {ref: 12, topic: "vocab", text: "半價 puànn-kè = half price. 買會著 bé ē tio̍h = be able to buy (get hold of)."}
+  - {ref: 13, topic: "culture", text: "俗物無好貨 'cheap things are no good': you get what you pay for. Quoted from the MOE dictionary."}
+  - {ref: 14, topic: "vocab", text: "隨便 suî-piān = carelessly, any old how; also 'whatever you like': 隨便你 'as you wish'. 價值 kè-ta̍t = value; 有價值 'worth it'. 開錢 khai tsînn = spend money: 加開的錢 'the extra money spent'."}
 new_words:
   - {tailo: pau-kó, hanji: 包裹, en: "parcel"}
   - {tailo: bāng-lōo, hanji: 網路, en: "the internet"}
@@ -33,6 +44,11 @@ new_words:
   - {tailo: ūn-huì, hanji: 運費, en: "shipping cost"}
   - {tailo: khí-kè, hanji: 起價, en: "(prices) go up"}
   - {tailo: uānn, hanji: 換, en: "exchange, change"}
+  - {tailo: "pí-kàu", hanji: "比較", en: "compare"}
+  - {tailo: "sìn-sim", hanji: "信心", en: "confidence"}
+  - {tailo: "puànn-kè", hanji: "半價", en: "half price"}
+  - {tailo: "suî-piān", hanji: "隨便", en: "carelessly; as you like"}
+  - {tailo: "kè-ta̍t", hanji: "價值", en: "value, worth"}
 exercises:
   translate:
     - {tailo: "Guá tī bāng-lōo bé tsi̍t siang ê-á.", hanji: "我佇網路買一雙鞋仔。", en: "I bought a pair of shoes online."}
@@ -40,4 +56,5 @@ exercises:
   fill:
     - {tailo: "Siunn sè, tshīng ___ lo̍h-khì.", hanji: "傷細，穿___落去。", answer: "bē", answer_hanji: "袂", en: "Too small, I can't get them on."}
     - {tailo: "Tsit-má mi̍h-kiānn lóng teh ___.", hanji: "這馬物件攏咧___。", answer: "khí-kè", answer_hanji: "起價", en: "Prices are all going up these days."}
+    - {tailo: "Guá lóng ē sing ___, khuànn pa̍t king bē guā-tsē.", hanji: "我攏會先___，看別間賣偌濟。", answer: "pí-kàu", answer_hanji: "比較", en: "I always compare first, and look at what other shops charge."}
 audio: []
