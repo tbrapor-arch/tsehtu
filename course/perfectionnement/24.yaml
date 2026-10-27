@@ -1,0 +1,127 @@
+id: 24
+title: {en: "Eat too fast and you break the bowl", tailo: "Tsia̍h kín lòng-phuà uánn", hanji: "食緊挵破碗"}
+genre: interview
+review: false
+setting: "Sunday 15 November, the Lukang Marathon (鹿港馬拉松): 42, 21, 10 and 5 km, starting and finishing at the town stadium. A local radio reporter is waiting at the finish of the 10 km. The race details come from the organisers; Sam's race is invented for this course."
+dialogue:
+  - {n: 1, speaker: Reporter, hanji: "各位聽眾，阮這馬佇鹿港的運動埕，今年鹿港馬拉松十公里的選手，當咧一个一个走轉來。", tailo: "Kok-uī thiann-tsiòng, guán tsit-má tī Lo̍k-káng ê ūn-tōng-tiânn, kin-nî Lo̍k-káng ma-lá-sóng tsa̍p kong-lí ê suán-tshiú, tng-teh tsi̍t ê tsi̍t ê tsáu--tńg-lâi.", en: "Listeners, we're at the stadium in Lukang, where the runners of this year's Lukang Marathon 10 km are coming in one by one."}
+  - {n: 2, speaker: Reporter, hanji: "這位朋友，你流甲規身軀汗，敢會使佮阮的電台講幾句？", tailo: "Tsit uī pîng-iú, lí lâu kah kui-sin-khu kuānn, kám ē-sái kah guán ê tiān-tâi kóng kuí kù?", en: "You there, you're drenched in sweat, but could you say a few words to our station?"}
+  - {n: 3, speaker: Sam, hanji: "會使……毋過予我先歇喘一下。我這馬大心氣，心臟強欲跳出來矣。", tailo: "Ē-sái…… m̄-koh hōo guá sing hioh-tshuán--tsi̍t-ē. Guá tsit-má tuā-sim-khuì, sim-tsōng kiōng-beh thiàu--tshut-lâi--ah.", en: "Sure… but let me get my breath back first. I'm gasping, my heart's about to jump out of my chest."}
+  - {n: 4, speaker: Reporter, hanji: "啊，你會曉講臺語！你是外國人，哪會講甲遮爾好？", tailo: "Ah, lí ē-hiáu kóng Tâi-gí! Lí sī guā-kok-lâng, ná ē kóng kah tsiah-nī hó?", en: "Oh, you speak Taiwanese! You're a foreigner, how come you speak it so well?"}
+  - {n: 5, speaker: Sam, hanji: "我佇臺北食頭路幾若冬矣，逐工攏咧練習。", tailo: "Guá tī Tâi-pak tsia̍h-thâu-lōo kuí-nā tang--ah, ta̍k-kang lóng teh liān-si̍p.", en: "I've been working in Taipei for several years, and I practise every day."}
+  - {n: 6, speaker: Reporter, hanji: "今仔日透早幾點起來的？", tailo: "Kin-á-ji̍t thàu-tsá kuí tiám khí--lâi--ê?", en: "What time did you get up this morning?"}
+  - {n: 7, speaker: Sam, hanji: "四點就起來矣。六點半起步，天色猶暗眠摸，兩千五百个人鬥陣走，鑼鼓摃甲足鬧熱。", tailo: "Sì tiám tō khí--lâi--ah. La̍k tiám-puànn khí-pōo, thinn-sik iáu àm-bîn-bong, nn̄g-tshing gōo-pah ê lâng tàu-tīn tsáu, lô-kóo kòng kah tsiok lāu-jia̍t.", en: "At four. We started at half past six, still pitch dark, two and a half thousand of us running together, with drums and gongs going full blast."}
+  - {n: 8, speaker: Reporter, hanji: "鹿港倚海岸，十一月閣真透風，敢有影響？", tailo: "Lo̍k-káng uá hái-huānn, tsa̍p-it-gue̍h koh tsin thàu-hong, kám ū íng-hióng?", en: "Lukang is right by the coast, and November is very windy. Did that make a difference?"}
+  - {n: 9, speaker: Sam, hanji: "有喔！倒轉來的時攏是對頭風，親像有人佇頭前共我捒。", tailo: "Ū--ooh! Tò-tńg-lâi ê sî lóng sī tuì-thâu-hong, tshin-tshiūnn ū lâng tī thâu-tsîng kā guá sak.", en: "It did! On the way back it was a headwind all the way, as if someone in front was pushing me back."}
+  - {n: 10, speaker: Reporter, hanji: "沿路看著啥物？", tailo: "Iân-lōo khuànn-tio̍h siánn-mih?", en: "What did you see along the way?"}
+  - {n: 11, speaker: Sam, hanji: "古早的街路，閣有真濟老廟。幾若年前，我捌佮朋友來遮𨑨迌，嘛有去看彼條摸乳巷。", tailo: "Kóo-tsá ê ke-lōo, koh ū tsin tsē lāu biō. Kuí-nā nî tsîng, guá bat kah pîng-iú lâi tsia tshit-thô, mā ū khì khuànn hit tiâu Bong-ling-hāng.", en: "Old streets and lots of old temples. Some years ago I came here with a friend, and we went to see that famous narrow lane too."}
+  - {n: 12, speaker: Reporter, hanji: "今仔日敢有走過摸乳巷？", tailo: "Kin-á-ji̍t kám ū tsáu-kuè Bong-ling-hāng?", en: "Did you run through the lane today?"}
+  - {n: 13, speaker: Sam, hanji: "無啦！彼條巷仔遐爾狹，兩千五百个選手若走入去，會塞甲明年。", tailo: "Bô--lah! Hit tiâu hāng-á hiah-nī e̍h, nn̄g-tshing gōo-pah ê suán-tshiú nā tsáu--ji̍p-khì, ē sat kah mê-nî.", en: "No way! That lane is so narrow, if two and a half thousand runners went in, they'd be stuck till next year."}
+  - {n: 14, speaker: Reporter, hanji: "你感覺家己走了按怎？", tailo: "Lí kám-kak ka-kī tsáu liáu án-tsuánn?", en: "How do you think your race went?"}
+  - {n: 15, speaker: Sam, hanji: "起步的時，我綴頭前遐的少年家走，走甲傷拚勢矣。", tailo: "Khí-pōo ê sî, guá tuè thâu-tsîng hia ê siàu-liân-ke tsáu, tsáu kah siunn piànn-sè--ah.", en: "At the start I followed the young lads at the front, and went at it far too hard."}
+  - {n: 16, speaker: Sam, hanji: "走到第七公里，跤後肚忽然糾筋，疼甲強欲哭出來，只好停落來行路。", tailo: "Tsáu kàu tē-tshit kong-lí, kha-āu-tóo hut-jiân kiù-kin, thiànn kah kiōng-beh khàu--tshut-lâi, tsí-hó thîng--lo̍h-lâi kiânn-lōo.", en: "Around the seventh kilometre my calf suddenly cramped. It hurt so much I nearly cried, and I had to stop and walk."}
+  - {n: 17, speaker: Reporter, hanji: "人講「食緊挵破碗」，你著照步來。", tailo: "Lâng kóng \"tsia̍h-kín lòng-phuà uánn\", lí tio̍h tsiàu-pōo-lâi.", en: "As they say, 'eat too fast and you break the bowl': you have to take it step by step.", source: moe}
+  - {n: 18, speaker: Sam, hanji: "著啊，今仔日我是用跤後肚學著這句話的。", tailo: "Tio̍h--ah, kin-á-ji̍t guá sī iōng kha-āu-tóo o̍h-tio̍h tsit kù uē--ê.", en: "Too right. Today I learnt that saying with my calves."}
+  - {n: 19, speaker: Reporter, hanji: "後來是按怎閣走起來？", tailo: "Āu--lâi sī án-tsuánn koh tsáu--khí-lâi?", en: "So how did you get going again?"}
+  - {n: 20, speaker: Sam, hanji: "路邊有一个阿婆捀一杯茶予我，講：「少年的，莫失志，加油！」", tailo: "Lōo-pinn ū tsi̍t ê a-pô phâng tsi̍t pue tê hōo guá, kóng: “Siàu-liân--ê, mài sit-tsì, ka-iû!”", en: "An old lady by the road brought me a cup of tea and said: 'Young man, don't give up, keep going!'"}
+  - {n: 21, speaker: Sam, hanji: "伊的話共我鼓舞真大。閣過去，有人請選手食鹿港的點心，我食一塊牛舌餅，精神就轉來矣。", tailo: "I ê uē kā guá kóo-bú tsin tuā. Koh kuè--khì, ū lâng tshiánn suán-tshiú tsia̍h Lo̍k-káng ê tiám-sim, guá tsia̍h tsi̍t tè gû-tsi̍h-piánn, tsing-sîn tō tńg--lâi--ah.", en: "Her words gave me a real boost. Further on, people were handing out Lukang snacks to the runners. I ate an ox-tongue biscuit and my energy came back."}
+  - {n: 22, speaker: Reporter, hanji: "上尾仔走偌久？", tailo: "Siōng-bué-á tsáu guā kú?", en: "So what was your time in the end?"}
+  - {n: 23, speaker: Sam, hanji: "五十八分。無算緊，毋過我毋是欲搶冠軍，是欲佮家己競爭。", tailo: "Gōo-tsa̍p-peh hun. Bô sǹg kín, m̄-koh guá m̄ sī beh tshiúnn kuan-kun, sī beh kah ka-kī kīng-tsing.", en: "Fifty-eight minutes. Not fast, but I'm not out to win: I'm competing against myself."}
+  - {n: 24, speaker: Reporter, hanji: "終點有送啥物予恁？", tailo: "Tsiong-tiám ū sàng siánn-mih hōo lín?", en: "What did they give you at the finish?"}
+  - {n: 25, speaker: Sam, hanji: "一面獎牌、一條冰涼的手巾仔、一副箸，閣有一罐雞精。我想，雞精是欲予阮補跤骨的。", tailo: "Tsi̍t bīn tsióng-pâi, tsi̍t tiâu ping-liâng ê tshiú-kin-á, tsi̍t hù tī, koh ū tsi̍t kuàn ke-tsing. Guá siūnn, ke-tsing sī beh hōo guán póo kha-kut--ê.", en: "A medal, a cooling towel, a pair of chopsticks and a bottle of chicken essence. I suppose the chicken essence is to build our legs back up."}
+  - {n: 26, speaker: Reporter, hanji: "你知影無？古早鹿港是大港口，人講「一府二鹿三艋舺」。", tailo: "Lí tsai-iánn--bô? Kóo-tsá Lo̍k-káng sī tuā káng-kháu, lâng kóng “It Hú jī Lo̍k sann Báng-kah”.", en: "Did you know Lukang used to be a great port? People say: 'First the Prefecture, second Lukang, third Báng-kah.'"}
+  - {n: 27, speaker: Sam, hanji: "知，一个阿公捌共我講過。莫怪今仔日的風遮爾透，這个鄉鎮本底就是靠海食飯的。", tailo: "Tsai, tsi̍t ê a-kong bat kā guá kóng-kuè. Bo̍k-kuài kin-á-ji̍t ê hong tsiah-nī thàu, tsit ê hiong-tìn pún-té tō sī khò hái tsia̍h-pn̄g--ê.", en: "Yes, an old man told me once. No wonder the wind was so strong today: this town has always lived from the sea."}
+  - {n: 28, speaker: Reporter, hanji: "走煞欲去佗位？", tailo: "Tsáu suah beh khì tó-uī?", en: "Where are you off to now you've finished?"}
+  - {n: 29, speaker: Sam, hanji: "先去共媽祖婆講多謝，才去食一碗麵線糊。阿春佮惠惠嘛有來共我加油，佇終點喝甲嚨喉攏破去矣。", tailo: "Sing khì kā Má-tsóo-pô kóng to-siā, tsiah khì tsia̍h tsi̍t uánn mī-suànn-kôo. A-tshun kah Hūi-hūi mā ū lâi kā guá ka-iû, tī tsiong-tiám huah kah nâ-âu lóng phuà--khì--ah.", en: "First to thank Mazu, then a bowl of vermicelli porridge. A-tshun and Hūi-hūi came to cheer me on too; they shouted themselves hoarse at the finish."}
+  - {n: 30, speaker: Reporter, hanji: "明年敢欲挑戰二十一公里？", tailo: "Mê-nî kám beh thiáu-tsiàn jī-tsa̍p-it kong-lí?", en: "Will you take on the 21 km next year?"}
+  - {n: 31, speaker: Sam, hanji: "看覓咧……愛先問我的跤後肚甘願無。毋過有練習就有希望，上要緊的是意志。", tailo: "Khuànn-māi--leh…… ài sing mn̄g guá ê kha-āu-tóo kam-guān--bô. M̄-koh ū liān-si̍p tō ū hi-bāng, siōng iàu-kín--ê sī ì-tsì.", en: "We'll see… I'll have to ask my calves first if they're willing. But with training there's hope; what matters most is willpower."}
+notes:
+  - {ref: 1, topic: culture, text: "The 鹿港馬拉松 is held in Lukang, Changhua county. 聽眾 = listeners (進修 5). 運動埕 ūn-tōng-tiânn = sports ground, stadium. 馬拉松 ma-lá-sóng = marathon, borrowed from English. 公里 kong-lí = kilometre. 選手 suán-tshiú = competitor, athlete. 當咧 tng-teh = be in the middle of (doing), like 咧 teh."}
+  - {ref: 2, topic: vocab, text: "汗 kuānn = sweat; 流汗 'to sweat', 流甲規身軀汗 'drenched in sweat'. 電台 tiān-tâi = radio station."}
+  - {ref: 3, topic: vocab, text: "大心氣 tuā-sim-khuì = out of breath, gasping: 伊拍球拍甲大心氣 'he played ball till he was gasping' (MOE). 心臟 sim-tsōng = heart (the organ; 心肝 is the feelings)."}
+  - {ref: 4, topic: vocab, text: "外國人 guā-kok-lâng = foreigner (外國, 'foreign country'). Every foreigner who speaks Taigi in Taiwan hears this question."}
+  - {ref: 5, topic: vocab, text: "食頭路 tsia̍h-thâu-lōo = have a job, work for someone (頭路, lesson 52): 伊佇𪜶阿叔遐食頭路 'he works for his uncle' (MOE). 練習 liān-si̍p = practise; training."}
+  - {ref: 7, topic: vocab, text: "起步 khí-pōo = start (a race), set off. 天色 thinn-sik = the colour of the sky; the time of day: 天色已經無早 'it's getting late' (MOE). 暗眠摸 àm-bîn-bong = pitch dark. 鑼鼓 lô-kóo = gongs and drums, as at every temple festival; 摃 kòng = beat, strike."}
+  - {ref: 8, topic: culture, text: "海岸 hái-huānn = coast. 透 thàu = (of wind) strong, piercing; 風真透 'the wind is strong'. 透風 thàu-hong = windy, blowing hard: 外面當咧透風，你莫閣出去矣 'it's blowing a gale, don't go out again' (MOE). In autumn and winter the northeast monsoon blows hard along the Changhua coast."}
+  - {ref: 9, topic: vocab, text: "對頭風 tuì-thâu-hong = headwind: 行船拄著對頭風 'sailing into a headwind' (MOE). 捒 sak = push (lesson 73)."}
+  - {ref: 11, topic: culture, text: "街路 ke-lōo = streets: 滿街路攏是人 'the streets are full of people' (MOE). Sam visited Lukang with A-hun in lesson 66, where 摸乳巷 Bong-ling-hāng, the lane so narrow that people coming the other way brush against each other, first appeared."}
+  - {ref: 13, topic: vocab, text: "塞 sat = block, jam; 塞鼻 'blocked nose', 塞甲明年 'jammed until next year'."}
+  - {ref: 15, topic: vocab, text: "少年家 siàu-liân-ke = young fellow: 恁遮的少年家毋通傷衝碰 'you young fellows mustn't be so rash' (MOE). 拚勢 piànn-sè = go all out: 伊讀冊真拚勢 'she studies really hard' (MOE)."}
+  - {ref: 16, topic: vocab, text: "跤後肚 kha-āu-tóo = calf (of the leg). 糾筋 kiù-kin = cramp: 泅水的時陣上驚跤糾筋 'when swimming, the worst thing is a cramp in the leg' (MOE). 筋 kin = sinew, tendon. 停 thîng = stop."}
+  - {ref: 17, topic: culture, text: "An exact MOE example, built on the saying 食緊挵破碗 'eat too fast and you break the bowl': haste spoils everything. 挵破 lòng-phuà = smash. 照步來 tsiàu-pōo-lâi = do things step by step: 萬項代著愛照步來 'everything must be done in order' (MOE)."}
+  - {ref: 20, topic: vocab, text: "加油 ka-iû 'add oil' = come on! keep going! — what Taiwanese spectators shout at every race. 少年的 siàu-liân--ê = young man (as a form of address)."}
+  - {ref: 21, topic: vocab, text: "鼓舞 kóo-bú = encourage, give a boost. 點心 tiám-sim = snack, light bite. 牛舌餅, Lukang's ox-tongue biscuit, is from lesson 66. The organisers promised local snacks and tea along the course."}
+  - {ref: 23, topic: vocab, text: "搶 tshiúnn = grab, snatch; 搶冠軍 'go for the title'. 冠軍 kuan-kun = champion, first place. 競爭 kīng-tsing = compete; competition: 今年的大考競爭甲真劇烈 'this year's entrance exam is fiercely competitive' (MOE)."}
+  - {ref: 24, topic: vocab, text: "終點 tsiong-tiám = finish line, end point."}
+  - {ref: 25, topic: culture, text: "獎牌 tsióng-pâi = medal; 一面獎牌 (面 counts flat things). 手巾仔 tshiú-kin-á = small towel, handkerchief. 箸 tī = chopsticks; 一副箸 'a pair'. 雞精 ke-tsing = chicken essence, the bottled tonic every Taiwanese finisher is handed. 跤骨 kha-kut = legs (as strength)."}
+  - {ref: 26, topic: culture, text: "一府二鹿三艋舺: the saying from lesson 82, when Tainan (the prefectural city), Lukang and Báng-kah were Taiwan's three great ports."}
+  - {ref: 27, topic: vocab, text: "莫怪 bo̍k-kuài = no wonder: 原來是欲佮查某囡仔去看電影，莫怪伊喙笑目笑 'so he's off to the cinema with a girl, no wonder he's all smiles' (MOE). 鄉鎮 hiong-tìn = small town, township (the level of local government below the county). 本底 = originally."}
+  - {ref: 29, topic: vocab, text: "媽祖婆 Má-tsóo-pô = Mazu, affectionately 'Granny Mazu': the MOE quotes 大道公風，媽祖婆雨, the legend of the god Pó-sing Tāi-tè and Mazu fighting with wind and rain. 麵線糊 mī-suànn-kôo = thick vermicelli porridge with meat, egg and dried shrimp; the MOE calls it 'a famous Lukang snack'. 喝甲嚨喉破去 'shout till the throat is broken': shout oneself hoarse."}
+  - {ref: 30, topic: vocab, text: "挑戰 thiáu-tsiàn = take on, challenge: 我欲向你挑戰 'I challenge you' (MOE)."}
+  - {ref: 31, topic: vocab, text: "意志 ì-tsì = will, willpower."}
+new_words:
+  - {tailo: ūn-tōng-tiânn, hanji: 運動埕, en: "sports ground, stadium"}
+  - {tailo: ma-lá-sóng, hanji: 馬拉松, en: "marathon"}
+  - {tailo: kong-lí, hanji: 公里, en: "kilometre"}
+  - {tailo: suán-tshiú, hanji: 選手, en: "competitor, athlete"}
+  - {tailo: kuānn, hanji: 汗, en: "sweat"}
+  - {tailo: tiān-tâi, hanji: 電台, en: "radio station"}
+  - {tailo: tuā-sim-khuì, hanji: 大心氣, en: "out of breath, gasping"}
+  - {tailo: sim-tsōng, hanji: 心臟, en: "heart (organ)"}
+  - {tailo: guā-kok, hanji: 外國, en: "foreign country"}
+  - {tailo: tsia̍h-thâu-lōo, hanji: 食頭路, en: "have a job, work"}
+  - {tailo: liān-si̍p, hanji: 練習, en: "practise; training"}
+  - {tailo: khí-pōo, hanji: 起步, en: "start, set off"}
+  - {tailo: thinn-sik, hanji: 天色, en: "colour of the sky; time of day"}
+  - {tailo: àm-bîn-bong, hanji: 暗眠摸, en: "pitch dark"}
+  - {tailo: lô-kóo, hanji: 鑼鼓, en: "gongs and drums"}
+  - {tailo: kòng, hanji: 摃, en: "beat, strike"}
+  - {tailo: hái-huānn, hanji: 海岸, en: "coast"}
+  - {tailo: thàu, hanji: 透, en: "(of wind) strong; through"}
+  - {tailo: tng-teh, hanji: 當咧, en: "be in the middle of (doing)"}
+  - {tailo: thàu-hong, hanji: 透風, en: "windy, blowing hard"}
+  - {tailo: tuì-thâu-hong, hanji: 對頭風, en: "headwind"}
+  - {tailo: ke-lōo, hanji: 街路, en: "streets"}
+  - {tailo: sat, hanji: 塞, en: "block, jam"}
+  - {tailo: siàu-liân-ke, hanji: 少年家, en: "young fellow"}
+  - {tailo: piànn-sè, hanji: 拚勢, en: "go all out, try hard"}
+  - {tailo: kha-āu-tóo, hanji: 跤後肚, en: "calf (of the leg)"}
+  - {tailo: kiù-kin, hanji: 糾筋, en: "cramp"}
+  - {tailo: ping-liâng, hanji: 冰涼, en: "ice-cold, cooling"}
+  - {tailo: thîng, hanji: 停, en: "stop"}
+  - {tailo: lòng-phuà, hanji: 挵破, en: "smash, break"}
+  - {tailo: tsiàu-pōo-lâi, hanji: 照步來, en: "take it step by step"}
+  - {tailo: ka-iû, hanji: 加油, en: "come on! keep going! (cheer)"}
+  - {tailo: kóo-bú, hanji: 鼓舞, en: "encourage, boost"}
+  - {tailo: tiám-sim, hanji: 點心, en: "snack, light bite"}
+  - {tailo: tshiúnn, hanji: 搶, en: "grab, snatch"}
+  - {tailo: kuan-kun, hanji: 冠軍, en: "champion, first place"}
+  - {tailo: kīng-tsing, hanji: 競爭, en: "compete; competition"}
+  - {tailo: tsiong-tiám, hanji: 終點, en: "finish line, end point"}
+  - {tailo: tsióng-pâi, hanji: 獎牌, en: "medal"}
+  - {tailo: tshiú-kin-á, hanji: 手巾仔, en: "small towel, handkerchief"}
+  - {tailo: tī, hanji: 箸, en: "chopsticks"}
+  - {tailo: hù, hanji: 副, en: "pair, set (counter)"}
+  - {tailo: kuàn, hanji: 罐, en: "can, jar, bottle"}
+  - {tailo: ke-tsing, hanji: 雞精, en: "chicken essence (tonic)"}
+  - {tailo: kha-kut, hanji: 跤骨, en: "legs (as strength)"}
+  - {tailo: bo̍k-kuài, hanji: 莫怪, en: "no wonder"}
+  - {tailo: hiong-tìn, hanji: 鄉鎮, en: "small town, township"}
+  - {tailo: Má-tsóo-pô, hanji: 媽祖婆, en: "Mazu (affectionate)"}
+  - {tailo: mī-suànn-kôo, hanji: 麵線糊, en: "vermicelli porridge (Lukang)"}
+  - {tailo: thiáu-tsiàn, hanji: 挑戰, en: "take on, challenge"}
+  - {tailo: ì-tsì, hanji: 意志, en: "will, willpower"}
+exercises:
+  translate:
+    - {tailo: "Lí lâu kah kui-sin-khu kuānn.", hanji: "你流甲規身軀汗。", en: "You're drenched in sweat."}
+    - {tailo: "Thinn-sik iáu àm-bîn-bong.", hanji: "天色猶暗眠摸。", en: "It was still pitch dark."}
+    - {tailo: "Tò-tńg-lâi ê sî lóng sī tuì-thâu-hong.", hanji: "倒轉來的時攏是對頭風。", en: "On the way back it was a headwind all the way."}
+    - {tailo: "Guá m̄ sī beh tshiúnn kuan-kun, sī beh kah ka-kī kīng-tsing.", hanji: "我毋是欲搶冠軍，是欲佮家己競爭。", en: "I'm not out to win: I'm competing against myself."}
+    - {tailo: "Siōng iàu-kín--ê sī ì-tsì.", hanji: "上要緊的是意志。", en: "What matters most is willpower."}
+  fill:
+    - {tailo: "Lo̍k-káng uá hái-huānn, tsa̍p-it-gue̍h koh tsin ___.", hanji: "鹿港倚海岸，十一月閣真___。", answer: "thàu-hong", answer_hanji: "透風", en: "Lukang is by the coast, and November is very windy."}
+    - {tailo: "Kha-āu-tóo hut-jiân ___.", hanji: "跤後肚忽然___。", answer: "kiù-kin", answer_hanji: "糾筋", en: "My calf suddenly cramped."}
+    - {tailo: "Lí tio̍h ___.", hanji: "你著___。", answer: "tsiàu-pōo-lâi", answer_hanji: "照步來", en: "You have to take it step by step."}
+    - {tailo: "I ê uē kā guá ___ tsin tuā.", hanji: "伊的話共我___真大。", answer: "kóo-bú", answer_hanji: "鼓舞", en: "Her words gave me a real boost."}
+    - {tailo: "Tsit ê hiong-tìn pún-té tō sī khò hái tsia̍h-pn̄g--ê. ___ hong tsiah-nī thàu.", hanji: "這个鄉鎮本底就是靠海食飯的。___風遮爾透。", answer: "Bo̍k-kuài", answer_hanji: "莫怪", en: "This town has always lived from the sea. No wonder the wind is so strong."}
+audio: []

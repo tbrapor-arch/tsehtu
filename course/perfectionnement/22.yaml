@@ -1,0 +1,120 @@
+id: 22
+title: {en: "A-ióng's diary", tailo: "A-ióng ê ji̍t-kì", hanji: "阿勇的日記"}
+genre: diary
+review: false
+setting: "One week of A-ióng's diary, in the autumn. Siok-tsing (進修 17) has invited him to meet her parents. The text is original to this course."
+dialogue:
+  - {n: 1, hanji: "禮拜一。淑貞約我禮拜六去𪜶兜食飯，見𪜶爸母。我歡喜甲失眠。", tailo: "Lé-pài-it. Siok-tsing iok guá lé-pài-la̍k khì in tau tsia̍h-pn̄g, kìnn in pē-bú. Guá huann-hí kah sit-bîn.", en: "Monday. Siok-tsing has invited me to dinner at her place on Saturday to meet her parents. I was so happy I couldn't sleep."}
+  - {n: 2, hanji: "聽講𪜶老爸是退休的校長，人真嚴肅，上無佮意衝碰閣驕傲的少年人。", tailo: "Thiann-kóng in lāu-pē sī thè-hiu ê hāu-tiúnn, lâng tsin giâm-siok, siōng bô kah-ì tshóng-pōng koh kiau-ngōo ê siàu-liân-lâng.", en: "Apparently her father is a retired headmaster, a very stern man, who can't stand rash, arrogant young men."}
+  - {n: 3, hanji: "衝碰閣驕傲……這毋就是咧講我？", tailo: "Tshóng-pōng koh kiau-ngōo…… tse m̄ tō sī teh kóng guá?", en: "Rash and arrogant… isn't that me?"}
+  - {n: 4, hanji: "禮拜二。我去花店買禮物。頭家講，送花矸上斯文，我就買一个青色的花矸，閣加一盒茶葉。", tailo: "Lé-pài-jī. Guá khì hue-tiàm bé lé-bu̍t. Thâu-ke kóng, sàng hue-kan siōng su-bûn, guá tō bé tsi̍t ê tshenn-sik ê hue-kan, koh ke tsi̍t a̍p tê-hio̍h.", en: "Tuesday. I went to a flower shop to buy a present. The owner said a vase is the most refined gift, so I bought a green vase, plus a box of tea."}
+  - {n: 5, hanji: "轉去的路裡拄著表小妹，伊牽我的手，欲𤆬我去踅街。", tailo: "Tńg-khì ê lōo--lí tú-tio̍h piáu-sió-muē, i khan guá ê tshiú, beh tshuā guá khì se̍h-ke.", en: "On the way home I ran into my little cousin, who took me by the hand and wanted to drag me round the shops."}
+  - {n: 6, hanji: "偏偏淑貞的同事佇對面看著，隨就敲電話予淑貞。", tailo: "Phian-phian Siok-tsing ê tông-sū tī tuì-bīn khuànn--tio̍h, sûi tō khà tiān-uē hōo Siok-tsing.", en: "As luck would have it, a colleague of Siok-tsing's saw us from across the street and phoned her straight away."}
+  - {n: 7, hanji: "禮拜三。我敲三擺電話予淑貞，伊攏無接。暗時伊才回覆一句：「你家己心內知。」", tailo: "Lé-pài-sann. Guá khà sann pái tiān-uē hōo Siok-tsing, i lóng bô tsiap. Àm-sî i tsiah huê-hok tsi̍t kù: “Lí ka-kī sim-lāi tsai.”", en: "Wednesday. I phoned Siok-tsing three times and she didn't pick up once. In the evening she finally replied with one line: 'You know very well.'"}
+  - {n: 8, hanji: "我知啥物？我啥物都毋知啊！敢是我無細膩得罪伊？", tailo: "Guá tsai siánn-mih? Guá siánn-mih to m̄ tsai--ah! Kám sī guá bô sè-jī tik-tsuē--i?", en: "Know what? I don't know anything! Did I offend her without meaning to?"}
+  - {n: 9, hanji: "規工心悶，做代誌嘛失志。", tailo: "Kui-kang sim-būn, tsò tāi-tsì mā sit-tsì.", en: "Miserable all day, and no heart for my work."}
+  - {n: 10, hanji: "禮拜四。中晝我去伊的公司揣伊。伊的面腔真歹，激一个臭面予我看。", tailo: "Lé-pài-sì. Tiong-tàu guá khì i ê kong-si tshuē--i. I ê bīn-tshiunn tsin pháinn, kik tsi̍t ê tshàu-bīn hōo guá khuànn.", en: "Thursday. At lunchtime I went to find her at her office. She looked thunderous and gave me a sour face."}
+  - {n: 11, hanji: "伊講：「你掠準我毋知？你佮別个查某囡仔約會，閣手牽手咧踅街！」", tailo: "I kóng: “Lí lia̍h-tsún guá m̄ tsai? Lí kah pa̍t-ê tsa-bóo gín-á iok-huē, koh tshiú khan tshiú teh se̍h-ke!”", en: "She said: 'You think I don't know? You've been on a date with another girl, walking round the shops hand in hand!'"}
+  - {n: 12, hanji: "原來伊誤會矣，伊咧食醋。", tailo: "Guân-lâi i gōo-huē--ah, i teh tsia̍h-tshòo.", en: "So she'd got the wrong idea: she was jealous."}
+  - {n: 13, hanji: "我共伊解釋：「彼是我的表小妹，伊今年才十四歲，猶咧讀國中。」", tailo: "Guá kā i kái-sik: “He sī guá ê piáu-sió-muē, i kin-nî tsiah tsa̍p-sì huè, iáu teh tha̍k kok-tiong.”", en: "I explained: 'That's my little cousin, she's only fourteen, still at junior high.'"}
+  - {n: 14, hanji: "淑貞歹勢甲面紅紅，伊的笑容總算轉來矣。佳哉！", tailo: "Siok-tsing pháinn-sè kah bīn âng-âng, i ê tshiò-iông tsóng-sǹg tńg--lâi--ah. Ka-tsài!", en: "Siok-tsing went red with embarrassment, and at last her smile came back. Thank goodness!"}
+  - {n: 15, hanji: "禮拜五。阿春教我：去人兜愛有禮貌，莫囉嗦，莫臭彈，人問啥就坦白回答。", tailo: "Lé-pài-gōo. A-tshun kà guá: khì lâng tau ài ū lé-māu, mài lo-so, mài tshàu-tuānn, lâng mn̄g siánn tō thán-pi̍k huê-tap.", en: "Friday. A-tshun coached me: in someone's home, be polite, don't go on and on, don't brag, and answer every question honestly."}
+  - {n: 16, hanji: "Sam 閣講：「食飯莫歹款，菜愛逐項攏食。」", tailo: "Sam koh kóng: “Tsia̍h-pn̄g mài pháinn-khuán, tshài ài ta̍k hāng lóng tsia̍h.”", en: "And Sam said: 'Mind your table manners, and eat a bit of every dish.'"}
+  - {n: 17, hanji: "禮拜六。淑貞的老爸果然真嚴肅，金金共我看，一句話都無講。我緊張甲手攏咧顫。", tailo: "Lé-pài-la̍k. Siok-tsing ê lāu-pē kó-jiân tsin giâm-siok, kim-kim kā guá khuànn, tsi̍t kù uē to bô kóng. Guá kín-tiunn kah tshiú lóng teh tsùn.", en: "Saturday. Siok-tsing's father was every bit as stern as they said: he stared at me without a word. I was so nervous my hands were shaking."}
+  - {n: 18, hanji: "伊問我：「聽恁老母講，你足聰明，閣是博士？論文寫啥物？」", tailo: "I mn̄g guá: “Thiann lín lāu-bú kóng, lí tsiok tshong-bîng, koh sī phok-sū? Lūn-bûn siá siánn-mih?”", en: "He asked me: 'Your mother says you're very clever, and a doctor too? What was your thesis on?'"}
+  - {n: 19, hanji: "淑貞佇邊仔共我𥍉目，暗示我愛講實話。", tailo: "Siok-tsing tī pinn-á kā guá nih-ba̍k, àm-sī guá ài kóng si̍t-uē.", en: "Beside me Siok-tsing winked, hinting that I should tell the truth."}
+  - {n: 20, hanji: "我只好坦白：「毋是，彼是阮老母咧臭彈。我干焦是一个普通的職員。」", tailo: "Guá tsí-hó thán-pi̍k: “M̄ sī, he sī gún lāu-bú teh tshàu-tuānn. Guá kan-na sī tsi̍t ê phóo-thong ê tsit-uân.”", en: "So I came clean: 'No, that's my mother bragging. I'm just an ordinary office worker.'"}
+  - {n: 21, hanji: "無想著校長煞笑出來：「好！坦白的少年人，我上佮意。」", tailo: "Bô siūnn-tio̍h hāu-tiúnn suah tshiò--tshut-lâi: “Hó! Thán-pi̍k ê siàu-liân-lâng, guá siōng kah-ì.”", en: "To my surprise the headmaster burst out laughing: 'Good! An honest young man: that's what I like best.'"}
+  - {n: 22, hanji: "伊閣講：「我少年的時嘛真驕傲，咧追淑貞𪜶老母的時，嘛講家己是博士。」", tailo: "I koh kóng: “Guá siàu-liân ê sî mā tsin kiau-ngōo, teh tui Siok-tsing in lāu-bú ê sî, mā kóng ka-kī sī phok-sū.”", en: "Then he added: 'I was pretty arrogant myself when I was young. When I was courting Siok-tsing's mother, I told her I was a doctor too.'"}
+  - {n: 23, hanji: "淑貞𪜶老母佇灶跤喝：「莫閣講矣，見笑死！」逐家攏笑甲腹肚疼。", tailo: "Siok-tsing in lāu-bú tī tsàu-kha huah: “Mài koh kóng--ah, kiàn-siàu sí!” Ta̍k-ke lóng tshiò kah pak-tóo thiànn.", en: "Siok-tsing's mother shouted from the kitchen: 'Stop it, how embarrassing!' We all laughed till our sides hurt."}
+  - {n: 24, hanji: "禮拜日。淑貞講伊爸母對我的印象袂䆀，講我人單純，閣真體貼。我面皮薄，聽甲面紅紅。", tailo: "Lé-pài-ji̍t. Siok-tsing kóng i pē-bú tuì guá ê ìn-siōng bē bái, kóng guá lâng tan-sûn, koh tsin thé-thiap. Guá bīn-phuê po̍h, thiann kah bīn âng-âng.", en: "Sunday. Siok-tsing says her parents have a good impression of me: they think I'm straightforward and very considerate. I'm easily embarrassed, and I went red hearing it."}
+  - {n: 25, hanji: "伊閣講：「阮老爸講，親事毋免傷趕……毋過嘛毋通拖傷久。」", tailo: "I koh kóng: “Guán lāu-pē kóng, tshin-sū m̄-bián siunn kuánn…… m̄-koh mā m̄-thang thua siunn kú.”", en: "She went on: 'My dad says there's no need to rush into marriage… but don't drag it out too long either.'"}
+  - {n: 26, hanji: "這是暗示我會使求婚矣？這禮拜我體會著一件代誌：相愛的人，講實話比臭彈較甜蜜。", tailo: "Tse sī àm-sī guá ē-sái kiû-hun--ah? Tsit lé-pài guá thé-huē--tio̍h tsi̍t kiānn tāi-tsì: siong-ài ê lâng, kóng si̍t-uē pí tshàu-tuānn khah tinn-bi̍t.", en: "Is that a hint that I can propose? This week I've learned one thing: for people in love, the truth is sweeter than bragging."}
+notes:
+  - {ref: 1, topic: vocab, text: "日記 = diary (進修 18). 約 iok = invite, arrange to meet. 失眠 sit-bîn = be unable to sleep; the MOE example: 想著這件代誌，我就失眠睏袂去 'thinking about this, I can't sleep'."}
+  - {ref: 2, topic: vocab, text: "校長 hāu-tiúnn = headmaster, school head; the MOE gives the saying 校長兼摃鐘 'the headmaster also rings the bell', for someone who does every job himself. 嚴肅 giâm-siok = stern, serious. 衝碰 tshóng-pōng = rash, hot-headed. 驕傲 kiau-ngōo = arrogant; also 'pride': 囡仔是爸母的驕傲 'children are their parents' pride' (MOE)."}
+  - {ref: 4, topic: vocab, text: "花店 hue-tiàm = flower shop. 花矸 hue-kan = vase. 斯文 su-bûn = refined, well-mannered; 斯文人 'a gentleman'. 青色 tshenn-sik = green (also blue-green). 盒 a̍p = box (also read a̍h); 一盒茶葉 'a box of tea'."}
+  - {ref: 5, topic: vocab, text: "表小妹 piáu-sió-muē = younger female cousin on the mother's side or through an aunt (a cousin with a different surname). 牽手 = take by the hand (牽, lesson 64). 踅街 se̍h-ke = stroll round the shops."}
+  - {ref: 6, topic: vocab, text: "偏偏 phian-phian = as luck would have it, of all things: 我想欲出門，偏偏落雨矣 'I wanted to go out, and of course it rained' (MOE). 敲電話 khà tiān-uē = make a phone call. 隨 sûi = at once."}
+  - {ref: 7, topic: vocab, text: "接 tsiap = pick up (the phone), receive, welcome. 回覆 huê-hok = reply. 你家己心內知 'you know in your own heart': a classic reproach."}
+  - {ref: 8, topic: vocab, text: "得罪 tik-tsuē = offend: 你按呢講會得罪足濟人 'talk like that and you'll offend a lot of people' (MOE). 無細膩 here = carelessly (細膩, lesson 29)."}
+  - {ref: 9, topic: vocab, text: "心悶 sim-būn = low, gloomy; also 'miss (someone)': 老母心悶咧做兵的囝 'the mother misses her son in the army' (MOE). 失志 sit-tsì = discouraged, disheartened: 一時的失敗嘛毋通失志 'one setback is no reason to lose heart' (MOE)."}
+  - {ref: 10, topic: vocab, text: "面腔 bīn-tshiunn = the look on someone's face, friendly or grim (not good looks): 面腔真歹 'she looked furious'. 激 kik = put on, make (a face): 激一个臭面 'pull a sour face'. 臭面 tshàu-bīn = sour, sulky face."}
+  - {ref: 11, topic: vocab, text: "掠準 lia̍h-tsún = think, assume (often wrongly): 我掠準你工課做煞矣 'I thought you'd finished your work' (MOE). 約會 iok-huē = date, appointment."}
+  - {ref: 12, topic: vocab, text: "誤會 gōo-huē = misunderstand; misunderstanding: 你千萬毋通誤會 'please don't get me wrong' (MOE). 食醋 tsia̍h-tshòo 'eat vinegar' = be jealous, as in Mandarin 吃醋."}
+  - {ref: 13, topic: vocab, text: "解釋 kái-sik = explain (解說, lesson 93, is similar). 國中 = junior high school (進修 18)."}
+  - {ref: 14, topic: vocab, text: "笑容 tshiò-iông = smile: 伊最近無笑容 'she hasn't smiled lately' (MOE). 佳哉 ka-tsài = luckily, thank goodness: 佳哉你有紮雨傘 'luckily you brought an umbrella' (MOE)."}
+  - {ref: 15, topic: vocab, text: "禮貌 lé-māu = manners, politeness. 囉嗦 lo-so = go on and on; also 'a hassle': 出國哪會遐囉嗦？ 'why is going abroad such a hassle?' (MOE). 坦白 thán-pi̍k = frank, honest; come clean. 回答 huê-tap = answer."}
+  - {ref: 16, topic: culture, text: "歹款 pháinn-khuán = bad manners, especially at table. The MOE example could be Sam's advice: 囡仔人食飯袂使歹款，逐項物件攏愛食 'children mustn't be fussy at meals; they must eat a bit of everything'."}
+  - {ref: 18, topic: vocab, text: "聰明 tshong-bîng = clever. 博士 phok-sū = doctor (PhD). 論文 lūn-bûn = thesis, academic paper."}
+  - {ref: 19, topic: vocab, text: "𥍉目 nih-ba̍k = wink, blink. 暗示 àm-sī = hint: 伊共你𥍉目，就是暗示你毋通加講話 'when she winks at you, she's hinting you shouldn't say more' (MOE)."}
+  - {ref: 22, topic: vocab, text: "追 tui = chase; court, woo (a girl). The headmaster's 我少年的時嘛真驕傲 shows the 嘛 'also' that softens a confession."}
+  - {ref: 24, topic: vocab, text: "印象 ìn-siōng = impression. 單純 tan-sûn = simple, straightforward. 體貼 thé-thiap = considerate, caring: 恁翁真體貼你 'your husband really looks after you' (MOE). 面皮 bīn-phuê = face; 面皮薄 'thin-skinned, easily embarrassed' (MOE: 伊面皮薄，驚見笑)."}
+  - {ref: 25, topic: vocab, text: "親事 tshin-sū = a marriage (as a family matter). 趕 kuánn = hurry, rush; also 'chase away'. 拖 = drag (lesson 73)."}
+  - {ref: 26, topic: vocab, text: "求婚 kiû-hun = propose (marriage). 體會 thé-huē = come to understand through experience. 相愛 siong-ài = love each other. 甜蜜 tinn-bi̍t = sweet (as honey); happy, loving."}
+new_words:
+  - {tailo: sit-bîn, hanji: 失眠, en: "be unable to sleep; insomnia"}
+  - {tailo: hāu-tiúnn, hanji: 校長, en: "headmaster, school head"}
+  - {tailo: giâm-siok, hanji: 嚴肅, en: "stern, serious"}
+  - {tailo: tshóng-pōng, hanji: 衝碰, en: "rash, hot-headed"}
+  - {tailo: kiau-ngōo, hanji: 驕傲, en: "arrogant; pride"}
+  - {tailo: hue-tiàm, hanji: 花店, en: "flower shop"}
+  - {tailo: hue-kan, hanji: 花矸, en: "vase"}
+  - {tailo: su-bûn, hanji: 斯文, en: "refined, well-mannered"}
+  - {tailo: tshenn-sik, hanji: 青色, en: "green, blue-green"}
+  - {tailo: a̍p, hanji: 盒, en: "box"}
+  - {tailo: piáu-sió-muē, hanji: 表小妹, en: "younger female cousin (different surname)"}
+  - {tailo: se̍h-ke, hanji: 踅街, en: "stroll round the shops"}
+  - {tailo: phian-phian, hanji: 偏偏, en: "as luck would have it, of all things"}
+  - {tailo: khà tiān-uē, hanji: 敲電話, en: "make a phone call"}
+  - {tailo: tsiap, hanji: 接, en: "pick up (the phone), receive, welcome"}
+  - {tailo: huê-hok, hanji: 回覆, en: "reply"}
+  - {tailo: tik-tsuē, hanji: 得罪, en: "offend"}
+  - {tailo: sim-būn, hanji: 心悶, en: "low, gloomy; miss (someone)"}
+  - {tailo: sit-tsì, hanji: 失志, en: "discouraged, disheartened"}
+  - {tailo: bīn-tshiunn, hanji: 面腔, en: "look on someone's face"}
+  - {tailo: kik, hanji: 激, en: "put on (a face, an air)"}
+  - {tailo: tshàu-bīn, hanji: 臭面, en: "sour, sulky face"}
+  - {tailo: lia̍h-tsún, hanji: 掠準, en: "think, assume (often wrongly)"}
+  - {tailo: iok-huē, hanji: 約會, en: "date, appointment"}
+  - {tailo: gōo-huē, hanji: 誤會, en: "misunderstand; misunderstanding"}
+  - {tailo: tsia̍h-tshòo, hanji: 食醋, en: "be jealous"}
+  - {tailo: kái-sik, hanji: 解釋, en: "explain"}
+  - {tailo: tshiò-iông, hanji: 笑容, en: "smile"}
+  - {tailo: ka-tsài, hanji: 佳哉, en: "luckily, thank goodness"}
+  - {tailo: lé-māu, hanji: 禮貌, en: "manners, politeness"}
+  - {tailo: lo-so, hanji: 囉嗦, en: "go on and on; a hassle"}
+  - {tailo: thán-pi̍k, hanji: 坦白, en: "frank, honest; come clean"}
+  - {tailo: huê-tap, hanji: 回答, en: "answer"}
+  - {tailo: pháinn-khuán, hanji: 歹款, en: "bad manners (at table)"}
+  - {tailo: tshong-bîng, hanji: 聰明, en: "clever, intelligent"}
+  - {tailo: phok-sū, hanji: 博士, en: "doctor (PhD)"}
+  - {tailo: lūn-bûn, hanji: 論文, en: "thesis, academic paper"}
+  - {tailo: nih-ba̍k, hanji: 𥍉目, en: "wink, blink"}
+  - {tailo: àm-sī, hanji: 暗示, en: "hint"}
+  - {tailo: tui, hanji: 追, en: "chase; court, woo"}
+  - {tailo: ìn-siōng, hanji: 印象, en: "impression"}
+  - {tailo: tan-sûn, hanji: 單純, en: "simple, straightforward"}
+  - {tailo: thé-thiap, hanji: 體貼, en: "considerate, caring"}
+  - {tailo: bīn-phuê, hanji: 面皮, en: "face; 面皮薄 thin-skinned"}
+  - {tailo: po̍h, hanji: 薄, en: "thin"}
+  - {tailo: tshin-sū, hanji: 親事, en: "a marriage (family matter)"}
+  - {tailo: kuánn, hanji: 趕, en: "hurry, rush; chase away"}
+  - {tailo: kiû-hun, hanji: 求婚, en: "propose (marriage)"}
+  - {tailo: thé-huē, hanji: 體會, en: "come to understand (by experience)"}
+  - {tailo: siong-ài, hanji: 相愛, en: "love each other"}
+  - {tailo: tinn-bi̍t, hanji: 甜蜜, en: "sweet, loving"}
+exercises:
+  translate:
+    - {tailo: "Guá huann-hí kah sit-bîn.", hanji: "我歡喜甲失眠。", en: "I was so happy I couldn't sleep."}
+    - {tailo: "Guân-lâi i gōo-huē--ah, i teh tsia̍h-tshòo.", hanji: "原來伊誤會矣，伊咧食醋。", en: "So she'd got the wrong idea: she was jealous."}
+    - {tailo: "Khì lâng tau ài ū lé-māu, mài lo-so.", hanji: "去人兜愛有禮貌，莫囉嗦。", en: "In someone's home, be polite and don't go on and on."}
+    - {tailo: "Thán-pi̍k ê siàu-liân-lâng, guá siōng kah-ì.", hanji: "坦白的少年人，我上佮意。", en: "An honest young man: that's what I like best."}
+    - {tailo: "Guá bīn-phuê po̍h, thiann kah bīn âng-âng.", hanji: "我面皮薄，聽甲面紅紅。", en: "I'm easily embarrassed, and I went red hearing it."}
+  fill:
+    - {tailo: "In lāu-pē lâng tsin ___.", hanji: "𪜶老爸人真___。", answer: "giâm-siok", answer_hanji: "嚴肅", en: "Her father is a very stern man."}
+    - {tailo: "___ Siok-tsing ê tông-sū tī tuì-bīn khuànn--tio̍h.", hanji: "___淑貞的同事佇對面看著。", answer: "Phian-phian", answer_hanji: "偏偏", en: "As luck would have it, a colleague of Siok-tsing's saw us from across the street."}
+    - {tailo: "I kik tsi̍t ê ___ hōo guá khuànn.", hanji: "伊激一个___予我看。", answer: "tshàu-bīn", answer_hanji: "臭面", en: "She gave me a sour face."}
+    - {tailo: "Siok-tsing kā guá nih-ba̍k, ___ guá ài kóng si̍t-uē.", hanji: "淑貞共我𥍉目，___我愛講實話。", answer: "àm-sī", answer_hanji: "暗示", en: "Siok-tsing winked, hinting that I should tell the truth."}
+    - {tailo: "Tshin-sū m̄-bián siunn ___.", hanji: "親事毋免傷___。", answer: "kuánn", answer_hanji: "趕", en: "There's no need to rush into marriage."}
+audio: []

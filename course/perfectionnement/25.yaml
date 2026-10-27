@@ -1,0 +1,121 @@
+id: 25
+title: {en: "Even the parrot speaks Taigi", tailo: "Ing-ko mā ē kóng Tâi-gí", hanji: "鸚哥嘛會講台語"}
+genre: news
+review: false
+setting: "The evening news on a Taigi television channel, on a foggy day late in November. The news items are invented."
+dialogue:
+  - {n: 1, speaker: Anchor, hanji: "各位觀眾逐家好，歡迎收看今仔日暗時的台語新聞。", tailo: "Kok-uī kuan-tsiòng ta̍k-ke hó, huan-gîng siu-khuànn kin-á-ji̍t àm-sî ê Tâi-gí sin-bûn.", en: "Good evening, viewers, and welcome to tonight's Taigi news."}
+  - {n: 2, speaker: Anchor, hanji: "頭一條新聞：中部海岸今仔日透早罩霧，雺霧重甲十公尺外就看無人。", tailo: "Thâu tsi̍t tiâu sin-bûn: Tiong-pōo hái-huānn kin-á-ji̍t thàu-tsá tà-bū, bông-bū tāng kah tsa̍p kong-tshioh guā tō khuànn bô lâng.", en: "Our first story: the central coast was blanketed in fog this morning, so thick you couldn't see anyone ten metres away."}
+  - {n: 3, speaker: Reporter, hanji: "彰化海口的公路，透早七點有十外台車挵做伙，佳哉無人重傷。", tailo: "Tsiang-huà hái-kháu ê kong-lōo, thàu-tsá tshit tiám ū tsa̍p-guā tâi tshia lòng tsò-hué, ka-tsài bô lâng tāng-siong.", en: "On the coast road in Changhua, more than ten cars piled into each other at seven this morning; luckily no one was seriously hurt."}
+  - {n: 4, speaker: Reporter, hanji: "警察提醒民眾：", tailo: "Kíng-tshat thê-tshénn bîn-tsiòng:", en: "The police reminded the public:"}
+  - {n: 5, speaker: Police officer, hanji: "透早就罩霧，駛車愛細膩。", tailo: "Thàu-tsá tō tà-bū, sái-tshia ài sè-jī.", en: "It's foggy first thing: drive carefully.", source: moe}
+  - {n: 6, speaker: Anchor, hanji: "雺霧嘛影響著鐵枝路。今仔日早起幾若班火車延遲，上久的延遲一點外鐘。", tailo: "Bông-bū mā íng-hióng-tio̍h thih-ki-lōo. Kin-á-ji̍t tsá-khí kuí-nā pan hué-tshia iân-tî, siōng kú ê iân-tî tsi̍t tiám-guā-tsing.", en: "The fog also hit the railway. Several trains were delayed this morning, the longest by over an hour."}
+  - {n: 7, speaker: Reporter, hanji: "佇彰化火車頭，一位欲去臺北面試的少年家講：", tailo: "Tī Tsiang-huà hué-tshia-thâu, tsi̍t uī beh khì Tâi-pak biān-tshì ê siàu-liân-ke kóng:", en: "At Changhua station, a young man on his way to a job interview in Taipei told us:"}
+  - {n: 8, speaker: Young man, hanji: "我五點就來等，等甲面試的時間攏過矣。這馬毋知欲按怎共公司解釋。", tailo: "Guá gōo tiám tō lâi tán, tán kah biān-tshì ê sî-kan lóng kuè--ah. Tsit-má m̄ tsai beh án-tsuánn kā kong-si kái-sik.", en: "I've been waiting since five, and now the interview time has come and gone. I don't know how I'm going to explain it to the company."}
+  - {n: 9, speaker: Anchor, hanji: "第二條新聞：今年秋天雨水少，南部的水庫水愈來愈少。", tailo: "Tē-jī tiâu sin-bûn: kin-nî tshiu-thinn hōo-tsuí tsió, Lâm-pōo ê tsuí-khòo tsuí jú lâi jú tsió.", en: "Our second story: there's been little rain this autumn, and the reservoirs in the south are getting lower and lower."}
+  - {n: 10, speaker: Reporter, hanji: "自來水公司表示，水庫的情形若無改善，到月底就愛開始限制用水。", tailo: "Tsū-lâi-tsuí kong-si piáu-sī, tsuí-khòo ê tsîng-hîng nā bô kái-siān, kàu gue̍h-té tō ài khai-sí hān-tsè iōng tsuí.", en: "The water company says that if the situation at the reservoirs doesn't improve, water use will have to be restricted from the end of the month."}
+  - {n: 11, speaker: Reporter, hanji: "公司請逐家節省用水：洗身軀莫洗傷久，洗衫的水會使閣提來沖便所。", tailo: "Kong-si tshiánn ta̍k-ke tsiat-síng iōng tsuí: sé-sin-khu mài sé siunn kú, sé-sann ê tsuí ē-sái koh the̍h lâi tshiâng piān-sóo.", en: "The company is asking everyone to save water: don't spend too long in the shower, and reuse the washing water to flush the toilet."}
+  - {n: 12, speaker: Anchor, hanji: "第三條新聞：雨水少，菜嘛起價。市場的高麗菜，價錢比頂個月增加至少一倍。", tailo: "Tē-sann tiâu sin-bûn: hōo-tsuí tsió, tshài mā khí-kè. Tshī-tiûnn ê ko-lê-tshài, kè-tsînn pí tíng kò gue̍h tsing-ka tsì-tsió tsi̍t puē.", en: "Our third story: with so little rain, vegetables have gone up too. At the market, cabbage now costs at least twice what it did last month."}
+  - {n: 13, speaker: A-sáng, hanji: "一粒高麗菜一百箍！欲食菜，比食肉閣較貴！", tailo: "Tsi̍t lia̍p ko-lê-tshài tsi̍t-pah khoo! Beh tsia̍h tshài, pí tsia̍h bah koh-khah kuì!", en: "A hundred dollars for one cabbage! Eating vegetables costs more than eating meat!"}
+  - {n: 14, speaker: Anchor, hanji: "第四條新聞：教育的單位發表今年的資料。根據統計，中學生平均一工用手機仔超過四點鐘。", tailo: "Tē-sì tiâu sin-bûn: kàu-io̍k ê tan-uī huat-piáu kin-nî ê tsu-liāu. Kin-kì thóng-kè, tiong-ha̍k-sing pîng-kin tsi̍t kang iōng tshiú-ki-á tshiau-kuè sì tiám-tsing.", en: "Our fourth story: the education authorities have published this year's figures. According to the statistics, secondary-school pupils spend on average over four hours a day on their phones."}
+  - {n: 15, speaker: Reporter, hanji: "一間中學的主任講，較早下課攏無人去運動埕，逐家坐咧看手機仔。", tailo: "Tsi̍t king tiong-ha̍k ê tsú-jīm kóng, khah-tsá hā-khò lóng bô lâng khì ūn-tōng-tiânn, ta̍k-ke tsē--leh khuànn tshiú-ki-á.", en: "A senior teacher at one secondary school said that at break nobody used to go out to the sports ground: they all sat looking at their phones."}
+  - {n: 16, speaker: Reporter, hanji: "這學期開始，上課期間手機仔愛交予老師保管，放學才會使提轉去。", tailo: "Tsit ha̍k-kî khai-sí, siōng-khò kî-kan tshiú-ki-á ài kau hōo lāu-su pó-kuán, pàng-o̍h tsiah ē-sái the̍h--tńg-khì.", en: "Since the start of this term, phones have to be handed to the teachers during lessons, and pupils can only take them home after school."}
+  - {n: 17, speaker: Pupil, hanji: "頭仔真艱苦，毋過這馬下課有人揣我拍球，感覺嘛袂䆀。", tailo: "Thâu--á tsin kan-khóo, m̄-koh tsit-má hā-khò ū lâng tshuē guá phah-kiû, kám-kak mā bē bái.", en: "It was hard at first, but now someone asks me to play ball at break, and it's actually not bad."}
+  - {n: 18, speaker: Anchor, hanji: "第五條新聞：臺中到彰化的新公路，經過十冬的建設，政府確定下禮拜一正式通車。", tailo: "Tē-gōo tiâu sin-bûn: Tâi-tiong kàu Tsiang-huà ê sin kong-lōo, king-kuè tsa̍p tang ê kiàn-siat, tsìng-hú khak-tīng ē lé-pài-it tsìng-sik thong-tshia.", en: "Our fifth story: after ten years of construction, the government has confirmed that the new road from Taichung to Changhua will officially open to traffic next Monday."}
+  - {n: 19, speaker: Anchor, hanji: "上尾一條，較輕鬆的新聞。臺南一隻鸚哥失蹤三工，昨昏家己飛轉去主人兜。", tailo: "Siōng-bué tsi̍t tiâu, khah khin-sang ê sin-bûn. Tâi-lâm tsi̍t tsiah ing-ko sit-tsong sann kang, tsa-hng ka-kī pue--tńg-khì tsú-lâng tau.", en: "Our last story is a lighter one. A parrot that went missing in Tainan for three days flew home to its owner by itself yesterday."}
+  - {n: 20, speaker: Reporter, hanji: "主人講，這隻鸚哥真聰明，會曉講幾若句台語。", tailo: "Tsú-lâng kóng, tsit tsiah ing-ko tsin tshong-bîng, ē-hiáu kóng kuí-nā kù Tâi-gí.", en: "The owner says the parrot is very clever and can say several things in Taigi."}
+  - {n: 21, speaker: Owner, hanji: "伊徛佇窗仔門，頭一句就講：「食飽未？」閣講：「緊開門，腹肚枵！」", tailo: "I khiā tī thang-á-mn̂g, thâu tsi̍t kù tō kóng: “Tsia̍h-pá--buē?” Koh kóng: “Kín khui mn̂g, pak-tóo-iau!”", en: "It was standing at the window, and the first thing it said was 'Have you eaten?' Then: 'Open up quick, I'm starving!'"}
+  - {n: 22, speaker: Reporter, hanji: "這个事件引起規條街的人來看鬧熱。厝邊講，這隻鸚哥的台語，比in孫仔閣較輾轉。", tailo: "Tsit ê sū-kiānn ín-khí kui tiâu ke ê lâng lâi khuànn lāu-jia̍t. Tshù-pinn kóng, tsit tsiah ing-ko ê Tâi-gí, pí in sun-á koh-khah liàn-tńg.", en: "The story brought the whole street out to watch. A neighbour said the parrot's Taigi was more fluent than his grandson's."}
+  - {n: 23, speaker: Anchor, hanji: "好，今仔日的新聞報導到遮結束。", tailo: "Hó, kin-á-ji̍t ê sin-bûn pò-tō kàu tsia kiat-sok.", en: "And that's the end of tonight's news."}
+  - {n: 24, speaker: Anchor, hanji: "明仔載的氣象：天氣較冷，中部海岸透早猶會罩霧，請逐家出門加穿一領衫。感謝收看。", tailo: "Bîn-á-tsài ê khì-siōng: thinn-khì khah líng, Tiong-pōo hái-huānn thàu-tsá iáu ē tà-bū, tshiánn ta̍k-ke tshut-mn̂g ke tshīng tsi̍t niá sann. Kám-siā siu-khuànn.", en: "Tomorrow's weather: colder, with fog again early on the central coast, so wrap up warm when you go out. Thank you for watching."}
+notes:
+  - {ref: 1, topic: vocab, text: "The opening formula of 進修 8. 收看 siu-khuànn = watch (a programme)."}
+  - {ref: 2, topic: vocab, text: "罩霧 tà-bū = be foggy (罩 'cover'). 雺霧 bông-bū = fog. 公尺 kong-tshioh = metre; compare 公里 (進修 24)."}
+  - {ref: 3, topic: vocab, text: "公路 kong-lōo = road, highway. 挵做伙 lòng tsò-hué = crash into each other (挵, 進修 24). 重傷 tāng-siong = serious injury."}
+  - {ref: 5, topic: vocab, text: "An exact MOE example. 駛車 = drive."}
+  - {ref: 6, topic: vocab, text: "鐵枝路 thih-ki-lōo = railway (literally 'iron-rod road'). 班 = counter for scheduled trains and buses. 延遲 iân-tî = be delayed; delay."}
+  - {ref: 7, topic: vocab, text: "火車頭 hué-tshia-thâu = railway station (literally 'train head'): 等咧咱佇火車頭的前驛相等 'let's meet at the front entrance of the station' (MOE). 面試 biān-tshì = job interview."}
+  - {ref: 9, topic: vocab, text: "水庫 tsuí-khòo = reservoir. 愈來愈 = more and more (愈, 進修 11)."}
+  - {ref: 10, topic: vocab, text: "自來水 tsū-lâi-tsuí = tap water; 自來水公司 'the water company'. 表示 piáu-sī = state, say (formal). 情形 tsîng-hîng = situation. 改善 kái-siān = improve. 月底 gue̍h-té = end of the month. 限制 hān-tsè = restrict; restriction."}
+  - {ref: 11, topic: vocab, text: "節省 tsiat-síng = save, economise; 節省時間 'save time' (MOE). 沖 tshiâng = flush, rinse with a lot of water. 便所 piān-sóo = toilet (from Japanese)."}
+  - {ref: 12, topic: vocab, text: "市場 tshī-tiûnn = market. 價錢 kè-tsînn = price. 增加 tsing-ka = increase. 至少 tsì-tsió = at least: 你至少嘛愛共我講一聲 'you could at least have told me' (MOE). 倍 puē = times, -fold; 一倍 'double'. 高麗菜 ko-lê-tshài = cabbage."}
+  - {ref: 13, topic: vocab, text: "阿桑 a-sáng = respectful term for an older woman (from Japanese)."}
+  - {ref: 14, topic: vocab, text: "教育 kàu-io̍k = education. 發表 huat-piáu = publish, announce. 資料 tsu-liāu = data, information. 統計 thóng-kè = statistics. 中學 tiong-ha̍k = secondary school; 中學生 'secondary-school pupil'. 平均 pîng-kin = on average: 平均落來，一个人會當分著三千箍 'on average each person gets three thousand' (MOE)."}
+  - {ref: 15, topic: vocab, text: "主任 tsú-jīm = head of a department, director (at school, a senior teacher in charge of an office). 下課 hā-khò = (at) break, end of a lesson."}
+  - {ref: 16, topic: vocab, text: "學期 ha̍k-kî = term, semester. 期間 kî-kan = period, during. 保管 pó-kuán = keep, look after (for someone). 放學 pàng-o̍h = after school, when school's out."}
+  - {ref: 18, topic: vocab, text: "建設 kiàn-siat = construction, building; 臺灣十大建設 'the Ten Major Construction Projects' of the 1970s (MOE). 確定 khak-tīng = confirm; certain. 正式 tsìng-sik = official, formal. 通車 thong-tshia = open to traffic."}
+  - {ref: 19, topic: vocab, text: "鸚哥 ing-ko = parrot. 失蹤 sit-tsong = go missing. 主人 tsú-lâng = owner; host."}
+  - {ref: 21, topic: vocab, text: "腹肚枵 pak-tóo-iau = hungry (枵 'hungry', lesson 44's 飫 is its opposite in a way: sick of food)."}
+  - {ref: 22, topic: vocab, text: "事件 sū-kiānn = event, incident. 引起 ín-khí = cause, bring about. 輾轉 liàn-tńg = fluent (literally 'rolling'; 輾, 進修 23): 講話真輾轉 'speak fluently'."}
+  - {ref: 23, topic: vocab, text: "報導 pò-tō = report, news coverage. 結束 kiat-sok = end, finish."}
+  - {ref: 24, topic: vocab, text: "氣象 khì-siōng = weather (as forecast); 氣象報告 'weather report'. 明仔載 = tomorrow."}
+new_words:
+  - {tailo: tiong-pōo, hanji: 中部, en: "central (Taiwan)"}
+  - {tailo: tà-bū, hanji: 罩霧, en: "be foggy"}
+  - {tailo: bông-bū, hanji: 雺霧, en: "fog"}
+  - {tailo: kong-tshioh, hanji: 公尺, en: "metre"}
+  - {tailo: kong-lōo, hanji: 公路, en: "road, highway"}
+  - {tailo: tāng-siong, hanji: 重傷, en: "serious injury"}
+  - {tailo: thih-ki-lōo, hanji: 鐵枝路, en: "railway"}
+  - {tailo: iân-tî, hanji: 延遲, en: "be delayed; delay"}
+  - {tailo: hué-tshia-thâu, hanji: 火車頭, en: "railway station"}
+  - {tailo: biān-tshì, hanji: 面試, en: "job interview"}
+  - {tailo: tshiu-thinn, hanji: 秋天, en: "autumn"}
+  - {tailo: tsuí-khòo, hanji: 水庫, en: "reservoir"}
+  - {tailo: tsū-lâi-tsuí, hanji: 自來水, en: "tap water"}
+  - {tailo: piáu-sī, hanji: 表示, en: "state, say (formal)"}
+  - {tailo: tsîng-hîng, hanji: 情形, en: "situation"}
+  - {tailo: kái-siān, hanji: 改善, en: "improve"}
+  - {tailo: hān-tsè, hanji: 限制, en: "restrict; restriction"}
+  - {tailo: sé-sin-khu, hanji: 洗身軀, en: "take a bath or shower"}
+  - {tailo: sé-sann, hanji: 洗衫, en: "do the laundry"}
+  - {tailo: tsiat-síng, hanji: 節省, en: "save, economise"}
+  - {tailo: tshiâng, hanji: 沖, en: "flush, rinse"}
+  - {tailo: piān-sóo, hanji: 便所, en: "toilet"}
+  - {tailo: tshī-tiûnn, hanji: 市場, en: "market"}
+  - {tailo: kè-tsînn, hanji: 價錢, en: "price"}
+  - {tailo: tsing-ka, hanji: 增加, en: "increase"}
+  - {tailo: tsì-tsió, hanji: 至少, en: "at least"}
+  - {tailo: puē, hanji: 倍, en: "times, -fold"}
+  - {tailo: ko-lê-tshài, hanji: 高麗菜, en: "cabbage"}
+  - {tailo: a-sáng, hanji: 阿桑, en: "older woman (respectful)"}
+  - {tailo: kàu-io̍k, hanji: 教育, en: "education"}
+  - {tailo: huat-piáu, hanji: 發表, en: "publish, announce"}
+  - {tailo: tsu-liāu, hanji: 資料, en: "data, information"}
+  - {tailo: thóng-kè, hanji: 統計, en: "statistics"}
+  - {tailo: tiong-ha̍k, hanji: 中學, en: "secondary school"}
+  - {tailo: pîng-kin, hanji: 平均, en: "on average"}
+  - {tailo: tsú-jīm, hanji: 主任, en: "head of department, director"}
+  - {tailo: hā-khò, hanji: 下課, en: "break; end of a lesson"}
+  - {tailo: ha̍k-kî, hanji: 學期, en: "term, semester"}
+  - {tailo: kî-kan, hanji: 期間, en: "period, during"}
+  - {tailo: pó-kuán, hanji: 保管, en: "keep, look after"}
+  - {tailo: pàng-o̍h, hanji: 放學, en: "after school"}
+  - {tailo: kiàn-siat, hanji: 建設, en: "construction, building"}
+  - {tailo: khak-tīng, hanji: 確定, en: "confirm; certain"}
+  - {tailo: tsìng-sik, hanji: 正式, en: "official, formal"}
+  - {tailo: thong-tshia, hanji: 通車, en: "open to traffic"}
+  - {tailo: ing-ko, hanji: 鸚哥, en: "parrot"}
+  - {tailo: sit-tsong, hanji: 失蹤, en: "go missing"}
+  - {tailo: tsú-lâng, hanji: 主人, en: "owner; host"}
+  - {tailo: pak-tóo-iau, hanji: 腹肚枵, en: "hungry"}
+  - {tailo: sū-kiānn, hanji: 事件, en: "event, incident"}
+  - {tailo: ín-khí, hanji: 引起, en: "cause, bring about"}
+  - {tailo: liàn-tńg, hanji: 輾轉, en: "fluent"}
+  - {tailo: pò-tō, hanji: 報導, en: "report, news coverage"}
+  - {tailo: kiat-sok, hanji: 結束, en: "end, finish"}
+  - {tailo: khì-siōng, hanji: 氣象, en: "weather (forecast)"}
+exercises:
+  translate:
+    - {tailo: "Thàu-tsá tō tà-bū, sái-tshia ài sè-jī.", hanji: "透早就罩霧，駛車愛細膩。", en: "It's foggy first thing: drive carefully."}
+    - {tailo: "Kuí-nā pan hué-tshia iân-tî.", hanji: "幾若班火車延遲。", en: "Several trains were delayed."}
+    - {tailo: "Sé-sin-khu mài sé siunn kú.", hanji: "洗身軀莫洗傷久。", en: "Don't spend too long in the shower."}
+    - {tailo: "Ko-lê-tshài ê kè-tsînn tsing-ka tsì-tsió tsi̍t puē.", hanji: "高麗菜的價錢增加至少一倍。", en: "The price of cabbage has at least doubled."}
+    - {tailo: "Tsit tsiah ing-ko tsin tshong-bîng.", hanji: "這隻鸚哥真聰明。", en: "This parrot is very clever."}
+  fill:
+    - {tailo: "Tsuí-khòo ê tsîng-hîng nā bô ___, tō ài hān-tsè iōng tsuí.", hanji: "水庫的情形若無___，就愛限制用水。", answer: "kái-siān", answer_hanji: "改善", en: "If the situation at the reservoirs doesn't improve, water use will have to be restricted."}
+    - {tailo: "Tshiú-ki-á ài kau hōo lāu-su ___.", hanji: "手機仔愛交予老師___。", answer: "pó-kuán", answer_hanji: "保管", en: "Phones have to be handed to the teachers to look after."}
+    - {tailo: "Tsìng-hú khak-tīng ē lé-pài-it ___ thong-tshia.", hanji: "政府確定下禮拜一___通車。", answer: "tsìng-sik", answer_hanji: "正式", en: "The government has confirmed that it will officially open next Monday."}
+    - {tailo: "Tsit tsiah ing-ko ___ sann kang.", hanji: "這隻鸚哥___三工。", answer: "sit-tsong", answer_hanji: "失蹤", en: "This parrot was missing for three days."}
+    - {tailo: "Kin-á-ji̍t ê sin-bûn pò-tō kàu tsia ___.", hanji: "今仔日的新聞報導到遮___。", answer: "kiat-sok", answer_hanji: "結束", en: "That's the end of tonight's news."}
+audio: []

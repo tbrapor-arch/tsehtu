@@ -1,0 +1,111 @@
+id: 26
+title: {en: "At the winter solstice we roll rice balls", tailo: "Tang-tseh ài so înn-á", hanji: "冬節愛挲圓仔"}
+genre: document
+review: false
+setting: "A recipe card A-má has written out for Sam, who can't come home to Tainan for the winter solstice (冬節, 21 or 22 December) this year. She has added a few customs and some advice."
+dialogue:
+  - {n: 1, hanji: "阿媽的灶跤：冬節圓仔", tailo: "A-má ê tsàu-kha: tang-tseh înn-á", en: "A-má's kitchen: winter-solstice rice balls"}
+  - {n: 2, hanji: "照咱人的例，冬節愛挲圓仔。", tailo: "Tsiàu lán-lâng ê lē, tang-tseh ài so înn-á.", en: "By our custom, at the winter solstice we roll rice balls.", source: moe}
+  - {n: 3, hanji: "冬節是一年當中暝上長、日上短的一工。古早人講，食一碗冬節圓仔，就加一歲。", tailo: "Tang-tseh sī tsi̍t nî tang-tiong mê siōng tn̂g, ji̍t siōng té ê tsi̍t kang. Kóo-tsá-lâng kóng, tsia̍h tsi̍t uánn tang-tseh înn-á, tō ke tsi̍t huè.", en: "The solstice is the day of the year with the longest night and the shortest day. The old folk say that eating a bowl of solstice rice balls makes you a year older."}
+  - {n: 4, hanji: "材料（四个人的份量）：秫米粉一斤，冷水差不多一碗半，紅色的色素一屑仔。", tailo: "Tsâi-liāu (sì ê lâng ê hūn-liōng): tsu̍t-bí-hún tsi̍t kin, líng-tsuí tsha-put-to tsi̍t uánn-puànn, âng-sik ê sik-sòo tsi̍t-sut-á.", en: "Ingredients (for four): one catty (600 g) of glutinous rice flour, about one and a half bowls of cold water, a little red food colouring."}
+  - {n: 5, hanji: "甜的：烏糖半碗，薑母一塊，水五碗，煮做糖水。", tailo: "Tinn--ê: oo-thn̂g puànn uánn, kiunn-bó tsi̍t tè, tsuí gōo uánn, tsú tsò thn̂g-tsuí.", en: "Sweet version: half a bowl of brown sugar, a piece of ginger and five bowls of water, boiled into a syrup."}
+  - {n: 6, hanji: "鹹的：豬肉、香菇、蝦米，閣愛一把芹菜。", tailo: "Kiâm--ê: ti-bah, hiunn-koo, hê-bí, koh ài tsi̍t pé khîn-tshài.", en: "Savoury version: pork, shiitake mushrooms, dried shrimp, and a handful of celery."}
+  - {n: 7, hanji: "古早人家己磨米，閣用石頭硩粿粞。這馬去市場買秫米粉就好，較簡單。", tailo: "Kóo-tsá-lâng ka-kī buâ bí, koh iōng tsio̍h-thâu teh kué-tshè. Tsit-má khì tshī-tiûnn bé tsu̍t-bí-hún tō hó, khah kán-tan.", en: "In the old days people ground the rice themselves and pressed the dough under stones. Nowadays you just buy glutinous rice flour at the market: much simpler."}
+  - {n: 8, hanji: "一、秫米粉囥佇碗公內，冷水沓沓仔加，用手挼。", tailo: "It, tsu̍t-bí-hún khǹg tī uánn-kong lāi, líng-tsuí ta̍uh-ta̍uh-á ka, iōng tshiú juê.", en: "1. Put the flour in a big bowl, add the cold water little by little, and knead it with your hands."}
+  - {n: 9, hanji: "二、挼甲袂黏手、袂裂，就差不多矣。傷焦就加水，傷澹就加粉。", tailo: "Jī, juê kah bē liâm tshiú, bē li̍h, tō tsha-put-to--ah. Siunn ta tō ka tsuí, siunn tâm tō ka hún.", en: "2. When it no longer sticks to your hands or cracks, it's about right. Too dry, add water; too wet, add flour."}
+  - {n: 10, hanji: "三、分一半出來，濫一屑仔色素，挼做紅色的。", tailo: "Sann, pun tsi̍t-puànn--tshut-lâi, lām tsi̍t-sut-á sik-sòo, juê tsò âng-sik--ê.", en: "3. Take out half and work a little colouring into it to make it red."}
+  - {n: 11, hanji: "四、捏一塊細細塊仔，囥佇手底挲圓圓。紅的、白的攏愛有。", tailo: "Sì, lia̍p tsi̍t tè sè-sè tè-á, khǹg tī tshiú-té so înn-înn. Âng--ê, pe̍h--ê lóng ài ū.", en: "4. Pinch off a tiny piece and roll it round between your palms. You need both red ones and white ones."}
+  - {n: 12, hanji: "五、欲包餡的，就捏較大塊，中央揤一个窟仔，共肉餡包入去。", tailo: "Gōo, beh pau-ānn--ê, tō lia̍p khah tuā tè, tiong-ng tshi̍h tsi̍t ê khut-á, kā bah-ānn pau--ji̍p-khì.", en: "5. For filled ones, pinch off a bigger piece, press a hollow in the middle and wrap the meat filling inside."}
+  - {n: 13, hanji: "六、鼎內的水滾矣，才共圓仔囥落去。圓仔浮起來，閣煮一下仔，就會使撈起來。", tailo: "La̍k, tiánn lāi ê tsuí kún--ah, tsiah kā înn-á khǹg--lo̍h-khì. Înn-á phû--khí-lâi, koh tsú tsi̍t-ē-á, tō ē-sái hôo--khí-lâi.", en: "6. Only put the rice balls in when the water in the wok is boiling. When they float up, boil them a moment longer, then scoop them out."}
+  - {n: 14, hanji: "七、甜的囥落去糖水，鹹的就是鹹圓仔，囥落去肉湯，才加芹菜。", tailo: "Tshit, tinn--ê khǹg--lo̍h-khì thn̂g-tsuí, kiâm--ê tō sī kiâm-înn-á, khǹg--lo̍h-khì bah-thng, tsiah ka khîn-tshài.", en: "7. The sweet ones go into the syrup; the savoury ones go into meat broth, with the celery added last."}
+  - {n: 15, hanji: "細膩：煮傷久，圓仔會爛去，黏黐黐；煮傷短，中央猶生生。", tailo: "Sè-jī: tsú siunn kú, înn-á ē nuā--khì, liâm-thi-thi; tsú siunn té, tiong-ng iáu tshenn-tshenn.", en: "Careful: cook them too long and they fall apart into a sticky mess; too short and they're still raw in the middle."}
+  - {n: 16, hanji: "冬節的規矩：圓仔煮好，愛先捀去拜公媽，才會使食。", tailo: "Tang-tseh ê kui-kí: înn-á tsú hó, ài sing phâng khì pài kong-má, tsiah ē-sái tsia̍h.", en: "Solstice custom: once the rice balls are cooked, first take some to the ancestors' altar before you eat."}
+  - {n: 17, hanji: "古早人閣會提兩粒圓仔黏佇門、窗仔佮灶頭，講是請厝裡的物件嘛食圓仔。", tailo: "Kóo-tsá-lâng koh ē the̍h nn̄g lia̍p înn-á liâm tī mn̂g, thang-á kah tsàu-thâu, kóng sī tshiánn tshù--lí ê mi̍h-kiānn mā tsia̍h înn-á.", en: "In the old days people also stuck two rice balls on the door, the windows and the stove, saying that the things in the house should have rice balls too."}
+  - {n: 18, hanji: "阮細漢的時，閣會用粿粞捏雞仔、狗仔、豬仔的形，囡仔攏毋甘食。", tailo: "Guán sè-hàn ê sî, koh ē iōng kué-tshè lia̍p ke-á, káu-á, ti-á ê hîng, gín-á lóng m̄-kam tsia̍h.", en: "When I was little, we also used to mould the dough into chickens, dogs and pigs, and the children could never bear to eat them."}
+  - {n: 19, hanji: "紅的圓仔代表好運，白的代表平安，圓圓代表團圓。", tailo: "Âng ê înn-á tāi-piáu hó-ūn, pe̍h--ê tāi-piáu pîng-an, înn-înn tāi-piáu thuân-înn.", en: "The red rice balls stand for good luck, the white for peace, and roundness stands for the family being together."}
+  - {n: 20, hanji: "Sam，今年冬節你佇臺北，無法度轉來，家己嘛愛挲圓仔。", tailo: "Sam, kin-nî tang-tseh lí tī Tâi-pak, bô-huat-tōo tńg--lâi, ka-kī mā ài so înn-á.", en: "Sam, this solstice you're in Taipei and can't come home, so you must roll your own rice balls."}
+  - {n: 21, hanji: "頭一擺挲的圓仔，有大有細，有的扁扁，毋要緊，家己挲的上好食。", tailo: "Thâu tsi̍t pái so ê înn-á, ū tuā ū sè, ū--ê pínn-pínn, m̄-iàu-kín, ka-kī so--ê siōng hó-tsia̍h.", en: "The first time, some will be big, some small, some flat: never mind, the ones you roll yourself taste best."}
+  - {n: 22, hanji: "挲圓仔愛有伴。揣阿勇佮淑貞來做伙挲，加一歲嘛較鬧熱。", tailo: "So înn-á ài ū phuānn. Tshuē A-ióng kah Siok-tsing lâi tsò-hué so, ke tsi̍t huè mā khah lāu-jia̍t.", en: "Rolling rice balls needs company. Get A-ióng and Siok-tsing over to roll them with you: even getting a year older is more fun that way."}
+  - {n: 23, hanji: "若真正挲袂成，就去市場買現成的，阿媽袂知啦！", tailo: "Nā tsin-tsiànn so bē sîng, tō khì tshī-tiûnn bé hiān-sîng--ê, A-má bē tsai--lah!", en: "And if you really can't get them to work, buy ready-made ones at the market. A-má will never know!"}
+notes:
+  - {ref: 1, topic: culture, text: "冬節 tang-tseh = the winter solstice festival, around 22 December, the longest night of the year (Mandarin 冬至). 圓仔 înn-á = glutinous rice balls (Mandarin 湯圓)."}
+  - {ref: 2, topic: culture, text: "An exact MOE example. 例 lē = custom, precedent; 照咱人的例 'by our custom'. 挲 so = rub, roll between the palms; also 'stroke, smooth': 挲頭殼 'pat someone's head'. 挲圓仔湯 'roll rice-ball soup' is also slang for buying off a rival, for instance a candidate paid to stand down."}
+  - {ref: 3, topic: culture, text: "當中 tang-tiong = among, in the course of. 食圓仔加一歲 'eat rice balls and grow a year older': under the old way of counting, everyone got a year older at the solstice or New Year, not on their birthday."}
+  - {ref: 4, topic: vocab, text: "材料 tsâi-liāu = ingredients, materials. 份量 hūn-liōng = quantity, amount; also 'weight, standing' (of a person). 秫米 tsu̍t-bí = glutinous rice; 秫米粉 'glutinous rice flour' (粉 hún = flour, powder). 冷水 líng-tsuí = cold water. 斤 = catty (600 g in Taiwan, lesson 4). 色素 sik-sòo = colouring."}
+  - {ref: 5, topic: vocab, text: "烏糖 oo-thn̂g = brown sugar. 薑母 kiunn-bó = mature ginger root. 糖水 thn̂g-tsuí = syrup, sugar water."}
+  - {ref: 6, topic: vocab, text: "豬肉 ti-bah = pork. 香菇 hiunn-koo = shiitake mushroom. 蝦米 hê-bí = dried shrimp. 芹菜 khîn-tshài = Chinese celery. 一把 tsi̍t pé = a handful, a bunch."}
+  - {ref: 7, topic: culture, text: "磨 buâ = grind (also 'wear down, toil'). 硩 teh = press down, weigh down. 粿粞 kué-tshè = the dough of ground glutinous rice, drained in a cloth bag under a stone: the base for rice balls and New Year cakes."}
+  - {ref: 8, topic: vocab, text: "碗公 uánn-kong = big bowl. 挼 juê = knead, rub: 挼目睭 'rub one's eyes' (MOE)."}
+  - {ref: 9, topic: vocab, text: "黏 liâm = stick (to). 裂 li̍h = crack (lesson 65). 焦 ta = dry. 澹 tâm = wet (lesson 17)."}
+  - {ref: 10, topic: vocab, text: "濫 lām = mix in: 素色的衫佮有色的衫毋通濫做伙洗 'don't wash whites and colours together' (MOE)."}
+  - {ref: 11, topic: vocab, text: "捏 lia̍p = mould, shape with the fingers; also, figuratively, 'raise (a child)': 爸母辛辛苦苦共你捏大漢 'your parents brought you up with so much toil' (MOE). 手底 tshiú-té = palm of the hand. 圓圓 înn-înn = round."}
+  - {ref: 12, topic: vocab, text: "包餡 pau-ānn = filled, stuffed; 餡 ānn = filling: 有包餡的是包仔 'the filled ones are buns' (MOE). 揤 tshi̍h = press (with a finger or hand). 窟仔 khut-á = hollow, hole."}
+  - {ref: 13, topic: vocab, text: "浮 phû = float. 撈 hôo = scoop out (of water): 共魚仔撈起來 'scoop the fish out' (MOE)."}
+  - {ref: 14, topic: vocab, text: "鹹圓仔 kiâm-înn-á = savoury rice balls, served in broth with greens. 肉湯 bah-thng = meat broth."}
+  - {ref: 15, topic: vocab, text: "爛 nuā = soft, mushy, falling apart. 黏黐黐 liâm-thi-thi = sticky, gooey: 汗流甲規身軀黏黐黐 'so sweaty my whole body is sticky' (MOE). 生 tshenn = raw, uncooked; 生生 'still raw'."}
+  - {ref: 16, topic: culture, text: "規矩 = rule, custom (lesson 29). 拜公媽 = make offerings at the ancestors' altar (公媽, 進修 2)."}
+  - {ref: 17, topic: culture, text: "灶頭 tsàu-thâu = the top of the stove. The old custom of sticking rice balls on doors, windows, the stove and furniture is a thank-you to the household's objects; few families keep it now."}
+  - {ref: 18, topic: vocab, text: "形 hîng = shape. 毋甘食 = can't bear to eat it (毋甘, lesson 40)."}
+  - {ref: 19, topic: culture, text: "代表 = stand for (進修 15). 好運 hó-ūn = good luck; lucky: 你誠好運！ 'you are so lucky!' (MOE). 團圓 = (of a family) be together (lesson 55); the round shape of 圓仔 sounds like 圓 in 團圓."}
+  - {ref: 21, topic: vocab, text: "扁 pínn = flat; 扁扁 'flattish'. 有大有細 'some big, some small'."}
+  - {ref: 22, topic: vocab, text: "伴 phuānn = companion, company (做伴, lesson 26)."}
+  - {ref: 23, topic: vocab, text: "現成 hiān-sîng = ready-made. 挲袂成 = can't manage to roll them."}
+new_words:
+  - {tailo: tang-tseh, hanji: 冬節, en: "winter solstice (festival)"}
+  - {tailo: înn-á, hanji: 圓仔, en: "glutinous rice balls"}
+  - {tailo: lē, hanji: 例, en: "custom, precedent; example"}
+  - {tailo: so, hanji: 挲, en: "rub, roll between the palms"}
+  - {tailo: tang-tiong, hanji: 當中, en: "among, in the course of"}
+  - {tailo: tsâi-liāu, hanji: 材料, en: "ingredients, materials"}
+  - {tailo: hūn-liōng, hanji: 份量, en: "quantity, amount"}
+  - {tailo: tsu̍t-bí, hanji: 秫米, en: "glutinous rice"}
+  - {tailo: hún, hanji: 粉, en: "flour, powder"}
+  - {tailo: líng-tsuí, hanji: 冷水, en: "cold water"}
+  - {tailo: sik-sòo, hanji: 色素, en: "colouring, pigment"}
+  - {tailo: oo-thn̂g, hanji: 烏糖, en: "brown sugar"}
+  - {tailo: kiunn-bó, hanji: 薑母, en: "mature ginger root"}
+  - {tailo: thn̂g-tsuí, hanji: 糖水, en: "syrup, sugar water"}
+  - {tailo: ti-bah, hanji: 豬肉, en: "pork"}
+  - {tailo: hiunn-koo, hanji: 香菇, en: "shiitake mushroom"}
+  - {tailo: hê-bí, hanji: 蝦米, en: "dried shrimp"}
+  - {tailo: khîn-tshài, hanji: 芹菜, en: "Chinese celery"}
+  - {tailo: buâ, hanji: 磨, en: "grind; wear down"}
+  - {tailo: teh, hanji: 硩, en: "press down, weigh down"}
+  - {tailo: kué-tshè, hanji: 粿粞, en: "glutinous rice dough"}
+  - {tailo: uánn-kong, hanji: 碗公, en: "big bowl"}
+  - {tailo: juê, hanji: 挼, en: "knead, rub"}
+  - {tailo: liâm, hanji: 黏, en: "stick (to)"}
+  - {tailo: ta, hanji: 焦, en: "dry"}
+  - {tailo: lām, hanji: 濫, en: "mix in"}
+  - {tailo: lia̍p, hanji: 捏, en: "mould, shape; raise (a child)"}
+  - {tailo: tshiú-té, hanji: 手底, en: "palm of the hand"}
+  - {tailo: înn-înn, hanji: 圓圓, en: "round"}
+  - {tailo: pau-ānn, hanji: 包餡, en: "filled, stuffed"}
+  - {tailo: ānn, hanji: 餡, en: "filling"}
+  - {tailo: tshi̍h, hanji: 揤, en: "press (with a finger or hand)"}
+  - {tailo: khut-á, hanji: 窟仔, en: "hollow, hole"}
+  - {tailo: phû, hanji: 浮, en: "float"}
+  - {tailo: hôo, hanji: 撈, en: "scoop out"}
+  - {tailo: kiâm-înn-á, hanji: 鹹圓仔, en: "savoury rice balls"}
+  - {tailo: nuā, hanji: 爛, en: "soft, mushy; rotten"}
+  - {tailo: liâm-thi-thi, hanji: 黏黐黐, en: "sticky, gooey"}
+  - {tailo: tshenn, hanji: 生, en: "raw, uncooked"}
+  - {tailo: tsàu-thâu, hanji: 灶頭, en: "top of the stove"}
+  - {tailo: hîng, hanji: 形, en: "shape"}
+  - {tailo: hó-ūn, hanji: 好運, en: "good luck; lucky"}
+  - {tailo: pínn, hanji: 扁, en: "flat"}
+  - {tailo: hiān-sîng, hanji: 現成, en: "ready-made"}
+exercises:
+  translate:
+    - {tailo: "Tsiàu lán-lâng ê lē, tang-tseh ài so înn-á.", hanji: "照咱人的例，冬節愛挲圓仔。", en: "By our custom, at the winter solstice we roll rice balls."}
+    - {tailo: "Siunn ta tō ka tsuí, siunn tâm tō ka hún.", hanji: "傷焦就加水，傷澹就加粉。", en: "Too dry, add water; too wet, add flour."}
+    - {tailo: "Înn-á phû--khí-lâi, tō ē-sái hôo--khí-lâi.", hanji: "圓仔浮起來，就會使撈起來。", en: "When the rice balls float up, you can scoop them out."}
+    - {tailo: "Înn-á tsú hó, ài sing phâng khì pài kong-má.", hanji: "圓仔煮好，愛先捀去拜公媽。", en: "Once the rice balls are cooked, first take some to the ancestors' altar."}
+    - {tailo: "Ka-kī so--ê siōng hó-tsia̍h.", hanji: "家己挲的上好食。", en: "The ones you roll yourself taste best."}
+  fill:
+    - {tailo: "Tsu̍t-bí-hún khǹg tī uánn-kong lāi, iōng tshiú ___.", hanji: "秫米粉囥佇碗公內，用手___。", answer: "juê", answer_hanji: "挼", en: "Put the flour in a big bowl and knead it with your hands."}
+    - {tailo: "___ tsi̍t-sut-á sik-sòo, juê tsò âng-sik--ê.", hanji: "___一屑仔色素，挼做紅色的。", answer: "Lām", answer_hanji: "濫", en: "Work in a little colouring to make it red."}
+    - {tailo: "Tsú siunn kú, înn-á ē ___--khì.", hanji: "煮傷久，圓仔會___去。", answer: "nuā", answer_hanji: "爛", en: "Cook them too long and they fall apart."}
+    - {tailo: "Pe̍h ê înn-á tāi-piáu pîng-an, înn-înn tāi-piáu ___.", hanji: "白的圓仔代表平安，圓圓代表___。", answer: "thuân-înn", answer_hanji: "團圓", en: "The white rice balls stand for peace, and roundness for the family being together."}
+    - {tailo: "Tō khì tshī-tiûnn bé ___--ê.", hanji: "就去市場買___的。", answer: "hiān-sîng", answer_hanji: "現成", en: "Buy ready-made ones at the market."}
+audio: []

@@ -1,6 +1,6 @@
 # Part 2: 進修 Tsìn-siu (Perfectionnement), spec and handover
 
-State on 27 Oct 2026: **P1–P21 are published** (P15–P21 on 27 Oct). Next batch: P22–P28 (P28 = review).
+State on 27 Oct 2026: **P1–P28 are published** (P15–P28 on 27 Oct). Next batch: P29–P35 (P35 = review).
 
 ## Batch 1 (P1–P7)
 | # | genre | title | new words | lines |
@@ -91,11 +91,38 @@ ago, and 進修 7 says fifty years of marriage. 進修 15 avoids giving his age;
 Genres used so far: dialogue ×3, tale, letter ×2, essay, interview ×2, play ×2, news, article ×2, document, song,
 story, speech. Still unused: a second song or news, a recipe-style document, a debate, a diary.
 
+## Batch 4 (P22–P28)
+| # | genre | title | new words | lines |
+|---|---|---|---|---|
+| P22 | diary | 阿勇的日記 (A-ióng's week: meeting Siok-tsing's parents, her father a stern retired headmaster; jealousy over his cousin) | 51 | 26 |
+| P23 | tale | 龜佮兔仔走標 (A-má tells Hūi-hūi Aesop's tortoise and hare, and fox and crow) | 48 | 26 |
+| P24 | interview | 食緊挵破碗 (Sam interviewed by local radio after the 10 km of the Lukang Marathon, 15 Nov 2026) | 51 | 31 |
+| P25 | news | 鸚哥嘛會講台語 (TV news: coastal fog, delayed trains, low reservoirs, cabbage prices, phones at school, new road, a parrot) | 55 | 24 |
+| P26 | document | 冬節愛挲圓仔 (A-má's recipe card for solstice rice balls, with customs) | 44 | 23 |
+| P27 | debate | 城市抑是草地？ (Hūi-hūi's class debate, town vs country, with her classmate A-kia̍t) | 45 | 28 |
+| P28 | review | 復習 (solstice at Sam's flat; A-ióng proposes to Siok-tsing over a bowl of rice balls) | 0 | 28 |
+
+The user asked (27 Oct) to keep new words high: 44–55 per lesson here, all checked against every lesson with a
+fresh `untaught.py` list. Two genres were added to `GENRES` in `app/index.template.html`: `diary` and `debate`.
+P24 was requested by the user, who runs the Lukang 10 km on 15 Nov 2026. Facts from the organisers' pages
+(lohasnet.tw/Lukang2026, running.biji.co): Sunday 15 Nov, start and finish at 鹿港鎮立體育場, 42/21/10/5 km, 10 km starts
+06:30 with a 2-hour limit and 2,500 places, local snacks and tea at aid stations, finisher medal, cooling towel,
+chopsticks and a bottle of chicken essence for the 10 km. The 10 km route map was not reachable, so Sam's lines stay
+vague about the route (old streets, temples; he does not run through 摸乳巷). **Sam's time (58 min) is a placeholder:
+update line 23 of P24 with the user's real time after the race** if they ask.
+Story threads now: A-ióng proposed to Siok-tsing at the solstice and she said yes (P28), but he still has to ask her
+father, the headmaster (P22); Sam ran Lukang and wants to try the 21 km next year; Hūi-hūi wants to be a writer and
+debates with A-kia̍t (P27). Readings to keep: 抑是 ia̍h-sī (8th tone), 買 bé (as in the base course), 摸乳巷
+Bong-ling-hāng (lesson 66). Siok-tsing says guán; A-ióng says gún.
+Genres used so far: add diary, debate, news ×2, document ×2, tale ×2, interview ×3.
+
 ## Lessons 22–49 were lengthened (27 Oct 2026)
 122 frequent words that no lesson had used are now taught in lessons 22–49 (`docs/lessons-22-49-lengthening.md`
 lists them). Don't declare them again in 進修 lessons; refer to them as "(lesson N)". Always take candidate words
 from a fresh `python3 -I tools/untaught.py`, check each with `tools/wordcheck.py`, and run
-`tools/taught_later.py 115 121` (進修 15–21) before publishing.
+`tools/taught_later.py 115 128` (進修 15–28) before publishing. Then `python3 -I tools/fresh.py 22 23 …`: for each
+進修 lesson, words in its lines that no earlier lesson uses or declares and that are missing from its new_words (names and
+numbers are fine; declare the rest), plus new_words already declared or used earlier. A review must show nothing.
 
 ## Checks per batch
 - `python3 -I tools/lint.py course/perfectionnement/NN.yaml` (0 errors) and `make test`.

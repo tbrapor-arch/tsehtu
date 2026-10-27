@@ -1,0 +1,62 @@
+id: 28
+title: {en: "Review 4", tailo: "Ho̍k-si̍p", hanji: "復習"}
+genre: review
+review: true
+setting: "The winter solstice at Sam's flat in Taipei. With A-má's recipe card on the table, Sam, A-ióng, Siok-tsing, A-tshun and Hūi-hūi roll rice balls. Everything comes from 進修 22–27."
+dialogue:
+  - {n: 1, speaker: Sam, hanji: "照咱人的例，冬節愛挲圓仔。阿媽寫的材料攏買好矣：秫米粉、烏糖、薑母，閣有色素。", tailo: "Tsiàu lán-lâng ê lē, tang-tseh ài so înn-á. A-má siá ê tsâi-liāu lóng bé hó--ah: tsu̍t-bí-hún, oo-thn̂g, kiunn-bó, koh ū sik-sòo.", en: "By our custom, at the solstice we roll rice balls. I've bought everything on A-má's list: glutinous rice flour, brown sugar, ginger, and colouring."}
+  - {n: 2, speaker: A-tshun, hanji: "粉囥佇碗公內，冷水沓沓仔加。惠惠，你來挼。", tailo: "Hún khǹg tī uánn-kong lāi, líng-tsuí ta̍uh-ta̍uh-á ka. Hūi-hūi, lí lâi juê.", en: "Put the flour in the big bowl and add the cold water little by little. Hūi-hūi, you knead."}
+  - {n: 3, speaker: Hūi-hūi, hanji: "哎，傷澹矣，規手黏黐黐！", tailo: "Ai, siunn tâm--ah, kui tshiú liâm-thi-thi!", en: "Oh no, it's too wet, my hands are all sticky!"}
+  - {n: 4, speaker: Sam, hanji: "阿媽有寫：傷焦就加水，傷澹就加粉。莫衝碰，照步來。", tailo: "A-má ū siá: siunn ta tō ka tsuí, siunn tâm tō ka hún. Mài tshóng-pōng, tsiàu-pōo-lâi.", en: "A-má wrote it down: too dry, add water; too wet, add flour. Don't rush it, one step at a time."}
+  - {n: 5, speaker: A-ióng, hanji: "照步來？這毋是你走標的時學著的道理？", tailo: "Tsiàu-pōo-lâi? Tse m̄ sī lí tsáu-pio ê sî o̍h-tio̍h ê tō-lí?", en: "One step at a time? Isn't that the lesson you learned running your race?"}
+  - {n: 6, speaker: Sam, hanji: "著啊。彼工佇鹿港，我起步傷拚勢，第七公里跤後肚就糾筋。食緊挵破碗啊！", tailo: "Tio̍h--ah. Hit kang tī Lo̍k-káng, guá khí-pōo siunn piànn-sè, tē-tshit kong-lí kha-āu-tóo tō kiù-kin. Tsia̍h kín lòng-phuà uánn--ah!", en: "That's right. That day in Lukang I started much too hard, and at seven kilometres my calf cramped. Eat too fast and you break the bowl!"}
+  - {n: 7, speaker: Hūi-hūi, hanji: "毋過阿叔上尾仔猶是走到終點，提著獎牌。阮佇遐喝加油，喝甲嚨喉攏破去。", tailo: "M̄-koh a-tsik siōng-bué-á iáu-sī tsáu kàu tsiong-tiám, the̍h-tio̍h tsióng-pâi. Guán tī hia huah ka-iû, huah kah nâ-âu lóng phuà--khì.", en: "But in the end you still got to the finish and won a medal. We were there cheering till we were hoarse."}
+  - {n: 8, speaker: A-ióng, hanji: "我嘛有一个好消息：頂禮拜我去淑貞𪜶兜，見𪜶爸母。", tailo: "Guá mā ū tsi̍t ê hó siau-sit: tíng lé-pài guá khì Siok-tsing in tau, kìnn in pē-bú.", en: "I've got good news too: last week I went to Siok-tsing's to meet her parents."}
+  - {n: 9, speaker: A-tshun, hanji: "我知，我知。伊老爸是退休的校長，人真嚴肅，你緊張甲手攏咧顫。", tailo: "Guá tsai, guá tsai. I lāu-pē sī thè-hiu ê hāu-tiúnn, lâng tsin giâm-siok, lí kín-tiunn kah tshiú lóng teh tsùn.", en: "I know, I know. Her dad is a retired headmaster, very stern, and your hands were shaking with nerves."}
+  - {n: 10, speaker: Siok-tsing, hanji: "毋過伊坦白講家己毋是博士，阮老爸對伊的印象顛倒真好。", tailo: "M̄-koh i thán-pi̍k kóng ka-kī m̄ sī phok-sū, guán lāu-pē tuì i ê ìn-siōng tian-tò tsin hó.", en: "But he came clean and admitted he wasn't a doctor, and that actually gave my dad a very good impression of him."}
+  - {n: 11, speaker: Hūi-hūi, hanji: "阿勇叔，你上愛臭彈，就親像彼隻兔仔。阿媽講，驕傲的人早慢會輸。", tailo: "A-ióng-tsik, lí siōng ài tshàu-tuānn, tō tshin-tshiūnn hit tsiah thòo-á. A-má kóng, kiau-ngōo ê lâng tsá-bān ē su.", en: "Uncle A-ióng, you love bragging, just like that hare. A-má says the arrogant lose sooner or later."}
+  - {n: 12, speaker: A-ióng, hanji: "毋通恥笑人！我這馬真謙虛，閣真體貼。淑貞，你講著無？", tailo: "M̄-thang thí-tshiò--lâng! Guá tsit-má tsin khiam-hi, koh tsin thé-thiap. Siok-tsing, lí kóng tio̍h--bô?", en: "Don't make fun of people! I'm very modest now, and very considerate. Isn't that right, Siok-tsing?"}
+  - {n: 13, speaker: Siok-tsing, hanji: "體貼是體貼，毋過有時陣嘛會予人誤會。彼工你牽表小妹踅街，害我食醋。", tailo: "Thé-thiap sī thé-thiap, m̄-koh ū-sî-tsūn mā ē hōo lâng gōo-huē. Hit kang lí khan piáu-sió-muē se̍h-ke, hāi guá tsia̍h-tshòo.", en: "Considerate, yes, but sometimes people get the wrong idea. That day you walked your cousin round the shops hand in hand and made me jealous."}
+  - {n: 14, speaker: Sam, hanji: "好矣，莫講矣。紅的佮白的攏挲好矣，鼎內的水嘛滾矣。", tailo: "Hó--ah, mài kóng--ah. Âng--ê kah pe̍h--ê lóng so hó--ah, tiánn lāi ê tsuí mā kún--ah.", en: "All right, enough of that. The red ones and the white ones are all rolled, and the water in the wok is boiling."}
+  - {n: 15, speaker: A-tshun, hanji: "圓仔浮起來矣，緊撈起來，煮傷久會爛去。", tailo: "Înn-á phû--khí-lâi--ah, kín hôo--khí-lâi, tsú siunn kú ē nuā--khì.", en: "The rice balls are floating, scoop them out quick: cook them too long and they fall apart."}
+  - {n: 16, speaker: Hūi-hūi, hanji: "我挲的有大有細，有的扁扁。毋要緊，家己挲的上好食！", tailo: "Guá so ê ū tuā ū sè, ū--ê pínn-pínn. M̄-iàu-kín, ka-kī so--ê siōng hó-tsia̍h!", en: "Mine are big and small, and some are flat. Never mind, the ones you roll yourself taste best!"}
+  - {n: 17, speaker: Sam, hanji: "先捀一碗去拜公媽，才會使食。", tailo: "Sing phâng tsi̍t uánn khì pài kong-má, tsiah ē-sái tsia̍h.", en: "First take a bowl to the ancestors' altar, then we can eat."}
+  - {n: 18, speaker: A-ióng, hanji: "（看電視）你看，新聞講中部海岸閣罩霧矣，鐵枝路的火車攏延遲。", tailo: "(Khuànn tiān-sī) Lí khuànn, sin-bûn kóng Tiong-pōo hái-huānn koh tà-bū--ah, thih-ki-lōo ê hué-tshia lóng iân-tî.", en: "(Watching TV) Look, the news says the central coast is foggy again, and the trains are all delayed."}
+  - {n: 19, speaker: A-tshun, hanji: "市場的高麗菜閣起價矣，價錢增加一倍。欲食菜，比食肉閣較貴！", tailo: "Tshī-tiûnn ê ko-lê-tshài koh khí-kè--ah, kè-tsînn tsing-ka tsi̍t puē. Beh tsia̍h tshài, pí tsia̍h bah koh-khah kuì!", en: "Cabbage has gone up again at the market: it costs twice as much. Eating vegetables costs more than meat!"}
+  - {n: 20, speaker: Hūi-hūi, hanji: "我上佮意彼隻鸚哥的新聞。伊失蹤三工，家己飛轉去主人兜，閣講「腹肚枵」！", tailo: "Guá siōng kah-ì hit tsiah ing-ko ê sin-bûn. I sit-tsong sann kang, ka-kī pue--tńg-khì tsú-lâng tau, koh kóng “pak-tóo-iau”!", en: "My favourite was the story about that parrot. It went missing for three days, flew home to its owner by itself, and said 'I'm starving'!"}
+  - {n: 21, speaker: Sam, hanji: "惠惠，聽講恁學校有辯論比賽？", tailo: "Hūi-hūi, thiann-kóng lín ha̍k-hāu ū piān-lūn pí-sài?", en: "Hūi-hūi, I hear your school held a debate?"}
+  - {n: 22, speaker: Hūi-hūi, hanji: "有！題目是城市抑是草地較好。我主張城市，阿傑主張草地，結果平手。", tailo: "Ū! Tê-bo̍k sī siânn-tshī ia̍h-sī tsháu-tē khah hó. Guá tsú-tiunn siânn-tshī, A-kia̍t tsú-tiunn tsháu-tē, kiat-kó pênn-tshiú.", en: "Yes! The motion was town or country. I argued for the town, A-kia̍t for the country, and it was a tie."}
+  - {n: 23, speaker: Siok-tsing, hanji: "我認同阿傑的結論：少年的時去城市拍拚，老矣轉去鄉里。", tailo: "Guá jīn-tông A-kia̍t ê kiat-lūn: siàu-liân ê sî khì siânn-tshī phah-piànn, lāu--ah tńg-khì hiunn-lí.", en: "I agree with A-kia̍t's conclusion: work hard in town while you're young, go home to your village when you're old."}
+  - {n: 24, speaker: A-ióng, hanji: "淑貞，既然講著老……我想欲佮你做伙老。這碗圓仔，是我刁工為你挲的。", tailo: "Siok-tsing, kì-jiân kóng-tio̍h lāu…… guá siūnn-beh kah lí tsò-hué lāu. Tsit uánn înn-á, sī guá thiau-kang uī lí so--ê.", en: "Siok-tsing, since we're talking about growing old… I want to grow old with you. I rolled this bowl of rice balls specially for you."}
+  - {n: 25, speaker: Siok-tsing, hanji: "阿勇，你這是暗示，抑是求婚？", tailo: "A-ióng, lí tse sī àm-sī, ia̍h-sī kiû-hun?", en: "A-ióng, is that a hint, or a proposal?"}
+  - {n: 26, speaker: A-ióng, hanji: "我坦白講：是求婚。你敢欲嫁我？", tailo: "Guá thán-pi̍k kóng: sī kiû-hun. Lí kám beh kè--guá?", en: "I'll be honest: it's a proposal. Will you marry me?"}
+  - {n: 27, speaker: Siok-tsing, hanji: "（笑甲真歡喜）好啦，戇人。毋過你家己愛去共阮老爸講。", tailo: "(Tshiò kah tsin huann-hí) Hó--lah, gōng-lâng. M̄-koh lí ka-kī ài khì kā guán lāu-pē kóng.", en: "(Beaming) All right, you silly thing. But you'll have to tell my dad yourself."}
+  - {n: 28, speaker: Hūi-hūi, hanji: "今年冬節，阿勇叔不止加一歲，閣加一个牽手！", tailo: "Kin-nî tang-tseh, A-ióng-tsik put-tsí ke tsi̍t huè, koh ke tsi̍t ê khan-tshiú!", en: "Wow! This solstice Uncle A-ióng hasn't just got a year older, he's got himself a wife too!"}
+notes:
+  - {ref: 1, topic: vocab, text: "The solstice recipe (進修 26): 例, 挲, 圓仔, 材料, 秫米, 烏糖, 薑母, 色素."}
+  - {ref: 3, topic: vocab, text: "衝碰 (進修 22) is from the diary, 照步來 (進修 24) from the race; 碗公, 挼, 澹, 黏黐黐 and 焦 from the recipe."}
+  - {ref: 6, topic: vocab, text: "The race (進修 24): 起步, 拚勢, 公里, 跤後肚, 糾筋, 食緊挵破碗, 終點, 獎牌, 加油, 嚨喉. 走標 and 道理: 進修 23 and 10."}
+  - {ref: 8, topic: vocab, text: "A-ióng's diary (進修 22): 校長, 嚴肅, 坦白, 博士, 印象, 謙虛, 體貼, 誤會, 表小妹, 踅街, 食醋. 顛倒 'on the contrary' is from 進修 17."}
+  - {ref: 11, topic: vocab, text: "The fables (進修 23): 兔仔, 驕傲, 早慢, 恥笑, 謙虛."}
+  - {ref: 14, topic: vocab, text: "Cooking (進修 26): 鼎, 浮, 撈, 爛, 有大有細, 扁扁, 拜公媽."}
+  - {ref: 18, topic: vocab, text: "The news (進修 25): 罩霧, 鐵枝路, 延遲, 市場, 起價, 價錢, 增加, 倍, 鸚哥, 失蹤, 主人, 腹肚枵."}
+  - {ref: 21, topic: vocab, text: "The debate (進修 27): 辯論, 題目, 城市, 草地, 主張, 平手, 認同, 結論, 鄉里, 既然, 不止."}
+  - {ref: 24, topic: vocab, text: "刁工 = specially, on purpose (進修 2). 做伙老 'grow old together'."}
+  - {ref: 25, topic: vocab, text: "暗示, 求婚 (進修 22): A-ióng's question from the end of his diary finally gets its answer."}
+  - {ref: 27, topic: vocab, text: "笑甲真歡喜 'laughing with joy'. 戇人 = fool, silly (進修 2)."}
+  - {ref: 28, topic: vocab, text: "牽手 khan-tshiú = wife, spouse (literally 'hold hands'); here a pun on 牽手 in the diary, where A-ióng walked hand in hand with his cousin."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Mài tshóng-pōng, tsiàu-pōo-lâi.", hanji: "莫衝碰，照步來。", en: "Don't rush it, one step at a time."}
+    - {tailo: "Guá khí-pōo siunn piànn-sè, kha-āu-tóo tō kiù-kin.", hanji: "我起步傷拚勢，跤後肚就糾筋。", en: "I started much too hard, and my calf cramped."}
+    - {tailo: "Kiau-ngōo ê lâng tsá-bān ē su.", hanji: "驕傲的人早慢會輸。", en: "The arrogant lose sooner or later."}
+    - {tailo: "Înn-á phû--khí-lâi--ah, kín hôo--khí-lâi.", hanji: "圓仔浮起來矣，緊撈起來。", en: "The rice balls are floating, scoop them out quick."}
+    - {tailo: "Lí tse sī àm-sī, ia̍h-sī kiû-hun?", hanji: "你這是暗示，抑是求婚？", en: "Is that a hint, or a proposal?"}
+  fill:
+    - {tailo: "Siunn ta tō ka tsuí, siunn ___ tō ka hún.", hanji: "傷焦就加水，傷___就加粉。", answer: "tâm", answer_hanji: "澹", en: "Too dry, add water; too wet, add flour."}
+    - {tailo: "Hit kang lí khan piáu-sió-muē se̍h-ke, hāi guá ___.", hanji: "彼工你牽表小妹踅街，害我___。", answer: "tsia̍h-tshòo", answer_hanji: "食醋", en: "That day you walked your cousin round the shops and made me jealous."}
+    - {tailo: "Tiong-pōo hái-huānn koh ___--ah.", hanji: "中部海岸閣___矣。", answer: "tà-bū", answer_hanji: "罩霧", en: "The central coast is foggy again."}
+    - {tailo: "Guá ___ A-kia̍t ê kiat-lūn.", hanji: "我___阿傑的結論。", answer: "jīn-tông", answer_hanji: "認同", en: "I agree with A-kia̍t's conclusion."}
+    - {tailo: "Tsit uánn înn-á, sī guá ___ uī lí so--ê.", hanji: "這碗圓仔，是我___為你挲的。", answer: "thiau-kang", answer_hanji: "刁工", en: "I rolled this bowl of rice balls specially for you."}
+audio: []

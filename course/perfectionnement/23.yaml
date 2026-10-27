@@ -1,0 +1,118 @@
+id: 23
+title: {en: "The tortoise and the hare race", tailo: "Ku kah thòo-á tsáu-pio", hanji: "龜佮兔仔走標"}
+genre: tale
+review: false
+setting: "A weekend in Tainan. Before bed, A-má tells Hūi-hūi two fables, Aesop's tortoise and hare and fox and crow, retold in her own words."
+dialogue:
+  - {n: 1, hanji: "古早古早，佇一个山跤，有一隻兔仔佮一隻龜。", tailo: "Kóo-tsá kóo-tsá, tī tsi̍t ê suann-kha, ū tsi̍t tsiah thòo-á kah tsi̍t tsiah ku.", en: "Long, long ago, at the foot of a mountain, there lived a hare and a tortoise."}
+  - {n: 2, hanji: "兔仔走甲足緊，不時恥笑龜：「你爬甲遮爾慢，敢毋驚予人笑？」", tailo: "Thòo-á tsáu kah tsiok kín, put-sî thí-tshiò ku: “Lí pê kah tsiah-nī bān, kám m̄ kiann hōo lâng tshiò?”", en: "The hare ran very fast and was always mocking the tortoise: 'You crawl so slowly, aren't you afraid people will laugh at you?'"}
+  - {n: 3, hanji: "龜這个人真恬，聽了才講：「無，咱來走標，看啥人先到山頂。」", tailo: "Ku tsit ê lâng tsin tiām, thiann liáu tsiah kóng: “Bô, lán lâi tsáu-pio, khuànn siánn-lâng sing kàu suann-tíng.”", en: "The tortoise was a quiet sort. When he'd heard him out, he said: 'Well then, let's have a race, and see who gets to the top of the mountain first.'"}
+  - {n: 4, hanji: "兔仔笑甲趒起來：「好啊！咱來輸贏，輸的人愛叫對方大兄。」", tailo: "Thòo-á tshiò kah tiô--khí-lâi: “Hó--ah! Lán lâi su-iânn, su ê lâng ài kiò tuì-hong tuā-hiann.”", en: "The hare laughed so hard he jumped up: 'Fine! Let's make a bet: the loser has to call the other one big brother.'"}
+  - {n: 5, hanji: "樹林內的鳥隻攏飛來看鬧熱。狐狸做公親，烏鴉徛佇樹枝頂，開聲喝：「一、二、三，走！」", tailo: "Tshiū-nâ lāi ê tsiáu-tsiah lóng pue lâi khuànn lāu-jia̍t. Hôo-lî tsò kong-tshin, oo-a khiā tī tshiū-ki tíng, khui-siann huah: “It, jī, sann, tsáu!”", en: "The birds of the wood all flew over to watch the fun. The fox was the referee, and the crow, perched on a branch, called out loud: 'One, two, three, go!'"}
+  - {n: 6, hanji: "兔仔一下仔就走甲無看見影，龜猶咧山跤沓沓仔爬。", tailo: "Thòo-á tsi̍t-ē-á tō tsáu kah bô khuànn-kìnn iánn, ku iáu teh suann-kha ta̍uh-ta̍uh-á pê.", en: "In no time the hare was out of sight, while the tortoise was still crawling slowly along at the foot of the mountain."}
+  - {n: 7, hanji: "走到半路，兔仔越頭一看，龜連影都無。伊足得意：「遮爾慢，我先歇喘一下，睏一个晝。」", tailo: "Tsáu kàu puànn-lōo, thòo-á ua̍t-thâu tsi̍t khuànn, ku liân iánn to bô. I tsiok tik-ì: “Tsiah-nī bān, guá sing hioh-tshuán--tsi̍t-ē, khùn tsi̍t ê tàu.”", en: "Halfway up, the hare looked back: not a trace of the tortoise. Very pleased with himself, he said: 'He's so slow, I'll catch my breath first and have a nap.'"}
+  - {n: 8, hanji: "伊倒佇樹仔跤，忽然一陣風吹來，真秋凊，無偌久伊就睏去矣。", tailo: "I tó tī tshiū-á-kha, hut-jiân tsi̍t tsūn hong tshue--lâi, tsin tshiu-tshìn, bô guā kú i tō khùn--khì--ah.", en: "He lay down under a tree. Suddenly a breeze sprang up, lovely and cool, and before long he was fast asleep."}
+  - {n: 9, hanji: "龜無歇睏，一步一步，沓沓仔爬過兔仔的身軀邊。", tailo: "Ku bô hioh-khùn, tsi̍t pōo tsi̍t pōo, ta̍uh-ta̍uh-á pê kuè thòo-á ê sin-khu-pinn.", en: "The tortoise didn't stop. Step by step, he crawled slowly past the hare."}
+  - {n: 10, hanji: "兔仔睏一醒，日頭已經欲落山矣。伊趕緊走，走甲強欲斷氣。", tailo: "Thòo-á khùn-tsi̍t-tshénn, ji̍t-thâu í-king beh lo̍h-suann--ah. I kuánn-kín tsáu, tsáu kah kiōng-beh tn̄g-khuì.", en: "When the hare woke up, the sun was already setting. He ran for it, ran till he nearly dropped."}
+  - {n: 11, hanji: "毋過已經傷慢矣：龜早就出現佇山頂，鳥隻攏咧共伊拍噗仔。", tailo: "M̄-koh í-king siunn bān--ah: ku tsá tō tshut-hiān tī suann-tíng, tsiáu-tsiah lóng teh kā i phah-pho̍k-á.", en: "But it was too late: the tortoise had long since appeared at the top, and the birds were all clapping for him."}
+  - {n: 12, hanji: "兔仔見笑甲頭攏夯袂起來。龜講：「兔仔小弟，走標毋是看跤長，是看有堅持無。」", tailo: "Thòo-á kiàn-siàu kah thâu lóng giâ bē khí--lâi. Ku kóng: “Thòo-á sió-tī, tsáu-pio m̄ sī khuànn kha tn̂g, sī khuànn ū kian-tshî--bô.”", en: "The hare was so ashamed he couldn't lift his head. The tortoise said: 'Little brother hare, a race isn't about long legs, it's about whether you keep going.'"}
+  - {n: 13, hanji: "這个故事教咱：驕傲的人，早慢會輸。", tailo: "Tsit ê kòo-sū kà lán: kiau-ngōo ê lâng, tsá-bān ē su.", en: "This story teaches us that the arrogant lose, sooner or later."}
+  - {n: 14, hanji: "閣講一个。有一工，一隻烏鴉揣著一塊肉，用喙咬咧，飛去樹枝頂欲食。", tailo: "Koh kóng tsi̍t ê. Ū tsi̍t kang, tsi̍t tsiah oo-a tshuē-tio̍h tsi̍t tè bah, iōng tshuì kā--leh, pue khì tshiū-ki tíng beh tsia̍h.", en: "Here's another one. One day a crow found a piece of meat. She held it in her beak and flew up onto a branch to eat it."}
+  - {n: 15, hanji: "樹仔跤有一隻奸巧的狐狸，鼻著肉芳，喙瀾強欲流落來。", tailo: "Tshiū-á-kha ū tsi̍t tsiah kan-khiáu ê hôo-lî, phīnn-tio̍h bah phang, tshuì-nuā kiōng-beh lâu--lo̍h-lâi.", en: "Under the tree was a sly fox. He smelt the meat and his mouth began to water."}
+  - {n: 16, hanji: "狐狸目睭一下輾，就用甜言蜜語共烏鴉呵咾。", tailo: "Hôo-lî ba̍k-tsiu tsi̍t-ē liàn, tō iōng tinn-giân-bi̍t-gí kā oo-a o-ló.", en: "The fox rolled his eyes, thought of a trick, and began to sweet-talk the crow."}
+  - {n: 17, hanji: "「烏鴉小姐，你的毛烏金烏金，真正是天下上媠的鳥隻。」", tailo: "“Oo-a sió-tsiá, lí ê mn̂g oo-kim oo-kim, tsin-tsiànn sī thian-hā siōng suí ê tsiáu-tsiah.”", en: "'Miss Crow, your feathers are so glossy black: you really are the most beautiful bird in the world.'"}
+  - {n: 18, hanji: "「遮爾媠的鳥，歌聲一定嘛真好聽。你敢會使唱一條歌予我聽？」", tailo: "“Tsiah-nī suí ê tsiáu, kua-siann it-tīng mā tsin hó-thiann. Lí kám ē-sái tshiùnn tsi̍t tiâu kua hōo guá thiann?”", en: "'Such a beautiful bird must have a lovely voice too. Would you sing me a song?'"}
+  - {n: 19, hanji: "烏鴉聽甲足得意，伊毋捌聽過人按呢呵咾伊。", tailo: "Oo-a thiann kah tsiok tik-ì, i m̄ bat thiann-kuè lâng án-ne o-ló--i.", en: "The crow was thrilled to hear it: no one had ever praised her like that."}
+  - {n: 20, hanji: "伊大膽開聲唱歌，喙一開，肉就落塗矣。", tailo: "I tuā-tánn khui-siann tshiùnn-kua, tshuì tsi̍t khui, bah tō lo̍h-thôo--ah.", en: "Boldly she opened her throat to sing; the moment her beak opened, the meat fell to the ground."}
+  - {n: 21, hanji: "狐狸共肉咬咧，笑講：「多謝！你的歌聲真普通，毋過你的肉真好食。」", tailo: "Hôo-lî kā bah kā--leh, tshiò kóng: “To-siā! Lí ê kua-siann tsin phóo-thong, m̄-koh lí ê bah tsin hó-tsia̍h.”", en: "The fox snapped up the meat and laughed: 'Thank you! Your voice is very ordinary, but your meat is delicious.'"}
+  - {n: 22, hanji: "「愛會記得：用甜言蜜語呵咾你的人，心內咧數想你的物件。」", tailo: "“Ài ē kì--tit: iōng tinn-giân-bi̍t-gí o-ló lí ê lâng, sim-lāi teh siàu-siūnn lí ê mi̍h-kiānn.”", en: "'Remember this: whoever sweet-talks you has his eye on something of yours.'"}
+  - {n: 23, hanji: "烏鴉這陣才明白，毋過已經傷慢矣，伊只好看破。", tailo: "Oo-a tsit-tsūn tsiah bîng-pi̍k, m̄-koh í-king siunn bān--ah, i tsí-hó khuànn-phuà.", en: "Only then did the crow understand, but it was too late, and she had to let it go."}
+  - {n: 24, hanji: "惠惠聽煞講：「阿媽，阿勇叔敢毋是彼隻兔仔？逐擺攏咧臭彈。」", tailo: "Hūi-hūi thiann suah kóng: “A-má, A-ióng-tsik kám m̄ sī hit tsiah thòo-á? Ta̍k pái lóng teh tshàu-tuānn.”", en: "When she'd heard them, Hūi-hūi said: 'A-má, isn't Uncle A-ióng that hare? He's always bragging.'"}
+  - {n: 25, hanji: "阿媽笑講：「毋通恥笑人。伊這馬交著女朋友，已經較謙虛矣。」", tailo: "A-má tshiò kóng: “M̄-thang thí-tshiò--lâng. I tsit-má kau-tio̍h lú-pîng-iú, í-king khah khiam-hi--ah.”", en: "A-má smiled: 'Don't make fun of people. Now he has a girlfriend, he's already more modest.'"}
+  - {n: 26, hanji: "「好矣，可憐的烏鴉嘛食無肉矣，你嘛緊去睏，莫閣數想欲食宵夜。」", tailo: "“Hó--ah, khó-liân ê oo-a mā tsia̍h bô bah--ah, lí mā kín khì khùn, mài koh siàu-siūnn beh tsia̍h siau-iā.”", en: "'Right: the poor crow didn't get her meat, and you go to sleep now too, and stop dreaming of a midnight snack.'"}
+notes:
+  - {ref: 1, topic: culture, text: "古早古早 'long, long ago' is how Taigi tales begin. The two fables are Aesop's; Taiwanese children learn them at school, so they are told here in A-má's words. 山跤 suann-kha = the foot of a mountain."}
+  - {ref: 2, topic: vocab, text: "恥笑 thí-tshiò = mock, make fun of: 為著無欲予人恥笑，我一直誠認真拍拚 'so as not to be laughed at, I've always worked hard' (MOE). 爬 pê = crawl, climb; 囡仔學爬 'a baby learning to crawl'."}
+  - {ref: 3, topic: vocab, text: "恬 tiām = quiet, silent: 這个囡仔真恬，無愛講話 'this child is very quiet, she doesn't like to talk' (MOE). 走標 tsáu-pio = a race; running: 阿公逐工透早起來，攏會佇稻埕走標 'every morning A-kong goes running on the threshing floor' (MOE). It returns in the next lesson. 龜這个人 'this tortoise': in tales, animals are 人."}
+  - {ref: 4, topic: vocab, text: "趒 tiô = jump, bounce: 氣甲趒起來 'jump with rage' (MOE). 輸贏 su-iânn = winning or losing; a bet: 咱來輸贏 'let's bet on it'. 大兄 tuā-hiann = eldest brother, big brother."}
+  - {ref: 5, topic: vocab, text: "鳥隻 tsiáu-tsiah = birds (collective). 狐狸 hôo-lî = fox; 老狐狸 'an old fox, a sly person'. 公親 kong-tshin = mediator, neutral third party; here, the referee. 烏鴉 oo-a = crow. 樹枝 tshiū-ki = branch. 開聲 khui-siann = speak up, call out; 開聲吼 'burst out crying' (MOE)."}
+  - {ref: 6, topic: grammar, text: "一下仔就 tsi̍t-ē-á tō = in no time. 走甲無看見影 'ran till not even his shadow could be seen': out of sight."}
+  - {ref: 7, topic: vocab, text: "得意 tik-ì = pleased with oneself, smug. 歇喘 hioh-tshuán = catch one's breath (喘, lesson 39): 小歇喘一下，我忝甲行袂去矣 'let's rest a moment, I'm too tired to walk' (MOE). 睏一个晝 = take a nap; the word is 睏晝 khùn-tàu."}
+  - {ref: 8, topic: vocab, text: "忽然 hut-jiân = suddenly. 秋凊 tshiu-tshìn = pleasantly cool. 睏去 khùn--khì = fall asleep (with neutral tone)."}
+  - {ref: 10, topic: vocab, text: "睏一醒 khùn-tsi̍t-tshénn = wake up after a sleep: 我睏一醒矣，你哪會閣毋去睏？ 'I've had a sleep and woken up, why aren't you in bed yet?' (MOE). 斷氣 tn̄g-khuì = breathe one's last; 走甲強欲斷氣 'run till you nearly die'."}
+  - {ref: 11, topic: vocab, text: "出現 tshut-hiān = appear. 拍噗仔 phah-pho̍k-á = clap (as in 進修 6)."}
+  - {ref: 12, topic: vocab, text: "頭夯袂起來 thâu giâ bē khí-lâi = can't lift one's head (夯, lesson 59). 堅持 kian-tshî = keep at it, persist; 有堅持無 'whether you keep going'. 小弟 = little brother."}
+  - {ref: 13, topic: vocab, text: "早慢 tsá-bān = sooner or later: 你若欲食毋討趁，早慢就愛做乞食 'if you eat without earning, sooner or later you'll be a beggar' (MOE)."}
+  - {ref: 15, topic: vocab, text: "奸巧 kan-khiáu = sly, crafty: 伊這个人真奸巧，你愛較細膩咧 'he's sly, be careful' (MOE). 鼻 phīnn = smell (verb) as well as 'nose'. 喙瀾 tshuì-nuā = saliva; 喙瀾強欲流落來 'mouth watering'."}
+  - {ref: 16, topic: vocab, text: "輾 liàn = roll; 目睭一下輾 'his eyes rolled': he hatched a plan. 甜言蜜語 tinn-giân-bi̍t-gí = sweet talk, flattery (甜蜜, 進修 22)."}
+  - {ref: 17, topic: vocab, text: "毛 mn̂g = feathers, hair, fur (also read môo). 烏金 oo-kim = glossy black; doubled 烏金烏金 for emphasis. 天下 thian-hā = the whole world; 天下太平 'peace on earth'."}
+  - {ref: 18, topic: vocab, text: "歌聲 kua-siann = singing voice."}
+  - {ref: 20, topic: vocab, text: "大膽 tuā-tánn = bold; 好大膽！ 'how dare you!' (MOE). 落塗 lo̍h-thôo = fall to the ground; also 'be born': 落塗時，八字命 'your fate is fixed at birth' (MOE)."}
+  - {ref: 22, topic: vocab, text: "數想 siàu-siūnn = covet, set one's heart on something one shouldn't have; 莫數想 'don't even think about it'. 會記得 ē kì--tit = remember."}
+  - {ref: 23, topic: vocab, text: "明白 bîng-pi̍k = understand; clear: 你講的我攏明白矣 'I understand everything you said' (MOE). 看破 khuànn-phuà = accept, let go: 做人若會曉看破世情，會較好過日 'if you can accept the way of the world, life is easier' (MOE)."}
+  - {ref: 24, topic: vocab, text: "叔 tsik = father's younger brother; after a name, 'uncle' for a man of one's father's generation: 阿勇叔 A-ióng-tsik."}
+  - {ref: 25, topic: vocab, text: "謙虛 khiam-hi = modest, humble. 交著女朋友 = have found a girlfriend."}
+  - {ref: 26, topic: vocab, text: "可憐 khó-liân = poor, pitiable: 你這个可憐的囡仔 'you poor child' (MOE). 宵夜 siau-iā = late-night snack."}
+new_words:
+  - {tailo: suann-kha, hanji: 山跤, en: "foot of a mountain"}
+  - {tailo: thí-tshiò, hanji: 恥笑, en: "mock, make fun of"}
+  - {tailo: pê, hanji: 爬, en: "crawl, climb"}
+  - {tailo: tiām, hanji: 恬, en: "quiet, silent"}
+  - {tailo: tsáu-pio, hanji: 走標, en: "race; running"}
+  - {tailo: suann-tíng, hanji: 山頂, en: "mountain top"}
+  - {tailo: tiô, hanji: 趒, en: "jump, bounce"}
+  - {tailo: su-iânn, hanji: 輸贏, en: "win or lose; bet"}
+  - {tailo: tuì-hong, hanji: 對方, en: "the other side, the other person"}
+  - {tailo: tuā-hiann, hanji: 大兄, en: "eldest brother, big brother"}
+  - {tailo: tsiáu-tsiah, hanji: 鳥隻, en: "birds"}
+  - {tailo: hôo-lî, hanji: 狐狸, en: "fox"}
+  - {tailo: kong-tshin, hanji: 公親, en: "mediator, referee"}
+  - {tailo: oo-a, hanji: 烏鴉, en: "crow"}
+  - {tailo: tshiū-ki, hanji: 樹枝, en: "branch"}
+  - {tailo: khui-siann, hanji: 開聲, en: "speak up, call out"}
+  - {tailo: puànn-lōo, hanji: 半路, en: "halfway, on the way"}
+  - {tailo: tik-ì, hanji: 得意, en: "pleased with oneself, smug"}
+  - {tailo: hioh-tshuán, hanji: 歇喘, en: "catch one's breath, rest"}
+  - {tailo: khùn-tàu, hanji: 睏晝, en: "nap, siesta"}
+  - {tailo: hut-jiân, hanji: 忽然, en: "suddenly"}
+  - {tailo: tshiu-tshìn, hanji: 秋凊, en: "pleasantly cool"}
+  - {tailo: khùn-tsi̍t-tshénn, hanji: 睏一醒, en: "wake up after a sleep"}
+  - {tailo: tn̄g-khuì, hanji: 斷氣, en: "breathe one's last"}
+  - {tailo: tshut-hiān, hanji: 出現, en: "appear"}
+  - {tailo: kian-tshî, hanji: 堅持, en: "persist, keep at it"}
+  - {tailo: tsá-bān, hanji: 早慢, en: "sooner or later"}
+  - {tailo: kan-khiáu, hanji: 奸巧, en: "sly, crafty"}
+  - {tailo: phīnn, hanji: 鼻, en: "nose; smell"}
+  - {tailo: tshuì-nuā, hanji: 喙瀾, en: "saliva"}
+  - {tailo: liàn, hanji: 輾, en: "roll"}
+  - {tailo: tinn-giân-bi̍t-gí, hanji: 甜言蜜語, en: "sweet talk, flattery"}
+  - {tailo: mn̂g, hanji: 毛, en: "feathers, hair, fur"}
+  - {tailo: oo-kim, hanji: 烏金, en: "glossy black"}
+  - {tailo: thian-hā, hanji: 天下, en: "the whole world"}
+  - {tailo: kua-siann, hanji: 歌聲, en: "singing voice"}
+  - {tailo: tuā-tánn, hanji: 大膽, en: "bold, daring"}
+  - {tailo: lo̍h-thôo, hanji: 落塗, en: "fall to the ground; be born"}
+  - {tailo: siàu-siūnn, hanji: 數想, en: "covet, set one's heart on"}
+  - {tailo: bîng-pi̍k, hanji: 明白, en: "understand; clear"}
+  - {tailo: khuànn-phuà, hanji: 看破, en: "accept, let go"}
+  - {tailo: tsik, hanji: 叔, en: "uncle (father's younger brother)"}
+  - {tailo: iánn, hanji: 影, en: "shadow; trace"}
+  - {tailo: tsūn, hanji: 陣, en: "gust (of wind); a while"}
+  - {tailo: tsiáu, hanji: 鳥, en: "bird"}
+  - {tailo: siau-iā, hanji: 宵夜, en: "late-night snack"}
+  - {tailo: khiam-hi, hanji: 謙虛, en: "modest, humble"}
+  - {tailo: khó-liân, hanji: 可憐, en: "poor, pitiable"}
+exercises:
+  translate:
+    - {tailo: "Lán lâi tsáu-pio, khuànn siánn-lâng sing kàu suann-tíng.", hanji: "咱來走標，看啥人先到山頂。", en: "Let's have a race and see who gets to the top of the mountain first."}
+    - {tailo: "Guá sing hioh-tshuán--tsi̍t-ē, khùn tsi̍t ê tàu.", hanji: "我先歇喘一下，睏一个晝。", en: "I'll catch my breath first and have a nap."}
+    - {tailo: "Kiau-ngōo ê lâng, tsá-bān ē su.", hanji: "驕傲的人，早慢會輸。", en: "The arrogant lose, sooner or later."}
+    - {tailo: "Oo-a thiann kah tsiok tik-ì.", hanji: "烏鴉聽甲足得意。", en: "The crow was thrilled to hear it."}
+    - {tailo: "M̄-thang thí-tshiò--lâng.", hanji: "毋通恥笑人。", en: "Don't make fun of people."}
+  fill:
+    - {tailo: "Ku tsit ê lâng tsin ___.", hanji: "龜這个人真___。", answer: "tiām", answer_hanji: "恬", en: "The tortoise was a quiet sort."}
+    - {tailo: "Hôo-lî tsò ___.", hanji: "狐狸做___。", answer: "kong-tshin", answer_hanji: "公親", en: "The fox was the referee."}
+    - {tailo: "Tsáu-pio sī khuànn ū ___--bô.", hanji: "走標是看有___無。", answer: "kian-tshî", answer_hanji: "堅持", en: "A race is about whether you keep going."}
+    - {tailo: "Tshuì tsi̍t khui, bah tō ___--ah.", hanji: "喙一開，肉就___矣。", answer: "lo̍h-thôo", answer_hanji: "落塗", en: "The moment her beak opened, the meat fell to the ground."}
+    - {tailo: "Oo-a tsit-tsūn tsiah ___.", hanji: "烏鴉這陣才___。", answer: "bîng-pi̍k", answer_hanji: "明白", en: "Only then did the crow understand."}
+audio: []

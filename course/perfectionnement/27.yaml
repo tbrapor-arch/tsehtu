@@ -1,0 +1,119 @@
+id: 27
+title: {en: "Town or country?", tailo: "Siânn-tshī ia̍h-sī tsháu-tē?", hanji: "城市抑是草地？"}
+genre: debate
+review: false
+setting: "Hūi-hūi's Taigi class (進修 18) holds a debate. The motion: is it better to live in the town or in the country? Hūi-hūi speaks for the town, her classmate A-kia̍t, whose grandparents farm near Chiayi, for the country. Their teacher chairs."
+dialogue:
+  - {n: 1, speaker: Teacher, hanji: "各位同學，今仔日辯論的題目是：「蹛城市較好，抑是蹛草地較好？」", tailo: "Kok-uī tông-ha̍k, kin-á-ji̍t piān-lūn ê tê-bo̍k sī: “Tuà siânn-tshī khah hó, ia̍h-sī tuà tsháu-tē khah hó?”", en: "Class, today's debate motion is: 'Is it better to live in the town or in the country?'"}
+  - {n: 2, speaker: Teacher, hanji: "惠惠主張城市較好，阿傑主張草地較好。逐家發言三分鐘，時間到就愛停。", tailo: "Hūi-hūi tsú-tiunn siânn-tshī khah hó, A-kia̍t tsú-tiunn tsháu-tē khah hó. Ta̍k-ke huat-giân sann hun-tsing, sî-kan kàu tō ài thîng.", en: "Hūi-hūi argues for the town, A-kia̍t for the country. Each of you has three minutes to speak, and you stop when the time's up."}
+  - {n: 3, speaker: Hūi-hūi, hanji: "老師、各位同學好。我認為城市較好，因為城市交通方便，各行各業攏真發達。", tailo: "Lāu-su, kok-uī tông-ha̍k hó. Guá jīn-uî siânn-tshī khah hó, in-uī siânn-tshī kau-thong hong-piān, kok-hâng-kok-gia̍p lóng tsin huat-ta̍t.", en: "Good morning, sir, good morning, everyone. I believe the town is better, because transport is convenient and every kind of business thrives there."}
+  - {n: 4, speaker: Hūi-hūi, hanji: "坐捷運十分鐘就到學校，暗時十二點出門，閣有店仔開咧。", tailo: "Tsē tsia̍t-ūn tsa̍p hun-tsing tō kàu ha̍k-hāu, àm-sî tsa̍p-jī tiám tshut-mn̂g, koh ū tiàm-á khui--leh.", en: "Ten minutes on the metro and you're at school; go out at midnight and there are still shops open."}
+  - {n: 5, speaker: Hūi-hūi, hanji: "草地的少年人一直搬來城市，這就是上好的證據。", tailo: "Tsháu-tē ê siàu-liân-lâng it-ti̍t puann lâi siânn-tshī, tse tō sī siōng hó ê tsìng-kì.", en: "Young people keep moving from the country to the town: that's the best proof there is."}
+  - {n: 6, speaker: Hūi-hūi, hanji: "阮老母嘛是對草地來城市食頭路的。伊講城市的機會不止濟，薪水嘛較懸。", tailo: "Guán lāu-bú mā sī uì tsháu-tē lâi siânn-tshī tsia̍h-thâu-lōo--ê. I kóng siânn-tshī ê ki-huē put-tsí tsē, sin-suí mā khah kuân.", en: "My mum came from the country to work in the town too. She says there are far more opportunities in town, and the pay is better."}
+  - {n: 7, speaker: A-kia̍t, hanji: "我袂當認同你的看法。", tailo: "Guá bē-tàng jīn-tông lí ê khuànn-huat.", en: "I can't agree with your view.", source: moe}
+  - {n: 8, speaker: A-kia̍t, hanji: "城市交通方便，毋過人濟、車濟，空氣䆀，規工吵鬧，暗時嘛睏袂去。", tailo: "Siânn-tshī kau-thong hong-piān, m̄-koh lâng tsē, tshia tsē, khong-khì bái, kui-kang tshá-nāu, àm-sî mā khùn bē khì.", en: "Transport in town is convenient, but there are crowds and cars everywhere, the air is bad, it's noisy all day, and you can't sleep at night."}
+  - {n: 9, speaker: A-kia̍t, hanji: "厝稅閣貴甲驚死人。薪水較懸，一半攏提去納厝稅矣。", tailo: "Tshù-suè koh kuì kah kiann-sí-lâng. Sin-suí khah kuân, tsi̍t-puànn lóng the̍h khì la̍p tshù-suè--ah.", en: "And the rent is frighteningly expensive. The pay may be better, but half of it goes on rent."}
+  - {n: 10, speaker: A-kia̍t, hanji: "蹛草地，四界攏是樹木佮田園，暗時閣看會著天頂的星。", tailo: "Tuà tsháu-tē, sì-kè lóng sī tshiū-ba̍k kah tshân-hn̂g, àm-sî koh khuànn ē tio̍h thinn-tíng ê tshenn.", en: "In the country there are trees and fields everywhere, and at night you can still see the stars."}
+  - {n: 11, speaker: A-kia̍t, hanji: "草地的厝邊頭尾攏相捌，有代誌一下喝就來鬥相共。蹛城市，甚至隔壁蹛啥人都毋知。", tailo: "Tsháu-tē ê tshù-pinn-thâu-bué lóng sio-bat, ū tāi-tsì tsi̍t-ē huah tō lâi tàu-sann-kāng. Tuà siânn-tshī, sīm-tsì keh-piah tuà siánn-lâng to m̄ tsai.", en: "In the country, all the neighbours know each other: shout once if you need help and they come running. In town you may not even know who lives next door."}
+  - {n: 12, speaker: A-kia̍t, hanji: "閣講，城市的人較現實，你若無錢，就無人插你。", tailo: "Koh kóng, siânn-tshī ê lâng khah hiān-si̍t, lí nā bô tsînn, tō bô lâng tshap--lí.", en: "Besides, town people are more mercenary: if you've got no money, nobody bothers with you."}
+  - {n: 13, speaker: Teacher, hanji: "好，換惠惠回應。", tailo: "Hó, uānn Hūi-hūi huê-ìng.", en: "Right, Hūi-hūi, your reply."}
+  - {n: 14, speaker: Hūi-hūi, hanji: "阿傑講的是事實，只是伊干焦講一爿。", tailo: "A-kia̍t kóng--ê sī sū-si̍t, tsí-sī i kan-na kóng tsi̍t pîng.", en: "What A-kia̍t says is true, it's just that he only tells one side."}
+  - {n: 15, speaker: Hūi-hūi, hanji: "草地空氣好，毋過老歲仔若破病，欲去大病院就愛坐一點外鐘的車。", tailo: "Tsháu-tē khong-khì hó, m̄-koh lāu-huè-á nā phuà-pēnn, beh khì tuā pēnn-īnn tō ài tsē tsi̍t tiám-guā-tsing ê tshia.", en: "The country air may be good, but when old folk fall ill, getting to a big hospital means more than an hour in a car."}
+  - {n: 16, speaker: Hūi-hūi, hanji: "少年人欲讀冊、欲學藝術、欲做生理，城市的機會較濟，這是逐家攏知的。", tailo: "Siàu-liân-lâng beh tha̍k-tsheh, beh o̍h gē-su̍t, beh tsò-sing-lí, siânn-tshī ê ki-huē khah tsē, tse sī ta̍k-ke lóng tsai--ê.", en: "If young people want to study, learn an art or go into business, there are more opportunities in town. Everyone knows that."}
+  - {n: 17, speaker: A-kia̍t, hanji: "惠惠講伊欲做作家。毋過作家敢一定愛蹛城市？", tailo: "Hūi-hūi kóng i beh tsò tsok-ka. M̄-koh tsok-ka kám it-tīng ài tuà siânn-tshī?", en: "Hūi-hūi says she wants to be a writer. But does a writer have to live in town?"}
+  - {n: 18, speaker: A-kia̍t, hanji: "我譬喻予你聽：寫作親像種作，愛恬靜，愛有時間。草地上適合寫作。", tailo: "Guá phì-jū hōo lí thiann: siá-tsok tshin-tshiūnn tsìng-tsoh, ài tiām-tsīng, ài ū sî-kan. Tsháu-tē siōng sik-ha̍p siá-tsok.", en: "Let me give you a comparison: writing is like farming, it needs quiet and it needs time. The country is the best place to write."}
+  - {n: 19, speaker: Hūi-hūi, hanji: "（笑）你按呢講，根本是咧批評我無耐性。", tailo: "(Tshiò) Lí án-ne kóng, kin-pún sī teh phue-phîng guá bô nāi-sìng.", en: "(Laughing) Talk like that, and you're really just criticising me for being impatient."}
+  - {n: 20, speaker: A-kia̍t, hanji: "我無批評你。我是講，蹛佗位較好，愛看各人的觀念佮需要。", tailo: "Guá bô phue-phîng--lí. Guá sī kóng, tuà tó-uī khah hó, ài khuànn kok-lâng ê kuan-liām kah su-iàu.", en: "I'm not criticising you. I'm saying where it's better to live depends on each person's outlook and needs."}
+  - {n: 21, speaker: A-kia̍t, hanji: "這馬網路真普遍，佇草地嘛會當食頭路，一面種菜，一面用電腦做工課。", tailo: "Tsit-má bāng-lōo tsin phóo-phiàn, tī tsháu-tē mā ē-tàng tsia̍h-thâu-lōo, tsi̍t-bīn tsìng tshài, tsi̍t-bīn iōng tiān-náu tsò khang-khuè.", en: "These days the internet is everywhere, so you can hold down a job in the country too, growing vegetables on one hand and working on a computer on the other."}
+  - {n: 22, speaker: A-kia̍t, hanji: "農業佮工業攏需要人。草地若無少年人，以後啥人來種稻仔？", tailo: "Lông-gia̍p kah kang-gia̍p lóng su-iàu lâng. Tsháu-tē nā bô siàu-liân-lâng, í-āu siánn-lâng lâi tsìng tiū-á?", en: "Farming and industry both need people. If there are no young people in the country, who's going to grow the rice?"}
+  - {n: 23, speaker: Teacher, hanji: "時間差不多矣。請兩爿做結論。", tailo: "Sî-kan tsha-put-to--ah. Tshiánn nn̄g pîng tsò kiat-lūn.", en: "We're nearly out of time. Both sides, please sum up."}
+  - {n: 24, speaker: Hūi-hūi, hanji: "我的結論：城市適合欲拍拚的人。既然我欲做作家，我就愛去城市看濟濟人、濟濟代誌。", tailo: "Guá ê kiat-lūn: siânn-tshī sik-ha̍p beh phah-piànn ê lâng. Kì-jiân guá beh tsò tsok-ka, guá tō ài khì siânn-tshī khuànn tsē-tsē lâng, tsē-tsē tāi-tsì.", en: "My conclusion: the town suits people who want to make their way. Since I want to be a writer, I need to go to the town and see lots of people and lots of things."}
+  - {n: 25, speaker: A-kia̍t, hanji: "我的結論：少年的時去城市拍拚，老矣轉去鄉里，同時有兩爿的好處，上好。", tailo: "Guá ê kiat-lūn: siàu-liân ê sî khì siânn-tshī phah-piànn, lāu--ah tńg-khì hiunn-lí, tông-sî ū nn̄g pîng ê hó-tshù, siōng hó.", en: "My conclusion: work hard in town while you're young, go home to your village when you're old, and you get the best of both. That's ideal."}
+  - {n: 26, speaker: Teacher, hanji: "兩爿攏講甲相當好。投票的結果……平手！", tailo: "Nn̄g pîng lóng kóng kah siong-tong hó. Tâu-phiò ê kiat-kó…… pênn-tshiú!", en: "Both sides spoke very well. The result of the vote is… a tie!"}
+  - {n: 27, speaker: Hūi-hūi, hanji: "老師，按呢啥人勝利？", tailo: "Lāu-su, án-ne siánn-lâng sìng-lī?", en: "Sir, so who won?"}
+  - {n: 28, speaker: Teacher, hanji: "恁兩个攏勝利，因為恁攏用臺語辯論甲遮爾好！", tailo: "Lín nn̄g ê lóng sìng-lī, in-uī lín lóng iōng Tâi-gí piān-lūn kah tsiah-nī hó!", en: "You both won, because you both debated so well in Taigi!"}
+notes:
+  - {ref: 1, topic: vocab, text: "辯論 piān-lūn = debate. 題目 tê-bo̍k = topic, title, (exam) question: 今年聯考英文的題目真簡單 'this year's English paper was easy' (MOE). 城市 siânn-tshī = town, city. 草地 tsháu-tē = the country, countryside (not 'grass'!)."}
+  - {ref: 2, topic: vocab, text: "主張 tsú-tiunn = argue, maintain; position: 你對這件代誌有啥物主張？ 'what's your position on this?' (MOE). 發言 huat-giân = speak (in a meeting)."}
+  - {ref: 3, topic: vocab, text: "各行各業 kok-hâng-kok-gia̍p = every trade and profession. 發達 huat-ta̍t = flourish, thrive; prosper: 阿明來臺北三年，這馬事業已經真發達矣 'A-bîng has been in Taipei three years and his business is doing very well' (MOE)."}
+  - {ref: 5, topic: vocab, text: "證據 tsìng-kì = evidence, proof: 無證據毋通烏白講 'don't say things you can't prove' (MOE)."}
+  - {ref: 6, topic: vocab, text: "不止 put-tsí = very, much more than: 這領洋裝不止五千箍 'this dress costs well over five thousand' (MOE). The MOE example 伊對草地來都市揣頭路 'he came from the country to the city to look for work' uses 都市, a synonym of 城市."}
+  - {ref: 7, topic: vocab, text: "An exact MOE example, the standard way to disagree politely. 認同 jīn-tông = agree with, identify with. 看法 = view (lesson 57)."}
+  - {ref: 8, topic: vocab, text: "吵鬧 tshá-nāu = noisy, rowdy (吵, lesson 16)."}
+  - {ref: 9, topic: vocab, text: "厝稅 tshù-suè = rent: 我明仔載就愛納厝稅矣 'I have to pay the rent tomorrow' (MOE). 納 la̍p = pay (rent, taxes, fees). 驚死人 = frightening(ly)."}
+  - {ref: 10, topic: vocab, text: "樹木 tshiū-ba̍k = trees (collective). 星 = star (進修 4)."}
+  - {ref: 11, topic: vocab, text: "相捌 sio-bat = know each other. 甚至 sīm-tsì = even, going so far as: 伊毋但共人罵，甚至閣出手拍人 'he didn't just insult people, he even hit them' (MOE)."}
+  - {ref: 12, topic: vocab, text: "現實 hiān-si̍t = (of people) mercenary, only out for what they can get; also 'reality'. 插 tshap = take notice of, bother with; 無人插你 'nobody pays you any attention'."}
+  - {ref: 13, topic: vocab, text: "回應 huê-ìng = reply, respond."}
+  - {ref: 14, topic: vocab, text: "事實 sū-si̍t = fact, the truth. 只是 tsí-sī = it's just that; only: 只是一屑仔小意思爾爾 'it's only a small token' (MOE). 一爿 = one side."}
+  - {ref: 15, topic: vocab, text: "老歲仔 lāu-huè-á = old folk: 少年的，你著聽老歲仔苦勸 'young man, listen to the advice of your elders' (MOE). 病院 = hospital (lesson 58)."}
+  - {ref: 16, topic: vocab, text: "做生理 tsò-sing-lí = do business, be in trade."}
+  - {ref: 18, topic: vocab, text: "譬喻 phì-jū = comparison, metaphor; 我譬喻予你聽 'let me give you a comparison'. 寫作 siá-tsok = writing (as an art). 種作 = farming (lesson 40). 適合 sik-ha̍p = suit, be suitable: 這領衫上適合你來穿 'this dress suits you best' (MOE)."}
+  - {ref: 19, topic: vocab, text: "根本 kin-pún = simply, at all; the root: 伊根本都毋捌字 'he can't even read' (MOE). 批評 phue-phîng = criticise: 咱毋通濫糝共人批評 'we mustn't criticise people at random' (MOE). 耐性 nāi-sìng = patience."}
+  - {ref: 20, topic: vocab, text: "各人 kok-lâng = each person. 觀念 kuan-liām = outlook, idea, notion. 需要 su-iàu = need."}
+  - {ref: 21, topic: vocab, text: "普遍 phóo-phiàn = widespread, everywhere: 佇臺灣，便利商店誠普遍 'in Taiwan, convenience stores are everywhere' (MOE). 一面…一面… tsi̍t-bīn … tsi̍t-bīn … = while…, at the same time…: 伊一面做工，一面讀冊 'he works and studies at the same time' (MOE)."}
+  - {ref: 22, topic: vocab, text: "農業 lông-gia̍p = agriculture. 工業 kang-gia̍p = industry. 稻仔 = rice (the plant)."}
+  - {ref: 24, topic: vocab, text: "既然 kì-jiân = since, given that: 既然伊無想欲做，你就莫勉強伊 'since he doesn't want to, don't force him' (MOE). 濟濟 tsē-tsē = lots and lots."}
+  - {ref: 25, topic: vocab, text: "鄉里 hiunn-lí = home village, hometown: 我欲轉去阮鄉里矣 'I'm going home to my village' (MOE). 同時 tông-sî = at the same time. 好處 = advantage."}
+  - {ref: 26, topic: vocab, text: "相當 siong-tong = quite, fairly; matching: 門戶相當 'families of matching standing' (MOE). 平手 pênn-tshiú = a draw, a tie."}
+  - {ref: 27, topic: vocab, text: "勝利 sìng-lī = win; victory."}
+new_words:
+  - {tailo: piān-lūn, hanji: 辯論, en: "debate"}
+  - {tailo: tê-bo̍k, hanji: 題目, en: "topic, title, question"}
+  - {tailo: siânn-tshī, hanji: 城市, en: "town, city"}
+  - {tailo: tsháu-tē, hanji: 草地, en: "the country, countryside"}
+  - {tailo: tsú-tiunn, hanji: 主張, en: "argue, maintain; position"}
+  - {tailo: huat-giân, hanji: 發言, en: "speak (in a meeting)"}
+  - {tailo: kok-hâng-kok-gia̍p, hanji: 各行各業, en: "every trade and profession"}
+  - {tailo: huat-ta̍t, hanji: 發達, en: "flourish, prosper"}
+  - {tailo: tiàm-á, hanji: 店仔, en: "small shop"}
+  - {tailo: tsìng-kì, hanji: 證據, en: "evidence, proof"}
+  - {tailo: put-tsí, hanji: 不止, en: "very, much more than"}
+  - {tailo: jīn-tông, hanji: 認同, en: "agree with, identify with"}
+  - {tailo: tshá-nāu, hanji: 吵鬧, en: "noisy, rowdy"}
+  - {tailo: tshù-suè, hanji: 厝稅, en: "rent"}
+  - {tailo: la̍p, hanji: 納, en: "pay (rent, tax, fees)"}
+  - {tailo: tshiū-ba̍k, hanji: 樹木, en: "trees"}
+  - {tailo: sio-bat, hanji: 相捌, en: "know each other"}
+  - {tailo: sīm-tsì, hanji: 甚至, en: "even, going so far as"}
+  - {tailo: hiān-si̍t, hanji: 現實, en: "mercenary; reality"}
+  - {tailo: tshap, hanji: 插, en: "take notice of, bother with"}
+  - {tailo: huê-ìng, hanji: 回應, en: "reply, respond"}
+  - {tailo: sū-si̍t, hanji: 事實, en: "fact, the truth"}
+  - {tailo: tsí-sī, hanji: 只是, en: "it's just that; only"}
+  - {tailo: lāu-huè-á, hanji: 老歲仔, en: "old folk"}
+  - {tailo: tsò-sing-lí, hanji: 做生理, en: "do business"}
+  - {tailo: phì-jū, hanji: 譬喻, en: "comparison, metaphor"}
+  - {tailo: siá-tsok, hanji: 寫作, en: "writing"}
+  - {tailo: sik-ha̍p, hanji: 適合, en: "suit, be suitable"}
+  - {tailo: kin-pún, hanji: 根本, en: "simply, at all; the root"}
+  - {tailo: phue-phîng, hanji: 批評, en: "criticise"}
+  - {tailo: nāi-sìng, hanji: 耐性, en: "patience"}
+  - {tailo: kok-lâng, hanji: 各人, en: "each person"}
+  - {tailo: kuan-liām, hanji: 觀念, en: "outlook, idea"}
+  - {tailo: su-iàu, hanji: 需要, en: "need"}
+  - {tailo: phóo-phiàn, hanji: 普遍, en: "widespread"}
+  - {tailo: tsi̍t-bīn, hanji: 一面, en: "while, at the same time"}
+  - {tailo: lông-gia̍p, hanji: 農業, en: "agriculture"}
+  - {tailo: kang-gia̍p, hanji: 工業, en: "industry"}
+  - {tailo: kì-jiân, hanji: 既然, en: "since, given that"}
+  - {tailo: tsē-tsē, hanji: 濟濟, en: "lots and lots"}
+  - {tailo: hiunn-lí, hanji: 鄉里, en: "home village, hometown"}
+  - {tailo: tông-sî, hanji: 同時, en: "at the same time"}
+  - {tailo: siong-tong, hanji: 相當, en: "quite, fairly; matching"}
+  - {tailo: pênn-tshiú, hanji: 平手, en: "a draw, a tie"}
+  - {tailo: sìng-lī, hanji: 勝利, en: "win; victory"}
+exercises:
+  translate:
+    - {tailo: "Guá bē-tàng jīn-tông lí ê khuànn-huat.", hanji: "我袂當認同你的看法。", en: "I can't agree with your view."}
+    - {tailo: "Tse tō sī siōng hó ê tsìng-kì.", hanji: "這就是上好的證據。", en: "That's the best proof there is."}
+    - {tailo: "Tuà siânn-tshī, sīm-tsì keh-piah tuà siánn-lâng to m̄ tsai.", hanji: "蹛城市，甚至隔壁蹛啥人都毋知。", en: "In town you may not even know who lives next door."}
+    - {tailo: "Tsháu-tē siōng sik-ha̍p siá-tsok.", hanji: "草地上適合寫作。", en: "The country is the best place to write."}
+    - {tailo: "Tshiánn nn̄g pîng tsò kiat-lūn.", hanji: "請兩爿做結論。", en: "Both sides, please sum up."}
+  fill:
+    - {tailo: "Hūi-hūi ___ siânn-tshī khah hó.", hanji: "惠惠___城市較好。", answer: "tsú-tiunn", answer_hanji: "主張", en: "Hūi-hūi argues that the town is better."}
+    - {tailo: "___ koh kuì kah kiann-sí-lâng.", hanji: "___閣貴甲驚死人。", answer: "Tshù-suè", answer_hanji: "厝稅", en: "And the rent is frighteningly expensive."}
+    - {tailo: "A-kia̍t kóng--ê sī sū-si̍t, ___ i kan-na kóng tsi̍t pîng.", hanji: "阿傑講的是事實，___伊干焦講一爿。", answer: "tsí-sī", answer_hanji: "只是", en: "What A-kia̍t says is true, it's just that he only tells one side."}
+    - {tailo: "Tsit-má bāng-lōo tsin ___.", hanji: "這馬網路真___。", answer: "phóo-phiàn", answer_hanji: "普遍", en: "These days the internet is everywhere."}
+    - {tailo: "___ guá beh tsò tsok-ka, guá tō ài khì siânn-tshī.", hanji: "___我欲做作家，我就愛去城市。", answer: "Kì-jiân", answer_hanji: "既然", en: "Since I want to be a writer, I need to go to the town."}
+audio: []

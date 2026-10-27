@@ -2,7 +2,7 @@ id: 17
 title: {en: "A-ióng's blind date", tailo: "A-ióng tuì-khuànn", hanji: "阿勇對看"}
 genre: play
 review: false
-setting: "A comedy in one act. A tea shop in Taipei. A-ióng's mother has arranged a meeting with Siok-tsin, an engineer. Two tables away, A-tshun and Sam pretend to read the menu."
+setting: "A comedy in one act. A tea shop in Taipei. A-ióng's mother has arranged a meeting with Siok-tsing, an engineer. Two tables away, A-tshun and Sam pretend to read the menu."
 dialogue:
   - {n: 1, speaker: Mother, hanji: "（細聲）阿勇，你今仔日穿插遮飄撇，袂䆀喔。等一下講話較正經咧，莫閣嘐潲。", tailo: "(Sè-siann) A-ióng, lí kin-á-ji̍t tshīng-tshah tsiah phiau-phiat, bē-bái--ooh. Tán--tsi̍t-ē kóng-uē khah tsìng-king--leh, mài koh hau-siâu.", en: "(Quietly) A-ióng, you're very smartly turned out today, not bad. When she comes, talk sensibly, and no more bragging."}
   - {n: 2, speaker: A-ióng, hanji: "阿母，我三十二歲矣，猶是單身，毋是我的錯，是查某囡仔無目睭。", tailo: "A-bú, guá sann-tsa̍p-jī huè--ah, iáu-sī tuann-sin, m̄ sī guá ê tshò, sī tsa-bóo gín-á bô ba̍k-tsiu.", en: "Mum, I'm thirty-two and still single, and it's not my fault: girls just can't see what's in front of them."}
