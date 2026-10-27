@@ -118,10 +118,13 @@ exercises:
     - {tailo: "Tò-tńg-lâi ê sî lóng sī tuì-thâu-hong.", hanji: "倒轉來的時攏是對頭風。", en: "On the way back it was a headwind all the way."}
     - {tailo: "Guá m̄ sī beh tshiúnn kuan-kun, sī beh kah ka-kī kīng-tsing.", hanji: "我毋是欲搶冠軍，是欲佮家己競爭。", en: "I'm not out to win: I'm competing against myself."}
     - {tailo: "Siōng iàu-kín--ê sī ì-tsì.", hanji: "上要緊的是意志。", en: "What matters most is willpower."}
+    - {tailo: "Lo̍k-káng uá hái-huānn, tsa̍p-it-gue̍h tsin thàu-hong, tsáu-pio ê suán-tshiú tò-tńg-lâi lóng sī tuì-thâu-hong.", hanji: "鹿港倚海岸，十一月真透風，走標的選手倒轉來攏是對頭風。", en: "Lukang is by the coast and very windy in November, so the runners face a headwind all the way back."}
+    - {tailo: "Tsiong-tiám ê ūn-tōng-tiânn ū lô-kóo, ū lâng huah ka-iû, mā ū tsióng-pâi, tshiú-kin-á kah ke-tsing.", hanji: "終點的運動埕有鑼鼓，有人喝加油，嘛有獎牌、手巾仔佮雞精。", en: "At the finish in the stadium there were drums and gongs, people cheering, and medals, towels and chicken essence."}
   fill:
     - {tailo: "Lo̍k-káng uá hái-huānn, tsa̍p-it-gue̍h koh tsin ___.", hanji: "鹿港倚海岸，十一月閣真___。", answer: "thàu-hong", answer_hanji: "透風", en: "Lukang is by the coast, and November is very windy."}
     - {tailo: "Kha-āu-tóo hut-jiân ___.", hanji: "跤後肚忽然___。", answer: "kiù-kin", answer_hanji: "糾筋", en: "My calf suddenly cramped."}
     - {tailo: "Lí tio̍h ___.", hanji: "你著___。", answer: "tsiàu-pōo-lâi", answer_hanji: "照步來", en: "You have to take it step by step."}
     - {tailo: "I ê uē kā guá ___ tsin tuā.", hanji: "伊的話共我___真大。", answer: "kóo-bú", answer_hanji: "鼓舞", en: "Her words gave me a real boost."}
     - {tailo: "Tsit ê hiong-tìn pún-té tō sī khò hái tsia̍h-pn̄g--ê. ___ hong tsiah-nī thàu.", hanji: "這个鄉鎮本底就是靠海食飯的。___風遮爾透。", answer: "Bo̍k-kuài", answer_hanji: "莫怪", en: "This town has always lived from the sea. No wonder the wind is so strong."}
+    - {tailo: "Lí nā khí-pōo siunn piànn-sè, tsáu kàu tē-tshit kong-lí, kha-āu-tóo tō ē ___.", hanji: "你若起步傷拚勢，走到第七公里，跤後肚就會___。", answer: "kiù-kin", answer_hanji: "糾筋", en: "If you start too hard, by the seventh kilometre your calf will cramp."}
 audio: []

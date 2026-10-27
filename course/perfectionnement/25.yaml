@@ -25,7 +25,7 @@ dialogue:
   - {n: 19, speaker: Anchor, hanji: "上尾一條，較輕鬆的新聞。臺南一隻鸚哥失蹤三工，昨昏家己飛轉去主人兜。", tailo: "Siōng-bué tsi̍t tiâu, khah khin-sang ê sin-bûn. Tâi-lâm tsi̍t tsiah ing-ko sit-tsong sann kang, tsa-hng ka-kī pue--tńg-khì tsú-lâng tau.", en: "Our last story is a lighter one. A parrot that went missing in Tainan for three days flew home to its owner by itself yesterday."}
   - {n: 20, speaker: Reporter, hanji: "主人講，這隻鸚哥真聰明，會曉講幾若句台語。", tailo: "Tsú-lâng kóng, tsit tsiah ing-ko tsin tshong-bîng, ē-hiáu kóng kuí-nā kù Tâi-gí.", en: "The owner says the parrot is very clever and can say several things in Taigi."}
   - {n: 21, speaker: Owner, hanji: "伊徛佇窗仔門，頭一句就講：「食飽未？」閣講：「緊開門，腹肚枵！」", tailo: "I khiā tī thang-á-mn̂g, thâu tsi̍t kù tō kóng: “Tsia̍h-pá--buē?” Koh kóng: “Kín khui mn̂g, pak-tóo-iau!”", en: "It was standing at the window, and the first thing it said was 'Have you eaten?' Then: 'Open up quick, I'm starving!'"}
-  - {n: 22, speaker: Reporter, hanji: "這个事件引起規條街的人來看鬧熱。厝邊講，這隻鸚哥的台語，比in孫仔閣較輾轉。", tailo: "Tsit ê sū-kiānn ín-khí kui tiâu ke ê lâng lâi khuànn lāu-jia̍t. Tshù-pinn kóng, tsit tsiah ing-ko ê Tâi-gí, pí in sun-á koh-khah liàn-tńg.", en: "The story brought the whole street out to watch. A neighbour said the parrot's Taigi was more fluent than his grandson's."}
+  - {n: 22, speaker: Reporter, hanji: "這个事件引起規條街的人來看鬧熱。厝邊講，這隻鸚哥的台語，比𪜶孫仔閣較輾轉。", tailo: "Tsit ê sū-kiānn ín-khí kui tiâu ke ê lâng lâi khuànn lāu-jia̍t. Tshù-pinn kóng, tsit tsiah ing-ko ê Tâi-gí, pí in sun-á koh-khah liàn-tńg.", en: "The story brought the whole street out to watch. A neighbour said the parrot's Taigi was more fluent than his grandson's."}
   - {n: 23, speaker: Anchor, hanji: "好，今仔日的新聞報導到遮結束。", tailo: "Hó, kin-á-ji̍t ê sin-bûn pò-tō kàu tsia kiat-sok.", en: "And that's the end of tonight's news."}
   - {n: 24, speaker: Anchor, hanji: "明仔載的氣象：天氣較冷，中部海岸透早猶會罩霧，請逐家出門加穿一領衫。感謝收看。", tailo: "Bîn-á-tsài ê khì-siōng: thinn-khì khah líng, Tiong-pōo hái-huānn thàu-tsá iáu ē tà-bū, tshiánn ta̍k-ke tshut-mn̂g ke tshīng tsi̍t niá sann. Kám-siā siu-khuànn.", en: "Tomorrow's weather: colder, with fog again early on the central coast, so wrap up warm when you go out. Thank you for watching."}
 notes:
@@ -112,10 +112,13 @@ exercises:
     - {tailo: "Sé-sin-khu mài sé siunn kú.", hanji: "洗身軀莫洗傷久。", en: "Don't spend too long in the shower."}
     - {tailo: "Ko-lê-tshài ê kè-tsînn tsing-ka tsì-tsió tsi̍t puē.", hanji: "高麗菜的價錢增加至少一倍。", en: "The price of cabbage has at least doubled."}
     - {tailo: "Tsit tsiah ing-ko tsin tshong-bîng.", hanji: "這隻鸚哥真聰明。", en: "This parrot is very clever."}
+    - {tailo: "Tsuí-khòo ê tsuí jú lâi jú tsió, tsū-lâi-tsuí kong-si tshiánn ta̍k-ke tsiat-síng iōng tsuí, sé-sin-khu mài sé siunn kú.", hanji: "水庫的水愈來愈少，自來水公司請逐家節省用水，洗身軀莫洗傷久。", en: "The reservoirs are getting lower and lower; the water company asks everyone to save water and not to shower too long."}
+    - {tailo: "Thàu-tsá tà-bū, kong-lōo ê tshia lòng tsò-hué, thih-ki-lōo ê hué-tshia mā iân-tî tsi̍t tiám-guā-tsing.", hanji: "透早罩霧，公路的車挵做伙，鐵枝路的火車嘛延遲一點外鐘。", en: "It was foggy first thing: cars crashed on the road, and the trains were over an hour late too."}
   fill:
     - {tailo: "Tsuí-khòo ê tsîng-hîng nā bô ___, tō ài hān-tsè iōng tsuí.", hanji: "水庫的情形若無___，就愛限制用水。", answer: "kái-siān", answer_hanji: "改善", en: "If the situation at the reservoirs doesn't improve, water use will have to be restricted."}
     - {tailo: "Tshiú-ki-á ài kau hōo lāu-su ___.", hanji: "手機仔愛交予老師___。", answer: "pó-kuán", answer_hanji: "保管", en: "Phones have to be handed to the teachers to look after."}
     - {tailo: "Tsìng-hú khak-tīng ē lé-pài-it ___ thong-tshia.", hanji: "政府確定下禮拜一___通車。", answer: "tsìng-sik", answer_hanji: "正式", en: "The government has confirmed that it will officially open next Monday."}
     - {tailo: "Tsit tsiah ing-ko ___ sann kang.", hanji: "這隻鸚哥___三工。", answer: "sit-tsong", answer_hanji: "失蹤", en: "This parrot was missing for three days."}
     - {tailo: "Kin-á-ji̍t ê sin-bûn pò-tō kàu tsia ___.", hanji: "今仔日的新聞報導到遮___。", answer: "kiat-sok", answer_hanji: "結束", en: "That's the end of tonight's news."}
+    - {tailo: "Tsit tsiah ing-ko ___ sann kang, tsa-hng ka-kī pue--tńg-khì tsú-lâng tau, koh kóng pak-tóo-iau.", hanji: "這隻鸚哥___三工，昨昏家己飛轉去主人兜，閣講腹肚枵。", answer: "sit-tsong", answer_hanji: "失蹤", en: "This parrot went missing for three days, flew home to its owner by itself yesterday, and said it was starving."}
 audio: []

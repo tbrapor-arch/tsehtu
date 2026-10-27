@@ -109,10 +109,13 @@ exercises:
     - {tailo: "Kiau-ngōo ê lâng, tsá-bān ē su.", hanji: "驕傲的人，早慢會輸。", en: "The arrogant lose, sooner or later."}
     - {tailo: "Oo-a thiann kah tsiok tik-ì.", hanji: "烏鴉聽甲足得意。", en: "The crow was thrilled to hear it."}
     - {tailo: "M̄-thang thí-tshiò--lâng.", hanji: "毋通恥笑人。", en: "Don't make fun of people."}
+    - {tailo: "Hit tsiah hôo-lî tsin kan-khiáu, i iōng tinn-giân-bi̍t-gí kā oo-a o-ló, oo-a tsi̍t khui tshuì, bah tō lo̍h-thôo--ah.", hanji: "彼隻狐狸真奸巧，伊用甜言蜜語共烏鴉呵咾，烏鴉一開喙，肉就落塗矣。", en: "That fox was very sly: he sweet-talked the crow, and the moment the crow opened her beak, the meat fell to the ground."}
+    - {tailo: "Thòo-á tsáu kah tsiok kín, m̄-koh i siunn tik-ì, tsáu kàu puànn-lōo tō khì khùn-tàu, tsá-bān ē su.", hanji: "兔仔走甲足緊，毋過伊傷得意，走到半路就去睏晝，早慢會輸。", en: "The hare ran very fast, but he was too pleased with himself: he took a nap halfway, and was bound to lose sooner or later."}
   fill:
     - {tailo: "Ku tsit ê lâng tsin ___.", hanji: "龜這个人真___。", answer: "tiām", answer_hanji: "恬", en: "The tortoise was a quiet sort."}
     - {tailo: "Hôo-lî tsò ___.", hanji: "狐狸做___。", answer: "kong-tshin", answer_hanji: "公親", en: "The fox was the referee."}
     - {tailo: "Tsáu-pio sī khuànn ū ___--bô.", hanji: "走標是看有___無。", answer: "kian-tshî", answer_hanji: "堅持", en: "A race is about whether you keep going."}
     - {tailo: "Tshuì tsi̍t khui, bah tō ___--ah.", hanji: "喙一開，肉就___矣。", answer: "lo̍h-thôo", answer_hanji: "落塗", en: "The moment her beak opened, the meat fell to the ground."}
     - {tailo: "Oo-a tsit-tsūn tsiah ___.", hanji: "烏鴉這陣才___。", answer: "bîng-pi̍k", answer_hanji: "明白", en: "Only then did the crow understand."}
+    - {tailo: "Ku tsin tiām, mā bô thí-tshiò--lâng, i tsi̍t pōo tsi̍t pōo pê, ___ pê kàu suann-tíng.", hanji: "龜真恬，嘛無恥笑人，伊一步一步爬，___爬到山頂。", answer: "kian-tshî", answer_hanji: "堅持", en: "The tortoise was quiet and never mocked anyone: step by step he kept crawling, all the way to the top."}
 audio: []

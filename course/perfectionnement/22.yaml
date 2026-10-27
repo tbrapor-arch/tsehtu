@@ -111,10 +111,13 @@ exercises:
     - {tailo: "Khì lâng tau ài ū lé-māu, mài lo-so.", hanji: "去人兜愛有禮貌，莫囉嗦。", en: "In someone's home, be polite and don't go on and on."}
     - {tailo: "Thán-pi̍k ê siàu-liân-lâng, guá siōng kah-ì.", hanji: "坦白的少年人，我上佮意。", en: "An honest young man: that's what I like best."}
     - {tailo: "Guá bīn-phuê po̍h, thiann kah bīn âng-âng.", hanji: "我面皮薄，聽甲面紅紅。", en: "I'm easily embarrassed, and I went red hearing it."}
+    - {tailo: "Guá tuì-bīn ê tông-sū tsiok tshong-bîng, m̄-koh i kóng-uē siunn lo-so, siōng bô lâng ài kah i khì iok-huē.", hanji: "我對面的同事足聰明，毋過伊講話傷囉嗦，上無人愛佮伊去約會。", en: "The colleague opposite me is very clever, but he talks far too much, and nobody ever wants to go on a date with him."}
+    - {tailo: "Nā ū gōo-huē, tō ài kā lâng kái-sik tshing-tshó, m̄-thang kik tsi̍t ê tshàu-bīn, mā m̄-thang khà tiān-uē lóng bô tsiap.", hanji: "若有誤會，就愛共人解釋清楚，毋通激一个臭面，嘛毋通敲電話攏無接。", en: "If there's a misunderstanding, explain it clearly: don't pull a sour face, and don't ignore their calls."}
   fill:
     - {tailo: "In lāu-pē lâng tsin ___.", hanji: "𪜶老爸人真___。", answer: "giâm-siok", answer_hanji: "嚴肅", en: "Her father is a very stern man."}
     - {tailo: "___ Siok-tsing ê tông-sū tī tuì-bīn khuànn--tio̍h.", hanji: "___淑貞的同事佇對面看著。", answer: "Phian-phian", answer_hanji: "偏偏", en: "As luck would have it, a colleague of Siok-tsing's saw us from across the street."}
     - {tailo: "I kik tsi̍t ê ___ hōo guá khuànn.", hanji: "伊激一个___予我看。", answer: "tshàu-bīn", answer_hanji: "臭面", en: "She gave me a sour face."}
     - {tailo: "Siok-tsing kā guá nih-ba̍k, ___ guá ài kóng si̍t-uē.", hanji: "淑貞共我𥍉目，___我愛講實話。", answer: "àm-sī", answer_hanji: "暗示", en: "Siok-tsing winked, hinting that I should tell the truth."}
     - {tailo: "Tshin-sū m̄-bián siunn ___.", hanji: "親事毋免傷___。", answer: "kuánn", answer_hanji: "趕", en: "There's no need to rush into marriage."}
+    - {tailo: "Tsit kiānn tāi-tsì guá siūnn kui-mê, siūnn kah ___, thàu-tsá khí--lâi tsit-má iáu tsin sim-būn.", hanji: "這件代誌我想規暝，想甲___，透早起來這馬猶真心悶。", answer: "sit-bîn", answer_hanji: "失眠", en: "I thought about it all night until I couldn't sleep, and since getting up this morning I still feel low."}
 audio: []

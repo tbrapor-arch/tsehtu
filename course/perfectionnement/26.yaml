@@ -102,10 +102,13 @@ exercises:
     - {tailo: "Înn-á phû--khí-lâi, tō ē-sái hôo--khí-lâi.", hanji: "圓仔浮起來，就會使撈起來。", en: "When the rice balls float up, you can scoop them out."}
     - {tailo: "Înn-á tsú hó, ài sing phâng khì pài kong-má.", hanji: "圓仔煮好，愛先捀去拜公媽。", en: "Once the rice balls are cooked, first take some to the ancestors' altar."}
     - {tailo: "Ka-kī so--ê siōng hó-tsia̍h.", hanji: "家己挲的上好食。", en: "The ones you roll yourself taste best."}
+    - {tailo: "Kóo-tsá-lâng ka-kī buâ bí, iōng tsio̍h-thâu teh kué-tshè, tsiah ē-tàng so înn-á, tsin sin-khóo.", hanji: "古早人家己磨米，用石頭硩粿粞，才會當挲圓仔，真辛苦。", en: "In the old days people ground their own rice and pressed the dough under stones before they could roll rice balls: hard work."}
+    - {tailo: "Âng--ê kah pe̍h--ê lóng so hó--ah, tiánn lāi ê tsuí kún--ah, tsiah kā înn-á khǹg--lo̍h-khì tsú.", hanji: "紅的佮白的攏挲好矣，鼎內的水滾矣，才共圓仔囥落去煮。", en: "Once the red and white ones are all rolled and the water in the wok is boiling, put the rice balls in to cook."}
   fill:
     - {tailo: "Tsu̍t-bí-hún khǹg tī uánn-kong lāi, iōng tshiú ___.", hanji: "秫米粉囥佇碗公內，用手___。", answer: "juê", answer_hanji: "挼", en: "Put the flour in a big bowl and knead it with your hands."}
     - {tailo: "___ tsi̍t-sut-á sik-sòo, juê tsò âng-sik--ê.", hanji: "___一屑仔色素，挼做紅色的。", answer: "Lām", answer_hanji: "濫", en: "Work in a little colouring to make it red."}
     - {tailo: "Tsú siunn kú, înn-á ē ___--khì.", hanji: "煮傷久，圓仔會___去。", answer: "nuā", answer_hanji: "爛", en: "Cook them too long and they fall apart."}
     - {tailo: "Pe̍h ê înn-á tāi-piáu pîng-an, înn-înn tāi-piáu ___.", hanji: "白的圓仔代表平安，圓圓代表___。", answer: "thuân-înn", answer_hanji: "團圓", en: "The white rice balls stand for peace, and roundness for the family being together."}
     - {tailo: "Tō khì tshī-tiûnn bé ___--ê.", hanji: "就去市場買___的。", answer: "hiān-sîng", answer_hanji: "現成", en: "Buy ready-made ones at the market."}
+    - {tailo: "Tsu̍t-bí-hún khǹg tī uánn-kong lāi, líng-tsuí ta̍uh-ta̍uh-á ka, ___ kah bē liâm tshiú.", hanji: "秫米粉囥佇碗公內，冷水沓沓仔加，___甲袂黏手。", answer: "juê", answer_hanji: "挼", en: "Put the flour in the big bowl, add cold water little by little, and knead until it no longer sticks to your hands."}
 audio: []

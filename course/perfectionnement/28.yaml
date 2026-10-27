@@ -53,10 +53,13 @@ exercises:
     - {tailo: "Kiau-ngōo ê lâng tsá-bān ē su.", hanji: "驕傲的人早慢會輸。", en: "The arrogant lose sooner or later."}
     - {tailo: "Înn-á phû--khí-lâi--ah, kín hôo--khí-lâi.", hanji: "圓仔浮起來矣，緊撈起來。", en: "The rice balls are floating, scoop them out quick."}
     - {tailo: "Lí tse sī àm-sī, ia̍h-sī kiû-hun?", hanji: "你這是暗示，抑是求婚？", en: "Is that a hint, or a proposal?"}
+    - {tailo: "A-ióng kiû-hun ê sî tsin kín-tiunn, m̄-koh i thán-pi̍k kóng--tshut-lâi, Siok-tsing tō tshiò--tshut-lâi, kóng hó.", hanji: "阿勇求婚的時真緊張，毋過伊坦白講出來，淑貞就笑出來，講好。", en: "A-ióng was very nervous when he proposed, but he said it straight out, and Siok-tsing laughed and said yes."}
+    - {tailo: "Kin-nî tang-tseh, ta̍k-ke tī Sam hia so înn-á, khuànn sin-bûn, kóng tsáu-pio, siōng-bué koh tsia̍h tsi̍t uánn tinn-thng.", hanji: "今年冬節，逐家佇 Sam 遐挲圓仔、看新聞、講走標，上尾閣食一碗甜湯。", en: "This solstice everyone rolled rice balls at Sam's, watched the news and talked about running, and finished with a bowl of sweet soup."}
   fill:
     - {tailo: "Siunn ta tō ka tsuí, siunn ___ tō ka hún.", hanji: "傷焦就加水，傷___就加粉。", answer: "tâm", answer_hanji: "澹", en: "Too dry, add water; too wet, add flour."}
     - {tailo: "Hit kang lí khan piáu-sió-muē se̍h-ke, hāi guá ___.", hanji: "彼工你牽表小妹踅街，害我___。", answer: "tsia̍h-tshòo", answer_hanji: "食醋", en: "That day you walked your cousin round the shops and made me jealous."}
     - {tailo: "Tiong-pōo hái-huānn koh ___--ah.", hanji: "中部海岸閣___矣。", answer: "tà-bū", answer_hanji: "罩霧", en: "The central coast is foggy again."}
     - {tailo: "Guá ___ A-kia̍t ê kiat-lūn.", hanji: "我___阿傑的結論。", answer: "jīn-tông", answer_hanji: "認同", en: "I agree with A-kia̍t's conclusion."}
     - {tailo: "Tsit uánn înn-á, sī guá ___ uī lí so--ê.", hanji: "這碗圓仔，是我___為你挲的。", answer: "thiau-kang", answer_hanji: "刁工", en: "I rolled this bowl of rice balls specially for you."}
+    - {tailo: "Siok-tsing kóng: \"Hó--lah, m̄-koh lí ka-kī ài khì kā guán ___ kóng.\"", hanji: "淑貞講：「好啦，毋過你家己愛去共阮___講。」", answer: "lāu-pē", answer_hanji: "老爸", en: "Siok-tsing said: 'All right, but you'll have to tell my father yourself.'"}
 audio: []

@@ -110,10 +110,13 @@ exercises:
     - {tailo: "Tuà siânn-tshī, sīm-tsì keh-piah tuà siánn-lâng to m̄ tsai.", hanji: "蹛城市，甚至隔壁蹛啥人都毋知。", en: "In town you may not even know who lives next door."}
     - {tailo: "Tsháu-tē siōng sik-ha̍p siá-tsok.", hanji: "草地上適合寫作。", en: "The country is the best place to write."}
     - {tailo: "Tshiánn nn̄g pîng tsò kiat-lūn.", hanji: "請兩爿做結論。", en: "Both sides, please sum up."}
+    - {tailo: "Tsháu-tē ê khong-khì hó, tshiū-ba̍k tsē, m̄-koh beh tsò-sing-lí ia̍h-sī o̍h gē-su̍t, siânn-tshī ê ki-huē khah tsē.", hanji: "草地的空氣好，樹木濟，毋過欲做生理抑是學藝術，城市的機會較濟。", en: "The country has clean air and lots of trees, but if you want to go into business or study art, there are more opportunities in town."}
+    - {tailo: "Kì-jiân lí kóng siânn-tshī tshá-nāu, tshù-suè koh kuì, lí ná ē iáu tuà tī Tâi-pak?", hanji: "既然你講城市吵鬧，厝稅閣貴，你哪會猶蹛佇臺北？", en: "Since you say the town is noisy and the rent is high, why do you still live in Taipei?"}
   fill:
     - {tailo: "Hūi-hūi ___ siânn-tshī khah hó.", hanji: "惠惠___城市較好。", answer: "tsú-tiunn", answer_hanji: "主張", en: "Hūi-hūi argues that the town is better."}
     - {tailo: "___ koh kuì kah kiann-sí-lâng.", hanji: "___閣貴甲驚死人。", answer: "Tshù-suè", answer_hanji: "厝稅", en: "And the rent is frighteningly expensive."}
     - {tailo: "A-kia̍t kóng--ê sī sū-si̍t, ___ i kan-na kóng tsi̍t pîng.", hanji: "阿傑講的是事實，___伊干焦講一爿。", answer: "tsí-sī", answer_hanji: "只是", en: "What A-kia̍t says is true, it's just that he only tells one side."}
     - {tailo: "Tsit-má bāng-lōo tsin ___.", hanji: "這馬網路真___。", answer: "phóo-phiàn", answer_hanji: "普遍", en: "These days the internet is everywhere."}
     - {tailo: "___ guá beh tsò tsok-ka, guá tō ài khì siânn-tshī.", hanji: "___我欲做作家，我就愛去城市。", answer: "Kì-jiân", answer_hanji: "既然", en: "Since I want to be a writer, I need to go to the town."}
+    - {tailo: "Tsit-má bāng-lōo tsin ___, tī tsháu-tē mā ē-tàng tsia̍h-thâu-lōo, tsi̍t-bīn tsìng tshài, tsi̍t-bīn tsò khang-khuè.", hanji: "這馬網路真___，佇草地嘛會當食頭路，一面種菜，一面做工課。", answer: "phóo-phiàn", answer_hanji: "普遍", en: "These days the internet is everywhere: you can hold a job in the country, growing vegetables and working at the same time."}
 audio: []
