@@ -6,7 +6,7 @@ and **1 new "Fill the gap"** (`exercises.fill`), appended after the existing one
 **not taken from the lesson**: the older exercises often copied dialogue lines. Dialogues, notes and word lists were
 not touched (the owner has read lessons 1–21 and likes them as they are).
 
-Commits: `5bbd64a` (lessons 1–100), then the 進修 commit. Not checked by a native speaker.
+Commits: `5bbd64a` (lessons 1–100) and the next one (進修 P1–P21, tool, this file). Not checked by a native speaker.
 
 ## Owner's rule for the next batches: sentences as long as the lesson's own
 New sentences must **read like the lesson's sentences, including their length**: aim at the median length of the
