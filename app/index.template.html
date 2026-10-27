@@ -327,6 +327,9 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .wc-ex .h { font-family: var(--f-han); } .wc-ex .t { font-weight: 600; } .wc-ex .m { font-family: var(--f-han); color: var(--sub); }
 .wc-src { font-size: .75rem; color: var(--sub); }
 .parts { display: flex; gap: .4rem; flex-wrap: wrap; }
+.lname { display: flex; align-items: center; gap: .6rem; }
+.lname .icon.sq { flex: none; border: 1.5px solid var(--soft-line); border-radius: 8px; width: 2.2rem; height: 2.2rem; background: none; color: var(--brand); font-size: 1rem; }
+.lren { font: inherit; font-family: var(--f-han); font-size: 1.6rem; font-weight: 700; width: 100%; padding: .25rem .5rem; border: 1.5px solid var(--brand); border-radius: 8px; background: var(--surface); color: var(--text); }
 .xback { border: 0; background: none; color: inherit; font: inherit; font-size: 1.1rem; padding: 0 .4rem 0 0; cursor: pointer; }
 .lbar .icon.sq { position: relative; border: 1.5px solid var(--soft-line); border-radius: 8px; width: 2.2rem; height: 2.2rem; display: inline-grid; place-items: center; color: var(--brand); }
 .lbar .icon.sq .dot { position: absolute; top: -.45rem; right: -.45rem; min-width: 1.1rem; height: 1.1rem; padding: 0 .2rem; border-radius: 999px; background: var(--brand); color: var(--brand-ink, #fff); font: 700 .65rem/1.1rem var(--f-ui); }
@@ -543,7 +546,12 @@ let lists = store.get('lists', {});
 const listIds = k => Object.entries((lists[k] || {}).w || {}).filter(([, t]) => t > 0).sort((a, b) => b[1] - a[1]).map(([id]) => id);
 const inList = (k, id) => (((lists[k] || {}).w || {})[id] || 0) > 0;
 const LIST_TITLES = {};   // titles only the private module knows (its books)
+// a name the learner gave the list (Practice › My lists › ✎) wins over the source's own
 function listTitle(k) {
+  if (lists[k] && lists[k].nm) return lists[k].nm;
+  return listBase(k);
+}
+function listBase(k) {
   const [kind, id] = k.split(':');
   if (k === 'lessons') return 'Lessons';
   if (k === 'exam') return 'Exam';
@@ -569,7 +577,7 @@ function listHere() {
 }
 function listSet(k, ids, on) {
   const L = lists[k] = lists[k] || { w: {} };
-  L.t = listTitle(k);
+  L.t = listBase(k);
   let n = 0;
   ids.filter(id => id && DATA.dict[id]).forEach(id => { if (inList(k, id) !== on) { L.w[id] = on ? Date.now() : -Date.now(); n++; } });
   store.set('lists', lists);
@@ -580,6 +588,7 @@ function mergeLists(o) {
   Object.entries(o || {}).forEach(([k, L]) => {
     const M = lists[k] = lists[k] || { w: {} };
     if (L.t && !M.t) M.t = L.t;
+    if ((L.nmAt || 0) > (M.nmAt || 0)) { M.nmAt = L.nmAt; if (L.nm) M.nm = L.nm; else delete M.nm; }
     Object.entries(L.w || {}).forEach(([id, t]) => { if (Math.abs(t) > Math.abs(M.w[id] || 0)) M.w[id] = t; });
   });
 }
@@ -1488,7 +1497,8 @@ function showList(k) {
   const m = $('#main');
   m.innerHTML = `<div class="col">
     <div class="head"><span class="eyebrow"><button class="xback" data-go="lists" aria-label="Back to my lists">‹</button> My lists${kind ? ' · ' + kind : ''}</span>
-      <h1>${esc(listTitle(k))}</h1><span class="rom">${ids.length} word${ids.length === 1 ? '' : 's'}</span></div>
+      <div class="lname"><h1>${esc(listTitle(k))}</h1><button class="icon sq" id="lren" aria-label="Rename this list" title="Rename">✎</button></div>
+      <span class="rom">${ids.length} word${ids.length === 1 ? '' : 's'}${lists[k] && lists[k].nm ? ` · ${esc(listBase(k))}` : ''}</span></div>
     ${ids.length ? `<div class="row"><button class="btn" id="lfc">Flashcards →</button><button class="btn small quiet" id="lanki">Copy for Anki</button></div>
     <div class="vwrap"><table class="vtable"><tbody>${ids.map(id => { const c = DATA.dict[id];
       return `<tr class="${cog(id)[2]}" data-word="${esc(id)}" tabindex="0"><td class="vh">${esc(c.hanji)}</td><td class="vr">${esc(c.tailo || c.tkey)}</td><td class="ve">${esc(c.gloss || '')}</td>
@@ -1498,6 +1508,24 @@ function showList(k) {
   wireGo(m);
   $$('[data-word]', m).forEach(r => { r.onclick = e => { if (!e.target.closest('[data-rm]')) openCard(r.dataset.word); }; r.onkeydown = e => { if (e.key === 'Enter') openCard(r.dataset.word); }; });
   $$('[data-rm]', m).forEach(b => b.onclick = () => { listSet(k, [b.dataset.rm], false); toast('Removed'); showList(k); });
+  // rename: the title becomes a text field; Enter or leaving it saves, Escape cancels, an empty name restores the source's
+  $('#lren', m).onclick = () => {
+    const box = $('.lname', m);
+    box.innerHTML = `<input class="lren" maxlength="60" value="${esc(listTitle(k))}" aria-label="List name" placeholder="${esc(listBase(k))}">`;
+    const inp = $('input', box); inp.focus(); inp.select();
+    let done = false;
+    const save = keep => {
+      if (done) return; done = true;
+      if (keep) {
+        const v = inp.value.trim(), L = lists[k] = lists[k] || { w: {} };
+        if (v && v !== listBase(k)) L.nm = v; else delete L.nm;
+        L.nmAt = Date.now(); store.set('lists', lists); toast(v && v !== listBase(k) ? 'List renamed' : 'Original name restored');
+      }
+      showList(k);
+    };
+    inp.onkeydown = e => { if (e.key === 'Enter') save(true); else if (e.key === 'Escape') save(false); };
+    inp.onblur = () => save(true);
+  };
   const fc = $('#lfc', m); if (fc) fc.onclick = () => { startSession('V:' + k, 'all'); if (sess) { sess.back = 'list-' + encodeURIComponent(k); if (location.hash !== '#review') location.hash = 'review'; } };
   const ak = $('#lanki', m); if (ak) ak.onclick = () => copyText(ids.map(id => { const c = DATA.dict[id]; return [c.hanji, c.tailo || '', c.gloss || '', (c.mandarin || []).slice(0, 2).join('、'), listTitle(k)].join('\t'); }).join('\n'), ak, 'Copied · in Anki: File › Import, fields separated by Tab');
 }
