@@ -4,7 +4,7 @@ Migrated from a long Claude Project conversation. In that conversation lessons w
 course files as a model for pacing and structure only (kept in the git-ignored `reference/`).
 
 ## Status
-- **Lessons 22–49 lengthened** on 27 Oct 2026 (smoother length curve, 122 never-taught words): see `course/pacing.md`.
+- **Lessons 22–49 lengthened** on 27 Oct 2026 (smoother length curve, 122 never-taught words): handover in `docs/lessons-22-49-lengthening.md`, curve in `course/pacing.md`.
 - **Lessons:** all 100 written (`course/lessons/`), following `course/syllabus.yaml`. Lesson 0 is
   `000-reading-tailo.md`. Review lessons: 7, 14, …, 98.
 - **Part 2, 進修 Perfectionnement** (in progress): 70 longer lessons in varied genres, P1–P14 published. Spec, method and handover: `docs/perfectionnement-plan.md`.

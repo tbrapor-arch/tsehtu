@@ -72,6 +72,12 @@ Ministry of Education on 7 Nov 2006 (the note first said October; corrected).
 
 P1 was written the other way, theme first; its words were checked afterwards. From P2 on, use the order above.
 
+## Lessons 22–49 were lengthened (27 Oct 2026)
+122 frequent words that no lesson had used are now taught in lessons 22–49 (`docs/lessons-22-49-lengthening.md`
+lists them). Don't declare them again in 進修 lessons; refer to them as "(lesson N)". Always take candidate words
+from a fresh `python3 -I tools/untaught.py`, check each with `tools/wordcheck.py`, and run
+`tools/taught_later.py 115 121` (進修 15–21) before publishing.
+
 ## Checks per batch
 - `python3 -I tools/lint.py course/perfectionnement/NN.yaml` (0 errors) and `make test`.
 - No duplicate `new_words`: every Hàn-jī must be absent from earlier `new_words`, base course included.
