@@ -55,7 +55,10 @@ exercises:
     - {tailo: "Kok-uī phîng-sím, kok-uī sian-sinn sió-tsiá, ta̍k-ke hó.", hanji: "各位評審、各位先生小姐，逐家好。", en: "Members of the jury, ladies and gentlemen, good evening."}
     - {tailo: "Gí-giân m̄-nā sī jī kah siann-tiāu, koh sī lâng kah lâng tsi-kan ê kám-tsîng.", hanji: "語言毋但是字佮聲調，閣是人佮人之間的感情。", en: "A language isn't just words and tones; it's the feeling between people."}
     - {tailo: "Tsiok-hok ta̍k-ke sin-thé kiān-khong.", hanji: "祝福逐家身體健康。", en: "I wish you all good health."}
+    - {tailo: "Tsiūnn-tâi tsìn-tsîng, guá sing liān kuí pái.", hanji: "上台進前，我先練幾擺。", en: "Before going on stage I'll practise a few times."}
+    - {tailo: "Guá kín-tiunn kah tshiú it-ti̍t tsùn.", hanji: "我緊張甲手一直顫。", en: "I'm so nervous my hands keep trembling."}
   fill:
     - {tailo: "Lâi kah ta̍k-ke ___ guá o̍h Tâi-gí ê king-giām.", hanji: "來佮逐家___我學台語的經驗。", answer: "hun-hióng", answer_hanji: "分享", en: "To share with you my experience of learning Taigi."}
     - {tailo: "In kā guá ___ ka-kī ê sun.", hanji: "𪜶共我___家己的孫。", answer: "tòng-tsò", answer_hanji: "當做", en: "They treated me as their own grandson."}
+    - {tailo: "Guá ___ lín sin-thé kiān-khong.", hanji: "我___恁身體健康。", answer: "tsiok-hok", answer_hanji: "祝福", en: "I wish you all good health."}
 audio: []

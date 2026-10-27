@@ -112,6 +112,12 @@ exercises:
   - tailo: Lán tī tsia lo̍h-tshia.
     hanji: 咱佇遮落車。
     en: We get off here.
+  - tailo: "Lí tī tó-uī lo̍h-tshia?"
+    hanji: "你佇佗位落車？"
+    en: "Where do you get off?"
+  - tailo: "Guán sió-muē beh khà tiān-uē hōo guá."
+    hanji: "阮小妹欲敲電話予我。"
+    en: "My younger sister is going to call me."
   fill:
   - tailo: ___ tsia tshut--khì.
     hanji: ___遮出去。
@@ -123,4 +129,9 @@ exercises:
     answer: tsài
     answer_hanji: 載
     en: She's coming to pick us up.
+  - tailo: "Tshia-thâu ___ guán tau bô hn̄g."
+    hanji: "車頭___阮兜無遠。"
+    answer: "lī"
+    answer_hanji: "離"
+    en: "The station isn't far from my home."
 audio: []

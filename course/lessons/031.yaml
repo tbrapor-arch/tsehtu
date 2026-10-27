@@ -46,8 +46,11 @@ exercises:
   translate:
     - {tailo: "I kuí huè--ah?", hanji: "伊幾歲矣？", en: "How old is she?"}
     - {tailo: "Sing huat-guān, tsiah pûn la̍h-tsik.", hanji: "先發願，才歕蠟燭。", en: "Make a wish first, then blow out the candles."}
+    - {tailo: "Bîn-á-tsài sī guán a-bú ê senn-ji̍t.", hanji: "明仔載是阮阿母的生日。", en: "Tomorrow is my mum's birthday."}
+    - {tailo: "Guá beh sàng i tsi̍t ê ke-nn̄g-ko.", hanji: "我欲送伊一个雞卵糕。", en: "I'm going to give her a cake."}
   fill:
     - {tailo: "Tse sī guá ___ lí ê lé-bu̍t.", hanji: "這是我___你的禮物。", answer: "sàng", answer_hanji: "送", en: "Here's a present for you."}
     - {tailo: "Kah a-bú ___.", hanji: "佮阿母___。", answer: "kāng-khuán", answer_hanji: "仝款", en: "The same as Mum."}
     - {tailo: "Lí khuànn i hiah ___.", hanji: "你看伊遐___。", answer: "khuìnn-ua̍h", answer_hanji: "快活", en: "Look how happy she is."}
+    - {tailo: "Lí ê ___ sī siánn-mih?", hanji: "你的___是啥物？", answer: "sim-guān", answer_hanji: "心願", en: "What is your wish?"}
 audio: []

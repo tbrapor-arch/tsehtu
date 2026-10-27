@@ -48,8 +48,11 @@ exercises:
   translate:
     - {tailo: "An-tsuân-bō ài tì hó.", hanji: "安全帽愛戴好。", en: "Put your helmet on properly."}
     - {tailo: "Tshia-lōo lâng tsē, ài sè-jī.", hanji: "車路人濟，愛細膩。", en: "The roads are busy, be careful."}
+    - {tailo: "Khiâ ki-tshia ài tì an-tsuân-bō.", hanji: "騎機車愛戴安全帽。", en: "You have to wear a helmet on a scooter."}
+    - {tailo: "Siat-sú lo̍h-hōo, lán tō mài tshut-mn̂g.", hanji: "設使落雨，咱就莫出門。", en: "If it rains, we won't go out."}
   fill:
     - {tailo: "Lí ài ___ kui-kí khiâ.", hanji: "你愛___規矩騎。", answer: "tsiàu", answer_hanji: "照", en: "Ride by the rules."}
     - {tailo: "Kíng-tshat ē ___.", hanji: "警察會___。", answer: "lia̍h", answer_hanji: "掠", en: "The police will catch you."}
     - {tailo: "Kuè lōo-thâu ê sî ài ___ khiâ.", hanji: "過路頭的時愛___騎。", answer: "ûn-ûn-á", answer_hanji: "勻勻仔", en: "At crossroads take it slowly."}
+    - {tailo: "I khiâ siunn kín, hōo kíng-tshat ___--khì.", hanji: "伊騎傷緊，予警察___去。", answer: "lia̍h", answer_hanji: "掠", en: "He rode too fast and got caught by the police."}
 audio: []

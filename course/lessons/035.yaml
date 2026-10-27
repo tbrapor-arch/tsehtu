@@ -30,8 +30,11 @@ exercises:
     - {tailo: "Lín tau ū im-tsuí--bô?", hanji: "恁兜有淹水無？", en: "Did your place flood?"}
     - {tailo: "In tsin hó-sim, kah lí kóng--ê kāng-khuán.", hanji: "𪜶真好心，佮你講的仝款。", en: "They're really kind, just as you said."}
     - {tailo: "Guá ê tshiú-ki-á phah-m̄-kìnn--ah.", hanji: "我的手機仔拍毋見矣。", en: "I've lost my phone."}
+    - {tailo: "Hong tshue kah tsiok kuânn.", hanji: "風吹甲足寒。", en: "The wind is blowing so hard it's freezing."}
+    - {tailo: "Lîm thài-thài ê thang-á hōo hong tshue pháinn--khì.", hanji: "林太太的窗仔予風吹歹去。", en: "The wind broke Mrs Lîm's window."}
   fill:
     - {tailo: "Guá ê hōo-suànn ___ hong tshue pháinn--khì--ah.", hanji: "我的雨傘___風吹歹去矣。", answer: "hōo", answer_hanji: "予", en: "My umbrella got broken by the wind."}
     - {tailo: "Kan-na thîng-tiān tsi̍t ___.", hanji: "干焦停電一___。", answer: "mê", answer_hanji: "暝", en: "Just a power cut for one night."}
     - {tailo: "In lâng tsin ___ koh jia̍t-sim.", hanji: "𪜶人真___閣熱心。", answer: "láu-si̍t", answer_hanji: "老實", en: "They're honest and helpful people."}
+    - {tailo: "Guá tsa-àm tsi̍t ___ lóng khùn bē khì.", hanji: "我昨暗一___攏睏袂去。", answer: "mê", answer_hanji: "暝", en: "I couldn't sleep all last night."}
 audio: []

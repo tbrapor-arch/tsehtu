@@ -111,6 +111,12 @@ exercises:
   - tailo: Guá siá liáu tō khì.
     hanji: 我寫了就去。
     en: I'll go as soon as I've finished writing.
+  - tailo: "Lí bîn-á-tsài ū-îng--bô?"
+    hanji: "你明仔載有閒無？"
+    en: "Are you free tomorrow?"
+  - tailo: "Mài tshá, a-bú teh siá phue."
+    hanji: "莫吵，阿母咧寫批。"
+    en: "Don't make noise, Mum is writing a letter."
   fill:
   - tailo: Khang-khuè iáu-buē tsò ___.
     hanji: 工課猶未做___。
@@ -122,4 +128,9 @@ exercises:
     answer: kín
     answer_hanji: 緊
     en: Hurry and write it!
+  - tailo: "Guá tī tsia ___ lí."
+    hanji: "我佇遮___你。"
+    answer: "tán"
+    answer_hanji: "等"
+    en: "I'll wait for you here."
 audio: []

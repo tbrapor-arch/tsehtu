@@ -57,7 +57,10 @@ exercises:
     - {tailo: "Hit sî-tsūn m̄ sī tsū-iû luân-ài.", hanji: "彼時陣毋是自由戀愛。", en: "In those days people didn't marry for love."}
     - {tailo: "Hit kang liáu-āu, guá sim-lāi tō ì-ài--lí--ah.", hanji: "彼工了後，我心內就意愛你矣。", en: "From that day on, I was in love with you."}
     - {tailo: "Tse tō sī iân-hūn.", hanji: "這就是緣份。", en: "That's fate."}
+    - {tailo: "Kìnn thâu-ke tsìn-tsîng, guá tsiok kín-tiunn.", hanji: "見頭家進前，我足緊張。", en: "Before meeting the boss I was really nervous."}
+    - {tailo: "Tsit pún tsheh tsiok kāu.", hanji: "這本冊足厚。", en: "This book is very thick."}
   fill:
     - {tailo: "Guá m̄ sī gōng, sī ___.", hanji: "我毋是戇，是___。", answer: "kín-tiunn", answer_hanji: "緊張", en: "I wasn't awkward, I was nervous."}
     - {tailo: "Lín nn̄g ê tsò ___ la̍k-tsa̍p tang.", hanji: "恁兩个做___六十冬。", answer: "hu-tshe", answer_hanji: "夫妻", en: "You've been married sixty years."}
+    - {tailo: "Tsit tiunn phue guá ē ___ tsi̍t-sì-lâng.", hanji: "這張批我會___一世人。", answer: "pó-sioh", answer_hanji: "寶惜", en: "I'll treasure this letter all my life."}
 audio: []

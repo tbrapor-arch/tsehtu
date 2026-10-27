@@ -117,6 +117,12 @@ exercises:
   - tailo: Guá bô tsah hōo-suànn.
     hanji: 我無紮雨傘。
     en: I didn't bring an umbrella.
+  - tailo: "Tâi-pak kin-á-ji̍t tsiânn kuânn, Tâi-lâm tsiânn jua̍h."
+    hanji: "臺北今仔日誠寒，臺南誠熱。"
+    en: "Today Taipei is cold and Tainan is hot."
+  - tailo: "Ē-poo kám ē tshut ji̍t-thâu?"
+    hanji: "下晡敢會出日頭？"
+    en: "Will the sun come out this afternoon?"
   fill:
   - tailo: Tâi-pak tsit-má khah ___.
     hanji: 臺北這馬較___。
@@ -128,4 +134,9 @@ exercises:
     answer: jua̍h
     answer_hanji: 熱
     en: It's really hot today, isn't it?
+  - tailo: "Thinn-tíng oo-oo, guá tsah ___ khì tshia-thâu."
+    hanji: "天頂烏烏，我紮___去車頭。"
+    answer: "hōo-suànn"
+    answer_hanji: "雨傘"
+    en: "The sky is dark, I'm taking an umbrella to the station."
 audio: []

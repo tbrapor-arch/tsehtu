@@ -53,7 +53,10 @@ exercises:
     - {tailo: "Bîn-á-tsài thîng-pan thîng-khò.", hanji: "明仔載停班停課。", en: "No work and no school tomorrow."}
     - {tailo: "Hong teh háu, hōo mā jú lo̍h jú tuā.", hanji: "風咧吼，雨嘛愈落愈大。", en: "The wind is howling and the rain is getting heavier."}
     - {tailo: "Kám sī tshiū-á hōo hong tshue tn̄g--khì?", hanji: "敢是樹仔予風吹斷去？", en: "Has a tree been snapped by the wind?"}
+    - {tailo: "Bîn-á-tsài pàng-ká, lí beh tshòng siánn?", hanji: "明仔載放假，你欲創啥？", en: "Tomorrow's a day off, what are you going to do?"}
+    - {tailo: "Hōo lo̍h kui mê, thinn-kng tsiah thîng.", hanji: "雨落規暝，天光才停。", en: "It rained all night and only stopped at daybreak."}
   fill:
     - {tailo: "Ū--ê sóo-tsāi í-king thîng-tiān--___.", hanji: "有的所在已經停電___。", answer: "looh", answer_hanji: "囉", en: "Some places have already lost power."}
     - {tailo: "Tsún-pī kah tsiah-nī tsê-tsuân--___!", hanji: "準備甲遮爾齊全___！", answer: "lih", answer_hanji: "哩", en: "You've got absolutely everything ready!"}
+    - {tailo: "Thinn-kng liáu-āu, guá khì guā-kháu sàu ___.", hanji: "天光了後，我去外口掃___。", answer: "pùn-sò", answer_hanji: "糞埽", en: "After daybreak I'll go out and sweep up the rubbish."}
 audio: []

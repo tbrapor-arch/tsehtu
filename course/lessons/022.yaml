@@ -144,6 +144,12 @@ exercises:
   - tailo: M̄-thang īng tshiú kí sîn-bîng.
     hanji: 毋通用手指神明。
     en: Don't point at the gods with your finger.
+  - tailo: "Guán a-má lé-pài-ji̍t lóng khì biō pài-pài."
+    hanji: "阮阿媽禮拜日攏去廟拜拜。"
+    en: "My grandma goes to the temple every Sunday."
+  - tailo: "Guá hi-bāng guán tau ê lâng lóng hó."
+    hanji: "我希望阮兜的人攏好。"
+    en: "I hope everyone in my family is well."
   fill:
   - tailo: Sing tiám hiunn, ___ tī tsia.
     hanji: 先點香，___佇遮。
@@ -160,4 +166,9 @@ exercises:
     answer: "ū-sî"
     answer_hanji: "有時"
     en: "Sometimes, when something's on my mind, I come and sit here for a while."
+  - tailo: "Guá ___ i tuà tī tó-uī."
+    hanji: "我___伊蹛佇佗位。"
+    answer: "m̄ tsai"
+    answer_hanji: "毋知"
+    en: "I don't know where he lives."
 audio: []

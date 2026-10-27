@@ -49,7 +49,10 @@ exercises:
   translate:
     - {tailo: "Phīnn--tio̍h tshàu-tshàu, tsia̍h--tio̍h phang-phang.", hanji: "鼻著臭臭，食著芳芳。", en: "It smells bad but tastes good."}
     - {tailo: "Hit tànn--ê koh-khah hó-tsia̍h.", hanji: "彼擔的閣較好食。", en: "That stall's is even better."}
+    - {tailo: "Tsit pue tê siunn tinn--ah.", hanji: "這杯茶傷甜矣。", en: "This cup of tea is too sweet."}
+    - {tailo: "Guá iau--ah, lán kín khì tsia̍h-pn̄g.", hanji: "我枵矣，咱緊去食飯。", en: "I'm hungry, let's go and eat right away."}
   fill:
     - {tailo: "Guá ___ kah pak-tóo teh kiò--ah.", hanji: "我___甲腹肚咧叫矣。", answer: "iau", answer_hanji: "枵", en: "I'm so hungry my stomach's rumbling."}
     - {tailo: "Tsit-má tsia̍h--tio̍h, ___ koh tńg-khì sè-hàn ê sî.", hanji: "這馬食著，___閣轉去細漢的時。", answer: "bē-su", answer_hanji: "袂輸", en: "Eating it now, it's as if I were a child again."}
+    - {tailo: "A-kong ___ tsi̍t pue tê khì guā-kháu khai-káng.", hanji: "阿公___一杯茶去外口開講。", answer: "gia̍h", answer_hanji: "攑", en: "Grandpa took a cup of tea outside to chat."}
 audio: []

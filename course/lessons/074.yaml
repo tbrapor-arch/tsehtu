@@ -53,7 +53,10 @@ exercises:
     - {tailo: "Guá siūnn-beh tshī tsi̍t tsiah niau-á.", hanji: "我想欲飼一隻貓仔。", en: "I'd like to get a cat."}
     - {tailo: "Káu-á khah kuai, koh ē puê lí khì sàn-pōo.", hanji: "狗仔較乖，閣會陪你去散步。", en: "Dogs are better behaved, and they'll keep you company on walks."}
     - {tailo: "I siōng ài sńg, m̄-koh ū-sî-á ē kā lâng.", hanji: "伊上愛耍，毋過有時仔會咬人。", en: "It loves playing most, but sometimes it bites."}
+    - {tailo: "Guán a-kong ta̍k-kang thàu-tsá khan káu-á khì sàn-pōo.", hanji: "阮阿公逐工透早牽狗仔去散步。", en: "Every morning my grandpa takes the dog for a walk."}
+    - {tailo: "Tsit tsiah niau-á tsiok kóo-tsui.", hanji: "這隻貓仔足古錐。", en: "This cat is so cute."}
   fill:
     - {tailo: "Tsit tsiah oo--ê, ___ tn̂g-tn̂g, tsiok kóo-tsui!", hanji: "這隻烏的，___長長，足古錐！", answer: "bué-liu", answer_hanji: "尾溜", en: "This black one, with the long tail, is so cute!"}
     - {tailo: "Keh-piah ê káu-á it-ti̍t ___.", hanji: "隔壁的狗仔一直___。", answer: "puī", answer_hanji: "吠", en: "The dog next door keeps barking."}
+    - {tailo: "Guá ê niau-á phuà-pēnn, ài tshuā khì khuànn ___.", hanji: "我的貓仔破病，愛𤆬去看___。", answer: "siù-i", answer_hanji: "獸醫", en: "My cat is ill, I have to take it to the vet."}
 audio: []

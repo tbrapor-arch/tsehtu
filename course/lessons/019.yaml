@@ -111,6 +111,12 @@ exercises:
   - tailo: Mài siunn kiâm.
     hanji: 莫傷鹹。
     en: Don't make it too salty.
+  - tailo: "Tsit uánn tshài-thâu-thng siunn kiâm--ah."
+    hanji: "這碗菜頭湯傷鹹矣。"
+    en: "This bowl of radish soup is too salty."
+  - tailo: "A-má kà guá tsú tshài-thâu-thng."
+    hanji: "阿媽教我煮菜頭湯。"
+    en: "Grandma is teaching me to make radish soup."
   fill:
   - tailo: Tsuí kún ___, tsiah kā tshài-thâu khǹg--lo̍h-khì.
     hanji: 水滾___，才共菜頭囥落去。
@@ -122,4 +128,9 @@ exercises:
     answer: Kā
     answer_hanji: 共
     en: Wash the radish clean.
+  - tailo: "Tsia̍h-pá liáu-āu, ài kā uánn sé ___."
+    hanji: "食飽了後，愛共碗洗___。"
+    answer: "tshing-khì"
+    answer_hanji: "清氣"
+    en: "After eating, you have to wash the bowls clean."
 audio: []

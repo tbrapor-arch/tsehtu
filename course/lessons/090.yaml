@@ -52,7 +52,10 @@ exercises:
     - {tailo: "Pún-té kóng tuà kuí lé-pài niā-niā, suah tuà kah m̄-kam tsáu.", hanji: "本底講蹛幾禮拜爾爾，煞蹛甲毋甘走。", en: "I was only supposed to stay a few weeks, and now I can't bear to leave."}
     - {tailo: "O̍h gí-giân sī tsi̍t-sì-lâng ê tāi-tsì.", hanji: "學語言是一世人的代誌。", en: "Learning a language takes a lifetime."}
     - {tailo: "Āu-pái kuè-nî, guá tńg--lâi kah lín uî-lôo.", hanji: "後擺過年，我轉來佮恁圍爐。", en: "Next New Year, I'll come back for the family dinner with you."}
+    - {tailo: "Pún-té beh khì hái-pinn, lo̍h-hōo tō bô khì--ah.", hanji: "本底欲去海邊，落雨就無去矣。", en: "I was going to go to the beach, but it rained so I didn't."}
+    - {tailo: "Óng Tâi-lâm ê hué-tshia kuí tiám khui?", hanji: "往臺南的火車幾點開？", en: "What time does the train for Tainan leave?"}
   fill:
     - {tailo: "___ sin-thé, mài koh kui-mê bô khùn.", hanji: "___身體，莫閣規暝無睏。", answer: "Pó-tiōng", answer_hanji: "保重", en: "Look after yourself, and no more nights without sleep."}
     - {tailo: "Tsit tiunn siòng-phìnn hōo lí tsò ___.", hanji: "這張相片予你做___。", answer: "kì-liām", answer_hanji: "紀念", en: "Here's a photo to remember us by."}
+    - {tailo: "Tshia khui ê sî, a-má tī guā-kháu kā guá ___.", hanji: "車開的時，阿媽佇外口共我___。", answer: "ia̍t-tshiú", answer_hanji: "擛手", en: "As the train left, Grandma waved to me from outside."}
 audio: []

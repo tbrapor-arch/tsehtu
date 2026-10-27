@@ -57,8 +57,11 @@ exercises:
   translate:
     - {tailo: "Lín lóng tsìng siánn-mih?", hanji: "恁攏種啥物？", en: "What do you grow?"}
     - {tailo: "Siàu-liân-lâng lóng tsáu-khì too-tshī--ah.", hanji: "少年人攏走去都市矣。", en: "The young people have all left for the cities."}
+    - {tailo: "Too-tshī ê khong-khì bô tsng-kha hiah hó.", hanji: "都市的空氣無庄跤遐好。", en: "The air in the city isn't as good as in the countryside."}
+    - {tailo: "A-kong ê sun lóng tī too-tshī tha̍k-tsheh.", hanji: "阿公的孫攏佇都市讀冊。", en: "Grandpa's grandchildren all study in the city."}
   fill:
     - {tailo: "Tsng-kha ê khong-khì tsin hó, koh tsiok ___.", hanji: "庄跤的空氣真好，閣足___。", answer: "tiām-tsīng", answer_hanji: "恬靜", en: "The countryside air is good, and it's really peaceful."}
     - {tailo: "Khah-tsá lóng īng tsuí-gû ___.", hanji: "較早攏用水牛___。", answer: "lê-tshân", answer_hanji: "犁田", en: "In the old days we ploughed with water buffalo."}
     - {tailo: "Lí khuànn suann-thâu hia, ___ lâi--ah.", hanji: "你看山頭遐，___來矣。", answer: "oo-hûn", answer_hanji: "烏雲", en: "Look at the hilltop over there: dark clouds are coming."}
+    - {tailo: "Guán a-má tsú ___ hōo guá tsia̍h.", hanji: "阮阿媽煮___予我食。", answer: "han-tsî", answer_hanji: "番薯", en: "My grandma cooked sweet potatoes for me."}
 audio: []

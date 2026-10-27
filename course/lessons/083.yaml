@@ -55,7 +55,10 @@ exercises:
     - {tailo: "Tsia̍h-lāu ài ua̍h-tāng.", hanji: "食老愛活動。", en: "When you get old you have to keep moving."}
     - {tailo: "Tsit-má guá tsi̍t ê lâng tuà, ū-sî-á ē kám-kak koo-tuann.", hanji: "這馬我一个人蹛，有時仔會感覺孤單。", en: "I live on my own now, and sometimes I feel lonely."}
     - {tailo: "Tshing-tshun kuè--khì--ah, m̄-koh sim bē-sái lāu.", hanji: "青春過去矣，毋過心袂使老。", en: "Youth is gone, but your heart mustn't grow old."}
+    - {tailo: "Guá ta̍k-kang thàu-tsá khì kong-hn̂g ūn-tōng.", hanji: "我逐工透早去公園運動。", en: "I exercise in the park every morning."}
+    - {tailo: "Guán a-kong tsia̍h-lāu--ah, iáu-koh tsin kiān-khong.", hanji: "阮阿公食老矣，猶閣真健康。", en: "My grandpa has grown old but is still very healthy."}
   fill:
     - {tailo: "Ông-peh, tshiánn-mn̄g lí kin-nî ___?", hanji: "王伯，請問你今年___？", answer: "kuì-kenn", answer_hanji: "貴庚", en: "Ông-peh, may I ask how old you are?"}
     - {tailo: "I sann tang tsîng ___--ah.", hanji: "伊三冬前___矣。", answer: "kuè-sin", answer_hanji: "過身", en: "She passed away three years ago."}
+    - {tailo: "Guá ê ___ sī Tâi-lâm-lâng.", hanji: "我的___是臺南人。", answer: "khan-tshiú", answer_hanji: "牽手", en: "My wife is from Tainan."}
 audio: []

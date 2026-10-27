@@ -53,7 +53,10 @@ exercises:
     - {tailo: "Kheh-uē, Tâi-gí guá lóng ē-hiáu.", hanji: "客話、台語我攏會曉。", en: "I speak both Hakka and Taigi."}
     - {tailo: "Koh tso̍k-kûn lóng ū ka-kī ê uē kah bûn-huà.", hanji: "各族群攏有家己的話佮文化。", en: "Each community has its own language and culture."}
     - {tailo: "Tsit-má ta̍k-ke lóng sī tshù-pinn, hōo-siong tsun-tiōng.", hanji: "這馬逐家攏是厝邊，互相尊重。", en: "Now we're all neighbours and respect each other."}
+    - {tailo: "Guán a-tsím sī Kheh-lâng.", hanji: "阮阿嬸是客人。", en: "My auntie is Hakka."}
+    - {tailo: "Tuì tsia kàu tshia-thâu, tsha-put-to tsa̍p hun-tsing.", hanji: "對遮到車頭，差不多十分鐘。", en: "It's about ten minutes from here to the station."}
   fill:
     - {tailo: "“Lâng-kheh” sī lâi lín tau ê lâng; “___” sī Kheh-ka-lâng.", hanji: "「人客」是來恁兜的人；「___」是客家人。", answer: "Kheh-lâng", answer_hanji: "客人", en: "'Lâng-kheh' is a guest; 'Kheh-lâng' are the Hakka."}
     - {tailo: "Tsi̍t kang ___ sann tsióng uē.", hanji: "一工___三種話。", answer: "uānn", answer_hanji: "換", en: "Three languages a day."}
+    - {tailo: "Hiann-tī ___ ài hōo-siong tsun-tiōng.", hanji: "兄弟___愛互相尊重。", answer: "tsi-kan", answer_hanji: "之間", en: "Brothers should respect each other."}
 audio: []

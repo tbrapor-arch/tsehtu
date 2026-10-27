@@ -53,7 +53,10 @@ exercises:
     - {tailo: "Hì-pênn kha khiā kú tō sī lí ê.", hanji: "戲棚跤徛久就是你的。", en: "Stand long enough in front of the stage, and the spot is yours."}
     - {tailo: "Lâng nn̄g kha, tsînn sì kha.", hanji: "人兩跤，錢四跤。", en: "People have two legs, money has four."}
     - {tailo: "Mài tsi̍t pái sit-pāi tō hòng-khì.", hanji: "莫一擺失敗就放棄。", en: "Don't give up after one failure."}
+    - {tailo: "Guán lāu-su tsiok giâm.", hanji: "阮老師足嚴。", en: "Our teacher is very strict."}
+    - {tailo: "O̍h gí-giân ài ū nāi-sim.", hanji: "學語言愛有耐心。", en: "Learning a language takes patience."}
   fill:
     - {tailo: "Tsi̍t iūnn bí tshī ___ lâng.", hanji: "一樣米飼___人。", answer: "pah-iūnn", answer_hanji: "百樣", en: "The same rice feeds a hundred kinds of people."}
     - {tailo: "Sann nî tsi̍t jūn, hó-pháinn tsiàu ___.", hanji: "三年一閏，好歹照___。", answer: "lûn", answer_hanji: "輪", en: "Good and bad come round in turn."}
+    - {tailo: "Kin-nî guá ê khang-khuè tsiânn ___.", hanji: "今年我的工課誠___。", answer: "sūn", answer_hanji: "順", en: "My work has gone smoothly this year."}
 audio: []

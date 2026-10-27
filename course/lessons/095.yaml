@@ -57,7 +57,10 @@ exercises:
     - {tailo: "Guá jīn-uî tse sī hó ê thê-àn.", hanji: "我認為這是好的提案。", en: "I think it's a good proposal."}
     - {tailo: "Guá kám-kak nn̄g pîng lóng ū tō-lí.", hanji: "我感覺兩爿攏有道理。", en: "I think both sides have a point."}
     - {tailo: "Tsi̍t hong-bīn ài tsū-iû, līng-guā tsi̍t hong-bīn mā ài tàu-tīn.", hanji: "一方面愛自由，另外一方面嘛愛鬥陣。", en: "On the one hand we want freedom, on the other hand we need to work together."}
+    - {tailo: "Tsē tsia̍t-ūn siōng-pan tsin hong-piān.", hanji: "坐捷運上班真方便。", en: "Taking the metro to work is very convenient."}
+    - {tailo: "Lí ê lí-iû guá bô-huat-tōo tsiap-siū.", hanji: "你的理由我無法度接受。", en: "I can't accept your reason."}
   fill:
     - {tailo: "Guá bô ___.", hanji: "我無___。", answer: "tông-ì", answer_hanji: "同意", en: "I disagree."}
     - {tailo: "Tī tshù tsò ū hó-tshù, mā ū ___.", hanji: "佇厝做有好處，嘛有___。", answer: "pháinn-tshù", answer_hanji: "歹處", en: "Working from home has advantages and disadvantages."}
+    - {tailo: "Tha̍k-tsheh ê sî, ài ___.", hanji: "讀冊的時，愛___。", answer: "tsuan-sim", answer_hanji: "專心", en: "When you study, you have to concentrate."}
 audio: []

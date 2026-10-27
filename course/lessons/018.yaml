@@ -115,6 +115,12 @@ exercises:
   - tailo: M̄-thang bē-kì-tit tsah guā-thò.
     hanji: 毋通袂記得紮外套。
     en: Don't forget to bring a jacket.
+  - tailo: "Lí beh tsia̍h ô-á-tsian ia̍h-sī tshài-thâu-kué?"
+    hanji: "你欲食蚵仔煎抑是菜頭粿？"
+    en: "Do you want oyster omelette or radish cake?"
+  - tailo: "Guá bē-kì-tit tsah tshiú-ki-á."
+    hanji: "我袂記得紮手機仔。"
+    en: "I forgot to bring my phone."
   fill:
   - tailo: Khì Tām-tsuí ___ khì Káu-hūn?
     hanji: 去淡水___去九份？
@@ -126,4 +132,9 @@ exercises:
     answer: ē-tàng
     answer_hanji: 會當
     en: Three in the afternoon, can you make it?
+  - tailo: "Lí ___ kā guá hip-siòng--bô?"
+    hanji: "你___共我翕相無？"
+    answer: "ē-tàng"
+    answer_hanji: "會當"
+    en: "Can you take a photo of me?"
 audio: []

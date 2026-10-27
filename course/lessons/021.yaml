@@ -74,6 +74,12 @@ exercises:
   - tailo: Kàu lōo-kháu uat tò-tshiú-pîng.
     hanji: 到路口斡倒手爿。
     en: Turn left at the junction.
+  - tailo: "Thâu-tsîng hit niá sann khah hó-khuànn."
+    hanji: "頭前彼領衫較好看。"
+    en: "The shirt from before looked better."
+  - tailo: "Lán sing khì tsia̍h-pn̄g, tsiah khì Tām-tsuí."
+    hanji: "咱先去食飯，才去淡水。"
+    en: "Let's eat first, then go to Tamsui."
   fill:
   - tailo: Oo-sik ___ âng-sik khah hó-khuànn.
     hanji: 烏色___紅色較好看。
@@ -85,4 +91,9 @@ exercises:
     answer: bē-kì-tit
     answer_hanji: 袂記得
     en: Don't forget to bring a jacket.
+  - tailo: "Guá kā lí hip tsi̍t ___."
+    hanji: "我共你翕一___。"
+    answer: "tiunn"
+    answer_hanji: "張"
+    en: "Let me take one of you."
 audio: []

@@ -52,7 +52,10 @@ exercises:
     - {tailo: "“Senn-hūn” tō sī lí bô si̍k-sāi, kám-kak kuài-kuài--ê.", hanji: "「生份」就是你無熟似，感覺怪怪的。", en: "'Senn-hūn' means you don't know something and it feels a bit strange."}
     - {tailo: "O̍h sin ê sû, siōng hó tshuē tsi̍t ê tò-píng ê sû tsò-hué kì.", hanji: "學新的詞，上好揣一个倒反的詞做伙記。", en: "When you learn a new word, it's best to find its opposite and remember them together."}
     - {tailo: "Ióng-kám kóng, tō sī o̍h gí-giân siōng iàu-kín ê tsi̍t pōo.", hanji: "勇敢講，就是學語言上要緊的一步。", en: "Being brave enough to speak is the most important step in learning a language."}
+    - {tailo: "Lí nā tú-tio̍h khùn-lân, ē-sái lâi tshuē guá.", hanji: "你若拄著困難，會使來揣我。", en: "If you run into difficulties, you can come to me."}
+    - {tailo: "Tsit ê sû ê huat-im tsin oh.", hanji: "這个詞的發音真僫。", en: "This word is hard to pronounce."}
   fill:
     - {tailo: "___ kóng, lí khì tsi̍t ê sin ê sóo-tsāi.", hanji: "___講，你去一个新的所在。", answer: "Pí-lūn", answer_hanji: "比論", en: "For example, you go somewhere new."}
     - {tailo: "Ē-sái ___ Kàu-io̍k-pōo ê Tâi-gí sû-tián.", hanji: "會使___教育部的台語辭典。", answer: "tshâ", answer_hanji: "查", en: "You can look it up in the Ministry of Education's Taigi dictionary."}
+    - {tailo: "Guá bē-hiáu ê jī, guá lóng khì ___ sû-tián.", hanji: "我袂曉的字，我攏去___辭典。", answer: "tshâ", answer_hanji: "查", en: "Characters I don't know, I always look up in the dictionary."}
 audio: []

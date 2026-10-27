@@ -178,6 +178,12 @@ exercises:
   - tailo: Iáu-buē, guá beh lâi tsia̍h tsá-tǹg.
     hanji: 猶未，我欲來食早頓。
     en: Not yet, I've come for breakfast.
+  - tailo: "Lí tsia̍h tsá-tǹg--buē?"
+    hanji: "你食早頓未？"
+    en: "Have you had breakfast?"
+  - tailo: "Guá beh tsi̍t tè tshài-thâu-kué niā-niā."
+    hanji: "我欲一塊菜頭粿爾爾。"
+    en: "I just want one slice of radish cake."
   fill:
   - tailo: Tse sī ___?
     hanji: 這是___？
@@ -189,4 +195,9 @@ exercises:
     answer: ē-hiáu
     answer_hanji: 會曉
     en: You can speak Taiwanese!
+  - tailo: "Guá ___ kóng tsi̍t-sut-á Tâi-gí."
+    hanji: "我___講一屑仔臺語。"
+    answer: "ē-hiáu"
+    answer_hanji: "會曉"
+    en: "I can speak a little Taigi."
 audio: []

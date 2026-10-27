@@ -27,7 +27,10 @@ exercises:
     - {tailo: "Tsit tiánn lóo-bah sī siánn-lâng tsú--ê?", hanji: "這鼎滷肉是啥人煮的？", en: "Who made this pot of braised pork?"}
     - {tailo: "Ta̍k-ke phâng uánn, mài uan-ke.", hanji: "逐家捀碗，莫冤家。", en: "Everybody take your bowl, no squabbling."}
     - {tailo: "Kàu tē-jī ê tshenn-âng-ting uat tsiànn-tshiú.", hanji: "到第二个青紅燈斡正手。", en: "Turn right at the second traffic lights."}
+    - {tailo: "A-má khuànn--tio̍h guán, tsin huann-hí.", hanji: "阿媽看著阮，真歡喜。", en: "Grandma was very happy to see us."}
+    - {tailo: "Guá khiâ ki-tshia khì tshuē A-hun.", hanji: "我騎機車去揣阿芬。", en: "I'm riding my scooter over to meet A-hun."}
   fill:
     - {tailo: "I ___ kut-la̍t, koh tsin sè-jī.", hanji: "伊___骨力，閣真細膩。", answer: "m̄-nā", answer_hanji: "毋但", en: "He's not only hard-working but careful too."}
     - {tailo: "I tiānn-tiānn kiânn ___ lōo.", hanji: "伊定定行___路。", answer: "m̄-tio̍h", answer_hanji: "毋著", en: "He's always going the wrong way."}
+    - {tailo: "Kin-á-ji̍t guá tsú ê lóo-bah-pn̄g, ___ tú-á-hó.", hanji: "今仔日我煮的滷肉飯，___拄仔好。", answer: "kiâm-tānn", answer_hanji: "鹹淡", en: "The braised pork rice I made today was seasoned just right."}
 audio: []

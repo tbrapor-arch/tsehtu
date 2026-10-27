@@ -112,6 +112,12 @@ exercises:
   - tailo: Sin-khóo sī sin-khóo, m̄-koh tsin khuài-lo̍k.
     hanji: 辛苦是辛苦，毋過真快樂。
     en: It was hard, but we were happy.
+  - tailo: "Guán a-kong khah-tsá tī kang-tiûnn tsò-kang."
+    hanji: "阮阿公較早佇工場做工。"
+    en: "My grandfather used to work in a factory."
+  - tailo: "Hit-tsūn tsoh-sit tsiok sin-khóo."
+    hanji: "彼陣作穡足辛苦。"
+    en: "Farming was really hard back then."
   fill:
   - tailo: ___ tsa-bóo gín-á khah bô ki-huē.
     hanji: ___查某囡仔較無機會。
@@ -123,4 +129,9 @@ exercises:
     answer: bat
     answer_hanji: 捌
     en: Did you ever go to school?
+  - tailo: "Guá ___ ê sî-tsūn tsiok ài tsia̍h tshài-thâu-kué."
+    hanji: "我___的時陣足愛食菜頭粿。"
+    answer: "sè-hàn"
+    answer_hanji: "細漢"
+    en: "When I was little I loved radish cake."
 audio: []

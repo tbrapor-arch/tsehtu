@@ -152,6 +152,12 @@ exercises:
   - tailo: Ko-thih siunn kuì--ah.
     hanji: 高鐵傷貴矣。
     en: The high-speed train is too expensive.
+  - tailo: "Ko-thih kuí tiám kàu Tâi-lâm?"
+    hanji: "高鐵幾點到臺南？"
+    en: "What time does the high-speed train get to Tainan?"
+  - tailo: "Tsit ê piān-tong siunn kuì--ah."
+    hanji: "這个便當傷貴矣。"
+    en: "This lunch box is too expensive."
   fill:
   - tailo: Hué-tshia kuí tiám ___?
     hanji: 火車幾點___？
@@ -163,4 +169,9 @@ exercises:
     answer: kám
     answer_hanji: 敢
     en: Can't we take the high-speed train?
+  - tailo: "Tsē ko-thih tsi̍t tiám-tsing ___ tō kàu."
+    hanji: "坐高鐵一點鐘___就到。"
+    answer: "guā"
+    answer_hanji: "外"
+    en: "By high-speed rail you get there in just over an hour."
 audio: []

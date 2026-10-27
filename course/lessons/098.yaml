@@ -28,7 +28,10 @@ exercises:
     - {tailo: "Guán a-kong gōo-tsa̍p tang tsîng tī tsia tsò sai-á.", hanji: "阮阿公五十冬前佇遮做師仔。", en: "Our grandfather was an apprentice here fifty years ago."}
     - {tailo: "Tsin siūnn bē kàu!", hanji: "真想袂到！", en: "I can hardly believe it!"}
     - {tailo: "Tse sī guá lâi Tâi-pak liáu-āu, siōng-kài bô senn-hūn ê tsi̍t kang.", hanji: "這是我來臺北了後，上蓋無生份的一工。", en: "This is the day Taipei has felt least strange since I came."}
+    - {tailo: "Tú-tio̍h khùn-lân, mài hòng-khì.", hanji: "拄著困難，莫放棄。", en: "When you meet difficulties, don't give up."}
+    - {tailo: "Guá iáu-buē si̍p-kuàn tsiūnn-tâi ián-káng.", hanji: "我猶未習慣上台演講。", en: "I'm not used to giving speeches on stage yet."}
   fill:
     - {tailo: "I ___ Lîm, Tâi-lâm lâng.", hanji: "伊___林，臺南人。", answer: "sènn", answer_hanji: "姓", en: "His surname is Lîm, he's from Tainan."}
     - {tailo: "Guán it-tīng kā lí ê sim-ì ___ kàu.", hanji: "阮一定共你的心意___到。", answer: "tài", answer_hanji: "帶", en: "We'll make sure your kindness reaches him."}
+    - {tailo: "Tsit-tsūn ê khang-khuè tsin ___, lí mài huân-ló.", hanji: "這陣的工課真___，你莫煩惱。", answer: "ún", answer_hanji: "穩", en: "Work is steady now, don't worry."}
 audio: []

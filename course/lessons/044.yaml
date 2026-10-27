@@ -50,7 +50,10 @@ exercises:
     - {tailo: "Tsia̍h-pn̄g hông-tè tuā.", hanji: "食飯皇帝大。", en: "Eating comes first."}
     - {tailo: "Bān-bān-á tsia̍h.", hanji: "慢慢仔食。", en: "Eat slowly."}
     - {tailo: "Tshenn-tshài mā ài tsia̍h, mài kan-na ngeh bah.", hanji: "青菜嘛愛食，莫干焦夾肉。", en: "Eat your greens too, don't just pick out the meat."}
+    - {tailo: "In-uī lo̍h-hōo, guá bô tshut-mn̂g.", hanji: "因為落雨，我無出門。", en: "Because it was raining, I didn't go out."}
+    - {tailo: "Tse sī a-má siōng ài kóng ê sio̍k-gí.", hanji: "這是阿媽上愛講的俗語。", en: "This is Grandma's favourite proverb."}
   fill:
     - {tailo: "Tsia̍h-kín ___ uánn.", hanji: "食緊___碗。", answer: "lòng-phuà", answer_hanji: "挵破", en: "Eat in a hurry and you break the bowl."}
     - {tailo: "Sī a-kong ___--ê.", hanji: "是阿公___的。", answer: "tsìng", answer_hanji: "種", en: "Grandpa grew it."}
+    - {tailo: "Guá ê uánn ___--khì--ah.", hanji: "我的碗___去矣。", answer: "phuà", answer_hanji: "破", en: "My bowl has broken."}
 audio: []

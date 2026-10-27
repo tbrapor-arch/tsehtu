@@ -53,7 +53,10 @@ exercises:
     - {tailo: "Lí phīnn-tsuí it-ti̍t lâu, sī kuânn--tio̍h--ah.", hanji: "你鼻水一直流，是寒著矣。", en: "Your nose keeps running: you've caught a chill."}
     - {tailo: "Nā-sī huat-sio, iáu-sī ài khì khuànn i-sing.", hanji: "若是發燒，猶是愛去看醫生。", en: "If you have a fever, you should still see a doctor."}
     - {tailo: "Sènn-miā siōng iàu-kín, m̄-thang thih-khí.", hanji: "性命上要緊，毋通鐵齒。", en: "Your life comes first, so don't be stubborn."}
+    - {tailo: "Kuânn-thinn ài tsia̍h khah póo ê mi̍h-kiānn.", hanji: "寒天愛食較補的物件。", en: "In winter you should eat nourishing food."}
+    - {tailo: "A-má tūn tsi̍t tiánn ke-thng hōo guá lim.", hanji: "阿媽燉一鼎雞湯予我啉。", en: "Grandma stewed a pot of chicken soup for me."}
   fill:
     - {tailo: "Guá kā lí ___ kuí bī io̍h-tsâi.", hanji: "我共你___幾味藥材。", answer: "tsham", answer_hanji: "摻", en: "I'll mix you a few herbs."}
     - {tailo: "___ guá mā khah ē tsù-ì tsia̍h-mi̍h.", hanji: "___我嘛較會注意食物。", answer: "Kīn-lâi", answer_hanji: "近來", en: "Lately I've been paying more attention to what I eat."}
+    - {tailo: "Kīn-lâi guá ê sin-thé khah ___.", hanji: "近來我的身體較___。", answer: "hi", answer_hanji: "虛", en: "Lately I've been rather run down."}
 audio: []

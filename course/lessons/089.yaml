@@ -57,7 +57,10 @@ exercises:
     - {tailo: "Pùn-sò ài hun-luī, lóng ài huê-siu.", hanji: "糞埽愛分類，攏愛回收。", en: "Rubbish has to be sorted, all for recycling."}
     - {tailo: "Hái lāi-té ê hî-á tiānn-tiānn hōo sok-ka hāi-sí.", hanji: "海內底的魚仔定定予塑膠害死。", en: "Fish in the sea are often killed by plastic."}
     - {tailo: "Sui-jiân khah mâ-huân, m̄-koh ē-sái kiám-tsió pùn-sò.", hanji: "雖然較麻煩，毋過會使減少糞埽。", en: "It's more trouble, but it means less rubbish."}
+    - {tailo: "Tsit tè po-lê phuà--khì--ah, ài sè-jī.", hanji: "這塊玻璃破去矣，愛細膩。", en: "This piece of glass is broken, be careful."}
+    - {tailo: "Mài lōng-huì tsînn.", hanji: "莫浪費錢。", en: "Don't waste money."}
   fill:
     - {tailo: "Pùn-sò-tshia ___ lâi--ah.", hanji: "糞埽車___來矣。", answer: "teh-beh", answer_hanji: "咧欲", en: "The rubbish truck is about to come."}
     - {tailo: "Khah-tsá ___ sok-ka-tē-á mā bô.", hanji: "較早___塑膠袋仔嘛無。", answer: "liân", answer_hanji: "連", en: "In the old days there weren't even plastic bags."}
+    - {tailo: "Kín--leh, bô, lán bē ___ tshia.", hanji: "緊咧，無，咱袂___車。", answer: "hù", answer_hanji: "赴", en: "Hurry up, or we'll miss the train."}
 audio: []

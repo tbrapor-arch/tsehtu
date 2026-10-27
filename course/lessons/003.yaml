@@ -155,6 +155,12 @@ exercises:
   - tailo: Kóng khuànn-māi.
     hanji: 講看覓。
     en: Try saying it.
+  - tailo: "Lí ē-sái ke thn̂g."
+    hanji: "你會使加糖。"
+    en: "You can add sugar."
+  - tailo: "Guá bat lim tāu-ling, m̄ bat lim oo-liông-tê."
+    hanji: "我捌啉豆奶，毋捌啉烏龍茶。"
+    en: "I've had soy milk, but never oolong tea."
   fill:
   - tailo: Guá ___ lim oo-liông-tê.
     hanji: 我___啉烏龍茶。
@@ -166,4 +172,9 @@ exercises:
     answer: Bô ài
     answer_hanji: 無愛
     en: Do you want sugar? No thanks, it's fine like this.
+  - tailo: "Lí ē-sái ___ tsia."
+    hanji: "你會使___遮。"
+    answer: "tsē"
+    answer_hanji: "坐"
+    en: "You can sit here."
 audio: []

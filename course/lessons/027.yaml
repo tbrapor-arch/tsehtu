@@ -153,6 +153,12 @@ exercises:
   - tailo: Líng-khì pháinn--khì--ah.
     hanji: 冷氣歹去矣。
     en: The air conditioning has broken.
+  - tailo: "Keh-piah ê gín-á tshá kah guá khùn bē khì."
+    hanji: "隔壁的囡仔吵甲我睏袂去。"
+    en: "The kids next door are so noisy I can't sleep."
+  - tailo: "Tshù-tsú kìng-jiân bô beh siu-lí líng-khì."
+    hanji: "厝主竟然無欲修理冷氣。"
+    en: "Would you believe it, the landlord won't repair the air conditioning."
   fill:
   - tailo: Guá khì ___ m̄ tsai beh kóng siánn.
     hanji: 我氣___毋知欲講啥。
@@ -169,4 +175,9 @@ exercises:
     answer: "tsí-hó"
     answer_hanji: "只好"
     en: "With no air conditioning, we'll just have to go and buy a fan."
+  - tailo: "Guá ê tshiú-ki-á ___--khì--ah."
+    hanji: "我的手機仔___去矣。"
+    answer: "pháinn"
+    answer_hanji: "歹"
+    en: "My phone has broken."
 audio: []

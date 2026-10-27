@@ -51,7 +51,10 @@ exercises:
   translate:
     - {tailo: "Tshá kah piàn-sik, tsiah koh hē tāu-iû.", hanji: "炒甲變色，才閣下豆油。", en: "Fry until it changes colour, only then add the soy sauce."}
     - {tailo: "Phâng tsi̍t uánn hōo a-kong.", hanji: "捀一碗予阿公。", en: "Take a bowl to A-kong."}
+    - {tailo: "A-má tī tsàu-kha tsú tshài.", hanji: "阿媽佇灶跤煮菜。", en: "Grandma is cooking in the kitchen."}
+    - {tailo: "Tshài-thâu ài tshiat sè tè.", hanji: "菜頭愛切細塊。", en: "Cut the radish into small pieces."}
   fill:
     - {tailo: "Suà--lo̍h-lâi kā hué tiám--___.", hanji: "紲落來共火點___。", answer: "to̍h", answer_hanji: "著", en: "Next, light the stove."}
     - {tailo: "Lí tshì khuànn-māi ___.", hanji: "你試看覓___。", answer: "kiâm-tānn", answer_hanji: "鹹淡", en: "Taste it and see if it's seasoned right."}
+    - {tailo: "A-má ___ ê tshenn-tshài tsiok hó-tsia̍h.", hanji: "阿媽___的青菜足好食。", answer: "tshá", answer_hanji: "炒", en: "Grandma's stir-fried greens are delicious."}
 audio: []

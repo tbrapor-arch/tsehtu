@@ -55,7 +55,10 @@ exercises:
     - {tailo: "Bô-lūn kuí huè, lí lóng sī guán ê kiánn-jî.", hanji: "無論幾歲，你攏是阮的囝兒。", en: "Whatever your age, you're still our child."}
     - {tailo: "Guá m̄ sī m̄ siong-sìn--lí, sī kiann lí tī guā-kháu tsia̍h-khóo.", hanji: "我毋是毋相信你，是驚你佇外口食苦。", en: "It's not that I don't trust you; I'm afraid you'll have a hard time out there."}
     - {tailo: "Lí nā tsin-tsiànn kam-guān, guá tō m̄ koh kóng--ah.", hanji: "你若真正甘願，我就毋閣講矣。", en: "If you really want this, I won't say any more."}
+    - {tailo: "Guá huán-tuì lí tsi̍t ê lâng khì hái-pinn siû-tsuí.", hanji: "我反對你一个人去海邊泅水。", en: "I'm against you going swimming at the beach alone."}
+    - {tailo: "I m̄ khíng kóng guân-in.", hanji: "伊毋肯講原因。", en: "He won't say why."}
   fill:
     - {tailo: "A-pah, lí ___ sī án-tsuánn m̄ khíng?", hanji: "阿爸，你___是按怎毋肯？", answer: "tàu-té", answer_hanji: "到底", en: "Dad, why on earth won't you agree?"}
     - {tailo: "Guá ___ ē tsiàu-kòo ka-kī.", hanji: "我___會照顧家己。", answer: "tsua̍t-tuì", answer_hanji: "絕對", en: "I'll definitely look after myself."}
+    - {tailo: "Guá ___ lí bē kóng-pe̍h-tsha̍t.", hanji: "我___你袂講白賊。", answer: "siong-sìn", answer_hanji: "相信", en: "I believe you wouldn't lie."}
 audio: []

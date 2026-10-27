@@ -32,7 +32,10 @@ exercises:
     - {tailo: "Guá bé tsi̍t siang ê-á, phah peh tsiat.", hanji: "我買一雙鞋仔，拍八折。", en: "I bought a pair of shoes, 20% off."}
     - {tailo: "Tshiánn lí guân-liōng guá.", hanji: "請你原諒我。", en: "Please forgive me."}
     - {tailo: "A-má ngeh tsin tsē hó-liāu--ê hōo guán.", hanji: "阿媽夾真濟好料的予阮。", en: "Grandma piled the best bits into our bowls."}
+    - {tailo: "Tsit ê būn-tê bô hiah-nī kán-tan.", hanji: "這个問題無遐爾簡單。", en: "This problem isn't that simple."}
+    - {tailo: "Tsit toh ê lâng-kheh lóng sī sin-niû ê tông-sū.", hanji: "這桌的人客攏是新娘的同事。", en: "The guests at this table are all the bride's colleagues."}
   fill:
     - {tailo: "Lâng-kheh tsē jī-tsa̍p-___ toh.", hanji: "人客坐二十___桌。", answer: "kuí", answer_hanji: "幾", en: "Twenty-odd tables of guests."}
     - {tailo: "Nā bē-sái thè, tsin ___.", hanji: "若袂使退，真___。", answer: "bô-tshái", answer_hanji: "無彩", en: "If you can't return it, what a waste."}
+    - {tailo: "Tsú tshài-thâu-thng tsin ___.", hanji: "煮菜頭湯真___。", answer: "kán-tan", answer_hanji: "簡單", en: "Making radish soup is very easy."}
 audio: []

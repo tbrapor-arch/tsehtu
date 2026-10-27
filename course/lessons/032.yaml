@@ -56,7 +56,10 @@ exercises:
     - {tailo: "Lí kám ū thiann-kóng?", hanji: "你敢有聽講？", en: "Have you heard?"}
     - {tailo: "I khuànn--khí-lâi tshin-tshiūnn tsin hó-sim.", hanji: "伊看起來親像真好心。", en: "She seems really kind."}
     - {tailo: "Lí tuì lâng hó, lâng tō tuì lí hó.", hanji: "你對人好，人就對你好。", en: "Be good to people and they'll be good to you."}
+    - {tailo: "Guá siūnn-beh jīn-bat sin ê tshù-pinn.", hanji: "我想欲認捌新的厝邊。", en: "I'd like to get to know the new neighbours."}
+    - {tailo: "Thiann-kóng i beh puann khì Tâi-lâm.", hanji: "聽講伊欲搬去臺南。", en: "I hear he's moving to Tainan."}
   fill:
     - {tailo: "Lí ná ē tsai ___ tsē?", hanji: "你哪會知___濟？", answer: "tsiah-nī", answer_hanji: "遮爾", en: "How do you know so much?"}
     - {tailo: "Ū-îng guá kā in ___.", hanji: "有閒我共𪜶___。", answer: "tàu-sann-kāng", answer_hanji: "鬥相共", en: "When I have time, I'll give them a hand."}
+    - {tailo: "Guán tuā-tsí tī kong-si ___.", hanji: "阮大姊佇公司___。", answer: "siōng-pan", answer_hanji: "上班", en: "My eldest sister works at a company."}
 audio: []

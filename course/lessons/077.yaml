@@ -27,7 +27,10 @@ exercises:
     - {tailo: "Puann-tshù hit kang, guán kng kah kui sin-khu lâu-kuānn.", hanji: "搬厝彼工，阮扛甲規身軀流汗。", en: "On moving day we carried things till we were drenched in sweat."}
     - {tailo: "I m̄-nā ài thiann kóo, koh tī ha̍k-hāu o̍h Tâi-gí.", hanji: "伊毋但愛聽古，閣佇學校學台語。", en: "She doesn't just love stories, she's learning Taigi at school too."}
     - {tailo: "I kóng guá ê phue siōng-kài ū sîng-ì.", hanji: "伊講我的批上蓋有誠意。", en: "He says my letter was extremely sincere."}
+    - {tailo: "Tsit ê kòo-sū ê siu-bué tsin hó.", hanji: "這个故事的收尾真好。", en: "The ending of this story is very good."}
+    - {tailo: "Guán sió-muē ê kiánn tī ha̍k-hāu o̍h tshiùnn Tâi-gí kua.", hanji: "阮小妹的囝佇學校學唱台語歌。", en: "My younger sister's child is learning to sing Taigi songs at school."}
   fill:
     - {tailo: "___ guá mā khah ióng--ah.", hanji: "___我嘛較勇矣。", answer: "Kīn-lâi", answer_hanji: "近來", en: "Lately I've been feeling stronger too."}
     - {tailo: "Lí ___ hó--ah--bô?", hanji: "你___好矣無？", answer: "kuânn--tio̍h", answer_hanji: "寒著", en: "Is your cold better?"}
+    - {tailo: "Guá kap A-bîng tsin ___.", hanji: "我佮阿明真___。", answer: "si̍k-sāi", answer_hanji: "熟似", en: "I know A-bîng well."}
 audio: []

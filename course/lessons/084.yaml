@@ -28,7 +28,10 @@ exercises:
     - {tailo: "M̄-kuán tī tó-uī, sin-thé kiān-khong siōng iàu-kín.", hanji: "毋管佇佗位，身體健康上要緊。", en: "Wherever you are, your health comes first."}
     - {tailo: "Kàu Tâi-pak ài jīn-tsin, m̄-thang oo-pe̍h khai-tsînn.", hanji: "到臺北愛認真，毋通烏白開錢。", en: "Work hard in Taipei, and don't spend money carelessly."}
     - {tailo: "Guá ē put-sî tńg--lâi.", hanji: "我會不時轉來。", en: "I'll come back often."}
+    - {tailo: "I tsò tāi-tsì tsin jīn-tsin, ta̍k-ke lóng siong-sìn i.", hanji: "伊做代誌真認真，逐家攏相信伊。", en: "He works conscientiously, everyone trusts him."}
+    - {tailo: "Hong-thai pàng-ká, guá kui kang tiàm tshù-lāi, tsin bô-liâu.", hanji: "風颱放假，我規工踮厝內，真無聊。", en: "On the typhoon day off I stayed in all day; it was really boring."}
   fill:
     - {tailo: "A-hun bîn-á-tsài tō beh tshut-guā--___.", hanji: "阿芬明仔載就欲出外___。", answer: "looh", answer_hanji: "囉", en: "A-hun leaves home tomorrow."}
     - {tailo: "Tsiok A-hun tsi̍t-lōo ___!", hanji: "祝阿芬一路___！", answer: "sūn-hong", answer_hanji: "順風", en: "Have a safe journey, A-hun!"}
+    - {tailo: "I ___ tī kong-hn̂g phah-kûn.", hanji: "伊___佇公園拍拳。", answer: "put-sî", answer_hanji: "不時", en: "He's always in the park doing tai chi."}
 audio: []

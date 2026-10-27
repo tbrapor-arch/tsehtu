@@ -53,7 +53,10 @@ exercises:
     - {tailo: "M̄-kuán sing-ua̍h án-tsuánn piàn, lán ta̍k-ke lóng ài ē-hiáu khiām.", hanji: "毋管生活按怎變，咱逐家攏愛會曉儉。", en: "No matter how life changes, we all need to know how to save."}
     - {tailo: "In-uī siu-ji̍p bô it-tīng, sóo-í guá tiānn-tiānn huân-ló.", hanji: "因為收入無一定，所以我定定煩惱。", en: "Because my income isn't fixed, I often worry."}
     - {tailo: "Lí ài ū ka-kī ê àn-sǹg.", hanji: "你愛有家己的按算。", en: "You need to have your own plan."}
+    - {tailo: "Guán lāu-bú í-king thè-hiu--ah.", hanji: "阮老母已經退休矣。", en: "My mother has already retired."}
+    - {tailo: "Guá ê sin-suí bô kàu khai.", hanji: "我的薪水無夠開。", en: "My salary isn't enough to cover what I spend."}
   fill:
     - {tailo: "M̄-kuán ___ án-tsuánn siūnn, lí ài ū ka-kī ê àn-sǹg.", hanji: "毋管___按怎想，你愛有家己的按算。", answer: "pa̍t-lâng", answer_hanji: "別人", en: "No matter what others think, you need to have your own plan."}
     - {tailo: "Ū khiām tō ū ___.", hanji: "有儉就有___。", answer: "té", answer_hanji: "底", en: "If you save, you'll always have something to fall back on."}
+    - {tailo: "Tsit-tsūn ___ it-ti̍t khí, tshài lóng kuì--ah.", hanji: "這陣___一直起，菜攏貴矣。", answer: "bu̍t-kè", answer_hanji: "物價", en: "Prices keep going up these days; vegetables are all expensive now."}
 audio: []

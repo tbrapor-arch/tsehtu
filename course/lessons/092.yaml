@@ -52,7 +52,10 @@ exercises:
     - {tailo: "Tńg--lâi Tâi-pak, kám ū si̍p-kuàn?", hanji: "轉來臺北，敢有習慣？", en: "Have you got used to Taipei again?"}
     - {tailo: "Tī Tâi-pak, keh-piah ê lâng mā senn-hūn.", hanji: "佇臺北，隔壁的人嘛生份。", en: "In Taipei even your next-door neighbours are strangers."}
     - {tailo: "Lâng khì tó-uī, sim tō tī tó-uī.", hanji: "人去佗位，心就佇佗位。", en: "Wherever you go, your heart goes with you."}
+    - {tailo: "Pài-la̍k guán kong-si beh khui-huē.", hanji: "拜六阮公司欲開會。", en: "Our company has a meeting on Saturday."}
+    - {tailo: "Guá iáu-buē si̍p-kuàn Tâi-pak ê sing-ua̍h.", hanji: "我猶未習慣臺北的生活。", en: "I'm not used to life in Taipei yet."}
   fill:
     - {tailo: "Kám-kak ū tām-po̍h-á ___.", hanji: "感覺有淡薄仔___。", answer: "tsi̍k-bo̍k", answer_hanji: "寂寞", en: "I felt a bit lonely."}
     - {tailo: "Sóo-í lí kóng-uē ū lâm-pōo ___.", hanji: "所以你講話有南部___。", answer: "khiunn", answer_hanji: "腔", en: "So you speak with a southern accent."}
+    - {tailo: "Tsit ê lâng tsin ___, guá tsi̍t-ē tō siūnn-beh kap i tsò pîng-iú.", hanji: "這个人真___，我一下就想欲佮伊做朋友。", answer: "jia̍t-tsîng", answer_hanji: "熱情", en: "This person is very warm; I wanted to be friends right away."}
 audio: []

@@ -52,7 +52,10 @@ exercises:
     - {tailo: "Bián kiann, lán sing tsún-pī hó.", hanji: "免驚，咱先準備好。", en: "Don't be scared, let's get ready first."}
     - {tailo: "Nā thîng-tiān beh án-tsuánn?", hanji: "若停電欲按怎？", en: "What if the power goes out?"}
     - {tailo: "Sai-pak-hōo lo̍h tsi̍t-ē tō suah.", hanji: "西北雨落一下就煞。", en: "A summer storm is over in no time."}
+    - {tailo: "Thîng-tiān--ah, kín the̍h tshiú-tiān-á lâi.", hanji: "停電矣，緊提手電仔來。", en: "The power's out, quick, bring the torch."}
+    - {tailo: "Ē-poo khó-lîng ē lo̍h sai-pak-hōo.", hanji: "下晡可能會落西北雨。", en: "There may be a sudden downpour this afternoon."}
   fill:
     - {tailo: "Thang-á-mn̂g ài ___ hōo hó.", hanji: "窗仔門愛___予好。", answer: "kuainn", answer_hanji: "關", en: "Shut the windows tight."}
     - {tailo: "Guá ū tām-po̍h-á ___.", hanji: "我有淡薄仔___。", answer: "kiann", answer_hanji: "驚", en: "I'm a bit scared."}
+    - {tailo: "Gín-á ___ oo-àm.", hanji: "囡仔___烏暗。", answer: "kiann", answer_hanji: "驚", en: "Children are afraid of the dark."}
 audio: []

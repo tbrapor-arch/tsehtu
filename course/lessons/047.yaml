@@ -56,7 +56,10 @@ exercises:
     - {tailo: "Lí iū-koh tî-tò!", hanji: "你又閣遲到！", en: "You're late again!"}
     - {tailo: "Lóng sī guá m̄-tio̍h.", hanji: "攏是我毋著。", en: "It's all my fault."}
     - {tailo: "Guá mā sī put-tik-í, thâu-ke lîm-sî kiò guá ka-pan.", hanji: "我嘛是不得已，頭家臨時叫我加班。", en: "I had no choice: my boss asked me to stay late at the last minute."}
+    - {tailo: "Bîn-á-tsài ê iok-sok, lí ài tsún-sî.", hanji: "明仔載的約束，你愛準時。", en: "Be on time for tomorrow's appointment."}
+    - {tailo: "Gín-á m̄-thang kóng-pe̍h-tsha̍t.", hanji: "囡仔毋通講白賊。", en: "Children mustn't tell lies."}
   fill:
     - {tailo: "Lí mài hiah tuā-siann ___.", hanji: "你莫遐大聲___。", answer: "huah", answer_hanji: "喝", en: "Don't shout so loud."}
     - {tailo: "Lí mài koh ___!", hanji: "你莫閣___！", answer: "kóng-pe̍h-tsha̍t", answer_hanji: "講白賊", en: "Stop lying!"}
+    - {tailo: "Kin-á-ji̍t that-tshia, guá ___--ah.", hanji: "今仔日窒車，我___矣。", answer: "tî-tò", answer_hanji: "遲到", en: "There was a traffic jam today, so I was late."}
 audio: []

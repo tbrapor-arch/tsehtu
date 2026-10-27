@@ -148,6 +148,12 @@ exercises:
   - tailo: "Ē-pái lí khì tshiùnn-kua, guá kā lí tsò-phuānn."
     hanji: "下擺你去唱歌，我共你做伴。"
     en: "Next time you go singing, I'll keep you company."
+  - tailo: "Tsit tiâu kua tsin hó-thiann."
+    hanji: "這條歌真好聽。"
+    en: "This song sounds really nice."
+  - tailo: "Lé-pài-ji̍t guá tiānn-tiānn kap pîng-iú khì peh-suann."
+    hanji: "禮拜日我定定佮朋友去𬦰山。"
+    en: "On Sundays I often go hiking with friends."
   fill:
   - tailo: Guá ___ khì peh-suann.
     hanji: 我___去𬦰山。
@@ -159,4 +165,9 @@ exercises:
     answer: Ū-iánn
     answer_hanji: 有影
     en: Really?
+  - tailo: "A-kong ê kua-á, guá tsiok ___."
+    hanji: "阿公的歌仔，我足___。"
+    answer: "him-sióng"
+    answer_hanji: "欣賞"
+    en: "I really admire Grandpa's ballads."
 audio: []

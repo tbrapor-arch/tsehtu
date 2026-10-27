@@ -136,6 +136,12 @@ exercises:
   - tailo: Mài siunn uànn tshá lâng.
     hanji: 莫傷晏吵人。
     en: Don't make noise too late.
+  - tailo: "Guá ê pâng-king ū nn̄g ê thang-á."
+    hanji: "我的房間有兩个窗仔。"
+    en: "My room has two windows."
+  - tailo: "I tú-tú tshut-mn̂g."
+    hanji: "伊拄拄出門。"
+    en: "She's just gone out."
   fill:
   - tailo: Tsit ___ pâng-king tsi̍t kò gue̍h tsi̍t-bān-jī.
     hanji: 這___房間一個月一萬二。
@@ -152,4 +158,9 @@ exercises:
     answer: "tú-tú"
     answer_hanji: "拄拄"
     en: "There's another one upstairs; someone has just given it up."
+  - tailo: "Guán tau ê thang-á ǹg ___."
+    hanji: "阮兜的窗仔向___。"
+    answer: "sai-pîng"
+    answer_hanji: "西爿"
+    en: "The windows of our home face west."
 audio: []

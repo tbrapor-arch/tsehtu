@@ -52,7 +52,10 @@ exercises:
   translate:
     - {tailo: "Lí kám bat thiann-kuè Tâi-gí-kua?", hanji: "你敢捌聽過台語歌？", en: "Have you ever listened to Taiwanese songs?"}
     - {tailo: "Lí tuè guá tshiùnn.", hanji: "你綴我唱。", en: "Sing after me."}
+    - {tailo: "Guá tsin su-liām guá ê kòo-hiong.", hanji: "我真思念我的故鄉。", en: "I really miss my home town."}
+    - {tailo: "Tsit tiâu kua ê kua-sû tsin pi-siong.", hanji: "這條歌的歌詞真悲傷。", en: "The lyrics of this song are very sad."}
   fill:
     - {tailo: "Lí ê Tâi-gí ___ lâi ___ hó--ah.", hanji: "你的台語___來___好矣。", answer: "jú", answer_hanji: "愈", en: "Your Taigi is getting better and better."}
     - {tailo: "Guán teh tán lí ___--lâi.", hanji: "阮咧等你___來。", answer: "tò-tńg", answer_hanji: "倒轉", en: "I'm waiting for you to come back."}
+    - {tailo: "Lé-pài-ji̍t guá ___ tiàm tshù-lāi hioh-khùn.", hanji: "禮拜日我___踮厝內歇睏。", answer: "thong-siông", answer_hanji: "通常", en: "On Sundays I usually rest at home."}
 audio: []

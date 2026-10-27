@@ -53,8 +53,11 @@ exercises:
   translate:
     - {tailo: "Guá tī bāng-lōo bé tsi̍t siang ê-á.", hanji: "我佇網路買一雙鞋仔。", en: "I bought a pair of shoes online."}
     - {tailo: "Nā bē-sái thè, tsin bô-tshái.", hanji: "若袂使退，真無彩。", en: "If you can't return them, what a waste."}
+    - {tailo: "Tsit siang ê-á tuā-sè tú-hó.", hanji: "這雙鞋仔大細拄好。", en: "These shoes are just the right size."}
+    - {tailo: "Guá siūnn-beh uānn tsi̍t niá khah tuā niá ê sann.", hanji: "我想欲換一領較大領的衫。", en: "I'd like to exchange it for a bigger shirt."}
   fill:
     - {tailo: "Siunn sè, tshīng ___ lo̍h-khì.", hanji: "傷細，穿___落去。", answer: "bē", answer_hanji: "袂", en: "Too small, I can't get them on."}
     - {tailo: "Tsit-má mi̍h-kiānn lóng teh ___.", hanji: "這馬物件攏咧___。", answer: "khí-kè", answer_hanji: "起價", en: "Prices are all going up these days."}
     - {tailo: "Guá lóng ē sing ___, khuànn pa̍t king bē guā-tsē.", hanji: "我攏會先___，看別間賣偌濟。", answer: "pí-kàu", answer_hanji: "比較", en: "I always compare first, and look at what other shops charge."}
+    - {tailo: "Mài ___ bé, sing pí-kàu.", hanji: "莫___買，先比較。", answer: "suî-piān", answer_hanji: "隨便", en: "Don't buy carelessly, compare first."}
 audio: []

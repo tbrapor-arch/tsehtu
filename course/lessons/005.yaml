@@ -158,6 +158,12 @@ exercises:
   - tailo: Lán tsò-hué khì, hó--bô?
     hanji: 咱做伙去，好無？
     en: Shall we go together?
+  - tailo: "Lín a-bú tī tó-uī kà-tsheh?"
+    hanji: "恁阿母佇佗位教冊？"
+    en: "Where does your mum teach?"
+  - tailo: "Guán sió-muē ū nn̄g ê gín-á."
+    hanji: "阮小妹有兩个囡仔。"
+    en: "My younger sister has two children."
   fill:
   - tailo: Tsia ê gín-á sī ___?
     hanji: 遮的囡仔是___？
@@ -169,4 +175,9 @@ exercises:
     answer: huè
     answer_hanji: 歲
     en: My grandpa is ninety.
+  - tailo: "Lán ___ khì tsia̍h tsá-tǹg, hó--bô?"
+    hanji: "咱___去食早頓，好無？"
+    answer: "tsò-hué"
+    answer_hanji: "做伙"
+    en: "Let's go and have breakfast together, shall we?"
 audio: []

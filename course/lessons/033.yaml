@@ -46,8 +46,11 @@ exercises:
   translate:
     - {tailo: "Guá ê tshiú-ki-á phah-m̄-kìnn--ah!", hanji: "我的手機仔拍毋見矣！", en: "I've lost my phone!"}
     - {tailo: "Bué-á tshuē--tio̍h--ah!", hanji: "尾仔揣著矣！", en: "Found it in the end!"}
+    - {tailo: "Guá tī tsia̍t-ūn-tsām khioh--tio̍h tsi̍t ki tshiú-ki-á.", hanji: "我佇捷運站抾著一支手機仔。", en: "I found a phone at the metro station."}
+    - {tailo: "Hó-ka-tsài, hōo-suànn bô phah-m̄-kìnn.", hanji: "好佳哉，雨傘無拍毋見。", en: "Thank goodness, I didn't lose the umbrella."}
   fill:
     - {tailo: "Tshuē puànn-poo--ah, tshuē ___.", hanji: "揣半晡矣，揣___。", answer: "bô", answer_hanji: "無", en: "I've been looking for ages, I can't find it."}
     - {tailo: "Guá tī kong-tshia tíng, ___ hiông-hiông khùn--khì.", hanji: "我佇公車頂，___雄雄睏去。", answer: "suah", answer_hanji: "煞", en: "I was on the bus, and I suddenly fell asleep."}
     - {tailo: "Guá si̍t-tsāi tsin ___, sit-lé sit-lé.", hanji: "我實在真___，失禮失禮。", answer: "hôo-tôo", answer_hanji: "糊塗", en: "I'm such a scatterbrain, I'm so sorry."}
+    - {tailo: "Guá ___ siūnn kóng i bô beh lâi.", hanji: "我___想講伊無欲來。", answer: "guân-pún", answer_hanji: "原本", en: "At first I thought he wasn't coming."}
 audio: []

@@ -47,8 +47,11 @@ exercises:
   translate:
     - {tailo: "Guá lâi kā lí huē-sit-lé.", hanji: "我來共你會失禮。", en: "I've come to apologise."}
     - {tailo: "Tshiánn lí guân-liōng guá.", hanji: "請你原諒我。", en: "Please forgive me."}
+    - {tailo: "Guá ē tsīn-liōng thê-tsá kàu.", hanji: "我會盡量提早到。", en: "I'll do my best to arrive early."}
+    - {tailo: "Lí hòng-sim, guá bē koh kóng-pe̍h-tsha̍t.", hanji: "你放心，我袂閣講白賊。", en: "Don't worry, I won't lie again."}
   fill:
     - {tailo: "Beh siū-khì lí mā tsin ___.", hanji: "欲受氣你嘛真___。", answer: "oh", answer_hanji: "僫", en: "It's hard to stay angry with you."}
     - {tailo: "Lí ài ___ í-āu ē tsún-sî.", hanji: "你愛___以後會準時。", answer: "pó-tsìng", answer_hanji: "保證", en: "You have to promise to be on time from now on."}
     - {tailo: "Kín tsia̍h--lah, suāinn-á-ping beh ___--khì--ah.", hanji: "緊食啦，檨仔冰欲___去矣。", answer: "iûnn", answer_hanji: "溶", en: "Eat up, quick, the mango ice is melting."}
+    - {tailo: "Guá ê tshò, guá ___.", hanji: "我的錯，我___。", answer: "sîng-jīn", answer_hanji: "承認", en: "It's my fault, I admit it."}
 audio: []

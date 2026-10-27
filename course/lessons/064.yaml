@@ -51,7 +51,10 @@ exercises:
     - {tailo: "Hit-tsūn guán ta̍k-ke lóng tshiah-kha.", hanji: "彼陣阮逐家攏赤跤。", en: "Back then we all went barefoot."}
     - {tailo: "Thinn iáu teh-beh kng, guá tō tio̍h khí--lâi.", hanji: "天猶咧欲光，我就著起來。", en: "The sky was only just about to grow light, and I already had to get up."}
     - {tailo: "Liân lé-pài-ji̍t mā bô hioh-khùn.", hanji: "連禮拜日嘛無歇睏。", en: "Not even a day off on Sundays."}
+    - {tailo: "Suànn-o̍h liáu-āu, guá lóng kap pîng-iú khì tshit-thô.", hanji: "散學了後，我攏佮朋友去𨑨迌。", en: "After school I always go out to play with friends."}
+    - {tailo: "Ji̍t-thâu teh-beh lo̍h-suann--ah, lán kín tńg--khì.", hanji: "日頭咧欲落山矣，咱緊轉去。", en: "The sun's about to set, let's hurry home."}
   fill:
     - {tailo: "___ guá lâi kóng, hit-tsūn ta̍k-ke lóng kāng-khuán sàn-tshiah.", hanji: "___我來講，彼陣逐家攏仝款散赤。", answer: "Tsiū", answer_hanji: "就", en: "Speaking for myself, everyone was equally poor back then."}
     - {tailo: "___ ê sing-ua̍h tsiām-tsiām khah hó.", hanji: "___的生活漸漸較好。", answer: "Āu--lâi", answer_hanji: "後來", en: "Life gradually got better afterwards."}
+    - {tailo: "Guá ___ sè-hàn ê sî-tsūn.", hanji: "我___細漢的時陣。", answer: "siūnn-khí", answer_hanji: "想起", en: "I'm thinking back to my childhood."}
 audio: []

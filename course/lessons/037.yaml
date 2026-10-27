@@ -54,7 +54,10 @@ exercises:
     - {tailo: "Guá ū tsi̍t-puànn thiann-bô.", hanji: "我有一半聽無。", en: "I miss half of it."}
     - {tailo: "Tsin tshù-bī!", hanji: "真趣味！", en: "Fascinating!"}
     - {tailo: "Ing-hiông sing tsia̍h khóo, bué--á tsiah tshut-thâu.", hanji: "英雄先食苦，尾仔才出頭。", en: "The hero suffers first and comes out on top in the end."}
+    - {tailo: "Pòo-tē-hì peh tiám khai-sí.", hanji: "布袋戲八點開始。", en: "The puppet show starts at eight."}
+    - {tailo: "I kóng-uē siunn kín, guá lóng thiann-bô.", hanji: "伊講話傷緊，我攏聽無。", en: "He talks too fast, I don't understand anything."}
   fill:
     - {tailo: "___ guá iáu-sī thiann kah bū-sà-sà.", hanji: "___我猶是聽甲霧嗄嗄。", answer: "Tsóng--sī", answer_hanji: "總是", en: "But I'm still completely lost."}
     - {tailo: "Mài ___--ah.", hanji: "莫___矣。", answer: "gōng", answer_hanji: "戇", en: "Don't be silly."}
+    - {tailo: "Guá ___ ê sî-tsūn beh tsò ing-hiông.", hanji: "我___的時陣欲做英雄。", answer: "tuā-hàn", answer_hanji: "大漢", en: "When I grow up I want to be a hero."}
 audio: []

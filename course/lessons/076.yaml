@@ -51,7 +51,10 @@ exercises:
     - {tailo: "Siá phue kah kóng-uē bô-kâng, ài khah ū lé-sòo.", hanji: "寫批佮講話無仝，愛較有禮數。", en: "Writing a letter isn't like talking; it needs more formality."}
     - {tailo: "Tsū-tsiông lī-khui tê-suann, guá ta̍k-kang lóng siàu-liām a-peh ê tê.", hanji: "自從離開茶山，我逐工攏數念阿伯的茶。", en: "Since leaving the tea mountain, I've missed your tea every day."}
     - {tailo: "Jī bái bô-iàu-kín, sîng-ì siōng iàu-kín.", hanji: "字䆀無要緊，誠意上要緊。", en: "Ugly handwriting doesn't matter; sincerity is what counts."}
+    - {tailo: "To-siā lí ê tsiau-thāi.", hanji: "多謝你的招待。", en: "Thank you for your hospitality."}
+    - {tailo: "Guá kià tsi̍t tiunn tiān-tsú-phue hōo A-hun.", hanji: "我寄一張電子批予阿芬。", en: "I sent A-hun an email."}
   fill:
     - {tailo: "Lí ê tê ___ phang.", hanji: "你的茶___芳。", answer: "siōng-kài", answer_hanji: "上蓋", en: "Your tea is the most fragrant of all."}
     - {tailo: "A-peh nā ___, guá beh koh siá tsi̍t tiunn hōo--i.", hanji: "阿伯若___，我欲閣寫一張予伊。", answer: "huê-phue", answer_hanji: "回批", en: "If A-peh writes back, I'll write him another one."}
+    - {tailo: "___ khì Tâi-pak, i tō bô koh tńg--lâi.", hanji: "___去臺北，伊就無閣轉來。", answer: "tsū-tsiông", answer_hanji: "自從", en: "Since going to Taipei, he hasn't come back."}
 audio: []

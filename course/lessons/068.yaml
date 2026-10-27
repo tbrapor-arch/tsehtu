@@ -53,7 +53,10 @@ exercises:
     - {tailo: "Siōng bué su sann hun.", hanji: "上尾輸三分。", en: "They lost by three points in the end."}
     - {tailo: "Hōo tuì-hong phah kuí ki tsuân-luí-tánn.", hanji: "予對方拍幾支全壘打。", en: "The other side hit several home runs off him."}
     - {tailo: "Guá iáu-sī khah ǹg-bāng Thóng-it-sai iânn.", hanji: "我猶是較向望統一獅贏。", en: "I still hope the Uni-Lions win more."}
+    - {tailo: "Guán sió-tī kah-ì phah kha-kiû.", hanji: "阮小弟佮意拍跤球。", en: "My little brother likes playing football."}
+    - {tailo: "Kin-á-ji̍t ê pí-sài, guán tsit tuī iânn--ah.", hanji: "今仔日的比賽，阮這隊贏矣。", en: "Our team won today's match."}
   fill:
     - {tailo: "___ i hit pîng ê tánn-kik iáu bē-bái.", hanji: "___伊彼爿的打擊猶袂䆀。", answer: "Tān-sī", answer_hanji: "但是", en: "But that side's batting wasn't bad."}
     - {tailo: "___--lah! Siōng bué tsi̍t kio̍k, nn̄g hong lóng phah kah tsiânn phah-piànn.", hanji: "___啦！上尾一局，兩方攏拍甲誠拍拚。", answer: "Khuànn-kìnn", answer_hanji: "看見", en: "I saw it! In the last inning both sides played their hearts out."}
+    - {tailo: "Tsit ê ha̍k-sing tha̍k-tsheh tsin kut-la̍t, ___ i bô sìn-sim.", hanji: "這个學生讀冊真骨力，___伊無信心。", answer: "tān-sī", answer_hanji: "但是", en: "This student studies hard, but he lacks confidence."}
 audio: []

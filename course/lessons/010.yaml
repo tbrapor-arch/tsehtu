@@ -115,6 +115,12 @@ exercises:
   - tailo: Ta̍k-ke lóng thiann-ū.
     hanji: 逐家攏聽有。
     en: Everyone understands.
+  - tailo: "Tâi-pak kap Tâi-lâm ê tsá-tǹg ū tām-po̍h-á bô-kâng."
+    hanji: "臺北佮臺南的早頓有淡薄仔無仝。"
+    en: "Breakfast in Taipei and Tainan is a little different."
+  - tailo: "Siōng tiōng-iàu ê sī ta̍k-ke lóng thiann-ū."
+    hanji: "上重要的是逐家攏聽有。"
+    en: "The most important thing is that everyone understands."
   fill:
   - tailo: Guá beh o̍h ___ tsi̍t khuán?
     hanji: 我欲學___一款？
@@ -126,4 +132,9 @@ exercises:
     answer: kánn
     answer_hanji: 敢
     en: The most important thing is to dare to speak!
+  - tailo: "Guán a-má kóng ê Tâi-gí, guá lóng ___."
+    hanji: "阮阿媽講的臺語，我攏___。"
+    answer: "thiann-ū"
+    answer_hanji: "聽有"
+    en: "I understand all the Taigi my grandma speaks."
 audio: []

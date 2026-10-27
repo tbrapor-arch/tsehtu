@@ -53,7 +53,10 @@ exercises:
     - {tailo: "Ngiâ Má-tsóo tō sī ài lāu-jia̍t--mah!", hanji: "迎媽祖就是愛鬧熱嘛！", en: "A Mazu procession is supposed to be noisy, you know!"}
     - {tailo: "Tsìng-lâng lóng kuī tī lōo-pinn.", hanji: "眾人攏跪佇路邊。", en: "People kneel by the roadside."}
     - {tailo: "Lán khì biō-tiânn sio-hiunn.", hanji: "咱去廟埕燒香。", en: "Let's go to the temple square and burn incense."}
+    - {tailo: "A-má khì biō kiû Má-tsóo pó-pì.", hanji: "阿媽去廟求媽祖保庇。", en: "Grandma went to the temple to ask Mazu for protection."}
+    - {tailo: "Biō-tiânn ū tsiok tsē gín-á teh tshit-thô.", hanji: "廟埕有足濟囡仔咧𨑨迌。", en: "There are lots of children playing in the temple square."}
   fill:
     - {tailo: "Kám-kak sim-thâu sio-sio, tsin ti̍k-pia̍t--___!", hanji: "感覺心頭燒燒，真特別___！", answer: "neh", answer_hanji: "呢", en: "My heart feels all warm. That's really special!"}
     - {tailo: "Má-tsóo sī hái ê ___.", hanji: "媽祖是海的___。", answer: "sîn", answer_hanji: "神", en: "Mazu is the goddess of the sea."}
+    - {tailo: "Hái-pinn ū tsi̍t tsiah ___.", hanji: "海邊有一隻___。", answer: "tsûn", answer_hanji: "船", en: "There's a boat by the shore."}
 audio: []

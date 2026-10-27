@@ -134,6 +134,12 @@ exercises:
   - tailo: Tsi̍t kang sann pái, tsia̍h-pá tsiah tsia̍h.
     hanji: 一工三擺，食飽才食。
     en: Three times a day, after meals.
+  - tailo: "Guá thâu-khak thiànn, kin-á-ji̍t beh tshíng-ká."
+    hanji: "我頭殼疼，今仔日欲請假。"
+    en: "I have a headache, I'm taking the day off today."
+  - tailo: "Tsit niá sann guā-tsē tsînn?"
+    hanji: "這領衫偌濟錢？"
+    en: "How much is this shirt?"
   fill:
   - tailo: Guá ___ thiànn.
     hanji: 我___疼。
@@ -150,4 +156,9 @@ exercises:
     answer: "tsiām-sî"
     answer_hanji: "暫時"
     en: "For the next few days don't push yourself."
+  - tailo: "I ___ ka-sàu, àm-sî lóng khùn bē khì."
+    hanji: "伊___咳嗽，暗時攏睏袂去。"
+    answer: "it-ti̍t"
+    answer_hanji: "一直"
+    en: "He keeps coughing and can't sleep at night."
 audio: []

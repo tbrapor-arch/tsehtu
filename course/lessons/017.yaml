@@ -125,6 +125,12 @@ exercises:
   - tailo: Mài tsáu, lōo tsiok ku̍t.
     hanji: 莫走，路足滑。
     en: Don't run, the road is very slippery.
+  - tailo: "Tsia̍t-ūn-tsām tī tsiànn-tshiú-pîng."
+    hanji: "捷運站佇正手爿。"
+    en: "The metro station is on the right."
+  - tailo: "Lōo ku̍t, kiânn khah bān--leh."
+    hanji: "路滑，行較慢咧。"
+    en: "The road's slippery, walk a bit slower."
   fill:
   - tailo: Kàu lōo-kháu ___ tsiànn-tshiú-pîng.
     hanji: 到路口___正手爿。
@@ -136,4 +142,9 @@ exercises:
     answer: Tú-tsiah
     answer_hanji: 拄才
     en: It just rained, didn't it?
+  - tailo: "Hit ê ___ tshuā guá khì tsia̍t-ūn-tsām."
+    hanji: "彼个___𤆬我去捷運站。"
+    answer: "a-peh"
+    answer_hanji: "阿伯"
+    en: "That old man took me to the metro station."
 audio: []

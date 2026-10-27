@@ -27,7 +27,10 @@ exercises:
     - {tailo: "Guá kàu-uī--ah, lâi kā lí pò pîng-an.", hanji: "我到位矣，來共你報平安。", en: "I've arrived; I'm calling to let you know I'm safe."}
     - {tailo: "Guá m̄ sī kín-tiunn, sī kuan-sim.", hanji: "我毋是緊張，是關心。", en: "I wasn't worried, I was concerned."}
     - {tailo: "Kóng m̄-tio̍h mā sī tshiò-khue.", hanji: "講毋著嘛是笑詼。", en: "Getting it wrong is just a joke."}
+    - {tailo: "I kín-tiunn kah m̄ tsai beh kóng siánn.", hanji: "伊緊張甲毋知欲講啥。", en: "He was so nervous he didn't know what to say."}
+    - {tailo: "Huê-siu tsìn-tsîng ài sing hun-luī.", hanji: "回收進前愛先分類。", en: "Sort things before recycling them."}
   fill:
     - {tailo: "Sim-lāi siōng-kài ___--lí.", hanji: "心內上蓋___你。", answer: "pó-sioh", answer_hanji: "寶惜", en: "Deep down he treasures you more than anyone."}
     - {tailo: "Guá tú-tsiah ___, the̍h khì huê-siu.", hanji: "我拄才___，提去回收。", answer: "hun-luī", answer_hanji: "分類", en: "I've just sorted it and taken it to the recycling."}
+    - {tailo: "Kàu-uī liáu-āu, m̄-thang bē-kì-tit khà tiān-uē pò ___.", hanji: "到位了後，毋通袂記得敲電話報___。", answer: "pîng-an", answer_hanji: "平安", en: "When you get there, don't forget to call to say you're safe."}
 audio: []

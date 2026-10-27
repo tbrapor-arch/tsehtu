@@ -123,6 +123,12 @@ exercises:
   - tailo: Tshiánn lí hōo i ji̍p--khì.
     hanji: 請你予伊入去。
     en: Please let him in.
+  - tailo: "Bîn-á-tsài guá beh khì pîng-iú tau."
+    hanji: "明仔載我欲去朋友兜。"
+    en: "Tomorrow I'm going to my friend's place."
+  - tailo: "Guá ê pîng-iú bîn-á-tsài tsiah tńg-khì Tâi-lâm."
+    hanji: "我的朋友明仔載才轉去臺南。"
+    en: "My friend isn't going back to Tainan until tomorrow."
   fill:
   - tailo: Guá lé-pài-it ___ tńg-khì Tâi-pak.
     hanji: 我禮拜一___轉去臺北。
@@ -134,4 +140,9 @@ exercises:
     answer: tāi-tsì
     answer_hanji: 代誌
     en: What's up?
+  - tailo: "Bô ___, guá bîn-á-tsài lâi the̍h."
+    hanji: "無___，我明仔載來提。"
+    answer: "būn-tê"
+    answer_hanji: "問題"
+    en: "No problem, I'll come and fetch it tomorrow."
 audio: []

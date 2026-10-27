@@ -50,7 +50,10 @@ exercises:
     - {tailo: "Lí ū siánn-mih tsìng-thâu?", hanji: "你有啥物症頭？", en: "What are your symptoms?"}
     - {tailo: "Tshuì peh-khui.", hanji: "喙擘開。", en: "Open your mouth."}
     - {tailo: "Tsia̍h liáu ē ài-khùn, lí tō mài koh khiâ ki-tshia.", hanji: "食了會愛睏，你就莫閣騎機車。", en: "It'll make you drowsy, so don't ride your scooter."}
+    - {tailo: "Guá kin-á-ji̍t tsiok ài-khùn.", hanji: "我今仔日足愛睏。", en: "I'm really sleepy today."}
+    - {tailo: "Lí ê sin-khu bô siánn-mih būn-tê.", hanji: "你的身軀無啥物問題。", en: "There's nothing wrong with your body."}
   fill:
     - {tailo: "Lí ___ ke lim tsuí.", hanji: "你___加啉水。", answer: "tio̍h-ài", answer_hanji: "著愛", en: "You must drink more water."}
     - {tailo: "Bián ___.", hanji: "免___。", answer: "huân-ló", answer_hanji: "煩惱", en: "No need to worry."}
+    - {tailo: "Lí kin-á-ji̍t ___ khì khuànn i-sing.", hanji: "你今仔日___去看醫生。", answer: "tio̍h-ài", answer_hanji: "著愛", en: "You really must see a doctor today."}
 audio: []

@@ -55,7 +55,10 @@ exercises:
     - {tailo: "Jîn-sing tshin-tshiūnn tsi̍t tiâu lōo, ū pênn mā ū kiā.", hanji: "人生親像一條路，有平嘛有崎。", en: "Life is like a road: there are flat stretches and steep ones."}
     - {tailo: "Sè-kan ê tāi-tsì, bô it-tīng lóng tsiàu lán ê ì-sù kiânn.", hanji: "世間的代誌，無一定攏照咱的意思行。", en: "Things in this world don't always go the way we want."}
     - {tailo: "Hó ê bûn-tsiong tō sī án-ne.", hanji: "好的文章就是按呢。", en: "That's what good writing does."}
+    - {tailo: "Guá sī tī Tâi-pak tshut-sì--ê.", hanji: "我是佇臺北出世的。", en: "I was born in Taipei."}
+    - {tailo: "Tsit tiâu lōo tsin kiā, khiâ ki-tshia ài sè-jī.", hanji: "這條路真崎，騎機車愛細膩。", en: "This road is very steep, be careful on the scooter."}
   fill:
     - {tailo: "M̄-koh ___ sim-thâu ū tsi̍t ê sóo-tsāi thang tńg-khì, lâng tō m̄ kiann kiânn hn̄g lōo.", hanji: "毋過___心頭有一个所在通轉去，人就毋驚行遠路。", answer: "tsí-iàu", answer_hanji: "只要", en: "But as long as there is a place in your heart to go back to, you're not afraid of a long road."}
     - {tailo: "Lí án-tsuánn thāi--i, i tō án-tsuánn ___--lí.", hanji: "你按怎待伊，伊就按怎___你。", answer: "pò-tap", answer_hanji: "報答", en: "However you treat it, that is how it repays you."}
+    - {tailo: "I tsi̍t-sì-lâng lóng tsin ___, m̄ bat huân-ló tsînn.", hanji: "伊一世人攏真___，毋捌煩惱錢。", answer: "ti-tsiok", answer_hanji: "知足", en: "All his life he was content and never worried about money."}
 audio: []

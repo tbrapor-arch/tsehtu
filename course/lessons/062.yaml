@@ -53,7 +53,10 @@ exercises:
   translate:
     - {tailo: "Kàu tē-jī ê tshenn-âng-ting uat tò-tshiú.", hanji: "到第二个青紅燈斡倒手。", en: "Turn left at the second traffic lights."}
     - {tailo: "Guá kàu-uī--ah!", hanji: "我到位矣！", en: "I'm here!"}
+    - {tailo: "Gîn-hâng tī pēnn-īnn tuì-bīn.", hanji: "銀行佇病院對面。", en: "The bank is opposite the hospital."}
+    - {tailo: "Mài kip, lán bān-bān-á lâi.", hanji: "莫急，咱慢慢仔來。", en: "Don't rush, let's take it slowly."}
   fill:
     - {tailo: "Khuànn-tio̍h lâng tō ___ tshia-tòng.", hanji: "看著人就___車擋。", answer: "ta̍h", answer_hanji: "踏", en: "Brake when you see people."}
     - {tailo: "Tsiànn-tshiú, tò-tshiú, guá ___ hun bē tshing-tshó.", hanji: "正手、倒手，我___分袂清楚。", answer: "tiānn-tiānn", answer_hanji: "定定", en: "Right and left, I'm always mixing them up."}
+    - {tailo: "Tsit tiâu lōo tsin ___, tshia bē-sái ji̍p--khì.", hanji: "這條路真___，車袂使入去。", answer: "e̍h", answer_hanji: "狹", en: "This road is very narrow, cars can't go in."}
 audio: []

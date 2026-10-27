@@ -52,8 +52,11 @@ exercises:
   translate:
     - {tailo: "Guá kā lí tàu ak.", hanji: "我共你鬥沃。", en: "Let me help you water."}
     - {tailo: "Lín nn̄g ê lóng tsin iú-hàu.", hanji: "恁兩个攏真有孝。", en: "You're both so good to me."}
+    - {tailo: "Guán a-kong thàu-tsá tō khì tshī ke.", hanji: "阮阿公透早就去飼雞。", en: "My grandpa goes to feed the chickens first thing in the morning."}
+    - {tailo: "Tsit ê gín-á tsin kuai, koh tsin iú-hàu.", hanji: "這个囡仔真乖，閣真有孝。", en: "This child is very good, and devoted to the elders."}
   fill:
     - {tailo: "Koh ài ___ ke.", hanji: "閣愛___雞。", answer: "tshī", answer_hanji: "飼", en: "I still have to feed the chickens."}
     - {tailo: "Koh tsin ___.", hanji: "閣真___。", answer: "phah-piànn", answer_hanji: "拍拚", en: "And a hard worker too."}
     - {tailo: "Khah-tsá guán tau ê tshân-hn̂g tsiok ___.", hanji: "較早阮兜的田園足___。", answer: "khuah", answer_hanji: "闊", en: "Our land used to be really big."}
+    - {tailo: "Thàu-tsá ___ tshài, ē-poo bán tsháu.", hanji: "透早___菜，下晡挽草。", answer: "ak", answer_hanji: "沃", en: "Water the vegetables in the morning, weed in the afternoon."}
 audio: []

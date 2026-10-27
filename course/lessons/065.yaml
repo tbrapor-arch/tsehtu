@@ -54,7 +54,10 @@ exercises:
     - {tailo: "Tē-tāng--lah! Kín thiàu lo̍h bîn-tshn̂g, bih tī toh-kha!", hanji: "地動啦！緊跳落眠床，覕佇桌跤！", en: "It's an earthquake! Quick, jump out of bed and hide under the table!"}
     - {tailo: "Hù-kīn kám ū tshù pang--khì?", hanji: "附近敢有厝崩去？", en: "Did any nearby houses collapse?"}
     - {tailo: "Lâng pîng-an tō hó.", hanji: "人平安就好。", en: "As long as people are safe, that's enough."}
+    - {tailo: "Tē-tāng ê sî-tsūn, bih tī toh-kha siōng an-tsuân.", hanji: "地動的時陣，覕佇桌跤上安全。", en: "During an earthquake, hiding under a table is safest."}
+    - {tailo: "Tsa-àm tē-tāng, guá tsin tio̍h-kiann.", hanji: "昨暗地動，我真著驚。", en: "Last night's earthquake really startled me."}
   fill:
     - {tailo: "Ū-kàu ___! Bîn-tshn̂g lóng teh hàinn.", hanji: "有夠___！眠床攏咧幌。", answer: "hiông", answer_hanji: "雄", en: "That was incredibly violent! The bed was swaying."}
     - {tailo: "Piah ___ tē-tāng khiú kah ū khang-phāng.", hanji: "壁___地動搝甲有空縫。", answer: "hōo", answer_hanji: "予", en: "The wall got pulled by the earthquake until there were gaps."}
+    - {tailo: "I tsáu siunn kín, pua̍h-tó ___.", hanji: "伊走傷緊，跋倒___。", answer: "tio̍h-siong", answer_hanji: "著傷", en: "He ran too fast, fell and got hurt."}
 audio: []

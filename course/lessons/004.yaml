@@ -138,6 +138,12 @@ exercises:
   - tailo: Guá bé nn̄g kin.
     hanji: 我買兩斤。
     en: I'll buy two catties.
+  - tailo: "Tsit khuán tsi̍t kin sann-tsa̍p khoo, hit khuán tsi̍t kin gōo-tsa̍p khoo."
+    hanji: "這款一斤三十箍，彼款一斤五十箍。"
+    en: "This kind is thirty dollars a catty, that kind fifty."
+  - tailo: "Thâu-ke, guá beh koh bé tsi̍t kin."
+    hanji: "頭家，我欲閣買一斤。"
+    en: "Boss, I'd like one more catty."
   fill:
   - tailo: Ū khah ___ ê--bô?
     hanji: 有較___的無？
@@ -149,4 +155,9 @@ exercises:
     answer: Hōo
     answer_hanji: 予
     en: Here's a hundred (I give you a hundred).
+  - tailo: "Thâu-ke ___ guá gōo-tsa̍p khoo."
+    hanji: "頭家___我五十箍。"
+    answer: "tsāu"
+    answer_hanji: "找"
+    en: "The stallholder gave me fifty dollars change."
 audio: []

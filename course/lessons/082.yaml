@@ -52,7 +52,10 @@ exercises:
     - {tailo: "Sann ê lóng sī káng-kháu, tsûn lâi tsûn khì.", hanji: "三个攏是港口，船來船去。", en: "All three were ports, with ships coming and going."}
     - {tailo: "Hit-sî ê ke-á tsin huân-huâ.", hanji: "彼時的街仔真繁華。", en: "The streets were very busy then."}
     - {tailo: "Tsi̍t ê sóo-tsāi ū hing mā ū sue.", hanji: "一个所在有興嘛有衰。", en: "Every place rises and declines."}
+    - {tailo: "Tâi-lâm ê li̍k-sú tsin kú.", hanji: "臺南的歷史真久。", en: "Tainan has a long history."}
+    - {tailo: "Kuè-nî ê sî, tshia-thâu lâng kheh kah bē kiânn.", hanji: "過年的時，車頭人𤲍甲袂行。", en: "At New Year the station is so crowded you can't move."}
   fill:
     - {tailo: "___ piàn--looh.", hanji: "___變囉。", answer: "Sî-tāi", answer_hanji: "時代", en: "Times have changed."}
     - {tailo: "Tê-hio̍h, pòo, io̍h-tsâi tuì hia ___.", hanji: "茶葉、布、藥材對遐___。", answer: "tshut-kháu", answer_hanji: "出口", en: "Tea, cloth and herbs were exported from there."}
+    - {tailo: "Tâi-pak tsit-má tsiok ___.", hanji: "臺北這馬足___。", answer: "huân-huâ", answer_hanji: "繁華", en: "Taipei is very bustling now."}
 audio: []

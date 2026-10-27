@@ -27,7 +27,10 @@ exercises:
     - {tailo: "Ta̍k-ke lóng hōo kiann kah bē khùn.", hanji: "逐家攏予驚甲袂睏。", en: "Everyone was so frightened they couldn't sleep."}
     - {tailo: "Sui-jiân su--ah, m̄-koh tsin tsing-tshái.", hanji: "雖然輸矣，毋過真精彩。", en: "Although they lost, it was really exciting."}
     - {tailo: "M̄-kuán pa̍t-lâng án-tsuánn khai-tsînn, guá ū ka-kī ê àn-sǹg.", hanji: "毋管別人按怎開錢，我有家己的按算。", en: "Whatever other people spend, I have my own plan."}
+    - {tailo: "Sui-jiân siu-ji̍p bô tsē, i iáu-sī tsin huann-hí.", hanji: "雖然收入無濟，伊猶是真歡喜。", en: "Although his income isn't much, he's still very happy."}
+    - {tailo: "Guán a-kong sè-hàn lóng tshiah-kha khì tha̍k-tsheh.", hanji: "阮阿公細漢攏赤跤去讀冊。", en: "As a child my grandpa always went to school barefoot."}
   fill:
     - {tailo: "Guá sè-hàn ê sî ___ ê to bô thang tshīng.", hanji: "我細漢的時___鞋都無通穿。", answer: "liân", answer_hanji: "連", en: "When I was little I didn't even have shoes to wear."}
     - {tailo: "Lo̍k-káng hit ___, guá siōng ài lāu tsi̍t puè ê khiunn-kháu.", hanji: "鹿港彼___，我上愛老一輩的腔口。", answer: "tsuā", answer_hanji: "逝", en: "On the Lukang trip, what I liked best was the old people's accent."}
+    - {tailo: "Tsit pái ê pí-sài guán ___--ah.", hanji: "這擺的比賽阮___矣。", answer: "su", answer_hanji: "輸", en: "We lost this match."}
 audio: []

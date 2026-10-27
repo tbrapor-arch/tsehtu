@@ -82,6 +82,12 @@ exercises:
   - tailo: Guá beh kā lí kóng.
     hanji: 我欲共你講。
     en: I want to tell you.
+  - tailo: "Tsit pái guá bô phuà-pēnn."
+    hanji: "這擺我無破病。"
+    en: "This time I didn't fall ill."
+  - tailo: "Guán sió-muē ê Tâi-gí mā ū tsìn-pōo."
+    hanji: "阮小妹的臺語嘛有進步。"
+    en: "My younger sister's Taigi has improved too."
   fill:
   - tailo: ___ thǹg--tio̍h.
     hanji: ___燙著。
@@ -93,4 +99,9 @@ exercises:
     answer: hōo
     answer_hanji: 予
     en: Please let him in.
+  - tailo: "Tsit ___ lán tsò-hué khì."
+    hanji: "這___咱做伙去。"
+    answer: "pái"
+    answer_hanji: "擺"
+    en: "This time let's go together."
 audio: []

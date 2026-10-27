@@ -54,7 +54,10 @@ exercises:
     - {tailo: "Lí ná ē tsiah-nī ut-tsut?", hanji: "你哪會遮爾鬱卒？", en: "Why so down?"}
     - {tailo: "Mài siū-khì.", hanji: "莫受氣。", en: "Don't be angry."}
     - {tailo: "Ū tāi-tsì tō kóng--tshut-lâi, mài ka-kī tsi̍t ê lâng iu-būn.", hanji: "有代誌就講出來，莫家己一个人憂悶。", en: "If something's wrong, talk about it. Don't brood on your own."}
+    - {tailo: "Tsit ê būn-tê guá ka-kī ē-tàng kái-kuat.", hanji: "這个問題我家己會當解決。", en: "I can solve this problem myself."}
+    - {tailo: "Guán a-hiann tsiok ài kóng tshiò-khue.", hanji: "阮阿兄足愛講笑詼。", en: "My older brother loves telling jokes."}
   fill:
     - {tailo: "Kin-á-ji̍t ___ tsú-kuán mē.", hanji: "今仔日___主管罵。", answer: "hōo", answer_hanji: "予", en: "My boss told me off today."}
     - {tailo: "Bîn-á-tsài lí ___ tsò.", hanji: "明仔載你___做。", answer: "suà--lo̍h-khì", answer_hanji: "紲落去", en: "Tomorrow you carry on."}
+    - {tailo: "Guá ___ bô ài khì.", hanji: "我___無愛去。", answer: "kî-si̍t", answer_hanji: "其實", en: "Actually I don't want to go."}
 audio: []

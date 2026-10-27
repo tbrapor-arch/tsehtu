@@ -53,8 +53,11 @@ exercises:
   translate:
     - {tailo: "He sī siánn-mih?", hanji: "彼是啥物？", en: "What's that?"}
     - {tailo: "Mài siû siunn hn̄g.", hanji: "莫泅傷遠。", en: "Don't swim too far out."}
+    - {tailo: "Kin-á-ji̍t hó-thinn, lán khì hái-pinn.", hanji: "今仔日好天，咱去海邊。", en: "The weather's nice today, let's go to the beach."}
+    - {tailo: "Guá m̄ bat tī hái-pinn siû-tsuí.", hanji: "我毋捌佇海邊泅水。", en: "I've never swum at the beach."}
   fill:
     - {tailo: "Kin-á-ji̍t ê íng tsiânn ___.", hanji: "今仔日的湧誠___。", answer: "kuân", answer_hanji: "懸", en: "The waves are really high today."}
     - {tailo: "Án-ne ___ beh án-tsuánn?", hanji: "按呢___欲按怎？", answer: "tann", answer_hanji: "今", en: "So what do we do now?"}
     - {tailo: "Sua-poo hia ū tsi̍t ê a-peh teh lia̍h ___.", hanji: "沙埔遐有一个阿伯咧掠___。", answer: "hê-á", answer_hanji: "蝦仔", en: "There's an old man catching shrimps over there on the sand."}
+    - {tailo: "Lán ___ tsia tán i.", hanji: "咱___遮等伊。", answer: "tiàm", answer_hanji: "踮", en: "Let's wait for him here."}
 audio: []

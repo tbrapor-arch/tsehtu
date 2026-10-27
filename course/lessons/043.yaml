@@ -56,8 +56,11 @@ exercises:
     - {tailo: "Guá mā ē-sái khì tsia̍h-toh--bô?", hanji: "我嘛會使去食桌無？", en: "Can I come to the banquet too?"}
     - {tailo: "Siang-sòo khah hó.", hanji: "雙數較好。", en: "Even numbers are better."}
     - {tailo: "Tī kong-si tō tshuē-tio̍h sim-ài ê lâng, tsin lân-tit.", hanji: "佇公司就揣著心愛的人，真難得。", en: "Finding the one you love at work is quite something."}
+    - {tailo: "Guán tuā-tsí beh kap i ê tông-sū kiat-hun.", hanji: "阮大姊欲佮伊的同事結婚。", en: "My eldest sister is going to marry her colleague."}
+    - {tailo: "Pān-toh ê sî-tsūn lâng-kheh tsiok tsē.", hanji: "辦桌的時陣人客足濟。", en: "There are lots of guests at a banquet."}
   fill:
     - {tailo: "In beh tī tsng-kha ___.", hanji: "𪜶欲佇庄跤___。", answer: "pān-toh", answer_hanji: "辦桌", en: "They're holding a banquet in the countryside."}
     - {tailo: "Hiah-nī ___.", hanji: "遐爾___。", answer: "lāu-jia̍t", answer_hanji: "鬧熱", en: "So lively."}
     - {tailo: "Lí nā beh ___, guá kā piáu-hiann kóng tsi̍t siann.", hanji: "你若欲___，我共表兄講一聲。", answer: "tsham-ka", answer_hanji: "參加", en: "If you'd like to come, I'll have a word with my cousin."}
+    - {tailo: "Guá kià tsi̍t tiunn ___ hōo lí.", hanji: "我寄一張___予你。", answer: "hí-thiap", answer_hanji: "喜帖", en: "I've sent you a wedding invitation."}
 audio: []

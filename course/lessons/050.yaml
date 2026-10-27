@@ -45,7 +45,10 @@ exercises:
   translate:
     - {tailo: "Tse sī guá thâu-tsi̍t-pái īng Tâi-gí siá phue.", hanji: "這是我頭一擺用臺語寫批。", en: "This is the first time I've written a letter in Taiwanese."}
     - {tailo: "Tsiok lín sin-thé kiān-khong.", hanji: "祝恁身體健康。", en: "Wishing you good health."}
+    - {tailo: "Kám-siā lí tsiàu-kòo guán a-má.", hanji: "感謝你照顧阮阿媽。", en: "Thank you for looking after my grandma."}
+    - {tailo: "Kin-á-ji̍t lo̍h-hōo, sóo-í guá tiàm tshù-lāi siá phue.", hanji: "今仔日落雨，所以我踮厝內寫批。", en: "It's raining today, so I'm staying in and writing letters."}
   fill:
     - {tailo: "Guá o̍h Tâi-gí tú-hó puànn ___--ah.", hanji: "我學臺語拄好半___矣。", answer: "tang", answer_hanji: "冬", en: "I've been learning Taiwanese for exactly half a year."}
     - {tailo: "Tsit-má ē-tàng kah lín ___--ah.", hanji: "這馬會當佮恁___矣。", answer: "khai-káng", answer_hanji: "開講", en: "Now I can chat with you all."}
+    - {tailo: "Guá ē-hiáu siá tsi̍t-kuá ___.", hanji: "我會曉寫一寡___。", answer: "Hàn-jī", answer_hanji: "漢字", en: "I can write some Chinese characters."}
 audio: []

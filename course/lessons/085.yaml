@@ -55,7 +55,10 @@ exercises:
     - {tailo: "Tsa-àm kok-tō huat-sing tshia-hō.", hanji: "昨暗國道發生車禍。", en: "Last night there was a crash on the motorway."}
     - {tailo: "Kíng-tshat tng teh tiâu-tsa sū-kòo ê guân-in.", hanji: "警察當咧調查事故的原因。", en: "Police are investigating the cause of the accident."}
     - {tailo: "Thiann sin-bûn sing lia̍h tiōng-tiám.", hanji: "聽新聞先掠重點。", en: "When you listen to the news, grab the key points first."}
+    - {tailo: "Kin-á-ji̍t tsá-khí, tshia-thâu tuì-bīn huat-sing tshia-hō.", hanji: "今仔日早起，車頭對面發生車禍。", en: "This morning there was a road accident opposite the station."}
+    - {tailo: "Tsit ê tē-khu bo̍k-tsiân iáu-buē ū tsia̍t-ūn.", hanji: "這个地區目前猶未有捷運。", en: "This area doesn't have a metro yet."}
   fill:
     - {tailo: "___ ū nn̄g lâng tio̍h-siong.", hanji: "___有兩人著傷。", answer: "Bo̍k-tsiân", answer_hanji: "目前", en: "Two people have been injured."}
     - {tailo: "Sóo-iú ê ua̍h-tāng lóng bián-tsînn, ___ ū Tâi-gí tō-lám.", hanji: "所有的活動攏免錢，___有台語導覽。", answer: "jî-tshiánn", answer_hanji: "而且", en: "All the events are free, and there will be Taigi tours too."}
+    - {tailo: "Tsit king tiàm ê tshài tsiok hó-tsia̍h, ___ tsiok sio̍k.", hanji: "這間店的菜足好食，___足俗。", answer: "jî-tshiánn", answer_hanji: "而且", en: "This shop's food is delicious, and very cheap too."}
 audio: []

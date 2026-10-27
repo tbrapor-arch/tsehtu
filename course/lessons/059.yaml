@@ -52,7 +52,10 @@ exercises:
   translate:
     - {tailo: "Sǹg khah sio̍k--leh, hó--bô?", hanji: "算較俗咧，好無？", en: "Give me a better price?"}
     - {tailo: "Lâng mā ài tsò sing-lí.", hanji: "人嘛愛做生理。", en: "They have a living to make too."}
+    - {tailo: "Tsit khuán io̍h-á tsin ū-hāu.", hanji: "這款藥仔真有效。", en: "This kind of medicine really works."}
+    - {tailo: "Guân-lâi lí ē-hiáu kóng-kè!", hanji: "原來你會曉講價！", en: "So you know how to bargain!"}
   fill:
     - {tailo: "Tshài ê kè-siàu lóng ___--khí-lâi--ah.", hanji: "菜的價數攏___起來矣。", answer: "giâ", answer_hanji: "夯", en: "Vegetable prices have all gone up."}
     - {tailo: "___ âng-âng ê kué-tsí sī siánn-mih?", hanji: "___紅紅的果子是啥物？", answer: "Hit-lō", answer_hanji: "彼號", en: "What's that red fruit?"}
+    - {tailo: "Tsit ê sing-lí tsò bô hó, guá ___--ah.", hanji: "這个生理做無好，我___矣。", answer: "liáu-tsînn", answer_hanji: "了錢", en: "The business didn't go well, I lost money."}
 audio: []

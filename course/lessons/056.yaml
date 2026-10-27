@@ -29,7 +29,10 @@ exercises:
     - {tailo: "Guá tshuē-tio̍h thâu-lōo--ah!", hanji: "我揣著頭路矣！", en: "I've found a job!"}
     - {tailo: "I bô kuàn-sì tsia̍h tinn--ê.", hanji: "伊無慣勢食甜的。", en: "She isn't used to sweet food."}
     - {tailo: "M̄-kuán ū siánn-mih būn-tê, lóng ē-sái lâi tshuē guá.", hanji: "毋管有啥物問題，攏會使來揣我。", en: "Whatever the problem, you can always come and find me."}
+    - {tailo: "Guá iáu-buē kuàn-sì tsia̍h tshàu-tāu-hū.", hanji: "我猶未慣勢食臭豆腐。", en: "I'm still not used to eating stinky tofu."}
+    - {tailo: "I thâu-tsi̍t-pái kià phue hōo lāu-bú.", hanji: "伊頭一擺寄批予老母。", en: "It's the first time he's sent his mother a letter."}
   fill:
     - {tailo: "I kóng ___ hó-lim, koh tsin phang.", hanji: "伊講___好啉，閣真芳。", answer: "m̄-nā", answer_hanji: "毋但", en: "She says it's not only good to drink but smells lovely too."}
     - {tailo: "A-má kóng lí ___ guán sió-tī.", hanji: "阿媽講你___阮小弟。", answer: "bē-su", answer_hanji: "袂輸", en: "A-má said you were just like our little brother."}
+    - {tailo: "Guá tuà Tâi-lâm nn̄g kang tō ___--ah.", hanji: "我蹛臺南兩工就___矣。", answer: "kuàn-sì", answer_hanji: "慣勢", en: "After two days in Tainan I was used to it."}
 audio: []

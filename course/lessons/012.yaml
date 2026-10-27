@@ -112,6 +112,12 @@ exercises:
   - tailo: Guá tshuā lí khì khuànn-i-sing.
     hanji: 我𤆬你去看醫生。
     en: I'll take you to the doctor.
+  - tailo: "Guán a-bú huat-sio, guá tshuā i khì khuànn i-sing."
+    hanji: "阮阿母發燒，我𤆬伊去看醫生。"
+    en: "My mum has a fever, I'm taking her to the doctor."
+  - tailo: "Àm-sî mài tsia̍h siunn tsē."
+    hanji: "暗時莫食傷濟。"
+    en: "Don't eat too much at night."
   fill:
   - tailo: Kám sī tsia̍h siunn ___?
     hanji: 敢是食傷___？
@@ -123,4 +129,9 @@ exercises:
     answer: bē
     answer_hanji: 袂
     en: I couldn't sleep all night.
+  - tailo: "Tsit ê io̍h-á tsiânn ___."
+    hanji: "這个藥仔誠___。"
+    answer: "khóo"
+    answer_hanji: "苦"
+    en: "This medicine is very bitter."
 audio: []

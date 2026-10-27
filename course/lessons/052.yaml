@@ -52,7 +52,10 @@ exercises:
   translate:
     - {tailo: "Lí tang-sî ē-tàng lâi siōng-pan?", hanji: "你當時會當來上班？", en: "When can you start work?"}
     - {tailo: "Guá ē sing kā tāi-tsì tshuân hōo hó-sè.", hanji: "我會先共代誌攢予好勢。", en: "I'll get everything ready first."}
+    - {tailo: "Guán kong-si tsit-má khiàm nn̄g ê lâng.", hanji: "阮公司這馬欠兩个人。", en: "Our company is short of two people right now."}
+    - {tailo: "Bîn-á-tsài tsá-khí guá it-tīng ē kàu.", hanji: "明仔載早起我一定會到。", en: "I'll definitely be there tomorrow morning."}
   fill:
     - {tailo: "___ ū siánn-mih būn-tê, lóng ē-sái lâi tshuē guá.", hanji: "___有啥物問題，攏會使來揣我。", answer: "M̄-kuán", answer_hanji: "毋管", en: "Whatever the problem, you can come and find me."}
     - {tailo: "Lí ná ē siūnn beh lâi guán kong-si tsia̍h ___?", hanji: "你哪會想欲來阮公司食___？", answer: "thâu-lōo", answer_hanji: "頭路", en: "Why do you want to work for our company?"}
+    - {tailo: "Tsit ê gín-á tha̍k-tsheh tsin ___.", hanji: "這个囡仔讀冊真___。", answer: "kut-la̍t", answer_hanji: "骨力", en: "This child studies very hard."}
 audio: []

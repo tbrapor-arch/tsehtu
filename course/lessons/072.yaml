@@ -52,7 +52,10 @@ exercises:
     - {tailo: "Kóo-tsá kóo-tsá, ū tsi̍t ê sóo-tsāi, tuà tsi̍t tuì tsí-muē.", hanji: "古早古早，有一个所在，蹛一對姊妹。", en: "Long, long ago, in a certain place, there lived two sisters."}
     - {tailo: "A-tsí tsin khiáu.", hanji: "阿姊真巧。", en: "The elder sister was clever."}
     - {tailo: "Tsuè-āu lāu-bú tńg--lâi, kā sió-muē kiù--tshut-lâi.", hanji: "最後老母轉來，共小妹救出來。", en: "In the end their mother came home and rescued the little sister."}
+    - {tailo: "Guán a-tsóo tsiok ài kóng-kóo.", hanji: "阮阿祖足愛講古。", en: "My great-grandmother loves telling stories."}
+    - {tailo: "Mài ké-iánn m̄ tsai.", hanji: "莫假影毋知。", en: "Don't pretend you don't know."}
   fill:
     - {tailo: "Siann mā tsin tshoo, ___ tsa-poo-lâng.", hanji: "聲嘛真粗，___查埔人。", answer: "bē-su", answer_hanji: "袂輸", en: "Her voice was rough, just like a man's."}
     - {tailo: "___, Hóo-koo-pô í-king kā sió-muē pa̍k tī pâng-king.", hanji: "___，虎姑婆已經共小妹縛佇房間。", answer: "Bô-gî", answer_hanji: "無疑", en: "Who'd have thought it: Tiger Granny had already tied the little sister up in the bedroom."}
+    - {tailo: "___ guá mā bô sìn, āu--lâi tsiah tsai-iánn i bô phiàn guá.", hanji: "___我嘛無信，後來才知影伊無騙我。", answer: "khí-sing", answer_hanji: "起先", en: "At first I didn't believe it either; later I found out he hadn't tricked me."}
 audio: []

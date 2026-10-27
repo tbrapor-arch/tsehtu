@@ -51,7 +51,10 @@ exercises:
   translate:
     - {tailo: "Tsit-tsūn hué-thuànn tú-hó.", hanji: "這陣火炭拄好。", en: "The charcoal is just right now."}
     - {tailo: "Lín khuànn, gue̍h-niû tshut--lâi--ah!", hanji: "恁看，月娘出來矣！", en: "Look, the moon's out!"}
+    - {tailo: "Lán tsit-tsūn khì hái-pinn hang-bah.", hanji: "咱這陣去海邊烘肉。", en: "Let's go and have a barbecue at the beach now."}
+    - {tailo: "Kin-á-ji̍t ê gue̍h-niû tsin înn.", hanji: "今仔日的月娘真圓。", en: "The moon is very round tonight."}
   fill:
     - {tailo: "Mài hang kah ___.", hanji: "莫烘甲___。", answer: "tshàu-ta", answer_hanji: "臭焦", en: "Don't let it burn."}
     - {tailo: "___ hit tè ū nn̄g-jîn.", hanji: "___彼塊有卵仁。", answer: "Tiong-ng", answer_hanji: "中央", en: "The one in the middle has an egg yolk."}
+    - {tailo: "Kuè-nî ê sî, tshin-tsiânn lóng tńg--lâi ___.", hanji: "過年的時，親情攏轉來___。", answer: "thuân-înn", answer_hanji: "團圓", en: "At New Year all the relatives come back for a family reunion."}
 audio: []

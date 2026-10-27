@@ -54,7 +54,10 @@ exercises:
     - {tailo: "Káu tsiah káu tsáu kàu kâu ê tau.", hanji: "九隻狗走到猴的兜。", en: "Nine dogs ran to the monkey's house."}
     - {tailo: "Bé kah bē, kan-na siann-tiāu bô-kâng.", hanji: "買佮賣，干焦聲調無仝。", en: "Buy and sell differ only in tone."}
     - {tailo: "Lí tsit ê m̄ sī pe̍h-tsha̍t, sī tshàu-tuānn.", hanji: "你這个毋是白賊，是臭彈。", en: "That's not a lie, that's a tall story."}
+    - {tailo: "Lí kóng ê uē siunn khua-tiong--ah.", hanji: "你講的話傷誇張矣。", en: "What you're saying is far too exaggerated."}
+    - {tailo: "Guán tau lī tshia-thâu tsin kīn.", hanji: "阮兜離車頭真近。", en: "My home is very near the station."}
   fill:
     - {tailo: "Guá ê ___ phah-kat--ah!", hanji: "我的___拍結矣！", answer: "tshuì-tsi̍h", answer_hanji: "喙舌", en: "My tongue's in a knot!"}
     - {tailo: "Tō sī ___ kóng-pe̍h-tsha̍t, hōo lâng ioh.", hanji: "就是___講白賊，予人臆。", answer: "kòo-ì", answer_hanji: "故意", en: "It's telling a lie on purpose and letting people guess."}
+    - {tailo: "Tse sī ___ ê, m̄ sī tsin--ê.", hanji: "這是___的，毋是真的。", answer: "ké", answer_hanji: "假", en: "This is fake, not real."}
 audio: []

@@ -84,6 +84,12 @@ exercises:
   - tailo: "Guá tú-tú khì io̍h-pâng, tsiām-sî bē-sái tshiùnn-kua."
     hanji: "我拄拄去藥房，暫時袂使唱歌。"
     en: "I've just been to the pharmacy; no singing for now."
+  - tailo: "Guá tú-tú kap pîng-iú khì tsia̍h ping."
+    hanji: "我拄拄佮朋友去食冰。"
+    en: "I just went for shaved ice with a friend."
+  - tailo: "Lí nā nâ-âu thiànn, mài bián-kióng tshiùnn-kua."
+    hanji: "你若嚨喉疼，莫勉強唱歌。"
+    en: "If your throat hurts, don't force yourself to sing."
   fill:
   - tailo: Bô-îng ___ beh sí.
     hanji: 無閒___欲死。
@@ -95,4 +101,9 @@ exercises:
     answer: guā-tsē
     answer_hanji: 偌濟
     en: How much is a pack?
+  - tailo: "Líng-khì pháinn--khì, lán ___ khui thang-á."
+    hanji: "冷氣歹去，咱___開窗仔。"
+    answer: "tsí-hó"
+    answer_hanji: "只好"
+    en: "The air conditioning is broken, so we'll have to open the windows."
 audio: []

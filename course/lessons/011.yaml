@@ -111,6 +111,12 @@ exercises:
   - tailo: Mài thǹg--tio̍h.
     hanji: 莫燙著。
     en: Don't burn yourself.
+  - tailo: "Guá siūnn-beh koh tsia̍h tsi̍t hūn ô-á-tsian."
+    hanji: "我想欲閣食一份蚵仔煎。"
+    en: "I'd like to eat another oyster omelette."
+  - tailo: "Guá tsai lí ài tsia̍h ô-á-tsian."
+    hanji: "我知你愛食蚵仔煎。"
+    en: "I know you love oyster omelette."
   fill:
   - tailo: Guá ___ tsia̍h ô-á-tsian.
     hanji: 我___食蚵仔煎。
@@ -122,4 +128,9 @@ exercises:
     answer: uánn
     answer_hanji: 碗
     en: A bowl of fish-ball soup.
+  - tailo: "Hit hūn ô-á-tsian siunn ___--ah."
+    hanji: "彼份蚵仔煎傷___矣。"
+    answer: "hiam"
+    answer_hanji: "薟"
+    en: "That oyster omelette is too spicy."
 audio: []

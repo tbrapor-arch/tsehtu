@@ -54,7 +54,10 @@ exercises:
     - {tailo: "Kui-mê bô khùn, lí bē thiám?", hanji: "規暝無睏，你袂忝？", en: "No sleep all night: aren't you exhausted?"}
     - {tailo: "Ji̍t--sî khùn, àm-sî tsò khang-khuè.", hanji: "日時睏，暗時做工課。", en: "I sleep in the daytime and work at night."}
     - {tailo: "Bé tsi̍t kuàn sio-tsiú, jiân-āu tsē tī mn̂g-kháu tshiùnn-kua.", hanji: "買一罐燒酒，然後坐佇門口唱歌。", en: "He bought a bottle of rice wine, then sat at the door singing."}
+    - {tailo: "Guá ê ki-tshia hōo tsha̍t-á thau--khì--ah.", hanji: "我的機車予賊仔偷去矣。", en: "My scooter has been stolen by a thief."}
+    - {tailo: "Tsò kui kang ê khang-khuè, guá tsin thiám.", hanji: "做規工的工課，我真忝。", en: "After a whole day's work I'm exhausted."}
   fill:
     - {tailo: "___ ū. Kè-thîng-tshia su-ki, tha̍k-tsheh ê ha̍k-sing.", hanji: "___有。計程車司機、讀冊的學生。", answer: "Put-sî", answer_hanji: "不時", en: "All the time. Taxi drivers, students."}
     - {tailo: "Tsuì ê lâng kám ē ___ lâi?", hanji: "醉的人敢會___來？", answer: "oo-pe̍h", answer_hanji: "烏白", en: "Do the drunk ones cause trouble?"}
+    - {tailo: "Lim tê liáu-āu, guá khah ū ___.", hanji: "啉茶了後，我較有___。", answer: "tsing-sîn", answer_hanji: "精神", en: "After drinking tea I feel more alert."}
 audio: []

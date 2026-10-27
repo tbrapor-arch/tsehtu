@@ -52,7 +52,10 @@ exercises:
     - {tailo: "Lí mê-nî ū siánn-mih phah-sǹg?", hanji: "你明年有啥物拍算？", en: "What are your plans for next year?"}
     - {tailo: "Tán guá khang-khuè khah ún, guá siūnn-beh tī Tâi-lâm tshuē thâu-lōo.", hanji: "等我工課較穩，我想欲佇臺南揣頭路。", en: "Once my work is more settled, I'd like to find a job in Tainan."}
     - {tailo: "Lí mā tuè a-kong ê kha-pōo.", hanji: "你嘛綴阿公的跤步。", en: "You're following in A-kong's footsteps."}
+    - {tailo: "Mê-nî guá phah-sǹg khì Tâi-lâm tuà.", hanji: "明年我拍算去臺南蹛。", en: "Next year I plan to go and live in Tainan."}
+    - {tailo: "Tsa-mê guá bāng--tio̍h a-má.", hanji: "昨暝我夢著阿媽。", en: "Last night I dreamt of Grandma."}
   fill:
     - {tailo: "___ sī sann nî lāi khó--tio̍h ko-kip.", hanji: "___是三年內考著高級。", answer: "Bo̍k-piau", answer_hanji: "目標", en: "My goal is to pass the advanced level within three years."}
     - {tailo: "Mê-nî beh ___.", hanji: "明年欲___。", answer: "tshuā-bóo", answer_hanji: "娶某", en: "Next year I'm getting married."}
+    - {tailo: "Guá ê ___ sī tsò lāu-su.", hanji: "我的___是做老師。", answer: "bo̍k-piau", answer_hanji: "目標", en: "My goal is to become a teacher."}
 audio: []

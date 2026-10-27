@@ -53,7 +53,10 @@ exercises:
     - {tailo: "Tsheh ê siunn-á siōng tāng.", hanji: "冊的箱仔上重。", en: "The boxes of books are the heaviest."}
     - {tailo: "Lí tī thâu-tsîng thua, guá tī āu-piah sak.", hanji: "你佇頭前拖，我佇後壁捒。", en: "You pull from the front and I'll push from the back."}
     - {tailo: "Ke-si siu-si̍p hó-sè, guá tshiánn lín tsia̍h-pn̄g.", hanji: "家私收拾好勢，我請恁食飯。", en: "Once the tools are put away, dinner's on me."}
+    - {tailo: "Guán kong-si ū tiān-thui, m̄-bián kiânn lâu-thui.", hanji: "阮公司有電梯，毋免行樓梯。", en: "Our office has a lift, no need to take the stairs."}
+    - {tailo: "Tsit ê siunn-á tsin khin, guá ka-kī kuānn tō hó.", hanji: "這个箱仔真輕，我家己捾就好。", en: "This box is very light, I'll carry it myself."}
   fill:
     - {tailo: "___! Sing kā toh-á khiā--khí-lâi.", hanji: "___！先共桌仔徛起來。", answer: "Tsim-tsiok", answer_hanji: "斟酌", en: "Careful! Stand the table on its end first."}
     - {tailo: "Koh kā i ___ khah uá piah tsi̍t-sut-á.", hanji: "閣共伊___較倚壁一屑仔。", answer: "tshiâu", answer_hanji: "撨", en: "Shift it a little closer to the wall."}
+    - {tailo: "Gín-á, kā lín ê pâng-king ___ hó-sè.", hanji: "囡仔，共恁的房間___好勢。", answer: "siu-si̍p", answer_hanji: "收拾", en: "Kids, tidy up your rooms."}
 audio: []

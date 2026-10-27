@@ -50,7 +50,10 @@ exercises:
   translate:
     - {tailo: "Guá ài kuánn-kín, kià hâng-khong.", hanji: "我愛趕緊，寄航空。", en: "I'm in a hurry, airmail please."}
     - {tailo: "Siu-kì siu hōo hó.", hanji: "收據收予好。", en: "Keep the receipt safe."}
+    - {tailo: "Tshiánn kā lí ê tē-tsí siá hōo guá.", hanji: "請共你的地址寫予我。", en: "Please write your address down for me."}
+    - {tailo: "Guá kuánn-kín khì kià phue.", hanji: "我趕緊去寄批。", en: "I'm hurrying off to post a letter."}
   fill:
     - {tailo: "Sing ___ tī tsia, guá kā lí tshìn khuànn-māi.", hanji: "先___佇遮，我共你秤看覓。", answer: "hē", answer_hanji: "下", en: "Put it down here first and I'll weigh it."}
     - {tailo: "___ tāng, koh hiah-nī kuì!", hanji: "___重，閣遐爾貴！", answer: "M̄-nā", answer_hanji: "毋但", en: "Not only heavy, but that expensive too!"}
+    - {tailo: "Phue ài tah ___.", hanji: "批愛貼___。", answer: "iû-phiò", answer_hanji: "郵票", en: "Letters need a stamp."}
 audio: []

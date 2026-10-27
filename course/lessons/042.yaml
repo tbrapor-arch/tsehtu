@@ -28,8 +28,11 @@ exercises:
     - {tailo: "Guá kā lí tàu ak.", hanji: "我共你鬥沃。", en: "Let me help you water."}
     - {tailo: "Tshuì peh-khui.", hanji: "喙擘開。", en: "Open your mouth."}
     - {tailo: "Lóng-tsóng guā-tsē?", hanji: "攏總偌濟？", en: "How much altogether?"}
+    - {tailo: "Guá tsóng sǹg thiann-ū a-kong ê kua-á.", hanji: "我總算聽有阿公的歌仔。", en: "At last I understand Grandpa's ballads."}
+    - {tailo: "Hái-pinn ê íng siunn kuân, mài khì siû-tsuí.", hanji: "海邊的湧傷懸，莫去泅水。", en: "The waves at the beach are too high, don't go swimming."}
   fill:
     - {tailo: "Tann sing ___ tshù-lāi hioh-khùn.", hanji: "今先___厝內歇睏。", answer: "tiàm", answer_hanji: "踮", en: "For now, stay home and rest."}
     - {tailo: "I-sing kóng ___ ke hioh-khùn.", hanji: "醫生講___加歇睏。", answer: "tio̍h-ài", answer_hanji: "著愛", en: "The doctor says I must rest more."}
     - {tailo: "A-kong kóng beh kā lí kóng ___.", hanji: "阿公講欲共你講___。", answer: "lóo-la̍t", answer_hanji: "勞力", en: "Grandpa wants to thank you."}
+    - {tailo: "Thiann tshiò-khue, guá ê ___ tō khah hó--ah.", hanji: "聽笑詼，我的___就較好矣。", answer: "sim-tsîng", answer_hanji: "心情", en: "Hearing a joke cheered me up."}
 audio: []

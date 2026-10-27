@@ -52,7 +52,10 @@ exercises:
   translate:
     - {tailo: "Tshian-bān m̄-thang khioh.", hanji: "千萬毋通抾。", en: "Whatever you do, don't pick it up."}
     - {tailo: "Guá sìn tsi̍t-puànn.", hanji: "我信一半。", en: "I half believe it."}
+    - {tailo: "Kuí-gue̍h ū tsiok tsē kìm-khī.", hanji: "鬼月有足濟禁忌。", en: "Ghost month has lots of taboos."}
+    - {tailo: "Gín-á bih tī thang-á āu-piah.", hanji: "囡仔覕佇窗仔後壁。", en: "The child is hiding behind the window."}
   fill:
     - {tailo: "Guá ē kiann kah ___ tī tshù-lāi.", hanji: "我會驚甲___佇厝內。", answer: "bih", answer_hanji: "覕", en: "I'll be so scared I'll hide indoors."}
     - {tailo: "___--lah! Àm-sî mài kóng tsia--ê.", hanji: "___啦！暗時莫講遮的。", answer: "Tiām-tiām", answer_hanji: "恬恬", en: "Hush! Don't talk about these things at night."}
+    - {tailo: "Lí beh khì hái-kînn ___ khì tshiū-nâ?", hanji: "你欲去海墘___去樹林？", answer: "ia̍h-sī", answer_hanji: "抑是", en: "Do you want to go to the seaside or to the woods?"}
 audio: []

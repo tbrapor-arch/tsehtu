@@ -96,6 +96,12 @@ exercises:
   - tailo: Lán tsò-hué khì Tâi-lâm.
     hanji: 咱做伙去臺南。
     en: Let's go to Tainan together.
+  - tailo: "Tsit tè tshài-thâu-kué tsin-tsiànn hó-tsia̍h."
+    hanji: "這塊菜頭粿真正好食。"
+    en: "This slice of radish cake is really tasty."
+  - tailo: "M̄-bián bé, guá tshiánn lí lim oo-liông-tê."
+    hanji: "毋免買，我請你啉烏龍茶。"
+    en: "No need to buy any, I'll treat you to oolong tea."
   fill:
   - tailo: Guá ___ sī Tâi-lâm-lâng.
     hanji: 我___是臺南人。
@@ -107,4 +113,9 @@ exercises:
     answer: buē
     answer_hanji: 未
     en: Not yet. I'm going to eat my lunch box.
+  - tailo: "Tsit ê piān-tong ___, m̄-koh siunn kuì--ah."
+    hanji: "這个便當___，毋過傷貴矣。"
+    answer: "bē-bái"
+    answer_hanji: "袂䆀"
+    en: "This lunch box is pretty good, but it's too expensive."
 audio: []

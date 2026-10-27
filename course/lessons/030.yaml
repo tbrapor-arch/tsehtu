@@ -51,7 +51,10 @@ exercises:
     - {tailo: "Guá beh khui tsi̍t ê hōo-thâu.", hanji: "我欲開一个戶頭。", en: "I'd like to open an account."}
     - {tailo: "Tshiánn kā lí ê hōo-tsiàu the̍h hōo guá.", hanji: "請共你的護照提予我。", en: "Please give me your passport."}
     - {tailo: "Khah ê hō-bé m̄-thang hōo lâng tsai.", hanji: "卡的號碼毋通予人知。", en: "Don't let anyone know your PIN."}
+    - {tailo: "Guá beh khì gîn-hâng niá-tsînn.", hanji: "我欲去銀行領錢。", en: "I'm going to the bank to withdraw money."}
+    - {tailo: "Guā-kok-lâng pān hōo-thâu ài the̍h hōo-tsiàu.", hanji: "外國人辦戶頭愛提護照。", en: "Foreigners need their passport to open an account."}
   fill:
     - {tailo: "Sing tsûn tsi̍t-bān gōo-___.", hanji: "先存一萬五___。", answer: "tshing", answer_hanji: "千", en: "Fifteen thousand to start."}
     - {tailo: "Í-āu lí ē-sái ka-kī lâi ___.", hanji: "以後你會使家己來___。", answer: "niá-tsînn", answer_hanji: "領錢", en: "From now on you can come and withdraw money yourself."}
+    - {tailo: "Í-āu guá ē ___ tsú-tsia̍h.", hanji: "以後我會___煮食。", answer: "ka-kī", answer_hanji: "家己", en: "From now on I'll cook for myself."}
 audio: []

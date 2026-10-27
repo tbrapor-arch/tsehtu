@@ -52,7 +52,10 @@ exercises:
   translate:
     - {tailo: "Lí tâu hōo siánn-lâng?", hanji: "你投予啥人？", en: "Who did you vote for?"}
     - {tailo: "Guá ê khuànn-huat sī: m̄-kuán siánn-lâng tòng-suán, lóng ài tsò tāi-tsì.", hanji: "我的看法是：毋管啥人當選，攏愛做代誌。", en: "My view is: whoever wins has to deliver."}
+    - {tailo: "A-kong ta̍k pái suán-kí lóng khì tâu-phiò.", hanji: "阿公逐擺選舉攏去投票。", en: "Grandpa votes at every election."}
+    - {tailo: "Guá tsai-iánn lí ê khuànn-huat.", hanji: "我知影你的看法。", en: "I know your view."}
   fill:
     - {tailo: "Tse sī pì-bi̍t. Lí ___ khuànn-māi.", hanji: "這是祕密。你___看覓。", answer: "ioh", answer_hanji: "臆", en: "That's a secret. Have a guess."}
     - {tailo: "I tsin ___, guá kiann i bē liáu-kái lán.", hanji: "伊真___，我驚伊袂了解咱。", answer: "hó-gia̍h", answer_hanji: "好額", en: "He's very rich; I'm afraid he won't understand us."}
+    - {tailo: "Lí ___ siánn-lâng ē tòng-suán?", hanji: "你___啥人會當選？", answer: "ioh", answer_hanji: "臆", en: "Who do you guess will be elected?"}
 audio: []

@@ -52,7 +52,10 @@ exercises:
     - {tailo: "Lo̍k-káng sī hái-kháu tsng.", hanji: "鹿港是海口庄。", en: "Lukang is a coastal town."}
     - {tailo: "Guá beh bé tsi̍t pún kài-siāu kóo-tsik ê tsheh.", hanji: "我欲買一本介紹古蹟的冊。", en: "I want to buy a book introducing the historic sites."}
     - {tailo: "Ta̍k hāng bo̍k-tiau lóng ū kòo-sū.", hanji: "逐項木雕攏有故事。", en: "Every piece of woodcarving has a story."}
+    - {tailo: "Lí ē-sái kā guá kài-siāu Tâi-lâm ê kóo-tsik--bô?", hanji: "你會使共我介紹臺南的古蹟無？", en: "Could you tell me about Tainan's historic sites?"}
+    - {tailo: "I kóng-uē ê khiunn-kháu kap guán bô-kâng.", hanji: "伊講話的腔口佮阮無仝。", en: "His accent is different from ours."}
   fill:
     - {tailo: "Guán Tâi-lâm lâng liām “ti”, Lo̍k-káng ū--ê lāu-lâng liām ___.", hanji: "阮臺南人唸「ti」，鹿港有的老人唸___。", answer: "“tu”", answer_hanji: "「tu」", en: "We Tainan people say 'ti', some old folks in Lukang say 'tu'."}
     - {tailo: "Guá beh bé tsi̍t ___ tsheh.", hanji: "我欲買一___冊。", answer: "pún", answer_hanji: "本", en: "I want to buy a book."}
+    - {tailo: "Guá khì gîn-hâng, ___ kià phue.", hanji: "我去銀行，___寄批。", answer: "sūn-suà", answer_hanji: "順紲", en: "I'm going to the bank, and I'll post the letter while I'm at it."}
 audio: []

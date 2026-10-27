@@ -131,6 +131,12 @@ exercises:
   - tailo: Oo-sik pí âng-sik khah hó-khuànn.
     hanji: 烏色比紅色較好看。
     en: Black looks better than red.
+  - tailo: "Tsit niá pe̍h-sik ê sann tsiânn hó-khuànn."
+    hanji: "這領白色的衫誠好看。"
+    en: "This white shirt looks really nice."
+  - tailo: "Guán sió-muē ài tshīng âng-sik ê sann."
+    hanji: "阮小妹愛穿紅色的衫。"
+    en: "My younger sister likes wearing red."
   fill:
   - tailo: Siunn ___--ah.
     hanji: 傷___矣。
@@ -142,4 +148,9 @@ exercises:
     answer: koh
     answer_hanji: 閣
     en: This one is even cheaper.
+  - tailo: "Pe̍h-sik ___ oo-sik khah suí."
+    hanji: "白色___烏色較媠。"
+    answer: "pí"
+    answer_hanji: "比"
+    en: "White is prettier than black."
 audio: []

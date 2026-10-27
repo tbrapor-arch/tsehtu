@@ -53,7 +53,10 @@ exercises:
     - {tailo: "Ta̍k tsuā tê-tsâng lóng tsìng kah tsin tsíng-tsê.", hanji: "逐逝茶欉攏種甲真整齊。", en: "Every row of tea bushes is planted so neatly."}
     - {tailo: "Sui-jiân ū ki-khì, m̄-koh siōng iàu-kín ê pōo-sòo iáu tio̍h khò kha-tshiú.", hanji: "雖然有機器，毋過上要緊的步數猶著靠跤手。", en: "Although there are machines, the most important steps still depend on human hands."}
     - {tailo: "“Tsuè” kah “siōng” sī kāng ì-sù.", hanji: "「最」佮「上」是仝意思。", en: "'Tsuè' and 'siōng' mean the same thing."}
+    - {tailo: "Tsit khuán tê ê phín-tsit tsin hó.", hanji: "這款茶的品質真好。", en: "The quality of this tea is very good."}
+    - {tailo: "Pháinn ê kué-tsí ài hìnn-tiāu.", hanji: "歹的果子愛挕掉。", en: "Bad fruit should be thrown away."}
   fill:
     - {tailo: "Siōng iù hit ___ tsiah īng.", hanji: "上幼彼___才用。", answer: "ki", answer_hanji: "枝", en: "Only the tenderest sprig is used."}
     - {tailo: "Ji̍t-thâu tsiò khah tsē ê hit ___, bī siōng tāng.", hanji: "日頭照較濟的彼___，味上重。", answer: "tsuā", answer_hanji: "逝", en: "The row that gets more sun has the strongest flavour."}
+    - {tailo: "___ lo̍h-hōo, guá iáu-koh beh khì.", hanji: "___落雨，我猶閣欲去。", answer: "sui-jiân", answer_hanji: "雖然", en: "Although it's raining, I'm still going."}
 audio: []

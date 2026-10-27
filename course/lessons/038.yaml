@@ -47,8 +47,11 @@ exercises:
   translate:
     - {tailo: "Lín tsia ê tsiau-pâi sī siánn?", hanji: "恁遮的招牌是啥？", en: "What's your speciality here?"}
     - {tailo: "Tsia̍h bē liáu, ē-sái pau tńg-khì.", hanji: "食袂了，會使包轉去。", en: "If we can't finish, we can take it home."}
+    - {tailo: "Sió-tsiá, tshiánn kā tshài-tuann the̍h hōo guá.", hanji: "小姐，請共菜單提予我。", en: "Miss, please bring me the menu."}
+    - {tailo: "Tsit puânn tshá bí-hún ū-kàu hó-tsia̍h.", hanji: "這盤炒米粉有夠好食。", en: "This plate of fried rice noodles is really tasty."}
   fill:
     - {tailo: "___ guā-tsē?", hanji: "___偌濟？", answer: "Lóng-tsóng", answer_hanji: "攏總", en: "How much altogether?"}
     - {tailo: "Án-ne kám ___ tsia̍h?", hanji: "按呢敢___食？", answer: "ū-kàu", answer_hanji: "有夠", en: "Will that be enough?"}
     - {tailo: "Ē-pái guá beh tshuā guán kong-si ê lâng lâi, ___ tsa̍p ê.", hanji: "下擺我欲𤆬阮公司的人來，___十个。", answer: "tāi-iok", answer_hanji: "大約", en: "Next time I'd like to bring about ten people from my company."}
+    - {tailo: "Lán ___ tsi̍t puânn tshenn-tshài.", hanji: "咱___一盤青菜。", answer: "tiám", answer_hanji: "點", en: "Let's order a plate of greens."}
 audio: []

@@ -52,7 +52,10 @@ exercises:
   translate:
     - {tailo: "Hó-ka-tsài bô siong-tiōng.", hanji: "好佳哉無傷重。", en: "Luckily it's not serious."}
     - {tailo: "Lí bē-sái ka-kī lo̍h bîn-tshn̂g.", hanji: "你袂使家己落眠床。", en: "You mustn't get out of bed on your own."}
+    - {tailo: "A-kong tī lâu-thui pua̍h-tó.", hanji: "阿公佇樓梯跋倒。", en: "Grandpa fell on the stairs."}
+    - {tailo: "Guá kuānn tsi̍t tē kué-tsí khì pēnn-īnn.", hanji: "我捾一袋果子去病院。", en: "I carried a bag of fruit to the hospital."}
   fill:
     - {tailo: "A-má tsa-àm tī i̍k-king-á ___.", hanji: "阿媽昨暗佇浴間仔___。", answer: "pua̍h-tó", answer_hanji: "跋倒", en: "A-má fell in the bathroom last night."}
     - {tailo: "Pēnn-īnn ê pn̄g tsin bô-bī, ___ tsia̍h--lah.", hanji: "病院的飯真無味，___食啦。", answer: "bóng", answer_hanji: "罔", en: "The hospital food has no taste, but I eat it anyway."}
+    - {tailo: "I-sing ___ guá ài kā io̍h-á tsia̍h hōo liáu.", hanji: "醫生___我愛共藥仔食予了。", answer: "huan-hù", answer_hanji: "吩咐", en: "The doctor told me to finish the medicine."}
 audio: []

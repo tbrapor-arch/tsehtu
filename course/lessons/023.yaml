@@ -160,6 +160,12 @@ exercises:
   - tailo: "Tshe-jī guán tuā-tsí kah tsí-hu tō tńg guā-ke."
     hanji: "初二阮大姊佮姊夫就轉外家。"
     en: "On the second day my eldest sister and her husband go home to her parents."
+  - tailo: "Kin-nî kuè-nî guá beh tńg-khì Tâi-lâm."
+    hanji: "今年過年我欲轉去臺南。"
+    en: "This New Year I'm going back to Tainan."
+  - tailo: "Guán tuā-tsí tī Tâi-pak thàn-tsînn."
+    hanji: "阮大姊佇臺北趁錢。"
+    en: "My eldest sister earns her living in Taipei."
   fill:
   - tailo: A-kong koh ē pau âng-pau ___ gín-á.
     hanji: 阿公閣會包紅包___囡仔。
@@ -171,4 +177,9 @@ exercises:
     answer: nā
     answer_hanji: 若
     en: If you earn money.
+  - tailo: "Nî-tau guán ___ lóng tī a-má tau uî-lôo."
+    hanji: "年兜阮___攏佇阿媽兜圍爐。"
+    answer: "kui-ke-hué-á"
+    answer_hanji: "規家伙仔"
+    en: "On New Year's Eve my whole family has dinner at Grandma's."
 audio: []
