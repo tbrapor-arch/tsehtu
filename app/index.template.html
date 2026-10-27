@@ -121,7 +121,7 @@ h2 .han { font-weight: 900; }
 .allnotes summary { cursor: pointer; font-family: var(--f-ui); font-weight: 700; font-size: 1rem; padding-block: .4rem; }
 .allnotes .notes { margin-top: .6rem; }
 /* variants */
-ruby.tok.var rt, span.tok.var { text-decoration: underline dotted var(--coral) 1.5px; text-underline-offset: 2px; }
+ruby.tok.var rt .rw, span.tok.var { text-decoration: underline dotted var(--coral) 1.5px; text-underline-offset: 2px; }
 .choices { display: flex; gap: .4rem; flex-wrap: wrap; }
 .choice { display: flex; flex-direction: column; align-items: flex-start; border: var(--border-soft); background: var(--surface); border-radius: var(--r); padding: .35rem .7rem; min-height: 44px; }
 .choice b { font-family: var(--f-rom); font-size: 1.05rem; }
@@ -227,6 +227,7 @@ ruby.tok.var rt, span.tok.var { text-decoration: underline dotted var(--coral) 1
 .mode-rom .txt { font-family: var(--f-ui); font-size: 1.3rem; line-height: 1.7; }
 .mode-han .txt { line-height: 1.75; }
 ruby.tok { ruby-position: over; cursor: pointer; border-radius: 6px; padding-inline: .05em; }
+rt .rw { display: inline-block; white-space: nowrap; }
 ruby.tok rt { font-family: var(--f-rom); font-size: .48em; font-weight: 600; color: var(--sub); }
 .mode-han ruby.tok rt { display: none; }
 span.tok { cursor: pointer; border-radius: 4px; }
@@ -702,8 +703,11 @@ function tokHTML(tok, key) {
   const a = `class="${cls}" tabindex="0" role="button" data-tok="${key}"`;
   // names and words quoted in Latin letters inside a Hàn-jī line (Sam, bueh): write them once, not twice
   if (prefs.mode === 'rom' || !HAN_RE.test(w.h)) return `<span ${a}>${esc(prefs.mode === 'rom' ? r : w.h)}</span>${prefs.mode === 'rom' ? ' ' : ''}`;
-  return `<ruby ${a}>${esc(w.h)}<rt>${esc(r)}</rt></ruby>`;
+  return `<ruby ${a}>${esc(w.h)}${rtHTML(r)}</ruby>`;
 }
+// the reading sits in an inline-block: Chrome stretches a reading shorter than its characters (ruby-align
+// space-around) and the inserted gaps split a letter from its combining tone mark (M̀ shown as "M `")
+function rtHTML(r) { return `<rt><span class="rw">${esc(r)}</span></rt>`; }
 const HAN_RE = /[㐀-鿿\u{20000}-\u{3ffff}豈-﫿]/u;
 const TOKS = {};
 function sentence(tokens, prefix) { return tokens.map((t, i) => { if (t.w) TOKS[prefix + ':' + i] = t.w; return tokHTML(t, prefix + ':' + i); }).join(''); }
@@ -1455,8 +1459,8 @@ function clozeHTML(ctx, id, reveal) {
   return ctx.tokens.map(t => {
     if (t.p) return `<span class="punct">${esc(t.p)}</span>`;
     const w = t.w;
-    if (w.id === id) return reveal ? `<ruby class="hit">${esc(w.h)}<rt>${esc(romOf(w).r)}</rt></ruby>` : `<ruby class="blank">${'＿'.repeat(Math.max(1, [...w.h].length))}<rt>?</rt></ruby>`;
-    return HAN_RE.test(w.h) ? `<ruby>${esc(w.h)}<rt>${esc(romOf(w).r)}</rt></ruby>` : esc(w.h);
+    if (w.id === id) return reveal ? `<ruby class="hit">${esc(w.h)}${rtHTML(romOf(w).r)}</ruby>` : `<ruby class="blank">${'＿'.repeat(Math.max(1, [...w.h].length))}<rt>?</rt></ruby>`;
+    return HAN_RE.test(w.h) ? `<ruby>${esc(w.h)}${rtHTML(romOf(w).r)}</ruby>` : esc(w.h);
   }).join('');
 }
 function showCard() {
