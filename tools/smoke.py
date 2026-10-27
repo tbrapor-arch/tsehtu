@@ -101,7 +101,9 @@ with sync_playwright() as pw:
     page.evaluate("location.hash = 'review'")
     page.wait_for_selector('.segs')
     overflow(page, 'review')
-    page.click('[data-study="L1"][data-mode="due"]')
+    # 'Review N' only shows when cards are due; marking a lesson no longer fills the deck, so fall back to 'Practise all'
+    due = page.locator('[data-study="L1"][data-mode="due"]')
+    (due if due.count() else page.locator('[data-study="L1"][data-mode="all"]')).click()
     for _ in range(40):
         if page.locator('#flip').count():
             page.click('#flip')
