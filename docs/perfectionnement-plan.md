@@ -1,7 +1,6 @@
 # Part 2: 進修 Tsìn-siu (Perfectionnement), spec and handover
 
-State on 21 Oct 2026: **P1–P14 are published** (P8–P14 merged into `main` on 21 Oct).
-Next batch: P15–P21 (P21 = review).
+State on 27 Oct 2026: **P1–P21 are published** (P15–P21 on 27 Oct). Next batch: P22–P28 (P28 = review).
 
 ## Batch 1 (P1–P7)
 | # | genre | title | new words | lines |
@@ -71,6 +70,26 @@ Ministry of Education on 7 Nov 2006 (the note first said October; corrected).
 5. Plan 7 lessons at a time. The 7th is a review that recombines the six, with no new words.
 
 P1 was written the other way, theme first; its words were checked afterwards. From P2 on, use the order above.
+
+## Batch 3 (P15–P21)
+| # | genre | title | new words | lines |
+|---|---|---|---|---|
+| P15 | speech | 一枝草，一點露 (A-bîng's speech at A-kong's birthday banquet) | 32 | 23 |
+| P16 | interview | 學師仔三年四個月 (Kim-hōng, Taiwanese-opera actress, 40 years in a troupe) | 25 | 25 |
+| P17 | play | 阿勇對看 (A-ióng's blind date with Siok-tsing, an engineer; A-tshun and Sam spy) | 27 | 28 |
+| P18 | letter | 寫予十冬後的家己 (Hūi-hūi, 15, writes to herself in ten years) | 35 | 22 |
+| P19 | article | 地名的由來 (old place names: 打狗, 艋舺, 水返腳, 三角湧, 牛罵頭…; the 1920 renaming) | 21 | 21 |
+| P20 | dialogue | 火金蛄轉來矣 (A-má's firefly outing near Tainan; A-ióng finally returns the bottle) | 28 | 27 |
+| P21 | review | 復習 (back at A-má's: everyone recombines P15–P20) | 0 | 25 |
+
+New words are lower than in batches 1–2 (21–35) because lessons 22–49 took 122 frequent words, and every 進修
+word was checked with `wordcheck.py` against all lessons. Story threads now: A-ióng and Siok-tsing are together
+(P17, P20); Hūi-hūi wants to be a writer (P18); A-má told Sam it's time he found a girlfriend (P20); A-tshun plans
+to bring Hūi-hūi to the fireflies. Threads closed: the bottle (P6 → P20), the fireflies promise (P7 → P20).
+Continuity note: lesson 5 (untouchable) says A-kong is ninety, lesson 98 says he apprenticed at eighteen fifty years
+ago, and 進修 7 says fifty years of marriage. 進修 15 avoids giving his age; keep doing so.
+Genres used so far: dialogue ×3, tale, letter ×2, essay, interview ×2, play ×2, news, article ×2, document, song,
+story, speech. Still unused: a second song or news, a recipe-style document, a debate, a diary.
 
 ## Lessons 22–49 were lengthened (27 Oct 2026)
 122 frequent words that no lesson had used are now taught in lessons 22–49 (`docs/lessons-22-49-lengthening.md`

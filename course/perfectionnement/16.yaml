@@ -1,0 +1,94 @@
+id: 16
+title: {en: "Learning a trade takes three years and four months", tailo: "O̍h sai-á sann nî sì kò gue̍h", hanji: "學師仔三年四個月"}
+genre: interview
+review: false
+setting: "A Taigi magazine interviews Kim-hōng, who has played in a travelling Taiwanese-opera troupe for forty years. The interview is original to this course."
+dialogue:
+  - {n: 1, speaker: Interviewer, hanji: "金鳳姊，你演歌仔戲演幾年矣？", tailo: "Kim-hōng-tsí, lí ián kua-á-hì ián kuí nî--ah?", en: "Kim-hōng, how long have you been performing Taiwanese opera?"}
+  - {n: 2, speaker: Kim-hōng, hanji: "四十冬矣。我十二歲就入戲班，彼陣拜一个老師父學戲。", tailo: "Sì-tsa̍p tang--ah. Guá tsa̍p-jī huè tō ji̍p hì-pan, hit-tsūn pài tsi̍t ê lāu su-hū o̍h hì.", en: "Forty years. I joined a troupe at twelve and became the pupil of an old master."}
+  - {n: 3, speaker: Interviewer, hanji: "遐細漢就去學，敢真辛苦？", tailo: "Hiah sè-hàn tō khì o̍h, kám tsin sin-khóo?", en: "Starting so young, it must have been hard?"}
+  - {n: 4, speaker: Kim-hōng, hanji: "足辛苦！透早五點就愛起來練聲，練跤步、練手路，做毋著就予師父罵。", tailo: "Tsiok sin-khóo! Thàu-tsá gōo tiám tō ài khí-lâi liān siann, liān kha-pōo, liān tshiú-lōo, tsò m̄-tio̍h tō hōo su-hū mē.", en: "Very hard! We had to get up at five in the morning to practise singing, steps and gestures, and if you got it wrong the master scolded you."}
+  - {n: 5, speaker: Kim-hōng, hanji: "老一輩的人講：學師仔三年四個月。毋過歌仔戲，三年四個月是學袂成的。", tailo: "Lāu tsi̍t puè ê lâng kóng: o̍h sai-á sann nî sì kò gue̍h. M̄-koh kua-á-hì, sann nî sì kò gue̍h sī o̍h bē sîng--ê.", en: "The old folk say an apprenticeship takes three years and four months. But you can't learn Taiwanese opera in three years and four months."}
+  - {n: 6, speaker: Interviewer, hanji: "較早你攏扮啥物角色？", tailo: "Khah-tsá lí lóng pān siánn-mih kak-sik?", en: "What roles did you play in the early days?"}
+  - {n: 7, speaker: Kim-hōng, hanji: "頭仔我扮查某𡢃，後來扮苦旦，上尾仔閣扮小生。", tailo: "Thâu--á guá pān tsa-bóo-kán, āu--lâi pān khóo-tuànn, siōng-bué-á koh pān sió-sing.", en: "At first I played maids, then tragic heroines, and in the end young male leads too."}
+  - {n: 8, speaker: Interviewer, hanji: "查某人扮小生？", tailo: "Tsa-bóo-lâng pān sió-sing?", en: "A woman playing young men?"}
+  - {n: 9, speaker: Kim-hōng, hanji: "歌仔戲的小生，大部份攏是查某人扮的。我扮狀元、扮相公，觀眾攏講我比查埔的閣較緣投！", tailo: "Kua-á-hì ê sió-sing, tuā-pōo-hūn lóng sī tsa-bóo-lâng pān--ê. Guá pān tsiōng-guân, pān siòng-kong, kuan-tsiòng lóng kóng guá pí tsa-poo--ê koh-khah iân-tâu!", en: "In Taiwanese opera, the young male leads are mostly played by women. I played top scholars and young husbands, and the audience always said I was more handsome than any man!"}
+  - {n: 10, speaker: Interviewer, hanji: "歌仔戲佮布袋戲有啥物精差？", tailo: "Kua-á-hì kah pòo-tē-hì ū siánn-mih tsing-tsha?", en: "What's the difference between Taiwanese opera and glove puppetry?"}
+  - {n: 11, speaker: Kim-hōng, hanji: "布袋戲是尪仔咧演，歌仔戲是人家己上台唱、家己演。歌仔戲是佇臺灣出世的，對宜蘭開始，到今一百外冬矣。", tailo: "Pòo-tē-hì sī ang-á teh ián, kua-á-hì sī lâng ka-kī tsiūnn-tâi tshiùnn, ka-kī ián. Kua-á-hì sī tī Tâi-uân tshut-sì--ê, uì Gî-lân khai-sí, kàu-tann tsi̍t-pah-guā tang--ah.", en: "In puppetry the puppets act; in Taiwanese opera people go on stage and sing and act themselves. Taiwanese opera was born in Taiwan: it began in Yilan, over a hundred years ago."}
+  - {n: 12, speaker: Interviewer, hanji: "恁攏佇佗位表演？", tailo: "Lín lóng tī tó-uī piáu-ián?", en: "Where do you perform?"}
+  - {n: 13, speaker: Kim-hōng, hanji: "大部份佇廟埕。神明生日，廟就請戲班來，佇廟口搭戲棚，先扮仙，才演正戲。", tailo: "Tuā-pōo-hūn tī biō-tiânn. Sîn-bîng senn-ji̍t, biō tō tshiánn hì-pan lâi, tī biō-kháu tah hì-pênn, sing pān-sian, tsiah ián tsiànn-hì.", en: "Mostly in temple squares. On a god's birthday the temple hires a troupe, a stage is put up outside, and we do the opening blessing play first, then the main play."}
+  - {n: 14, speaker: Interviewer, hanji: "觀眾濟無？", tailo: "Kuan-tsiòng tsē--bô?", en: "Are there many people watching?"}
+  - {n: 15, speaker: Kim-hōng, hanji: "往過規个庄頭的人攏來看，戲棚跤挨挨陣陣。這馬少年人看電視、看手機仔，台跤有時干焦賰幾个阿伯阿婆。", tailo: "Íng-kuè kui-ê tsng-thâu ê lâng lóng lâi khuànn, hì-pênn-kha e-e-tīn-tīn. Tsit-má siàu-liân-lâng khuànn tiān-sī, khuànn tshiú-ki-á, tâi-kha ū-sî kan-na tshun kuí ê a-peh a-pô.", en: "In the old days the whole village came, and the crowd in front of the stage was packed. Now young people watch TV and their phones, and sometimes there are only a few old folk in front of the stage."}
+  - {n: 16, speaker: Kim-hōng, hanji: "有一擺，台跤一个人都無，干焦神明咧看。阮猶是照常唱甲完。", tailo: "Ū tsi̍t pái, tâi-kha tsi̍t ê lâng to bô, kan-na sîn-bîng teh khuànn. Guán iáu-sī tsiàu-siông tshiùnn kah uân.", en: "Once there was not a single person in front of the stage, only the god watching. We still sang to the end as usual."}
+  - {n: 17, speaker: Interviewer, hanji: "聽著真心酸。", tailo: "Thiann--tio̍h tsin sim-sng.", en: "That's heartbreaking to hear."}
+  - {n: 18, speaker: Kim-hōng, hanji: "心酸是心酸，毋過戲本底就是演予神明看的。做這途，愛會吞忍。", tailo: "Sim-sng sī sim-sng, m̄-koh hì pún-té tō sī ián hōo sîn-bîng khuànn--ê. Tsò tsit tôo, ài ē thun-lún.", en: "Heartbreaking, yes, but plays were always meant for the gods to watch. In this line of work you have to learn to bear things."}
+  - {n: 19, speaker: Interviewer, hanji: "歌仔戲上大的特色是啥物？", tailo: "Kua-á-hì siōng tuā ê ti̍k-sik sī siánn-mih?", en: "What's the most distinctive thing about Taiwanese opera?"}
+  - {n: 20, speaker: Kim-hōng, hanji: "是唱的調。親像七字仔，一句七字，四句一葩，觀眾聽一擺就會曉綴咧唱。", tailo: "Sī tshiùnn ê tiāu. Tshin-tshiūnn tshit-jī-á, tsi̍t kù tshit jī, sì kù tsi̍t pha, kuan-tsiòng thiann tsi̍t pái tō ē-hiáu tuè leh tshiùnn.", en: "The melodies. Take the seven-syllable tune: seven syllables a line, four lines a verse; the audience can sing along after hearing it once."}
+  - {n: 21, speaker: Kim-hōng, hanji: "歌仔戲是民間的藝術，用的是逐家日常講的台語。毋免讀冊，聽會曉就會感動。", tailo: "Kua-á-hì sī bîn-kan ê gē-su̍t, iōng--ê sī ta̍k-ke ji̍t-siông kóng ê Tâi-gí. M̄-bián tha̍k-tsheh, thiann ē hiáu tō ē kám-tōng.", en: "Taiwanese opera is a folk art, in the Taigi everyone speaks every day. You don't need schooling: if you can understand it, it moves you."}
+  - {n: 22, speaker: Interviewer, hanji: "這馬敢有收徒弟？", tailo: "Tsit-má kám ū siu tôo-tē?", en: "Do you take pupils now?"}
+  - {n: 23, speaker: Kim-hōng, hanji: "有兩个。一个大學生，一个是外國人，佮你仝款咧學台語。伊的才情袂䆀，扮查某𡢃有夠古錐。", tailo: "Ū nn̄g ê. Tsi̍t ê tāi-ha̍k-sing, tsi̍t ê sī guā-kok-lâng, kah lí kāng-khuán teh o̍h Tâi-gí. I ê tsâi-tsîng bē-bái, pān tsa-bóo-kán ū-kàu kóo-tsui.", en: "Two. One's a university student; the other's a foreigner, learning Taigi like you. She's quite talented, and she makes an adorable maid."}
+  - {n: 24, speaker: Interviewer, hanji: "你有啥物話欲共讀者講？", tailo: "Lí ū siánn-mih uē beh kā tho̍k-tsiá kóng?", en: "Is there anything you'd like to say to our readers?"}
+  - {n: 25, speaker: Kim-hōng, hanji: "有閒來廟口看戲。毋免買票，坐落來就好。恁來看，阮就有氣力閣唱四十冬；歌仔戲毋是古早的物件，伊是活的。", tailo: "Ū-îng lâi biō-kháu khuànn hì. M̄-bián bé phiò, tsē--lo̍h-lâi tō hó. Lín lâi khuànn, guán tō ū khuì-la̍t koh tshiùnn sì-tsa̍p tang; kua-á-hì m̄ sī kóo-tsá ê mi̍h-kiānn, i sī ua̍h--ê.", en: "When you have time, come and watch a show outside a temple. No ticket needed, just sit down. If you come to watch, we'll have the strength to sing for another forty years. Taiwanese opera isn't a thing of the past: it's alive."}
+notes:
+  - {ref: 1, topic: vocab, text: "歌仔戲 kua-á-hì = Taiwanese opera, sung in Taigi (歌仔, lesson 26). 演 ián = perform, act: 演戲 'act in a play'. 姊 tsí after a name = a friendly 'sister' for an older woman."}
+  - {ref: 2, topic: vocab, text: "戲班 hì-pan = (opera) troupe. 拜 … 學戲 'become someone's pupil to learn opera'. 師父 su-hū = master, teacher (of a craft or art); compare 師傅 sai-hū 'skilled tradesman' (lesson 66)."}
+  - {ref: 4, topic: vocab, text: "練聲 liān siann = practise the voice. 跤步 = steps (lesson 99). 手路 tshiú-lōo = hand movements; also 'skill, a person's special touch': 好手路 'a deft hand'."}
+  - {ref: 5, topic: culture, text: "學師仔三年四個月 'an apprenticeship is three years and four months': a common saying (not in the MOE dictionary) for the traditional length of an apprenticeship. 老一輩 lāu tsi̍t puè = the older generation. 學袂成 o̍h bē sîng = can't learn it fully."}
+  - {ref: 6, topic: vocab, text: "扮 pān = play (a role), dress up as. 角色 kak-sik = role, part."}
+  - {ref: 7, topic: culture, text: "Stock roles: 查某𡢃 tsa-bóo-kán = maidservant (the everyday word, not only in opera); 苦旦 khóo-tuànn = tragic heroine, the role that sings the weeping tunes; 小生 sió-sing = young male lead."}
+  - {ref: 9, topic: culture, text: "In Taiwanese opera the 小生 is usually played by a woman, and the most famous stars are women in male roles. 狀元 tsiōng-guân = top scholar in the imperial exams (today 'top student'); 相公 siòng-kong = young gentleman, husband (in old stories). 大部份 = mostly (lesson 45)."}
+  - {ref: 10, topic: vocab, text: "精差 tsing-tsha = difference: 無啥精差 'not much difference'."}
+  - {ref: 11, topic: culture, text: "Taiwanese opera is the only traditional Chinese opera born in Taiwan: it grew out of folk songs in Yilan (宜蘭 Gî-lân) in the early 20th century. 出世 tshut-sì = be born (lesson 94)."}
+  - {ref: 12, topic: vocab, text: "表演 piáu-ián = perform; a performance."}
+  - {ref: 13, topic: culture, text: "Temple operas are offerings to the gods on their birthdays (神明生日). 搭戲棚 tah hì-pênn = put up a stage (搭 tah 'build, put up'; 戲棚, lesson 96). 扮仙 pān-sian = the short blessing play with immortals that opens every temple show; 正戲 tsiànn-hì = the main play."}
+  - {ref: 15, topic: vocab, text: "戲棚跤 hì-pênn-kha / 台跤 tâi-kha = in front of the stage, the audience area. 挨挨陣陣 = packed (進修 9)."}
+  - {ref: 16, topic: vocab, text: "照常 = as usual (進修 1). 唱甲完 'sang right to the end'."}
+  - {ref: 17, topic: vocab, text: "心酸 sim-sng = heartbreaking, sad ('sour heart')."}
+  - {ref: 18, topic: vocab, text: "本底 pún-té = originally, by nature (lesson 90). 這途 tsit tôo = this line of work: 途 tôo = trade, way. 吞忍 thun-lún = bear, put up with, swallow one's feelings."}
+  - {ref: 19, topic: vocab, text: "特色 ti̍k-sik = special feature, character."}
+  - {ref: 20, topic: culture, text: "調 tiāu = tune, melody. 七字仔 tshit-jī-á = the 'seven-character tune', the backbone of Taiwanese opera: lines of seven syllables, verses (葩 pha) of four lines, like the 四句聯 (進修 9). 綴咧唱 'sing along'."}
+  - {ref: 21, topic: vocab, text: "民間 bîn-kan = folk, of the common people: 民間藝術 'folk art'. 藝術 gē-su̍t = art. 日常 ji̍t-siông = everyday."}
+  - {ref: 22, topic: vocab, text: "收徒弟 siu tôo-tē = take on pupils (徒弟 tôo-tē = apprentice, disciple)."}
+  - {ref: 23, topic: vocab, text: "才情 tsâi-tsîng = talent, gift."}
+  - {ref: 24, topic: vocab, text: "讀者 tho̍k-tsiá = readers (note tho̍k, the literary reading of 讀)."}
+  - {ref: 25, topic: vocab, text: "票 phiò = ticket. 活的 ua̍h--ê = alive, living."}
+new_words:
+  - {tailo: kua-á-hì, hanji: 歌仔戲, en: "Taiwanese opera"}
+  - {tailo: ián, hanji: 演, en: "perform, act"}
+  - {tailo: hì-pan, hanji: 戲班, en: "opera troupe"}
+  - {tailo: su-hū, hanji: 師父, en: "master, teacher"}
+  - {tailo: tshiú-lōo, hanji: 手路, en: "hand movements; skill"}
+  - {tailo: pān, hanji: 扮, en: "play (a role), dress up as"}
+  - {tailo: kak-sik, hanji: 角色, en: "role, part"}
+  - {tailo: tsa-bóo-kán, hanji: 查某𡢃, en: "maidservant"}
+  - {tailo: khóo-tuànn, hanji: 苦旦, en: "tragic heroine (role)"}
+  - {tailo: sió-sing, hanji: 小生, en: "young male lead (role)"}
+  - {tailo: tsiōng-guân, hanji: 狀元, en: "top scholar"}
+  - {tailo: siòng-kong, hanji: 相公, en: "young gentleman; husband (old)"}
+  - {tailo: tsing-tsha, hanji: 精差, en: "difference"}
+  - {tailo: Gî-lân, hanji: 宜蘭, en: "Yilan"}
+  - {tailo: piáu-ián, hanji: 表演, en: "perform; performance"}
+  - {tailo: tah, hanji: 搭, en: "put up, build (a stage)"}
+  - {tailo: pān-sian, hanji: 扮仙, en: "opening blessing play"}
+  - {tailo: sim-sng, hanji: 心酸, en: "heartbreaking, sad"}
+  - {tailo: thun-lún, hanji: 吞忍, en: "bear, put up with"}
+  - {tailo: ti̍k-sik, hanji: 特色, en: "special feature"}
+  - {tailo: tshit-jī-á, hanji: 七字仔, en: "seven-syllable tune"}
+  - {tailo: bîn-kan, hanji: 民間, en: "folk, of the people"}
+  - {tailo: gē-su̍t, hanji: 藝術, en: "art"}
+  - {tailo: tôo-tē, hanji: 徒弟, en: "apprentice, pupil"}
+  - {tailo: tsâi-tsîng, hanji: 才情, en: "talent"}
+exercises:
+  translate:
+    - {tailo: "Guá tsa̍p-jī huè tō ji̍p hì-pan.", hanji: "我十二歲就入戲班。", en: "I joined a troupe at twelve."}
+    - {tailo: "Kua-á-hì ê sió-sing, tuā-pōo-hūn lóng sī tsa-bóo-lâng pān--ê.", hanji: "歌仔戲的小生，大部份攏是查某人扮的。", en: "In Taiwanese opera, the young male leads are mostly played by women."}
+    - {tailo: "Sîn-bîng senn-ji̍t, biō tō tshiánn hì-pan lâi.", hanji: "神明生日，廟就請戲班來。", en: "On a god's birthday the temple hires a troupe."}
+    - {tailo: "Tsò tsit tôo, ài ē thun-lún.", hanji: "做這途，愛會吞忍。", en: "In this line of work you have to learn to bear things."}
+    - {tailo: "Kua-á-hì m̄ sī kóo-tsá ê mi̍h-kiānn, i sī ua̍h--ê.", hanji: "歌仔戲毋是古早的物件，伊是活的。", en: "Taiwanese opera isn't a thing of the past: it's alive."}
+  fill:
+    - {tailo: "Khah-tsá lí lóng ___ siánn-mih kak-sik?", hanji: "較早你攏___啥物角色？", answer: "pān", answer_hanji: "扮", en: "What roles did you play in the early days?"}
+    - {tailo: "Kua-á-hì kah pòo-tē-hì ū siánn-mih ___?", hanji: "歌仔戲佮布袋戲有啥物___？", answer: "tsing-tsha", answer_hanji: "精差", en: "What's the difference between Taiwanese opera and puppetry?"}
+    - {tailo: "Thiann--tio̍h tsin ___.", hanji: "聽著真___。", answer: "sim-sng", answer_hanji: "心酸", en: "That's heartbreaking to hear."}
+    - {tailo: "Kua-á-hì sī ___ ê gē-su̍t.", hanji: "歌仔戲是___的藝術。", answer: "bîn-kan", answer_hanji: "民間", en: "Taiwanese opera is a folk art."}
+    - {tailo: "Tsit-má kám ū siu ___?", hanji: "這馬敢有收___？", answer: "tôo-tē", answer_hanji: "徒弟", en: "Do you take pupils now?"}
+audio: []

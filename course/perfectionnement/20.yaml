@@ -1,0 +1,98 @@
+id: 20
+title: {en: "The fireflies are back", tailo: "Hué-kim-koo tńg--lâi--ah", hanji: "火金蛄轉來矣"}
+genre: dialogue
+review: false
+setting: "An evening in April in the countryside outside Tainan. A-má keeps the promise she made in 進修 7: she takes Sam, A-tshun, A-ióng and Siok-tsing to see the fireflies."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "逐家跤步較細膩咧，田岸有青苔，真溜。", tailo: "Ta̍k-ke kha-pōo khah sè-jī--leh, tshân-huānn ū tshenn-thî, tsin liu.", en: "Watch your step, everyone: there's moss on the field banks and it's very slippery."}
+  - {n: 2, speaker: A-ióng, hanji: "阿媽，遮烏暗烏暗，敢有蛇？", tailo: "A-má, tsia oo-àm oo-àm, kám ū tsuâ?", en: "A-má, it's pitch-dark here. Are there snakes?"}
+  - {n: 3, speaker: A-má, hanji: "凡勢有，嘛凡勢無。田庄所在，蜈蚣、蜘蛛滿滿是，你莫烏白摸就好。", tailo: "Huān-sè ū, mā huān-sè bô. Tshân-tsng sóo-tsāi, giâ-kang, ti-tu muá-muá-sī, lí mài oo-pe̍h bong tō hó.", en: "Maybe, maybe not. Out in the country there are centipedes and spiders everywhere; just don't go touching things."}
+  - {n: 4, speaker: Siok-tsing, hanji: "（攬牢阿勇的手）阿勇，你毋是講你啥物都毋驚？", tailo: "(Lám tiâu A-ióng ê tshiú) A-ióng, lí m̄ sī kóng lí siánn-mih to m̄ kiann?", en: "(Holding on to A-ióng's arm) A-ióng, didn't you say you weren't afraid of anything?"}
+  - {n: 5, speaker: A-ióng, hanji: "我是驚你驚，才問的。", tailo: "Guá sī kiann lí kiann, tsiah mn̄g--ê.", en: "I was only asking because I was worried you'd be scared."}
+  - {n: 6, speaker: A-tshun, hanji: "好啦，好得你今仔日有𤆬淑貞來。人攏講：", tailo: "Hó--lah, hó-tit lí kin-á-ji̍t ū tshuā Siok-tsing lâi. Lâng lóng kóng:", en: "Oh, sure. Just as well you brought Siok-tsing today. Everyone says:"}
+  - {n: 7, speaker: A-tshun, hanji: "阿勇真無膽，天若烏就毋敢出門。", tailo: "A-ióng tsin bô-tánn, thinn nā oo tō m̄-kánn tshut-mn̂g.", en: "A-ióng is such a coward, he won't go out once it's dark.", source: moe}
+  - {n: 8, speaker: A-má, hanji: "恬恬。手電仔攏熄掉，燈若光，火金蛄就毋出來。", tailo: "Tiām-tiām. Tshiú-tiān-á lóng sit--tiāu, ting nā kng, hué-kim-koo tō m̄ tshut--lâi.", en: "Quiet. Switch off all your torches: if there's light, the fireflies won't come out."}
+  - {n: 9, speaker: Sam, hanji: "（細聲）四邊真安靜，干焦聽著蛤仔佇田裡咧叫。", tailo: "(Sè-siann) Sì-pinn tsin an-tsīng, kan-na thiann-tio̍h kap-á tī tshân--lí teh kiò.", en: "(Quietly) It's so peaceful all around; all you can hear is the frogs croaking in the fields."}
+  - {n: 10, speaker: Siok-tsing, hanji: "閣有一款味，清芳清芳，是啥物花？", tailo: "Koh ū tsi̍t khuán bī, tshing-phang tshing-phang, sī siánn-mih hue?", en: "And there's a smell, sweet and fresh. What flower is it?"}
+  - {n: 11, speaker: A-má, hanji: "是龍眼花。四月龍眼開花，花蕊細細蕊，毋過真芳。", tailo: "Sī lîng-gíng-hue. Sì--gue̍h lîng-gíng khui-hue, hue-luí sè-sè luí, m̄-koh tsin phang.", en: "Longan blossom. The longan trees flower in April; the flowers are tiny, but they smell lovely."}
+  - {n: 12, speaker: Sam, hanji: "啊！你看，遐有一隻、兩隻……規片攏是！", tailo: "Ah! Lí khuànn, hia ū tsi̍t tsiah, nn̄g tsiah…… kui phìnn lóng sī!", en: "Oh! Look, there's one, two… they're everywhere!"}
+  - {n: 13, speaker: A-tshun, hanji: "真正是火金蛄！佇草仔頂懸一爍一爍，親像天頂的星落落來。", tailo: "Tsin-tsiànn sī hué-kim-koo! Tī tsháu-á tíng-kuân tsi̍t-sih tsi̍t-sih, tshin-tshiūnn thinn-tíng ê tshenn lak--lo̍h-lâi.", en: "They really are fireflies! Blinking above the grass, like stars that have dropped out of the sky."}
+  - {n: 14, speaker: Siok-tsing, hanji: "我活三十冬，頭一擺看著遮濟火金蛄閃爍。", tailo: "Guá ua̍h sann-tsa̍p tang, thâu tsi̍t pái khuànn-tio̍h tsiah tsē hué-kim-koo siám-sih.", en: "Thirty years I've been alive, and this is the first time I've seen so many fireflies twinkling."}
+  - {n: 15, speaker: A-má, hanji: "我細漢的時，彼當陣規庄攏是。後來田園變做工廠，火金蛄就無去矣。", tailo: "Guá sè-hàn ê sî, hit-tang-tsūn kui tsng lóng sī. Āu--lâi tshân-hn̂g piàn-tsò kang-tshiúnn, hué-kim-koo tō bô--khì--ah.", en: "When I was little, the whole village was full of them. Later the fields became factories, and the fireflies disappeared."}
+  - {n: 16, speaker: A-má, hanji: "這幾冬，庄裡的人共溪仔顧予清氣，毋用農藥，伊才閣轉來。", tailo: "Tsit kuí tang, tsng--lí ê lâng kā khe-á kòo hōo tshing-khì, m̄ iōng lông-io̍h, i tsiah koh tńg--lâi.", en: "These last few years, the villagers have kept the stream clean and stopped using pesticides, and only then did they come back."}
+  - {n: 17, speaker: Sam, hanji: "毋知 Hūi-hūi 敢有看過？伊的批講伊上愛自然。", tailo: "M̄ tsai Hūi-hūi kám ū khuànn-kuè? I ê phue kóng i siōng ài tsū-jiân.", en: "I wonder if Hūi-hūi has ever seen this. Her letter said she loves nature more than anything."}
+  - {n: 18, speaker: A-tshun, hanji: "伊補習補甲無時間。下擺我規氣共伊𤆬來，予伊佇遮寫小說。", tailo: "I póo-si̍p póo kah bô sî-kan. Ē-pái guá kui-khì kā i tshuā--lâi, hōo i tī tsia siá sió-suat.", en: "She's so busy with cram school she has no time. Next time I'll just bring her along and let her write her novel here."}
+  - {n: 19, speaker: A-ióng, hanji: "（對淑貞，細聲）你看，彼兩隻火金蛄做伙飛，親像咱。", tailo: "(Tuì Siok-tsing, sè-siann) Lí khuànn, hit nn̄g tsiah hué-kim-koo tsò-hué pue, tshin-tshiūnn lán.", en: "(Quietly, to Siok-tsing) Look, those two fireflies are flying together, just like us."}
+  - {n: 20, speaker: Siok-tsing, hanji: "三八！……毋過真浪漫。", tailo: "Sam-pat! …… M̄-koh tsin lōng-bān.", en: "Goof! …But it's very romantic."}
+  - {n: 21, speaker: A-tshun, hanji: "Sam，你看，阿勇對看成功矣，阿媽的媒人錢免出。", tailo: "Sam, lí khuànn, A-ióng tuì-khuànn sîng-kong--ah, a-má ê muê-lâng-tsînn bián tshut.", en: "Sam, look: A-ióng's blind date worked out, and A-má didn't even have to pay a matchmaker."}
+  - {n: 22, speaker: A-má, hanji: "露水落矣，恐驚會寒著。咱轉來去厝，阿媽有煮燒茶。", tailo: "Lōo-tsuí lo̍h--ah, khióng-kiann ē kuânn--tio̍h. Lán tńg-lâi-khì tshù, a-má ū tsú sio tê.", en: "The dew is falling; you might catch cold. Let's head home, A-má has made hot tea."}
+  - {n: 23, speaker: A-ióng, hanji: "等一下！Sam，我欠你的彼矸酒，今仔日終於紮來矣。", tailo: "Tán--tsi̍t-ē! Sam, guá khiàm lí ê hit kan tsiú, kin-á-ji̍t tsiong-î tsah--lâi--ah.", en: "Wait! Sam, the bottle I owed you: today I've finally brought it."}
+  - {n: 24, speaker: Sam, hanji: "真的？我叫是你早就袂記得矣。", tailo: "Tsin--ê? Guá kiò-sī lí tsá tō bē-kì-tit--ah.", en: "Really? I thought you'd forgotten long ago."}
+  - {n: 25, speaker: A-ióng, hanji: "人講欠人的愛還。今仔日火金蛄嘛轉來，酒嘛轉來，攏圓滿矣。", tailo: "Lâng kóng khiàm lâng--ê ài hîng. Kin-á-ji̍t hué-kim-koo mā tńg--lâi, tsiú mā tńg--lâi, lóng uân-buán--ah.", en: "They say you must repay what you owe. Today the fireflies came back, the bottle came back: everything has come full circle."}
+  - {n: 26, speaker: A-má, hanji: "好啦，緊轉去厝，阿媽閣有一件代誌欲共你講：Sam，你嘛該揣一个女朋友矣。", tailo: "Hó--lah, kín tńg-khì tshù, a-má koh ū tsi̍t kiānn tāi-tsì beh kā lí kóng: Sam, lí mā kai tshuē tsi̍t ê lú-pîng-iú--ah.", en: "All right, home we go. And A-má has one more thing to tell you: Sam, it's about time you found a girlfriend too."}
+  - {n: 27, speaker: Sam, hanji: "阿媽！……", tailo: "A-má! ……", en: "A-má!…"}
+notes:
+  - {ref: 1, topic: vocab, text: "青苔 tshenn-thî = moss. 溜 liu = slippery; also 'slip, slide'. 田岸 = field bank (lesson 94)."}
+  - {ref: 3, topic: vocab, text: "凡勢 huān-sè = maybe, perhaps (也許): 凡勢有，凡勢無 'maybe, maybe not'. 田庄 tshân-tsng = the countryside, farming country. 蜈蚣 giâ-kang = centipede; 蜘蛛 ti-tu = spider. 滿滿是 muá-muá-sī = everywhere, all over."}
+  - {ref: 4, topic: vocab, text: "攬牢 lám tiâu = hold on tight to (攬 lám 'hug, hold'). 啥物都毋驚 'not afraid of anything'."}
+  - {ref: 5, topic: grammar, text: "驚你驚 'afraid that you'd be afraid': the first 驚 is 'worry that', the second 'be scared'."}
+  - {ref: 6, topic: vocab, text: "好得 hó-tit = luckily, just as well (幸好), a synonym of 好佳哉."}
+  - {ref: 7, topic: vocab, text: "無膽 bô-tánn = cowardly, timid; the opposite of 好膽 (進修 2). 天烏 thinn oo = it gets dark. An MOE dictionary example that happens to be about someone called A-ióng."}
+  - {ref: 8, topic: vocab, text: "熄 sit = go out, switch off (a light, a fire): 熄掉 'switch off'. 燈 ting = light, lamp."}
+  - {ref: 9, topic: vocab, text: "四邊 sì-pinn = all around. 安靜 an-tsīng = quiet, peaceful. 蛤仔 kap-á = frog (another name, along with 水雞, 進修 4); 叫 = croak, call."}
+  - {ref: 10, topic: vocab, text: "清芳 tshing-phang = fresh and fragrant; doubled for a lingering smell."}
+  - {ref: 11, topic: vocab, text: "龍眼 lîng-gíng = longan; the trees flower in spring (龍眼花), and the honey is famous. 花蕊 hue-luí = flower, blossom; 蕊 luí is also its classifier (細細蕊 'tiny')."}
+  - {ref: 13, topic: vocab, text: "落落來 lak--lo̍h-lâi = drop down, fall out: 落 lak 'drop, fall off' (not lo̍h)."}
+  - {ref: 14, topic: vocab, text: "閃爍 siám-sih = twinkle, glimmer; 爍 alone (進修 4) is more colloquial."}
+  - {ref: 15, topic: vocab, text: "彼當陣 hit-tang-tsūn = at that time, back then. 工廠 kang-tshiúnn = factory."}
+  - {ref: 16, topic: vocab, text: "農藥 lông-io̍h = pesticides. 顧予清氣 'keep clean'."}
+  - {ref: 17, topic: vocab, text: "Hūi-hūi's letter: 進修 18 (自然, 補習, 小說)."}
+  - {ref: 20, topic: vocab, text: "三八 (進修 17); 浪漫 (lesson 86)."}
+  - {ref: 21, topic: culture, text: "媒人錢 muê-lâng-tsînn = the matchmaker's fee: 對看 and 媒人 from 進修 5."}
+  - {ref: 22, topic: vocab, text: "露水 lōo-tsuí = dew (露, 進修 15). 恐驚 khióng-kiann = I'm afraid (that), perhaps (恐怕). 轉來去 tńg-lâi-khì = head back (home)."}
+  - {ref: 23, topic: vocab, text: "終於 tsiong-î = at last, finally. The bottle broken in 進修 6."}
+  - {ref: 25, topic: vocab, text: "欠人的愛還 'what you owe, you must repay' (還, 進修 8). 圓滿 uân-buán = complete, perfect, all's well."}
+  - {ref: 26, topic: vocab, text: "該 kai = should, ought to: 你嘛該… 'it's time you …'."}
+new_words:
+  - {tailo: tshenn-thî, hanji: 青苔, en: "moss"}
+  - {tailo: lám, hanji: 攬, en: "hug, hold"}
+  - {tailo: liu, hanji: 溜, en: "slippery; slip"}
+  - {tailo: huān-sè, hanji: 凡勢, en: "maybe, perhaps"}
+  - {tailo: tshân-tsng, hanji: 田庄, en: "the countryside"}
+  - {tailo: giâ-kang, hanji: 蜈蚣, en: "centipede"}
+  - {tailo: ti-tu, hanji: 蜘蛛, en: "spider"}
+  - {tailo: muá-muá-sī, hanji: 滿滿是, en: "everywhere"}
+  - {tailo: hó-tit, hanji: 好得, en: "luckily, just as well"}
+  - {tailo: bô-tánn, hanji: 無膽, en: "cowardly, timid"}
+  - {tailo: sit, hanji: 熄, en: "go out, switch off"}
+  - {tailo: ting, hanji: 燈, en: "light, lamp"}
+  - {tailo: sì-pinn, hanji: 四邊, en: "all around"}
+  - {tailo: an-tsīng, hanji: 安靜, en: "quiet, peaceful"}
+  - {tailo: kap-á, hanji: 蛤仔, en: "frog"}
+  - {tailo: tshing-phang, hanji: 清芳, en: "fresh and fragrant"}
+  - {tailo: lîng-gíng, hanji: 龍眼, en: "longan"}
+  - {tailo: khui-hue, hanji: 開花, en: "flower, bloom"}
+  - {tailo: hue-luí, hanji: 花蕊, en: "flower, blossom"}
+  - {tailo: siám-sih, hanji: 閃爍, en: "twinkle, glimmer"}
+  - {tailo: hit-tang-tsūn, hanji: 彼當陣, en: "at that time, back then"}
+  - {tailo: kang-tshiúnn, hanji: 工廠, en: "factory"}
+  - {tailo: lông-io̍h, hanji: 農藥, en: "pesticide"}
+  - {tailo: lōo-tsuí, hanji: 露水, en: "dew"}
+  - {tailo: khióng-kiann, hanji: 恐驚, en: "I'm afraid (that), perhaps"}
+  - {tailo: tsiong-î, hanji: 終於, en: "at last, finally"}
+  - {tailo: uân-buán, hanji: 圓滿, en: "complete, all's well"}
+  - {tailo: kai, hanji: 該, en: "should, ought to"}
+exercises:
+  translate:
+    - {tailo: "Tshân-huānn ū tshenn-thî, tsin liu.", hanji: "田岸有青苔，真溜。", en: "There's moss on the field banks and it's very slippery."}
+    - {tailo: "Huān-sè ū, mā huān-sè bô.", hanji: "凡勢有，嘛凡勢無。", en: "Maybe, maybe not."}
+    - {tailo: "Sì-pinn tsin an-tsīng, kan-na thiann-tio̍h kap-á teh kiò.", hanji: "四邊真安靜，干焦聽著蛤仔咧叫。", en: "It's so peaceful all around; all you can hear is the frogs croaking."}
+    - {tailo: "Āu--lâi tshân-hn̂g piàn-tsò kang-tshiúnn, hué-kim-koo tō bô--khì--ah.", hanji: "後來田園變做工廠，火金蛄就無去矣。", en: "Later the fields became factories, and the fireflies disappeared."}
+    - {tailo: "Lōo-tsuí lo̍h--ah, khióng-kiann ē kuânn--tio̍h.", hanji: "露水落矣，恐驚會寒著。", en: "The dew is falling; you might catch cold."}
+  fill:
+    - {tailo: "___ lí kin-á-ji̍t ū tshuā Siok-tsing lâi.", hanji: "___你今仔日有𤆬淑貞來。", answer: "Hó-tit", answer_hanji: "好得", en: "Just as well you brought Siok-tsing today."}
+    - {tailo: "Tshiú-tiān-á lóng ___--tiāu.", hanji: "手電仔攏___掉。", answer: "sit", answer_hanji: "熄", en: "Switch off all your torches."}
+    - {tailo: "Tshân-tsng sóo-tsāi, giâ-kang, ti-tu ___.", hanji: "田庄所在，蜈蚣、蜘蛛___。", answer: "muá-muá-sī", answer_hanji: "滿滿是", en: "Out in the country there are centipedes and spiders everywhere."}
+    - {tailo: "Guá sè-hàn ê sî, ___ kui tsng lóng sī.", hanji: "我細漢的時，___規庄攏是。", answer: "hit-tang-tsūn", answer_hanji: "彼當陣", en: "When I was little, the whole village was full of them back then."}
+    - {tailo: "Guá khiàm lí ê hit kan tsiú, kin-á-ji̍t ___ tsah--lâi--ah.", hanji: "我欠你的彼矸酒，今仔日___紮來矣。", answer: "tsiong-î", answer_hanji: "終於", en: "The bottle I owed you: today I've finally brought it."}
+audio: []

@@ -1,0 +1,57 @@
+id: 21
+title: {en: "Review 3", tailo: "Ho̍k-si̍p", hanji: "復習"}
+genre: review
+review: true
+setting: "Back at A-má and A-kong's house after the fireflies. A-ióng opens the bottle he owed Sam, and A-kong joins in. Everything comes from 進修 15–20."
+dialogue:
+  - {n: 1, speaker: A-kong, hanji: "恁轉來矣！火金蛄敢有看著？", tailo: "Lín tńg--lâi--ah! Hué-kim-koo kám ū khuànn--tio̍h?", en: "You're back! Did you see the fireflies?"}
+  - {n: 2, speaker: Siok-tsing, hanji: "有！滿滿是，一爍一爍閃爍，真媠。阿公，遮的田庄真安靜。", tailo: "Ū! Muá-muá-sī, tsi̍t-sih tsi̍t-sih siám-sih, tsin suí. A-kong, tsia ê tshân-tsng tsin an-tsīng.", en: "Yes! They were everywhere, twinkling on and off, so beautiful. A-kong, the countryside here is so peaceful."}
+  - {n: 3, speaker: A-kong, hanji: "你就是阿勇的女朋友喔？阿勇，你這个人真有福氣。", tailo: "Lí tō sī A-ióng ê lú-pîng-iú--ooh? A-ióng, lí tsit ê lâng tsin ū hok-khì.", en: "So you're A-ióng's girlfriend? A-ióng, you're a lucky man."}
+  - {n: 4, speaker: A-tshun, hanji: "阿公，你毋知，伊對看的時開喙就嘐潲，閣假影是公司的頭人！", tailo: "A-kong, lí m̄ tsai, i tuì-khuànn ê sî khui-tshuì tō hau-siâu, koh ké-iánn sī kong-si ê thâu-lâng!", en: "A-kong, you don't know: on the blind date, the moment he opened his mouth he was bragging, and he pretended to be one of the bosses!"}
+  - {n: 5, speaker: Siok-tsing, hanji: "毋過伊後來照實講。我上無佮意虛華的人，伊顛倒有影古意。", tailo: "M̄-koh i āu--lâi tsiàu-si̍t kóng. Guá siōng bô kah-ì hi-hua ê lâng, i tian-tò ū-iánn kóo-ì.", en: "But he told the truth in the end. What I dislike most is people who put on airs, and he actually turned out to be really honest."}
+  - {n: 6, speaker: A-kong, hanji: "好！做人上要緊是老實，做代誌愛有擔當。", tailo: "Hó! Tsò-lâng siōng iàu-kín sī láu-si̍t, tsò tāi-tsì ài ū tam-tng.", en: "Good! The most important thing in life is honesty, and taking responsibility for what you do."}
+  - {n: 7, speaker: Sam, hanji: "阿公，這句話阿明佇你生日的時嘛講過，伊講是你的苦勸。", tailo: "A-kong, tsit kù uē A-bîng tī lí senn-ji̍t ê sî mā kóng--kuè, i kóng sī lí ê khóo-khǹg.", en: "A-kong, A-bîng said that too at your birthday; he said it was your heartfelt advice."}
+  - {n: 8, speaker: A-kong, hanji: "彼工阿明講甲阮目屎攏流出來。豬跤麵線、紅龜粿，阿公食甲飽滇。", tailo: "Hit kang A-bîng kóng kah guán ba̍k-sái lóng lâu--tshut-lâi. Ti-kha-mī-suànn, âng-ku-kué, a-kong tsia̍h kah pá-tīnn.", en: "That day A-bîng's speech brought tears to our eyes. Pig's trotters with noodles, red turtle cakes: A-kong ate till he was fit to burst."}
+  - {n: 9, speaker: A-ióng, hanji: "來，阿公，這矸酒是我欠 Sam 的，今仔日終於還伊矣。咱做伙啉。", tailo: "Lâi, a-kong, tsit kan tsiú sī guá khiàm Sam--ê, kin-á-ji̍t tsiong-î hîng--i--ah. Lán tsò-hué lim.", en: "Here, A-kong, this bottle is the one I owed Sam; today I've finally paid him back. Let's drink it together."}
+  - {n: 10, speaker: A-má, hanji: "莫啉傷濟，露水落矣，恐驚恁明仔載起袂來。", tailo: "Mài lim siunn tsē, lōo-tsuí lo̍h--ah, khióng-kiann lín bîn-á-tsài khí bē lâi.", en: "Don't drink too much. The dew's falling, and I'm afraid you won't be able to get up tomorrow."}
+  - {n: 11, speaker: A-tshun, hanji: "阿公，阮查某囝惠惠咧寫一張批予十冬後的家己，伊講伊的夢是做作家。", tailo: "A-kong, guán tsa-bóo-kiánn Hūi-hūi teh siá tsi̍t tiunn phue hōo tsa̍p tang āu ê ka-kī, i kóng i ê bāng sī tsò tsok-ka.", en: "A-kong, my daughter Hūi-hūi has written a letter to herself in ten years; she says her dream is to be a writer."}
+  - {n: 12, speaker: A-kong, hanji: "好啊！作家嘛是一途。只要伊有志氣、有決心，一枝草，一點露，袂枵死的。", tailo: "Hó--ah! Tsok-ka mā sī tsi̍t tôo. Tsí-iàu i ū tsì-khì, ū kuat-sim, tsi̍t ki tsháu, tsi̍t tiám lōo, bē iau--sí--ê.", en: "Good! Writing is a trade too. As long as she has spirit and determination, every blade of grass gets its dew: she won't starve."}
+  - {n: 13, speaker: A-tshun, hanji: "我嘛是驚伊食苦。毋過聽阿公按呢講，我較理解伊矣。", tailo: "Guá mā sī kiann i tsia̍h khóo. M̄-koh thiann a-kong án-ne kóng, guá khah lí-kái--i--ah.", en: "I was just afraid she'd have a hard life. But hearing you say that, A-kong, I understand her better."}
+  - {n: 14, speaker: Sam, hanji: "阿公，這庄頭古早叫做啥物名？我拄讀一篇文章，講地名攏有伊的由來。", tailo: "A-kong, tsit tsng-thâu kóo-tsá kiò-tsò siánn-mih miâ? Guá tú tha̍k tsi̍t phinn bûn-tsiunn, kóng tē-miâ lóng ū i ê iû-lâi.", en: "A-kong, what was this village called in the old days? I've just read an article saying every place name has its origin."}
+  - {n: 15, speaker: A-kong, hanji: "老一輩的人稱呼遮做「龍眼腳」，因為較早滿滿是龍眼。", tailo: "Lāu tsi̍t puè ê lâng tshing-hoo tsia tsò “Lîng-gíng-kha”, in-uī khah-tsá muá-muá-sī lîng-gíng.", en: "The old folk called this place 'Longan Foot', because it used to be covered in longan trees."}
+  - {n: 16, speaker: Siok-tsing, hanji: "原來按呢，拄才的花才遮清芳！", tailo: "Guân-lâi án-ne, tú-tsiah ê hue tsiah tsiah tshing-phang!", en: "So that's why the flowers smelled so sweet just now!"}
+  - {n: 17, speaker: A-má, hanji: "噯，龍眼腳、火金蛄、歌仔戲……攏是阿媽細漢的記號。", tailo: "Aih, Lîng-gíng-kha, hué-kim-koo, kua-á-hì…… lóng sī a-má sè-hàn ê kì-hō.", en: "Ah, Longan Foot, fireflies, Taiwanese opera… they're all marks of my childhood."}
+  - {n: 18, speaker: Sam, hanji: "阿媽嘛愛看歌仔戲？", tailo: "A-má mā ài khuànn kua-á-hì?", en: "You love Taiwanese opera too, A-má?"}
+  - {n: 19, speaker: A-má, hanji: "愛甲！彼當陣廟口搭戲棚，阿媽攏走去看。上佮意查某人扮的小生，比查埔的閣較飄撇。", tailo: "Ài kah! Hit-tang-tsūn biō-kháu tah hì-pênn, a-má lóng tsáu khì khuànn. Siōng kah-ì tsa-bóo-lâng pān ê sió-sing, pí tsa-poo--ê koh-khah phiau-phiat.", en: "Do I ever! Back then, whenever a stage went up outside the temple, I'd run off to watch. My favourites were the young male leads played by women: more dashing than any man."}
+  - {n: 20, speaker: A-kong, hanji: "所以伊嫁我進前，嫌我無夠飄撇。", tailo: "Sóo-í i kè guá tsìn-tsîng, hiâm guá bô kàu phiau-phiat.", en: "That's why, before she married me, she complained I wasn't dashing enough."}
+  - {n: 21, speaker: A-má, hanji: "（笑）你三八！", tailo: "(Tshiò) Lí sam-pat!", en: "(Laughing) You goof!"}
+  - {n: 22, speaker: A-ióng, hanji: "阿公阿媽遮恩愛，阮少年人真欣羨。淑貞，咱嘛愛親像𪜶按呢。", tailo: "A-kong a-má tsiah un-ài, guán siàu-liân-lâng tsin him-siān. Siok-tsing, lán mā ài tshin-tshiūnn in án-ne.", en: "A-kong and A-má are so devoted, we young people are envious. Siok-tsing, let's be like them."}
+  - {n: 23, speaker: Siok-tsing, hanji: "你先莫閣嘐潲，凡勢就有機會。", tailo: "Lí sing mài koh hau-siâu, huān-sè tō ū ki-huē.", en: "Stop bragging first, and maybe you'll have a chance."}
+  - {n: 24, speaker: A-kong, hanji: "（攑杯仔）來，祝恁少年人逐家圓滿！", tailo: "(Gia̍h pue-á) Lâi, tsiok lín siàu-liân-lâng ta̍k-ke uân-buán!", en: "(Raising his glass) Come on: here's to all you young people, may everything turn out well!"}
+  - {n: 25, speaker: Everyone, hanji: "乾杯！", tailo: "Kan-pue!", en: "Cheers!"}
+notes:
+  - {ref: 2, topic: vocab, text: "The fireflies (進修 20): 滿滿是, 閃爍, 田庄, 安靜, 四邊, 露水, 恐驚, 凡勢."}
+  - {ref: 4, topic: vocab, text: "The blind date (進修 17): 開喙, 嘐潲, 頭人, 照實, 虛華, 顛倒, 三八, 飄撇."}
+  - {ref: 6, topic: vocab, text: "The birthday speech (進修 15): 苦勸, 擔當, 志氣, 一枝草，一點露, 豬跤麵線, 紅龜粿."}
+  - {ref: 11, topic: vocab, text: "Hūi-hūi's letter (進修 18): 作家, 決心, 理解, 追求, 未來."}
+  - {ref: 12, topic: vocab, text: "途 tôo = trade, line of work (進修 16: 這途). 枵死 iau--sí = starve to death."}
+  - {ref: 14, topic: vocab, text: "Place names (進修 19): 地名, 由來, 稱呼, 記號. 文章 = article (lesson 94)."}
+  - {ref: 15, topic: culture, text: "龍眼腳 'Longan Foot' is an invented village name in the style of real ones (樹林腳, 山腳…): 跤/腳 kha = the foot of, the area below."}
+  - {ref: 16, topic: grammar, text: "原來按呢 'so that's it': 原來 (lesson 59) + 按呢. 拄才 'just now' (lesson 17). 才遮清芳 'that's why it was so fragrant': 才 links a cause to its result."}
+  - {ref: 19, topic: vocab, text: "Taiwanese opera (進修 16): 搭戲棚, 扮, 小生. 愛甲 'do I ever love it': adjective + 甲 with the result left out."}
+  - {ref: 20, topic: vocab, text: "嫌 = complain about (lesson 79)."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Guá siōng bô kah-ì hi-hua ê lâng, i tian-tò ū-iánn kóo-ì.", hanji: "我上無佮意虛華的人，伊顛倒有影古意。", en: "What I dislike most is people who put on airs, and he actually turned out to be really honest."}
+    - {tailo: "Tsí-iàu i ū tsì-khì, ū kuat-sim, bē iau--sí--ê.", hanji: "只要伊有志氣、有決心，袂枵死的。", en: "As long as she has spirit and determination, she won't starve."}
+    - {tailo: "Lāu tsi̍t puè ê lâng tshing-hoo tsia tsò “Lîng-gíng-kha”.", hanji: "老一輩的人稱呼遮做「龍眼腳」。", en: "The old folk called this place 'Longan Foot'."}
+    - {tailo: "Hit-tang-tsūn biō-kháu tah hì-pênn, a-má lóng tsáu khì khuànn.", hanji: "彼當陣廟口搭戲棚，阿媽攏走去看。", en: "Back then, whenever a stage went up outside the temple, I'd run off to watch."}
+    - {tailo: "Lí sing mài koh hau-siâu, huān-sè tō ū ki-huē.", hanji: "你先莫閣嘐潲，凡勢就有機會。", en: "Stop bragging first, and maybe you'll have a chance."}
+  fill:
+    - {tailo: "Tsò tāi-tsì ài ū ___.", hanji: "做代誌愛有___。", answer: "tam-tng", answer_hanji: "擔當", en: "Take responsibility for what you do."}
+    - {tailo: "Mài lim siunn tsē, ___ lín bîn-á-tsài khí bē lâi.", hanji: "莫啉傷濟，___恁明仔載起袂來。", answer: "khióng-kiann", answer_hanji: "恐驚", en: "Don't drink too much, I'm afraid you won't be able to get up tomorrow."}
+    - {tailo: "Guá khah ___--i--ah.", hanji: "我較___伊矣。", answer: "lí-kái", answer_hanji: "理解", en: "I understand her better."}
+    - {tailo: "Lóng sī a-má sè-hàn ê ___.", hanji: "攏是阿媽細漢的___。", answer: "kì-hō", answer_hanji: "記號", en: "They're all marks of my childhood."}
+    - {tailo: "Tsiok lín siàu-liân-lâng ta̍k-ke ___!", hanji: "祝恁少年人逐家___！", answer: "uân-buán", answer_hanji: "圓滿", en: "Here's to all you young people, may everything turn out well!"}
+audio: []

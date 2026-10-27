@@ -25,7 +25,7 @@ dialogue:
   - {n: 19, speaker: Sam, hanji: "（跳起來）鳥鼠佇佗位？", tailo: "(Thiàu--khí-lâi) Niáu-tshí tī tó-uī?", en: "(Jumping up) Where's the rat?"}
   - {n: 20, speaker: A-ióng, hanji: "伊勼入去壁空內底矣。Sam，你蹛遮遐久，敢毋知影？", tailo: "I kiu--ji̍p-khì piah-khang lāi-té--ah. Sam, lí tuà tsia hiah kú, kám m̄ tsai-iánn?", en: "It's squeezed itself into a hole in the wall. Sam, you've lived here all this time and you didn't know?"}
   - {n: 21, speaker: Sam, hanji: "我叫是彼是樓頂的人咧行路的聲……", tailo: "Guá kiò-sī he sī lâu-tíng ê lâng teh kiânn-lōo ê siann……", en: "I thought it was the people upstairs walking about…"}
-  - {n: 22, speaker: A-tshun, hanji: "（拍噗仔）好矣好矣，莫佇遐戇戇徛。阿勇，你嘛是：", tailo: "(Phah-phok-á) Hó--ah hó--ah, mài tī hia gōng-gōng khiā. A-ióng, lí mā sī:", en: "(Clapping her hands) Come on, come on, don't just stand there. You too, A-ióng:"}
+  - {n: 22, speaker: A-tshun, hanji: "（拍噗仔）好矣好矣，莫佇遐戇戇徛。阿勇，你嘛是：", tailo: "(Phah-pho̍k-á) Hó--ah hó--ah, mài tī hia gōng-gōng khiā. A-ióng, lí mā sī:", en: "(Clapping her hands) Come on, come on, don't just stand there. You too, A-ióng:"}
   - {n: 23, speaker: A-tshun, hanji: "小徙跤咧，人咧摒掃。", tailo: "Sió suá-kha--leh, lâng teh piànn-sàu.", en: "Shift your feet, someone's cleaning here.", source: moe}
   - {n: 24, speaker: A-ióng, hanji: "（徙椅仔，挵著物件）……歹勢，我共你一矸酒拍破去矣。", tailo: "(Suá í-á, lòng-tio̍h mi̍h-kiānn) …… Pháinn-sè, guá kā lí tsi̍t kan tsiú phah-phuà--khì--ah.", en: "(Moving a chair, he bumps into something) …Sorry, I've broken one of your bottles."}
   - {n: 25, speaker: Sam, hanji: "彼是阮阿公予我的酒！內底猶賰一半！", tailo: "He sī guán a-kong hōo guá ê tsiú! Lāi-té iáu tshun tsi̍t-puànn!", en: "That was the drink my grandpa gave me! There was still half of it left!"}
@@ -54,7 +54,7 @@ notes:
   - {ref: 18, topic: vocab, text: "鳥鼠 niáu-tshí = rat, mouse (老鼠). The characters mean 'bird-rat', but 鳥 is read niáu here."}
   - {ref: 20, topic: vocab, text: "勼 kiu = shrink, curl up, draw back: 勼入去 'squeeze itself in'; 驚甲勼做一丸 'curled up in fright'. 壁空 piah-khang = a hole in the wall."}
   - {ref: 21, topic: vocab, text: "樓頂 lâu-tíng = upstairs (樓上); 樓跤 lâu-kha = downstairs. 厝頂 tshù-tíng = the roof."}
-  - {ref: 23, topic: grammar, text: "小徙跤咧，人咧摒掃 'move your feet a little, someone's cleaning': an MOE example, said to people in the way. 小 sió … 咧 = do something a little, briefly. 拍噗仔 phah-phok-á (line 22) = clap."}
+  - {ref: 23, topic: grammar, text: "小徙跤咧，人咧摒掃 'move your feet a little, someone's cleaning': an MOE example, said to people in the way. 小 sió … 咧 = do something a little, briefly. 拍噗仔 phah-pho̍k-á (line 22) = clap."}
   - {ref: 24, topic: vocab, text: "拍破 phah-phuà = break, smash (glass, plates); for machines that stop working, say 拍歹 phah-pháinn 'damage, break': 電腦拍歹去矣. 一矸酒 tsi̍t kan tsiú = a bottle of drink: 矸 kan is a bottle, and also its classifier; 酒矸 tsiú-kan = an empty bottle."}
   - {ref: 25, topic: vocab, text: "賰 tshun = be left over, remain (剩): 賰偌濟? 'how much is left?'. Taigi-only character."}
   - {ref: 27, topic: vocab, text: "所費 sóo-huì = the cost, expenses: 所費我出 'I'll pay'."}

@@ -1,0 +1,82 @@
+id: 19
+title: {en: "Where place names come from", tailo: "Tē-miâ ê iû-lâi", hanji: "地名的由來"}
+genre: article
+review: false
+setting: "An article from a Taigi magazine on the old names of Taiwanese towns and what they meant."
+dialogue:
+  - {n: 1, hanji: "你若坐火車行規个臺灣，會看著真濟地名。", tailo: "Lí nā tsē hué-tshia kiânn kui-ê Tâi-uân, ē khuànn-tio̍h tsin tsē tē-miâ.", en: "If you travel round Taiwan by train, you'll see a great many place names."}
+  - {n: 2, hanji: "這寡地名，有的是看地形號名的，有的是對原住民的語言來的，閣有的是日本時代改的。", tailo: "Tsit kuá tē-miâ, ū--ê sī khuànn tē-hîng hō-miâ--ê, ū--ê sī uì guân-tsū-bîn ê gí-giân lâi--ê, koh ū--ê sī Ji̍t-pún sî-tāi kái--ê.", en: "Some of these names were given after the lie of the land, some come from the indigenous languages, and others were changed in the Japanese era."}
+  - {n: 3, hanji: "逐个地名後壁，攏有一段故事。", tailo: "Ta̍k ê tē-miâ āu-piah, lóng ū tsi̍t tuānn kòo-sū.", en: "Behind every place name there's a story."}
+  - {n: 4, hanji: "先講高雄。高雄較早叫做「打狗」。", tailo: "Sing kóng Ko-hiông. Ko-hiông khah-tsá kiò-tsò “Tá-káu”.", en: "Take Kaohsiung first. It used to be called Tá-káu."}
+  - {n: 5, hanji: "打狗毋是講欲拍狗仔，是原住民語言的音。聽講意思是竹仔林。", tailo: "Tá-káu m̄ sī kóng beh phah káu-á, sī guân-tsū-bîn gí-giân ê im. Thiann-kóng ì-sù sī tik-á-nâ.", en: "It doesn't mean 'beat the dog': it's the sound of a word in an indigenous language, said to mean 'bamboo grove'."}
+  - {n: 6, hanji: "一九二〇年，日本政府共真濟地名改做日本話的名。日本話「高雄」的讀音，佮「打狗」的音真倚，所以就號做高雄。", tailo: "It-kiú-jī-khòng nî, Ji̍t-pún tsìng-hú kā tsin tsē tē-miâ kái-tsò Ji̍t-pún-uē ê miâ. Ji̍t-pún-uē “Ko-hiông” ê tha̍k-im, kah “Tá-káu” ê im tsin uá, sóo-í tō hō-tsò Ko-hiông.", en: "In 1920 the Japanese government changed many place names into Japanese ones. The Japanese reading of 高雄, Takao, sounds very close to Tá-káu, so the city was named 高雄."}
+  - {n: 7, hanji: "屏東較早叫做「阿猴」，嘛是對原住民的語言來的。", tailo: "Pîn-tong khah-tsá kiò-tsò “A-kâu”, mā sī uì guân-tsū-bîn ê gí-giân lâi--ê.", en: "Pingtung used to be called A-kâu, which also comes from an indigenous language."}
+  - {n: 8, hanji: "臺北的萬華，較早叫做艋舺。艋舺是原住民的話，意思是細隻的船，因為古早原住民坐船來遮佮漢人換物件。", tailo: "Tâi-pak ê Bān-huâ, khah-tsá kiò-tsò Báng-kah. Báng-kah sī guân-tsū-bîn ê uē, ì-sù sī sè tsiah ê tsûn, in-uī kóo-tsá guân-tsū-bîn tsē tsûn lâi tsia kah Hàn-jîn uānn mi̍h-kiānn.", en: "Wanhua in Taipei used to be called Báng-kah. It's an indigenous word meaning a small boat, because long ago indigenous people came here by canoe to trade with the Han Chinese."}
+  - {n: 9, hanji: "一九二〇年嘛改做「萬華」，因為日本話讀起來佮「艋舺」相倚。", tailo: "It-kiú-jī-khòng nî mā kái-tsò “Bān-huâ”, in-uī Ji̍t-pún-uē tha̍k--khí-lâi kah “Báng-kah” sio-uá.", en: "In 1920 it too was renamed 萬華, because in Japanese it sounds close to Báng-kah."}
+  - {n: 10, hanji: "有的地名是看地形號的。新北市的汐止，較早叫做「水返腳」。", tailo: "Ū--ê tē-miâ sī khuànn tē-hîng hō--ê. Sin-pak-tshī ê Si̍k-tsí, khah-tsá kiò-tsò “Tsuí-tńg-kha”.", en: "Some names describe the lie of the land. Xizhi in New Taipei used to be called Tsuí-tńg-kha."}
+  - {n: 11, hanji: "意思是講，海水漲起來的時，水對海口沿溪流入來，流到遮就倒轉去。", tailo: "Ì-sù sī kóng, hái-tsuí tiòng--khí-lâi ê sî, tsuí uì hái-kháu iân khe lâu--ji̍p-lâi, lâu kàu tsia tō tò-tńg--khì.", en: "It means that at high tide, the sea water flows up the river from the river mouth, and when it reaches here it turns back."}
+  - {n: 12, hanji: "三峽較早叫做「三角湧」，因為三條溪佇遐相會，水湧起來，形狀親像一个三角。", tailo: "Sam-kiap khah-tsá kiò-tsò “Sann-kak-íng”, in-uī sann tiâu khe tī hia siong-huē, tsuí íng--khí-lâi, hîng-tsōng tshin-tshiūnn tsi̍t ê sann-kak.", en: "Sanxia used to be called Sann-kak-íng, 'three-cornered surge', because three rivers meet there and the water surges up in the shape of a triangle."}
+  - {n: 13, hanji: "臺中的清水，較早叫做「牛罵頭」。聽講這是平埔原住民一个部落的名，毋是講牛咧罵人。", tailo: "Tâi-tiong ê Tshing-tsuí, khah-tsá kiò-tsò “Gû-mâ-thâu”. Thiann-kóng tse sī pênn-poo guân-tsū-bîn tsi̍t ê pōo-lo̍k ê miâ, m̄ sī kóng gû teh mē lâng.", en: "Qingshui in Taichung used to be called Gû-mâ-thâu. It's said to be the name of a lowland indigenous village, not a cow scolding people."}
+  - {n: 14, hanji: "嘛有真濟地名是漢人號的。大稻埕的意思是大片的稻埕，古早遐有足闊的埕通曝粟。", tailo: "Mā ū tsin tsē tē-miâ sī Hàn-jîn hō--ê. Tuā-tiū-tiânn ê ì-sù sī tuā phìnn ê tiū-tiânn, kóo-tsá hia ū tsiok khuah ê tiânn thang pha̍k tshik.", en: "Many names were also given by the Han Chinese. Dadaocheng means 'big rice-drying ground': long ago there was a huge open space there for drying grain."}
+  - {n: 15, hanji: "臺南號做「府城」，因為清朝的時，臺灣府的官廳設佇遮。", tailo: "Tâi-lâm hō-tsò “Hú-siânn”, in-uī Tshing-tiâu ê sî, Tâi-uân-hú ê kuann-thiann siat tī tsia.", en: "Tainan is called Hú-siânn, 'the prefectural city', because in the Qing dynasty the seat of Taiwan Prefecture was here."}
+  - {n: 16, hanji: "這寡舊地名，有的人到今猶咧用。佇臺北，老一輩的人猶講艋舺，罕得講萬華。", tailo: "Tsit kuá kū tē-miâ, ū--ê lâng kàu-tann iáu teh iōng. Tī Tâi-pak, lāu tsi̍t puè ê lâng iáu kóng Báng-kah, hán-tit kóng Bān-huâ.", en: "Some people still use these old names today. In Taipei, older people still say Báng-kah and seldom say Wanhua."}
+  - {n: 17, hanji: "台語講地名，嘛有家己的讀法。親像「新竹」講 Sin-tik，「汐止」講 Si̍k-tsí。", tailo: "Tâi-gí kóng tē-miâ, mā ū ka-kī ê tha̍k-huat. Tshin-tshiūnn “Sin-tik” kóng Sin-tik, “Si̍k-tsí” kóng Si̍k-tsí.", en: "Taigi has its own readings for place names too: 新竹 is Sin-tik, 汐止 is Si̍k-tsí."}
+  - {n: 18, hanji: "臺灣人嘛定定稱呼家己做「番薯仔」，因為臺灣的形狀親像一條番薯。", tailo: "Tâi-uân-lâng mā tiānn-tiānn tshing-hoo ka-kī tsò “han-tsî-á”, in-uī Tâi-uân ê hîng-tsōng tshin-tshiūnn tsi̍t tiâu han-tsî.", en: "Taiwanese people often call themselves 'sweet potatoes', because Taiwan is shaped like a sweet potato."}
+  - {n: 19, hanji: "下擺你若去一个生份的所在，會使問在地人：", tailo: "Ē-pái lí nā khì tsi̍t ê senn-hūn ê sóo-tsāi, ē-sái mn̄g tsāi-tē-lâng:", en: "Next time you go somewhere new, you can ask the locals:"}
+  - {n: 20, hanji: "「借問，這个地名是按怎來的？」", tailo: "“Tsioh-mn̄g, tsit ê tē-miâ sī án-tsuánn lâi--ê?”", en: "'Excuse me, where does the name of this place come from?'"}
+  - {n: 21, hanji: "逐个地名攏是一个記號，共這塊土地的歷史記起來，予後代的人毋通袂記得。", tailo: "Ta̍k ê tē-miâ lóng sī tsi̍t ê kì-hō, kā tsit tè thóo-tē ê li̍k-sú kì--khí-lâi, hōo āu-tāi ê lâng m̄-thang bē-kì-tit.", en: "Every place name is a marker that keeps a record of this land's history, so that later generations don't forget."}
+notes:
+  - {ref: 1, topic: vocab, text: "地名 tē-miâ = place name. 行規个臺灣 'travel all over Taiwan'."}
+  - {ref: 2, topic: vocab, text: "地形 tē-hîng = the lie of the land, terrain. 號名 hō-miâ = name, give a name (號做, lesson 52 = be called). 日本時代 Ji̍t-pún sî-tāi = the Japanese era (1895–1945)."}
+  - {ref: 3, topic: vocab, text: "後壁 = behind (lesson 54). 段 tuānn = classifier for a passage, a stretch: 一段故事 'a story'."}
+  - {ref: 4, topic: culture, text: "打狗 Tá-káu, the old name of Kaohsiung; the hill 打狗山 kept the name for a long time."}
+  - {ref: 5, topic: vocab, text: "音 im = sound (lesson 87). 聽講 = it's said, reportedly: the meaning 'bamboo grove' is the usual explanation, not a certainty."}
+  - {ref: 6, topic: culture, text: "In 1920 the colonial government reformed place names: many were replaced by Japanese names that sounded like the old ones (打狗 → 高雄 Takao, 艋舺 → 萬華 Manka, 阿猴 → 屏東, 水返腳 → 汐止, 三角湧 → 三峽, 牛罵頭 → 清水). 倚 uá = close, near (lesson 36): 音真倚 'sounds very close'."}
+  - {ref: 8, topic: culture, text: "艋舺 Báng-kah (lesson 82), from an indigenous word for a canoe. 漢人 Hàn-jîn = the Han Chinese settlers."}
+  - {ref: 9, topic: vocab, text: "相倚 sio-uá = close to each other, similar."}
+  - {ref: 11, topic: vocab, text: "漲 tiòng = (of water) rise: 海水漲 'the tide comes in'. 海口 hái-kháu = the coast, the river mouth (lesson 66). 沿 iân = along. 倒轉去 = go back (倒轉, lesson 60)."}
+  - {ref: 12, topic: vocab, text: "形狀 hîng-tsōng = shape. 湧 íng = surge, rise in waves (海湧, 進修 12). 相會 = meet (進修 17)."}
+  - {ref: 13, topic: culture, text: "平埔 pênn-poo = the lowland indigenous peoples of the western plains, largely absorbed by Han settlement. 部落 pōo-lo̍k = village, tribe."}
+  - {ref: 14, topic: vocab, text: "大稻埕 Tuā-tiū-tiânn = Dadaocheng in Taipei; 稻埕 = rice-drying ground (lesson 45)."}
+  - {ref: 15, topic: culture, text: "清朝 Tshing-tiâu = the Qing dynasty (Taiwan was under Qing rule 1683–1895). 官廳 kuann-thiann = government office. 設 siat = set up, be located."}
+  - {ref: 17, topic: vocab, text: "讀法 tha̍k-huat = way of reading, pronunciation."}
+  - {ref: 18, topic: culture, text: "稱呼 tshing-hoo = call, address; a form of address. Taiwanese call themselves 番薯仔 'sweet potatoes' from the island's shape; mainland-born people were sometimes called 芋仔 'taros'."}
+  - {ref: 19, topic: vocab, text: "在地人 tsāi-tē-lâng = locals. 生份 = unfamiliar (lesson 92)."}
+  - {ref: 20, topic: vocab, text: "借問 tsioh-mn̄g = excuse me, may I ask: the polite way to start a question to a stranger."}
+  - {ref: 21, topic: vocab, text: "記號 kì-hō = mark, marker. 後代 āu-tāi = later generations, descendants."}
+new_words:
+  - {tailo: tē-miâ, hanji: 地名, en: "place name"}
+  - {tailo: iû-lâi, hanji: 由來, en: "origin"}
+  - {tailo: tē-hîng, hanji: 地形, en: "terrain, lie of the land"}
+  - {tailo: hō-miâ, hanji: 號名, en: "name, give a name"}
+  - {tailo: tuānn, hanji: 段, en: "(classifier for passages, stretches)"}
+  - {tailo: Tá-káu, hanji: 打狗, en: "Tá-káu (old name of Kaohsiung)"}
+  - {tailo: A-kâu, hanji: 阿猴, en: "A-kâu (old name of Pingtung)"}
+  - {tailo: Hàn-jîn, hanji: 漢人, en: "the Han Chinese"}
+  - {tailo: sio-uá, hanji: 相倚, en: "close to each other"}
+  - {tailo: Tsuí-tńg-kha, hanji: 水返腳, en: "Tsuí-tńg-kha (old name of Xizhi)"}
+  - {tailo: tiòng, hanji: 漲, en: "(of water) rise"}
+  - {tailo: iân, hanji: 沿, en: "along"}
+  - {tailo: hîng-tsōng, hanji: 形狀, en: "shape"}
+  - {tailo: pōo-lo̍k, hanji: 部落, en: "village, tribe"}
+  - {tailo: kuann-thiann, hanji: 官廳, en: "government office"}
+  - {tailo: siat, hanji: 設, en: "set up, be located"}
+  - {tailo: tshing-hoo, hanji: 稱呼, en: "call, address"}
+  - {tailo: tsāi-tē-lâng, hanji: 在地人, en: "locals"}
+  - {tailo: tsioh-mn̄g, hanji: 借問, en: "excuse me, may I ask"}
+  - {tailo: kì-hō, hanji: 記號, en: "mark, marker"}
+  - {tailo: āu-tāi, hanji: 後代, en: "later generations"}
+exercises:
+  translate:
+    - {tailo: "Ta̍k ê tē-miâ āu-piah, lóng ū tsi̍t tuānn kòo-sū.", hanji: "逐个地名後壁，攏有一段故事。", en: "Behind every place name there's a story."}
+    - {tailo: "Ū--ê tē-miâ sī khuànn tē-hîng hō--ê.", hanji: "有的地名是看地形號的。", en: "Some names describe the lie of the land."}
+    - {tailo: "Lāu tsi̍t puè ê lâng iáu kóng Báng-kah, hán-tit kóng Bān-huâ.", hanji: "老一輩的人猶講艋舺，罕得講萬華。", en: "Older people still say Báng-kah and seldom say Wanhua."}
+    - {tailo: "Tâi-uân ê hîng-tsōng tshin-tshiūnn tsi̍t tiâu han-tsî.", hanji: "臺灣的形狀親像一條番薯。", en: "Taiwan is shaped like a sweet potato."}
+    - {tailo: "Tsioh-mn̄g, tsit ê tē-miâ sī án-tsuánn lâi--ê?", hanji: "借問，這个地名是按怎來的？", en: "Excuse me, where does the name of this place come from?"}
+  fill:
+    - {tailo: "Ji̍t-pún-uē “Ko-hiông” kah “Tá-káu” ê im tsin ___.", hanji: "日本話「高雄」佮「打狗」的音真___。", answer: "uá", answer_hanji: "倚", en: "In Japanese, 高雄 sounds very close to Tá-káu."}
+    - {tailo: "Hái-tsuí ___--khí-lâi ê sî, tsuí uì hái-kháu lâu--ji̍p-lâi.", hanji: "海水___起來的時，水對海口流入來。", answer: "tiòng", answer_hanji: "漲", en: "At high tide, the water flows in from the river mouth."}
+    - {tailo: "Tâi-uân-lâng tiānn-tiānn ___ ka-kī tsò “han-tsî-á”.", hanji: "臺灣人定定___家己做「番薯仔」。", answer: "tshing-hoo", answer_hanji: "稱呼", en: "Taiwanese people often call themselves 'sweet potatoes'."}
+    - {tailo: "Ē-sái mn̄g ___.", hanji: "會使問___。", answer: "tsāi-tē-lâng", answer_hanji: "在地人", en: "You can ask the locals."}
+    - {tailo: "Ta̍k ê tē-miâ lóng sī tsi̍t ê ___.", hanji: "逐个地名攏是一个___。", answer: "kì-hō", answer_hanji: "記號", en: "Every place name is a marker."}
+audio: []

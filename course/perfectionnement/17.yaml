@@ -1,0 +1,98 @@
+id: 17
+title: {en: "A-ióng's blind date", tailo: "A-ióng tuì-khuànn", hanji: "阿勇對看"}
+genre: play
+review: false
+setting: "A comedy in one act. A tea shop in Taipei. A-ióng's mother has arranged a meeting with Siok-tsin, an engineer. Two tables away, A-tshun and Sam pretend to read the menu."
+dialogue:
+  - {n: 1, speaker: Mother, hanji: "（細聲）阿勇，你今仔日穿插遮飄撇，袂䆀喔。等一下講話較正經咧，莫閣嘐潲。", tailo: "(Sè-siann) A-ióng, lí kin-á-ji̍t tshīng-tshah tsiah phiau-phiat, bē-bái--ooh. Tán--tsi̍t-ē kóng-uē khah tsìng-king--leh, mài koh hau-siâu.", en: "(Quietly) A-ióng, you're very smartly turned out today, not bad. When she comes, talk sensibly, and no more bragging."}
+  - {n: 2, speaker: A-ióng, hanji: "阿母，我三十二歲矣，猶是單身，毋是我的錯，是查某囡仔無目睭。", tailo: "A-bú, guá sann-tsa̍p-jī huè--ah, iáu-sī tuann-sin, m̄ sī guá ê tshò, sī tsa-bóo gín-á bô ba̍k-tsiu.", en: "Mum, I'm thirty-two and still single, and it's not my fault: girls just can't see what's in front of them."}
+  - {n: 3, speaker: Mother, hanji: "閣講！人來矣。（徛起來）淑貞，歡迎，緊坐。", tailo: "Koh kóng! Lâng lâi--ah. (Khiā--khí-lâi) Siok-tsing, huan-gîng, kín tsē.", en: "Listen to you! Here she is. (Standing up) Siok-tsing, welcome, do sit down."}
+  - {n: 4, speaker: Siok-tsing, hanji: "阿姆好。（對阿勇）你好，我是淑貞。", tailo: "A-ḿ hó. (Tuì A-ióng) Lí hó, guá sī Siok-tsing.", en: "Hello, auntie. (To A-ióng) Hello, I'm Siok-tsing."}
+  - {n: 5, speaker: A-ióng, hanji: "（大方）你好你好！我是阿勇，臺北人，人真飄撇，個性閣好，逐家攏講我……", tailo: "(Tāi-hong) Lí hó lí hó! Guá sī A-ióng, Tâi-pak lâng, lâng tsin phiau-phiat, kò-sìng koh hó, ta̍k-ke lóng kóng guá……", en: "(Breezily) Hello, hello! I'm A-ióng, from Taipei, very dashing, with a great personality; everyone says I'm…"}
+  - {n: 6, speaker: A-tshun, hanji: "（佇邊仔的桌，細聲對 Sam）開喙就嘐潲，這擺穩死的。", tailo: "(Tī pinn--á ê toh, sè-siann tuì Sam) Khui-tshuì tō hau-siâu, tsit pái ún-sí--ê.", en: "(At the next table, quietly to Sam) He opens his mouth and starts bragging. He's done for this time."}
+  - {n: 7, speaker: Mother, hanji: "淑貞，聽講你咧做工程師？", tailo: "Siok-tsing, thiann-kóng lí teh tsò kang-tîng-su?", en: "Siok-tsing, I hear you're an engineer?"}
+  - {n: 8, speaker: Siok-tsing, hanji: "著，我佇電腦公司上班。阿勇，你的職業是啥物？", tailo: "Tio̍h, guá tī tiān-náu kong-si siōng-pan. A-ióng, lí ê tsit-gia̍p sī siánn-mih?", en: "That's right, I work for a computer company. A-ióng, what do you do?"}
+  - {n: 9, speaker: A-ióng, hanji: "我是……公司的頭人。逐工足無閒，規公司攏靠我。", tailo: "Guá sī…… kong-si ê thâu-lâng. Ta̍k-kang tsiok bô-îng, kui kong-si lóng khò--guá.", en: "I'm… one of the bosses at my company. Busy every day, the whole company depends on me."}
+  - {n: 10, speaker: Sam, hanji: "（細聲對阿春）頭人？伊明明佮我仝款是小職員。", tailo: "(Sè-siann tuì A-tshun) Thâu-lâng? I bîng-bîng kah guá kāng-khuán sī sió tsit-uân.", en: "(Quietly to A-tshun) Boss? He's a junior employee, same as me!"}
+  - {n: 11, speaker: Siok-tsing, hanji: "頭人遮無閒，敢有時間交女朋友？", tailo: "Thâu-lâng tsiah bô-îng, kám ū sî-kan kau lú-pîng-iú?", en: "If the boss is that busy, does he have time for a girlfriend?"}
+  - {n: 12, speaker: A-ióng, hanji: "這……我是真多情的人，毋過到今猶毋捌失戀，因為……毋捌開始過。", tailo: "Tse…… guá sī tsin to-tsîng ê lâng, m̄-koh kàu-tann iáu m̄-bat sit-luân, in-uī…… m̄-bat khai-sí--kuè.", en: "Well… I'm a very romantic person, but I've never had my heart broken, because… it's never got started."}
+  - {n: 13, speaker: Siok-tsing, hanji: "（笑出聲）你這个人真三八。", tailo: "(Tshiò tshut-siann) Lí tsit ê lâng tsin sam-pat.", en: "(Laughing out loud) You're such a goof."}
+  - {n: 14, speaker: Mother, hanji: "淑貞，阮阿勇是較三八，毋過伊心肝好，袂欺負人。", tailo: "Siok-tsing, guán A-ióng sī khah sam-pat, m̄-koh i sim-kuann hó, bē khi-hū lâng.", en: "Siok-tsing, my A-ióng is a bit of a goof, but he's kind-hearted; he'd never treat anyone badly."}
+  - {n: 15, speaker: Siok-tsing, hanji: "阿姆，我知。你歇睏的時攏咧創啥？", tailo: "A-ḿ, guá tsai. Lí hioh-khùn ê sî lóng teh tshòng siánn?", en: "I know, auntie. (To A-ióng) What do you do in your free time?"}
+  - {n: 16, speaker: A-ióng, hanji: "我……我飼一隻貓，叫做「頭家」。禮拜日我就佮伊做伙睏規工。", tailo: "Guá…… guá tshī tsi̍t tsiah niau, kiò-tsò “Thâu-ke”. Lé-pài-ji̍t guá tō kah i tsò-hué khùn kui-kang.", en: "I… I have a cat called 'Boss'. On Sundays we sleep all day together."}
+  - {n: 17, speaker: Siok-tsing, hanji: "（目睭金起來）你嘛有飼貓？我嘛有兩隻！", tailo: "(Ba̍k-tsiu kim--khí-lâi) Lí mā ū tshī niau? Guá mā ū nn̄g tsiah!", en: "(Her eyes lighting up) You've got a cat too? I've got two!"}
+  - {n: 18, speaker: A-tshun, hanji: "（細聲）有希望矣！講正經的顛倒有效。", tailo: "(Sè-siann) Ū hi-bāng--ah! Kóng tsìng-king--ê tian-tò ū-hāu.", en: "(Quietly) There's hope! Talking straight actually works."}
+  - {n: 19, speaker: A-ióng, hanji: "（較古意）其實我毋是頭人，是小職員。我嘛毋是風流的人，見著媠查某囡仔就袂曉講話，干焦會嘐潲。", tailo: "(Khah kóo-ì) Kî-si̍t guá m̄ sī thâu-lâng, sī sió tsit-uân. Guá mā m̄ sī hong-liû ê lâng, kìnn-tio̍h suí tsa-bóo gín-á tō bē-hiáu kóng-uē, kan-na ē hau-siâu.", en: "(More honestly) Actually I'm not a boss, I'm a junior employee. And I'm no ladies' man either: when I meet a pretty girl I can't talk properly, all I can do is brag."}
+  - {n: 20, speaker: Siok-tsing, hanji: "按呢較好。我上無佮意虛華的人。你照實講，我無棄嫌。", tailo: "Án-ne khah hó. Guá siōng bô kah-ì hi-hua ê lâng. Lí tsiàu-si̍t kóng, guá bô khì-hiâm.", en: "That's better. What I dislike most is people who put on airs. If you tell the truth, I don't mind at all."}
+  - {n: 21, speaker: Mother, hanji: "（歡喜甲）按呢好！恁少年人慢慢仔開講，阿姆先來去。", tailo: "(Huann-hí kah) Án-ne hó! Lín siàu-liân-lâng bān-bān-á khai-káng, a-ḿ sing lâi-khì.", en: "(Overjoyed) Wonderful! You young people take your time and chat; I'll be off."}
+  - {n: 22, speaker: A-ióng, hanji: "阿母，你莫走……", tailo: "A-bú, lí mài tsáu……", en: "Mum, don't go…"}
+  - {n: 23, speaker: Mother, hanji: "（行過阿春的桌）阿春，Sam，恁嘛轉去啦，莫佇遮假影看菜單。", tailo: "(Kiânn kuè A-tshun ê toh) A-tshun, Sam, lín mā tńg--khì--lah, mài tī tsia ké-iánn khuànn tshài-tuann.", en: "(Passing A-tshun's table) A-tshun, Sam, you go home too, and stop pretending to read the menu."}
+  - {n: 24, speaker: Sam, hanji: "（歹勢）阿姆，你哪會知？", tailo: "(Pháinn-sè) A-ḿ, lí ná ē tsai?", en: "(Embarrassed) Auntie, how did you know?"}
+  - {n: 25, speaker: Mother, hanji: "菜單提倒頭，閣看半點鐘，啥人看袂出來？", tailo: "Tshài-tuann the̍h tò-thâu, koh khuànn puànn tiám-tsing, siánn-lâng khuànn bē tshut--lâi?", en: "Holding the menu upside down and reading it for half an hour: who couldn't tell?"}
+  - {n: 26, speaker: Siok-tsing, hanji: "（對阿勇）你的朋友真趣味。後禮拜咱閣相會，你𤆬『頭家』出來，我嘛𤆬我的兩隻來。", tailo: "(Tuì A-ióng) Lí ê pîng-iú tsin tshù-bī. Āu lé-pài lán koh siong-huē, lí tshuā “Thâu-ke” tshut--lâi, guá mā tshuā guá ê nn̄g tsiah lâi.", en: "(To A-ióng) Your friends are fun. Let's meet again the week after next: you bring 'Boss' along, and I'll bring my two."}
+  - {n: 27, speaker: A-ióng, hanji: "好！好！我一定會招呼甲好勢好勢！", tailo: "Hó! Hó! Guá it-tīng ē tsio-hoo kah hó-sè hó-sè!", en: "Yes! Yes! I'll look after you all perfectly!"}
+  - {n: 28, speaker: A-tshun, hanji: "（細聲）你看，貓仔比媒人閣較有效。", tailo: "(Sè-siann) Lí khuànn, niau-á pí muê-lâng koh-khah ū-hāu.", en: "(Quietly) See? A cat works better than a matchmaker."}
+notes:
+  - {ref: 1, topic: vocab, text: "穿插 tshīng-tshah = how someone is dressed, their clothes: 穿插真時行 'dressed in the latest style'. 飄撇 phiau-phiat = dashing, smart (of a young man). 正經 tsìng-king = serious, sensible; also 'genuine, really'. 嘐潲 hau-siâu = brag, talk big: common among friends but rude (進修 1 warned about it)."}
+  - {ref: 2, topic: vocab, text: "單身 tuann-sin = single, unmarried. 無目睭 'have no eyes', i.e. can't see what's good."}
+  - {ref: 4, topic: vocab, text: "阿姆 a-ḿ = auntie: the polite way to address a friend's mother or any woman of that generation (properly 'father's elder brother's wife')."}
+  - {ref: 5, topic: vocab, text: "大方 tāi-hong = relaxed, at ease; also 'generous'. 個性 kò-sìng = personality, character."}
+  - {ref: 6, topic: vocab, text: "開喙 khui-tshuì = open one's mouth, start talking: 開喙就… 'the moment he opens his mouth …'. 穩死的 ún-sí--ê = sure to fail, done for (slangy)."}
+  - {ref: 7, topic: vocab, text: "工程師 kang-tîng-su = engineer."}
+  - {ref: 8, topic: vocab, text: "電腦 tiān-náu = computer. 職業 tsit-gia̍p = job, profession."}
+  - {ref: 9, topic: vocab, text: "頭人 thâu-lâng = boss, leader, head of a group (a bit old-fashioned, which makes it funnier). 靠 khò = depend on."}
+  - {ref: 10, topic: vocab, text: "明明 bîng-bîng = clearly, obviously (and yet): 伊明明知 'he knows perfectly well'. 職員 tsit-uân = employee, clerk."}
+  - {ref: 11, topic: vocab, text: "交女朋友 kau lú-pîng-iú = have a girlfriend: 交 kau 'make (friends), go out with'."}
+  - {ref: 12, topic: vocab, text: "多情 to-tsîng = romantic, full of feeling (sometimes 'falls in love too easily'). 失戀 sit-luân = be jilted, have one's heart broken."}
+  - {ref: 13, topic: vocab, text: "出聲 tshut-siann = make a sound, speak: 笑出聲 'laugh out loud'; 莫出聲 'keep quiet'. 三八 sam-pat = silly, goofy, over the top; the dictionary describes it as said of women, but in teasing it's used for anyone. Affectionate between friends; don't call an older person 三八."}
+  - {ref: 14, topic: vocab, text: "欺負 khi-hū = bully, treat badly. 心肝好 'good-hearted' (心肝, lesson 60)."}
+  - {ref: 16, topic: vocab, text: "貓 niau = cat; 貓仔 niau-á (line 28) is the everyday form."}
+  - {ref: 17, topic: vocab, text: "目睭金起來 'eyes light up': 金 kim = bright, shining."}
+  - {ref: 18, topic: vocab, text: "有希望 'there's hope' (希望, lesson 22). 顛倒 tian-tò = on the contrary, instead (反而): 伊顛倒較歡喜 'he was happier, if anything'. 有效 ū-hāu = works, is effective (lesson 59)."}
+  - {ref: 19, topic: vocab, text: "風流 hong-liû = a ladies' man, romantic (also 'refined, elegant' in old texts). 見著 kìnn-tio̍h = (whenever one) sees."}
+  - {ref: 20, topic: vocab, text: "虛華 hi-hua = showy, putting on airs. 棄嫌 khì-hiâm = look down on, mind (嫌棄): 毋通棄嫌 'please don't turn your nose up at it', said when offering a modest gift or meal. 照實 = truthfully (lesson 47)."}
+  - {ref: 25, topic: vocab, text: "倒頭 tò-thâu = upside down, the wrong way round. 看袂出來 'can't tell, can't see it'."}
+  - {ref: 26, topic: vocab, text: "相會 siong-huē = meet (again): 咱閣相會 'let's meet again'. 趣味 = fun, interesting (lesson 37)."}
+  - {ref: 27, topic: vocab, text: "招呼 tsio-hoo = look after (guests), take care of: 招呼人客 'look after the guests'. 好勢好勢 'just right', doubled for emphasis."}
+new_words:
+  - {tailo: tshīng-tshah, hanji: 穿插, en: "way of dressing, clothes"}
+  - {tailo: phiau-phiat, hanji: 飄撇, en: "dashing, smart"}
+  - {tailo: tsìng-king, hanji: 正經, en: "serious, sensible"}
+  - {tailo: hau-siâu, hanji: 嘐潲, en: "brag (rude)"}
+  - {tailo: tuann-sin, hanji: 單身, en: "single, unmarried"}
+  - {tailo: tāi-hong, hanji: 大方, en: "relaxed; generous"}
+  - {tailo: kò-sìng, hanji: 個性, en: "personality"}
+  - {tailo: khui-tshuì, hanji: 開喙, en: "open one's mouth, speak"}
+  - {tailo: kang-tîng-su, hanji: 工程師, en: "engineer"}
+  - {tailo: tiān-náu, hanji: 電腦, en: "computer"}
+  - {tailo: tsit-gia̍p, hanji: 職業, en: "job, profession"}
+  - {tailo: thâu-lâng, hanji: 頭人, en: "boss, leader"}
+  - {tailo: bîng-bîng, hanji: 明明, en: "clearly, obviously"}
+  - {tailo: tsit-uân, hanji: 職員, en: "employee, clerk"}
+  - {tailo: to-tsîng, hanji: 多情, en: "romantic, full of feeling"}
+  - {tailo: sit-luân, hanji: 失戀, en: "be jilted"}
+  - {tailo: tshut-siann, hanji: 出聲, en: "make a sound, speak"}
+  - {tailo: sam-pat, hanji: 三八, en: "silly, goofy"}
+  - {tailo: khi-hū, hanji: 欺負, en: "bully, treat badly"}
+  - {tailo: niau, hanji: 貓, en: "cat"}
+  - {tailo: tian-tò, hanji: 顛倒, en: "on the contrary, instead"}
+  - {tailo: hong-liû, hanji: 風流, en: "ladies' man; romantic"}
+  - {tailo: hi-hua, hanji: 虛華, en: "showy, putting on airs"}
+  - {tailo: khì-hiâm, hanji: 棄嫌, en: "look down on, mind"}
+  - {tailo: tò-thâu, hanji: 倒頭, en: "upside down"}
+  - {tailo: siong-huē, hanji: 相會, en: "meet (again)"}
+  - {tailo: tsio-hoo, hanji: 招呼, en: "look after (guests)"}
+exercises:
+  translate:
+    - {tailo: "Guá sann-tsa̍p-jī huè--ah, iáu-sī tuann-sin.", hanji: "我三十二歲矣，猶是單身。", en: "I'm thirty-two and still single."}
+    - {tailo: "Khui-tshuì tō hau-siâu, tsit pái ún-sí--ê.", hanji: "開喙就嘐潲，這擺穩死的。", en: "He opens his mouth and starts bragging. He's done for this time."}
+    - {tailo: "I bîng-bîng kah guá kāng-khuán sī sió tsit-uân.", hanji: "伊明明佮我仝款是小職員。", en: "He's clearly a junior employee, same as me."}
+    - {tailo: "Guá siōng bô kah-ì hi-hua ê lâng.", hanji: "我上無佮意虛華的人。", en: "What I dislike most is people who put on airs."}
+    - {tailo: "Āu lé-pài lán koh siong-huē.", hanji: "後禮拜咱閣相會。", en: "Let's meet again the week after next."}
+  fill:
+    - {tailo: "Lí kin-á-ji̍t tshīng-tshah tsiah ___.", hanji: "你今仔日穿插遮___。", answer: "phiau-phiat", answer_hanji: "飄撇", en: "You're very smartly turned out today."}
+    - {tailo: "A-ióng, lí ê ___ sī siánn-mih?", hanji: "阿勇，你的___是啥物？", answer: "tsit-gia̍p", answer_hanji: "職業", en: "A-ióng, what do you do for a living?"}
+    - {tailo: "Lí tsit ê lâng tsin ___.", hanji: "你這个人真___。", answer: "sam-pat", answer_hanji: "三八", en: "You're such a goof."}
+    - {tailo: "Lí tsiàu-si̍t kóng, guá bô ___.", hanji: "你照實講，我無___。", answer: "khì-hiâm", answer_hanji: "棄嫌", en: "If you tell the truth, I don't mind at all."}
+    - {tailo: "Guá it-tīng ē ___ kah hó-sè hó-sè!", hanji: "我一定會___甲好勢好勢！", answer: "tsio-hoo", answer_hanji: "招呼", en: "I'll look after you all perfectly!"}
+audio: []

@@ -1,0 +1,98 @@
+id: 15
+title: {en: "Every blade of grass gets its drop of dew", tailo: "Tsi̍t ki tsháu, tsi̍t tiám lōo", hanji: "一枝草，一點露"}
+genre: speech
+review: false
+setting: "A-kong's birthday banquet in Tainan. A-bîng, the eldest grandson, gives a speech on behalf of the family. The text is original to this course."
+dialogue:
+  - {n: 1, hanji: "各位親情朋友、各位厝邊頭尾，逐家好！多謝逐家今仔日來參加阮阿公的生日。", tailo: "Kok-uī tshin-tsiânn pîng-iú, kok-uī tshù-pinn-thâu-bué, ta̍k-ke hó! To-siā ta̍k-ke kin-á-ji̍t lâi tsham-ka guán a-kong ê senn-ji̍t.", en: "Dear relatives and friends, dear neighbours, good evening! Thank you all for coming to my grandfather's birthday today."}
+  - {n: 2, hanji: "我是阿公的大孫阿明。阿媽叫我代表阮這陣囝孫，講幾句仔話。", tailo: "Guá sī a-kong ê tuā-sun A-bîng. A-má kiò guá tāi-piáu guán tsit tīn kiánn-sun, kóng kuí-kù-á uē.", en: "I'm A-bîng, his eldest grandson. Grandma asked me to say a few words on behalf of all of us grandchildren."}
+  - {n: 3, hanji: "阮的祖先是三百外年前來臺灣開基的。", tailo: "Guán ê tsóo-sian sī sann-pah guā nî tsîng lâi Tâi-uân khai-ki--ê.", en: "Our ancestors came to Taiwan and settled here more than three hundred years ago.", source: moe}
+  - {n: 4, hanji: "毋過到阿公少年的時，阮兜猶是真散赤。伊十八歲就去臺北的茶行做師仔。", tailo: "M̄-koh kàu a-kong siàu-liân ê sî, guán tau iáu-sī tsin sàn-tshiah. I tsa̍p-peh huè tō khì Tâi-pak ê tê-hâng tsò sai-á.", en: "But when Grandpa was young, our family was still very poor. At eighteen he went to Taipei to be an apprentice in a tea house."}
+  - {n: 5, hanji: "彼陣戰爭拄過，逐項物件都欠缺，三頓攏食番薯簽。", tailo: "Hit-tsūn tsiàn-tsing tú kuè, ta̍k hāng mi̍h-kiānn to khiàm-khueh, sann tǹg lóng tsia̍h han-tsî-tshiam.", en: "The war had only just ended, everything was in short supply, and they ate shredded sweet potato at every meal."}
+  - {n: 6, hanji: "阿公定定講一句俗語：「一枝草，一點露。」", tailo: "A-kong tiānn-tiānn kóng tsi̍t kù sio̍k-gí: “Tsi̍t ki tsháu, tsi̍t tiám lōo.”", en: "Grandpa often quotes a proverb: 'Every blade of grass gets its drop of dew.'"}
+  - {n: 7, hanji: "意思是講，天公會予逐个人一條路，只要肯拍拚，就毋驚無飯通食。", tailo: "Ì-sù sī kóng, Thinn-kong ē hōo ta̍k ê lâng tsi̍t tiâu lōo; tsí-iàu khíng phah-piànn, tō m̄ kiann bô pn̄g thang tsia̍h.", en: "It means that Heaven gives everyone a way to live: as long as you're willing to work hard, you needn't fear going hungry."}
+  - {n: 8, hanji: "伊閣講：「人愛有志氣，毋通看輕家己。」", tailo: "I koh kóng: “Lâng ài ū tsì-khì, m̄-thang khuànn-khin ka-kī.”", en: "And he says: 'Have some backbone, and never think little of yourself.'"}
+  - {n: 9, hanji: "所以伊逐工透早四點就起來，暝日拍拚，拚命趁錢飼一家伙仔。", tailo: "Sóo-í i ta̍k-kang thàu-tsá sì tiám tō khí--lâi, mê-ji̍t phah-piànn, piànn-miā thàn-tsînn tshī tsi̍t-ke-hué-á.", en: "So he got up at four every morning and worked day and night, wearing himself out to earn enough to feed the family."}
+  - {n: 10, hanji: "毋過阿公毋是干焦會做工課。伊人真好喙，對人客、對厝邊攏真親切，逐家攏佮意伊。", tailo: "M̄-koh a-kong m̄ sī kan-na ē tsò khang-khuè. I lâng tsin hó-tshuì, tuì lâng-kheh, tuì tshù-pinn lóng tsin tshin-tshiat, ta̍k-ke lóng kah-ì--i.", en: "But Grandpa didn't just work. He always had a kind word, he was warm to customers and neighbours alike, and everyone liked him."}
+  - {n: 11, hanji: "阿公捌講，伊這世人上大的成就，毋是趁偌濟錢，是阮這陣囝孫。", tailo: "A-kong bat kóng, i tsit sì-lâng siōng tuā ê sîng-tsiū, m̄ sī thàn guā-tsē tsînn, sī guán tsit tīn kiánn-sun.", en: "Grandpa once said that his greatest achievement in life wasn't how much money he made, but all of us, his children and grandchildren."}
+  - {n: 12, hanji: "伊共阮阿爸佮阿叔攏牽成去讀冊，家己煞穿舊衫、食粗飯。", tailo: "I kā guán a-pah kah a-tsik lóng khan-sîng khì tha̍k-tsheh, ka-kī suah tshīng kū sann, tsia̍h tshoo pn̄g.", en: "He put my father and my uncle through school, while he himself wore old clothes and ate plain food."}
+  - {n: 13, hanji: "我細漢的時，阿公教我寫字。伊的手真粗，毋過伊寫的字真媠。", tailo: "Guá sè-hàn ê sî, a-kong kà guá siá-jī. I ê tshiú tsin tshoo, m̄-koh i siá ê jī tsin suí.", en: "When I was little, Grandpa taught me to write. His hands were rough, but his handwriting was beautiful."}
+  - {n: 14, hanji: "有一擺我考試考了無好，驚甲毋敢轉去厝。", tailo: "Ū tsi̍t pái guá khó-tshì khó liáu bô hó, kiann kah m̄ kánn tńg-khì tshù.", en: "Once I did badly in an exam and was too scared to go home."}
+  - {n: 15, hanji: "阿公無罵我，干焦摸我的頭講：「輸一擺無要緊，愛有勇氣閣來。」", tailo: "A-kong bô mē--guá, kan-na bong guá ê thâu kóng: “Su tsi̍t pái bô-iàu-kín, ài ū ióng-khì koh lâi.”", en: "Grandpa didn't scold me. He just patted my head and said: 'Losing once doesn't matter. Have the courage to try again.'"}
+  - {n: 16, hanji: "彼句話，我到今猶會記得。伊的鼓勵，予我一直行到今仔日。", tailo: "Hit kù uē, guá kàu-tann iáu ē-kì--tit. I ê kóo-lē, hōo guá it-ti̍t kiânn kàu kin-á-ji̍t.", en: "I still remember those words today. His encouragement has carried me all the way here."}
+  - {n: 17, hanji: "這馬阿公年紀大矣，跤手較無力，毋過頭腦猶真清楚，逐工猶咧沃菜、飼雞。", tailo: "Tsit-má a-kong nî-kí tuā--ah, kha-tshiú khah bô la̍t, m̄-koh thâu-náu iáu tsin tshing-tshó, ta̍k-kang iáu teh ak tshài, tshī ke.", en: "Grandpa is getting on now and his arms and legs aren't as strong, but his mind is still sharp, and every day he's still watering the vegetables and feeding the chickens."}
+  - {n: 18, hanji: "阿媽佇伊身軀邊扶持伊五十外冬，這嘛是阿公上大的福氣。", tailo: "A-má tī i sin-khu-pinn hû-tshî i gōo-tsa̍p-guā tang, tse mā sī a-kong siōng tuā ê hok-khì.", en: "Grandma has stood by his side and supported him for over fifty years, and that too is Grandpa's great blessing."}
+  - {n: 19, hanji: "今仔日阮準備豬跤麵線佮紅龜粿，祝阿公食百二歲。", tailo: "Kin-á-ji̍t guán tsún-pī ti-kha-mī-suànn kah âng-ku-kué, tsiok a-kong tsia̍h pah-jī huè.", en: "Today we've prepared pig's trotters with long noodles and red turtle cakes, and we wish Grandpa a life of a hundred and twenty years."}
+  - {n: 20, hanji: "阮這陣序細，會記得阿公的苦勸：做人愛老實，做代誌愛有擔當。", tailo: "Guán tsit tīn sī-sè, ē kì-tit a-kong ê khóo-khǹg: tsò-lâng ài láu-si̍t, tsò tāi-tsì ài ū tam-tng.", en: "We of the younger generation will remember Grandpa's heartfelt advice: be honest with people, and take responsibility for what you do."}
+  - {n: 21, hanji: "阮嘛會尊敬序大，疼惜厝邊，毋予阿公失望。", tailo: "Guán mā ē tsun-kìng sī-tuā, thiànn-sioh tshù-pinn, m̄ hōo a-kong sit-bōng.", en: "We'll respect our elders, care for our neighbours, and never let Grandpa down."}
+  - {n: 22, hanji: "最後，請逐家做伙攑杯仔，祝阿公長壽、身體勇健！", tailo: "Tsuè-āu, tshiánn ta̍k-ke tsò-hué gia̍h pue-á, tsiok a-kong tn̂g-siū, sin-thé ióng-kiānn!", en: "Finally, please all raise your glasses with me: to Grandpa's long life and good health!"}
+  - {n: 23, hanji: "阿公，多謝你。阮逐家攏真愛你。乾杯！", tailo: "A-kong, to-siā--lí. Guán ta̍k-ke lóng tsin ài--lí. Kan-pue!", en: "Grandpa, thank you. We all love you very much. Cheers!"}
+notes:
+  - {ref: 1, topic: culture, text: "Speech openings (lesson 97): 各位親情朋友 'dear relatives and friends'. 參加 = take part, attend (lesson 43)."}
+  - {ref: 2, topic: vocab, text: "大孫 tuā-sun = eldest grandson, who traditionally has a special role at family events. 代表 tāi-piáu = represent, on behalf of; also 'a representative'. 幾句仔話 'a few words'."}
+  - {ref: 3, topic: culture, text: "開基 khai-ki = settle and found a family line in a new land; families often know when their 祖先 tsóo-sian 'ancestors' crossed from Fujian. Quoted from the MOE dictionary."}
+  - {ref: 4, topic: vocab, text: "茶行 tê-hâng = tea house, tea merchant's (lesson 98: A-kong's old tea house in Dadaocheng). 師仔 = apprentice (lesson 82)."}
+  - {ref: 5, topic: vocab, text: "戰爭 tsiàn-tsing = war; 拄過 'had just ended' (拄 tú, lesson 32). 欠缺 khiàm-khueh = be lacking, in short supply. 番薯簽 han-tsî-tshiam = dried shredded sweet potato, the food of poor years, eaten with or instead of rice."}
+  - {ref: 6, topic: culture, text: "一枝草，一點露 'every blade of grass gets its drop of dew': Heaven provides for everyone, so no one should despair. A proverb from the MOE dictionary. 露 lōo = dew (露水 lōo-tsuí)."}
+  - {ref: 7, topic: grammar, text: "只要 tsí-iàu (lesson 94) + 就 = as long as … 毋驚 'needn't fear'. 無飯通食 'have no food to eat': 有 / 無 + noun + 通 + verb."}
+  - {ref: 8, topic: vocab, text: "志氣 tsì-khì = ambition, backbone, self-respect: 有志氣 'have spirit'. 看輕 = look down on (進修 2)."}
+  - {ref: 9, topic: vocab, text: "暝日 mê-ji̍t = day and night ('night and day' in Taigi order). 拚命 piànn-miā = with all one's strength, desperately: 拚命趁錢 'work flat out to earn money'."}
+  - {ref: 10, topic: vocab, text: "好喙 hó-tshuì = always having a kind word, sweet-spoken. 親切 tshin-tshiat = warm, kind."}
+  - {ref: 11, topic: vocab, text: "成就 sîng-tsiū = achievement. 這世人 tsit sì-lâng = in this life."}
+  - {ref: 12, topic: vocab, text: "牽成 khan-sîng = support and bring someone on (pay for their schooling, help their career): MOE example 向望你共伊牽成 'I hope you'll take him under your wing'. 粗飯 tshoo pn̄g = plain, coarse food (粗 'coarse')."}
+  - {ref: 13, topic: vocab, text: "寫字 siá-jī = write (characters), handwriting."}
+  - {ref: 15, topic: vocab, text: "摸 bong = stroke, touch: 摸頭 'pat on the head'. 勇氣 ióng-khì = courage. 輸 su = lose (lesson 68)."}
+  - {ref: 16, topic: vocab, text: "鼓勵 kóo-lē = encouragement; encourage."}
+  - {ref: 17, topic: vocab, text: "年紀 nî-kí = age: 年紀大矣 'getting on in years'. 頭腦 thâu-náu = mind, brain: 頭腦清楚 'mentally sharp'."}
+  - {ref: 18, topic: vocab, text: "扶持 hû-tshî = support, stand by someone; also 'help someone walk'."}
+  - {ref: 19, topic: culture, text: "Birthday food for the old: 豬跤麵線 ti-kha-mī-suànn, pig's trotters with long thin noodles (麵線, long for long life), and 紅龜粿 âng-ku-kué, red turtle-shaped rice cakes (the turtle stands for long life). 食百二歲 'live to a hundred and twenty' (百二 pah-jī = 120) is the standard birthday wish."}
+  - {ref: 20, topic: vocab, text: "序細 sī-sè = the younger generation, juniors; its opposite 序大 sī-tuā (進修 2). 苦勸 khóo-khǹg = earnest advice, urging someone for their own good. 擔當 tam-tng = sense of responsibility: 有擔當 'stands up for what he does'."}
+  - {ref: 21, topic: vocab, text: "尊敬 tsun-kìng = respect. 失望 sit-bōng = disappointed: 毋予…失望 'not let … down'. 疼惜 = care for (lesson 48)."}
+  - {ref: 22, topic: vocab, text: "長壽 tn̂g-siū = long life: 祝你長壽 'wishing you a long life'. 攑杯仔 'raise your glasses', as in lesson 100."}
+new_words:
+  - {tailo: tuā-sun, hanji: 大孫, en: "eldest grandson"}
+  - {tailo: tāi-piáu, hanji: 代表, en: "represent; representative"}
+  - {tailo: tsóo-sian, hanji: 祖先, en: "ancestors"}
+  - {tailo: khai-ki, hanji: 開基, en: "settle, found a family line"}
+  - {tailo: tsiàn-tsing, hanji: 戰爭, en: "war"}
+  - {tailo: khiàm-khueh, hanji: 欠缺, en: "be lacking, in short supply"}
+  - {tailo: han-tsî-tshiam, hanji: 番薯簽, en: "shredded dried sweet potato"}
+  - {tailo: lōo, hanji: 露, en: "dew"}
+  - {tailo: tsì-khì, hanji: 志氣, en: "ambition, backbone"}
+  - {tailo: mê-ji̍t, hanji: 暝日, en: "day and night"}
+  - {tailo: piànn-miā, hanji: 拚命, en: "with all one's strength"}
+  - {tailo: hó-tshuì, hanji: 好喙, en: "kind-spoken"}
+  - {tailo: tshin-tshiat, hanji: 親切, en: "warm, kind"}
+  - {tailo: sîng-tsiū, hanji: 成就, en: "achievement"}
+  - {tailo: khan-sîng, hanji: 牽成, en: "support, bring someone on"}
+  - {tailo: tshoo, hanji: 粗, en: "coarse, rough"}
+  - {tailo: siá-jī, hanji: 寫字, en: "write, handwriting"}
+  - {tailo: bong, hanji: 摸, en: "stroke, touch"}
+  - {tailo: ióng-khì, hanji: 勇氣, en: "courage"}
+  - {tailo: kóo-lē, hanji: 鼓勵, en: "encourage; encouragement"}
+  - {tailo: nî-kí, hanji: 年紀, en: "age"}
+  - {tailo: thâu-náu, hanji: 頭腦, en: "mind, brain"}
+  - {tailo: hû-tshî, hanji: 扶持, en: "support, stand by"}
+  - {tailo: ti-kha-mī-suànn, hanji: 豬跤麵線, en: "pig's trotters with long noodles"}
+  - {tailo: âng-ku-kué, hanji: 紅龜粿, en: "red turtle cake"}
+  - {tailo: pah-jī, hanji: 百二, en: "a hundred and twenty"}
+  - {tailo: sī-sè, hanji: 序細, en: "the younger generation"}
+  - {tailo: khóo-khǹg, hanji: 苦勸, en: "earnest advice"}
+  - {tailo: tam-tng, hanji: 擔當, en: "sense of responsibility"}
+  - {tailo: tsun-kìng, hanji: 尊敬, en: "respect"}
+  - {tailo: sit-bōng, hanji: 失望, en: "disappointed"}
+  - {tailo: tn̂g-siū, hanji: 長壽, en: "long life"}
+exercises:
+  translate:
+    - {tailo: "A-má kiò guá tāi-piáu guán tsit tīn kiánn-sun, kóng kuí-kù-á uē.", hanji: "阿媽叫我代表阮這陣囝孫，講幾句仔話。", en: "Grandma asked me to say a few words on behalf of us grandchildren."}
+    - {tailo: "Tsí-iàu khíng phah-piànn, tō m̄ kiann bô pn̄g thang tsia̍h.", hanji: "只要肯拍拚，就毋驚無飯通食。", en: "As long as you're willing to work hard, you needn't fear going hungry."}
+    - {tailo: "Su tsi̍t pái bô-iàu-kín, ài ū ióng-khì koh lâi.", hanji: "輸一擺無要緊，愛有勇氣閣來。", en: "Losing once doesn't matter. Have the courage to try again."}
+    - {tailo: "A-kong nî-kí tuā--ah, m̄-koh thâu-náu iáu tsin tshing-tshó.", hanji: "阿公年紀大矣，毋過頭腦猶真清楚。", en: "Grandpa is getting on, but his mind is still sharp."}
+    - {tailo: "Tsò tāi-tsì ài ū tam-tng.", hanji: "做代誌愛有擔當。", en: "Take responsibility for what you do."}
+  fill:
+    - {tailo: "Lâng ài ū ___, m̄-thang khuànn-khin ka-kī.", hanji: "人愛有___，毋通看輕家己。", answer: "tsì-khì", answer_hanji: "志氣", en: "Have some backbone, and never think little of yourself."}
+    - {tailo: "I ___ phah-piànn, piànn-miā thàn-tsînn.", hanji: "伊___拍拚，拚命趁錢。", answer: "mê-ji̍t", answer_hanji: "暝日", en: "He worked day and night, wearing himself out to earn money."}
+    - {tailo: "I kā guán a-pah kah a-tsik lóng ___ khì tha̍k-tsheh.", hanji: "伊共阮阿爸佮阿叔攏___去讀冊。", answer: "khan-sîng", answer_hanji: "牽成", en: "He put my father and my uncle through school."}
+    - {tailo: "Tsiok a-kong tsia̍h ___ huè.", hanji: "祝阿公食___歲。", answer: "pah-jī", answer_hanji: "百二", en: "We wish Grandpa a life of a hundred and twenty years."}
+    - {tailo: "Guán mā ē ___ sī-tuā.", hanji: "阮嘛會___序大。", answer: "tsun-kìng", answer_hanji: "尊敬", en: "We'll respect our elders."}
+audio: []

@@ -1,0 +1,98 @@
+id: 18
+title: {en: "A letter to myself in ten years", tailo: "Siá hōo tsa̍p tang āu ê ka-kī", hanji: "寫予十冬後的家己"}
+genre: letter
+review: false
+setting: "Hūi-hūi, A-tshun's teenage daughter (lesson 93), now takes a Taigi class at school. The homework: write a letter in Taigi to yourself ten years from now. Sam has helped her a little."
+dialogue:
+  - {n: 1, hanji: "十冬後的惠惠：", tailo: "Tsa̍p tang āu ê Hūi-hūi:", en: "Dear Hūi-hūi of ten years from now,"}
+  - {n: 2, hanji: "你好！我是十五歲的你，這馬讀國中三年。這張批是台語課的功課，老師叫阮寫予未來的家己。", tailo: "Lí hó! Guá sī tsa̍p-gōo huè ê lí, tsit-má tha̍k kok-tiong sann nî. Tsit tiunn phue sī Tâi-gí-khò ê kong-khò, lāu-su kiò guán siá hōo bī-lâi ê ka-kī.", en: "Hello! I'm you at fifteen, in my third year of junior high. This letter is homework for Taigi class: our teacher told us to write to our future selves."}
+  - {n: 3, hanji: "較早我毋敢講台語，驚講毋著予同學笑。毋過阿母的朋友 Sam 鼓勵我，伊講伊一个外國人都敢講矣，我哪會毋敢？", tailo: "Khah-tsá guá m̄ kánn kóng Tâi-gí, kiann kóng m̄-tio̍h hōo tông-ha̍k tshiò. M̄-koh a-bú ê pîng-iú Sam kóo-lē--guá, i kóng i tsi̍t ê guā-kok-lâng to kánn kóng--ah, guá ná ē m̄ kánn?", en: "I used to be afraid to speak Taigi, afraid my classmates would laugh if I got it wrong. But Mum's friend Sam encouraged me: he said if he, a foreigner, dares to speak it, why shouldn't I?"}
+  - {n: 4, hanji: "所以這張批，我無用華語寫，我用台語寫，雖然有一寡字愛查辭典。", tailo: "Sóo-í tsit tiunn phue, guá bô iōng Huâ-gí siá, guá iōng Tâi-gí siá, sui-jiân ū tsi̍t-kuá jī ài tshâ sû-tián.", en: "So I haven't written this letter in Mandarin; I've written it in Taigi, even if I had to look up some words in the dictionary."}
+  - {n: 5, hanji: "這馬我的壓力真大。逐工讀冊讀到暗，暗時閣愛去補習，禮拜六嘛無閒。", tailo: "Tsit-má guá ê ap-li̍k tsin tuā. Ta̍k-kang tha̍k-tsheh tha̍k kàu àm, àm-sî koh ài khì póo-si̍p, lé-pài-la̍k mā bô-îng.", en: "I'm under a lot of pressure right now. I study until evening every day, then I have cram school at night, and I'm busy on Saturdays too."}
+  - {n: 6, hanji: "明年欲考高中，阿母期待我考好學校。我的成績毋是上好的，有時想著就煩惱甲睏袂去。", tailo: "Mê-nî beh khó ko-tiong, a-bú kî-thāi guá khó hó ha̍k-hāu. Guá ê sîng-tsik m̄ sī siōng hó--ê, ū-sî siūnn--tio̍h tō huân-ló kah khùn bē khì.", en: "Next year I take the high-school entrance exam, and Mum is hoping I'll get into a good school. My marks aren't the best, and sometimes thinking about it worries me so much I can't sleep."}
+  - {n: 7, hanji: "毋知十冬後的你，敢有考著理想的大學？敢已經畢業矣？", tailo: "M̄ tsai tsa̍p tang āu ê lí, kám ū khó-tio̍h lí-sióng ê tāi-ha̍k? Kám í-king pit-gia̍p--ah?", en: "I wonder: ten years from now, did you get into the university you wanted? Have you graduated already?"}
+  - {n: 8, hanji: "我這馬上大的夢，是做一个作家。我想欲用台語寫小說，出版一本冊，予少年人嘛愛讀台語。", tailo: "Guá tsit-má siōng tuā ê bāng, sī tsò tsi̍t ê tsok-ka. Guá siūnn-beh iōng Tâi-gí siá sió-suat, tshut-pán tsi̍t pún tsheh, hōo siàu-liân-lâng mā ài tha̍k Tâi-gí.", en: "My biggest dream right now is to be a writer. I want to write a novel in Taigi and publish a book, so that young people will love reading Taigi too."}
+  - {n: 9, hanji: "毋過阿母講作家趁無錢，叫我讀科學較有前途。", tailo: "M̄-koh a-bú kóng tsok-ka thàn bô tsînn, kiò guá tha̍k kho-ha̍k khah ū tsiân-tôo.", en: "But Mum says writers don't make money, and tells me studying science has more of a future."}
+  - {n: 10, hanji: "我理解阿母的心情，伊是驚我食苦。毋過我已經下決心矣：科學我會好好仔讀，小說我嘛欲寫。", tailo: "Guá lí-kái a-bú ê sim-tsîng, i sī kiann guá tsia̍h khóo. M̄-koh guá í-king hē kuat-sim--ah: kho-ha̍k guá ē hó-hó-á tha̍k, sió-suat guá mā beh siá.", en: "I understand how Mum feels: she's afraid I'll have a hard life. But I've made up my mind: I'll study science properly, and I'll write novels too."}
+  - {n: 11, hanji: "十冬後的你，敢有猶咧寫？敢有堅定行家己的路？", tailo: "Tsa̍p tang āu ê lí, kám ū iáu teh siá? Kám ū kian-tīng kiânn ka-kī ê lōo?", en: "Are you still writing, ten years on? Are you still firmly following your own path?"}
+  - {n: 12, hanji: "若是無，我袂怪你。毋過我希望你會記得，十五歲的時，你捌遮爾認真追求一个夢。", tailo: "Nā-sī bô, guá bē kuài--lí. M̄-koh guá hi-bāng lí ē-kì--tit, tsa̍p-gōo huè ê sî, lí bat tsiah-nī jīn-tsin tui-kiû tsi̍t ê bāng.", en: "If not, I won't blame you. But I hope you'll remember that at fifteen you once chased a dream this seriously."}
+  - {n: 13, hanji: "閣有，毋通干焦讀冊。阿媽定定講，學問佇冊內底，智慧佇生活內底。", tailo: "Koh-ū, m̄-thang kan-na tha̍k-tsheh. A-má tiānn-tiānn kóng, ha̍k-būn tī tsheh lāi-té, tì-huī tī sing-ua̍h lāi-té.", en: "And don't just study. Grandma always says knowledge is in books, but wisdom is in life."}
+  - {n: 14, hanji: "希望你有時間去旅行，去看世界，嘛有時間轉去庄跤，享受自然，坐佇溪仔邊思考人生。", tailo: "Hi-bāng lí ū sî-kan khì lí-hîng, khì khuànn sè-kài, mā ū sî-kan tńg-khì tsng-kha, hiáng-siū tsū-jiân, tsē tī khe-á pinn su-khó jîn-sing.", en: "I hope you have time to travel and see the world, and time to go back to the countryside, enjoy nature, and sit by a stream thinking about life."}
+  - {n: 15, hanji: "我嘛希望你會曉疼惜阿母。伊一个人飼我大漢，真辛苦，毋過伊攏毋捌講。", tailo: "Guá mā hi-bāng lí ē-hiáu thiànn-sioh a-bú. I tsi̍t ê lâng tshī guá tuā-hàn, tsin sin-khóo, m̄-koh i lóng m̄-bat kóng.", en: "I also hope you know how to look after Mum. She brought me up on her own; it was very hard, but she never once complained."}
+  - {n: 16, hanji: "這馬我小學的時寫的日記猶囥佇屜仔。我真懷念彼陣，逐工攏真自在，毋免考試。", tailo: "Tsit-má guá sió-ha̍k ê sî siá ê ji̍t-kì iáu khǹg tī thuah-á. Guá tsin huâi-liām hit-tsūn, ta̍k-kang lóng tsin tsū-tsāi, m̄-bián khó-tshì.", en: "The diary I wrote at primary school is still in my drawer. I really miss those days: I was carefree every day, with no exams."}
+  - {n: 17, hanji: "毋過我無留戀過去。我欲向頭前行，看你變做啥款的人。", tailo: "M̄-koh guá bô liû-luân kuè-khì. Guá beh ǹg thâu-tsîng kiânn, khuànn lí piàn-tsò siánn-khuán ê lâng.", en: "But I don't cling to the past. I want to move forward and see what kind of person you become."}
+  - {n: 18, hanji: "實際上，你這馬讀這張批的時，可能感覺真見笑。無要緊，笑一下就好。", tailo: "Si̍t-tsè-siōng, lí tsit-má tha̍k tsit tiunn phue ê sî, khó-lîng kám-kak tsin kiàn-siàu. Bô-iàu-kín, tshiò--tsi̍t-ē tō hó.", en: "Actually, reading this letter now, you may feel very embarrassed. Never mind, just have a laugh."}
+  - {n: 19, hanji: "毋管你成功抑是失敗，只要你猶會講台語，猶會笑，我就感覺這十冬誠值得。", tailo: "M̄-kuán lí sîng-kong ia̍h-sī sit-pāi, tsí-iàu lí iáu ē kóng Tâi-gí, iáu ē tshiò, guá tō kám-kak tsit tsa̍p tang tsiânn ta̍t-tit.", en: "Whether you've succeeded or failed, as long as you can still speak Taigi and still laugh, I'll feel these ten years were well worth it."}
+  - {n: 20, hanji: "祝你平安、快樂。", tailo: "Tsiok lí pîng-an, khuài-lo̍k.", en: "Wishing you peace and happiness."}
+  - {n: 21, hanji: "十五歲的惠惠，十月二十七", tailo: "Tsa̍p-gōo huè ê Hūi-hūi, tsa̍p--gue̍h jī-tsa̍p-tshit", en: "Hūi-hūi, aged fifteen, 27 October"}
+  - {n: 22, hanji: "閣有：Sam 哥講，伊十冬後欲看這張批。我講免想，這是我的祕密。", tailo: "Koh-ū: Sam-ko kóng, i tsa̍p tang āu beh khuànn tsit tiunn phue. Guá kóng bián siūnn, tse sī guá ê pì-bi̍t.", en: "P.S. Sam says he wants to read this letter in ten years. I told him to forget it: this is my secret."}
+notes:
+  - {ref: 2, topic: vocab, text: "國中 kok-tiong = junior high school (ages 12–15); 高中 ko-tiong (line 6) = senior high; 小學 sió-ha̍k (line 16) = primary school; 大學 = university. 功課 kong-khò = homework. 未來 bī-lâi = the future; 未來的家己 'one's future self'."}
+  - {ref: 3, topic: vocab, text: "同學 tông-ha̍k = classmate. 鼓勵 = encourage (進修 15). 都敢講矣 'even (he) dares to speak it'."}
+  - {ref: 4, topic: vocab, text: "華語 Huâ-gí = Mandarin, the everyday word today (國語, 進修 10, is the official 'national language'). 查辭典 'look it up in the dictionary', as in lesson 93."}
+  - {ref: 5, topic: culture, text: "壓力 ap-li̍k = pressure, stress. 補習 póo-si̍p = (go to) cram school, extra lessons after school, a fact of life for Taiwanese pupils before entrance exams."}
+  - {ref: 6, topic: vocab, text: "期待 kî-thāi = hope, expect. 成績 sîng-tsik = marks, results. 考高中 'sit the high-school entrance exam'; 考著 khó-tio̍h (line 7) = pass, get into."}
+  - {ref: 7, topic: vocab, text: "理想 lí-sióng = ideal: 理想的大學 'the university you'd like'. 畢業 pit-gia̍p = graduate; the older colloquial word is 出業 tshut-gia̍p."}
+  - {ref: 8, topic: vocab, text: "作家 tsok-ka = writer, author. 出版 tshut-pán = publish. 夢 = dream (lesson 99)."}
+  - {ref: 9, topic: vocab, text: "科學 kho-ha̍k = science. 前途 tsiân-tôo = prospects, future: 有前途 'has a future'."}
+  - {ref: 10, topic: vocab, text: "理解 lí-kái = understand (someone's feelings or reasons). 下決心 hē kuat-sim = make up one's mind (決心 'determination'). 食苦 'have a hard time', as in lesson 37."}
+  - {ref: 11, topic: vocab, text: "堅定 kian-tīng = firm, steadfast: 堅定行家己的路 'firmly follow your own path'."}
+  - {ref: 12, topic: vocab, text: "追求 tui-kiû = pursue, chase (a dream, a goal); also 'court, woo someone'."}
+  - {ref: 13, topic: vocab, text: "學問 ha̍k-būn = learning, knowledge; 智慧 tì-huī = wisdom."}
+  - {ref: 14, topic: vocab, text: "旅行 lí-hîng = travel. 世界 sè-kài = the world. 享受 hiáng-siū = enjoy. 自然 tsū-jiân = nature; also 'natural(ly)'. 思考 su-khó = think about, reflect on. 人生 jîn-sing = life."}
+  - {ref: 15, topic: vocab, text: "飼大漢 tshī tuā-hàn = bring up, raise (a child). 疼惜 = care for (lesson 48)."}
+  - {ref: 16, topic: vocab, text: "日記 ji̍t-kì = diary. 懷念 huâi-liām = miss, remember fondly. 自在 tsū-tsāi = carefree, at ease."}
+  - {ref: 17, topic: vocab, text: "留戀 liû-luân = cling to, be reluctant to leave. 過去 kuè-khì = the past. 向頭前行 ǹg thâu-tsîng kiânn = move forward (向, lesson 25)."}
+  - {ref: 18, topic: vocab, text: "實際上 si̍t-tsè-siōng = actually, in fact (實際 'reality'). 見笑 = embarrassed (lesson 48)."}
+  - {ref: 19, topic: grammar, text: "毋管 X 抑是 Y = whether X or Y. 成功 sîng-kong = succeed, success; 失敗 = fail (lesson 96). 值得 ta̍t-tit = worth it."}
+  - {ref: 22, topic: vocab, text: "閣有 'one more thing', used here for P.S. 祕密 pì-bi̍t = secret (lesson 57). 免想 'forget it, don't even think about it'. 哥 ko after a name = 'big brother', friendly for a young man."}
+new_words:
+  - {tailo: kok-tiong, hanji: 國中, en: "junior high school"}
+  - {tailo: kong-khò, hanji: 功課, en: "homework"}
+  - {tailo: bī-lâi, hanji: 未來, en: "the future"}
+  - {tailo: tông-ha̍k, hanji: 同學, en: "classmate"}
+  - {tailo: Huâ-gí, hanji: 華語, en: "Mandarin"}
+  - {tailo: póo-si̍p, hanji: 補習, en: "cram school, extra lessons"}
+  - {tailo: ko-tiong, hanji: 高中, en: "senior high school"}
+  - {tailo: kî-thāi, hanji: 期待, en: "hope, expect"}
+  - {tailo: sîng-tsik, hanji: 成績, en: "marks, results"}
+  - {tailo: lí-sióng, hanji: 理想, en: "ideal"}
+  - {tailo: pit-gia̍p, hanji: 畢業, en: "graduate"}
+  - {tailo: tsok-ka, hanji: 作家, en: "writer"}
+  - {tailo: tshut-pán, hanji: 出版, en: "publish"}
+  - {tailo: kho-ha̍k, hanji: 科學, en: "science"}
+  - {tailo: tsiân-tôo, hanji: 前途, en: "prospects, future"}
+  - {tailo: lí-kái, hanji: 理解, en: "understand"}
+  - {tailo: kuat-sim, hanji: 決心, en: "determination"}
+  - {tailo: kian-tīng, hanji: 堅定, en: "firm, steadfast"}
+  - {tailo: tui-kiû, hanji: 追求, en: "pursue"}
+  - {tailo: ha̍k-būn, hanji: 學問, en: "learning, knowledge"}
+  - {tailo: tì-huī, hanji: 智慧, en: "wisdom"}
+  - {tailo: lí-hîng, hanji: 旅行, en: "travel"}
+  - {tailo: sè-kài, hanji: 世界, en: "the world"}
+  - {tailo: hiáng-siū, hanji: 享受, en: "enjoy"}
+  - {tailo: tsū-jiân, hanji: 自然, en: "nature; natural"}
+  - {tailo: su-khó, hanji: 思考, en: "think about, reflect"}
+  - {tailo: sió-ha̍k, hanji: 小學, en: "primary school"}
+  - {tailo: ji̍t-kì, hanji: 日記, en: "diary"}
+  - {tailo: huâi-liām, hanji: 懷念, en: "miss, remember fondly"}
+  - {tailo: tsū-tsāi, hanji: 自在, en: "carefree, at ease"}
+  - {tailo: liû-luân, hanji: 留戀, en: "cling to, be reluctant to leave"}
+  - {tailo: kuè-khì, hanji: 過去, en: "the past"}
+  - {tailo: si̍t-tsè, hanji: 實際, en: "reality; actual"}
+  - {tailo: sîng-kong, hanji: 成功, en: "succeed; success"}
+  - {tailo: ta̍t-tit, hanji: 值得, en: "worth it"}
+exercises:
+  translate:
+    - {tailo: "Khah-tsá guá m̄ kánn kóng Tâi-gí, kiann kóng m̄-tio̍h hōo tông-ha̍k tshiò.", hanji: "較早我毋敢講台語，驚講毋著予同學笑。", en: "I used to be afraid to speak Taigi, afraid my classmates would laugh if I got it wrong."}
+    - {tailo: "A-bú kóng tsok-ka thàn bô tsînn, kiò guá tha̍k kho-ha̍k khah ū tsiân-tôo.", hanji: "阿母講作家趁無錢，叫我讀科學較有前途。", en: "Mum says writers don't make money, and tells me science has more of a future."}
+    - {tailo: "Ha̍k-būn tī tsheh lāi-té, tì-huī tī sing-ua̍h lāi-té.", hanji: "學問佇冊內底，智慧佇生活內底。", en: "Knowledge is in books, but wisdom is in life."}
+    - {tailo: "Guá tsin huâi-liām hit-tsūn, ta̍k-kang lóng tsin tsū-tsāi.", hanji: "我真懷念彼陣，逐工攏真自在。", en: "I really miss those days: I was carefree every day."}
+    - {tailo: "Guá tō kám-kak tsit tsa̍p tang tsiânn ta̍t-tit.", hanji: "我就感覺這十冬誠值得。", en: "I'll feel these ten years were well worth it."}
+  fill:
+    - {tailo: "Tsit-má guá ê ___ tsin tuā.", hanji: "這馬我的___真大。", answer: "ap-li̍k", answer_hanji: "壓力", en: "I'm under a lot of pressure right now."}
+    - {tailo: "Àm-sî koh ài khì ___.", hanji: "暗時閣愛去___。", answer: "póo-si̍p", answer_hanji: "補習", en: "Then I have cram school at night."}
+    - {tailo: "Guá í-king hē ___--ah.", hanji: "我已經下___矣。", answer: "kuat-sim", answer_hanji: "決心", en: "I've made up my mind."}
+    - {tailo: "Lí bat tsiah-nī jīn-tsin ___ tsi̍t ê bāng.", hanji: "你捌遮爾認真___一个夢。", answer: "tui-kiû", answer_hanji: "追求", en: "You once chased a dream this seriously."}
+    - {tailo: "Guá bô ___ kuè-khì.", hanji: "我無___過去。", answer: "liû-luân", answer_hanji: "留戀", en: "I don't cling to the past."}
+audio: []
