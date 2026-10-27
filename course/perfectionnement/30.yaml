@@ -1,0 +1,111 @@
+id: 30
+title: {en: "A fortune teller who doesn't flatter starves", tailo: "Khuànn-miā bô po, tsia̍h tsuí to bô", hanji: "看命無褒，食水都無"}
+genre: play
+review: false
+setting: "A comedy in one act. The headmaster has said yes. A-ióng's mother takes him and Siok-tsing to Master Ông, a fortune teller in the underpass by a big Taipei temple, to choose the wedding date."
+dialogue:
+  - {n: 1, speaker: Mother, hanji: "校長已經允准矣！今仔日阮來揣王半仙，看命兼揀一个好日。", tailo: "Hāu-tiúnn í-king ín-tsún--ah! Kin-á-ji̍t guán lâi tshuē Ông Puàn-sian, khuànn-miā kiam kíng tsi̍t ê hó-ji̍t.", en: "The headmaster has given his consent! Today we've come to Master Ông to have our fortunes told and pick a lucky day."}
+  - {n: 2, speaker: A-ióng, hanji: "阿母，結婚的日子，咱家己揀就好，敢著愛看命？", tailo: "A-bú, kiat-hun ê ji̍t-tsí, lán ka-kī kíng tō hó, kám tio̍h-ài khuànn-miā?", en: "Mum, we can choose the wedding date ourselves. Do we really need a fortune teller?"}
+  - {n: 3, speaker: Siok-tsing, hanji: "毋管你按怎講，橫直我毋信。", tailo: "M̄-kuán lí án-tsuánn kóng, huâinn-ti̍t guá m̄ sìn.", en: "Whatever you say, I don't believe in it anyway.", source: moe}
+  - {n: 4, speaker: Mother, hanji: "你毋通遮爾鐵齒！聽老大人的話就無毋著。", tailo: "Lí m̄-thang tsiah-nī thih-khí! Thiann lāu-tuā-lâng ê uē tō bô-m̄-tio̍h.", en: "Don't be so stubborn! Listen to your elders and you won't go wrong.", source: moe}
+  - {n: 5, speaker: Fortune teller, hanji: "來來來，請坐。恁兩个的生相佮八字提出來，半仙共恁看。", tailo: "Lâi lâi lâi, tshiánn tsē. Lín nn̄g ê ê senn-siùnn kah peh-jī the̍h--tshut-lâi, puàn-sian kā lín khuànn.", en: "Come in, come in, sit down. Give me your zodiac signs and your birth dates and times, and the master will take a look."}
+  - {n: 6, speaker: A-ióng, hanji: "我屬虎，伊屬兔。虎佮兔，敢會合？", tailo: "Guá sio̍k hóo, i sio̍k thòo. Hóo kah thòo, kám ē ha̍h?", en: "I'm a Tiger, she's a Rabbit. Tiger and Rabbit: are we compatible?"}
+  - {n: 7, speaker: Fortune teller, hanji: "（目睭瞌瞌）虎佮兔……宛然天生的一對！這个查某囡仔真好命，會致蔭翁婿。", tailo: "(Ba̍k-tsiu kheh-kheh) Hóo kah thòo…… uán-jiân thian-sing ê tsi̍t tuì! Tsit ê tsa-bóo gín-á tsin hó-miā, ē tì-ìm ang-sài.", en: "(Eyes half closed) Tiger and Rabbit… a match made in heaven! This young lady has a fine destiny: she'll bring her husband good fortune."}
+  - {n: 8, speaker: Fortune teller, hanji: "少年家，你真有福氣。以後你的事業會真大，會做頭家！", tailo: "Siàu-liân-ke, lí tsin ū hok-khì. Í-āu lí ê sū-gia̍p ē tsin tuā, ē tsò thâu-ke!", en: "Young man, you're very lucky. Your business will grow big one day: you'll be a boss!"}
+  - {n: 9, speaker: A-ióng, hanji: "真的？我會做頭家？", tailo: "Tsin--ê? Guá ē tsò thâu-ke?", en: "Really? I'll be a boss?"}
+  - {n: 10, speaker: Siok-tsing, hanji: "半仙，伊連一隻貓都號做「頭家」，你看伊會做頭家無？", tailo: "Puàn-sian, i liân tsi̍t tsiah niau to hō-tsò “Thâu-ke”, lí khuànn i ē tsò thâu-ke--bô?", en: "Master, he even named his cat 'Boss'. Do you think he'll ever be a boss?"}
+  - {n: 11, speaker: Fortune teller, hanji: "（咳嗽）論真來講……頭家嘛有大有細。", tailo: "(Ka-sàu) Lūn-tsin lâi kóng…… thâu-ke mā ū tuā ū sè.", en: "(Coughing) Strictly speaking… there are big bosses and small bosses."}
+  - {n: 12, speaker: Mother, hanji: "半仙，日子咧？阮想欲春天。", tailo: "Puàn-sian, ji̍t-tsí--leh? Guán siūnn-beh tshun-thinn.", en: "Master, what about the date? We'd like the spring."}
+  - {n: 13, speaker: Fortune teller, hanji: "（掀通書）農曆三月初八，吉日。好時辰是早起九點到十一點。", tailo: "(Hian thong-su) Lông-li̍k sann-gue̍h tshe-peh, kiat-ji̍t. Hó sî-sîn sī tsá-khí káu tiám kàu tsa̍p-it tiám.", en: "(Leafing through the almanac) The eighth day of the third lunar month: an auspicious day. The lucky hours are from nine to eleven in the morning."}
+  - {n: 14, speaker: Fortune teller, hanji: "毋過……恁兜的大門向西爿，風水無啥好，愛請地理師來看一下。", tailo: "M̄-koh…… lín tau ê tuā-mn̂g ǹg sai-pîng, hong-suí bô siánn hó, ài tshiánn tē-lí-su lâi khuànn--tsi̍t-ē.", en: "But… your front door faces west. The feng shui isn't good: you should get a geomancer to come and look."}
+  - {n: 15, speaker: Siok-tsing, hanji: "阮蹛的是公寓，大門是規棟樓的，欲按怎換？", tailo: "Guán tuà--ê sī kong-gū, tuā-mn̂g sī kui tòng lâu--ê, beh án-tsuánn uānn?", en: "We live in a flat, and the front door belongs to the whole building. How are we supposed to change it?"}
+  - {n: 16, speaker: Fortune teller, hanji: "若按呢，買一面八卦掛佇門頂，就會使化解。一面才三千箍。", tailo: "Nā án-ne, bé tsi̍t bīn pat-kuà kuà tī mn̂g-tíng, tō ē-sái huà-kái. Tsi̍t bīn tsiah sann-tshing khoo.", en: "In that case, buy a bagua mirror and hang it over your door, and that will ward it off. Only three thousand dollars each."}
+  - {n: 17, speaker: Mother, hanji: "三千箍無算貴，為著恁的運命，阿母開。", tailo: "Sann-tshing khoo bô sǹg kuì, uī-tio̍h lín ê ūn-miā, a-bú khai.", en: "Three thousand isn't expensive. For your future, Mum will pay."}
+  - {n: 18, speaker: A-ióng, hanji: "阿母，你按呢敢袂傷過頭迷信？", tailo: "A-bú, lí án-ne kám bē siunn kuè-thâu bê-sìn?", en: "Mum, isn't that a bit too superstitious?"}
+  - {n: 19, speaker: Fortune teller, hanji: "閣有，少年家，你今年運較歹，若欲改運，愛去廟裡點一葩光明燈。", tailo: "Koh ū, siàu-liân-ke, lí kin-nî ūn khah pháinn, nā beh kái-ūn, ài khì biō--lí tiám tsi̍t pha kong-bîng-ting.", en: "And another thing, young man: your luck is poor this year. If you want to change it, go to the temple and light a lamp of brightness."}
+  - {n: 20, speaker: A-ióng, hanji: "我這站真好運，拄著淑貞，閣得著校長的允准，哪有歹運？", tailo: "Guá tsit-tsām tsin hó-ūn, tú-tio̍h Siok-tsing, koh tit-tio̍h hāu-tiúnn ê ín-tsún, ná ū pháinn-ūn?", en: "I've been very lucky lately: I met Siok-tsing and got the headmaster's consent. How is that bad luck?"}
+  - {n: 21, speaker: Fortune teller, hanji: "人的命運是真歹講的。", tailo: "Lâng ê miā-ūn sī tsin pháinn-kóng--ê.", en: "A person's destiny is very hard to predict.", source: moe}
+  - {n: 22, speaker: Siok-tsing, hanji: "半仙，我想欲請教你一个問題。你看命遮爾準，敢有算著今仔日我會共你講價？", tailo: "Puàn-sian, guá siūnn-beh tshíng-kàu lí tsi̍t ê būn-tê. Lí khuànn-miā tsiah-nī tsún, kám ū sǹg-tio̍h kin-á-ji̍t guá ē kā lí kóng-kè?", en: "Master, may I ask you a question? Since your predictions are so accurate, did you foresee that I'd haggle with you today?"}
+  - {n: 23, speaker: Fortune teller, hanji: "（笑出來）小姐，你真厲害。好啦，八卦免錢送恁，紅包由在恁，隨意就好。", tailo: "(Tshiò--tshut-lâi) Sió-tsiá, lí tsin lī-hāi. Hó--lah, pat-kuà bián-tsînn sàng lín, âng-pau iû-tsāi lín, suî-ì tō hó.", en: "(Bursting out laughing) Miss, you're a sharp one. All right, the mirror's free, and the red envelope is up to you: whatever you like."}
+  - {n: 24, speaker: Mother, hanji: "多謝半仙，你指點了真好！", tailo: "To-siā puàn-sian, lí tsí-tiám liáu tsin hó!", en: "Thank you, Master, that was excellent advice!"}
+  - {n: 25, speaker: A-ióng, hanji: "（出來了後）淑貞，你明明毋信，哪會閣送伊紅包？", tailo: "(Tshut--lâi liáu-āu) Siok-tsing, lí bîng-bîng m̄ sìn, ná ē koh sàng i âng-pau?", en: "(Once outside) Siok-tsing, you don't believe a word of it, so why give him a red envelope?"}
+  - {n: 26, speaker: Siok-tsing, hanji: "看命無褒，食水都無。", tailo: "Khuànn-miā bô po, tsia̍h tsuí to bô.", en: "A fortune teller who doesn't flatter can't even earn a drink of water.", source: moe}
+  - {n: 27, speaker: Siok-tsing, hanji: "伊褒咱，咱嘛褒伊，恁阿母歡喜，日子嘛揀好矣，按呢就好。", tailo: "I po lán, lán mā po i, lín a-bú huann-hí, ji̍t-tsí mā kíng hó--ah, án-ne tō hó.", en: "He flattered us, we flattered him, your mum is happy, and the date is chosen. That's what counts."}
+  - {n: 28, speaker: A-ióng, hanji: "你真正是天生欲做我的牽手的！", tailo: "Lí tsin-tsiànn sī thian-sing beh tsò guá ê khan-tshiú--ê!", en: "You really were born to be my wife!"}
+notes:
+  - {ref: 1, topic: culture, text: "看命 khuànn-miā = have one's fortune told; tell fortunes. 半仙 puàn-sian 'half an immortal' = a fortune teller, used as a title: 王半仙 'Master Ông'. 好日 = lucky day (進修 3). 兼 kiam = and at the same time, as well as. The underpass by Hsing Tian Kong temple in Taipei is famous for its fortune tellers."}
+  - {ref: 3, topic: vocab, text: "An exact MOE example. 橫直 huâinn-ti̍t = anyway, in any case. 毋管 = no matter (lesson 52)."}
+  - {ref: 4, topic: vocab, text: "An exact MOE example. 鐵齒 thih-khí 'iron teeth' = stubborn, refusing to believe (in the supernatural). 老大人 = elders. 無毋著 bô-m̄-tio̍h = (be) right, can't go wrong."}
+  - {ref: 5, topic: culture, text: "生相 senn-siùnn = Chinese zodiac sign; 十二生相 'the twelve signs' (MOE). 八字 = the eight characters of one's birth date and hour (進修 5), used to match couples."}
+  - {ref: 6, topic: vocab, text: "屬 sio̍k = belong to; be born in the year of: 我屬虎 'I'm a Tiger'. 合 ha̍h = suit, match: 𪜶兩个個性會合 'their characters are compatible' (MOE); 鞋仔無合跤 'the shoes don't fit'. Compare 合 ha̍p 'close, combine'."}
+  - {ref: 7, topic: vocab, text: "瞌 kheh = close (the eyes) halfway. 宛然 uán-jiân = just like, as if. 天生 thian-sing = born, natural; 天生的一對 'a match made in heaven'. 致蔭 tì-ìm = bring blessings on, protect: 這門風水會致蔭囝孫 'this grave's feng shui will bless the descendants' (MOE)."}
+  - {ref: 11, topic: vocab, text: "論真 lūn-tsin = strictly speaking, actually: 論真來講，你嘛有毋著 'actually, you were wrong too' (MOE)."}
+  - {ref: 13, topic: culture, text: "掀 hian = leaf through, lift (a lid). 通書 thong-su = the farmer's almanac that lists lucky and unlucky days. 農曆 lông-li̍k = lunar calendar. 吉 kiat = auspicious; 吉日 'lucky day' (MOE). 時辰 sî-sîn = one of the twelve two-hour periods of the day; 好時辰 'the lucky hour'."}
+  - {ref: 14, topic: culture, text: "風水 hong-suí = feng shui, geomancy. 地理師 tē-lí-su = geomancer, feng-shui master. 向 ǹg = face (a direction)."}
+  - {ref: 16, topic: culture, text: "八卦 pat-kuà = the eight trigrams; here a bagua mirror, hung over doors to ward off bad influences. 化解 huà-kái = neutralise, resolve. 一面 = one (flat object)."}
+  - {ref: 17, topic: vocab, text: "運命 ūn-miā = fate, destiny (a synonym of 命運, line 21). 開 khai = spend, pay."}
+  - {ref: 18, topic: vocab, text: "From the MOE example 你按呢敢袂傷過頭迷信？ 迷信 bê-sìn = superstitious; superstition. 過頭 = too much."}
+  - {ref: 19, topic: culture, text: "運 ūn = luck, fortune; 運較歹 'luck is bad'. 改運 kái-ūn = change one's luck (by ritual). 光明燈 kong-bîng-ting = 'lamp of brightness', a small lamp paid for at a temple to protect a person for the year; 光明 = bright; bright future. 葩 = counter for lamps (進修 12)."}
+  - {ref: 20, topic: vocab, text: "歹運 pháinn-ūn = bad luck: 阿英仔有夠歹運，見若儉寡錢，人就破病 'A-ing has such bad luck: every time she saves a little, she falls ill' (MOE)."}
+  - {ref: 21, topic: vocab, text: "An exact MOE example. 命運 miā-ūn = fate, destiny."}
+  - {ref: 22, topic: vocab, text: "請教 tshíng-kàu = ask (for advice), consult (polite). 準 tsún = accurate: 你臆了真準 'you guessed right' (MOE). 講價 = haggle (lesson 59)."}
+  - {ref: 23, topic: vocab, text: "由在 iû-tsāi = up to (you), as you like: 由在你！我無意見！ 'it's up to you, I don't mind!' (MOE). 隨意 suî-ì = as you wish."}
+  - {ref: 24, topic: vocab, text: "指點 tsí-tiám = give guidance, advise: 請你共我指點一下 'please show me how' (MOE)."}
+  - {ref: 26, topic: culture, text: "An exact MOE example and a well-known saying. 褒 po = flatter, praise: a fortune teller who doesn't flatter his customers won't earn even a drink of water."}
+  - {ref: 28, topic: vocab, text: "牽手 = wife (lesson 83)."}
+new_words:
+  - {tailo: khuànn-miā, hanji: 看命, en: "have one's fortune told; tell fortunes"}
+  - {tailo: kiam, hanji: 兼, en: "and also, at the same time"}
+  - {tailo: puàn-sian, hanji: 半仙, en: "fortune teller (title)"}
+  - {tailo: huâinn-ti̍t, hanji: 橫直, en: "anyway, in any case"}
+  - {tailo: thih-khí, hanji: 鐵齒, en: "stubborn, sceptical"}
+  - {tailo: bô-m̄-tio̍h, hanji: 無毋著, en: "right, not wrong"}
+  - {tailo: senn-siùnn, hanji: 生相, en: "zodiac sign"}
+  - {tailo: sio̍k, hanji: 屬, en: "belong to; be born in the year of"}
+  - {tailo: ha̍h, hanji: 合, en: "suit, match, fit"}
+  - {tailo: kheh, hanji: 瞌, en: "close (the eyes) halfway"}
+  - {tailo: uán-jiân, hanji: 宛然, en: "just like, as if"}
+  - {tailo: thian-sing, hanji: 天生, en: "born, natural"}
+  - {tailo: tì-ìm, hanji: 致蔭, en: "bring blessings on, protect"}
+  - {tailo: lūn-tsin, hanji: 論真, en: "strictly speaking, actually"}
+  - {tailo: hian, hanji: 掀, en: "leaf through, lift"}
+  - {tailo: thong-su, hanji: 通書, en: "almanac"}
+  - {tailo: lông-li̍k, hanji: 農曆, en: "lunar calendar"}
+  - {tailo: kiat, hanji: 吉, en: "auspicious"}
+  - {tailo: kiat-ji̍t, hanji: 吉日, en: "auspicious day"}
+  - {tailo: sî-sîn, hanji: 時辰, en: "two-hour period; (lucky) hour"}
+  - {tailo: hong-suí, hanji: 風水, en: "feng shui, geomancy"}
+  - {tailo: tē-lí-su, hanji: 地理師, en: "geomancer"}
+  - {tailo: pat-kuà, hanji: 八卦, en: "the eight trigrams; bagua mirror"}
+  - {tailo: huà-kái, hanji: 化解, en: "neutralise, resolve"}
+  - {tailo: ūn-miā, hanji: 運命, en: "fate, destiny"}
+  - {tailo: bê-sìn, hanji: 迷信, en: "superstitious; superstition"}
+  - {tailo: kuè-thâu, hanji: 過頭, en: "too much, excessively"}
+  - {tailo: ūn, hanji: 運, en: "luck, fortune"}
+  - {tailo: kái-ūn, hanji: 改運, en: "change one's luck (by ritual)"}
+  - {tailo: kong-bîng, hanji: 光明, en: "bright; bright future"}
+  - {tailo: pháinn-ūn, hanji: 歹運, en: "bad luck"}
+  - {tailo: miā-ūn, hanji: 命運, en: "fate, destiny"}
+  - {tailo: tshíng-kàu, hanji: 請教, en: "ask for advice, consult"}
+  - {tailo: tsún, hanji: 準, en: "accurate"}
+  - {tailo: iû-tsāi, hanji: 由在, en: "up to (you), as you like"}
+  - {tailo: suî-ì, hanji: 隨意, en: "as you wish"}
+  - {tailo: tsí-tiám, hanji: 指點, en: "give guidance, advise"}
+  - {tailo: po, hanji: 褒, en: "flatter, praise"}
+exercises:
+  translate:
+    - {tailo: "Kin-á-ji̍t guán lâi khuànn-miā kiam kíng tsi̍t ê hó-ji̍t.", hanji: "今仔日阮來看命兼揀一个好日。", en: "Today we've come to have our fortunes told and pick a lucky day."}
+    - {tailo: "Guá sio̍k hóo, i sio̍k thòo.", hanji: "我屬虎，伊屬兔。", en: "I'm a Tiger, she's a Rabbit."}
+    - {tailo: "Lín tau ê tuā-mn̂g ǹg sai-pîng, hong-suí bô siánn hó.", hanji: "恁兜的大門向西爿，風水無啥好。", en: "Your front door faces west: the feng shui isn't good."}
+    - {tailo: "Lâng ê miā-ūn sī tsin pháinn-kóng--ê.", hanji: "人的命運是真歹講的。", en: "A person's destiny is very hard to predict."}
+    - {tailo: "Âng-pau iû-tsāi lín, suî-ì tō hó.", hanji: "紅包由在恁，隨意就好。", en: "The red envelope is up to you: whatever you like."}
+    - {tailo: "Puàn-sian khuànn guán ê senn-siùnn kah peh-jī, kóng guán nn̄g ê ē ha̍h, koh kíng tsi̍t ê kiat-ji̍t.", hanji: "半仙看阮的生相佮八字，講阮兩个會合，閣揀一个吉日。", en: "The fortune teller looked at our zodiac signs and birth details, said we were compatible, and chose a lucky day."}
+    - {tailo: "Siok-tsing tsin thih-khí, i kóng hong-suí kah kái-ūn lóng sī bê-sìn, m̄-koh i mā bô kā a-bú pháinn-khuànn.", hanji: "淑貞真鐵齒，伊講風水佮改運攏是迷信，毋過伊嘛無予阿母歹看。", en: "Siok-tsing doesn't believe in any of it: she says feng shui and changing your luck are superstition, but she didn't embarrass his mother."}
+  fill:
+    - {tailo: "Lí m̄-thang tsiah-nī ___!", hanji: "你毋通遮爾___！", answer: "thih-khí", answer_hanji: "鐵齒", en: "Don't be so stubborn!"}
+    - {tailo: "Hóo kah thòo, kám ē ___?", hanji: "虎佮兔，敢會___？", answer: "ha̍h", answer_hanji: "合", en: "Tiger and Rabbit: are we compatible?"}
+    - {tailo: "Bé tsi̍t bīn pat-kuà kuà tī mn̂g-tíng, tō ē-sái ___.", hanji: "買一面八卦掛佇門頂，就會使___。", answer: "huà-kái", answer_hanji: "化解", en: "Buy a bagua mirror and hang it over your door, and that will ward it off."}
+    - {tailo: "Lí khuànn-miā tsiah-nī ___.", hanji: "你看命遮爾___。", answer: "tsún", answer_hanji: "準", en: "Your predictions are so accurate."}
+    - {tailo: "Khuànn-miā bô ___, tsia̍h tsuí to bô.", hanji: "看命無___，食水都無。", answer: "po", answer_hanji: "褒", en: "A fortune teller who doesn't flatter can't even earn a drink of water."}
+    - {tailo: "A-bú siūnn-beh kái-ūn, Siok-tsing tō kóng: \"Tse sī lín ê tāi-tsì, ___ lín, guá bô ì-kiàn.\"", hanji: "阿母想欲改運，淑貞就講：「這是恁的代誌，___恁，我無意見。」", answer: "iû-tsāi", answer_hanji: "由在", en: "His mother wanted to change her luck, so Siok-tsing said: \"That's your business, it's up to you, I don't mind.\""}
+audio: []

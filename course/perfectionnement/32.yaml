@@ -1,0 +1,98 @@
+id: 32
+title: {en: "A letter from far from home", tailo: "Tshut-guā-lâng ê phue", hanji: "出外人的批"}
+genre: song
+review: false
+setting: "Song lyrics in the style of the 1960s–70s Taigi songs about young people who left the countryside to work in Taipei, written for this course: a young man in the city sings to his mother back home."
+dialogue:
+  - {n: 1, hanji: "車站的水螺，催阮離鄉里，", tailo: "Tshia-tsām ê tsuí-lê, tshui guán lī hiunn-lí,", en: "The station whistle hurries me from my village,"}
+  - {n: 2, hanji: "阿母徛佇月台，擛手共阮相送。", tailo: "a-bú khiā tī gua̍t-tâi, ia̍t-tshiú kā guán sio-sàng.", en: "Mother stands on the platform, waving me goodbye."}
+  - {n: 3, hanji: "包袱內底有伊炒的米粉，", tailo: "Pau-ho̍k lāi-té ū i tshá ê bí-hún,", en: "In my bundle there's the rice noodles she fried,"}
+  - {n: 4, hanji: "閣有一句：「出外著愛堅強。」", tailo: "koh ū tsi̍t kù: “Tshut-guā tio̍h-ài kian-kiông.”", en: "and one sentence: 'Be strong when you're far from home.'"}
+  - {n: 5, hanji: "出外人，出外人，拖磨啥人知？", tailo: "Tshut-guā-lâng, tshut-guā-lâng, thua-buâ siánn-lâng tsai?", en: "Far from home, far from home, who knows how hard it is?"}
+  - {n: 6, hanji: "三更半暝，冷風吹過窗仔，", tailo: "Sann-kenn-puànn-mê, líng-hong tshue kuè thang-á,", en: "In the dead of night, a cold wind blows past the window,"}
+  - {n: 7, hanji: "孤鳥一隻，飛袂轉去故鄉，", tailo: "koo-tsiáu tsi̍t tsiah, pue bē tńg-khì kòo-hiong,", en: "a lone bird that can't fly home,"}
+  - {n: 8, hanji: "啥人知影阮的心神遮沉重？", tailo: "siánn-lâng tsai-iánn guán ê sim-sîn tsiah tîm-tāng?", en: "who knows how heavy my heart is?"}
+  - {n: 9, hanji: "都市的燈火，暝時嘛咧閃爍，", tailo: "Too-tshī ê ting-hué, mê--sî mā teh siám-sih,", en: "The city lights glitter even at night,"}
+  - {n: 10, hanji: "阮的形影，佇人群內底揣無。", tailo: "guán ê hîng-iánn, tī jîn-kûn lāi-té tshuē bô.", en: "and I'm lost somewhere in the crowd."}
+  - {n: 11, hanji: "頭家的面，冷甲親像寒人，", tailo: "Thâu-ke ê bīn, líng kah tshin-tshiūnn kuânn--lâng,", en: "The boss's face is as cold as winter,"}
+  - {n: 12, hanji: "看破世情，才知出外的艱難。", tailo: "khuànn-phuà sè-tsîng, tsiah tsai tshut-guā ê kan-lân.", en: "I've seen how the world is, and now I know how hard it is far from home."}
+  - {n: 13, hanji: "早暗寫批，批信寫袂了，", tailo: "Tsá-àm siá phue, phue-sìn siá bē liáu,", en: "Morning and night I write, there's no end to my letters,"}
+  - {n: 14, hanji: "毋敢寫艱苦，干焦寫平安。", tailo: "m̄ kánn siá kan-khóo, kan-na siá pîng-an.", en: "I don't dare write of hardship, I only write that I'm well."}
+  - {n: 15, hanji: "吐一口氣，目屎吞落腹肚，", tailo: "Thóo tsi̍t kháu khuì, ba̍k-sái thun lo̍h pak-tóo,", en: "I sigh, and swallow down my tears,"}
+  - {n: 16, hanji: "苦苦忍受，為著出頭天。", tailo: "khóo-khóo jím-siū, uī-tio̍h tshut-thâu-thinn.", en: "bitterly I bear it all, so that one day I'll make good."}
+  - {n: 17, hanji: "出外人，出外人，拖磨啥人知？", tailo: "Tshut-guā-lâng, tshut-guā-lâng, thua-buâ siánn-lâng tsai?", en: "Far from home, far from home, who knows how hard it is?"}
+  - {n: 18, hanji: "三更半暝，冷風吹過窗仔，", tailo: "Sann-kenn-puànn-mê, líng-hong tshue kuè thang-á,", en: "In the dead of night, a cold wind blows past the window,"}
+  - {n: 19, hanji: "孤鳥一隻，飛袂轉去故鄉，", tailo: "koo-tsiáu tsi̍t tsiah, pue bē tńg-khì kòo-hiong,", en: "a lone bird that can't fly home,"}
+  - {n: 20, hanji: "啥人知影阮的心神遮沉重？", tailo: "siánn-lâng tsai-iánn guán ê sim-sîn tsiah tîm-tāng?", en: "who knows how heavy my heart is?"}
+  - {n: 21, hanji: "等到春天，田岸花開的時陣，", tailo: "Tán kàu tshun-thinn, tshân-huānn hue khui ê sî-tsūn,", en: "When spring comes and the flowers open on the field banks,"}
+  - {n: 22, hanji: "阮欲揹著溫暖，轉去你的身軀邊。", tailo: "guán beh phāinn-tio̍h un-luán, tńg-khì lí ê sin-khu-pinn.", en: "I'll carry warmth home on my back, back to your side."}
+  - {n: 23, hanji: "阿母，阿母，莫為阮操心，", tailo: "A-bú, a-bú, mài uī guán tshau-sim,", en: "Mother, Mother, don't worry about me,"}
+  - {n: 24, hanji: "有情的人，離別嘛是暫時。", tailo: "ū-tsîng ê lâng, lī-pia̍t mā sī tsiām-sî.", en: "for those who love each other, parting is only for a while."}
+notes:
+  - {ref: 1, topic: culture, text: "From the 1960s, many young people left the villages of central and southern Taiwan for jobs in Taipei; dozens of Taigi songs tell their story. This one is original. 車站 tshia-tsām = station (bus or train). 水螺 tsuí-lê = whistle, siren. 催 tshui = hurry, urge. 鄉里 = home village (進修 27)."}
+  - {ref: 2, topic: vocab, text: "月台 gua̍t-tâi = (railway) platform. 擛手 = wave (lesson 90). 相送 sio-sàng = see someone off: 我欲出國的時，真濟朋友攏來相送 'when I went abroad, lots of friends came to see me off' (MOE)."}
+  - {ref: 3, topic: vocab, text: "包袱 pau-ho̍k = bundle wrapped in a cloth; also a burden one carries. 米粉 (lesson 38) = rice noodles; 炒 = fry."}
+  - {ref: 4, topic: vocab, text: "出外 = be away from home (lesson 79); 出外人 'someone far from home'. 堅強 kian-kiông = strong, resilient."}
+  - {ref: 5, topic: vocab, text: "拖磨 thua-buâ = toil, drudge, wear oneself out: 伊定定講家己歹命，愛拖磨一世人 'she always says she's ill-fated, doomed to toil all her life' (MOE)."}
+  - {ref: 6, topic: vocab, text: "三更 sann-kenn = the third watch, midnight; 三更半暝 'in the dead of night' (MOE). 冷風 líng-hong = cold wind."}
+  - {ref: 7, topic: vocab, text: "孤鳥 koo-tsiáu = lone bird; a person on their own: 孤鳥插人群 'a lone bird joining the flock' (MOE)."}
+  - {ref: 8, topic: vocab, text: "心神 sim-sîn = mind, spirit: 你莫枉費心神矣 'don't waste your energy' (MOE). 沉重 tîm-tāng = heavy, grave: 伊的心情真沉重 'she's very heavy-hearted' (MOE)."}
+  - {ref: 9, topic: vocab, text: "暝時 mê--sî = at night: 暝時毋睏，日時才咧盹龜 'he doesn't sleep at night, then dozes off in the daytime' (MOE). 閃爍 = glitter (進修 20)."}
+  - {ref: 10, topic: vocab, text: "形影 hîng-iánn = figure, trace (of someone). 人群 jîn-kûn = crowd."}
+  - {ref: 11, topic: vocab, text: "寒人 kuânn--lâng = winter (with neutral tone; 'the cold time'): 閣來就是寒人矣 'winter's coming' (MOE)."}
+  - {ref: 12, topic: vocab, text: "世情 sè-tsîng = the ways of the world: 出家人著愛看破世情 'monks must see through the ways of the world' (MOE). 看破 (進修 23). 艱難 kan-lân = hardship, difficult."}
+  - {ref: 13, topic: vocab, text: "早暗 tsá-àm = morning and evening; sooner or later: 你早暗愛會記得食藥仔 'remember to take your medicine morning and evening' (MOE). 批信 phue-sìn = letters, mail. 寫袂了 = never finish writing."}
+  - {ref: 15, topic: vocab, text: "吐氣 thóo-khuì = sigh: 看伊佇遐吐氣，一定是有心事 'if he's sighing like that, something's on his mind' (MOE). 吞 thun = swallow."}
+  - {ref: 16, topic: vocab, text: "苦苦 khóo-khóo = bitterly, painfully; 苦苦哀求 'beg piteously' (MOE). 忍受 jím-siū = bear, endure. 出頭天 tshut-thâu-thinn = rise in the world, make good: 你愛認真拍拚，才會出頭天 'work hard and you'll get on in life' (MOE)."}
+  - {ref: 21, topic: vocab, text: "田岸 = the raised bank between rice fields (lesson 94)."}
+  - {ref: 22, topic: vocab, text: "揹 phāinn = carry on one's back. 溫暖 un-luán = warm; warmth."}
+  - {ref: 24, topic: vocab, text: "有情 ū-tsîng = in love, devoted: 我知影你對伊有情 'I know you have feelings for her' (MOE). 離別 lī-pia̍t = parting, separation: 佮愛人仔離別是真痛苦的代誌 'parting from one's love is painful' (MOE). 暫時 = for a while (lesson 24)."}
+new_words:
+  - {tailo: tshia-tsām, hanji: 車站, en: "station"}
+  - {tailo: tsuí-lê, hanji: 水螺, en: "whistle, siren"}
+  - {tailo: tshui, hanji: 催, en: "hurry, urge"}
+  - {tailo: gua̍t-tâi, hanji: 月台, en: "platform"}
+  - {tailo: sio-sàng, hanji: 相送, en: "see someone off"}
+  - {tailo: pau-ho̍k, hanji: 包袱, en: "bundle; burden"}
+  - {tailo: kian-kiông, hanji: 堅強, en: "strong, resilient"}
+  - {tailo: thua-buâ, hanji: 拖磨, en: "toil, drudge"}
+  - {tailo: sann-kenn, hanji: 三更, en: "midnight, the third watch"}
+  - {tailo: sann-kenn-puànn-mê, hanji: 三更半暝, en: "in the dead of night"}
+  - {tailo: líng-hong, hanji: 冷風, en: "cold wind"}
+  - {tailo: koo-tsiáu, hanji: 孤鳥, en: "lone bird; a loner"}
+  - {tailo: sim-sîn, hanji: 心神, en: "mind, spirit"}
+  - {tailo: tîm-tāng, hanji: 沉重, en: "heavy, grave"}
+  - {tailo: mê--sî, hanji: 暝時, en: "at night"}
+  - {tailo: hîng-iánn, hanji: 形影, en: "figure, trace"}
+  - {tailo: jîn-kûn, hanji: 人群, en: "crowd"}
+  - {tailo: kuânn--lâng, hanji: 寒人, en: "winter"}
+  - {tailo: sè-tsîng, hanji: 世情, en: "the ways of the world"}
+  - {tailo: kan-lân, hanji: 艱難, en: "hardship; difficult"}
+  - {tailo: tsá-àm, hanji: 早暗, en: "morning and evening; sooner or later"}
+  - {tailo: phue-sìn, hanji: 批信, en: "letters, mail"}
+  - {tailo: thóo-khuì, hanji: 吐氣, en: "sigh"}
+  - {tailo: thun, hanji: 吞, en: "swallow"}
+  - {tailo: khóo-khóo, hanji: 苦苦, en: "bitterly, painfully"}
+  - {tailo: jím-siū, hanji: 忍受, en: "bear, endure"}
+  - {tailo: tshut-thâu-thinn, hanji: 出頭天, en: "rise in the world, make good"}
+  - {tailo: phāinn, hanji: 揹, en: "carry on one's back"}
+  - {tailo: un-luán, hanji: 溫暖, en: "warm; warmth"}
+  - {tailo: ū-tsîng, hanji: 有情, en: "in love, devoted"}
+  - {tailo: lī-pia̍t, hanji: 離別, en: "parting, separation"}
+exercises:
+  translate:
+    - {tailo: "A-bú khiā tī gua̍t-tâi, ia̍t-tshiú kā guán sio-sàng.", hanji: "阿母徛佇月台，擛手共阮相送。", en: "Mother stands on the platform, waving me goodbye."}
+    - {tailo: "Tshut-guā tio̍h-ài kian-kiông.", hanji: "出外著愛堅強。", en: "Be strong when you're far from home."}
+    - {tailo: "Sann-kenn-puànn-mê, líng-hong tshue kuè thang-á.", hanji: "三更半暝，冷風吹過窗仔。", en: "In the dead of night, a cold wind blows past the window."}
+    - {tailo: "M̄ kánn siá kan-khóo, kan-na siá pîng-an.", hanji: "毋敢寫艱苦，干焦寫平安。", en: "I don't dare write of hardship, I only write that I'm well."}
+    - {tailo: "Ū-tsîng ê lâng, lī-pia̍t mā sī tsiām-sî.", hanji: "有情的人，離別嘛是暫時。", en: "For those who love each other, parting is only for a while."}
+    - {tailo: "Tshut-guā ê lâng tsá-àm siá phue-sìn, m̄ kánn siá kan-lân, kan-na kā a-bú kóng pîng-an.", hanji: "出外的人早暗寫批信，毋敢寫艱難，干焦共阿母講平安。", en: "People far from home write letters morning and night, never daring to mention hardship, only telling their mothers they're well."}
+    - {tailo: "Sann-kenn-puànn-mê líng-hong tshue, koo-tsiáu pue bē tńg-khì, sim-sîn tsiah-nī tîm-tāng.", hanji: "三更半暝冷風吹，孤鳥飛袂轉去，心神遮爾沉重。", en: "In the dead of night the cold wind blows, the lone bird can't fly home, and the heart is so heavy."}
+  fill:
+    - {tailo: "Tshut-guā-lâng, ___ siánn-lâng tsai?", hanji: "出外人，___啥人知？", answer: "thua-buâ", answer_hanji: "拖磨", en: "Far from home, who knows how hard it is?"}
+    - {tailo: "Guán ê ___, tī jîn-kûn lāi-té tshuē bô.", hanji: "阮的___，佇人群內底揣無。", answer: "hîng-iánn", answer_hanji: "形影", en: "I'm lost somewhere in the crowd."}
+    - {tailo: "Tsá-àm siá phue, ___ siá bē liáu.", hanji: "早暗寫批，___寫袂了。", answer: "phue-sìn", answer_hanji: "批信", en: "Morning and night I write, there's no end to my letters."}
+    - {tailo: "Khóo-khóo jím-siū, uī-tio̍h ___.", hanji: "苦苦忍受，為著___。", answer: "tshut-thâu-thinn", answer_hanji: "出頭天", en: "Bitterly I bear it all, so that one day I'll make good."}
+    - {tailo: "Guán beh phāinn-tio̍h ___, tńg-khì lí ê sin-khu-pinn.", hanji: "阮欲揹著___，轉去你的身軀邊。", answer: "un-luán", answer_hanji: "溫暖", en: "I'll carry warmth home on my back, back to your side."}
+    - {tailo: "Guán khóo-khóo ___, siūnn-beh tshut-thâu-thinn, phāinn-tio̍h un-luán tńg-khì kòo-hiong.", hanji: "阮苦苦___，想欲出頭天，揹著溫暖轉去故鄉。", answer: "jím-siū", answer_hanji: "忍受", en: "I bear it all, hoping to make good and carry warmth back home."}
+audio: []

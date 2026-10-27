@@ -1,0 +1,58 @@
+id: 35
+title: {en: "Review 5", tailo: "Ho̍k-si̍p", hanji: "復習"}
+genre: review
+review: true
+setting: "The eighth day of the third lunar month, the lucky day Master Ông chose: A-ióng and Siok-tsing's wedding banquet in Taipei. Sam shares a table with A-tshun, Hūi-hūi, Uncle Lîm and the singing neighbour from the eighth floor. Everything comes from 進修 29–34."
+dialogue:
+  - {n: 1, speaker: A-tshun, hanji: "今仔日是農曆三月初八，王半仙揀的吉日，天氣嘛真好。", tailo: "Kin-á-ji̍t sī lông-li̍k sann-gue̍h tshe-peh, Ông Puàn-sian kíng ê kiat-ji̍t, thinn-khì mā tsin hó.", en: "Today is the eighth of the third lunar month, the lucky day Master Ông chose, and the weather's lovely too."}
+  - {n: 2, speaker: Sam, hanji: "看命無褒，食水都無。毋過這擺伊看了真準。", tailo: "Khuànn-miā bô po, tsia̍h tsuí to bô. M̄-koh tsit pái i khuànn liáu tsin tsún.", en: "A fortune teller who doesn't flatter starves. But this time he got it right."}
+  - {n: 3, speaker: Hūi-hūi, hanji: "阿勇叔寫予校長的彼張批，淑貞阿姨講伊頂真讀三擺，閣共批囥佇身軀邊。", tailo: "A-ióng-tsik siá hōo hāu-tiúnn ê hit tiunn phue, Siok-tsing a-î kóng i tíng-tsin tha̍k sann pái, koh kā phue khǹg tī sin-khu-pinn.", en: "Auntie Siok-tsing says her father read Uncle A-ióng's letter carefully three times, and he keeps it with him."}
+  - {n: 4, speaker: A-tshun, hanji: "批內底寫講伊會用規世人看顧淑貞，嘛袂辜負校長的恩情。校長真感動。", tailo: "Phue lāi-té siá kóng i ē iōng kui-sì-lâng khuànn-kòo Siok-tsing, mā bē koo-hū hāu-tiúnn ê un-tsîng. Hāu-tiúnn tsin kám-tōng.", en: "In it he wrote that he'd spend his whole life looking after Siok-tsing and wouldn't let the headmaster's kindness down. The headmaster was very moved."}
+  - {n: 5, speaker: Uncle Lîm, hanji: "毋過批內底閣講，伊的貓品行忠厚，袂偷食物件。這句我無認同。", tailo: "M̄-koh phue lāi-té koh kóng, i ê niau phín-hīng tiong-hōo, bē thau-tsia̍h mi̍h-kiānn. Tsit kù guá bô jīn-tông.", en: "But the letter also said his cat was honest and never stole food. That bit I can't agree with."}
+  - {n: 6, speaker: Sam, hanji: "林伯仔，你彼擺辦的案件，規棟公寓攏有嫌疑，上尾犯人是一隻貓。", tailo: "Lîm peh--á, lí hit pái pān ê àn-kiānn, kui tòng kong-gū lóng ū hiâm-gî, siōng-bué huān-lâng sī tsi̍t tsiah niau.", en: "Uncle Lîm, in that case of yours, the whole building was under suspicion, and in the end the culprit was a cat."}
+  - {n: 7, speaker: Uncle Lîm, hanji: "做刑事上驚判斷錯誤。暗中觀察，揣著跤跡，真相才會出來。", tailo: "Tsò hîng-sū siōng kiann phuànn-tuàn tshò-gōo. Àm-tiong kuan-tshat, tshuē-tio̍h kha-jiah, tsin-siòng tsiah ē tshut--lâi.", en: "What a detective fears most is a wrong judgment. Watch in secret, find the footprints, and the truth comes out."}
+  - {n: 8, speaker: Neighbour, hanji: "佳哉你無掠做是我，若無，我這馬猶咧關監獄咧！", tailo: "Ka-tsài lí bô lia̍h-tsò sī guá, nā-bô, guá tsit-má iáu teh kuainn kann-ga̍k--leh!", en: "Luckily you didn't take me for the thief, or I'd still be locked up in prison now!"}
+  - {n: 9, speaker: Hūi-hūi, hanji: "阿伯，聽講你今仔日欲唱歌？", tailo: "A-peh, thiann-kóng lí kin-á-ji̍t beh tshiùnn-kua?", en: "I hear you're going to sing today?"}
+  - {n: 10, speaker: Neighbour, hanji: "著，我欲唱一條老歌，出外人的批。我少年對草地來臺北拍拚，逐暗攏唱這條。", tailo: "Tio̍h, guá beh tshiùnn tsi̍t tiâu lāu kua, Tshut-guā-lâng ê Phue. Guá siàu-liân uì tsháu-tē lâi Tâi-pak phah-piànn, ta̍k àm lóng tshiùnn tsit tiâu.", en: "That's right, an old song, 'A Letter from Far from Home'. I came to Taipei from the country to work when I was young, and I sang it every night."}
+  - {n: 11, speaker: A-tshun, hanji: "莫怪你三更半暝攏咧唱。原來你是咧想阿母。", tailo: "Bo̍k-kuài lí sann-kenn-puànn-mê lóng teh tshiùnn. Guân-lâi lí sī teh siūnn a-bú.", en: "No wonder you sing in the middle of the night. You were thinking of your mother."}
+  - {n: 12, speaker: Neighbour, hanji: "彼陣真艱難，暝時冷風吹，心神沉重，毋過我苦苦忍受，總算出頭天。", tailo: "Hit-tsūn tsin kan-lân, mê--sî líng-hong tshue, sim-sîn tîm-tāng, m̄-koh guá khóo-khóo jím-siū, tsóng-sǹg tshut-thâu-thinn.", en: "Times were hard back then: the cold wind at night, a heavy heart. But I bore it all, and in the end I made good."}
+  - {n: 13, speaker: Hūi-hūi, hanji: "阿伯，你講話的款，親像阮老師講的公學校的阿公。你細漢敢有讀漢文？", tailo: "A-peh, lí kóng-uē ê khuán, tshin-tshiūnn guán lāu-su kóng ê kong-ha̍k-hāu ê a-kong. Lí sè-hàn kám ū tha̍k hàn-bûn?", en: "You talk like the grandfather from the common school my teacher told us about. Did you study classical Chinese as a child?"}
+  - {n: 14, speaker: Neighbour, hanji: "我讀國民學校，彼陣佇學校講臺語會予人罰。毋過阮阿公捌教我背冊，我的記持猶袂䆀。", tailo: "Guá tha̍k kok-bîn ha̍k-hāu, hit-tsūn tī ha̍k-hāu kóng Tâi-gí ē hōo lâng hua̍t. M̄-koh guán a-kong bat kà guá puē-tsheh, guá ê kì-tî iáu bē bái.", en: "I went to primary school when you got punished for speaking Taiwanese at school. But my grandfather taught me to recite texts, and my memory's still not bad."}
+  - {n: 15, speaker: Hūi-hūi, hanji: "阮老師講，一種言語，嘛是一个民族的記持。話若無人講，伊就毋閣存在。", tailo: "Guán lāu-su kóng, tsi̍t tsióng giân-gí, mā sī tsi̍t ê bîn-tso̍k ê kì-tî. Uē nā bô lâng kóng, i tō m̄ koh tsûn-tsāi.", en: "My teacher says a language is also a people's memory. If nobody speaks it, it no longer exists."}
+  - {n: 16, speaker: Uncle Lîm, hanji: "所以咱今仔日攏講臺語！來，新郎新娘來敬酒矣。", tailo: "Sóo-í lán kin-á-ji̍t lóng kóng Tâi-gí! Lâi, sin-lông sin-niû lâi kìng-tsiú--ah.", en: "So today we all speak Taiwanese! Look, the bride and groom are coming round with the toast."}
+  - {n: 17, speaker: A-ióng, hanji: "各位鄉親，多謝逐家來！淑貞佮我會協力，共這个家庭顧予好。", tailo: "Kok-uī hiong-tshin, to-siā ta̍k-ke lâi! Siok-tsing kah guá ē hia̍p-li̍k, kā tsit ê ka-tîng kòo hōo hó.", en: "Friends, thank you all for coming! Siok-tsing and I will work together to look after this family well."}
+  - {n: 18, speaker: Siok-tsing, hanji: "阮老爸講，阿勇的本事無偌大，毋過伊心腸好，做人有良心，這上要緊。", tailo: "Guán lāu-pē kóng, A-ióng ê pún-sū bô guā tuā, m̄-koh i sim-tn̂g hó, tsò-lâng ū liông-sim, tse siōng iàu-kín.", en: "My dad says A-ióng isn't especially talented, but he has a good heart and a conscience, and that's what matters most."}
+  - {n: 19, speaker: Sam, hanji: "阿勇，你的事業咧？王半仙講你會做頭家。", tailo: "A-ióng, lí ê sū-gia̍p--leh? Ông Puàn-sian kóng lí ē tsò thâu-ke.", en: "A-ióng, what about your business? Master Ông said you'd be a boss."}
+  - {n: 20, speaker: A-ióng, hanji: "我這馬已經是頭家矣：厝裡有淑貞，閣有三隻貓。只是，我是上細的頭家。", tailo: "Guá tsit-má í-king sī thâu-ke--ah: tshù--lí ū Siok-tsing, koh ū sann tsiah niau. Tsí-sī, guá sī siōng sè ê thâu-ke.", en: "I'm already a boss: at home there's Siok-tsing and three cats. It's just that I'm the smallest boss of all."}
+  - {n: 21, speaker: Siok-tsing, hanji: "橫直你上愛臭彈，阮攏知啦。", tailo: "Huâinn-ti̍t lí siōng ài tshàu-tuānn, guán lóng tsai--lah.", en: "Anyway, we all know you love to brag."}
+  - {n: 22, speaker: Neighbour, hanji: "好，我欲來唱歌矣！這條歌送予新郎新娘：有情的人，離別嘛是暫時。", tailo: "Hó, guá beh lâi tshiùnn-kua--ah! Tsit tiâu kua sàng hōo sin-lông sin-niû: ū-tsîng ê lâng, lī-pia̍t mā sī tsiām-sî.", en: "Right, time for my song! This one's for the bride and groom: for those who love each other, parting is only for a while."}
+  - {n: 23, speaker: A-tshun, hanji: "結婚的日唱離別的歌？阿伯，你這嘛真鐵齒。", tailo: "Kiat-hun ê ji̍t tshiùnn lī-pia̍t ê kua? A-peh, lí tse mā tsin thih-khí.", en: "A song about parting on a wedding day? You really don't care for superstition, do you?"}
+  - {n: 24, speaker: Neighbour, hanji: "毋驚！今年是好年冬，神明會庇佑恁全家平安。", tailo: "M̄ kiann! Kin-nî sī hó nî-tang, sîn-bîng ē pì-iū lín tsuân ke pîng-an.", en: "Never fear! This is a good year, and the gods will keep your whole family safe."}
+  - {n: 25, speaker: Sam, hanji: "（看桌跤）頭家咧？伊敢閣咧偷食？", tailo: "(Khuànn toh-kha) Thâu-ke--leh? I kám koh teh thau-tsia̍h?", en: "(Looking under the table) Where's Boss? Is he stealing food again?"}
+  - {n: 26, speaker: Uncle Lîm, hanji: "我看著矣，伊佇灶跤舐魚脯。犯人掠著矣！", tailo: "Guá khuànn-tio̍h--ah, i tī tsàu-kha tsīnn hî-póo. Huān-lâng lia̍h--tio̍h--ah!", en: "I can see him: he's in the kitchen licking the dried fish. The culprit is caught!"}
+notes:
+  - {ref: 1, topic: vocab, text: "The fortune teller (進修 30): 農曆, 半仙, 吉日, 看命無褒，食水都無, 準, 橫直, 鐵齒."}
+  - {ref: 3, topic: vocab, text: "A-ióng's letter (進修 29): 頂真, 規世人, 看顧, 辜負, 恩情, 本事, 心腸, 良心, 事業, 家庭. 阿姨 is from 進修 34."}
+  - {ref: 5, topic: vocab, text: "The cat mystery (進修 34): 偷食, 案件, 嫌疑, 犯人, 刑事, 判斷, 錯誤, 暗中, 觀察, 跤跡, 真相, 掠做, 監獄, 舐, 魚脯."}
+  - {ref: 10, topic: vocab, text: "The song (進修 32): 出外人, 三更半暝, 艱難, 暝時, 冷風, 心神, 沉重, 苦苦, 忍受, 出頭天, 有情, 離別."}
+  - {ref: 13, topic: vocab, text: "The essay (進修 31): 公學校, 漢文, 國民學校, 罰, 背冊, 記持, 言語, 民族, 存在."}
+  - {ref: 16, topic: vocab, text: "新郎 = groom, 新娘 = bride (lesson 43). 敬酒 = go round the tables with a toast."}
+  - {ref: 17, topic: vocab, text: "The Lantern Festival speech (進修 33): 鄉親, 協力, 好年冬, 庇佑, 全."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Tse sī Ông Puàn-sian kíng ê kiat-ji̍t.", hanji: "這是王半仙揀的吉日。", en: "This is the lucky day Master Ông chose."}
+    - {tailo: "Tsò hîng-sū siōng kiann phuànn-tuàn tshò-gōo.", hanji: "做刑事上驚判斷錯誤。", en: "What a detective fears most is a wrong judgment."}
+    - {tailo: "Guá khóo-khóo jím-siū, tsóng-sǹg tshut-thâu-thinn.", hanji: "我苦苦忍受，總算出頭天。", en: "I bore it all, and in the end I made good."}
+    - {tailo: "Uē nā bô lâng kóng, i tō m̄ koh tsûn-tsāi.", hanji: "話若無人講，伊就毋閣存在。", en: "If nobody speaks a language, it no longer exists."}
+    - {tailo: "Siok-tsing kah guá ē hia̍p-li̍k, kā tsit ê ka-tîng kòo hōo hó.", hanji: "淑貞佮我會協力，共這个家庭顧予好。", en: "Siok-tsing and I will work together to look after this family well."}
+    - {tailo: "Kiat-hun hit kang, peh lâu ê a-peh tshiùnn tshut-guā-lâng ê kua, ta̍k-ke lóng thiann kah ba̍k-sái lâu.", hanji: "結婚彼工，八樓的阿伯唱出外人的歌，逐家攏聽甲目屎流。", en: "On the wedding day the old man from the eighth floor sang the song of the man far from home, and everyone listened with tears in their eyes."}
+    - {tailo: "A-ióng kóng i í-king sī thâu-ke--ah, m̄-koh tshù--lí ū Siok-tsing kah sann tsiah niau, i sī siōng sè--ê.", hanji: "阿勇講伊已經是頭家矣，毋過厝裡有淑貞佮三隻貓，伊是上細的。", en: "A-ióng says he's already a boss, but with Siok-tsing and three cats at home, he's the smallest one."}
+  fill:
+    - {tailo: "I ē iōng ___ khuànn-kòo Siok-tsing.", hanji: "伊會用___看顧淑貞。", answer: "kui-sì-lâng", answer_hanji: "規世人", en: "He'd spend his whole life looking after Siok-tsing."}
+    - {tailo: "Kui tòng kong-gū lóng ū ___.", hanji: "規棟公寓攏有___。", answer: "hiâm-gî", answer_hanji: "嫌疑", en: "The whole building was under suspicion."}
+    - {tailo: "Guán a-kong bat kà guá puē-tsheh, guá ê ___ iáu bē bái.", hanji: "阮阿公捌教我背冊，我的___猶袂䆀。", answer: "kì-tî", answer_hanji: "記持", en: "My grandfather taught me to recite texts, and my memory's still not bad."}
+    - {tailo: "A-peh, lí tse mā tsin ___.", hanji: "阿伯，你這嘛真___。", answer: "thih-khí", answer_hanji: "鐵齒", en: "You really don't care for superstition, do you?"}
+    - {tailo: "I tī tsàu-kha ___ hî-póo.", hanji: "伊佇灶跤___魚脯。", answer: "tsīnn", answer_hanji: "舐", en: "He's in the kitchen licking the dried fish."}
+    - {tailo: "Lîm peh--á kóng, tsò hîng-sū siōng kiann ___ tshò-gōo, tsin-siòng ài khò kha-jiah tshuē--tshut-lâi.", hanji: "林伯仔講，做刑事上驚___錯誤，真相愛靠跤跡揣出來。", answer: "phuànn-tuàn", answer_hanji: "判斷", en: "Uncle Lîm says what a detective fears most is a wrong judgment: the truth has to be found from the footprints."}
+audio: []

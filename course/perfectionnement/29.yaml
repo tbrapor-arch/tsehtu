@@ -1,0 +1,110 @@
+id: 29
+title: {en: "Please grant me this", tailo: "Hi-bāng lí ē-sái sîng-tsuân--guá", hanji: "希望你會使成全我"}
+genre: letter
+review: false
+setting: "Early January. A-ióng proposed to Siok-tsing at the winter solstice (進修 28); now he writes to her father, the retired headmaster Tân, to ask formally for her hand. Siok-tsing has corrected his Hàn-jī."
+dialogue:
+  - {n: 1, hanji: "陳校長：", tailo: "Tân hāu-tiúnn:", en: "Dear Headmaster Tân,"}
+  - {n: 2, hanji: "我是阿勇。冬節彼暗，我已經共淑貞求婚，伊嘛答應矣。今仔日寫這張批，是欲正式來向你提親。", tailo: "Guá sī A-ióng. Tang-tseh hit àm, guá í-king kā Siok-tsing kiû-hun, i mā tah-ìng--ah. Kin-á-ji̍t siá tsit tiunn phue, sī beh tsìng-sik lâi hiòng lí thê-tshin.", en: "This is A-ióng. On the night of the solstice I asked Siok-tsing to marry me, and she said yes. I am writing today to ask you formally for her hand."}
+  - {n: 3, hanji: "我知影這款代誌應該當面講。毋過我一下看著你就緊張，講袂出話，所以先寫批，予你有時間想。", tailo: "Guá tsai-iánn tsit khuán tāi-tsì ing-kai tng-bīn kóng. M̄-koh guá tsi̍t-ē khuànn-tio̍h lí tō kín-tiunn, kóng bē tshut uē, sóo-í sing siá phue, hōo lí ū sî-kan siūnn.", en: "I know this is something that should be said face to face. But the moment I see you I get nervous and can't get a word out, so I'm writing first, to give you time to think."}
+  - {n: 4, hanji: "頭一擺去恁兜，我臭彈講家己是博士，真正失禮。你毋但無受氣，閣原諒我，這个恩情我永遠會記得。", tailo: "Thâu tsi̍t pái khì lín tau, guá tshàu-tuānn kóng ka-kī sī phok-sū, tsin-tsiànn sit-lé. Lí m̄-nā bô siū-khì, koh guân-liōng--guá, tsit ê un-tsîng guá íng-uán ē kì--tit.", en: "The first time I came to your home I bragged that I was a doctor, which was very rude. Not only were you not angry, you forgave me, and I'll always remember that kindness."}
+  - {n: 5, hanji: "我毋是好額人，嘛無啥物社會地位。我干焦是一个普通的職員，薪水無懸，錢財嘛無濟。", tailo: "Guá m̄ sī hó-gia̍h-lâng, mā bô siánn-mih siā-huē tē-uī. Guá kan-na sī tsi̍t ê phóo-thong ê tsit-uân, sin-suí bô kuân, tsînn-tsâi mā bô tsē.", en: "I'm not a rich man, and I have no particular standing in society. I'm just an ordinary office worker: my salary isn't high and I don't have much money."}
+  - {n: 6, hanji: "我無法度予淑貞富貴，毋過我會頂真做代誌，努力拍拚，守我的本份。", tailo: "Guá bô-huat-tōo hōo Siok-tsing hù-kuì, m̄-koh guá ē tíng-tsin tsò tāi-tsì, lóo-li̍k phah-piànn, siú guá ê pún-hūn.", en: "I can't give Siok-tsing wealth and rank, but I'll be conscientious in my work, try my hardest, and do my duty."}
+  - {n: 7, hanji: "我嘛想欲拍拚一份家己的事業。我無啥物本事，毋過我毋驚食苦。", tailo: "Guá mā siūnn-beh phah-piànn tsi̍t hūn ka-kī ê sū-gia̍p. Guá bô siánn-mih pún-sū, m̄-koh guá m̄ kiann tsia̍h-khóo.", en: "I'd also like to build up a business of my own one day. I'm not especially gifted, but I'm not afraid of hard work."}
+  - {n: 8, hanji: "淑貞是恁唯一的查某囝。恁對細漢栽培伊讀冊，栽培伊做工程師，有偌辛苦，我攏知影。", tailo: "Siok-tsing sī lín uî-it ê tsa-bóo-kiánn. Lín uì sè-hàn tsai-puê i tha̍k-tsheh, tsai-puê i tsò kang-tîng-su, ū guā sin-khóo, guá lóng tsai-iánn.", en: "Siok-tsing is your only daughter. You brought her up from childhood, saw her through her studies and helped her become an engineer, and I know how hard that was."}
+  - {n: 9, hanji: "欲共伊交予別人，恁一定真毋甘，嘛會掛意。", tailo: "Beh kā i kau hōo pa̍t-lâng, lín it-tīng tsin m̄-kam, mā ē kuà-ì.", en: "Handing her over to someone else must be very hard for you, and you must have your worries."}
+  - {n: 10, hanji: "我會用規世人來看顧伊、疼惜伊，毋予恁操心。", tailo: "Guá ē iōng kui-sì-lâng lâi khuànn-kòo i, thiànn-sioh i, m̄ hōo lín tshau-sim.", en: "I'll spend my whole life looking after her and cherishing her, so that you never have to worry."}
+  - {n: 11, hanji: "照顧家庭是查埔人的責任。這个擔，我會歡喜擔，嘛袂共伊當做負擔。", tailo: "Tsiàu-kòo ka-tîng sī tsa-poo-lâng ê tsik-jīm. Tsit ê tam, guá ē huann-hí tann, mā bē kā i tòng-tsò hū-tam.", en: "Looking after a family is a man's responsibility. I'll carry that load gladly, and I'll never think of it as a burden."}
+  - {n: 12, hanji: "阮老母捌講：「咱做人著愛憑良心。」我無偌聰明，毋過我的心腸無䆀，品行嘛算忠厚。", tailo: "Guán lāu-bú bat kóng: “Lán tsò-lâng tio̍h-ài pîn liông-sim.” Guá bô guā tshong-bîng, m̄-koh guá ê sim-tn̂g bô bái, phín-hīng mā sǹg tiong-hōo.", en: "My mother always said: 'In life you must follow your conscience.' I'm not very clever, but I'm not unkind, and I think I'm an honest sort."}
+  - {n: 13, hanji: "淑貞講，伊上敬重的人就是你。所以，無你的允准，我袂娶伊。", tailo: "Siok-tsing kóng, i siōng kìng-tiōng ê lâng tō sī lí. Sóo-í, bô lí ê ín-tsún, guá bē tshuā--i.", en: "Siok-tsing says the person she respects most is you. So without your consent, I won't marry her."}
+  - {n: 14, hanji: "一旦你答應，阮想欲明年春天結婚，日子請恁決定。", tailo: "It-tàn lí tah-ìng, guán siūnn-beh mê-nî tshun-thinn kiat-hun, ji̍t-tsí tshiánn lín kuat-tīng.", en: "If you agree, we'd like to marry next spring; we'll leave the choice of date to you."}
+  - {n: 15, hanji: "若是你感覺我猶有啥物無夠的所在，請你直接共我講，我一定會改。這是我的真心，嘛是實情。", tailo: "Nā-sī lí kám-kak guá iáu ū siánn-mih bô kàu ê sóo-tsāi, tshiánn lí ti̍t-tsiap kā guá kóng, guá it-tīng ē kái. Tse sī guá ê tsin-sim, mā sī si̍t-tsîng.", en: "If you feel I still fall short in any way, please tell me directly and I'll certainly change. I mean this from the heart, and it's the honest truth."}
+  - {n: 16, hanji: "世事真歹講，毋過有一項我敢保證：我袂辜負淑貞，嘛袂辜負恁的恩情。", tailo: "Sè-sū tsin pháinn kóng, m̄-koh ū tsi̍t hāng guá kánn pó-tsìng: guá bē koo-hū Siok-tsing, mā bē koo-hū lín ê un-tsîng.", en: "No one can foresee what life will bring, but one thing I can promise: I won't let Siok-tsing down, nor your kindness."}
+  - {n: 17, hanji: "這站天氣寒，請你佮校長夫人保重身體，莫為阮的代誌傷掛意。", tailo: "Tsit-tsām thinn-khì kuânn, tshiánn lí kah hāu-tiúnn hu-jîn pó-tiōng sin-thé, mài uī guán ê tāi-tsì siunn kuà-ì.", en: "It's cold these days: please take care of yourself and your wife, and don't worry too much over us."}
+  - {n: 18, hanji: "請你替我共淑貞的阿媽請安。過年我會閣去恁兜拜候恁。", tailo: "Tshiánn lí thè guá kā Siok-tsing ê a-má tshíng-an. Kuè-nî guá ē koh khì lín tau pài-hāu--lín.", en: "Please give Siok-tsing's grandmother my respects. At New Year I'll come and pay you a visit again."}
+  - {n: 19, hanji: "希望你會使成全我。", tailo: "Hi-bāng lí ē-sái sîng-tsuân--guá.", en: "I hope you will grant me this.", source: moe}
+  - {n: 20, hanji: "阿勇　冬節後第三工，寫佇臺北", tailo: "A-ióng, tang-tseh āu tē-sann kang, siá tī Tâi-pak", en: "A-ióng, the third day after the solstice, written in Taipei"}
+  - {n: 21, hanji: "閣：阮的貓「頭家」嘛真乖，品行忠厚，袂偷食物件，請恁安心。", tailo: "Koh: guán ê niau “Thâu-ke” mā tsin kuai, phín-hīng tiong-hōo, bē thau-tsia̍h mi̍h-kiānn, tshiánn lín an-sim.", en: "P.S. My cat 'Boss' is very good too: honest by nature, never steals food. Please don't worry."}
+  - {n: 22, hanji: "伊嘛謹慎，伊上驚淑貞的兩隻貓。", tailo: "I mā kín-sīn, i siōng kiann Siok-tsing ê nn̄g tsiah niau.", en: "He's careful too: he's scared stiff of Siok-tsing's two cats."}
+notes:
+  - {ref: 1, topic: culture, text: "A formal letter opens with the title alone: 陳校長 'Headmaster Tân'. A-ióng writes in his best register; compare A-má's warm letter in 進修 3."}
+  - {ref: 2, topic: vocab, text: "提親 = propose a marriage (to the family; lesson 86). 正式 = formal(ly) (進修 25). 向 hiòng = towards, to (formal)."}
+  - {ref: 3, topic: vocab, text: "當面 tng-bīn = face to face: 我會當面共物件交予伊 'I'll hand it to him in person' (MOE). 講袂出話 = can't get a word out."}
+  - {ref: 4, topic: vocab, text: "恩情 un-tsîng = kindness one owes, a debt of gratitude; 恩情較大天 'a kindness bigger than the sky' (MOE). 毋但 … 閣 … = not only … but also …"}
+  - {ref: 5, topic: vocab, text: "社會 siā-huē = society. 地位 tē-uī = status, position; 社會地位 'social standing' (MOE). 錢財 tsînn-tsâi = money, wealth."}
+  - {ref: 6, topic: vocab, text: "富貴 hù-kuì = wealth and rank. 頂真 tíng-tsin = conscientious, meticulous: 伊咧做代誌真頂真，絕對袂烏白舞 'she's meticulous in her work, she never botches anything' (MOE). 努力 lóo-li̍k = work hard, make an effort. 本份 pún-hūn = one's duty, one's proper role: 做人著守本份 'one must know one's place and do one's duty' (MOE)."}
+  - {ref: 7, topic: vocab, text: "事業 sū-gia̍p = business, career; enterprise. 本事 pún-sū = ability, talent. 食苦 = endure hardship."}
+  - {ref: 8, topic: vocab, text: "唯一 uî-it = only, sole. 栽培 tsai-puê = cultivate; bring up, train (a person): 咱愛加栽培一寡仔人才 'we must train more talented people' (MOE)."}
+  - {ref: 9, topic: vocab, text: "掛意 kuà-ì = worry, have on one's mind: 你毋通掛意，我會趕緊轉來 'don't worry, I'll be back soon' (MOE)."}
+  - {ref: 10, topic: vocab, text: "規世人 kui-sì-lâng = one's whole life: 伊規世人食苦，毋捌享受過 'he had a hard life and never enjoyed himself' (MOE). 看顧 khuànn-kòo = look after: 我是予阿媽看顧大漢的 'I was brought up by my grandmother' (MOE). 操心 tshau-sim = worry, fret: 做人的囝兒毋通予爸母操心 'children shouldn't make their parents worry' (MOE)."}
+  - {ref: 11, topic: vocab, text: "家庭 ka-tîng = family, household. 責任 tsik-jīm = responsibility: 照顧囡仔是爸母的責任 (MOE). 擔 tam = a load, responsibility (noun); the verb 'carry' is tann. 負擔 hū-tam = burden; bear (a cost). 當做 = regard as."}
+  - {ref: 12, topic: vocab, text: "From the MOE example 咱做人著愛憑良心，毋通做失德的代誌. 憑 pîn = rely on, go by. 良心 liông-sim = conscience. 心腸 sim-tn̂g = heart, nature; 彼个人的心腸真䆀 'he's a nasty piece of work' (MOE). 品行 phín-hīng = conduct, character. 忠厚 tiong-hōo = honest and kind."}
+  - {ref: 13, topic: vocab, text: "敬重 kìng-tiōng = respect, esteem. 允准 ín-tsún = consent, permission: 無我的允准，你袂使來阮兜 'you can't come to my house without my permission' (MOE). 娶 tshuā = marry (a wife)."}
+  - {ref: 14, topic: vocab, text: "一旦 it-tàn = once, if ever: 一旦地動，彼間厝就會倒 'if there's ever an earthquake, that house will fall down' (MOE)."}
+  - {ref: 15, topic: vocab, text: "實情 si̍t-tsîng = the actual situation, the truth."}
+  - {ref: 16, topic: vocab, text: "世事 sè-sū = the affairs of the world; 人情世事 'social obligations' (MOE). 歹講 = hard to say, hard to foresee. 辜負 koo-hū = let down, fail to live up to: 你哪會使辜負恁爸母對你的期待咧？ 'how can you let your parents down?' (MOE)."}
+  - {ref: 17, topic: vocab, text: "這站 tsit-tsām = these days, lately: 我這站歇睏，免去上班 'I'm off work at the moment' (MOE). 夫人 hu-jîn = wife (respectful, someone else's): 校長夫人 'the headmaster's wife'."}
+  - {ref: 18, topic: culture, text: "請安 tshíng-an = pay one's respects (to an elder): 請你替我共恁阿姆請安 'please give your mother my regards' (MOE). 拜候 pài-hāu = pay a call on: 真久無來拜候你矣 'it's been a long time since I came to see you' (MOE)."}
+  - {ref: 19, topic: vocab, text: "An exact MOE example. 成全 sîng-tsuân = help someone achieve their wish, grant."}
+  - {ref: 21, topic: vocab, text: "閣 = P.S. (literally 'also'). 偷食 thau-tsia̍h = steal food; also, figuratively, 'cheat on one's partner': A-ióng's joke is that his cat is faithful too. 安心 an-sim = be at ease, not worry."}
+  - {ref: 22, topic: vocab, text: "謹慎 kín-sīn = careful, cautious."}
+new_words:
+  - {tailo: tng-bīn, hanji: 當面, en: "face to face"}
+  - {tailo: hiòng, hanji: 向, en: "towards, to (formal)"}
+  - {tailo: un-tsîng, hanji: 恩情, en: "kindness owed, debt of gratitude"}
+  - {tailo: siā-huē, hanji: 社會, en: "society"}
+  - {tailo: tē-uī, hanji: 地位, en: "status, position"}
+  - {tailo: tsînn-tsâi, hanji: 錢財, en: "money, wealth"}
+  - {tailo: hù-kuì, hanji: 富貴, en: "wealth and rank"}
+  - {tailo: tíng-tsin, hanji: 頂真, en: "conscientious, meticulous"}
+  - {tailo: lóo-li̍k, hanji: 努力, en: "work hard, make an effort"}
+  - {tailo: pún-hūn, hanji: 本份, en: "one's duty, proper role"}
+  - {tailo: sū-gia̍p, hanji: 事業, en: "business, career"}
+  - {tailo: pún-sū, hanji: 本事, en: "ability, talent"}
+  - {tailo: uî-it, hanji: 唯一, en: "only, sole"}
+  - {tailo: tsai-puê, hanji: 栽培, en: "cultivate; bring up, train"}
+  - {tailo: kuà-ì, hanji: 掛意, en: "worry, have on one's mind"}
+  - {tailo: kui-sì-lâng, hanji: 規世人, en: "one's whole life"}
+  - {tailo: khuànn-kòo, hanji: 看顧, en: "look after"}
+  - {tailo: tshau-sim, hanji: 操心, en: "worry, fret"}
+  - {tailo: ka-tîng, hanji: 家庭, en: "family, household"}
+  - {tailo: tsik-jīm, hanji: 責任, en: "responsibility"}
+  - {tailo: tam, hanji: 擔, en: "a load; responsibility"}
+  - {tailo: hū-tam, hanji: 負擔, en: "burden; bear (a cost)"}
+  - {tailo: pîn, hanji: 憑, en: "rely on, go by"}
+  - {tailo: liông-sim, hanji: 良心, en: "conscience"}
+  - {tailo: sim-tn̂g, hanji: 心腸, en: "heart, nature"}
+  - {tailo: phín-hīng, hanji: 品行, en: "conduct, character"}
+  - {tailo: tiong-hōo, hanji: 忠厚, en: "honest and kind"}
+  - {tailo: kìng-tiōng, hanji: 敬重, en: "respect, esteem"}
+  - {tailo: ín-tsún, hanji: 允准, en: "consent, permission"}
+  - {tailo: tshuā, hanji: 娶, en: "marry (a wife)"}
+  - {tailo: it-tàn, hanji: 一旦, en: "once, if ever"}
+  - {tailo: si̍t-tsîng, hanji: 實情, en: "the actual situation, the truth"}
+  - {tailo: sè-sū, hanji: 世事, en: "the affairs of the world"}
+  - {tailo: koo-hū, hanji: 辜負, en: "let down"}
+  - {tailo: tsit-tsām, hanji: 這站, en: "these days, lately"}
+  - {tailo: hu-jîn, hanji: 夫人, en: "wife (respectful)"}
+  - {tailo: tshíng-an, hanji: 請安, en: "pay one's respects"}
+  - {tailo: pài-hāu, hanji: 拜候, en: "pay a call on"}
+  - {tailo: sîng-tsuân, hanji: 成全, en: "help achieve a wish, grant"}
+  - {tailo: thau-tsia̍h, hanji: 偷食, en: "steal food; cheat (on a partner)"}
+  - {tailo: an-sim, hanji: 安心, en: "be at ease, not worry"}
+  - {tailo: kín-sīn, hanji: 謹慎, en: "careful, cautious"}
+exercises:
+  translate:
+    - {tailo: "Guá tsai-iánn tsit khuán tāi-tsì ing-kai tng-bīn kóng.", hanji: "我知影這款代誌應該當面講。", en: "I know this is something that should be said face to face."}
+    - {tailo: "Guá ē tíng-tsin tsò tāi-tsì, siú guá ê pún-hūn.", hanji: "我會頂真做代誌，守我的本份。", en: "I'll be conscientious in my work and do my duty."}
+    - {tailo: "Tsiàu-kòo ka-tîng sī tsa-poo-lâng ê tsik-jīm.", hanji: "照顧家庭是查埔人的責任。", en: "Looking after a family is a man's responsibility."}
+    - {tailo: "Bô lí ê ín-tsún, guá bē tshuā--i.", hanji: "無你的允准，我袂娶伊。", en: "Without your consent, I won't marry her."}
+    - {tailo: "Guá bē koo-hū lín ê un-tsîng.", hanji: "我袂辜負恁的恩情。", en: "I won't let your kindness down."}
+    - {tailo: "Guá bô siánn-mih pún-sū, mā bô tsînn-tsâi, m̄-koh guá ē tíng-tsin tsò tāi-tsì, siú guá ê pún-hūn.", hanji: "我無啥物本事，嘛無錢財，毋過我會頂真做代誌，守我的本份。", en: "I'm not especially talented and I don't have money, but I'll be conscientious in my work and do my duty."}
+    - {tailo: "Tsit-tsām thinn-khì kuânn, tshiánn lí thè guá kā hāu-tiúnn hu-jîn tshíng-an, kuè-nî guá tsiah lâi pài-hāu.", hanji: "這站天氣寒，請你替我共校長夫人請安，過年我才來拜候。", en: "It's cold these days: please give my respects to the headmaster's wife, and I'll come and visit at New Year."}
+  fill:
+    - {tailo: "Siok-tsing sī lín ___ ê tsa-bóo-kiánn.", hanji: "淑貞是恁___的查某囝。", answer: "uî-it", answer_hanji: "唯一", en: "Siok-tsing is your only daughter."}
+    - {tailo: "Guá ē iōng ___ lâi khuànn-kòo i.", hanji: "我會用___來看顧伊。", answer: "kui-sì-lâng", answer_hanji: "規世人", en: "I'll spend my whole life looking after her."}
+    - {tailo: "Lán tsò-lâng tio̍h-ài pîn ___.", hanji: "咱做人著愛憑___。", answer: "liông-sim", answer_hanji: "良心", en: "In life you must follow your conscience."}
+    - {tailo: "___ thinn-khì kuânn, tshiánn lí pó-tiōng sin-thé.", hanji: "___天氣寒，請你保重身體。", answer: "Tsit-tsām", answer_hanji: "這站", en: "It's cold these days: please take care of yourself."}
+    - {tailo: "Kuè-nî guá ē koh khì lín tau ___--lín.", hanji: "過年我會閣去恁兜___恁。", answer: "pài-hāu", answer_hanji: "拜候", en: "At New Year I'll come and pay you a visit again."}
+    - {tailo: "Lín uì sè-hàn ___ i tha̍k-tsheh, ū guā sin-khóo, guá lóng tsai-iánn, mā bē koo-hū lín.", hanji: "恁對細漢___伊讀冊，有偌辛苦，我攏知影，嘛袂辜負恁。", answer: "tsai-puê", answer_hanji: "栽培", en: "I know how hard it was to bring her up and see her through school, and I won't let you down."}
+audio: []

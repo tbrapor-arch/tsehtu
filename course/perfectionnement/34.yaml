@@ -1,0 +1,108 @@
+id: 34
+title: {en: "We are all suspects", tailo: "Lán ta̍k-ke lóng ū hiâm-gî", hanji: "咱逐家攏有嫌疑"}
+genre: story
+review: false
+setting: "Sam tells a story from his block of flats in Taipei (進修 11): one week at Lunar New Year, food kept disappearing from doorsteps at night. The story is original to this course."
+dialogue:
+  - {n: 1, hanji: "過年彼禮拜，阮彼棟公寓發生一件怪事。", tailo: "Kuè-nî hit lé-pài, guán hit tòng kong-gū huat-sing tsi̍t kiānn kuài-sū.", en: "The week of New Year, something strange happened in my block of flats."}
+  - {n: 2, hanji: "逐暗半暝，門跤口的物件就無去。頭一擺是三樓阿桑曝的魚脯，第二擺是五樓囡仔的雞卵糕。", tailo: "Ta̍k àm puànn-mê, mn̂g-kha-kháu ê mi̍h-kiānn tō bô--khì. Thâu tsi̍t pái sī sann lâu a-sáng pha̍k ê hî-póo, tē-jī pái sī gōo lâu gín-á ê ke-nn̄g-ko.", en: "Every night, around midnight, things disappeared from the doorsteps. The first time it was the dried fish the lady on the third floor had put out in the sun; the second, a child's cake on the fifth floor."}
+  - {n: 3, hanji: "上尾，連阿媽對臺南寄予我的紅龜粿，嘛佇我的門跤口無去矣。", tailo: "Siōng-bué, liân a-má uì Tâi-lâm kià hōo guá ê âng-ku-kué, mā tī guá ê mn̂g-kha-kháu bô--khì--ah.", en: "In the end even the red turtle cakes A-má had sent me from Tainan vanished from my doorstep."}
+  - {n: 4, hanji: "厝邊攏真受氣，佇電梯邊貼一張紙：「賊仔，緊出來自首！」", tailo: "Tshù-pinn lóng tsin siū-khì, tī tiān-thui-pinn tah tsi̍t tiunn tsuá: “Tsha̍t-á, kín tshut-lâi tsū-siú!”", en: "The neighbours were furious and put up a note by the lift: 'Thief, come forward and confess!'"}
+  - {n: 5, hanji: "有人開始懷疑八樓彼个阿伯。伊逐暗唱歌唱甲三更半暝，啥人知影伊暗中咧做啥？", tailo: "Ū lâng khai-sí huâi-gî peh lâu hit ê a-peh. I ta̍k àm tshiùnn-kua tshiùnn kah sann-kenn-puànn-mê, siánn-lâng tsai-iánn i àm-tiong teh tsò siánn?", en: "Some began to suspect the old man on the eighth floor. He sings every night until the small hours: who knows what he gets up to in secret?"}
+  - {n: 6, hanji: "伊看著厝邊就閃避，嘛毋捌參加住戶的會議。七樓的阿姨講：", tailo: "I khuànn-tio̍h tshù-pinn tō siám-pī, mā m̄ bat tsham-ka tsū-hōo ê huē-gī. Tshit lâu ê a-î kóng:", en: "He avoids the neighbours, and he's never come to a residents' meeting. The lady on the seventh floor said:"}
+  - {n: 7, hanji: "莫非代誌是伊做的，無，伊哪會攏無出面？", tailo: "Bo̍k-hui tāi-tsì sī i tsò--ê, bô, i ná ē lóng bô tshut-bīn?", en: "Could it be him? Otherwise, why would he never show his face?", source: moe}
+  - {n: 8, hanji: "三樓的林伯仔較早是刑事，退休十外冬矣。伊聽了，搖頭講：", tailo: "Sann lâu ê Lîm peh--á khah-tsá sī hîng-sū, thè-hiu tsa̍p-guā tang--ah. I thiann liáu, iô-thâu kóng:", en: "Uncle Lîm on the third floor used to be a police detective; he's been retired over ten years. He heard this out, shook his head and said:"}
+  - {n: 9, hanji: "佇代誌猶未查清楚進前，咱逐家攏有嫌疑。", tailo: "Tī tāi-tsì iáu-buē tshâ tshing-tshó tsìn-tsîng, lán ta̍k-ke lóng ū hiâm-gî.", en: "Until we've got to the bottom of this, we are all suspects.", source: moe}
+  - {n: 10, hanji: "伊講，辦案件上驚家己掠做知影，隨就烏白冤枉人。做刑事，判斷錯誤，會害死人。", tailo: "I kóng, pān àn-kiānn siōng kiann ka-kī lia̍h-tsò tsai-iánn, sûi tō oo-pe̍h uan-óng--lâng. Tsò hîng-sū, phuànn-tuàn tshò-gōo, ē hāi-sí--lâng.", en: "He said the worst thing in any case is to think you already know, and accuse people wrongly. When a detective's judgment is wrong, it can ruin people's lives."}
+  - {n: 11, hanji: "伊先問逐家的口供，毋過無半項線索。", tailo: "I sing mn̄g ta̍k-ke ê kháu-king, m̄-koh bô puànn hāng suànn-soh.", en: "First he took everyone's statements, but there wasn't a single clue."}
+  - {n: 12, hanji: "後來伊佇樓梯暗中觀察三暝，閣佇門跤口囥一盤魚仔做餌，塗跤糝一沿薄薄的麵粉。", tailo: "Āu--lâi i tī lâu-thui àm-tiong kuan-tshat sann mê, koh tī mn̂g-kha-kháu khǹg tsi̍t puânn hî-á tsò jī, thôo-kha sám tsi̍t iân po̍h-po̍h ê mī-hún.", en: "Then he kept secret watch on the stairs for three nights, and put a plate of fish on a doorstep as bait, with a thin layer of flour sprinkled on the floor."}
+  - {n: 13, hanji: "第四暝，魚仔無去矣，麵粉頂懸有一逝細細的跤跡。", tailo: "Tē-sì mê, hî-á bô--khì--ah, mī-hún tíng-kuân ū tsi̍t tsuā sè-sè ê kha-jiah.", en: "On the fourth night the fish was gone, and in the flour there was a line of small footprints."}
+  - {n: 14, hanji: "伊推測，犯人逐暗攏佇三點前後來，食飽就逃走，所以從來無人看著。", tailo: "I thui-tshik, huān-lâng ta̍k àm lóng tī sann tiám tsîng-āu lâi, tsia̍h pá tō tô-tsáu, sóo-í tsiông-lâi bô lâng khuànn--tio̍h.", en: "He worked out that the culprit came at around three every night and ran off once it had eaten, which is why no one had ever seen it."}
+  - {n: 15, hanji: "林伯仔提手電仔斟酌看：「這毋是人的跤跡，是貓仔的爪。」", tailo: "Lîm peh--á the̍h tshiú-tiān-á tsim-tsiok khuànn: “Tse m̄ sī lâng ê kha-jiah, sī niau-á ê jiáu.”", en: "Uncle Lîm looked closely with his torch: 'These aren't human footprints. They're a cat's paw prints.'"}
+  - {n: 16, hanji: "伊閣去看樓梯的錄影，發覺有一隻烏白貓，三更半暝佇樓梯行起行落，若像咧顧厝。", tailo: "I koh khì khuànn lâu-thui ê lo̍k-iánn, huat-kak ū tsi̍t tsiah oo-pe̍h niau, sann-kenn-puànn-mê tī lâu-thui kiânn-khí kiânn-lo̍h, ná-tshiūnn teh kòo tshù.", en: "Then he checked the stairwell video and discovered a black and white cat going up and down the stairs in the middle of the night, as if it were guarding the building."}
+  - {n: 17, hanji: "彼隻貓，我看一下就熟似：是阿勇的「頭家」！", tailo: "Hit tsiah niau, guá khuànn tsi̍t-ē tō si̍k-sāi: sī A-ióng ê “Thâu-ke”!", en: "I knew that cat at first glance: it was A-ióng's 'Boss'!"}
+  - {n: 18, hanji: "過年阿勇佮淑貞去校長兜，共頭家寄佇我遮一禮拜。原來伊逐暗攏對窗仔門偷走出去。", tailo: "Kuè-nî A-ióng kah Siok-tsing khì hāu-tiúnn tau, kā Thâu-ke kià tī guá tsia tsi̍t lé-pài. Guân-lâi i ta̍k àm lóng uì thang-á-mn̂g thau tsáu--tshut-khì.", en: "At New Year A-ióng and Siok-tsing went to the headmaster's, and left Boss with me for the week. So every night he'd been slipping out through the window."}
+  - {n: 19, hanji: "我想起阿勇寫予校長的批：「阮的貓品行忠厚，袂偷食物件。」我笑甲強欲斷氣。", tailo: "Guá siūnn-khí A-ióng siá hōo hāu-tiúnn ê phue: “Guán ê niau phín-hīng tiong-hōo, bē thau-tsia̍h mi̍h-kiānn.” Guá tshiò kah kiōng-beh tn̄g-khuì.", en: "I remembered A-ióng's letter to the headmaster: 'My cat is honest by nature, he never steals food.' I nearly died laughing."}
+  - {n: 20, hanji: "犯人揣著矣，毋過伊無認罪，干焦咧舐伊的爪，假影毋知。", tailo: "Huān-lâng tshuē--tio̍h--ah, m̄-koh i bô jīn-tsuē, kan-na teh tsīnn i ê jiáu, ké-iánn m̄ tsai.", en: "The culprit had been found, but he didn't confess: he just licked his paw and pretended he knew nothing about it."}
+  - {n: 21, hanji: "我一間一間去共厝邊會失禮，閣賠紅包。上歹勢的是八樓的阿伯，阮攏誤會伊，害伊予人懷疑一禮拜。", tailo: "Guá tsi̍t king tsi̍t king khì kā tshù-pinn huē-sit-lé, koh puê âng-pau. Siōng pháinn-sè--ê sī peh lâu ê a-peh, guán lóng gōo-huē--i, hāi i hōo lâng huâi-gî tsi̍t lé-pài.", en: "I went from flat to flat apologising and paying for what was eaten. What I felt worst about was the old man on the eighth floor: we'd all misjudged him, and he'd been under suspicion for a week."}
+  - {n: 22, hanji: "阿伯笑一下講：「無要緊，我做人光明，毋驚人懷疑。毋過恁若有歹勢，今仔暗來佮我做伙唱歌。」", tailo: "A-peh tshiò--tsi̍t-ē kóng: “Bô-iàu-kín, guá tsò-lâng kong-bîng, m̄ kiann lâng huâi-gî. M̄-koh lín nā ū pháinn-sè, kin-á-àm lâi kah guá tsò-hué tshiùnn-kua.”", en: "The old man smiled: 'Never mind. I've nothing to hide, so I'm not afraid of suspicion. But if you feel bad, come and sing with me tonight.'"}
+  - {n: 23, hanji: "彼暗，規棟公寓的人攏佇八樓唱到三更半暝，頭家坐佇邊仔，若像咧聽。", tailo: "Hit àm, kui tòng kong-gū ê lâng lóng tī peh lâu tshiùnn kàu sann-kenn-puànn-mê, Thâu-ke tsē tī pinn-á, ná-tshiūnn teh thiann.", en: "That night the whole building sang on the eighth floor until the small hours, with Boss sitting beside us as if he were listening."}
+  - {n: 24, hanji: "林伯仔講：「我做刑事三十冬，這是上歡喜的一个案件。真相揣出來，嘛無人去予人關。」", tailo: "Lîm peh--á kóng: “Guá tsò hîng-sū sann-tsa̍p tang, tse sī siōng huann-hí ê tsi̍t ê àn-kiānn. Tsin-siòng tshuē--tshut-lâi, mā bô lâng khì hōo lâng kuainn.”", en: "Uncle Lîm said: 'In thirty years as a detective, this is the happiest case I've had. We found out the truth, and no one went to jail.'"}
+  - {n: 25, hanji: "阿勇轉來，聽著這件代誌，對貓喝：「頭家！偷食嘛是犯罪，你若閣偷食，我就送你去關監獄！」", tailo: "A-ióng tńg--lâi, thiann-tio̍h tsit kiānn tāi-tsì, tuì niau huah: “Thâu-ke! Thau-tsia̍h mā sī huān-tsuē, lí nā koh thau-tsia̍h, guá tō sàng lí khì kuainn kann-ga̍k!”", en: "When A-ióng got back and heard the story, he shouted at the cat: 'Boss! Stealing food is a crime too. If you do it again, I'll have you locked up in jail!'"}
+  - {n: 26, hanji: "頭家看伊一下，越頭就走，宛然啥物代誌都無發生。", tailo: "Thâu-ke khuànn i tsi̍t-ē, ua̍t-thâu tō tsáu, uán-jiân siánn-mih tāi-tsì to bô huat-sing.", en: "Boss gave him a look, turned his back and strolled off, as if nothing had ever happened."}
+notes:
+  - {ref: 1, topic: vocab, text: "怪事 kuài-sū = strange event. 公寓 = block of flats (進修 11). 發生 = happen."}
+  - {ref: 2, topic: vocab, text: "無去 bô--khì = disappear, be gone (neutral tone): 我的筆無去矣！ 'my pen's gone!' (MOE). Without neutral tone, bô khì means 'didn't go'. 門跤口 mn̂g-kha-kháu = doorstep, by the door. 魚脯 hî-póo = dried fish. 曝 = dry in the sun (進修 11)."}
+  - {ref: 4, topic: vocab, text: "自首 tsū-siú = give oneself up, confess (to the police)."}
+  - {ref: 5, topic: vocab, text: "懷疑 huâi-gî = suspect, doubt: 心肝內懷疑，但是毋敢講 'suspect something but not dare say so' (MOE). 暗中 àm-tiong = in secret: 暗中探聽伊的消息 'secretly find out news of him' (MOE). 三更半暝 (進修 32). The singing neighbour first appeared in 進修 11."}
+  - {ref: 6, topic: vocab, text: "閃避 siám-pī = avoid, dodge: 這是你袂當閃避的問題 'this is a question you can't dodge' (MOE). 住戶 = residents (進修 11)."}
+  - {ref: 7, topic: vocab, text: "An exact MOE example. 阿姨 a-î = auntie (also mother's sister). 莫非 bo̍k-hui = could it be that…? 出面 tshut-bīn = show one's face, appear in person."}
+  - {ref: 8, topic: vocab, text: "刑事 hîng-sū = (police) detective, as in Japanese 刑事 keiji; the MOE gives the legal sense, 'criminal (case)'. 伯仔 peh--á = uncle (for an older man). 搖頭 = shake one's head (進修 13)."}
+  - {ref: 9, topic: vocab, text: "An exact MOE example. 嫌疑 hiâm-gî = suspicion; 有嫌疑 'be a suspect'. 查 = investigate (lesson 93)."}
+  - {ref: 10, topic: vocab, text: "案件 àn-kiānn = case: 昨昏彼个案件辦了按怎？ 'how did yesterday's case go?' (MOE). 掠做 lia̍h-tsò = take (something) for, wrongly believe: 我掠做無人知影彼件代誌 'I thought nobody knew about it' (MOE). 判斷 phuànn-tuàn = judge; judgment. 錯誤 tshò-gōo = mistaken; mistake: 有錯誤就緊改過 'if you've made a mistake, correct it at once' (MOE)."}
+  - {ref: 11, topic: vocab, text: "口供 kháu-king = statement (to the police): 伊去予警察召去問口供 'the police called him in for questioning' (MOE). 線索 suànn-soh = clue, lead."}
+  - {ref: 12, topic: vocab, text: "觀察 kuan-tshat = observe, watch; 斟酌觀察 'watch closely' (MOE). 餌 jī = bait. 糝 sám = sprinkle (powder). 沿 = layer (進修 19). 麵粉 = flour."}
+  - {ref: 13, topic: vocab, text: "逝 tsuā = a line, a row (lesson 67). 跤跡 kha-jiah = footprint: 海沙埔頂有足濟跤跡 'there are lots of footprints on the beach' (MOE)."}
+  - {ref: 14, topic: vocab, text: "推測 thui-tshik = deduce, conjecture. 逃走 tô-tsáu = run away, escape: 伊已經逃走矣 'he's already escaped' (MOE). 從來 = ever."}
+  - {ref: 15, topic: vocab, text: "爪 jiáu = claw, paw; 雞跤爪 'chicken feet' (MOE)."}
+  - {ref: 16, topic: vocab, text: "錄影 lo̍k-iánn = video recording. 發覺 huat-kak = discover, find out. 行起行落 = go up and down. 若像 ná-tshiūnn = as if, seem like. 顧厝 = guard the house."}
+  - {ref: 20, topic: vocab, text: "犯人 huān-lâng = culprit, criminal. 認罪 = confess (進修 8). 舐 tsīnn = lick. 假影 = pretend (lesson 72)."}
+  - {ref: 21, topic: vocab, text: "會失禮 = apologise (lesson 48). 賠 = pay compensation (進修 6)."}
+  - {ref: 22, topic: vocab, text: "光明 here = open, aboveboard (進修 30)."}
+  - {ref: 24, topic: vocab, text: "真相 tsin-siòng = the truth (of a matter). 關 = lock up (lesson 34)."}
+  - {ref: 25, topic: vocab, text: "犯罪 huān-tsuē = commit a crime; a crime. 監獄 kann-ga̍k = prison; 關監獄 'lock up in prison'."}
+  - {ref: 26, topic: vocab, text: "宛然 = as if (進修 30)."}
+new_words:
+  - {tailo: kuài-sū, hanji: 怪事, en: "strange event"}
+  - {tailo: bô--khì, hanji: 無去, en: "disappear, be gone"}
+  - {tailo: mn̂g-kha-kháu, hanji: 門跤口, en: "doorstep, by the door"}
+  - {tailo: hî-póo, hanji: 魚脯, en: "dried fish"}
+  - {tailo: tsū-siú, hanji: 自首, en: "give oneself up, confess"}
+  - {tailo: huâi-gî, hanji: 懷疑, en: "suspect, doubt"}
+  - {tailo: àm-tiong, hanji: 暗中, en: "in secret"}
+  - {tailo: siám-pī, hanji: 閃避, en: "avoid, dodge"}
+  - {tailo: a-î, hanji: 阿姨, en: "auntie (for a woman of one's mother's age)"}
+  - {tailo: bo̍k-hui, hanji: 莫非, en: "could it be that…?"}
+  - {tailo: tshut-bīn, hanji: 出面, en: "show one's face, appear"}
+  - {tailo: hîng-sū, hanji: 刑事, en: "(police) detective"}
+  - {tailo: hiâm-gî, hanji: 嫌疑, en: "suspicion"}
+  - {tailo: àn-kiānn, hanji: 案件, en: "case"}
+  - {tailo: lia̍h-tsò, hanji: 掠做, en: "take for, wrongly believe"}
+  - {tailo: phuànn-tuàn, hanji: 判斷, en: "judge; judgment"}
+  - {tailo: tshò-gōo, hanji: 錯誤, en: "mistaken; mistake"}
+  - {tailo: kháu-king, hanji: 口供, en: "statement (to the police)"}
+  - {tailo: suànn-soh, hanji: 線索, en: "clue, lead"}
+  - {tailo: kuan-tshat, hanji: 觀察, en: "observe, watch"}
+  - {tailo: jī, hanji: 餌, en: "bait"}
+  - {tailo: sám, hanji: 糝, en: "sprinkle (powder)"}
+  - {tailo: mī-hún, hanji: 麵粉, en: "flour"}
+  - {tailo: kha-jiah, hanji: 跤跡, en: "footprint"}
+  - {tailo: jiáu, hanji: 爪, en: "claw, paw"}
+  - {tailo: lo̍k-iánn, hanji: 錄影, en: "video recording"}
+  - {tailo: huat-kak, hanji: 發覺, en: "discover, find out"}
+  - {tailo: ná-tshiūnn, hanji: 若像, en: "as if, seem like"}
+  - {tailo: huān-lâng, hanji: 犯人, en: "culprit, criminal"}
+  - {tailo: tsīnn, hanji: 舐, en: "lick"}
+  - {tailo: tsin-siòng, hanji: 真相, en: "the truth (of a matter)"}
+  - {tailo: thui-tshik, hanji: 推測, en: "deduce, conjecture"}
+  - {tailo: tsiông-lâi, hanji: 從來, en: "ever, always (until now)"}
+  - {tailo: tô-tsáu, hanji: 逃走, en: "run away, escape"}
+  - {tailo: huān-tsuē, hanji: 犯罪, en: "commit a crime; crime"}
+  - {tailo: kann-ga̍k, hanji: 監獄, en: "prison"}
+exercises:
+  translate:
+    - {tailo: "Ta̍k àm puànn-mê, mn̂g-kha-kháu ê mi̍h-kiānn tō bô--khì.", hanji: "逐暗半暝，門跤口的物件就無去。", en: "Every night, around midnight, things disappeared from the doorsteps."}
+    - {tailo: "Siánn-lâng tsai-iánn i àm-tiong teh tsò siánn?", hanji: "啥人知影伊暗中咧做啥？", en: "Who knows what he gets up to in secret?"}
+    - {tailo: "I sing mn̄g ta̍k-ke ê kháu-king, m̄-koh bô puànn hāng suànn-soh.", hanji: "伊先問逐家的口供，毋過無半項線索。", en: "First he took everyone's statements, but there wasn't a single clue."}
+    - {tailo: "Tse m̄ sī lâng ê kha-jiah, sī niau-á ê jiáu.", hanji: "這毋是人的跤跡，是貓仔的爪。", en: "These aren't human footprints. They're a cat's paw prints."}
+    - {tailo: "Huān-lâng tshuē--tio̍h--ah, m̄-koh i bô jīn-tsuē.", hanji: "犯人揣著矣，毋過伊無認罪。", en: "The culprit had been found, but he didn't confess."}
+    - {tailo: "Lîm peh--á khah-tsá sī hîng-sū, i àm-tiong kuan-tshat sann mê, tsiah huat-kak huān-lâng sī tsi̍t tsiah niau.", hanji: "林伯仔較早是刑事，伊暗中觀察三暝，才發覺犯人是一隻貓。", en: "Uncle Lîm used to be a detective: he watched in secret for three nights before discovering the culprit was a cat."}
+    - {tailo: "Tāi-tsì iáu-buē tshâ tshing-tshó, mài lia̍h-tsò ka-kī tsai-iánn, phuànn-tuàn tshò-gōo ē uan-óng--lâng.", hanji: "代誌猶未查清楚，莫掠做家己知影，判斷錯誤會冤枉人。", en: "Until you've got to the bottom of it, don't assume you know: a wrong judgment can wrong an innocent person."}
+  fill:
+    - {tailo: "I khuànn-tio̍h tshù-pinn tō ___.", hanji: "伊看著厝邊就___。", answer: "siám-pī", answer_hanji: "閃避", en: "He avoids the neighbours."}
+    - {tailo: "Sann lâu ê Lîm peh--á khah-tsá sī ___.", hanji: "三樓的林伯仔較早是___。", answer: "hîng-sū", answer_hanji: "刑事", en: "Uncle Lîm on the third floor used to be a police detective."}
+    - {tailo: "Lán ta̍k-ke lóng ū ___.", hanji: "咱逐家攏有___。", answer: "hiâm-gî", answer_hanji: "嫌疑", en: "We are all suspects."}
+    - {tailo: "I koh khì khuànn lâu-thui ê lo̍k-iánn, ___ ū tsi̍t tsiah oo-pe̍h niau.", hanji: "伊閣去看樓梯的錄影，___有一隻烏白貓。", answer: "huat-kak", answer_hanji: "發覺", en: "He checked the stairwell video and discovered a black and white cat."}
+    - {tailo: "Tsin-siòng tshuē--tshut-lâi, mā bô lâng khì hōo lâng ___.", hanji: "真相揣出來，嘛無人去予人___。", answer: "kuainn", answer_hanji: "關", en: "We found out the truth, and no one went to jail."}
+    - {tailo: "Lîm peh--á tī thôo-kha sám mī-hún, tē-sì mê tō khuànn-tio̍h tsi̍t tsuā ___, sī niau-á ê jiáu.", hanji: "林伯仔佇塗跤糝麵粉，第四暝就看著一逝___，是貓仔的爪。", answer: "kha-jiah", answer_hanji: "跤跡", en: "Uncle Lîm sprinkled flour on the floor, and on the fourth night he saw a line of footprints: a cat's paws."}
+audio: []

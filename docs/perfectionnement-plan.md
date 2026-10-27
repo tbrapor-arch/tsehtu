@@ -1,6 +1,7 @@
 # Part 2: 進修 Tsìn-siu (Perfectionnement), spec and handover
 
-State on 27 Oct 2026: **P1–P28 are published** (P15–P28 on 27 Oct). Next batch: P29–P35 (P35 = review).
+State on 27 Oct 2026: **P1–P35 are published** (P15–P35 on 27 Oct). Next batch: P36–P42 (P42 = review). P36 starts
+the second wave (it redoes P1 in active mode; see 'Size' below).
 
 ## Batch 1 (P1–P7)
 | # | genre | title | new words | lines |
@@ -116,11 +117,33 @@ debates with A-kia̍t (P27). Readings to keep: 抑是 ia̍h-sī (8th tone), 買 
 Bong-ling-hāng (lesson 66). Siok-tsing says guán; A-ióng says gún.
 Genres used so far: add diary, debate, news ×2, document ×2, tale ×2, interview ×3.
 
+## Batch 5 (P29–P35)
+| # | genre | title | new words | lines |
+|---|---|---|---|---|
+| P29 | letter | 希望你會使成全我 (A-ióng asks headmaster Tân, Siok-tsing's father, for her hand) | 42 | 22 |
+| P30 | play | 看命無褒，食水都無 (A-ióng's mother takes the couple to fortune teller Ông to pick the wedding date) | 38 | 28 |
+| P31 | essay | 三代人，三款話 (magazine column: grandfather at a Japanese-era common school, father punished for Taigi, daughter learning it) | 40 | 24 |
+| P32 | song | 出外人的批 (original lyrics: a young man in Taipei sings to his mother back home) | 31 | 24 |
+| P33 | speech | 神明興、弟子窮 (temple chairman's speech at the Lantern Festival in A-kong's village) | 51 | 26 |
+| P34 | story | 咱逐家攏有嫌疑 (Sam's building: food vanishes at night; retired detective Lîm; the culprit is A-ióng's cat 'Boss') | 36 | 26 |
+| P35 | review | 復習 (A-ióng and Siok-tsing's wedding banquet; the eighth-floor neighbour sings P32's song) | 0 | 26 |
+
+Each lesson also has the 3 extra exercise sentences (2 translate + 1 fill, not from the dialogue, at least 80 % of the
+dialogue's median length) added with `tools/exercises.py`, as for P1–P28.
+Story threads now: A-ióng and Siok-tsing are married (wedding on the 8th day of the 3rd lunar month, chosen by Master
+Ông); they live with three cats ('Boss' and Siok-tsing's two); the singing neighbour on the eighth floor came to Taipei
+from the countryside (P32, P34, P35); Uncle Lîm on the third floor is a retired detective (P34). A-kong's village temple
+worships the Royal Lords (王爺, P33).
+Facts kept general on purpose: P31 gives no years except where certain (common schools from 1898; 國民學校 1941–1968);
+the end of classical Chinese teaching and the punishments for speaking Taigi are told as family memories.
+刑事 is used for 'police detective' (Japanese 刑事 keiji); the MOE gives only the legal sense, as the note says.
+Song lessons naturally carry fewer new words (31 in P32).
+
 ## Lessons 22–49 were lengthened (27 Oct 2026)
 122 frequent words that no lesson had used are now taught in lessons 22–49 (`docs/lessons-22-49-lengthening.md`
 lists them). Don't declare them again in 進修 lessons; refer to them as "(lesson N)". Always take candidate words
 from a fresh `python3 -I tools/untaught.py`, check each with `tools/wordcheck.py`, and run
-`tools/taught_later.py 115 128` (進修 15–28) before publishing. Then `python3 -I tools/fresh.py 22 23 …`: for each
+`tools/taught_later.py 115 135` (進修 15–35) before publishing. Then `python3 -I tools/fresh.py 22 23 …`: for each
 進修 lesson, words in its lines that no earlier lesson uses or declares and that are missing from its new_words (names and
 numbers are fine; declare the rest), plus new_words already declared or used earlier. A review must show nothing.
 

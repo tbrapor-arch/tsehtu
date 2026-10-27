@@ -1,0 +1,125 @@
+id: 33
+title: {en: "The gods prosper, the worshippers go broke", tailo: "Sîn-bîng hing, tē-tsú kîng", hanji: "神明興、弟子窮"}
+genre: speech
+review: false
+setting: "The Lantern Festival (元宵, 15th day of the first lunar month) at A-kong's village temple near Tainan. Before the evening's events, the chairman of the temple committee speaks to the crowd in the temple square. The speech is original to this course."
+dialogue:
+  - {n: 1, speaker: Chairman, hanji: "各位鄉親、各位弟子，逐家好！", tailo: "Kok-uī hiong-tshin, kok-uī tē-tsú, ta̍k-ke hó!", en: "Fellow villagers, fellow worshippers, good evening!"}
+  - {n: 2, speaker: Chairman, hanji: "多謝各位鄉親對我的支持佮愛護。", tailo: "To-siā kok-uī hiong-tshin tuì guá ê tsi-tshî kah ài-hōo.", en: "Thank you all for your support and your kindness to me.", source: moe}
+  - {n: 3, speaker: Chairman, hanji: "今仔日是正月十五元宵，嘛是咱廟一年上鬧熱的一工。古早人講，過了元宵，年才算過去。", tailo: "Kin-á-ji̍t sī tsiann--gue̍h tsa̍p-gōo Guân-siau, mā sī lán biō tsi̍t nî siōng lāu-jia̍t ê tsi̍t kang. Kóo-tsá-lâng kóng, kuè liáu Guân-siau, nî tsiah sǹg kuè--khì.", en: "Today is the fifteenth of the first month, the Lantern Festival, and the busiest day of the year at our temple. The old folk say New Year isn't over until the Lantern Festival is."}
+  - {n: 4, speaker: Chairman, hanji: "先報告今仔暗的節目。七點神轎出廟，王爺欲繞境，巡規个庄頭。", tailo: "Sing pò-kò kin-á-àm ê tsiat-bo̍k. Tshit tiám sîn-kiō tshut biō, Ông-iâ beh jiàu-kíng, sûn kui-ê tsng-thâu.", en: "First, tonight's programme. At seven the sedan chair leaves the temple, and the Royal Lord will process round the whole village."}
+  - {n: 5, speaker: Chairman, hanji: "扛轎的少年家已經準備好矣，後壁閣有宋江陣佮八仙綴咧行。", tailo: "Kng-kiō ê siàu-liân-ke í-king tsún-pī hó--ah, āu-piah koh ū Sòng-kang-tīn kah Pat-sian tuè--leh kiânn.", en: "The young men carrying the chair are ready, and behind them come the Sòng-kang martial troupe and the Eight Immortals."}
+  - {n: 6, speaker: Chairman, hanji: "今年閣有鹿港來的陣頭，攏是貴賓，咱愛好好仔迎接。", tailo: "Kin-nî koh ū Lo̍k-káng lâi ê tīn-thâu, lóng sī kuì-pin, lán ài hó-hó-á gîng-tsiap.", en: "This year we also have a procession troupe from Lukang: they're our honoured guests, and we must welcome them properly."}
+  - {n: 7, speaker: Chairman, hanji: "八點佇廟埕臆燈猜，臆著的人有獎品，頭獎是一隻豬公！", tailo: "Peh tiám tī biō-tiânn ioh ting-tshai, ioh--tio̍h ê lâng ū tsióng-phín, thâu-tsióng sī tsi̍t tsiah ti-kong!", en: "At eight there are lantern riddles in the temple square. Everyone who guesses one wins a prize, and first prize is a whole pig!"}
+  - {n: 8, speaker: Chairman, hanji: "燈猜是我家己出的，請逐家莫傷緊臆著，予我留一點仔面子。", tailo: "Ting-tshai sī guá ka-kī tshut--ê, tshiánn ta̍k-ke mài siunn kín ioh--tio̍h, hōo guá lâu tsi̍t-tiám-á bīn-tsú.", en: "I wrote the riddles myself, so please don't guess them too quickly: leave me a little dignity."}
+  - {n: 9, speaker: Chairman, hanji: "九點放炮仔。為著逐家的安全，咱有成立一个救護組，消防隊嘛會佇邊仔服務。", tailo: "Káu tiám pàng phàu-á. Uī-tio̍h ta̍k-ke ê an-tsuân, lán ū sîng-li̍p tsi̍t ê kiù-hōo-tsoo, siau-hông-tuī mā ē tī pinn-á ho̍k-bū.", en: "At nine, the firecrackers. For everyone's safety we've set up a first-aid team, and the fire brigade will be standing by."}
+  - {n: 10, speaker: Chairman, hanji: "請大人顧好囡仔，逐家照秩序，莫𤲍做伙。", tailo: "Tshiánn tuā-lâng kòo hó gín-á, ta̍k-ke tsiàu tia̍t-sū, mài kheh tsò-hué.", en: "Parents, please keep an eye on your children; everyone keep in order and don't crowd together."}
+  - {n: 11, speaker: Chairman, hanji: "咱這間廟，是百外冬前咱的祖先來遮開墾的時建立的。", tailo: "Lán tsit king biō, sī pah-guā tang tsîng lán ê tsóo-sian lâi tsia khai-khún ê sî kiàn-li̍p--ê.", en: "This temple was founded over a hundred years ago, when our ancestors came here to clear the land."}
+  - {n: 12, speaker: Chairman, hanji: "一百冬來，王爺佮佛祖庇佑咱風調雨順，田園逐年有收成。", tailo: "Tsi̍t-pah tang lâi, Ông-iâ kah Pu̍t-tsóo pì-iū lán hong-tiâu-ú-sūn, tshân-hn̂g ta̍k nî ū siu-sîng.", en: "For a hundred years the Royal Lord and the Buddha have blessed us with good weather, and our fields have had a harvest every year."}
+  - {n: 13, speaker: Chairman, hanji: "舊年廟頂重新整理，費用三百萬，攏是各位弟子貢獻的。", tailo: "Kū-nî biō-tíng tiông-sin tsíng-lí, huì-iōng sann-pah-bān, lóng sī kok-uī tē-tsú kòng-hiàn--ê.", en: "Last year the temple roof was restored, at a cost of three million, all of it given by you, the worshippers."}
+  - {n: 14, speaker: Chairman, hanji: "有人講：", tailo: "Ū lâng kóng:", en: "Some people say:"}
+  - {n: 15, speaker: Chairman, hanji: "神明興、弟子窮。", tailo: "Sîn-bîng hing, tē-tsú kîng.", en: "The gods prosper, the worshippers go broke.", source: moe}
+  - {n: 16, speaker: Chairman, hanji: "我講毋著！神明若興，弟子嘛會興。逐家看，咱庄頭的人敢有較窮？", tailo: "Guá kóng m̄-tio̍h! Sîn-bîng nā hing, tē-tsú mā ē hing. Ta̍k-ke khuànn, lán tsng-thâu ê lâng kám ū khah kîng?", en: "I say no! When the gods prosper, the worshippers prosper too. Look around you: is anyone in this village any poorer?"}
+  - {n: 17, speaker: Chairman, hanji: "毋過，有一个原則我愛講清楚：廟的錢一箍一仙都會公開，貼佇廟口的告示。", tailo: "M̄-koh, ū tsi̍t ê guân-tsik guá ài kóng tshing-tshó: biō ê tsînn tsi̍t khoo tsi̍t sián to ē kong-khai, tah tī biō-kháu ê kò-sī.", en: "But there's one principle I must make clear: every last cent of the temple's money will be made public, on the notice at the temple gate."}
+  - {n: 18, speaker: Chairman, hanji: "咱的委員是規庄頭的人組織的。啥人有資格做委員，攏是公開投票決定。", tailo: "Lán ê uí-uân sī kui tsng-thâu ê lâng tsoo-tsit--ê. Siánn-lâng ū tsu-keh tsò uí-uân, lóng sī kong-khai tâu-phiò kuat-tīng.", en: "Our committee is formed by the whole village. Who is qualified to sit on it is decided by an open vote."}
+  - {n: 19, speaker: Chairman, hanji: "另外，廟邊的空地欲開發做小公園，閣設立一間讀冊的所在，予囡仔放學有所在去。", tailo: "Līng-guā, biō-pinn ê khàng-tē beh khai-huat tsò sió kong-hn̂g, koh siat-li̍p tsi̍t king tha̍k-tsheh ê sóo-tsāi, hōo gín-á pàng-o̍h ū sóo-tsāi khì.", en: "Also, the empty plot beside the temple is going to be turned into a little park, with a reading room, so the children have somewhere to go after school."}
+  - {n: 20, speaker: Chairman, hanji: "這馬是好時機，政府嘛有補助。", tailo: "Tsit-má sī hó sî-ki, tsìng-hú mā ū póo-tsōo.", en: "Now's the right moment: the government is giving grants too."}
+  - {n: 21, speaker: Chairman, hanji: "咱就愛協力共代誌做予好。", tailo: "Lán tō ài hia̍p-li̍k kā tāi-tsì tsò hōo hó.", en: "We must work together to do it well.", source: moe}
+  - {n: 22, speaker: Chairman, hanji: "元宵的風俗，是祖先留落來的光彩，咱愛一代一代傳落去。", tailo: "Guân-siau ê hong-sio̍k, sī tsóo-sian lâu--lo̍h-lâi ê kong-tshái, lán ài tsi̍t tāi tsi̍t tāi thuân--lo̍h-khì.", en: "The customs of the Lantern Festival are a glory our ancestors left us, and we must pass them on from generation to generation."}
+  - {n: 23, speaker: Chairman, hanji: "上尾，咱做伙來祈求：", tailo: "Siōng-bué, lán tsò-hué lâi kî-kiû:", en: "Finally, let us pray together:"}
+  - {n: 24, speaker: Chairman, hanji: "求神明庇佑咱全家平安。", tailo: "Kiû sîn-bîng pì-iū lán tsuân ke pîng-an.", en: "May the gods keep all our families safe.", source: moe}
+  - {n: 25, speaker: Chairman, hanji: "今年是好年冬。", tailo: "Kin-nî sī hó nî-tang.", en: "This year will be a good year.", source: moe}
+  - {n: 26, speaker: Chairman, hanji: "多謝逐家！鑼鼓摃起來，神轎欲出發矣！", tailo: "To-siā ta̍k-ke! Lô-kóo kòng--khí-lâi, sîn-kiō beh tshut-huat--ah!", en: "Thank you all! Strike up the drums and gongs: the sedan chair is setting off!"}
+notes:
+  - {ref: 1, topic: vocab, text: "鄉親 hiong-tshin = fellow villagers, people from the same place. 弟子 tē-tsú = disciple, pupil; here, the worshippers of the temple's gods."}
+  - {ref: 2, topic: vocab, text: "An exact MOE example, the opening of every local politician's speech. 支持 = support (lesson 68). 愛護 ài-hōo = care, kindness, protection."}
+  - {ref: 3, topic: culture, text: "元宵 Guân-siau = the Lantern Festival, the first full moon of the lunar year; 元宵節 (MOE: 元宵節的時，南北二路的人攏來看「臺灣燈會」). 正月 = the first lunar month (lesson 23)."}
+  - {ref: 4, topic: culture, text: "節目 tsiat-bo̍k = programme. 神轎 sîn-kiō = the god's sedan chair. 王爺 Ông-iâ = the Royal Lords, gods worshipped in many southern Taiwanese villages, often as protectors against plague. 繞境 jiàu-kíng = (of a god) process round its territory: 便若神明生，神轎攏會繞境 'on every god's birthday, the sedan chair processes round the area' (MOE). 巡 sûn = go round, patrol."}
+  - {ref: 5, topic: culture, text: "扛轎 kng-kiō = carry a sedan chair; also, figuratively, 'campaign for someone': 較早若選舉伊攏共人扛轎 'he used to campaign for others at elections' (MOE). 宋江陣 Sòng-kang-tīn = a martial-arts procession troupe. 八仙 Pat-sian = the Eight Immortals."}
+  - {ref: 6, topic: vocab, text: "陣頭 = procession troupe (lesson 80). 貴賓 kuì-pin = honoured guest. 迎接 gîng-tsiap = welcome, receive: 貴賓來矣，緊出去迎接 'the guests are here, go out and welcome them' (MOE)."}
+  - {ref: 7, topic: culture, text: "臆 = guess (lesson 57); 燈猜 ting-tshai = lantern riddle: 這个物件是我臆著燈猜的獎品 'I won this for guessing a lantern riddle' (MOE). 獎品 tsióng-phín = prize; 頭獎 thâu-tsióng = first prize. 豬公 ti-kong = a huge boar offered to the gods."}
+  - {ref: 8, topic: vocab, text: "面子 = face, dignity (進修 1). 出 here = set (a question, a riddle)."}
+  - {ref: 9, topic: vocab, text: "成立 sîng-li̍p = set up, found: 阮公司成立欲兩冬矣 'our company was founded nearly two years ago' (MOE). 救護 kiù-hōo = first aid, rescue; 組 tsoo = team, group. 消防隊 siau-hông-tuī = fire brigade. 服務 ho̍k-bū = serve, be on duty: 伊佇公家機關服務 'she works for a government office' (MOE)."}
+  - {ref: 10, topic: vocab, text: "秩序 tia̍t-sū = order (public order). 𤲍 = crowd, squeeze (lesson 82)."}
+  - {ref: 11, topic: culture, text: "開墾 khai-khún = clear (land) for farming, as the settlers from Fujian did. 建立 kiàn-li̍p = found, build."}
+  - {ref: 12, topic: vocab, text: "佛祖 Pu̍t-tsóo = the Buddha. 庇佑 pì-iū = bless, protect. 風調雨順 hong-tiâu-ú-sūn = 'winds favourable, rains timely': good weather for the crops."}
+  - {ref: 13, topic: vocab, text: "整理 tsíng-lí = put in order, repair, tidy. 費用 huì-iōng = cost, expenses. 貢獻 kòng-hiàn = contribute, donate; contribution: 伊貢獻伊的一生去幫助青盲的人 'she gave her life to helping the blind' (MOE)."}
+  - {ref: 15, topic: culture, text: "An exact MOE example: the gods' temples grow rich on the offerings while the worshippers grow poor. 興 hing = prosper, thrive. 窮 kîng = poor."}
+  - {ref: 17, topic: vocab, text: "原則 guân-tsik = principle. 一箍一仙 = every dollar and every cent (仙 sián = cent, from Japanese). 公開 kong-khai = make public, open: 伊決定欲公開所有的代誌 'he decided to make everything public' (MOE). 貼 tah = post, stick up. 告示 kò-sī = notice, public announcement."}
+  - {ref: 18, topic: vocab, text: "委員 = committee member (進修 11). 組織 tsoo-tsit = organise, form; organisation. 資格 tsu-keh = qualification, right; 老資格 'old hand' (MOE)."}
+  - {ref: 19, topic: vocab, text: "空地 khàng-tē = empty plot. 開發 khai-huat = develop. 設立 siat-li̍p = set up, establish."}
+  - {ref: 20, topic: vocab, text: "時機 sî-ki = (the right) moment: 好的時機毋是定定有 'good chances don't come often' (MOE). 補助 póo-tsōo = grant, subsidy."}
+  - {ref: 21, topic: vocab, text: "An exact MOE example. 協力 hia̍p-li̍k = work together, join forces."}
+  - {ref: 22, topic: vocab, text: "風俗 hong-sio̍k = custom(s). 光彩 kong-tshái = glory, credit; brilliance. 一代一代 = generation after generation."}
+  - {ref: 23, topic: vocab, text: "祈求 kî-kiû = pray for, beseech."}
+  - {ref: 25, topic: vocab, text: "An exact MOE example. 年冬 nî-tang = year (as a harvest); 好年冬 'a good harvest year'."}
+  - {ref: 26, topic: vocab, text: "出發 = set off."}
+new_words:
+  - {tailo: hiong-tshin, hanji: 鄉親, en: "fellow villagers"}
+  - {tailo: tē-tsú, hanji: 弟子, en: "disciple; worshipper"}
+  - {tailo: ài-hōo, hanji: 愛護, en: "care, kindness, protection"}
+  - {tailo: Guân-siau, hanji: 元宵, en: "Lantern Festival"}
+  - {tailo: tsiat-bo̍k, hanji: 節目, en: "programme"}
+  - {tailo: sîn-kiō, hanji: 神轎, en: "god's sedan chair"}
+  - {tailo: Ông-iâ, hanji: 王爺, en: "Royal Lord (god)"}
+  - {tailo: jiàu-kíng, hanji: 繞境, en: "(of a god) process round its area"}
+  - {tailo: sûn, hanji: 巡, en: "go round, patrol"}
+  - {tailo: kng-kiō, hanji: 扛轎, en: "carry a sedan chair"}
+  - {tailo: Sòng-kang-tīn, hanji: 宋江陣, en: "Sòng-kang martial troupe"}
+  - {tailo: Pat-sian, hanji: 八仙, en: "the Eight Immortals"}
+  - {tailo: kuì-pin, hanji: 貴賓, en: "honoured guest"}
+  - {tailo: gîng-tsiap, hanji: 迎接, en: "welcome, receive"}
+  - {tailo: ting-tshai, hanji: 燈猜, en: "lantern riddle"}
+  - {tailo: tsióng-phín, hanji: 獎品, en: "prize"}
+  - {tailo: thâu-tsióng, hanji: 頭獎, en: "first prize"}
+  - {tailo: ti-kong, hanji: 豬公, en: "boar offered to the gods"}
+  - {tailo: sîng-li̍p, hanji: 成立, en: "set up, found"}
+  - {tailo: kiù-hōo, hanji: 救護, en: "first aid, rescue"}
+  - {tailo: tsoo, hanji: 組, en: "team, group"}
+  - {tailo: siau-hông-tuī, hanji: 消防隊, en: "fire brigade"}
+  - {tailo: ho̍k-bū, hanji: 服務, en: "serve, be on duty"}
+  - {tailo: tia̍t-sū, hanji: 秩序, en: "order"}
+  - {tailo: khai-khún, hanji: 開墾, en: "clear land for farming"}
+  - {tailo: kiàn-li̍p, hanji: 建立, en: "found, build"}
+  - {tailo: Pu̍t-tsóo, hanji: 佛祖, en: "the Buddha"}
+  - {tailo: tsuân, hanji: 全, en: "all, whole"}
+  - {tailo: pì-iū, hanji: 庇佑, en: "bless, protect"}
+  - {tailo: hong-tiâu-ú-sūn, hanji: 風調雨順, en: "good weather for the crops"}
+  - {tailo: tsíng-lí, hanji: 整理, en: "put in order, repair, tidy"}
+  - {tailo: huì-iōng, hanji: 費用, en: "cost, expenses"}
+  - {tailo: kòng-hiàn, hanji: 貢獻, en: "contribute; contribution"}
+  - {tailo: kîng, hanji: 窮, en: "poor"}
+  - {tailo: guân-tsik, hanji: 原則, en: "principle"}
+  - {tailo: sián, hanji: 仙, en: "cent"}
+  - {tailo: kong-khai, hanji: 公開, en: "make public, open"}
+  - {tailo: kò-sī, hanji: 告示, en: "notice, announcement"}
+  - {tailo: tsoo-tsit, hanji: 組織, en: "organise; organisation"}
+  - {tailo: tsu-keh, hanji: 資格, en: "qualification, right"}
+  - {tailo: khàng-tē, hanji: 空地, en: "empty plot"}
+  - {tailo: khai-huat, hanji: 開發, en: "develop"}
+  - {tailo: siat-li̍p, hanji: 設立, en: "set up, establish"}
+  - {tailo: sî-ki, hanji: 時機, en: "the right moment"}
+  - {tailo: póo-tsōo, hanji: 補助, en: "grant, subsidy"}
+  - {tailo: hia̍p-li̍k, hanji: 協力, en: "work together"}
+  - {tailo: tshut-huat, hanji: 出發, en: "set off"}
+  - {tailo: hong-sio̍k, hanji: 風俗, en: "custom(s)"}
+  - {tailo: kong-tshái, hanji: 光彩, en: "glory, credit"}
+  - {tailo: kî-kiû, hanji: 祈求, en: "pray for, beseech"}
+  - {tailo: nî-tang, hanji: 年冬, en: "(harvest) year"}
+exercises:
+  translate:
+    - {tailo: "Kuè liáu Guân-siau, nî tsiah sǹg kuè--khì.", hanji: "過了元宵，年才算過去。", en: "New Year isn't over until the Lantern Festival is."}
+    - {tailo: "Ioh--tio̍h ê lâng ū tsióng-phín, thâu-tsióng sī tsi̍t tsiah ti-kong!", hanji: "臆著的人有獎品，頭獎是一隻豬公！", en: "Everyone who guesses one wins a prize, and first prize is a whole pig!"}
+    - {tailo: "Uī-tio̍h ta̍k-ke ê an-tsuân, lán ū sîng-li̍p tsi̍t ê kiù-hōo-tsoo.", hanji: "為著逐家的安全，咱有成立一个救護組。", en: "For everyone's safety we've set up a first-aid team."}
+    - {tailo: "Biō ê tsînn tsi̍t khoo tsi̍t sián to ē kong-khai.", hanji: "廟的錢一箍一仙都會公開。", en: "Every last cent of the temple's money will be made public."}
+    - {tailo: "Lán tō ài hia̍p-li̍k kā tāi-tsì tsò hōo hó.", hanji: "咱就愛協力共代誌做予好。", en: "We must work together to do it well."}
+    - {tailo: "Guân-siau hit àm, sîn-kiō tshut biō jiàu-kíng, kng-kiō ê siàu-liân-ke kah tīn-thâu tuè--leh kiânn.", hanji: "元宵彼暗，神轎出廟繞境，扛轎的少年家佮陣頭綴咧行。", en: "On the night of the Lantern Festival the sedan chair leaves the temple to process round, with the bearers and troupes following."}
+    - {tailo: "Biō ê huì-iōng lóng sī tē-tsú kòng-hiàn--ê, sóo-í ta̍k tsi̍t khoo lóng ài kong-khai, tah tī kò-sī.", hanji: "廟的費用攏是弟子貢獻的，所以逐一箍攏愛公開，貼佇告示。", en: "The temple's costs are all paid by the worshippers, so every dollar must be made public on the notice board."}
+  fill:
+    - {tailo: "Tshit tiám sîn-kiō tshut biō, Ông-iâ beh ___.", hanji: "七點神轎出廟，王爺欲___。", answer: "jiàu-kíng", answer_hanji: "繞境", en: "At seven the sedan chair leaves the temple, and the Royal Lord will process round the village."}
+    - {tailo: "Kok-uī tē-tsú ___--ê.", hanji: "各位弟子___的。", answer: "kòng-hiàn", answer_hanji: "貢獻", en: "It was given by you, the worshippers."}
+    - {tailo: "Siánn-lâng ū ___ tsò uí-uân, lóng sī kong-khai tâu-phiò kuat-tīng.", hanji: "啥人有___做委員，攏是公開投票決定。", answer: "tsu-keh", answer_hanji: "資格", en: "Who is qualified to sit on the committee is decided by an open vote."}
+    - {tailo: "Tsit-má sī hó ___, tsìng-hú mā ū póo-tsōo.", hanji: "這馬是好___，政府嘛有補助。", answer: "sî-ki", answer_hanji: "時機", en: "Now's the right moment: the government is giving grants too."}
+    - {tailo: "Guân-siau ê ___, sī tsóo-sian lâu--lo̍h-lâi ê kong-tshái.", hanji: "元宵的___，是祖先留落來的光彩。", answer: "hong-sio̍k", answer_hanji: "風俗", en: "The customs of the Lantern Festival are a glory our ancestors left us."}
+    - {tailo: "Tsit-má sī hó sî-ki, lán tō ài ___ kā kong-hn̂g kah tha̍k-tsheh ê sóo-tsāi tsò hōo hó.", hanji: "這馬是好時機，咱就愛___共公園佮讀冊的所在做予好。", answer: "hia̍p-li̍k", answer_hanji: "協力", en: "Now's the right moment: we must work together to make the park and the reading room a success."}
+audio: []

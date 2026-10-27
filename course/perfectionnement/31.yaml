@@ -1,0 +1,109 @@
+id: 31
+title: {en: "Three generations, three languages", tailo: "Sann tāi lâng, sann khuán uē", hanji: "三代人，三款話"}
+genre: essay
+review: false
+setting: "A column from a Taigi magazine. The writer remembers his grandfather, who went to school under Japanese rule, and asks what language his own children will speak. The text is original to this course."
+dialogue:
+  - {n: 1, hanji: "細漢的時，阮阿公就教我背冊，閣教我真濟古早人講的道理。", tailo: "Sè-hàn ê sî, guán a-kong tō kà guá puē-tsheh, koh kà guá tsin tsē kóo-tsá lâng kóng ê tō-lí.", en: "When I was little, my grandfather taught me to recite texts by heart, and taught me many old sayings and the wisdom in them.", source: moe}
+  - {n: 2, hanji: "阮阿公的記持真好，九十外歲矣，猶會曉背伊入學頭一工學的日語歌。", tailo: "Guán a-kong ê kì-tî tsin hó, káu-tsa̍p-guā huè--ah, iáu ē-hiáu puē i ji̍p-o̍h thâu tsi̍t kang o̍h ê Ji̍t-gí kua.", en: "My grandfather had a remarkable memory: past ninety, he could still sing the Japanese song he learnt on his first day at school."}
+  - {n: 3, hanji: "伊讀的是公學校，日本時代予臺灣囡仔讀的學校。教員大部份是日本人，上課攏講日語。", tailo: "I tha̍k--ê sī kong-ha̍k-hāu, Ji̍t-pún sî-tāi hōo Tâi-uân gín-á tha̍k ê ha̍k-hāu. Kàu-uân tuā-pōo-hūn sī Ji̍t-pún-lâng, siōng-khò lóng kóng Ji̍t-gí.", en: "He went to a 'common school', the schools for Taiwanese children in the Japanese era. Most of the teachers were Japanese, and lessons were all in Japanese."}
+  - {n: 4, hanji: "伊講，教室頭前有一面烏枋，逐家用鉛筆寫字，算數就用算盤。", tailo: "I kóng, kàu-sik thâu-tsîng ū tsi̍t bīn oo-pang, ta̍k-ke iōng iân-pit siá jī, sǹg-siàu tō iōng sǹg-puânn.", en: "He told me there was a blackboard at the front of the classroom; everyone wrote in pencil, and for sums they used abacuses."}
+  - {n: 5, hanji: "初初，學校猶有教漢文，用臺語唸。後來漢文無閣教矣，逐項攏愛用日語。", tailo: "Tshoo-tshoo, ha̍k-hāu iáu ū kà hàn-bûn, iōng Tâi-gí liām. Āu--lâi hàn-bûn bô koh kà--ah, ta̍k hāng lóng ài iōng Ji̍t-gí.", en: "At first the school still taught classical Chinese, read aloud in Taiwanese. Later classical Chinese was dropped, and everything had to be in Japanese."}
+  - {n: 6, hanji: "所以伊放學了後，閣去庄裡的書房，綴老先生學句讀，一字一字唸予伊聽。", tailo: "Sóo-í i pàng-o̍h liáu-āu, koh khì tsng--lí ê tsu-pâng, tuè lāu sian-sinn o̍h kù-tāu, tsi̍t jī tsi̍t jī liām hōo i thiann.", en: "So after school he went on to the village's private classical school, where an old teacher taught him how to punctuate a text, reading it out to him character by character."}
+  - {n: 7, hanji: "伊講，彼陣庄裡真濟老大人毋捌字，啥人兜若有批，攏提來予伊讀。", tailo: "I kóng, hit-tsūn tsng--lí tsin tsē lāu-tuā-lâng m̄ bat-jī, siánn-lâng tau nā ū phue, lóng the̍h lâi hōo i tha̍k.", en: "He said that in those days many older people in the village couldn't read, so whenever a family got a letter, they brought it to him to read."}
+  - {n: 8, hanji: "光復了後，學校改教國語，阿公閣愛重新學習。伊笑講：「我規世人攏咧做學生。」", tailo: "Kong-ho̍k liáu-āu, ha̍k-hāu kái kà kok-gí, a-kong koh ài tiông-sin ha̍k-si̍p. I tshiò kóng: “Guá kui-sì-lâng lóng teh tsò ha̍k-sing.”", en: "After the war, the schools switched to teaching Mandarin, and Grandad had to start learning all over again. He used to laugh: 'I've been a schoolboy all my life.'"}
+  - {n: 9, hanji: "阮阿爸彼代人，讀國民學校的時，佇學校講臺語是會予人罰的。", tailo: "Guán a-pah hit tāi lâng, tha̍k kok-bîn ha̍k-hāu ê sî, tī ha̍k-hāu kóng Tâi-gí sī ē hōo lâng hua̍t--ê.", en: "In my father's generation, at primary school, speaking Taiwanese at school got you punished."}
+  - {n: 10, hanji: "阿爸講，有一擺伊下課佮同窗講一句臺語，予老師聽著，罰伊徛佇烏枋邊一點鐘。", tailo: "A-pah kóng, ū tsi̍t pái i hā-khò kah tông-tshong kóng tsi̍t kù Tâi-gí, hōo lāu-su thiann--tio̍h, hua̍t i khiā tī oo-pang-pinn tsi̍t tiám-tsing.", en: "Dad says that once, at break, he said one sentence in Taiwanese to a classmate. The teacher heard, and made him stand by the blackboard for an hour."}
+  - {n: 11, hanji: "彼種制度，予足濟人感覺講家己的言語是見笑的代誌。這嘛是一種壓迫。", tailo: "Hit tsióng tsè-tōo, hōo tsiok tsē lâng kám-kak kóng ka-kī ê giân-gí sī kiàn-siàu ê tāi-tsì. Tse mā sī tsi̍t tsióng ap-pik.", en: "That system made a great many people feel that speaking their own language was shameful. That too was a form of oppression."}
+  - {n: 12, hanji: "所以阿爸對阮講話，攏講國語。伊講，伊毋是毋愛臺語，是驚阮去學校予人恥笑。", tailo: "Sóo-í a-pah tuì guán kóng-uē, lóng kóng kok-gí. I kóng, i m̄ sī m̄ ài Tâi-gí, sī kiann guán khì ha̍k-hāu hōo lâng thí-tshiò.", en: "So Dad always spoke Mandarin to us. He says it wasn't that he didn't love Taiwanese: he was afraid we'd be laughed at at school."}
+  - {n: 13, hanji: "這幾年來，社會一直咧轉變。", tailo: "Tsit kuí nî lâi, siā-huē it-ti̍t teh tsuán-piàn.", en: "In recent years, society has been changing all the time.", source: moe}
+  - {n: 14, hanji: "這馬學校有臺語課，電視有臺語新聞，雜誌嘛有臺語的文學作品，有作者專門用臺語寫作。", tailo: "Tsit-má ha̍k-hāu ū Tâi-gí khò, tiān-sī ū Tâi-gí sin-bûn, tsa̍p-tsì mā ū Tâi-gí ê bûn-ha̍k tsok-phín, ū tsok-tsiá tsuan-bûn iōng Tâi-gí siá-tsok.", en: "Now there are Taiwanese lessons at school and Taiwanese news on TV, and magazines publish literature in Taiwanese, by authors who write only in Taiwanese."}
+  - {n: 15, hanji: "毋過，往擺佇灶跤、佇田裡、佇廟埕聽會著的話，這馬佇囡仔的喙裡愈來愈少。", tailo: "M̄-koh, íng-pái tī tsàu-kha, tī tshân--lí, tī biō-tiânn thiann ē tio̍h ê uē, tsit-má tī gín-á ê tshuì--lí jú lâi jú tsió.", en: "And yet the language you used to hear in the kitchen, in the fields and in temple squares is heard less and less from children."}
+  - {n: 16, hanji: "阮查某囝舊底干焦會曉講國語。歇熱轉去看阿祖，伊才發現，阿祖講的話，伊一句都聽無。", tailo: "Guán tsa-bóo-kiánn kū-té kan-na ē-hiáu kóng kok-gí. Hioh-jua̍h tńg-khì khuànn a-tsóo, i tsiah huat-hiān, a-tsóo kóng ê uē, i tsi̍t kù to thiann bô.", en: "My daughter used to speak only Mandarin. When she went to see her great-grandfather in the summer holidays, she found she couldn't understand a single word he said."}
+  - {n: 17, hanji: "伊轉來就共我講：「阿爸，我欲學阿祖的話。」", tailo: "I tńg--lâi tō kā guá kóng: “A-pah, guá beh o̍h a-tsóo ê uē.”", en: "When she got home she told me: 'Dad, I want to learn Great-grandad's language.'"}
+  - {n: 18, hanji: "彼年伊十歲，阿祖九十四歲。阿祖歡喜甲流目屎，時時敲電話來，考伊今仔日學啥物。", tailo: "Hit nî i tsa̍p huè, a-tsóo káu-tsa̍p-sì huè. A-tsóo huann-hí kah lâu ba̍k-sái, sî-sî khà tiān-uē lâi, khó i kin-á-ji̍t o̍h siánn-mih.", en: "She was ten that year, and he was ninety-four. He was so happy he wept, and he was forever phoning to test her on what she'd learnt that day."}
+  - {n: 19, hanji: "伊閣共阿祖的冊揣出來，一字一字教伊唸，就親像當初書房的老先生教伊仝款。", tailo: "I koh kā a-tsóo ê tsheh tshuē--tshut-lâi, tsi̍t jī tsi̍t jī kà i liām, tō tshin-tshiūnn tong-tshoo tsu-pâng ê lāu sian-sinn kà i kāng-khuán.", en: "And he dug out his old books and taught her to read them character by character, just as the old teacher at the classical school had once taught him."}
+  - {n: 20, hanji: "阿祖舊年過身矣。伊上尾一句共阮查某囝講的話是：「莫袂記得咱的話。」", tailo: "A-tsóo kū-nî kuè-sin--ah. I siōng-bué tsi̍t kù kā guán tsa-bóo-kiánn kóng ê uē sī: “Mài bē-kì-tit lán ê uē.”", en: "Great-grandad died last year. The last thing he said to my daughter was: 'Don't forget our language.'"}
+  - {n: 21, hanji: "一種言語，毋但是講話的工具，嘛是一个民族的思想佮記持。", tailo: "Tsi̍t tsióng giân-gí, m̄-nā sī kóng-uē ê kang-kū, mā sī tsi̍t ê bîn-tso̍k ê su-sióng kah kì-tî.", en: "A language is not just a tool for talking; it's also a people's way of thinking and its memory."}
+  - {n: 22, hanji: "話若無人講，伊就毋閣存在。話若有人講，古早人的智慧就會綴咧活落去。", tailo: "Uē nā bô lâng kóng, i tō m̄ koh tsûn-tsāi. Uē nā ū lâng kóng, kóo-tsá-lâng ê tì-huī tō ē tuè--leh ua̍h--lo̍h-khì.", en: "If nobody speaks a language, it no longer exists. If people speak it, the wisdom of the old folk lives on with it."}
+  - {n: 23, hanji: "阮阿公講日語，阮阿爸講國語，阮查某囝咧學臺語。三代人，三款話，這是阮兜的故事，嘛是臺灣的故事。", tailo: "Guán a-kong kóng Ji̍t-gí, guán a-pah kóng kok-gí, guán tsa-bóo-kiánn teh o̍h Tâi-gí. Sann tāi lâng, sann khuán uē, tse sī guán tau ê kòo-sū, mā sī Tâi-uân ê kòo-sū.", en: "My grandfather spoke Japanese, my father speaks Mandarin, my daughter is learning Taiwanese. Three generations, three languages: that's my family's story, and Taiwan's story too."}
+  - {n: 24, hanji: "這篇文章的意義，就是欲共阿公講：阮有聽著。", tailo: "Tsit phinn bûn-tsiong ê ì-gī, tō sī beh kā a-kong kóng: guán ū thiann--tio̍h.", en: "What this column means to say is simply this, to my grandfather: we heard you."}
+notes:
+  - {ref: 1, topic: vocab, text: "An exact MOE example. 背冊 puē-tsheh = recite a text by heart (背 'learn by heart'; compare 背 'back'). 道理 = the reason, wisdom (進修 10)."}
+  - {ref: 2, topic: vocab, text: "記持 kì-tî = memory: 你記持誠䆀，隨講隨袂記得 'your memory's terrible, you forget as soon as you're told' (MOE). 入學 ji̍p-o̍h = start school: 我今年就欲入學去讀冊矣！ (MOE). 日語 Ji̍t-gí = Japanese (the language)."}
+  - {ref: 3, topic: culture, text: "公學校 kong-ha̍k-hāu = 'common school', the primary schools for Taiwanese children under Japanese rule (from 1898); Japanese children went to separate 小學校. 時代 = era. 教員 kàu-uân = teacher (official title)."}
+  - {ref: 4, topic: vocab, text: "烏枋 oo-pang = blackboard ('black board'). 鉛筆 iân-pit = pencil. 算數 sǹg-siàu = do sums; 你袂曉算數是欲按怎佮人做生理？ 'how will you do business if you can't count?' (MOE). 算盤 sǹg-puânn = abacus."}
+  - {ref: 5, topic: culture, text: "初初 tshoo-tshoo = at first: 我初初佮伊熟似的時，伊拄高中出業 'when I first met her, she'd just left high school' (MOE). 漢文 hàn-bûn = classical Chinese, read aloud with the literary readings of Taiwanese. The colonial schools first taught it, then dropped it as Japanese-only teaching was pushed."}
+  - {ref: 6, topic: culture, text: "書房 ttsu-pâng = the traditional private school where a 先生 taught the classics (also 'study', the room). 句讀 kù-tāu = punctuating a classical text: knowing where each phrase stops was the first skill taught."}
+  - {ref: 7, topic: vocab, text: "捌字 bat-jī = be literate: 𪜶爸母攏毋捌字 'his parents can't read' (MOE)."}
+  - {ref: 8, topic: culture, text: "光復 kong-ho̍k = 'recovery': the term used in Taiwan for the 1945 handover from Japan to the Republic of China. 國語 = Mandarin as the national language (進修 10). 重新 tiông-sin = (start) again, anew. 學習 ha̍k-si̍p = learn, study: 學習數學 'study maths' (MOE)."}
+  - {ref: 9, topic: culture, text: "國民學校 kok-bîn ha̍k-hāu = primary school (the name from 1941 until 1968); 國民 = citizen, national. 罰 hua̍t = punish, fine. From the 1950s many schools fined or shamed pupils who spoke Taiwanese, often with a sign hung round the neck."}
+  - {ref: 10, topic: vocab, text: "同窗 tông-tshong = classmate, schoolmate: 𪜶兩个自小學就是同窗 'they've been classmates since primary school' (MOE)."}
+  - {ref: 11, topic: vocab, text: "制度 tsè-tōo = system, institution. 言語 giân-gí = language, speech. 壓迫 ap-pik = oppress; oppression."}
+  - {ref: 13, topic: vocab, text: "An exact MOE example. 轉變 tsuán-piàn = change, transform. 社會 = society (進修 29)."}
+  - {ref: 14, topic: vocab, text: "雜誌 tsa̍p-tsì = magazine: 看雜誌增加見聞 'read magazines to broaden your knowledge' (MOE). 文學 bûn-ha̍k = literature. 作品 tsok-phín = work (of art): 伊誠愛畫圖，所以作品袂少 'she loves painting, so she's produced a lot of work' (MOE). 作者 tsok-tsiá = author."}
+  - {ref: 15, topic: vocab, text: "往擺 íng-pái = in the past, before: 往擺伊足無愛來阮兜 'he never used to like coming to our place' (MOE)."}
+  - {ref: 16, topic: vocab, text: "舊底 kū-té = originally, before: 伊舊底佇金仔店食頭路 'she used to work in a jeweller's' (MOE). 歇熱 hioh-jua̍h = the summer holidays: 恁學校當時開始歇熱？ 'when do your summer holidays start?' (MOE). 阿祖 = great-grandparent."}
+  - {ref: 18, topic: vocab, text: "時時 sî-sî = all the time: 伊時時都咧念你 'she talks about you all the time' (MOE). 考 khó = test, quiz."}
+  - {ref: 19, topic: vocab, text: "當初 tong-tshoo = back then, originally: 當初遮一片攏是田 'back then this was all fields' (MOE)."}
+  - {ref: 21, topic: vocab, text: "工具 = tool. 民族 bîn-tso̍k = people, nation (as an ethnic group). 思想 su-sióng = thought, way of thinking: 伊的思想真開明 'she's very open-minded' (MOE)."}
+  - {ref: 22, topic: vocab, text: "存在 tsûn-tsāi = exist: 你就當做無伊的存在 'just pretend he doesn't exist' (MOE). 智慧 = wisdom."}
+  - {ref: 24, topic: vocab, text: "意義 ì-gī = meaning, significance. 篇 = counter for articles; 文章 = article, essay."}
+new_words:
+  - {tailo: puē-tsheh, hanji: 背冊, en: "recite a text by heart"}
+  - {tailo: kì-tî, hanji: 記持, en: "memory"}
+  - {tailo: ji̍p-o̍h, hanji: 入學, en: "start school"}
+  - {tailo: Ji̍t-gí, hanji: 日語, en: "Japanese (language)"}
+  - {tailo: kong-ha̍k-hāu, hanji: 公學校, en: "common school (Japanese era)"}
+  - {tailo: kàu-uân, hanji: 教員, en: "teacher (official title)"}
+  - {tailo: oo-pang, hanji: 烏枋, en: "blackboard"}
+  - {tailo: kàu-sik, hanji: 教室, en: "classroom"}
+  - {tailo: iân-pit, hanji: 鉛筆, en: "pencil"}
+  - {tailo: sǹg-siàu, hanji: 算數, en: "do sums, count"}
+  - {tailo: sǹg-puânn, hanji: 算盤, en: "abacus"}
+  - {tailo: tshoo-tshoo, hanji: 初初, en: "at first"}
+  - {tailo: hàn-bûn, hanji: 漢文, en: "classical Chinese"}
+  - {tailo: tsu-pâng, hanji: 書房, en: "private classical school; study"}
+  - {tailo: kù-tāu, hanji: 句讀, en: "punctuating a classical text"}
+  - {tailo: bat-jī, hanji: 捌字, en: "be literate"}
+  - {tailo: kong-ho̍k, hanji: 光復, en: "recovery (1945 handover)"}
+  - {tailo: tiông-sin, hanji: 重新, en: "again, anew"}
+  - {tailo: ha̍k-si̍p, hanji: 學習, en: "learn, study"}
+  - {tailo: kok-bîn, hanji: 國民, en: "citizen, national"}
+  - {tailo: hua̍t, hanji: 罰, en: "punish, fine"}
+  - {tailo: tông-tshong, hanji: 同窗, en: "classmate, schoolmate"}
+  - {tailo: tsè-tōo, hanji: 制度, en: "system, institution"}
+  - {tailo: giân-gí, hanji: 言語, en: "language, speech"}
+  - {tailo: ap-pik, hanji: 壓迫, en: "oppress; oppression"}
+  - {tailo: tsuán-piàn, hanji: 轉變, en: "change, transform"}
+  - {tailo: tsa̍p-tsì, hanji: 雜誌, en: "magazine"}
+  - {tailo: bûn-ha̍k, hanji: 文學, en: "literature"}
+  - {tailo: tsok-phín, hanji: 作品, en: "work (of art)"}
+  - {tailo: tsok-tsiá, hanji: 作者, en: "author"}
+  - {tailo: íng-pái, hanji: 往擺, en: "in the past, before"}
+  - {tailo: kū-té, hanji: 舊底, en: "originally, before"}
+  - {tailo: hioh-jua̍h, hanji: 歇熱, en: "summer holidays"}
+  - {tailo: sî-sî, hanji: 時時, en: "all the time"}
+  - {tailo: tong-tshoo, hanji: 當初, en: "back then, originally"}
+  - {tailo: bîn-tso̍k, hanji: 民族, en: "people, nation"}
+  - {tailo: kang-kū, hanji: 工具, en: "tool"}
+  - {tailo: su-sióng, hanji: 思想, en: "thought, way of thinking"}
+  - {tailo: tsûn-tsāi, hanji: 存在, en: "exist"}
+  - {tailo: ì-gī, hanji: 意義, en: "meaning, significance"}
+exercises:
+  translate:
+    - {tailo: "Guán a-kong ê kì-tî tsin hó.", hanji: "阮阿公的記持真好。", en: "My grandfather had a remarkable memory."}
+    - {tailo: "Ta̍k-ke iōng iân-pit siá jī, sǹg-siàu tō iōng sǹg-puânn.", hanji: "逐家用鉛筆寫字，算數就用算盤。", en: "Everyone wrote in pencil, and for sums they used abacuses."}
+    - {tailo: "Hit-tsūn tsng--lí tsin tsē lāu-tuā-lâng m̄ bat-jī.", hanji: "彼陣庄裡真濟老大人毋捌字。", en: "In those days many older people in the village couldn't read."}
+    - {tailo: "Tsit kuí nî lâi, siā-huē it-ti̍t teh tsuán-piàn.", hanji: "這幾年來，社會一直咧轉變。", en: "In recent years, society has been changing all the time."}
+    - {tailo: "Uē nā bô lâng kóng, i tō m̄ koh tsûn-tsāi.", hanji: "話若無人講，伊就毋閣存在。", en: "If nobody speaks a language, it no longer exists."}
+    - {tailo: "Guán a-kong tha̍k kong-ha̍k-hāu ê sî, kàu-uân tī oo-pang siá jī, ta̍k-ke iōng iân-pit kah sǹg-puânn.", hanji: "阮阿公讀公學校的時，教員佇烏枋寫字，逐家用鉛筆佮算盤。", en: "When my grandfather went to the common school, the teacher wrote on the blackboard and everyone used pencils and abacuses."}
+    - {tailo: "Íng-pái tī ha̍k-hāu kóng Tâi-gí ē hōo lâng hua̍t, tsit-má ū Tâi-gí khò, siā-huē it-ti̍t teh tsuán-piàn.", hanji: "往擺佇學校講臺語會予人罰，這馬有臺語課，社會一直咧轉變。", en: "You used to get punished at school for speaking Taiwanese; now there are Taiwanese lessons: society keeps changing."}
+  fill:
+    - {tailo: "I tha̍k--ê sī ___, Ji̍t-pún sî-tāi hōo Tâi-uân gín-á tha̍k ê ha̍k-hāu.", hanji: "伊讀的是___，日本時代予臺灣囡仔讀的學校。", answer: "kong-ha̍k-hāu", answer_hanji: "公學校", en: "He went to a common school, the schools for Taiwanese children in the Japanese era."}
+    - {tailo: "Kàu-sik thâu-tsîng ū tsi̍t bīn ___.", hanji: "教室頭前有一面___。", answer: "oo-pang", answer_hanji: "烏枋", en: "There was a blackboard at the front of the classroom."}
+    - {tailo: "Ū tsi̍t pái i hā-khò kah ___ kóng tsi̍t kù Tâi-gí.", hanji: "有一擺伊下課佮___講一句臺語。", answer: "tông-tshong", answer_hanji: "同窗", en: "Once, at break, he said one sentence in Taiwanese to a classmate."}
+    - {tailo: "Tse mā sī tsi̍t tsióng ___.", hanji: "這嘛是一種___。", answer: "ap-pik", answer_hanji: "壓迫", en: "That too was a form of oppression."}
+    - {tailo: "Guán tsa-bóo-kiánn ___ kan-na ē-hiáu kóng kok-gí.", hanji: "阮查某囝___干焦會曉講國語。", answer: "kū-té", answer_hanji: "舊底", en: "My daughter used to speak only Mandarin."}
+    - {tailo: "Guán a-kong kàu káu-tsa̍p huè, ___ iáu tsin hó, ē-hiáu puē i ji̍p-o̍h thâu tsi̍t kang o̍h ê Ji̍t-gí kua, tsi̍t jī to bô bē-kì-tit.", hanji: "阮阿公到九十歲，___猶真好，會曉背伊入學頭一工學的日語歌，一字都無袂記得。", answer: "kì-tî", answer_hanji: "記持", en: "At ninety my grandfather still had a good memory: he could sing the Japanese song from his first day at school without missing a word."}
+audio: []
