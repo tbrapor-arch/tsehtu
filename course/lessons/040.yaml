@@ -10,6 +10,10 @@ dialogue:
   - {n: 5, speaker: A-bîng, hanji: "阿公，我扶你上樓梯，下晡閣來挽草。", tailo: "A-kong, guá phôo lí tsiūnn lâu-thui, ē-poo koh lâi bán tsháu.", en: "Grandpa, I'll help you up the stairs. We'll come back and weed this afternoon."}
   - {n: 6, speaker: A-kong, hanji: "恁兩个攏真有孝。我真毋甘恁遮爾忝。", tailo: "Lín nn̄g ê lóng tsin iú-hàu. Guá tsin m̄-kam lín tsiah-nī thiám.", en: "You're both so good to me. I hate to see you wear yourselves out."}
   - {n: 7, speaker: Sam, hanji: "袂忝啦，阿公。下擺閣來。", tailo: "Bē thiám--lah, a-kong. Ē-pái koh lâi.", en: "We're not tired, Grandpa. We'll come again next time."}
+  - {n: 8, speaker: "A-kong", hanji: "勞力喔！恁兩个少年的來，阿公真快活。", tailo: "Lóo-la̍t--ooh! Lín nn̄g ê siàu-liân--ê lâi, a-kong tsin khuìnn-ua̍h.", en: "Thank you kindly! Having you two youngsters here makes Grandpa very happy."}
+  - {n: 9, speaker: "Sam", hanji: "阿公，遮的田園攏是你家己種作的？", tailo: "A-kong, tsia-ê tshân-hn̂g lóng sī lí ka-kī tsìng-tsoh--ê?", en: "Grandpa, did you farm all this land yourself?"}
+  - {n: 10, speaker: "A-kong", hanji: "是啊。較早阮兜的田園足闊，這馬干焦這一寡仔矣。", tailo: "Sī--ah. Khah-tsá guán tau ê tshân-hn̂g tsiok khuah, tsit-má kan-na tsit tsi̍t-kuá-á--ah.", en: "That's right. Our land used to be really big; now there's only this little bit left."}
+  - {n: 11, speaker: "A-bîng", hanji: "阿公少年的時，規家伙仔攏是伊一个人種作咧飼。伊犧牲真濟，阮這馬會當讀冊，攏是伊的功勞。", tailo: "A-kong siàu-liân ê sî, kui-ke-hué-á lóng sī i tsi̍t ê lâng tsìng-tsoh teh tshī. I hi-sing tsin tsē, guán tsit-má ē-tàng tha̍k-tsheh, lóng sī i ê kong-lô.", en: "When Grandpa was young, the whole family depended on his farming alone. He gave up so much, and it's thanks to him that we can study today."}
 notes:
   - {ref: 1, topic: vocab, text: "透早 thàu-tsá = early in the morning (一大早). 沃 ak = water (plants), pour on (澆): 沃菜 'water the vegetables'. A Taigi-only meaning."}
   - {ref: 2, topic: vocab, text: "飼 tshī = feed, raise (animals); also bring up children (飼囡仔). 跤手 kha-tshiú = arms and legs; also 'helper, hand'. 無力 bô-la̍t = weak. 老 lāu = old (colloquial reading)."}
@@ -17,6 +21,10 @@ notes:
   - {ref: 4, topic: vocab, text: "乖 kuai = good, well-behaved. 拍拚 phah-piànn = hard-working, work hard (努力、打拚). Taiwan Mandarin 打拚 comes from it."}
   - {ref: 5, topic: vocab, text: "扶 phôo = support (someone) by the arm (扶). 上 tsiūnn = go up, get on (上): colloquial reading. 樓梯 lâu-thui = stairs. 挽草 bán tsháu = pull up weeds."}
   - {ref: 6, topic: vocab, text: "有孝 iú-hàu = devoted to one's parents and grandparents (孝順). 毋甘 m̄-kam = can't bear to, feel sorry for (捨不得、心疼). 忝 thiám = exhausted (Health theme)."}
+  - {ref: 8, topic: "vocab", text: "勞力 lóo-la̍t = thank you (for your trouble): a warm, old-fashioned thanks, said especially by older people for help or a gift. Read lô-li̍k it means 'hard work'."}
+  - {ref: 9, topic: "vocab", text: "田園 tshân-hn̂g = farmland, fields and gardens. 種作 tsìng-tsoh = farm, grow crops."}
+  - {ref: 10, topic: "vocab", text: "闊 khuah = wide, big (of space): 田園足闊 'the land is very big'. 一寡仔 tsi̍t-kuá-á = a little bit, a small amount (一寡, lesson 50, with 仔 for 'just a little')."}
+  - {ref: 11, topic: "vocab", text: "犧牲 hi-sing = sacrifice, give up. 功勞 kong-lô = credit, merit: 攏是伊的功勞 'it's all thanks to him'."}
 new_words:
   - {tailo: thàu-tsá, hanji: 透早, en: "early in the morning"}
   - {tailo: ak, hanji: 沃, en: "water (plants)"}
@@ -33,6 +41,13 @@ new_words:
   - {tailo: bán tsháu, hanji: 挽草, en: "pull up weeds"}
   - {tailo: iú-hàu, hanji: 有孝, en: "devoted to one's elders"}
   - {tailo: m̄-kam, hanji: 毋甘, en: "can't bear to, feel sorry for"}
+  - {tailo: "lóo-la̍t", hanji: "勞力", en: "thank you (for your trouble)"}
+  - {tailo: "tshân-hn̂g", hanji: "田園", en: "farmland"}
+  - {tailo: "tsìng-tsoh", hanji: "種作", en: "farm, grow crops"}
+  - {tailo: "khuah", hanji: "闊", en: "wide, big"}
+  - {tailo: "tsi̍t-kuá-á", hanji: "一寡仔", en: "a little bit"}
+  - {tailo: "hi-sing", hanji: "犧牲", en: "sacrifice"}
+  - {tailo: "kong-lô", hanji: "功勞", en: "credit, merit"}
 exercises:
   translate:
     - {tailo: "Guá kā lí tàu ak.", hanji: "我共你鬥沃。", en: "Let me help you water."}
@@ -40,4 +55,5 @@ exercises:
   fill:
     - {tailo: "Koh ài ___ ke.", hanji: "閣愛___雞。", answer: "tshī", answer_hanji: "飼", en: "I still have to feed the chickens."}
     - {tailo: "Koh tsin ___.", hanji: "閣真___。", answer: "phah-piànn", answer_hanji: "拍拚", en: "And a hard worker too."}
+    - {tailo: "Khah-tsá guán tau ê tshân-hn̂g tsiok ___.", hanji: "較早阮兜的田園足___。", answer: "khuah", answer_hanji: "闊", en: "Our land used to be really big."}
 audio: []

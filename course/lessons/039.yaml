@@ -10,6 +10,10 @@ dialogue:
   - {n: 5, speaker: Sam, hanji: "敢會嚴重？我驚身軀有啥物問題。", tailo: "Kám ē giâm-tiōng? Guá kiann sin-khu ū siánn-mih būn-tê.", en: "Is it serious? I'm worried something's wrong with me."}
   - {n: 6, speaker: Doctor, hanji: "免煩惱。我開藥仔予你，你著愛加啉水、加歇睏。", tailo: "Bián huân-ló. Guá khui io̍h-á hōo lí, lí tio̍h-ài ke lim tsuí, ke hioh-khùn.", en: "No need to worry. I'll prescribe some medicine. You must drink more water and rest more."}
   - {n: 7, speaker: Doctor, hanji: "若一禮拜猶無好，才閣來予我看。", tailo: "Nā tsi̍t lé-pài iáu bô hó, tsiah koh lâi hōo guá khuànn.", en: "If you're still not better in a week, come back and see me."}
+  - {n: 8, speaker: "Sam", hanji: "醫生，我暗時嗽甲足痛苦，攏睏袂去。", tailo: "I-sing, guá àm-sî sàu kah tsiok thòng-khóo, lóng khùn bē khì.", en: "Doctor, at night I cough so badly it's agony, and I can't sleep at all."}
+  - {n: 9, speaker: "Doctor", hanji: "我加開一款暗時食的藥仔。食了會愛睏，你就莫閣騎機車。", tailo: "Guá ke khui tsi̍t khuán àm-sî tsia̍h ê io̍h-á. Tsia̍h liáu ē ài-khùn, lí tō mài koh khiâ ki-tshia.", en: "I'll add a medicine for you to take at night. It'll make you drowsy, so don't ride your scooter after taking it."}
+  - {n: 10, speaker: "Sam", hanji: "好。藥仔愛食偌久？", tailo: "Hó. Io̍h-á ài tsia̍h guā kú?", en: "All right. How long do I need to take the medicine?"}
+  - {n: 11, speaker: "Doctor", hanji: "五工。藥仔愛確實食予了。你無啥問題，干焦是寒著了後嚨喉有淡薄仔傷害；程度無嚴重，食了就會好。", tailo: "Gōo kang. Io̍h-á ài khak-si̍t tsia̍h hōo liáu. Lí bô siánn būn-tê, kan-na sī kuânn--tio̍h liáu-āu nâ-âu ū tām-po̍h-á siong-hāi; thîng-tōo bô giâm-tiōng, tsia̍h liáu tō ē hó.", en: "Five days. Make sure you finish the whole course. There's nothing wrong with you; your throat is just a little damaged after the cold. It isn't serious, and once you've finished the medicine you'll be fine."}
 notes:
   - {ref: 1, topic: vocab, text: "症頭 tsìng-thâu = symptom (症狀). See also the Health theme."}
   - {ref: 2, topic: grammar, text: "Duration after the verb + 矣: 嗽一禮拜矣 'have been coughing for a week (and still am)'. 嗽 sàu = cough (shorter than 咳嗽 ka-sàu). 喘 tshuán = be short of breath, pant. 一禮拜 tsi̍t lé-pài = a week."}
@@ -18,6 +22,9 @@ notes:
   - {ref: 5, topic: false-friend, text: "身軀 sin-khu = body (身體). In Mandarin 身軀 is a literary 'frame, stature'; in Taigi it is the everyday word. 驚 kiann + clause = be afraid that, worry that."}
   - {ref: 6, topic: grammar, text: "著愛 tio̍h-ài = must, have to (必須、得): stronger than 愛 ài. 免煩惱 bián huân-ló = don't worry. 開藥仔予你 'prescribe medicine for you'."}
   - {ref: 7, topic: grammar, text: "來予我看 'come and let me see you': 予 hōo = let (lesson 13). 猶無好 'still not better'."}
+  - {ref: 8, topic: "vocab", text: "痛苦 thòng-khóo = painful, agonising (of suffering, physical or mental); 疼 thiànn is the plain 'hurt'. 嗽甲… 'cough so much that …'."}
+  - {ref: 9, topic: "vocab", text: "愛睏 ài-khùn = sleepy, drowsy (想睡), Taigi-only: 我足愛睏 'I'm so sleepy'. 加開 'prescribe in addition'."}
+  - {ref: 11, topic: "vocab", text: "確實 khak-si̍t = properly, without fail; also 'really, indeed'. 食予了 tsia̍h hōo liáu 'finish (the medicine)': V + 予了 = do completely. 傷害 siong-hāi = harm, damage. 程度 thîng-tōo = degree, level: 程度無嚴重 'it's not serious'. 淡薄仔 = a little (淡薄, lesson 25)."}
 new_words:
   - {tailo: tsìng-thâu, hanji: 症頭, en: "symptom"}
   - {tailo: sàu, hanji: 嗽, en: "cough"}
@@ -33,10 +40,16 @@ new_words:
   - {tailo: sin-khu, hanji: 身軀, en: "body"}
   - {tailo: huân-ló, hanji: 煩惱, en: "worry"}
   - {tailo: tio̍h-ài, hanji: 著愛, en: "must, have to"}
+  - {tailo: "thòng-khóo", hanji: "痛苦", en: "painful, agonising"}
+  - {tailo: "ài-khùn", hanji: "愛睏", en: "sleepy, drowsy"}
+  - {tailo: "khak-si̍t", hanji: "確實", en: "properly; really"}
+  - {tailo: "siong-hāi", hanji: "傷害", en: "harm, damage"}
+  - {tailo: "thîng-tōo", hanji: "程度", en: "degree, level"}
 exercises:
   translate:
     - {tailo: "Lí ū siánn-mih tsìng-thâu?", hanji: "你有啥物症頭？", en: "What are your symptoms?"}
     - {tailo: "Tshuì peh-khui.", hanji: "喙擘開。", en: "Open your mouth."}
+    - {tailo: "Tsia̍h liáu ē ài-khùn, lí tō mài koh khiâ ki-tshia.", hanji: "食了會愛睏，你就莫閣騎機車。", en: "It'll make you drowsy, so don't ride your scooter."}
   fill:
     - {tailo: "Lí ___ ke lim tsuí.", hanji: "你___加啉水。", answer: "tio̍h-ài", answer_hanji: "著愛", en: "You must drink more water."}
     - {tailo: "Bián ___.", hanji: "免___。", answer: "huân-ló", answer_hanji: "煩惱", en: "No need to worry."}

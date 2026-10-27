@@ -11,6 +11,10 @@ dialogue:
   - {n: 6, speaker: Sam, hanji: "按呢今欲按怎？", tailo: "Án-ne tann beh án-tsuánn?", en: "So what do we do now?"}
   - {n: 7, speaker: A-hun, hanji: "咱來曝日。毋過帽仔愛戴，無，會曝甲烏趖趖。", tailo: "Lán lâi pha̍k-ji̍t. M̄-koh bō-á ài tì, bô, ē pha̍k kah oo-sô-sô.", en: "Let's sunbathe. But wear a hat, or you'll get burnt to a crisp."}
   - {n: 8, speaker: Lifeguard, hanji: "遐的少年人，莫閣倚過來，緊轉來！", tailo: "Hia ê siàu-liân-lâng, mài koh uá--kuè-lâi, kín tńg--lâi!", en: "You young ones over there, don't come any closer, come back now!"}
+  - {n: 9, speaker: "Sam", hanji: "袂使泅水嘛無要緊，海邊的風景遮媠，我坐規工嘛好。", tailo: "Bē-sái siû-tsuí mā bô-iàu-kín, hái-pinn ê hong-kíng tsiah suí, guá tsē kui-kang mā hó.", en: "Never mind if we can't swim. The scenery here is so lovely, I'd happily sit here all day."}
+  - {n: 10, speaker: "A-hun", hanji: "你看，沙埔遐有一个阿伯咧掠蝦仔。", tailo: "Lí khuànn, sua-poo hia ū tsi̍t ê a-peh teh lia̍h hê-á.", en: "Look, there's an old man catching shrimps over there on the sand."}
+  - {n: 11, speaker: "Sam", hanji: "聽講遮的海底真媠。下擺湧較細，我想欲落去看覓。", tailo: "Thiann-kóng tsia ê hái-té tsin suí. Ē-pái íng khah sè, guá siūnn-beh lo̍h-khì khuànn-māi.", en: "I've heard the seabed round here is beautiful. Next time, when the waves are smaller, I want to go down and have a look."}
+  - {n: 12, speaker: "A-hun", hanji: "好啊。毋過今仔日轉去以前，你先用清水洗予清氣，無，鹹鹹閣烏趖趖，阿母會叫你莫入門！", tailo: "Hó--ah. M̄-koh kin-á-ji̍t tńg-khì í-tsîng, lí sing iōng tshing-tsuí sé hōo tshing-khì, bô, kiâm-kiâm koh oo-sô-sô, a-bú ē kiò lí mài ji̍p-mn̂g!", en: "Sure. But before we go home today, wash properly with fresh water first; otherwise, salty and burnt black, Mum won't let you in the door!"}
 notes:
   - {ref: 1, topic: vocab, text: "好天 hó-thinn = fine weather (天氣好); 歹天 pháinn-thinn = bad weather. 日頭誠大 'the sun is strong'."}
   - {ref: 2, topic: grammar, text: "踮 tiàm = stay at, be at (在、待): 踮遮 'here (and stay)'. A Taigi-only word, close to 佇 tī but with a sense of staying. 泅水 siû-tsuí = swim (游泳). 落去 'go down (into the water)'."}
@@ -20,6 +24,10 @@ notes:
   - {ref: 6, topic: vocab, text: "今 tann = now (in that case) (現在、這下): 今欲按怎？ 'so now what?'. Not 'today'. 這馬 tsit-má (lesson 2) is the neutral 'now'; 今 tann ties it to what just happened."}
   - {ref: 7, topic: vocab, text: "曝日 pha̍k-ji̍t = sunbathe, be out in the sun (曬太陽). 曝甲烏趖趖 'tanned really dark': V + 甲 + result (lesson 27), with a vivid triple adjective 烏趖趖 oo-sô-sô 'all black'. 帽仔 bō-á = hat."}
   - {ref: 8, topic: grammar, text: "倚 uá = come close, lean against (靠近). 倚過來 'come over this way'. 少年人 siàu-liân-lâng = young people. 轉來 tńg--lâi = come back (回來); 轉去 tńg-khì was 'go back'."}
+  - {ref: 9, topic: "vocab", text: "風景 hong-kíng = scenery, view: 風景真媠 'the view is lovely'."}
+  - {ref: 10, topic: "vocab", text: "沙埔 sua-poo = sandy ground, a stretch of sand (on a beach or by a river). 蝦仔 hê-á = shrimp, prawn; 掠蝦仔 'catch shrimps'."}
+  - {ref: 11, topic: "vocab", text: "海底 hái-té = the seabed, under the sea."}
+  - {ref: 12, topic: "vocab", text: "清水 tshing-tsuí = clean water, fresh water (also Qingshui, a town in Taichung). 鹹鹹 kiâm-kiâm = salty; 烏趖趖 = burnt black (line 7). 莫入門 'don't come in the door'."}
 new_words:
   - {tailo: hái-pinn, hanji: 海邊, en: "seaside, beach"}
   - {tailo: hó-thinn, hanji: 好天, en: "fine weather"}
@@ -36,6 +44,11 @@ new_words:
   - {tailo: uá, hanji: 倚, en: "come close, lean"}
   - {tailo: siàu-liân-lâng, hanji: 少年人, en: "young people"}
   - {tailo: tńg--lâi, hanji: 轉來, en: "come back"}
+  - {tailo: "hong-kíng", hanji: "風景", en: "scenery"}
+  - {tailo: "sua-poo", hanji: "沙埔", en: "sandy ground, sand"}
+  - {tailo: "hê-á", hanji: "蝦仔", en: "shrimp, prawn"}
+  - {tailo: "hái-té", hanji: "海底", en: "the seabed"}
+  - {tailo: "tshing-tsuí", hanji: "清水", en: "clean water, fresh water"}
 exercises:
   translate:
     - {tailo: "He sī siánn-mih?", hanji: "彼是啥物？", en: "What's that?"}
@@ -43,4 +56,5 @@ exercises:
   fill:
     - {tailo: "Kin-á-ji̍t ê íng tsiânn ___.", hanji: "今仔日的湧誠___。", answer: "kuân", answer_hanji: "懸", en: "The waves are really high today."}
     - {tailo: "Án-ne ___ beh án-tsuánn?", hanji: "按呢___欲按怎？", answer: "tann", answer_hanji: "今", en: "So what do we do now?"}
+    - {tailo: "Sua-poo hia ū tsi̍t ê a-peh teh lia̍h ___.", hanji: "沙埔遐有一个阿伯咧掠___。", answer: "hê-á", answer_hanji: "蝦仔", en: "There's an old man catching shrimps over there on the sand."}
 audio: []

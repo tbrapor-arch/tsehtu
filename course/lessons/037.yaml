@@ -11,6 +11,10 @@ dialogue:
   - {n: 6, speaker: A-hun, hanji: "戲內底的人講話較文，日常講話較白。", tailo: "Hì lāi-té ê lâng kóng-uē khah bûn, ji̍t-siông kóng-uē khah pe̍h.", en: "People in the show speak more literary; everyday speech is more colloquial."}
   - {n: 7, speaker: Sam, hanji: "真趣味！總是我猶是聽甲霧嗄嗄。", tailo: "Tsin tshù-bī! Tsóng--sī guá iáu-sī thiann kah bū-sà-sà.", en: "Fascinating! But I'm still completely lost."}
   - {n: 8, speaker: A-má, hanji: "莫戇矣，加看就會曉。", tailo: "Mài gōng--ah, ke khuànn tō ē-hiáu.", en: "Don't be silly. Watch more and you'll get it."}
+  - {n: 9, speaker: "Sam", hanji: "彼个穿紅衫、面紅紅的是啥人？", tailo: "Hit ê tshīng âng sann, bīn âng-âng--ê sī siánn-lâng?", en: "Who's that in red, with the red face?"}
+  - {n: 10, speaker: "A-má", hanji: "伊是一个大將軍，是英雄。烏面彼个是奸臣，專門害好人。", tailo: "I sī tsi̍t ê tuā tsiong-kun, sī ing-hiông. Oo bīn hit ê sī kan-sîn, tsuan-bûn hāi hó-lâng.", en: "He's a great general, a hero. The black-faced one is a treacherous minister who's always out to harm good people."}
+  - {n: 11, speaker: "Sam", hanji: "啊，奸臣一下出手，將軍就倒落去矣！", tailo: "Ah, kan-sîn tsi̍t-ē tshut-tshiú, tsiong-kun tō tó--lo̍h-khì--ah!", en: "Oh no, the minister has struck, and the general's gone down!"}
+  - {n: 12, speaker: "A-má", hanji: "莫驚。布袋戲攏按呢：英雄先食苦，尾仔才出頭；奸臣做歹代誌，到尾仔攏無好尾。", tailo: "Mài kiann. Pòo-tē-hì lóng án-ne: ing-hiông sing tsia̍h khóo, bué--á tsiah tshut-thâu; kan-sîn tsò pháinn tāi-tsì, kàu bué--á lóng bô hó bué.", en: "Don't worry. Puppet shows are always like this: the hero suffers first and comes out on top in the end; the villain does wicked things, and it always ends badly for him."}
 notes:
   - {ref: 1, topic: vocab, text: "布袋戲 pòo-tē-hì = glove-puppet theatre, a Taiwanese art still on TV. Also 歌仔戲 kua-á-hì, Taiwanese opera. 開始 khai-sí = start: both syllables in their literary reading."}
   - {ref: 2, topic: grammar, text: "好 hó + adjective = so, really (好快 'so fast'), as in Taiwan Mandarin. 一半 tsi̍t-puànn = half. 聽無 thiann-bô = not understand (by listening): verb + 無 = didn't get the result (lesson 33). Positive 聽有 (lesson 10)."}
@@ -20,6 +24,9 @@ notes:
   - {ref: 6, topic: grammar, text: "較文 khah bûn / 較白 khah pe̍h: 文 'literary', 白 'colloquial', used as adjectives. 內底 lāi-té = inside (裡面). 日常 ji̍t-siông = everyday."}
   - {ref: 7, topic: false-friend, text: "趣味 tshù-bī = interesting, fun (有趣). 總是 tsóng--sī = but, however (但是): a false friend, not 'always'. 霧嗄嗄 bū-sà-sà = totally confused (literally 'all fogged up'). 猶是 iáu-sī = still."}
   - {ref: 8, topic: vocab, text: "戇 gōng = silly, stupid (傻). 莫戇矣 'don't be silly'. 加 ke + verb = do more: 加看 'watch more'."}
+  - {ref: 10, topic: "culture", text: "將軍 tsiong-kun = general; 英雄 ing-hiông = hero; 奸臣 kan-sîn = a treacherous court official, the classic villain of puppet shows and opera. Faces are coded: red for loyalty, black or white for cunning. 專門 tsuan-bûn = specially, (do nothing) but; 專門害人 'always out to harm people'."}
+  - {ref: 11, topic: "vocab", text: "出手 tshut-tshiú = strike, make a move (in a fight); also 'sell off'. 倒落去 tó--lo̍h-khì = fall down."}
+  - {ref: 12, topic: "vocab", text: "食苦 tsia̍h khóo = suffer hardship ('eat bitterness'). 出頭 tshut-thâu = come out on top, make good: MOE example 人若肯拍拚，乞食也會出頭天. 無好尾 bô hó bué = come to a bad end ('no good tail')."}
 new_words:
   - {tailo: pòo-tē-hì, hanji: 布袋戲, en: "glove-puppet theatre"}
   - {tailo: khai-sí, hanji: 開始, en: "start"}
@@ -36,10 +43,17 @@ new_words:
   - {tailo: tsóng--sī, hanji: 總是, en: "but, however"}
   - {tailo: bū-sà-sà, hanji: 霧嗄嗄, en: "totally confused"}
   - {tailo: gōng, hanji: 戇, en: "silly, stupid"}
+  - {tailo: "tsiong-kun", hanji: "將軍", en: "general"}
+  - {tailo: "ing-hiông", hanji: "英雄", en: "hero"}
+  - {tailo: "kan-sîn", hanji: "奸臣", en: "treacherous minister, villain"}
+  - {tailo: "tsuan-bûn", hanji: "專門", en: "specially; do nothing but"}
+  - {tailo: "tshut-tshiú", hanji: "出手", en: "strike, make a move"}
+  - {tailo: "tshut-thâu", hanji: "出頭", en: "come out on top"}
 exercises:
   translate:
     - {tailo: "Guá ū tsi̍t-puànn thiann-bô.", hanji: "我有一半聽無。", en: "I miss half of it."}
     - {tailo: "Tsin tshù-bī!", hanji: "真趣味！", en: "Fascinating!"}
+    - {tailo: "Ing-hiông sing tsia̍h khóo, bué--á tsiah tshut-thâu.", hanji: "英雄先食苦，尾仔才出頭。", en: "The hero suffers first and comes out on top in the end."}
   fill:
     - {tailo: "___ guá iáu-sī thiann kah bū-sà-sà.", hanji: "___我猶是聽甲霧嗄嗄。", answer: "Tsóng--sī", answer_hanji: "總是", en: "But I'm still completely lost."}
     - {tailo: "Mài ___--ah.", hanji: "莫___矣。", answer: "gōng", answer_hanji: "戇", en: "Don't be silly."}

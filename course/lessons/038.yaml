@@ -11,6 +11,10 @@ dialogue:
   - {n: 6, speaker: A-bîng, hanji: "無夠閣點就好。食袂了，閣會使包轉去。", tailo: "Bô kàu koh tiám tō hó. Tsia̍h bē liáu, koh ē-sái pau tńg-khì.", en: "If it's not enough we can order more. And if we can't finish, we can take it home."}
   - {n: 7, speaker: Sam, hanji: "今仔日我請，攏總偌濟？", tailo: "Kin-á-ji̍t guá tshiánn, lóng-tsóng guā-tsē?", en: "Today it's on me. How much is it altogether?"}
   - {n: 8, speaker: Waitress, hanji: "攏總四百六十箍，多謝！", tailo: "Lóng-tsóng sì-pah la̍k-tsa̍p khoo, to-siā!", en: "Four hundred and sixty altogether, thank you!"}
+  - {n: 9, speaker: "Sam", hanji: "恁的料理遮好食，閣遮俗，敢有趁？", tailo: "Lín ê liāu-lí tsiah hó-tsia̍h, koh tsiah sio̍k, kám ū thàn?", en: "Your food is so good and so cheap. Do you make any money?"}
+  - {n: 10, speaker: "Waitress", hanji: "阮頭家講，本錢較懸淡薄無要緊，逐家食了會閣來上重要。", tailo: "Guán thâu-ke kóng, pún-tsînn khah kuân tām-po̍h bô-iàu-kín, ta̍k-ke tsia̍h liáu ē koh lâi siōng tiōng-iàu.", en: "The boss says it doesn't matter if our costs are a bit high; what matters most is that people come back."}
+  - {n: 11, speaker: "A-hun", hanji: "下擺我欲𤆬阮公司的人來，大約十个，坐會落無？", tailo: "Ē-pái guá beh tshuā guán kong-si ê lâng lâi, tāi-iok tsa̍p ê, tsē ē lo̍h--bô?", en: "Next time I'd like to bring people from my company, about ten of us. Will we fit?"}
+  - {n: 12, speaker: "Waitress", hanji: "坐會落！恁若先敲電話來，頭家會準備較豐富的料理，予恁食甲飽飽。", tailo: "Tsē ē lo̍h! Lín nā sing khà tiān-uē lâi, thâu-ke ē tsún-pī khah hong-hù ê liāu-lí, hōo lín tsia̍h kah pá-pá.", en: "You'll fit! If you call ahead, the boss will prepare a bigger spread, so you'll eat your fill."}
 notes:
   - {ref: 1, topic: vocab, text: "點菜 tiám tshài = order (food). 菜單 tshài-tuann = menu: 單 has its colloquial reading tuann here."}
   - {ref: 2, topic: false-friend, text: "小姐 sió-tsiá = Miss, the polite way to call a waitress or a young woman. It does not carry the bad connotation it can have in Mandarin. 招牌 tsiau-pâi = signboard; here 'speciality, signature dish'."}
@@ -19,6 +23,10 @@ notes:
   - {ref: 5, topic: grammar, text: "有夠 ū-kàu = enough (夠): 有夠食 'enough to eat'. 有夠 + adjective also means 'really, so' (有夠好食 'so tasty'). 無夠 bô kàu = not enough."}
   - {ref: 6, topic: grammar, text: "食袂了 tsia̍h bē liáu = can't finish (吃不完): verb + 袂 + 了. Compare 睏袂去 (lesson 12), 揣袂著 (lesson 22). 包轉去 pau tńg-khì = take away, take home (打包回去)."}
   - {ref: 7, topic: grammar, text: "我請 guá tshiánn = it's on me (lesson 7). 攏總 lóng-tsóng = altogether, in total (一共)."}
+  - {ref: 9, topic: "false-friend", text: "料理 liāu-lí = dishes, cooking (from Japanese 料理); as a verb it also means 'deal with, sort out', which is closer to its old Chinese sense. 有趁 ū thàn 'make a profit'."}
+  - {ref: 10, topic: "vocab", text: "本錢 pún-tsînn = cost, capital (the money you put in). 重要 = important (lesson 10)."}
+  - {ref: 11, topic: "vocab", text: "大約 tāi-iok = about, roughly. 坐會落 tsē ē lo̍h = have enough room to sit ('can sit down in'); 坐袂落 'there isn't room'."}
+  - {ref: 12, topic: "vocab", text: "豐富 hong-hù = rich, plentiful, varied: 豐富的料理 'a lavish spread'."}
 new_words:
   - {tailo: tshài-tuann, hanji: 菜單, en: "menu"}
   - {tailo: sió-tsiá, hanji: 小姐, en: "Miss (to a waitress)"}
@@ -31,6 +39,10 @@ new_words:
   - {tailo: ū-kàu, hanji: 有夠, en: "enough; really"}
   - {tailo: tiám, hanji: 點, en: "order (food)"}
   - {tailo: lóng-tsóng, hanji: 攏總, en: "altogether"}
+  - {tailo: "liāu-lí", hanji: "料理", en: "dishes, cooking; deal with"}
+  - {tailo: "pún-tsînn", hanji: "本錢", en: "cost, capital"}
+  - {tailo: "tāi-iok", hanji: "大約", en: "about, roughly"}
+  - {tailo: "hong-hù", hanji: "豐富", en: "rich, plentiful"}
 exercises:
   translate:
     - {tailo: "Lín tsia ê tsiau-pâi sī siánn?", hanji: "恁遮的招牌是啥？", en: "What's your speciality here?"}
@@ -38,4 +50,5 @@ exercises:
   fill:
     - {tailo: "___ guā-tsē?", hanji: "___偌濟？", answer: "Lóng-tsóng", answer_hanji: "攏總", en: "How much altogether?"}
     - {tailo: "Án-ne kám ___ tsia̍h?", hanji: "按呢敢___食？", answer: "ū-kàu", answer_hanji: "有夠", en: "Will that be enough?"}
+    - {tailo: "Ē-pái guá beh tshuā guán kong-si ê lâng lâi, ___ tsa̍p ê.", hanji: "下擺我欲𤆬阮公司的人來，___十个。", answer: "tāi-iok", answer_hanji: "大約", en: "Next time I'd like to bring about ten people from my company."}
 audio: []
