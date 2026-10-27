@@ -111,10 +111,13 @@ exercises:
     - {tailo: "Tsa-bóo gín-á kāng-khuán beh tshuē tsi̍t ê hó-lé, ū tsâi-tiāu ê lâng.", hanji: "查某囡仔仝款欲揣一个好禮、有才調的人。", en: "Girls still want someone polite and capable."}
     - {tailo: "Ang-á-bóo m̄-thang kah pa̍t-lâng pí-phīng.", hanji: "翁仔某毋通佮別人比並。", en: "A couple mustn't compare themselves with others."}
     - {tailo: "Ē-tàng kú-tn̂g ia̍h bē, ài khò lín ka-kī.", hanji: "會當久長抑袂，愛靠恁家己。", en: "Whether it lasts is up to you."}
+    - {tailo: "I senn-tsò tsin iân-tâu, koh tsin ū lâng-iân.", hanji: "伊生做真緣投，閣真有人緣。", en: "He's very handsome, and very well liked."}
+    - {tailo: "Hiān-tshú-sî ê siàu-liân-lâng khah tsió khò muê-lâng.", hanji: "現此時的少年人較少靠媒人。", en: "Young people nowadays rarely rely on matchmakers."}
   fill:
     - {tailo: "Guá tsa̍p-peh huè ___, jī-tsa̍p-gōo huè khai-sí tsò muê-lâng.", hanji: "我十八歲___，二十五歲開始做媒人。", answer: "kè-ang", answer_hanji: "嫁翁", en: "I married at eighteen and started matchmaking at twenty-five."}
     - {tailo: "Tsa-bóo gín-á thâu lóng lê-lê, kan-na iōng ___ thau khuànn.", hanji: "查某囡仔頭攏犁犁，干焦用___偷看。", answer: "ba̍k-bué", answer_hanji: "目尾", en: "The girls kept their heads down and only stole glances from the corner of their eye."}
     - {tailo: "Siàu-liân-lâng ___ iōng tshiú-ki-á tshuē tuì-siōng.", hanji: "少年人___用手機仔揣對象。", answer: "sî-kiânn", answer_hanji: "時行", en: "It's the fashion for young people to find partners on their phones."}
     - {tailo: "Muê-lâng kā i kóng tsa-poo--ê tsin ___.", hanji: "媒人共伊講查埔的真___。", answer: "iân-tâu", answer_hanji: "緣投", en: "The matchmaker told her the man was very handsome."}
     - {tailo: "Sin-lông the̍h ___ kā sin-niû tì.", hanji: "新郎提___共新娘戴。", answer: "tshiú-tsí", answer_hanji: "手指", en: "The groom puts the ring on the bride."}
+    - {tailo: "Guá ê a-hiann tsiok ___, kui kang lóng tó tī bîn-tshn̂g.", hanji: "我的阿兄足___，規工攏倒佇眠床。", answer: "pîn-tuānn", answer_hanji: "貧惰", en: "My older brother is so lazy, he lies in bed all day."}
 audio: []

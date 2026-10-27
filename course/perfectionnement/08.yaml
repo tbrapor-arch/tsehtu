@@ -106,10 +106,13 @@ exercises:
     - {tailo: "Hó-nî-tang kè-siàu tō pháinn, pháinn-nî-tang siu-sîng tō tsió.", hanji: "好年冬價數就歹，歹年冬收成就少。", en: "In a good year the price is bad, in a bad year the harvest is small."}
     - {tailo: "Tsit ê gue̍h í-king sī tē-sann pái, ta̍k-ke àm-sî lóng khùn bē lo̍h-bîn.", hanji: "這个月已經是第三擺，逐家暗時攏睏袂落眠。", en: "It's the third time this month, and nobody can sleep soundly at night."}
     - {tailo: "Tsit ê su-ki lim-tsiú-tsuì sái-tshia.", hanji: "這个司機啉酒醉駛車。", en: "This driver was driving drunk."}
+    - {tailo: "Hân-liû lâi--ah, tshut-mn̂g ài uî uî-kin.", hanji: "寒流來矣，出門愛圍圍巾。", en: "A cold wave is coming; wear a scarf when you go out."}
+    - {tailo: "Hó-hó ê tshài bô lâng tsia̍h, si̍t-tsāi tsin phah-sńg.", hanji: "好好的菜無人食，實在真拍損。", en: "Good food left uneaten, what a waste."}
   fill:
     - {tailo: "Kui-ê Tâi-uân ___.", hanji: "規个臺灣___。", answer: "líng-ki-ki", answer_hanji: "冷吱吱", en: "The whole of Taiwan is freezing."}
     - {tailo: "Àm-sî khùn ê sî ___ ài kah hōo sio.", hanji: "暗時睏的時___愛蓋予燒。", answer: "mî-tsioh-phuē", answer_hanji: "棉襀被", en: "Keep well tucked up under the quilt at night."}
     - {tailo: "Thn̂g-tshiúnn siu ê kè-siàu pí kū-nî tsió sann ___.", hanji: "糖廠收的價數比舊年少三___。", answer: "siânn", answer_hanji: "成", en: "The mill is paying thirty per cent less than last year."}
     - {tailo: "Tâi-lâm tsi̍t king Thóo-tī-kong biō-á, tsa-hng puànn-mê ___.", hanji: "臺南一間土地公廟仔，昨昏半暝___。", answer: "tio̍h-tsha̍t-thau", answer_hanji: "著賊偷", en: "A small Earth God temple in Tainan was burgled in the middle of last night."}
     - {tailo: "I tī phài-tshut-sóo í-king ___.", hanji: "伊佇派出所已經___。", answer: "jīn-tsuē", answer_hanji: "認罪", en: "He has confessed at the police station."}
+    - {tailo: "Àm-sî ài lim tsi̍t pue ___ tsiah khùn.", hanji: "暗時愛啉一杯___才睏。", answer: "sio-tsuí", answer_hanji: "燒水", en: "Have a glass of hot water before going to bed."}
 audio: []

@@ -89,10 +89,13 @@ exercises:
     - {tailo: "Lâu-thui sī tô-sing ê lōo, m̄-thang khǹg mi̍h-kiānn tòng lōo.", hanji: "樓梯是逃生的路，毋通囥物件擋路。", en: "The stairs are the escape route: don't leave things there blocking the way."}
     - {tailo: "I hīnn-khang-tāng, ka-kī thiann bô guā tuā-siann.", hanji: "伊耳空重，家己聽無偌大聲。", en: "He's hard of hearing, so to him it doesn't sound very loud."}
     - {tailo: "Guán ê sann jú pha̍k jú tâm!", hanji: "阮的衫愈曝愈澹！", en: "The longer our clothes dry, the wetter they get!"}
+    - {tailo: "Guá ê só-sî phah-bô--khì--ah, ji̍p bē khì.", hanji: "我的鎖匙拍無去矣，入袂去。", en: "I've lost my key, I can't get in."}
+    - {tailo: "Ta̍k-ke lóng ài tsun-siú kui-tīng.", hanji: "逐家攏愛遵守規定。", en: "Everyone has to follow the rules."}
   fill:
     - {tailo: "Kuán-lí-huì ta̍k kò gue̍h tsa̍p hō í-tsîng ài ___.", hanji: "管理費逐個月十號以前愛___。", answer: "kiáu", answer_hanji: "繳", en: "Service charges are due by the 10th of each month."}
     - {tailo: "Tshut-ji̍p ài iōng ___ khan.", hanji: "出入愛用___牽。", answer: "liān-á", answer_hanji: "鍊仔", en: "Keep (dogs) on a lead when coming and going."}
     - {tailo: "Tshit--gue̍h phóo-tōo, ___ tshiánn tī lâu-kha ê kim-lôo sio.", hanji: "七月普渡，___請佇樓跤的金爐燒。", answer: "sio-kim", answer_hanji: "燒金", en: "During the ghost-month offerings, please burn paper money in the burner downstairs."}
     - {tailo: "Sī tsi̍t ki âng-sik--ê. Nā-sī ū lâng ___, tshiánn sàng lâi tshit-khòng-jī.", hanji: "是一支紅色的。若是有人___，請送來七〇二。", answer: "khioh--tio̍h", answer_hanji: "抾著", en: "It's a red one. If anyone finds it, please bring it to 702."}
     - {tailo: "Ta̍k-ke ___.", hanji: "逐家___。", answer: "líng-tsīng", answer_hanji: "冷靜", en: "Calm down, everyone."}
+    - {tailo: "Tsuí-kóng phuà--khì, tsuí it-ti̍t ___.", hanji: "水管破去，水一直___。", answer: "tih", answer_hanji: "滴", en: "The water pipe is broken and keeps dripping."}
 audio: []

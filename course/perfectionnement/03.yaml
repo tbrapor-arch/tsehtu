@@ -107,10 +107,13 @@ exercises:
     - {tailo: "A-má ê thâu-mn̂g í-king pe̍h--liáu-liáu--ah.", hanji: "阿媽的頭毛已經白了了矣。", en: "My hair has gone completely white."}
     - {tailo: "Guán thiànn A-bîng, tong-jiân mā thiànn Bí-lîng.", hanji: "阮疼阿明，當然嘛疼美玲。", en: "We love A-bîng, so of course we love Bí-lîng too."}
     - {tailo: "Lí hán-tit khà tiān-uē tńg--lâi.", hanji: "你罕得敲電話轉來。", en: "You seldom phone home."}
+    - {tailo: "Kū-nî jua̍h-thinn, guá kap a-hiann khì hái-pinn siû-tsuí.", hanji: "舊年熱天，我佮阿兄去海邊泅水。", en: "Last summer I went swimming at the beach with my older brother."}
+    - {tailo: "Guá ê ba̍k-kiànn phah-m̄-kìnn--ah.", hanji: "我的目鏡拍毋見矣。", en: "I've lost my glasses."}
   fill:
     - {tailo: "Guā-kháu ê mi̍h-kiānn khah kiâm khah iû, lí ài ___.", hanji: "外口的物件較鹹較油，你愛___。", answer: "tiunn-tî", answer_hanji: "張持", en: "Food from outside is saltier and greasier, so be careful."}
     - {tailo: "Guán nn̄g ê lāu--ê lóng tsin ___.", hanji: "阮兩个老的攏真___。", answer: "ióng-kiānn", answer_hanji: "勇健", en: "We two old folk are both hale and hearty."}
     - {tailo: "Kiò guá mài siunn ___.", hanji: "叫我莫傷___。", answer: "khuà-sim", answer_hanji: "掛心", en: "He tells me not to fret so much."}
     - {tailo: "Ke-kang ta̍k-kang thàu-tsá tī thang-á guā-kháu ___.", hanji: "雞公逐工透早佇窗仔外口___。", answer: "thî", answer_hanji: "啼", en: "The rooster crows outside the window every morning."}
     - {tailo: "A-bîng kah Bí-lîng ê ___ í-king kíng hó--ah.", hanji: "阿明佮美玲的___已經揀好矣。", answer: "hó-ji̍t", answer_hanji: "好日", en: "A-bîng and Bí-lîng have chosen their wedding day."}
+    - {tailo: "Lí tsi̍t ê lâng tī guā-kháu, ài ___.", hanji: "你一个人佇外口，愛___。", answer: "tiunn-tî", answer_hanji: "張持", en: "You're on your own out there, so be careful."}
 audio: []

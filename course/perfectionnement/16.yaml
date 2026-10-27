@@ -85,10 +85,13 @@ exercises:
     - {tailo: "Sîn-bîng senn-ji̍t, biō tō tshiánn hì-pan lâi.", hanji: "神明生日，廟就請戲班來。", en: "On a god's birthday the temple hires a troupe."}
     - {tailo: "Tsò tsit tôo, ài ē thun-lún.", hanji: "做這途，愛會吞忍。", en: "In this line of work you have to learn to bear things."}
     - {tailo: "Kua-á-hì m̄ sī kóo-tsá ê mi̍h-kiānn, i sī ua̍h--ê.", hanji: "歌仔戲毋是古早的物件，伊是活的。", en: "Taiwanese opera isn't a thing of the past: it's alive."}
+    - {tailo: "Guán a-má sè-hàn kah-ì khuànn kua-á-hì.", hanji: "阮阿媽細漢佮意看歌仔戲。", en: "As a child my grandma loved watching Taiwanese opera."}
+    - {tailo: "Tsit ê su-hū ê tshiú-lōo tsin hó.", hanji: "這个師父的手路真好。", en: "This master's craftsmanship is excellent."}
   fill:
     - {tailo: "Khah-tsá lí lóng ___ siánn-mih kak-sik?", hanji: "較早你攏___啥物角色？", answer: "pān", answer_hanji: "扮", en: "What roles did you play in the early days?"}
     - {tailo: "Kua-á-hì kah pòo-tē-hì ū siánn-mih ___?", hanji: "歌仔戲佮布袋戲有啥物___？", answer: "tsing-tsha", answer_hanji: "精差", en: "What's the difference between Taiwanese opera and puppetry?"}
     - {tailo: "Thiann--tio̍h tsin ___.", hanji: "聽著真___。", answer: "sim-sng", answer_hanji: "心酸", en: "That's heartbreaking to hear."}
     - {tailo: "Kua-á-hì sī ___ ê gē-su̍t.", hanji: "歌仔戲是___的藝術。", answer: "bîn-kan", answer_hanji: "民間", en: "Taiwanese opera is a folk art."}
     - {tailo: "Tsit-má kám ū siu ___?", hanji: "這馬敢有收___？", answer: "tôo-tē", answer_hanji: "徒弟", en: "Do you take pupils now?"}
+    - {tailo: "Àm-sî ê ___ tī biō-tiânn.", hanji: "暗時的___佇廟埕。", answer: "piáu-ián", answer_hanji: "表演", en: "The evening performance is in the temple square."}
 audio: []

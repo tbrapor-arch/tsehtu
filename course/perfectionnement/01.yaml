@@ -81,10 +81,13 @@ exercises:
     - {tailo: "Pài-la̍k nā ū-îng, lán sio-tsio khì Pak-tâu sé un-tsuânn.", hanji: "拜六若有閒，咱相招去北投洗溫泉。", en: "If you're free on Saturday, let's all go to the hot springs in Beitou."}
     - {tailo: "Lí nā tī tshài-tshī-á kóng m̄-tio̍h, thâu-ke mā sī tsiàu-siông bē--lí.", hanji: "你若佇菜市仔講毋著，頭家嘛是照常賣你。", en: "If you say it wrong at the market, the stallholder will sell to you all the same."}
     - {tailo: "Ē-káng lâng kóng-uē, si̍t-tsāi ū-kàu sim-sik.", hanji: "下港人講話，實在有夠心適。", en: "The way people talk down south is such fun."}
+    - {tailo: "I tsiok ài phòng-hong, kóng i ê tshù pí tuā-lâu koh-khah kuân.", hanji: "伊足愛膨風，講伊的厝比大樓閣較懸。", en: "He loves to brag: he says his house is taller than a tower block."}
+    - {tailo: "Lí mài hiah tshìn-tshái, siá jī ài siá hōo hó.", hanji: "你莫遐凊彩，寫字愛寫予好。", en: "Don't be so careless, write your characters properly."}
   fill:
     - {tailo: "Lí mài tī hia ___.", hanji: "你莫佇遐___。", answer: "phòng-hong", answer_hanji: "膨風", en: "Stop showing off."}
     - {tailo: "Guá tńg--lâi Tâi-pak liáu-āu, kám-kak tsiânn ___.", hanji: "我轉來臺北了後，感覺誠___。", answer: "hi-bî", answer_hanji: "稀微", en: "Since I came back to Taipei I've felt rather lonely."}
     - {tailo: "“Gún” tsiah sī ___--ê!", hanji: "「gún」才是___的！", answer: "tsiànn-káng", answer_hanji: "正港", en: "'Gún' is the real thing!"}
     - {tailo: "Lí ___ tō ē tsai.", hanji: "你___就會知。", answer: "ta̍uh-ta̍uh-á", answer_hanji: "沓沓仔", en: "You'll find out bit by bit."}
     - {tailo: "___, lí m̄ sī ū guán nn̄g ê?", hanji: "___，你毋是有阮兩个？", answer: "Bān-tshiánn", answer_hanji: "慢且", en: "Hang on, haven't you got the two of us?"}
+    - {tailo: "Guá ê pîng-iú tsiok ___, ta̍k-ke lóng ài kap i kau-puê.", hanji: "我的朋友足___，逐家攏愛佮伊交陪。", answer: "hònn-kheh", answer_hanji: "好客", en: "My friend is very hospitable; everyone likes being friends with him."}
 audio: []

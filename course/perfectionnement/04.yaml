@@ -105,10 +105,13 @@ exercises:
     - {tailo: "Guán khiâ thih-bé kuè pōng-khang, lóng m̄ kánn ua̍t-thâu.", hanji: "阮騎鐵馬過磅空，攏毋敢越頭。", en: "We rode our bikes through the tunnel and never dared look back."}
     - {tailo: "Sió-tī kiânn bô lōo tō beh lâng āinn.", hanji: "小弟行無路就欲人偝。", en: "As soon as my little brother got tired he wanted a piggyback."}
     - {tailo: "I kiò-sī hué-kim-koo sī kòo-sū-tsheh lāi-té tsiah ū ê mi̍h-kiānn.", hanji: "伊叫是火金蛄是故事冊內底才有的物件。", en: "He thought fireflies only existed in storybooks."}
+    - {tailo: "Àm-sî thinn-tíng ê tshenn tsi̍t sih tsi̍t sih.", hanji: "暗時天頂的星一爍一爍。", en: "At night the stars twinkle in the sky."}
+    - {tailo: "Tsia̍h-pá àm-tǹg, guán tsò-hué khì sàn-pōo.", hanji: "食飽暗頓，阮做伙去散步。", en: "After supper we go for a walk together."}
   fill:
     - {tailo: "Kui-tīn lâng gia̍h-thâu khuànn, ___.", hanji: "規陣人攑頭看，___。", answer: "tshiò-hai-hai", answer_hanji: "笑咍咍", en: "We all looked up and laughed out loud."}
     - {tailo: "Báng-á kui-tīn pue--lâi, ___ kah guán kui-sin-khu lóng sī.", hanji: "蠓仔規陣飛來，___甲阮規身軀攏是。", answer: "tìng", answer_hanji: "叮", en: "The mosquitoes came in swarms and bit us all over."}
     - {tailo: "Guán hāu-senn kin-nî tsa̍p huè, i ___ hué-kim-koo sī kòo-sū-tsheh lāi-té tsiah ū ê.", hanji: "阮後生今年十歲，伊___火金蛄是故事冊內底才有的。", answer: "kiò-sī", answer_hanji: "叫是", en: "My son is ten this year, and he thought fireflies only existed in storybooks."}
     - {tailo: "Ji̍t-thâu ___, tuā-lâng lóng tī tshiū-á-kha hioh-khùn.", hanji: "日頭___，大人攏佇樹仔跤歇睏。", answer: "tshiah-iānn-iānn", answer_hanji: "赤焱焱", en: "With the sun blazing, the grown-ups rested under the trees."}
     - {tailo: "Guá ê hong-tshue hōo hong tshue kah tn̄g--khì, guá tsáu khì ___.", hanji: "我的風吹予風吹甲斷去，我走去___。", answer: "jiok", answer_hanji: "逐", en: "The wind snapped my kite's string, and I ran after it."}
+    - {tailo: "Tsa-àm ___ tìng kah guá bē khùn.", hanji: "昨暗___叮甲我袂睏。", answer: "báng-á", answer_hanji: "蠓仔", en: "Last night the mosquitoes bit me so much I couldn't sleep."}
 audio: []

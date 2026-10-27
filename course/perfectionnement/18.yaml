@@ -89,10 +89,13 @@ exercises:
     - {tailo: "Ha̍k-būn tī tsheh lāi-té, tì-huī tī sing-ua̍h lāi-té.", hanji: "學問佇冊內底，智慧佇生活內底。", en: "Knowledge is in books, but wisdom is in life."}
     - {tailo: "Guá tsin huâi-liām hit-tsūn, ta̍k-kang lóng tsin tsū-tsāi.", hanji: "我真懷念彼陣，逐工攏真自在。", en: "I really miss those days: I was carefree every day."}
     - {tailo: "Guá tō kám-kak tsit tsa̍p tang tsiânn ta̍t-tit.", hanji: "我就感覺這十冬誠值得。", en: "I'll feel these ten years were well worth it."}
+    - {tailo: "Guá ê kong-khò iáu-buē siá liáu.", hanji: "我的功課猶未寫了。", en: "I haven't finished my homework yet."}
+    - {tailo: "Pit-gia̍p liáu-āu, guá siūnn-beh khì sè-kài lí-hîng.", hanji: "畢業了後，我想欲去世界旅行。", en: "After graduating I want to travel the world."}
   fill:
     - {tailo: "Tsit-má guá ê ___ tsin tuā.", hanji: "這馬我的___真大。", answer: "ap-li̍k", answer_hanji: "壓力", en: "I'm under a lot of pressure right now."}
     - {tailo: "Àm-sî koh ài khì ___.", hanji: "暗時閣愛去___。", answer: "póo-si̍p", answer_hanji: "補習", en: "Then I have cram school at night."}
     - {tailo: "Guá í-king hē ___--ah.", hanji: "我已經下___矣。", answer: "kuat-sim", answer_hanji: "決心", en: "I've made up my mind."}
     - {tailo: "Lí bat tsiah-nī jīn-tsin ___ tsi̍t ê bāng.", hanji: "你捌遮爾認真___一个夢。", answer: "tui-kiû", answer_hanji: "追求", en: "You once chased a dream this seriously."}
     - {tailo: "Guá bô ___ kuè-khì.", hanji: "我無___過去。", answer: "liû-luân", answer_hanji: "留戀", en: "I don't cling to the past."}
+    - {tailo: "Guá ê tông-ha̍k tsit-má tī Tâi-pak tha̍k ___.", hanji: "我的同學這馬佇臺北讀___。", answer: "ko-tiong", answer_hanji: "高中", en: "My classmate is now at senior high school in Taipei."}
 audio: []

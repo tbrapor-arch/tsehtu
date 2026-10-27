@@ -81,10 +81,13 @@ exercises:
     - {tailo: "Tshù-pinn lóng kóng lí í-king piàn-sim.", hanji: "厝邊攏講你已經變心。", en: "The neighbours all say your heart has changed."}
     - {tailo: "Thâu-mn̂g pe̍h--ah, guá iu-guân tī tsia.", hanji: "頭毛白矣，我猶原佇遮。", en: "My hair has turned white, and still I am here."}
     - {tailo: "Guá ê sim iu-guân pàng bē sak.", hanji: "我的心猶原放袂捒。", en: "My heart still cannot let him go."}
+    - {tailo: "Hông-hun ê sî, guán tī bé-thâu sàn-pōo.", hanji: "黃昏的時，阮佇碼頭散步。", en: "At dusk we stroll along the quay."}
+    - {tailo: "I lī-khui kòo-hiong, tī thann-hiong liû-lōng tsa̍p tang.", hanji: "伊離開故鄉，佇他鄉流浪十冬。", en: "He left his home town and wandered in foreign lands for ten years."}
   fill:
     - {tailo: "Guá ___ tī tsia, tán-hāu lí ê tsûn.", hanji: "我___佇遮，等候你的船。", answer: "kian-sim", answer_hanji: "堅心", en: "I stand here, unwavering, waiting for your ship."}
     - {tailo: "Tshiánn lí thè guá, ___ i tńg--lâi ê lōo.", hanji: "請你替我，___伊轉來的路。", answer: "tsiò", answer_hanji: "照", en: "Light the way home for him, for me."}
     - {tailo: "Po̍k-tsîng ê lâng ah, lí kám hiah ___?", hanji: "薄情的人啊，你敢遐___？", answer: "hiau-hīng", answer_hanji: "僥倖", en: "Oh faithless one, could you really be so heartless?"}
     - {tailo: "Tshi-tsîng ê guá, ___ mā teh tán.", hanji: "痴情的我，___嘛咧等。", answer: "bîn-bāng", answer_hanji: "眠夢", en: "Lovesick, I wait for you even in my dreams."}
     - {tailo: "Gue̍h-niû tshut--lâi--ah, ___ koh hi-bî.", hanji: "月娘出來矣，___閣稀微。", answer: "bū-bū", answer_hanji: "霧霧", en: "The moon has risen, hazy and forlorn."}
+    - {tailo: "Guá bô tsah ba̍k-kiànn, khuànn mi̍h-kiānn ___.", hanji: "我無紮目鏡，看物件___。", answer: "bū-bū", answer_hanji: "霧霧", en: "I didn't bring my glasses, everything looks blurry."}
 audio: []

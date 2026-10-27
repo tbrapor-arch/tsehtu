@@ -89,10 +89,13 @@ exercises:
     - {tailo: "I bîng-bîng kah guá kāng-khuán sī sió tsit-uân.", hanji: "伊明明佮我仝款是小職員。", en: "He's clearly a junior employee, same as me."}
     - {tailo: "Guá siōng bô kah-ì hi-hua ê lâng.", hanji: "我上無佮意虛華的人。", en: "What I dislike most is people who put on airs."}
     - {tailo: "Āu lé-pài lán koh siong-huē.", hanji: "後禮拜咱閣相會。", en: "Let's meet again the week after next."}
+    - {tailo: "Guán a-hiann sī tiān-náu kang-tîng-su.", hanji: "阮阿兄是電腦工程師。", en: "My older brother is a computer engineer."}
+    - {tailo: "I bîng-bîng tsai-iánn, koh ké-iánn m̄ tsai.", hanji: "伊明明知影，閣假影毋知。", en: "He clearly knows, but pretends he doesn't."}
   fill:
     - {tailo: "Lí kin-á-ji̍t tshīng-tshah tsiah ___.", hanji: "你今仔日穿插遮___。", answer: "phiau-phiat", answer_hanji: "飄撇", en: "You're very smartly turned out today."}
     - {tailo: "A-ióng, lí ê ___ sī siánn-mih?", hanji: "阿勇，你的___是啥物？", answer: "tsit-gia̍p", answer_hanji: "職業", en: "A-ióng, what do you do for a living?"}
     - {tailo: "Lí tsit ê lâng tsin ___.", hanji: "你這个人真___。", answer: "sam-pat", answer_hanji: "三八", en: "You're such a goof."}
     - {tailo: "Lí tsiàu-si̍t kóng, guá bô ___.", hanji: "你照實講，我無___。", answer: "khì-hiâm", answer_hanji: "棄嫌", en: "If you tell the truth, I don't mind at all."}
     - {tailo: "Guá it-tīng ē ___ kah hó-sè hó-sè!", hanji: "我一定會___甲好勢好勢！", answer: "tsio-hoo", answer_hanji: "招呼", en: "I'll look after you all perfectly!"}
+    - {tailo: "Mài ___ sió-tī, i iáu-koh sè-hàn.", hanji: "莫___小弟，伊猶閣細漢。", answer: "khi-hū", answer_hanji: "欺負", en: "Don't pick on your little brother, he's still small."}
 audio: []

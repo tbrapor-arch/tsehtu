@@ -48,10 +48,13 @@ exercises:
     - {tailo: "Lāu tsi̍t puè ê lâng tshing-hoo tsia tsò “Lîng-gíng-kha”.", hanji: "老一輩的人稱呼遮做「龍眼腳」。", en: "The old folk called this place 'Longan Foot'."}
     - {tailo: "Hit-tang-tsūn biō-kháu tah hì-pênn, a-má lóng tsáu khì khuànn.", hanji: "彼當陣廟口搭戲棚，阿媽攏走去看。", en: "Back then, whenever a stage went up outside the temple, I'd run off to watch."}
     - {tailo: "Lí sing mài koh hau-siâu, huān-sè tō ū ki-huē.", hanji: "你先莫閣嘐潲，凡勢就有機會。", en: "Stop bragging first, and maybe you'll have a chance."}
+    - {tailo: "Lîng-gíng khui-hue ê sî, sì-pinn lóng tsin phang.", hanji: "龍眼開花的時，四邊攏真芳。", en: "When the longan trees blossom, it smells lovely all around."}
+    - {tailo: "I tuì-khuànn ê sî siunn kín-tiunn, lóng m̄ kánn tshut-siann.", hanji: "伊對看的時傷緊張，攏毋敢出聲。", en: "At the blind date he was so nervous he didn't dare say a word."}
   fill:
     - {tailo: "Tsò tāi-tsì ài ū ___.", hanji: "做代誌愛有___。", answer: "tam-tng", answer_hanji: "擔當", en: "Take responsibility for what you do."}
     - {tailo: "Mài lim siunn tsē, ___ lín bîn-á-tsài khí bē lâi.", hanji: "莫啉傷濟，___恁明仔載起袂來。", answer: "khióng-kiann", answer_hanji: "恐驚", en: "Don't drink too much, I'm afraid you won't be able to get up tomorrow."}
     - {tailo: "Guá khah ___--i--ah.", hanji: "我較___伊矣。", answer: "lí-kái", answer_hanji: "理解", en: "I understand her better."}
     - {tailo: "Lóng sī a-má sè-hàn ê ___.", hanji: "攏是阿媽細漢的___。", answer: "kì-hō", answer_hanji: "記號", en: "They're all marks of my childhood."}
     - {tailo: "Tsiok lín siàu-liân-lâng ta̍k-ke ___!", hanji: "祝恁少年人逐家___！", answer: "uân-buán", answer_hanji: "圓滿", en: "Here's to all you young people, may everything turn out well!"}
+    - {tailo: "I ê sîng-tsik bô hó, m̄-koh i ū ___.", hanji: "伊的成績無好，毋過伊有___。", answer: "kuat-sim", answer_hanji: "決心", en: "His marks aren't good, but he's determined."}
 audio: []

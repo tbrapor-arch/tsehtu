@@ -105,10 +105,13 @@ exercises:
     - {tailo: "Tī pak-pōo, ū tsi̍t uī bo̍k-su siōng tshut-miâ--ê sī kā lâng bán tshuì-khí.", hanji: "佇北部，有一位牧師上出名的是共人挽喙齒。", en: "In the north, one missionary was best known for pulling people's teeth."}
     - {tailo: "Tsit kuá bûn-hiàn, tsit-má sī gián-kiù Tâi-gí ê pó-puè.", hanji: "這寡文獻，這馬是研究台語的寶貝。", en: "These documents are now a treasure for anyone studying Taigi."}
     - {tailo: "Lí nā o̍h ē-hiáu Tâi-lô, khuànn Pe̍h-uē-jī ê kóo-tsheh mā bē huì-khì.", hanji: "你若學會曉 Tâi-lô，看白話字的古冊嘛袂費氣。", en: "Once you've learnt Tâi-lô, old books in Pe̍h-uē-jī won't give you much trouble."}
+    - {tailo: "Tsit pún sió-suat sī īng Pe̍h-uē-jī siá--ê.", hanji: "這本小說是用白話字寫的。", en: "This novel is written in Pe̍h-uē-jī."}
+    - {tailo: "Guán a-tsóo hit-sî sī tshenn-mê-gû, m̄ bat jī.", hanji: "阮阿祖彼時是青盲牛，毋捌字。", en: "Back then my great-grandmother was illiterate; she couldn't read."}
   fill:
     - {tailo: "Kan-na ū-tsînn-lâng ê ___ ū huat-tōo khì o̍h-tn̂g tha̍k-tsheh.", hanji: "干焦有錢人的___有法度去學堂讀冊。", answer: "gín-á-tsai", answer_hanji: "囡仔栽", en: "Only the children of the well-off could go to school."}
     - {tailo: "Ū lâng iōng Pe̍h-uē-jī ___ kui pún sìng-king.", hanji: "有人用白話字___規本聖經。", answer: "huan-i̍k", answer_hanji: "翻譯", en: "The whole Bible was translated into Pe̍h-uē-jī."}
     - {tailo: "Tsìng-hú koh ___ iōng Lô-má-jī siá ê sìng-king.", hanji: "政府閣___用羅馬字寫的聖經。", answer: "kìm-tsí", answer_hanji: "禁止", en: "The government even banned Bibles written in romanisation."}
     - {tailo: "Tâi-lô sī ___ Pe̍h-uē-jī kái-liông--ê.", hanji: "Tâi-lô 是___白話字改良的。", answer: "kin-kì", answer_hanji: "根據", en: "Tâi-lô is an improved version of Pe̍h-uē-jī."}
     - {tailo: "Lô-má-jī koh piàn-tsò siōng ___ ê siá-huat.", hanji: "羅馬字閣變做上___的寫法。", answer: "lī-piān", answer_hanji: "利便", en: "Romanisation has once again become the handiest way to write."}
+    - {tailo: "Tsit tiunn phue guá kā lí ___ tsò Huâ-gí.", hanji: "這張批我共你___做華語。", answer: "huan-i̍k", answer_hanji: "翻譯", en: "I'll translate this letter into Mandarin for you."}
 audio: []

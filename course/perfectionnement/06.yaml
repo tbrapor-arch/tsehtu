@@ -110,10 +110,13 @@ exercises:
     - {tailo: "Tuā pún--ê khǹg ē-té, sè pún--ê khǹg tíng-bīn.", hanji: "大本的囥下底，細本的囥頂面。", en: "Big ones at the bottom, small ones on top."}
     - {tailo: "Lán kā tsheh-tû suá khì pinn--á.", hanji: "咱共冊櫥徙去邊仔。", en: "Let's shift the bookcase to one side."}
     - {tailo: "Sóo-huì guá tshut, guá koh bé tsi̍t kan hōo--lí.", hanji: "所費我出，我閣買一矸予你。", en: "I'll pay for it. I'll buy you another bottle."}
+    - {tailo: "Kuè-nî tsìn-tsîng, guán tau lóng ē tuā-piànn-sàu.", hanji: "過年進前，阮兜攏會大摒掃。", en: "Before New Year my family always does a big clean-up."}
+    - {tailo: "Ka-to khǹg tī thuah-á lāi-té.", hanji: "鉸刀囥佇屜仔內底。", en: "The scissors are in the drawer."}
   fill:
     - {tailo: "Toh-tíng tsá tō khǹg kah ___--ah.", hanji: "桌頂早就囥甲___矣。", answer: "tīnn", answer_hanji: "滇", en: "The table's been piled full for ages."}
     - {tailo: "Lāi-té iáu ___ tsi̍t-puànn!", hanji: "內底猶___一半！", answer: "tshun", answer_hanji: "賰", en: "There was still half of it left!"}
     - {tailo: "Guá kui-sin-khu ê ___ lóng iōng--liáu-liáu--ah.", hanji: "我規身軀的___攏用了了矣。", answer: "khuì-la̍t", answer_hanji: "氣力", en: "I've used up all my strength."}
     - {tailo: "Guá kā lí tsi̍t kan tsiú ___--khì--ah.", hanji: "我共你一矸酒___去矣。", answer: "phah-phuà", answer_hanji: "拍破", en: "I've broken one of your bottles."}
     - {tailo: "Tsi̍t tǹg àm-tǹg bô ___--ooh.", hanji: "一頓暗頓無___喔。", answer: "kàu-gia̍h", answer_hanji: "夠額", en: "One dinner isn't enough, mind."}
+    - {tailo: "Guá ê pâng-king ___, guá kiàn-siàu hōo lâng khuànn.", hanji: "我的房間___，我見笑予人看。", answer: "luān-tshau-tshau", answer_hanji: "亂操操", en: "My room is a mess, I'm ashamed to let anyone see it."}
 audio: []

@@ -56,10 +56,13 @@ exercises:
     - {tailo: "Lōo-pinn kui-lōo lóng sī pòo-pênn, thâu tsi̍t tshut tō sī âng-tsîm bí-ko.", hanji: "路邊規路攏是布棚，頭一出就是紅蟳米糕。", en: "There were awnings all along the street, and the first course was red crab on sticky rice."}
     - {tailo: "O̍h ē-hiáu Tâi-lô, tha̍k kóo-tsheh mā bē huì-khì.", hanji: "學會曉 Tâi-lô，讀古冊嘛袂費氣。", en: "Once you know Tâi-lô, old books are no trouble."}
     - {tailo: "Lâng m̄ kiann, m̄-koh kuí guá kiann.", hanji: "人毋驚，毋過鬼我驚。", en: "People I'm not afraid of, but ghosts I am."}
+    - {tailo: "Bé-thâu ê ting-thah àm-sî tsiok kng.", hanji: "碼頭的燈塔暗時足光。", en: "The lighthouse on the quay is very bright at night."}
+    - {tailo: "Lâu-tíng ê lâng thàu-mê tshiùnn-kua, tshá kah guá khùn bē khì.", hanji: "樓頂的人透暝唱歌，吵甲我睏袂去。", en: "The people upstairs sing all night and keep me awake."}
   fill:
     - {tailo: "Guá phah-bô--khì ___ hit pái, sī in tau ê lâng kā guá tàu tshuē--ê.", hanji: "我拍無去___彼擺，是𪜶兜的人共我鬥揣的。", answer: "só-sî", answer_hanji: "鎖匙", en: "When I lost my key, it was his family who helped me look for it."}
     - {tailo: "Tán kah thâu-mn̂g pe̍h, i ___ kian-sim teh tán.", hanji: "等甲頭毛白，伊___堅心咧等。", answer: "iu-guân", answer_hanji: "猶原", en: "She waits till her hair turns white, and still won't give up."}
     - {tailo: "Hit ê tsa-poo--ê si̍t-tsāi ū-kàu ___.", hanji: "彼个查埔的實在有夠___。", answer: "hiau-hīng", answer_hanji: "僥倖", en: "That man really was heartless."}
     - {tailo: "Guá í-king ___--ah!", hanji: "我已經___矣！", answer: "khí-ke-bó-phuê", answer_hanji: "起雞母皮", en: "I've already got goosebumps!"}
     - {tailo: "Bîn-á-tsài guá nā khùn bē lo̍h-bîn, tō ài khì biō--lí ___.", hanji: "明仔載我若睏袂落眠，就愛去廟裡___。", answer: "siu-kiann", answer_hanji: "收驚", en: "If I can't sleep, I'll have to go to the temple tomorrow to have the fright taken off."}
+    - {tailo: "Bîn-á-tsài tsá-khí bô tsuí, tshiánn ta̍k-ke ___.", hanji: "明仔載早起無水，請逐家___。", answer: "phuè-ha̍p", answer_hanji: "配合", en: "There'll be no water tomorrow morning; thank you all for cooperating."}
 audio: []

@@ -55,10 +55,13 @@ exercises:
     - {tailo: "Tsit-má Tâi-lâm tsng-kha iáu ū, lín jua̍h-thinn lâi, a-má tshuā lín khì khuànn.", hanji: "這馬臺南庄跤猶有，恁熱天來，阿媽𤆬恁去看。", en: "There are still some in the countryside round Tainan: come in summer and I'll take you to see them."}
     - {tailo: "Lán ang-á-bóo tsò-tīn gōo-tsa̍p tang, guân-tsāi tsin hó.", hanji: "咱翁仔某做陣五十冬，原在真好。", en: "We've been together fifty years as husband and wife and we're still fine."}
     - {tailo: "Lí si̍t-tsāi ū-kàu hó-tánn.", hanji: "你實在有夠好膽。", en: "You're really brave."}
+    - {tailo: "A-má pha̍k-kuann ê thôo-tāu siōng-kài hó-tsia̍h.", hanji: "阿媽曝乾的塗豆上蓋好食。", en: "The peanuts Grandma sun-dried are the best."}
+    - {tailo: "Guá m̄ kánn lia̍h ka-tsua̍h, a-má liâm-mi tō kā lia̍h--khí-lâi.", hanji: "我毋敢掠虼蚻，阿媽連鞭就共掠起來。", en: "I didn't dare catch the cockroach; Grandma caught it in no time."}
   fill:
     - {tailo: "Guá tsit-má ___ kah koh ē-tàng khì suann-tíng tshò-tshâ!", hanji: "我這馬___甲閣會當去山頂剉柴！", answer: "ióng-kiānn", answer_hanji: "勇健", en: "I'm fit enough to go up the mountain and chop wood again!"}
     - {tailo: "Bí-lîng ___ suí, lâng koh hó-lé.", hanji: "美玲___媠，人閣好禮。", answer: "senn-tsò", answer_hanji: "生做", en: "Bí-lîng is pretty, and polite as well."}
     - {tailo: "Guá sī ___ lâng, kan-na tsai-iánn khîn-khiām thàn-tsia̍h.", hanji: "我是___人，干焦知影勤儉趁食。", answer: "kóo-ì", answer_hanji: "古意", en: "I was an honest fellow who only knew how to work hard and earn a living."}
     - {tailo: "Guán Tâi-pak lâng ___ ū tsiah thiànn lâng ê a-kong a-má.", hanji: "阮臺北人___有遮疼人的阿公阿媽。", answer: "hán-tit", answer_hanji: "罕得", en: "We Taipei people seldom have grandparents this loving."}
     - {tailo: "Guá iáu khiàm Sam tsi̍t ___ tsiú.", hanji: "我猶欠 Sam 一___酒。", answer: "kan", answer_hanji: "矸", en: "I still owe Sam a bottle."}
+    - {tailo: "Tsit ê siunn-á siunn tāng, guá ê ___ bô kàu.", hanji: "這个箱仔傷重，我的___無夠。", answer: "khuì-la̍t", answer_hanji: "氣力", en: "This box is too heavy, I'm not strong enough."}
 audio: []

@@ -102,10 +102,13 @@ exercises:
     - {tailo: "I kín-tiunn kah tshiú teh tshuah.", hanji: "伊緊張甲手咧掣。", en: "He's so nervous his hands are shaking."}
     - {tailo: "Guá bô sún-sit tsi̍t ê tsa-bóo-kiánn, sī ke tsi̍t ê hāu-senn.", hanji: "我無損失一个查某囝，是加一个後生。", en: "I'm not losing a daughter, I'm gaining a son."}
     - {tailo: "Lín nn̄g ê ài un-ài kàu lāu.", hanji: "恁兩个愛恩愛到老。", en: "Love each other till you're old, you two."}
+    - {tailo: "Tsit ê siunn-á sī khang--ê.", hanji: "這个箱仔是空的。", en: "This box is empty."}
+    - {tailo: "Guán a-má kóng i tsit-sì-lâng tsin hó-miā.", hanji: "阮阿媽講伊這世人真好命。", en: "Grandma says she has been very blessed in this life."}
   fill:
     - {tailo: "Tse sī guá thâu tsi̍t pái tsia̍h Tâi-lâm ê ___.", hanji: "這是我頭一擺食臺南的___。", answer: "hí-tsiú", answer_hanji: "喜酒", en: "It's my first Tainan wedding banquet."}
     - {tailo: "Guán a-hiann kin-á-ji̍t ___ mā bē-bái.", hanji: "阮阿兄今仔日___嘛袂䆀。", answer: "lâng-tsâi", answer_hanji: "人才", en: "My brother doesn't look bad himself today."}
     - {tailo: "Bān-bān-á tsia̍h, mài tsia̍h kah siunn ___.", hanji: "慢慢仔食，莫食甲傷___。", answer: "pá-tīnn", answer_hanji: "飽滇", en: "Take your time, don't stuff yourself."}
     - {tailo: "Guá ___ tsin m̄-kam i kè.", hanji: "我___真毋甘伊嫁。", answer: "pún-tsiânn", answer_hanji: "本成", en: "I really didn't want to let her go at first."}
     - {tailo: "Sin-lông sin-niû lâi ___--ah!", hanji: "新郎新娘來___矣！", answer: "kìng-tsiú", answer_hanji: "敬酒", en: "The bride and groom are coming round with the toast!"}
+    - {tailo: "A-pah tsiok kah-ì i ê ___.", hanji: "阿爸足佮意伊的___。", answer: "kiánn-sài", answer_hanji: "囝婿", en: "Dad really likes his son-in-law."}
 audio: []

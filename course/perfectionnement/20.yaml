@@ -89,10 +89,13 @@ exercises:
     - {tailo: "Sì-pinn tsin an-tsīng, kan-na thiann-tio̍h kap-á teh kiò.", hanji: "四邊真安靜，干焦聽著蛤仔咧叫。", en: "It's so peaceful all around; all you can hear is the frogs croaking."}
     - {tailo: "Āu--lâi tshân-hn̂g piàn-tsò kang-tshiúnn, hué-kim-koo tō bô--khì--ah.", hanji: "後來田園變做工廠，火金蛄就無去矣。", en: "Later the fields became factories, and the fireflies disappeared."}
     - {tailo: "Lōo-tsuí lo̍h--ah, khióng-kiann ē kuânn--tio̍h.", hanji: "露水落矣，恐驚會寒著。", en: "The dew is falling; you might catch cold."}
+    - {tailo: "Tshut-mn̂g tsìn-tsîng, ting ài sit--tiāu.", hanji: "出門進前，燈愛熄掉。", en: "Turn off the lights before going out."}
+    - {tailo: "Guá tán tsiok kú, i tsiong-î lâi--ah.", hanji: "我等足久，伊終於來矣。", en: "I waited ages, and he finally came."}
   fill:
     - {tailo: "___ lí kin-á-ji̍t ū tshuā Siok-tsing lâi.", hanji: "___你今仔日有𤆬淑貞來。", answer: "Hó-tit", answer_hanji: "好得", en: "Just as well you brought Siok-tsing today."}
     - {tailo: "Tshiú-tiān-á lóng ___--tiāu.", hanji: "手電仔攏___掉。", answer: "sit", answer_hanji: "熄", en: "Switch off all your torches."}
     - {tailo: "Tshân-tsng sóo-tsāi, giâ-kang, ti-tu ___.", hanji: "田庄所在，蜈蚣、蜘蛛___。", answer: "muá-muá-sī", answer_hanji: "滿滿是", en: "Out in the country there are centipedes and spiders everywhere."}
     - {tailo: "Guá sè-hàn ê sî, ___ kui tsng lóng sī.", hanji: "我細漢的時，___規庄攏是。", answer: "hit-tang-tsūn", answer_hanji: "彼當陣", en: "When I was little, the whole village was full of them back then."}
     - {tailo: "Guá khiàm lí ê hit kan tsiú, kin-á-ji̍t ___ tsah--lâi--ah.", hanji: "我欠你的彼矸酒，今仔日___紮來矣。", answer: "tsiong-î", answer_hanji: "終於", en: "The bottle I owed you: today I've finally brought it."}
+    - {tailo: "Bîn-á-tsài ___ ē lo̍h-hōo, lí tsah hōo-suànn.", hanji: "明仔載___會落雨，你紮雨傘。", answer: "huān-sè", answer_hanji: "凡勢", en: "It might rain tomorrow, take an umbrella."}
 audio: []

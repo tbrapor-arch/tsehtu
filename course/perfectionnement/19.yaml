@@ -73,10 +73,13 @@ exercises:
     - {tailo: "Lāu tsi̍t puè ê lâng iáu kóng Báng-kah, hán-tit kóng Bān-huâ.", hanji: "老一輩的人猶講艋舺，罕得講萬華。", en: "Older people still say Báng-kah and seldom say Wanhua."}
     - {tailo: "Tâi-uân ê hîng-tsōng tshin-tshiūnn tsi̍t tiâu han-tsî.", hanji: "臺灣的形狀親像一條番薯。", en: "Taiwan is shaped like a sweet potato."}
     - {tailo: "Tsioh-mn̄g, tsit ê tē-miâ sī án-tsuánn lâi--ê?", hanji: "借問，這个地名是按怎來的？", en: "Excuse me, where does the name of this place come from?"}
+    - {tailo: "Tsioh-mn̄g, tshia-thâu án-tsuánn kiânn?", hanji: "借問，車頭按怎行？", en: "Excuse me, how do I get to the station?"}
+    - {tailo: "Guán tau kap a-má tau tsin sio-uá.", hanji: "阮兜佮阿媽兜真相倚。", en: "Our home and Grandma's are very close to each other."}
   fill:
     - {tailo: "Ji̍t-pún-uē “Ko-hiông” kah “Tá-káu” ê im tsin ___.", hanji: "日本話「高雄」佮「打狗」的音真___。", answer: "uá", answer_hanji: "倚", en: "In Japanese, 高雄 sounds very close to Tá-káu."}
     - {tailo: "Hái-tsuí ___--khí-lâi ê sî, tsuí uì hái-kháu lâu--ji̍p-lâi.", hanji: "海水___起來的時，水對海口流入來。", answer: "tiòng", answer_hanji: "漲", en: "At high tide, the water flows in from the river mouth."}
     - {tailo: "Tâi-uân-lâng tiānn-tiānn ___ ka-kī tsò “han-tsî-á”.", hanji: "臺灣人定定___家己做「番薯仔」。", answer: "tshing-hoo", answer_hanji: "稱呼", en: "Taiwanese people often call themselves 'sweet potatoes'."}
     - {tailo: "Ē-sái mn̄g ___.", hanji: "會使問___。", answer: "tsāi-tē-lâng", answer_hanji: "在地人", en: "You can ask the locals."}
     - {tailo: "Ta̍k ê tē-miâ lóng sī tsi̍t ê ___.", hanji: "逐个地名攏是一个___。", answer: "kì-hō", answer_hanji: "記號", en: "Every place name is a marker."}
+    - {tailo: "Lán ___ khe-á kiânn, tō ē kàu hái-pinn.", hanji: "咱___溪仔行，就會到海邊。", answer: "iân", answer_hanji: "沿", en: "If we walk along the stream we'll reach the sea."}
 audio: []

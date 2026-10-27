@@ -89,10 +89,13 @@ exercises:
     - {tailo: "Su tsi̍t pái bô-iàu-kín, ài ū ióng-khì koh lâi.", hanji: "輸一擺無要緊，愛有勇氣閣來。", en: "Losing once doesn't matter. Have the courage to try again."}
     - {tailo: "A-kong nî-kí tuā--ah, m̄-koh thâu-náu iáu tsin tshing-tshó.", hanji: "阿公年紀大矣，毋過頭腦猶真清楚。", en: "Grandpa is getting on, but his mind is still sharp."}
     - {tailo: "Tsò tāi-tsì ài ū tam-tng.", hanji: "做代誌愛有擔當。", en: "Take responsibility for what you do."}
+    - {tailo: "Guán lāu-su tuì ha̍k-sing tsin tshin-tshiat.", hanji: "阮老師對學生真親切。", en: "Our teacher is very kind to the students."}
+    - {tailo: "Guá beh tāi-piáu guán kong-si khì tsham-ka huē-gī.", hanji: "我欲代表阮公司去參加會議。", en: "I'm going to represent our company at the meeting."}
   fill:
     - {tailo: "Lâng ài ū ___, m̄-thang khuànn-khin ka-kī.", hanji: "人愛有___，毋通看輕家己。", answer: "tsì-khì", answer_hanji: "志氣", en: "Have some backbone, and never think little of yourself."}
     - {tailo: "I ___ phah-piànn, piànn-miā thàn-tsînn.", hanji: "伊___拍拚，拚命趁錢。", answer: "mê-ji̍t", answer_hanji: "暝日", en: "He worked day and night, wearing himself out to earn money."}
     - {tailo: "I kā guán a-pah kah a-tsik lóng ___ khì tha̍k-tsheh.", hanji: "伊共阮阿爸佮阿叔攏___去讀冊。", answer: "khan-sîng", answer_hanji: "牽成", en: "He put my father and my uncle through school."}
     - {tailo: "Tsiok a-kong tsia̍h ___ huè.", hanji: "祝阿公食___歲。", answer: "pah-jī", answer_hanji: "百二", en: "We wish Grandpa a life of a hundred and twenty years."}
     - {tailo: "Guán mā ē ___ sī-tuā.", hanji: "阮嘛會___序大。", answer: "tsun-kìng", answer_hanji: "尊敬", en: "We'll respect our elders."}
+    - {tailo: "Tsit pái thâu-ke ê ___, guá tsin kám-kik.", hanji: "這擺頭家的___，我真感激。", answer: "kóo-lē", answer_hanji: "鼓勵", en: "I'm very grateful for the boss's encouragement this time."}
 audio: []

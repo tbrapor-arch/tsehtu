@@ -104,10 +104,13 @@ exercises:
     - {tailo: "Hó-gia̍h-lâng kiann kah hiám-hiám hūn--khì.", hanji: "好額人驚甲險險昏去。", en: "The rich man was so frightened he nearly fainted."}
     - {tailo: "Tse guân-tsāi m̄ sī guá--ê.", hanji: "這原在毋是我的。", en: "This still isn't mine."}
     - {tailo: "Tsng-thâu ê lâng lóng m̄ kánn koh khuànn-khin--i.", hanji: "庄頭的人攏毋敢閣看輕伊。", en: "None of the villagers dared look down on him again."}
+    - {tailo: "Lí mài khuànn-khin i, i lâng tsin kóo-ì.", hanji: "你莫看輕伊，伊人真古意。", en: "Don't look down on him, he's an honest, kind person."}
+    - {tailo: "Guá hiám-hiám bē-kì-tit kin-á-ji̍t sī a-bú ê senn-ji̍t.", hanji: "我險險袂記得今仔日是阿母的生日。", en: "I very nearly forgot that today is Mum's birthday."}
   fill:
     - {tailo: "I tńg-khì kah in bóo ___.", hanji: "伊轉去佮𪜶某___。", answer: "tsham-siông", answer_hanji: "參詳", en: "He went home to talk it over with his wife."}
     - {tailo: "I ___ siūnn tsi̍t ê kè-tì.", hanji: "伊___想一个計智。", answer: "liâm-mi", answer_hanji: "連鞭", en: "He came up with a scheme on the spot."}
     - {tailo: "Guá ___ lâi khuànn--lí.", hanji: "我___來看你。", answer: "thiau-kang", answer_hanji: "刁工", en: "I came specially to see you."}
     - {tailo: "Hó-gia̍h-lâng huann-hí kah ___ pue--khí-lâi.", hanji: "好額人歡喜甲___飛起來。", answer: "kiōng-beh", answer_hanji: "強欲", en: "The rich man was so happy he could almost fly."}
     - {tailo: "Hó-hó ê kim-á sàng hōo lâng, ka-kī ___.", hanji: "好好的金仔送予人，家己___。", answer: "khik-khui", answer_hanji: "克虧", en: "Giving away perfectly good gold and losing out himself."}
+    - {tailo: "Tsit ê tāi-tsì guá ài kap guán bóo ___ tsi̍t-ē.", hanji: "這个代誌我愛佮阮某___一下。", answer: "tsham-siông", answer_hanji: "參詳", en: "I need to talk this over with my wife."}
 audio: []

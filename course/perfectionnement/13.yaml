@@ -89,10 +89,13 @@ exercises:
     - {tailo: "Tsē-uī tíng kan-na tsi̍t khut tsuí, lâng í-king siau-sit--khì--ah.", hanji: "坐位頂干焦一窟水，人已經消失去矣。", en: "On the seat there was only a puddle of water. She had vanished."}
     - {tailo: "I bô pháinn-ì, lí mài kiann.", hanji: "伊無歹意，你莫驚。", en: "She means no harm, don't be afraid."}
     - {tailo: "Guá khì Má-tsóo-biō hōo lâng siu-kiann.", hanji: "我去媽祖廟予人收驚。", en: "I went to the Mazu temple to have the fright taken off me."}
+    - {tailo: "Siōng-bué tsi̍t pan kong-tshia tsa̍p tiám khui.", hanji: "上尾一班公車十點開。", en: "The last bus leaves at ten."}
+    - {tailo: "Guá mn̄g i beh khì--bô, i iô-thâu.", hanji: "我問伊欲去無，伊搖頭。", en: "I asked him if he wanted to go; he shook his head."}
   fill:
     - {tailo: "Luî-kong ___ ti̍t-ti̍t lâi.", hanji: "雷公___直直來。", answer: "sih-nah", answer_hanji: "爍爁", en: "Thunder and lightning, one after another."}
     - {tailo: "Guá uì thâu-tsîng ê ___ khuànn āu-piah.", hanji: "我對頭前的___看後壁。", answer: "kiànn", answer_hanji: "鏡", en: "I looked in the mirror at the back of the bus."}
     - {tailo: "Guá kuânn kah ___.", hanji: "我寒甲___。", answer: "khí-ke-bó-phuê", answer_hanji: "起雞母皮", en: "I went cold all over, with goosebumps."}
     - {tailo: "A-pô ___, ba̍k-sái lâu--lo̍h-lâi.", hanji: "阿婆___，目屎流落來。", answer: "tàm-thâu", answer_hanji: "頕頭", en: "The old woman nodded, tears running down her face."}
     - {tailo: "Kin-á-ji̍t sī i ê ___.", hanji: "今仔日是伊的___。", answer: "kī-ji̍t", answer_hanji: "忌日", en: "Today is the anniversary of her death."}
+    - {tailo: "Thiann tsit ê kòo-sū, guá ___.", hanji: "聽這个故事，我___。", answer: "khí-ke-bó-phuê", answer_hanji: "起雞母皮", en: "Hearing this story gave me goosebumps."}
 audio: []
