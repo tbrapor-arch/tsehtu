@@ -41,6 +41,21 @@ dialogue:
   hanji: 好主意！
   tailo: Hó tsú-ì!
   en: Good idea!
+- n: 8
+  speaker: "A-bîng"
+  hanji: "（食冰的時）厝主竟然講，叫咱閣忍耐幾工就好。"
+  tailo: "(Tsia̍h ping ê sî) Tshù-tsú kìng-jiân kóng, kiò lán koh jím-nāi kuí kang tō hó."
+  en: "(Over shaved ice) The landlord actually told us to just put up with it for a few more days."
+- n: 9
+  speaker: "Sam"
+  hanji: "熱甲按呢，欲按怎忍耐？無冷氣，咱只好先去買一个電風。"
+  tailo: "Jua̍h kah án-ne, beh án-tsuánn jím-nāi? Bô líng-khì, lán tsí-hó sing khì bé tsi̍t ê tiān-hong."
+  en: "In this heat, how are we supposed to put up with it? With no air conditioning, we'll just have to go and buy a fan."
+- n: 10
+  speaker: "A-bîng"
+  hanji: "何必買？我有一个朋友有電風無咧用。我等一下去提，咱暗時就毋免熱甲睏袂去。"
+  tailo: "Hô-pit bé? Guá ū tsi̍t ê pîng-iú ū tiān-hong bô teh iōng. Guá tán--tsi̍t-ē khì the̍h, lán àm-sî tō m̄-bián jua̍h kah khùn bē khì."
+  en: "Why buy one? A friend of mine has a fan he isn't using. I'll go and get it later, and then we won't lie awake tonight because of the heat."
 notes:
 - ref: 1
   topic: grammar
@@ -72,6 +87,15 @@ notes:
 - ref: 7
   topic: vocab
   text: '主意 tsú-ì = idea: 好主意 ''good idea''.'
+- ref: 8
+  topic: "vocab"
+  text: "竟然 kìng-jiân = actually, would you believe (居然), for something surprising or outrageous. 忍耐 jím-nāi = put up with it, be patient: 小忍耐一下 'bear with it a moment'."
+- ref: 9
+  topic: "vocab"
+  text: "只好 tsí-hó = have no choice but to, can only. 電風 tiān-hong = electric fan ('electric wind'). 熱甲按呢 'hot like this': 甲 + 按呢 'to this degree'."
+- ref: 10
+  topic: "grammar"
+  text: "何必 hô-pit = why bother, there's no need to: 何必買？ 'why buy one?'. 毋免 'won't have to'. 熱甲睏袂去 'so hot you can't sleep' (V 甲, lesson 27; 睏袂去, lesson 12)."
 new_words:
 - tailo: kah
   hanji: 甲
@@ -106,6 +130,21 @@ new_words:
 - tailo: tsú-ì
   hanji: 主意
   en: idea
+- tailo: "kìng-jiân"
+  hanji: "竟然"
+  en: "actually, would you believe"
+- tailo: "jím-nāi"
+  hanji: "忍耐"
+  en: "put up with, be patient"
+- tailo: "tsí-hó"
+  hanji: "只好"
+  en: "have no choice but to"
+- tailo: "tiān-hong"
+  hanji: "電風"
+  en: "electric fan"
+- tailo: "hô-pit"
+  hanji: "何必"
+  en: "why bother, no need to"
 exercises:
   translate:
   - tailo: Kin-á-ji̍t jua̍h kah beh sí!
@@ -125,4 +164,9 @@ exercises:
     answer: Suah-suah--khì
     answer_hanji: 煞煞去
     en: Forget it, let's go out for shaved ice!
+  - tailo: "Bô líng-khì, lán ___ sing khì bé tsi̍t ê tiān-hong."
+    hanji: "無冷氣，咱___先去買一个電風。"
+    answer: "tsí-hó"
+    answer_hanji: "只好"
+    en: "With no air conditioning, we'll just have to go and buy a fan."
 audio: []

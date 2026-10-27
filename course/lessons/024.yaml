@@ -46,6 +46,16 @@ dialogue:
   hanji: 一百二。
   tailo: Tsi̍t-pah-jī.
   en: A hundred and twenty.
+- n: 9
+  speaker: "Pharmacist"
+  hanji: "一般的嚨喉疼，三四工就好矣。毋過這幾工暫時莫勉強，加啉水。"
+  tailo: "It-puann ê nâ-âu thiànn, sann-sì kang tō hó--ah. M̄-koh tsit kuí kang tsiām-sî mài bián-kióng, ke lim tsuí."
+  en: "An ordinary sore throat clears up in three or four days. But for the next few days don't push yourself, and drink plenty of water."
+- n: 10
+  speaker: "Pharmacist"
+  hanji: "你若會當請假，就請兩工假佇厝歇睏，按呢毋才會較緊好。"
+  tailo: "Lí nā ē-tàng tshíng-ká, tō tshíng nn̄g kang ká tī tshù hioh-khùn, án-ne m̄-tsiah ē khah kín hó."
+  en: "If you can take time off, take two days and rest at home; that's the way to get better faster."
 notes:
 - ref: 2
   topic: vocab
@@ -73,6 +83,12 @@ notes:
   text: >-
     Prices are shortened as in Mandarin: 一百二 tsi̍t-pah-jī = 120 (the 十 is dropped). Note 二 jī here, not 兩 nn̄g: a digit trailing
     after 百 or 千 is read jī (but 兩百 nn̄g-pah for 200).
+- ref: 9
+  topic: "vocab"
+  text: "一般 it-puann = ordinary, common; 一般人 'most people'. 暫時 tsiām-sî = for the time being. 勉強 bián-kióng = force (yourself or someone): 莫勉強 'don't push yourself'; 感情袂當勉強 'you can't force love'. 加啉水 'drink more water': 加 ke + verb = do more of it."
+- ref: 10
+  topic: "grammar"
+  text: "請假 tshíng-ká = take leave, ask for time off. Like many verb + object words it splits around a number: 請兩工假 'take two days off'. 毋才 m̄-tsiah (lesson 22): '(only) that way will …'."
 new_words:
 - tailo: io̍h-pâng
   hanji: 藥房
@@ -98,6 +114,18 @@ new_words:
 - tailo: tsînn
   hanji: 錢
   en: money
+- tailo: "it-puann"
+  hanji: "一般"
+  en: "ordinary, common"
+- tailo: "tsiām-sî"
+  hanji: "暫時"
+  en: "for the time being"
+- tailo: "bián-kióng"
+  hanji: "勉強"
+  en: "force, push (oneself)"
+- tailo: "tshíng-ká"
+  hanji: "請假"
+  en: "take time off"
 exercises:
   translate:
   - tailo: Tsi̍t pau guā-tsē tsînn?
@@ -117,4 +145,9 @@ exercises:
     answer: iáu-koh
     answer_hanji: 猶閣
     en: If you're still not better in two days, see a doctor.
+  - tailo: "Tsit kuí kang ___ mài bián-kióng."
+    hanji: "這幾工___莫勉強。"
+    answer: "tsiām-sî"
+    answer_hanji: "暫時"
+    en: "For the next few days don't push yourself."
 audio: []

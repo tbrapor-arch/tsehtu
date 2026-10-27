@@ -41,6 +41,21 @@ dialogue:
   hanji: 好，毋過你愛唱一條臺語歌。
   tailo: Hó, m̄-koh lí ài tshiùnn tsi̍t tiâu Tâi-gí kua.
   en: OK, but you have to sing a Taiwanese song.
+- n: 8
+  speaker: "Sam"
+  hanji: "好啊！毋過我較佮意恁阿公的歌。我時常聽伊唸歌，攏聽無。"
+  tailo: "Hó--ah! M̄-koh guá khah kah-ì lín a-kong ê kua. Guá sî-siông thiann i liām-kua, lóng thiann bô."
+  en: "Sure! But I prefer your grandpa's songs. I often listen to him chanting, and I can't understand a word."
+- n: 9
+  speaker: "A-hun"
+  hanji: "阿公唱的是較早的歌仔，這馬的少年真少聽。"
+  tailo: "A-kong tshiùnn--ê sī khah-tsá ê kua-á, tsit-má ê siàu-liân tsin tsió thiann."
+  en: "What Grandpa sings are old folk songs; young people hardly ever listen to them now."
+- n: 10
+  speaker: "Sam"
+  hanji: "我真欣賞彼款歌仔。下擺你去唱歌，我共你做伴；你唱新的歌，我佇邊仔學恁阿公唸歌。"
+  tailo: "Guá tsin him-sióng hit khuán kua-á. Ē-pái lí khì tshiùnn-kua, guá kā lí tsò-phuānn; lí tshiùnn sin ê kua, guá tī pinn--á o̍h lín a-kong liām-kua."
+  en: "I really love that kind of song. Next time you go singing I'll keep you company: you sing the new songs, and I'll sit beside you learning to chant like your grandpa."
 notes:
 - ref: 1
   topic: grammar
@@ -64,6 +79,15 @@ notes:
 - ref: 7
   topic: grammar
   text: '條 tiâu = classifier for songs (and long thin things, roads, debts): 一條歌.'
+- ref: 8
+  topic: "culture"
+  text: "唸歌 liām-kua = chant, sing a ballad in the old storytelling style, often with a moon lute (月琴); it is half sung, half recited. 時常 sî-siông = often, a more written synonym of 定定. 攏聽無 'can't understand any of it'."
+- ref: 9
+  topic: "vocab"
+  text: "歌仔 kua-á = folk songs, ballads, songs in the old style (歌仔戲 is Taiwanese opera)."
+- ref: 10
+  topic: "vocab"
+  text: "欣賞 him-sióng = appreciate, admire, enjoy (art, music, scenery). 做伴 tsò-phuānn = keep someone company: 共你做伴 'keep you company'. 邊仔 pinn--á = beside, nearby."
 new_words:
 - tailo: kah-ì
   hanji: 佮意
@@ -98,6 +122,21 @@ new_words:
 - tailo: tiâu
   hanji: 條
   en: (classifier for songs, roads)
+- tailo: "sî-siông"
+  hanji: "時常"
+  en: "often"
+- tailo: "liām-kua"
+  hanji: "唸歌"
+  en: "chant a ballad"
+- tailo: "kua-á"
+  hanji: "歌仔"
+  en: "folk song, ballad"
+- tailo: "him-sióng"
+  hanji: "欣賞"
+  en: "appreciate, admire"
+- tailo: "tsò-phuānn"
+  hanji: "做伴"
+  en: "keep someone company"
 exercises:
   translate:
   - tailo: Guá kah-ì khuànn tiān-iánn.
@@ -106,6 +145,9 @@ exercises:
   - tailo: Ē-pái tshuā guá khì.
     hanji: 下擺𤆬我去。
     en: Take me along next time.
+  - tailo: "Ē-pái lí khì tshiùnn-kua, guá kā lí tsò-phuānn."
+    hanji: "下擺你去唱歌，我共你做伴。"
+    en: "Next time you go singing, I'll keep you company."
   fill:
   - tailo: Guá ___ khì peh-suann.
     hanji: 我___去𬦰山。

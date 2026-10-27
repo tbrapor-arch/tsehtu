@@ -41,6 +41,21 @@ dialogue:
   hanji: 好，我閣想看覓，明仔載共你講。
   tailo: Hó, guá koh siūnn khuànn-māi, bîn-á-tsài kā lí kóng.
   en: OK, I'll think about it and let you know tomorrow.
+- n: 8
+  speaker: "Landlady"
+  hanji: "啊，等咧！頂頭猶有一間，拄拄有人無欲稅，有窗仔，向西爿。"
+  tailo: "Ah, tán--leh! Tíng-thâu iáu ū tsi̍t king, tú-tú ū lâng bô beh suè, ū thang-á, ǹg sai-pîng."
+  en: "Oh, wait! There's another one upstairs. Someone has just given it up; it has a window and faces west."
+- n: 9
+  speaker: "Sam"
+  hanji: "向西爿？下晡敢袂傷熱？"
+  tailo: "Ǹg sai-pîng? Ē-poo kám bē siunn jua̍h?"
+  en: "Facing west? Won't it be too hot in the afternoon?"
+- n: 10
+  speaker: "Landlady"
+  hanji: "方向是較無好，毋過一個月才一萬一，比這間貴淡薄爾爾，閣有窗仔。你欲去頂頭看覓無？"
+  tailo: "Hong-hiòng sī khah bô hó, m̄-koh tsi̍t kò gue̍h tsiah tsi̍t-bān-it, pí tsit king kuì tām-po̍h niā-niā, koh ū thang-á. Lí beh khì tíng-thâu khuànn-māi--bô?"
+  en: "The direction isn't the best, but it's only eleven thousand a month, just a little more than this one, and it has a window. Do you want to go upstairs and have a look?"
 notes:
 - ref: 1
   topic: false-friend
@@ -64,6 +79,12 @@ notes:
 - ref: 7
   topic: grammar
   text: 想看覓 siūnn khuànn-māi = think it over. 共你講 'let you know' (lesson 13).
+- ref: 8
+  topic: "vocab"
+  text: "頂頭 tíng-thâu = upstairs, above, on top: 囥佇椅仔頂頭 'put it on the chair'. 拄拄 tú-tú = just (now), only just: 伊拄拄出去 'she's just gone out'; it also means 'exactly, just right'. 向 ǹg = face (a direction); 西爿 sai-pîng = the west side, west (東爿 tang-pîng = east)."
+- ref: 10
+  topic: "vocab"
+  text: "方向 hong-hiòng = direction, which way a flat faces; in Taiwan people check it carefully because of the afternoon sun. 淡薄 tām-po̍h = a little, slightly: 貴淡薄 'a bit dearer' (also 淡薄仔)."
 new_words:
 - tailo: suè-tshù
   hanji: 稅厝
@@ -92,6 +113,21 @@ new_words:
 - tailo: uànn
   hanji: 晏
   en: late
+- tailo: "tíng-thâu"
+  hanji: "頂頭"
+  en: "upstairs, above"
+- tailo: "tú-tú"
+  hanji: "拄拄"
+  en: "just (now); exactly"
+- tailo: "sai-pîng"
+  hanji: "西爿"
+  en: "the west side, west"
+- tailo: "hong-hiòng"
+  hanji: "方向"
+  en: "direction"
+- tailo: "tām-po̍h"
+  hanji: "淡薄"
+  en: "a little, slightly"
 exercises:
   translate:
   - tailo: Guá beh suè-tshù.
@@ -111,4 +147,9 @@ exercises:
     answer: ē-sái
     answer_hanji: 會使
     en: Can I cook in the flat?
+  - tailo: "Tíng-thâu iáu ū tsi̍t king, ___ ū lâng bô beh suè."
+    hanji: "頂頭猶有一間，___有人無欲稅。"
+    answer: "tú-tú"
+    answer_hanji: "拄拄"
+    en: "There's another one upstairs; someone has just given it up."
 audio: []

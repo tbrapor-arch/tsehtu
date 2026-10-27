@@ -46,6 +46,16 @@ dialogue:
   hanji: 歹勢歹勢！
   tailo: Pháinn-sè pháinn-sè!
   en: Sorry, sorry!
+- n: 9
+  speaker: "A-hun"
+  hanji: "遮拜觀音。我有時有心事，就來遮坐一下，坐了就較好。"
+  tailo: "Tsia pài Kuan-im. Guá ū-sî ū sim-sū, tō lâi tsia tsē--tsi̍t-ē, tsē liáu tō khah hó."
+  en: "Guanyin is worshipped here. Sometimes, when something's on my mind, I come and sit here for a while, and afterwards I feel better."
+- n: 10
+  speaker: "Sam"
+  hanji: "按呢我嘛欲共觀音講我的希望：我希望台語會當學予好，毋才會當佮恁阿公阿媽講較濟話。"
+  tailo: "Án-ne guá mā beh kā Kuan-im kóng guá ê hi-bāng: guá hi-bāng Tâi-gí ē-tàng o̍h hōo hó, m̄-tsiah ē-tàng kah lín a-kong a-má kóng khah tsē uē."
+  en: "Then I'll tell Guanyin my wish too: I hope I can learn Taigi properly, because only then will I be able to talk more with your grandparents."
 notes:
 - ref: 1
   topic: vocab
@@ -74,6 +84,12 @@ notes:
   topic: vocab
   text: >-
     用 īng = use, with; 手 tshiú = hand; 指 kí = point at. A temple rule: you point with your whole open hand, not a finger.
+- ref: 9
+  topic: "culture"
+  text: "觀音 Kuan-im = Guanyin, the bodhisattva of compassion; older people call her 觀音媽 'Mother Guanyin'. Longshan Temple in Taipei is dedicated to her. 有時 ū-sî = sometimes. 心事 sim-sū = something on one's mind, a worry you keep to yourself."
+- ref: 10
+  topic: "grammar"
+  text: "希望 hi-bāng = hope, wish (verb and noun): 我的希望 'my wish'. 毋才 m̄-tsiah = 'that's why, only then' (才), linking a condition to its result: 學予好，毋才會當… 'learn it well, (because) only then can I …'. 學予好 o̍h hōo hó 'learn properly': V + 予 + adjective = do something until it is …"
 new_words:
 - tailo: biō
   hanji: 廟
@@ -105,6 +121,21 @@ new_words:
 - tailo: kí
   hanji: 指
   en: point at
+- tailo: "Kuan-im"
+  hanji: "觀音"
+  en: "Guanyin (bodhisattva)"
+- tailo: "ū-sî"
+  hanji: "有時"
+  en: "sometimes"
+- tailo: "sim-sū"
+  hanji: "心事"
+  en: "something on one's mind"
+- tailo: "hi-bāng"
+  hanji: "希望"
+  en: "hope, wish"
+- tailo: "m̄-tsiah"
+  hanji: "毋才"
+  en: "that's why, only then"
 exercises:
   translate:
   - tailo: Guá m̄ tsai ài án-tsuánn pài.
@@ -124,4 +155,9 @@ exercises:
     answer: ē
     answer_hanji: 會
     en: Then the gods can find you.
+  - tailo: "Guá ___ ū sim-sū, tō lâi tsia tsē--tsi̍t-ē."
+    hanji: "我___有心事，就來遮坐一下。"
+    answer: "ū-sî"
+    answer_hanji: "有時"
+    en: "Sometimes, when something's on my mind, I come and sit here for a while."
 audio: []

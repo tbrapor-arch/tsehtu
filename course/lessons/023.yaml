@@ -46,6 +46,16 @@ dialogue:
   hanji: 你若有趁錢，包予序大人嘛會使。
   tailo: Lí nā ū thàn-tsînn, pau hōo sī-tuā-lâng mā ē-sái.
   en: If you earn money, you can give one to the elders too.
+- n: 9
+  speaker: "A-bîng"
+  hanji: "正月初一阮會先去廟拜拜，初二阮大姊佮姊夫就轉外家。"
+  tailo: "Tsiann--gue̍h tshe-it guán ē sing khì biō pài-pài, tshe-jī guán tuā-tsí kah tsí-hu tō tńg guā-ke."
+  en: "On the first day of the first month we go to the temple first, and on the second my eldest sister and her husband come home to her parents."
+- n: 10
+  speaker: "A-bîng"
+  hanji: "閣有，阿媽講初一毋通掃地。若無，規年的錢會攏走去！"
+  tailo: "Koh-ū, a-má kóng tshe-it m̄-thang sàu-tè. Nā-bô, kui-nî ê tsînn ē lóng tsáu--khì!"
+  en: "And A-má says you mustn't sweep the floor on the first day. Otherwise the whole year's money will run away!"
 notes:
 - ref: 1
   topic: vocab
@@ -72,6 +82,12 @@ notes:
   text: >-
     若 nā = if (如果): 你若有趁錢 'if you earn money'. 若…就… nā … tō … is the full pattern. 趁錢 thàn-tsînn = earn money (賺錢): 趁 is a
     false friend. 序大人 sī-tuā-lâng = one's elders, parents and grandparents.
+- ref: 9
+  topic: "culture"
+  text: "正月 tsiann--gue̍h = the first lunar month (note tsiann, and the neutral tone on 月); 初一 tshe-it = the first day of a lunar month, 初二 tshe-jī the second. On 初二 married daughters go back to their parents' home, 轉外家 tńg guā-ke: 外家 guā-ke = a married woman's parents' family. 大姊 tuā-tsí = eldest sister; 姊夫 tsí-hu = elder sister's husband."
+- ref: 10
+  topic: "culture"
+  text: "掃地 sàu-tè = sweep the floor (掃 sàu 'sweep'). On New Year's Day you don't sweep, take out the rubbish or wash your hair, so as not to sweep away the year's luck and money. 規年 kui-nî = the whole year. 若無 nā-bô = otherwise."
 new_words:
 - tailo: sin-nî
   hanji: 新年
@@ -115,6 +131,24 @@ new_words:
 - tailo: sī-tuā-lâng
   hanji: 序大人
   en: elders, parents
+- tailo: "tsiann--gue̍h"
+  hanji: "正月"
+  en: "first lunar month"
+- tailo: "tshe-it"
+  hanji: "初一"
+  en: "first day (of a lunar month)"
+- tailo: "tsí-hu"
+  hanji: "姊夫"
+  en: "elder sister's husband"
+- tailo: "guā-ke"
+  hanji: "外家"
+  en: "a married woman's parents' family"
+- tailo: "sàu-tè"
+  hanji: "掃地"
+  en: "sweep the floor"
+- tailo: "tuā-tsí"
+  hanji: "大姊"
+  en: "eldest sister"
 exercises:
   translate:
   - tailo: Uî-lôo sī siánn-mih ì-sù?
@@ -123,6 +157,9 @@ exercises:
   - tailo: Lí nā ū thàn-tsînn, mā ē-sái.
     hanji: 你若有趁錢，嘛會使。
     en: If you earn money, that's fine too.
+  - tailo: "Tshe-jī guán tuā-tsí kah tsí-hu tō tńg guā-ke."
+    hanji: "初二阮大姊佮姊夫就轉外家。"
+    en: "On the second day my eldest sister and her husband go home to her parents."
   fill:
   - tailo: A-kong koh ē pau âng-pau ___ gín-á.
     hanji: 阿公閣會包紅包___囡仔。

@@ -26,6 +26,21 @@ dialogue:
   hanji: 按呢下禮拜，你毋通袂記得喔！
   tailo: Án-ne ē lé-pài, lí m̄-thang bē-kì-tit--ooh!
   en: Then the week after. Don't forget!
+- n: 5
+  speaker: "Sam"
+  hanji: "袂啦。毋過我拄拄去藥房，嚨喉疼，暫時袂使唱歌。"
+  tailo: "Bē--lah. M̄-koh guá tú-tú khì io̍h-pâng, nâ-âu thiànn, tsiām-sî bē-sái tshiùnn-kua."
+  en: "I won't. But I've just been to the pharmacy: sore throat, so no singing for now."
+- n: 6
+  speaker: "A-hun"
+  hanji: "按呢你愛加啉水，莫勉強。我明仔載去廟拜觀音，嘛會共伊講你的名，予伊保庇你。"
+  tailo: "Án-ne lí ài ke lim tsuí, mài bián-kióng. Guá bîn-á-tsài khì biō pài Kuan-im, mā ē kā i kóng lí ê miâ, hōo i pó-pì--lí."
+  en: "Then drink plenty of water and don't push yourself. I'm going to the temple tomorrow to pray to Guanyin, and I'll tell her your name so she'll look after you."
+- n: 7
+  speaker: "Sam"
+  hanji: "多謝！等我好矣，咱做伙去唱歌：你唱，我共你做伴，閣學唸歌。"
+  tailo: "To-siā! Tán guá hó--ah, lán tsò-hué khì tshiùnn-kua: lí tshiùnn, guá kā lí tsò-phuānn, koh o̍h liām-kua."
+  en: "Thanks! When I'm better, let's go singing together: you sing, I'll keep you company and learn to chant too."
 notes:
 - ref: 2
   topic: grammar
@@ -48,6 +63,15 @@ notes:
   topic: grammar
   text: >-
     Money and amounts: 偌濟錢？ how much; 一百二 120, 一萬二 12,000; classifiers 間 rooms, 包 packs, 條 songs, 張 photos.
+- ref: 5
+  topic: "vocab"
+  text: "Lessons 22–27 again: 拄拄 'just now' (25), 藥房 and 嚨喉疼 (24), 暫時 (24)."
+- ref: 6
+  topic: "vocab"
+  text: "莫勉強 (24), 觀音 (22), 保庇 (22)."
+- ref: 7
+  topic: "vocab"
+  text: "做伴 and 唸歌 (26). 等我好矣 'when I'm better': 等 + clause = once …"
 new_words: []
 exercises:
   translate:
@@ -57,6 +81,9 @@ exercises:
   - tailo: Guá m̄ tsai beh kóng siánn.
     hanji: 我毋知欲講啥。
     en: I don't know what to say.
+  - tailo: "Guá tú-tú khì io̍h-pâng, tsiām-sî bē-sái tshiùnn-kua."
+    hanji: "我拄拄去藥房，暫時袂使唱歌。"
+    en: "I've just been to the pharmacy; no singing for now."
   fill:
   - tailo: Bô-îng ___ beh sí.
     hanji: 無閒___欲死。
