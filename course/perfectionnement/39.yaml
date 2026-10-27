@@ -1,0 +1,101 @@
+id: 39
+title: {en: "Food heals better than medicine", tailo: "Io̍h póo put jû si̍t-póo", hanji: "藥補不如食補"}
+genre: interview
+review: false
+setting: "Sam's ankle (進修 36) is still sore, so Siù-lân sends him to her grandfather, Mr N̂g, a doctor of Chinese medicine in an old street in Taipei. Hūi-hūi comes along: she is interviewing him for her school magazine."
+dialogue:
+  - {n: 1, speaker: Hūi-hūi, hanji: "黃先生，你做中醫幾年矣？", tailo: "N̂g sian-sinn, lí tsò tiong-i kuí nî--ah?", en: "Mr N̂g, how many years have you been practising Chinese medicine?"}
+  - {n: 2, speaker: Mr N̂g, hanji: "五十冬矣。我十五歲就綴阮老爸學，伊嘛是中醫。阮兜到秀蘭已經第四代矣，毋過伊學的是西醫的復健。", tailo: "Gōo-tsa̍p tang--ah. Guá tsa̍p-gōo huè tō tuè guán lāu-pē o̍h, i mā sī tiong-i. Guán tau kàu Siù-lân í-king tē-sì tāi--ah, m̄-koh i o̍h--ê sī se-i ê ho̍k-kiān.", en: "Fifty years. I started learning from my father at fifteen; he was a Chinese doctor too. Siù-lân is the fourth generation in our family, but what she learnt is Western rehabilitation."}
+  - {n: 3, speaker: Hūi-hūi, hanji: "中醫佮西醫有啥物無仝？", tailo: "Tiong-i kah se-i ū siánn-mih bô kāng?", en: "What's the difference between Chinese and Western medicine?"}
+  - {n: 4, speaker: Mr N̂g, hanji: "西醫看病，中醫看人。仝款是頭疼，每一个人的原因無仝，藥方嘛無仝。", tailo: "Se-i khuànn pēnn, tiong-i khuànn lâng. Kāng-khuán sī thâu-thiànn, muí tsi̍t ê lâng ê guân-in bô kāng, io̍h-hng mā bô kāng.", en: "Western medicine looks at the disease; Chinese medicine looks at the person. Two people with the same headache can have different causes, and different prescriptions."}
+  - {n: 5, speaker: Hūi-hūi, hanji: "有人講：", tailo: "Ū lâng kóng:", en: "Some people say:"}
+  - {n: 6, speaker: Hūi-hūi, hanji: "西醫的效果比中醫較緊。", tailo: "Se-i ê hāu-kó pí tiong-i khah kín.", en: "Western medicine works faster than Chinese medicine.", source: moe}
+  - {n: 7, speaker: Mr N̂g, hanji: "這是事實。若是急病，愛緊去病院。毋過若是慢慢仔調養的身體，中醫有中醫的作用。", tailo: "Tse sī sū-si̍t. Nā-sī kip-pēnn, ài kín khì pēnn-īnn. M̄-koh nā-sī bān-bān-á tiâu-ióng ê sin-thé, tiong-i ū tiong-i ê tsok-iōng.", en: "That's true. For an emergency you must hurry to hospital. But for building up the body slowly, Chinese medicine has its uses."}
+  - {n: 8, speaker: Mr N̂g, hanji: "（看 Sam）少年的，你的跤目猶咧疼？手伸出來，我先共你摸脈。", tailo: "(Khuànn Sam) Siàu-liân--ê, lí ê kha-ba̍k iáu teh thiànn? Tshiú tshun--tshut-lâi, guá sing kā lí bong me̍h.", en: "(Looking at Sam) Young man, your ankle still hurts? Hold out your hand, I'll take your pulse first."}
+  - {n: 9, speaker: Sam, hanji: "跤目疼，嘛愛摸手的脈？", tailo: "Kha-ba̍k thiànn, mā ài bong tshiú ê me̍h?", en: "My ankle hurts, and you need to take the pulse in my wrist?"}
+  - {n: 10, speaker: Mr N̂g, hanji: "人的身軀是規个的。你的脈較細，火氣較大，暗時是毋是較睏袂去？", tailo: "Lâng ê sin-khu sī kui-ê--ê. Lí ê me̍h khah sè, hué-khì khah tuā, àm-sî sī m̄ sī khah khùn bē khì?", en: "The body is a whole. Your pulse is weak and you've got too much internal heat. Do you have trouble sleeping at night?"}
+  - {n: 11, speaker: Sam, hanji: "有影！你哪會知？", tailo: "Ū-iánn! Lí ná ē tsai?", en: "That's true! How did you know?"}
+  - {n: 12, speaker: Hūi-hūi, hanji: "（細聲）因為伊逐暗攏咧想秀蘭阿姨。", tailo: "(Sè-siann) In-uī i ta̍k àm lóng teh siūnn Siù-lân a-î.", en: "(Quietly) Because every night he's thinking about Auntie Siù-lân."}
+  - {n: 13, speaker: Mr N̂g, hanji: "（笑）這个病，我無藥方。毋過火氣大，會使啉青草茶。", tailo: "(Tshiò) Tsit ê pēnn, guá bô io̍h-hng. M̄-koh hué-khì tuā, ē-sái lim tshenn-tsháu tê.", en: "(Laughing) For that illness I have no prescription. But for too much heat, you can drink herbal tea."}
+  - {n: 14, speaker: Mr N̂g, hanji: "青草茶真退火。", tailo: "Tshenn-tsháu tê tsin thè-hué.", en: "Herbal tea really cools you down.", source: moe}
+  - {n: 15, speaker: Mr N̂g, hanji: "跤目的部份，我共你針灸兩擺，閣開一帖藥予你。你提藥方去拆藥仔，藥店會共你煎。", tailo: "Kha-ba̍k ê pōo-hūn, guá kā lí tsiam-kù nn̄g pái, koh khui tsi̍t thiap io̍h hōo lí. Lí the̍h io̍h-hng khì thiah-io̍h-á, io̍h-tiàm ē kā lí tsuann.", en: "As for the ankle, I'll give you two sessions of acupuncture and write you a prescription. Take it to the herbalist's to have it made up; they'll brew it for you."}
+  - {n: 16, speaker: Sam, hanji: "針灸……敢會真疼？", tailo: "Tsiam-kù…… kám ē tsin thiànn?", en: "Acupuncture… does it hurt a lot?"}
+  - {n: 17, speaker: Mr N̂g, hanji: "比你扭著跤目較袂疼。少年人，膽較大咧！", tailo: "Pí lí láu-tio̍h kha-ba̍k khah bē thiànn. Siàu-liân-lâng, tánn khah tuā--leh!", en: "Less than twisting your ankle did. Come on, young man, be brave!"}
+  - {n: 18, speaker: Hūi-hūi, hanji: "黃先生，你有祖傳的祕方無？", tailo: "N̂g sian-sinn, lí ū tsóo-thuân ê pì-hng--bô?", en: "Mr N̂g, do you have a secret family remedy?"}
+  - {n: 19, speaker: Mr N̂g, hanji: "祕方？上好的祕方就是：早睏早起，食飯七分飽，逐工行路一點鐘。", tailo: "Pì-hng? Siōng hó ê pì-hng tō sī: tsá khùn tsá khí, tsia̍h-pn̄g tshit hun pá, ta̍k kang kiânn-lōo tsi̍t tiám-tsing.", en: "A secret remedy? The best one is this: early to bed, early to rise, eat until you're seventy per cent full, and walk for an hour every day."}
+  - {n: 20, speaker: Mr N̂g, hanji: "古早人講：", tailo: "Kóo-tsá-lâng kóng:", en: "As the old saying goes:"}
+  - {n: 21, speaker: Mr N̂g, hanji: "藥補不如食補。", tailo: "Io̍h póo put jû si̍t-póo.", en: "Medicine strengthens you less than good food does.", source: moe}
+  - {n: 22, speaker: Mr N̂g, hanji: "寒天食較燒的，薑、紅棗；熱天食較涼的，冬瓜、苦瓜。這就是基本的養生。", tailo: "Kuânn-thinn tsia̍h khah sio--ê, kiunn, âng-tsó; jua̍h-thinn tsia̍h khah liâng--ê, tang-kue, khóo-kue. Tse tō sī ki-pún ê ióng-sing.", en: "In winter eat warming things, ginger and red dates; in summer eat cooling things, winter melon and bitter gourd. That's the basics of looking after your health."}
+  - {n: 23, speaker: Hūi-hūi, hanji: "有人講中醫無科學，你按怎看？", tailo: "Ū lâng kóng tiong-i bô kho-ha̍k, lí án-tsuánn khuànn?", en: "Some people say Chinese medicine isn't scientific. What do you think?"}
+  - {n: 24, speaker: Mr N̂g, hanji: "中醫有理論，嘛有幾千年的經驗。毋過我嘛捌看過，有人烏白聽人的藥方，病煞愈來愈嚴重。看病愛有證書、有執照的人，莫烏白食藥。", tailo: "Tiong-i ū lí-lūn, mā ū kuí-tshing nî ê king-giām. M̄-koh guá mā bat khuànn-kuè, ū lâng oo-pe̍h thiann lâng ê io̍h-hng, pēnn suah jú lâi jú giâm-tiōng. Khuànn-pēnn ài ū tsìng-su, ū tsip-tsiàu ê lâng, mài oo-pe̍h tsia̍h io̍h.", en: "Chinese medicine has its theory and thousands of years of experience. But I've also seen people take any remedy they hear about and get worse and worse. See someone with qualifications and a licence, and don't take medicines at random."}
+  - {n: 25, speaker: Mr N̂g, hanji: "預防比治療較要緊。人若好好仔保養，就免揣我矣。", tailo: "Ī-hông pí tī-liâu khah iàu-kín. Lâng nā hó-hó-á pó-ióng, tō bián tshuē guá--ah.", en: "Prevention matters more than cure. If people look after themselves properly, they don't need to come and see me."}
+  - {n: 26, speaker: Mr N̂g, hanji: "（對 Sam）你的身體愛好好仔調養。", tailo: "(Tuì Sam) Lí ê sin-thé ài hó-hó-á tiâu-ióng.", en: "(To Sam) You need to take good care of your health."}
+  - {n: 27, speaker: Mr N̂g, hanji: "閣有，阮秀蘭真捷提起你。你若欲追伊，愛先過我這關。", tailo: "Koh ū, guán Siù-lân tsin tsia̍p thê-khí--lí. Lí nā beh tui--i, ài sing kuè guá tsit kuan.", en: "And one more thing: my Siù-lân mentions you a lot. If you want to court her, you'll have to get past me first."}
+notes:
+  - {ref: 1, topic: vocab, text: "中醫 tiong-i = Chinese medicine; a doctor of Chinese medicine. 先生 sian-sinn = Mr; also 'doctor' (lesson 13). Compare 西醫 = Western medicine (lesson 75)."}
+  - {ref: 2, topic: vocab, text: "第四代 = the fourth generation. 復健 (進修 36)."}
+  - {ref: 4, topic: vocab, text: "頭疼 thâu-thiànn = headache. 每 muí = each, every. 藥方 io̍h-hng = prescription: 提藥方去拆藥仔 (MOE, line 15)."}
+  - {ref: 6, topic: vocab, text: "An exact MOE example. 效果 hāu-kó = effect, result."}
+  - {ref: 7, topic: vocab, text: "急病 kip-pēnn = sudden illness, emergency. 調養 tiâu-ióng = build up, nurse (one's health). 作用 tsok-iōng = effect, use: 牧師的話佇我的心內發生作用 'the pastor's words had an effect on me' (MOE)."}
+  - {ref: 8, topic: culture, text: "摸脈 bong me̍h = take the pulse, the first step of a Chinese doctor's examination. 脈 me̍h = pulse; vein."}
+  - {ref: 10, topic: culture, text: "規个的 = a whole. 火氣 hué-khì = 'internal heat' in Chinese medicine (dry mouth, irritability, poor sleep); 火氣大 'too much heat'."}
+  - {ref: 14, topic: culture, text: "An exact MOE example. 青草 tshenn-tsháu = medicinal herbs; 青草茶 'herbal tea', sold in every street in summer. 退火 thè-hué = reduce internal heat, cool the body."}
+  - {ref: 15, topic: vocab, text: "針灸 tsiam-kù = acupuncture. 帖 thiap = counter for doses of Chinese medicine. 拆藥仔 thiah io̍h-á = have a prescription made up (at a Chinese pharmacy). 藥店 io̍h-tiàm = pharmacy. 煎 tsuann = brew, decoct."}
+  - {ref: 17, topic: vocab, text: "膽 tánn = courage, nerve (無膽, 進修 20)."}
+  - {ref: 18, topic: vocab, text: "祖傳 tsóo-thuân = handed down in the family (a written word, as in the MOE's 祖傳祕方). 祕方 pì-hng = secret remedy; 祖傳祕方 (MOE)."}
+  - {ref: 19, topic: vocab, text: "早睏早起 = early to bed, early to rise. 七分飽 = seventy per cent full."}
+  - {ref: 21, topic: culture, text: "An exact MOE example, read in literary style: 藥補 io̍h póo 'strengthen with medicine', 不如 put jû 'is not as good as', 食補 si̍t-póo 'strengthening through food'. 食補 is also read tsia̍h-póo in everyday speech."}
+  - {ref: 22, topic: vocab, text: "紅棗 âng-tsó = red date (jujube). 薑 kiunn = ginger. 冬瓜 tang-kue = winter melon. 苦瓜 khóo-kue = bitter gourd. 基本 ki-pún = basic. 養生 ióng-sing = look after one's health."}
+  - {ref: 24, topic: vocab, text: "理論 lí-lūn = theory; also 'argue it out': 一定愛勇敢佮對方理論 'you must stand up and argue your case' (MOE). 經驗 king-giām = experience: 我無這款經驗 'I have no experience of this' (MOE). 證書 tsìng-su = certificate; 結婚證書 'marriage certificate' (MOE). 執照 tsip-tsiàu = licence."}
+  - {ref: 25, topic: vocab, text: "預防 ī-hông = prevent; prevention. 保養 pó-ióng = look after (one's health, a machine)."}
+  - {ref: 26, topic: vocab, text: "An exact MOE example."}
+  - {ref: 27, topic: vocab, text: "提起 thê-khí = mention, bring up. 關 kuan = barrier, checkpoint (the same character as 關 kuainn 'shut, lock up', lesson 34); 過我這關 'get past me'."}
+new_words:
+  - {tailo: tiong-i, hanji: 中醫, en: "Chinese medicine; Chinese doctor"}
+  - {tailo: thâu-thiànn, hanji: 頭疼, en: "headache"}
+  - {tailo: muí, hanji: 每, en: "each, every"}
+  - {tailo: io̍h-hng, hanji: 藥方, en: "prescription"}
+  - {tailo: hāu-kó, hanji: 效果, en: "effect, result"}
+  - {tailo: tiâu-ióng, hanji: 調養, en: "build up, nurse (one's health)"}
+  - {tailo: tsok-iōng, hanji: 作用, en: "effect, use"}
+  - {tailo: me̍h, hanji: 脈, en: "pulse; vein"}
+  - {tailo: hué-khì, hanji: 火氣, en: "'internal heat'"}
+  - {tailo: tshenn-tsháu, hanji: 青草, en: "medicinal herbs"}
+  - {tailo: thè-hué, hanji: 退火, en: "reduce internal heat"}
+  - {tailo: tsiam-kù, hanji: 針灸, en: "acupuncture"}
+  - {tailo: thiap, hanji: 帖, en: "dose (of Chinese medicine)"}
+  - {tailo: thiah-io̍h-á, hanji: 拆藥仔, en: "have a prescription made up"}
+  - {tailo: tsuann, hanji: 煎, en: "brew, decoct; fry"}
+  - {tailo: tánn, hanji: 膽, en: "courage, nerve"}
+  - {tailo: pì-hng, hanji: 祕方, en: "secret remedy"}
+  - {tailo: si̍t-póo, hanji: 食補, en: "strengthening through food"}
+  - {tailo: âng-tsó, hanji: 紅棗, en: "red date (jujube)"}
+  - {tailo: kiunn, hanji: 薑, en: "ginger"}
+  - {tailo: tang-kue, hanji: 冬瓜, en: "winter melon"}
+  - {tailo: khóo-kue, hanji: 苦瓜, en: "bitter gourd"}
+  - {tailo: ki-pún, hanji: 基本, en: "basic"}
+  - {tailo: ióng-sing, hanji: 養生, en: "look after one's health"}
+  - {tailo: lí-lūn, hanji: 理論, en: "theory; argue it out"}
+  - {tailo: king-giām, hanji: 經驗, en: "experience"}
+  - {tailo: tsìng-su, hanji: 證書, en: "certificate"}
+  - {tailo: tsip-tsiàu, hanji: 執照, en: "licence"}
+  - {tailo: ī-hông, hanji: 預防, en: "prevent; prevention"}
+  - {tailo: pó-ióng, hanji: 保養, en: "look after (health, a machine)"}
+  - {tailo: thê-khí, hanji: 提起, en: "mention, bring up"}
+exercises:
+  translate:
+    - {tailo: "Se-i khuànn pēnn, tiong-i khuànn lâng.", hanji: "西醫看病，中醫看人。", en: "Western medicine looks at the disease; Chinese medicine looks at the person."}
+    - {tailo: "Nā-sī kip-pēnn, ài kín khì pēnn-īnn.", hanji: "若是急病，愛緊去病院。", en: "For an emergency you must hurry to hospital."}
+    - {tailo: "Tshiú tshun--tshut-lâi, guá sing kā lí bong me̍h.", hanji: "手伸出來，我先共你摸脈。", en: "Hold out your hand, I'll take your pulse first."}
+    - {tailo: "Lí the̍h io̍h-hng khì thiah-io̍h-á.", hanji: "你提藥方去拆藥仔。", en: "Take the prescription to the herbalist's to have it made up."}
+    - {tailo: "Ī-hông pí tī-liâu khah iàu-kín.", hanji: "預防比治療較要緊。", en: "Prevention matters more than cure."}
+    - {tailo: "Tiong-i kóng, tsia̍h siunn tsē bah ē khí hué-khì, ài tsia̍h khóo-kue, tang-kue, lim tshenn-tsháu thè-hué.", hanji: "中醫講，食傷濟肉會起火氣，愛食苦瓜、冬瓜，啉青草退火。", en: "Chinese doctors say eating too much meat makes you overheated: you should eat bitter melon and winter melon, and drink herbal tea to cool down."}
+    - {tailo: "Guán a-kong muí tsi̍t ê pēnn-lâng lóng ài bong me̍h, koh tsiàu pēnn-lâng ê tsîng-hîng khui io̍h-hng.", hanji: "阮阿公每一个病人攏愛摸脈，閣照病人的情形開藥方。", en: "My grandfather takes every patient's pulse and writes the prescription according to their condition."}
+  fill:
+    - {tailo: "Tshenn-tsháu tê tsin ___.", hanji: "青草茶真___。", answer: "thè-hué", answer_hanji: "退火", en: "Herbal tea really cools you down."}
+    - {tailo: "Kha-ba̍k ê pōo-hūn, guá kā lí ___ nn̄g pái.", hanji: "跤目的部份，我共你___兩擺。", answer: "tsiam-kù", answer_hanji: "針灸", en: "As for the ankle, I'll give you two sessions of acupuncture."}
+    - {tailo: "Lí ū tsóo-thuân ê ___--bô?", hanji: "你有祖傳的___無？", answer: "pì-hng", answer_hanji: "祕方", en: "Do you have a secret family remedy?"}
+    - {tailo: "Tiong-i ū lí-lūn, mā ū kuí-tshing nî ê ___.", hanji: "中醫有理論，嘛有幾千年的___。", answer: "king-giām", answer_hanji: "經驗", en: "Chinese medicine has its theory and thousands of years of experience."}
+    - {tailo: "Lí ê sin-thé ài hó-hó-á ___.", hanji: "你的身體愛好好仔___。", answer: "tiâu-ióng", answer_hanji: "調養", en: "You need to take good care of your health."}
+    - {tailo: "Tsit thiap io̍h ài iōng sann uánn tsuí ___ tsò tsi̍t uánn, lim liáu tō khì khùn.", hanji: "這帖藥愛用三碗水___做一碗，啉了就去睏。", answer: "tsuann", answer_hanji: "煎", en: "This dose has to be brewed down from three bowls of water to one; drink it and go to bed."}
+audio: []

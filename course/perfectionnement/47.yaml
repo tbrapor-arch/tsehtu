@@ -1,0 +1,91 @@
+id: 47
+title: {en: "Sister Pandanus", tailo: "Nâ-tâu-tsí", hanji: "林投姊"}
+genre: story
+review: false
+setting: "One of Tainan's best-known ghost stories, from the Qing era, retold for this course. The details differ from teller to teller; this is A-kong's version, told to Sam and Siù-lân on a hot summer night."
+dialogue:
+  - {n: 1, hanji: "臺南的老歲仔，無一个毋知林投姊的傳說。", tailo: "Tâi-lâm ê lāu-huè-á, bô tsi̍t ê m̄ tsai Nâ-tâu-tsí ê thuân-suat.", en: "Every old person in Tainan knows the legend of Sister Pandanus."}
+  - {n: 2, hanji: "清朝的時，府城有一个少年的寡婦，翁婿過身，留予伊三个囡仔佮一筆財產。", tailo: "Tshing-tiâu ê sî, Hú-siânn ū tsi̍t ê siàu-liân ê kuá-hū, ang-sài kuè-sin, lâu hōo i sann ê gín-á kah tsi̍t pit tsâi-sán.", en: "In the Qing dynasty there was a young widow in the old capital. When her husband died, he left her three children and a sum of money."}
+  - {n: 3, hanji: "有一工，一个對唐山來的生理人來揣伊，喙真甜，閣真體貼，定定送物件予囡仔。", tailo: "Ū tsi̍t kang, tsi̍t ê uì Tn̂g-suann lâi ê sing-lí-lâng lâi tshuē--i, tshuì tsin tinn, koh tsin thé-thiap, tiānn-tiānn sàng mi̍h-kiānn hōo gín-á.", en: "One day a merchant from the mainland came calling. He was a smooth talker, very attentive, and always bringing presents for the children."}
+  - {n: 4, hanji: "寡婦一个人顧家真艱苦，就相信伊的甜言蜜語，佮伊做伙。", tailo: "Kuá-hū tsi̍t ê lâng kòo ke tsin kan-khóo, tō siong-sìn i ê tinn-giân-bi̍t-gí, kah i tsò-hué.", en: "Raising a family alone was hard for the widow, so she believed his sweet talk and took up with him."}
+  - {n: 5, hanji: "無偌久，生理人講欲轉去唐山做大生理，向伊借錢。伊共規个家伙攏提予伊。", tailo: "Bô guā kú, sing-lí-lâng kóng beh tńg-khì Tn̂g-suann tsò tuā sing-lí, hiòng i tsioh tsînn. I kā kui-ê ke-hué lóng the̍h hōo--i.", en: "Before long the merchant said he was going back to the mainland to do big business, and asked her for a loan. She gave him everything she owned."}
+  - {n: 6, hanji: "伊共承諾：「半冬內，我就轉來娶你。」", tailo: "I kā sîng-lo̍k: “Puànn tang lāi, guá tō tńg--lâi tshuā--lí.”", en: "He promised: 'Within six months I'll be back to marry you.'"}
+  - {n: 7, hanji: "伊去了後，有去無回頭。一冬過去，兩冬過去，連一張批都無。", tailo: "I khì liáu-āu, ū khì bô huê-thâu. Tsi̍t tang kuè--khì, nn̄g tang kuè--khì, liân tsi̍t tiunn phue to bô.", en: "After he left, he never came back. One year passed, then two, without so much as a letter."}
+  - {n: 8, hanji: "後來才知影，伊佇唐山早就有某有囝。伊共寡婦的錢拐去，根本無欲轉來。", tailo: "Āu--lâi tsiah tsai-iánn, i tī Tn̂g-suann tsá tō ū bóo ū kiánn. I kā kuá-hū ê tsînn kuái--khì, kin-pún bô beh tńg--lâi.", en: "Later it came out that he already had a wife and children on the mainland. He'd swindled the widow of her money and never meant to come back."}
+  - {n: 9, hanji: "寡婦無錢通飼囡仔，三个囡仔一个一个破病死去。", tailo: "Kuá-hū bô tsînn thang tshī gín-á, sann ê gín-á tsi̍t ê tsi̍t ê phuà-pēnn sí--khì.", en: "With no money to feed them, the widow lost her three children to sickness, one after another."}
+  - {n: 10, hanji: "伊傷心甲起痟，有一暝，行去城外的林投欉跤，就按呢過身。人講伊死甲真冤。", tailo: "I siong-sim kah khí-siáu, ū tsi̍t mê, kiânn khì siânn-guā ê nâ-tâu-tsâng-kha, tō án-ne kuè-sin. Lâng kóng i sí kah tsin uan.", en: "Grief drove her mad. One night she went out to the pandanus thicket outside the city walls, and died there. People said she died a wronged woman."}
+  - {n: 11, hanji: "對彼陣開始，暗時有人佇林投欉邊看著一个穿白衫的查某人，一直咧哭。", tailo: "Uì hit-tsūn khai-sí, àm-sî ū lâng tī nâ-tâu-tsâng-pinn khuànn-tio̍h tsi̍t ê tshīng pe̍h-sann ê tsa-bóo-lâng, it-ti̍t teh khàu.", en: "From then on, people saw a woman in white by the pandanus thicket at night, weeping and weeping."}
+  - {n: 12, hanji: "閣有一个賣肉粽的阿伯講，半暝有一个查某人來買肉粽，提錢予伊。", tailo: "Koh ū tsi̍t ê bē bah-tsàng ê a-peh kóng, puànn-mê ū tsi̍t ê tsa-bóo-lâng lâi bé bah-tsàng, the̍h tsînn hōo--i.", en: "And a man who sold rice dumplings said that at midnight a woman came to buy dumplings, and paid him."}
+  - {n: 13, hanji: "天光伊算錢，煞發現彼張錢變做一張銀紙。伊驚甲規身軀起畏寒。", tailo: "Thinn-kng i sǹg tsînn, suah huat-hiān hit tiunn tsînn pìnn-tsò tsi̍t tiunn gîn-tsuá. I kiann kah kui-sin-khu khí-uì-kuânn.", en: "At daybreak, counting his takings, he found the note had turned into a sheet of spirit money. He shivered all over with fright."}
+  - {n: 14, hanji: "庄裡的人講，伊是冤魂，心內有怨恨，欲揣彼个生理人報仇。", tailo: "Tsng--lí ê lâng kóng, i sī uan-hûn, sim-lāi ū uàn-hūn, beh tshuē hit ê sing-lí-lâng pò-siû.", en: "The villagers said she was a wronged ghost, full of hatred, looking for the merchant to take her revenge."}
+  - {n: 15, hanji: "有一工，一个欲去唐山的讀冊人，佇船頂看著一个查某人求伊：「我欲去揣一个人，你𤆬我去好無？」", tailo: "Ū tsi̍t kang, tsi̍t ê beh khì Tn̂g-suann ê tha̍k-tsheh-lâng, tī tsûn-tíng khuànn-tio̍h tsi̍t ê tsa-bóo-lâng kiû--i: “Guá beh khì tshuē tsi̍t ê lâng, lí tshuā guá khì hó--bô?”", en: "One day a scholar on his way to the mainland saw a woman on board who begged him: 'I need to find someone. Will you take me there?'"}
+  - {n: 16, hanji: "讀冊人好心，就答應伊。到唐山了後，伊揣著彼个生理人的厝。", tailo: "Tha̍k-tsheh-lâng hó-sim, tō tah-ìng--i. Kàu Tn̂g-suann liáu-āu, i tshuē-tio̍h hit ê sing-lí-lâng ê tshù.", en: "The scholar was kind-hearted and agreed. Once on the mainland, she found the merchant's house."}
+  - {n: 17, hanji: "彼暗，生理人規暝攏聽著女人咧哭，伊看著寡婦的陰魂徛佇眠床邊，嚇甲起痟。", tailo: "Hit àm, sing-lí-lâng kui mê lóng thiann-tio̍h lú-jîn teh khàu, i khuànn-tio̍h kuá-hū ê im-hûn khiā tī bîn-tshn̂g-pinn, heh kah khí-siáu.", en: "That night the merchant heard a woman weeping all night long. He saw the widow's ghost standing by his bed, and the fright drove him mad."}
+  - {n: 18, hanji: "後來伊家己嘛死去，人講這是天理。", tailo: "Āu--lâi i ka-kī mā sí--khì, lâng kóng tse sī thian-lí.", en: "He died soon after, and people said that was heaven's justice."}
+  - {n: 19, hanji: "臺南人可憐伊，就佇林投欉邊起一間細間的廟，逐年拜伊，予伊的靈魂有所在通歇。", tailo: "Tâi-lâm-lâng khó-liân--i, tō tī nâ-tâu-tsâng-pinn khí tsi̍t king sè king ê biō, ta̍k nî pài--i, hōo i ê lîng-hûn ū sóo-tsāi thang hioh.", en: "The people of Tainan took pity on her and built a little shrine by the pandanus thicket. They make offerings to her every year, so that her soul has somewhere to rest."}
+  - {n: 20, hanji: "阿公講煞，秀蘭講：「這个生理人真殘忍，共人苦毒到按呢。」", tailo: "A-kong kóng suah, Siù-lân kóng: “Tsit ê sing-lí-lâng tsin tsân-jím, kā lâng khóo-to̍k kàu án-ne.”", en: "When A-kong had finished, Siù-lân said: 'That merchant was so cruel, treating someone like that.'"}
+  - {n: 21, hanji: "Sam 講：「莫怪阿媽定定講，查某人毋通烏白相信生理人的甜言蜜語。」", tailo: "Sam kóng: “Bo̍k-kuài a-má tiānn-tiānn kóng, tsa-bóo-lâng m̄-thang oo-pe̍h siong-sìn sing-lí-lâng ê tinn-giân-bi̍t-gí.”", en: "Sam said: 'No wonder A-má always says a woman should never fall for a merchant's sweet talk.'"}
+  - {n: 22, hanji: "阿媽佇灶跤喝：「嘛毋通相信外國人的甜言蜜語！」", tailo: "A-má tī tsàu-kha huah: “Mā m̄-thang siong-sìn guā-kok-lâng ê tinn-giân-bi̍t-gí!”", en: "A-má called from the kitchen: 'Or a foreigner's sweet talk either!'"}
+  - {n: 23, hanji: "秀蘭笑甲強欲跋倒，Sam 面紅甲若關公。", tailo: "Siù-lân tshiò kah kiōng-beh pua̍h-tó, Sam bīn âng kah ná Kuan-kong.", en: "Siù-lân nearly fell over laughing, and Sam went as red as the god Guan Gong."}
+  - {n: 24, hanji: "毋過彼暝，風吹著窗仔門咧響，Sam 規暝睏袂去。伊講：", tailo: "M̄-koh hit mê, hong tshue-tio̍h thang-á-mn̂g teh hiáng, Sam kui mê khùn bē khì. I kóng:", en: "But that night, the wind rattled the windows and Sam couldn't sleep a wink. He said:"}
+  - {n: 25, hanji: "聽著遮的鬼仔古，我直直起畏寒。", tailo: "Thiann-tio̍h tsia-ê kuí-á kóo, guá ti̍t-ti̍t khí-uì-kuânn.", en: "Hearing these ghost stories, I keep getting the shivers.", source: moe}
+notes:
+  - {ref: 1, topic: culture, text: "林投 nâ-tâu = pandanus, a spiky shrub of Taiwan's coasts. 林投姊 'Sister Pandanus' is the ghost of a wronged woman, one of Taiwan's three great ghost stories. 傳說 thuân-suat = legend."}
+  - {ref: 2, topic: vocab, text: "清朝 Tshing-tiâu = the Qing dynasty. 府城 Hú-siânn = 'the prefectural city', Tainan's old name (一府二鹿三艋舺, 進修 24). 寡婦 kuá-hū = widow. 一筆 = a sum (of money). 財產 tsâi-sán = property, fortune."}
+  - {ref: 3, topic: vocab, text: "唐山 Tn̂g-suann = the Chinese mainland (in old Taiwanese usage). 生理人 sing-lí-lâng = merchant, businessman. 喙甜 = smooth-tongued."}
+  - {ref: 5, topic: vocab, text: "家伙 = family fortune, everything one owns (進修 2)."}
+  - {ref: 6, topic: vocab, text: "承諾 sîng-lo̍k = promise. 半冬 = half a year."}
+  - {ref: 7, topic: vocab, text: "有去無回頭 = go and never come back: 伊講欲去臺北拍拚，結果煞有去無回頭 'he said he was going to Taipei to work, and never came back' (MOE). 回頭 huê-thâu = come back; turn back."}
+  - {ref: 8, topic: vocab, text: "拐 kuái = swindle, con (out of money): 拐去 'make off with'. 根本 (進修 27)."}
+  - {ref: 10, topic: vocab, text: "起痟 khí-siáu = go mad. 城外 = outside the city walls. 林投欉 = pandanus bush. 冤 uan = wronged, unjust; 死甲真冤 'die a wrongful death'."}
+  - {ref: 12, topic: culture, text: "肉粽 bah-tsàng = rice dumpling wrapped in leaves."}
+  - {ref: 13, topic: vocab, text: "銀紙 = spirit money (進修 43). 起畏寒 khí-uì-kuânn = shiver, get the chills."}
+  - {ref: 14, topic: vocab, text: "冤魂 uan-hûn = the ghost of someone wrongly killed: 遐的殺人犯敢講攏毋驚冤魂來討命？ 'aren't those murderers afraid the ghosts of their victims will come for them?' (MOE). 怨恨 uàn-hūn = hatred, resentment. 報仇 pò-siû = take revenge."}
+  - {ref: 15, topic: vocab, text: "讀冊人 = scholar. 船頂 = on board."}
+  - {ref: 17, topic: vocab, text: "女人 lú-jîn = woman (literary). 陰魂 im-hûn = ghost, spirit of the dead. 嚇 heh = frighten."}
+  - {ref: 18, topic: vocab, text: "天理 thian-lí = heaven's justice, natural law."}
+  - {ref: 20, topic: vocab, text: "殘忍 tsân-jím = cruel: 伊真殘忍，不時拍貓、拍狗 'he's cruel, always beating cats and dogs' (MOE). 苦毒 khóo-to̍k = mistreat, torment: 看著電影的主角予人苦毒，觀眾綴咧流目屎 'seeing the hero mistreated, the audience wept' (MOE)."}
+  - {ref: 23, topic: culture, text: "關公 Kuan-kong = Guan Gong, the red-faced god of loyalty; 紅面關公 (進修 41's note)."}
+  - {ref: 24, topic: vocab, text: "響 hiáng = make a noise, rattle."}
+  - {ref: 25, topic: vocab, text: "An exact MOE example. 鬼仔 kuí-á = ghost; 鬼仔古 = ghost story. 直直 = keep on."}
+new_words:
+  - {tailo: nâ-tâu, hanji: 林投, en: "pandanus"}
+  - {tailo: thuân-suat, hanji: 傳說, en: "legend"}
+  - {tailo: Hú-siânn, hanji: 府城, en: "the old prefectural city (Tainan)"}
+  - {tailo: kuá-hū, hanji: 寡婦, en: "widow"}
+  - {tailo: tsâi-sán, hanji: 財產, en: "property, fortune"}
+  - {tailo: Tn̂g-suann, hanji: 唐山, en: "the Chinese mainland (old usage)"}
+  - {tailo: sing-lí-lâng, hanji: 生理人, en: "merchant, businessman"}
+  - {tailo: sîng-lo̍k, hanji: 承諾, en: "promise"}
+  - {tailo: huê-thâu, hanji: 回頭, en: "come back; turn back"}
+  - {tailo: kuái, hanji: 拐, en: "swindle, con"}
+  - {tailo: khí-siáu, hanji: 起痟, en: "go mad"}
+  - {tailo: uan, hanji: 冤, en: "wronged, unjust"}
+  - {tailo: bah-tsàng, hanji: 肉粽, en: "rice dumpling"}
+  - {tailo: kuí-á, hanji: 鬼仔, en: "ghost"}
+  - {tailo: hiáng, hanji: 響, en: "make a noise, rattle"}
+  - {tailo: uan-hûn, hanji: 冤魂, en: "ghost of someone wrongly killed"}
+  - {tailo: uàn-hūn, hanji: 怨恨, en: "hatred, resentment"}
+  - {tailo: pò-siû, hanji: 報仇, en: "take revenge"}
+  - {tailo: lú-jîn, hanji: 女人, en: "woman (literary)"}
+  - {tailo: im-hûn, hanji: 陰魂, en: "ghost, spirit of the dead"}
+  - {tailo: thian-lí, hanji: 天理, en: "heaven's justice"}
+  - {tailo: tsân-jím, hanji: 殘忍, en: "cruel"}
+  - {tailo: khóo-to̍k, hanji: 苦毒, en: "mistreat, torment"}
+exercises:
+  translate:
+    - {tailo: "Tâi-lâm ê lāu-huè-á, bô tsi̍t ê m̄ tsai Nâ-tâu-tsí ê thuân-suat.", hanji: "臺南的老歲仔，無一个毋知林投姊的傳說。", en: "Every old person in Tainan knows the legend of Sister Pandanus."}
+    - {tailo: "I khì liáu-āu, ū khì bô huê-thâu.", hanji: "伊去了後，有去無回頭。", en: "After he left, he never came back."}
+    - {tailo: "Thinn-kng i sǹg tsînn, suah huat-hiān hit tiunn tsînn pìnn-tsò tsi̍t tiunn gîn-tsuá.", hanji: "天光伊算錢，煞發現彼張錢變做一張銀紙。", en: "At daybreak, counting his takings, he found the note had turned into spirit money."}
+    - {tailo: "I sī uan-hûn, sim-lāi ū uàn-hūn, beh tshuē hit ê sing-lí-lâng pò-siû.", hanji: "伊是冤魂，心內有怨恨，欲揣彼个生理人報仇。", en: "She was a wronged ghost, full of hatred, looking for the merchant to take her revenge."}
+    - {tailo: "Tsit ê sing-lí-lâng tsin tsân-jím.", hanji: "這个生理人真殘忍。", en: "That merchant was so cruel."}
+    - {tailo: "Tshing-tiâu ê sî, tsi̍t ê Tn̂g-suann ê sing-lí-lâng kā kuá-hū ê tsâi-sán phiàn--khì, liáu-āu tō bô koh huê-thâu.", hanji: "清朝的時，一个唐山的生理人共寡婦的財產騙去，了後就無閣回頭。", en: "In the Qing era, a merchant from the mainland swindled a widow out of her fortune and never came back."}
+    - {tailo: "Lâng kóng, kuá-hū ê uan-hûn ū uàn-hūn, tī nâ-tâu hia tán, beh tshuē hit ê lâng pò-siû.", hanji: "人講，寡婦的冤魂有怨恨，佇林投遐等，欲揣彼个人報仇。", en: "People say the widow's wronged ghost was full of hatred and waited under the pandanus to take revenge on that man."}
+  fill:
+    - {tailo: "Tshing-tiâu ê sî, Hú-siânn ū tsi̍t ê siàu-liân ê ___.", hanji: "清朝的時，府城有一个少年的___。", answer: "kuá-hū", answer_hanji: "寡婦", en: "In the Qing dynasty there was a young widow in the old capital."}
+    - {tailo: "I kā kui-ê ___ lóng the̍h hōo--i.", hanji: "伊共規个___攏提予伊。", answer: "ke-hué", answer_hanji: "家伙", en: "She gave him everything she owned."}
+    - {tailo: "I siong-sim kah ___.", hanji: "伊傷心甲___。", answer: "khí-siáu", answer_hanji: "起痟", en: "Grief drove her mad."}
+    - {tailo: "I kiann kah kui-sin-khu ___.", hanji: "伊驚甲規身軀___。", answer: "khí-uì-kuânn", answer_hanji: "起畏寒", en: "He shivered all over with fright."}
+    - {tailo: "Lâng kóng tse sī ___.", hanji: "人講這是___。", answer: "thian-lí", answer_hanji: "天理", en: "People said that was heaven's justice."}
+    - {tailo: "A-kong kóng, phiàn lâng tsâi-sán, koh hāi lâng sí ê lâng, bué--á lóng bô hó kiat-kó, tse tō sī ___.", hanji: "阿公講，騙人財產、閣害人死的人，尾仔攏無好結果，這就是___。", answer: "thian-lí", answer_hanji: "天理", en: "A-kong says people who cheat others of their money and drive them to their death always come to a bad end in the end: that's heaven's justice."}
+audio: []

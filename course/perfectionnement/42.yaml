@@ -1,0 +1,58 @@
+id: 42
+title: {en: "Review 6", tailo: "Ho̍k-si̍p", hanji: "復習"}
+genre: review
+review: true
+setting: "The summer holidays in Tainan. Sam has brought Siù-lân home to meet A-kong, who is just out of hospital, and A-má. Everything comes from 進修 36–41."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "秀蘭，歡迎！阿公出院了後，逐工攏咧等你來。", tailo: "Siù-lân, huan-gîng! A-kong tshut-īnn liáu-āu, ta̍k kang lóng teh tán lí lâi.", en: "Welcome, Siù-lân! Since A-kong came out of hospital, he's been waiting for you every day."}
+  - {n: 2, speaker: A-kong, hanji: "（坐佇輪椅）秀蘭，聽講你是做復健的？我這支大腿的骨頭內底有金屬的螺絲，你敢有辦法？", tailo: "(Tsē tī lûn-í) Siù-lân, thiann-kóng lí sī tsò ho̍k-kiān--ê? Guá tsit ki tuā-thuí ê kut-thâu lāi-té ū kim-sio̍k ê lôo-si, lí kám ū pān-huat?", en: "(In his wheelchair) Siù-lân, I hear you do physiotherapy? There are metal screws inside the bone of this thigh of mine: can you do anything about it?"}
+  - {n: 3, speaker: Siù-lân, hanji: "阿公，咱照步來。先伸跤，閣共腰骨沓沓仔扭予開。姿勢愛正確，莫向傷低。", tailo: "A-kong, lán tsiàu-pōo-lâi. Sing tshun-kha, koh kā io-kut ta̍uh-ta̍uh-á ngiú hōo khui. Tsu-sè ài tsìng-khak, mài ànn siunn kē.", en: "A-kong, we'll take it step by step. First stretch your leg, then slowly loosen up your lower back. Keep your posture right, and don't bend over too far."}
+  - {n: 4, speaker: A-kong, hanji: "我的筋骨攏生鉎去矣，毋過看著你，心肝就開闊。", tailo: "Guá ê kin-kut lóng senn-sian--khì--ah, m̄-koh khuànn-tio̍h lí, sim-kuann tō khui-khuah.", en: "My joints have all rusted up, but seeing you cheers me right up."}
+  - {n: 5, speaker: Siù-lân, hanji: "復健愛有規律，逐工捷捷練，三個月後，你就會當用枴仔行路矣。", tailo: "Ho̍k-kiān ài ū kui-lu̍t, ta̍k kang tsia̍p-tsia̍p liān, sann kò gue̍h āu, lí tō ē-tàng iōng kuái-á kiânn-lōo--ah.", en: "Physiotherapy needs regularity: practise often every day, and in three months you'll be able to walk with a stick."}
+  - {n: 6, speaker: A-má, hanji: "秀蘭，阿媽煎一帖藥予阿公，是恁阿公開的藥方。伊講，藥補不如食補，所以我閣煮紅棗佮薑。", tailo: "Siù-lân, a-má tsuann tsi̍t thiap io̍h hōo a-kong, sī lín a-kong khui ê io̍h-hng. I kóng, io̍h póo put jû si̍t-póo, sóo-í guá koh tsú âng-tsó kah kiunn.", en: "Siù-lân, I've brewed a dose of medicine for A-kong from the prescription your grandfather wrote. He says food heals better than medicine, so I've cooked red dates and ginger too."}
+  - {n: 7, speaker: Siù-lân, hanji: "阮阿公做中醫五十冬，伊上捷講的就是：預防比治療較要緊。", tailo: "Guán a-kong tsò tiong-i gōo-tsa̍p tang, i siōng tsia̍p kóng--ê tō sī: ī-hông pí tī-liâu khah iàu-kín.", en: "My grandfather has been a Chinese doctor for fifty years, and what he says most often is that prevention matters more than cure."}
+  - {n: 8, speaker: A-kong, hanji: "Sam，你的跤目好未？聽講你去走標，扭著跤目，閣予人摸脈、針灸。", tailo: "Sam, lí ê kha-ba̍k hó--buē? Thiann-kóng lí khì tsáu-pio, láu-tio̍h kha-ba̍k, koh hōo lâng bong me̍h, tsiam-kù.", en: "Sam, is your ankle better? I hear you twisted it running, and then had your pulse taken and acupuncture."}
+  - {n: 9, speaker: Sam, hanji: "好矣。黃先生講我的火氣大，叫我啉青草茶退火。", tailo: "Hó--ah. N̂g sian-sinn kóng guá ê hué-khì tuā, kiò guá lim tshenn-tsháu tê thè-hué.", en: "It's fine now. Mr N̂g said I had too much internal heat and told me to drink herbal tea to cool down."}
+  - {n: 10, speaker: A-kong, hanji: "火氣大？我看是你暗時失眠，攏咧想秀蘭。", tailo: "Hué-khì tuā? Guá khuànn sī lí àm-sî sit-bîn, lóng teh siūnn Siù-lân.", en: "Internal heat? If you ask me, you lie awake at night thinking about Siù-lân."}
+  - {n: 11, speaker: A-má, hanji: "阿勇佮淑貞嘛來矣！恁的新厝租了按怎？", tailo: "A-ióng kah Siok-tsing mā lâi--ah! Lín ê sin tshù tsoo liáu án-tsuánn?", en: "And here are A-ióng and Siok-tsing! How's the new flat you're renting?"}
+  - {n: 12, speaker: Siok-tsing, hanji: "契約簽矣。租金一個月兩萬，水費佮電費家己負責。厝主嘛同意咱飼寵物。", tailo: "Khè-iok tshiam--ah. Tsoo-kim tsi̍t kò gue̍h nn̄g-bān, tsuí-huì kah tiān-huì ka-kī hū-tsik. Tshù-tsú mā tông-ì lán tshī thióng-bu̍t.", en: "We've signed the lease. The rent is twenty thousand a month, and we pay our own water and electricity. The landlady agreed we can keep pets too."}
+  - {n: 13, speaker: A-ióng, hanji: "毋過伊講，貓仔若拍歹家具，愛照價錢賠償。頭家頭一工就共桌櫃拍歹矣。", tailo: "M̄-koh i kóng, niau-á nā phah-pháinn ka-kū, ài tsiàu kè-tsînn puê-siông. Thâu-ke thâu tsi̍t kang tō kā toh-kuī phah-pháinn--ah.", en: "But she said that if the cats damage the furniture, we pay compensation at its value. On day one Boss damaged the chest of drawers."}
+  - {n: 14, speaker: Siok-tsing, hanji: "我早就講，愛共契約的內容頭尾看予明瞭。押金一部份穩當袂退還矣。", tailo: "Guá tsá tō kóng, ài kā khè-iok ê luē-iông thâu-bué khuànn hōo bîng-liâu. Ah-kim tsi̍t pōo-hūn ún-tàng bē thè-hîng--ah.", en: "I told you to read the whole lease through until you understood it. We certainly won't get part of the deposit back now."}
+  - {n: 15, speaker: A-ióng, hanji: "（對 Sam）啊，你佮秀蘭約會彼暗，我做你的軍師，敢有鬥相共？", tailo: "(Tuì Sam) Ah, lí kah Siù-lân iok-huē hit àm, guá tsò lí ê kun-su, kám ū tàu-sann-kāng?", en: "(To Sam) Hey, the night you went out with Siù-lân, I was your adviser: did I help?"}
+  - {n: 16, speaker: Siù-lân, hanji: "你的暗號我攏聽著矣。毋過 Sam 上尾家己講實話，我對伊的好感才閣加一分。", tailo: "Lí ê àm-hō guá lóng thiann--tio̍h--ah. M̄-koh Sam siōng-bué ka-kī kóng si̍t-uē, guá tuì i ê hó-kám tsiah koh ke tsi̍t hun.", en: "I heard all your secret instructions. But in the end Sam told the truth himself, and that's what made me like him more."}
+  - {n: 17, speaker: A-kong, hanji: "好款！阿勇，你家己追淑貞的時，嘛是靠一隻貓。", tailo: "Hó-khuán! A-ióng, lí ka-kī tui Siok-tsing ê sî, mā sī khò tsi̍t tsiah niau.", en: "Well, well! A-ióng, when you were courting Siok-tsing, you needed a cat too."}
+  - {n: 18, speaker: A-má, hanji: "暗時阿明的查某囝欲來，伊毋睏，我就講虎姑婆的故事。", tailo: "Àm-sî A-bîng ê tsa-bóo-kiánn beh lâi, i m̄ khùn, guá tō kóng Hóo-koo-pô ê kòo-sū.", en: "A-bîng's daughter is coming tonight. If she won't sleep, I'll tell her the story of Grandaunt Tiger."}
+  - {n: 19, speaker: Siù-lân, hanji: "我細漢上驚虎姑婆。暗頭仔有人敲門，我就毋敢開門，閣共門閂閂予好。", tailo: "Guá sè-hàn siōng kiann Hóo-koo-pô. Àm-thâu-á ū lâng khà-mn̂g, guá tō m̄ kánn khui-mn̂g, koh kā mn̂g-tshuànn tshuànn hōo hó.", en: "When I was small, I was terrified of Grandaunt Tiger. If anyone knocked at dusk, I wouldn't dare open the door, and I made sure it was barred."}
+  - {n: 20, speaker: Sam, hanji: "毋過故事內底的阿姊真精光，用一鼎燒油就共妖怪淋死。", tailo: "M̄-koh kòo-sū lāi-té ê a-tsí tsin tsing-kong, iōng tsi̍t tiánn sio iû tō kā iau-kuài lâm--sí.", en: "But the big sister in the story was sharp: she killed the monster with a wok of boiling oil."}
+  - {n: 21, speaker: A-kong, hanji: "秀蘭嘛精光，射氣球十粒攏破。Sam，你以後莫得罪伊。", tailo: "Siù-lân mā tsing-kong, siā khì-kiû tsa̍p lia̍p lóng phuà. Sam, lí í-āu mài tik-tsuē--i.", en: "Siù-lân's sharp too: ten balloons out of ten. Sam, don't you ever cross her."}
+  - {n: 22, speaker: Siù-lân, hanji: "（紅面）阿公，你嘛真皮皮。", tailo: "(Âng-bīn) A-kong, lí mā tsin phî-phî.", en: "(Blushing) A-kong, you're a cheeky one too."}
+  - {n: 23, speaker: A-kong, hanji: "秀蘭，你看阮 Sam 按怎？伊人單純，閣真體貼，就是有時陣較戇神。", tailo: "Siù-lân, lí khuànn guán Sam án-tsuánn? I lâng tan-sûn, koh tsin thé-thiap, tō-sī ū-sî-tsūn khah gōng-sîn.", en: "Siù-lân, what do you think of our Sam? He's straightforward and very caring; he's just a bit dazed sometimes."}
+  - {n: 24, speaker: Siù-lân, hanji: "伊上好的所在，就是平常時按怎講話就按怎講，袂學人。", tailo: "I siōng hó ê sóo-tsāi, tō sī pîng-siông-sî án-tsuánn kóng-uē tō án-tsuánn kóng, bē o̍h lâng.", en: "The best thing about him is that he talks the way he normally talks: he doesn't copy anyone."}
+  - {n: 25, speaker: A-má, hanji: "按呢就好。阿公，你愛長歲壽，愛等 Sam 結婚。", tailo: "Án-ne tō hó. A-kong, lí ài tn̂g-huè-siū, ài tán Sam kiat-hun.", en: "That's what counts. A-kong, you need to live a long life and wait for Sam to get married."}
+  - {n: 26, speaker: A-kong, hanji: "這款好消息，比啥物藥方攏較有效果。我這馬就欲起來行路！", tailo: "Tsit khuán hó siau-sit, pí siánn-mih io̍h-hng lóng khah ū hāu-kó. Guá tsit-má tō beh khí--lâi kiânn-lōo!", en: "Good news like this works better than any prescription. I'm going to get up and walk right now!"}
+  - {n: 27, speaker: Siù-lân, hanji: "阿公，莫衝碰！照步來！", tailo: "A-kong, mài tshóng-pōng! Tsiàu-pōo-lâi!", en: "A-kong, don't rush! Step by step!"}
+notes:
+  - {ref: 2, topic: vocab, text: "A-kong's fall (進修 40): 出院, 輪椅, 大腿, 骨頭, 金屬, 螺絲, 枴仔, 長歲壽, 戇神."}
+  - {ref: 3, topic: vocab, text: "The running club (進修 36): 伸跤, 腰骨, 扭, 姿勢, 正確, 向 ànn, 筋骨, 生鉎, 開闊, 規律, 捷捷, 平常時, 跤目."}
+  - {ref: 6, topic: vocab, text: "The Chinese doctor (進修 39): 煎, 帖, 藥方, 藥補不如食補, 紅棗, 薑, 中醫, 預防, 摸脈, 針灸, 火氣, 青草, 退火, 效果."}
+  - {ref: 12, topic: vocab, text: "The lease (進修 37): 契約, 簽, 租金, 水費, 負責, 寵物, 拍歹, 家具, 賠償, 桌櫃, 內容, 頭尾, 明瞭, 押金, 部份, 穩當, 退還."}
+  - {ref: 15, topic: vocab, text: "The night market (進修 41): 軍師, 暗號, 好感, 好款, 射, 皮皮, 紅面. 鬥相共 = help (lesson 32)."}
+  - {ref: 18, topic: vocab, text: "Grandaunt Tiger (進修 38): 虎姑婆, 暗頭仔, 敲門, 開門, 門閂, 精光, 淋, 妖怪."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Lán tsiàu-pōo-lâi. Sing tshun-kha, koh kā io-kut ngiú hōo khui.", hanji: "咱照步來。先伸跤，閣共腰骨扭予開。", en: "We'll take it step by step. First stretch your leg, then loosen up your lower back."}
+    - {tailo: "Ī-hông pí tī-liâu khah iàu-kín.", hanji: "預防比治療較要緊。", en: "Prevention matters more than cure."}
+    - {tailo: "Tshù-tsú mā tông-ì lán tshī thióng-bu̍t.", hanji: "厝主嘛同意咱飼寵物。", en: "The landlady agreed we can keep pets too."}
+    - {tailo: "Àm-thâu-á ū lâng khà-mn̂g, guá tō m̄ kánn khui-mn̂g.", hanji: "暗頭仔有人敲門，我就毋敢開門。", en: "If anyone knocked at dusk, I wouldn't dare open the door."}
+    - {tailo: "Tsit khuán hó siau-sit, pí siánn-mih io̍h-hng lóng khah ū hāu-kó.", hanji: "這款好消息，比啥物藥方攏較有效果。", en: "Good news like this works better than any prescription."}
+    - {tailo: "Siù-lân kā a-kong kóng, ho̍k-kiān ài ū kui-lu̍t, mā ài tsia̍h khah ū îng-ióng--ê.", hanji: "秀蘭共阿公講，復健愛有規律，嘛愛食較有營養的。", en: "Siù-lân told A-kong that physiotherapy needs regularity, and that he should eat more nourishing food."}
+    - {tailo: "Tshiam iok liáu-āu, A-ióng kah Siok-tsing tō puann-tshù, ka-kū lóng sī tshù-tsú thê-kiong--ê.", hanji: "簽約了後，阿勇佮淑貞就搬厝，家具攏是厝主提供的。", en: "After signing the lease, A-ióng and Siok-tsing moved in; all the furniture was provided by the landlady."}
+  fill:
+    - {tailo: "Ho̍k-kiān ài ū ___, ta̍k kang tsia̍p-tsia̍p liān.", hanji: "復健愛有___，逐工捷捷練。", answer: "kui-lu̍t", answer_hanji: "規律", en: "Physiotherapy needs regularity: practise often every day."}
+    - {tailo: "Ah-kim tsi̍t pōo-hūn ___ bē thè-hîng--ah.", hanji: "押金一部份___袂退還矣。", answer: "ún-tàng", answer_hanji: "穩當", en: "We certainly won't get part of the deposit back now."}
+    - {tailo: "Lí ê ___ guá lóng thiann--tio̍h--ah.", hanji: "你的___我攏聽著矣。", answer: "àm-hō", answer_hanji: "暗號", en: "I heard all your secret instructions."}
+    - {tailo: "Kòo-sū lāi-té ê a-tsí tsin ___.", hanji: "故事內底的阿姊真___。", answer: "tsing-kong", answer_hanji: "精光", en: "The big sister in the story was sharp."}
+    - {tailo: "A-kong, lí ài ___, ài tán Sam kiat-hun.", hanji: "阿公，你愛___，愛等 Sam 結婚。", answer: "tn̂g-huè-siū", answer_hanji: "長歲壽", en: "A-kong, you need to live a long life and wait for Sam to get married."}
+    - {tailo: "A-má kóng, a-kong tsit-má tshing-tshénn--ah, m̄-koh ___ iáu-koh ū-sî-á ē tsáu-tsing.", hanji: "阿媽講，阿公這馬清醒矣，毋過___猶閣有時仔會走精。", answer: "kì-sìng", answer_hanji: "記性", en: "A-má says A-kong is lucid now, but his memory still goes astray now and then."}
+audio: []

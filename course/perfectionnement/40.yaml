@@ -1,0 +1,97 @@
+id: 40
+title: {en: "A-kong's fall", tailo: "A-kong pua̍h-tó", hanji: "阿公跋倒"}
+genre: letter
+review: false
+setting: "Early summer. A-kong has had a fall, and A-má sends Sam a letter from the hospital in Tainan. Her eyes are poor, and A-kong is in bed, so A-bîng writes it down for her."
+dialogue:
+  - {n: 1, hanji: "Sam 孫仔：", tailo: "Sam sun-á:", en: "Dear Sam,"}
+  - {n: 2, hanji: "這張批是阿媽講，阿明代筆。阿公這擺無法度寫，因為伊這馬倒佇病院的病房。", tailo: "Tsit tiunn phue sī a-má kóng, A-bîng tāi-pit. A-kong tsit pái bô-huat-tōo siá, in-uī i tsit-má tó tī pēnn-īnn ê pēnn-pâng.", en: "I'm saying this letter and A-bîng is writing it down. A-kong can't write this time, because he's lying in a hospital ward."}
+  - {n: 3, hanji: "你毋通傷憂愁。頂禮拜六透早，阿公佇洗身軀間跋倒，大腿的骨頭斷去。", tailo: "Lí m̄-thang siunn iu-tshiû. Tíng lé-pài-la̍k thàu-tsá, a-kong tī sé-sin-khu-king pua̍h-tó, tuā-thuí ê kut-thâu tn̄g--khì.", en: "Don't worry too much. Early last Saturday, A-kong fell in the bathroom and broke his thigh bone."}
+  - {n: 4, hanji: "我聽著聲走過去，看著伊倒佇塗跤，面色戇神戇神，我驚甲強欲昏去。", tailo: "Guá thiann-tio̍h siann tsáu--kuè-khì, khuànn-tio̍h i tó tī thôo-kha, bīn-sik gōng-sîn gōng-sîn, guá kiann kah kiōng-beh hūn--khì.", en: "I heard the noise and ran in, and found him on the floor, staring blankly. I was so frightened I nearly fainted."}
+  - {n: 5, hanji: "佳哉厝邊隨敲電話叫救護車，十分鐘就到矣。", tailo: "Ka-tsài tshù-pinn sûi khà tiān-uē kiò kiù-hōo-tshia, tsa̍p hun-tsing tō kàu--ah.", en: "Luckily the neighbours called an ambulance straight away, and it came within ten minutes."}
+  - {n: 6, hanji: "醫生講愛開刀，用金屬的螺絲共骨頭釘予牢。手術做四點鐘，阮佇外口等甲真煩惱。", tailo: "I-sing kóng ài khui-to, iōng kim-sio̍k ê lôo-si kā kut-thâu tìng hōo tiâu. Tshiú-su̍t tsò sì tiám-tsing, guán tī guā-kháu tán kah tsin huân-ló.", en: "The doctor said he needed an operation, to fix the bone in place with metal screws. The operation took four hours, and we waited outside sick with worry."}
+  - {n: 7, hanji: "麻醉退了後，阿公清醒過來，頭一句話是：「我的目鏡咧？」", tailo: "Bâ-tsuì thè liáu-āu, a-kong tshing-tshénn--kuè-lâi, thâu tsi̍t kù uē sī: “Guá ê ba̍k-kiànn--leh?”", en: "When the anaesthetic wore off and A-kong came round, the first thing he said was: 'Where are my glasses?'"}
+  - {n: 8, hanji: "伊的記性猶真好，頭殼嘛無走精，毋過人變甲真瘦。", tailo: "I ê kì-sìng iáu tsin hó, thâu-khak mā bô tsáu-tsing, m̄-koh lâng pìnn kah tsin sán.", en: "His memory is still very good and his mind is as sharp as ever, but he's got very thin."}
+  - {n: 9, hanji: "這幾工，阿明、阿芬佮我輪流佇病院陪伴伊，暝日攏有人。", tailo: "Tsit kuí kang, A-bîng, A-hun kah guá lûn-liû tī pēnn-īnn puê-phuānn--i, mê-ji̍t lóng ū lâng.", en: "These last few days A-bîng, A-hun and I have taken turns sitting with him at the hospital, so there's someone there day and night."}
+  - {n: 10, hanji: "醫生講，下禮拜就會當出院，毋過以後愛坐輪椅一段時間，閣愛做復健，才會使用枴仔行路。", tailo: "I-sing kóng, ē lé-pài tō ē-tàng tshut-īnn, m̄-koh í-āu ài tsē lûn-í tsi̍t tuānn sî-kan, koh ài tsò ho̍k-kiān, tsiah ē-sái iōng kuái-á kiânn-lōo.", en: "The doctor says he can leave hospital next week, but he'll have to use a wheelchair for a while and do physiotherapy before he can walk with a stick."}
+  - {n: 11, hanji: "阿公聽著愛用枴仔，真無歡喜。伊講：「我規世人毋捌予人扶，這馬煞愛靠一支柴。」", tailo: "A-kong thiann-tio̍h ài iōng kuái-á, tsin bô huann-hí. I kóng: “Guá kui-sì-lâng m̄ bat hōo lâng phôo, tsit-má suah ài khò tsi̍t ki tshâ.”", en: "A-kong wasn't happy to hear he'd need a walking stick. He said: 'All my life nobody's had to hold me up, and now I have to lean on a piece of wood.'"}
+  - {n: 12, hanji: "我共伊講：「這毋是不幸，是好運。人講你較早跋一倒，毋是斷骨頭，是無命。」", tailo: "Guá kā i kóng: “Tse m̄ sī put-hīng, sī hó-ūn. Lâng kóng lí khah-tsá pua̍h tsi̍t tó, m̄ sī tn̄g kut-thâu, sī bô miā.”", en: "I told him: 'This isn't bad luck, it's good luck. People say that in the old days, a fall like that wouldn't have meant a broken bone, it would have meant the end.'"}
+  - {n: 13, hanji: "這擺開刀，健保負擔大部份，咱家己出的錢無偌濟，你毋免煩惱錢的代誌。", tailo: "Tsit pái khui-to, kiān-pó hū-tam tuā-pōo-hūn, lán ka-kī tshut ê tsînn bô guā tsē, lí m̄-bián huân-ló tsînn ê tāi-tsì.", en: "This time the national health insurance is paying for most of the operation; what we pay ourselves isn't much, so don't worry about money."}
+  - {n: 14, hanji: "毋過枴仔佮輪椅愛家己買，這部份是自費。", tailo: "M̄-koh kuái-á kah lûn-í ài ka-kī bé, tsit pōo-hūn sī tsū-huì.", en: "But the stick and the wheelchair we have to buy ourselves: that part comes out of our own pocket."}
+  - {n: 15, hanji: "我逐暗佇病床邊祈禱，求媽祖婆保庇阿公早一日好起來。", tailo: "Guá ta̍k àm tī pēnn-tshn̂g-pinn kî-tó, kiû Má-tsóo-pô pó-pì a-kong tsá tsi̍t ji̍t hó--khí-lâi.", en: "Every night I pray by his bed, asking Mazu to help A-kong get better soon."}
+  - {n: 16, hanji: "人講，人老矣，上驚的就是跋倒。佇洗身軀間、佇樓梯，一个意外就會改變規个人生。", tailo: "Lâng kóng, lâng lāu--ah, siōng kiann--ê tō sī pua̍h-tó. Tī sé-sin-khu-king, tī lâu-thui, tsi̍t ê ì-guā tō ē kái-piàn kui-ê jîn-sing.", en: "They say that what old people should fear most is a fall. In the bathroom or on the stairs, one accident can change your whole life."}
+  - {n: 17, hanji: "所以你嘛愛細膩。聽惠惠講，你走標去扭著跤目？", tailo: "Sóo-í lí mā ài sè-jī. Thiann Hūi-hūi kóng, lí tsáu-pio khì láu-tio̍h kha-ba̍k?", en: "So you be careful too. Hūi-hūi tells me you twisted your ankle running?"}
+  - {n: 18, hanji: "惠惠閣講，有一个叫秀蘭的小姐，佇病院做復健，對你真好。", tailo: "Hūi-hūi koh kóng, ū tsi̍t ê kiò Siù-lân ê sió-tsiá, tī pēnn-īnn tsò ho̍k-kiān, tuì lí tsin hó.", en: "Hūi-hūi also says there's a young woman called Siù-lân, who works in rehabilitation at a hospital, who's very good to you."}
+  - {n: 19, hanji: "阿公聽著，比開刀閣較緊張。伊講，伊欲請秀蘭來教伊復健，順紲看予清楚。", tailo: "A-kong thiann--tio̍h, pí khui-to koh-khah kín-tiunn. I kóng, i beh tshiánn Siù-lân lâi kà i ho̍k-kiān, sūn-suà khuànn hōo tshing-tshó.", en: "When A-kong heard, he got more worked up than about his operation. He says he wants Siù-lân to come and teach him his exercises, and he'll take a good look at her while she's at it."}
+  - {n: 20, hanji: "我看，伊是想欲看孫的新婦，毋是欲復健。", tailo: "Guá khuànn, i sī siūnn-beh khuànn sun ê sin-pū, m̄ sī beh ho̍k-kiān.", en: "If you ask me, it's a granddaughter-in-law he wants to see, not physiotherapy."}
+  - {n: 21, hanji: "你若有閒，歇熱的時，𤆬伊轉來臺南食飯。阿媽毋是咧催你，干焦想欲先熟似一下。", tailo: "Lí nā ū-îng, hioh-jua̍h ê sî, tshuā i tńg-lâi Tâi-lâm tsia̍h-pn̄g. A-má m̄ sī teh tshui lí, kan-na siūnn-beh sing si̍k-sāi--tsi̍t-ē.", en: "If you have time, bring her home to Tainan for a meal in the summer. A-má isn't rushing you; I'd just like to get to know her a little first."}
+  - {n: 22, hanji: "阿公講伊欲長歲壽，愛活到你結婚，閣愛抱你的囝。所以伊這馬逐工攏認真食飯。", tailo: "A-kong kóng i beh tn̂g-huè-siū, ài ua̍h kàu lí kiat-hun, koh ài phō lí ê kiánn. Sóo-í i tsit-má ta̍k kang lóng jīn-tsin tsia̍h-pn̄g.", en: "A-kong says he intends to live a long life: he wants to see you married and hold your child. So now he eats every meal properly."}
+  - {n: 23, hanji: "天氣熱矣，你家己愛保重。", tailo: "Thinn-khì jua̍h--ah, lí ka-kī ài pó-tiōng.", en: "The weather's getting hot: look after yourself."}
+  - {n: 24, hanji: "阿媽　六月初三，佇臺南病院", tailo: "A-má, la̍k-gue̍h tshe-sann, tī Tâi-lâm pēnn-īnn", en: "A-má, 3 June, at the hospital in Tainan"}
+notes:
+  - {ref: 2, topic: vocab, text: "代筆 = write for someone (進修 3). 病房 pēnn-pâng = (hospital) ward, room."}
+  - {ref: 3, topic: vocab, text: "憂愁 iu-tshiû = worried, anxious; 免憂愁 'don't worry' (MOE). 洗身軀間 sé-sin-khu-king = bathroom (literally 'washing room'). 大腿 tuā-thuí = thigh. 骨頭 kut-thâu = bone."}
+  - {ref: 4, topic: vocab, text: "面色 = complexion, look. 戇神 gōng-sîn = blank, dazed: 伊看著戇神戇神 'he looked dazed' (MOE). 昏去 hūn--khì = faint: 聽著這个消息，伊煞昏去 'when she heard the news she fainted' (MOE)."}
+  - {ref: 5, topic: vocab, text: "救護車 kiù-hōo-tshia = ambulance (救護, 進修 33)."}
+  - {ref: 6, topic: vocab, text: "開刀 khui-to = operate, have an operation; also, figuratively, 'make an example of someone': 頭家欲揣人開刀 'the boss is looking for someone to punish' (MOE). 金屬 kim-sio̍k = metal. 螺絲 lôo-si = screw. 釘 tìng = nail, fix. 手術 tshiú-su̍t = operation."}
+  - {ref: 7, topic: vocab, text: "麻醉 bâ-tsuì = anaesthetic. 退 thè = wear off. 清醒 tshing-tshénn = come round, be conscious."}
+  - {ref: 8, topic: vocab, text: "記性 kì-sìng = memory (a synonym of 記持, 進修 31). 走精 tsáu-tsing = go off, lose accuracy: 這台機器用久走精去矣 'this machine has gone off after so much use' (MOE). 瘦 sán = thin."}
+  - {ref: 9, topic: vocab, text: "輪流 lûn-liû = take turns. 陪伴 puê-phuānn = keep company, sit with. 暝日 = night and day."}
+  - {ref: 10, topic: vocab, text: "出院 tshut-īnn = leave hospital. 輪椅 lûn-í = wheelchair. 枴仔 kuái-á = walking stick."}
+  - {ref: 11, topic: vocab, text: "扶 phôo = support, hold up (someone)."}
+  - {ref: 12, topic: vocab, text: "不幸 put-hīng = misfortune; unfortunate."}
+  - {ref: 13, topic: culture, text: "健保 kiān-pó = Taiwan's national health insurance, introduced in 1995, which covers almost everyone. 大部份 = most (部份, 進修 37). 負擔 (進修 29)."}
+  - {ref: 14, topic: vocab, text: "自費 tsū-huì = at one's own expense, not covered by insurance."}
+  - {ref: 15, topic: vocab, text: "病床 = hospital bed. 祈禱 kî-tó = pray."}
+  - {ref: 16, topic: vocab, text: "意外 ì-guā = accident; unexpected: 火車發生意外 'there was a train accident' (MOE). 人生 = life."}
+  - {ref: 17, topic: vocab, text: "A-má means 走標 'running' (進修 23)."}
+  - {ref: 20, topic: vocab, text: "孫的新婦 = grandson's wife (新婦 = daughter-in-law, lesson 83)."}
+  - {ref: 21, topic: vocab, text: "催 = rush, hurry (進修 32). 熟似 = get to know (lesson 75)."}
+  - {ref: 22, topic: vocab, text: "長歲壽 tn̂g-huè-siū = long-lived: 阮阿公毋但長歲壽，身體猶閣足勇健的 'my grandfather is not only long-lived, he's still very fit' (MOE)."}
+new_words:
+  - {tailo: pēnn-pâng, hanji: 病房, en: "(hospital) ward, room"}
+  - {tailo: iu-tshiû, hanji: 憂愁, en: "worried, anxious"}
+  - {tailo: sé-sin-khu-king, hanji: 洗身軀間, en: "bathroom"}
+  - {tailo: tuā-thuí, hanji: 大腿, en: "thigh"}
+  - {tailo: kut-thâu, hanji: 骨頭, en: "bone"}
+  - {tailo: gōng-sîn, hanji: 戇神, en: "blank, dazed"}
+  - {tailo: hūn--khì, hanji: 昏去, en: "faint"}
+  - {tailo: kiù-hōo-tshia, hanji: 救護車, en: "ambulance"}
+  - {tailo: khui-to, hanji: 開刀, en: "operate; have an operation"}
+  - {tailo: kim-sio̍k, hanji: 金屬, en: "metal"}
+  - {tailo: lôo-si, hanji: 螺絲, en: "screw"}
+  - {tailo: tshiú-su̍t, hanji: 手術, en: "operation"}
+  - {tailo: bâ-tsuì, hanji: 麻醉, en: "anaesthetic"}
+  - {tailo: tshing-tshénn, hanji: 清醒, en: "come round, be conscious"}
+  - {tailo: sán, hanji: 瘦, en: "thin"}
+  - {tailo: kì-sìng, hanji: 記性, en: "memory"}
+  - {tailo: tsáu-tsing, hanji: 走精, en: "go off, lose accuracy"}
+  - {tailo: lûn-liû, hanji: 輪流, en: "take turns"}
+  - {tailo: puê-phuānn, hanji: 陪伴, en: "keep company, sit with"}
+  - {tailo: tshut-īnn, hanji: 出院, en: "leave hospital"}
+  - {tailo: lûn-í, hanji: 輪椅, en: "wheelchair"}
+  - {tailo: kuái-á, hanji: 枴仔, en: "walking stick"}
+  - {tailo: put-hīng, hanji: 不幸, en: "misfortune; unfortunate"}
+  - {tailo: kiān-pó, hanji: 健保, en: "national health insurance"}
+  - {tailo: tsū-huì, hanji: 自費, en: "at one's own expense"}
+  - {tailo: pēnn-tshn̂g, hanji: 病床, en: "hospital bed"}
+  - {tailo: kî-tó, hanji: 祈禱, en: "pray"}
+  - {tailo: ì-guā, hanji: 意外, en: "accident; unexpected"}
+  - {tailo: tn̂g-huè-siū, hanji: 長歲壽, en: "long-lived"}
+exercises:
+  translate:
+    - {tailo: "A-kong tī sé-sin-khu-king pua̍h-tó, tuā-thuí ê kut-thâu tn̄g--khì.", hanji: "阿公佇洗身軀間跋倒，大腿的骨頭斷去。", en: "A-kong fell in the bathroom and broke his thigh bone."}
+    - {tailo: "Bâ-tsuì thè liáu-āu, a-kong tshing-tshénn--kuè-lâi.", hanji: "麻醉退了後，阿公清醒過來。", en: "When the anaesthetic wore off, A-kong came round."}
+    - {tailo: "Guán lûn-liû tī pēnn-īnn puê-phuānn--i.", hanji: "阮輪流佇病院陪伴伊。", en: "We take turns sitting with him at the hospital."}
+    - {tailo: "Tsi̍t ê ì-guā tō ē kái-piàn kui-ê jîn-sing.", hanji: "一个意外就會改變規个人生。", en: "One accident can change your whole life."}
+    - {tailo: "A-kong kóng i beh tn̂g-huè-siū.", hanji: "阿公講伊欲長歲壽。", en: "A-kong says he intends to live a long life."}
+    - {tailo: "A-kong tī sé-sin-khu-king pua̍h-tó, tuā-thuí ê kut-thâu tn̄g--khì, kiù-hōo-tshia kā i sàng khì pēnn-īnn.", hanji: "阿公佇洗身軀間跋倒，大腿的骨頭斷去，救護車共伊送去病院。", en: "A-kong fell in the bathroom and broke his thigh bone; an ambulance took him to hospital."}
+    - {tailo: "Tshiú-su̍t liáu-āu, a-kong ê kì-sìng ū-sî-á ē tsáu-tsing, guán ta̍k-ke lûn-liû lâi puê-phuānn--i.", hanji: "手術了後，阿公的記性有時仔會走精，阮逐家輪流來陪伴伊。", en: "Since the operation A-kong's memory sometimes goes astray, so we all take turns keeping him company."}
+  fill:
+    - {tailo: "Ka-tsài tshù-pinn sûi khà tiān-uē kiò ___.", hanji: "佳哉厝邊隨敲電話叫___。", answer: "kiù-hōo-tshia", answer_hanji: "救護車", en: "Luckily the neighbours called an ambulance straight away."}
+    - {tailo: "I-sing kóng ài ___.", hanji: "醫生講愛___。", answer: "khui-to", answer_hanji: "開刀", en: "The doctor said he needed an operation."}
+    - {tailo: "Í-āu ài tsē ___ tsi̍t tuānn sî-kan.", hanji: "以後愛坐___一段時間。", answer: "lûn-í", answer_hanji: "輪椅", en: "He'll have to use a wheelchair for a while."}
+    - {tailo: "Tsit pōo-hūn sī ___.", hanji: "這部份是___。", answer: "tsū-huì", answer_hanji: "自費", en: "That part comes out of our own pocket."}
+    - {tailo: "Guá ta̍k àm tī pēnn-tshn̂g-pinn ___.", hanji: "我逐暗佇病床邊___。", answer: "kî-tó", answer_hanji: "祈禱", en: "Every night I pray by his bed."}
+    - {tailo: "Tshut-īnn liáu-āu, a-kong ài tsē ___ nn̄g kò gue̍h, āu--lâi tsiah ē-tàng iōng kuái-á kiânn-lōo.", hanji: "出院了後，阿公愛坐___兩個月，後來才會當用枴仔行路。", answer: "lûn-í", answer_hanji: "輪椅", en: "After leaving hospital A-kong will need a wheelchair for two months; later he'll be able to walk with a stick."}
+audio: []

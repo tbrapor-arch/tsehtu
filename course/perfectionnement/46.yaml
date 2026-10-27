@@ -1,0 +1,101 @@
+id: 46
+title: {en: "Three days in Penghu", tailo: "Phênn-ôo sann ji̍t ê hîng-tîng", hanji: "澎湖三日的行程"}
+genre: document
+review: false
+setting: "The itinerary A-ióng typed up for the Penghu trip (進修 45) and sent to the others, with a few tips of his own. The text is original to this course."
+dialogue:
+  - {n: 1, hanji: "澎湖三日的行程（阿勇整理）", tailo: "Phênn-ôo sann ji̍t ê hîng-tîng (A-ióng tsíng-lí)", en: "Three days in Penghu: itinerary (compiled by A-ióng)"}
+  - {n: 2, hanji: "澎湖是佇臺灣海峽的島嶼，大大細細九十外个島，古早叫做「媽宮」的港口，就是這馬的馬公。", tailo: "Phênn-ôo sī tī Tâi-uân hái-kiap ê tó-sū, tuā-tuā sè-sè káu-tsa̍p-guā ê tó, kóo-tsá kiò-tsò “Má-king” ê káng-kháu, tō sī tsit-má ê Má-king.", en: "Penghu is a group of islands in the Taiwan Strait, ninety-odd big and small; the port once called 'Má-king' (媽宮) is today's Magong."}
+  - {n: 3, hanji: "第一工：透早七點佇布袋港集合，坐八點的渡船。毋通慢到，船袂等人。", tailo: "Tē-it kang: thàu-tsá tshit tiám tī Pòo-tē-káng tsi̍p-ha̍p, tsē peh tiám ê tōo-tsûn. M̄-thang bān kàu, tsûn bē tán lâng.", en: "Day 1: meet at Pòo-tē harbour at seven in the morning for the eight o'clock ferry. Don't be late: the boat won't wait."}
+  - {n: 4, hanji: "到媽宮了後，先去旅館放行李，閣租兩台機車。騎機車愛戴安全帽，莫騎傷緊。", tailo: "Kàu Má-king liáu-āu, sing khì lí-kuán pàng hîng-lí, koh tsoo nn̄g tâi ki-tshia. Khiâ ki-tshia ài tì an-tsuân-bō, mài khiâ siunn kín.", en: "In Magong, first drop the luggage at the hotel, then rent two scooters. Wear a helmet, and don't ride too fast."}
+  - {n: 5, hanji: "中晝去天后宮。聽講這間是臺灣上古早的媽祖廟，閣是真有名的古蹟。", tailo: "Tiong-tàu khì Thian-hiō-kiong. Thiann-kóng tsit king sī Tâi-uân siōng kóo-tsá ê Má-tsóo-biō, koh sī tsin ū-miâ ê kóo-tsik.", en: "Midday: the Tianhou Temple. They say it's the oldest Mazu temple in Taiwan, and a famous historic site."}
+  - {n: 6, hanji: "下晡去老街行行，食蚵仔麵線，閣買名產做伴手，轉去送同事。", tailo: "Ē-poo khì lāu-ke kiânn-kiânn, tsia̍h ô-á-mī-suànn, koh bé bîng-sán tsò phuānn-tshiú, tńg-khì sàng tông-sū.", en: "Afternoon: a stroll in the old street, oyster vermicelli, and local specialities to take home as gifts for colleagues."}
+  - {n: 7, hanji: "暗時佇海墘看夕陽，若拄著放煙火的季節，閣會當看煙火。", tailo: "Àm-sî tī hái-kînn khuànn si̍k-iông, nā tú-tio̍h pàng-ian-hué ê kuì-tseh, koh ē-tàng khuànn ian-hué.", en: "Evening: watch the sunset by the sea, and if we're in fireworks season, the fireworks too."}
+  - {n: 8, hanji: "第二工：騎機車過跨海的大橋，去西嶼看火山留落來的石柱，一枝一枝親像柱仔排做伙。", tailo: "Tē-jī kang: khiâ ki-tshia kuè khuà-hái ê tuā kiô, khì Sai-sū khuànn hué-suann lâu--lo̍h-lâi ê tsio̍h-thiāu, tsi̍t ki tsi̍t ki tshin-tshiūnn thiāu-á pâi tsò-hué.", en: "Day 2: ride over the great bridge across the sea to Sai-sū, to see the stone columns left by the volcanoes, lined up like pillars."}
+  - {n: 9, hanji: "中晝去海沙埔。愛看退流的時間：退流的時，會當行去海內底掠蟳仔；流若滇，就愛緊起來。", tailo: "Tiong-tàu khì hái-sua-poo. Ài khuànn thè-lâu ê sî-kan: thè-lâu ê sî, ē-tàng kiânn khì hái lāi-té lia̍h tsîm-á; lâu nā tīnn, tō ài kín khí--lâi.", en: "Midday: the beach. Check the tide times: at low tide you can walk out and catch crabs, but when the tide comes in, get out quickly."}
+  - {n: 10, hanji: "下晡參加牽罟，佮在地的討海人做伙共網仔搝起來，看有偌濟魚。", tailo: "Ē-poo tsham-ka khan-koo, kah tsāi-tē ê thó-hái-lâng tsò-hué kā bāng-á khiú--khí-lâi, khuànn ū guā tsē hî.", en: "Afternoon: join in a beach-seine haul, pulling in the net with local fishermen to see how many fish there are."}
+  - {n: 11, hanji: "人講：「牽罟倚索分魚，有人有份。」毋過若干焦徛咧看，就無份。", tailo: "Lâng kóng: “Khan-koo uá soh pun hî, ū lâng ū hūn.” M̄-koh nā kan-na khiā--leh khuànn, tō bô hūn.", en: "As they say: 'Everyone who hauls on the rope gets a share of the fish.' But if you just stand and watch, you get nothing."}
+  - {n: 12, hanji: "第三工：坐船去七美，看雙心的石滬。石滬是古早人用石頭佇海墘疊的，退流的時，魚就關佇內底。", tailo: "Tē-sann kang: tsē tsûn khì Tshit-bí, khuànn siang-sim ê tsio̍h-hōo. Tsio̍h-hōo sī kóo-tsá-lâng iōng tsio̍h-thâu tī hái-kînn tha̍h--ê, thè-lâu ê sî, hî tō kuainn tī lāi-té.", en: "Day 3: take the boat to Tshit-bí to see the double-heart stone weir. Stone weirs are walls the old folk built from stones along the shore: when the tide goes out, the fish are trapped inside."}
+  - {n: 13, hanji: "下晡四點，回程的船。暗時大約七點左右到布袋。", tailo: "Ē-poo sì tiám, huê-tîng ê tsûn. Àm-sî tāi-iok tshit tiám tsó-iū kàu Pòo-tē.", en: "Four in the afternoon: the boat home. We should reach Pòo-tē at about seven in the evening."}
+  - {n: 14, hanji: "費用：逐个人預算八千箍左右，包括船票、旅館佮機車，食的另外算。", tailo: "Huì-iōng: ta̍k ê lâng ī-suàn peh-tshing khoo tsó-iū, pau-kuat tsûn-phiò, lí-kuán kah ki-tshia, tsia̍h--ê līng-guā sǹg.", en: "Costs: budget about eight thousand dollars each, including the boat, the hotel and the scooters; food is extra."}
+  - {n: 15, hanji: "注意：", tailo: "Tsù-ì:", en: "Notes:"}
+  - {n: 16, hanji: "一、澎湖熱天的日頭真毒，愛紮帽仔、抹防曬的，若無，三工就曝甲烏趖趖。", tailo: "It, Phênn-ôo jua̍h-thinn ê ji̍t-thâu tsin to̍k, ài tsah bō-á, buah hông-sài--ê, nā-bô, sann kang tō pha̍k kah oo-sô-sô.", en: "1. The Penghu sun is fierce in summer: bring a hat and put on sunscreen, or in three days you'll be burnt black."}
+  - {n: 17, hanji: "二、風颱若來，船就停。萬一行程愛改，逐家莫受氣，聽在地人的話上安全。", tailo: "Jī, hong-thai nā lâi, tsûn tō thîng. Bān-it hîng-tîng ài kái, ta̍k-ke mài siū-khì, thiann tsāi-tē-lâng ê uē siōng an-tsuân.", en: "2. If a typhoon comes, the boats stop running. If the plans have to change, don't get cross: it's safest to listen to the locals."}
+  - {n: 18, hanji: "三、珊瑚佮海龜攏愛保護，莫摸，嘛莫掰石頭轉去做紀念。", tailo: "Sann, suan-ôo kah hái-ku lóng ài pó-hōo, mài bong, mā mài pué tsio̍h-thâu tńg-khì tsò kì-liām.", en: "3. Coral and sea turtles must be protected: don't touch them, and don't take stones home as souvenirs."}
+  - {n: 19, hanji: "四、眩船的人，上船進前半點鐘愛食藥仔。這條是特別寫予我家己的。", tailo: "Sì, hîn-tsûn ê lâng, tsiūnn tsûn tsìn-tsîng puànn tiám-tsing ài tsia̍h io̍h-á. Tsit tiâu sī ti̍k-pia̍t siá hōo guá ka-kī--ê.", en: "4. Anyone who gets seasick must take a pill half an hour before boarding. This one is written specially for myself."}
+  - {n: 20, hanji: "五、行李莫紮傷濟。阮某講，伊的行李是必要的，我的行李是無必要的。", tailo: "Gōo, hîng-lí mài tsah siunn tsē. Guán bóo kóng, i ê hîng-lí sī pit-iàu--ê, guá ê hîng-lí sī bô pit-iàu--ê.", en: "5. Don't pack too much. My wife says her luggage is essential and mine is non-essential."}
+  - {n: 21, hanji: "六、Sam 佮秀蘭：恁兩个必須佇海墘翕一張相，這是我軍師的任務。", tailo: "La̍k, Sam kah Siù-lân: lín nn̄g ê pit-su tī hái-kînn hip tsi̍t tiunn siòng, tse sī guá kun-su ê jīm-bū.", en: "6. Sam and Siù-lân: you two must have your photo taken together by the sea. That's my mission as your adviser."}
+notes:
+  - {ref: 1, topic: vocab, text: "行程 hîng-tîng = itinerary, schedule. 整理 = compile, put in order (進修 33)."}
+  - {ref: 2, topic: culture, text: "海峽 hái-kiap = strait; 臺灣海峽 'the Taiwan Strait'. Penghu has about ninety islands, most of them uninhabited. 媽宮 Má-king, named after its Mazu temple, is the old name of Magong (馬公 in today's writing)."}
+  - {ref: 3, topic: vocab, text: "集合 tsi̍p-ha̍p = meet, gather: 咱明仔載六點佇車頭集合 'let's meet at the station at six tomorrow' (MOE). 渡船 tōo-tsûn = ferry."}
+  - {ref: 4, topic: vocab, text: "旅館 lí-kuán = hotel. 機車 = scooter, 騎 = ride (lesson 29). 安全帽 an-tsuân-bō = helmet."}
+  - {ref: 5, topic: culture, text: "天后宮 Thian-hiō-kiong = Tianhou Temple, a Mazu temple (天后 'Empress of Heaven' is one of her titles). Magong's is often called the oldest Mazu temple in Taiwan. 古蹟 = historic site (lesson 66)."}
+  - {ref: 6, topic: vocab, text: "蚵仔麵線 ô-á-mī-suànn = oyster vermicelli. 名產 bîng-sán = local speciality. 伴手 phuānn-tshiú = small gift brought back for friends: 逐遍去阮阿舅𪜶兜，攏會紮伴手 'I always bring a gift when I visit my uncle' (MOE). 等路 is a synonym."}
+  - {ref: 7, topic: vocab, text: "海墘 = seashore (lesson 54). 夕陽 si̍k-iông = sunset. 放煙火 pàng-ian-hué = let off fireworks; 煙火 ian-hué = fireworks. 季節 = season."}
+  - {ref: 8, topic: culture, text: "跨海 khuà-hái = across the sea (a written word). 橋 kiô = bridge. 西嶼 Sai-sū = Xiyu island. 火山 hué-suann = volcano. 石柱 tsio̍h-thiāu = stone column (Penghu's basalt). 柱仔 thiāu-á = pillar."}
+  - {ref: 9, topic: vocab, text: "海沙埔 hái-sua-poo = beach. 退流 thè-lâu = low tide, ebb. 滇 = (of the tide) come in (進修 6); 流 lâu = tide. 蟳仔 tsîm-á = crab."}
+  - {ref: 10, topic: culture, text: "牽罟 khan-koo = beach seining: a net is taken out by boat, then hauled back to the beach by everyone on the ropes. 在地 tsāi-tē = local. 網仔 bāng-á = net."}
+  - {ref: 11, topic: culture, text: "From the MOE example 牽罟倚索分魚有人有份: whoever hauls on the rope gets a share. 份 = share (lesson 11)."}
+  - {ref: 12, topic: culture, text: "七美 Tshit-bí = Qimei island. 石滬 tsio̍h-hōo = stone fish weir; Qimei's double-heart weir is Penghu's best-known sight. 疊 tha̍h = pile up."}
+  - {ref: 13, topic: vocab, text: "回程 huê-tîng = return journey. 左右 tsó-iū = about, roughly: 這項物件價值一萬箍左右 'this is worth about ten thousand' (MOE)."}
+  - {ref: 14, topic: vocab, text: "預算 ī-suàn = budget. 船票 tsûn-phiò = boat ticket. 包括 (進修 37)."}
+  - {ref: 16, topic: vocab, text: "毒 to̍k = poisonous; (of the sun) fierce. 抹 buah = apply, rub on. 防曬 hông-sài = sunscreen. 烏趖趖 oo-sô-sô = very dark, tanned black."}
+  - {ref: 17, topic: vocab, text: "停 = stop (here, the boats stop running). 萬一 bān-it = if by chance: 萬一伊若知影這件代誌，一定會起性地 'if he ever finds out, he'll lose his temper' (MOE). 在地人 = locals."}
+  - {ref: 18, topic: vocab, text: "珊瑚 suan-ôo = coral. 海龜 hái-ku = sea turtle. 保護 = protect (lesson 89). 掰 pué = sweep, pick up. 紀念 = souvenir (lesson 90)."}
+  - {ref: 20, topic: vocab, text: "必要 pit-iàu = necessary, essential."}
+  - {ref: 21, topic: vocab, text: "必須 pit-su = must. 翕相 = take a photo (lesson 18). 任務 jīm-bū = mission, task."}
+new_words:
+  - {tailo: hîng-tîng, hanji: 行程, en: "itinerary, schedule"}
+  - {tailo: hái-kiap, hanji: 海峽, en: "strait"}
+  - {tailo: tsi̍p-ha̍p, hanji: 集合, en: "meet, gather"}
+  - {tailo: tōo-tsûn, hanji: 渡船, en: "ferry"}
+  - {tailo: lí-kuán, hanji: 旅館, en: "hotel"}
+  - {tailo: Thian-hiō-kiong, hanji: 天后宮, en: "Tianhou (Mazu) Temple"}
+  - {tailo: ô-á-mī-suànn, hanji: 蚵仔麵線, en: "oyster vermicelli"}
+  - {tailo: bîng-sán, hanji: 名產, en: "local speciality"}
+  - {tailo: phuānn-tshiú, hanji: 伴手, en: "small gift brought back"}
+  - {tailo: si̍k-iông, hanji: 夕陽, en: "sunset"}
+  - {tailo: pàng-ian-hué, hanji: 放煙火, en: "let off fireworks"}
+  - {tailo: ian-hué, hanji: 煙火, en: "fireworks"}
+  - {tailo: kuì-tseh, hanji: 季節, en: "season"}
+  - {tailo: kiô, hanji: 橋, en: "bridge"}
+  - {tailo: hué-suann, hanji: 火山, en: "volcano"}
+  - {tailo: tsio̍h-thiāu, hanji: 石柱, en: "stone column"}
+  - {tailo: thiāu-á, hanji: 柱仔, en: "pillar"}
+  - {tailo: hái-sua-poo, hanji: 海沙埔, en: "beach"}
+  - {tailo: thè-lâu, hanji: 退流, en: "low tide, ebb"}
+  - {tailo: tsîm-á, hanji: 蟳仔, en: "crab"}
+  - {tailo: khan-koo, hanji: 牽罟, en: "beach seining"}
+  - {tailo: tsāi-tē, hanji: 在地, en: "local"}
+  - {tailo: bāng-á, hanji: 網仔, en: "net"}
+  - {tailo: tha̍h, hanji: 疊, en: "pile up"}
+  - {tailo: huê-tîng, hanji: 回程, en: "return journey"}
+  - {tailo: tsó-iū, hanji: 左右, en: "about, roughly"}
+  - {tailo: ī-suàn, hanji: 預算, en: "budget"}
+  - {tailo: to̍k, hanji: 毒, en: "poisonous; (of the sun) fierce"}
+  - {tailo: oo-sô-sô, hanji: 烏趖趖, en: "very dark, tanned black"}
+  - {tailo: bān-it, hanji: 萬一, en: "if by chance"}
+  - {tailo: suan-ôo, hanji: 珊瑚, en: "coral"}
+  - {tailo: hái-ku, hanji: 海龜, en: "sea turtle"}
+  - {tailo: pué, hanji: 掰, en: "sweep, pick up"}
+  - {tailo: pit-iàu, hanji: 必要, en: "necessary, essential"}
+  - {tailo: pit-su, hanji: 必須, en: "must"}
+  - {tailo: jīm-bū, hanji: 任務, en: "mission, task"}
+exercises:
+  translate:
+    - {tailo: "Thàu-tsá tshit tiám tī Pòo-tē-káng tsi̍p-ha̍p.", hanji: "透早七點佇布袋港集合。", en: "Meet at Pòo-tē harbour at seven in the morning."}
+    - {tailo: "M̄-thang bān kàu, tsûn bē tán lâng.", hanji: "毋通慢到，船袂等人。", en: "Don't be late: the boat won't wait."}
+    - {tailo: "Thè-lâu ê sî, ē-tàng kiânn khì hái lāi-té lia̍h tsîm-á.", hanji: "退流的時，會當行去海內底掠蟳仔。", en: "At low tide you can walk out and catch crabs."}
+    - {tailo: "Ta̍k ê lâng ī-suàn peh-tshing khoo tsó-iū.", hanji: "逐个人預算八千箍左右。", en: "Budget about eight thousand dollars each."}
+    - {tailo: "Suan-ôo kah hái-ku lóng ài pó-hōo.", hanji: "珊瑚佮海龜攏愛保護。", en: "Coral and sea turtles must be protected."}
+    - {tailo: "Hîng-tîng ê tē-it kang, ta̍k-ke tsá-khí la̍k tiám tī Pòo-tē káng tsi̍p-ha̍p, tsē tōo-tsûn khì Má-king.", hanji: "行程的第一工，逐家早起六點佇布袋港集合，坐渡船去媽宮。", en: "On the first day of the trip, everyone meets at Pòo-tē harbour at six in the morning and takes the ferry to Magong."}
+    - {tailo: "Phênn-ôo ê ji̍t-thâu tsin to̍k, nā bô tì bō-á, it-tīng ē pha̍k kah oo-sô-sô, tsuí mā ài tsia̍p-tsia̍p lim.", hanji: "澎湖的日頭真毒，若無戴帽仔，一定會曝甲烏趖趖，水嘛愛捷捷啉。", en: "The sun in Penghu is fierce: if you don't wear a hat, you're bound to get burnt brown; drink water often, too."}
+  fill:
+    - {tailo: "Koh bé bîng-sán tsò ___.", hanji: "閣買名產做___。", answer: "phuānn-tshiú", answer_hanji: "伴手", en: "And buy local specialities to take home as gifts."}
+    - {tailo: "Àm-sî tī ___ khuànn si̍k-iông.", hanji: "暗時佇___看夕陽。", answer: "hái-kînn", answer_hanji: "海墘", en: "In the evening, watch the sunset by the sea."}
+    - {tailo: "Ē-poo tsham-ka ___, kah tsāi-tē ê thó-hái-lâng tsò-hué kā bāng-á khiú--khí-lâi.", hanji: "下晡參加___，佮在地的討海人做伙共網仔搝起來。", answer: "khan-koo", answer_hanji: "牽罟", en: "In the afternoon, join in a beach-seine haul with local fishermen."}
+    - {tailo: "Hong-thai nā lâi, tsûn tō ___.", hanji: "風颱若來，船就___。", answer: "thîng", answer_hanji: "停", en: "If a typhoon comes, the boats stop running."}
+    - {tailo: "Lín nn̄g ê ___ tī hái-kînn hip tsi̍t tiunn siòng.", hanji: "恁兩个___佇海墘翕一張相。", answer: "pit-su", answer_hanji: "必須", en: "You two must have your photo taken by the sea."}
+    - {tailo: "Tsit pái ê ___ tsi̍t lâng nn̄g bān khoo tsó-iū, tsia̍h, tuà kah tsē tsûn lóng pau-kuat tī lāi-té.", hanji: "這擺的___一人兩萬箍左右，食、蹛佮坐船攏包括佇內底。", answer: "ī-suàn", answer_hanji: "預算", en: "The budget this time is about twenty thousand dollars each, with food, accommodation and the boat all included."}
+audio: []

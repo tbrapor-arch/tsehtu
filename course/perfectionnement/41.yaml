@@ -1,0 +1,116 @@
+id: 41
+title: {en: "The man with the earphone", tailo: "Hīnn-ki", hanji: "耳機"}
+genre: play
+review: false
+setting: "A comedy in one act. Saturday night at a busy Taipei night market. Sam has asked Siù-lân out for the first time. In his ear, a tiny earphone: A-ióng, at home on the sofa, is coaching him by phone."
+dialogue:
+  - {n: 1, speaker: A-ióng, hanji: "（耳機內）Sam，聽有無？我是你的軍師。今仔暗你一切照我講的做，穩當成功。", tailo: "(Hīnn-ki lāi) Sam, thiann ū--bô? Guá sī lí ê kun-su. Kin-á-àm lí it-tshè tsiàu guá kóng--ê tsò, ún-tàng sîng-kong.", en: "(In the earphone) Sam, can you hear me? I'm your adviser. Tonight, do exactly as I say and you can't fail."}
+  - {n: 2, speaker: Sam, hanji: "（細聲）你家己對看的時，靠一隻貓才成功的……", tailo: "(Sè-siann) Lí ka-kī tuì-khuànn ê sî, khò tsi̍t tsiah niau tsiah sîng-kong--ê……", en: "(Quietly) When you went on your blind date, it was a cat that made it work…"}
+  - {n: 3, speaker: Siù-lân, hanji: "Sam，歹勢，我較慢到。夜市人真濟，𤲍甲袂振動。", tailo: "Sam, pháinn-sè, guá khah bān kàu. Iā-tshī lâng tsin tsē, kheh kah bē tín-tāng.", en: "Sam, sorry I'm late. There are so many people at the night market, you can hardly move."}
+  - {n: 4, speaker: A-ióng, hanji: "緊呵咾伊！講伊今仔暗真媠，閣有芳水的芳味。", tailo: "Kín o-ló--i! Kóng i kin-á-àm tsin suí, koh ū phang-tsuí ê phang-bī.", en: "Quick, compliment her! Say she looks lovely tonight, and smells of perfume."}
+  - {n: 5, speaker: Sam, hanji: "秀蘭，你今仔暗真媠……閣有一陣……雞排的芳味。", tailo: "Siù-lân, lí kin-á-àm tsin suí…… koh ū tsi̍t tsūn…… ke-pâi ê phang-bī.", en: "Siù-lân, you look lovely tonight… and there's a whiff of… fried chicken."}
+  - {n: 6, speaker: Siù-lân, hanji: "（笑）是後壁的雞排擔仔啦！我腹肚枵矣，咱先買一塊來食。", tailo: "(Tshiò) Sī āu-piah ê ke-pâi tànn-á--lah! Guá pak-tóo-iau--ah, lán sing bé tsi̍t tè lâi tsia̍h.", en: "(Laughing) That's the fried chicken stall behind us! I'm starving: let's buy one first."}
+  - {n: 7, speaker: Siù-lân, hanji: "你看，規條街仔人沖沖滾，有撈金魚，閣有抽獎，我上佮意夜市矣。", tailo: "Lí khuànn, kui tiâu ke-á lâng tshiâng-tshiâng-kún, ū hôo kim-hî, koh ū thiu-tsióng, guá siōng kah-ì iā-tshī--ah.", en: "Look, the whole street is buzzing: goldfish scooping, prize draws. I just love night markets."}
+  - {n: 8, speaker: A-ióng, hanji: "毋通！約會莫食雞排，喙會油油，形象會無去。叫伊食較斯文的。", tailo: "M̄-thang! Iok-huē mài tsia̍h ke-pâi, tshuì ē iû-iû, hîng-siōng ē bô--khì. Kiò i tsia̍h khah su-bûn--ê.", en: "No! Never eat fried chicken on a date: your mouth gets greasy and your image is ruined. Get her to eat something more refined."}
+  - {n: 9, speaker: Sam, hanji: "秀蘭……咱敢毋食較斯文的？", tailo: "Siù-lân…… lán kám m̄ tsia̍h khah su-bûn--ê?", en: "Er… Siù-lân, shouldn't we eat something a bit more refined?"}
+  - {n: 10, speaker: Siù-lân, hanji: "夜市的物件，攏是用手捎咧食的，哪有啥物斯文？你若無愛，我家己食。", tailo: "Iā-tshī ê mi̍h-kiānn, lóng sī iōng tshiú sa--leh tsia̍h--ê, ná ū siánn-mih su-bûn? Lí nā bô-ài, guá ka-kī tsia̍h.", en: "Night-market food is all eaten with your hands: what's refined about it? If you don't want any, I'll eat it myself."}
+  - {n: 11, speaker: Sam, hanji: "（食一喙雞排）這有辣！（嗽一下，雞排噴出來）", tailo: "(Tsia̍h tsi̍t tshuì ke-pâi) Tse ū lua̍h! (Sàu--tsi̍t-ē, ke-pâi phùn--tshut-lâi)", en: "(Taking a bite of chicken) It's spicy! (Coughs, and bits of chicken fly out)"}
+  - {n: 12, speaker: Siù-lân, hanji: "（笑甲腹肚疼）來，啉一喙奶茶。你這款皮皮的樣，比你的軍師較古錐。", tailo: "(Tshiò kah pak-tóo thiànn) Lâi, lim tsi̍t tshuì ling-tê. Lí tsit khuán phî-phî ê iūnn, pí lí ê kun-su khah kóo-tsui.", en: "(Laughing till it hurts) Here, have a sip of milk tea. Your shameless look is cuter than your adviser's act."}
+  - {n: 13, speaker: A-ióng, hanji: "假使伊問你有啥物興趣，你就講你上愛讀冊、聽音樂，袂使講你愛睏晝。", tailo: "Ká-sú i mn̄g lí ū siánn-mih hìng-tshù, lí tō kóng lí siōng ài tha̍k-tsheh, thiann im-ga̍k, bē-sái kóng lí ài khùn-tàu.", en: "If she asks what you're into, say you love reading and listening to music. Don't say you love naps."}
+  - {n: 14, speaker: Siù-lân, hanji: "Sam，你平常時歡喜做啥物？", tailo: "Sam, lí pîng-siông-sî huann-hí tsò siánn-mih?", en: "Sam, what do you like doing in your free time?"}
+  - {n: 15, speaker: Sam, hanji: "我……我明知軍師叫我講讀冊，毋過我上愛走標佮睏晝。", tailo: "Guá…… guá bîng-tsai kun-su kiò guá kóng tha̍k-tsheh, m̄-koh guá siōng ài tsáu-pio kah khùn-tàu.", en: "I… I know my adviser told me to say reading, but what I like most is running and napping."}
+  - {n: 16, speaker: Siù-lân, hanji: "拄搪好，我嘛是。咱有共同的興趣，我對你的好感閣加一分。", tailo: "Tú-tn̄g hó, guá mā sī. Lán ū kiōng-tông ê hìng-tshù, guá tuì lí ê hó-kám koh ke tsi̍t hun.", en: "What a coincidence, me too. We have something in common: you've just gone up a notch in my estimation."}
+  - {n: 17, speaker: A-ióng, hanji: "好款！伊誠主動。你愛表現較有男子氣概，請伊去射氣球。", tailo: "Hó-khuán! I tsiânn tsú-tōng. Lí ài piáu-hiān khah ū lâm-tsú khì-khài, tshiánn i khì siā khì-kiû.", en: "Well, well! She takes the lead. You need to look more manly: take her to the balloon-shooting stall."}
+  - {n: 18, speaker: Sam, hanji: "秀蘭，我來射氣球，贏一隻熊仔予你。", tailo: "Siù-lân, guá lâi siā khì-kiû, iânn tsi̍t tsiah hîm-á hōo lí.", en: "Siù-lân, let me shoot some balloons and win you a teddy bear."}
+  - {n: 19, speaker: Seller, hanji: "一百箍射十擺，射破八粒就有獎品！", tailo: "Tsi̍t-pah khoo siā tsa̍p pái, siā phuà peh lia̍p tō ū tsióng-phín!", en: "A hundred dollars for ten shots: burst eight balloons and you win a prize!"}
+  - {n: 20, speaker: Sam, hanji: "（射十擺）……一粒都無破。", tailo: "(Siā tsa̍p pái) …… Tsi̍t lia̍p to bô phuà.", en: "(After ten shots) …Not a single one burst."}
+  - {n: 21, speaker: Siù-lân, hanji: "予我試看覓。（射十擺）十粒攏破！頭家，我欲彼隻上大的熊仔。", tailo: "Hōo guá tshì-khuànn-māi. (Siā tsa̍p pái) Tsa̍p lia̍p lóng phuà! Thâu-ke, guá beh hit tsiah siōng tuā ê hîm-á.", en: "Let me try. (Ten shots) All ten burst! Boss, I'd like that biggest teddy bear."}
+  - {n: 22, speaker: A-ióng, hanji: "……這毋著，劇本毋是按呢寫的。", tailo: "…… Tse m̄-tio̍h, kio̍k-pún m̄ sī án-ne siá--ê.", en: "…That's wrong. That's not how the script goes."}
+  - {n: 23, speaker: Siù-lân, hanji: "（共熊仔予 Sam）來，送你。予你今仔暗有一个伴。", tailo: "(Kā hîm-á hōo Sam) Lâi, sàng lí. Hōo lí kin-á-àm ū tsi̍t ê phuānn.", en: "(Handing Sam the bear) Here, it's for you. So you'll have company tonight."}
+  - {n: 24, speaker: A-ióng, hanji: "緊！共伊講一句有情意的話，講伊的目睭親像天頂的星。", tailo: "Kín! Kā i kóng tsi̍t kù ū tsîng-ì ê uē, kóng i ê ba̍k-tsiu tshin-tshiūnn thinn-tíng ê tshenn.", en: "Quick! Say something romantic: tell her her eyes are like stars."}
+  - {n: 25, speaker: Sam, hanji: "秀蘭，你的目睭……親像……射氣球的時，真準。", tailo: "Siù-lân, lí ê ba̍k-tsiu…… tshin-tshiūnn…… siā khì-kiû ê sî, tsin tsún.", en: "Siù-lân, your eyes are like… when you shoot balloons… very accurate."}
+  - {n: 26, speaker: Siù-lân, hanji: "（斟酌看伊的耳仔）Sam，你的耳空內底，是毋是有物件咧講話？", tailo: "(Tsim-tsiok khuànn i ê hīnn-á) Sam, lí ê hīnn-khang lāi-té, sī m̄ sī ū mi̍h-kiānn teh kóng-uē?", en: "(Looking closely at his ear) Sam, is there something talking in your ear?"}
+  - {n: 27, speaker: Sam, hanji: "……是阿勇。伊講欲做我的軍師。", tailo: "…… Sī A-ióng. I kóng beh tsò guá ê kun-su.", en: "…It's A-ióng. He said he'd be my adviser."}
+  - {n: 28, speaker: Siù-lân, hanji: "（提耳機去聽）阿勇，你好。我是秀蘭。你的暗號我攏聽著矣。", tailo: "(The̍h hīnn-ki khì thiann) A-ióng, lí hó. Guá sī Siù-lân. Lí ê àm-hō guá lóng thiann--tio̍h--ah.", en: "(Taking the earphone to listen) Hello, A-ióng. This is Siù-lân. I've heard all your secret instructions."}
+  - {n: 29, speaker: A-ióng, hanji: "（驚一趒）啊……淑貞，緊來，我予人掠著矣！", tailo: "(Kiann tsi̍t tiô) Ah…… Siok-tsing, kín lâi, guá hōo lâng lia̍h--tio̍h--ah!", en: "(Jumping) Ah… Siok-tsing, quick, I've been caught!"}
+  - {n: 30, speaker: Siù-lân, hanji: "（共耳機關掉）Sam，你莫學人。你平常時按怎講話，就按怎講。我佮意的是你這个人，毋是阿勇寫的劇本。", tailo: "(Kā hīnn-ki kuainn--tiāu) Sam, lí mài o̍h lâng. Lí pîng-siông-sî án-tsuánn kóng-uē, tō án-tsuánn kóng. Guá kah-ì--ê sī lí tsit ê lâng, m̄ sī A-ióng siá ê kio̍k-pún.", en: "(Switching off the earphone) Sam, don't copy other people. Talk the way you normally talk. It's you I like, not A-ióng's script."}
+  - {n: 31, speaker: Sam, hanji: "按呢……我會使共你牽手無？", tailo: "Án-ne…… guá ē-sái kā lí khan-tshiú--bô?", en: "In that case… may I hold your hand?"}
+  - {n: 32, speaker: Siù-lân, hanji: "（紅面）先食雞排。手攏油油，等一下才牽。", tailo: "(Âng-bīn) Sing tsia̍h ke-pâi. Tshiú lóng iû-iû, tán--tsi̍t-ē tsiah khan.", en: "(Blushing) Fried chicken first. Our hands are all greasy: we'll hold hands afterwards."}
+  - {n: 33, speaker: Sam, hanji: "（攬熊仔，喙笑目笑）好，聽你的。", tailo: "(Lám hîm-á, tshuì-tshiò-ba̍k-tshiò) Hó, thiann lí--ê.", en: "(Hugging the bear, grinning from ear to ear) All right, whatever you say."}
+notes:
+  - {ref: 1, topic: vocab, text: "耳機 hīnn-ki = earphone. 軍師 kun-su = (military) adviser, strategist; here, a coach in love. 一切 = everything. 穩當 (進修 37)."}
+  - {ref: 2, topic: vocab, text: "對看 = blind date (進修 5); in 進修 17 A-ióng's cat 'Boss' saved the day."}
+  - {ref: 4, topic: vocab, text: "芳水 phang-tsuí = perfume: 伊逐工欲出門進前，攏愛𫝺一寡芳水 'she puts on a little perfume every day before going out' (MOE). 芳味 = pleasant smell."}
+  - {ref: 6, topic: vocab, text: "雞排 ke-pâi = fried chicken cutlet, the night-market classic. 擔仔 tànn-á = stall; 麵擔仔 'noodle stall' (MOE)."}
+  - {ref: 8, topic: vocab, text: "形象 hîng-siōng = image. 斯文 = refined (進修 22)."}
+  - {ref: 10, topic: vocab, text: "捎 sa = grab, take without ceremony: 物件捎來就窒入喙！ 'grab it and stuff it in your mouth!' (MOE)."}
+  - {ref: 7, topic: vocab, text: "沖沖滾 tshiâng-tshiâng-kún = bustling, buzzing: 規街仔路人沖沖滾 'the whole street is buzzing with people' (MOE). 撈金魚 hôo kim-hî = goldfish scooping (金魚 = goldfish; 撈, 進修 26). 抽獎 thiu-tsióng = prize draw."}
+  - {ref: 11, topic: vocab, text: "辣 lua̍h = spicy, hot. 嗽 = cough (lesson 39). 噴 phùn = spray, spurt: 我的目睭噴著水 'water squirted in my eye' (MOE)."}
+  - {ref: 12, topic: vocab, text: "奶茶 ling-tê = milk tea. 皮皮 phî-phî = shameless, cheeky: 伊逐項代誌攏激皮皮，毋驚人共伊笑 'he acts as if nothing bothers him, he doesn't care if people laugh' (MOE). 古錐 = cute."}
+  - {ref: 13, topic: vocab, text: "假使 ká-sú = if, supposing: 假使若落雨，我就無愛去 'if it rains I won't go' (MOE). 興趣 hìng-tshù = interest, hobby."}
+  - {ref: 15, topic: vocab, text: "明知 bîng-tsai = know full well: 你明知伊做歹，閣欲共伊鬥相共！ 'you know full well he's up to no good, and you still help him!' (MOE)."}
+  - {ref: 16, topic: vocab, text: "拄搪 tú-tn̄g = by coincidence; run into: 阮下晡佇學校相拄搪 'we ran into each other at school this afternoon' (MOE). 共同 kiōng-tông = common, shared. 好感 hó-kám = good impression, liking."}
+  - {ref: 17, topic: vocab, text: "好款 hó-khuán: literally 'well brought up', but nowadays mostly ironic, 'well, well!' (進修 22 has 歹款). 主動 tsú-tōng = take the initiative, proactive. 表現 piáu-hiān = show (oneself); perform: 這改的比賽伊表現了袂䆀 'she did well in this competition' (MOE). 男子氣概 lâm-tsú khì-khài = manliness. 射 siā = shoot. 氣球 khì-kiû = balloon."}
+  - {ref: 18, topic: vocab, text: "熊仔 hîm-á = teddy bear (熊 hîm = bear)."}
+  - {ref: 19, topic: vocab, text: "獎品 = prize (進修 33)."}
+  - {ref: 22, topic: vocab, text: "劇本 kio̍k-pún = script."}
+  - {ref: 23, topic: vocab, text: "伴 = company (as in 做伴, lesson 26)."}
+  - {ref: 24, topic: vocab, text: "情意 tsîng-ì = feelings, affection: 伊對你有情意 'she has feelings for you' (MOE)."}
+  - {ref: 26, topic: vocab, text: "耳空 = ear (進修 11)."}
+  - {ref: 28, topic: vocab, text: "暗號 àm-hō = secret signal, code."}
+  - {ref: 29, topic: vocab, text: "驚一越 kiann tsi̍t tiô = jump with fright (趒, 進修 23)."}
+  - {ref: 30, topic: vocab, text: "關掉 kuainn--tiāu = switch off."}
+  - {ref: 32, topic: vocab, text: "紅面 âng-bīn = red-faced; 紅面關公 'red-faced Guan Gong' (MOE). 油油 = greasy."}
+  - {ref: 33, topic: vocab, text: "喙笑目笑 tshuì-tshiò-ba̍k-tshiò = beaming, all smiles."}
+new_words:
+  - {tailo: hīnn-ki, hanji: 耳機, en: "earphone"}
+  - {tailo: kun-su, hanji: 軍師, en: "adviser, strategist"}
+  - {tailo: it-tshè, hanji: 一切, en: "everything, all"}
+  - {tailo: phang-tsuí, hanji: 芳水, en: "perfume"}
+  - {tailo: phang-bī, hanji: 芳味, en: "pleasant smell"}
+  - {tailo: ke-pâi, hanji: 雞排, en: "fried chicken cutlet"}
+  - {tailo: tànn-á, hanji: 擔仔, en: "stall"}
+  - {tailo: hîng-siōng, hanji: 形象, en: "image"}
+  - {tailo: sa, hanji: 捎, en: "grab, take without ceremony"}
+  - {tailo: tshiâng-tshiâng-kún, hanji: 沖沖滾, en: "bustling, buzzing"}
+  - {tailo: kim-hî, hanji: 金魚, en: "goldfish"}
+  - {tailo: thiu-tsióng, hanji: 抽獎, en: "prize draw"}
+  - {tailo: lua̍h, hanji: 辣, en: "spicy, hot"}
+  - {tailo: phùn, hanji: 噴, en: "spray, spurt"}
+  - {tailo: ling-tê, hanji: 奶茶, en: "milk tea"}
+  - {tailo: phî-phî, hanji: 皮皮, en: "shameless, cheeky"}
+  - {tailo: ká-sú, hanji: 假使, en: "if, supposing"}
+  - {tailo: hìng-tshù, hanji: 興趣, en: "interest, hobby"}
+  - {tailo: bîng-tsai, hanji: 明知, en: "know full well"}
+  - {tailo: tú-tn̄g, hanji: 拄搪, en: "by coincidence; run into"}
+  - {tailo: kiōng-tông, hanji: 共同, en: "common, shared"}
+  - {tailo: hó-kám, hanji: 好感, en: "good impression, liking"}
+  - {tailo: hó-khuán, hanji: 好款, en: "'well, well!' (ironic)"}
+  - {tailo: tsú-tōng, hanji: 主動, en: "take the initiative"}
+  - {tailo: piáu-hiān, hanji: 表現, en: "show (oneself); perform"}
+  - {tailo: lâm-tsú, hanji: 男子, en: "man, male"}
+  - {tailo: khì-khài, hanji: 氣概, en: "spirit, bearing"}
+  - {tailo: siā, hanji: 射, en: "shoot"}
+  - {tailo: hîm, hanji: 熊, en: "bear"}
+  - {tailo: kio̍k-pún, hanji: 劇本, en: "script"}
+  - {tailo: tsîng-ì, hanji: 情意, en: "feelings, affection"}
+  - {tailo: àm-hō, hanji: 暗號, en: "secret signal, code"}
+  - {tailo: âng-bīn, hanji: 紅面, en: "red-faced"}
+  - {tailo: tshuì-tshiò-ba̍k-tshiò, hanji: 喙笑目笑, en: "beaming, all smiles"}
+exercises:
+  translate:
+    - {tailo: "Kin-á-àm lí it-tshè tsiàu guá kóng--ê tsò.", hanji: "今仔暗你一切照我講的做。", en: "Tonight, do exactly as I say."}
+    - {tailo: "Iā-tshī lâng tsin tsē, kheh kah bē tín-tāng.", hanji: "夜市人真濟，𤲍甲袂振動。", en: "There are so many people at the night market, you can hardly move."}
+    - {tailo: "Lí ài piáu-hiān khah ū lâm-tsú khì-khài.", hanji: "你愛表現較有男子氣概。", en: "You need to look more manly."}
+    - {tailo: "Guá kah-ì--ê sī lí tsit ê lâng, m̄ sī A-ióng siá ê kio̍k-pún.", hanji: "我佮意的是你這个人，毋是阿勇寫的劇本。", en: "It's you I like, not A-ióng's script."}
+    - {tailo: "Sing tsia̍h ke-pâi, tán--tsi̍t-ē tsiah khan.", hanji: "先食雞排，等一下才牽。", en: "Fried chicken first: we'll hold hands afterwards."}
+    - {tailo: "A-ióng tī hīnn-ki lāi-té kā Sam kóng, ài tsú-tōng tshiánn Siù-lân lim ling-tê, mài kan-na tsia̍h ke-pâi.", hanji: "阿勇佇耳機內底共Sam講，愛主動請秀蘭啉奶茶，莫干焦食雞排。", en: "Through the earphone A-ióng told Sam to take the initiative and buy Siù-lân a milk tea, not just eat chicken steak."}
+    - {tailo: "Siù-lân bîng-tsai ū lâng teh kà Sam, m̄-koh i bô kóng, iáu-koh tshuì-tshiò-ba̍k-tshiò.", hanji: "秀蘭明知有人咧教Sam，毋過伊無講，猶閣喙笑目笑。", en: "Siù-lân knew full well someone was coaching Sam, but she said nothing and kept on smiling."}
+  fill:
+    - {tailo: "Sī āu-piah ê ke-pâi ___--lah!", hanji: "是後壁的雞排___啦！", answer: "tànn-á", answer_hanji: "擔仔", en: "That's the fried chicken stall behind us!"}
+    - {tailo: "Hó-khuán! I tsiânn ___.", hanji: "好款！伊誠___。", answer: "tsú-tōng", answer_hanji: "主動", en: "Well, well! She takes the lead."}
+    - {tailo: "Kā i kóng tsi̍t kù ū ___ ê uē.", hanji: "共伊講一句有___的話。", answer: "tsîng-ì", answer_hanji: "情意", en: "Say something romantic to her."}
+    - {tailo: "Lí ê ___ guá lóng thiann--tio̍h--ah.", hanji: "你的___我攏聽著矣。", answer: "àm-hō", answer_hanji: "暗號", en: "I've heard all your secret instructions."}
+    - {tailo: "Lám hîm-á, ___.", hanji: "攬熊仔，___。", answer: "tshuì-tshiò-ba̍k-tshiò", answer_hanji: "喙笑目笑", en: "Hugging the bear, grinning from ear to ear."}
+    - {tailo: "Sam siā--tio̍h, the̍h tsi̍t tsiah hîm hōo Siù-lân, A-ióng kóng: \"Tse tō sī lâm-tsú ___!\"", hanji: "Sam射著，提一隻熊予秀蘭，阿勇講：「這就是男子___！」", answer: "khì-khài", answer_hanji: "氣概", en: "Sam hit the target and gave Siù-lân a teddy bear; A-ióng said: \"That's what a real man does!\""}
+audio: []

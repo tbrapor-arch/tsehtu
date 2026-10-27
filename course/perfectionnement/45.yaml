@@ -1,0 +1,98 @@
+id: 45
+title: {en: "Those who get seasick should take seasickness pills", tailo: "Gâu hîn-tsûn ê lâng ài tsia̍h hîn-tsûn io̍h-á", hanji: "𠢕眩船的人愛食眩船藥仔"}
+genre: dialogue
+review: false
+setting: "Late July. Sam, Siù-lân, A-ióng and Siok-tsing take the ferry from Pòo-tē harbour in Chiayi to Má-king (Magong) in Penghu, the archipelago in the Taiwan Strait. The crossing takes about an hour and a half."
+dialogue:
+  - {n: 1, speaker: Siù-lân, hanji: "船欲開矣！阿勇，你敢有食眩船藥仔？", tailo: "Tsûn beh khui--ah! A-ióng, lí kám ū tsia̍h hîn-tsûn io̍h-á?", en: "The boat's about to leave! A-ióng, have you taken a seasickness pill?"}
+  - {n: 2, speaker: A-ióng, hanji: "免啦！我毋捌眩船。阮阿公較早是討海人，我的血內底有海水。", tailo: "Bián--lah! Guá m̄ bat hîn-tsûn. Guán a-kong khah-tsá sī thó-hái-lâng, guá ê hueh lāi-té ū hái-tsuí.", en: "No need! I've never been seasick. My grandfather was a fisherman: I've got seawater in my blood."}
+  - {n: 3, speaker: Siok-tsing, hanji: "人講：", tailo: "Lâng kóng:", en: "As they say:"}
+  - {n: 4, speaker: Siok-tsing, hanji: "𠢕眩船的人愛食眩船藥仔。", tailo: "Gâu hîn-tsûn ê lâng ài tsia̍h hîn-tsûn io̍h-á.", en: "Those who get seasick should take seasickness pills.", source: moe}
+  - {n: 5, speaker: Siok-tsing, hanji: "你頂擺坐船去龜山島，嘔甲面青青，閣講你袂眩船？", tailo: "Lí tíng-pái tsē tsûn khì Ku-suann-tó, áu kah bīn tshenn-tshenn, koh kóng lí bē hîn-tsûn?", en: "Last time you took a boat to Turtle Island, you threw up till you were green, and you say you don't get seasick?"}
+  - {n: 6, speaker: Sam, hanji: "（看窗仔外）你看，海面真平，一屑仔湧都無。", tailo: "(Khuànn thang-á guā) Lí khuànn, hái-bīn tsin pênn, tsi̍t-sut-á íng to bô.", en: "(Looking out of the window) Look, the sea is completely flat: not a wave."}
+  - {n: 7, speaker: Siù-lân, hanji: "港內當然平，出港了後，風湧就大矣。", tailo: "Káng lāi tong-jiân pênn, tshut káng liáu-āu, hong-íng tō tuā--ah.", en: "Of course it's calm inside the harbour. Once we're out, the waves get bigger."}
+  - {n: 8, speaker: Sam, hanji: "咱來去船頭看海，空氣較好。", tailo: "Lán lâi-khì tsûn-thâu khuànn hái, khong-khì khah hó.", en: "Let's go to the bow and look at the sea: the air's better there."}
+  - {n: 9, speaker: Siù-lân, hanji: "好啊。（行到甲板頂）哇，天邊一片海洋，看攏無島嶼。", tailo: "Hó--ah. (Kiânn kàu kah-pán tíng) Uah, thinn-pinn tsi̍t phiàn hái-iûnn, khuànn lóng bô tó-sū.", en: "All right. (Out on deck) Wow, nothing but ocean to the horizon, not an island in sight."}
+  - {n: 10, speaker: Sam, hanji: "阿勇咧？伊敢無綴咱出來？", tailo: "A-ióng--leh? I kám bô tuè lán tshut--lâi?", en: "Where's A-ióng? Didn't he come out with us?"}
+  - {n: 11, speaker: Siok-tsing, hanji: "伊坐佇船尾，面已經白矣，講伊欲小歇喘一下。", tailo: "I tsē tī tsûn-bué, bīn í-king pe̍h--ah, kóng i beh sió hioh-tshuán--tsi̍t-ē.", en: "He's sitting at the stern; his face has gone white already. He says he needs to rest a bit."}
+  - {n: 12, speaker: Sam, hanji: "起風矣。湧愈來愈大，船嘛咧搖。", tailo: "Khí-hong--ah. Íng jú lâi jú tuā, tsûn mā teh iô.", en: "The wind's getting up. The waves are getting bigger and the boat's rolling."}
+  - {n: 13, speaker: Siù-lân, hanji: "今仔日風湧真大，是毋是風颱欲來矣？", tailo: "Kin-á-ji̍t hong-íng tsin tuā, sī m̄ sī hong-thai beh lâi--ah?", en: "The sea's very rough today. Is there a typhoon coming?", source: moe}
+  - {n: 14, speaker: Sam, hanji: "氣象講風颱閣三工才到，咱後日就轉去矣，袂拄著。", tailo: "Khì-siōng kóng hong-thai koh sann kang tsiah kàu, lán āu--ji̍t tō tńg--khì--ah, bē tú--tio̍h.", en: "The forecast says the typhoon won't arrive for another three days. We'll be home the day after tomorrow, so we'll miss it."}
+  - {n: 15, speaker: Siù-lân, hanji: "（指海面）Sam，緊看！海豬！三隻海豬綴咱的船咧跳。", tailo: "(Kí hái-bīn) Sam, kín khuànn! Hái-ti! Sann tsiah hái-ti tuè lán ê tsûn teh thiàu.", en: "(Pointing at the water) Sam, look! Dolphins! Three dolphins leaping alongside our boat."}
+  - {n: 16, speaker: Sam, hanji: "真的！我毋捌看過海豬佇海裡游泳。阿勇，你緊來看！", tailo: "Tsin--ê! Guá m̄ bat khuànn-kuè hái-ti tī hái--lí iû-íng. A-ióng, lí kín lâi khuànn!", en: "So there are! I've never seen dolphins swimming in the sea. A-ióng, come and look, quick!"}
+  - {n: 17, speaker: A-ióng, hanji: "（無力）我……我這馬看啥物攏咧踅……海翁來我嘛無愛看。", tailo: "(Bô la̍t) Guá…… guá tsit-má khuànn siánn-mih lóng teh se̍h…… hái-ang lâi guá mā bô ài khuànn.", en: "(Weakly) I… everything's spinning right now… I wouldn't look if a whale turned up."}
+  - {n: 18, speaker: Siok-tsing, hanji: "（提一包物件）來，食一粒鹹酸甜，莫看海，看遠遠的天邊，會較好。", tailo: "(The̍h tsi̍t pau mi̍h-kiānn) Lâi, tsia̍h tsi̍t lia̍p kiâm-sng-tinn, mài khuànn hái, khuànn hn̄g-hn̄g ê thinn-pinn, ē khah hó.", en: "(Taking out a packet) Here, have a preserved plum. Don't look at the water, look at the horizon in the distance: it'll help."}
+  - {n: 19, speaker: Siù-lân, hanji: "阿勇，你的阿公敢真正是討海的？", tailo: "A-ióng, lí ê a-kong kám tsin-tsiànn sī thó-hái--ê?", en: "A-ióng, was your grandfather really a fisherman?"}
+  - {n: 20, speaker: A-ióng, hanji: "是啊……伊駛漁船出海規世人，毋過伊上愛講的一句話是：「人生親像海，有時平靜，有時風湧。」", tailo: "Sī--ah…… i sái hî-tsûn tshut-hái kui-sì-lâng, m̄-koh i siōng ài kóng ê tsi̍t kù uē sī: “Jîn-sing tshin-tshiūnn hái, ū-sî pîng-tsīng, ū-sî hong-íng.”", en: "Yes… he took his fishing boat out all his life, and his favourite saying was: 'Life is like the sea: sometimes calm, sometimes stormy.'"}
+  - {n: 21, speaker: Sam, hanji: "閣講咧？", tailo: "Koh kóng--leh?", en: "And?"}
+  - {n: 22, speaker: A-ióng, hanji: "閣講：「毋過眩船的時，啥物道理攏無路用。」", tailo: "Koh kóng: “M̄-koh hîn-tsûn ê sî, siánn-mih tō-lí lóng bô-lōo-īng.”", en: "And: 'But when you're seasick, no amount of wisdom is any use.'"}
+  - {n: 23, speaker: Sam, hanji: "你看，遠遠彼搭有一座燈塔，閣有幾若隻漁船。媽宮港到矣。", tailo: "Lí khuànn, hn̄g-hn̄g hit tah ū tsi̍t tsō ting-thah, koh ū kuí-nā tsiah hî-tsûn. Má-king káng kàu--ah.", en: "Look, there's a lighthouse over there in the distance, and several fishing boats. We've reached Má-king harbour."}
+  - {n: 24, speaker: A-ióng, hanji: "（徛起來）佳哉！我欲緊落船，踏佇塗跤頂。今仔暗我欲食三盤韭菜花炒透抽！", tailo: "(Khiā--khí-lâi) Ka-tsài! Guá beh kín lo̍h tsûn, ta̍h tī thôo-kha tíng. Kin-á-àm guá beh tsia̍h sann puânn kú-tshài-hue tshá thàu-thiu!", en: "(Standing up) Thank goodness! I want to get off this boat and stand on solid ground. Tonight I'm eating three plates of squid stir-fried with chive flowers!"}
+  - {n: 25, speaker: Siok-tsing, hanji: "（笑）頭拄仔欲死欲活，這馬煞想欲食。", tailo: "(Tshiò) Thâu-tú-á beh sí beh ua̍h, tsit-má suah siūnn-beh tsia̍h.", en: "(Laughing) A minute ago you were at death's door, and now you're hungry."}
+  - {n: 26, speaker: Siù-lân, hanji: "人講：「韭菜花炒透抽，真佮喙。」佮喙的物件，上會醫眩船。", tailo: "Lâng kóng: “Kú-tshài-hue tshá thàu-thiu, tsin kah-tshuì.” Kah-tshuì ê mi̍h-kiānn, siōng ē i hîn-tsûn.", en: "As they say, squid with chive flowers is delicious. And there's nothing like good food to cure seasickness."}
+notes:
+  - {ref: 1, topic: vocab, text: "眩船 hîn-tsûn = be seasick (眩 'dizzy'). 眩船藥仔 = seasickness pills."}
+  - {ref: 2, topic: vocab, text: "討海 thó-hái = fish for a living, go to sea; 討海人 'fisherman'. 血 hueh = blood. 海水 = seawater."}
+  - {ref: 4, topic: vocab, text: "An exact MOE example. 𠢕 = be prone to (lesson 33's 'good at' also means 'tend to')."}
+  - {ref: 5, topic: vocab, text: "頂擺 tíng-pái = last time. 龜山島 Ku-suann-tó = Turtle Island, off Yilan. 嘔 áu = vomit, throw up; 空嘔 'retch' (MOE). 面青青 = green in the face."}
+  - {ref: 6, topic: vocab, text: "海面 hái-bīn = sea surface. 湧 = wave (lesson 36)."}
+  - {ref: 7, topic: vocab, text: "風湧 hong-íng = wind and waves, rough sea."}
+  - {ref: 8, topic: vocab, text: "船頭 tsûn-thâu = bow (of a ship); 船尾 tsûn-bué = stern (line 11)."}
+  - {ref: 9, topic: vocab, text: "甲板 kah-pán = deck. 天邊 thinn-pinn = horizon. 海洋 hái-iûnn = ocean. 島嶼 tó-sū = island."}
+  - {ref: 12, topic: vocab, text: "起風 khí-hong = the wind gets up: 起風矣，欲變天矣 'the wind's getting up, the weather's turning' (MOE)."}
+  - {ref: 13, topic: vocab, text: "An exact MOE example. 風颱 = typhoon (lesson 34)."}
+  - {ref: 15, topic: vocab, text: "海豬 hái-ti = dolphin ('sea pig'). 指 = point (lesson 22)."}
+  - {ref: 16, topic: vocab, text: "游泳 iû-íng = swim."}
+  - {ref: 17, topic: vocab, text: "踅 se̍h = spin, go round (踅街, 進修 22). 海翁 hái-ang = whale."}
+  - {ref: 18, topic: vocab, text: "鹹酸甜 kiâm-sng-tinn = preserved fruit ('salty-sour-sweet')."}
+  - {ref: 20, topic: vocab, text: "漁船 hî-tsûn = fishing boat. 平靜 pîng-tsīng = calm, peaceful."}
+  - {ref: 23, topic: vocab, text: "座 tsō = counter for buildings and mountains. 燈塔 = lighthouse (進修 12). 媽宮 Má-king = the main town of Penghu, named after its Mazu temple; today written 馬公 (Magong)."}
+  - {ref: 24, topic: vocab, text: "韭菜花 kú-tshài-hue = chive flowers. 透抽 thàu-thiu = (large) squid."}
+  - {ref: 25, topic: vocab, text: "頭拄仔 = just now. 欲死欲活 = at death's door."}
+  - {ref: 26, topic: vocab, text: "From the MOE example 韭菜花炒透抽，真佮喙. 佮喙 kah-tshuì = tasty, to one's taste. 醫 = cure (lesson 29)."}
+new_words:
+  - {tailo: hîn-tsûn, hanji: 眩船, en: "be seasick"}
+  - {tailo: thó-hái, hanji: 討海, en: "fish for a living, go to sea"}
+  - {tailo: thó-hái-lâng, hanji: 討海人, en: "fisherman"}
+  - {tailo: hueh, hanji: 血, en: "blood"}
+  - {tailo: hái-tsuí, hanji: 海水, en: "seawater"}
+  - {tailo: áu, hanji: 嘔, en: "vomit, throw up"}
+  - {tailo: tíng-pái, hanji: 頂擺, en: "last time"}
+  - {tailo: hái-bīn, hanji: 海面, en: "sea surface"}
+  - {tailo: hong-íng, hanji: 風湧, en: "rough sea"}
+  - {tailo: tsûn-thâu, hanji: 船頭, en: "bow (of a ship)"}
+  - {tailo: tsûn-bué, hanji: 船尾, en: "stern"}
+  - {tailo: kah-pán, hanji: 甲板, en: "deck"}
+  - {tailo: thinn-pinn, hanji: 天邊, en: "horizon"}
+  - {tailo: hái-iûnn, hanji: 海洋, en: "ocean"}
+  - {tailo: tó-sū, hanji: 島嶼, en: "island"}
+  - {tailo: khí-hong, hanji: 起風, en: "the wind gets up"}
+  - {tailo: hái-ti, hanji: 海豬, en: "dolphin"}
+  - {tailo: iû-íng, hanji: 游泳, en: "swim"}
+  - {tailo: hái-ang, hanji: 海翁, en: "whale"}
+  - {tailo: kiâm-sng-tinn, hanji: 鹹酸甜, en: "preserved fruit"}
+  - {tailo: hî-tsûn, hanji: 漁船, en: "fishing boat"}
+  - {tailo: pîng-tsīng, hanji: 平靜, en: "calm, peaceful"}
+  - {tailo: tsō, hanji: 座, en: "counter for buildings, mountains"}
+  - {tailo: kú-tshài-hue, hanji: 韭菜花, en: "chive flowers"}
+  - {tailo: thàu-thiu, hanji: 透抽, en: "(large) squid"}
+  - {tailo: thâu-tú-á, hanji: 頭拄仔, en: "just now"}
+  - {tailo: beh-sí-beh-ua̍h, hanji: 欲死欲活, en: "at death's door; desperately"}
+  - {tailo: kah-tshuì, hanji: 佮喙, en: "tasty, to one's taste"}
+exercises:
+  translate:
+    - {tailo: "Guá m̄ bat hîn-tsûn.", hanji: "我毋捌眩船。", en: "I've never been seasick."}
+    - {tailo: "Káng lāi tong-jiân pênn, tshut káng liáu-āu, hong-íng tō tuā--ah.", hanji: "港內當然平，出港了後，風湧就大矣。", en: "Of course it's calm inside the harbour. Once we're out, the waves get bigger."}
+    - {tailo: "Sann tsiah hái-ti tuè lán ê tsûn teh thiàu.", hanji: "三隻海豬綴咱的船咧跳。", en: "Three dolphins are leaping alongside our boat."}
+    - {tailo: "Jîn-sing tshin-tshiūnn hái, ū-sî pîng-tsīng, ū-sî hong-íng.", hanji: "人生親像海，有時平靜，有時風湧。", en: "Life is like the sea: sometimes calm, sometimes stormy."}
+    - {tailo: "Mài khuànn hái, khuànn hn̄g-hn̄g ê thinn-pinn.", hanji: "莫看海，看遠遠的天邊。", en: "Don't look at the water, look at the horizon in the distance."}
+    - {tailo: "Thó-hái-lâng kóng, khí-hong ê sî tsûn ē iô kah tsin lī-hāi, m̄-thang tī kah-pán kiânn-lâi-kiânn-khì.", hanji: "討海人講，起風的時船會搖甲真厲害，毋通佇甲板行來行去。", en: "The fishermen say that when the wind gets up the boat rocks badly, so you mustn't walk about on deck."}
+    - {tailo: "Tī tsûn-thâu ē-tàng khuànn-tio̍h thinn-pinn ê tó-sū, hái-tsuí tsin tshing, koh ū tsi̍t tīn hái-ti tuè tsûn teh iû.", hanji: "佇船頭會當看著天邊的島嶼，海水真清，閣有一陣海豬綴船咧游。", en: "From the bow you can see the islands on the horizon; the water is clear, and a pod of dolphins is swimming alongside the boat."}
+  fill:
+    - {tailo: "Guán a-kong khah-tsá sī ___-lâng.", hanji: "阮阿公較早是___人。", answer: "thó-hái", answer_hanji: "討海", en: "My grandfather was a fisherman."}
+    - {tailo: "Lí tíng-pái ___ kah bīn tshenn-tshenn.", hanji: "你頂擺___甲面青青。", answer: "áu", answer_hanji: "嘔", en: "Last time you threw up till you were green."}
+    - {tailo: "Lán lâi-khì ___ khuànn hái.", hanji: "咱來去___看海。", answer: "tsûn-thâu", answer_hanji: "船頭", en: "Let's go to the bow and look at the sea."}
+    - {tailo: "___--ah. Íng jú lâi jú tuā.", hanji: "___矣。湧愈來愈大。", answer: "Khí-hong", answer_hanji: "起風", en: "The wind's getting up. The waves are getting bigger."}
+    - {tailo: "Guá m̄ bat khuànn-kuè hái-ti tī hái--lí ___.", hanji: "我毋捌看過海豬佇海裡___。", answer: "iû-íng", answer_hanji: "游泳", en: "I've never seen dolphins swimming in the sea."}
+    - {tailo: "Kàu Má-king liáu-āu, A-ióng tsiah khah hó--ah, tsia̍h thàu-thiu kóng tsin ___.", hanji: "到媽宮了後，阿勇才較好矣，食透抽講真___。", answer: "kah-tshuì", answer_hanji: "佮喙", en: "Only when we got to Magong did A-ióng feel better; he ate squid and said it was delicious."}
+audio: []

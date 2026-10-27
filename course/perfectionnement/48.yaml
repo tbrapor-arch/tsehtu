@@ -1,0 +1,99 @@
+id: 48
+title: {en: "Back to the land", tailo: "Tńg-khì tsò tshân", hanji: "轉去作田"}
+genre: interview
+review: false
+setting: "A Taigi radio programme interviews A-kia̍t's older cousin, Bîng-tsì, 32, who left his job as an engineer in Taipei five years ago to farm rice near Chiayi. (A-kia̍t argued for the countryside in Hūi-hūi's debate, 進修 27.)"
+dialogue:
+  - {n: 1, speaker: Host, hanji: "明志，你本底佇臺北做工程師，薪水懸，是按怎欲辭頭路轉去作田？", tailo: "Bîng-tsì, lí pún-té tī Tâi-pak tsò kang-tîng-su, sin-suí kuân, sī án-tsuánn beh sî thâu-lōo tńg-khì tsoh-tshân?", en: "Bîng-tsì, you were an engineer in Taipei with a good salary. Why did you quit your job to go back and farm?"}
+  - {n: 2, speaker: Bîng-tsì, hanji: "阮阿公作田規世人，伊老矣，田園無人顧。我想，若我無轉去，阮兜的田就欲荒去矣。", tailo: "Guán a-kong tsoh-tshân kui-sì-lâng, i lāu--ah, tshân-hn̂g bô lâng kòo. Guá siūnn, nā guá bô tńg--khì, guán tau ê tshân tō beh hng--khì--ah.", en: "My grandfather farmed all his life. He's old now, and there was nobody to look after the fields. I thought, if I didn't go back, our family's land would go to waste."}
+  - {n: 3, speaker: Host, hanji: "恁兜的人敢有反對？", tailo: "Lín tau ê lâng kám ū huán-tuì?", en: "Did your family object?"}
+  - {n: 4, speaker: Bîng-tsì, hanji: "阮老母哭三工。伊講：「阮拍拚予你讀冊，就是欲予你免閣曝日。」毋過我決定欲辭職矣。", tailo: "Guán lāu-bú khàu sann kang. I kóng: “Guán phah-piànn hōo lí tha̍k-tsheh, tō sī beh hōo lí bián koh pha̍k-ji̍t.” M̄-koh guá kuat-tīng beh sî-tsit--ah.", en: "My mother cried for three days. She said: 'We worked hard to put you through school precisely so you wouldn't have to toil in the sun.' But I'd made up my mind to quit."}
+  - {n: 5, speaker: Host, hanji: "頭一冬順利無？", tailo: "Thâu tsi̍t tang sūn-lī--bô?", en: "Did the first year go smoothly?"}
+  - {n: 6, speaker: Bîng-tsì, hanji: "一點都無順利！我連佈田都袂曉，秧仔插甲歪膏揤斜，阿公看甲直直搖頭。", tailo: "Tsi̍t-tiám to bô sūn-lī! Guá liân pòo-tshân to bē-hiáu, ng-á tshah kah uai-ko-tshi̍h-tshua̍h, a-kong khuànn kah ti̍t-ti̍t iô-thâu.", en: "Not smooth at all! I didn't even know how to plant out rice; my seedlings went in all crooked, and Grandad just kept shaking his head."}
+  - {n: 7, speaker: Bîng-tsì, hanji: "彼年閣拄著風颱，粟仔強欲會當收割矣，煞予風颱掃了了，損失規半。", tailo: "Hit nî koh tú-tio̍h hong-thai, tshik-á kiōng-beh ē-tàng siu-kuah--ah, suah hōo hong-thai sàu liáu-liáu, sún-sit kui-puànn.", en: "That year we also had a typhoon: the rice was nearly ready to harvest when the typhoon swept it away, and I lost half the crop."}
+  - {n: 8, speaker: Host, hanji: "按呢你敢有想欲放棄？", tailo: "Án-ne lí kám ū siūnn-beh hòng-khì?", en: "Did you think of giving up?"}
+  - {n: 9, speaker: Bîng-tsì, hanji: "有。毋過阿公講：「作田人靠天食飯，嘛愛靠家己的手。」伊共伊的經驗一項一項教我。", tailo: "Ū. M̄-koh a-kong kóng: “Tsoh-tshân-lâng khò thinn tsia̍h-pn̄g, mā ài khò ka-kī ê tshiú.” I kā i ê king-giām tsi̍t hāng tsi̍t hāng kà guá.", en: "Yes. But Grandad said: 'A farmer depends on the sky for his living, but also on his own two hands.' He taught me everything he knew, one thing at a time."}
+  - {n: 10, speaker: Host, hanji: "聽講你的米是有機的？", tailo: "Thiann-kóng lí ê bí sī iú-ki--ê?", en: "I hear your rice is organic?"}
+  - {n: 11, speaker: Bîng-tsì, hanji: "著。我無用化學肥料，嘛無噴農藥。肥料是用稻草佮鴨母的屎，攏是天然的。", tailo: "Tio̍h. Guá bô iōng huà-ha̍k puî-liāu, mā bô phùn lông-io̍h. Puî-liāu sī iōng tiū-tsháu kah ah-bó ê sái, lóng sī thian-jiân--ê.", en: "That's right. I don't use chemical fertiliser and I don't spray pesticides. The fertiliser is rice straw and duck droppings: all natural."}
+  - {n: 12, speaker: Bîng-tsì, hanji: "我飼一陣鴨母佇田裡，伊食草、食蟲，閣共田園顧甲清氣。", tailo: "Guá tshī tsi̍t tīn ah-bó tī tshân--lí, i tsia̍h tsháu, tsia̍h thâng, koh kā tshân-hn̂g kòo kah tshing-khì.", en: "I keep a flock of ducks in the paddies: they eat the weeds and the insects, and keep the fields clean."}
+  - {n: 13, speaker: Bîng-tsì, hanji: "這馬田裡閣有田蛤仔佮白鶴，暗時田蛤仔叫甲規庄頭攏聽會著。生態轉來矣。", tailo: "Tsit-má tshân--lí koh ū tshân-kap-á kah pe̍h-ho̍h, àm-sî tshân-kap-á kiò kah kui tsng-thâu lóng thiann ē tio̍h. Sing-thài tńg--lâi--ah.", en: "Now there are frogs and egrets in the fields again; at night the frogs croak so loud the whole village can hear. The ecosystem has come back."}
+  - {n: 14, speaker: Host, hanji: "毋過有機的米較貴，敢有人買？", tailo: "M̄-koh iú-ki ê bí khah kuì, kám ū lâng bé?", en: "But organic rice is more expensive. Do people buy it?"}
+  - {n: 15, speaker: Bîng-tsì, hanji: "頭仔真僫賣。後來我用網路直接賣予消費者，閣做一个家己的品牌，叫做「阿公的田」。", tailo: "Thâu--á tsin oh bē. Āu--lâi guá iōng bāng-lōo ti̍t-tsiap bē hōo siau-huì-tsiá, koh tsò tsi̍t ê ka-kī ê phín-pâi, kiò-tsò “A-kong ê Tshân”.", en: "At first it was hard to sell. Then I started selling directly to customers online, and created my own brand, called 'Grandad's Field'."}
+  - {n: 16, speaker: Bîng-tsì, hanji: "我佇網路寫阮的田、阮的鴨母、阮阿公的故事。人買的毋但是米，閣有這个故事。", tailo: "Guá tī bāng-lōo siá guán ê tshân, guán ê ah-bó, guán a-kong ê kòo-sū. Lâng bé--ê m̄-nā sī bí, koh ū tsit ê kòo-sū.", en: "Online I write about our fields, our ducks and my grandfather's story. What people buy isn't just rice: it's the story too."}
+  - {n: 17, speaker: Host, hanji: "你感覺作田佮做工程師，有啥物相仝的所在？", tailo: "Lí kám-kak tsoh-tshân kah tsò kang-tîng-su, ū siánn-mih sio-kāng ê sóo-tsāi?", en: "What do you think farming and engineering have in common?"}
+  - {n: 18, speaker: Bîng-tsì, hanji: "攏愛有耐性，攏愛解決問題。毋過電腦的問題揤一个鍵就好，田裡的問題愛等一季。", tailo: "Lóng ài ū nāi-sìng, lóng ài kái-kuat būn-tê. M̄-koh tiān-náu ê būn-tê tshi̍h tsi̍t ê kiān tō hó, tshân--lí ê būn-tê ài tán tsi̍t kuì.", en: "Both need patience, and both are about solving problems. But a computer problem is fixed with one keystroke; a problem in the fields means waiting a whole season."}
+  - {n: 19, speaker: Bîng-tsì, hanji: "我嘛有用科技。我裝一台機器，佇手機仔頂就看會著圳溝的水有夠無。", tailo: "Guá mā ū iōng kho-ki. Guá tsng tsi̍t tâi ki-khì, tī tshiú-ki-á tíng tō khuànn ē tio̍h tsùn-kau ê tsuí ū kàu--bô.", en: "I use technology too. I installed a device, and I can check on my phone whether there's enough water in the irrigation channel."}
+  - {n: 20, speaker: Bîng-tsì, hanji: "阿公看了講：「古早阮踏水車，這馬你揤手機仔。時代無仝矣。」", tailo: "A-kong khuànn liáu kóng: “Kóo-tsá guán ta̍h tsuí-tshia, tsit-má lí tshi̍h tshiú-ki-á. Sî-tāi bô kāng--ah.”", en: "Grandad saw it and said: 'In my day we worked the water wheel with our feet; now you press a phone. Times have changed.'"}
+  - {n: 21, speaker: Host, hanji: "你對想欲轉去草地的少年人，有啥物話欲講？", tailo: "Lí tuì siūnn-beh tńg-khì tsháu-tē ê siàu-liân-lâng, ū siánn-mih uē beh kóng?", en: "What would you say to young people who are thinking of moving back to the countryside?"}
+  - {n: 22, speaker: Bîng-tsì, hanji: "作田毋是浪漫的代誌。愛先學，愛有準備，毋通冒險。", tailo: "Tsoh-tshân m̄ sī lōng-bān ê tāi-tsì. Ài sing o̍h, ài ū tsún-pī, m̄-thang mōo-hiám.", en: "Farming isn't romantic. You need to learn first and be prepared: don't take reckless risks."}
+  - {n: 23, speaker: Bîng-tsì, hanji: "毋過土地袂騙人。你對伊好，伊就對你好。我這馬逐工透早看日頭佇田頂浮起來，感覺規世人上歡喜的就是這陣。", tailo: "M̄-koh thóo-tē bē phiàn--lâng. Lí tuì i hó, i tō tuì lí hó. Guá tsit-má ta̍k kang thàu-tsá khuànn ji̍t-thâu tī tshân-tíng phû--khí-lâi, kám-kak kui-sì-lâng siōng huann-hí--ê tō sī tsit-tsūn.", en: "But the land doesn't lie. Treat it well and it treats you well. Every morning now I watch the sun rise over the fields, and I feel this is the happiest time of my life."}
+  - {n: 24, speaker: Host, hanji: "恁阿公這馬按怎？", tailo: "Lín a-kong tsit-má án-tsuánn?", en: "And how's your grandfather now?"}
+  - {n: 25, speaker: Bîng-tsì, hanji: "伊逐工騎跤踏車來田裡巡，看著無順眼的所在，就喝：「少年的，這擺又閣插歪去矣！」", tailo: "I ta̍k kang khiâ kha-ta̍h-tshia lâi tshân--lí sûn, khuànn-tio̍h bô sūn-gán ê sóo-tsāi, tō huah: “Siàu-liân--ê, tsit pái iū-koh tshah uai--khì--ah!”", en: "He cycles out to inspect the fields every day, and whenever he sees something he doesn't like, he shouts: 'Young man, you've planted them crooked again!'"}
+notes:
+  - {ref: 1, topic: vocab, text: "作田 tsoh-tshân = farm (rice). 辭頭路 sî thâu-lōo = quit one's job; 辭職 sî-tsit (line 4) is the formal word: 伊決定欲辭職矣 'he's decided to resign' (MOE)."}
+  - {ref: 2, topic: vocab, text: "荒 hng = go to waste, lie fallow."}
+  - {ref: 4, topic: vocab, text: "曝日 = be out in the sun (lesson 36); here 'toil in the sun'."}
+  - {ref: 5, topic: vocab, text: "順利 sūn-lī = go smoothly: 祝你一切順利 'I wish you all the best'."}
+  - {ref: 6, topic: vocab, text: "佈田 pòo-tshân = plant out rice seedlings. 秧仔 ng-á = seedling. 插 tshah = stick in, plant. 歪膏揤斜 uai-ko-tshi̍h-tshua̍h = all crooked, askew."}
+  - {ref: 7, topic: vocab, text: "粟仔 tshik-á = (unhusked) rice grain. 收割 siu-kuah = harvest. 掃了了 = swept away completely. 規半 = half (of it)."}
+  - {ref: 9, topic: vocab, text: "作田人 = farmer. 靠天食飯 = depend on the weather for one's living."}
+  - {ref: 10, topic: vocab, text: "有機 iú-ki = organic."}
+  - {ref: 11, topic: vocab, text: "化學 huà-ha̍k = chemistry; chemical. 肥料 puî-liāu = fertiliser. 農藥 = pesticide (進修 20). 稻草 tiū-tsháu = rice straw. 鴨母 ah-bó = (female) duck: 鴨母咧生卵 'the duck is laying' (MOE). 天然 thian-jiân = natural."}
+  - {ref: 12, topic: vocab, text: "蟲 = insect, bug (進修 11)."}
+  - {ref: 13, topic: vocab, text: "田蛤仔 tshân-kap-á = frog. 生態 sing-thài = ecology, ecosystem."}
+  - {ref: 15, topic: vocab, text: "僫 = hard (lesson 48); 僫賣 'hard to sell'. 消費者 siau-huì-tsiá = consumer. 品牌 phín-pâi = brand."}
+  - {ref: 17, topic: vocab, text: "相仝 sio-kāng = the same."}
+  - {ref: 18, topic: vocab, text: "解決 = solve (lesson 41). 揤 = press (進修 26). 鍵 kiān = key (on a keyboard). 季 kuì = season, quarter (here 'one growing season')."}
+  - {ref: 19, topic: vocab, text: "科技 kho-ki = technology. 裝 tsng = install, fit (here a device). 機器 = machine, device. 圳溝 tsùn-kau = irrigation channel: 誠久無落雨矣，圳溝內底的水嘛攏焦去矣 'it hasn't rained for ages, the irrigation channels have dried up' (MOE)."}
+  - {ref: 20, topic: culture, text: "水車 tsuí-tshia = water wheel; 踏水車 'work a treadle water wheel', how paddies were once irrigated (MOE)."}
+  - {ref: 22, topic: vocab, text: "浪漫 = romantic (lesson 86). 冒險 mōo-hiám = take risks: 注意安全，毋通冒險 'be careful, don't take risks' (MOE)."}
+  - {ref: 23, topic: vocab, text: "土地 = land (lesson 88). 騙 phiàn = deceive."}
+  - {ref: 25, topic: vocab, text: "跤踏車 kha-ta̍h-tshia = bicycle. 巡 = inspect (進修 33). 順眼 sūn-gán = pleasing to the eye. 又閣 = yet again."}
+new_words:
+  - {tailo: sūn-lī, hanji: 順利, en: "smooth, go well"}
+  - {tailo: uai, hanji: 歪, en: "crooked, askew"}
+  - {tailo: kha-ta̍h-tshia, hanji: 跤踏車, en: "bicycle"}
+  - {tailo: tsoh-tshân, hanji: 作田, en: "farm (rice)"}
+  - {tailo: sî thâu-lōo, hanji: 辭頭路, en: "quit one's job"}
+  - {tailo: sî-tsit, hanji: 辭職, en: "resign"}
+  - {tailo: hng, hanji: 荒, en: "go to waste, lie fallow"}
+  - {tailo: pòo-tshân, hanji: 佈田, en: "plant out rice seedlings"}
+  - {tailo: ng-á, hanji: 秧仔, en: "seedling"}
+  - {tailo: uai-ko-tshi̍h-tshua̍h, hanji: 歪膏揤斜, en: "all crooked, askew"}
+  - {tailo: tshik-á, hanji: 粟仔, en: "(unhusked) rice grain"}
+  - {tailo: siu-kuah, hanji: 收割, en: "harvest"}
+  - {tailo: tsoh-tshân-lâng, hanji: 作田人, en: "farmer"}
+  - {tailo: iú-ki, hanji: 有機, en: "organic"}
+  - {tailo: huà-ha̍k, hanji: 化學, en: "chemistry; chemical"}
+  - {tailo: puî-liāu, hanji: 肥料, en: "fertiliser"}
+  - {tailo: tiū-tsháu, hanji: 稻草, en: "rice straw"}
+  - {tailo: ah-bó, hanji: 鴨母, en: "(female) duck"}
+  - {tailo: thian-jiân, hanji: 天然, en: "natural"}
+  - {tailo: tshân-kap-á, hanji: 田蛤仔, en: "frog"}
+  - {tailo: sing-thài, hanji: 生態, en: "ecology, ecosystem"}
+  - {tailo: siau-huì-tsiá, hanji: 消費者, en: "consumer"}
+  - {tailo: phín-pâi, hanji: 品牌, en: "brand"}
+  - {tailo: sio-kāng, hanji: 相仝, en: "the same"}
+  - {tailo: kiān, hanji: 鍵, en: "key (keyboard)"}
+  - {tailo: kho-ki, hanji: 科技, en: "technology"}
+  - {tailo: tsùn-kau, hanji: 圳溝, en: "irrigation channel"}
+  - {tailo: tsuí-tshia, hanji: 水車, en: "water wheel"}
+  - {tailo: mōo-hiám, hanji: 冒險, en: "take risks"}
+  - {tailo: sūn-gán, hanji: 順眼, en: "pleasing to the eye"}
+exercises:
+  translate:
+    - {tailo: "Nā guá bô tńg--khì, guán tau ê tshân tō beh hng--khì--ah.", hanji: "若我無轉去，阮兜的田就欲荒去矣。", en: "If I didn't go back, our family's land would go to waste."}
+    - {tailo: "Guá bô iōng huà-ha̍k puî-liāu, mā bô phùn lông-io̍h.", hanji: "我無用化學肥料，嘛無噴農藥。", en: "I don't use chemical fertiliser and I don't spray pesticides."}
+    - {tailo: "Guá tshī tsi̍t tīn ah-bó tī tshân--lí.", hanji: "我飼一陣鴨母佇田裡。", en: "I keep a flock of ducks in the paddies."}
+    - {tailo: "Tsoh-tshân m̄ sī lōng-bān ê tāi-tsì.", hanji: "作田毋是浪漫的代誌。", en: "Farming isn't romantic."}
+    - {tailo: "Thóo-tē bē phiàn--lâng.", hanji: "土地袂騙人。", en: "The land doesn't lie."}
+    - {tailo: "Bîng-tsì tī tshân--lí tshī ah-bó, ah-bó tsia̍h tsháu, tsia̍h thâng, tshân-hn̂g tō bián phùn lông-io̍h, ah-bó ê sái koh ē-tàng tsò puî-liāu.", hanji: "明志佇田裡飼鴨母，鴨母食草、食蟲，田園就免噴農藥，鴨母的屎閣會當做肥料。", en: "Bîng-tsì keeps ducks in his paddies; they eat the weeds and insects, so he doesn't need to spray pesticides; and their droppings make fertiliser."}
+    - {tailo: "I iōng bāng-lōo bē bí, koh siá a-kong ê kòo-sū, siau-huì-tsiá tō ài bé i ê phín-pâi.", hanji: "伊用網路賣米，閣寫阿公的故事，消費者就愛買伊的品牌。", en: "He sells his rice online and writes his grandfather's story, so customers like buying his brand."}
+  fill:
+    - {tailo: "Guá liân ___ to bē-hiáu.", hanji: "我連___都袂曉。", answer: "pòo-tshân", answer_hanji: "佈田", en: "I didn't even know how to plant out rice."}
+    - {tailo: "Tshik-á kiōng-beh ē-tàng ___--ah.", hanji: "粟仔強欲會當___矣。", answer: "siu-kuah", answer_hanji: "收割", en: "The rice was nearly ready to harvest."}
+    - {tailo: "Tsit-má tshân--lí koh ū ___ kah pe̍h-ho̍h.", hanji: "這馬田裡閣有___佮白鶴。", answer: "tshân-kap-á", answer_hanji: "田蛤仔", en: "Now there are frogs and egrets in the fields again."}
+    - {tailo: "Āu--lâi guá iōng bāng-lōo ti̍t-tsiap bē hōo ___.", hanji: "後來我用網路直接賣予___。", answer: "siau-huì-tsiá", answer_hanji: "消費者", en: "Then I started selling directly to customers online."}
+    - {tailo: "Ài sing o̍h, ài ū tsún-pī, m̄-thang ___.", hanji: "愛先學，愛有準備，毋通___。", answer: "mōo-hiám", answer_hanji: "冒險", en: "You need to learn first and be prepared: don't take reckless risks."}
+    - {tailo: "Kóo-tsá tsoh-tshân-lâng ài ta̍h ___, tsiah ē-tàng hōo tsuí ji̍p-khì tshân--lí, tsit-má iōng ki-khì tō hó.", hanji: "古早作田人愛踏___，才會當予水入去田裡，這馬用機器就好。", answer: "tsuí-tshia", answer_hanji: "水車", en: "In the old days farmers had to work a treadle water wheel to get water into the fields; now a machine does it."}
+audio: []

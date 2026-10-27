@@ -1,0 +1,109 @@
+id: 36
+title: {en: "My joints have rusted", tailo: "Kin-kut lóng senn-sian--khì--ah", hanji: "筋骨攏生鉎去矣"}
+genre: dialogue
+review: false
+setting: "A Saturday at six in the morning, in the riverside park along the Tamsui River in Taipei. Sam wants to try the 21 km at Lukang next year (進修 24), so he joins a running club for the first time."
+dialogue:
+  - {n: 1, speaker: Coach, hanji: "逐家早！今仔日有一位新會員，Sam，你紹介一下家己。", tailo: "Ta̍k-ke tsá! Kin-á-ji̍t ū tsi̍t uī sin huē-uân, Sam, lí siāu-kài--tsi̍t-ē ka-kī.", en: "Morning, everyone! We have a new member today. Sam, introduce yourself."}
+  - {n: 2, speaker: Sam, hanji: "逐家好，我叫 Sam。舊年十一月我走過鹿港的十公里，明年想欲挑戰二十一公里。", tailo: "Ta̍k-ke hó, guá kiò Sam. Kū-nî tsa̍p-it-gue̍h guá tsáu-kuè Lo̍k-káng ê tsa̍p kong-lí, mê-nî siūnn-beh thiáu-tsiàn jī-tsa̍p-it kong-lí.", en: "Hello, everyone, I'm Sam. Last November I ran the 10 km at Lukang, and next year I'd like to take on the 21 km."}
+  - {n: 3, speaker: Coach, hanji: "好！咱這个社團逐禮拜六早起佇河邊走，平常時家己練。你平常時有咧運動無？", tailo: "Hó! Lán tsit ê siā-thuân ta̍k lé-pài-la̍k tsá-khí tī hô-pinn tsáu, pîng-siông-sî ka-kī liān. Lí pîng-siông-sî ū teh ūn-tōng--bô?", en: "Good! Our club runs along the river every Saturday morning, and you train on your own the rest of the time. Do you exercise normally?"}
+  - {n: 4, speaker: Sam, hanji: "老實講，鹿港了後，我就無啥咧走。冬節食圓仔，過年食甜粿，筋骨攏生鉎去矣。", tailo: "Láu-si̍t kóng, Lo̍k-káng liáu-āu, guá tō bô siánn teh tsáu. Tang-tseh tsia̍h înn-á, kuè-nî tsia̍h tinn-kué, kin-kut lóng senn-sian--khì--ah.", en: "To be honest, after Lukang I hardly ran at all. Rice balls at the solstice, sweet cake at New Year: my joints have rusted up."}
+  - {n: 5, speaker: Coach, hanji: "無要緊，咱照步來。先伸跤，閣共腰骨扭予開。", tailo: "Bô-iàu-kín, lán tsiàu-pōo-lâi. Sing tshun-kha, koh kā io-kut ngiú hōo khui.", en: "Never mind, we'll take it step by step. First stretch your legs, then loosen up your lower back."}
+  - {n: 6, speaker: Siù-lân, hanji: "（佇邊仔）你的姿勢無正確。跤伸直，身軀莫向傷低，若無，跤後肚會拍歹去。", tailo: "(Tī pinn-á) Lí ê tsu-sè bô tsìng-khak. Kha tshun ti̍t, sin-khu mài ànn siunn kē, nā-bô, kha-āu-tóo ē phah-pháinn--khì.", en: "(Beside him) Your posture isn't right. Keep your leg straight and don't bend over too far, or you'll injure your calf."}
+  - {n: 7, speaker: Sam, hanji: "多謝你。請問你是……", tailo: "To-siā--lí. Tshiánn-mn̄g lí sī……", en: "Thank you. And you are…?"}
+  - {n: 8, speaker: Siù-lân, hanji: "我叫秀蘭。我佇病院做復健，專門咧治療運動受傷的人。", tailo: "Guá kiò Siù-lân. Guá tī pēnn-īnn tsò ho̍k-kiān, tsuan-bûn teh tī-liâu ūn-tōng siū-siong ê lâng.", en: "I'm Siù-lân. I work in rehabilitation at a hospital: I treat people who've been injured doing sport."}
+  - {n: 9, speaker: Coach, hanji: "秀蘭是阮社團上早的會員，見著人攏會相借問，逐家攏捌伊。", tailo: "Siù-lân sī guán siā-thuân siōng tsá ê huē-uân, kìnn-tio̍h lâng lóng ē sio-tsioh-mn̄g, ta̍k-ke lóng bat--i.", en: "Siù-lân is our longest-standing member: she always says hello to everyone, and everybody knows her."}
+  - {n: 10, speaker: Coach, hanji: "好，起步！頭一公里莫走傷緊，速度愛勻勻仔。", tailo: "Hó, khí-pōo! Thâu tsi̍t kong-lí mài tsáu siunn kín, sok-tōo ài ûn-ûn-á.", en: "Right, off we go! Don't go too fast in the first kilometre: keep a steady pace."}
+  - {n: 11, speaker: Siù-lân, hanji: "Sam，你看，河對面有一陣白鶴咧飛。透早的河邊上媠，天開闊，風嘛涼。", tailo: "Sam, lí khuànn, hô tuì-bīn ū tsi̍t tīn pe̍h-ho̍h teh pue. Thàu-tsá ê hô-pinn siōng suí, thinn khui-khuah, hong mā liâng.", en: "Sam, look, there's a flock of egrets flying on the other side of the river. The riverside is loveliest early in the morning: the sky's wide open and the wind is cool."}
+  - {n: 12, speaker: Sam, hanji: "景色真媠……毋過我已經咧大心氣矣，袂當講話。", tailo: "Kíng-sik tsin suí…… m̄-koh guá í-king teh tuā-sim-khuì--ah, bē-tàng kóng-uē.", en: "Lovely view… but I'm already gasping, I can't talk."}
+  - {n: 13, speaker: Siù-lân, hanji: "走標的時，若會當講話，速度就拄好。若袂當講話，就是傷緊矣。", tailo: "Tsáu-pio ê sî, nā ē-tàng kóng-uē, sok-tōo tō tú-hó. Nā bē-tàng kóng-uē, tō sī siunn kín--ah.", en: "When you run, if you can still talk, the pace is right. If you can't, you're going too fast."}
+  - {n: 14, speaker: Sam, hanji: "（跤一下踏毋著）我的跤目……", tailo: "(Kha tsi̍t-ē ta̍h m̄-tio̍h) Guá ê kha-ba̍k……", en: "(Missing his footing) Ow, my ankle…"}
+  - {n: 15, speaker: Siù-lân, hanji: "莫振動，予我看覓。跤骨扭著，好佳哉無偌嚴重。", tailo: "Mài tín-tāng, hōo guá khuànn-māi. Kha-kut láu--tio̍h, hó-ka-tsài bô guā giâm-tiōng.", en: "Don't move, let me see. You've twisted your ankle; luckily it's not too bad."}
+  - {n: 16, speaker: Siù-lân, hanji: "你的球鞋傷舊矣，跤底攏磨平矣。鞋若無好，跤目就容易扭著。", tailo: "Lí ê kiû-ê siunn kū--ah, kha-té lóng buâ pênn--ah. Ê nā bô hó, kha-ba̍k tō iông-ī láu--tio̍h.", en: "Your trainers are too old: the soles are worn flat. If your shoes aren't good, you twist your ankle easily."}
+  - {n: 17, speaker: Sam, hanji: "這雙鞋我穿五冬矣……原來是按呢。", tailo: "Tsit siang ê guá tshīng gōo tang--ah…… guân-lâi sī án-ne.", en: "I've had these shoes five years… so that's why."}
+  - {n: 18, speaker: Coach, hanji: "你今仔日先歇睏，莫閣走矣。秀蘭，你共伊鬥看一下。", tailo: "Lí kin-á-ji̍t sing hioh-khùn, mài koh tsáu--ah. Siù-lân, lí kā i tàu khuànn--tsi̍t-ē.", en: "You'd better rest today, no more running. Siù-lân, would you keep an eye on him?"}
+  - {n: 19, speaker: Siù-lân, hanji: "倒轉去用冰敷，跤囥較懸咧。食較有營養的，三工內莫走。", tailo: "Tò-tńg--khì iōng ping hu, kha khǹg khah kuân--leh. Tsia̍h khah ū îng-ióng--ê, sann kang lāi mài tsáu.", en: "When you get home, put ice on it and keep your foot up. Eat well, and no running for three days."}
+  - {n: 20, speaker: Sam, hanji: "看起來，我欲走二十一公里，猶閣真遠。", tailo: "Khuànn--khí-lâi, guá beh tsáu jī-tsa̍p-it kong-lí, iáu-koh tsin hn̄g.", en: "Looks like the 21 km is still a long way off for me."}
+  - {n: 21, speaker: Siù-lân, hanji: "毋免失志。練走愛有規律，毋是一工練足濟，是愛捷捷練。", tailo: "M̄-bián sit-tsì. Liān tsáu ài ū kui-lu̍t, m̄ sī tsi̍t kang liān tsiok tsē, sī ài tsia̍p-tsia̍p liān.", en: "Don't lose heart. Training needs regularity: it's not about doing a lot in one day, it's about doing it often."}
+  - {n: 22, speaker: Sam, hanji: "你講了真有道理。我閣有問題的時，敢會使佮你聯絡？", tailo: "Lí kóng liáu tsin ū tō-lí. Guá koh ū būn-tê ê sî, kám ē-sái kah lí liân-lo̍k?", en: "That makes a lot of sense. If I have more questions, could I get in touch with you?"}
+  - {n: 23, speaker: Siù-lân, hanji: "會使啊，咱交換電話。毋過我的病人攏愛排隊喔。", tailo: "Ē-sái--ah, lán kau-uānn tiān-uē. M̄-koh guá ê pēnn-lâng lóng ài pâi-tuī--ooh.", en: "Sure, let's swap numbers. But my patients all have to queue, you know."}
+  - {n: 24, speaker: Coach, hanji: "（細聲）Sam，你運氣真好。秀蘭平常時真清閒，毋過伊毋捌共人交換電話。", tailo: "(Sè-siann) Sam, lí ūn-khì tsin hó. Siù-lân pîng-siông-sî tsin tshing-îng, m̄-koh i m̄ bat kā lâng kau-uānn tiān-uē.", en: "(Quietly) Sam, you're a lucky man. Siù-lân is usually very relaxed, but she's never swapped numbers with anyone before."}
+  - {n: 25, speaker: Sam, hanji: "按呢，跤目扭著嘛算是好運。", tailo: "Án-ne, kha-ba̍k láu--tio̍h mā sǹg-sī hó-ūn.", en: "Then twisting my ankle counts as good luck."}
+  - {n: 26, speaker: Coach, hanji: "毋過三不五時扭一擺，就毋是好運矣喔！", tailo: "M̄-koh sam-put-gōo-sî láu tsi̍t pái, tō m̄ sī hó-ūn--ah--ooh!", en: "But twisting it every other week won't be good luck!"}
+notes:
+  - {ref: 1, topic: vocab, text: "會員 huē-uân = member (of a club). 紹介 siāu-kài = introduce (from Japanese): 到時陣愛麻煩你共我紹介予恁頭家 'when the time comes, please introduce me to your boss' (MOE)."}
+  - {ref: 3, topic: vocab, text: "社團 siā-thuân = club, association. 河邊 hô-pinn = riverside. 平常時 pîng-siông-sî = normally, usually: 伊平常時攏無咧運動 'he never exercises normally' (MOE)."}
+  - {ref: 4, topic: vocab, text: "筋骨 kin-kut = muscles and bones, one's body: the title is the MOE example 傷久無運動，筋骨攏生鉎去矣 'after too long without exercise, my body has rusted up'. 生鉎 senn-sian = rust. 甜粿 = New Year sweet rice cake."}
+  - {ref: 5, topic: vocab, text: "伸跤 tshun-kha = stretch one's legs. 腰骨 io-kut = lower back. 扭 ngiú = twist (the body): 扭來扭去 'wriggle about' (MOE)."}
+  - {ref: 6, topic: vocab, text: "姿勢 tsu-sè = posture. 正確 tsìng-khak = correct. 向 ànn = bend forward (the same character as 向 hiòng 'towards', 進修 29). 拍歹 phah-pháinn = damage, ruin: 你按呢講會拍歹雙方的感情 'talk like that and you'll spoil things between them' (MOE)."}
+  - {ref: 8, topic: vocab, text: "復健 ho̍k-kiān = rehabilitation, physiotherapy. 治療 tī-liâu = treat; treatment: 肺癆著愛長期的治療 'tuberculosis needs long treatment' (MOE)."}
+  - {ref: 9, topic: vocab, text: "相借問 sio-tsioh-mn̄g = greet each other, say hello: 見著人愛相借問，才有禮貌 'say hello to people you meet: that's good manners' (MOE)."}
+  - {ref: 10, topic: vocab, text: "速度 sok-tōo = speed, pace. 勻勻仔 = steadily (lesson 29)."}
+  - {ref: 11, topic: vocab, text: "白鶴 pe̍h-ho̍h = egret (literally 'white crane'). 開闊 khui-khuah = wide, open: 心肝開闊 'open-minded' (MOE)."}
+  - {ref: 12, topic: vocab, text: "景色 kíng-sik = scenery, view: 日月潭的景色袂䆀 'the scenery at Sun Moon Lake is lovely' (MOE)."}
+  - {ref: 14, topic: vocab, text: "跤目 kha-ba̍k = ankle: 臺灣錢淹跤目 'in Taiwan money comes up to your ankles', the 1980s saying about the economic boom (MOE)."}
+  - {ref: 15, topic: vocab, text: "扭 láu = sprain, twist (a joint): 跤骨扭著 'sprain an ankle' (MOE). Compare 扭 ngiú 'twist' in line 5: same character, two readings. 好佳哉 = luckily (lesson 33)."}
+  - {ref: 16, topic: vocab, text: "球鞋 kiû-ê = trainers, sports shoes. 跤底 kha-té = sole (of the foot or shoe). 鞋 ê = shoe. 磨平 = worn flat (磨, 進修 26)."}
+  - {ref: 19, topic: vocab, text: "冰敷 ping hu = put ice on. 營養 îng-ióng = nourishment, nutrition."}
+  - {ref: 21, topic: vocab, text: "規律 kui-lu̍t = regularity, discipline. 捷捷 tsia̍p-tsia̍p = often: 伊最近捷捷來 'he comes a lot these days' (MOE)."}
+  - {ref: 22, topic: vocab, text: "聯絡 liân-lo̍k = contact, get in touch: 請你佮伊聯絡一下 'please get in touch with him' (MOE)."}
+  - {ref: 23, topic: vocab, text: "交換 kau-uānn = exchange, swap. 排隊 = queue."}
+  - {ref: 24, topic: vocab, text: "清閒 tshing-îng = relaxed, at leisure: 伊這站仔足清閒的 'she's got plenty of free time these days' (MOE)."}
+  - {ref: 26, topic: vocab, text: "三不五時 sam-put-gōo-sî = every so often, now and then: 伊三不五時就來阮兜行踏 'she drops by our place every so often' (MOE)."}
+new_words:
+  - {tailo: huē-uân, hanji: 會員, en: "member (of a club)"}
+  - {tailo: siāu-kài, hanji: 紹介, en: "introduce"}
+  - {tailo: siā-thuân, hanji: 社團, en: "club, association"}
+  - {tailo: hô-pinn, hanji: 河邊, en: "riverside"}
+  - {tailo: pîng-siông-sî, hanji: 平常時, en: "normally, usually"}
+  - {tailo: kin-kut, hanji: 筋骨, en: "muscles and bones; one's body"}
+  - {tailo: senn-sian, hanji: 生鉎, en: "rust"}
+  - {tailo: tinn-kué, hanji: 甜粿, en: "New Year sweet rice cake"}
+  - {tailo: tshun-kha, hanji: 伸跤, en: "stretch one's legs"}
+  - {tailo: io-kut, hanji: 腰骨, en: "lower back"}
+  - {tailo: ngiú, hanji: 扭, en: "twist (the body); sprain"}
+  - {tailo: ti̍t, hanji: 直, en: "straight"}
+  - {tailo: tsu-sè, hanji: 姿勢, en: "posture"}
+  - {tailo: tsìng-khak, hanji: 正確, en: "correct"}
+  - {tailo: phah-pháinn, hanji: 拍歹, en: "damage, ruin"}
+  - {tailo: ho̍k-kiān, hanji: 復健, en: "rehabilitation, physiotherapy"}
+  - {tailo: tī-liâu, hanji: 治療, en: "treat; treatment"}
+  - {tailo: sio-tsioh-mn̄g, hanji: 相借問, en: "greet each other"}
+  - {tailo: sok-tōo, hanji: 速度, en: "speed, pace"}
+  - {tailo: hô, hanji: 河, en: "river"}
+  - {tailo: pe̍h-ho̍h, hanji: 白鶴, en: "egret"}
+  - {tailo: khui-khuah, hanji: 開闊, en: "wide, open"}
+  - {tailo: kíng-sik, hanji: 景色, en: "scenery, view"}
+  - {tailo: kha-ba̍k, hanji: 跤目, en: "ankle"}
+  - {tailo: iông-ī, hanji: 容易, en: "easy; easily"}
+  - {tailo: kiû-ê, hanji: 球鞋, en: "trainers, sports shoes"}
+  - {tailo: kha-té, hanji: 跤底, en: "sole"}
+  - {tailo: ê, hanji: 鞋, en: "shoe"}
+  - {tailo: tò-tńg--khì, hanji: 倒轉去, en: "go back home"}
+  - {tailo: hu, hanji: 敷, en: "apply (ice, a compress)"}
+  - {tailo: îng-ióng, hanji: 營養, en: "nourishment, nutrition"}
+  - {tailo: kui-lu̍t, hanji: 規律, en: "regularity, discipline"}
+  - {tailo: tsia̍p-tsia̍p, hanji: 捷捷, en: "often"}
+  - {tailo: liân-lo̍k, hanji: 聯絡, en: "contact, get in touch"}
+  - {tailo: pēnn-lâng, hanji: 病人, en: "patient"}
+  - {tailo: kau-uānn, hanji: 交換, en: "exchange, swap"}
+  - {tailo: tshing-îng, hanji: 清閒, en: "relaxed, at leisure"}
+  - {tailo: sǹg-sī, hanji: 算是, en: "count as"}
+  - {tailo: sam-put-gōo-sî, hanji: 三不五時, en: "every so often"}
+exercises:
+  translate:
+    - {tailo: "Lán tsit ê siā-thuân ta̍k lé-pài-la̍k tsá-khí tī hô-pinn tsáu.", hanji: "咱這个社團逐禮拜六早起佇河邊走。", en: "Our club runs along the river every Saturday morning."}
+    - {tailo: "Lí ê tsu-sè bô tsìng-khak.", hanji: "你的姿勢無正確。", en: "Your posture isn't right."}
+    - {tailo: "Tsáu-pio ê sî, nā ē-tàng kóng-uē, sok-tōo tō tú-hó.", hanji: "走標的時，若會當講話，速度就拄好。", en: "When you run, if you can still talk, the pace is right."}
+    - {tailo: "Ê nā bô hó, kha-ba̍k tō iông-ī láu--tio̍h.", hanji: "鞋若無好，跤目就容易扭著。", en: "If your shoes aren't good, you twist your ankle easily."}
+    - {tailo: "Ē-sái--ah, lán kau-uānn tiān-uē.", hanji: "會使啊，咱交換電話。", en: "Sure, let's swap numbers."}
+    - {tailo: "Pîng-siông-sî guá ài tsò kang, kan-na lé-pài-la̍k ē-tàng tī hô-pinn tsáu, hit-tsūn sǹg-sī khah tshing-îng.", hanji: "平常時我愛做工，干焦禮拜六會當佇河邊走，彼陣算是較清閒。", en: "During the week I work; only on Saturdays can I run by the river, and that's when I have a bit more free time."}
+    - {tailo: "Buē tsáu-pio í-tsîng ài sing tshun-kha, koh kā io-kut ngiú hōo khui, tsiah bē khì phah-pháinn kha-ba̍k.", hanji: "未走標以前愛先伸跤，閣共腰骨扭予開，才袂去拍歹跤目。", en: "Before a race you should stretch your legs and loosen up your back, so you don't injure your ankle."}
+  fill:
+    - {tailo: "Lí ___ ū teh ūn-tōng--bô?", hanji: "你___有咧運動無？", answer: "pîng-siông-sî", answer_hanji: "平常時", en: "Do you exercise normally?"}
+    - {tailo: "Kin-kut lóng ___--khì--ah.", hanji: "筋骨攏___去矣。", answer: "senn-sian", answer_hanji: "生鉎", en: "My joints have rusted up."}
+    - {tailo: "Siù-lân kìnn-tio̍h lâng lóng ē ___.", hanji: "秀蘭見著人攏會___。", answer: "sio-tsioh-mn̄g", answer_hanji: "相借問", en: "Siù-lân always says hello to everyone."}
+    - {tailo: "Liān tsáu ài ū ___.", hanji: "練走愛有___。", answer: "kui-lu̍t", answer_hanji: "規律", en: "Training needs regularity."}
+    - {tailo: "Guá koh ū būn-tê ê sî, kám ē-sái kah lí ___?", hanji: "我閣有問題的時，敢會使佮你___？", answer: "liân-lo̍k", answer_hanji: "聯絡", en: "If I have more questions, could I get in touch with you?"}
+    - {tailo: "Siù-lân kā Sam kóng, kiû-ê nā bô hó, kha-té tō ___ thiànn, kha-ba̍k mā khah ē phah-pháinn.", hanji: "秀蘭共Sam講，球鞋若無好，跤底就___疼，跤目嘛較會拍歹。", answer: "iông-ī", answer_hanji: "容易", en: "Siù-lân told Sam that if your trainers aren't good, the soles of your feet hurt easily and you're more likely to hurt your ankle."}
+audio: []

@@ -1,7 +1,7 @@
 # Part 2: 進修 Tsìn-siu (Perfectionnement), spec and handover
 
-State on 27 Oct 2026: **P1–P35 are published** (P15–P35 on 27 Oct). Next batch: P36–P42 (P42 = review). P36 starts
-the second wave (it redoes P1 in active mode; see 'Size' below).
+State on 28 Oct 2026: **P1–P49 are published** (P36–P49 on 28 Oct). Next batch: P50–P56 (P56 = review).
+The second wave started at P36 (see 'Size' below).
 
 ## Batch 1 (P1–P7)
 | # | genre | title | new words | lines |
@@ -138,6 +138,36 @@ Facts kept general on purpose: P31 gives no years except where certain (common s
 the end of classical Chinese teaching and the punishments for speaking Taigi are told as family memories.
 刑事 is used for 'police detective' (Japanese 刑事 keiji); the MOE gives only the legal sense, as the note says.
 Song lessons naturally carry fewer new words (31 in P32).
+
+## Batch 6 (P36–P42)
+| # | genre | title | new words | lines |
+|---|---|---|---|---|
+| P36 | dialogue | 筋骨攏生鉎去矣 (Sam joins a running club by the Tamsui; meets Siù-lân 秀蘭, a physiotherapist; twisted ankle; they swap numbers) | 39 | 26 |
+| P37 | document | 租厝的契約 (A-ióng and Siok-tsing's lease from Mrs Ông, with Siok-tsing's and A-ióng's notes in the margin) | 44 | 23 |
+| P38 | tale | 虎姑婆 (the tiger aunt) | 35 | 27 |
+| P39 | interview | 藥補不如食補 (Siù-lân's grandfather Mr N̂g, Chinese doctor, interviewed by Hūi-hūi) | 31 | 27 |
+| P40 | letter | 阿公跋倒 (A-má's letter, written by A-bîng: A-kong's fall, hip operation, wheelchair) | 29 | 24 |
+| P41 | play | 耳機 (Sam's first night-market date with Siù-lân; A-ióng coaches him through an earphone) | 34 | 33 |
+| P42 | review | 復習 (summer in Tainan: Sam brings Siù-lân to meet A-kong and A-má) | 0 | 27 |
+
+## Batch 7 (P43–P49)
+| # | genre | title | new words | lines |
+|---|---|---|---|---|
+| P43 | essay | 出山彼工 (magazine column: a grandmother's funeral in Chiayi and how funerals are changing) | 42 | 22 |
+| P44 | speech | 會使去投稿矣 (Hūi-hūi, 16, wins first prize with her essay 〈火金蛄的光〉) | 30 | 26 |
+| P45 | dialogue | 𠢕眩船的人愛食眩船藥仔 (ferry from Pòo-tē to Má-king, Penghu; A-ióng seasick; dolphins) | 28 | 26 |
+| P46 | document | 澎湖三日的行程 (A-ióng's itinerary for Penghu, with tips) | 36 | 21 |
+| P47 | story | 林投姊 (Tainan ghost story, A-kong's version) | 23 | 25 |
+| P48 | interview | 轉去作田 (radio interview: Bîng-tsì 明志, A-kia̍t's cousin, ex-engineer turned organic rice farmer near Chiayi) | 30 | 25 |
+| P49 | review | 復習 (October harvest at Bîng-tsì's farm; Penghu tans, Hūi-hūi's next essay, Sister Pandanus, the funeral) | 0 | 27 |
+
+Each lesson has the 3 extra exercise sentences (`tools/exercises.py`), as before.
+Story threads now: Sam and Siù-lân are dating and A-kong approves (P41, P42); A-kong broke his hip in early summer and
+walks with a stick (P40); A-ióng and Siok-tsing rent a flat from Mrs Ông with their three cats (P37); Hūi-hūi won a
+writing prize (P44) and is writing about Bîng-tsì's farm (P49); the four friends went to Penghu in late July (P45, P46);
+A-bîng has a daughter. Sam's Lukang race time in P24 (58 min) is a placeholder until the real race on 15 Nov.
+New-word counts dipped in this batch (23–44, mean 33); aim back at about 40 in P50–P56.
+Words used undeclared in core lessons and declared here (倒反 P44, 頭拄仔 P45, 響 P47) were kept as new words, since they had no card before.
 
 ## Lessons 22–49 were lengthened (27 Oct 2026)
 122 frequent words that no lesson had used are now taught in lessons 22–49 (`docs/lessons-22-49-lengthening.md`

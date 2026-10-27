@@ -1,0 +1,110 @@
+id: 43
+title: {en: "The day of the funeral", tailo: "Tshut-suann hit kang", hanji: "出山彼工"}
+genre: essay
+review: false
+setting: "A column from a Taigi magazine. The writer looks back on his grandmother's funeral in a village in Chiayi, and on how Taiwanese funerals are changing. The text is original to this course."
+dialogue:
+  - {n: 1, hanji: "阮阿媽舊年冬天過身，享壽九十二歲。", tailo: "Guán a-má kū-nî tang-thinn kuè-sin, hióng-siū káu-tsa̍p-jī huè.", en: "My grandmother passed away last winter, at the age of ninety-two."}
+  - {n: 2, hanji: "伊的喪事，照庄裡的傳統辦，前後辦二十外工。", tailo: "I ê song-sū, tsiàu tsng--lí ê thuân-thóng pān, tsîng-āu pān jī-tsa̍p-guā kang.", en: "Her funeral was held according to village tradition, and went on for more than twenty days in all."}
+  - {n: 3, hanji: "伊的棺柴囥佇厝內的廳，阮規家伙仔輪流守佇邊仔，暝日攏有人。", tailo: "I ê kuann-tshâ khǹg tī tshù-lāi ê thiann, guán kui-ke-hué-á lûn-liû tsiú tī pinn-á, mê-ji̍t lóng ū lâng.", en: "Her coffin was placed in the main room of the house, and the whole family took turns keeping watch beside it, day and night."}
+  - {n: 4, hanji: "阮老爸是孝男，伊佮阮阿叔攏穿麻衫，帶孝四十九工。", tailo: "Guán lāu-pē sī hàu-lâm, i kah guán a-tsik lóng tshīng muâ-sann, tuà-hà sì-tsa̍p-káu kang.", en: "My father was the chief mourner; he and my uncle wore hemp mourning clothes and kept mourning for forty-nine days."}
+  - {n: 5, hanji: "逐七工，司公就來誦經，講是欲幫阿媽的靈魂行過陰間的路。", tailo: "Ta̍k tshit kang, sai-kong tō lâi siōng-king, kóng sī beh pang a-má ê lîng-hûn kiânn kuè im-kan ê lōo.", en: "Every seven days the Taoist priest came to chant scriptures, to help Grandmother's soul along the road through the underworld, he said."}
+  - {n: 6, hanji: "人講，人死了後，愛去見閻羅王。好人上天堂，歹人落地獄，閣有人會投胎轉世。", tailo: "Lâng kóng, lâng sí liáu-āu, ài khì kìnn Giâm-lô-ông. Hó-lâng tsiūnn thian-tông, pháinn-lâng lo̍h tē-ga̍k, koh ū lâng ē tâu-thai tsuán-sè.", en: "They say that after death you go before the King of Hell. Good people go to heaven, bad people go to hell, and some are reborn."}
+  - {n: 7, hanji: "伊在生的時陣做真濟好代，死了後一定會上天堂。", tailo: "I tsāi-senn ê sî-tsūn tsò tsin tsē hó tāi, sí liáu-āu it-tīng ē tsiūnn thian-tông.", en: "She did a lot of good in her lifetime; after her death she's sure to go to heaven.", source: moe}
+  - {n: 8, hanji: "厝邊頭尾來送白包，阮共𪜶的名一个一个寫落來，以後人兜有喪事，阮嘛愛去還。這就是人情世事。", tailo: "Tshù-pinn-thâu-bué lâi sàng pe̍h-pau, guán kā in ê miâ tsi̍t ê tsi̍t ê siá--lo̍h-lâi, í-āu lâng tau ū song-sū, guán mā ài khì hîng. Tse tō sī jîn-tsîng sè-sū.", en: "The neighbours came with white envelopes of condolence money; we wrote down every name, because when they have a death in the family, we must go and return the gift. That's what social obligation means."}
+  - {n: 9, hanji: "出山彼工，透早就有樂隊佇門口埕歕鼓吹，閣有一台花車，聲音大甲規庄頭攏聽會著。", tailo: "Tshut-suann hit kang, thàu-tsá tō ū ga̍k-tuī tī mn̂g-kháu-tiânn pûn kóo-tshue, koh ū tsi̍t tâi hue-tshia, siann-im tuā kah kui tsng-thâu lóng thiann ē tio̍h.", en: "On the day of the funeral procession, from early morning a band was playing the suona in the front yard, and there was a decorated truck so loud the whole village could hear it."}
+  - {n: 10, hanji: "閣有一个牽亡的阿姨，用哀怨的歌聲，替阿媽講伊欲共囝孫講的話。", tailo: "Koh ū tsi̍t ê khan-bông ê a-î, iōng ai-uàn ê kua-siann, thè a-má kóng i beh kā kiánn-sun kóng ê uē.", en: "There was also a woman who 'leads the dead', who sang, in a mournful voice, what Grandmother wanted to say to her descendants."}
+  - {n: 11, hanji: "阮細漢的小妹聽甲目屎流目屎滴，阮老爸嘛哭甲袂停。", tailo: "Guán sè-hàn ê sió-muē thiann kah ba̍k-sái lâu ba̍k-sái tih, guán lāu-pē mā khàu kah bē thîng.", en: "My little sister listened with tears streaming down her face, and my father couldn't stop crying either."}
+  - {n: 12, hanji: "伊講，伊細漢的時真毋捌代誌，定定予阿媽受氣，伊感覺家己真不孝。", tailo: "I kóng, i sè-hàn ê sî tsin m̄ bat tāi-tsì, tiānn-tiānn hōo a-má siū-khì, i kám-kak ka-kī tsin put-hàu.", en: "He said that as a child he'd been thoughtless and often made Grandmother angry, and he felt he'd been a bad son."}
+  - {n: 13, hanji: "上尾，阮佇墓仔埔燒真濟紙錢佮銀紙，講是欲予阿媽佇彼爿用。", tailo: "Siōng-bué, guán tī bōng-á-poo sio tsin tsē tsuá-tsînn kah gîn-tsuá, kóng sī beh hōo a-má tī hit pîng iōng.", en: "Finally, at the cemetery, we burned piles of spirit money, so that Grandmother would have something to spend on the other side."}
+  - {n: 14, hanji: "這馬，阿媽的神主牌仔囥佇阮兜的公媽桌頂，香爐的煙逐工攏無斷。", tailo: "Tsit-má, a-má ê sîn-tsú-pâi-á khǹg tī guán tau ê kong-má-toh tíng, hiunn-lôo ê ian ta̍k kang lóng bô tn̄g.", en: "Now Grandmother's spirit tablet stands on our ancestral altar, and the incense in the burner never goes out."}
+  - {n: 15, hanji: "毋過，這幾年來，喪事的形式改變真濟。", tailo: "M̄-koh, tsit kuí nî lâi, song-sū ê hîng-sik kái-piàn tsin tsē.", en: "But in recent years, the form of funerals has changed a great deal."}
+  - {n: 16, hanji: "城市的人，大部份攏佇殯儀館辦，三工就辦好勢，嘛較少請司公佮道士。", tailo: "Siânn-tshī ê lâng, tuā-pōo-hūn lóng tī pin-gî-kuán pān, sann kang tō pān hó-sè, mā khah tsió tshiánn sai-kong kah tō-sū.", en: "In the cities most people hold funerals at a funeral home; it's all done in three days, and fewer people call in Taoist priests."}
+  - {n: 17, hanji: "為著環保，政府嘛鼓勵逐家少燒銀紙，有的人改捐錢做好代。", tailo: "Uī-tio̍h khuân-pó, tsìng-hú mā kóo-lē ta̍k-ke tsió sio gîn-tsuá, ū--ê lâng kái kuan tsînn tsò hó tāi.", en: "For the environment, the government also encourages people to burn less spirit money, and some donate money to good causes instead."}
+  - {n: 18, hanji: "有的老歲仔講，按呢傷簡化，對祖先無夠尊重。有的少年人講，彼是世俗的表面，毋是真心。", tailo: "Ū--ê lāu-huè-á kóng, án-ne siunn kán-huà, tuì tsóo-sian bô kàu tsun-tiōng. Ū--ê siàu-liân-lâng kóng, he sī sè-sio̍k ê piáu-bīn, m̄ sī tsin-sim.", en: "Some old people say this simplifies things too much and isn't respectful enough to the ancestors. Some young people say all that is worldly show, not true feeling."}
+  - {n: 19, hanji: "我想，兩爿攏有道理。形式毋是上要緊，毋過形式嘛會共心內的悲哀表現出來。", tailo: "Guá siūnn, nn̄g pîng lóng ū tō-lí. Hîng-sik m̄ sī siōng iàu-kín, m̄-koh hîng-sik mā ē kā sim-lāi ê pi-ai piáu-hiān--tshut-lâi.", en: "I think both sides have a point. Form isn't what matters most, but form can also express the grief we feel inside."}
+  - {n: 20, hanji: "做人愛知輕重：阿媽在生的時，咱有加陪伊無？這比出山的時燒偌濟銀紙較要緊。", tailo: "Tsò-lâng ài tsai khin-tāng: a-má tsāi-senn ê sî, lán ū ke puê--i--bô? Tse pí tshut-suann ê sî sio guā tsē gîn-tsuá khah iàu-kín.", en: "We must keep a sense of what really counts: did we spend enough time with Grandmother while she was alive? That matters more than how much spirit money we burned at the funeral."}
+  - {n: 21, hanji: "今年清明，阮全家轉去培墓。阮查某囝共阿祖的墓前的草挽予清氣。", tailo: "Kin-nî Tshing-bîng, guán tsuân ke tńg-khì puē-bōng. Guán tsa-bóo-kiánn kā a-tsóo ê bōng-tsîng ê tsháu bán hōo tshing-khì.", en: "This year at Qingming, the whole family went back to tend the grave. My daughter pulled up the weeds in front of her great-grandmother's grave."}
+  - {n: 22, hanji: "伊問我：「阿祖佇天堂敢看會著阮？」我講：「你若會記得伊，伊就看會著。」", tailo: "I mn̄g guá: “A-tsóo tī thian-tông kám khuànn ē tio̍h guán?” Guá kóng: “Lí nā ē kì--tit i, i tō khuànn ē tio̍h.”", en: "She asked me: 'Can Great-grandma see us from heaven?' I said: 'If you remember her, she can.'"}
+notes:
+  - {ref: 1, topic: vocab, text: "過身 = pass away (進修 21's 'polite' word for dying). 享壽 hióng-siū = live to the age of (said of the dead, respectful; a written word)."}
+  - {ref: 2, topic: vocab, text: "喪事 song-sū = funeral, a death in the family. 傳統 thuân-thóng = tradition. 前後 = in all, from start to finish."}
+  - {ref: 3, topic: culture, text: "棺柴 kuann-tshâ = coffin. 廳 = main room. 守 tsiú = keep watch. Traditionally the coffin stays at home until the procession."}
+  - {ref: 4, topic: culture, text: "孝男 hàu-lâm = son in mourning, chief mourner: 孝男、孝女愛分開徛佇兩爿 'the sons and daughters in mourning stand on either side' (MOE). 麻衫 muâ-sann = hemp mourning clothes. 帶孝 tuà-hà = be in mourning."}
+  - {ref: 5, topic: culture, text: "司公 sai-kong = Taoist priest (for rituals); 道士 tō-sū is a synonym (line 16). 誦經 siōng-king = chant scriptures. 靈魂 lîng-hûn = soul. 陰間 im-kan = the underworld. Rites are held every seven days for forty-nine days."}
+  - {ref: 6, topic: vocab, text: "閻羅王 Giâm-lô-ông = Yama, King of Hell. 天堂 thian-tông = heaven. 地獄 tē-ga̍k = hell. 投胎 tâu-thai = be reborn; 轉世 tsuán-sè = reincarnation: 投胎轉世 (MOE)."}
+  - {ref: 7, topic: vocab, text: "An exact MOE example. 在生 tsāi-senn = while alive. 好代 = good deeds."}
+  - {ref: 8, topic: culture, text: "白包 pe̍h-pau = white envelope of condolence money (the opposite of the red envelope). 還 hîng = return, give back. 人情世事 = social obligations (世事, 進修 29)."}
+  - {ref: 9, topic: culture, text: "出山 tshut-suann = funeral procession ('go out to the hills', where graves were): 王的後日欲出山 'Ông's funeral is the day after tomorrow' (MOE). 樂隊 ga̍k-tuī = band. 門口埕 = front yard. 歕 pûn = blow. 鼓吹 kóo-tshue = suona, the shrill reed horn of weddings and funerals. 花車 hue-tshia = decorated truck."}
+  - {ref: 10, topic: culture, text: "牽亡 khan-bông = 'leading the dead': a spirit medium who sings in the voice of the dead: 你敢捌看人咧牽亡？ (MOE). 哀怨 ai-uàn = mournful, plaintive (進修 32 has the MOE example)."}
+  - {ref: 11, topic: vocab, text: "目屎流目屎滴 = tears streaming down."}
+  - {ref: 12, topic: vocab, text: "毋捌代誌 = thoughtless, immature. 不孝 put-hàu = unfilial: 伊真不孝 (MOE)."}
+  - {ref: 13, topic: culture, text: "墓仔埔 = cemetery. 紙錢 tsuá-tsînn and 銀紙 gîn-tsuá = spirit money, burned for the dead. 彼爿 = the other side."}
+  - {ref: 14, topic: culture, text: "神主牌仔 sîn-tsú-pâi-á = ancestral (spirit) tablet. 公媽桌 = ancestral altar (公媽, 進修 2). 香爐 hiunn-lôo = incense burner."}
+  - {ref: 15, topic: vocab, text: "形式 hîng-sik = form, formality."}
+  - {ref: 16, topic: vocab, text: "殯儀館 pin-gî-kuán = funeral home. 好勢 = done, settled."}
+  - {ref: 17, topic: vocab, text: "環保 khuân-pó = environmental protection. 鼓勵 = encourage (進修 15). 捐 kuan = donate."}
+  - {ref: 18, topic: vocab, text: "簡化 kán-huà = simplify. 尊重 = respect (lesson 88). 世俗 sè-sio̍k = worldly, conventional. 表面 piáu-bīn = surface, show."}
+  - {ref: 19, topic: vocab, text: "悲哀 pi-ai = grief, sorrow. 表現 = express (進修 41)."}
+  - {ref: 20, topic: vocab, text: "輕重 khin-tāng = what matters and what doesn't: 你誠毋知輕重 'you have no sense of what matters' (MOE)."}
+  - {ref: 21, topic: culture, text: "清明 Tshing-bîng = Qingming, the tomb-sweeping festival in early April. 培墓 puē-bōng = tend the family graves: 清明愛培墓 (MOE). 挽草 = pull up weeds (lesson 40)."}
+new_words:
+  - {tailo: song-sū, hanji: 喪事, en: "funeral"}
+  - {tailo: thuân-thóng, hanji: 傳統, en: "tradition"}
+  - {tailo: kuann-tshâ, hanji: 棺柴, en: "coffin"}
+  - {tailo: tsiú, hanji: 守, en: "keep watch, guard"}
+  - {tailo: hàu-lâm, hanji: 孝男, en: "son in mourning"}
+  - {tailo: muâ-sann, hanji: 麻衫, en: "hemp mourning clothes"}
+  - {tailo: tuà-hà, hanji: 帶孝, en: "be in mourning"}
+  - {tailo: sai-kong, hanji: 司公, en: "Taoist priest"}
+  - {tailo: siōng-king, hanji: 誦經, en: "chant scriptures"}
+  - {tailo: lîng-hûn, hanji: 靈魂, en: "soul"}
+  - {tailo: im-kan, hanji: 陰間, en: "the underworld"}
+  - {tailo: Giâm-lô-ông, hanji: 閻羅王, en: "Yama, King of Hell"}
+  - {tailo: thian-tông, hanji: 天堂, en: "heaven"}
+  - {tailo: tē-ga̍k, hanji: 地獄, en: "hell"}
+  - {tailo: tâu-thai, hanji: 投胎, en: "be reborn"}
+  - {tailo: tsuán-sè, hanji: 轉世, en: "reincarnation"}
+  - {tailo: tsāi-senn, hanji: 在生, en: "while alive"}
+  - {tailo: hó-tāi, hanji: 好代, en: "good deed"}
+  - {tailo: pe̍h-pau, hanji: 白包, en: "condolence money envelope"}
+  - {tailo: tshut-suann, hanji: 出山, en: "funeral procession"}
+  - {tailo: ga̍k-tuī, hanji: 樂隊, en: "band"}
+  - {tailo: kóo-tshue, hanji: 鼓吹, en: "suona (reed horn)"}
+  - {tailo: hue-tshia, hanji: 花車, en: "decorated truck"}
+  - {tailo: khan-bông, hanji: 牽亡, en: "'lead the dead' (medium ritual)"}
+  - {tailo: ai-uàn, hanji: 哀怨, en: "mournful, plaintive"}
+  - {tailo: put-hàu, hanji: 不孝, en: "unfilial"}
+  - {tailo: tsuá-tsînn, hanji: 紙錢, en: "spirit money"}
+  - {tailo: gîn-tsuá, hanji: 銀紙, en: "spirit money"}
+  - {tailo: sîn-tsú-pâi-á, hanji: 神主牌仔, en: "ancestral tablet"}
+  - {tailo: hiunn-lôo, hanji: 香爐, en: "incense burner"}
+  - {tailo: hîng-sik, hanji: 形式, en: "form, formality"}
+  - {tailo: pin-gî-kuán, hanji: 殯儀館, en: "funeral home"}
+  - {tailo: tō-sū, hanji: 道士, en: "Taoist priest"}
+  - {tailo: khuân-pó, hanji: 環保, en: "environmental protection"}
+  - {tailo: kuan, hanji: 捐, en: "donate"}
+  - {tailo: kán-huà, hanji: 簡化, en: "simplify"}
+  - {tailo: sè-sio̍k, hanji: 世俗, en: "worldly, conventional"}
+  - {tailo: piáu-bīn, hanji: 表面, en: "surface, show"}
+  - {tailo: pi-ai, hanji: 悲哀, en: "grief, sorrow"}
+  - {tailo: khin-tāng, hanji: 輕重, en: "what matters and what doesn't"}
+  - {tailo: Tshing-bîng, hanji: 清明, en: "Qingming (tomb-sweeping festival)"}
+  - {tailo: puē-bōng, hanji: 培墓, en: "tend the family graves"}
+exercises:
+  translate:
+    - {tailo: "Guán a-má kū-nî tang-thinn kuè-sin.", hanji: "阮阿媽舊年冬天過身。", en: "My grandmother passed away last winter."}
+    - {tailo: "Ta̍k tshit kang, sai-kong tō lâi siōng-king.", hanji: "逐七工，司公就來誦經。", en: "Every seven days the Taoist priest came to chant scriptures."}
+    - {tailo: "Tsit kuí nî lâi, song-sū ê hîng-sik kái-piàn tsin tsē.", hanji: "這幾年來，喪事的形式改變真濟。", en: "In recent years, the form of funerals has changed a great deal."}
+    - {tailo: "Tsò-lâng ài tsai khin-tāng.", hanji: "做人愛知輕重。", en: "We must keep a sense of what really counts."}
+    - {tailo: "Kin-nî Tshing-bîng, guán tsuân ke tńg-khì puē-bōng.", hanji: "今年清明，阮全家轉去培墓。", en: "This year at Qingming, the whole family went back to tend the grave."}
+    - {tailo: "Tsāi-senn ê sî tuì pē-bú hó, pí in sí liáu tsiah tsò tuā song-sū, sio tsuá-tsînn, koh khàu kah tsiah-nī tuā-siann khah iàu-kín.", hanji: "在生的時對爸母好，比𪜶死了才做大喪事、燒紙錢、閣哭甲遮爾大聲較要緊。", en: "Being good to your parents while they're alive matters more than a grand funeral, spirit money and loud wailing after they're dead."}
+    - {tailo: "Tshut-suann hit kang, ga̍k-tuī pûn kóo-tshue, hàu-lâm tshīng muâ-sann tuè tī kuann-tshâ āu-piah, tsi̍t lōo kiânn kàu suann-tíng.", hanji: "出山彼工，樂隊歕鼓吹，孝男穿麻衫綴佇棺柴後壁，一路行到山頂。", en: "On the day of the funeral procession the band played the suona, and the sons in hemp mourning clothes walked behind the coffin all the way up the hill."}
+  fill:
+    - {tailo: "Guán lāu-pē sī ___, tuà-hà sì-tsa̍p-káu kang.", hanji: "阮老爸是___，帶孝四十九工。", answer: "hàu-lâm", answer_hanji: "孝男", en: "My father was the chief mourner and kept mourning for forty-nine days."}
+    - {tailo: "Tshù-pinn-thâu-bué lâi sàng ___.", hanji: "厝邊頭尾來送___。", answer: "pe̍h-pau", answer_hanji: "白包", en: "The neighbours came with condolence envelopes."}
+    - {tailo: "___ hit kang, thàu-tsá tō ū ga̍k-tuī.", hanji: "___彼工，透早就有樂隊。", answer: "Tshut-suann", answer_hanji: "出山", en: "On the day of the funeral procession, there was a band from early morning."}
+    - {tailo: "Uī-tio̍h ___, tsìng-hú kóo-lē ta̍k-ke tsió sio gîn-tsuá.", hanji: "為著___，政府鼓勵逐家少燒銀紙。", answer: "khuân-pó", answer_hanji: "環保", en: "For the environment, the government encourages people to burn less spirit money."}
+    - {tailo: "Hîng-sik mā ē kā sim-lāi ê ___ piáu-hiān--tshut-lâi.", hanji: "形式嘛會共心內的___表現出來。", answer: "pi-ai", answer_hanji: "悲哀", en: "Form can also express the grief we feel inside."}
+    - {tailo: "Tsit-má tsin tsē lâng tī pin-gî-kuán tsò song-sū, mā bô sio tsuá-tsînn, sī uī-tio̍h ___.", hanji: "這馬真濟人佇殯儀館做喪事，嘛無燒紙錢，是為著___。", answer: "khuân-pó", answer_hanji: "環保", en: "Nowadays many people hold funerals at a funeral home and don't burn spirit money, for the sake of the environment."}
+audio: []

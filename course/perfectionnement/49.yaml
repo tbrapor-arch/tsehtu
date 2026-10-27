@@ -1,0 +1,59 @@
+id: 49
+title: {en: "Review 7", tailo: "Ho̍k-si̍p", hanji: "復習"}
+genre: review
+review: true
+setting: "October, harvest time near Chiayi. Hūi-hūi wants to write about Bîng-tsì's organic farm, so A-kia̍t brings her along, with Sam, Siù-lân, A-ióng and Siok-tsing, back from Penghu with tans and souvenirs. Everything comes from 進修 43–48."
+dialogue:
+  - {n: 1, speaker: Bîng-tsì, hanji: "歡迎逐家來阮的田！恁來的時間拄拄好，今仔日欲收割。", tailo: "Huan-gîng ta̍k-ke lâi guán ê tshân! Lín lâi ê sî-kan tú-tú-hó, kin-á-ji̍t beh siu-kuah.", en: "Welcome to our fields, everyone! You've come at just the right time: we're harvesting today."}
+  - {n: 2, speaker: Hūi-hūi, hanji: "明志兄，阮坐車來的時，規路攏是稻仔，風吹過，若像海湧咧。", tailo: "Bîng-tsì-hiann, guán tsē-tshia lâi ê sî, kui lōo lóng sī tiū-á, hong tshue--kuè, ná-tshiūnn hái-íng--leh.", en: "Bîng-tsì, the whole way here in the car there was nothing but rice, and when the wind blew over it, it was like waves."}
+  - {n: 3, speaker: A-ióng, hanji: "這个是阮去澎湖買的名產，鹹酸甜，請你食。伴手較細，你莫棄嫌。", tailo: "Tsit-ê sī gún khì Phênn-ôo bé ê bîng-sán, kiâm-sng-tinn, tshiánn lí tsia̍h. Phuānn-tshiú khah sè, lí mài khì-hiâm.", en: "Here's a local speciality we bought in Penghu, preserved fruit: please have some. It's only a small present, I hope you don't mind."}
+  - {n: 4, speaker: Bîng-tsì, hanji: "多謝！聽講恁坐渡船的時，有人眩船眩甲欲死欲活？", tailo: "To-siā! Thiann-kóng lín tsē tōo-tsûn ê sî, ū lâng hîn-tsûn hîn kah beh-sí-beh-ua̍h?", en: "Thank you! I hear someone was desperately seasick on the ferry?"}
+  - {n: 5, speaker: Siok-tsing, hanji: "就是伊啦！阿勇嘔甲面攏青去，閣講伊頂擺坐船攏無代誌。", tailo: "Tō sī i--lah! A-ióng áu kah bīn lóng tshenn--khì, koh kóng i tíng-pái tsē tsûn lóng bô tāi-tsì.", en: "That was him! A-ióng threw up till he went green, after telling us he'd been fine on the boat last time."}
+  - {n: 6, speaker: A-ióng, hanji: "毋過阮佇船尾看著海豬咧游泳，彼陣我就袂眩矣。", tailo: "M̄-koh gún tī tsûn-bué khuànn-tio̍h hái-ti teh iû-íng, hit-tsūn guá tō bē hîn--ah.", en: "But then we saw dolphins swimming off the stern, and after that I wasn't seasick any more."}
+  - {n: 7, speaker: Sam, hanji: "阮照阿勇排的行程行，去天后宮，食蚵仔麵線，暗時佇海沙埔看夕陽。", tailo: "Guán tsiàu A-ióng pâi ê hîng-tîng kiânn: khì Thian-hiō-kiong, tsia̍h ô-á-mī-suànn, àm-sî tī hái-sua-poo khuànn si̍k-iông.", en: "We followed A-ióng's itinerary: the Tianhou Temple, oyster vermicelli, and sunsets on the beach in the evening."}
+  - {n: 8, speaker: Siù-lân, hanji: "澎湖的日頭真毒，阮兩个攏曝甲烏趖趖，到今猶未白轉來。", tailo: "Phênn-ôo ê ji̍t-thâu tsin to̍k, guán nn̄g ê lóng pha̍k kah oo-sô-sô, kàu-tann iáu-buē pe̍h--tńg-lâi.", en: "The sun in Penghu is fierce: we both got burnt brown, and we still haven't gone pale again."}
+  - {n: 9, speaker: Bîng-tsì, hanji: "好，咱來去田裡。恁看，這台機器一下仔就共規个田收割了矣。", tailo: "Hó, lán lâi-khì tshân--lí. Lín khuànn, tsit tâi ki-khì tsi̍t-ē-á tō kā kui ê tshân siu-kuah liáu--ah.", en: "Right, let's go into the fields. Look: this machine harvests the whole field in no time."}
+  - {n: 10, speaker: Hūi-hūi, hanji: "古早的作田人敢毋是攏用手收割？", tailo: "Kóo-tsá ê tsoh-tshân-lâng kám m̄ sī lóng iōng tshiú siu-kuah?", en: "Didn't farmers in the old days harvest everything by hand?"}
+  - {n: 11, speaker: Bîng-tsì, hanji: "著。阮阿公講，古早厝內逐家攏愛去田裡，囡仔嘛愛鬥相共，粟仔閣愛曝日。", tailo: "Tio̍h. Guán a-kong kóng, kóo-tsá tshù-lāi ta̍k-ke lóng ài khì tshân--lí, gín-á mā ài tàu-sann-kāng, tshik-á koh ài pha̍k-ji̍t.", en: "Yes. My grandfather says that in the old days the whole household had to go out to the fields, the children had to help too, and the grain had to be dried in the sun."}
+  - {n: 12, speaker: Siok-tsing, hanji: "恁阿公咧？今仔日敢有來？", tailo: "Lín a-kong--leh? Kin-á-ji̍t kám ū lâi?", en: "Where's your grandfather? Has he come today?"}
+  - {n: 13, speaker: Bîng-tsì, hanji: "伊騎跤踏車來矣。恁看，伊閣咧巡田，看啥物攏無順眼。", tailo: "I khiâ kha-ta̍h-tshia lâi--ah. Lín khuànn, i koh teh sûn tshân, khuànn siánn-mih lóng bô sūn-gán.", en: "He's come on his bike. Look, he's inspecting the fields again, and nothing is to his liking."}
+  - {n: 14, speaker: Hūi-hūi, hanji: "明志兄，我想欲共恁阿公佮恁的田寫做一篇散文，閣去投稿。敢會使？", tailo: "Bîng-tsì-hiann, guá siūnn-beh kā lín a-kong kah lín ê tshân siá tsò tsi̍t phinn suànn-bûn, koh khì tâu-kó. Kám ē-sái?", en: "Bîng-tsì, I'd like to write an essay about your grandfather and your fields and send it in to a magazine. Would that be all right?"}
+  - {n: 15, speaker: Bîng-tsì, hanji: "當然會使！阿傑講你得著頭獎，伊佇頒獎典禮嘛感覺真光榮。", tailo: "Tong-jiân ē-sái! A-kia̍t kóng lí tit-tio̍h thâu-tsióng, i tī pan-tsióng tián-lé mā kám-kak tsin kong-îng.", en: "Of course! A-kia̍t says you won first prize, and he felt proud too at the prize-giving."}
+  - {n: 16, speaker: Hūi-hūi, hanji: "我的老師講，好的文章毋是靠靈感，是靠真實的細節。所以我愛親身來看。", tailo: "Guá ê lāu-su kóng, hó ê bûn-tsiong m̄ sī khò lîng-kám, sī khò tsin-si̍t ê sè-tsiat. Sóo-í guá ài tshin-sin lâi khuànn.", en: "My teacher says good writing doesn't depend on inspiration but on real details. So I have to come and see for myself."}
+  - {n: 17, speaker: Bîng-tsì, hanji: "按呢你愛記錄田蛤仔、鴨母佮白鶴。阮無用化學肥料，生態真好。", tailo: "Án-ne lí ài kì-lo̍k tshân-kap-á, ah-bó kah pe̍h-ho̍h. Guán bô iōng huà-ha̍k puî-liāu, sing-thài tsin hó.", en: "Then you must write down the frogs, the ducks and the egrets. We don't use chemical fertiliser, so the ecosystem is in good shape."}
+  - {n: 18, speaker: Sam, hanji: "明志，我嘛想欲辭頭路來作田，你感覺按怎？", tailo: "Bîng-tsì, guá mā siūnn-beh sî thâu-lōo lâi tsoh-tshân, lí kám-kak án-tsuánn?", en: "Bîng-tsì, I'd like to quit my job and come and farm too. What do you think?"}
+  - {n: 19, speaker: Bîng-tsì, hanji: "作田毋是浪漫的代誌。你愛先學佈田，閣愛會曉看天氣，風颱一下來，粟仔就損失規半。", tailo: "Tsoh-tshân m̄ sī lōng-bān ê tāi-tsì. Lí ài sing o̍h pòo-tshân, koh ài ē-hiáu khuànn thinn-khì; hong-thai tsi̍t-ē lâi, tshik-á tō sún-sit kui-puànn.", en: "Farming isn't romantic. First you'd have to learn to plant out rice, and you'd need to know how to read the weather: one typhoon and you lose half the crop."}
+  - {n: 20, speaker: Siù-lân, hanji: "伊騎跤踏車都騎甲歪來歪去，閣欲作田？", tailo: "I khiâ kha-ta̍h-tshia to khiâ kah uai-lâi-uai-khì, koh beh tsoh-tshân?", en: "He can't even ride a bike in a straight line, and he wants to farm?"}
+  - {n: 21, speaker: Bîng-tsì, hanji: "來，食飯矣！這个是今年收割的米，有機的。", tailo: "Lâi, tsia̍h-pn̄g--ah! Tsit-ê sī kin-nî siu-kuah ê bí, iú-ki--ê.", en: "Come on, time to eat! This is rice from this year's harvest: organic."}
+  - {n: 22, speaker: A-ióng, hanji: "真芳！比都市買的較佮喙。", tailo: "Tsin phang! Pí too-tshī bé--ê khah kah-tshuì.", en: "It smells wonderful! Much tastier than what you buy in the city."}
+  - {n: 23, speaker: Sam, hanji: "暗時遮的田蛤仔叫甲遮爾大聲。阿公頂擺講的林投姊，敢會佇遮？", tailo: "Àm-sî tsia ê tshân-kap-á kiò kah tsiah-nī tuā-siann. A-kong tíng-pái kóng ê Nâ-tâu-tsí, kám ē tī tsia?", en: "The frogs here are so loud at night. That Sister Pandanus A-kong told us about last time: could she be around here?"}
+  - {n: 24, speaker: Siù-lân, hanji: "莫講！自從聽阿公講林投姊的傳說，我暗時看著林投就驚。", tailo: "Mài kóng! Tsū-tsiông thiann a-kong kóng Nâ-tâu-tsí ê thuân-suat, guá àm-sî khuànn-tio̍h nâ-tâu tō kiann.", en: "Don't! Ever since A-kong told us the legend of Sister Pandanus, I'm scared whenever I see pandanus at night."}
+  - {n: 25, speaker: Bîng-tsì, hanji: "免驚。阮阿媽講，在生做好代，就毋免驚鬼仔。伊過身的時，阮照伊的意思，喪事攏簡化，白包嘛攏捐出去。", tailo: "Bián kiann. Guán a-má kóng, tsāi-senn tsò hó-tāi, tō m̄-bián kiann kuí-á. I kuè-sin ê sî, guán tsiàu i ê ì-sù, song-sū lóng kán-huà, pe̍h-pau mā lóng kuan--tshut-khì.", en: "Don't be scared. My grandmother used to say that if you do good while you're alive, you've no need to fear ghosts. When she died, we did as she wished: we kept the funeral simple and gave all the condolence money away."}
+  - {n: 26, speaker: Hūi-hūi, hanji: "按呢真好。我讀過一篇文章，講喪事上要緊的毋是形式，是在生的時對老大人好。", tailo: "Án-ne tsin hó. Guá tha̍k-kuè tsi̍t phinn bûn-tsiong, kóng song-sū siōng iàu-kín--ê m̄ sī hîng-sik, sī tsāi-senn ê sî tuì lāu-tuā-lâng hó.", en: "That's lovely. I once read an article saying that what matters most in a funeral isn't the formalities: it's being good to the old while they're alive."}
+  - {n: 27, speaker: Bîng-tsì, hanji: "著。土地嘛是按呢，你對伊好，伊就對你好。來，閣食一碗！", tailo: "Tio̍h. Thóo-tē mā sī án-ne: lí tuì i hó, i tō tuì lí hó. Lâi, koh tsia̍h tsi̍t uánn!", en: "Exactly. The land is the same: treat it well and it treats you well. Come on, have another bowl!"}
+notes:
+  - {ref: 4, topic: vocab, text: "The Penghu crossing (進修 45): 眩船, 欲死欲活, 嘔, 頂擺, 船尾, 海豬, 游泳, 鹹酸甜, 佮喙."}
+  - {ref: 7, topic: vocab, text: "The itinerary (進修 46): 行程, 渡船, 天后宮, 蚵仔麵線, 海沙埔, 夕陽, 名產, 伴手, 毒, 烏趖趖."}
+  - {ref: 9, topic: vocab, text: "The organic farmer (進修 48): 收割, 作田人, 粟仔, 跤踏車, 順眼, 化學, 肥料, 生態, 田蛤仔, 鴨母, 辭頭路, 佈田, 有機."}
+  - {ref: 14, topic: vocab, text: "The prize-giving speech (進修 44): 散文, 投稿, 頭獎, 頒獎, 典禮, 光榮, 靈感, 真實, 細節, 親身, 記錄."}
+  - {ref: 20, topic: grammar, text: "歪來歪去 'wobbling all over the place': 歪 (進修 48) in the V來V去 pattern, like 行來行去 'walk up and down'."}
+  - {ref: 24, topic: vocab, text: "The ghost story (進修 47): 林投, 傳說, 鬼仔."}
+  - {ref: 25, topic: vocab, text: "The funeral column (進修 43): 在生, 好代, 喪事, 簡化, 白包, 捐, 形式."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Guán tsiàu A-ióng pâi ê hîng-tîng kiânn.", hanji: "阮照阿勇排的行程行。", en: "We followed A-ióng's itinerary."}
+    - {tailo: "Phênn-ôo ê ji̍t-thâu tsin to̍k.", hanji: "澎湖的日頭真毒。", en: "The sun in Penghu is fierce."}
+    - {tailo: "Hó ê bûn-tsiong m̄ sī khò lîng-kám, sī khò tsin-si̍t ê sè-tsiat.", hanji: "好的文章毋是靠靈感，是靠真實的細節。", en: "Good writing doesn't depend on inspiration but on real details."}
+    - {tailo: "Guán bô iōng huà-ha̍k puî-liāu, sing-thài tsin hó.", hanji: "阮無用化學肥料，生態真好。", en: "We don't use chemical fertiliser, so the ecosystem is in good shape."}
+    - {tailo: "Tsāi-senn tsò hó-tāi, tō m̄-bián kiann kuí-á.", hanji: "在生做好代，就毋免驚鬼仔。", en: "If you do good while you're alive, you've no need to fear ghosts."}
+    - {tailo: "Sam kóng i beh sî thâu-lōo lâi tsoh-tshân, Siù-lân tō tshiò i liân kha-ta̍h-tshia to khiâ bē hó.", hanji: "Sam講伊欲辭頭路來作田，秀蘭就笑伊連跤踏車都騎袂好。", en: "Sam said he'd quit his job and come and farm, and Siù-lân laughed that he couldn't even ride a bike properly."}
+    - {tailo: "Hūi-hūi siūnn-beh kā Bîng-tsì ê tshân siá tsò suànn-bûn, sóo-í i tshin-sin khì tshân--lí kì-lo̍k tshân-kap-á kah ah-bó.", hanji: "惠惠想欲共明志的田寫做散文，所以伊親身去田裡記錄田蛤仔佮鴨母。", en: "Hūi-hūi wants to write an essay about Bîng-tsì's fields, so she went there in person to note down the frogs and ducks."}
+  fill:
+    - {tailo: "Lín lâi ê sî-kan tú-tú-hó, kin-á-ji̍t beh ___.", hanji: "恁來的時間拄拄好，今仔日欲___。", answer: "siu-kuah", answer_hanji: "收割", en: "You've come at just the right time: we're harvesting today."}
+    - {tailo: "Ū lâng hîn-tsûn hîn kah ___?", hanji: "有人眩船眩甲___？", answer: "beh-sí-beh-ua̍h", answer_hanji: "欲死欲活", en: "Someone was desperately seasick?"}
+    - {tailo: "Guá siūnn-beh siá tsò tsi̍t phinn suànn-bûn, koh khì ___.", hanji: "我想欲寫做一篇散文，閣去___。", answer: "tâu-kó", answer_hanji: "投稿", en: "I'd like to write it up as an essay and send it in."}
+    - {tailo: "I koh teh sûn tshân, khuànn siánn-mih lóng bô ___.", hanji: "伊閣咧巡田，看啥物攏無___。", answer: "sūn-gán", answer_hanji: "順眼", en: "He's inspecting the fields again, and nothing is to his liking."}
+    - {tailo: "Song-sū siōng iàu-kín--ê m̄ sī ___.", hanji: "喪事上要緊的毋是___。", answer: "hîng-sik", answer_hanji: "形式", en: "What matters most in a funeral isn't the formalities."}
+    - {tailo: "Bîng-tsì ê a-má kuè-sin ê sî, song-sū lóng ___, pe̍h-pau mā kuan--tshut-khì.", hanji: "明志的阿媽過身的時，喪事攏___，白包嘛捐出去。", answer: "kán-huà", answer_hanji: "簡化", en: "When Bîng-tsì's grandmother died, the funeral was kept simple and the condolence money was given away."}
+audio: []

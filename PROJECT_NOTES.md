@@ -7,7 +7,7 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 - **Lessons 22–49 lengthened** on 27 Oct 2026 (smoother length curve, 122 never-taught words): handover in `docs/lessons-22-49-lengthening.md`, curve in `course/pacing.md`.
 - **Lessons:** all 100 written (`course/lessons/`), following `course/syllabus.yaml`. Lesson 0 is
   `000-reading-tailo.md`. Review lessons: 7, 14, …, 98.
-- **Part 2, 進修 Perfectionnement** (in progress): 70 longer lessons in varied genres, P1–P35 published. Spec, method and handover: `docs/perfectionnement-plan.md`.
+- **Part 2, 進修 Perfectionnement** (in progress): 70 longer lessons in varied genres, P1–P49 published. Spec, method and handover: `docs/perfectionnement-plan.md`.
 - **Themes:** seven domains done: `people` (242 words), `health` (Body and health, 212), `food` (128), `home` (160), `clothing` (49), `nature` (281), `places` (233); draft domain for every core word in `docs/themes-classification-draft.tsv`. The Themes part of Practice is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
 - **Coverage** (after lesson 100): top 100: 100 %, top 300: 97 %, top 1,000: 88 % (72 % after 63). The plan's 95 % target for the top 1,000 was not reached. Plan for lessons 64–100: `docs/course-plan.md`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).

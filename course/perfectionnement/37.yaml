@@ -1,0 +1,112 @@
+id: 37
+title: {en: "Black on white: the lease", tailo: "Tsoo tshù ê khè-iok", hanji: "租厝的契約"}
+genre: document
+review: false
+setting: "A-ióng and Siok-tsing have found a flat to rent after the wedding. This is the lease from the landlady, Mrs Ông, with the notes Siok-tsing wrote in the margin for A-ióng. The text is original to this course."
+dialogue:
+  - {n: 1, hanji: "租厝契約", tailo: "Tsoo tshù khè-iok", en: "Lease"}
+  - {n: 2, hanji: "厝主王太太佮租厝的人阿勇、淑貞，雙方同意，簽這張合約。", tailo: "Tshù-tsú Ông thài-thài kah tsoo tshù ê lâng A-ióng, Siok-tsing, siang-hong tông-ì, tshiam tsit tiunn ha̍p-iok.", en: "The landlady, Mrs Ông, and the tenants, A-ióng and Siok-tsing, by mutual agreement sign this contract."}
+  - {n: 3, hanji: "第一條：租期一年，對五月初一到明年四月三十。", tailo: "Tē-it tiâu: tsoo-kî tsi̍t nî, uì gōo-gue̍h tshe-it kàu mê-nî sì-gue̍h sann-tsa̍p.", en: "Article 1: the lease runs for one year, from 1 May to 30 April next year."}
+  - {n: 4, hanji: "第二條：租金一个月兩萬箍，逐月月初用匯款納。", tailo: "Tē-jī tiâu: tsoo-kim tsi̍t ê gue̍h nn̄g-bān khoo, ta̍k gue̍h gue̍h-tshe iōng huē-khuán la̍p.", en: "Article 2: the rent is twenty thousand a month, paid by bank transfer at the start of each month."}
+  - {n: 5, hanji: "淑貞寫：阿勇，莫閣袂記得。這是咱的義務，毋是厝主的好意。", tailo: "Siok-tsing siá: A-ióng, mài koh bē-kì-tit. Tse sī lán ê gī-bū, m̄ sī tshù-tsú ê hó-ì.", en: "Siok-tsing writes: A-ióng, don't forget again. This is our obligation, not a favour from the landlady."}
+  - {n: 6, hanji: "第三條：簽約的時，租厝的人愛先納兩個月的租金做押金。契約了，厝若無拍歹，押金全部退還。", tailo: "Tē-sann tiâu: tshiam-iok ê sî, tsoo tshù ê lâng ài sing la̍p nn̄g kò gue̍h ê tsoo-kim tsò ah-kim. Khè-iok liáu, tshù nā bô phah-pháinn, ah-kim tsuân-pōo thè-hîng.", en: "Article 3: on signing, the tenants pay two months' rent as a deposit. At the end of the lease, if the flat is undamaged, the whole deposit is returned."}
+  - {n: 7, hanji: "第四條：水費、電費由租厝的人本身負責。公共的樓梯佮電梯，由厝主負責。", tailo: "Tē-sì tiâu: tsuí-huì, tiān-huì iû tsoo tshù ê lâng pún-sin hū-tsik. Kong-kiōng ê lâu-thui kah tiān-thui, iû tshù-tsú hū-tsik.", en: "Article 4: water and electricity are the tenants' own responsibility. The communal stairs and lift are the landlady's responsibility."}
+  - {n: 8, hanji: "第五條：厝內的家具，包括眠床、桌櫃佮冰箱，攏由厝主提供。", tailo: "Tē-gōo tiâu: tshù-lāi ê ka-kū, pau-kuat bîn-tshn̂g, toh-kuī kah ping-siunn, lóng iû tshù-tsú thê-kiong.", en: "Article 5: the furniture, including the bed, the chest of drawers and the fridge, is provided by the landlady."}
+  - {n: 9, hanji: "第六條：家具若是因為用久自然歹去，由厝主修理；若是租厝的人拍歹，愛照價錢賠償。", tailo: "Tē-la̍k tiâu: ka-kū nā-sī in-uī iōng kú tsū-jiân pháinn--khì, iû tshù-tsú siu-lí; nā-sī tsoo tshù ê lâng phah-pháinn, ài tsiàu kè-tsînn puê-siông.", en: "Article 6: if furniture wears out through normal use, the landlady repairs it; if the tenants damage it, they pay compensation at its value."}
+  - {n: 10, hanji: "淑貞寫：你頂禮拜坐斷我的椅仔，這條你愛特別注意。", tailo: "Siok-tsing siá: lí tíng lé-pài tsē tn̄g guá ê í-á, tsit tiâu lí ài ti̍k-pia̍t tsù-ì.", en: "Siok-tsing writes: you broke my chair last week by sitting on it. Pay special attention to this one."}
+  - {n: 11, hanji: "第七條：厝內一概袂使食薰，嘛袂使佇壁頂鑽空。", tailo: "Tē-tshit tiâu: tshù-lāi it-khài bē-sái tsia̍h-hun, mā bē-sái tī piah-tíng tsǹg khang.", en: "Article 7: no smoking anywhere in the flat, and no drilling holes in the walls."}
+  - {n: 12, hanji: "第八條：飼寵物，愛先向厝主申請。厝主同意，才會使飼。", tailo: "Tē-peh tiâu: tshī thióng-bu̍t, ài sing hiòng tshù-tsú sin-tshíng. Tshù-tsú tông-ì, tsiah ē-sái tshī.", en: "Article 8: tenants must apply to the landlady before keeping a pet, and may do so only with her consent."}
+  - {n: 13, hanji: "淑貞寫：咱有三隻貓！看房間的時，你哪會無提出來？", tailo: "Siok-tsing siá: lán ū sann tsiah niau! Khuànn pâng-king ê sî, lí ná ē bô thê--tshut-lâi?", en: "Siok-tsing writes: we have three cats! Why didn't you mention them when we viewed the flat?"}
+  - {n: 14, hanji: "阿勇寫：我有講！厝主講，貓仔若有禮貌，伊無意見。", tailo: "A-ióng siá: guá ū kóng! Tshù-tsú kóng, niau-á nā ū lé-māu, i bô ì-kiàn.", en: "A-ióng writes: I did! The landlady said that if the cats have good manners, she doesn't mind."}
+  - {n: 15, hanji: "淑貞寫：「頭家」有禮貌？你閣去問一擺，愛寫佇契約內底，白紙寫烏字，較穩當。", tailo: "Siok-tsing siá: “Thâu-ke” ū lé-māu? Lí koh khì mn̄g tsi̍t pái, ài siá tī khè-iok lāi-té, pe̍h-tsuá siá oo-jī, khah ún-tàng.", en: "Siok-tsing writes: 'Boss', good manners? Go and ask again. It has to be in the lease, black on white: that's safer."}
+  - {n: 16, hanji: "第九條：租厝的人若欲提早搬走，至少愛一個月前通知厝主。若無，押金一部份袂退還。", tailo: "Tē-káu tiâu: tsoo tshù ê lâng nā beh thê-tsá puann-tsáu, tsì-tsió ài tsi̍t kò gue̍h tsîng thong-ti tshù-tsú. Nā-bô, ah-kim tsi̍t pōo-hūn bē thè-hîng.", en: "Article 9: if the tenants wish to move out early, they must give the landlady at least one month's notice. Otherwise, part of the deposit will not be returned."}
+  - {n: 17, hanji: "第十條：雙方若有一方違反契約，愛負責對方的損失，這就是違約。", tailo: "Tē-tsa̍p tiâu: siang-hong nā ū tsi̍t hong uî-huán khè-iok, ài hū-tsik tuì-hong ê sún-sit, tse tō sī uî-iok.", en: "Article 10: if either party breaks this contract, it must make good the other's losses; this is a breach of contract."}
+  - {n: 18, hanji: "第十一條：其他契約內底無寫著的代誌，雙方好好仔參詳，揣一个妥當的辦法。", tailo: "Tē-tsa̍p-it tiâu: kî-thann khè-iok lāi-té bô siá--tio̍h ê tāi-tsì, siang-hong hó-hó-á tsham-siông, tshuē tsi̍t ê thò-tòng ê pān-huat.", en: "Article 11: anything not covered by this contract will be discussed in good faith by both parties to find a suitable solution."}
+  - {n: 19, hanji: "契約寫兩份，正本厝主保留，影印的副本交予租厝的人。", tailo: "Khè-iok siá nn̄g hūn, tsiànn-pún tshù-tsú pó-liû, iánn-ìn ê hù-pún kau hōo tsoo tshù ê lâng.", en: "This contract is drawn up in duplicate: the landlady keeps the original, and a photocopy is given to the tenants."}
+  - {n: 20, hanji: "淑貞寫：阿勇，簽名進前，愛共內容頭尾看予明瞭。主要的條件，我已經畫紅線矣。", tailo: "Siok-tsing siá: A-ióng, tshiam-miâ tsìn-tsîng, ài kā luē-iông thâu-bué khuànn hōo bîng-liâu. Tsú-iàu ê tiâu-kiānn, guá í-king uē âng suànn--ah.", en: "Siok-tsing writes: A-ióng, before you sign, read the whole thing through until you understand it. I've underlined the main conditions in red."}
+  - {n: 21, hanji: "阿勇寫：遮濟條，比我寫予恁老爸的批閣較長。", tailo: "A-ióng siá: tsiah tsē tiâu, pí guá siá hōo lín lāu-pē ê phue koh-khah tn̂g.", en: "A-ióng writes: so many articles, it's longer than my letter to your father."}
+  - {n: 22, hanji: "淑貞寫：彼張批你寫三工，這張契約你看三分鐘就欲簽？", tailo: "Siok-tsing siá: hit tiunn phue lí siá sann kang, tsit tiunn khè-iok lí khuànn sann hun-tsing tō beh tshiam?", en: "Siok-tsing writes: you spent three days writing that letter, and you want to sign this contract after three minutes?"}
+  - {n: 23, hanji: "厝主：王太太　租厝的人：阿勇、淑貞　民國一百十五年四月二十日", tailo: "Tshù-tsú: Ông thài-thài. Tsoo tshù ê lâng: A-ióng, Siok-tsing. Bîn-kok it-pah tsa̍p-gōo nî sì-gue̍h jī-tsa̍p ji̍t.", en: "Landlady: Mrs Ông. Tenants: A-ióng, Siok-tsing. 20 April, year 115 of the Republic (2026)."}
+notes:
+  - {ref: 1, topic: vocab, text: "契約 khè-iok = contract; 租厝契約 'lease'. 租 tsoo = rent (verb): 租厝 'rent a flat'."}
+  - {ref: 2, topic: vocab, text: "厝主 = landlord, landlady (lesson 27). 太太 = Mrs (lesson 35). 雙方 siang-hong = both parties; 雙方講和 'the two sides make peace' (MOE). 同意 = agree. 簽 tshiam = sign. 合約 ha̍p-iok = contract (a synonym of 契約)."}
+  - {ref: 3, topic: vocab, text: "條 = article (of a contract). 租期 tsoo-kî = term of the lease."}
+  - {ref: 4, topic: vocab, text: "租金 tsoo-kim = rent (the money; 厝稅 in everyday speech, 進修 27). 月初 gue̍h-tshe = start of the month. 匯款 huē-khuán = bank transfer."}
+  - {ref: 5, topic: vocab, text: "義務 gī-bū = duty, obligation: 納稅是國民的義務 'paying taxes is a citizen's duty' (MOE)."}
+  - {ref: 6, topic: vocab, text: "簽約 tshiam-iok = sign a contract. 押金 ah-kim = deposit (押 ah = pledge). 全部 tsuân-pōo = all, whole: 這擺的損失，全部由我賠償 'I'll pay for all the damage this time' (MOE). 退還 thè-hîng = return, refund."}
+  - {ref: 7, topic: vocab, text: "水費 tsuí-huì = water bill; 電費 tiān-huì = electricity bill. 本身 pún-sin = oneself: 你本身嘛愛檢討 'you need to look at yourself too' (MOE). 負責 hū-tsik = be responsible for. 公共 kong-kiōng = public, communal."}
+  - {ref: 8, topic: vocab, text: "家具 ka-kū = furniture. 包括 pau-kuat = include. 桌櫃 toh-kuī = chest of drawers. 提供 thê-kiong = provide: 所有的物件攏由我提供 'I'll provide everything' (MOE)."}
+  - {ref: 9, topic: vocab, text: "自然 = naturally. 修理 = repair. 賠償 puê-siông = pay compensation."}
+  - {ref: 10, topic: vocab, text: "特別 = especially. 注意 = pay attention to."}
+  - {ref: 11, topic: vocab, text: "一概 it-khài = without exception, entirely: 眾人的意見伊一概反對 'he opposed everyone's views without exception' (MOE). 鑽空 tsǹg khang = drill a hole."}
+  - {ref: 12, topic: vocab, text: "寵物 thióng-bu̍t = pet. 申請 sin-tshíng = apply (for permission): 成績無夠，袂當申請獎學金 'with grades like that you can't apply for a scholarship' (MOE). 向 = to (進修 29)."}
+  - {ref: 13, topic: vocab, text: "房間 pâng-king = room. 提出 thê-tshut = raise, put forward: 你若欲告伊，愛提出證據 'if you want to sue him, you'll need evidence' (MOE)."}
+  - {ref: 15, topic: culture, text: "白紙寫烏字 pe̍h-tsuá siá oo-jī 'black characters on white paper' = in writing, binding. 穩當 ún-tàng = safe, reliable; certain(ly): 看這个範勢，今仔日穩當會落雨 'the way it looks, it's sure to rain today' (MOE)."}
+  - {ref: 16, topic: vocab, text: "提早 = early (lesson 48). 部份 pōo-hūn = part; 一部份 'a part'."}
+  - {ref: 17, topic: vocab, text: "違反 uî-huán = break, violate. 損失 = loss. 違約 uî-iok = breach of contract."}
+  - {ref: 18, topic: vocab, text: "其他 kî-thann = other: 其他的代誌我來處理 'I'll deal with everything else' (MOE). 參詳 = discuss. 妥當 thò-tòng = suitable, proper: 代誌交予伊處理穩妥當的 'leave it to her, it'll be done properly' (MOE). 辦法 pān-huat = way, solution."}
+  - {ref: 19, topic: vocab, text: "正本 tsiànn-pún = original (document). 保留 pó-liû = keep, retain. 影印 iánn-ìn = photocopy: 毋免抄啦，提去影印較緊 'don't copy it out, photocopying is quicker' (MOE). 副本 hù-pún = copy."}
+  - {ref: 20, topic: vocab, text: "簽名 tshiam-miâ = sign one's name. 內容 luē-iông = content(s). 頭尾 thâu-bué = from start to finish; the whole story: 你毋知頭尾毋通烏白講話 'don't talk when you don't know the whole story' (MOE). 明瞭 bîng-liâu = understand clearly. 主要 tsú-iàu = main. 條件 tiâu-kiānn = condition. 畫紅線 = underline in red."}
+  - {ref: 23, topic: culture, text: "民國 Bîn-kok = the Republic (of China) calendar, still used in Taiwanese official documents: year 1 = 1912, so 115 = 2026."}
+new_words:
+  - {tailo: khè-iok, hanji: 契約, en: "contract"}
+  - {tailo: tsoo, hanji: 租, en: "rent"}
+  - {tailo: siang-hong, hanji: 雙方, en: "both parties"}
+  - {tailo: tshiam, hanji: 簽, en: "sign"}
+  - {tailo: ha̍p-iok, hanji: 合約, en: "contract"}
+  - {tailo: tsoo-kim, hanji: 租金, en: "rent (money)"}
+  - {tailo: gue̍h-tshe, hanji: 月初, en: "start of the month"}
+  - {tailo: huē-khuán, hanji: 匯款, en: "bank transfer"}
+  - {tailo: gī-bū, hanji: 義務, en: "duty, obligation"}
+  - {tailo: tshiam iok, hanji: 簽約, en: "sign a contract"}
+  - {tailo: tsuân-pōo, hanji: 全部, en: "all, whole"}
+  - {tailo: thè-hîng, hanji: 退還, en: "return, refund"}
+  - {tailo: pún-sin, hanji: 本身, en: "oneself, itself"}
+  - {tailo: tsuí-huì, hanji: 水費, en: "water bill"}
+  - {tailo: hū-tsik, hanji: 負責, en: "be responsible for"}
+  - {tailo: kong-kiōng, hanji: 公共, en: "public, communal"}
+  - {tailo: ka-kū, hanji: 家具, en: "furniture"}
+  - {tailo: pau-kuat, hanji: 包括, en: "include"}
+  - {tailo: toh-kuī, hanji: 桌櫃, en: "chest of drawers"}
+  - {tailo: ping-siunn, hanji: 冰箱, en: "fridge"}
+  - {tailo: thê-kiong, hanji: 提供, en: "provide"}
+  - {tailo: puê-siông, hanji: 賠償, en: "pay compensation"}
+  - {tailo: ti̍k-pia̍t, hanji: 特別, en: "special; especially"}
+  - {tailo: it-khài, hanji: 一概, en: "without exception, entirely"}
+  - {tailo: tsǹg, hanji: 鑽, en: "drill"}
+  - {tailo: thióng-bu̍t, hanji: 寵物, en: "pet"}
+  - {tailo: sin-tshíng, hanji: 申請, en: "apply (for)"}
+  - {tailo: thê-tshut, hanji: 提出, en: "raise, put forward"}
+  - {tailo: ún-tàng, hanji: 穩當, en: "safe, reliable; certainly"}
+  - {tailo: pōo-hūn, hanji: 部份, en: "part"}
+  - {tailo: uî-huán, hanji: 違反, en: "break, violate"}
+  - {tailo: uî-iok, hanji: 違約, en: "breach of contract"}
+  - {tailo: kî-thann, hanji: 其他, en: "other"}
+  - {tailo: thò-tòng, hanji: 妥當, en: "suitable, proper"}
+  - {tailo: pān-huat, hanji: 辦法, en: "way, solution"}
+  - {tailo: tsiànn-pún, hanji: 正本, en: "original (document)"}
+  - {tailo: pó-liû, hanji: 保留, en: "keep, retain"}
+  - {tailo: iánn-ìn, hanji: 影印, en: "photocopy"}
+  - {tailo: hù-pún, hanji: 副本, en: "copy"}
+  - {tailo: luē-iông, hanji: 內容, en: "content(s)"}
+  - {tailo: thâu-bué, hanji: 頭尾, en: "from start to finish"}
+  - {tailo: bîng-liâu, hanji: 明瞭, en: "understand clearly"}
+  - {tailo: tsú-iàu, hanji: 主要, en: "main"}
+  - {tailo: Bîn-kok, hanji: 民國, en: "Republic (of China) calendar"}
+exercises:
+  translate:
+    - {tailo: "Siang-hong tông-ì, tshiam tsit tiunn ha̍p-iok.", hanji: "雙方同意，簽這張合約。", en: "By mutual agreement, both parties sign this contract."}
+    - {tailo: "Tsuí-huì, tiān-huì iû tsoo tshù ê lâng pún-sin hū-tsik.", hanji: "水費、電費由租厝的人本身負責。", en: "Water and electricity are the tenants' own responsibility."}
+    - {tailo: "Tshù-lāi it-khài bē-sái tsia̍h-hun.", hanji: "厝內一概袂使食薰。", en: "No smoking anywhere in the flat."}
+    - {tailo: "Ài siá tī khè-iok lāi-té, khah ún-tàng.", hanji: "愛寫佇契約內底，較穩當。", en: "It has to be in the lease: that's safer."}
+    - {tailo: "Tshiam-miâ tsìn-tsîng, ài kā luē-iông khuànn hōo bîng-liâu.", hanji: "簽名進前，愛共內容看予明瞭。", en: "Before you sign, read the contents until you understand them."}
+    - {tailo: "Tsoo-kim ta̍k kò gue̍h gue̍h-tshe huē-khuán, tsuí-huì kah tiān-huì lóng sī tsoo ê lâng pún-sin hū-tsik.", hanji: "租金逐個月月初匯款，水費佮電費攏是租的人本身負責。", en: "The rent is paid by transfer at the start of each month; water and electricity are the tenant's own responsibility."}
+    - {tailo: "Ka-kū nā phah-pháinn tō ài puê-siông; tshù-lāi nā beh tsǹg khang, ài sing sin-tshíng.", hanji: "家具若拍歹就愛賠償；厝內若欲鑽空，愛先申請。", en: "If the furniture gets damaged it must be paid for; if you want to drill holes in the flat, you must ask first."}
+  fill:
+    - {tailo: "Tse sī lán ê ___, m̄ sī tshù-tsú ê hó-ì.", hanji: "這是咱的___，毋是厝主的好意。", answer: "gī-bū", answer_hanji: "義務", en: "This is our obligation, not a favour from the landlady."}
+    - {tailo: "Tshù nā bô phah-pháinn, ah-kim tsuân-pōo ___.", hanji: "厝若無拍歹，押金全部___。", answer: "thè-hîng", answer_hanji: "退還", en: "If the flat is undamaged, the whole deposit is returned."}
+    - {tailo: "Tshī thióng-bu̍t, ài sing hiòng tshù-tsú ___.", hanji: "飼寵物，愛先向厝主___。", answer: "sin-tshíng", answer_hanji: "申請", en: "Tenants must apply to the landlady before keeping a pet."}
+    - {tailo: "Siang-hong nā ū tsi̍t hong ___ khè-iok, ài hū-tsik tuì-hong ê sún-sit.", hanji: "雙方若有一方___契約，愛負責對方的損失。", answer: "uî-huán", answer_hanji: "違反", en: "If either party breaks the contract, it must make good the other's losses."}
+    - {tailo: "Tshuē tsi̍t ê thò-tòng ê ___.", hanji: "揣一个妥當的___。", answer: "pān-huat", answer_hanji: "辦法", en: "Find a suitable solution."}
+    - {tailo: "Tsit hūn khè-iok ê luē-iông lín ài thâu-bué khuànn hōo ___, nā ū būn-tê tō sing mn̄g, tsiah tshiam iok.", hanji: "這份契約的內容恁愛頭尾看予___，若有問題就先問，才簽約。", answer: "bîng-liâu", answer_hanji: "明瞭", en: "You must read this lease through until it's all clear, ask first if anything's unclear, and only then sign."}
+audio: []

@@ -1,0 +1,99 @@
+id: 44
+title: {en: "Your essay is good enough to submit", tailo: "Ē-sái khì tâu-kó--ah", hanji: "會使去投稿矣"}
+genre: speech
+review: false
+setting: "Hūi-hūi (16) has won first prize in the secondary-school section of a Taigi writing competition, with an essay called 'The fireflies' light'. At the prize-giving ceremony she gives a short speech. A-tshun and Sam are in the audience."
+dialogue:
+  - {n: 1, speaker: Hūi-hūi, hanji: "各位評審、各位老師、各位貴賓，逐家好。", tailo: "Kok-uī phîng-sím, kok-uī lāu-su, kok-uī kuì-pin, ta̍k-ke hó.", en: "Members of the jury, teachers, distinguished guests, good afternoon."}
+  - {n: 2, speaker: Hūi-hūi, hanji: "我是惠惠，今年十六歲。今仔日會當徛佇這个頒獎典禮的台頂，我感覺真光榮，嘛真榮幸。", tailo: "Guá sī Hūi-hūi, kin-nî tsa̍p-la̍k huè. Kin-á-ji̍t ē-tàng khiā tī tsit ê pan-tsióng tián-lé ê tâi-tíng, guá kám-kak tsin kong-îng, mā tsin îng-hīng.", en: "I'm Hūi-hūi, I'm sixteen. To stand on this stage at the prize-giving today is a great honour and a privilege."}
+  - {n: 3, speaker: Hūi-hūi, hanji: "老實講，我這馬手咧顫，紙嘛提袂牢。若有講毋著的所在，請逐家原諒。", tailo: "Láu-si̍t kóng, guá tsit-má tshiú teh tsùn, tsuá mā the̍h bē tiâu. Nā ū kóng m̄-tio̍h ê sóo-tsāi, tshiánn ta̍k-ke guân-liōng.", en: "To be honest, my hands are shaking right now and I can hardly hold my paper. If I get anything wrong, please forgive me."}
+  - {n: 4, speaker: Hūi-hūi, hanji: "這擺參賽的作品有三百外篇，有詩、有小說、有散文。逐篇攏是用心的創作，得著佳作的同學嘛真厲害。", tailo: "Tsit pái tsham-sài ê tsok-phín ū sann-pah-guā phinn, ū si, ū sió-suat, ū suànn-bûn. Ta̍k phinn lóng sī iōng-sim ê tshòng-tsok, tit-tio̍h ka-tsok ê tông-ha̍k mā tsin lī-hāi.", en: "More than three hundred works were entered this time: poems, stories, essays. Every one was written with care, and the classmates who won honourable mentions are very talented too."}
+  - {n: 5, speaker: Hūi-hūi, hanji: "兩年前，我猶袂曉講臺語。阮阿媽講的話，我干焦聽有一半。", tailo: "Nn̄g nî tsîng, guá iáu bē-hiáu kóng Tâi-gí. Guán a-má kóng ê uē, guá kan-na thiann ū tsi̍t-puànn.", en: "Two years ago I couldn't speak Taiwanese. I only understood half of what my grandmother said."}
+  - {n: 6, speaker: Hūi-hūi, hanji: "毋過我有一个真特別的老師：一个外國人，叫做 Sam。伊來臺灣學臺語，煞比我較輾轉。", tailo: "M̄-koh guá ū tsi̍t ê tsin ti̍k-pia̍t ê lāu-su: tsi̍t ê guā-kok-lâng, kiò-tsò Sam. I lâi Tâi-uân o̍h Tâi-gí, suah pí guá khah liàn-tńg.", en: "But I had a very special teacher: a foreigner called Sam. He came to Taiwan to learn Taiwanese, and he ended up speaking it better than me."}
+  - {n: 7, speaker: Hūi-hūi, hanji: "我想：一个外國人都會當學，我是臺灣囡仔，哪會袂當？", tailo: "Guá siūnn: tsi̍t ê guā-kok-lâng to ē-tàng o̍h, guá sī Tâi-uân gín-á, ná ē bē-tàng?", en: "I thought: if a foreigner can learn it, why can't I, a Taiwanese girl?"}
+  - {n: 8, speaker: Hūi-hūi, hanji: "我這篇散文〈火金蛄的光〉，寫的是我頭一擺佮阿媽去看火金蛄的彼暗。", tailo: "Guá tsit phinn suànn-bûn “Hué-kim-koo ê Kng”, siá--ê sī guá thâu tsi̍t pái kah a-má khì khuànn hué-kim-koo ê hit àm.", en: "My essay, 'The fireflies' light', is about the night I went to see the fireflies with my grandmother for the first time."}
+  - {n: 9, speaker: Hūi-hūi, hanji: "彼暗，田庄暗眠摸，獨獨火金蛄佇草仔頂一爍一爍。阿媽講，伊細漢的時，規庄頭攏是火金蛄。", tailo: "Hit àm, tshân-tsng àm-bîn-bong, to̍k-to̍k hué-kim-koo tī tsháu-á tíng tsi̍t-sih tsi̍t-sih. A-má kóng, i sè-hàn ê sî, kui tsng-thâu lóng sī hué-kim-koo.", en: "That night the countryside was pitch dark; only the fireflies twinkled in the grass. Grandma said that when she was small, the whole village was full of fireflies."}
+  - {n: 10, speaker: Hūi-hūi, hanji: "我的靈感就是對遐來的：火金蛄愈來愈少，咱的話嘛愈來愈少人講。", tailo: "Guá ê lîng-kám tō sī uì hia lâi--ê: hué-kim-koo jú lâi jú tsió, lán ê uē mā jú lâi jú tsió lâng kóng.", en: "That's where my inspiration came from: fireflies are getting rarer, and fewer and fewer people speak our language."}
+  - {n: 11, speaker: Hūi-hūi, hanji: "毋過，火金蛄的光真細，嘛會當照路。一个人講一句臺語，嘛是一屑仔光。", tailo: "M̄-koh, hué-kim-koo ê kng tsin sè, mā ē-tàng tsiò lōo. Tsi̍t ê lâng kóng tsi̍t kù Tâi-gí, mā sī tsi̍t-sut-á kng.", en: "But a firefly's light, however small, can still light the way. Every sentence of Taiwanese someone speaks is a little light too."}
+  - {n: 12, speaker: Hūi-hūi, hanji: "寫這篇文章，我修改七擺。逐擺寫煞，我就讀予阿媽聽，伊共我改腔口，閣教我真濟古早的話。", tailo: "Siá tsit phinn bûn-tsiong, guá siu-kái tshit pái. Ta̍k pái siá-suah, guá tō tha̍k hōo a-má thiann, i kā guá kái khiunn-kháu, koh kà guá tsin tsē kóo-tsá ê uē.", en: "I revised this essay seven times. Each time I finished, I read it to my grandmother; she corrected my accent and taught me lots of old words."}
+  - {n: 13, speaker: Hūi-hūi, hanji: "阮學校的臺語老師看了講：「你的文章寫了真好，會使去投稿矣。」", tailo: "Guán ha̍k-hāu ê Tâi-gí lāu-su khuànn liáu kóng: “Lí ê bûn-tsiong siá liáu tsin hó, ē-sái khì tâu-kó--ah.”", en: "My school's Taiwanese teacher read it and said: 'Your essay is very good: you can submit it now.'"}
+  - {n: 14, speaker: Hūi-hūi, hanji: "我本底想欲放棄，因為我驚家己無夠好。是老師的指導佮鼓舞，予我有自信。", tailo: "Guá pún-té siūnn-beh hòng-khì, in-uī guá kiann ka-kī bô kàu hó. Sī lāu-su ê tsí-tō kah kóo-bú, hōo guá ū tsū-sìn.", en: "I nearly gave up, because I was afraid I wasn't good enough. It was my teacher's guidance and encouragement that gave me confidence."}
+  - {n: 15, speaker: Hūi-hūi, hanji: "我嘛學著按怎運用阿媽的話，共伊講的故事一句一句用筆記錄落來，予我的感覺會當發揮出來。", tailo: "Guá mā o̍h-tio̍h án-tsuánn ūn-iōng a-má ê uē, kā i kóng ê kòo-sū tsi̍t kù tsi̍t kù iōng pit kì-lo̍k--lo̍h-lâi, hōo guá ê kám-kak ē-tàng huat-hui--tshut-lâi.", en: "I also learnt how to use my grandmother's words: I wrote her stories down with a pen, sentence by sentence, so that my feelings could come through."}
+  - {n: 16, speaker: Hūi-hūi, hanji: "我是佇臺語內底成長的。毋但是語言，我閣學著人佮人之間的情義，嘛了解老人的心理。", tailo: "Guá sī tī Tâi-gí lāi-té sîng-tióng--ê. M̄-nā sī gí-giân, guá koh o̍h-tio̍h lâng kah lâng tsi-kan ê tsîng-gī, mā liáu-kái lāu-lâng ê sim-lí.", en: "I grew up inside Taiwanese. Not just the language: I also learnt about the loyalty between people, and came to understand how old people think."}
+  - {n: 17, speaker: Hūi-hūi, hanji: "評審講，我的作品無啥物大道理，毋過有真實的感覺，寫出平凡生活的細節。", tailo: "Phîng-sím kóng, guá ê tsok-phín bô siánn-mih tuā tō-lí, m̄-koh ū tsin-si̍t ê kám-kak, siá-tshut pîng-huân sing-ua̍h ê sè-tsiat.", en: "The jury said my work has no grand message, but it has real feeling, and catches the details of ordinary life."}
+  - {n: 18, speaker: Hūi-hūi, hanji: "我想，這就是我親身的體會：上好的題目，攏佇咱的身軀邊。", tailo: "Guá siūnn, tse tō sī guá tshin-sin ê thé-huē: siōng hó ê tê-bo̍k, lóng tī lán ê sin-khu-pinn.", en: "I think that's what I've learnt from my own experience: the best subjects are all around us."}
+  - {n: 19, speaker: Hūi-hūi, hanji: "我欲感謝阮老母，伊逐工攏佮我講臺語，嘛真支持我寫作。", tailo: "Guá beh kám-siā guán lāu-bú, i ta̍k kang lóng kah guá kóng Tâi-gí, mā tsin tsi-tshî guá siá-tsok.", en: "I'd like to thank my mother, who speaks Taiwanese with me every day and has always supported my writing."}
+  - {n: 20, speaker: Hūi-hūi, hanji: "閣有 Sam 阿叔。伊講伊上大的感想是：「我教你臺語，你教我做人。」其實是倒反。", tailo: "Koh ū Sam a-tsik. I kóng i siōng tuā ê kám-sióng sī: “Guá kà lí Tâi-gí, lí kà guá tsò-lâng.” Kî-si̍t sī tò-píng.", en: "And Uncle Sam. He says his biggest takeaway is: 'I taught you Taiwanese, and you taught me about life.' In fact it's the other way round."}
+  - {n: 21, speaker: Hūi-hūi, hanji: "上尾，我欲感謝阮阿媽。伊講，這張獎狀愛掛佇公媽桌邊，予祖先嘛看會著。", tailo: "Siōng-bué, guá beh kám-siā guán a-má. I kóng, tsit tiunn tsióng-tsn̄g ài kuà tī kong-má-toh pinn, hōo tsóo-sian mā khuànn ē tio̍h.", en: "Finally, I want to thank my grandmother. She says this certificate has to hang beside the ancestral altar, so that the ancestors can see it too."}
+  - {n: 22, speaker: Hūi-hūi, hanji: "獎金五千箍，我欲用來買冊，閣欲請阿媽食一碗擔仔麵。", tailo: "Tsióng-kim gōo-tshing khoo, guá beh iōng lâi bé tsheh, koh beh tshiánn a-má tsia̍h tsi̍t uánn tànn-á-mī.", en: "The prize money is five thousand dollars: I'll spend it on books, and treat my grandmother to a bowl of tànn-á noodles."}
+  - {n: 23, speaker: Hūi-hūi, hanji: "我的夢是做一个用臺語寫作的作家。我知影這條路真長，毋過我會沓沓仔行，一步一步行。", tailo: "Guá ê bāng sī tsò tsi̍t ê iōng Tâi-gí siá-tsok ê tsok-ka. Guá tsai-iánn tsit tiâu lōo tsin tn̂g, m̄-koh guá ē ta̍uh-ta̍uh-á kiânn, tsi̍t pōo tsi̍t pōo kiânn.", en: "My dream is to be a writer who writes in Taiwanese. I know it's a long road, but I'll walk it slowly, one step at a time."}
+  - {n: 24, speaker: Hūi-hūi, hanji: "多謝逐家！", tailo: "To-siā ta̍k-ke!", en: "Thank you all!"}
+  - {n: 25, speaker: A-tshun, hanji: "（佇台跤，細聲）Sam，我會哭……", tailo: "(Tī tâi-kha, sè-siann) Sam, guá ē khàu……", en: "(In the audience, quietly) Sam, I'm going to cry…"}
+  - {n: 26, speaker: Sam, hanji: "（手巾仔提予伊）我已經咧哭矣。", tailo: "(Tshiú-kin-á the̍h hōo i) Guá í-king teh khàu--ah.", en: "(Handing her a handkerchief) I'm already crying."}
+notes:
+  - {ref: 1, topic: vocab, text: "評審 = judge, jury (lesson 97). 貴賓 (進修 33)."}
+  - {ref: 2, topic: vocab, text: "頒獎 pan-tsióng = award prizes; 頒獎典禮 'prize-giving ceremony'. 典禮 tián-lé = ceremony. 光榮 kong-îng = honour; honoured. 榮幸 îng-hīng = privilege; privileged."}
+  - {ref: 3, topic: vocab, text: "提袂牢 = can't hold firmly. 原諒 = forgive (lesson 48)."}
+  - {ref: 4, topic: vocab, text: "參賽 tsham-sài = enter a competition. 詩 si = poem. 小說 = novel, story (進修 10). 創作 tshòng-tsok = creative work; create. 佳作 ka-tsok = honourable mention."}
+  - {ref: 8, topic: vocab, text: "散文 suànn-bûn = (prose) essay. 火金蛄 = firefly (進修 4, 20)."}
+  - {ref: 9, topic: vocab, text: "獨獨 to̍k-to̍k = only, alone: 逐个囡仔攏足乖的，獨獨伊特別狡怪 'all the children are good except him: he's the naughty one' (MOE). 爍 = twinkle (進修 4)."}
+  - {ref: 10, topic: vocab, text: "靈感 lîng-kám = inspiration."}
+  - {ref: 11, topic: vocab, text: "照 tsiò = light up: the same character as 照 tsiàu 'according to' (lesson 29)."}
+  - {ref: 12, topic: vocab, text: "修改 siu-kái = revise, correct. 腔口 = accent (lesson 66)."}
+  - {ref: 13, topic: vocab, text: "From the MOE example 你的文章寫了真好，會使去投稿矣. 投稿 tâu-kó = submit (a piece to a paper, a competition)."}
+  - {ref: 14, topic: vocab, text: "指導 tsí-tō = guidance, instruction. 自信 = confidence (lesson 71)."}
+  - {ref: 15, topic: vocab, text: "運用 ūn-iōng = use, apply. 筆 pit = pen: 提筆來寫字 'take up a pen and write' (MOE). 記錄 kì-lo̍k = record, write down. 發揮 huat-hui = bring out, give full play to."}
+  - {ref: 16, topic: vocab, text: "成長 sîng-tióng = grow up. 語言 = language. 之間 = between. 情義 tsîng-gī = loyalty, bonds of friendship. 心理 sim-lí = way of thinking, psychology: 你會有這款心理，實在予人想袂到 'nobody would have guessed you thought that way' (MOE)."}
+  - {ref: 17, topic: vocab, text: "真實 tsin-si̍t = real, genuine; 真實的感覺 (MOE). 平凡 pîng-huân = ordinary. 細節 sè-tsiat = detail."}
+  - {ref: 18, topic: vocab, text: "親身 tshin-sin = personally, first-hand: 遮的資料愛親身交予伊 'hand him these documents in person' (MOE)."}
+  - {ref: 20, topic: vocab, text: "感想 kám-sióng = thoughts, impressions: 你對這件代誌有啥物感想？ 'what are your thoughts on this?' (MOE). 倒反 tò-píng = the other way round."}
+  - {ref: 21, topic: vocab, text: "獎狀 tsióng-tsn̄g = certificate (of a prize). 公媽 (進修 2)."}
+  - {ref: 22, topic: vocab, text: "獎金 tsióng-kim = prize money. 擔仔麵 tànn-á-mī = a famous Tainan noodle dish, once sold from a shoulder pole (擔仔, 進修 41)."}
+new_words:
+  - {tailo: pan-tsióng, hanji: 頒獎, en: "award prizes"}
+  - {tailo: tián-lé, hanji: 典禮, en: "ceremony"}
+  - {tailo: kong-îng, hanji: 光榮, en: "honour; honoured"}
+  - {tailo: îng-hīng, hanji: 榮幸, en: "privilege; privileged"}
+  - {tailo: suànn-bûn, hanji: 散文, en: "(prose) essay"}
+  - {tailo: to̍k-to̍k, hanji: 獨獨, en: "only, alone"}
+  - {tailo: lîng-kám, hanji: 靈感, en: "inspiration"}
+  - {tailo: siu-kái, hanji: 修改, en: "revise, correct"}
+  - {tailo: tâu-kó, hanji: 投稿, en: "submit (a piece of writing)"}
+  - {tailo: tsí-tō, hanji: 指導, en: "guidance, instruction"}
+  - {tailo: tsin-si̍t, hanji: 真實, en: "real, genuine"}
+  - {tailo: pîng-huân, hanji: 平凡, en: "ordinary"}
+  - {tailo: sè-tsiat, hanji: 細節, en: "detail"}
+  - {tailo: tsham-sài, hanji: 參賽, en: "enter a competition"}
+  - {tailo: si, hanji: 詩, en: "poem"}
+  - {tailo: tshòng-tsok, hanji: 創作, en: "creative work; create"}
+  - {tailo: ka-tsok, hanji: 佳作, en: "honourable mention"}
+  - {tailo: ūn-iōng, hanji: 運用, en: "use, apply"}
+  - {tailo: pit, hanji: 筆, en: "pen"}
+  - {tailo: kì-lo̍k, hanji: 記錄, en: "record, write down"}
+  - {tailo: huat-hui, hanji: 發揮, en: "bring out, give full play to"}
+  - {tailo: sîng-tióng, hanji: 成長, en: "grow up"}
+  - {tailo: tsîng-gī, hanji: 情義, en: "loyalty, bonds of friendship"}
+  - {tailo: sim-lí, hanji: 心理, en: "way of thinking, psychology"}
+  - {tailo: tshin-sin, hanji: 親身, en: "personally, first-hand"}
+  - {tailo: kám-sióng, hanji: 感想, en: "thoughts, impressions"}
+  - {tailo: tò-píng, hanji: 倒反, en: "the other way round"}
+  - {tailo: tsióng-tsn̄g, hanji: 獎狀, en: "certificate (of a prize)"}
+  - {tailo: tsióng-kim, hanji: 獎金, en: "prize money"}
+  - {tailo: tànn-á-mī, hanji: 擔仔麵, en: "tànn-á noodles (Tainan dish)"}
+exercises:
+  translate:
+    - {tailo: "Guá kám-kak tsin kong-îng, mā tsin îng-hīng.", hanji: "我感覺真光榮，嘛真榮幸。", en: "It's a great honour and a privilege."}
+    - {tailo: "Guá ê lîng-kám tō sī uì hia lâi--ê.", hanji: "我的靈感就是對遐來的。", en: "That's where my inspiration came from."}
+    - {tailo: "Siá tsit phinn bûn-tsiong, guá siu-kái tshit pái.", hanji: "寫這篇文章，我修改七擺。", en: "I revised this essay seven times."}
+    - {tailo: "Siōng hó ê tê-bo̍k, lóng tī lán ê sin-khu-pinn.", hanji: "上好的題目，攏佇咱的身軀邊。", en: "The best subjects are all around us."}
+    - {tailo: "Tsióng-kim gōo-tshing khoo, guá beh iōng lâi bé tsheh.", hanji: "獎金五千箍，我欲用來買冊。", en: "The prize money is five thousand dollars: I'll spend it on books."}
+    - {tailo: "Hūi-hūi kóng, i ê lîng-kám lóng sī uì pîng-huân ê sè-tsiat lâi--ê, siá liáu koh siu-kái tsin tsē pái.", hanji: "惠惠講，伊的靈感攏是對平凡的細節來的，寫了閣修改真濟擺。", en: "Hūi-hūi says her inspiration all comes from ordinary details, and that she revised what she wrote many times."}
+    - {tailo: "Thâu-tsióng ū tsi̍t tiunn tsióng-tsn̄g kah tsióng-kim, Hūi-hūi beh tshiánn a-má tsia̍h tànn-á-mī, tshun--ê beh the̍h khì bé tsheh.", hanji: "頭獎有一張獎狀佮獎金，惠惠欲請阿媽食擔仔麵，賰的欲提去買冊。", en: "First prize came with a certificate and prize money, and Hūi-hūi is going to treat her grandmother to tànn-á noodles and spend the rest on books."}
+  fill:
+    - {tailo: "Kin-á-ji̍t ē-tàng khiā tī tsit ê pan-tsióng ___ ê tâi-tíng.", hanji: "今仔日會當徛佇這个頒獎___的台頂。", answer: "tián-lé", answer_hanji: "典禮", en: "To stand on this stage at the prize-giving today."}
+    - {tailo: "Hit àm, ___ hué-kim-koo tī tsháu-á tíng tsi̍t-sih tsi̍t-sih.", hanji: "彼暗，___火金蛄佇草仔頂一爍一爍。", answer: "to̍k-to̍k", answer_hanji: "獨獨", en: "That night only the fireflies twinkled in the grass."}
+    - {tailo: "Lí ê bûn-tsiong siá liáu tsin hó, ē-sái khì ___--ah.", hanji: "你的文章寫了真好，會使去___矣。", answer: "tâu-kó", answer_hanji: "投稿", en: "Your essay is very good: you can submit it now."}
+    - {tailo: "Siá-tshut pîng-huân sing-ua̍h ê ___.", hanji: "寫出平凡生活的___。", answer: "sè-tsiat", answer_hanji: "細節", en: "It catches the details of ordinary life."}
+    - {tailo: "Kî-si̍t sī ___.", hanji: "其實是___。", answer: "tò-píng", answer_hanji: "倒反", en: "In fact it's the other way round."}
+    - {tailo: "Lāu-su kóng, siá bûn-tsiong ài ___ ka-kī ê kám-tsîng, m̄-thang kan-na tsiàu tsheh siá, ài siá ka-kī khuànn--tio̍h ê tāi-tsì.", hanji: "老師講，寫文章愛___家己的感情，毋通干焦照冊寫，愛寫家己看著的代誌。", answer: "huat-hui", answer_hanji: "發揮", en: "The teacher says that when you write you should give free rein to your own feelings, not just copy from books: write about what you've seen yourself."}
+audio: []

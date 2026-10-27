@@ -1,0 +1,108 @@
+id: 38
+title: {en: "Grandaunt Tiger", tailo: "Hóo-koo-pô", hanji: "虎姑婆"}
+genre: tale
+review: false
+setting: "The best-known Taiwanese bedtime story, retold for this course: a tiger spirit disguised as an old aunt comes knocking while the children are home alone."
+dialogue:
+  - {n: 1, hanji: "古早古早，山內有一隻虎精，伊會曉變做人，上愛食囡仔。人攏叫伊「虎姑婆」。", tailo: "Kóo-tsá kóo-tsá, suann-lāi ū tsi̍t tsiah hóo tsiann, i ē-hiáu pìnn tsò lâng, siōng ài tsia̍h gín-á. Lâng lóng kiò i “Hóo-koo-pô”.", en: "Long, long ago, in the mountains there lived a tiger spirit. It could turn itself into a person, and what it liked most was eating children. People called it 'Grandaunt Tiger'."}
+  - {n: 2, hanji: "有一工，阿母欲轉去外家，交代兩个囡仔：「暗時門閂愛閂予好，啥人敲門攏毋通開門。」", tailo: "Ū tsi̍t kang, a-bú beh tńg-khì guā-ke, kau-tài nn̄g ê gín-á: “Àm-sî mn̂g-tshuànn ài tshuànn hōo hó, siánn-lâng khà-mn̂g lóng m̄-thang khui-mn̂g.”", en: "One day, their mother was going to visit her own family, and she told her two children: 'Bar the door properly tonight, and whoever knocks, don't open it.'"}
+  - {n: 3, hanji: "阿姊真精光，小弟猶細漢，干焦知影食佮睏。", tailo: "A-tsí tsin tsing-kong, sió-tī iáu sè-hàn, kan-na tsai-iánn tsia̍h kah khùn.", en: "The big sister was sharp; the little brother was still small and only knew how to eat and sleep."}
+  - {n: 4, hanji: "暗頭仔，有人敲門：「乖孫仔，我是恁的姑婆，緊開門予我入去。」", tailo: "Àm-thâu-á, ū lâng khà-mn̂g: “Kuai sun-á, guá sī lín ê koo-pô, kín khui-mn̂g hōo guá ji̍p--khì.”", en: "At dusk someone knocked: 'Good children, it's your grandaunt. Open the door quickly and let me in.'"}
+  - {n: 5, hanji: "阿姊真憢疑：「阮阿母毋捌講阮有姑婆。」", tailo: "A-tsí tsin giâu-gî: “Guán a-bú m̄ bat kóng guán ū koo-pô.”", en: "The big sister was suspicious: 'Mum never told us we had a grandaunt.'"}
+  - {n: 6, hanji: "「我蹛佇山內，真久無來矣。外口遮寒，恁敢欲予老人寒甲死？」伊佇門外苦苦哀求。", tailo: "“Guá tuà tī suann-lāi, tsin kú bô lâi--ah. Guā-kháu tsiah kuânn, lín kám beh hōo lāu-lâng kuânn kah sí?” I tī mn̂g-guā khóo-khóo ai-kiû.", en: "'I live up in the mountains, I haven't been for a long time. It's so cold out here: would you let an old woman freeze to death?' she begged piteously at the door."}
+  - {n: 7, hanji: "小弟毋甘，偷偷仔共門閂拍開。", tailo: "Sió-tī m̄-kam, thau-thau-á kā mn̂g-tshuànn phah-khui.", en: "The little brother felt sorry for her, and secretly unbarred the door."}
+  - {n: 8, hanji: "入來的阿婆，頭殼用一條巾仔包甲密密，喙一開，就有一陣臭臊味。", tailo: "Ji̍p--lâi ê a-pô, thâu-khak iōng tsi̍t tiâu kin-á pau kah ba̍t-ba̍t, tshuì tsi̍t khui, tō ū tsi̍t tsūn tshàu-tsho bī.", en: "The old woman who came in had her head wrapped tightly in a cloth, and whenever she opened her mouth there was a whiff of something rank, like raw meat."}
+  - {n: 9, hanji: "阿姊看伊的手，規手攏是毛，就問：「姑婆，你的手哪會遮濟毛？」", tailo: "A-tsí khuànn i ê tshiú, kui tshiú lóng sī mn̂g, tō mn̄g: “Koo-pô, lí ê tshiú ná ē tsiah tsē mn̂g?”", en: "The big sister looked at her hands, covered in hair, and asked: 'Grandaunt, why are your hands so hairy?'"}
+  - {n: 10, hanji: "「老矣，手就會生毛。」毋過阿姊看著，伊的裙跤有一支尾溜咧搖。", tailo: "“Lāu--ah, tshiú tō ē senn mn̂g.” M̄-koh a-tsí khuànn--tio̍h, i ê kûn-kha ū tsi̍t ki bué-liu teh iô.", en: "'When you get old, your hands grow hair.' But the big sister saw a tail swishing under her skirt."}
+  - {n: 11, hanji: "暗時，姑婆講欲佮小弟睏，阿姊去睏另外一爿。", tailo: "Àm-sî, koo-pô kóng beh kah sió-tī khùn, a-tsí khì khùn līng-guā tsi̍t pîng.", en: "At bedtime the grandaunt said she'd sleep with the little brother, and the big sister went to sleep on the other side."}
+  - {n: 12, hanji: "半暝，阿姊聽著咧咬物件的聲，就問：「姑婆，你咧食啥？」", tailo: "Puànn-mê, a-tsí thiann-tio̍h teh kā mi̍h-kiānn ê siann, tō mn̄g: “Koo-pô, lí teh tsia̍h siánn?”", en: "In the middle of the night the big sister heard a crunching sound and asked: 'Grandaunt, what are you eating?'"}
+  - {n: 13, hanji: "「我咧食塗豆。你嘛欲食一粒無？」伊就抌一粒過來。", tailo: "“Guá teh tsia̍h thôo-tāu. Lí mā beh tsia̍h tsi̍t lia̍p--bô?” I tō tìm tsi̍t lia̍p--kuè-lâi.", en: "'I'm eating peanuts. Do you want one?' And she tossed one over."}
+  - {n: 14, hanji: "阿姊用手摸，冷吱吱，原來是小弟的手指頭仔！", tailo: "A-tsí iōng tshiú bong, líng-ki-ki, guân-lâi sī sió-tī ê tshiú-tsíng-thâu-á!", en: "The big sister felt it: it was icy cold. It was her little brother's finger!"}
+  - {n: 15, hanji: "伊驚甲強欲叫出來，毋過伊知影，人若驚惶，就無命矣。伊恬恬講：「姑婆，我欲去便所。」", tailo: "I kiann kah kiōng-beh kiò--tshut-lâi, m̄-koh i tsai-iánn, lâng nā kiann-hiânn, tō bô miā--ah. I tiām-tiām kóng: “Koo-pô, guá beh khì piān-sóo.”", en: "She nearly screamed with fright, but she knew that if she panicked she'd lose her life. Quietly she said: 'Grandaunt, I need the toilet.'"}
+  - {n: 16, hanji: "虎姑婆驚伊走去，用一條索仔縛佇伊的跤。", tailo: "Hóo-koo-pô kiann i tsáu--khì, iōng tsi̍t tiâu soh-á pa̍k tī i ê kha.", en: "Grandaunt Tiger was afraid she'd run off, so she tied a rope round her ankle."}
+  - {n: 17, hanji: "阿姊一下出去，就共索仔解開，縛佇水缸，偷偷仔爬起去樹仔頂。", tailo: "A-tsí tsi̍t-ē tshut--khì, tō kā soh-á kái--khui, pa̍k tī tsuí-kng, thau-thau-á pê--khí-khì tshiū-á-tíng.", en: "As soon as she was outside, she untied the rope, tied it to the water jar, and quietly climbed up a tree."}
+  - {n: 18, hanji: "虎姑婆等真久，共索仔一下搝，搝著一个水缸，伊受氣甲現出原形。", tailo: "Hóo-koo-pô tán tsin kú, kā soh-á tsi̍t-ē khiú, khiú-tio̍h tsi̍t ê tsuí-kng, i siū-khì kah hiān-tshut guân-hîng.", en: "Grandaunt Tiger waited a long time; then she gave the rope a tug and pulled in a water jar. She was so furious she showed her true form."}
+  - {n: 19, hanji: "伊揣到樹仔跤，喝：「緊落來！若無，我欲共你食落去！」", tailo: "I tshuē kàu tshiū-á-kha, huah: “Kín lo̍h--lâi! Nā-bô, guá beh kā lí tsia̍h--lo̍h-khì!”", en: "She tracked her to the foot of the tree and roared: 'Come down at once! Or I'll eat you up!'"}
+  - {n: 20, hanji: "阿姊講：「樹仔頂有一隻鳥仔，我欲掠來煠予你食。你去燒一鼎油，用索仔吊起來予我。」", tailo: "A-tsí kóng: “Tshiū-á-tíng ū tsi̍t tsiah tsiáu-á, guá beh lia̍h--lâi sa̍h hōo lí tsia̍h. Lí khì sio tsi̍t tiánn iû, iōng soh-á tiàu--khí-lâi hōo guá.”", en: "The big sister said: 'There's a bird up here: I'll catch it and cook it for you. Go and heat a wok of oil and haul it up to me on the rope.'"}
+  - {n: 21, hanji: "戇虎姑婆真正去燒油，閣用索仔吊起去。", tailo: "Gōng hóo-koo-pô tsin-tsiànn khì sio iû, koh iōng soh-á tiàu--khí-khì.", en: "Silly Grandaunt Tiger really went and heated the oil, and hauled it up on the rope."}
+  - {n: 22, hanji: "阿姊喝：「姑婆，喙擘開，鳥仔欲落去矣！」", tailo: "A-tsí huah: “Koo-pô, tshuì peh--khui, tsiáu-á beh lo̍h--khì--ah!”", en: "The big sister called out: 'Grandaunt, open wide, here comes the bird!'"}
+  - {n: 23, hanji: "虎姑婆喙一下擘開，阿姊就共規鼎燒油淋落去。", tailo: "Hóo-koo-pô tshuì tsi̍t-ē peh--khui, a-tsí tō kā kui tiánn sio iû lâm--lo̍h-khì.", en: "The moment Grandaunt Tiger opened her mouth, the big sister poured the whole wok of boiling oil down."}
+  - {n: 24, hanji: "虎姑婆疼甲喈喈叫，仆落塗跤，就按呢死去矣。這隻妖怪害死遐濟囡仔，真正無天良。", tailo: "Hóo-koo-pô thiànn kah kainn-kainn-kiò, phak lo̍h thôo-kha, tō án-ne sí--khì--ah. Tsit tsiah iau-kuài hāi-sí hiah tsē gín-á, tsin-tsiànn bô thian-liông.", en: "Grandaunt Tiger howled with pain, fell flat on the ground and died there and then. That monster had killed so many children: it had no conscience at all."}
+  - {n: 25, hanji: "天光，阿母轉來，聽著這件悽慘的代誌，抱阿姊哭甲袂停。", tailo: "Thinn-kng, a-bú tńg--lâi, thiann-tio̍h tsit kiānn tshi-tshám ê tāi-tsì, phō a-tsí khàu kah bē thîng.", en: "At daybreak their mother came home, heard the terrible story, and held the big sister and wept and wept."}
+  - {n: 26, hanji: "到今，囡仔若暗時毋睏，阿母就會講：", tailo: "Kàu-tann, gín-á nā àm-sî m̄ khùn, a-bú tō ē kóng:", en: "To this day, when children won't sleep at night, their mothers say:"}
+  - {n: 27, hanji: "較緊睏！無，虎姑婆欲來矣。", tailo: "Khah kín khùn! Bô, Hóo-koo-pô beh lâi--ah.", en: "Go to sleep! Or Grandaunt Tiger will come!", source: moe}
+notes:
+  - {ref: 1, topic: culture, text: "虎姑婆 Hóo-koo-pô = Grandaunt Tiger, the bogeyman of Taiwanese childhood. 姑婆 koo-pô = grandaunt (grandfather's sister); 老姑婆 'old maid' (MOE). 山內 suann-lāi = up in the mountains: 阮兜較早佇咧山內種果子 'my family used to grow fruit in the mountains' (MOE). 精 tsiann = spirit, demon (an animal that has become a spirit). 變 pìnn = turn into; also 'play tricks': 變面 'change one's expression' (MOE)."}
+  - {ref: 2, topic: vocab, text: "外家 = a married woman's own family (lesson 23). 交代 kau-tài = tell (someone what to do), instruct. 門閂 mn̂g-tshuànn = door bar; 閂 tshuànn = bar (the door). 敲門 khà-mn̂g = knock at the door. 開門 khui-mn̂g = open the door."}
+  - {ref: 3, topic: vocab, text: "精光 tsing-kong = sharp, quick-witted: 這个囡仔誠精光，做代誌嘛誠骨力 'this child is sharp and hard-working too' (MOE)."}
+  - {ref: 4, topic: vocab, text: "暗頭仔 àm-thâu-á = dusk: 阮翁差不多暗頭仔就會轉來 'my husband will be home around dusk' (MOE)."}
+  - {ref: 5, topic: vocab, text: "憢疑 giâu-gî = suspicious, doubtful: 你毋通憢疑我對你的感情 'don't doubt my feelings for you' (MOE). Compare 懷疑 (進修 34)."}
+  - {ref: 6, topic: vocab, text: "哀求 ai-kiû = beg, plead: 伊哀求我放伊一條生路 'he begged me to spare his life' (MOE). 苦苦 (進修 32)."}
+  - {ref: 7, topic: vocab, text: "偷偷仔 thau-thau-á = secretly, on the sly: 你偷偷仔共物件提入去 'take it in quietly' (MOE)."}
+  - {ref: 8, topic: vocab, text: "巾仔 kin-á = cloth, scarf. 密密 ba̍t-ba̍t = tightly (密, 進修 11). 臭臊 tshàu-tsho = rank, fishy (smell of raw meat or fish): 這尾魚真臭臊 'this fish smells rank' (MOE). 味 bī = smell."}
+  - {ref: 10, topic: vocab, text: "裙 kûn = skirt; 裙跤 'under the skirt, the hem'. 尾溜 = tail (lesson 74). 搖 = swish."}
+  - {ref: 13, topic: vocab, text: "抌 tìm = toss, throw: 抌石頭 'throw stones' (MOE)."}
+  - {ref: 14, topic: vocab, text: "手指頭仔 tshiú-tsíng-thâu-á = finger."}
+  - {ref: 15, topic: vocab, text: "命 miā = life; fate: 無命 'lose one's life'."}
+  - {ref: 16, topic: vocab, text: "索仔 soh-á = rope. 縛 = tie (lesson 51)."}
+  - {ref: 17, topic: vocab, text: "解開 kái--khui = untie. 水缸 tsuí-kng = water jar. 樹仔頂 = up a tree."}
+  - {ref: 18, topic: vocab, text: "搝 khiú = pull, tug. 現出 = reveal. 原形 guân-hîng = true form."}
+  - {ref: 20, topic: vocab, text: "煠 sa̍h = boil, cook in water. 吊 = hang, haul up (進修 11)."}
+  - {ref: 22, topic: vocab, text: "擘 peh = open (with the fingers, or the mouth wide): 喙擘開 'open wide'."}
+  - {ref: 23, topic: vocab, text: "淋 lâm = pour over."}
+  - {ref: 24, topic: vocab, text: "喈喈叫 kainn-kainn-kiò = howl, yelp (喈 kainn, of an animal in pain): 狗仔喈喈叫 (MOE). 仆 phak = fall flat on one's face: 伊跋一下規个人仆落去 'he tripped and fell flat' (MOE). 妖怪 iau-kuài = monster, demon. 天良 thian-liông = conscience: 伊是一个無天良的人 'he has no conscience' (MOE)."}
+  - {ref: 25, topic: vocab, text: "悽慘 tshi-tshám = terrible, tragic: 伊去予人拍甲真悽慘 'he was beaten terribly' (MOE). 抱 phō = hold in one's arms, hug."}
+  - {ref: 27, topic: vocab, text: "An exact MOE example: every Taiwanese child has heard it."}
+new_words:
+  - {tailo: Hóo-koo-pô, hanji: 虎姑婆, en: "Grandaunt Tiger (bogeyman)"}
+  - {tailo: koo-pô, hanji: 姑婆, en: "grandaunt; old maid"}
+  - {tailo: suann-lāi, hanji: 山內, en: "in the mountains"}
+  - {tailo: tsiann, hanji: 精, en: "spirit, demon"}
+  - {tailo: pìnn, hanji: 變, en: "turn into; play tricks"}
+  - {tailo: kau-tài, hanji: 交代, en: "tell, instruct"}
+  - {tailo: mn̂g-tshuànn, hanji: 門閂, en: "door bar"}
+  - {tailo: tshuànn, hanji: 閂, en: "bar (a door)"}
+  - {tailo: khà-mn̂g, hanji: 敲門, en: "knock at the door"}
+  - {tailo: khui-mn̂g, hanji: 開門, en: "open the door"}
+  - {tailo: tsing-kong, hanji: 精光, en: "sharp, quick-witted"}
+  - {tailo: àm-thâu-á, hanji: 暗頭仔, en: "dusk"}
+  - {tailo: giâu-gî, hanji: 憢疑, en: "suspicious, doubtful"}
+  - {tailo: ai-kiû, hanji: 哀求, en: "beg, plead"}
+  - {tailo: thau-thau-á, hanji: 偷偷仔, en: "secretly, on the sly"}
+  - {tailo: kin-á, hanji: 巾仔, en: "cloth, scarf"}
+  - {tailo: tshàu-tsho, hanji: 臭臊, en: "rank, fishy (smell)"}
+  - {tailo: bī, hanji: 味, en: "smell, taste"}
+  - {tailo: kûn, hanji: 裙, en: "skirt"}
+  - {tailo: tìm, hanji: 抌, en: "toss, throw"}
+  - {tailo: tshiú-tsíng-thâu-á, hanji: 手指頭仔, en: "finger"}
+  - {tailo: soh-á, hanji: 索仔, en: "rope"}
+  - {tailo: miā, hanji: 命, en: "life; fate"}
+  - {tailo: tsuí-kng, hanji: 水缸, en: "water jar"}
+  - {tailo: khiú, hanji: 搝, en: "pull, tug"}
+  - {tailo: guân-hîng, hanji: 原形, en: "true form"}
+  - {tailo: sa̍h, hanji: 煠, en: "boil, cook in water"}
+  - {tailo: peh, hanji: 擘, en: "open (with the fingers, or the mouth wide)"}
+  - {tailo: lâm, hanji: 淋, en: "pour over"}
+  - {tailo: kainn, hanji: 喈, en: "howl, yelp"}
+  - {tailo: phak, hanji: 仆, en: "fall flat on one's face"}
+  - {tailo: iau-kuài, hanji: 妖怪, en: "monster, demon"}
+  - {tailo: thian-liông, hanji: 天良, en: "conscience"}
+  - {tailo: tshi-tshám, hanji: 悽慘, en: "terrible, tragic"}
+  - {tailo: phō, hanji: 抱, en: "hold in one's arms, hug"}
+exercises:
+  translate:
+    - {tailo: "Àm-sî mn̂g-tshuànn ài tshuànn hōo hó.", hanji: "暗時門閂愛閂予好。", en: "Bar the door properly tonight."}
+    - {tailo: "Siánn-lâng khà-mn̂g lóng m̄-thang khui-mn̂g.", hanji: "啥人敲門攏毋通開門。", en: "Whoever knocks, don't open the door."}
+    - {tailo: "Sió-tī m̄-kam, thau-thau-á kā mn̂g-tshuànn phah-khui.", hanji: "小弟毋甘，偷偷仔共門閂拍開。", en: "The little brother felt sorry for her, and secretly unbarred the door."}
+    - {tailo: "Lâng nā kiann-hiânn, tō bô miā--ah.", hanji: "人若驚惶，就無命矣。", en: "If you panic, you lose your life."}
+    - {tailo: "Khah kín khùn! Bô, Hóo-koo-pô beh lâi--ah.", hanji: "較緊睏！無，虎姑婆欲來矣。", en: "Go to sleep! Or Grandaunt Tiger will come!"}
+    - {tailo: "A-bú buē tshut-mn̂g í-tsîng kau-tài gín-á, mn̂g ài tshuànn hó-sè, bô-lūn siánn-lâng khà-mn̂g lóng m̄-thang khui.", hanji: "阿母未出門以前交代囡仔，門愛閂好勢，無論啥人敲門攏毋通開。", en: "Before going out, the mother told the children to bolt the door properly and not to open it whoever knocked."}
+    - {tailo: "Hóo-koo-pô kóng i sī koo-pô, m̄-koh a-tsí giâu-gî, in-uī i ê kûn ē-té ū tsi̍t ki bué.", hanji: "虎姑婆講伊是姑婆，毋過阿姊憢疑，因為伊的裙下底有一支尾。", en: "The tiger aunt said she was their great-aunt, but the older sister was suspicious, because there was a tail under her skirt."}
+  fill:
+    - {tailo: "A-tsí tsin ___, sió-tī iáu sè-hàn.", hanji: "阿姊真___，小弟猶細漢。", answer: "tsing-kong", answer_hanji: "精光", en: "The big sister was sharp; the little brother was still small."}
+    - {tailo: "I tī mn̂g-guā khóo-khóo ___.", hanji: "伊佇門外苦苦___。", answer: "ai-kiû", answer_hanji: "哀求", en: "She begged piteously at the door."}
+    - {tailo: "Tshuì tsi̍t khui, tō ū tsi̍t tsūn ___ bī.", hanji: "喙一開，就有一陣___味。", answer: "tshàu-tsho", answer_hanji: "臭臊", en: "Whenever she opened her mouth there was a whiff of something rank."}
+    - {tailo: "I siū-khì kah hiān-tshut ___.", hanji: "伊受氣甲現出___。", answer: "guân-hîng", answer_hanji: "原形", en: "She was so furious she showed her true form."}
+    - {tailo: "Tsit tsiah iau-kuài tsin-tsiànn bô ___.", hanji: "這隻妖怪真正無___。", answer: "thian-liông", answer_hanji: "天良", en: "That monster had no conscience at all."}
+    - {tailo: "Hóo-koo-pô hōo sio tsuí lâm--tio̍h, liâm-mi piàn tńg-khì ___, tsi̍t tsiah tuā hóo.", hanji: "虎姑婆予燒水淋著，連鞭變轉去___，一隻大虎。", answer: "guân-hîng", answer_hanji: "原形", en: "When the hot water hit her, the tiger aunt turned straight back into her true form: a big tiger."}
+audio: []
