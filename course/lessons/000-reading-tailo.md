@@ -87,7 +87,23 @@ the app). By the active phase you'll hear them yourself.
 **Neutral tone `--`:** what follows `--` is said light and low, and the syllable before it keeps its full tone.
 Common with sentence-final particles (--ah, --lah, --bô) and with objects and directions after a verb.
 
-## 5. Your Mandarin is a head start: sound correspondences
+## 5. Liaison: a final consonant slides into the next syllable
+
+When a syllable ending in a consonant is followed by one that starts with a vowel, usually a light word like
+个 ê, 仔 á or a particle (啊 a, 矣 --ah), the final consonant is carried over and becomes the next syllable's
+onset. The spelling doesn't change; you hear it, you don't write it.
+
+| Final | Heard as | Written | Said |
+|---|---|---|---|
+| **-t** | **l** (a light tap, like the Japanese r) | 彼个 hit-ê · 這个 tsit-ê · 一个 tsi̍t ê | hi(t)-lê · tsi(t)-lê · tsi̍(t)-lê |
+| **-k** | **g** | 竹仔 tik-á · 角仔 kak-á | tik-gá · kak-gá |
+| **-p** | **b** | 盒仔 a̍p-á · 粒仔 lia̍p-á | a̍p-bá · lia̍p-bá |
+| **-m / -n / -ng** | **m / n / ng** | 柑仔 kam-á · 囡仔 gín-á · 枋仔 pang-á | kam-má · gín-ná · pang-ngá |
+
+**-h never links:** it's a glottal stop, so 鴨仔 ah-á stays ah-á. Liaison is strongest in relaxed, fast speech
+and with 个 and 仔; in careful speech you'll also hear the plain form. Tone sandhi (§4) still applies on top.
+
+## 6. Your Mandarin is a head start: sound correspondences
 
 Most Taigi words share their characters with Mandarin. The readings correspond in regular ways, especially the
 literary (文讀) readings:
@@ -101,7 +117,7 @@ literary (文讀) readings:
 | -n | sometimes -m | 三 sam · 心 sim · 甘 kam |
 | syllables that were "entering tone" | end in -p, -t, -k, -h | 十 tsa̍p · 六 la̍k · 骨 kut · 食 tsia̍h |
 
-## 6. One character, two readings
+## 7. One character, two readings
 
 Many characters have a **colloquial** (白讀) reading used in everyday words, and a **literary** (文讀) reading used
 in learned words, names and compounds borrowed from writing:
