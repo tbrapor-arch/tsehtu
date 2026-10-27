@@ -328,6 +328,19 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .wc-src { font-size: .75rem; color: var(--sub); }
 .parts { display: flex; gap: .4rem; flex-wrap: wrap; }
 .parts button { border: 0; background: var(--surface); border-radius: 10px; padding: .3rem .6rem; }
+.wc-comp { display: flex; flex-direction: column; gap: .25rem; }
+.wc-comp .kind { font-family: var(--f-ui); font-size: .72rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; color: var(--sub); }
+.wc-comp .cline { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem .4rem; }
+.wc-comp button { border: 0; background: none; padding: 0; color: var(--text); display: inline-flex; align-items: baseline; gap: .35rem; text-align: left; }
+.wc-comp button .han { font-size: 1.15rem; text-decoration: underline dotted var(--sub) 1px; text-underline-offset: 3px; }
+.wc-comp button .g { color: var(--sub); font-size: .9rem; }
+.wc-comp .plus { color: var(--sub); }
+.splits { display: flex; gap: .4rem; flex-wrap: wrap; }
+.splits button { border: 1.5px solid var(--soft-line); background: var(--surface); color: var(--text); border-radius: 999px; padding: .3rem .75rem; display: inline-flex; align-items: baseline; gap: .4rem; }
+.splits button .han { font-size: 1.1rem; }
+.splits button .r { font-family: var(--f-rom); font-size: .85rem; color: var(--sub); }
+.splits button[aria-pressed="true"] { border-color: var(--brand); background: color-mix(in srgb, var(--brand) 12%, var(--surface)); }
+.splits button[aria-pressed="true"] .r { color: var(--brand); }
 .toast { position: fixed; left: 50%; bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--text); color: var(--bg); padding: .55rem 1.1rem; border-radius: 999px; font-weight: 600; font-size: .9rem; z-index: 40; }
 
 /* ---- skin-aware component styling (cards, borders, Han weights) */
@@ -1242,9 +1255,18 @@ function openCard(id, w) {
   if (!c) sh.innerHTML = top(w ? w.h : '', w ? w.t : '') + '<p class="empty">A name, or a word not in the dictionaries.</p>';
   else {
     const [pc, pt] = cog(id);
-    const spoken = w && w.s && w.s.replace(/^--/, '') !== w.t.replace(/^--/, '') ? `<div class="wc-s">Said ${esc(w.s)} in this sentence</div>` : '';
+    const own = !w || !w.id || w.id === id;   // the card of the tapped word itself (not one of its other splits)
+    const spoken = own && w && w.s && w.s.replace(/^--/, '') !== w.t.replace(/^--/, '') ? `<div class="wc-s">Said ${esc(w.s)} in this sentence</div>` : '';
+    // compound: the word cut into the dictionary words it contains (勞動法 = 勞動 + 法), each with its English
+    const short = g => (g || '').replace(/\s*\([^)]*\)?/g, '').split(/[;；,]/)[0].trim().slice(0, 28);
+    const cps = (c.comp || []).filter(p => DATA.dict[p]);
+    const comp = cps.length > 1 ? `<div class="wc-comp"><span class="kind">Compound</span><div class="cline">${cps.map(p => { const q = DATA.dict[p];
+      return `<button data-part="${esc(p)}"><span class="han">${esc(q.hanji)}</span>${q.gloss ? `<span class="g">${esc(short(q.gloss))}</span>` : ''}</button>`; }).join('<span class="plus" aria-hidden="true">+</span>')}</div></div>` : '';
+    // other ways to cut the line at this word: dictionary words starting on the same character, longest first
+    const xs = (w && w.x || []).filter(x => DATA.dict[x]);
+    const splits = xs.length > 1 ? `<div class="wc-sec"><h3>Other splits</h3><div class="splits">${xs.map(x => `<button data-split="${esc(x)}" aria-pressed="${x === id}"><span class="han">${esc(DATA.dict[x].hanji)}</span><span class="r">${esc(DATA.dict[x].tailo || DATA.dict[x].tkey)}</span></button>`).join('')}</div></div>` : '';
     const src = { moe: '教育部臺灣台語常用詞辭典 (MOE), CC BY-ND 3.0 TW', itaigi: 'iTaigi, CC0', taihoa: '台華線頂對照典, CC BY-SA 4.0', tgb: '台灣白話基礎語句, CC BY-SA 4.0' }[c.source];
-    sh.innerHTML = top(c.hanji, c.tailo || (w && w.t) || c.tkey, spoken + (c.audio ? `<button class="btn small line play" id="play" aria-label="Play the recording">▶ Listen</button>` : '')) + `
+    sh.innerHTML = top(c.hanji, c.tailo || (w && w.t) || c.tkey, spoken + (c.audio ? `<button class="btn small line play" id="play" aria-label="Play the recording">▶ Listen</button>` : '')) + comp + splits + `
       ${pt || c.rank ? `<div class="row">${pt ? `<span class="pill ${pc}">${pt}</span>` : ''}${c.rank ? `<span class="pos">#${c.rank} most common</span>` : ''}${c.wenbai && c.wenbai !== 'substitute-char' ? `<span class="pos">${esc(c.wenbai)} reading</span>` : ''}</div>` : ''}
       ${c.gloss ? `<div class="wc-sec"><h3>English</h3><div class="wc-gloss">${esc(c.gloss)}</div>${glossSrc(c)}</div>` : ''}
       ${c.mand && c.mand.length ? `<div class="wc-sec"><h3>Mandarin${c.hsk ? ` · HSK ${c.hsk}` : ''}</h3><ul class="mlist">${c.mand.map(m => `<li><span class="han">${esc(m.w)}</span> <span class="py">${esc(m.py)}</span>${m.en ? ` <span class="men">${esc(m.en)}</span>` : ''}</li>`).join('')}</ul></div>` : (c.mandarin && c.mandarin.length ? `<div class="wc-sec"><h3>Mandarin</h3><div class="han">${c.mandarin.map(esc).join('、')}</div></div>` : '')}
@@ -1256,11 +1278,13 @@ function openCard(id, w) {
         <span class="pos">Tap the one you want to see in lessons.</span></div>` : ''}
       ${c.dialect && c.dialect.length ? `<details class="wc-sec around"><summary>Around Taiwan</summary><div class="vwrap"><table class="ptable"><tbody>
         ${c.dialect.map(d => Object.entries(d.places).map(([p, r]) => `<tr><td class="han">${esc(d.char)}</td><td class="han">${esc(p)}</td><td>${esc(r)}</td></tr>`).join('')).join('')}</tbody></table></div></details>` : ''}
-      ${c.parts && c.parts.length ? `<div class="wc-sec"><h3>Made of</h3><div class="parts">${c.parts.map(p => `<button data-part="${esc(p)}"><span class="han">${esc(DATA.dict[p].hanji)}</span> ${esc(DATA.dict[p].tailo || DATA.dict[p].tkey)}</button>`).join('')}</div></div>` : ''}
+      ${c.in && c.in.length ? `<div class="wc-sec"><h3>Used in</h3><div class="parts">${c.in.filter(p => DATA.dict[p]).map(p => `<button data-part="${esc(p)}"><span class="han">${esc(DATA.dict[p].hanji)}</span> ${esc(DATA.dict[p].tailo || DATA.dict[p].tkey)}</button>`).join('')}</div></div>` : ''}
+      ${c.parts && c.parts.length && cps.length < 2 ? `<div class="wc-sec"><h3>Made of</h3><div class="parts">${c.parts.map(p => `<button data-part="${esc(p)}"><span class="han">${esc(DATA.dict[p].hanji)}</span> ${esc(DATA.dict[p].tailo || DATA.dict[p].tkey)}</button>`).join('')}</div></div>` : ''}
       <div class="row"><button class="btn ${deck[id] ? 'quiet' : ''}" id="add-card">${deck[id] ? 'In your review deck ✓' : 'Add to review'}</button></div>
       ${src ? `<div class="wc-src">Source: ${esc(src)}${c.audio ? '. Recording: same dictionary, CC BY-ND 3.0 TW.' : ''}</div>` : ''}`;
     $('#add-card', sh).onclick = () => { if (!deck[id]) { addToDeck([id]); renderTabs(currentTab()); openCard(id, w); toast('Added to review'); } };
     $$('[data-part]', sh).forEach(b => b.onclick = () => openCard(b.dataset.part));
+    $$('[data-split]', sh).forEach(b => b.onclick = () => openCard(b.dataset.split, w));
     $$('[data-pick]', sh).forEach(b => b.onclick = () => { prefs.pick[id] = b.dataset.pick; store.set('prefs', prefs); openCard(id, w); rerenderCurrent(); });
     const pl = $('#play', sh); if (pl) pl.onclick = () => play(c.audio, pl);
     const ep = $('#explay', sh); if (ep) ep.onclick = () => play(c.example.audio, ep);

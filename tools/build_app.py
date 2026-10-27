@@ -19,11 +19,12 @@ import yaml
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from lint import UNIT_RE, CJK, words  # noqa: E402
+from lint import UNIT_RE  # noqa: E402
 from sandhi import sandhi  # noqa: E402
 from tailo import key  # noqa: E402
 from variants import Variants  # noqa: E402
 import bridge  # noqa: E402
+import cards  # noqa: E402
 import english  # noqa: E402
 import moe_examples  # noqa: E402
 import sutian  # noqa: E402
@@ -36,123 +37,14 @@ SUTIAN = sutian.load()
 ROOT = os.path.dirname(HERE)
 con = sqlite3.connect(os.path.join(ROOT, 'data/build/taigi.db'))
 VARIANTS = Variants(con)
-dictionary = {}
 glosses = {}  # tkey -> English gloss written for the course
 
 
-# ---- Mandarin glosses: pinyin + English for the Mandarin equivalents (CC-CEDICT, CC BY-SA 4.0)
-def _py_marks(num):
-    marks = {'a': 'āáǎà', 'e': 'ēéěè', 'i': 'īíǐì', 'o': 'ōóǒò', 'u': 'ūúǔù', 'ü': 'ǖǘǚǜ'}
-    out = []
-    for syl in num.replace('u:', 'ü').split():
-        m = re.match(r'^([a-zü]+)([1-5])$', syl.lower())
-        if not m:
-            out.append(syl)
-            continue
-        base, t = m.group(1), int(m.group(2))
-        if t == 5:
-            out.append(base)
-            continue
-        idx = base.find('a') if 'a' in base else base.find('e') if 'e' in base else base.find('ou') if 'ou' in base \
-            else max(base.rfind(v) for v in 'iouü')
-        out.append(base[:idx] + marks[base[idx]][t - 1] + base[idx + 1:])
-    return ' '.join(out)
-
-
+# ---- word cards and line segmentation: tools/cards.py (shared with the private module's build)
 CEDICT = english.load_cedict()
-ENGLISH = None   # set once the course glosses are read (see '---- lessons')
-
-
-def mandarin_gloss(word):
-    e = CEDICT.get(word)
-    if e:
-        en = '; '.join(g for g in e['english'] if not g.startswith(('variant of', 'old variant', 'CL:')))[:90]
-        return {'w': word, 'py': _py_marks(e['pinyin']), 'en': en}
-    try:
-        from pypinyin import pinyin, Style
-        return {'w': word, 'py': ' '.join(x[0] for x in pinyin(word, style=Style.TONE)), 'en': ''}
-    except ImportError:
-        return {'w': word, 'py': '', 'en': ''}
-
-
-def lookup(seg, k):
-    """Dictionary card for one word (Hàn-jī segment + key)."""
-    did = f'{seg}|{k}'
-    if did in dictionary:
-        return did
-    rows = con.execute("""SELECT id, source, hanji, tailo, cognate, mandarin_best, hsk_old, hsk_new, freq_rank, wenbai, src_id
-                          FROM entry WHERE tkey=? AND source IN ('moe','itaigi','taihoa','tgb') AND kind != 'xref'
-                          ORDER BY (hanji=?) DESC, source='moe' DESC, freq DESC LIMIT 1""", (k, seg)).fetchall()
-    card = {'hanji': seg, 'tkey': k}
-    eid = dh = None
-    if rows:
-        eid, src, h, t, cog, mb, ho, hn, rank, wb, sid = rows[0]
-        dh = h
-        mand = [w for (w,) in con.execute('SELECT DISTINCT word FROM mandarin WHERE entry_id=? LIMIT 6', (eid,))]
-        card.update(source=src, dict_hanji=h, tailo=t, cognate=cog, mandarin=mand, hsk=ho or hn, rank=rank,
-                    mand=[mandarin_gloss(w) for w in mand[:4]], wenbai=wb)
-        alts = VARIANTS.alts(seg, t, eid if src == 'moe' else None)
-        if alts:
-            card['alts'] = alts
-        dia = VARIANTS.dialect_rows(seg, t)
-        if dia:
-            card['dialect'] = dia
-        if src == 'moe':
-            rid = sutian.word(SUTIAN, h, t)
-            if rid:
-                card['moe_id'] = rid
-            card['senses'] = [{'pos': p, 'def': d} for p, d in con.execute(
-                'SELECT pos, definition_zh FROM sense WHERE entry_id=? ORDER BY ord LIMIT 4', (eid,))]
-            ex = con.execute("SELECT hanji, tailo, mandarin FROM example WHERE entry_id=? AND length(hanji)>3 "
-                             "ORDER BY id LIMIT 1", (eid,)).fetchone()
-            if ex:
-                card['example'] = {'hanji': ex[0], 'tailo': ex[1], 'mandarin': ex[2]}
-                leku = sutian.example(SUTIAN, ex[0])
-                if leku:
-                    card['example']['leku'] = leku
-    else:
-        syls = k.split('-')
-        chars = UNIT_RE.findall(seg)
-        card['parts'] = [lookup(c, s) for c, s in zip(chars, syls)] if len(syls) > 1 and len(chars) == len(syls) else []
-    parts = [(dictionary[p].get('gloss'), dictionary[p].get('gloss_src')) for p in card.get('parts', [])]
-    en, en_src = ENGLISH.gloss(seg, k, eid, dh, parts)
-    if en:
-        card['gloss'] = en
-        if en_src not in ('course', 'written'):
-            card['gloss_src'] = en_src
-    dictionary[did] = card
-    return did
-
-
-def tokenize(hanji, tailo, groups):
-    """Align a line into display tokens: {w: word} or {p: punctuation} items."""
-    ws = words(tailo)
-    spoken = sandhi(groups or tailo, 'phrase')[0]
-    spoken_ws = words(spoken)
-    spans = list(UNIT_RE.finditer(hanji))
-    nsyl = sum(len(k.split('-')) for _, k, _, _ in ws if k)
-    out = []
-    if len(spans) != nsyl or len(spoken_ws) != len(ws):
-        return [{'w': {'h': hanji, 't': tailo, 's': spoken, 'id': None}}]
-    pos = 0
-    si = 0
-    for (surf, k, neutral, _), (ssurf, _, _, _) in zip(ws, spoken_ws):
-        if not k:
-            continue
-        n = len(k.split('-'))
-        seg_spans = spans[si:si + n]
-        si += n
-        start, end = seg_spans[0].start(), seg_spans[-1].end()
-        if start > pos:
-            out.append({'p': hanji[pos:start]})
-        seg = hanji[start:end]
-        prefix = '--' if neutral else ''
-        is_cjk = bool(re.match(CJK, seg[:1]))
-        out.append({'w': {'h': seg, 't': prefix + surf, 's': prefix + ssurf, 'id': lookup(seg, k) if is_cjk else None}})
-        pos = end
-    if pos < len(hanji):
-        out.append({'p': hanji[pos:]})
-    return out
+cards.init(con, None, CEDICT, SUTIAN)   # English is set once the course glosses are read (see '---- lessons')
+dictionary = cards.dictionary
+lookup, tokenize, mandarin_gloss = cards.lookup, cards.tokenize, cards.mandarin_gloss
 
 
 def _in_big5(ch):
@@ -220,7 +112,7 @@ for f in theme_files:
     for sec in yaml.safe_load(open(f, encoding='utf-8'))['sections']:
         for w in sec['words']:
             glosses.setdefault(key(w['tailo']), w.get('en'))
-ENGLISH = english.English(con, {k: v for k, v in glosses.items() if v}, CEDICT)
+ENGLISH = cards.ENGLISH = english.English(con, {k: v for k, v in glosses.items() if v}, CEDICT)
 
 lessons = []
 for f in lesson_files + perf_files:

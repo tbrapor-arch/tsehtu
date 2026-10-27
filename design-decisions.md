@@ -73,3 +73,13 @@ Progress, deck and preferences are stored in the browser only (per device).
   workflow. Dialogue lines: ▶ plays the words one by one (dictionary tones, not connected speech).
 - **Sync**: on the hosted app, progress can be kept in a secret GitHub gist (token with Gists read/write only,
   stored in the browser). Merge: earliest finish dates, latest review of each card.
+
+## One word card everywhere (27 Oct 2026)
+- **Shared builder** `tools/cards.py`: the lessons and the private module (podcast, drama, songs, books, exam texts)
+  build their word cards with the same code, so a word has the same card wherever it is tapped.
+- **Same cut**: a transcript line is cut by its own Tâi-lô words, as a lesson line is; only a line whose Hàn-jī and
+  Tâi-lô do not line up (and texts without Tâi-lô: exam questions, books) is cut by the dictionary.
+- **Compound line**: a card of two or more characters shows the dictionary words it is made of, each with its English
+  (fewest pieces, then the most frequent words: 紅菜頭 = 紅 + 菜頭). A character found only inside words lists them.
+- **Other splits**: the card of a tapped word offers the other dictionary words starting on the same character
+  (毋過 / 毋), as chips; "a word" here means an MOE word, since the other dictionaries list phrases (真好, 我欲) as words.
