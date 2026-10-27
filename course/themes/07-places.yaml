@@ -1,0 +1,987 @@
+id: places
+title:
+  en: Places, transport and directions
+  hanji: 所在、交通佮方向
+  tailo: sóo-tsāi, kau-thong kap hong-hiòng
+intro: Places, positions, sides and directions, coming and going, town and country, streets and buildings, and transport.
+sections:
+- n: 1
+  title:
+    en: Places
+    hanji: 所在
+    tailo: sóo-tsāi
+  words:
+  - hanji: 所在
+    tailo: sóo-tsāi
+    en: place
+    zh: 地方
+  - hanji: 所
+    tailo: sóo
+    en: place (in compounds)
+    zh: 所
+  - hanji: 地
+    tailo: tē
+    en: land; place
+    zh: 地
+  - hanji: 地方
+    tailo: tē-hng
+    en: place, area
+    zh: 地方
+  - hanji: 地頭
+    tailo: tē-thâu
+    en: place, locality
+    zh: 當地
+  - hanji: 地盤
+    tailo: tē-puânn
+    en: turf, territory
+    zh: 地盤
+  - hanji: 地區
+    tailo: tē-khu/tuē-khu
+    en: region, area
+    zh: 地區
+  - hanji: 區
+    tailo: khu
+    en: district, area
+    zh: 區
+  - hanji: 位
+    tailo: uī
+    en: place, spot; seat
+    zh: 位
+  - hanji: 位置
+    tailo: uī-tì
+    en: position, location
+    zh: 位置
+  - hanji: 別位
+    tailo: pa̍t-uī
+    en: elsewhere
+    zh: 別處
+  - hanji: 四界
+    tailo: sì-kè
+    en: everywhere
+    zh: 到處
+  - hanji: 場
+    tailo: tiûnn
+    en: ground, site; (measure word for events)
+    zh: 場
+  - hanji: 現場
+    tailo: hiān-tiûnn
+    en: the scene (of an event)
+    zh: 現場
+  - hanji: 環境
+    tailo: khuân-kíng
+    en: surroundings, environment
+    zh: 環境
+  - hanji: 背景
+    tailo: puē-kíng
+    en: background
+    zh: 背景
+  - hanji: 世界
+    tailo: sè-kài
+    en: world
+    zh: 世界
+  - hanji: 天下
+    tailo: thian-hā
+    en: the world, all under heaven
+    zh: 天下
+  - hanji: 四海
+    tailo: sù-hái
+    en: everywhere, the whole world
+    zh: 四海
+  - hanji: 江湖
+    tailo: kang-ôo
+    en: the wide world; the world of wanderers
+    zh: 江湖
+  - hanji: 本土
+    tailo: pún-thóo
+    en: native land; local
+    zh: 本土
+  - hanji: 本地
+    tailo: pún-tē
+    en: local; this place
+    zh: 本地
+  - hanji: 地名
+    tailo: tē-miâ/tuē-miâ
+    en: place name
+    zh: 地名
+  - hanji: 處
+    tailo: tshù
+    en: place (in compounds)
+    zh: 處
+  - hanji: 界
+    tailo: kài
+    en: boundary; world (in compounds)
+    zh: 界
+  - hanji: 下落
+    tailo: hē-lo̍h
+    en: whereabouts
+    zh: 下落
+  - hanji: 野
+    tailo: iá
+    en: the wilds, open country
+    zh: 野外
+- n: 2
+  title:
+    en: Up, down, in and out
+    hanji: 頂、下、內、外
+    tailo: tíng, ē, lāi, guā
+  words:
+  - hanji: 上
+    tailo: siōng
+    en: on, above; up
+    zh: 上
+  - hanji: 下
+    tailo: ē
+    en: below, under; down
+    zh: 下
+  - hanji: 頂
+    tailo: tíng
+    en: top, upper; previous
+    zh: 上
+  - hanji: 頂面
+    tailo: tíng-bīn
+    en: on top, above
+    zh: 上面
+  - hanji: 頂頭
+    tailo: tíng-thâu
+    en: on top, above
+    zh: 上頭
+  - hanji: 頂懸
+    tailo: tíng-kuân
+    en: up there, on top
+    zh: 上面
+  - hanji: 面頂
+    tailo: bīn-tíng
+    en: on top, on the surface
+    zh: 上面
+  - hanji: 下面
+    tailo: ē-bīn
+    en: underneath, below
+    zh: 下面
+  - hanji: 下底
+    tailo: ē-té
+    en: underneath, at the bottom
+    zh: 底下
+  - hanji: 下跤
+    tailo: ē-kha
+    en: underneath, below
+    zh: 下面
+  - hanji: 樓頂
+    tailo: lâu-tíng
+    en: upstairs
+    zh: 樓上
+  - hanji: 樓跤
+    tailo: lâu-kha
+    en: downstairs
+    zh: 樓下
+  - hanji: 內
+    tailo: lāi
+    en: in, inside
+    zh: 裡
+  - hanji: 內底
+    tailo: lāi-té
+    en: inside
+    zh: 裡面
+  - hanji: 內面
+    tailo: lāi-bīn
+    en: inside
+    zh: 裡面
+  - hanji: 外
+    tailo: guā
+    en: outside
+    zh: 外
+  - hanji: 外
+    tailo: guē
+    en: outside (another reading)
+    zh: 外
+  - hanji: 外面
+    tailo: guā-bīn
+    en: outside
+    zh: 外面
+  - hanji: 外口
+    tailo: guā-kháu
+    en: outside, out of doors
+    zh: 外面
+  - hanji: 外頭
+    tailo: guā-thâu
+    en: outside
+    zh: 外面
+  - hanji: 中
+    tailo: tiong
+    en: middle, centre
+    zh: 中
+  - hanji: 中間
+    tailo: tiong-kan
+    en: middle, between
+    zh: 中間
+  - hanji: 中央
+    tailo: tiong-ng
+    en: middle, centre
+    zh: 中央
+  - hanji: 當中
+    tailo: tang-tiong
+    en: among, in the middle of
+    zh: 當中
+  - hanji: 中心
+    tailo: tiong-sim
+    en: centre
+    zh: 中心
+  - hanji: 底
+    tailo: té
+    en: bottom
+    zh: 底
+  - hanji: 坦橫
+    tailo: thán-huâinn
+    en: crosswise, sideways
+    zh: 橫著
+- n: 3
+  title:
+    en: Front, back and sides
+    hanji: 頭前、後壁、邊仔
+    tailo: thâu-tsîng, āu-piah, pinn--á
+  words:
+  - hanji: 前
+    tailo: tsîng
+    en: front; before
+    zh: 前
+  - hanji: 前
+    tailo: tsiân
+    en: front (literary reading)
+    zh: 前
+  - hanji: 頭前
+    tailo: thâu-tsîng
+    en: front, in front
+    zh: 前面
+  - hanji: 面前
+    tailo: bīn-tsîng
+    en: in front of, before one's eyes
+    zh: 眼前
+  - hanji: 面頭前
+    tailo: bīn-thâu-tsîng
+    en: right in front
+    zh: 眼前
+  - hanji: 對面
+    tailo: tuì-bīn
+    en: opposite, across
+    zh: 對面
+  - hanji: 後壁
+    tailo: āu-piah
+    en: behind, at the back
+    zh: 後面
+  - hanji: 後面
+    tailo: āu-bīn
+    en: behind; at the back
+    zh: 後面
+  - hanji: 後頭
+    tailo: āu-thâu
+    en: behind; later
+    zh: 後頭
+  - hanji: 尾後
+    tailo: bué-āu
+    en: at the end, last
+    zh: 最後
+  - hanji: 尻脊後
+    tailo: kha-tsiah-āu
+    en: behind one's back
+    zh: 背後
+  - hanji: 尻川後
+    tailo: kha-tshng-āu
+    en: behind one's back
+    zh: 背後
+  - hanji: 後斗
+    tailo: āu-táu
+    en: back (of a truck, car)
+    zh: 後車斗
+  - hanji: 尾仔
+    tailo: bué-á
+    en: end, tip; later on
+    zh: 後來
+  - hanji: 尾溜
+    tailo: bué-liu
+    en: tail, end
+    zh: 尾巴
+  - hanji: 邊
+    tailo: pinn
+    en: side, edge
+    zh: 旁邊
+  - hanji: 邊仔
+    tailo: pinn--á
+    en: side, beside
+    zh: 旁邊
+  - hanji: 邊
+    tailo: pian
+    en: border, edge (literary reading)
+    zh: 邊
+  - hanji: 墘
+    tailo: kînn
+    en: edge, rim
+    zh: 邊緣
+  - hanji: 爿
+    tailo: pîng
+    en: side
+    zh: 邊
+  - hanji: 雙爿
+    tailo: siang-pîng
+    en: both sides
+    zh: 兩邊
+  - hanji: 兩爿
+    tailo: nn̄g-pîng
+    en: both sides
+    zh: 兩邊
+  - hanji: 雙頭
+    tailo: siang-thâu
+    en: both ends
+    zh: 兩端
+  - hanji: 四邊
+    tailo: sì-pinn
+    en: all around
+    zh: 周邊
+  - hanji: 四面
+    tailo: sì-bīn
+    en: all sides, around
+    zh: 四周
+  - hanji: 周圍
+    tailo: tsiu-uî
+    en: surroundings, around
+    zh: 周圍
+  - hanji: 身邊
+    tailo: sin-pinn
+    en: at one's side, with one
+    zh: 身邊
+  - hanji: 身軀邊
+    tailo: sin-khu-pinn
+    en: on one, about one's person
+    zh: 身上
+  - hanji: 隔壁
+    tailo: keh-piah
+    en: next door
+    zh: 隔壁
+  - hanji: 鄰
+    tailo: lîn
+    en: neighbouring
+    zh: 鄰近
+  - hanji: 跤兜
+    tailo: kha-tau
+    en: near, around
+    zh: 附近
+  - hanji: 倚
+    tailo: uá
+    en: lean on; get near
+    zh: 靠近
+  - hanji: 近
+    tailo: kīn
+    en: near, close
+    zh: 近
+  - hanji: 遠
+    tailo: hn̄g
+    en: far
+    zh: 遠
+  - hanji: 遠
+    tailo: uán
+    en: far (literary reading)
+    zh: 遠
+- n: 4
+  title:
+    en: Directions
+    hanji: 方向
+    tailo: hong-hiòng
+  words:
+  - hanji: 方向
+    tailo: hong-hiòng
+    en: direction
+    zh: 方向
+  - hanji: 東
+    tailo: tang
+    en: east
+    zh: 東
+  - hanji: 東
+    tailo: tong
+    en: east (literary reading)
+    zh: 東
+  - hanji: 西
+    tailo: sai
+    en: west
+    zh: 西
+  - hanji: 西
+    tailo: se
+    en: west (literary reading)
+    zh: 西
+  - hanji: 南
+    tailo: lâm
+    en: south
+    zh: 南
+  - hanji: 北
+    tailo: pak
+    en: north
+    zh: 北
+  - hanji: 東爿
+    tailo: tang-pîng
+    en: the east side
+    zh: 東邊
+  - hanji: 西爿
+    tailo: sai-pîng
+    en: the west side
+    zh: 西邊
+  - hanji: 南爿
+    tailo: lâm-pîng
+    en: the south side
+    zh: 南邊
+  - hanji: 北爿
+    tailo: pak-pîng
+    en: the north side
+    zh: 北邊
+  - hanji: 南部
+    tailo: lâm-pōo
+    en: the south (of a region)
+    zh: 南部
+  - hanji: 北部
+    tailo: pak-pōo
+    en: the north (of a region)
+    zh: 北部
+  - hanji: 南方
+    tailo: lâm-hong
+    en: the south
+    zh: 南方
+  - hanji: 北方
+    tailo: pak-hong
+    en: the north
+    zh: 北方
+  - hanji: 正
+    tailo: tsiànn
+    en: right (side); straight, upright
+    zh: 右；正
+  - hanji: 正爿
+    tailo: tsiànn-pîng
+    en: right side
+    zh: 右邊
+  - hanji: 正手爿
+    tailo: tsiànn-tshiú-pîng
+    en: right-hand side
+    zh: 右邊
+  - hanji: 倒爿
+    tailo: tò-pîng
+    en: left side
+    zh: 左邊
+  - hanji: 倒手爿
+    tailo: tò-tshiú-pîng
+    en: left-hand side
+    zh: 左邊
+  - hanji: 頂港
+    tailo: tíng-káng
+    en: northern Taiwan
+    zh: 北部
+  - hanji: 下港
+    tailo: ē-káng
+    en: southern Taiwan
+    zh: 南部
+- n: 5
+  title:
+    en: Coming and going
+    hanji: 來來去去
+    tailo: lâi-lâi-khì-khì
+  words:
+  - hanji: 去
+    tailo: khì
+    en: go
+    zh: 去
+  - hanji: 到
+    tailo: kàu
+    en: arrive, reach; to, until
+    zh: 到
+  - hanji: 到位
+    tailo: kàu-uī
+    en: arrive (at the destination)
+    zh: 到達
+  - hanji: 轉來
+    tailo: tńg--lâi
+    en: come back
+    zh: 回來
+  - hanji: 出去
+    tailo: tshut-khì
+    en: go out
+    zh: 出去
+  - hanji: 入去
+    tailo: ji̍p-khì
+    en: go in
+    zh: 進去
+  - hanji: 入來
+    tailo: ji̍p-lâi
+    en: come in
+    zh: 進來
+  - hanji: 落去
+    tailo: lo̍h-khì
+    en: go down
+    zh: 下去
+  - hanji: 落來
+    tailo: lo̍h-lâi
+    en: come down
+    zh: 下來
+  - hanji: 倒轉
+    tailo: tò-tńg
+    en: go back, return
+    zh: 回去
+  - hanji: 倒去
+    tailo: tò--khì
+    en: go back
+    zh: 回去
+  - hanji: 倒轉去
+    tailo: tò-tńg--khì
+    en: go back
+    zh: 回去
+  - hanji: 起行
+    tailo: khí-kiânn
+    en: set off
+    zh: 出發
+  - hanji: 行路
+    tailo: kiânn-lōo
+    en: walk
+    zh: 走路
+  - hanji: 向前
+    tailo: hiòng-tsiân
+    en: go forward
+    zh: 向前
+  - hanji: 蹛
+    tailo: tuà
+    en: live, stay
+    zh: 住
+  - hanji: 沿路
+    tailo: iân-lōo
+    en: all along the way
+    zh: 沿路
+  - hanji: 一路
+    tailo: tsi̍t-lōo
+    en: the whole way; all the way
+    zh: 一路
+  - hanji: 半路
+    tailo: puànn-lōo
+    en: halfway, on the way
+    zh: 半路
+  - hanji: 路途
+    tailo: lōo-tôo
+    en: journey, the way
+    zh: 路程
+  - hanji: 途
+    tailo: tôo
+    en: road, way (in compounds)
+    zh: 途
+- n: 6
+  title:
+    en: Town and country
+    hanji: 都市佮庄跤
+    tailo: too-tshī kap tsng-kha
+  words:
+  - hanji: 庄
+    tailo: tsng
+    en: village
+    zh: 村莊
+  - hanji: 庄跤
+    tailo: tsng-kha
+    en: the countryside
+    zh: 鄉下
+  - hanji: 庄頭
+    tailo: tsng-thâu
+    en: village
+    zh: 村落
+  - hanji: 田庄
+    tailo: tshân-tsng
+    en: countryside, farming village
+    zh: 農村
+  - hanji: 草地
+    tailo: tsháu-tē
+    en: the countryside
+    zh: 鄉下
+  - hanji: 故鄉
+    tailo: kòo-hiong
+    en: hometown
+    zh: 家鄉
+  - hanji: 鄉里
+    tailo: hiunn-lí
+    en: hometown, home village
+    zh: 家鄉
+  - hanji: 里
+    tailo: lí
+    en: neighbourhood (administrative)
+    zh: 里
+  - hanji: 鄉
+    tailo: hiong
+    en: rural township (in compounds)
+    zh: 鄉
+  - hanji: 鎮
+    tailo: tìn
+    en: town, township
+    zh: 鎮
+  - hanji: 鄉鎮
+    tailo: hiong-tìn
+    en: townships, rural towns
+    zh: 鄉鎮
+  - hanji: 州
+    tailo: tsiu
+    en: province, state
+    zh: 州
+  - hanji: 城
+    tailo: siânn
+    en: city wall; city
+    zh: 城
+  - hanji: 城市
+    tailo: siânn-tshī
+    en: city
+    zh: 城市
+  - hanji: 都市
+    tailo: too-tshī
+    en: city
+    zh: 都市
+  - hanji: 府城
+    tailo: Hú-siânn
+    en: Tainan (the old capital)
+    zh: 府城
+  - hanji: 市
+    tailo: tshī
+    en: city; market
+    zh: 市
+  - hanji: 市內
+    tailo: tshī-lāi
+    en: downtown, in the city
+    zh: 市區
+  - hanji: 京
+    tailo: kiann
+    en: capital (in compounds)
+    zh: 京
+  - hanji: 北京
+    tailo: Pak-kiann
+    en: Beijing
+    zh: 北京
+  - hanji: 淡水
+    tailo: Tām-tsuí
+    en: Tamsui
+    zh: 淡水
+  - hanji: 唐山
+    tailo: Tn̂g-suann
+    en: mainland China (seen from Taiwan)
+    zh: 唐山
+  - hanji: 外國
+    tailo: guā-kok
+    en: foreign country; abroad
+    zh: 外國
+  - hanji: 東洋
+    tailo: Tang-iûnn
+    en: the East; Japan
+    zh: 東洋
+  - hanji: 東海
+    tailo: Tang-hái
+    en: the East China Sea
+    zh: 東海
+  - hanji: 後山
+    tailo: āu-suann
+    en: the hills behind; eastern Taiwan
+    zh: 後山
+  - hanji: 山內
+    tailo: suann-lāi
+    en: in the mountains
+    zh: 山裡
+  - hanji: 臺
+    tailo: tâi
+    en: Taiwan (in names); platform
+    zh: 臺
+  - hanji: 韓
+    tailo: hân
+    en: Korea (in names); Hân (surname)
+    zh: 韓
+  - hanji: 歐
+    tailo: au
+    en: Europe (in names)
+    zh: 歐
+- n: 7
+  title:
+    en: Streets and buildings
+    hanji: 街路佮建築
+    tailo: ke-lōo kap kiàn-tio̍k
+  words:
+  - hanji: 路
+    tailo: lōo
+    en: road, way
+    zh: 路
+  - hanji: 大路
+    tailo: tuā-lōo
+    en: main road
+    zh: 大路
+  - hanji: 公路
+    tailo: kong-lōo
+    en: highway
+    zh: 公路
+  - hanji: 車路
+    tailo: tshia-lōo
+    en: road (for cars)
+    zh: 馬路
+  - hanji: 街
+    tailo: ke
+    en: street
+    zh: 街
+  - hanji: 街仔
+    tailo: ke-á
+    en: street; town
+    zh: 街
+  - hanji: 街路
+    tailo: ke-lōo
+    en: street, road
+    zh: 街道
+  - hanji: 街仔路
+    tailo: ke-á-lōo
+    en: street
+    zh: 街道
+  - hanji: 街頭
+    tailo: ke-thâu
+    en: on the street
+    zh: 街頭
+  - hanji: 巷
+    tailo: hāng
+    en: lane, alley
+    zh: 巷
+  - hanji: 巷仔
+    tailo: hāng-á
+    en: lane, alley
+    zh: 巷子
+  - hanji: 路邊
+    tailo: lōo-pinn
+    en: roadside
+    zh: 路邊
+  - hanji: 路頭
+    tailo: lōo-thâu
+    en: road; start of the road
+    zh: 路口
+  - hanji: 路燈
+    tailo: lōo-ting
+    en: street lamp
+    zh: 路燈
+  - hanji: 橋
+    tailo: kiô
+    en: bridge
+    zh: 橋
+  - hanji: 磅空
+    tailo: pōng-khang
+    en: tunnel
+    zh: 隧道
+  - hanji: 門口
+    tailo: mn̂g-kháu
+    en: doorway, entrance
+    zh: 門口
+  - hanji: 門跤口
+    tailo: mn̂g-kha-kháu
+    en: doorway
+    zh: 門口
+  - hanji: 門口埕
+    tailo: mn̂g-kháu-tiânn
+    en: front yard
+    zh: 前庭
+  - hanji: 廟埕
+    tailo: biō-tiânn
+    en: temple square
+    zh: 廟口
+  - hanji: 運動埕
+    tailo: ūn-tōng-tiânn
+    en: sports ground, playground
+    zh: 操場
+  - hanji: 公園
+    tailo: kong-hn̂g
+    en: park
+    zh: 公園
+  - hanji: 市場
+    tailo: tshī-tiûnn
+    en: market
+    zh: 市場
+  - hanji: 菜市仔
+    tailo: tshài-tshī-á
+    en: market (for food)
+    zh: 菜市場
+  - hanji: 夜市
+    tailo: iā-tshī
+    en: night market
+    zh: 夜市
+  - hanji: 商店
+    tailo: siong-tiàm
+    en: shop
+    zh: 商店
+  - hanji: 店頭
+    tailo: tiàm-thâu
+    en: shop
+    zh: 商店
+  - hanji: 店面
+    tailo: tiàm-bīn
+    en: shopfront
+    zh: 店面
+  - hanji: 古蹟
+    tailo: kóo-tsik
+    en: historic site
+    zh: 古蹟
+  - hanji: 塔
+    tailo: thah
+    en: tower, pagoda
+    zh: 塔
+  - hanji: 皇宮
+    tailo: hông-kiong
+    en: palace
+    zh: 皇宮
+  - hanji: 建築
+    tailo: kiàn-tio̍k
+    en: building; architecture
+    zh: 建築
+  - hanji: 台
+    tailo: tâi
+    en: platform, stage
+    zh: 台
+  - hanji: 鼓井
+    tailo: kóo-tsénn
+    en: well
+    zh: 水井
+  - hanji: 池
+    tailo: tî
+    en: pond, pool
+    zh: 池
+  - hanji: 海邊
+    tailo: hái-pinn
+    en: seaside
+    zh: 海邊
+  - hanji: 海墘
+    tailo: hái-kînn
+    en: seaside, beach
+    zh: 海邊
+  - hanji: 海口
+    tailo: hái-kháu
+    en: coast, seaside
+    zh: 海口
+  - hanji: 關
+    tailo: kuan
+    en: pass, checkpoint
+    zh: 關
+  - hanji: 觀光
+    tailo: kuan-kong
+    en: sightseeing, tourism
+    zh: 觀光
+- n: 8
+  title:
+    en: Transport
+    hanji: 交通
+    tailo: kau-thong
+  words:
+  - hanji: 交通
+    tailo: kau-thong
+    en: traffic, transport
+    zh: 交通
+  - hanji: 車
+    tailo: tshia
+    en: car, vehicle
+    zh: 車
+  - hanji: 火車
+    tailo: hué-tshia
+    en: train
+    zh: 火車
+  - hanji: 飛行機
+    tailo: hue-lîng-ki
+    en: aeroplane
+    zh: 飛機
+  - hanji: 船
+    tailo: tsûn
+    en: boat, ship
+    zh: 船
+  - hanji: 船仔
+    tailo: tsûn-á
+    en: boat
+    zh: 船
+  - hanji: 帆
+    tailo: phâng
+    en: sail
+    zh: 帆
+  - hanji: 槳
+    tailo: tsiúnn
+    en: oar
+    zh: 槳
+  - hanji: 轎
+    tailo: kiō
+    en: sedan chair
+    zh: 轎
+  - hanji: 鐵馬
+    tailo: thih-bé
+    en: bicycle
+    zh: 腳踏車
+  - hanji: 跤踏車
+    tailo: kha-ta̍h-tshia
+    en: bicycle
+    zh: 腳踏車
+  - hanji: 駛
+    tailo: sái
+    en: drive, sail
+    zh: 駕駛
+  - hanji: 駛車
+    tailo: sái-tshia
+    en: drive (a car)
+    zh: 開車
+  - hanji: 駕
+    tailo: kà
+    en: drive (in compounds)
+    zh: 駕
+  - hanji: 載
+    tailo: tsài
+    en: carry, give a ride
+    zh: 載
+  - hanji: 落車
+    tailo: lo̍h-tshia
+    en: get off (a vehicle)
+    zh: 下車
+  - hanji: 行船
+    tailo: kiânn-tsûn
+    en: sail; work as a sailor
+    zh: 行船
+  - hanji: 渡
+    tailo: tōo
+    en: cross (a river)
+    zh: 渡
+  - hanji: 司機
+    tailo: su-ki
+    en: driver
+    zh: 司機
+  - hanji: 運轉手
+    tailo: ūn-tsuán-tshiú
+    en: driver
+    zh: 司機
+  - hanji: 站
+    tailo: tsām
+    en: station, stop
+    zh: 站
+  - hanji: 車頭
+    tailo: tshia-thâu
+    en: station
+    zh: 車站
+  - hanji: 火車頭
+    tailo: hué-tshia-thâu
+    en: railway station
+    zh: 火車站
+  - hanji: 火車站
+    tailo: hué-tshia-tsām
+    en: railway station
+    zh: 火車站
+  - hanji: 機場
+    tailo: ki-tiûnn
+    en: airport
+    zh: 機場
+  - hanji: 港
+    tailo: káng
+    en: harbour, port
+    zh: 港
+  - hanji: 港口
+    tailo: káng-kháu
+    en: harbour
+    zh: 港口
+  - hanji: 鐵路
+    tailo: thih-lōo
+    en: railway
+    zh: 鐵路
+  - hanji: 鐵枝路
+    tailo: thih-ki-lōo
+    en: railway
+    zh: 鐵路
+  - hanji: 水螺
+    tailo: tsuí-lê
+    en: siren, ship's horn
+    zh: 汽笛
+  - hanji: 行李
+    tailo: hîng-lí
+    en: luggage
+    zh: 行李

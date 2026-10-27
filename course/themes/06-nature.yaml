@@ -1,0 +1,1191 @@
+id: nature
+title:
+  en: Nature, weather, animals and plants
+  hanji: 自然、天氣、動物、植物
+  tailo: tsū-jiân, thinn-khì, tōng-bu̍t, si̍t-bu̍t
+intro: Sky and weather, land and water, plants and fields, animals, fire and metals.
+sections:
+- n: 1
+  title:
+    en: Sky, sun and stars
+    hanji: 天、日頭、星
+    tailo: thinn, ji̍t-thâu, tshenn
+  words:
+  - hanji: 天
+    tailo: thinn
+    en: sky; heaven; day
+    zh: 天
+  - hanji: 天
+    tailo: thian
+    en: heaven, sky (literary reading)
+    zh: 天
+  - hanji: 天頂
+    tailo: thinn-tíng
+    en: the sky, up in the sky
+    zh: 天上
+  - hanji: 天地
+    tailo: thinn-tē
+    en: heaven and earth; the world
+    zh: 天地
+  - hanji: 日頭
+    tailo: ji̍t-thâu
+    en: the sun
+    zh: 太陽
+  - hanji: 陽
+    tailo: iông
+    en: the sun; yang
+    zh: 陽
+  - hanji: 月
+    tailo: gue̍h
+    en: moon; month
+    zh: 月
+  - hanji: 月
+    tailo: gua̍t
+    en: moon (literary reading)
+    zh: 月
+  - hanji: 月娘
+    tailo: gue̍h-niû
+    en: the moon
+    zh: 月亮
+  - hanji: 星
+    tailo: tshenn
+    en: star
+    zh: 星星
+  - hanji: 流星
+    tailo: liû-tshenn/liû-tshinn
+    en: shooting star
+    zh: 流星
+  - hanji: 光
+    tailo: kng
+    en: light; bright
+    zh: 光
+  - hanji: 光
+    tailo: kong
+    en: light (literary reading)
+    zh: 光
+  - hanji: 影
+    tailo: iánn
+    en: shadow; image, reflection
+    zh: 影子
+  - hanji: 天色
+    tailo: thinn-sik
+    en: colour of the sky; time of day
+    zh: 天色
+  - hanji: 雲
+    tailo: hûn
+    en: cloud
+    zh: 雲
+  - hanji: 烏雲
+    tailo: oo-hûn
+    en: dark cloud
+    zh: 烏雲
+- n: 2
+  title:
+    en: Weather and seasons
+    hanji: 天氣佮季節
+    tailo: thinn-khì kap kuì-tseh
+  words:
+  - hanji: 天氣
+    tailo: thinn-khì
+    en: weather
+    zh: 天氣
+  - hanji: 好天
+    tailo: hó-thinn
+    en: fine weather
+    zh: 好天氣
+  - hanji: 晴
+    tailo: tsîng
+    en: clear, sunny (in compounds)
+    zh: 晴
+  - hanji: 雨
+    tailo: hōo
+    en: rain
+    zh: 雨
+  - hanji: 雨
+    tailo: ú
+    en: rain (literary reading)
+    zh: 雨
+  - hanji: 雨水
+    tailo: hōo-tsuí
+    en: rain, rainwater
+    zh: 雨水
+  - hanji: 落雨
+    tailo: lo̍h-hōo
+    en: rain, be raining
+    zh: 下雨
+  - hanji: 落雨天
+    tailo: lo̍h-hōo-thinn
+    en: rainy day
+    zh: 雨天
+  - hanji: 西北雨
+    tailo: sai-pak-hōo
+    en: summer afternoon thunderstorm
+    zh: 西北雨
+  - hanji: 風
+    tailo: hong
+    en: wind
+    zh: 風
+  - hanji: 吹
+    tailo: tshue
+    en: (of wind) blow
+    zh: 吹
+  - hanji: 透風
+    tailo: thàu-hong
+    en: be windy
+    zh: 颳風
+  - hanji: 春風
+    tailo: tshun-hong
+    en: spring breeze
+    zh: 春風
+  - hanji: 東風
+    tailo: tang-hong
+    en: east wind, spring wind
+    zh: 東風
+  - hanji: 海風
+    tailo: hái-hong
+    en: sea breeze
+    zh: 海風
+  - hanji: 風聲
+    tailo: hong-siann
+    en: sound of the wind; rumour
+    zh: 風聲
+  - hanji: 風颱
+    tailo: hong-thai
+    en: typhoon
+    zh: 颱風
+  - hanji: 雷
+    tailo: luî
+    en: thunder
+    zh: 雷
+  - hanji: 雷公
+    tailo: luî-kong
+    en: thunder; the thunder god
+    zh: 雷公
+  - hanji: 電
+    tailo: tiān
+    en: electricity; lightning
+    zh: 電
+  - hanji: 雪
+    tailo: seh
+    en: snow
+    zh: 雪
+  - hanji: 冰
+    tailo: ping
+    en: ice
+    zh: 冰
+  - hanji: 凍
+    tailo: tàng
+    en: freeze; set (like jelly)
+    zh: 凍
+  - hanji: 露
+    tailo: lōo
+    en: dew
+    zh: 露
+  - hanji: 露水
+    tailo: lōo-tsuí
+    en: dew
+    zh: 露水
+  - hanji: 雺霧
+    tailo: bông-bū
+    en: fog, mist
+    zh: 霧
+  - hanji: 霧
+    tailo: bū
+    en: mist; spray
+    zh: 霧
+  - hanji: 風霜
+    tailo: hong-song
+    en: wind and frost; hardship
+    zh: 風霜
+  - hanji: 寒
+    tailo: kuânn
+    en: cold
+    zh: 冷
+  - hanji: 寒
+    tailo: hân
+    en: cold (literary reading, in compounds)
+    zh: 寒
+  - hanji: 寒
+    tailo: gân
+    en: feel the cold
+    zh: 受凍
+  - hanji: 熱
+    tailo: jua̍h
+    en: hot
+    zh: 熱
+  - hanji: 炎
+    tailo: iām
+    en: (of sun, fire) blazing, fierce
+    zh: 炎熱
+  - hanji: 秋凊
+    tailo: tshiu-tshìn
+    en: pleasantly cool
+    zh: 涼爽
+  - hanji: 熱天
+    tailo: jua̍h-thinn
+    en: summer
+    zh: 夏天
+  - hanji: 寒天
+    tailo: kuânn-thinn
+    en: winter
+    zh: 冬天
+  - hanji: 秋
+    tailo: tshiu
+    en: autumn
+    zh: 秋
+  - hanji: 大水
+    tailo: tuā-tsuí
+    en: flood
+    zh: 水災
+  - hanji: 水災
+    tailo: tsuí-tsai
+    en: flood
+    zh: 水災
+  - hanji: 地動
+    tailo: tē-tāng
+    en: earthquake
+    zh: 地震
+- n: 3
+  title:
+    en: Land and mountains
+    hanji: 土地佮山
+    tailo: thóo-tē kap suann
+  words:
+  - hanji: 山
+    tailo: suann
+    en: mountain, hill
+    zh: 山
+  - hanji: 山
+    tailo: san
+    en: mountain (literary reading)
+    zh: 山
+  - hanji: 山頂
+    tailo: suann-tíng
+    en: mountaintop; up in the mountains
+    zh: 山頂
+  - hanji: 山頭
+    tailo: suann-thâu
+    en: hilltop
+    zh: 山頂
+  - hanji: 山跤
+    tailo: suann-kha
+    en: foot of a mountain
+    zh: 山腳
+  - hanji: 山嶺
+    tailo: suann-niá
+    en: mountain range
+    zh: 山脈
+  - hanji: 嶺
+    tailo: niá
+    en: ridge, mountain pass
+    zh: 嶺
+  - hanji: 懸山
+    tailo: kuân suann
+    en: high mountain
+    zh: 高山
+  - hanji: 內山
+    tailo: lāi-suann
+    en: deep in the mountains
+    zh: 深山
+  - hanji: 山坪
+    tailo: suann-phiânn
+    en: hillside
+    zh: 山坡
+  - hanji: 崙
+    tailo: lūn
+    en: hill, mound (in place names)
+    zh: 崙
+  - hanji: 土地
+    tailo: thóo-tē
+    en: land, soil
+    zh: 土地
+  - hanji: 地面
+    tailo: tē-bīn/tuē-bīn
+    en: ground, surface
+    zh: 地面
+  - hanji: 地形
+    tailo: tē-hîng
+    en: terrain, landform
+    zh: 地形
+  - hanji: 勢
+    tailo: sè
+    en: lie of the land
+    zh: 地勢
+  - hanji: 塗
+    tailo: thôo
+    en: earth, soil, mud
+    zh: 土
+  - hanji: 土
+    tailo: thóo
+    en: soil; earth (one of the five elements)
+    zh: 土
+  - hanji: 塗跤
+    tailo: thôo-kha
+    en: the ground, the floor
+    zh: 地上
+  - hanji: 沙
+    tailo: sua
+    en: sand
+    zh: 沙
+  - hanji: 石頭
+    tailo: tsio̍h-thâu
+    en: stone, rock
+    zh: 石頭
+  - hanji: 石
+    tailo: tsio̍h
+    en: stone (in compounds)
+    zh: 石
+  - hanji: 礁
+    tailo: ta
+    en: reef
+    zh: 礁
+  - hanji: 洞
+    tailo: tōng
+    en: cave, hole
+    zh: 洞
+  - hanji: 窟
+    tailo: khut
+    en: hole, pit, hollow
+    zh: 窟
+  - hanji: 窟仔
+    tailo: khut-á
+    en: hole, pothole
+    zh: 坑
+  - hanji: 陸
+    tailo: lio̍k
+    en: land (in compounds)
+    zh: 陸
+  - hanji: 島
+    tailo: tó
+    en: island
+    zh: 島
+  - hanji: 島嶼
+    tailo: tó-sū/tóo-sū
+    en: islands
+    zh: 島嶼
+  - hanji: 景
+    tailo: kíng
+    en: view, scenery
+    zh: 景
+  - hanji: 風景
+    tailo: hong-kíng
+    en: scenery, landscape
+    zh: 風景
+  - hanji: 景緻
+    tailo: kíng-tì
+    en: scenery
+    zh: 景致
+  - hanji: 景色
+    tailo: kíng-sik
+    en: scenery, view
+    zh: 景色
+- n: 4
+  title:
+    en: Water and the sea
+    hanji: 水佮海
+    tailo: tsuí kap hái
+  words:
+  - hanji: 水
+    tailo: tsuí
+    en: water
+    zh: 水
+  - hanji: 水
+    tailo: suí
+    en: water, river (literary reading)
+    zh: 水
+  - hanji: 清水
+    tailo: tshing-tsuí
+    en: clean water
+    zh: 清水
+  - hanji: 冷水
+    tailo: líng-tsuí
+    en: cold water
+    zh: 冷水
+  - hanji: 流
+    tailo: lâu
+    en: flow
+    zh: 流
+  - hanji: 溪
+    tailo: khe
+    en: stream, river
+    zh: 溪
+  - hanji: 溪仔
+    tailo: khe-á
+    en: brook, stream
+    zh: 小溪
+  - hanji: 河
+    tailo: hô
+    en: river
+    zh: 河
+  - hanji: 江
+    tailo: kang
+    en: big river
+    zh: 江
+  - hanji: 湖
+    tailo: ôo
+    en: lake
+    zh: 湖
+  - hanji: 泉
+    tailo: tsuânn
+    en: spring (of water)
+    zh: 泉
+  - hanji: 溫泉
+    tailo: un-tsuânn
+    en: hot spring
+    zh: 溫泉
+  - hanji: 岸
+    tailo: huānn
+    en: bank, shore
+    zh: 岸
+  - hanji: 溝
+    tailo: kau
+    en: ditch, gutter
+    zh: 溝
+  - hanji: 圳溝
+    tailo: tsùn-kau
+    en: irrigation ditch
+    zh: 水圳
+  - hanji: 水庫
+    tailo: tsuí-khòo
+    en: reservoir
+    zh: 水庫
+  - hanji: 海
+    tailo: hái
+    en: sea
+    zh: 海
+  - hanji: 海底
+    tailo: hái-té
+    en: seabed, bottom of the sea
+    zh: 海底
+  - hanji: 海面
+    tailo: hái-bīn
+    en: surface of the sea
+    zh: 海面
+  - hanji: 海岸
+    tailo: hái-huānn
+    en: coast, seashore
+    zh: 海岸
+  - hanji: 海洋
+    tailo: hái-iûnn
+    en: ocean
+    zh: 海洋
+  - hanji: 海湧
+    tailo: hái-íng
+    en: wave (of the sea)
+    zh: 海浪
+  - hanji: 湧
+    tailo: íng
+    en: wave
+    zh: 浪
+- n: 5
+  title:
+    en: Trees and plants
+    hanji: 樹佮草
+    tailo: tshiū kap tsháu
+  words:
+  - hanji: 植物
+    tailo: si̍t-bu̍t
+    en: plant
+    zh: 植物
+  - hanji: 樹
+    tailo: tshiū
+    en: tree
+    zh: 樹
+  - hanji: 樹仔
+    tailo: tshiū-á
+    en: tree
+    zh: 樹
+  - hanji: 樹木
+    tailo: tshiū-ba̍k
+    en: trees
+    zh: 樹木
+  - hanji: 樹林
+    tailo: tshiū-nâ
+    en: woods, forest
+    zh: 樹林
+  - hanji: 樹頭
+    tailo: tshiū-thâu
+    en: tree stump; foot of a tree
+    zh: 樹根
+  - hanji: 樹枝
+    tailo: tshiū-ki
+    en: branch
+    zh: 樹枝
+  - hanji: 枝
+    tailo: ki
+    en: branch, twig
+    zh: 枝
+  - hanji: 樹葉
+    tailo: tshiū-hio̍h
+    en: leaf
+    zh: 樹葉
+  - hanji: 葉
+    tailo: hio̍h
+    en: leaf
+    zh: 葉子
+  - hanji: 葉仔
+    tailo: hio̍h-á
+    en: leaf
+    zh: 葉子
+  - hanji: 葉
+    tailo: ia̍p
+    en: leaf (literary reading)
+    zh: 葉
+  - hanji: 根
+    tailo: kin
+    en: root
+    zh: 根
+  - hanji: 根本
+    tailo: kin-pún
+    en: root; basis; (adv.) at all
+    zh: 根本
+  - hanji: 柴
+    tailo: tshâ
+    en: wood, firewood
+    zh: 木柴
+  - hanji: 竹
+    tailo: tik
+    en: bamboo
+    zh: 竹子
+  - hanji: 竹仔
+    tailo: tik-á
+    en: bamboo
+    zh: 竹子
+  - hanji: 草
+    tailo: tsháu
+    en: grass
+    zh: 草
+  - hanji: 草仔
+    tailo: tsháu-á
+    en: grass
+    zh: 草
+  - hanji: 草埔
+    tailo: tsháu-poo
+    en: grassland, lawn
+    zh: 草地
+  - hanji: 菅蓁
+    tailo: kuann-tsin
+    en: silvergrass
+    zh: 芒草
+  - hanji: 林投
+    tailo: nâ-tâu
+    en: screw pine (pandanus)
+    zh: 林投
+  - hanji: 刺
+    tailo: tshì
+    en: thorn; splinter
+    zh: 刺
+  - hanji: 殼
+    tailo: khak
+    en: shell, husk
+    zh: 殼
+  - hanji: 種
+    tailo: tsíng
+    en: seed
+    zh: 種子
+  - hanji: 種子
+    tailo: tsíng-tsí
+    en: seed
+    zh: 種子
+  - hanji: 結子
+    tailo: kiat-tsí
+    en: go to seed, bear seeds
+    zh: 結子
+  - hanji: 杉
+    tailo: sam
+    en: China fir
+    zh: 杉
+  - hanji: 柳
+    tailo: liú
+    en: willow
+    zh: 柳
+  - hanji: 桑材
+    tailo: sng-tsâi
+    en: mulberry
+    zh: 桑
+  - hanji: 檳榔
+    tailo: pin-nn̂g
+    en: betel nut; areca palm
+    zh: 檳榔
+  - hanji: 人參
+    tailo: jîn-sim
+    en: ginseng
+    zh: 人參
+- n: 6
+  title:
+    en: Flowers, fields and crops
+    hanji: 花、田佮作物
+    tailo: hue, tshân kap tsok-bu̍t
+  words:
+  - hanji: 花
+    tailo: hue
+    en: flower
+    zh: 花
+  - hanji: 花
+    tailo: hua
+    en: flower (literary reading)
+    zh: 花
+  - hanji: 花蕊
+    tailo: hue-luí
+    en: flower, blossom
+    zh: 花朵
+  - hanji: 蕊
+    tailo: luí
+    en: flower bud; (measure word for flowers)
+    zh: 朵
+  - hanji: 花枝
+    tailo: hue-ki
+    en: flower stem
+    zh: 花枝
+  - hanji: 花欉
+    tailo: hue-tsâng
+    en: flowering plant
+    zh: 花株
+  - hanji: 花草
+    tailo: hue-tsháu
+    en: flowers and plants; floral pattern
+    zh: 花草
+  - hanji: 開花
+    tailo: khui-hue
+    en: bloom, flower
+    zh: 開花
+  - hanji: 牡丹
+    tailo: bóo-tan
+    en: peony
+    zh: 牡丹
+  - hanji: 蓮花
+    tailo: liân-hue
+    en: lotus
+    zh: 荷花
+  - hanji: 桃花
+    tailo: thô-hue
+    en: peach blossom
+    zh: 桃花
+  - hanji: 梅
+    tailo: muî
+    en: plum blossom
+    zh: 梅
+  - hanji: 桃
+    tailo: thô
+    en: peach tree
+    zh: 桃
+  - hanji: 龍眼
+    tailo: lîng-gíng
+    en: longan
+    zh: 龍眼
+  - hanji: 櫻桃
+    tailo: ing-thô
+    en: cherry
+    zh: 櫻桃
+  - hanji: 瓜
+    tailo: kue
+    en: melon, gourd
+    zh: 瓜
+  - hanji: 葫蘆
+    tailo: hôo-lôo
+    en: calabash gourd
+    zh: 葫蘆
+  - hanji: 蔥
+    tailo: tshang
+    en: spring onion
+    zh: 蔥
+  - hanji: 甘蔗
+    tailo: kam-tsià
+    en: sugar cane
+    zh: 甘蔗
+  - hanji: 蔗
+    tailo: tsià
+    en: sugar cane (in compounds)
+    zh: 甘蔗
+  - hanji: 棉
+    tailo: mî
+    en: cotton
+    zh: 棉
+  - hanji: 麻
+    tailo: muâ
+    en: hemp, jute; sesame
+    zh: 麻
+  - hanji: 田
+    tailo: tshân
+    en: paddy field, field
+    zh: 田
+  - hanji: 田園
+    tailo: tshân-hn̂g
+    en: farmland, fields
+    zh: 田園
+  - hanji: 園
+    tailo: hn̂g
+    en: garden, plot
+    zh: 園
+  - hanji: 菜園
+    tailo: tshài-hn̂g
+    en: vegetable garden
+    zh: 菜園
+  - hanji: 田岸
+    tailo: tshân-huānn
+    en: ridge between paddy fields
+    zh: 田埂
+  - hanji: 犁田
+    tailo: lê-tshân
+    en: plough the fields
+    zh: 犁田
+  - hanji: 收成
+    tailo: siu-sîng
+    en: harvest
+    zh: 收成
+  - hanji: 粟
+    tailo: tshik
+    en: unhusked rice, paddy
+    zh: 稻穀
+  - hanji: 粟仔
+    tailo: tshik-á
+    en: unhusked rice
+    zh: 稻穀
+  - hanji: 麥
+    tailo: be̍h
+    en: wheat, barley
+    zh: 麥
+  - hanji: 粗糠
+    tailo: tshoo-khng
+    en: rice husks
+    zh: 米糠
+- n: 7
+  title:
+    en: Farm animals and pets
+    hanji: 精牲佮厝內飼的
+    tailo: tsing-senn kap tshù-lāi tshī--ê
+  words:
+  - hanji: 動物
+    tailo: tōng-bu̍t
+    en: animal
+    zh: 動物
+  - hanji: 狗
+    tailo: káu
+    en: dog
+    zh: 狗
+  - hanji: 狗仔
+    tailo: káu-á
+    en: dog, puppy
+    zh: 小狗
+  - hanji: 貓
+    tailo: niau
+    en: cat
+    zh: 貓
+  - hanji: 貓仔
+    tailo: niau-á
+    en: cat
+    zh: 貓
+  - hanji: 烏貓
+    tailo: oo-niau
+    en: black cat
+    zh: 黑貓
+  - hanji: 牛
+    tailo: gû
+    en: cow, ox
+    zh: 牛
+  - hanji: 水牛
+    tailo: tsuí-gû
+    en: water buffalo
+    zh: 水牛
+  - hanji: 馬
+    tailo: bé
+    en: horse
+    zh: 馬
+  - hanji: 馬
+    tailo: má
+    en: horse (literary reading); Má (surname)
+    zh: 馬
+  - hanji: 馬仔
+    tailo: bé-á
+    en: pony; errand boy
+    zh: 小馬
+  - hanji: 豬
+    tailo: ti
+    en: pig
+    zh: 豬
+  - hanji: 豬仔
+    tailo: ti-á
+    en: pig, piglet
+    zh: 豬
+  - hanji: 豬仔囝
+    tailo: ti-á-kiánn
+    en: piglet
+    zh: 小豬
+  - hanji: 豬哥
+    tailo: ti-ko
+    en: boar (for breeding); lecher
+    zh: 種豬；好色
+  - hanji: 豬母
+    tailo: ti-bó
+    en: sow
+    zh: 母豬
+  - hanji: 羊
+    tailo: iûnn
+    en: sheep, goat
+    zh: 羊
+  - hanji: 羊仔
+    tailo: iûnn-á
+    en: sheep, goat; lamb
+    zh: 羊
+  - hanji: 雞
+    tailo: ke
+    en: chicken
+    zh: 雞
+  - hanji: 雞仔
+    tailo: ke-á
+    en: chicken
+    zh: 雞
+  - hanji: 雞公
+    tailo: ke-kang
+    en: rooster
+    zh: 公雞
+  - hanji: 雞母
+    tailo: ke-bó
+    en: hen
+    zh: 母雞
+  - hanji: 雞仔囝
+    tailo: ke-á-kiánn
+    en: chick
+    zh: 小雞
+  - hanji: 閹雞
+    tailo: iam-ke
+    en: capon
+    zh: 閹雞
+  - hanji: 鴨
+    tailo: ah
+    en: duck
+    zh: 鴨子
+  - hanji: 鴨仔
+    tailo: ah-á
+    en: duck
+    zh: 鴨子
+  - hanji: 鴨母
+    tailo: ah-bó
+    en: female duck
+    zh: 母鴨
+  - hanji: 鵝
+    tailo: gô
+    en: goose
+    zh: 鵝
+  - hanji: 精牲
+    tailo: tsing-senn
+    en: livestock; (insult) beast
+    zh: 牲畜
+  - hanji: 牢
+    tailo: tiâu
+    en: pen, sty (for animals)
+    zh: 牲畜欄
+  - hanji: 兔
+    tailo: thòo
+    en: rabbit
+    zh: 兔子
+  - hanji: 兔仔
+    tailo: thòo-á
+    en: rabbit
+    zh: 兔子
+- n: 8
+  title:
+    en: Wild animals and birds
+    hanji: 野生動物佮鳥仔
+    tailo: iá-sing tōng-bu̍t kap tsiáu-á
+  words:
+  - hanji: 虎
+    tailo: hóo
+    en: tiger
+    zh: 老虎
+  - hanji: 獅
+    tailo: sai
+    en: lion
+    zh: 獅子
+  - hanji: 象
+    tailo: tshiūnn
+    en: elephant
+    zh: 大象
+  - hanji: 豹
+    tailo: pà
+    en: leopard
+    zh: 豹
+  - hanji: 猴
+    tailo: kâu
+    en: monkey
+    zh: 猴子
+  - hanji: 猴山仔
+    tailo: kâu-san--á
+    en: monkey
+    zh: 猴子
+  - hanji: 狐狸
+    tailo: hôo-lî
+    en: fox
+    zh: 狐狸
+  - hanji: 鹿
+    tailo: lo̍k
+    en: deer
+    zh: 鹿
+  - hanji: 鹿仔
+    tailo: lo̍k-á
+    en: fawn, deer
+    zh: 小鹿
+  - hanji: 山豬
+    tailo: suann-ti
+    en: wild boar
+    zh: 山豬
+  - hanji: 鳥鼠
+    tailo: niáu-tshí
+    en: rat, mouse
+    zh: 老鼠
+  - hanji: 鼠
+    tailo: tshí
+    en: rat, mouse (in compounds)
+    zh: 鼠
+  - hanji: 鳥
+    tailo: niáu
+    en: rat (in 鳥鼠)
+    zh: 鳥(鼠)
+  - hanji: 海翁
+    tailo: hái-ang
+    en: whale
+    zh: 鯨魚
+  - hanji: 鳥
+    tailo: tsiáu
+    en: bird
+    zh: 鳥
+  - hanji: 鳥仔
+    tailo: tsiáu-á
+    en: bird, little bird
+    zh: 鳥
+  - hanji: 鴉
+    tailo: a
+    en: crow (in compounds)
+    zh: 鴉
+  - hanji: 烏鴉
+    tailo: oo-a
+    en: crow
+    zh: 烏鴉
+  - hanji: 烏鶖
+    tailo: oo-tshiu
+    en: black drongo
+    zh: 大卷尾
+  - hanji: 鵁鴒
+    tailo: ka-līng
+    en: myna
+    zh: 八哥
+  - hanji: 鸚哥
+    tailo: ing-ko
+    en: parakeet
+    zh: 鸚哥
+  - hanji: 鴛鴦
+    tailo: uan-iunn
+    en: mandarin duck
+    zh: 鴛鴦
+  - hanji: 白鶴
+    tailo: pe̍h-ho̍h
+    en: egret, white crane
+    zh: 白鶴
+  - hanji: 鳳
+    tailo: hōng
+    en: phoenix
+    zh: 鳳
+  - hanji: 梟
+    tailo: hiau
+    en: owl
+    zh: 梟
+  - hanji: 啼
+    tailo: thî
+    en: (of birds) crow, sing
+    zh: 啼
+  - hanji: 吠
+    tailo: puī
+    en: (of dogs) bark
+    zh: 吠
+  - hanji: 喈
+    tailo: kainn
+    en: (of dogs) yelp
+    zh: 哀叫
+  - hanji: 尾
+    tailo: bué
+    en: tail
+    zh: 尾巴
+- n: 9
+  title:
+    en: Fish, insects and small creatures
+    hanji: 魚、蟲佮細隻的
+    tailo: hî, thâng kap sè-tsiah--ê
+  words:
+  - hanji: 魚
+    tailo: hî
+    en: fish
+    zh: 魚
+  - hanji: 魚
+    tailo: gû
+    en: fish (literary reading)
+    zh: 魚
+  - hanji: 金魚
+    tailo: kim-hî
+    en: goldfish
+    zh: 金魚
+  - hanji: 鯽仔魚
+    tailo: tsit-á-hî
+    en: crucian carp
+    zh: 鯽魚
+  - hanji: 鰗鰡
+    tailo: hôo-liu
+    en: loach
+    zh: 泥鰍
+  - hanji: 鱸鰻
+    tailo: lôo-muâ
+    en: eel; (slang) gangster
+    zh: 鰻魚；流氓
+  - hanji: 蝦
+    tailo: hê
+    en: shrimp, prawn
+    zh: 蝦
+  - hanji: 蝦仔
+    tailo: hê-á
+    en: shrimp
+    zh: 蝦
+  - hanji: 田螺
+    tailo: tshân-lê
+    en: river snail
+    zh: 田螺
+  - hanji: 蚶
+    tailo: ham
+    en: blood cockle
+    zh: 蚶
+  - hanji: 蛤
+    tailo: kap
+    en: clam, frog (in compounds)
+    zh: 蛤
+  - hanji: 龜
+    tailo: ku
+    en: turtle, tortoise
+    zh: 龜
+  - hanji: 鱉
+    tailo: pih
+    en: soft-shelled turtle
+    zh: 鱉
+  - hanji: 蛇
+    tailo: tsuâ
+    en: snake
+    zh: 蛇
+  - hanji: 水雞
+    tailo: tsuí-ke
+    en: frog
+    zh: 青蛙
+  - hanji: 蟲
+    tailo: thâng
+    en: insect, worm, bug
+    zh: 蟲
+  - hanji: 娘仔
+    tailo: niû-á
+    en: silkworm
+    zh: 蠶
+  - hanji: 蜂
+    tailo: phang
+    en: bee, wasp
+    zh: 蜂
+  - hanji: 狗蟻
+    tailo: káu-hiā
+    en: ant
+    zh: 螞蟻
+  - hanji: 蜘蛛
+    tailo: ti-tu
+    en: spider
+    zh: 蜘蛛
+  - hanji: 蠓
+    tailo: báng
+    en: mosquito
+    zh: 蚊子
+  - hanji: 蠓仔
+    tailo: báng-á
+    en: mosquito
+    zh: 蚊子
+  - hanji: 胡蠅
+    tailo: hôo-sîn
+    en: fly
+    zh: 蒼蠅
+  - hanji: 虼蚤
+    tailo: ka-tsáu
+    en: flea
+    zh: 跳蚤
+  - hanji: 蝨母
+    tailo: sat-bó
+    en: louse
+    zh: 蝨子
+  - hanji: 蝴蝶
+    tailo: ôo-tia̍p
+    en: butterfly
+    zh: 蝴蝶
+  - hanji: 蝶仔
+    tailo: ia̍h-á
+    en: butterfly
+    zh: 蝴蝶
+  - hanji: 蝶
+    tailo: tia̍p
+    en: butterfly (in compounds)
+    zh: 蝶
+  - hanji: 蝶
+    tailo: ia̍h
+    en: butterfly (another reading)
+    zh: 蝶
+  - hanji: 田嬰
+    tailo: tshân-enn
+    en: dragonfly
+    zh: 蜻蜓
+  - hanji: 火金蛄
+    tailo: hué-kim-koo
+    en: firefly
+    zh: 螢火蟲
+  - hanji: 金龜
+    tailo: kim-ku
+    en: scarab beetle
+    zh: 金龜子
+  - hanji: 蜈蚣
+    tailo: giâ-kang
+    en: centipede
+    zh: 蜈蚣
+  - hanji: 蜈
+    tailo: gôo
+    en: centipede (in compounds)
+    zh: 蜈
+- n: 10
+  title:
+    en: Fire and metals
+    hanji: 火佮金屬
+    tailo: hué kap kim-sio̍k
+  words:
+  - hanji: 火
+    tailo: hué
+    en: fire
+    zh: 火
+  - hanji: 煙
+    tailo: ian
+    en: smoke
+    zh: 煙
+  - hanji: 火烌
+    tailo: hué-hu
+    en: ashes
+    zh: 灰燼
+  - hanji: 塗炭
+    tailo: thôo-thuànn
+    en: coal
+    zh: 煤炭
+  - hanji: 金
+    tailo: kim
+    en: gold; metal
+    zh: 金
+  - hanji: 金仔
+    tailo: kim-á
+    en: gold
+    zh: 金子
+  - hanji: 銀
+    tailo: gîn
+    en: silver; money
+    zh: 銀
+  - hanji: 銅
+    tailo: tâng
+    en: copper
+    zh: 銅
+  - hanji: 鹼
+    tailo: kinn
+    en: alkali, lye
+    zh: 鹼

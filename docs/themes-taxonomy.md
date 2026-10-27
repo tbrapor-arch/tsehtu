@@ -14,7 +14,11 @@ course progression (which situations the lessons cover).
 - Three more domains, word lists without texts yet: `03-food.yaml` (03 Food and drink, 8 sections, 128 words),
   `04-home.yaml` (04 Home and everyday objects, 7 sections, 160 words), `05-clothing.yaml` (05 Clothing and looks,
   4 sections, 49 words). Files are named `NN-id.yaml` by domain number so the cards follow the domain order;
-  the id inside the file is what the app and review progress use. Colours (色, 青) went to 15 with the other colours; farm tools, weapons, 筆, 宮 and 菜店 left 04/03.
+  the id inside the file is what the app and review progress use.
+- Three more (27 Oct 2026): `01-people.yaml` (01 People and family, 9 sections, 242 words, with a family-names
+  section that also takes in the surnames Haiku left as `?`), `06-nature.yaml` (06 Nature, weather, animals and plants,
+  10 sections, 281 words), `07-places.yaml` (07 Places, transport and directions, 8 sections, 233 words). Moved out:
+  本 to 08, 和尚 to 12, 礪 to 14c; 草地 (countryside) from 06 to 07. Left as `?`: the readings 馬 ma, 貓 bâ, 種 tsiòng. Colours (色, 青) went to 15 with the other colours; farm tools, weapons, 筆, 宮 and 菜店 left 04/03.
 - `docs/themes-classification-draft.tsv`: a first domain (01–16) for every core word, from a Haiku pass in 16 batches
   (Oct 2026), then a second pass splitting domain 14 into 14a–14h. Columns: domain, sub, confidence H/M/L, note,
   reviewed. Measured on the pilot: about 94% of the words Haiku put in 02 belong there, and about 97% of the domain's

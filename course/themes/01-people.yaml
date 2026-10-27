@@ -1,0 +1,1029 @@
+id: people
+title:
+  en: People and family
+  hanji: 人佮家庭
+  tailo: lâng kap ka-tîng
+intro: People, ages of life, parents and children, the wider family, marriage, friends and guests, and family names.
+sections:
+- n: 1
+  title:
+    en: People, men and women
+    hanji: 人、查埔、查某
+    tailo: lâng, tsa-poo, tsa-bóo
+  words:
+  - hanji: 人
+    tailo: lâng
+    en: person, people
+    zh: 人
+  - hanji: 人
+    tailo: jîn
+    en: person (literary reading, in compounds)
+    zh: 人
+  - hanji: 人人
+    tailo: lâng-lâng
+    en: everybody
+    zh: 人人
+  - hanji: 別人
+    tailo: pa̍t-lâng
+    en: other people, someone else
+    zh: 別人
+  - hanji: 各位
+    tailo: kok-uī
+    en: 'everyone (address: ladies and gentlemen)'
+    zh: 各位
+  - hanji: 外人
+    tailo: guā-lâng
+    en: outsider, stranger
+    zh: 外人
+  - hanji: 閒人
+    tailo: îng-lâng
+    en: idler, bystander
+    zh: 閒人
+  - hanji: 歹人
+    tailo: pháinn-lâng
+    en: bad person, villain
+    zh: 壞人
+  - hanji: 人物
+    tailo: jîn-bu̍t
+    en: figure, personality; character (in a story)
+    zh: 人物
+  - hanji: 人影
+    tailo: lâng-iánn
+    en: sign of anyone, someone's shadow
+    zh: 人影
+  - hanji: 人頭
+    tailo: lâng-thâu
+    en: head count; person
+    zh: 人頭
+  - hanji: 人面
+    tailo: lâng-bīn
+    en: connections, network
+    zh: 人脈
+  - hanji: 查埔
+    tailo: tsa-poo
+    en: man, male
+    zh: 男人
+  - hanji: 查埔人
+    tailo: tsa-poo-lâng
+    en: man
+    zh: 男人
+  - hanji: 男
+    tailo: lâm
+    en: male (in compounds)
+    zh: 男
+  - hanji: 男子
+    tailo: lâm-tsú
+    en: man
+    zh: 男子
+  - hanji: 男子漢
+    tailo: lâm-tsú-hàn
+    en: real man
+    zh: 男子漢
+  - hanji: 查某
+    tailo: tsa-bóo
+    en: woman, female
+    zh: 女人
+  - hanji: 查某人
+    tailo: tsa-bóo-lâng
+    en: woman
+    zh: 女人
+  - hanji: 女
+    tailo: lú
+    en: female, woman (in compounds)
+    zh: 女
+  - hanji: 女
+    tailo: lí
+    en: female (another reading, in compounds)
+    zh: 女
+  - hanji: 婦人人
+    tailo: hū-jîn-lâng
+    en: woman, married woman
+    zh: 婦女
+  - hanji: 婦
+    tailo: hū
+    en: married woman (in compounds)
+    zh: 婦
+  - hanji: 小姐
+    tailo: sió-tsiá
+    en: young lady, miss
+    zh: 小姐
+  - hanji: 姑娘
+    tailo: koo-niû
+    en: girl, young woman
+    zh: 姑娘
+  - hanji: 美人
+    tailo: bí-jîn
+    en: beauty, beautiful woman
+    zh: 美女
+  - hanji: 佳人
+    tailo: ka-jîn
+    en: beauty (literary)
+    zh: 佳人
+  - hanji: 烏狗
+    tailo: oo-káu
+    en: dandy, flashy young man
+    zh: 時髦男子
+  - hanji: 少爺
+    tailo: siàu-iâ
+    en: young master
+    zh: 少爺
+  - hanji: 千金
+    tailo: tshian-kim
+    en: (your) daughter (polite)
+    zh: 千金
+  - hanji: 查某𡢃
+    tailo: tsa-bóo-kán
+    en: maidservant
+    zh: 丫鬟
+  - hanji: 老婆仔
+    tailo: lāu-pô-á
+    en: old woman servant
+    zh: 老媽子
+  - hanji: 恁爸
+    tailo: lín-pē
+    en: I, your old man (rude male self-reference)
+    zh: 老子
+  - hanji: 小生
+    tailo: sió-sing
+    en: young male lead (in opera)
+    zh: 小生
+- n: 2
+  title:
+    en: Ages of life
+    hanji: 囡仔到老
+    tailo: gín-á kàu lāu
+  words:
+  - hanji: 囡仔
+    tailo: gín-á
+    en: child
+    zh: 小孩
+  - hanji: 囡仔人
+    tailo: gín-á-lâng
+    en: child, minor
+    zh: 小孩
+  - hanji: 囡仔兄
+    tailo: gín-á-hiann
+    en: young lad (polite address to a boy)
+    zh: 小朋友
+  - hanji: 查某囡仔
+    tailo: tsa-bóo gín-á
+    en: girl
+    zh: 女孩子
+  - hanji: 嬰仔
+    tailo: enn-á
+    en: baby
+    zh: 嬰兒
+  - hanji: 嬰
+    tailo: enn
+    en: baby (in compounds)
+    zh: 嬰
+  - hanji: 少年
+    tailo: siàu-liân
+    en: young; youth
+    zh: 年輕
+  - hanji: 少年人
+    tailo: siàu-liân-lâng
+    en: young person
+    zh: 年輕人
+  - hanji: 少年家
+    tailo: siàu-liân-ke
+    en: young man, lad
+    zh: 小伙子
+  - hanji: 青年
+    tailo: tshing-liân
+    en: young person, youth
+    zh: 青年
+  - hanji: 大人
+    tailo: tuā-lâng
+    en: adult, grown-up
+    zh: 大人
+  - hanji: 老人
+    tailo: lāu-lâng
+    en: old person
+    zh: 老人
+  - hanji: 老大人
+    tailo: lāu-tuā-lâng
+    en: elderly person (respectful)
+    zh: 老人家
+  - hanji: 老歲仔
+    tailo: lāu-huè-á
+    en: old person (slightly rude)
+    zh: 老人
+  - hanji: 老公仔
+    tailo: lāu-kong-á
+    en: old man
+    zh: 老頭
+  - hanji: 阿婆
+    tailo: a-pô
+    en: old woman
+    zh: 老婦
+  - hanji: 婆
+    tailo: pô
+    en: old woman (in compounds)
+    zh: 婆
+  - hanji: 食老
+    tailo: tsia̍h-lāu
+    en: get old; old age
+    zh: 年老
+  - hanji: 細漢
+    tailo: sè-hàn
+    en: little; when one was small
+    zh: 小時候
+  - hanji: 人生
+    tailo: jîn-sing
+    en: life (one's life)
+    zh: 人生
+  - hanji: 這世人
+    tailo: tsit-sì-lâng
+    en: this life, all one's life
+    zh: 這輩子
+  - hanji: 出世
+    tailo: tshut-sì
+    en: be born
+    zh: 出生
+  - hanji: 出身
+    tailo: tshut-sin
+    en: background, origins
+    zh: 出身
+  - hanji: 單身
+    tailo: tuann-sin
+    en: single, unmarried
+    zh: 單身
+  - hanji: 死人
+    tailo: sí-lâng
+    en: dead person
+    zh: 死人
+  - hanji: 生
+    tailo: senn
+    en: give birth; be born
+    zh: 生
+  - hanji: 添丁
+    tailo: thiam-ting
+    en: have a baby boy
+    zh: 生兒子
+  - hanji: 生湠
+    tailo: senn-thuànn
+    en: reproduce, multiply
+    zh: 繁衍
+- n: 3
+  title:
+    en: Parents and grandparents
+    hanji: 爸母佮阿公阿媽
+    tailo: pē-bú kap a-kong a-má
+  words:
+  - hanji: 老爸
+    tailo: lāu-pē
+    en: father
+    zh: 父親
+  - hanji: 爸
+    tailo: pē
+    en: dad, father
+    zh: 爸
+  - hanji: 阿爹
+    tailo: a-tia
+    en: dad (older word)
+    zh: 爸爸
+  - hanji: 爹
+    tailo: tia
+    en: dad, father
+    zh: 爹
+  - hanji: 父
+    tailo: hū
+    en: father (literary)
+    zh: 父
+  - hanji: 娘
+    tailo: niû
+    en: mother; (in compounds) lady
+    zh: 娘
+  - hanji: 娘
+    tailo: niâ
+    en: mother (old)
+    zh: 媽
+  - hanji: 阿母
+    tailo: a-bú
+    en: mum, mother
+    zh: 媽媽
+  - hanji: 老母
+    tailo: lāu-bú
+    en: mother
+    zh: 母親
+  - hanji: 母
+    tailo: bú
+    en: mother (literary, in compounds)
+    zh: 母
+  - hanji: 母
+    tailo: bó
+    en: mother; female (of animals)
+    zh: 母
+  - hanji: 母親
+    tailo: bú-tshin
+    en: mother (formal)
+    zh: 母親
+  - hanji: 阿娘
+    tailo: a-niâ
+    en: mum (older word)
+    zh: 媽媽
+  - hanji: 娘嬭
+    tailo: niû-lé
+    en: mother (old-fashioned)
+    zh: 娘親
+  - hanji: 爸母
+    tailo: pē-bú
+    en: parents
+    zh: 父母
+  - hanji: 序大人
+    tailo: sī-tuā-lâng
+    en: parents (respectful)
+    zh: 父母親
+  - hanji: 阿公
+    tailo: a-kong
+    en: grandfather (father's father)
+    zh: 爺爺
+  - hanji: 阿媽
+    tailo: a-má
+    en: grandmother (father's mother)
+    zh: 奶奶
+  - hanji: 外公
+    tailo: guā-kong
+    en: grandfather (mother's father)
+    zh: 外公
+  - hanji: 外媽
+    tailo: guā-má
+    en: grandmother (mother's mother)
+    zh: 外婆
+  - hanji: 阿祖
+    tailo: a-tsóo
+    en: great-grandparent
+    zh: 曾祖父母
+  - hanji: 祖
+    tailo: tsóo
+    en: ancestor; grandparent (in compounds)
+    zh: 祖
+  - hanji: 祖先
+    tailo: tsóo-sian
+    en: ancestors
+    zh: 祖先
+  - hanji: 祖公
+    tailo: tsóo-kong
+    en: ancestors
+    zh: 祖先
+  - hanji: 公
+    tailo: kong
+    en: grandfather; old man (in compounds)
+    zh: 公
+- n: 4
+  title:
+    en: Brothers, sisters and children
+    hanji: 兄弟姊妹佮囝兒
+    tailo: hiann-tī tsí-muē kap kiánn-jî
+  words:
+  - hanji: 兄
+    tailo: hiann
+    en: elder brother
+    zh: 哥哥
+  - hanji: 哥
+    tailo: ko
+    en: elder brother (in compounds)
+    zh: 哥
+  - hanji: 阿兄
+    tailo: a-hiann
+    en: elder brother
+    zh: 哥哥
+  - hanji: 兄哥
+    tailo: hiann-ko
+    en: elder brother
+    zh: 哥哥
+  - hanji: 大兄
+    tailo: tuā-hiann
+    en: eldest brother
+    zh: 大哥
+  - hanji: 大哥
+    tailo: tuā-ko
+    en: eldest brother; big boss
+    zh: 大哥
+  - hanji: 大的
+    tailo: tuā--ê
+    en: the eldest; the boss
+    zh: 老大
+  - hanji: 老大
+    tailo: láu-tuā
+    en: eldest child
+    zh: 老大
+  - hanji: 弟
+    tailo: tī
+    en: younger brother
+    zh: 弟弟
+  - hanji: 弟
+    tailo: tē
+    en: younger brother (in compounds)
+    zh: 弟
+  - hanji: 小弟
+    tailo: sió-tī
+    en: younger brother; (I,) your humble servant
+    zh: 小弟
+  - hanji: 細的
+    tailo: sè--ê
+    en: the youngest; underling
+    zh: 小弟
+  - hanji: 兄弟
+    tailo: hiann-tī
+    en: brothers
+    zh: 兄弟
+  - hanji: 姊妹
+    tailo: tsí-muē
+    en: sisters
+    zh: 姐妹
+  - hanji: 大姊
+    tailo: tuā-tsí
+    en: eldest sister
+    zh: 大姊
+  - hanji: 阿姊
+    tailo: a-tsí
+    en: elder sister
+    zh: 姊姊
+  - hanji: 姊仔
+    tailo: tsí--á
+    en: elder sister
+    zh: 姊姊
+  - hanji: 妹
+    tailo: muē
+    en: younger sister
+    zh: 妹妹
+  - hanji: 小妹
+    tailo: sió-muē
+    en: younger sister
+    zh: 小妹
+  - hanji: 囝
+    tailo: kiánn
+    en: child; son or daughter
+    zh: 孩子
+  - hanji: 囝兒
+    tailo: kiánn-jî
+    en: children, sons
+    zh: 兒女
+  - hanji: 後生
+    tailo: hāu-senn
+    en: son
+    zh: 兒子
+  - hanji: 大囝
+    tailo: tuā-kiánn
+    en: eldest son
+    zh: 大兒子
+  - hanji: 查某囝
+    tailo: tsa-bóo-kiánn
+    en: daughter
+    zh: 女兒
+  - hanji: 女兒
+    tailo: lú-jî
+    en: daughter (literary)
+    zh: 女兒
+  - hanji: 子
+    tailo: tsú
+    en: son, child (literary)
+    zh: 子
+  - hanji: 兒
+    tailo: jî
+    en: son, child (in compounds)
+    zh: 兒
+  - hanji: 孫
+    tailo: sun
+    en: grandchild
+    zh: 孫子
+  - hanji: 孫仔
+    tailo: sun-á
+    en: grandchild
+    zh: 孫子
+  - hanji: 囝孫
+    tailo: kiánn-sun
+    en: descendants, children and grandchildren
+    zh: 子孫
+  - hanji: 子弟
+    tailo: tsú-tē
+    en: young people of a family
+    zh: 子弟
+  - hanji: 後代
+    tailo: āu-tāi
+    en: later generations
+    zh: 後代
+  - hanji: 好囝
+    tailo: hó-kiánn
+    en: good child
+    zh: 好孩子
+  - hanji: 歹囝
+    tailo: pháinn-kiánn
+    en: good-for-nothing son
+    zh: 敗家子
+- n: 5
+  title:
+    en: Uncles, aunts and cousins
+    hanji: 伯叔姑姨
+    tailo: peh tsik koo î
+  words:
+  - hanji: 伯
+    tailo: peh
+    en: uncle (father's elder brother)
+    zh: 伯父
+  - hanji: 阿伯
+    tailo: a-peh
+    en: uncle (father's elder brother); older man
+    zh: 伯伯
+  - hanji: 大伯
+    tailo: tuā-peh
+    en: eldest uncle (father's eldest brother)
+    zh: 大伯
+  - hanji: 阿姆
+    tailo: a-ḿ
+    en: aunt (wife of father's elder brother)
+    zh: 伯母
+  - hanji: 姆仔
+    tailo: ḿ--á
+    en: aunt (wife of father's elder brother)
+    zh: 伯母
+  - hanji: 阿叔
+    tailo: a-tsik
+    en: uncle (father's younger brother)
+    zh: 叔叔
+  - hanji: 叔
+    tailo: tsik
+    en: uncle (father's younger brother)
+    zh: 叔
+  - hanji: 叔公
+    tailo: tsik-kong
+    en: great-uncle (grandfather's younger brother)
+    zh: 叔公
+  - hanji: 嬸婆
+    tailo: tsím-pô
+    en: great-aunt (wife of grandfather's younger brother)
+    zh: 嬸婆
+  - hanji: 阿姑
+    tailo: a-koo
+    en: aunt (father's sister)
+    zh: 姑姑
+  - hanji: 姑
+    tailo: koo
+    en: aunt (father's sister, in compounds)
+    zh: 姑
+  - hanji: 姑婆
+    tailo: koo-pô
+    en: great-aunt (grandfather's sister)
+    zh: 姑婆
+  - hanji: 姑丈
+    tailo: koo-tiūnn
+    en: uncle (husband of father's sister)
+    zh: 姑丈
+  - hanji: 阿舅
+    tailo: a-kū
+    en: uncle (mother's brother)
+    zh: 舅舅
+  - hanji: 阿姨
+    tailo: a-î
+    en: aunt (mother's sister)
+    zh: 阿姨
+  - hanji: 表兄
+    tailo: piáu-hiann
+    en: cousin (older male, different surname)
+    zh: 表哥
+- n: 6
+  title:
+    en: In-laws and the wider family
+    hanji: 親情
+    tailo: tshin-tsiânn
+  words:
+  - hanji: 嫂
+    tailo: só
+    en: sister-in-law (elder brother's wife)
+    zh: 嫂
+  - hanji: 阿嫂
+    tailo: a-só
+    en: sister-in-law (elder brother's wife)
+    zh: 嫂嫂
+  - hanji: 兄嫂
+    tailo: hiann-só
+    en: sister-in-law (elder brother's wife)
+    zh: 嫂子
+  - hanji: 姊夫
+    tailo: tsí-hu
+    en: brother-in-law (elder sister's husband)
+    zh: 姊夫
+  - hanji: 小叔
+    tailo: sió-tsik
+    en: brother-in-law (husband's younger brother)
+    zh: 小叔
+  - hanji: 小姑
+    tailo: sió-koo
+    en: sister-in-law (husband's younger sister)
+    zh: 小姑
+  - hanji: 姨仔
+    tailo: î-á
+    en: sister-in-law (wife's sister)
+    zh: 小姨子
+  - hanji: 丈人
+    tailo: tiūnn-lâng
+    en: father-in-law (wife's father)
+    zh: 岳父
+  - hanji: 丈姆
+    tailo: tiūnn-ḿ
+    en: mother-in-law (wife's mother)
+    zh: 岳母
+  - hanji: 大家
+    tailo: ta-ke
+    en: mother-in-law (husband's mother)
+    zh: 婆婆
+  - hanji: 大官
+    tailo: ta-kuann
+    en: father-in-law (husband's father)
+    zh: 公公
+  - hanji: 新婦
+    tailo: sin-pū
+    en: daughter-in-law
+    zh: 媳婦
+  - hanji: 親家
+    tailo: tshin-ke
+    en: parents of one's child's spouse
+    zh: 親家
+  - hanji: 親情
+    tailo: tshin-tsiânn
+    en: relatives
+    zh: 親戚
+  - hanji: 親人
+    tailo: tshin-lâng
+    en: close relatives, family
+    zh: 親人
+  - hanji: 親
+    tailo: tshin
+    en: related by blood; close
+    zh: 親
+  - hanji: 親堂
+    tailo: tshin-tông
+    en: clan relatives (same surname)
+    zh: 同宗
+  - hanji: 族
+    tailo: tso̍k
+    en: clan; family (in compounds)
+    zh: 族
+  - hanji: 家
+    tailo: ka
+    en: family, household
+    zh: 家
+  - hanji: 家
+    tailo: ke
+    en: family (another reading)
+    zh: 家
+  - hanji: 家長
+    tailo: ka-tiúnn
+    en: head of the household
+    zh: 家長
+  - hanji: 大房
+    tailo: tuā-pâng
+    en: eldest son's branch of the family
+    zh: 長房
+  - hanji: 外家
+    tailo: guā-ke
+    en: a married woman's parents' home
+    zh: 娘家
+  - hanji: 後頭厝
+    tailo: āu-thâu-tshù
+    en: a married woman's parents' home
+    zh: 娘家
+  - hanji: 序大
+    tailo: sī-tuā
+    en: elders, the older generation
+    zh: 長輩
+  - hanji: 序細
+    tailo: sī-sè
+    en: the younger generation
+    zh: 晚輩
+  - hanji: 團圓
+    tailo: thuân-înn
+    en: family reunion; be reunited
+    zh: 團圓
+- n: 7
+  title:
+    en: Marriage
+    hanji: 嫁娶
+    tailo: kè-tshuā
+  words:
+  - hanji: 娶
+    tailo: tshuā
+    en: marry (a wife), take as a wife
+    zh: 娶
+  - hanji: 嫁
+    tailo: kè
+    en: (of a woman) marry
+    zh: 嫁
+  - hanji: 娶某
+    tailo: tshuā-bóo
+    en: take a wife
+    zh: 娶妻
+  - hanji: 嫁翁
+    tailo: kè-ang
+    en: (of a woman) get married
+    zh: 出嫁
+  - hanji: 結婚
+    tailo: kiat-hun
+    en: marry, get married
+    zh: 結婚
+  - hanji: 嫁娶
+    tailo: kè-tshuā
+    en: marriage, marrying
+    zh: 婚嫁
+  - hanji: 成親
+    tailo: sîng-tshin
+    en: get married
+    zh: 成親
+  - hanji: 做人
+    tailo: tsò--lâng
+    en: (of a girl) be betrothed
+    zh: 許配
+  - hanji: 姻緣
+    tailo: in-iân
+    en: marriage destiny
+    zh: 姻緣
+  - hanji: 親事
+    tailo: tshin-sū
+    en: marriage (arrangement)
+    zh: 親事
+  - hanji: 新娘
+    tailo: sin-niû
+    en: bride
+    zh: 新娘
+  - hanji: 新郎
+    tailo: sin-lông
+    en: bridegroom
+    zh: 新郎
+  - hanji: 新人
+    tailo: sin-lâng
+    en: newly-weds
+    zh: 新人
+  - hanji: 某
+    tailo: bóo
+    en: wife
+    zh: 妻子
+  - hanji: 妻
+    tailo: tshe
+    en: wife (formal)
+    zh: 妻
+  - hanji: 牽手
+    tailo: khan-tshiú
+    en: wife, spouse
+    zh: 老婆
+  - hanji: 家後
+    tailo: ke-āu
+    en: wife
+    zh: 妻子
+  - hanji: 牽的
+    tailo: khan--ê
+    en: wife
+    zh: 老婆
+  - hanji: 翁
+    tailo: ang
+    en: husband
+    zh: 丈夫
+  - hanji: 翁婿
+    tailo: ang-sài
+    en: husband
+    zh: 丈夫
+  - hanji: 夫
+    tailo: hu
+    en: husband (in compounds)
+    zh: 夫
+  - hanji: 夫君
+    tailo: hu-kun
+    en: husband (old-fashioned)
+    zh: 夫君
+  - hanji: 郎君
+    tailo: lông-kun
+    en: husband (literary)
+    zh: 郎君
+  - hanji: 相公
+    tailo: siòng-kong
+    en: husband (old-fashioned)
+    zh: 相公
+  - hanji: 婿
+    tailo: sài
+    en: son-in-law; husband (in compounds)
+    zh: 婿
+  - hanji: 娘囝
+    tailo: niû-kiánn
+    en: wife (literary)
+    zh: 娘子
+  - hanji: 夫人
+    tailo: hu-jîn
+    en: Madam; wife (of an official)
+    zh: 夫人
+  - hanji: 太太
+    tailo: thài-thài
+    en: Mrs; wife
+    zh: 太太
+  - hanji: 夫妻
+    tailo: hu-tshe
+    en: husband and wife
+    zh: 夫妻
+  - hanji: 夫婦
+    tailo: hu-hū
+    en: husband and wife
+    zh: 夫婦
+  - hanji: 翁某
+    tailo: ang-bóo
+    en: husband and wife
+    zh: 夫妻
+  - hanji: 翁仔某
+    tailo: ang-á-bóo
+    en: husband and wife, couple
+    zh: 夫妻
+  - hanji: 某囝
+    tailo: bóo-kiánn
+    en: wife and children
+    zh: 妻兒
+  - hanji: 大某
+    tailo: tuā-bóo
+    en: first wife
+    zh: 正室
+  - hanji: 細姨
+    tailo: sè-î
+    en: concubine
+    zh: 小老婆
+  - hanji: 契兄
+    tailo: khè-hiann
+    en: lover (of a married woman)
+    zh: 情夫
+- n: 8
+  title:
+    en: Friends, guests and care
+    hanji: 朋友、人客佮照顧
+    tailo: pîng-iú, lâng-kheh kap tsiàu-kòo
+  words:
+  - hanji: 朋友
+    tailo: pîng-iú
+    en: friend
+    zh: 朋友
+  - hanji: 伴
+    tailo: phuānn
+    en: companion, partner
+    zh: 伴
+  - hanji: 做伴
+    tailo: tsò-phuānn
+    en: keep someone company
+    zh: 作伴
+  - hanji: 陪
+    tailo: puê
+    en: accompany
+    zh: 陪
+  - hanji: 厝邊
+    tailo: tshù-pinn
+    en: neighbour
+    zh: 鄰居
+  - hanji: 熟似
+    tailo: si̍k-sāi
+    en: know, be acquainted with
+    zh: 認識
+  - hanji: 交插
+    tailo: kau-tshap
+    en: have dealings with, associate with
+    zh: 交往
+  - hanji: 結拜
+    tailo: kiat-pài
+    en: become sworn brothers
+    zh: 結拜
+  - hanji: 人客
+    tailo: lâng-kheh
+    en: guest; customer
+    zh: 客人
+  - hanji: 客
+    tailo: kheh
+    en: guest (in compounds)
+    zh: 客
+  - hanji: 來賓
+    tailo: lâi-pin
+    en: guest, visitor (formal)
+    zh: 來賓
+  - hanji: 主人
+    tailo: tsú-lâng
+    en: host; owner
+    zh: 主人
+  - hanji: 師父
+    tailo: su-hū
+    en: master (craftsman); teacher
+    zh: 師父
+  - hanji: 長老
+    tailo: tiúnn-ló
+    en: elder (respected); church elder
+    zh: 長老
+  - hanji: 同胞
+    tailo: tông-pau
+    en: compatriot, fellow countryman
+    zh: 同胞
+  - hanji: 照顧
+    tailo: tsiàu-kòo
+    en: take care of, look after
+    zh: 照顧
+  - hanji: 奉待
+    tailo: hōng-thāi
+    en: look after (elders)
+    zh: 奉養
+  - hanji: 孝
+    tailo: hàu
+    en: be filial; filial piety
+    zh: 孝
+- n: 9
+  title:
+    en: Family names
+    hanji: 姓
+    tailo: sènn
+  words:
+  - hanji: 姓
+    tailo: sènn
+    en: family name, surname
+    zh: 姓
+  - hanji: 姓
+    tailo: sìng
+    en: family name (literary reading)
+    zh: 姓
+  - hanji: 氏
+    tailo: sī
+    en: family branch; née
+    zh: 氏
+  - hanji: 陳
+    tailo: tân
+    en: Tân (surname 陳)
+    zh: 陳
+  - hanji: 林
+    tailo: lîm
+    en: Lîm (surname 林); forest (in compounds)
+    zh: 林
+  - hanji: 李
+    tailo: lí
+    en: Lí (surname 李); plum tree
+    zh: 李
+  - hanji: 楊
+    tailo: iûnn
+    en: Iûnn (surname 楊)
+    zh: 楊
+  - hanji: 鄭
+    tailo: tēnn
+    en: Tēnn (surname 鄭)
+    zh: 鄭
+  - hanji: 趙
+    tailo: tiō
+    en: Tiō (surname 趙)
+    zh: 趙
+  - hanji: 劉
+    tailo: lâu
+    en: Lâu (surname 劉)
+    zh: 劉
+  - hanji: 蔡
+    tailo: tshuà
+    en: Tshuà (surname 蔡)
+    zh: 蔡
+  - hanji: 廖
+    tailo: liāu
+    en: Liāu (surname 廖)
+    zh: 廖
+  - hanji: 潘
+    tailo: phuann
+    en: Phuann (surname 潘)
+    zh: 潘
+  - hanji: 翁
+    tailo: ong
+    en: Ong (surname 翁)
+    zh: 翁
+  - hanji: 洪
+    tailo: âng
+    en: Âng (surname 洪)
+    zh: 洪
+  - hanji: 胡
+    tailo: ôo
+    en: Ôo (surname 胡)
+    zh: 胡
+  - hanji: 周
+    tailo: tsiu
+    en: Tsiu (surname 周)
+    zh: 周
+  - hanji: 蘇
+    tailo: soo
+    en: Soo (surname 蘇)
+    zh: 蘇
+  - hanji: 彭
+    tailo: phênn
+    en: Phênn (surname 彭)
+    zh: 彭
+  - hanji: 杜
+    tailo: tōo
+    en: Tōo (surname 杜)
+    zh: 杜
+  - hanji: 郭
+    tailo: kueh
+    en: Kueh (surname 郭)
+    zh: 郭
+  - hanji: 梁
+    tailo: niû
+    en: Niû (surname 梁)
+    zh: 梁
+  - hanji: 范
+    tailo: huān
+    en: Huān (surname 范)
+    zh: 范
+  - hanji: 羅
+    tailo: lô
+    en: Lô (surname 羅)
+    zh: 羅
