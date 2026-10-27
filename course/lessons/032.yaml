@@ -10,6 +10,10 @@ dialogue:
   - {n: 5, speaker: Mrs Lîm, hanji: "厝邊頭尾，逐家攏嘛會講。", tailo: "Tshù-pinn-thâu-bué, ta̍k-ke lóng mā ē kóng.", en: "Neighbours talk, everyone does."}
   - {n: 6, speaker: Mrs Lîm, hanji: "伊看起來親像真好心，你嘛會使去認捌一下。", tailo: "I khuànn--khí-lâi tshin-tshiūnn tsin hó-sim, lí mā ē-sái khì jīn-bat--tsi̍t-ē.", en: "She seems really kind. You could go and get to know them too."}
   - {n: 7, speaker: Sam, hanji: "好啊，有閒我共𪜶鬥相共。", tailo: "Hó--ah, ū-îng guá kā in tàu-sann-kāng.", en: "Sure. When I have time, I'll give them a hand."}
+  - {n: 8, speaker: "Mrs Lîm", hanji: "閣聽講彼个查埔的佮伊的兄弟做伙開公司，人真老實。", tailo: "Koh thiann-kóng hit ê tsa-poo--ê kah i ê hiann-tī tsò-hué khui kong-si, lâng tsin láu-si̍t.", en: "And I hear the husband runs a company with his brother, and he's a very honest man."}
+  - {n: 9, speaker: "Sam", hanji: "你真熱心，三樓的代誌你攏知。", tailo: "Lí tsin jia̍t-sim, sann lâu ê tāi-tsì lí lóng tsai.", en: "You're very public-spirited: you know everything about the third floor."}
+  - {n: 10, speaker: "Mrs Lîm", hanji: "我是好意啦！厝邊就是愛鬥相共。", tailo: "Guá sī hó-ì--lah! Tshù-pinn tō sī ài tàu-sann-kāng.", en: "I mean well! Neighbours are there to help each other."}
+  - {n: 11, speaker: "Mrs Lîm", hanji: "做人就是按呢：你對人好，人就對你好。人情若做予好，有代誌的時，厝邊頭尾攏會來鬥相共。", tailo: "Tsò-lâng tō sī án-ne: lí tuì lâng hó, lâng tō tuì lí hó. Jîn-tsîng nā tsò hōo hó, ū tāi-tsì ê sî, tshù-pinn-thâu-bué lóng ē lâi tàu-sann-kāng.", en: "That's how life works: be good to people and they'll be good to you. If you keep up good relations, when something happens the whole neighbourhood comes to help."}
 notes:
   - {ref: 1, topic: grammar, text: "聽講 thiann-kóng = I hear that, people say (聽說). 敢有聽講？ 'have you heard?'. 樓 lâu = floor: 三樓 'the third floor'."}
   - {ref: 1, topic: vocab, text: "搬 puann = move (house), carry: 搬來 'move in'. 翁某 ang-bóo = husband and wife (夫妻): 翁 ang husband, 某 bóo wife. 對 tuì = a pair, couple (classifier)."}
@@ -20,6 +24,10 @@ notes:
   - {ref: 5, topic: vocab, text: "厝邊頭尾 tshù-pinn-thâu-bué = the neighbours, the whole neighbourhood (literally 'house-sides, heads and tails'). 攏嘛 lóng mā 'all of them, of course': 嘛 adds 'that's how it is'."}
   - {ref: 6, topic: grammar, text: "看起來 khuànn--khí-lâi = look, seem (看起來). 親像 tshin-tshiūnn = seem, like (好像), a very common Taigi word. 好心 hó-sim = kind. 認捌 jīn-bat = get to know (認識)."}
   - {ref: 7, topic: vocab, text: "鬥相共 tàu-sann-kāng = help out, give a hand (幫忙). 共𪜶鬥相共 'help them': 共 again marks the person helped. 𪜶 in = they, them."}
+  - {ref: 8, topic: "vocab", text: "兄弟 hiann-tī = brothers; 𪜶兩兄弟 'the two brothers'. 老實 láu-si̍t = honest, straightforward (note láu, not lāu)."}
+  - {ref: 9, topic: "vocab", text: "熱心 jia̍t-sim = eager to help, public-spirited; Sam is teasing her gently."}
+  - {ref: 10, topic: "vocab", text: "好意 hó-ì = good intentions: 我是好意 'I mean well'; 伊是好意 'he meant well'."}
+  - {ref: 11, topic: "culture", text: "做人 tsò-lâng = how you behave towards others, your character: 伊做人真好 'he's a good person'. (With a neutral tone, 做人 tsò--lâng means a girl is engaged.) 人情 jîn-tsîng = the give and take of favours between people: 做人情 'do someone a favour'. Keeping up 人情 with the neighbours matters a lot in Taiwan."}
 new_words:
   - {tailo: thiann-kóng, hanji: 聽講, en: "I hear that, people say"}
   - {tailo: lâu, hanji: 樓, en: "floor, storey"}
@@ -37,10 +45,17 @@ new_words:
   - {tailo: jīn-bat, hanji: 認捌, en: "get to know"}
   - {tailo: tàu-sann-kāng, hanji: 鬥相共, en: "help out"}
   - {tailo: in, hanji: 𪜶, en: "they, them"}
+  - {tailo: "hiann-tī", hanji: "兄弟", en: "brothers"}
+  - {tailo: "láu-si̍t", hanji: "老實", en: "honest"}
+  - {tailo: "jia̍t-sim", hanji: "熱心", en: "eager to help"}
+  - {tailo: "hó-ì", hanji: "好意", en: "good intentions"}
+  - {tailo: "tsò-lâng", hanji: "做人", en: "the way one treats people, character"}
+  - {tailo: "jîn-tsîng", hanji: "人情", en: "favours, give and take"}
 exercises:
   translate:
     - {tailo: "Lí kám ū thiann-kóng?", hanji: "你敢有聽講？", en: "Have you heard?"}
     - {tailo: "I khuànn--khí-lâi tshin-tshiūnn tsin hó-sim.", hanji: "伊看起來親像真好心。", en: "She seems really kind."}
+    - {tailo: "Lí tuì lâng hó, lâng tō tuì lí hó.", hanji: "你對人好，人就對你好。", en: "Be good to people and they'll be good to you."}
   fill:
     - {tailo: "Lí ná ē tsai ___ tsē?", hanji: "你哪會知___濟？", answer: "tsiah-nī", answer_hanji: "遮爾", en: "How do you know so much?"}
     - {tailo: "Ū-îng guá kā in ___.", hanji: "有閒我共𪜶___。", answer: "tàu-sann-kāng", answer_hanji: "鬥相共", en: "When I have time, I'll give them a hand."}

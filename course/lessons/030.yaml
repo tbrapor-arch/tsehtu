@@ -11,6 +11,9 @@ dialogue:
   - {n: 6, speaker: Clerk, hanji: "你今仔日欲存偌濟？", tailo: "Lí kin-á-ji̍t beh tsûn guā-tsē?", en: "How much would you like to deposit today?"}
   - {n: 7, speaker: Sam, hanji: "先存一萬五千。", tailo: "Sing tsûn tsi̍t-bān gōo-tshing.", en: "Fifteen thousand to start."}
   - {n: 8, speaker: Clerk, hanji: "好，這是你的簿仔。以後你會使家己來領錢。", tailo: "Hó, tse sī lí ê phōo-á. Í-āu lí ē-sái ka-kī lâi niá-tsînn.", en: "Here's your passbook. From now on you can come and withdraw money yourself."}
+  - {n: 9, speaker: "Sam", hanji: "我若欲提現金，敢逐擺攏愛來銀行？", tailo: "Guá nā beh the̍h hiān-kim, kám ta̍k pái lóng ài lâi gîn-hâng?", en: "If I want to take out cash, do I have to come to the bank every time?"}
+  - {n: 10, speaker: "Clerk", hanji: "毋免。用這張卡，佇外面就會使提錢。毋過卡的號碼毋通予人知。", tailo: "M̄-bián. Iōng tsit tiunn khah, tī guā-bīn tō ē-sái the̍h tsînn. M̄-koh khah ê hō-bé m̄-thang hōo lâng tsai.", en: "No. With this card you can take money out at the machine outside. But don't let anyone know your PIN."}
+  - {n: 11, speaker: "Sam", hanji: "我會細膩。我是希望有一工，簿仔的錢會當有一百萬，按呢我就會使請你食飯矣。", tailo: "Guá ē sè-jī. Guá sī hi-bāng ū tsi̍t kang, phōo-á ê tsînn ē-tàng ū tsi̍t-pah-bān, án-ne guá tō ē-sái tshiánn lí tsia̍h-pn̄g--ah.", en: "I'll be careful. I'm hoping that one day there'll be a million in my passbook, and then I'll be able to take you out to dinner."}
 notes:
   - {ref: 1, topic: vocab, text: "辦 pān = handle, do (paperwork) (辦). 銀行 gîn-hâng = bank: 銀 gîn 'silver, money'."}
   - {ref: 2, topic: vocab, text: "開戶頭 khui hōo-thâu = open a bank account (開戶). 戶頭 hōo-thâu = account."}
@@ -20,6 +23,9 @@ notes:
   - {ref: 6, topic: grammar, text: "存 tsûn = deposit, save (存). 偌濟 guā-tsē = how much (lesson 24)."}
   - {ref: 7, topic: grammar, text: "Thousands: 千 tshing (colloquial; literary tshian). 一萬五千 tsi̍t-bān gōo-tshing = 15,000; in speech often shortened to 一萬五 tsi̍t-bān-gōo."}
   - {ref: 8, topic: vocab, text: "簿仔 phōo-á = notebook, (bank) passbook. 以後 í-āu = from now on, later. 家己 ka-kī = oneself (自己). 領錢 niá-tsînn = withdraw money (領 = collect, receive; the same 領 is the classifier for clothes in lesson 15)."}
+  - {ref: 9, topic: "vocab", text: "現金 hiān-kim = cash. 提錢 the̍h tsînn = take out money (領錢, lesson 30's other word, is more formal)."}
+  - {ref: 10, topic: "vocab", text: "卡 khah = card, from English: 信用卡 'credit card'. Read kha̍h it means 'get stuck': 屜仔卡牢咧 'the drawer's stuck'. 號碼 hō-bé = number; here the card's PIN. 外面 guā-bīn = outside (here: the machine outside); 外口 guā-kháu (lesson 34) is more colloquial."}
+  - {ref: 11, topic: "grammar", text: "百萬 pah-bān = a million: 一百萬 'one million' (10,000 × 100; Taigi counts in 萬). 我是希望… 'what I'm hoping is …': 是 adds emphasis. 按呢我就會使… 'then I'll be able to …'."}
 new_words:
   - {tailo: pān, hanji: 辦, en: "handle, do (paperwork)"}
   - {tailo: gîn-hâng, hanji: 銀行, en: "bank"}
@@ -35,10 +41,16 @@ new_words:
   - {tailo: í-āu, hanji: 以後, en: "from now on, later"}
   - {tailo: ka-kī, hanji: 家己, en: "oneself"}
   - {tailo: niá-tsînn, hanji: 領錢, en: "withdraw money"}
+  - {tailo: "hiān-kim", hanji: "現金", en: "cash"}
+  - {tailo: "khah", hanji: "卡", en: "card"}
+  - {tailo: "hō-bé", hanji: "號碼", en: "number; PIN"}
+  - {tailo: "pah-bān", hanji: "百萬", en: "a million"}
+  - {tailo: "guā-bīn", hanji: "外面", en: "outside"}
 exercises:
   translate:
     - {tailo: "Guá beh khui tsi̍t ê hōo-thâu.", hanji: "我欲開一个戶頭。", en: "I'd like to open an account."}
     - {tailo: "Tshiánn kā lí ê hōo-tsiàu the̍h hōo guá.", hanji: "請共你的護照提予我。", en: "Please give me your passport."}
+    - {tailo: "Khah ê hō-bé m̄-thang hōo lâng tsai.", hanji: "卡的號碼毋通予人知。", en: "Don't let anyone know your PIN."}
   fill:
     - {tailo: "Sing tsûn tsi̍t-bān gōo-___.", hanji: "先存一萬五___。", answer: "tshing", answer_hanji: "千", en: "Fifteen thousand to start."}
     - {tailo: "Í-āu lí ē-sái ka-kī lâi ___.", hanji: "以後你會使家己來___。", answer: "niá-tsînn", answer_hanji: "領錢", en: "From now on you can come and withdraw money yourself."}

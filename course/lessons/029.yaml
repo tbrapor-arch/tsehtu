@@ -10,6 +10,10 @@ dialogue:
   - {n: 5, speaker: A-bîng, hanji: "著。你愛照規矩騎，莫傷緊。", tailo: "Tio̍h. Lí ài tsiàu kui-kí khiâ, mài siunn kín.", en: "Yes. Ride by the rules, and not too fast."}
   - {n: 6, speaker: A-bîng, hanji: "車路人濟，愛細膩。", tailo: "Tshia-lōo lâng tsē, ài sè-jī.", en: "The roads are busy, be careful."}
   - {n: 7, speaker: Sam, hanji: "知啦。若有代誌，我敲電話予你。", tailo: "Tsai--lah. Nā ū tāi-tsì, guá khà tiān-uē hōo lí.", en: "I know. If anything happens, I'll call you."}
+  - {n: 8, speaker: "A-bîng", hanji: "過路頭的時愛勻勻仔騎，頭前的車攏愛看予好。", tailo: "Kuè lōo-thâu ê sî ài ûn-ûn-á khiâ, thâu-tsîng ê tshia lóng ài khuànn hōo hó.", en: "At crossroads take it slowly, and keep a good eye on the vehicles in front."}
+  - {n: 9, speaker: "Sam", hanji: "若揣無路咧？", tailo: "Nā tshuē bô lōo--leh?", en: "And if I get lost?"}
+  - {n: 10, speaker: "A-bîng", hanji: "設使你揣無路，就敲電話予我，我去𤆬你。", tailo: "Siat-sú lí tshuē bô lōo, tō khà tiān-uē hōo--guá, guá khì tshuā--lí.", en: "If you get lost, just call me and I'll come and get you."}
+  - {n: 11, speaker: "A-bîng", hanji: "閣有，暗時萬萬毋通騎傷緊。罰錢是小可代誌，人若出代誌，就無藥通醫矣。", tailo: "Koh-ū, àm-sî bān-bān m̄-thang khiâ siunn kín. Hua̍t-tsînn sī sió-khuá tāi-tsì, lâng nā tshut tāi-tsì, tō bô io̍h thang i--ah.", en: "And whatever you do, don't ride too fast at night. A fine is nothing; if you have an accident, there's no medicine for that."}
 notes:
   - {ref: 1, topic: vocab, text: "騎 khiâ = ride (a bike, a scooter); 機車 ki-tshia = scooter, motorbike. Taiwan's everyday vehicle."}
   - {ref: 2, topic: grammar, text: "毋捌 + verb + 過 kuè = have never … : 毋捌騎過 'have never ridden'. 過 after a verb (neutral tone) adds the experience sense, like Mandarin 過; with 捌 it is optional."}
@@ -19,6 +23,9 @@ notes:
   - {ref: 5, topic: false-friend, text: "照 tsiàu = according to, follow (按照): 照規矩 'by the rules'. 規矩 kui-kí = rules. 緊 kín = fast (lesson 16)."}
   - {ref: 6, topic: false-friend, text: "細膩 sè-jī = careful (小心), also 'polite, reserved'. Not Mandarin 細膩 'delicate'. 車路 tshia-lōo = road (for traffic)."}
   - {ref: 7, topic: grammar, text: "敲電話予你 'call you': 予 hōo + person after the verb = to someone (lesson 23). 若有代誌 'if anything happens'."}
+  - {ref: 8, topic: "vocab", text: "路頭 lōo-thâu = crossroads, the start of a road; also 'the way, the journey': 路頭遠 'it's a long way'. 勻勻仔 ûn-ûn-á = slowly and carefully, Taigi-only: 勻勻仔行 'walk carefully'. 看予好 'look carefully': V + 予好."}
+  - {ref: 10, topic: "grammar", text: "設使 siat-sú = if, supposing (假使), a little more formal than 若 nā: 設使你揣無路… 'if you get lost …'. 揣無路 'can't find the way'. 𤆬 = take, fetch (lesson 12)."}
+  - {ref: 11, topic: "vocab", text: "萬萬 bān-bān = on no account, absolutely (with a negative): 萬萬毋通 'whatever you do, don't'. 小可代誌 'a small matter' (小可, lesson 24). 出代誌 tshut tāi-tsì = something bad happens, have an accident. 無藥通醫 'no medicine can cure it': 醫 i = treat, cure."}
 new_words:
   - {tailo: khiâ, hanji: 騎, en: "ride"}
   - {tailo: ki-tshia, hanji: 機車, en: "scooter, motorbike"}
@@ -32,6 +39,11 @@ new_words:
   - {tailo: kui-kí, hanji: 規矩, en: "rules"}
   - {tailo: tshia-lōo, hanji: 車路, en: "road"}
   - {tailo: sè-jī, hanji: 細膩, en: "careful"}
+  - {tailo: "lōo-thâu", hanji: "路頭", en: "crossroads; the way"}
+  - {tailo: "ûn-ûn-á", hanji: "勻勻仔", en: "slowly and carefully"}
+  - {tailo: "siat-sú", hanji: "設使", en: "if, supposing"}
+  - {tailo: "bān-bān", hanji: "萬萬", en: "on no account, absolutely"}
+  - {tailo: "i", hanji: "醫", en: "treat, cure"}
 exercises:
   translate:
     - {tailo: "An-tsuân-bō ài tì hó.", hanji: "安全帽愛戴好。", en: "Put your helmet on properly."}
@@ -39,4 +51,5 @@ exercises:
   fill:
     - {tailo: "Lí ài ___ kui-kí khiâ.", hanji: "你愛___規矩騎。", answer: "tsiàu", answer_hanji: "照", en: "Ride by the rules."}
     - {tailo: "Kíng-tshat ē ___.", hanji: "警察會___。", answer: "lia̍h", answer_hanji: "掠", en: "The police will catch you."}
+    - {tailo: "Kuè lōo-thâu ê sî ài ___ khiâ.", hanji: "過路頭的時愛___騎。", answer: "ûn-ûn-á", answer_hanji: "勻勻仔", en: "At crossroads take it slowly."}
 audio: []

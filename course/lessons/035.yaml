@@ -8,6 +8,9 @@ dialogue:
   - {n: 3, speaker: Sam, hanji: "我嘛無代誌。毋過我的雨傘煞予風吹歹去矣。", tailo: "Guá mā bô tāi-tsì. M̄-koh guá ê hōo-suànn suah hōo hong tshue pháinn--khì--ah.", en: "I'm fine too. But my umbrella got broken by the wind."}
   - {n: 4, speaker: Mrs Lîm, hanji: "聽講三樓彼對翁某有來共你鬥相共？", tailo: "Thiann-kóng sann lâu hit tuì ang-bóo ū lâi kā lí tàu-sann-kāng?", en: "I hear the couple from the third floor came to help you?"}
   - {n: 5, speaker: Sam, hanji: "著啊，𪜶真好心，佮你講的仝款。", tailo: "Tio̍h--ah, in tsin hó-sim, kah lí kóng--ê kāng-khuán.", en: "Yes, they're really kind, just as you said."}
+  - {n: 6, speaker: "Mrs Lîm", hanji: "你的手機仔閣有拍毋見無？", tailo: "Lí ê tshiú-ki-á koh ū phah-m̄-kìnn--bô?", en: "Have you lost your phone again?"}
+  - {n: 7, speaker: "Sam", hanji: "無啦！我這馬佇公車頂攏毋敢睏，騎機車嘛勻勻仔騎。", tailo: "Bô--lah! Guá tsit-má tī kong-tshia tíng lóng m̄ kánn khùn, khiâ ki-tshia mā ûn-ûn-á khiâ.", en: "No! Now I never dare fall asleep on the bus, and I ride my scooter nice and slowly."}
+  - {n: 8, speaker: "Mrs Lîm", hanji: "按呢就好。有閒來阮兜食飯，我予你認捌三樓彼對翁某。𪜶人真老實閣熱心。", tailo: "Án-ne tō hó. Ū-îng lâi guán tau tsia̍h-pn̄g, guá hōo lí jīn-bat sann lâu hit tuì ang-bóo. In lâng tsin láu-si̍t koh jia̍t-sim.", en: "Good. Come round for a meal when you're free, and I'll introduce you to the couple on the third floor. They're honest and helpful people."}
 notes:
   - {ref: 1, topic: vocab, text: "林太太 Lîm thài-thài = Mrs Lîm. Surname + 太太 for a married woman, as in Mandarin."}
   - {ref: 2, topic: grammar, text: "暝 mê = night (counting nights): 一暝 'one night'. Days are counted with 工 kang, nights with 暝 mê."}
@@ -15,6 +18,9 @@ notes:
   - {ref: 4, topic: grammar, text: "Result words after a verb: 著 tio̍h (reached: 掠著, 看著, 揣著), 無 bô (not reached: 揣無), 去 khì (changed state: 睏去, 歹去), 好 hó / 予好 hōo hó (done properly)."}
   - {ref: 5, topic: grammar, text: "Same and different: 佮 A 仝款 'the same as A', 無仝 'different', 親像 'seems, like'. Hearsay: 聽講 'I hear that'."}
   - {ref: 5, topic: grammar, text: "Numbers recap: 百 pah, 千 tshing, 萬 bān: 一萬五千 15,000, 一百二 120. With classifiers: 一支手機仔, 一對翁某, 一條溪仔."}
+  - {ref: 6, topic: "vocab", text: "Lessons 29–34 again: 拍毋見 (33)."}
+  - {ref: 7, topic: "vocab", text: "勻勻仔 'slowly, carefully' (29). 毋敢 m̄ kánn = not dare."}
+  - {ref: 8, topic: "vocab", text: "認捌 'get to know' (32); 老實, 熱心 (32)."}
 new_words:
   - {tailo: thài-thài, hanji: 太太, en: "Mrs; wife"}
   - {tailo: mê, hanji: 暝, en: "night"}
@@ -27,4 +33,5 @@ exercises:
   fill:
     - {tailo: "Guá ê hōo-suànn ___ hong tshue pháinn--khì--ah.", hanji: "我的雨傘___風吹歹去矣。", answer: "hōo", answer_hanji: "予", en: "My umbrella got broken by the wind."}
     - {tailo: "Kan-na thîng-tiān tsi̍t ___.", hanji: "干焦停電一___。", answer: "mê", answer_hanji: "暝", en: "Just a power cut for one night."}
+    - {tailo: "In lâng tsin ___ koh jia̍t-sim.", hanji: "𪜶人真___閣熱心。", answer: "láu-si̍t", answer_hanji: "老實", en: "They're honest and helpful people."}
 audio: []

@@ -10,6 +10,9 @@ dialogue:
   - {n: 5, speaker: Daughter, hanji: "多謝阿叔！", tailo: "To-siā a-tsik!", en: "Thank you, uncle!"}
   - {n: 6, speaker: A-hun, hanji: "來，點蠟燭。先發願，才歕蠟燭。", tailo: "Lâi, tiám la̍h-tsik. Sing huat-guān, tsiah pûn la̍h-tsik.", en: "Come on, light the candles. Make a wish first, then blow them out."}
   - {n: 7, speaker: Daughter, hanji: "我的心願是佮阿母仝款，做老師！", tailo: "Guá ê sim-guān sī kah a-bú kāng-khuán, tsò lāu-su!", en: "My wish is to be a teacher, like Mum!"}
+  - {n: 8, speaker: "Sam", hanji: "我的禮物是一个尪仔，你敢佮意？", tailo: "Guá ê lé-bu̍t sī tsi̍t ê ang-á, lí kám kah-ì?", en: "My present is a doll. Do you like it?"}
+  - {n: 9, speaker: "Daughter", hanji: "足可愛！伊穿的衫閣有蝴蝶！", tailo: "Tsiok khó-ài! I tshīng ê sann koh ū ôo-tia̍p!", en: "It's so cute! And its dress has butterflies on it!"}
+  - {n: 10, speaker: "A-hun", hanji: "你看伊遐快活。阿叔，多謝你。伊七歲的生日，你嘛愛來，予伊閣遮快活一擺。", tailo: "Lí khuànn i hiah khuìnn-ua̍h. A-tsik, to-siā--lí. I tshit huè ê senn-ji̍t, lí mā ài lâi, hōo i koh tsiah khuìnn-ua̍h tsi̍t pái.", en: "Look how happy she is. Thank you, 'uncle'. For her seventh birthday you must come too and make her this happy all over again."}
 notes:
   - {ref: 1, topic: vocab, text: "查某囝 tsa-bóo-kiánn = daughter (女兒); son is 後生 hāu-senn. 生日 senn-ji̍t = birthday: 生 has its colloquial reading senn here."}
   - {ref: 2, topic: grammar, text: "幾歲矣？ kuí huè--ah? = how old is (he/she) now? The answer keeps 矣: 六歲矣."}
@@ -18,6 +21,9 @@ notes:
   - {ref: 5, topic: vocab, text: "阿叔 a-tsik = uncle (father's younger brother), and the polite way a child addresses a man of their parents' age."}
   - {ref: 6, topic: vocab, text: "點蠟燭 tiám la̍h-tsik = light candles. 發願 huat-guān = make a wish. 歕 pûn = blow (吹), a Taigi-only character."}
   - {ref: 7, topic: grammar, text: "佮 A 仝款 kah A kāng-khuán = the same as A (跟A一樣). 仝款 kāng-khuán = same; its opposite 無仝 bô-kâng (lesson 10). 心願 sim-guān = wish; 老師 lāu-su = teacher."}
+  - {ref: 8, topic: "vocab", text: "尪仔 ang-á = doll, figurine, puppet; also a picture of a person: 尪仔冊 'comic book'. 禮物 = present (lesson 31)."}
+  - {ref: 9, topic: "vocab", text: "可愛 khó-ài = cute, lovely (same as Mandarin); 古錐 kóo-tsui is the everyday Taigi word for 'cute' (lesson 74). 蝴蝶 ôo-tia̍p = butterfly, the literary word; children also say 蝶仔."}
+  - {ref: 10, topic: "vocab", text: "快活 khuìnn-ua̍h = happy, cheerful, at ease (not 'carefree' in the Mandarin sense only): note the reading khuìnn. 遐快活 'so happy' (遐 hiah = so, that much). 予伊閣… 一擺 'make her … once more'."}
 new_words:
   - {tailo: tsa-bóo-kiánn, hanji: 查某囝, en: "daughter"}
   - {tailo: senn-ji̍t, hanji: 生日, en: "birthday"}
@@ -32,6 +38,10 @@ new_words:
   - {tailo: sim-guān, hanji: 心願, en: "wish"}
   - {tailo: kāng-khuán, hanji: 仝款, en: "the same"}
   - {tailo: lāu-su, hanji: 老師, en: "teacher"}
+  - {tailo: "ang-á", hanji: "尪仔", en: "doll, figurine"}
+  - {tailo: "khó-ài", hanji: "可愛", en: "cute, lovely"}
+  - {tailo: "ôo-tia̍p", hanji: "蝴蝶", en: "butterfly"}
+  - {tailo: "khuìnn-ua̍h", hanji: "快活", en: "happy, cheerful"}
 exercises:
   translate:
     - {tailo: "I kuí huè--ah?", hanji: "伊幾歲矣？", en: "How old is she?"}
@@ -39,4 +49,5 @@ exercises:
   fill:
     - {tailo: "Tse sī guá ___ lí ê lé-bu̍t.", hanji: "這是我___你的禮物。", answer: "sàng", answer_hanji: "送", en: "Here's a present for you."}
     - {tailo: "Kah a-bú ___.", hanji: "佮阿母___。", answer: "kāng-khuán", answer_hanji: "仝款", en: "The same as Mum."}
+    - {tailo: "Lí khuànn i hiah ___.", hanji: "你看伊遐___。", answer: "khuìnn-ua̍h", answer_hanji: "快活", en: "Look how happy she is."}
 audio: []

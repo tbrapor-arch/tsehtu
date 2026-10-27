@@ -11,6 +11,9 @@ dialogue:
   - {n: 6, speaker: A-bîng, hanji: "手電仔佮蠟條攏有，罐頭嘛買足濟矣。", tailo: "Tshiú-tiān-á kah la̍h-tiâu lóng ū, kuàn-thâu mā bé tsiok tsē--ah.", en: "We've got torches and candles, and plenty of tins too."}
   - {n: 7, speaker: Sam, hanji: "彼條溪仔會淹水無？", tailo: "Hit tiâu khe-á ē im-tsuí--bô?", en: "Will that stream flood?"}
   - {n: 8, speaker: A-bîng, hanji: "雨若傷大，可能會。明仔載咱攏莫出門。", tailo: "Hōo nā siunn tuā, khó-lîng ē. Bîn-á-tsài lán lóng mài tshut-mn̂g.", en: "If the rain is too heavy, it might. Let's not go out tomorrow."}
+  - {n: 9, speaker: "Sam", hanji: "天已經烏暗矣，風閣真大。這敢是西北雨？", tailo: "Thinn í-king oo-àm--ah, hong koh tsin tuā. Tse kám sī sai-pak-hōo?", en: "It's already dark, and the wind is really strong. Is this a summer storm?"}
+  - {n: 10, speaker: "A-bîng", hanji: "毋是。西北雨落一下就煞，風颱會規暝攏咧落。", tailo: "M̄ sī. Sai-pak-hōo lo̍h tsi̍t-ē tō suah, hong-thai ē kui-mê lóng teh lo̍h.", en: "No. A summer storm is over in no time; a typhoon rains all night long."}
+  - {n: 11, speaker: "A-bîng", hanji: "較早臺南做大水，阮阿公講水來到腰，厝內的物件攏流去矣。", tailo: "Khah-tsá Tâi-lâm tsò tuā-tsuí, guán a-kong kóng tsuí lâi kàu io, tshù-lāi ê mi̍h-kiānn lóng lâu--khì--ah.", en: "Years ago Tainan was flooded. Grandpa says the water came up to his waist, and everything in the house was swept away."}
 notes:
   - {ref: 1, topic: vocab, text: "新聞 sin-bûn = the news. 做風颱 tsò-hong-thai = a typhoon strikes (literally 'make a typhoon'); 風颱 hong-thai = typhoon."}
   - {ref: 2, topic: grammar, text: "驚 kiann = be afraid (怕), the everyday word. 經過 king-kuè = go through (經歷). 有淡薄仔 + adjective = a bit …."}
@@ -20,6 +23,9 @@ notes:
   - {ref: 6, topic: vocab, text: "手電仔 tshiú-tiān-á = torch; 蠟條 la̍h-tiâu = (household) candle; 罐頭 kuàn-thâu = tinned food. 足濟 tsiok tsē = plenty."}
   - {ref: 7, topic: vocab, text: "溪仔 khe-á = stream, creek. 淹水 im-tsuí = flood (淹水). Note 淹 im, not Mandarin yān."}
   - {ref: 8, topic: grammar, text: "Topic first: 雨若傷大 'the rain, if it's too heavy'. 莫 mài + verb with 咱 = let's not: 咱攏莫出門 'let's none of us go out'."}
+  - {ref: 9, topic: "vocab", text: "烏暗 oo-àm = dark (烏 'black' + 暗 'dark'); also 'corrupt, unjust'. 西北雨 sai-pak-hōo = a sudden summer afternoon downpour with thunder, literally 'north-west rain'. MOE proverb: 西北雨落袂過田岸 'a summer shower doesn't cross the field bank', so local is it."}
+  - {ref: 10, topic: "vocab", text: "規暝 kui-mê = all night (規 'whole' + 暝 'night'). 煞 suah = stop, be over (lesson 33)."}
+  - {ref: 11, topic: "vocab", text: "大水 tuā-tsuí = flood: 做大水 'there's a flood'. 腰 io = waist; 水來到腰 'the water came up to the waist'. 流去 lâu--khì = be washed away."}
 new_words:
   - {tailo: sin-bûn, hanji: 新聞, en: "the news"}
   - {tailo: tsò-hong-thai, hanji: 做風颱, en: "(typhoon) strike"}
@@ -37,10 +43,15 @@ new_words:
   - {tailo: kuàn-thâu, hanji: 罐頭, en: "tinned food"}
   - {tailo: khe-á, hanji: 溪仔, en: "stream"}
   - {tailo: im-tsuí, hanji: 淹水, en: "flood"}
+  - {tailo: "oo-àm", hanji: "烏暗", en: "dark"}
+  - {tailo: "sai-pak-hōo", hanji: "西北雨", en: "sudden summer downpour"}
+  - {tailo: "tuā-tsuí", hanji: "大水", en: "flood"}
+  - {tailo: "io", hanji: "腰", en: "waist"}
 exercises:
   translate:
     - {tailo: "Bián kiann, lán sing tsún-pī hó.", hanji: "免驚，咱先準備好。", en: "Don't be scared, let's get ready first."}
     - {tailo: "Nā thîng-tiān beh án-tsuánn?", hanji: "若停電欲按怎？", en: "What if the power goes out?"}
+    - {tailo: "Sai-pak-hōo lo̍h tsi̍t-ē tō suah.", hanji: "西北雨落一下就煞。", en: "A summer storm is over in no time."}
   fill:
     - {tailo: "Thang-á-mn̂g ài ___ hōo hó.", hanji: "窗仔門愛___予好。", answer: "kuainn", answer_hanji: "關", en: "Shut the windows tight."}
     - {tailo: "Guá ū tām-po̍h-á ___.", hanji: "我有淡薄仔___。", answer: "kiann", answer_hanji: "驚", en: "I'm a bit scared."}

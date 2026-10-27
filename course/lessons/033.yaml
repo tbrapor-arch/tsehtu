@@ -11,6 +11,9 @@ dialogue:
   - {n: 6, speaker: A-bîng, hanji: "我用我的手機仔敲予你看覓。", tailo: "Guá īng guá ê tshiú-ki-á khà hōo lí khuànn-māi.", en: "Let me try calling it from my phone."}
   - {n: 7, speaker: Driver, hanji: "喂？這支手機仔是我佇車頂抾著的。", tailo: "Uê? Tsit ki tshiú-ki-á sī guá tī tshia tíng khioh--tio̍h--ê.", en: "Hello? I found this phone on the bus."}
   - {n: 8, speaker: Sam, hanji: "尾仔揣著矣！好佳哉！", tailo: "Bué-á tshuē--tio̍h--ah! Hó-ka-tsài!", en: "Found it in the end! Thank goodness!"}
+  - {n: 9, speaker: "Sam", hanji: "先生，真感激你！我實在真糊塗，失禮失禮。", tailo: "Sian-sinn, tsin kám-kik--lí! Guá si̍t-tsāi tsin hôo-tôo, sit-lé sit-lé.", en: "Thank you so much, sir! I'm such a scatterbrain, I'm so sorry."}
+  - {n: 10, speaker: "Driver", hanji: "無要緊。我佇遮等你，你緊來提。", tailo: "Bô-iàu-kín. Guá tī tsia tán--lí, lí kín lâi the̍h.", en: "No problem. I'll wait for you here, come and get it quickly."}
+  - {n: 11, speaker: "A-bîng", hanji: "我原本想講揣袂轉來矣，果然好人較濟。毋過你下擺佇公車頂莫閣睏去！", tailo: "Guá guân-pún siūnn kóng tshuē bē tńg--lâi--ah, kó-jiân hó-lâng khah tsē. M̄-koh lí ē-pái tī kong-tshia tíng mài koh khùn--khì!", en: "I thought you'd never get it back, but it's true, there are more good people than bad. But next time, don't fall asleep on the bus again!"}
 notes:
   - {ref: 1, topic: vocab, text: "害矣 hāi--ah = oh no! (糟了). 拍毋見 phah-m̄-kìnn = lose (something) (弄丟)."}
   - {ref: 2, topic: vocab, text: "袋仔 tē-á = bag, pocket. 內 lāi = inside: 袋仔內 'in the bag'. 敢無…？ 'isn't it …?'"}
@@ -19,6 +22,8 @@ notes:
   - {ref: 6, topic: grammar, text: "敲予你 khà hōo lí = call (you): here 予 marks whose phone rings. 用 īng = with, using (lesson 22)."}
   - {ref: 7, topic: grammar, text: "Classifier 支 ki for phones (and pens, sticks). 抾 khioh = pick up (撿); 抾著 khioh--tio̍h 'found (lying somewhere)'. …是我抾著的 = it's (one) I found: the 是…的 focus pattern, as in Mandarin."}
   - {ref: 8, topic: vocab, text: "尾仔 bué-á = in the end, finally (後來、最後). 好佳哉 hó-ka-tsài = thank goodness (幸好)."}
+  - {ref: 9, topic: "vocab", text: "感激 kám-kik = be very grateful: 我真感激你 'I'm very grateful to you', stronger than 多謝. 糊塗 hôo-tôo = muddle-headed, scatterbrained. 失禮 sit-lé = sorry, excuse me (a polite apology), not 'rude' as in Mandarin 失禮."}
+  - {ref: 11, topic: "vocab", text: "原本 guân-pún = originally, at first (本來): 我原本想講… 'I thought at first that …'. 揣袂轉來 'can't get it back'. 果然 kó-jiân = sure enough, as expected; here 'it's true after all'."}
 new_words:
   - {tailo: hāi, hanji: 害, en: "harm; (oh no!)"}
   - {tailo: phah-m̄-kìnn, hanji: 拍毋見, en: "lose (something)"}
@@ -32,6 +37,11 @@ new_words:
   - {tailo: khioh, hanji: 抾, en: "pick up"}
   - {tailo: bué-á, hanji: 尾仔, en: "in the end"}
   - {tailo: hó-ka-tsài, hanji: 好佳哉, en: "thank goodness"}
+  - {tailo: "kám-kik", hanji: "感激", en: "be very grateful"}
+  - {tailo: "hôo-tôo", hanji: "糊塗", en: "muddle-headed"}
+  - {tailo: "sit-lé", hanji: "失禮", en: "sorry, excuse me"}
+  - {tailo: "guân-pún", hanji: "原本", en: "originally, at first"}
+  - {tailo: "kó-jiân", hanji: "果然", en: "sure enough"}
 exercises:
   translate:
     - {tailo: "Guá ê tshiú-ki-á phah-m̄-kìnn--ah!", hanji: "我的手機仔拍毋見矣！", en: "I've lost my phone!"}
@@ -39,4 +49,5 @@ exercises:
   fill:
     - {tailo: "Tshuē puànn-poo--ah, tshuē ___.", hanji: "揣半晡矣，揣___。", answer: "bô", answer_hanji: "無", en: "I've been looking for ages, I can't find it."}
     - {tailo: "Guá tī kong-tshia tíng, ___ hiông-hiông khùn--khì.", hanji: "我佇公車頂，___雄雄睏去。", answer: "suah", answer_hanji: "煞", en: "I was on the bus, and I suddenly fell asleep."}
+    - {tailo: "Guá si̍t-tsāi tsin ___, sit-lé sit-lé.", hanji: "我實在真___，失禮失禮。", answer: "hôo-tôo", answer_hanji: "糊塗", en: "I'm such a scatterbrain, I'm so sorry."}
 audio: []
