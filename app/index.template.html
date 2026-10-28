@@ -1962,10 +1962,12 @@ const Exam = {
   async show(h) {
     renderTabs(currentTab());
     const here = location.hash;
-    if (!this.on) { $('#main').innerHTML = `<div class="col"><div class="head"><span class="eyebrow">Exam</span><h1>考試</h1></div><p class="sub">Not available on this device.</p></div>`; return; }
-    if (!window.ExamModule) $('#main').innerHTML = `<div class="col"><div class="head"><span class="eyebrow">Exam</span><h1>考試</h1></div><p class="sub">Loading…</p></div>`;
+    // the private module also serves the Books tab (#exam-book…): name the page after what is being opened
+    const [ey, ti] = /^exam-book/.test(h) ? ['Books', '讀冊'] : ['Exam', '考試'];
+    if (!this.on) { $('#main').innerHTML = `<div class="col"><div class="head"><span class="eyebrow">${ey}</span><h1>${ti}</h1></div><p class="sub">Not available on this device.</p></div>`; return; }
+    if (!window.ExamModule) $('#main').innerHTML = `<div class="col"><div class="head"><span class="eyebrow">${ey}</span><h1>${ti}</h1></div><p class="sub">Loading…</p></div>`;
     try { await this.load(); if (location.hash === here) window.ExamModule.route(h); }
-    catch (e) { $('#main').innerHTML = `<div class="col"><div class="head"><span class="eyebrow">Exam</span><h1>考試</h1></div><div class="card raised"><b>Could not load the exam module</b><span class="sub">${esc(e.message || e)}. It needs the internet the first time; after that it works offline.</span><button class="btn small" style="align-self:start" data-go="exam">Try again</button></div></div>`; wireGo($('#main')); }
+    catch (e) { $('#main').innerHTML = `<div class="col"><div class="head"><span class="eyebrow">${ey}</span><h1>${ti}</h1></div><div class="card raised"><b>Could not load the private module</b><span class="sub">${esc(e.message || e)}. It needs the internet the first time; after that it works offline.</span><button class="btn small" style="align-self:start" data-go="exam">Try again</button></div></div>`; wireGo($('#main')); }
   },
 };
 let toastT;
