@@ -44,6 +44,10 @@ take another word's English (until 21 Oct 2026 it did: 闊 khuah showed 渴's "t
 "shoe" — 60 cards). The course English is stored per (characters, reading) pair, so 踮 tiàm 'stay at' and 店 tiàm 'shop' each keep
 their own (a second pass on 21 Oct 2026 fixed 52 more cards). The reading alone is used only for a romanised word.
 After changing `tools/english.py`, diff every card's `gloss` before/after a `make app` build.
+A word's card is taken from a dictionary entry only if that entry writes the word with the same characters (or
+variant forms: 臺/台, 脣/唇, 份/分…, `cards.VARIANT_PAIRS`). Before 28 Oct 2026 any entry with the same sound could be
+taken (扇 sì got 四's card, 爸 pa 巴's, 第四 地勢's): a word with no entry of its own now gets a card built from its
+characters instead.
 
 Progress, deck and preferences are stored in the browser only (per device).
 

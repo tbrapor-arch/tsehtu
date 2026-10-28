@@ -99,6 +99,26 @@ def mandarin_gloss(word):
         return {'w': word, 'py': '', 'en': ''}
 
 
+# characters that are only variant forms of one another (the same word written two ways)
+VARIANT_PAIRS = ['臺台', '脣唇', '份分', '裡裏', '著着', '媽嬤', '爿旁', '己治', '仝同', '个個', '佇佇', '撮簇', '迌迌',
+                 '暫站', '叼佗', '券卷']
+_VAR = {}
+for _p in VARIANT_PAIRS:
+    _VAR[_p[0]] = _VAR.get(_p[0], set()) | {_p[1]}
+    _VAR[_p[1]] = _VAR.get(_p[1], set()) | {_p[0]}
+
+
+def same_word(dict_hanji, seg):
+    """The dictionary's Hàn-jī for the word is the text's, or differs only by variant characters (臺/台, 脣/唇) or by
+    syllables it writes in Tâi-lô (bē記 for 袂記). Anything else is another word that sounds the same."""
+    if not dict_hanji or dict_hanji == seg:   # a source without Hàn-jī (tgb) only has the reading to go by
+        return True
+    a, b = UNIT_RE.findall(dict_hanji or ''), UNIT_RE.findall(seg)
+    if len(a) != len(b):
+        return False
+    return all(x == y or y in _VAR.get(x, ()) or not is_han(x) for x, y in zip(a, b))
+
+
 def lookup(seg, k):
     """Dictionary card for one word (Hàn-jī segment + key)."""
     did = f'{seg}|{k}'
@@ -109,6 +129,8 @@ def lookup(seg, k):
                           ORDER BY (hanji=?) DESC, source='moe' DESC, freq DESC LIMIT 1""", (k, seg)).fetchall()
     card = {'hanji': seg, 'tkey': k}
     eid = dh = None
+    if rows and not same_word(rows[0][2], seg):
+        rows = []   # only a homophone written with other characters (扇 sì → 四, 爸 pa → 巴): not this word
     if rows:
         eid, src, h, t, cog, mb, ho, hn, rank, wb, sid = rows[0]
         dh = h
