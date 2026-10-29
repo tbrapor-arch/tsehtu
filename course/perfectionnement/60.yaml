@@ -1,0 +1,105 @@
+id: 60
+title: {en: "The taxi driver who returned the bag", tailo: "Khioh-tio̍h tsînn ê ùn-tsiàng", hanji: "抾著錢的運將"}
+genre: news
+review: false
+setting: "The Taigi evening news on a Saturday in early March 2027. One of the stories is about Mr Lâu, the taxi driver and temple interpreter of 進修 59. The bulletin is original to this course; all events are invented."
+dialogue:
+  - {n: 1, speaker: Anchor, hanji: "各位觀眾逐家好，歡迎收看今仔日暗時的台語新聞。", tailo: "Kok-uī kuan-tsiòng ta̍k-ke hó, huan-gîng siu-khuànn kin-á-ji̍t àm-sî ê Tâi-gí sin-bûn.", en: "Good evening, viewers, and welcome to tonight's Taigi news."}
+  - {n: 2, speaker: Anchor, hanji: "頭一條新聞：今仔日透早，臺北萬華一棟舊公寓火燒厝，一百外个消防人員趕去救火。", tailo: "Thâu tsi̍t tiâu sin-bûn: kin-á-ji̍t thàu-tsá, Tâi-pak Bān-huâ tsi̍t tòng kū kong-gū hué-sio-tshù, tsi̍t-pah-guā ê siau-hông jîn-uân kuánn khì kiù-hué.", en: "Our top story: early this morning an old block of flats in Wanhua, Taipei, caught fire, and more than a hundred firefighters rushed to put it out."}
+  - {n: 3, speaker: Reporter, hanji: "火是對三樓燒起來的，煙真大。住戶攏對樓梯逃出來，有三个人吸著煙，受輕傷送醫，無人死亡。", tailo: "Hué sī uì sann lâu sio--khí-lâi--ê, ian tsin tuā. Tsū-hōo lóng uì lâu-thui tô--tshut-lâi; ū sann ê lâng khip-tio̍h ian, siū khin-siong sàng-i, bô lâng sí-bông.", en: "The fire started on the third floor and there was a lot of smoke. The residents all escaped down the stairs; three people inhaled smoke and were taken to hospital with minor injuries. No one was killed."}
+  - {n: 4, speaker: Reporter, hanji: "消防局講，火災的原因猶咧調查，可能是舊的電線走電。", tailo: "Siau-hông-kio̍k kóng, hué-tsai ê guân-in iáu teh tiâu-tsa, khó-lîng sī kū ê tiān-suànn tsáu-tiān.", en: "The fire department says the cause is still under investigation, but it may have been old wiring short-circuiting."}
+  - {n: 5, speaker: Anchor, hanji: "紲落來，警方破一个專門騙老大人的集團。", tailo: "Suà--lo̍h-lâi, kíng-hong phò tsi̍t ê tsuan-bûn phiàn lāu-tuā-lâng ê tsi̍p-thuân.", en: "Next, police have broken up a gang that specialised in cheating elderly people."}
+  - {n: 6, speaker: Reporter, hanji: "這个集團敲電話予老大人，假做警察局，講𪜶的錢有危險，叫𪜶共錢領出來交予人保管。", tailo: "Tsit ê tsi̍p-thuân khà tiān-uē hōo lāu-tuā-lâng, ké-tsò kíng-tshat-kio̍k, kóng in ê tsînn ū guî-hiám, kiò in kā tsînn niá--tshut-lâi kau hōo lâng pó-kuán.", en: "The gang phoned elderly people pretending to be the police, told them their savings were at risk, and had them withdraw the money and hand it over 'for safekeeping'."}
+  - {n: 7, speaker: Reporter, hanji: "警方掠著十个嫌犯，已經移送法院。檢察官起訴了後，𪜶可能會予人判刑，閣愛納罰金。", tailo: "Kíng-hong lia̍h-tio̍h tsa̍p ê hiâm-huān, í-king î-sàng huat-īnn. Kiám-tshat-kuann khí-sòo liáu-āu, in khó-lîng ē hōo lâng phuànn-hîng, koh ài la̍p hua̍t-kim.", en: "Police arrested ten suspects, who have been handed over to the courts. Once the prosecutor files charges, they may face prison sentences and fines."}
+  - {n: 8, speaker: Police officer, hanji: "阮呼籲民眾愛防範：警察袂敲電話叫你領錢。聽著這款電話，就馬上掛掉，敲一六五。", tailo: "Guán hoo-io̍k bîn-tsiòng ài hông-huān: kíng-tshat bē khà tiān-uē kiò lí niá tsînn. Thiann-tio̍h tsit khuán tiān-uē, tō má-siōng kuà--tiāu, khà it-la̍k-ngóo.", en: "We urge everyone to be on their guard: the police will never call and ask you to withdraw money. If you get a call like that, hang up at once and dial 165."}
+  - {n: 9, speaker: Reporter, hanji: "警方講，這幾冬一直咧宣導，毋過受害的人猶是真濟。", tailo: "Kíng-hong kóng, tsit kuí tang it-ti̍t teh suan-tō, m̄-koh siū-hāi ê lâng iáu-sī tsin tsē.", en: "Police say they've been running awareness campaigns for years, but there are still many victims."}
+  - {n: 10, speaker: Anchor, hanji: "閣來是一條溫暖的新聞。臺南一位六十歲的運將，佇車頂抾著一跤皮包，內底有二十萬箍。", tailo: "Koh-lâi sī tsi̍t tiâu un-luán ê sin-bûn. Tâi-lâm tsi̍t uī la̍k-tsa̍p huè ê ùn-tsiàng, tī tshia-tíng khioh-tio̍h tsi̍t kha phuê-pau, lāi-té ū jī-tsa̍p bān khoo.", en: "And now a heart-warming story. A sixty-year-old taxi driver in Tainan found a bag in his cab containing two hundred thousand dollars."}
+  - {n: 11, speaker: Reporter, hanji: "這位運將姓劉，暗時閣佇庄裡的王爺廟做桌頭。伊隨共皮包送去警察局。", tailo: "Tsit uī ùn-tsiàng sènn Lâu, àm-sî koh tī tsng--lí ê Ông-iâ-biō tsò toh-thâu. I suî kā phuê-pau sàng khì kíng-tshat-kio̍k.", en: "The driver, Mr Lâu, also serves as interpreter at the Royal Lords' temple in his village in the evenings. He immediately took the bag to the police station."}
+  - {n: 12, speaker: Reporter, hanji: "巡邏的警員講，失主是一个欲去醫院納開刀錢的阿婆，提著錢的時，哭甲講袂出話。", tailo: "Sûn-lô ê kíng-uân kóng, sit-tsú sī tsi̍t ê beh khì i-īnn la̍p khui-to-tsînn ê a-pô, the̍h-tio̍h tsînn ê sî, khàu kah kóng bē tshut uē.", en: "The patrol officer said the owner was an old woman on her way to pay for an operation at the hospital. When she got her money back she was too choked up to speak."}
+  - {n: 13, speaker: Lâu, hanji: "這是應該的。王爺看甲真清楚，人毋通貪無應該得的錢。", tailo: "Tse sī ing-kai--ê. Ông-iâ khuànn kah tsin tshing-tshó, lâng m̄-thang tham bô ing-kai tit ê tsînn.", en: "It was the right thing to do. The Royal Lord sees everything: you mustn't covet money that isn't yours."}
+  - {n: 14, speaker: Reporter, hanji: "警察局下禮拜欲表揚劉先生，閣欲頒一張獎狀佮獎勵金予伊。", tailo: "Kíng-tshat-kio̍k ē lé-pài beh piáu-iông Lâu--sian-sinn, koh beh pan tsi̍t tiunn tsióng-tsn̄g kah tsióng-lē-kim hōo i.", en: "Next week the police will honour Mr Lâu with a certificate and a reward."}
+  - {n: 15, speaker: Anchor, hanji: "閣來看健康新聞。最近流感真厲害，醫生講，這擺的病毒傳染足緊。", tailo: "Koh-lâi khuànn kiān-khong sin-bûn. Tsuè-kīn liû-kám tsin lī-hāi; i-sing kóng, tsit pái ê pēnn-to̍k thuân-jiám tsiok kín.", en: "On to health news. There's a lot of flu about, and doctors say this year's virus spreads very fast."}
+  - {n: 16, speaker: Reporter, hanji: "醫生提醒，老大人佮囡仔愛較細膩，手愛捷洗，有發燒就莫去上班上課。", tailo: "I-sing thê-tshénn, lāu-tuā-lâng kah gín-á ài khah sè-jī, tshiú ài tsia̍p sé, ū huat-sio tō mài khì siōng-pan siōng-khò.", en: "Doctors remind the elderly and children to take extra care: wash your hands often, and stay home from work or school if you have a fever."}
+  - {n: 17, speaker: Anchor, hanji: "春天到矣，阿里山的櫻花開甲真媠，這个禮拜六日有幾若萬人上山賞花。", tailo: "Tshun-thinn kàu--ah, A-lí-san ê ing-hue khui kah tsin suí; tsit ê lé-pài-la̍k ji̍t ū kuí-nā bān lâng tsiūnn suann siúnn-hue.", en: "Spring is here and the cherry blossom on Alishan is in full bloom; tens of thousands of people went up the mountain to see it this weekend."}
+  - {n: 18, speaker: Reporter, hanji: "遊覽車一台接一台，山路窒甲袂振動。警方實施交通管制，叫遊客坐接駁車上山。", tailo: "Iû-lám-tshia tsi̍t tâi tsiap tsi̍t tâi, suann-lōo that kah bē tín-tāng. Kíng-hong si̍t-si kau-thong kuán-tsè, kiò iû-kheh tsē tsiap-pok-tshia tsiūnn suann.", en: "Coach after coach brought the crowds, and the mountain road was gridlocked. Police brought in traffic controls and told visitors to take the shuttle buses up."}
+  - {n: 19, speaker: Anchor, hanji: "運動新聞。中華職棒今仔日開幕，臺南的球隊以五比三贏球，規場的球迷攏徛起來喝咻。", tailo: "Ūn-tōng sin-bûn. Tiong-huâ Tsit-pāng kin-á-ji̍t khui-bōo, Tâi-lâm ê kiû-tuī í gōo pí sann iânn-kiû, kui tiûnn ê kiû-bê lóng khiā--khí-lâi huah-hiu.", en: "Sport. The professional baseball season opened today; the Tainan team won five–three, and the whole crowd rose to its feet and cheered."}
+  - {n: 20, speaker: Anchor, hanji: "上尾一條新聞：今仔日下晡，花蓮外海發生規模五點二的地動，臺北嘛有感覺，好佳哉無傷亡。", tailo: "Siōng-bué tsi̍t tiâu sin-bûn: kin-á-ji̍t ē-poo, Hua-liân guā-hái huat-sing kui-bôo gōo tiám jī ê tē-tāng, Tâi-pak mā ū kám-kak; hó-ka-tsài bô siong-bông.", en: "Our final story: this afternoon a magnitude 5.2 earthquake struck off the coast of Hualien. It was felt in Taipei, but fortunately there were no casualties."}
+  - {n: 21, speaker: Anchor, hanji: "野生動物保育專家講，地動進前，佇海邊看著真濟海鳥飛走，這是自然的警告。", tailo: "Iá-sing tōng-bu̍t pó-io̍k tsuan-ka kóng, tē-tāng tsìn-tsîng, tī hái-pinn khuànn-tio̍h tsin tsē hái-tsiáu pue--tsáu, tse sī tsū-jiân ê kíng-kò.", en: "Wildlife experts say that before the quake, many seabirds were seen flying away from the coast: nature's own warning."}
+  - {n: 22, speaker: Anchor, hanji: "今仔日的新聞就報到遮。多謝收看，祝逐家暗安。", tailo: "Kin-á-ji̍t ê sin-bûn tō pò kàu tsia. To-siā siu-khuànn, tsiok ta̍k-ke àm-an.", en: "That's all the news for today. Thank you for watching, and good night."}
+notes:
+  - {ref: 2, topic: vocab, text: "火燒厝 hué-sio-tshù = house fire. 消防 siau-hông = fire-fighting; 消防人員 'firefighters', 消防局 'fire department'. 救火 kiù-hué = put out a fire. 公寓 = block of flats."}
+  - {ref: 3, topic: vocab, text: "住戶 = resident (進修 11). 逃 = escape (lesson 65). 輕傷 khin-siong = minor injury. 送醫 sàng-i = take to hospital. 死亡 sí-bông = death."}
+  - {ref: 4, topic: vocab, text: "火災 hué-tsai = fire (disaster). 電線 tiān-suànn = electric wire. 走電 = short-circuit."}
+  - {ref: 5, topic: vocab, text: "警方 kíng-hong = the police (in news language). 破 = crack (a case). 集團 tsi̍p-thuân = gang, group."}
+  - {ref: 6, topic: vocab, text: "假做 = pretend to be. 警察局 kíng-tshat-kio̍k = police station. 保管 = keep safe."}
+  - {ref: 7, topic: vocab, text: "嫌犯 hiâm-huān = suspect. 移送 = transfer. 法院 huat-īnn = court. 檢察官 = prosecutor. 起訴 khí-sòo = indict, prosecute. 判刑 phuànn-hîng = sentence. 罰金 hua̍t-kim = fine."}
+  - {ref: 8, topic: vocab, text: "呼籲 hoo-io̍k = appeal, urge. 防範 hông-huān = guard against. 165 is Taiwan's anti-fraud hotline."}
+  - {ref: 9, topic: vocab, text: "宣導 suan-tō = public-awareness campaign. 受害 = be a victim."}
+  - {ref: 10, topic: vocab, text: "溫暖 (進修 32). 抾 = pick up, find (lesson 33). 皮包 = bag, purse."}
+  - {ref: 12, topic: vocab, text: "巡邏 sûn-lô = patrol. 警員 kíng-uân = police officer. 失主 = owner (of lost property)."}
+  - {ref: 14, topic: vocab, text: "表揚 piáu-iông = commend publicly. 獎勵 tsióng-lē = reward, encourage; 獎勵金 'reward money'. 獎狀 (進修 44)."}
+  - {ref: 15, topic: vocab, text: "最近 tsuè-kīn = recently. 流感 liû-kám = flu. 病毒 pēnn-to̍k = virus. 傳染 thuân-jiám = spread, be contagious."}
+  - {ref: 17, topic: vocab, text: "櫻花 ing-hue = cherry blossom. 賞花 siúnn-hue = go flower-viewing."}
+  - {ref: 18, topic: vocab, text: "遊覽車 iû-lám-tshia = coach, tour bus. 窒 that = be blocked, jammed. 實施 si̍t-si = implement. 管制 kuán-tsè = control, restriction. 接駁車 = shuttle bus."}
+  - {ref: 19, topic: vocab, text: "中華職棒 = Taiwan's professional baseball league (CPBL). 開幕 khui-bōo = open (a season, an event). 球隊 kiû-tuī = team. 比 = to (in scores). 贏球 iânn-kiû = win (a match). 球迷 kiû-bê = fan. 喝咻 = cheer, shout."}
+  - {ref: 20, topic: vocab, text: "外海 guā-hái = offshore. 規模 kui-bôo = scale; magnitude (of an earthquake). 傷亡 siong-bông = casualties."}
+  - {ref: 21, topic: vocab, text: "野生 iá-sing = wild. 保育 pó-io̍k = conservation. 專家 tsuan-ka = expert. 警告 kíng-kò = warning."}
+new_words:
+  - {tailo: hué-sio-tshù, hanji: 火燒厝, en: "house fire"}
+  - {tailo: siau-hông, hanji: 消防, en: "fire-fighting"}
+  - {tailo: kiù-hué, hanji: 救火, en: "put out a fire"}
+  - {tailo: khin-siong, hanji: 輕傷, en: "minor injury"}
+  - {tailo: sàng-i, hanji: 送醫, en: "take to hospital"}
+  - {tailo: hué-tsai, hanji: 火災, en: "fire (disaster)"}
+  - {tailo: tiān-suànn, hanji: 電線, en: "electric wire"}
+  - {tailo: kíng-hong, hanji: 警方, en: "the police"}
+  - {tailo: tsi̍p-thuân, hanji: 集團, en: "gang, group"}
+  - {tailo: kíng-tshat-kio̍k, hanji: 警察局, en: "police station"}
+  - {tailo: hiâm-huān, hanji: 嫌犯, en: "suspect"}
+  - {tailo: huat-īnn, hanji: 法院, en: "court"}
+  - {tailo: khí-sòo, hanji: 起訴, en: "indict, prosecute"}
+  - {tailo: phuànn-hîng, hanji: 判刑, en: "sentence"}
+  - {tailo: hua̍t-kim, hanji: 罰金, en: "fine"}
+  - {tailo: hoo-io̍k, hanji: 呼籲, en: "appeal, urge"}
+  - {tailo: hông-huān, hanji: 防範, en: "guard against"}
+  - {tailo: suan-tō, hanji: 宣導, en: "awareness campaign"}
+  - {tailo: sûn-lô, hanji: 巡邏, en: "patrol"}
+  - {tailo: kíng-uân, hanji: 警員, en: "police officer"}
+  - {tailo: piáu-iông, hanji: 表揚, en: "commend publicly"}
+  - {tailo: tsióng-lē, hanji: 獎勵, en: "reward, encourage"}
+  - {tailo: liû-kám, hanji: 流感, en: "flu"}
+  - {tailo: pēnn-to̍k, hanji: 病毒, en: "virus"}
+  - {tailo: thuân-jiám, hanji: 傳染, en: "spread (of disease)"}
+  - {tailo: ing-hue, hanji: 櫻花, en: "cherry blossom"}
+  - {tailo: siúnn-hue, hanji: 賞花, en: "go flower-viewing"}
+  - {tailo: iû-lám-tshia, hanji: 遊覽車, en: "coach, tour bus"}
+  - {tailo: kuán-tsè, hanji: 管制, en: "control, restriction"}
+  - {tailo: khui-bōo, hanji: 開幕, en: "open (a season, an event)"}
+  - {tailo: kiû-tuī, hanji: 球隊, en: "team"}
+  - {tailo: iânn-kiû, hanji: 贏球, en: "win (a match)"}
+  - {tailo: kiû-bê, hanji: 球迷, en: "fan"}
+  - {tailo: kui-bôo, hanji: 規模, en: "scale; magnitude"}
+  - {tailo: siong-bông, hanji: 傷亡, en: "casualties"}
+  - {tailo: iá-sing, hanji: 野生, en: "wild"}
+  - {tailo: pó-io̍k, hanji: 保育, en: "conservation"}
+  - {tailo: tsuè-kīn, hanji: 最近, en: "recently"}
+  - {tailo: sí-bông, hanji: 死亡, en: "death; die"}
+  - {tailo: kíng-kò, hanji: 警告, en: "warning; warn"}
+  - {tailo: tsuan-ka, hanji: 專家, en: "expert"}
+  - {tailo: si̍t-si, hanji: 實施, en: "implement, put into effect"}
+  - {tailo: guā-hái, hanji: 外海, en: "offshore, the open sea"}
+  - {tailo: that, hanji: 窒, en: "be blocked, jammed"}
+exercises:
+  translate:
+    - {tailo: "Tsū-hōo lóng uì lâu-thui tô--tshut-lâi.", hanji: "住戶攏對樓梯逃出來。", en: "The residents all escaped down the stairs."}
+    - {tailo: "Kíng-tshat bē khà tiān-uē kiò lí niá tsînn.", hanji: "警察袂敲電話叫你領錢。", en: "The police will never call and ask you to withdraw money."}
+    - {tailo: "Lâng m̄-thang tham bô ing-kai tit ê tsînn.", hanji: "人毋通貪無應該得的錢。", en: "You mustn't covet money that isn't yours."}
+    - {tailo: "Tsit pái ê pēnn-to̍k thuân-jiám tsiok kín.", hanji: "這擺的病毒傳染足緊。", en: "This year's virus spreads very fast."}
+    - {tailo: "Hó-ka-tsài bô siong-bông.", hanji: "好佳哉無傷亡。", en: "Fortunately there were no casualties."}
+  fill:
+    - {tailo: "Tsi̍t-pah-guā ê siau-hông jîn-uân kuánn khì ___.", hanji: "一百外个消防人員趕去___。", answer: "kiù-hué", answer_hanji: "救火", en: "More than a hundred firefighters rushed to put out the fire."}
+    - {tailo: "Kíng-hong lia̍h-tio̍h tsa̍p ê ___.", hanji: "警方掠著十个___。", answer: "hiâm-huān", answer_hanji: "嫌犯", en: "Police arrested ten suspects."}
+    - {tailo: "Kíng-tshat-kio̍k beh ___ Lâu--sian-sinn.", hanji: "警察局欲___劉先生。", answer: "piáu-iông", answer_hanji: "表揚", en: "The police will honour Mr Lâu."}
+    - {tailo: "Tsit ê lé-pài-la̍k ji̍t ū kuí-nā bān lâng tsiūnn suann ___.", hanji: "這个禮拜六日有幾若萬人上山___。", answer: "siúnn-hue", answer_hanji: "賞花", en: "Tens of thousands of people went up the mountain to see the blossom this weekend."}
+    - {tailo: "Kíng-hong si̍t-si kau-thong ___.", hanji: "警方實施交通___。", answer: "kuán-tsè", answer_hanji: "管制", en: "Police brought in traffic controls."}
+audio: []
