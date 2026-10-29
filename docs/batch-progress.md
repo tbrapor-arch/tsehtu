@@ -10,7 +10,7 @@ If a session stops (credits, container reset), resume from here.
 | # | genre | plan | status |
 |---|---|---|---|
 | P57 | diary | Sam's diary of Lunar New Year week in Tainan (Feb 2027): cleaning, reunion dinner, firecrackers, Jade Emperor's birthday | done (40 new words) |
-| P58 | tale | 白賊七 (Pe̍h-tsha̍t-tshit), the Taiwanese trickster | todo |
+| P58 | tale | 白賊七 (Pe̍h-tsha̍t-tshit), the Taiwanese trickster | done (44 new words) |
 | P59 | interview | a temple medium's interpreter (桌頭) on spirit mediums (童乩), told respectfully | todo |
 | P60 | news | TV news bulletin, several short items | todo |
 | P61 | document | A-má's mahjong rules for Sam | todo |

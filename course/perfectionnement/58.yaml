@@ -1,0 +1,109 @@
+id: 58
+title: {en: "Liar Seven", tailo: "Pe̍h-tsha̍t-tshit-á", hanji: "白賊七仔"}
+genre: tale
+review: false
+setting: "Pe̍h-tsha̍t-tshit-á, 'Liar Seven', is the best-known trickster of Taiwanese folk tales; every village told its own version. Two of his best-known tricks, retold for this course."
+dialogue:
+  - {n: 1, hanji: "古早有一个少年家，排第七，人叫伊阿七。伊散赤，毋過頭殼真巧，上𠢕講白賊話，所以逐家攏叫伊「白賊七仔」。", tailo: "Kóo-tsá ū tsi̍t ê siàu-liân-ke, pâi tē-tshit, lâng kiò i A-tshit. I sàn-tshiah, m̄-koh thâu-khak tsin khiáu, siōng gâu kóng pe̍h-tsha̍t-uē, sóo-í ta̍k-ke lóng kiò i “Pe̍h-tsha̍t-tshit-á”.", en: "Long ago there was a young man, the seventh child, so people called him A-tshit. He was poor but very clever, and a champion teller of tall tales, so everyone called him 'Liar Seven'."}
+  - {n: 2, hanji: "庄裡有一个財主，人叫伊員外。伊凍霜閣貪財，捷捷欺騙散赤人，連乞食來討，伊都毋分一喙飯。", tailo: "Tsng--lí ū tsi̍t ê tsâi-tsú, lâng kiò i uân-guē. I tàng-sng koh tham-tsâi, tsia̍p-tsia̍p khi-phiàn sàn-tshiah-lâng; liân khit-tsia̍h lâi thó, i to m̄ pun tsi̍t tshuì pn̄g.", en: "In the village lived a rich man everyone called the Squire. He was stingy and greedy, often cheated the poor, and wouldn't give a beggar so much as a mouthful of rice."}
+  - {n: 3, hanji: "白賊七講：「這款歹心的惡人，我來共伊設一个圈套。」", tailo: "Pe̍h-tsha̍t-tshit kóng: “Tsit khuán pháinn-sim ê ok-lâng, guá lâi kā i siat tsi̍t ê khuan-thò.”", en: "Liar Seven said: 'A wicked man like that: I'll set a trap for him.'"}
+  - {n: 4, hanji: "有一工，伊用火炭共一个鼎燒甲燒滾滾，才緊提去路邊囥佇塗跤。鼎內的水猶咧滾。", tailo: "Ū tsi̍t kang, i iōng hué-thuànn kā tsi̍t ê tiánn sio kah sio-kún-kún, tsiah kín the̍h khì lōo-pinn khǹg tī thôo-kha. Tiánn lāi ê tsuí iáu teh kún.", en: "One day he heated a pot over charcoal until it was boiling hot, then quickly carried it to the roadside and set it on the ground. The water inside was still bubbling."}
+  - {n: 5, hanji: "員外拄好行過，看著真稀奇：「無火，鼎哪會家己滾？」", tailo: "Uân-guē tú-hó kiânn--kuè, khuànn-tio̍h tsin hi-kî: “Bô hué, tiánn ná ē ka-kī kún?”", en: "Just then the Squire came by and was amazed: 'No fire, and the pot's boiling by itself?'"}
+  - {n: 6, hanji: "白賊七講：「這是阮祖公留落來的寶貝，囥佇佗位攏會家己滾，免柴嘛免炭，真值錢。」", tailo: "Pe̍h-tsha̍t-tshit kóng: “Tse sī guán tsóo-kong lâu--lo̍h-lâi ê pó-puè, khǹg tī toh-uī lóng ē ka-kī kún, bián tshâ mā bián thuànn, tsin ta̍t-tsînn.”", en: "Liar Seven said: 'It's an heirloom from my ancestors. Put it anywhere and it boils by itself, no wood, no charcoal. It's worth a fortune.'"}
+  - {n: 7, hanji: "員外起貪心，問伊欲賣偌濟。白賊七開價一百兩黃金，員外雖然凍霜，嘛隨買落來。", tailo: "Uân-guē khí tham-sim, mn̄g i beh bē guā-tsē. Pe̍h-tsha̍t-tshit khui-kè tsi̍t-pah niú n̂g-kim; uân-guē sui-jiân tàng-sng, mā suî bé--lo̍h-lâi.", en: "Greed got the better of the Squire, and he asked the price. Liar Seven asked for a hundred taels of gold, and stingy as he was, the Squire bought it on the spot."}
+  - {n: 8, hanji: "鼎扛轉去了後，煞無閣滾。員外知影予人騙去，氣甲欲死，就去衙門告伊。", tailo: "Tiánn kng tńg-khì liáu-āu, suah bô koh kún. Uân-guē tsai-iánn hōo lâng phiàn--khì, khì kah beh sí, tō khì gê-mn̂g kò--i.", en: "Once the pot was carried home, it never boiled again. The Squire realised he'd been had, flew into a rage and went to the magistrate's office to sue him."}
+  - {n: 9, hanji: "官員共白賊七擒來審判，講欺騙人愛受刑罰，欲共伊戴枷、坐監。", tailo: "Kuann-uân kā Pe̍h-tsha̍t-tshit khîm lâi sím-phuànn, kóng khi-phiàn lâng ài siū hîng-hua̍t, beh kā i tì kê, tsē-kann.", en: "The magistrate had Liar Seven arrested and tried, and said that cheating people deserved punishment: he'd be put in the cangue and thrown in jail."}
+  - {n: 10, hanji: "白賊七講：「大人，鼎是好的。是員外無照步數：愛先喝三聲『滾！』伊才會滾。員外，你敢有喝？」", tailo: "Pe̍h-tsha̍t-tshit kóng: “Tāi-jîn, tiánn sī hó--ê. Sī uân-guē bô tsiàu pōo-sòo: ài sing huah sann siann ‘Kún!’ i tsiah ē kún. Uân-guē, lí kám ū huah?”", en: "Liar Seven said: 'Your Honour, the pot works perfectly. The Squire didn't follow the method: you have to shout \"Boil!\" three times before it will boil. Squire, did you shout?'"}
+  - {n: 11, hanji: "員外講無。官員就共白賊七赦免，閣罵員外是戇大呆，規衙門的人攏咧笑。", tailo: "Uân-guē kóng bô. Kuann-uân tō kā Pe̍h-tsha̍t-tshit sià-bián, koh mē uân-guē sī gōng-tuā-tai; kui gê-mn̂g ê lâng lóng teh tshiò.", en: "The Squire said he hadn't. So the magistrate let Liar Seven off and called the Squire a great fool, and the whole court laughed."}
+  - {n: 12, hanji: "員外食虧閣予人詼，愈想愈毋甘願，就倩工人共白賊七縛起來，關入去一个大籠仔，欲共伊擲落海。", tailo: "Uân-guē tsia̍h-khui koh hōo lâng khue, jú siūnn jú m̄ kam-guān, tō tshiànn kang-lâng kā Pe̍h-tsha̍t-tshit pa̍k--khí-lâi, kuainn ji̍p-khì tsi̍t ê tuā láng-á, beh kā i tàn lo̍h hái.", en: "Out of pocket and a laughing stock, the Squire grew more and more bitter. He hired workmen to tie Liar Seven up, shut him in a big cage, and throw him into the sea."}
+  - {n: 13, hanji: "工人扛到海邊，枵甲擋袂牢，就共籠仔囥佇沙埔，先去食飯。", tailo: "Kang-lâng kng kàu hái-pinn, iau kah tòng bē tiâu, tō kā láng-á khǹg tī sua-poo, sing khì tsia̍h-pn̄g.", en: "The workmen carried him to the shore, but they were so hungry they left the cage on the beach and went off to eat first."}
+  - {n: 14, hanji: "拄好有一个戇直的少年家牽牛行過。白賊七佇籠仔內大聲哭：「我毋娶！我毋愛娶員外的查某囝！」", tailo: "Tú-hó ū tsi̍t ê gōng-ti̍t ê siàu-liân-ke khan-gû kiânn--kuè. Pe̍h-tsha̍t-tshit tī láng-á lāi tuā-siann khàu: “Guá m̄ tshuā! Guá m̄-ài tshuā uân-guē ê tsa-bóo-kiánn!”", en: "Just then an honest, simple young man came by leading an ox. Liar Seven wailed from inside the cage: 'I won't marry her! I don't want to marry the Squire's daughter!'"}
+  - {n: 15, hanji: "牽牛的問伊是按怎。白賊七講：「員外逼我娶伊的查某囝，我毋甘願，伊就共我關佇遮。」", tailo: "Khan-gû--ê mn̄g i sī án-tsuánn. Pe̍h-tsha̍t-tshit kóng: “Uân-guē pik guá tshuā i ê tsa-bóo-kiánn, guá m̄ kam-guān, i tō kā guá kuainn tī tsia.”", en: "The young man asked what was the matter. Liar Seven said: 'The Squire wants to force me to marry his daughter. I refused, so he's locked me up here.'"}
+  - {n: 16, hanji: "少年家想，員外的查某囝一定真媠，就佮白賊七換位，入去籠仔內底。白賊七就牽伊的牛走矣。", tailo: "Siàu-liân-ke siūnn, uân-guē ê tsa-bóo-kiánn it-tīng tsin suí, tō kah Pe̍h-tsha̍t-tshit uānn uī, ji̍p-khì láng-á lāi-té. Pe̍h-tsha̍t-tshit tō khan i ê gû tsáu--ah.", en: "The young man thought the Squire's daughter must be very pretty, so he swapped places with Liar Seven and got into the cage. And off went Liar Seven with his ox."}
+  - {n: 17, hanji: "工人食飽轉來，欲共籠仔擲落海。內底的人大聲喝：「我毋是白賊七！」工人掀開看，果然毋是，就共伊放出來。", tailo: "Kang-lâng tsia̍h-pá tńg--lâi, beh kā láng-á tàn lo̍h hái. Lāi-té ê lâng tuā-siann huah: “Guá m̄ sī Pe̍h-tsha̍t-tshit!” Kang-lâng hian--khui khuànn, kó-jiân m̄ sī, tō kā i pàng--tshut-lâi.", en: "When the workmen came back from their meal and were about to throw the cage into the sea, the man inside shouted: 'I'm not Liar Seven!' They opened it up and saw he was telling the truth, so they let him out."}
+  - {n: 18, hanji: "過幾工，白賊七牽一隻牛，閣捾一袋黃金，大範大範行轉來庄裡。", tailo: "Kuè kuí kang, Pe̍h-tsha̍t-tshit khan tsi̍t tsiah gû, koh kuānn tsi̍t tē n̂g-kim, tuā-pān tuā-pān kiânn tńg-lâi tsng--lí.", en: "A few days later Liar Seven strolled back into the village as bold as brass, leading an ox and carrying a bag of gold."}
+  - {n: 19, hanji: "員外驚一趒：「你毋是予人擲落海矣？」", tailo: "Uân-guē kiann tsi̍t tiô: “Lí m̄ sī hōo lâng tàn lo̍h hái--ah?”", en: "The Squire jumped: 'Weren't you thrown into the sea?'"}
+  - {n: 20, hanji: "白賊七講：「海底有一間宮殿，海龍王講我古意，就送我牛佮黃金。可惜我干焦捾會振遮濟，海底猶閣有真濟財寶。」", tailo: "Pe̍h-tsha̍t-tshit kóng: “Hái-té ū tsi̍t king kiong-tiān, Hái-lîng-ông kóng guá kóo-ì, tō sàng guá gû kah n̂g-kim. Khó-sioh guá kan-na kuānn ē tín tsiah tsē, hái-té iáu-koh ū tsin tsē tsâi-pó.”", en: "Liar Seven said: 'At the bottom of the sea there's a palace. The Dragon King of the Sea said I was an honest fellow and gave me an ox and some gold. Pity I could only carry this much: there's plenty more treasure down there.'"}
+  - {n: 21, hanji: "員外貪財，隨叫人共伊縛起來擲落海，欲去揣海龍王討財寶。", tailo: "Uân-guē tham-tsâi, suî kiò lâng kā i pa̍k--khí-lâi tàn lo̍h hái, beh khì tshuē Hái-lîng-ông thó tsâi-pó.", en: "The greedy Squire immediately had himself tied up and thrown into the sea, to go and ask the Dragon King for treasure."}
+  - {n: 22, hanji: "庄裡的人等規工，攏無看伊浮起來。逐家講：「貪財的人，這就是自作自受。」", tailo: "Tsng--lí ê lâng tán kui kang, lóng bô khuànn i phû--khí-lâi. Ta̍k-ke kóng: “Tham-tsâi ê lâng, tse tō sī tsū-tsok-tsū-siū.”", en: "The villagers waited all day, but he never came back up. Everyone said: 'That's what greed gets you: he brought it on himself.'"}
+  - {n: 23, hanji: "毋過嘛有老大人講，白賊七的計謀雖然有智慧，毋過用白賊話陷害人，閣連累別人，囡仔人毋通學。", tailo: "M̄-koh mā ū lāu-tuā-lâng kóng, Pe̍h-tsha̍t-tshit ê kè-bôo sui-jiân ū tì-huī, m̄-koh iōng pe̍h-tsha̍t-uē hām-hāi lâng, koh liân-luī pa̍t-lâng, gín-á-lâng m̄-thang o̍h.", en: "But some old folk also say that clever as Liar Seven's schemes were, he used lies to harm people and dragged others into trouble, and children shouldn't copy him."}
+  - {n: 24, hanji: "到今，若有人講話膨風，閣講甲古古怪怪，逐家就會笑伊：「你咧做白賊七仔喔？」", tailo: "Kàu-tann, nā ū lâng kóng-uē phòng-hong, koh kóng kah kóo-kóo-kuài-kuài, ta̍k-ke tō ē tshiò--i: “Lí teh tsò Pe̍h-tsha̍t-tshit-á--ooh?”", en: "To this day, if someone tells tall stories, everyone teases them: 'Who do you think you are, Liar Seven?'"}
+notes:
+  - {ref: 1, topic: vocab, text: "排第七 = be seventh (in the family). 白賊話 pe̍h-tsha̍t-uē = lies, tall tales; 講白賊 'tell lies'."}
+  - {ref: 2, topic: vocab, text: "財主 tsâi-tsú = rich man. 員外 uân-guē = squire, a title for a wealthy landowner in old tales. 凍霜 tàng-sng = stingy (lit. 'frozen with frost'). 貪財 tham-tsâi = greedy for money. 欺騙 khi-phiàn = cheat, deceive. 乞食 khit-tsia̍h = beggar."}
+  - {ref: 3, topic: vocab, text: "歹心 pháinn-sim = wicked, ill-intentioned. 惡人 ok-lâng = villain. 設 = set up. 圈套 khuan-thò = trap, snare."}
+  - {ref: 4, topic: vocab, text: "火炭 hué-thuànn = charcoal; 炭 thuànn on its own (line 6). 燒滾滾 sio-kún-kún = boiling hot."}
+  - {ref: 5, topic: vocab, text: "稀奇 hi-kî = strange, extraordinary."}
+  - {ref: 6, topic: vocab, text: "寶貝 = treasure. 值錢 ta̍t-tsînn = valuable."}
+  - {ref: 7, topic: vocab, text: "貪 tham = covet; 貪心 'greed'. 開價 khui-kè = name a price. 兩 niú = tael (an old unit of weight, about 37.5 g)."}
+  - {ref: 8, topic: vocab, text: "衙門 gê-mn̂g = magistrate's office, yamen."}
+  - {ref: 9, topic: vocab, text: "官員 kuann-uân = official. 擒 khîm = arrest, seize. 審判 sím-phuànn = try, judge. 刑罰 hîng-hua̍t = punishment. 枷 kê = cangue, the wooden collar once put on prisoners. 坐監 tsē-kann = go to prison."}
+  - {ref: 10, topic: vocab, text: "大人 tāi-jîn = Your Honour (to an official). 步數 = method, trick."}
+  - {ref: 11, topic: vocab, text: "赦免 sià-bián = pardon. 戇大呆 gōng-tuā-tai = great fool."}
+  - {ref: 12, topic: vocab, text: "食虧 tsia̍h-khui = be the loser, be taken advantage of. 詼 khue = mock, make fun of. 毋甘願 m̄ kam-guān = resentful, unwilling. 工人 kang-lâng = workman. 籠仔 láng-á = cage, basket."}
+  - {ref: 14, topic: vocab, text: "戇直 gōng-ti̍t = simple and honest. 牽牛 khan-gû = lead an ox."}
+  - {ref: 15, topic: vocab, text: "逼 pik = force, press."}
+  - {ref: 18, topic: vocab, text: "大範 tuā-pān = bold, poised; 大範大範 'confidently'."}
+  - {ref: 20, topic: vocab, text: "宮殿 kiong-tiān = palace. 海龍王 Hái-lîng-ông = the Dragon King of the Sea. 振 = move; 捾會振 'can carry'. 財寶 tsâi-pó = treasure."}
+  - {ref: 22, topic: vocab, text: "自作自受 tsū-tsok-tsū-siū = reap what one sows."}
+  - {ref: 23, topic: vocab, text: "計謀 kè-bôo = scheme, ruse. 智慧 = wisdom (進修 18). 陷害 hām-hāi = frame, harm by deceit. 連累 liân-luī = implicate, get others into trouble."}
+  - {ref: 24, topic: vocab, text: "膨風 = brag (進修 1). 古怪 kóo-kuài = weird, odd; 古古怪怪 'outlandish'."}
+new_words:
+  - {tailo: pe̍h-tsha̍t-uē, hanji: 白賊話, en: "lies, tall tales"}
+  - {tailo: tsâi-tsú, hanji: 財主, en: "rich man"}
+  - {tailo: uân-guē, hanji: 員外, en: "squire (in old tales)"}
+  - {tailo: tàng-sng, hanji: 凍霜, en: "stingy"}
+  - {tailo: tham-tsâi, hanji: 貪財, en: "greedy for money"}
+  - {tailo: khi-phiàn, hanji: 欺騙, en: "cheat, deceive"}
+  - {tailo: khit-tsia̍h, hanji: 乞食, en: "beggar"}
+  - {tailo: pháinn-sim, hanji: 歹心, en: "wicked"}
+  - {tailo: ok-lâng, hanji: 惡人, en: "villain"}
+  - {tailo: khuan-thò, hanji: 圈套, en: "trap, snare"}
+  - {tailo: thuànn, hanji: 炭, en: "charcoal"}
+  - {tailo: sio-kún-kún, hanji: 燒滾滾, en: "boiling hot"}
+  - {tailo: hi-kî, hanji: 稀奇, en: "strange, extraordinary"}
+  - {tailo: ta̍t-tsînn, hanji: 值錢, en: "valuable"}
+  - {tailo: tham, hanji: 貪, en: "covet, be greedy for"}
+  - {tailo: khui-kè, hanji: 開價, en: "name a price"}
+  - {tailo: niú, hanji: 兩, en: "tael"}
+  - {tailo: n̂g-kim, hanji: 黃金, en: "gold"}
+  - {tailo: gê-mn̂g, hanji: 衙門, en: "magistrate's office"}
+  - {tailo: kuann-uân, hanji: 官員, en: "official"}
+  - {tailo: khîm, hanji: 擒, en: "arrest, seize"}
+  - {tailo: sím-phuànn, hanji: 審判, en: "try, judge"}
+  - {tailo: hîng-hua̍t, hanji: 刑罰, en: "punishment"}
+  - {tailo: kê, hanji: 枷, en: "cangue"}
+  - {tailo: tsē-kann, hanji: 坐監, en: "go to prison"}
+  - {tailo: sià-bián, hanji: 赦免, en: "pardon"}
+  - {tailo: gōng-tuā-tai, hanji: 戇大呆, en: "great fool"}
+  - {tailo: tsia̍h-khui, hanji: 食虧, en: "be the loser"}
+  - {tailo: khue, hanji: 詼, en: "mock, make fun of"}
+  - {tailo: m̄ kam-guān, hanji: 毋甘願, en: "resentful, unwilling"}
+  - {tailo: kang-lâng, hanji: 工人, en: "workman"}
+  - {tailo: láng-á, hanji: 籠仔, en: "cage, basket"}
+  - {tailo: gōng-ti̍t, hanji: 戇直, en: "simple and honest"}
+  - {tailo: khan-gû, hanji: 牽牛, en: "lead an ox"}
+  - {tailo: pik, hanji: 逼, en: "force, press"}
+  - {tailo: tuā-pān, hanji: 大範, en: "bold, poised"}
+  - {tailo: kiong-tiān, hanji: 宮殿, en: "palace"}
+  - {tailo: Hái-lîng-ông, hanji: 海龍王, en: "Dragon King of the Sea"}
+  - {tailo: tsâi-pó, hanji: 財寶, en: "treasure"}
+  - {tailo: tsū-tsok-tsū-siū, hanji: 自作自受, en: "reap what one sows"}
+  - {tailo: kè-bôo, hanji: 計謀, en: "scheme, ruse"}
+  - {tailo: hām-hāi, hanji: 陷害, en: "frame, harm by deceit"}
+  - {tailo: liân-luī, hanji: 連累, en: "get others into trouble"}
+  - {tailo: kóo-kuài, hanji: 古怪, en: "weird, odd"}
+exercises:
+  translate:
+    - {tailo: "I sàn-tshiah, m̄-koh thâu-khak tsin khiáu, siōng gâu kóng pe̍h-tsha̍t-uē.", hanji: "伊散赤，毋過頭殼真巧，上𠢕講白賊話。", en: "He was poor but very clever, and a champion teller of tall tales."}
+    - {tailo: "Tsit khuán pháinn-sim ê ok-lâng, guá lâi kā i siat tsi̍t ê khuan-thò.", hanji: "這款歹心的惡人，我來共伊設一个圈套。", en: "A wicked man like that: I'll set a trap for him."}
+    - {tailo: "Bô hué, tiánn ná ē ka-kī kún?", hanji: "無火，鼎哪會家己滾？", en: "No fire, and the pot's boiling by itself?"}
+    - {tailo: "Uân-guē tsia̍h-khui koh hōo lâng khue, jú siūnn jú m̄ kam-guān.", hanji: "員外食虧閣予人詼，愈想愈毋甘願。", en: "Out of pocket and a laughing stock, the Squire grew more and more bitter."}
+    - {tailo: "Tham-tsâi ê lâng, tse tō sī tsū-tsok-tsū-siū.", hanji: "貪財的人，這就是自作自受。", en: "That's what greed gets you: he brought it on himself."}
+  fill:
+    - {tailo: "I tàng-sng koh tham-tsâi, tsia̍p-tsia̍p ___ sàn-tshiah-lâng.", hanji: "伊凍霜閣貪財，捷捷___散赤人。", answer: "khi-phiàn", answer_hanji: "欺騙", en: "He was stingy and greedy, and often cheated the poor."}
+    - {tailo: "Pe̍h-tsha̍t-tshit ___ tsi̍t-pah niú n̂g-kim.", hanji: "白賊七___一百兩黃金。", answer: "khui-kè", answer_hanji: "開價", en: "Liar Seven asked for a hundred taels of gold."}
+    - {tailo: "Kuann-uân kā Pe̍h-tsha̍t-tshit khîm lâi ___.", hanji: "官員共白賊七擒來___。", answer: "sím-phuànn", answer_hanji: "審判", en: "The magistrate had Liar Seven arrested and tried."}
+    - {tailo: "Uân-guē ___ guá tshuā i ê tsa-bóo-kiánn.", hanji: "員外___我娶伊的查某囝。", answer: "pik", answer_hanji: "逼", en: "The Squire wants to force me to marry his daughter."}
+    - {tailo: "Hái-té iáu-koh ū tsin tsē ___.", hanji: "海底猶閣有真濟___。", answer: "tsâi-pó", answer_hanji: "財寶", en: "There's plenty more treasure down there."}
+audio: []
