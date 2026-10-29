@@ -1,0 +1,53 @@
+id: 63
+title: {en: "Review 9", tailo: "Ho̍k-si̍p", hanji: "復習"}
+genre: review
+review: true
+setting: "A Saturday in April, on the roof of Sam's building. The vegetables from A-kong's tips are coming up, and the friends drop by. Everything comes from 進修 57–62."
+dialogue:
+  - {n: 1, speaker: Siù-lân, hanji: "恁看，九層塔發穎矣！芫荽佮薄荷嘛攏大欉矣。", tailo: "Lín khuànn, káu-tsàn-thah huat-ínn--ah! Iân-sui kah po̍k-hô mā lóng tuā-tsâng--ah.", en: "Look, the basil has sprouted! And the coriander and mint have grown big too."}
+  - {n: 2, speaker: Sam, hanji: "攏是阿公的撇步。盆栽會排水，塗內閣摻堆肥。", tailo: "Lóng sī a-kong ê phiat-pōo. Phûn-tsai ē pâi-tsuí, thôo lāi koh tsham tui-puî.", en: "It's all A-kong's tips. The pots drain well, and there's compost mixed into the soil."}
+  - {n: 3, speaker: A-ióng, hanji: "柑仔蜜咧？會當摘矣未？", tailo: "Kam-á-bi̍t--leh? Ē-tàng tiah--ah buē?", en: "And the tomatoes? Can we pick them yet?"}
+  - {n: 4, speaker: Siù-lân, hanji: "猶未成熟，猶青青。愛等伊紅才摘，若無食著會澀。", tailo: "Iáu-buē sîng-si̍k, iáu tshenn-tshenn. Ài tán i âng tsiah tiah; nā-bô tsia̍h--tio̍h ē siap.", en: "They're not ripe yet, still green. You have to wait until they're red, or they taste sour."}
+  - {n: 5, speaker: Hūi-hūi, hanji: "這个稻草人是啥人插的？佇臺北的厝頂看起來真好笑。", tailo: "Tsit ê tiū-tsháu-lâng sī siánn-lâng tshah--ê? Tī Tâi-pak ê tshù-tíng khuànn--khí-lâi tsin hó-tshiò.", en: "Who put up this scarecrow? It looks really funny on a Taipei rooftop."}
+  - {n: 6, speaker: Sam, hanji: "鳥仔一直來啄菜豆，我無步矣，只好插一个。", tailo: "Tsiáu-á it-ti̍t lâi tok tshài-tāu, guá bô-pōo--ah, tsí-hó tshah tsi̍t ê.", en: "The birds kept pecking at the beans and I was at my wits' end, so I had to put one up."}
+  - {n: 7, speaker: Siok-tsing, hanji: "臺北的鳥仔真巧，你這个稻草人欺騙袂過的啦。", tailo: "Tâi-pak ê tsiáu-á tsin khiáu, lí tsit ê tiū-tsháu-lâng khi-phiàn bē kuè--ê--lah.", en: "Taipei birds are clever: your scarecrow won't fool them."}
+  - {n: 8, speaker: A-ióng, hanji: "講著欺騙，我細漢上愛聽白賊七仔的故事。伊共貪財的員外騙去海底揣海龍王。", tailo: "Kóng-tio̍h khi-phiàn, guá sè-hàn siōng ài thiann Pe̍h-tsha̍t-tshit-á ê kòo-sū. I kā tham-tsâi ê uân-guē phiàn khì hái-té tshuē Hái-lîng-ông.", en: "Speaking of fooling people, as a kid I loved the stories of Liar Seven. He tricked the greedy Squire into going to the bottom of the sea to find the Dragon King."}
+  - {n: 9, speaker: Hūi-hūi, hanji: "員外是自作自受。毋過老師講，白賊七用白賊話陷害人，囡仔人毋通學。", tailo: "Uân-guē sī tsū-tsok-tsū-siū. M̄-koh lāu-su kóng, Pe̍h-tsha̍t-tshit iōng pe̍h-tsha̍t-uē hām-hāi lâng, gín-á-lâng m̄-thang o̍h.", en: "The Squire brought it on himself. But our teacher says Liar Seven used lies to harm people, and children shouldn't copy him."}
+  - {n: 10, speaker: Siok-tsing, hanji: "恁敢有看新聞？王爺廟彼个做桌頭的運將，抾著二十萬箍，隨送去警察局。", tailo: "Lín kám ū khuànn sin-bûn? Ông-iâ-biō hit ê tsò toh-thâu ê ùn-tsiàng, khioh-tio̍h jī-tsa̍p bān khoo, suî sàng khì kíng-tshat-kio̍k.", en: "Did you see the news? That taxi driver who's the interpreter at the Royal Lords' temple found two hundred thousand dollars and took it straight to the police."}
+  - {n: 11, speaker: Sam, hanji: "有，警察局欲表揚伊。伊講：「人毋通貪無應該得的錢。」", tailo: "Ū, kíng-tshat-kio̍k beh piáu-iông--i. I kóng: “Lâng m̄-thang tham bô ing-kai tit ê tsînn.”", en: "Yes, the police are going to honour him. He said: 'You mustn't covet money that isn't yours.'"}
+  - {n: 12, speaker: Hūi-hūi, hanji: "我去阿公庄裡的廟看過童乩起童，劉先生就徛佇神桌邊，共神明的話解說予信眾聽。", tailo: "Guá khì a-kong tsng--lí ê biō khuànn-kuè tâng-ki khí-tâng; Lâu--sian-sinn tō khiā tī sîn-toh pinn, kā sîn-bîng ê uē kái-sueh hōo sìn-tsiòng thiann.", en: "I've seen the medium go into trance at the temple in A-kong's village; Mr Lâu stood by the altar table explaining the god's words to the worshippers."}
+  - {n: 13, speaker: Siù-lân, hanji: "劉先生講，身體若無爽快，愛先看醫生。這个觀點我真贊成。", tailo: "Lâu--sian-sinn kóng, sin-thé nā bô sóng-khuài, ài sing khuànn i-sing. Tsit ê kuan-tiám guá tsin tsàn-sîng.", en: "Mr Lâu says if you're unwell, see a doctor first. I completely agree with that."}
+  - {n: 14, speaker: A-ióng, hanji: "講著看醫生，最近流感真厲害，病毒傳染足緊，恁愛細膩。", tailo: "Kóng-tio̍h khuànn i-sing, tsuè-kīn liû-kám tsin lī-hāi, pēnn-to̍k thuân-jiám tsiok kín, lín ài sè-jī.", en: "Speaking of doctors, the flu's really bad at the moment and the virus spreads fast, so be careful."}
+  - {n: 15, speaker: Siok-tsing, hanji: "阿勇過年食甲大箍一輪，我叫伊食菜幾若工。", tailo: "A-ióng kuè-nî tsia̍h kah tuā-khoo tsi̍t lûn, guá kiò i tsia̍h-tshài kuí-nā kang.", en: "A-ióng ate his way up a size over New Year, so I've put him on vegetarian food for a few days."}
+  - {n: 16, speaker: A-ióng, hanji: "過年好食的傷濟矣：魚丸、滷卵、長年菜、發粿……阮阿母炊的發粿有發，好彩頭！", tailo: "Kuè-nî hó-tsia̍h--ê siunn tsē--ah: hî-uân, lóo-nn̄g, tn̂g-nî-tshài, huat-kué... Gún a-bú tshue ê huat-kué ū huat, hó-tshái-thâu!", en: "There's too much good food at New Year: fishballs, braised eggs, long-year greens, prosperity cake... My mum's prosperity cake rose: a good omen!"}
+  - {n: 17, speaker: Sam, hanji: "阮阿媽教我炊的，煞無發。伊講我明年才會發。", tailo: "Guán a-má kà guá tshue--ê, suah bô huat. I kóng guá mê-nî tsiah ē huat.", en: "The one A-má taught me to make didn't rise. She says I'll rise next year."}
+  - {n: 18, speaker: Hūi-hūi, hanji: "我佮阿傑佇班裡辯論觀光。伊講觀光會當振興地方，我講愛有限度。", tailo: "Guá kah A-kia̍t tī pan--lí piān-lūn kuan-kong. I kóng kuan-kong ē-tàng tsín-hing tē-hng, guá kóng ài ū hān-tōo.", en: "A-kia̍t and I debated tourism in class. He said tourism can revive a town; I said there have to be limits."}
+  - {n: 19, speaker: Sam, hanji: "結果按怎？", tailo: "Kiat-kó án-tsuánn?", en: "So how did it end?"}
+  - {n: 20, speaker: Hūi-hūi, hanji: "老師講，上好的辦法是妥協，予居民佮遊客雙贏。", tailo: "Lāu-su kóng, siōng hó ê pān-huat sī thò-hia̍p, hōo ki-bîn kah iû-kheh siang-iânn.", en: "The teacher said the best solution is a compromise, so that residents and tourists both win."}
+  - {n: 21, speaker: Siù-lân, hanji: "種菜嘛愛平衡：水傷濟，菜會蔫；傷少，塗又閣焦。", tailo: "Tsìng tshài mā ài pîng-hîng: tsuí siunn tsē, tshài ē lian; siunn tsió, thôo iū-koh ta.", en: "Growing vegetables needs balance too: too much water and they wilt; too little and the soil dries out."}
+  - {n: 22, speaker: Sam, hanji: "阿里山的櫻花開矣，咱禮拜六去賞花好無？", tailo: "A-lí-san ê ing-hue khui--ah, lán lé-pài-la̍k khì siúnn-hue hó--bô?", en: "The cherry blossom's out on Alishan: shall we go and see it on Saturday?"}
+  - {n: 23, speaker: Siù-lân, hanji: "遊覽車一台接一台，山路窒甲袂振動，我無愛。咱佇厝頂看九層塔就好。", tailo: "Iû-lám-tshia tsi̍t tâi tsiap tsi̍t tâi, suann-lōo that kah bē tín-tāng, guá bô ài. Lán tī tshù-tíng khuànn káu-tsàn-thah tō hó.", en: "Coach after coach, the mountain road jammed solid: no thanks. Let's just admire the basil up here on the roof."}
+  - {n: 24, speaker: A-ióng, hanji: "好，我用九層塔炒卵，閣剪一寡薄荷泡茶，請逐家。", tailo: "Hó, guá iōng káu-tsàn-thah tshá nn̄g, koh tsián tsi̍t-kuá po̍k-hô phàu tê, tshiánn ta̍k-ke.", en: "Right, I'll make basil omelette and cut some mint for tea for everyone."}
+  - {n: 25, speaker: Siok-tsing, hanji: "（笑）這擺你家己煮，莫閣嫌我的菜傷鹹。", tailo: "(Tshiò) Tsit pái lí ka-kī tsú, mài koh hiâm guá ê tshài siunn kiâm.", en: "(Laughing) This time you're cooking, so don't complain that my food's too salty."}
+notes:
+  - {ref: 1, topic: vocab, text: "The rooftop garden (進修 61): 九層塔, 發穎, 芫荽, 薄荷, 大欉, 撇步, 盆栽, 排水, 堆肥, 柑仔蜜, 成熟, 摘, 稻草人, 啄, 菜豆, 蔫, 剪."}
+  - {ref: 8, topic: vocab, text: "Liar Seven (進修 58): 欺騙, 貪財, 員外, 海龍王, 自作自受, 白賊話, 陷害."}
+  - {ref: 10, topic: vocab, text: "The news (進修 60): 警察局, 表揚, 流感, 病毒, 傳染, 櫻花, 賞花, 遊覽車, 窒, 最近."}
+  - {ref: 12, topic: vocab, text: "The medium's interpreter (進修 59): 運將, 桌頭, 童乩, 起童, 信眾, 爽快, 食菜."}
+  - {ref: 13, topic: vocab, text: "The debate (進修 62): 觀點, 振興, 限度, 妥協, 居民, 雙贏, 平衡."}
+  - {ref: 16, topic: vocab, text: "New Year (進修 57): 魚丸, 滷卵, 長年菜, 發粿, 發, 好彩頭, 炊粿."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Lóng sī a-kong ê phiat-pōo.", hanji: "攏是阿公的撇步。", en: "It's all A-kong's tips."}
+    - {tailo: "Tâi-pak ê tsiáu-á tsin khiáu, lí tsit ê tiū-tsháu-lâng khi-phiàn bē kuè--ê--lah.", hanji: "臺北的鳥仔真巧，你這个稻草人欺騙袂過的啦。", en: "Taipei birds are clever: your scarecrow won't fool them."}
+    - {tailo: "Sin-thé nā bô sóng-khuài, ài sing khuànn i-sing.", hanji: "身體若無爽快，愛先看醫生。", en: "If you're unwell, see a doctor first."}
+    - {tailo: "Kuan-kong ē-tàng tsín-hing tē-hng, m̄-koh ài ū hān-tōo.", hanji: "觀光會當振興地方，毋過愛有限度。", en: "Tourism can revive a town, but there have to be limits."}
+    - {tailo: "Tsìng tshài mā ài pîng-hîng.", hanji: "種菜嘛愛平衡。", en: "Growing vegetables needs balance too."}
+  fill:
+    - {tailo: "Iáu-buē ___, iáu tshenn-tshenn.", hanji: "猶未___，猶青青。", answer: "sîng-si̍k", answer_hanji: "成熟", en: "They're not ripe yet, still green."}
+    - {tailo: "Uân-guē sī ___.", hanji: "員外是___。", answer: "tsū-tsok-tsū-siū", answer_hanji: "自作自受", en: "The Squire brought it on himself."}
+    - {tailo: "Kíng-tshat-kio̍k beh ___--i.", hanji: "警察局欲___伊。", answer: "piáu-iông", answer_hanji: "表揚", en: "The police are going to honour him."}
+    - {tailo: "Gún a-bú tshue ê huat-kué ū huat, ___!", hanji: "阮阿母炊的發粿有發，___！", answer: "hó-tshái-thâu", answer_hanji: "好彩頭", en: "My mum's prosperity cake rose: a good omen!"}
+    - {tailo: "Siōng hó ê pān-huat sī ___, hōo ki-bîn kah iû-kheh siang-iânn.", hanji: "上好的辦法是___，予居民佮遊客雙贏。", answer: "thò-hia̍p", answer_hanji: "妥協", en: "The best solution is a compromise, so that residents and tourists both win."}
+audio: []
