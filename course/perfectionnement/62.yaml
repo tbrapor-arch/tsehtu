@@ -1,0 +1,108 @@
+id: 62
+title: {en: "Tourism: a blessing or a curse?", tailo: "Kuan-kong sī hó ia̍h-sī pháinn?", hanji: "觀光是好抑是歹？"}
+genre: debate
+review: false
+setting: "Spring term. After the debate of 進修 27, Hūi-hūi's class holds a second one, on tourism in old towns like Lukang. A-kia̍t argues for, Hūi-hūi against."
+dialogue:
+  - {n: 1, speaker: Teacher, hanji: "今仔日辯論的題目：「觀光對鹿港這款老街，是好抑是歹？」阿傑講好，惠惠講歹。逐家三分鐘。", tailo: "Kin-á-ji̍t piān-lūn ê tê-bo̍k: “Kuan-kong tuì Lo̍k-káng tsit khuán lāu-ke, sī hó ia̍h-sī pháinn?” A-kia̍t kóng hó, Hūi-hūi kóng pháinn. Ta̍k-ke sann hun-tsing.", en: "Today's motion: 'Is tourism good or bad for an old town like Lukang?' A-kia̍t argues it's good, Hūi-hūi that it's bad. Three minutes each."}
+  - {n: 2, speaker: A-kia̍t, hanji: "老師、各位同學。我先舉例：二十冬前，鹿港的少年人攏去都市食頭路，人口外流，庄頭老化，老街冷清甲無人行。", tailo: "Lāu-su, kok-uī tông-ha̍k. Guá sing kí-lē: jī-tsa̍p tang tsîng, Lo̍k-káng ê siàu-liân-lâng lóng khì too-tshī tsia̍h thâu-lōo, jîn-kháu guā-lâu, tsng-thâu nóo-huà, lāu-ke líng-tshing kah bô lâng kiânn.", en: "Teacher, classmates. Let me start with an example: twenty years ago, Lukang's young people all left for jobs in the cities. The population drained away, the town grew old, and the old streets were deserted."}
+  - {n: 3, speaker: A-kia̍t, hanji: "這馬遊客來，就有商機。少年人轉來開店、排攤販，地方閣有活力。這就是觀光振興地方。", tailo: "Tsit-má iû-kheh lâi, tō ū siong-ki. Siàu-liân-lâng tńg--lâi khui tiàm, pâi thuann-huàn, tē-hng koh ū ua̍h-li̍k. Tse tō sī kuan-kong tsín-hing tē-hng.", en: "Now the tourists come, there's business to be had. Young people come back to open shops and run stalls, and the town is lively again. That's tourism reviving a place."}
+  - {n: 4, speaker: A-kia̍t, hanji: "我閣有數字：老街的店面，十冬內加真濟間，就業的機會嘛加真濟。", tailo: "Guá koh ū sòo-jī: lāu-ke ê tiàm-bīn, tsa̍p tang lāi ke tsin tsē king, tsiū-gia̍p ê ki-huē mā ke tsin tsē.", en: "And I have figures: the number of shops on the old streets has grown a lot in ten years, and so have the jobs."}
+  - {n: 5, speaker: A-kia̍t, hanji: "做線香、拍錫的師傅，嘛是因為遊客來買，手工才有法度傳承落去。", tailo: "Tsò suànn-hiunn, phah sik ê sai-hū, mā sī in-uī iû-kheh lâi bé, tshiú-kang tsiah ū huat-tōo thuân-sîng--lo̍h-khì.", en: "And it's because tourists buy from them that the incense makers and tinsmiths can pass their crafts on."}
+  - {n: 6, speaker: Hūi-hūi, hanji: "我欲反駁。對手講的是眼前的利益，毋過這个利益有代價。", tailo: "Guá beh huán-pok. Tuì-tshiú kóng--ê sī gán-tsiân ê lī-ik, m̄-koh tsit ê lī-ik ū tāi-kè.", en: "I'd like to rebut that. My opponent is talking about immediate benefits, but those benefits come at a price."}
+  - {n: 7, speaker: Hūi-hūi, hanji: "第一，噪音。禮拜六日老街規工吵甲，居民暗時都睏袂去。", tailo: "Tē-it, tshò-im. Lé-pài-la̍k ji̍t lāu-ke kui kang tshá kah, ki-bîn àm-sî to khùn bē khì.", en: "First, noise. At weekends the old streets are noisy all day, and residents can't sleep at night."}
+  - {n: 8, speaker: Hūi-hūi, hanji: "第二，糞埽。有的遊客無公德心，食了就四界擲，街仔路變甲真垃圾。", tailo: "Tē-jī, pùn-sò. Ū ê iû-kheh bô kong-tik-sim, tsia̍h liáu tō sì-kè tàn, ke-á-lōo piàn kah tsin lah-sap.", en: "Second, litter. Some tourists have no public spirit: they finish eating and throw their rubbish anywhere, and the streets get filthy."}
+  - {n: 9, speaker: Hūi-hūi, hanji: "第三，店面的租金起價，原本的老店承受袂牢，攏予人趕走，換做賣全國仝款物件的店。", tailo: "Tē-sann, tiàm-bīn ê tsoo-kim khí-kè, guân-pún ê lāu tiàm sîng-siū bē tiâu, lóng hōo lâng kuánn--tsáu, uānn-tsò bē tsuân-kok kāng-khuán mi̍h-kiānn ê tiàm.", en: "Third, shop rents go up, the old shops can't cope and are forced out, and they're replaced by shops selling the same things as everywhere else in the country."}
+  - {n: 10, speaker: Hūi-hūi, hanji: "按呢，鹿港煞變做無特色的所在。觀光若過度，就是共家己的文化賣掉。", tailo: "Án-ne, Lo̍k-káng suah piàn-tsò bô ti̍k-sik ê sóo-tsāi. Kuan-kong nā kuè-tōo, tō sī kā ka-kī ê bûn-huà bē--tiāu.", en: "And so Lukang becomes a place with no character. Too much tourism means selling off your own culture."}
+  - {n: 11, speaker: A-kia̍t, hanji: "我毋同意。問題毋是觀光，是無管理。若有合理的規範，就會當維持平衡。", tailo: "Guá m̄ tông-ì. Būn-tê m̄ sī kuan-kong, sī bô kuán-lí. Nā ū ha̍p-lí ê kui-huān, tō ē-tàng î-tshî pîng-hîng.", en: "I disagree. The problem isn't tourism, it's the lack of management. With sensible rules, you can keep a balance."}
+  - {n: 12, speaker: A-kia̍t, hanji: "譬如，古蹟會當收門票，閣用預約限制人數，趁的錢提來修復老厝。", tailo: "Phì-jû, kóo-tsik ē-tàng siu mn̂g-phiò, koh iōng ī-iok hān-tsè jîn-sòo, thàn ê tsînn the̍h lâi siu-ho̍k lāu tshù.", en: "For example, historic sites could charge admission and limit numbers by booking, and the money could go towards restoring old houses."}
+  - {n: 13, speaker: Hūi-hūi, hanji: "收費佮預約，對民生無啥幫助。老人去買菜、囡仔去上課，猶是愛佇人群內底鑽。", tailo: "Siu-huì kah ī-iok, tuì bîn-sing bô siánn pang-tsōo. Lāu-lâng khì bé tshài, gín-á khì siōng-khò, iáu-sī ài tī jîn-kûn lāi-té tsǹg.", en: "Charges and bookings do nothing for people's daily lives. Old people going shopping and children going to school still have to push through the crowds."}
+  - {n: 14, speaker: Hūi-hūi, hanji: "閣有遊客的素質。有的人入去人的厝內翕相，親像居民是動物園的動物。", tailo: "Koh ū iû-kheh ê sòo-tsit. Ū ê lâng ji̍p-khì lâng ê tshù-lāi hip-siòng, tshin-tshiūnn ki-bîn sī tōng-bu̍t-hn̂g ê tōng-bu̍t.", en: "Then there's the behaviour of some tourists. Some walk into people's homes to take photos, as if the residents were animals in a zoo."}
+  - {n: 15, speaker: Teacher, hanji: "時間到矣。請兩爿講結論。", tailo: "Sî-kan kàu--ah. Tshiánn nn̄g pîng kóng kiat-lūn.", en: "Time's up. Both sides, please give your conclusions."}
+  - {n: 16, speaker: A-kia̍t, hanji: "我的立場是：觀光是一个機會。短期會有衝擊，毋過長期對地方有利。", tailo: "Guá ê li̍p-tiûnn sī: kuan-kong sī tsi̍t ê ki-huē. Té-kî ē ū tshiong-kik, m̄-koh tn̂g-kî tuì tē-hng iú-lī.", en: "My position is that tourism is an opportunity. In the short term there'll be disruption, but in the long run it benefits the town."}
+  - {n: 17, speaker: Hūi-hūi, hanji: "我的觀點是：觀光毋是毋好，毋過愛有限度。若無，寧靜的老街就無去矣。地方是居民的，毋是遊客的。", tailo: "Guá ê kuan-tiám sī: kuan-kong m̄ sī m̄ hó, m̄-koh ài ū hān-tōo. Nā-bô, lîng-tsīng ê lāu-ke tō bô--khì--ah. Tē-hng sī ki-bîn--ê, m̄ sī iû-kheh--ê.", en: "My view is that tourism isn't bad in itself, but there have to be limits. Otherwise the peaceful old streets will be gone. The town belongs to its residents, not to the tourists."}
+  - {n: 18, speaker: Teacher, hanji: "兩个攏講甲真好。其實恁的論點有一个所在相仝：攏希望鹿港會當長久永續。", tailo: "Nn̄g ê lóng kóng kah tsin hó. Kî-si̍t lín ê lūn-tiám ū tsi̍t ê sóo-tsāi sio-kāng: lóng hi-bāng Lo̍k-káng ē-tàng tn̂g-kú íng-sio̍k.", en: "You both argued very well. In fact your arguments have one thing in common: you both want Lukang to last, sustainably."}
+  - {n: 19, speaker: Teacher, hanji: "上好的辦法，可能是妥協：觀光佮居民的生活攏顧，予兩爿攏贏，這就是雙贏。", tailo: "Siōng hó ê pān-huat, khó-lîng sī thò-hia̍p: kuan-kong kah ki-bîn ê sing-ua̍h lóng kòo, hōo nn̄g pîng lóng iânn; tse tō sī siang-iânn.", en: "The best solution may be a compromise: look after both tourism and residents' lives so that both sides win. That's a win-win."}
+  - {n: 20, speaker: Teacher, hanji: "逐家記咧：辯論毋是相罵，是用道理予人聽。毋免為著贏，就毋承認人講了有理。", tailo: "Ta̍k-ke kì--leh: piān-lūn m̄ sī sio-mē, sī iōng tō-lí hōo lâng thiann. M̄-bián uī-tio̍h iânn, tō m̄ sîng-jīn lâng kóng liáu ū-lí.", en: "Remember, everyone: debating isn't quarrelling, it's persuading people with reasons. Don't refuse to admit someone has a point just to win."}
+  - {n: 21, speaker: A-kia̍t, hanji: "（細聲）會長，你今仔日真𠢕辯。", tailo: "(Sè-siann) Huē-tiúnn, lí kin-á-ji̍t tsin gâu piān.", en: "(Quietly) Madam President, you argued brilliantly today."}
+  - {n: 22, speaker: Hūi-hūi, hanji: "你嘛是。毋過下擺學生會開會，你莫閣共我反駁遐爾久。", tailo: "Lí mā sī. M̄-koh ē-pái ha̍k-sing-huē khui-huē, lí mài koh kā guá huán-pok hiah-nī kú.", en: "So did you. But at the next council meeting, don't spend so long arguing against me."}
+notes:
+  - {ref: 1, topic: vocab, text: "觀光 = tourism. 辯論, 題目 (進修 27)."}
+  - {ref: 2, topic: vocab, text: "舉例 kí-lē = give an example. 外流 guā-lâu = drain away (of population). 老化 nóo-huà = age. 冷清 líng-tshing = deserted, quiet."}
+  - {ref: 3, topic: vocab, text: "商機 siong-ki = business opportunity. 攤販 thuann-huàn = street stall; stallholder. 活力 = vitality. 振興 tsín-hing = revive, revitalise."}
+  - {ref: 4, topic: vocab, text: "數字 sòo-jī = figure, number. 店面 tiàm-bīn = shopfront, shop. 就業 tsiū-gia̍p = employment."}
+  - {ref: 6, topic: vocab, text: "反駁 huán-pok = rebut, refute. 眼前 gán-tsiân = immediate, at present. 利益 lī-ik = benefit, interest. 代價 tāi-kè = price, cost."}
+  - {ref: 7, topic: vocab, text: "噪音 tshò-im = noise. 居民 ki-bîn = resident."}
+  - {ref: 8, topic: vocab, text: "公德心 kong-tik-sim = public spirit, civic-mindedness. 垃圾 lah-sap = dirty, filthy (in Taigi an adjective, not 'rubbish', which is 糞埽)."}
+  - {ref: 9, topic: vocab, text: "承受 sîng-siū = bear, withstand. 全國 = the whole country."}
+  - {ref: 10, topic: vocab, text: "特色 = character, special feature (進修 16). 過度 kuè-tōo = excessive(ly)."}
+  - {ref: 11, topic: vocab, text: "合理 ha̍p-lí = reasonable. 規範 kui-huān = rules, norms. 維持 î-tshî = maintain. 平衡 pîng-hîng = balance."}
+  - {ref: 12, topic: vocab, text: "譬如 phì-jû = for example. 門票 mn̂g-phiò = admission ticket. 預約 ī-iok = booking, reservation. 限制 = limit. 人數 jîn-sòo = number of people. 修復 siu-ho̍k = restore."}
+  - {ref: 13, topic: vocab, text: "收費 siu-huì = charge (a fee). 民生 bîn-sing = people's daily lives."}
+  - {ref: 14, topic: vocab, text: "素質 sòo-tsit = quality, standard (of people's behaviour). 翕相 = take a photo (lesson 18). 動物園 = zoo."}
+  - {ref: 16, topic: vocab, text: "立場 li̍p-tiûnn = position, standpoint. 短期 té-kî = short-term. 長期 tn̂g-kî = long-term. 衝擊 tshiong-kik = impact, shock. 有利 iú-lī = beneficial."}
+  - {ref: 17, topic: vocab, text: "觀點 kuan-tiám = point of view. 限度 hān-tōo = limit. 寧靜 lîng-tsīng = peaceful, tranquil."}
+  - {ref: 18, topic: vocab, text: "論點 lūn-tiám = argument, point. 長久 tn̂g-kú = lasting. 永續 íng-sio̍k = sustainable."}
+  - {ref: 19, topic: vocab, text: "妥協 thò-hia̍p = compromise. 雙贏 siang-iânn = win-win."}
+  - {ref: 21, topic: vocab, text: "辯 piān = argue, debate."}
+new_words:
+  - {tailo: kí-lē, hanji: 舉例, en: "give an example"}
+  - {tailo: guā-lâu, hanji: 外流, en: "drain away (of population)"}
+  - {tailo: nóo-huà, hanji: 老化, en: "age, grow old"}
+  - {tailo: líng-tshing, hanji: 冷清, en: "deserted, quiet"}
+  - {tailo: siong-ki, hanji: 商機, en: "business opportunity"}
+  - {tailo: thuann-huàn, hanji: 攤販, en: "street stall; stallholder"}
+  - {tailo: tsín-hing, hanji: 振興, en: "revive, revitalise"}
+  - {tailo: sòo-jī, hanji: 數字, en: "figure, number"}
+  - {tailo: tiàm-bīn, hanji: 店面, en: "shopfront, shop"}
+  - {tailo: tsiū-gia̍p, hanji: 就業, en: "employment"}
+  - {tailo: huán-pok, hanji: 反駁, en: "rebut, refute"}
+  - {tailo: gán-tsiân, hanji: 眼前, en: "immediate, at present"}
+  - {tailo: lī-ik, hanji: 利益, en: "benefit, interest"}
+  - {tailo: tāi-kè, hanji: 代價, en: "price, cost"}
+  - {tailo: tshò-im, hanji: 噪音, en: "noise"}
+  - {tailo: ki-bîn, hanji: 居民, en: "resident"}
+  - {tailo: kong-tik-sim, hanji: 公德心, en: "public spirit"}
+  - {tailo: lah-sap, hanji: 垃圾, en: "dirty, filthy"}
+  - {tailo: sîng-siū, hanji: 承受, en: "bear, withstand"}
+  - {tailo: kuè-tōo, hanji: 過度, en: "excessive(ly)"}
+  - {tailo: ha̍p-lí, hanji: 合理, en: "reasonable"}
+  - {tailo: kui-huān, hanji: 規範, en: "rules, norms"}
+  - {tailo: î-tshî, hanji: 維持, en: "maintain"}
+  - {tailo: pîng-hîng, hanji: 平衡, en: "balance"}
+  - {tailo: phì-jû, hanji: 譬如, en: "for example"}
+  - {tailo: mn̂g-phiò, hanji: 門票, en: "admission ticket"}
+  - {tailo: ī-iok, hanji: 預約, en: "booking, reservation"}
+  - {tailo: jîn-sòo, hanji: 人數, en: "number of people"}
+  - {tailo: siu-ho̍k, hanji: 修復, en: "restore"}
+  - {tailo: siu-huì, hanji: 收費, en: "charge (a fee)"}
+  - {tailo: bîn-sing, hanji: 民生, en: "people's daily lives"}
+  - {tailo: sòo-tsit, hanji: 素質, en: "quality, standard"}
+  - {tailo: li̍p-tiûnn, hanji: 立場, en: "position, standpoint"}
+  - {tailo: té-kî, hanji: 短期, en: "short-term"}
+  - {tailo: tn̂g-kî, hanji: 長期, en: "long-term"}
+  - {tailo: tshiong-kik, hanji: 衝擊, en: "impact, shock"}
+  - {tailo: iú-lī, hanji: 有利, en: "beneficial"}
+  - {tailo: kuan-tiám, hanji: 觀點, en: "point of view"}
+  - {tailo: hān-tōo, hanji: 限度, en: "limit"}
+  - {tailo: lîng-tsīng, hanji: 寧靜, en: "peaceful, tranquil"}
+  - {tailo: lūn-tiám, hanji: 論點, en: "argument, point"}
+  - {tailo: tn̂g-kú, hanji: 長久, en: "lasting"}
+  - {tailo: íng-sio̍k, hanji: 永續, en: "sustainable"}
+  - {tailo: thò-hia̍p, hanji: 妥協, en: "compromise"}
+  - {tailo: siang-iânn, hanji: 雙贏, en: "win-win"}
+  - {tailo: piān, hanji: 辯, en: "argue, debate"}
+exercises:
+  translate:
+    - {tailo: "Jîn-kháu guā-lâu, tsng-thâu nóo-huà, lāu-ke líng-tshing kah bô lâng kiânn.", hanji: "人口外流，庄頭老化，老街冷清甲無人行。", en: "The population drained away, the town grew old, and the old streets were deserted."}
+    - {tailo: "Tuì-tshiú kóng--ê sī gán-tsiân ê lī-ik, m̄-koh tsit ê lī-ik ū tāi-kè.", hanji: "對手講的是眼前的利益，毋過這个利益有代價。", en: "My opponent is talking about immediate benefits, but those benefits come at a price."}
+    - {tailo: "Nā ū ha̍p-lí ê kui-huān, tō ē-tàng î-tshî pîng-hîng.", hanji: "若有合理的規範，就會當維持平衡。", en: "With sensible rules, you can keep a balance."}
+    - {tailo: "Kuan-kong m̄ sī m̄ hó, m̄-koh ài ū hān-tōo.", hanji: "觀光毋是毋好，毋過愛有限度。", en: "Tourism isn't bad in itself, but there have to be limits."}
+    - {tailo: "Piān-lūn m̄ sī sio-mē, sī iōng tō-lí hōo lâng thiann.", hanji: "辯論毋是相罵，是用道理予人聽。", en: "Debating isn't quarrelling, it's persuading people with reasons."}
+  fill:
+    - {tailo: "Siàu-liân-lâng tńg--lâi khui tiàm, pâi ___.", hanji: "少年人轉來開店、排___。", answer: "thuann-huàn", answer_hanji: "攤販", en: "Young people come back to open shops and run stalls."}
+    - {tailo: "Lé-pài-la̍k ji̍t lāu-ke kui kang tshá kah, ___ àm-sî to khùn bē khì.", hanji: "禮拜六日老街規工吵甲，___暗時都睏袂去。", answer: "ki-bîn", answer_hanji: "居民", en: "At weekends the old streets are noisy all day, and residents can't sleep at night."}
+    - {tailo: "Ū ê iû-kheh bô ___, tsia̍h liáu tō sì-kè tàn.", hanji: "有的遊客無___，食了就四界擲。", answer: "kong-tik-sim", answer_hanji: "公德心", en: "Some tourists have no public spirit: they throw their rubbish anywhere."}
+    - {tailo: "Guá ê ___ sī: kuan-kong sī tsi̍t ê ki-huē.", hanji: "我的___是：觀光是一个機會。", answer: "li̍p-tiûnn", answer_hanji: "立場", en: "My position is that tourism is an opportunity."}
+    - {tailo: "Siōng hó ê pān-huat, khó-lîng sī ___.", hanji: "上好的辦法，可能是___。", answer: "thò-hia̍p", answer_hanji: "妥協", en: "The best solution may be a compromise."}
+audio: []

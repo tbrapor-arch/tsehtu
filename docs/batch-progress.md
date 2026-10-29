@@ -14,7 +14,7 @@ If a session stops (credits, container reset), resume from here.
 | P59 | interview | a temple medium's interpreter (桌頭) on spirit mediums (童乩), told respectfully | done (42 new words) |
 | P60 | news | TV news bulletin, several short items | done (44 new words) |
 | P61 | document | A-má's mahjong rules for Sam | done (38 new words) |
-| P62 | debate | Hūi-hūi's class: is tourism good for a town like Lukang? | todo |
+| P62 | debate | Hūi-hūi's class: is tourism good for a town like Lukang? | done (46 new words) |
 | P63 | review | recombines P57–P62, no new words | todo |
 
 After all seven: extra exercises (tools/exercises.py), lint, make test, xrefs, taught_later 157 163, qc, build,
