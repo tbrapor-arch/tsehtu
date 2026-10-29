@@ -1,0 +1,102 @@
+id: 57
+title: {en: "Sam's New Year diary", tailo: "Sam ê kuè-nî ji̍t-kì", hanji: "Sam的過年日記"}
+genre: diary
+review: false
+setting: "Sam's diary from the company's year-end banquet to the Jade Emperor's birthday. In 2027 the Lunar New Year falls on Saturday 6 February; Sam spends it with A-kong and A-má in Tainan."
+dialogue:
+  - {n: 1, hanji: "一月二十二，禮拜五。今暗公司食尾牙，頭家請逐家食割包，閣有抽獎。", tailo: "It-gue̍h jī-tsa̍p-jī, lé-pài-gōo. Kin-àm kong-si tsia̍h bué-gê, thâu-ke tshiánn ta̍k-ke tsia̍h kuah-pau, koh ū thiu-tsióng.", en: "Friday 22 January. Tonight was the company's year-end banquet: the boss treated us all to pork buns, and there was a prize draw."}
+  - {n: 2, hanji: "同事共我講，古早食尾牙的時，雞的頭若向著你，就是頭家欲叫你辭頭路。好佳哉，今年雞頭是向著頭家家己。", tailo: "Tông-sū kā guá kóng, kóo-tsá tsia̍h bué-gê ê sî, ke ê thâu nā ǹg--tio̍h--lí, tō sī thâu-ke beh kiò lí sî thâu-lōo. Hó-ka-tsài, kin-nî ke-thâu sī ǹg-tio̍h thâu-ke ka-kī.", en: "A colleague told me that in the old days, if the chicken's head was pointed at you at the banquet, it meant the boss was going to fire you. Luckily, this year it was pointing at the boss himself."}
+  - {n: 3, hanji: "二月三，禮拜三。我坐火車轉去臺南。阿公阿媽兜規家伙仔咧筅黗，連神桌都愛拭甲清氣。", tailo: "Jī-gue̍h sann, lé-pài-sann. Guá tsē hué-tshia tńg-khì Tâi-lâm. A-kong a-má tau kui-ke-hué-á teh tshíng-thûn, liân sîn-toh to ài tshit kah tshing-khì.", en: "Wednesday 3 February. I took the train back to Tainan. At A-kong and A-má's the whole family was doing the big New Year clean, right down to wiping the altar table."}
+  - {n: 4, hanji: "阿媽講，年節進前一定愛筅黗，共舊年的歹運攏掃出去。", tailo: "A-má kóng, nî-tseh tsìn-tsîng it-tīng ài tshíng-thûn, kā kū-nî ê pháinn-ūn lóng sàu--tshut-khì.", en: "A-má says you must always clean the house before the festival, to sweep out last year's bad luck."}
+  - {n: 5, hanji: "下晝阿媽教我炊粿。先共在來米浸水，閣磨做米漿，紅龜粿就用粿模印。", tailo: "Ē-tàu a-má kà guá tshue kué. Sing kā tsāi-lâi-bí tsìm tsuí, koh buâ tsò bí-tsiunn; âng-ku-kué tō iōng kué-bôo ìn.", en: "In the afternoon A-má taught me to steam rice cakes. First you soak the long-grain rice, then grind it into rice milk; the red turtle cakes are shaped in a wooden mould."}
+  - {n: 6, hanji: "上要緊的是發粿。發粿若炊了有發，頂面裂開若咧笑，就是好彩頭，明年會發財。", tailo: "Siōng iàu-kín--ê sī huat-kué. Huat-kué nā tshue liáu ū huat, tíng-bīn li̍h--khui ná teh tshiò, tō sī hó-tshái-thâu, mê-nî ē huat-tsâi.", en: "The most important is the 'prosperity cake'. If it rises when it's steamed and the top splits open as if it were laughing, that's a good omen: you'll make money next year."}
+  - {n: 7, hanji: "我炊的發粿，無發，閣扁扁。阿媽笑講：「無要緊，明年你就會發。」", tailo: "Guá tshue ê huat-kué bô huat, koh pínn-pínn. A-má tshiò kóng: “Bô-iàu-kín, mê-nî lí tō ē huat.”", en: "My cake didn't rise and came out flat. A-má laughed: 'Never mind, you'll rise next year.'"}
+  - {n: 8, hanji: "二月五，禮拜五，二九暝。下晡阮佇神桌頂排三牲、粿佮果子，祭拜祖先。", tailo: "Jī-gue̍h gōo, lé-pài-gōo, Jī-káu-mê. Ē-poo guán tī sîn-toh tíng pâi sam-sing, kué kah kué-tsí, tsè-pài tsóo-sian.", en: "Friday 5 February, New Year's Eve. In the afternoon we laid out the three meats, rice cakes and fruit on the altar table and made offerings to the ancestors."}
+  - {n: 9, hanji: "暗時全家圍爐。長年菜愛規葉食，袂使咬斷，按呢才會長歲壽。", tailo: "Àm-sî tsuân-ke uî-lôo. Tn̂g-nî-tshài ài kui hio̍h tsia̍h, bē-sái kā tn̄g, án-ne tsiah ē tn̂g-huè-siū.", en: "In the evening the whole family gathered round for the reunion dinner. You have to eat the 'long-year greens' leaf by leaf, without biting them in two, so you'll live a long life."}
+  - {n: 10, hanji: "桌頂閣有魚丸、滷卵，佮阿媽用筍燖的雞湯，燒燙燙，真芳。", tailo: "Toh-tíng koh ū hî-uân, lóo-nn̄g, kah a-má iōng sún tīm ê ke-thng, sio-thǹg-thǹg, tsin phang.", en: "There were fishballs, braised eggs, and A-má's chicken soup slow-cooked with bamboo shoots, piping hot and fragrant."}
+  - {n: 11, hanji: "食飽，阿公提硩年錢予逐家。我講我已經是大人矣，阿公講：「猶未結婚就是囡仔，愛提。」", tailo: "Tsia̍h-pá, a-kong the̍h teh-nî-tsînn hōo ta̍k-ke. Guá kóng guá í-king sī tuā-lâng--ah, a-kong kóng: “Iáu-buē kiat-hun tō sī gín-á, ài the̍h.”", en: "After dinner A-kong handed out New Year money to everyone. I said I was a grown man now, and A-kong said: 'Until you're married you're a child: take it.'"}
+  - {n: 12, hanji: "阿明的查某囝無細膩講一句歹話，阿媽隨講：「囡仔人有耳無喙！」過年的時，「死」、「破」這款字攏袂使講。", tailo: "A-bîng ê tsa-bóo-kiánn bô-sè-jī kóng tsi̍t kù pháinn-uē, a-má suî kóng: “Gín-á-lâng ū-hīnn-bô-tshuì!” Kuè-nî ê sî, “sí”, “phuà” tsit khuán jī lóng bē-sái kóng.", en: "A-bîng's little daughter let slip something unlucky, and A-má said straight away: 'Children should listen, not talk!' At New Year, words like 'die' and 'broken' are forbidden."}
+  - {n: 13, hanji: "二月六，開正。新正年頭，逐家見面攏講好話：「恭喜！新年好！」", tailo: "Jī-gue̍h la̍k, khui-tsiann. Sin-tsiann nî-thâu, ta̍k-ke kìnn-bīn lóng kóng hó-uē: “Kiong-hí! Sin-nî hó!”", en: "6 February, New Year's Day. At the start of the year everyone greets each other with good wishes: 'Congratulations! Happy New Year!'"}
+  - {n: 14, hanji: "阿公穿新的衫，坐佇廳裡等人來拜年。桌頂的茶盤囥金棗、瓜子佮糖仔，人客來就請食。", tailo: "A-kong tshīng sin ê sann, tsē tī thiann--lí tán lâng lâi pài-nî. Toh-tíng ê tê-puânn khǹg kim-tsó, kue-tsí kah thn̂g-á, lâng-kheh lâi tō tshiánn tsia̍h.", en: "A-kong put on new clothes and sat in the front room waiting for visitors to come with their New Year greetings. On the table, the tea tray held candied kumquats, melon seeds and sweets for the guests."}
+  - {n: 15, hanji: "下晝阮去廟裡進香。人規廟埕，香煙茫茫。阿媽閣替阿明拜財神，求伊今年生理好。", tailo: "Ē-tàu guán khì biō--lí tsìn-hiunn. Lâng kui biō-tiânn, hiunn-ian bông-bông. A-má koh thè A-bîng pài tsâi-sîn, kiû i kin-nî sing-lí hó.", en: "In the afternoon we went to the temple to offer incense. The courtyard was packed and thick with incense smoke. A-má also prayed to the God of Wealth for A-bîng's business this year."}
+  - {n: 16, hanji: "二月七，初二。阿勇佮淑貞轉去淑貞𪜶兜做客。阿勇講，伊這擺有提一束玫瑰予丈姆。", tailo: "Jī-gue̍h tshit, tshe-jī. A-ióng kah Siok-tsing tńg-khì Siok-tsing in tau tsò-kheh. A-ióng kóng, i tsit pái ū the̍h tsi̍t sok muî-kuì hōo tiūnn-ḿ.", en: "7 February, the second day. A-ióng and Siok-tsing went to Siok-tsing's parents for the married daughter's New Year visit. A-ióng says he brought a bunch of roses for his mother-in-law this time."}
+  - {n: 17, hanji: "我嘛去秀蘭𪜶兜拜年。黃先生提紹興酒出來，我干焦啉一杯，伊有歡喜。", tailo: "Guá mā khì Siù-lân in tau pài-nî. N̂g--sian-sinn the̍h siāu-hing-tsiú tshut--lâi, guá kan-na lim tsi̍t pue, i ū huann-hí.", en: "I went to Siù-lân's to wish her family a happy New Year too. Mr N̂g brought out the Shaoxing; I had just one glass, and he was pleased."}
+  - {n: 18, hanji: "二月十四，初九，天公生。天公的生日，半暝就愛起來拜。我佇臺北，看著厝邊佇樓跤排桌拜天公。", tailo: "Jī-gue̍h tsa̍p-sì, tshe-káu, Thinn-kong-senn. Thinn-kong ê senn-ji̍t, puànn-mê tō ài khí--lâi pài. Guá tī Tâi-pak, khuànn-tio̍h tshù-pinn tī lâu-kha pâi toh pài Thinn-kong.", en: "14 February, the ninth day: the Jade Emperor's birthday. He's worshipped in the middle of the night. I'm back in Taipei, and I saw my neighbours setting up a table downstairs to worship him."}
+  - {n: 19, hanji: "今年天公生拄著西洋的情人節。我送秀蘭一束玫瑰，伊笑講：「你嘛會曉向阿勇學。」", tailo: "Kin-nî Thinn-kong-senn tú-tio̍h se-iûnn ê tsîng-jîn-tseh. Guá sàng Siù-lân tsi̍t sok muî-kuì, i tshiò kóng: “Lí mā ē-hiáu ǹg A-ióng o̍h.”", en: "This year the Jade Emperor's birthday fell on Valentine's Day. I gave Siù-lân a bunch of roses, and she laughed: 'So you've learnt from A-ióng too.'"}
+  - {n: 20, hanji: "年節這幾工，食甲大箍一輪。舊曆年過了，我著閣去河邊走標矣。", tailo: "Nî-tseh tsit kuí kang, tsia̍h kah tuā-khoo tsi̍t lûn. Kū-li̍k-nî kuè liáu, guá tio̍h koh khì hô-pinn tsáu-pio--ah.", en: "Over the holiday I've eaten my way up a size. Now Lunar New Year's over, I'd better get back to running by the river."}
+  - {n: 21, hanji: "過年雖然無閒，毋過全家人佮秀蘭攏佇我身軀邊，我感覺家己真有福。", tailo: "Kuè-nî sui-jiân bô-îng, m̄-koh tsuân-ke-lâng kah Siù-lân lóng tī guá sin-khu-pinn, guá kám-kak ka-kī tsin ū hok.", en: "New Year is busy, but with the whole family and Siù-lân around me, I feel very lucky."}
+notes:
+  - {ref: 1, topic: culture, text: "尾牙 bué-gê = the year-end banquet a company gives its staff (lit. 'the last ya', the last of the year's offerings to the Earth God on the 16th of the 12th month). 割包 kuah-pau = steamed bun with braised pork, the traditional 尾牙 food. 抽獎 (進修 41)."}
+  - {ref: 2, topic: culture, text: "向 ǹg = face, point towards the same character is read ànn 'bend over' in 進修 29. The 'chicken head' custom: at old-style 尾牙 banquets, the boss signalled who would be let go by turning the head of the chicken towards them."}
+  - {ref: 3, topic: vocab, text: "規家伙仔 = the whole family. 筅黗 tshíng-thûn = sweep away soot, the big clean before New Year. 神桌 sîn-toh = altar table."}
+  - {ref: 4, topic: vocab, text: "年節 nî-tseh = New Year and other festivals; the holiday season. 歹運 = bad luck."}
+  - {ref: 5, topic: vocab, text: "粿 kué = rice cake. 炊粿 tshue kué = steam rice cakes. 在來米 tsāi-lâi-bí = indica (long-grain) rice. 浸 = soak. 磨 = grind (進修 26). 米漿 bí-tsiunn = rice milk; rice batter. 粿模 kué-bôo = wooden cake mould. 紅龜粿 (進修 15)."}
+  - {ref: 6, topic: vocab, text: "發粿 huat-kué = 'prosperity cake', a steamed rice cake that rises and splits on top. 發 = rise; prosper. 好彩頭 hó-tshái-thâu = good omen. 發財 = get rich (lesson 23)."}
+  - {ref: 8, topic: vocab, text: "二九暝 Jī-káu-mê = New Year's Eve (the night of the 29th, or 30th, of the 12th month). 三牲 sam-sing = the three meats offered at the altar (pork, chicken, fish). 祭拜 tsè-pài = make offerings to, worship."}
+  - {ref: 9, topic: vocab, text: "全家 tsuân-ke = the whole family. 圍爐 = the reunion dinner (lesson 23). 長年菜 tn̂g-nî-tshài = 'long-year greens', mustard greens eaten whole on New Year's Eve."}
+  - {ref: 10, topic: vocab, text: "魚丸 hî-uân = fishball. 滷卵 lóo-nn̄g = egg braised in soy sauce. 筍 sún = bamboo shoot. 燖 tīm = simmer, slow-cook in a closed pot."}
+  - {ref: 11, topic: vocab, text: "硩年錢 teh-nî-tsînn = New Year money given to children (lit. 'money to hold down the year')."}
+  - {ref: 12, topic: vocab, text: "無細膩 bô-sè-jī = careless; by accident. 歹話 pháinn-uē = unlucky or bad words. 囡仔人有耳無喙 'children have ears but no mouths', said to hush a child who says something inauspicious; 有耳無喙 ū-hīnn-bô-tshuì = listen and keep quiet."}
+  - {ref: 13, topic: vocab, text: "開正 khui-tsiann = the first day of the year. 新正 sin-tsiann = the New Year (holiday). 年頭 nî-thâu = the beginning of the year."}
+  - {ref: 14, topic: vocab, text: "廳 thiann = front room, hall. 拜年 pài-nî = pay a New Year call. 茶盤 tê-puânn = tea tray; at New Year, a tray of sweets for guests. 金棗 kim-tsó = kumquat (often candied). 瓜子 kue-tsí = (roasted) melon seeds."}
+  - {ref: 15, topic: vocab, text: "進香 tsìn-hiunn = offer incense at a temple. 廟埕 = temple forecourt. 香煙 hiunn-ian = incense smoke. 財神 tsâi-sîn = the God of Wealth."}
+  - {ref: 16, topic: culture, text: "做客 tsò-kheh = (of a married daughter) visit her parents; on the 2nd day of the New Year, married daughters 'go back as guests' with their husbands. 丈姆 = mother-in-law (進修 3)."}
+  - {ref: 18, topic: culture, text: "天公生 Thinn-kong-senn = the Jade Emperor's birthday, on the 9th day of the first month, celebrated from midnight onwards."}
+  - {ref: 19, topic: vocab, text: "西洋 = Western. 情人節 = Valentine's Day."}
+  - {ref: 20, topic: vocab, text: "大箍一輪 = a size bigger. 舊曆 kū-li̍k = the lunar calendar; 舊曆年 'Lunar New Year'."}
+  - {ref: 21, topic: vocab, text: "福 hok = good fortune, blessing; 有福 'blessed, lucky'."}
+new_words:
+  - {tailo: bué-gê, hanji: 尾牙, en: "year-end banquet"}
+  - {tailo: kuah-pau, hanji: 割包, en: "steamed pork bun"}
+  - {tailo: tshíng-thûn, hanji: 筅黗, en: "New Year cleaning"}
+  - {tailo: sîn-toh, hanji: 神桌, en: "altar table"}
+  - {tailo: nî-tseh, hanji: 年節, en: "festival season, New Year"}
+  - {tailo: tshue kué, hanji: 炊粿, en: "steam rice cakes"}
+  - {tailo: tsāi-lâi-bí, hanji: 在來米, en: "indica (long-grain) rice"}
+  - {tailo: bí-tsiunn, hanji: 米漿, en: "rice milk, rice batter"}
+  - {tailo: kué-bôo, hanji: 粿模, en: "rice-cake mould"}
+  - {tailo: kué, hanji: 粿, en: "rice cake"}
+  - {tailo: huat, hanji: 發, en: "rise (of dough); prosper"}
+  - {tailo: huat-kué, hanji: 發粿, en: "prosperity cake"}
+  - {tailo: hó-tshái-thâu, hanji: 好彩頭, en: "good omen"}
+  - {tailo: Jī-káu-mê, hanji: 二九暝, en: "New Year's Eve"}
+  - {tailo: sam-sing, hanji: 三牲, en: "the three offering meats"}
+  - {tailo: tsè-pài, hanji: 祭拜, en: "make offerings to, worship"}
+  - {tailo: tsuân-ke, hanji: 全家, en: "the whole family"}
+  - {tailo: tn̂g-nî-tshài, hanji: 長年菜, en: "long-year greens"}
+  - {tailo: hî-uân, hanji: 魚丸, en: "fishball"}
+  - {tailo: lóo-nn̄g, hanji: 滷卵, en: "braised egg"}
+  - {tailo: sún, hanji: 筍, en: "bamboo shoot"}
+  - {tailo: tīm, hanji: 燖, en: "simmer, slow-cook"}
+  - {tailo: teh-nî-tsînn, hanji: 硩年錢, en: "New Year money"}
+  - {tailo: bô-sè-jī, hanji: 無細膩, en: "careless; by accident"}
+  - {tailo: pháinn-uē, hanji: 歹話, en: "unlucky or bad words"}
+  - {tailo: ū-hīnn-bô-tshuì, hanji: 有耳無喙, en: "listen and keep quiet"}
+  - {tailo: khui-tsiann, hanji: 開正, en: "New Year's Day"}
+  - {tailo: sin-tsiann, hanji: 新正, en: "New Year (holiday)"}
+  - {tailo: nî-thâu, hanji: 年頭, en: "beginning of the year"}
+  - {tailo: pài-nî, hanji: 拜年, en: "pay a New Year call"}
+  - {tailo: tê-puânn, hanji: 茶盤, en: "tea tray"}
+  - {tailo: kim-tsó, hanji: 金棗, en: "kumquat"}
+  - {tailo: kue-tsí, hanji: 瓜子, en: "melon seeds"}
+  - {tailo: tsìn-hiunn, hanji: 進香, en: "offer incense at a temple"}
+  - {tailo: hiunn-ian, hanji: 香煙, en: "incense smoke"}
+  - {tailo: tsâi-sîn, hanji: 財神, en: "God of Wealth"}
+  - {tailo: tsò-kheh, hanji: 做客, en: "(of a married daughter) visit her parents"}
+  - {tailo: Thinn-kong-senn, hanji: 天公生, en: "the Jade Emperor's birthday"}
+  - {tailo: kū-li̍k, hanji: 舊曆, en: "lunar calendar"}
+  - {tailo: hok, hanji: 福, en: "good fortune, blessing"}
+exercises:
+  translate:
+    - {tailo: "Nî-tseh tsìn-tsîng it-tīng ài tshíng-thûn.", hanji: "年節進前一定愛筅黗。", en: "You must always clean the house before the festival."}
+    - {tailo: "Huat-kué nā tshue liáu ū huat, tō sī hó-tshái-thâu.", hanji: "發粿若炊了有發，就是好彩頭。", en: "If the prosperity cake rises when it's steamed, that's a good omen."}
+    - {tailo: "Tn̂g-nî-tshài ài kui hio̍h tsia̍h, bē-sái kā tn̄g.", hanji: "長年菜愛規葉食，袂使咬斷。", en: "You have to eat the long-year greens leaf by leaf, without biting them in two."}
+    - {tailo: "Sin-tsiann nî-thâu, ta̍k-ke kìnn-bīn lóng kóng hó-uē.", hanji: "新正年頭，逐家見面攏講好話。", en: "At the start of the year everyone greets each other with good wishes."}
+    - {tailo: "Guá kám-kak ka-kī tsin ū hok.", hanji: "我感覺家己真有福。", en: "I feel very lucky."}
+  fill:
+    - {tailo: "Kin-àm kong-si tsia̍h ___, thâu-ke tshiánn ta̍k-ke tsia̍h kuah-pau.", hanji: "今暗公司食___，頭家請逐家食割包。", answer: "bué-gê", answer_hanji: "尾牙", en: "Tonight was the company's year-end banquet: the boss treated us all to pork buns."}
+    - {tailo: "Ē-poo guán tī sîn-toh tíng pâi sam-sing, ___ tsóo-sian.", hanji: "下晡阮佇神桌頂排三牲，___祖先。", answer: "tsè-pài", answer_hanji: "祭拜", en: "In the afternoon we laid out the three meats on the altar table and made offerings to the ancestors."}
+    - {tailo: "Tsia̍h-pá, a-kong the̍h ___ hōo ta̍k-ke.", hanji: "食飽，阿公提___予逐家。", answer: "teh-nî-tsînn", answer_hanji: "硩年錢", en: "After dinner A-kong handed out New Year money to everyone."}
+    - {tailo: "A-kong tsē tī thiann--lí tán lâng lâi ___.", hanji: "阿公坐佇廳裡等人來___。", answer: "pài-nî", answer_hanji: "拜年", en: "A-kong sat in the front room waiting for visitors to come with their New Year greetings."}
+    - {tailo: "A-ióng kah Siok-tsing tńg-khì Siok-tsing in tau ___.", hanji: "阿勇佮淑貞轉去淑貞𪜶兜___。", answer: "tsò-kheh", answer_hanji: "做客", en: "A-ióng and Siok-tsing went to Siok-tsing's parents for the married daughter's New Year visit."}
+audio: []
