@@ -1,0 +1,99 @@
+id: 61
+title: {en: "Tips for a rooftop vegetable garden", tailo: "Tshù-tíng tsìng tshài ê phiat-pōo", hanji: "厝頂種菜的撇步"}
+genre: document
+review: false
+setting: "Spring. Sam and Siù-lân want to grow vegetables and herbs in pots on the roof of Sam's building in Taipei. A-kong, who grew vegetables all his life, dictates his advice; A-bîng types it up and sends it. The text is original to this course."
+dialogue:
+  - {n: 1, hanji: "厝頂種菜的撇步：阿公講，阿明拍佇電腦，寄予Sam佮秀蘭", tailo: "Tshù-tíng tsìng tshài ê phiat-pōo: a-kong kóng, A-bîng phah tī tiān-náu, kià hōo Sam kah Siù-lân", en: "Tips for a rooftop vegetable garden: A-kong's words, typed up by A-bîng, for Sam and Siù-lân"}
+  - {n: 2, hanji: "一、揀所在。菜愛曝日，一工上少愛曝四點鐘的日頭。盆栽愛囥佇有風、有日的所在。", tailo: "It, kíng sóo-tsāi. Tshài ài pha̍k-ji̍t, tsi̍t kang siōng-tsió ài pha̍k sì tiám-tsing ê ji̍t-thâu. Phûn-tsai ài khǹg tī ū hong, ū ji̍t ê sóo-tsāi.", en: "1. Choose your spot. Vegetables need sun: at least four hours a day. Put the pots somewhere breezy and sunny."}
+  - {n: 3, hanji: "盆仔底一定愛有空，予伊會排水。水若積佇內底，樹根就會爛去。", tailo: "Phûn-á té it-tīng ài ū khang, hōo i ē pâi-tsuí. Tsuí nā tsik tī lāi-té, tshiū-kin tō ē nuā--khì.", en: "There must be holes in the bottom of the pots so they drain. If water collects inside, the roots will rot."}
+  - {n: 4, hanji: "二、塗。上好的塗是塗肉，烏烏、冇冇。佇塗內摻一寡堆肥，菜就會大欉。", tailo: "Jī, thôo. Siōng hó ê thôo sī thôo-bah, oo-oo, phànn-phànn. Tī thôo lāi tsham tsi̍t-kuá tui-puî, tshài tō ē tuā-tsâng.", en: "2. Soil. The best soil is topsoil, dark and loose. Mix a little compost into it and the plants will grow big."}
+  - {n: 5, hanji: "堆肥會當家己做：菜葉、果子皮、泡過的茶米，囥佇桶仔內，兩三個月就變做肥。", tailo: "Tui-puî ē-tàng ka-kī tsò: tshài-hio̍h, kué-tsí-phuê, phàu--kuè ê tê-bí, khǹg tī tháng-á lāi, nn̄g sann kò gue̍h tō piàn-tsò puî.", en: "You can make your own compost: vegetable leaves, fruit peel and used tea leaves, left in a bucket for two or three months, turn into fertiliser."}
+  - {n: 6, hanji: "三、掖種。九層塔、芫荽、薄荷、蒜頭攏真好種，頭擺種菜的人，上好對遮開始。", tailo: "Sann, iā-tsíng. Káu-tsàn-thah, iân-sui, po̍k-hô, suàn-thâu lóng tsin hó tsìng; thâu-pái tsìng tshài ê lâng, siōng hó uì tsia khai-sí.", en: "3. Sowing. Basil, coriander, mint and garlic are all easy to grow: if it's your first time, start with these."}
+  - {n: 7, hanji: "種子掖落去了後，頂面輕輕仔崁一沿塗，三五工就會發穎。", tailo: "Tsíng-tsí iā--lo̍h-khì liáu-āu, tíng-bīn khin-khin-á khàm tsi̍t iân thôo, sann gōo kang tō ē huat-ínn.", en: "After sowing the seeds, cover them lightly with a layer of soil, and in three to five days they'll sprout."}
+  - {n: 8, hanji: "穎若發傷密，愛共較細的薅掉，予賰的苗較有空間。", tailo: "Ínn nā huat siunn ba̍t, ài kā khah sè--ê khau--tiāu, hōo tshun ê biâu khah ū khong-kan.", en: "If the sprouts come up too thick, pull out the smaller ones to give the remaining seedlings more room."}
+  - {n: 9, hanji: "四、沃水。透早抑是黃昏沃，中晝日頭炎的時陣莫沃。", tailo: "Sì, ak tsuí. Thàu-tsá ia̍h-sī hông-hun ak; tiong-tàu ji̍t-thâu iām ê sî-tsūn mài ak.", en: "4. Watering. Water early in the morning or in the evening, never at midday when the sun is blazing."}
+  - {n: 10, hanji: "愛看塗內的水氣：指頭仔插落去，若焦焦才沃。水傷濟，菜顛倒會蔫去。", tailo: "Ài khuànn thôo lāi ê tsuí-khì: tsíng-thâu-á tshah--lo̍h-khì, nā ta-ta tsiah ak. Tsuí siunn tsē, tshài tian-tò ē lian--khì.", en: "Check how damp the soil is: push a finger in, and only water if it's dry. Too much water and the plants will actually wilt."}
+  - {n: 11, hanji: "五、菜豆佮柑仔蜜。這兩種會牽藤，愛用竹仔插一个架仔，予藤沿竹仔𬦰懸。", tailo: "Gōo, tshài-tāu kah kam-á-bi̍t. Tsit nn̄g tsióng ē khan-tîn, ài iōng tik-á tshah tsi̍t ê kè-á, hōo tîn iân tik-á peh kuân.", en: "5. Long beans and tomatoes. Both of these climb, so put up a frame of bamboo canes and let the vines climb up them."}
+  - {n: 12, hanji: "柑仔蜜愛等伊紅甲成熟才摘，青的時食著會澀。", tailo: "Kam-á-bi̍t ài tán i âng kah sîng-si̍k tsiah tiah; tshenn ê sî tsia̍h--tio̍h ē siap.", en: "Wait until the tomatoes are red and ripe before picking them: green ones taste sour."}
+  - {n: 13, hanji: "六、蟲。菜蟲佮露螺上愛食菜葉，暗時提手電仔去掠，就免噴藥仔。", tailo: "La̍k, thâng. Tshài-thâng kah lōo-lê siōng ài tsia̍h tshài-hio̍h; àm-sî the̍h tshiú-tiān-á khì lia̍h, tō bián phùn io̍h-á.", en: "6. Pests. Caterpillars and snails love eating leaves: go out at night with a torch and pick them off, and you won't need to spray."}
+  - {n: 14, hanji: "嘛會當用蒜頭泡水來噴，蟲鼻著彼个味，就毋敢來。", tailo: "Mā ē-tàng iōng suàn-thâu phàu tsuí lâi phùn; thâng phīnn-tio̍h hit ê bī, tō m̄-kánn lâi.", en: "You can also spray garlic water: the insects can't stand the smell and stay away."}
+  - {n: 15, hanji: "雜草愛捷捷薅，若無，伊會佮菜相搶營養。", tailo: "Tsa̍p-tsháu ài tsia̍p-tsia̍p khau; nā-bô, i ē kah tshài sio-tshiúnn îng-ióng.", en: "Weed often, or the weeds will compete with your vegetables for nutrients."}
+  - {n: 16, hanji: "鳥仔若來啄，就插一个稻草人。雖然佇臺北的厝頂，看起來有淡薄仔好笑。", tailo: "Tsiáu-á nā lâi tok, tō tshah tsi̍t ê tiū-tsháu-lâng. Sui-jiân tī Tâi-pak ê tshù-tíng, khuànn--khí-lâi ū tām-po̍h-á hó-tshiò.", en: "If birds come pecking, put up a scarecrow, even if it looks a bit funny on a Taipei rooftop."}
+  - {n: 17, hanji: "七、收成。九層塔愛摘頂頭的心，伊才會閣發。摘落來的菜，囥佇籃仔內就好，莫用塑膠袋。", tailo: "Tshit, siu-sîng. Káu-tsàn-thah ài tiah tíng-thâu ê sim, i tsiah ē koh huat. Tiah--lo̍h-lâi ê tshài, khǹg tī nâ-á lāi tō hó, mài iōng sok-ka-tē.", en: "7. Harvest. Pinch out the tips of the basil so it keeps growing. Put what you pick in a basket, not a plastic bag."}
+  - {n: 18, hanji: "薄荷用剪的，剪一寡起來泡茶，真芳。", tailo: "Po̍k-hô iōng tsián--ê; tsián tsi̍t-kuá khí-lâi phàu tê, tsin phang.", en: "Cut the mint with scissors: a few sprigs make lovely fragrant tea."}
+  - {n: 19, hanji: "檸檬佮菝仔是樹仔，愛種佇較大的盆，三冬以後才會結果子。", tailo: "Lê-bóng kah pua̍t-á sī tshiū-á, ài tsìng tī khah tuā ê phûn, sann tang í-āu tsiah ē kiat kué-tsí.", en: "Lemons and guavas are trees: plant them in bigger pots, and they'll only bear fruit after three years."}
+  - {n: 20, hanji: "八、上尾一句。種菜佮做人仝款，愛有耐性。毋通今仔日種，明仔載就想欲挽。", tailo: "Peh, siōng-bué tsi̍t kù. Tsìng tshài kah tsò-lâng kāng-khuán, ài ū nāi-sìng. M̄-thang kin-á-ji̍t tsìng, bîn-á-tsài tō siūnn-beh bán.", en: "8. One last thing. Growing vegetables is like life: you need patience. Don't plant today and expect to pick tomorrow."}
+  - {n: 21, hanji: "附記：秀蘭若種甲好，菜成熟了，愛記得紮一寡轉來予阿公試看覓。", tailo: "Hù-kì: Siù-lân nā tsìng kah hó, tshài sîng-si̍k liáu, ài kì-tit tsah tsi̍t-kuá tńg--lâi hōo a-kong tshì-khuànn-māi.", en: "P.S. Siù-lân, if your vegetables do well, remember to bring some back for A-kong to taste once they're ripe."}
+notes:
+  - {ref: 1, topic: vocab, text: "撇步 phiat-pōo = knack, trick, tip. 寄 = send."}
+  - {ref: 2, topic: vocab, text: "盆栽 phûn-tsai = potted plant."}
+  - {ref: 3, topic: vocab, text: "排水 pâi-tsuí = drain. 積 = collect, accumulate. 樹根 tshiū-kin = root. 爛 = rot."}
+  - {ref: 4, topic: vocab, text: "塗肉 thôo-bah = topsoil. 冇 phànn = loose, porous (the opposite of firm and solid). 摻 = mix in (lesson 75). 堆肥 tui-puî = compost. 大欉 tuā-tsâng = (of a plant) big, sturdy."}
+  - {ref: 5, topic: vocab, text: "桶仔 tháng-á = bucket."}
+  - {ref: 6, topic: vocab, text: "掖種 iā-tsíng = sow. 九層塔 káu-tsàn-thah = Thai basil (lit. 'nine-storey pagoda'). 芫荽 iân-sui = coriander. 薄荷 po̍k-hô = mint. 蒜頭 suàn-thâu = garlic."}
+  - {ref: 7, topic: vocab, text: "崁 = cover. 沿 iân = layer. 發穎 huat-ínn = sprout, bud."}
+  - {ref: 8, topic: vocab, text: "穎 ínn = sprout, shoot. 苗 biâu = seedling. 空間 khong-kan = space, room."}
+  - {ref: 9, topic: vocab, text: "沃水 ak tsuí = water (plants). 炎 iām = (of the sun) blazing."}
+  - {ref: 10, topic: vocab, text: "水氣 tsuí-khì = moisture. 顛倒 = on the contrary. 蔫 lian = wilt, wither."}
+  - {ref: 11, topic: vocab, text: "菜豆 tshài-tāu = yard-long bean. 柑仔蜜 kam-á-bi̍t = tomato. 牽藤 khan-tîn = put out climbing tendrils. 藤 tîn = vine. 架仔 = frame, trellis. 𬦰 peh = climb."}
+  - {ref: 12, topic: vocab, text: "成熟 sîng-si̍k = ripe; mature. 摘 tiah = pick (fruit). 澀 = sour, astringent (進修 51)."}
+  - {ref: 13, topic: vocab, text: "菜蟲 tshài-thâng = caterpillar (on vegetables). 露螺 lōo-lê = snail. 手電仔 = torch (lesson 34)."}
+  - {ref: 15, topic: vocab, text: "雜草 tsa̍p-tsháu = weeds. 薅 khau = pull out (weeds); 薅草 'weed'. 相搶 = compete for."}
+  - {ref: 16, topic: vocab, text: "啄 tok = peck. 稻草人 tiū-tsháu-lâng = scarecrow."}
+  - {ref: 17, topic: vocab, text: "收成 = harvest (lesson 45). 籃仔 = basket. 塑膠袋 = plastic bag."}
+  - {ref: 18, topic: vocab, text: "剪 tsián = cut (with scissors)."}
+  - {ref: 19, topic: vocab, text: "檸檬 lê-bóng = lemon. 菝仔 pua̍t-á = guava. 結 kiat = bear (fruit)."}
+new_words:
+  - {tailo: phiat-pōo, hanji: 撇步, en: "knack, tip"}
+  - {tailo: tháng-á, hanji: 桶仔, en: "bucket"}
+  - {tailo: phûn-tsai, hanji: 盆栽, en: "potted plant"}
+  - {tailo: pâi-tsuí, hanji: 排水, en: "drain"}
+  - {tailo: tshiū-kin, hanji: 樹根, en: "root"}
+  - {tailo: thôo-bah, hanji: 塗肉, en: "topsoil"}
+  - {tailo: phànn, hanji: 冇, en: "loose, porous"}
+  - {tailo: tui-puî, hanji: 堆肥, en: "compost"}
+  - {tailo: tuā-tsâng, hanji: 大欉, en: "(of a plant) big, sturdy"}
+  - {tailo: iā-tsíng, hanji: 掖種, en: "sow"}
+  - {tailo: káu-tsàn-thah, hanji: 九層塔, en: "Thai basil"}
+  - {tailo: iân-sui, hanji: 芫荽, en: "coriander"}
+  - {tailo: po̍k-hô, hanji: 薄荷, en: "mint"}
+  - {tailo: suàn-thâu, hanji: 蒜頭, en: "garlic"}
+  - {tailo: huat-ínn, hanji: 發穎, en: "sprout, bud"}
+  - {tailo: ínn, hanji: 穎, en: "sprout, shoot"}
+  - {tailo: biâu, hanji: 苗, en: "seedling"}
+  - {tailo: khong-kan, hanji: 空間, en: "space, room"}
+  - {tailo: tsuí-khì, hanji: 水氣, en: "moisture"}
+  - {tailo: iām, hanji: 炎, en: "(of the sun) blazing"}
+  - {tailo: lian, hanji: 蔫, en: "wilt, wither"}
+  - {tailo: tshài-tāu, hanji: 菜豆, en: "yard-long bean"}
+  - {tailo: kam-á-bi̍t, hanji: 柑仔蜜, en: "tomato"}
+  - {tailo: khan-tîn, hanji: 牽藤, en: "put out climbing tendrils"}
+  - {tailo: kè-á, hanji: 架仔, en: "frame, stand"}
+  - {tailo: tîn, hanji: 藤, en: "vine"}
+  - {tailo: sîng-si̍k, hanji: 成熟, en: "ripe; mature"}
+  - {tailo: tiah, hanji: 摘, en: "pick (fruit)"}
+  - {tailo: tshài-thâng, hanji: 菜蟲, en: "caterpillar (on vegetables)"}
+  - {tailo: lōo-lê, hanji: 露螺, en: "snail"}
+  - {tailo: tsa̍p-tsháu, hanji: 雜草, en: "weeds"}
+  - {tailo: khau, hanji: 薅, en: "pull out (weeds)"}
+  - {tailo: khau tsháu, hanji: 薅草, en: "weed (the garden)"}
+  - {tailo: tok, hanji: 啄, en: "peck"}
+  - {tailo: tiū-tsháu-lâng, hanji: 稻草人, en: "scarecrow"}
+  - {tailo: tsián, hanji: 剪, en: "cut (with scissors)"}
+  - {tailo: lê-bóng, hanji: 檸檬, en: "lemon"}
+  - {tailo: pua̍t-á, hanji: 菝仔, en: "guava"}
+exercises:
+  translate:
+    - {tailo: "Tshài ài pha̍k-ji̍t, tsi̍t kang siōng-tsió ài pha̍k sì tiám-tsing ê ji̍t-thâu.", hanji: "菜愛曝日，一工上少愛曝四點鐘的日頭。", en: "Vegetables need sun: at least four hours a day."}
+    - {tailo: "Tī thôo lāi tsham tsi̍t-kuá tui-puî, tshài tō ē tuā-tsâng.", hanji: "佇塗內摻一寡堆肥，菜就會大欉。", en: "Mix a little compost into the soil and the plants will grow big."}
+    - {tailo: "Tsuí siunn tsē, tshài tian-tò ē lian--khì.", hanji: "水傷濟，菜顛倒會蔫去。", en: "Too much water and the plants will actually wilt."}
+    - {tailo: "Kam-á-bi̍t ài tán i âng kah sîng-si̍k tsiah tiah.", hanji: "柑仔蜜愛等伊紅甲成熟才摘。", en: "Wait until the tomatoes are red and ripe before picking them."}
+    - {tailo: "Tsìng tshài kah tsò-lâng kāng-khuán, ài ū nāi-sìng.", hanji: "種菜佮做人仝款，愛有耐性。", en: "Growing vegetables is like life: you need patience."}
+  fill:
+    - {tailo: "Phûn-á té it-tīng ài ū khang, hōo i ē ___.", hanji: "盆仔底一定愛有空，予伊會___。", answer: "pâi-tsuí", answer_hanji: "排水", en: "There must be holes in the bottom of the pots so they drain."}
+    - {tailo: "Tsíng-tsí iā--lo̍h-khì liáu-āu, sann gōo kang tō ē ___.", hanji: "種子掖落去了後，三五工就會___。", answer: "huat-ínn", answer_hanji: "發穎", en: "After sowing the seeds, in three to five days they'll sprout."}
+    - {tailo: "Tsit nn̄g tsióng ē ___, ài iōng tik-á tshah tsi̍t ê kè-á.", hanji: "這兩種會___，愛用竹仔插一个架仔。", answer: "khan-tîn", answer_hanji: "牽藤", en: "Both of these climb, so put up a frame of bamboo canes."}
+    - {tailo: "Tsa̍p-tsháu ài tsia̍p-tsia̍p ___.", hanji: "雜草愛捷捷___。", answer: "khau", answer_hanji: "薅", en: "Weed often."}
+    - {tailo: "Tsiáu-á nā lâi tok, tō tshah tsi̍t ê ___.", hanji: "鳥仔若來啄，就插一个___。", answer: "tiū-tsháu-lâng", answer_hanji: "稻草人", en: "If birds come pecking, put up a scarecrow."}
+audio: []
