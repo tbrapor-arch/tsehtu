@@ -1,0 +1,117 @@
+id: 50
+title: {en: "Give me your precious vote", tailo: "Tshiánn kā lín pó-kuì ê tsi̍t tiunn phiò tâu hōo guá", hanji: "請共恁寶貴的一張票投予我"}
+genre: speech
+review: false
+setting: "November. Hūi-hūi is standing for president of the student council at her senior high school. At Monday assembly each candidate has five minutes. Her rival is A-kia̍t, her old opponent from the debate (進修 27)."
+dialogue:
+  - {n: 1, speaker: Hūi-hūi, hanji: "各位老師、各位同學，逐家好。我是二號候選人，二年三班的惠惠。", tailo: "Kok-uī lāu-su, kok-uī tông-ha̍k, ta̍k-ke hó. Guá sī jī hō hāu-suán-jîn, jī nî sann pan ê Hūi-hūi.", en: "Teachers, fellow students, good morning. I'm candidate number two, Hūi-hūi from class 2-3."}
+  - {n: 2, speaker: Hūi-hūi, hanji: "有人講我是寫〈火金蛄的光〉彼个查某囡仔。毋過今仔日我毋是來讀散文，是來講我的政見。", tailo: "Ū lâng kóng guá sī siá “Hué-kim-koo ê Kng” hit ê tsa-bóo gín-á. M̄-koh kin-á-ji̍t guá m̄ sī lâi tha̍k suànn-bûn, sī lâi kóng guá ê tsìng-kiàn.", en: "Some people call me the girl who wrote 'The fireflies' light'. But today I'm not here to read an essay: I'm here to set out my programme."}
+  - {n: 3, speaker: Hūi-hūi, hanji: "我的對手阿傑，是我辯論的時的老對手。伊真𠢕講話，毋過我較愛用行動。", tailo: "Guá ê tuì-tshiú A-kia̍t sī guá piān-lūn ê sî ê lāu tuì-tshiú. I tsin gâu kóng-uē, m̄-koh guá khah ài iōng hîng-tōng.", en: "My opponent, A-kia̍t, is my old rival from the debate. He's a great talker, but I prefer action."}
+  - {n: 4, speaker: Hūi-hūi, hanji: "我的第一个政見是便當。這馬逐工中晝，便當賰傷濟，攏倒入去糞埽桶，實在真浪費。", tailo: "Guá ê tē-it ê tsìng-kiàn sī piān-tong. Tsit-má ta̍k kang tiong-tàu, piān-tong tshun siunn tsē, lóng tò--ji̍p-khì pùn-sò-tháng, si̍t-tsāi tsin lōng-huì.", en: "My first proposal is about lunch. At the moment there's far too much left over every day, and it all goes in the bin: it's a real waste."}
+  - {n: 5, speaker: Hūi-hūi, hanji: "我建議學校採用家己揀菜的方式，欲食偌濟就提偌濟，按呢就會當減少浪費。", tailo: "Guá kiàn-gī ha̍k-hāu tshái-iōng ka-kī kíng tshài ê hong-sik, beh tsia̍h guā-tsē tō the̍h guā-tsē, án-ne tō ē-tàng kiám-tsió lōng-huì.", en: "I suggest the school lets us choose our own dishes: take as much as you'll eat, and that will cut down the waste."}
+  - {n: 6, speaker: Hūi-hūi, hanji: "第二个政見是制服。我毋是講欲無制服，毋過熱天傷熱，運動的衫嘛應該會使穿來上課。", tailo: "Tē-jī ê tsìng-kiàn sī tsè-ho̍k. Guá m̄ sī kóng beh bô tsè-ho̍k, m̄-koh jua̍h-thinn siunn jua̍h, ūn-tōng ê sann mā ing-kai ē-sái tshīng lâi siōng-khò.", en: "My second proposal is about uniforms. I'm not saying we should get rid of them, but in summer it's too hot: we should be allowed to come to class in our PE kit."}
+  - {n: 7, speaker: Hūi-hūi, hanji: "第三，學生會的經費愛透明。逐開一箍銀，攏愛公開予逐家看。", tailo: "Tē-sann, ha̍k-sing-huē ê king-huì ài thàu-bîng. Ta̍k khai tsi̍t khoo gîn, lóng ài kong-khai hōo ta̍k-ke khuànn.", en: "Third, the student council's budget must be transparent. Every dollar spent must be made public for everyone to see."}
+  - {n: 8, speaker: Hūi-hūi, hanji: "我會定期佇網路頂說明學生會的狀況，嘛請逐家來監督。", tailo: "Guá ē tīng-kî tī bāng-lōo tíng suat-bîng ha̍k-sing-huē ê tsōng-hóng, mā tshiánn ta̍k-ke lâi kàm-tok.", en: "I'll regularly report online on how the council is doing, and I ask you all to keep an eye on us."}
+  - {n: 9, speaker: Hūi-hūi, hanji: "我閣欲佇穿堂囥一个信箱。逐家有啥物建議，寫落來擲入去就好。", tailo: "Guá koh beh tī tshng-tn̂g khǹg tsi̍t ê sìn-siunn. Ta̍k-ke ū siánn-mih kiàn-gī, siá--lo̍h-lâi tàn--ji̍p-khì tō hó.", en: "I'll also put a suggestion box in the entrance hall. If you have any ideas, just write them down and drop them in."}
+  - {n: 10, speaker: Hūi-hūi, hanji: "逐張紙我攏會讀。有道理的，我就提去會議討論，若通過，就馬上做。", tailo: "Ta̍k tiunn tsuá guá lóng ē tha̍k. Ū tō-lí--ê, guá tō the̍h khì huē-gī thó-lūn; nā thong-kuè, tō má-siōng tsò.", en: "I'll read every slip. The sensible ones I'll take to the council meeting, and if they're approved, we'll do them straight away."}
+  - {n: 11, speaker: Hūi-hūi, hanji: "有人問我：「你一个查某囡仔，敢有法度做會長？」", tailo: "Ū lâng mn̄g guá: “Lí tsi̍t ê tsa-bóo gín-á, kám ū huat-tōo tsò huē-tiúnn?”", en: "Someone asked me: 'You're a girl: can you really be president?'"}
+  - {n: 12, speaker: Hūi-hūi, hanji: "我想，做會長毋是看你是查埔抑是查某，是看你願意承擔責任無。", tailo: "Guá siūnn, tsò huē-tiúnn m̄ sī khuànn lí sī tsa-poo ia̍h-sī tsa-bóo, sī khuànn lí guān-ì sîng-tam tsik-jīm--bô.", en: "I think being president isn't about whether you're a boy or a girl, but whether you're willing to take on the responsibility."}
+  - {n: 13, speaker: Hūi-hūi, hanji: "學校是大眾的，毋是幾个幹部的。每一个同學攏是平等的，攏有權講話。", tailo: "Ha̍k-hāu sī tāi-tsiòng--ê, m̄ sī kuí ê kàn-pōo--ê. Muí tsi̍t ê tông-ha̍k lóng sī pîng-tíng--ê, lóng ū khuân kóng-uē.", en: "The school belongs to everyone, not to a handful of officers. Every student is equal, and every student has the right to speak."}
+  - {n: 14, speaker: Hūi-hūi, hanji: "我毋敢講我會當共一切攏改革，毋過我會盡力，實現我講的每一項。", tailo: "Guá m̄-kánn kóng guá ē-tàng kā it-tshè lóng kái-kik, m̄-koh guá ē tsīn-li̍k, si̍t-hiān guá kóng ê muí tsi̍t hāng.", en: "I won't claim I can reform everything, but I'll do my utmost to deliver every single thing I've promised."}
+  - {n: 15, speaker: Hūi-hūi, hanji: "頂禮拜我佮阿傑佇校門拜票。伊分糖仔，我分家己畫的卡片。", tailo: "Tíng lé-pài guá kah A-kia̍t tī hāu-mn̂g pài-phiò. I pun thn̂g-á, guá pun ka-kī uē ê khah-phìnn.", en: "Last week A-kia̍t and I were canvassing at the school gate. He handed out sweets; I handed out cards I'd drawn myself."}
+  - {n: 16, speaker: Hūi-hūi, hanji: "有一个一年的學生共我講：「學姊，我食阿傑的糖仔，毋過我的票欲投予你。」", tailo: "Ū tsi̍t ê it nî ê ha̍k-sing kā guá kóng: “Ha̍k-tsí, guá tsia̍h A-kia̍t ê thn̂g-á, m̄-koh guá ê phiò beh tâu hōo lí.”", en: "A first-year told me: 'I ate A-kia̍t's sweets, but my vote's going to you.'"}
+  - {n: 17, speaker: Hūi-hūi, hanji: "我聽了真歡喜。毋過我嘛欲講：選票是神聖的，毋通為著一粒糖仔就投。", tailo: "Guá thiann liáu tsin huann-hí. M̄-koh guá mā beh kóng: suán-phiò sī sîn-sìng--ê, m̄-thang uī-tio̍h tsi̍t lia̍p thn̂g-á tō tâu.", en: "That made me very happy. But I also want to say this: your vote is sacred. Don't cast it for the sake of a sweet."}
+  - {n: 18, speaker: Hūi-hūi, hanji: "欲投予啥人，愛看伊的政見，閣看伊的信用。", tailo: "Beh tâu hōo siánn-lâng, ài khuànn i ê tsìng-kiàn, koh khuànn i ê sìn-iōng.", en: "Who you vote for should depend on their programme, and on whether they keep their word."}
+  - {n: 19, speaker: Hūi-hūi, hanji: "若我落選，我會恭喜阿傑，嘛會繼續做志工，為學校服務。", tailo: "Nā guá lo̍k-suán, guá ē kiong-hí A-kia̍t, mā ē kè-sio̍k tsò tsì-kang, uī ha̍k-hāu ho̍k-bū.", en: "If I lose, I'll congratulate A-kia̍t, and I'll go on volunteering and serving the school."}
+  - {n: 20, speaker: Hūi-hūi, hanji: "若我當選，我會請阿傑來鬥相共，因為一間好的學校，需要無仝款的聲音。", tailo: "Nā guá tòng-suán, guá ē tshiánn A-kia̍t lâi tàu-sann-kāng, in-uī tsi̍t king hó ê ha̍k-hāu su-iàu bô-kāng-khuán ê siann-im.", en: "If I win, I'll ask A-kia̍t to help, because a good school needs different voices."}
+  - {n: 21, speaker: Hūi-hūi, hanji: "我競選的口號是：「講到，做到。」", tailo: "Guá kīng-suán ê kháu-hō sī: “Kóng kàu, tsò kàu.”", en: "My campaign slogan is: 'What I say, I do.'"}
+  - {n: 22, speaker: Hūi-hūi, hanji: "這幾工，真濟同學替我宣傳，佇班裡貼海報，閣共我寫歌。", tailo: "Tsit kuí kang, tsin tsē tông-ha̍k thè guá suan-thuân, tī pan--lí tah hái-pò, koh kā guá siá kua.", en: "These last few days a lot of you have campaigned for me, putting up posters in your classrooms and even writing me a song."}
+  - {n: 23, speaker: Hūi-hūi, hanji: "我欲感謝阮班長佮我的好朋友。若無恁，我無勇氣徛佇遮。", tailo: "Guá beh kám-siā guán pan-tiúnn kah guá ê hó pîng-iú. Nā bô lín, guá bô ióng-khì khiā tī tsia.", en: "I want to thank our class monitor and my friends. Without you, I wouldn't have had the courage to stand up here."}
+  - {n: 24, speaker: Hūi-hūi, hanji: "禮拜五就欲投票矣。請逐家一定愛去投。無去投，就是共家己的權放棄。", tailo: "Lé-pài-gōo tō beh tâu-phiò--ah. Tshiánn ta̍k-ke it-tīng ài khì tâu. Bô khì tâu, tō sī kā ka-kī ê khuân hòng-khì.", en: "Voting is on Friday. Please make sure you vote. If you don't, you're giving up your own right."}
+  - {n: 25, speaker: Hūi-hūi, hanji: "二號，惠惠。請共恁寶貴的一張票投予我。多謝逐家！", tailo: "Jī hō, Hūi-hūi. Tshiánn kā lín pó-kuì ê tsi̍t tiunn phiò tâu hōo guá. To-siā ta̍k-ke!", en: "Number two, Hūi-hūi. Please give me your precious vote. Thank you!"}
+  - {n: 26, hanji: "（掌聲真熱烈。阿傑嘛徛起來拍噗仔。）", tailo: "(Tsióng-siann tsin jia̍t-lia̍t. A-kia̍t mā khiā--khí-lâi phah-pho̍k-á.)", en: "(Loud applause. A-kia̍t stands up and claps too.)"}
+notes:
+  - {ref: 1, topic: vocab, text: "候選人 hāu-suán-jîn = candidate. 二號 'number two'. 二年三班 = year 2, class 3."}
+  - {ref: 2, topic: vocab, text: "查某囡仔 tsa-bóo gín-á = girl. 政見 tsìng-kiàn = political platform, programme."}
+  - {ref: 3, topic: vocab, text: "對手 tuì-tshiú = opponent, rival. 行動 hîng-tōng = action."}
+  - {ref: 4, topic: vocab, text: "賰 = be left over. 糞埽桶 = rubbish bin. 浪費 = waste (lesson 89)."}
+  - {ref: 5, topic: vocab, text: "建議 kiàn-gī = suggest; suggestion. 採用 tshái-iōng = adopt. 減少 = reduce (lesson 89). 欲食偌濟就提偌濟 'take as much as you want to eat': the 偌濟…偌濟 pattern."}
+  - {ref: 6, topic: vocab, text: "制服 tsè-ho̍k = uniform."}
+  - {ref: 7, topic: vocab, text: "學生會 = student council (會長 = its president, line 11). 經費 king-huì = funds, budget. 透明 thàu-bîng = transparent. 開 khai = spend (money). 公開 = make public (進修 33)."}
+  - {ref: 8, topic: vocab, text: "定期 tīng-kî = regularly, at fixed intervals. 說明 suat-bîng = explain, report. 狀況 tsōng-hóng = situation, state of affairs. 監督 kàm-tok = supervise, keep watch over."}
+  - {ref: 9, topic: vocab, text: "穿堂 = entrance hall (of a school). 信箱 sìn-siunn = letterbox; here a suggestion box."}
+  - {ref: 10, topic: vocab, text: "通過 thong-kuè = pass, be approved. 馬上 má-siōng = at once."}
+  - {ref: 12, topic: vocab, text: "願意 guān-ì = be willing. 承擔 sîng-tam = take on, shoulder."}
+  - {ref: 13, topic: vocab, text: "大眾 tāi-tsiòng = the public, everyone. 幹部 kàn-pōo = officer, cadre. 平等 pîng-tíng = equal. 權 khuân = right, power."}
+  - {ref: 14, topic: vocab, text: "改革 kái-kik = reform. 盡力 tsīn-li̍k = do one's utmost. 實現 si̍t-hiān = carry out, make come true."}
+  - {ref: 15, topic: vocab, text: "拜票 pài-phiò = canvass for votes. 糖仔 thn̂g-á = sweets, candy. 卡片 khah-phìnn = card."}
+  - {ref: 16, topic: vocab, text: "學姊 ha̍k-tsí = an older girl at one's school (said by younger pupils)."}
+  - {ref: 17, topic: vocab, text: "選票 suán-phiò = ballot, vote. 神聖 sîn-sìng = sacred."}
+  - {ref: 18, topic: vocab, text: "信用 sìn-iōng = trustworthiness, keeping one's word; also credit."}
+  - {ref: 19, topic: vocab, text: "落選 lo̍k-suán = lose an election. 志工 tsì-kang = volunteer."}
+  - {ref: 21, topic: vocab, text: "競選 kīng-suán = run for office, campaign. 口號 kháu-hō = slogan."}
+  - {ref: 22, topic: vocab, text: "宣傳 suan-thuân = publicise, campaign. 海報 hái-pò = poster."}
+  - {ref: 23, topic: vocab, text: "班長 pan-tiúnn = class monitor."}
+  - {ref: 25, topic: vocab, text: "寶貴 pó-kuì = precious."}
+  - {ref: 26, topic: vocab, text: "掌聲 tsióng-siann = applause. 熱烈 jia̍t-lia̍t = warm, enthusiastic."}
+new_words:
+  - {tailo: hāu-suán-jîn, hanji: 候選人, en: "candidate"}
+  - {tailo: tsa-bóo gín-á, hanji: 查某囡仔, en: "girl"}
+  - {tailo: tsìng-kiàn, hanji: 政見, en: "political platform, programme"}
+  - {tailo: tuì-tshiú, hanji: 對手, en: "opponent, rival"}
+  - {tailo: hîng-tōng, hanji: 行動, en: "action"}
+  - {tailo: kiàn-gī, hanji: 建議, en: "suggest; suggestion"}
+  - {tailo: tshái-iōng, hanji: 採用, en: "adopt, use"}
+  - {tailo: tsè-ho̍k, hanji: 制服, en: "uniform"}
+  - {tailo: king-huì, hanji: 經費, en: "funds, budget"}
+  - {tailo: thàu-bîng, hanji: 透明, en: "transparent"}
+  - {tailo: tīng-kî, hanji: 定期, en: "regularly, periodic"}
+  - {tailo: suat-bîng, hanji: 說明, en: "explain; explanation"}
+  - {tailo: tsōng-hóng, hanji: 狀況, en: "situation, state of affairs"}
+  - {tailo: kàm-tok, hanji: 監督, en: "supervise, oversee"}
+  - {tailo: sìn-siunn, hanji: 信箱, en: "letterbox; mailbox"}
+  - {tailo: thong-kuè, hanji: 通過, en: "pass, be approved"}
+  - {tailo: má-siōng, hanji: 馬上, en: "at once, right away"}
+  - {tailo: huē-tiúnn, hanji: 會長, en: "president (of an association)"}
+  - {tailo: guān-ì, hanji: 願意, en: "be willing"}
+  - {tailo: sîng-tam, hanji: 承擔, en: "take on, shoulder"}
+  - {tailo: tāi-tsiòng, hanji: 大眾, en: "the public, everyone"}
+  - {tailo: kàn-pōo, hanji: 幹部, en: "officer, cadre"}
+  - {tailo: pîng-tíng, hanji: 平等, en: "equal; equality"}
+  - {tailo: khuân, hanji: 權, en: "right, power"}
+  - {tailo: kái-kik, hanji: 改革, en: "reform"}
+  - {tailo: tsīn-li̍k, hanji: 盡力, en: "do one's utmost"}
+  - {tailo: si̍t-hiān, hanji: 實現, en: "carry out, realise"}
+  - {tailo: pài-phiò, hanji: 拜票, en: "canvass for votes"}
+  - {tailo: thn̂g-á, hanji: 糖仔, en: "sweets, candy"}
+  - {tailo: khah-phìnn, hanji: 卡片, en: "card"}
+  - {tailo: suán-phiò, hanji: 選票, en: "ballot, vote"}
+  - {tailo: sîn-sìng, hanji: 神聖, en: "sacred"}
+  - {tailo: sìn-iōng, hanji: 信用, en: "trustworthiness; credit"}
+  - {tailo: lo̍k-suán, hanji: 落選, en: "lose an election"}
+  - {tailo: tsì-kang, hanji: 志工, en: "volunteer"}
+  - {tailo: kīng-suán, hanji: 競選, en: "run for office, campaign"}
+  - {tailo: kháu-hō, hanji: 口號, en: "slogan"}
+  - {tailo: suan-thuân, hanji: 宣傳, en: "publicise; publicity"}
+  - {tailo: hái-pò, hanji: 海報, en: "poster"}
+  - {tailo: pan-tiúnn, hanji: 班長, en: "class monitor"}
+  - {tailo: pó-kuì, hanji: 寶貴, en: "precious"}
+  - {tailo: tsióng-siann, hanji: 掌聲, en: "applause"}
+  - {tailo: jia̍t-lia̍t, hanji: 熱烈, en: "warm, enthusiastic"}
+exercises:
+  translate:
+    - {tailo: "Guá ê tuì-tshiú tsin gâu kóng-uē, m̄-koh guá khah ài iōng hîng-tōng.", hanji: "我的對手真𠢕講話，毋過我較愛用行動。", en: "My opponent is a great talker, but I prefer action."}
+    - {tailo: "Ha̍k-sing-huē ê king-huì ài thàu-bîng.", hanji: "學生會的經費愛透明。", en: "The student council's budget must be transparent."}
+    - {tailo: "Muí tsi̍t ê tông-ha̍k lóng sī pîng-tíng--ê.", hanji: "每一个同學攏是平等的。", en: "Every student is equal."}
+    - {tailo: "Suán-phiò sī sîn-sìng--ê.", hanji: "選票是神聖的。", en: "Your vote is sacred."}
+    - {tailo: "Guá ē tsīn-li̍k, si̍t-hiān guá kóng ê muí tsi̍t hāng.", hanji: "我會盡力，實現我講的每一項。", en: "I'll do my utmost to deliver every single thing I've promised."}
+    - {tailo: "Hūi-hūi kóng, nā i tòng-suán, i ē tīng-kî kā ha̍k-sing-huē ê king-huì kong-khai, hōo ta̍k-ke lâi kàm-tok.", hanji: "惠惠講，若伊當選，伊會定期共學生會的經費公開，予逐家來監督。", en: "Hūi-hūi says that if she's elected she'll regularly make the council's budget public so everyone can keep an eye on it."}
+    - {tailo: "Tsò huē-tiúnn ài guān-ì sîng-tam tsik-jīm, m̄-thang kan-na kóng, ài iōng hîng-tōng si̍t-hiān tsìng-kiàn.", hanji: "做會長愛願意承擔責任，毋通干焦講，愛用行動實現政見。", en: "A president must be willing to take on responsibility: not just talk, but carry out the programme through action."}
+  fill:
+    - {tailo: "Guá kiàn-gī ha̍k-hāu ___ ka-kī kíng tshài ê hong-sik.", hanji: "我建議學校___家己揀菜的方式。", answer: "tshái-iōng", answer_hanji: "採用", en: "I suggest the school lets us choose our own dishes."}
+    - {tailo: "Guá ē tīng-kî tī bāng-lōo tíng suat-bîng ha̍k-sing-huē ê ___.", hanji: "我會定期佇網路頂說明學生會的___。", answer: "tsōng-hóng", answer_hanji: "狀況", en: "I'll regularly report online on how the council is doing."}
+    - {tailo: "Sī khuànn lí guān-ì ___ tsik-jīm--bô.", hanji: "是看你願意___責任無。", answer: "sîng-tam", answer_hanji: "承擔", en: "It's about whether you're willing to take on the responsibility."}
+    - {tailo: "Nā guá ___, guá ē kiong-hí A-kia̍t.", hanji: "若我___，我會恭喜阿傑。", answer: "lo̍k-suán", answer_hanji: "落選", en: "If I lose, I'll congratulate A-kia̍t."}
+    - {tailo: "Guá ___ ê kháu-hō sī: “Kóng kàu, tsò kàu.”", hanji: "我___的口號是：「講到，做到。」", answer: "kīng-suán", answer_hanji: "競選", en: "My campaign slogan is: 'What I say, I do.'"}
+    - {tailo: "A-kia̍t tī hāu-mn̂g pài-phiò, pun thn̂g-á hōo ta̍k-ke, m̄-koh ū lâng kóng ___ m̄-thang uī-tio̍h thn̂g-á tō tâu.", hanji: "阿傑佇校門拜票，分糖仔予逐家，毋過有人講___毋通為著糖仔就投。", answer: "suán-phiò", answer_hanji: "選票", en: "A-kia̍t canvassed at the school gate and handed out sweets, but someone said you shouldn't cast your vote for a sweet."}
+audio: []

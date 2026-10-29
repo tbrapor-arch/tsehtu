@@ -1,0 +1,132 @@
+id: 52
+title: {en: "Kaoliang, fifty-eight proof", tailo: "Kau-liâng-tsiú gōo-tsa̍p-peh tōo", hanji: "高粱酒五十八度"}
+genre: play
+review: false
+setting: "A comedy in one scene. Winter Solstice, late December. Sam is invited to dinner at Siù-lân's parents' flat in Taipei for the first time. Her father is a man of few words; her mother is a fine cook. (Siù-lân's grandfather, the Chinese doctor of 進修 39, is away.)"
+dialogue:
+  - {n: 1, speaker: Siù-lân, hanji: "（佇門口）Sam，莫緊張。阮阿爸看起來真嚴，其實心性真好。", tailo: "(Tī mn̂g-kháu) Sam, mài kín-tiunn. Guán a-pah khuànn--khí-lâi tsin giâm, kî-si̍t sim-sìng tsin hó.", en: "(At the door) Sam, don't be nervous. My dad looks stern, but he's really kind at heart."}
+  - {n: 2, speaker: Sam, hanji: "我無緊張。我是……袂赴緊張矣，門已經開矣。", tailo: "Guá bô kín-tiunn. Guá sī... bē-hù kín-tiunn--ah, mn̂g í-king khui--ah.", en: "I'm not nervous. I just... don't have time to be nervous: the door's already open."}
+  - {n: 3, speaker: Mother, hanji: "歡迎、歡迎！你就是Sam喔？緊入來，莫客氣。", tailo: "Huan-gîng, huan-gîng! Lí tō sī Sam--ooh? Kín ji̍p--lâi, mài kheh-khì.", en: "Welcome, welcome! So you're Sam? Come in, make yourself at home."}
+  - {n: 4, speaker: Sam, hanji: "黃太太好。頭擺來拜訪，攪擾恁矣。這是一盒禮盒，烏魚子，請恁收。", tailo: "N̂g thài-thài hó. Thâu-pái lâi pài-hóng, kiáu-jiáu lín--ah. Tse sī tsi̍t a̍p lé-a̍p, oo-hî-tsí, tshiánn lín siu.", en: "Good evening, Mrs N̂g. It's my first visit, sorry to impose on you. This is a gift box of mullet roe: please accept it."}
+  - {n: 5, speaker: Mother, hanji: "人來就好，閣提啥物禮？烏魚子不止仔貴呢！", tailo: "Lâng lâi tō hó, koh the̍h siánn-mih lé? Oo-hî-tsí put-tsí-á kuì--neh!", en: "You only needed to bring yourself! Mullet roe is terribly expensive!"}
+  - {n: 6, speaker: Father, hanji: "（坐佇椅條頂，報紙放落來）你好。坐。", tailo: "(Tsē tī í-liâu tíng, pò-tsuá pàng--lo̍h-lâi) Lí hó. Tsē.", en: "(Sitting on the bench, he lowers his newspaper) Hello. Sit."}
+  - {n: 7, speaker: Sam, hanji: "黃先生好。（坐甲直直，手囥佇跤頭趺）", tailo: "N̂g--sian-sinn hó. (Tsē kah ti̍t-ti̍t, tshiú khǹg tī kha-thâu-u)", en: "Good evening, Mr N̂g. (He sits bolt upright, hands on his knees)"}
+  - {n: 8, speaker: Father, hanji: "免按呢生，免拘束。秀蘭，斟茶。", tailo: "Bián án-ne-senn, bián khu-sok. Siù-lân, thîn tê.", en: "No need for all that, relax. Siù-lân, pour the tea."}
+  - {n: 9, speaker: Siù-lân, hanji: "（細聲）阮阿爸咧共你看。你莫坐甲親像咧予人審。", tailo: "(Sè-siann) Guán a-pah teh kā lí khuànn. Lí mài tsē kah tshin-tshiūnn teh hōo lâng sím.", en: "(Quietly) My dad's sizing you up. Stop sitting there as if you're being interrogated."}
+  - {n: 10, speaker: Father, hanji: "Sam，你佇臺灣幾若冬矣？頭路敢穩定？", tailo: "Sam, lí tī Tâi-uân kuí-nā tang--ah? Thâu-lōo kám ún-tīng?", en: "Sam, how many years have you been in Taiwan? Is your job secure?"}
+  - {n: 11, speaker: Sam, hanji: "誠穩定。毋過趁的無啥濟，我毋是好額人。", tailo: "Tsiânn ún-tīng. M̄-koh thàn--ê bô siánn tsē, guá m̄ sī hó-gia̍h-lâng.", en: "Very secure. But I don't earn much: I'm not a rich man."}
+  - {n: 12, speaker: Mother, hanji: "好額毋是上要緊的，心性較要緊。好矣，莫問甲親像咧審犯人。食飯矣！", tailo: "Hó-gia̍h m̄ sī siōng iàu-kín--ê, sim-sìng khah iàu-kín. Hó--ah, mài mn̄g kah tshin-tshiūnn teh sím huān-lâng. Tsia̍h-pn̄g--ah!", en: "Money isn't what matters most: character matters more. That's enough, stop questioning him like a criminal. Dinner's ready!"}
+  - {n: 13, speaker: Sam, hanji: "遮爾濟菜！黃太太，你按呢款待我，我真歹勢。", tailo: "Tsiah-nī tsē tshài! N̂g thài-thài, lí án-ne khuán-thāi guá, guá tsin pháinn-sè.", en: "So many dishes! Mrs N̂g, I'm embarrassed you've gone to so much trouble for me."}
+  - {n: 14, speaker: Mother, hanji: "無啥物菜色啦，略仔備辦一下爾。這攏是我的手路菜：紅燒肉、炒米粉，猶閣有雞肉，愛搵這个醬。", tailo: "Bô siánn-mih tshài-sik--lah, lio̍h-á pī-pān--tsi̍t-ē niā. Tse lóng sī guá ê tshiú-lōo-tshài: âng-sio bah, tshá bí-hún, iáu-koh ū ke-bah, ài ùn tsit ê tsiùnn.", en: "It's nothing special, I just threw a few things together. These are my specialities: red-braised pork, fried rice noodles, and the chicken, which you dip in this sauce."}
+  - {n: 15, speaker: Sam, hanji: "（食一喙）真好食！比外口賣的閣較好食。", tailo: "(Tsia̍h tsi̍t tshuì) Tsin hó-tsia̍h! Pí guā-kháu bē--ê koh-khah hó-tsia̍h.", en: "(Takes a bite) Delicious! Even better than what you get in restaurants."}
+  - {n: 16, speaker: Mother, hanji: "好食就加食淡薄仔。秀蘭，共Sam添飯。", tailo: "Hó-tsia̍h tō ke tsia̍h tām-po̍h-á. Siù-lân, kā Sam thinn-pn̄g.", en: "If you like it, have some more. Siù-lân, give Sam some more rice."}
+  - {n: 17, speaker: Sam, hanji: "毋免，我家己來……（家己添甲規碗若山咧）", tailo: "M̄-bián, guá ka-kī lâi... (Ka-kī thinn kah kui uánn ná suann--leh)", en: "No need, I'll help myself... (He piles his bowl up like a mountain)"}
+  - {n: 18, speaker: Father, hanji: "（提一罐高粱酒出來）Sam，敢會啉酒？", tailo: "(The̍h tsi̍t kuàn kau-liâng-tsiú tshut--lâi) Sam, kám ē lim tsiú?", en: "(Bringing out a bottle of kaoliang) Sam, do you drink?"}
+  - {n: 19, speaker: Siù-lân, hanji: "（細聲）你若推辭，阮阿爸會無歡喜；你若啉傷濟，你會茫。", tailo: "(Sè-siann) Lí nā the-sî, guán a-pah ē bô huann-hí; lí nā lim siunn tsē, lí ē bâng.", en: "(Quietly) If you refuse, my dad will be offended; if you drink too much, you'll get tipsy."}
+  - {n: 20, speaker: Sam, hanji: "（細聲）按呢我欲按怎？（大聲）會啉，略仔會啉。", tailo: "(Sè-siann) Án-ne guá beh án-tsuánn? (Tuā-siann) Ē lim, lio̍h-á ē lim.", en: "(Quietly) So what am I supposed to do? (Out loud) Yes, I drink a little."}
+  - {n: 21, speaker: Father, hanji: "（斟酒）好！我先敬你。", tailo: "(Thîn tsiú) Hó! Guá sing kìng--lí.", en: "(Pouring) Good! A toast to you first."}
+  - {n: 22, speaker: Sam, hanji: "（啉一喙，面隨紅起來）這……真……有力。", tailo: "(Lim tsi̍t tshuì, bīn suî âng--khí-lâi) Tse... tsin... ū-la̍t.", en: "(He takes a sip and goes red at once) This is... very... strong."}
+  - {n: 23, speaker: Father, hanji: "高粱酒五十八度，力頭真烈。阮少年的時，酒杯若提起來，就袂使放落去。來，閣一杯。", tailo: "Kau-liâng-tsiú gōo-tsa̍p-peh tōo, la̍t-thâu tsin lia̍t. Guán siàu-liân ê sî, tsiú-pue nā the̍h--khí-lâi, tō bē-sái pàng--lo̍h-khì. Lâi, koh tsi̍t pue.", en: "Kaoliang is fifty-eight proof, it packs a punch. When we were young, once you raised your glass you weren't allowed to put it down. Come on, another."}
+  - {n: 24, speaker: Mother, hanji: "你莫欺負人。人Sam是紳士，毋是你彼陣啉酒的朋友。", tailo: "Lí mài khi-hū--lâng. Lâng Sam sī sin-sū, m̄ sī lí hit tīn lim tsiú ê pîng-iú.", en: "Stop bullying him. Sam's a gentleman, not one of your drinking buddies."}
+  - {n: 25, speaker: Sam, hanji: "（已經略仔茫）無要緊，黃先生，我……我閣敬你！人情世事，我攏知！", tailo: "(Í-king lio̍h-á bâng) Bô-iàu-kín, N̂g--sian-sinn, guá... guá koh kìng--lí! Jîn-tsîng-sè-sū, guá lóng tsai!", en: "(Already a bit tipsy) It's fine, Mr N̂g, I'll... I'll toast you back! I know how these things are done!"}
+  - {n: 26, speaker: Siù-lân, hanji: "（掩面）伊茫矣……", tailo: "(Am bīn) I bâng--ah...", en: "(Covering her face) He's tipsy..."}
+  - {n: 27, speaker: Father, hanji: "（頭一擺好笑神）這个少年的，有影古意。毋過啉酒猶閣愛練。", tailo: "(Thâu tsi̍t pái hó-tshiò-sîn) Tsit ê siàu-liân--ê, ū-iánn kóo-ì. M̄-koh lim tsiú iáu-koh ài liān.", en: "(Smiling for the first time) This young man is honest, all right. But his drinking needs practice."}
+  - {n: 28, speaker: Mother, hanji: "伊伶俐閣巧神，臺語閣講甲遮好，看就知影家教好。", tailo: "I líng-lī koh khiáu-sîn, Tâi-gí koh kóng kah tsiah hó, khuànn tō tsai-iánn ka-kàu hó.", en: "He's quick and clever, and his Taigi is so good: you can tell he was brought up well."}
+  - {n: 29, speaker: Father, hanji: "秀蘭，恁交往偌久矣？", tailo: "Siù-lân, lín kau-óng guā kú--ah?", en: "Siù-lân, how long have you two been going out?"}
+  - {n: 30, speaker: Siù-lân, hanji: "（礙虐）半冬矣。阿爸，你問這欲創啥？", tailo: "(Gāi-gio̍h) Puànn tang--ah. A-pah, lí mn̄g tse beh tshòng-siánn?", en: "(Awkwardly) Six months. Dad, why are you asking?"}
+  - {n: 31, speaker: Father, hanji: "無啥物。後擺伊來，提紹興酒就好，高粱傷烈。伊這款啉法，實在毋成。", tailo: "Bô siánn-mih. Āu-pái i lâi, the̍h siāu-hing-tsiú tō hó, kau-liâng siunn lia̍t. I tsit khuán lim-huat, si̍t-tsāi m̄-tsiânn.", en: "No reason. Next time he comes, Shaoxing wine will do: kaoliang's too strong. The way he drinks, it's really not up to much."}
+  - {n: 32, speaker: Mother, hanji: "今仔日冬節，食一碗圓仔湯才走。食圓仔，加一歲。", tailo: "Kin-á-ji̍t tang-tseh, tsia̍h tsi̍t uánn înn-á-thng tsiah tsáu. Tsia̍h înn-á, ke tsi̍t huè.", en: "It's the Winter Solstice today: have a bowl of rice-ball soup before you go. Eat your rice balls and you're a year older."}
+  - {n: 33, speaker: Sam, hanji: "（食了，徛起來）多謝恁的款待，時間晏矣，我先相辭，失陪……（跤顫一下，挵著椅條）", tailo: "(Tsia̍h liáu, khiā--khí-lâi) To-siā lín ê khuán-thāi, sî-kan uànn--ah, guá sing sio-sî, sit-puê... (Kha tsùn--tsi̍t-ē, lòng-tio̍h í-liâu)", en: "(Finishing and standing up) Thank you for your hospitality. It's late, I'll take my leave, if you'll excuse me... (His legs wobble and he bumps into the bench)"}
+  - {n: 34, speaker: Father, hanji: "（共Sam扶咧）秀蘭，送伊轉去。……下擺閣來，我等你。", tailo: "(Kā Sam hû--leh) Siù-lân, sàng i tńg--khì. ... Ē-pái koh lâi, guá tán--lí.", en: "(Steadying Sam) Siù-lân, take him home. ... Come again. I'll be waiting."}
+notes:
+  - {ref: 1, topic: vocab, text: "嚴 = stern, strict (lesson 96). 心性 sim-sìng = temperament, character."}
+  - {ref: 2, topic: vocab, text: "袂赴 bē-hù = not have time to, be too late to: 袂赴坐車 'miss the bus'."}
+  - {ref: 4, topic: vocab, text: "頭擺 thâu-pái = the first time. 拜訪 pài-hóng = visit, call on. 攪擾 kiáu-jiáu = disturb, impose on; 攪擾恁矣 is the polite formula on arrival. 禮盒 lé-a̍p = gift box. 烏魚子 oo-hî-tsí = dried mullet roe, a prized gift from southern Taiwan."}
+  - {ref: 5, topic: vocab, text: "不止仔 put-tsí-á = very, quite. 人來就好 'just coming is enough', the usual reply to a gift."}
+  - {ref: 6, topic: vocab, text: "椅條 í-liâu = bench."}
+  - {ref: 8, topic: vocab, text: "按呢生 án-ne-senn = like this, in this way. 拘束 khu-sok = stiff, formal; 免拘束 'make yourself at home'. 斟茶 thîn tê = pour tea."}
+  - {ref: 9, topic: vocab, text: "審 sím = try (in court), interrogate."}
+  - {ref: 10, topic: vocab, text: "穩定 ún-tīng = stable, secure."}
+  - {ref: 13, topic: vocab, text: "款待 khuán-thāi = entertain, treat (guests)."}
+  - {ref: 14, topic: vocab, text: "菜色 tshài-sik = the dishes served. 略仔 lio̍h-á = a little, slightly. 備辦 pī-pān = prepare. 手路菜 tshiú-lōo-tshài = signature dish. 紅燒 âng-sio = braised in soy sauce. 搵 ùn = dip. 醬 tsiùnn = sauce, paste."}
+  - {ref: 16, topic: vocab, text: "添飯 thinn-pn̄g = serve (more) rice."}
+  - {ref: 18, topic: vocab, text: "啉酒 lim tsiú = drink (alcohol). 高粱酒 kau-liâng-tsiú = kaoliang, sorghum spirit; the best known comes from Kinmen."}
+  - {ref: 19, topic: vocab, text: "推辭 the-sî = decline, refuse (politely). 茫 bâng = tipsy, fuddled."}
+  - {ref: 21, topic: vocab, text: "斟酒 thîn tsiú = pour wine. 敬 kìng = respect; drink to someone: 我敬你 'here's to you'."}
+  - {ref: 22, topic: vocab, text: "有力 ū-la̍t = strong, powerful."}
+  - {ref: 23, topic: vocab, text: "度 = degree; here proof (alcohol by volume). 力頭 la̍t-thâu = strength, force. 烈 lia̍t = strong, fierce. 酒杯 tsiú-pue = wine glass."}
+  - {ref: 24, topic: vocab, text: "紳士 sin-sū = gentleman. 欺負 = bully (進修 17)."}
+  - {ref: 25, topic: vocab, text: "人情世事 jîn-tsîng-sè-sū = social obligations, the way things are done between people."}
+  - {ref: 26, topic: vocab, text: "掩 am = cover (with the hand)."}
+  - {ref: 27, topic: vocab, text: "好笑神 hó-tshiò-sîn = smiling, cheerful-looking."}
+  - {ref: 28, topic: vocab, text: "伶俐 líng-lī = quick, nimble. 巧神 khiáu-sîn = clever, bright. 家教 ka-kàu = upbringing."}
+  - {ref: 29, topic: vocab, text: "交往 kau-óng = go out (with someone), be in a relationship."}
+  - {ref: 30, topic: vocab, text: "礙虐 gāi-gio̍h = awkward, embarrassed; also uncomfortable, ill-fitting."}
+  - {ref: 31, topic: vocab, text: "紹興酒 siāu-hing-tsiú = Shaoxing (yellow rice wine). 毋成 m̄-tsiânn = not up to scratch, hopeless."}
+  - {ref: 32, topic: culture, text: "冬節 = Winter Solstice (進修 26). 圓仔湯 înn-á-thng = soup of glutinous rice balls, eaten at the solstice: 食圓仔加一歲 'eat rice balls and you're a year older'."}
+  - {ref: 33, topic: vocab, text: "相辭 sio-sî = take one's leave. 失陪 sit-puê = excuse me (for leaving). 挵 = bump into (lesson 44)."}
+new_words:
+  - {tailo: sim-sìng, hanji: 心性, en: "temperament, character"}
+  - {tailo: bē-hù, hanji: 袂赴, en: "not have time to, be too late"}
+  - {tailo: thâu-pái, hanji: 頭擺, en: "the first time"}
+  - {tailo: pài-hóng, hanji: 拜訪, en: "visit, call on"}
+  - {tailo: kiáu-jiáu, hanji: 攪擾, en: "disturb, impose on"}
+  - {tailo: lé-a̍p, hanji: 禮盒, en: "gift box"}
+  - {tailo: oo-hî-tsí, hanji: 烏魚子, en: "dried mullet roe"}
+  - {tailo: put-tsí-á, hanji: 不止仔, en: "very, quite"}
+  - {tailo: í-liâu, hanji: 椅條, en: "bench"}
+  - {tailo: án-ne-senn, hanji: 按呢生, en: "like this"}
+  - {tailo: khu-sok, hanji: 拘束, en: "stiff, formal; restrain"}
+  - {tailo: thîn tê, hanji: 斟茶, en: "pour tea"}
+  - {tailo: sím, hanji: 審, en: "try, interrogate"}
+  - {tailo: ún-tīng, hanji: 穩定, en: "stable, secure"}
+  - {tailo: khuán-thāi, hanji: 款待, en: "entertain, treat (guests)"}
+  - {tailo: tshài-sik, hanji: 菜色, en: "the dishes served"}
+  - {tailo: lio̍h-á, hanji: 略仔, en: "a little, slightly"}
+  - {tailo: pī-pān, hanji: 備辦, en: "prepare"}
+  - {tailo: tshiú-lōo-tshài, hanji: 手路菜, en: "signature dish"}
+  - {tailo: âng-sio, hanji: 紅燒, en: "braised in soy sauce"}
+  - {tailo: ùn, hanji: 搵, en: "dip"}
+  - {tailo: tsiùnn, hanji: 醬, en: "sauce, paste"}
+  - {tailo: thinn-pn̄g, hanji: 添飯, en: "serve (more) rice"}
+  - {tailo: lim tsiú, hanji: 啉酒, en: "drink (alcohol)"}
+  - {tailo: kau-liâng-tsiú, hanji: 高粱酒, en: "kaoliang (sorghum spirit)"}
+  - {tailo: the-sî, hanji: 推辭, en: "decline, refuse"}
+  - {tailo: bâng, hanji: 茫, en: "tipsy, fuddled"}
+  - {tailo: thîn tsiú, hanji: 斟酒, en: "pour wine"}
+  - {tailo: kìng, hanji: 敬, en: "respect; drink to"}
+  - {tailo: ū-la̍t, hanji: 有力, en: "strong, powerful"}
+  - {tailo: la̍t-thâu, hanji: 力頭, en: "strength, force"}
+  - {tailo: lia̍t, hanji: 烈, en: "strong, fierce"}
+  - {tailo: tsiú-pue, hanji: 酒杯, en: "wine glass"}
+  - {tailo: sin-sū, hanji: 紳士, en: "gentleman"}
+  - {tailo: jîn-tsîng-sè-sū, hanji: 人情世事, en: "social obligations"}
+  - {tailo: am, hanji: 掩, en: "cover (with the hand)"}
+  - {tailo: hó-tshiò-sîn, hanji: 好笑神, en: "smiling, cheerful"}
+  - {tailo: líng-lī, hanji: 伶俐, en: "quick, nimble"}
+  - {tailo: khiáu-sîn, hanji: 巧神, en: "clever, bright"}
+  - {tailo: ka-kàu, hanji: 家教, en: "upbringing"}
+  - {tailo: kau-óng, hanji: 交往, en: "go out (with someone)"}
+  - {tailo: gāi-gio̍h, hanji: 礙虐, en: "awkward, embarrassed"}
+  - {tailo: siāu-hing-tsiú, hanji: 紹興酒, en: "Shaoxing wine"}
+  - {tailo: m̄-tsiânn, hanji: 毋成, en: "not up to scratch"}
+  - {tailo: înn-á-thng, hanji: 圓仔湯, en: "rice-ball soup"}
+  - {tailo: sio-sî, hanji: 相辭, en: "take one's leave"}
+  - {tailo: sit-puê, hanji: 失陪, en: "excuse me (for leaving)"}
+exercises:
+  translate:
+    - {tailo: "Guán a-pah khuànn--khí-lâi tsin giâm, kî-si̍t sim-sìng tsin hó.", hanji: "阮阿爸看起來真嚴，其實心性真好。", en: "My dad looks stern, but he's really kind at heart."}
+    - {tailo: "Thâu-pái lâi pài-hóng, kiáu-jiáu lín--ah.", hanji: "頭擺來拜訪，攪擾恁矣。", en: "It's my first visit, sorry to impose on you."}
+    - {tailo: "Bián án-ne-senn, bián khu-sok.", hanji: "免按呢生，免拘束。", en: "No need for all that, relax."}
+    - {tailo: "Hó-gia̍h m̄ sī siōng iàu-kín--ê, sim-sìng khah iàu-kín.", hanji: "好額毋是上要緊的，心性較要緊。", en: "Money isn't what matters most: character matters more."}
+    - {tailo: "Lí nā the-sî, guán a-pah ē bô huann-hí.", hanji: "你若推辭，阮阿爸會無歡喜。", en: "If you refuse, my dad will be offended."}
+    - {tailo: "Thâu-pái khì lâng tau pài-hóng, ài the̍h lé-a̍p, koh ài kóng “kiáu-jiáu--lín--ah”.", hanji: "頭擺去人兜拜訪，愛提禮盒，閣愛講「攪擾恁矣」。", en: "The first time you visit someone's home, you should bring a gift box and say 'sorry to impose on you'."}
+    - {tailo: "Siù-lân ê a-pah thîn tsiú kìng Sam, Sam m̄-kánn the-sî, lim liáu bīn suî âng--khí-lâi.", hanji: "秀蘭的阿爸斟酒敬Sam，Sam毋敢推辭，啉了面隨紅起來。", en: "Siù-lân's father poured a drink and toasted Sam; Sam didn't dare refuse, and went red as soon as he drank it."}
+  fill:
+    - {tailo: "Guá ___ kín-tiunn--ah, mn̂g í-king khui--ah.", hanji: "我___緊張矣，門已經開矣。", answer: "bē-hù", answer_hanji: "袂赴", en: "I don't have time to be nervous: the door's already open."}
+    - {tailo: "Lí án-ne ___ guá, guá tsin pháinn-sè.", hanji: "你按呢___我，我真歹勢。", answer: "khuán-thāi", answer_hanji: "款待", en: "I'm embarrassed you've gone to so much trouble for me."}
+    - {tailo: "Tse lóng sī guá ê ___.", hanji: "這攏是我的___。", answer: "tshiú-lōo-tshài", answer_hanji: "手路菜", en: "These are my specialities."}
+    - {tailo: "Siù-lân, kā Sam ___.", hanji: "秀蘭，共Sam___。", answer: "thinn-pn̄g", answer_hanji: "添飯", en: "Siù-lân, give Sam some more rice."}
+    - {tailo: "Siù-lân, lín ___ guā kú--ah?", hanji: "秀蘭，恁___偌久矣？", answer: "kau-óng", answer_hanji: "交往", en: "Siù-lân, how long have you two been going out?"}
+    - {tailo: "Siù-lân ê a-bú tsin ài khuán-thāi lâng-kheh, ta̍k pái lóng tsú kui toh ê ___.", hanji: "秀蘭的阿母真愛款待人客，逐擺攏煮規桌的___。", answer: "tshiú-lōo-tshài", answer_hanji: "手路菜", en: "Siù-lân's mother loves entertaining guests, and every time she cooks a whole table of her specialities."}
+audio: []

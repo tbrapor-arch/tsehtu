@@ -1,0 +1,115 @@
+id: 53
+title: {en: "You can't jump out of the Buddha's palm", tailo: "Thiàu bē tshut Jû-lâi ê tshiú-tê-á", hanji: "跳袂出如來的手蹄仔"}
+genre: tale
+review: false
+setting: "The Monkey King's revolt in heaven, from the opening chapters of Journey to the West, the sixteenth-century novel every Taiwanese child knows from puppet shows and cartoons. Retold freely for this course."
+dialogue:
+  - {n: 1, hanji: "古早古早，東海邊有一粒山，山頂有一粒大石頭。有一工，石頭爆開，跳出一隻猴山仔。", tailo: "Kóo-tsá kóo-tsá, Tang-hái pinn ū tsi̍t lia̍p suann, suann-tíng ū tsi̍t lia̍p tuā tsio̍h-thâu. Ū tsi̍t kang, tsio̍h-thâu po̍k--khui, thiàu tshut tsi̍t tsiah kâu-san--á.", en: "Long, long ago, by the Eastern Sea, there was a mountain with a great rock on its peak. One day the rock burst open, and out leapt a monkey."}
+  - {n: 2, hanji: "這隻猴山仔真巧，閣真大膽，山裡的猴山仔攏選伊做大王，逐工佇山內食果子，逍遙自在。", tailo: "Tsit tsiah kâu-san--á tsin khiáu, koh tsin tuā-tánn, suann--lí ê kâu-san--á lóng suán i tsò tāi-ông, ta̍k kang tī suann-lāi tsia̍h kué-tsí, siau-iâu tsū-tsāi.", en: "This monkey was clever and bold, and the monkeys of the mountain chose him as their king. Every day they ate fruit in the hills, free as you please."}
+  - {n: 3, hanji: "毋過伊驚家己會老、會死，就離開山內，四界去揣仙人修行。", tailo: "M̄-koh i kiann ka-kī ē lāu, ē sí, tō lī-khui suann-lāi, sì-kè khì tshuē sian-jîn siu-hīng.", en: "But he was afraid of growing old and dying, so he left the mountain and wandered far and wide looking for an immortal to teach him the Way."}
+  - {n: 4, hanji: "伊拜一个仙人做師父，學著七十二種變化的法術，閣一下跳就會當飛十萬八千里。師父共伊號名，叫做孫悟空。", tailo: "I pài tsi̍t ê sian-jîn tsò su-hū, o̍h-tio̍h tshit-tsa̍p-jī tsióng piàn-huà ê huat-su̍t, koh tsi̍t-ē thiàu tō ē-tàng pue tsa̍p-bān-peh-tshing lí. Su-hū kā i hō-miâ, kiò-tsò Sun Ngōo-khong.", en: "He took an immortal as his master and learnt the magic of the seventy-two transformations, and with a single leap he could fly a hundred and eight thousand leagues. His master named him Sun Ngōo-khong."}
+  - {n: 5, hanji: "孫悟空轉去山內，武藝愈來愈厲害，人嘛愈來愈囂俳。伊去東海搶一支會變大變細的鐵棒，閣去陰間，共閻君的簿仔提來，將家己的名抹掉。", tailo: "Sun Ngōo-khong tńg-khì suann-lāi, bú-gē jú lâi jú lī-hāi, lâng mā jú lâi jú hiau-pai. I khì Tang-hái tshiúnn tsi̍t ki ē piàn tuā piàn sè ê thih-pāng, koh khì im-kan, kā Giâm-kun ê phōo-á the̍h--lâi, tsiong ka-kī ê miâ buah--tiāu.", en: "Back on his mountain, Sun Ngōo-khong's fighting skills grew ever greater, and so did his arrogance. He stole an iron staff that could grow or shrink from the Eastern Sea, then went down to the underworld, took the King of Hell's register and struck out his own name."}
+  - {n: 6, hanji: "陰間的判官驚甲傱來傱去，閻君就去天庭告伊。", tailo: "Im-kan ê phuànn-kuann kiann kah tsông-lâi-tsông-khì, Giâm-kun tō khì thian-tîng kò--i.", en: "The judges of the underworld ran about in a panic, and the King of Hell went to heaven to lodge a complaint."}
+  - {n: 7, hanji: "玉皇大帝想欲用好話共伊收落來，就落聖旨，叫伊上天庭做官。", tailo: "Gio̍k-hông-tāi-tè siūnn-beh iōng hó-uē kā i siu--lo̍h-lâi, tō lo̍h sìng-tsí, kiò i tsiūnn thian-tîng tsò kuann.", en: "The Jade Emperor thought he could win him over with kind words, so he issued an imperial decree inviting him up to heaven to take an official post."}
+  - {n: 8, hanji: "毋過伊做的官，是顧馬的小官。孫悟空知影了後，真不服：「我是好漢，哪會共天庭顧馬？」", tailo: "M̄-koh i tsò ê kuann, sī kòo bé ê sió kuann. Sun Ngōo-khong tsai-iánn liáu-āu, tsin put-ho̍k: “Guá sī hó-hàn, ná ē kā thian-tîng kòo bé?”", en: "But the post he was given was a petty one, minding the horses. When Sun Ngōo-khong found out, he was furious: 'I'm a hero! Why should I mind heaven's horses?'"}
+  - {n: 9, hanji: "伊捶胸坎，轉去山內造反，家己號做「齊天大聖」，意思是伊佮天公仝款大。", tailo: "I tuî hing-khám, tńg-khì suann-lāi tsō-huán, ka-kī hō-tsò “Tsê-thian Tāi-sìng”, ì-sù sī i kah Thinn-kong kāng-khuán tuā.", en: "Beating his chest, he went back to his mountain and rebelled, calling himself 'Great Sage Equal to Heaven', meaning he was as great as the Lord of Heaven himself."}
+  - {n: 10, hanji: "玉皇大帝派兵去掠伊，煞攏予伊拍輸轉來。無法度，只好閣落一擺聖旨，承認伊是齊天大聖，叫伊去顧仙桃園。", tailo: "Gio̍k-hông-tāi-tè phài ping khì lia̍h--i, suah lóng hōo i phah-su tńg--lâi. Bô-huat-tōo, tsí-hó koh lo̍h tsi̍t pái sìng-tsí, sîng-jīn i sī Tsê-thian Tāi-sìng, kiò i khì kòo sian-thô-hn̂g.", en: "The Jade Emperor sent troops to capture him, but he beat them all back. There was nothing for it: the Emperor issued another decree recognising him as the Great Sage, and put him in charge of the orchard of the peaches of immortality."}
+  - {n: 11, hanji: "仙桃是仙人食的，食一粒就加活幾若千冬。孫悟空是枵鬼，見若看著熟的，就一搣一搣挽來食，食甲腹肚圓圓。", tailo: "Sian-thô sī sian-jîn tsia̍h--ê, tsia̍h tsi̍t lia̍p tō ke ua̍h kuí-nā tshing tang. Sun Ngōo-khong sī iau-kuí, kiàn-nā khuànn-tio̍h si̍k--ê, tō tsi̍t me tsi̍t me bán lâi tsia̍h, tsia̍h kah pak-tóo înn-înn.", en: "The peaches were food for immortals: one of them added thousands of years to your life. Sun Ngōo-khong was a glutton, and whenever he saw a ripe one he grabbed them by the handful and ate till his belly was round."}
+  - {n: 12, hanji: "有一工，天庭欲開仙桃的宴會，請真濟仙人，獨獨無請孫悟空。", tailo: "Ū tsi̍t kang, thian-tîng beh khui sian-thô ê iàn-huē, tshiánn tsin tsē sian-jîn, to̍k-to̍k bô tshiánn Sun Ngōo-khong.", en: "One day heaven held a peach banquet and invited a great many immortals: everyone except Sun Ngōo-khong."}
+  - {n: 13, hanji: "伊真受氣，就用法術予眾人睏去，共宴會的酒菜食了了，閣偷食仙丹。", tailo: "I tsin siū-khì, tō iōng huat-su̍t hōo tsìng-lâng khùn--khì, kā iàn-huē ê tsiú-tshài tsia̍h liáu-liáu, koh thau tsia̍h sian-tan.", en: "He was furious. He put everyone to sleep with a spell, ate and drank everything laid out for the feast, and stole the pills of immortality as well."}
+  - {n: 14, hanji: "玉皇大帝聽著，氣甲面紅記記，命令天庭的兵將連紲去攻伊。", tailo: "Gio̍k-hông-tāi-tè thiann--tio̍h, khì kah bīn âng-kì-kì, bīng-līng thian-tîng ê ping-tsiòng liân-suà khì kong--i.", en: "When the Jade Emperor heard, he went scarlet with rage and ordered heaven's soldiers and generals to attack him again and again."}
+  - {n: 15, hanji: "毋過孫悟空武藝好，閣會變化，天兵予伊戲弄甲無半步，伊閣佇天庭四界放火。", tailo: "M̄-koh Sun Ngōo-khong bú-gē hó, koh ē piàn-huà, thian-ping hōo i hì-lāng kah bô-puànn-pōo, i koh tī thian-tîng sì-kè pàng-hué.", en: "But Sun Ngōo-khong was a fine fighter and could change his shape, so he made fools of heaven's soldiers, and he set fires all over heaven too."}
+  - {n: 16, hanji: "尾手總算共伊掠著矣，毋過刀刣袂入，火燒袂死，用火燒四十九工，伊煞跳出來，目睭閣金金。", tailo: "Bué-tshiú tsóng-sǹg kā i lia̍h--tio̍h--ah, m̄-koh to thâi bē ji̍p, hué sio bē sí; iōng hué sio sì-tsa̍p-káu kang, i suah thiàu--tshut-lâi, ba̍k-tsiu koh kim-kim.", en: "In the end they caught him, but no blade could cut him and no fire could kill him. They burnt him for forty-nine days, and out he jumped, eyes wide and glaring."}
+  - {n: 17, hanji: "玉皇大帝無步矣，只好請西天的如來佛祖來做救兵。", tailo: "Gio̍k-hông-tāi-tè bô-pōo--ah, tsí-hó tshiánn Se-thian ê Jû-lâi Pu̍t-tsóo lâi tsò kiù-ping.", en: "The Jade Emperor was at his wits' end, and had to call on the Buddha of the Western Paradise to come to the rescue."}
+  - {n: 18, hanji: "如來共孫悟空講：「你若會當跳出我的手蹄仔，天庭就予你坐。」", tailo: "Jû-lâi kā Sun Ngōo-khong kóng: “Lí nā ē-tàng thiàu tshut guá ê tshiú-tê-á, thian-tîng tō hōo lí tsē.”", en: "The Buddha said to Sun Ngōo-khong: 'If you can jump out of the palm of my hand, heaven's throne is yours.'"}
+  - {n: 19, hanji: "孫悟空笑：「這有啥物困難？」伊一下跳，飛甲足遠，看著五枝大柱仔，就佇柱仔頂寫「齊天大聖來遮遊」，閣佇遐放一拋尿。", tailo: "Sun Ngōo-khong tshiò: “Tse ū siánn-mih khùn-lân?” I tsi̍t-ē thiàu, pue kah tsiok hn̄g, khuànn-tio̍h gōo ki tuā thiāu-á, tō tī thiāu-á tíng siá “Tsê-thian Tāi-sìng lâi tsia iû”, koh tī hia pàng tsi̍t pha jiō.", en: "Sun Ngōo-khong laughed: 'What's so hard about that?' With one leap he flew far, far away, saw five great pillars, wrote 'The Great Sage was here' on one of them, and peed against it for good measure."}
+  - {n: 20, hanji: "伊飛轉來講：「我去到天邊矣！」如來共手蹄仔伸予伊看：伊寫的字，就佇如來的指頭仔頂，閣有一陣尿臊味。", tailo: "I pue tńg--lâi kóng: “Guá khì kàu thinn-pinn--ah!” Jû-lâi kā tshiú-tê-á tshun hōo i khuànn: i siá ê jī tō tī Jû-lâi ê tsíng-thâu-á tíng, koh ū tsi̍t tsūn jiō-tsho-bī.", en: "He flew back and said: 'I've been to the edge of the sky!' The Buddha held out his palm for him to see: the words he'd written were on the Buddha's finger, along with a whiff of pee."}
+  - {n: 21, hanji: "孫悟空驚一趒，欲走已經袂赴。如來的手一下反，變做一粒山，共伊壓佇山跤。這粒山，就是五指山。", tailo: "Sun Ngōo-khong kiann tsi̍t tiô, beh tsáu í-king bē-hù. Jû-lâi ê tshiú tsi̍t-ē píng, piàn-tsò tsi̍t lia̍p suann, kā i ap tī suann-kha. Tsit lia̍p suann tō sī Ngóo-tsí-suann.", en: "Sun Ngōo-khong got such a fright, but it was too late to run. The Buddha turned his hand over, it became a mountain, and pinned him beneath it. That mountain is Five Finger Mountain."}
+  - {n: 22, hanji: "孫悟空佇山跤壓五百冬，日曝雨沃，落難甲無人問。", tailo: "Sun Ngōo-khong tī suann-kha ap gōo-pah tang, ji̍t pha̍k hōo ak, lo̍h-lān kah bô lâng mn̄g.", en: "Sun Ngōo-khong lay trapped under the mountain for five hundred years, baked by the sun and soaked by the rain, fallen so low that no one cared."}
+  - {n: 23, hanji: "一直到有一个和尚欲去西天提經，菩薩叫伊去救孫悟空，孫悟空才出來，綴和尚去西天。", tailo: "It-ti̍t kàu ū tsi̍t ê huê-siūnn beh khì Se-thian the̍h king, Phôo-sat kiò i khì kiù Sun Ngōo-khong, Sun Ngōo-khong tsiah tshut--lâi, tuè huê-siūnn khì Se-thian.", en: "Not until a monk set off for the Western Paradise to fetch the scriptures, and the Bodhisattva sent him to free Sun Ngōo-khong, did the monkey come out and follow the monk to the West."}
+  - {n: 24, hanji: "毋過，彼是另外一个故事矣。", tailo: "M̄-koh, he sī līng-guā tsi̍t ê kòo-sū--ah.", en: "But that's another story."}
+notes:
+  - {ref: 1, topic: vocab, text: "爆 po̍k = burst, explode. 猴山仔 kâu-san--á = monkey (more colloquial than 猴, lesson 87)."}
+  - {ref: 2, topic: vocab, text: "大王 tāi-ông = king. 逍遙 siau-iâu = carefree; 逍遙自在 'free and easy'."}
+  - {ref: 3, topic: vocab, text: "仙人 sian-jîn = immortal. 修行 siu-hīng = practise religious discipline, seek the Way."}
+  - {ref: 4, topic: vocab, text: "法術 huat-su̍t = magic. 十萬八千里 'a hundred and eight thousand li', the proverbial distance of his leap. 孫悟空 Sun Ngōo-khong, 'Sun Awakened to Emptiness', the name his master gives him."}
+  - {ref: 5, topic: vocab, text: "武藝 bú-gē = martial skill. 囂俳 hiau-pai = arrogant, cocky. 棒 pāng = staff, club. 閻君 Giâm-kun = the King of Hell (another name for 閻羅王, 進修 43). 簿仔 = register, notebook."}
+  - {ref: 6, topic: vocab, text: "判官 phuànn-kuann = judge (of the underworld). 傱 tsông = rush about; 傱來傱去 'run around in a panic'. 天庭 thian-tîng = the court of heaven."}
+  - {ref: 7, topic: vocab, text: "玉皇大帝 Gio̍k-hông-tāi-tè = the Jade Emperor, also called 天公 (進修 2). 聖旨 sìng-tsí = imperial decree. 官 kuann = official; 做官 'hold office'. 收落來 = win over, bring into line."}
+  - {ref: 8, topic: vocab, text: "不服 put-ho̍k = refuse to accept, resent. 好漢 hó-hàn = hero, a real man."}
+  - {ref: 9, topic: vocab, text: "捶 tuî = beat (with the fist); 捶胸坎 'beat one's chest'. 造反 tsō-huán = rebel."}
+  - {ref: 10, topic: vocab, text: "派 phài = send, dispatch. 仙桃 sian-thô = peach of immortality."}
+  - {ref: 11, topic: vocab, text: "枵鬼 iau-kuí = glutton; greedy for food. 搣 me = grab a handful; 一搣一搣 'by the handful'."}
+  - {ref: 12, topic: vocab, text: "宴會 iàn-huē = banquet."}
+  - {ref: 13, topic: vocab, text: "仙丹 sian-tan = elixir, pill of immortality."}
+  - {ref: 14, topic: vocab, text: "面紅記記 bīn âng-kì-kì = red in the face. 命令 bīng-līng = order, command. 連紲 liân-suà = in a row, one after another."}
+  - {ref: 15, topic: vocab, text: "戲弄 hì-lāng = make fun of, toy with. 無半步 bô-puànn-pōo = clueless, at a loss; also good for nothing. 放火 pàng-hué = set fire (to)."}
+  - {ref: 16, topic: vocab, text: "尾手 bué-tshiú = in the end. 金金 = staring wide-eyed."}
+  - {ref: 17, topic: vocab, text: "無步 bô-pōo = have no way out, be at one's wits' end. 西天 Se-thian = the Western Paradise. 如來 Jû-lâi = the Buddha (Tathāgata); 佛祖 (進修 33). 救兵 kiù-ping = reinforcements; help in a crisis."}
+  - {ref: 18, topic: vocab, text: "手蹄仔 tshiú-tê-á = palm (of the hand)."}
+  - {ref: 20, topic: vocab, text: "臊 tsho = (of smell) rank, fishy; 尿臊味 'smell of pee'."}
+  - {ref: 21, topic: vocab, text: "反 píng = turn over. 壓 ap = press down, pin under. 五指山 Ngóo-tsí-suann = Five Finger Mountain."}
+  - {ref: 22, topic: vocab, text: "落難 lo̍h-lān = fall on hard times, be in distress."}
+  - {ref: 23, topic: vocab, text: "和尚 huê-siūnn = Buddhist monk; here the monk Tripitaka. 菩薩 phôo-sat = Bodhisattva; here she is 觀音 (lesson 22)."}
+new_words:
+  - {tailo: po̍k, hanji: 爆, en: "burst, explode"}
+  - {tailo: kâu-san--á, hanji: 猴山仔, en: "monkey"}
+  - {tailo: tāi-ông, hanji: 大王, en: "king"}
+  - {tailo: siau-iâu, hanji: 逍遙, en: "carefree"}
+  - {tailo: sian-jîn, hanji: 仙人, en: "immortal"}
+  - {tailo: siu-hīng, hanji: 修行, en: "practise religious discipline"}
+  - {tailo: huat-su̍t, hanji: 法術, en: "magic"}
+  - {tailo: bú-gē, hanji: 武藝, en: "martial skill"}
+  - {tailo: hiau-pai, hanji: 囂俳, en: "arrogant, cocky"}
+  - {tailo: pāng, hanji: 棒, en: "staff, club"}
+  - {tailo: Giâm-kun, hanji: 閻君, en: "King of Hell"}
+  - {tailo: phuànn-kuann, hanji: 判官, en: "judge (of the underworld)"}
+  - {tailo: tsông, hanji: 傱, en: "rush about"}
+  - {tailo: thian-tîng, hanji: 天庭, en: "the court of heaven"}
+  - {tailo: Gio̍k-hông-tāi-tè, hanji: 玉皇大帝, en: "the Jade Emperor"}
+  - {tailo: sìng-tsí, hanji: 聖旨, en: "imperial decree"}
+  - {tailo: kuann, hanji: 官, en: "official"}
+  - {tailo: put-ho̍k, hanji: 不服, en: "refuse to accept, resent"}
+  - {tailo: hó-hàn, hanji: 好漢, en: "hero, a real man"}
+  - {tailo: tuî, hanji: 捶, en: "beat (with the fist)"}
+  - {tailo: tsō-huán, hanji: 造反, en: "rebel"}
+  - {tailo: phài, hanji: 派, en: "send, dispatch"}
+  - {tailo: sian-thô, hanji: 仙桃, en: "peach of immortality"}
+  - {tailo: iau-kuí, hanji: 枵鬼, en: "glutton; greedy for food"}
+  - {tailo: me, hanji: 搣, en: "grab a handful"}
+  - {tailo: iàn-huē, hanji: 宴會, en: "banquet"}
+  - {tailo: sian-tan, hanji: 仙丹, en: "elixir of immortality"}
+  - {tailo: bīng-līng, hanji: 命令, en: "order, command"}
+  - {tailo: liân-suà, hanji: 連紲, en: "in a row, one after another"}
+  - {tailo: hì-lāng, hanji: 戲弄, en: "make fun of, toy with"}
+  - {tailo: bô-puànn-pōo, hanji: 無半步, en: "at a loss, clueless"}
+  - {tailo: pàng-hué, hanji: 放火, en: "set fire (to)"}
+  - {tailo: bué-tshiú, hanji: 尾手, en: "in the end"}
+  - {tailo: bô-pōo, hanji: 無步, en: "at one's wits' end"}
+  - {tailo: Se-thian, hanji: 西天, en: "the Western Paradise"}
+  - {tailo: Jû-lâi, hanji: 如來, en: "the Buddha (Tathāgata)"}
+  - {tailo: kiù-ping, hanji: 救兵, en: "reinforcements, rescue"}
+  - {tailo: tshiú-tê-á, hanji: 手蹄仔, en: "palm (of the hand)"}
+  - {tailo: tsho, hanji: 臊, en: "rank, fishy (smell)"}
+  - {tailo: ap, hanji: 壓, en: "press down, pin under"}
+  - {tailo: Ngóo-tsí-suann, hanji: 五指山, en: "Five Finger Mountain"}
+  - {tailo: lo̍h-lān, hanji: 落難, en: "fall on hard times"}
+  - {tailo: huê-siūnn, hanji: 和尚, en: "Buddhist monk"}
+  - {tailo: phôo-sat, hanji: 菩薩, en: "Bodhisattva"}
+exercises:
+  translate:
+    - {tailo: "Tsit tsiah kâu-san--á tsin khiáu, koh tsin tuā-tánn.", hanji: "這隻猴山仔真巧，閣真大膽。", en: "This monkey was clever and bold."}
+    - {tailo: "I pài tsi̍t ê sian-jîn tsò su-hū, o̍h-tio̍h piàn-huà ê huat-su̍t.", hanji: "伊拜一个仙人做師父，學著變化的法術。", en: "He took an immortal as his master and learnt the magic of transformation."}
+    - {tailo: "Guá sī hó-hàn, ná ē kā thian-tîng kòo bé?", hanji: "我是好漢，哪會共天庭顧馬？", en: "I'm a hero! Why should I mind heaven's horses?"}
+    - {tailo: "Lí nā ē-tàng thiàu tshut guá ê tshiú-tê-á, thian-tîng tō hōo lí tsē.", hanji: "你若會當跳出我的手蹄仔，天庭就予你坐。", en: "If you can jump out of the palm of my hand, heaven's throne is yours."}
+    - {tailo: "M̄-koh, he sī līng-guā tsi̍t ê kòo-sū--ah.", hanji: "毋過，彼是另外一个故事矣。", en: "But that's another story."}
+    - {tailo: "Sun Ngōo-khong kā i ê su-hū o̍h-tio̍h piàn-huà ê huat-su̍t, bú-gē jú lâi jú lī-hāi, lâng mā jú lâi jú hiau-pai, liân Gio̍k-hông-tāi-tè to bô khuànn tī ba̍k-tsiu lāi.", hanji: "孫悟空共伊的師父學著變化的法術，武藝愈來愈厲害，人嘛愈來愈囂俳，連玉皇大帝都無看佇目睭內。", en: "Sun Ngōo-khong learnt the magic of transformation from his master; his fighting skills grew and so did his arrogance, until even the Jade Emperor meant nothing to him."}
+    - {tailo: "Thian-tîng khui iàn-huē bô tshiánn--i, i tō iōng huat-su̍t hōo tsìng-lâng khùn--khì, thau tsia̍h sian-thô kah sian-tan, koh tī thian-tîng sì-kè pàng-hué.", hanji: "天庭開宴會無請伊，伊就用法術予眾人睏去，偷食仙桃佮仙丹，閣佇天庭四界放火。", en: "Heaven held a banquet without inviting him, so he put everyone to sleep with a spell, stole the peaches and the elixir, and set fires all over heaven."}
+  fill:
+    - {tailo: "Guá ē-tàng iōng hó-uē kā i siu--lo̍h-lâi, tō lo̍h ___, kiò i tsiūnn thian-tîng tsò kuann.", hanji: "我會當用好話共伊收落來，就落___，叫伊上天庭做官。", answer: "sìng-tsí", answer_hanji: "聖旨", en: "I can win him over with kind words: I'll issue a decree inviting him up to heaven to take a post."}
+    - {tailo: "Sun Ngōo-khong sī ___, kiàn-nā khuànn-tio̍h si̍k--ê, tō bán lâi tsia̍h.", hanji: "孫悟空是___，見若看著熟的，就挽來食。", answer: "iau-kuí", answer_hanji: "枵鬼", en: "Sun Ngōo-khong was a glutton, and whenever he saw a ripe one he picked it and ate it."}
+    - {tailo: "Thian-ping hōo i hì-lāng kah ___.", hanji: "天兵予伊戲弄甲___。", answer: "bô-puànn-pōo", answer_hanji: "無半步", en: "He made fools of heaven's soldiers."}
+    - {tailo: "Tsí-hó tshiánn Jû-lâi Pu̍t-tsóo lâi tsò ___.", hanji: "只好請如來佛祖來做___。", answer: "kiù-ping", answer_hanji: "救兵", en: "He had to call on the Buddha to come to the rescue."}
+    - {tailo: "Sun Ngōo-khong tī suann-kha ap gōo-pah tang, ___ kah bô lâng mn̄g.", hanji: "孫悟空佇山跤壓五百冬，___甲無人問。", answer: "lo̍h-lān", answer_hanji: "落難", en: "Sun Ngōo-khong lay under the mountain for five hundred years, fallen so low that no one cared."}
+    - {tailo: "Jû-lâi ê tshiú tsi̍t-ē píng, tō piàn-tsò tsi̍t lia̍p tuā suann, kā Sun Ngōo-khong ___ tī suann-kha, i tō án-ne tī hia lo̍h-lān gōo-pah tang.", hanji: "如來的手一下反，就變做一粒大山，共孫悟空___佇山跤，伊就按呢佇遐落難五百冬。", answer: "ap", answer_hanji: "壓", en: "The Buddha turned his hand over and it became a great mountain, pinning Sun Ngōo-khong beneath it, and there he languished for five hundred years."}
+audio: []

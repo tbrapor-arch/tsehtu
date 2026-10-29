@@ -1,0 +1,110 @@
+id: 54
+title: {en: "A husband who's scared of his wife", tailo: "Kiann bóo ê ang-sài", hanji: "驚某的翁婿"}
+genre: letter
+review: false
+setting: "January. After a row, Siok-tsing has gone back to her parents' house (her father is headmaster Tân, 進修 29). A-ióng, alone with the three cats, writes her a letter by hand."
+dialogue:
+  - {n: 1, hanji: "親愛的淑貞：", tailo: "Tshin-ài ê Siok-tsing:", en: "My dearest Siok-tsing,"}
+  - {n: 2, hanji: "你轉去後頭厝已經四工矣。厝內空空，三隻貓仔逐暗攏坐佇門口等你。", tailo: "Lí tńg-khì āu-thâu-tshù í-king sì kang--ah. Tshù-lāi khang-khang, sann tsiah niau-á ta̍k àm lóng tsē tī mn̂g-kháu tán--lí.", en: "You've been at your parents' for four days now. The flat is empty, and every evening the three cats sit by the door waiting for you."}
+  - {n: 3, hanji: "我嘛睏袂去，暗暝攬你的枕頭，一直到暝尾。", tailo: "Guá mā khùn bē khì; àm-mê lám lí ê tsím-thâu, it-ti̍t kàu mê-bué.", en: "I can't sleep either. At night I hug your pillow until the small hours."}
+  - {n: 4, hanji: "這幾工我一直咧反省。我知影，這擺的風波，是非攏佇我遮。", tailo: "Tsit kuí kang guá it-ti̍t teh huán-síng. Guá tsai-iánn, tsit pái ê hong-pho, sī-hui lóng tī guá tsia.", en: "I've spent these days reflecting. I know that in this whole storm, I'm the one in the wrong."}
+  - {n: 5, hanji: "你生日彼暗，我佮Sam拍電動拍甲暝尾，煞袂記得轉來佮你食飯。", tailo: "Lí senn-ji̍t hit àm, guá kah Sam phah tiān-tōng phah kah mê-bué, suah bē-kì-tit tńg--lâi kah lí tsia̍h-pn̄g.", en: "On your birthday I played video games with Sam until the small hours, and forgot to come home and have dinner with you."}
+  - {n: 6, hanji: "你講我幾句，我煞起歹性地，閣嫌你煮的菜傷鹹。這實在不該。", tailo: "Lí kóng guá kuí kù, guá suah khí pháinn-sìng-tē, koh hiâm lí tsú ê tshài siunn kiâm. Tse si̍t-tsāi put-kai.", en: "When you said something, I lost my temper and even complained that your cooking was too salty. That was really wrong of me."}
+  - {n: 7, hanji: "咱兩个相嚷甲厝邊攏聽著，紲落來閣冷戰三工。你歹面，我嘛歹面，攏毋講話。", tailo: "Lán nn̄g ê sio-jiáng kah tshù-pinn lóng thiann--tio̍h, suà--lo̍h-lâi koh líng-tsiàn sann kang. Lí pháinn-bīn, guá mā pháinn-bīn, lóng m̄ kóng-uē.", en: "We shouted at each other so loudly the neighbours heard, and then we gave each other the silent treatment for three days. You glared, I glared, and neither of us spoke."}
+  - {n: 8, hanji: "我的脾氣硬，心內明明知影家己毋著，喙閣毋認錯。", tailo: "Guá ê phî-khì ngē; sim-lāi bîng-bîng tsai-iánn ka-kī m̄-tio̍h, tshuì koh m̄ jīn-tshò.", en: "I'm stubborn by nature: deep down I knew perfectly well I was wrong, but I wouldn't admit it."}
+  - {n: 9, hanji: "今仔日我欲誠心共你講：對不住。", tailo: "Kin-á-ji̍t guá beh sîng-sim kā lí kóng: tuì-put-tsū.", en: "Today I want to say it from the bottom of my heart: I'm sorry."}
+  - {n: 10, hanji: "恁阿爸昨昏敲電話來共我責備，講我無照情理，閣講我毋知死。我一句都毋敢應。", tailo: "Lín a-pah tsa-hng khà tiān-uē lâi kā guá tsik-pī, kóng guá bô tsiàu tsîng-lí, koh kóng guá m̄-tsai-sí. Guá tsi̍t kù to m̄-kánn ìn.", en: "Your father rang yesterday and gave me a dressing-down: he said I'd been unreasonable, and that I didn't know what was good for me. I didn't dare say a word back."}
+  - {n: 11, hanji: "毋過伊上尾嘛講：「翁仔某冤家，是常事。看你的面，我就閣予你一擺機會。」", tailo: "M̄-koh i siōng-bué mā kóng: “Ang-á-bóo uan-ke, sī siông-sū. Khuànn lí ê bīn, guá tō koh hōo lí tsi̍t pái ki-huē.”", en: "But at the end he said: 'Husbands and wives quarrel, it happens all the time. For your sake, I'll give you one more chance.'"}
+  - {n: 12, hanji: "Sam嘛替我求情。伊講彼暗是伊叫我拍電動的，請你莫怨慼我。", tailo: "Sam mā thè guá kiû-tsîng. I kóng hit àm sī i kiò guá phah tiān-tōng--ê, tshiánn lí mài uàn-tsheh--guá.", en: "Sam has pleaded for me too. He says it was his idea to play video games that night, and asks you not to hold it against me."}
+  - {n: 13, hanji: "伊閣講，看佇伊的情面，請你原諒我。毋過我知影，這个錯，愛我家己來擔。", tailo: "I koh kóng, khuànn tī i ê tsîng-bīn, tshiánn lí guân-liōng--guá. M̄-koh guá tsai-iánn, tsit ê tshò ài guá ka-kī lâi tam.", en: "He also asks you to forgive me for his sake. But I know this is my mistake, and I must take responsibility for it myself."}
+  - {n: 14, hanji: "淑貞，你一向真有度量，對我真包容，嘛真體諒我工課忙。", tailo: "Siok-tsing, lí it-hiòng tsin ū tōo-liōng, tuì guá tsin pau-iông, mā tsin thé-liōng guá khang-khuè bâng.", en: "Siok-tsing, you've always been so big-hearted, so tolerant with me, and so understanding about how busy I am at work."}
+  - {n: 15, hanji: "是我無帶念你，予你一个人受委屈。", tailo: "Sī guá bô tài-liām--lí, hōo lí tsi̍t ê lâng siū uí-khut.", en: "It's me who didn't think of you, and left you to suffer alone."}
+  - {n: 16, hanji: "我已經共電動收起來矣。後擺我若閣起歹性地，你就叫三隻貓仔來咬我。", tailo: "Guá í-king kā tiān-tōng siu--khí-lâi--ah. Āu-pái guá nā koh khí pháinn-sìng-tē, lí tō kiò sann tsiah niau-á lâi kā--guá.", en: "I've already put the games away. If I ever lose my temper again, you can set the three cats on me."}
+  - {n: 17, hanji: "咱結婚無一冬，袂當為著一場風波，就共咱拆散。", tailo: "Lán kiat-hun bô tsi̍t tang, bē-tàng uī-tio̍h tsi̍t tiûnn hong-pho, tō kā lán thiah-suànn.", en: "We haven't even been married a year. We can't let one storm tear us apart."}
+  - {n: 18, hanji: "我知影你心內猶咧受氣，毋過我相信你毋是絕情的人。你一向軟心。", tailo: "Guá tsai-iánn lí sim-lāi iáu teh siū-khì, m̄-koh guá siong-sìn lí m̄ sī tsua̍t-tsîng ê lâng. Lí it-hiòng nńg-sim.", en: "I know you're still angry inside, but I believe you're not a heartless person. You've always had a soft heart."}
+  - {n: 19, hanji: "我嘛相信，咱結婚彼工講的話，你袂變卦。", tailo: "Guá mā siong-sìn, lán kiat-hun hit kang kóng ê uē, lí bē piàn-kuà.", en: "And I believe you won't go back on what we said to each other on our wedding day."}
+  - {n: 20, hanji: "我若會當挽回你的心，予我做啥物，我攏願意。", tailo: "Guá nā ē-tàng bán-huê lí ê sim, hōo guá tsò siánn-mih, guá lóng guān-ì.", en: "If I can win back your heart, I'll do anything at all."}
+  - {n: 21, hanji: "朋友笑我驚某。我講，我毋是驚某，我是驚無某。", tailo: "Pîng-iú tshiò guá kiann bóo. Guá kóng, guá m̄ sī kiann bóo, guá sī kiann bô bóo.", en: "My friends laugh at me for being scared of my wife. I tell them I'm not scared of my wife: I'm scared of having no wife."}
+  - {n: 22, hanji: "禮拜六我會提一束玫瑰去恁兜等你。你若回心轉意，就翻頭轉來，好無？", tailo: "Lé-pài-la̍k guá ē the̍h tsi̍t sok muî-kuì khì lín tau tán--lí. Lí nā huê-sim-tsuán-ì, tō huan-thâu tńg--lâi, hó--bô?", en: "On Saturday I'll bring a bunch of roses to your parents' house and wait for you. If you've had a change of heart, come back home, will you?"}
+  - {n: 23, hanji: "若無，我就逐禮拜去一擺，等甲你轉來為止。枉費的時間，我無驚。", tailo: "Nā-bô, guá tō ta̍k lé-pài khì tsi̍t pái, tán kah lí tńg--lâi uî-tsí. Óng-huì ê sî-kan, guá bô kiann.", en: "If not, I'll go every week until you come back. I'm not afraid of wasted time."}
+  - {n: 24, hanji: "愛你的阿勇　一月十二暗，佇咱兜", tailo: "Ài lí ê A-ióng, it-gue̍h tsa̍p-jī àm, tī lán tau", en: "Your loving A-ióng, the evening of 12 January, at home"}
+  - {n: 25, hanji: "附記：三隻貓仔嘛有簽名。", tailo: "Hù-kì: sann tsiah niau-á mā ū tshiam-miâ.", en: "P.S. The three cats have signed too."}
+notes:
+  - {ref: 2, topic: vocab, text: "後頭厝 = a married woman's parents' home."}
+  - {ref: 3, topic: vocab, text: "枕頭 tsím-thâu = pillow. 暝尾 mê-bué = the small hours, the end of the night."}
+  - {ref: 4, topic: vocab, text: "反省 huán-síng = reflect on oneself. 風波 hong-pho = storm, trouble (between people). 是非 sī-hui = right and wrong; 是非佇我遮 'the fault is mine'."}
+  - {ref: 5, topic: vocab, text: "電動 tiān-tōng = video games; 拍電動 'play video games'."}
+  - {ref: 6, topic: vocab, text: "歹性地 pháinn-sìng-tē = bad temper; 起歹性地 'lose one's temper'. 不該 put-kai = should not, wrong."}
+  - {ref: 7, topic: vocab, text: "相嚷 sio-jiáng = quarrel loudly, shout at each other. 冷戰 líng-tsiàn = cold war; silent treatment. 歹面 pháinn-bīn = sullen or angry look."}
+  - {ref: 8, topic: vocab, text: "脾氣 phî-khì = temper, disposition. 硬 ngē = hard; stubborn. 認錯 jīn-tshò = admit one's mistake."}
+  - {ref: 9, topic: vocab, text: "誠心 sîng-sim = sincere(ly). 對不住 tuì-put-tsū = I'm sorry."}
+  - {ref: 10, topic: vocab, text: "責備 tsik-pī = scold, reproach. 情理 tsîng-lí = what is reasonable, common sense. 毋知死 m̄-tsai-sí = reckless, not knowing what's good for you."}
+  - {ref: 11, topic: vocab, text: "翁仔某冤家 'husbands and wives quarrel'; the saying goes on 床頭拍，床尾和 'they fight at the head of the bed and make up at its foot'. 常事 = an everyday thing."}
+  - {ref: 12, topic: vocab, text: "求情 kiû-tsîng = plead (for someone). 怨慼 uàn-tsheh = resent, bear a grudge against."}
+  - {ref: 13, topic: vocab, text: "情面 tsîng-bīn = face, personal regard; 看佇伊的情面 'for his sake'. 擔 tam = bear, take on."}
+  - {ref: 14, topic: vocab, text: "一向 it-hiòng = always, all along. 度量 tōo-liōng = magnanimity, tolerance; 有度量 'big-hearted'. 包容 pau-iông = be tolerant of. 體諒 thé-liōng = understand, make allowances for."}
+  - {ref: 15, topic: vocab, text: "帶念 tài-liām = think of, show consideration for. 受委屈 = suffer an injustice, be hurt."}
+  - {ref: 17, topic: vocab, text: "拆散 thiah-suànn = break up, separate."}
+  - {ref: 18, topic: vocab, text: "絕情 tsua̍t-tsîng = heartless. 軟心 nńg-sim = soft-hearted."}
+  - {ref: 19, topic: vocab, text: "變卦 piàn-kuà = go back on one's word, change one's mind."}
+  - {ref: 20, topic: vocab, text: "挽回 bán-huê = win back, retrieve."}
+  - {ref: 21, topic: vocab, text: "驚某 kiann bóo = henpecked, scared of one's wife. The joke turns on 驚無某 'scared of being without a wife'."}
+  - {ref: 22, topic: vocab, text: "玫瑰 muî-kuì = rose. 回心轉意 huê-sim-tsuán-ì = have a change of heart. 翻頭 huan-thâu = turn back, come back."}
+  - {ref: 23, topic: vocab, text: "等甲…為止 uî-tsí = (wait) until. 枉費 óng-huì = wasted, in vain."}
+  - {ref: 25, topic: vocab, text: "附記 = postscript."}
+new_words:
+  - {tailo: tsím-thâu, hanji: 枕頭, en: "pillow"}
+  - {tailo: mê-bué, hanji: 暝尾, en: "the small hours"}
+  - {tailo: huán-síng, hanji: 反省, en: "reflect on oneself"}
+  - {tailo: hong-pho, hanji: 風波, en: "storm, trouble"}
+  - {tailo: sī-hui, hanji: 是非, en: "right and wrong"}
+  - {tailo: tiān-tōng, hanji: 電動, en: "video games"}
+  - {tailo: pháinn-sìng-tē, hanji: 歹性地, en: "bad temper"}
+  - {tailo: put-kai, hanji: 不該, en: "should not, wrong"}
+  - {tailo: sio-jiáng, hanji: 相嚷, en: "quarrel loudly"}
+  - {tailo: líng-tsiàn, hanji: 冷戰, en: "cold war; silent treatment"}
+  - {tailo: pháinn-bīn, hanji: 歹面, en: "sullen or angry look"}
+  - {tailo: phî-khì, hanji: 脾氣, en: "temper, disposition"}
+  - {tailo: ngē, hanji: 硬, en: "hard; stubborn"}
+  - {tailo: jīn-tshò, hanji: 認錯, en: "admit one's mistake"}
+  - {tailo: sîng-sim, hanji: 誠心, en: "sincere(ly)"}
+  - {tailo: tuì-put-tsū, hanji: 對不住, en: "I'm sorry"}
+  - {tailo: tsik-pī, hanji: 責備, en: "scold, reproach"}
+  - {tailo: tsîng-lí, hanji: 情理, en: "reason, common sense"}
+  - {tailo: m̄-tsai-sí, hanji: 毋知死, en: "reckless"}
+  - {tailo: kiû-tsîng, hanji: 求情, en: "plead (for someone)"}
+  - {tailo: uàn-tsheh, hanji: 怨慼, en: "resent, bear a grudge"}
+  - {tailo: tsîng-bīn, hanji: 情面, en: "face, personal regard"}
+  - {tailo: tōo-liōng, hanji: 度量, en: "magnanimity, tolerance"}
+  - {tailo: pau-iông, hanji: 包容, en: "be tolerant of"}
+  - {tailo: thé-liōng, hanji: 體諒, en: "understand, make allowances"}
+  - {tailo: tài-liām, hanji: 帶念, en: "think of, consider"}
+  - {tailo: thiah-suànn, hanji: 拆散, en: "break up, separate"}
+  - {tailo: tsua̍t-tsîng, hanji: 絕情, en: "heartless"}
+  - {tailo: nńg-sim, hanji: 軟心, en: "soft-hearted"}
+  - {tailo: piàn-kuà, hanji: 變卦, en: "go back on one's word"}
+  - {tailo: bán-huê, hanji: 挽回, en: "win back, retrieve"}
+  - {tailo: kiann bóo, hanji: 驚某, en: "henpecked"}
+  - {tailo: muî-kuì, hanji: 玫瑰, en: "rose"}
+  - {tailo: huê-sim-tsuán-ì, hanji: 回心轉意, en: "have a change of heart"}
+  - {tailo: huan-thâu, hanji: 翻頭, en: "turn back, come back"}
+  - {tailo: it-hiòng, hanji: 一向, en: "always, all along"}
+  - {tailo: uî-tsí, hanji: 為止, en: "until, up to"}
+  - {tailo: óng-huì, hanji: 枉費, en: "wasted, in vain"}
+exercises:
+  translate:
+    - {tailo: "Tsit kuí kang guá it-ti̍t teh huán-síng.", hanji: "這幾工我一直咧反省。", en: "I've spent these days reflecting."}
+    - {tailo: "Guá ê phî-khì ngē, sim-lāi bîng-bîng tsai-iánn ka-kī m̄-tio̍h.", hanji: "我的脾氣硬，心內明明知影家己毋著。", en: "I'm stubborn by nature, and deep down I knew perfectly well I was wrong."}
+    - {tailo: "Ang-á-bóo uan-ke, sī siông-sū.", hanji: "翁仔某冤家，是常事。", en: "Husbands and wives quarrel, it happens all the time."}
+    - {tailo: "Bē-tàng uī-tio̍h tsi̍t tiûnn hong-pho, tō kā lán thiah-suànn.", hanji: "袂當為著一場風波，就共咱拆散。", en: "We can't let one storm tear us apart."}
+    - {tailo: "Guá m̄ sī kiann bóo, guá sī kiann bô bóo.", hanji: "我毋是驚某，我是驚無某。", en: "I'm not scared of my wife: I'm scared of having no wife."}
+    - {tailo: "A-ióng kah Siok-tsing sio-jiáng liáu-āu, nn̄g ê lâng líng-tsiàn sann kang, lóng m̄ kóng-uē, tshù-lāi tsin tiām.", hanji: "阿勇佮淑貞相嚷了後，兩个人冷戰三工，攏毋講話，厝內真恬。", en: "After A-ióng and Siok-tsing had their row, they gave each other the silent treatment for three days; neither spoke, and the flat was very quiet."}
+    - {tailo: "Siok-tsing ê a-pah kóng, ang-á-bóo uan-ke m̄-bián kiann, ài ē-hiáu thé-liōng pa̍t-lâng, koh ài ū tōo-liōng.", hanji: "淑貞的阿爸講，翁仔某冤家毋免驚，愛會曉體諒別人，閣愛有度量。", en: "Siok-tsing's father says there's no need to fear a couple's quarrel: you have to understand the other person and be big-hearted."}
+  fill:
+    - {tailo: "Lí kóng guá kuí kù, guá suah khí ___.", hanji: "你講我幾句，我煞起___。", answer: "pháinn-sìng-tē", answer_hanji: "歹性地", en: "When you said something, I lost my temper."}
+    - {tailo: "Kin-á-ji̍t guá beh sîng-sim kā lí kóng: ___.", hanji: "今仔日我欲誠心共你講：___。", answer: "tuì-put-tsū", answer_hanji: "對不住", en: "Today I want to say it from the bottom of my heart: I'm sorry."}
+    - {tailo: "Sam mā thè guá ___.", hanji: "Sam嘛替我___。", answer: "kiû-tsîng", answer_hanji: "求情", en: "Sam has pleaded for me too."}
+    - {tailo: "Lí it-hiòng tsin ū tōo-liōng, tuì guá tsin ___.", hanji: "你一向真有度量，對我真___。", answer: "pau-iông", answer_hanji: "包容", en: "You've always been so big-hearted and so tolerant with me."}
+    - {tailo: "Lí nā ___, tō huan-thâu tńg--lâi, hó--bô?", hanji: "你若___，就翻頭轉來，好無？", answer: "huê-sim-tsuán-ì", answer_hanji: "回心轉意", en: "If you've had a change of heart, come back home, will you?"}
+    - {tailo: "A-ióng tsai-iánn sī ka-kī m̄-tio̍h, tō siá phue kā Siok-tsing ___, kóng i í-āu bē koh khí pháinn-sìng-tē.", hanji: "阿勇知影是家己毋著，就寫批共淑貞___，講伊以後袂閣起歹性地。", answer: "jīn-tshò", answer_hanji: "認錯", en: "A-ióng knew he was in the wrong, so he wrote to Siok-tsing to admit it, saying he'd never lose his temper again."}
+audio: []

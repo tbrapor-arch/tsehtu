@@ -1,0 +1,102 @@
+id: 51
+title: {en: "Life is like tea", tailo: "Jîn-sing tō tshin-tshiūnn tê", hanji: "人生就親像茶"}
+genre: interview
+review: false
+setting: "The Taigi radio programme of 進修 48 visits Mrs Lîm A-kuì, 98, in a tea village in the hills of Bûn-san, south of Taipei. She picked tea from 1940, when she was twelve, under Japanese rule. The interview is original to this course."
+dialogue:
+  - {n: 1, speaker: Host, hanji: "阿桂姨，聽講你十二歲就去挽茶？", tailo: "A-kuì-î, thiann-kóng lí tsa̍p-jī huè tō khì bán tê?", en: "Auntie A-kuì, I hear you started picking tea at twelve?"}
+  - {n: 2, speaker: A-kuì, hanji: "著。我公學校出業，彼年拄好十二歲。阮兜散赤，我就綴阮老母去茶園挽茶。", tailo: "Tio̍h. Guá kong-ha̍k-hāu tshut-gia̍p, hit nî tú-hó tsa̍p-jī huè. Guán tau sàn-tshiah, guá tō tuè guán lāu-bú khì tê-hn̂g bán tê.", en: "That's right. I finished common school the year I turned twelve. We were poor, so I went with my mother to pick tea on the plantation."}
+  - {n: 3, speaker: Host, hanji: "一工愛做偌久？", tailo: "Tsi̍t kang ài tsò guā kú?", en: "How long was a working day?"}
+  - {n: 4, speaker: A-kuì, hanji: "透早四點就愛起床，天猶未光就出門。戴笠仔，揹籃仔，行規點鐘的山路。", tailo: "Thàu-tsá sì tiám tō ài khí-tshn̂g, thinn iáu-buē kng tō tshut-mn̂g. Tì le̍h-á, phāinn nâ-á, kiânn kui tiám-tsing ê suann-lōo.", en: "We had to get up at four in the morning and leave before it was light. We put on our bamboo hats, slung our baskets on our backs and walked an hour along mountain paths."}
+  - {n: 5, speaker: A-kuì, hanji: "茶園的露水真重，衫攏澹澹。挽到下晝，日頭傷毒，就去工寮歇睏。", tailo: "Tê-hn̂g ê lōo-tsuí tsin tāng, sann lóng tâm-tâm. Bán kàu ē-tàu, ji̍t-thâu siunn to̍k, tō khì kang-liâu hioh-khùn.", en: "The dew on the tea bushes was heavy and our clothes got soaked. We picked until the afternoon, and when the sun got too fierce we rested in the workers' hut."}
+  - {n: 6, speaker: Host, hanji: "茶愛按怎挽？", tailo: "Tê ài án-tsuánn bán?", en: "How do you pick tea?"}
+  - {n: 7, speaker: A-kuì, hanji: "干焦挽頂懸上幼的茶心。愛用指甲挽，毋通用搝的，若無，茶心會傷著。", tailo: "Kan-na bán tíng-kuân siōng iù ê tê-sim. Ài iōng tsíng-kah bán, m̄-thang iōng khiú--ê; nā-bô, tê-sim ē siong--tio̍h.", en: "You only pick the tenderest shoots at the top. You nip them with your fingernails, never pull, or you damage the shoots."}
+  - {n: 8, speaker: Host, hanji: "工錢是按怎算？", tailo: "Kang-tsînn sī án-tsuánn sǹg?", en: "How were you paid?"}
+  - {n: 9, speaker: A-kuì, hanji: "照斤算，挽偌濟斤，就提偌濟錢。我手較緊，有一年閣是規庄挽上濟的。", tailo: "Tsiàu kin sǹg: bán guā-tsē kin, tō the̍h guā-tsē tsînn. Guá tshiú khah kín, ū tsi̍t nî koh sī kui tsng bán siōng tsē--ê.", en: "By the catty: as many catties as you picked, that's what you were paid. I was quick with my hands; one year I even picked the most in the whole village."}
+  - {n: 10, speaker: A-kuì, hanji: "挽好的茶，用扁擔擔去頭家兜。阮頭家是富戶，請真濟長工，茶園闊甲看袂了。", tailo: "Bán hó ê tê, iōng pún-tann tann khì thâu-ke tau. Guán thâu-ke sī hù-hōo, tshiánn tsin tsē tn̂g-kang, tê-hn̂g khuah kah khuànn bē liáu.", en: "We carried the picked tea on shoulder poles to the owner's house. Our employer was a rich family with lots of hired hands, and the plantation stretched further than you could see."}
+  - {n: 11, speaker: Host, hanji: "茶攏賣去佗位？", tailo: "Tê lóng bē khì toh-uī?", en: "Where was the tea sold?"}
+  - {n: 12, speaker: A-kuì, hanji: "日本時代，茶攏賣予日本人的會社，閣外銷去外國。阮做甲半小死，錢攏予人趁去。", tailo: "Ji̍t-pún sî-tāi, tê lóng bē hōo Ji̍t-pún-lâng ê huē-siā, koh guā-siau khì guā-kok. Guán tsò kah puànn-sió-sí, tsînn lóng hōo lâng thàn--khì.", en: "Under Japanese rule all the tea was sold to Japanese companies and exported abroad. We worked ourselves half to death, and other people made the money."}
+  - {n: 13, speaker: Host, hanji: "聽講挽茶的查某囡仔攏會唱山歌？", tailo: "Thiann-kóng bán tê ê tsa-bóo gín-á lóng ē tshiùnn san-ko?", en: "I hear the tea-picking girls used to sing folk songs?"}
+  - {n: 14, speaker: A-kuì, hanji: "有啊！這粒山唱一句，對面彼粒山就對答一句。少年人就按呢唱來唱去，唱甲有感情。", tailo: "Ū--ah! Tsit lia̍p suann tshiùnn tsi̍t kù, tuì-bīn hit lia̍p suann tō tuì-tap tsi̍t kù. Siàu-liân-lâng tō án-ne tshiùnn-lâi-tshiùnn-khì, tshiùnn kah ū kám-tsîng.", en: "Oh yes! Someone on one hill would sing a line, and someone on the hill opposite would sing one back. The young people sang back and forth like that until feelings grew."}
+  - {n: 15, speaker: A-kuì, hanji: "阮翁婿就是按呢熟似的。伊是頭家的長工，聲音真好聽。", tailo: "Guán ang-sài tō sī án-ne si̍k-sāi--ê. I sī thâu-ke ê tn̂g-kang, siann-im tsin hó-thiann.", en: "That's how I met my husband. He was one of the owner's hired hands, and he had a lovely voice."}
+  - {n: 16, speaker: Host, hanji: "原來恁是唱山歌唱做伙的！戰爭的時，生活敢有較艱苦？", tailo: "Guân-lâi lín sī tshiùnn san-ko tshiùnn tsò-hué--ê! Tsiàn-tsing ê sî, sing-ua̍h kám ū khah kan-khóo?", en: "So you sang your way into each other's hearts! During the war, was life harder?"}
+  - {n: 17, speaker: A-kuì, hanji: "飛行機來空襲，阮就走去覕佇茶園內底。米攏愛配給，無夠食，逐工食番薯。", tailo: "Hue-lîng-ki lâi khong-si̍p, guán tō tsáu khì bih tī tê-hn̂g lāi-té. Bí lóng ài phuè-kip, bô kàu tsia̍h, ta̍k kang tsia̍h han-tsî.", en: "When the planes came on air raids, we ran and hid among the tea bushes. Rice was rationed, there wasn't enough to eat, and we ate sweet potatoes every day."}
+  - {n: 18, speaker: A-kuì, hanji: "有的人散甲愛四界討食，毋過山內有菜、有番薯，阮庄頭無人餓死。", tailo: "Ū ê lâng sàn kah ài sì-kè thó-tsia̍h, m̄-koh suann-lāi ū tshài, ū han-tsî, guán tsng-thâu bô lâng gō--sí.", en: "Some people were so poor they had to go round looking for food, but in the hills there were greens and sweet potatoes, and nobody in our village starved."}
+  - {n: 19, speaker: Host, hanji: "你的阿媽嘛有挽茶無？", tailo: "Lí ê a-má mā ū bán tê--bô?", en: "Did your grandmother pick tea too?"}
+  - {n: 20, speaker: A-kuì, hanji: "無。阮阿媽細漢就縛跤，跤細細，行路行袂穩，無法度上山。伊佇厝裡煮飯、顧囡仔。", tailo: "Bô. Guán a-má sè-hàn tō pa̍k-kha, kha sè-sè, kiânn-lōo kiânn bē ún, bô-huat-tōo tsiūnn suann. I tī tshù--lí tsú-pn̄g, kòo gín-á.", en: "No. My grandmother's feet were bound when she was little; they were tiny and she couldn't walk steadily, so she couldn't go up the hills. She cooked and minded the children at home."}
+  - {n: 21, speaker: A-kuì, hanji: "伊用茶箍洗頭毛，頭毛烏金烏金，到老都無白。", tailo: "I iōng tê-khoo sé thâu-mn̂g, thâu-mn̂g oo-kim oo-kim, kàu lāu to bô pe̍h.", en: "She washed her hair with tea-seed soap, and it stayed glossy black and never went white, even in old age."}
+  - {n: 22, speaker: Host, hanji: "你挽一世人的茶，敢會感覺受苦？", tailo: "Lí bán tsi̍t-sì-lâng ê tê, kám ē kám-kak siū-khóo?", en: "You've picked tea all your life. Do you feel you've had a hard time of it?"}
+  - {n: 23, speaker: A-kuì, hanji: "以早的人，啥人無受苦？穡頭較粗重，毋過心肝較清閒。這馬我腰痠背疼，毋過嘛真歡喜。", tailo: "Í-tsá ê lâng, siánn-lâng bô siū-khóo? Sit-thâu khah tshoo-tāng, m̄-koh sim-kuann khah tshing-îng. Tsit-má guá io-sng-puē-thiànn, m̄-koh mā tsin huann-hí.", en: "Who didn't have a hard time in the old days? The work was heavier, but our minds were more at peace. Now I've got aches all over, but I'm happy."}
+  - {n: 24, speaker: A-kuì, hanji: "阮孫這馬咧做包種茶，閣佇網路賣。來，你啉一甌茶米茶看覓。", tailo: "Guán sun tsit-má teh tsò pau-tsióng-tê, koh tī bāng-lōo bē. Lâi, lí lim tsi̍t au tê-bí-tê khuànn-māi.", en: "My grandson makes pouchong tea now and sells it online. Here, try a cup."}
+  - {n: 25, speaker: Host, hanji: "頭先有淡薄仔澀，後來喙內煞甘甘。", tailo: "Thâu-sing ū tām-po̍h-á siap, āu--lâi tshuì-lāi suah kam-kam.", en: "It's a bit astringent at first, and then it turns sweet in the mouth."}
+  - {n: 26, speaker: A-kuì, hanji: "著啦，人生就親像茶，先澀，後來才甘。", tailo: "Tio̍h--lah, jîn-sing tō tshin-tshiūnn tê: sing siap, āu--lâi tsiah kam.", en: "That's it. Life is like tea: bitter first, sweet afterwards."}
+notes:
+  - {ref: 1, topic: vocab, text: "挽茶 bán tê = pick tea. 姨 î = auntie, a polite way to address an older woman."}
+  - {ref: 2, topic: vocab, text: "出業 tshut-gia̍p = graduate, finish school (an older word, from Japanese 卒業 sotsugyō; today 畢業). 公學校 = common school under Japanese rule (進修 31). 茶園 tê-hn̂g = tea plantation."}
+  - {ref: 4, topic: vocab, text: "起床 khí-tshn̂g = get up. 天光 = it gets light. 笠仔 le̍h-á = conical bamboo hat. 揹 = carry on the back (進修 32)."}
+  - {ref: 5, topic: vocab, text: "下晝 ē-tàu = afternoon (also 下晡 ē-poo). 工寮 kang-liâu = workers' hut."}
+  - {ref: 7, topic: vocab, text: "茶心 tê-sim = tea shoot, the tender bud at the tip. 指甲 tsíng-kah = fingernail."}
+  - {ref: 8, topic: vocab, text: "工錢 kang-tsînn = wages, pay for work."}
+  - {ref: 10, topic: vocab, text: "扁擔 pún-tann = shoulder pole. 富戶 hù-hōo = rich family. 長工 tn̂g-kang = hired farmhand (on a long-term contract)."}
+  - {ref: 12, topic: culture, text: "會社 huē-siā = company (from Japanese kaisha; still heard from older speakers for 公司). 外銷 guā-siau = export. Taiwanese tea was a major export under Japanese rule (1895–1945), as it had been since the 1860s."}
+  - {ref: 14, topic: culture, text: "山歌 san-ko = folk song sung outdoors. 對答 tuì-tap = answer, reply. Tea pickers' songs were often sung as a call and response from hill to hill."}
+  - {ref: 17, topic: vocab, text: "空襲 khong-si̍p = air raid. 配給 phuè-kip = ration; be rationed."}
+  - {ref: 18, topic: vocab, text: "討食 thó-tsia̍h = look for food, scrape a living. 餓死 gō--sí = starve to death."}
+  - {ref: 20, topic: culture, text: "縛跤 pa̍k-kha = foot-binding. It was common among Hō-ló families in Taiwan until the Japanese authorities banned it in 1915."}
+  - {ref: 21, topic: vocab, text: "茶箍 tê-khoo = tea-seed cake, the residue of pressed camellia seeds, once used as soap and shampoo. 烏金 = glossy black (進修 23)."}
+  - {ref: 22, topic: vocab, text: "受苦 siū-khóo = suffer, have a hard time."}
+  - {ref: 23, topic: vocab, text: "以早 í-tsá = in the old days. 穡頭 sit-thâu = work, job (originally farm work). 粗重 tshoo-tāng = heavy, hard (of work). 腰痠背疼 io-sng-puē-thiànn = aches and pains, a sore back."}
+  - {ref: 24, topic: vocab, text: "包種茶 pau-tsióng-tê = pouchong, a lightly oxidised oolong from the Bûn-san hills. 茶米茶 tê-bí-tê = tea (the drink, made from leaves). 甌 au = cup; 一甌茶 'a cup of tea'."}
+  - {ref: 25, topic: vocab, text: "頭先 thâu-sing = at first. 澀 siap = astringent, puckering. 甘 kam = sweet aftertaste."}
+new_words:
+  - {tailo: bán tê, hanji: 挽茶, en: "pick tea"}
+  - {tailo: tshut-gia̍p, hanji: 出業, en: "graduate, finish school"}
+  - {tailo: tê-hn̂g, hanji: 茶園, en: "tea plantation"}
+  - {tailo: khí-tshn̂g, hanji: 起床, en: "get up (out of bed)"}
+  - {tailo: le̍h-á, hanji: 笠仔, en: "conical bamboo hat"}
+  - {tailo: ē-tàu, hanji: 下晝, en: "afternoon"}
+  - {tailo: kang-liâu, hanji: 工寮, en: "workers' hut"}
+  - {tailo: tê-sim, hanji: 茶心, en: "tea shoot"}
+  - {tailo: tsíng-kah, hanji: 指甲, en: "fingernail"}
+  - {tailo: kang-tsînn, hanji: 工錢, en: "wages"}
+  - {tailo: pún-tann, hanji: 扁擔, en: "shoulder pole"}
+  - {tailo: hù-hōo, hanji: 富戶, en: "rich family"}
+  - {tailo: tn̂g-kang, hanji: 長工, en: "hired farmhand"}
+  - {tailo: huē-siā, hanji: 會社, en: "company (older word)"}
+  - {tailo: guā-siau, hanji: 外銷, en: "export"}
+  - {tailo: san-ko, hanji: 山歌, en: "folk song"}
+  - {tailo: tuì-tap, hanji: 對答, en: "answer, reply"}
+  - {tailo: khong-si̍p, hanji: 空襲, en: "air raid"}
+  - {tailo: phuè-kip, hanji: 配給, en: "ration; be rationed"}
+  - {tailo: thó-tsia̍h, hanji: 討食, en: "look for food, scrape a living"}
+  - {tailo: gō--sí, hanji: 餓死, en: "starve to death"}
+  - {tailo: pa̍k-kha, hanji: 縛跤, en: "foot-binding; bind the feet"}
+  - {tailo: tê-khoo, hanji: 茶箍, en: "tea-seed soap"}
+  - {tailo: siū-khóo, hanji: 受苦, en: "suffer, have a hard time"}
+  - {tailo: í-tsá, hanji: 以早, en: "in the old days"}
+  - {tailo: sit-thâu, hanji: 穡頭, en: "work, job"}
+  - {tailo: tshoo-tāng, hanji: 粗重, en: "heavy, hard (of work)"}
+  - {tailo: io-sng-puē-thiànn, hanji: 腰痠背疼, en: "aches and pains"}
+  - {tailo: pau-tsióng-tê, hanji: 包種茶, en: "pouchong tea"}
+  - {tailo: tê-bí-tê, hanji: 茶米茶, en: "tea (the drink)"}
+  - {tailo: au, hanji: 甌, en: "cup; (counter for cups)"}
+  - {tailo: thâu-sing, hanji: 頭先, en: "at first"}
+  - {tailo: siap, hanji: 澀, en: "astringent"}
+  - {tailo: kam, hanji: 甘, en: "sweet (aftertaste)"}
+exercises:
+  translate:
+    - {tailo: "Guán tau sàn-tshiah, guá tō tuè guán lāu-bú khì tê-hn̂g bán tê.", hanji: "阮兜散赤，我就綴阮老母去茶園挽茶。", en: "We were poor, so I went with my mother to pick tea on the plantation."}
+    - {tailo: "Kan-na bán tíng-kuân siōng iù ê tê-sim.", hanji: "干焦挽頂懸上幼的茶心。", en: "You only pick the tenderest shoots at the top."}
+    - {tailo: "Guán thâu-ke sī hù-hōo, tshiánn tsin tsē tn̂g-kang.", hanji: "阮頭家是富戶，請真濟長工。", en: "Our employer was a rich family with lots of hired hands."}
+    - {tailo: "Bí lóng ài phuè-kip, bô kàu tsia̍h.", hanji: "米攏愛配給，無夠食。", en: "Rice was rationed, and there wasn't enough to eat."}
+    - {tailo: "Jîn-sing tō tshin-tshiūnn tê: sing siap, āu--lâi tsiah kam.", hanji: "人生就親像茶，先澀，後來才甘。", en: "Life is like tea: bitter first, sweet afterwards."}
+    - {tailo: "A-kuì-î kóng, i tsa̍p-jī huè tō khì tê-hn̂g bán tê, iōng tsíng-kah bán tê-sim, tsi̍t kang tsò kàu ē-tàu.", hanji: "阿桂姨講，伊十二歲就去茶園挽茶，用指甲挽茶心，一工做到下晝。", en: "Auntie A-kuì says that at twelve she was already picking tea on the plantation, nipping the shoots with her nails, working till the afternoon."}
+    - {tailo: "Hit tsūn guā-siau ê tê lóng bē hōo Ji̍t-pún-lâng ê huē-siā, bán tê ê lâng tsò kah puànn-sió-sí, kang-tsînn suah tsin kē.", hanji: "彼陣外銷的茶攏賣予日本人的會社，挽茶的人做甲半小死，工錢煞真低。", en: "Back then all the export tea was sold to Japanese companies; the pickers worked themselves half to death, yet their wages were very low."}
+  fill:
+    - {tailo: "Thàu-tsá sì tiám tō ài ___.", hanji: "透早四點就愛___。", answer: "khí-tshn̂g", answer_hanji: "起床", en: "We had to get up at four in the morning."}
+    - {tailo: "Bán kàu ___, ji̍t-thâu siunn to̍k, tō khì kang-liâu hioh-khùn.", hanji: "挽到___，日頭傷毒，就去工寮歇睏。", answer: "ē-tàu", answer_hanji: "下晝", en: "We picked until the afternoon, and when the sun got too fierce we rested in the hut."}
+    - {tailo: "Ài iōng ___ bán, m̄-thang iōng khiú--ê.", hanji: "愛用___挽，毋通用搝的。", answer: "tsíng-kah", answer_hanji: "指甲", en: "You nip them with your fingernails, never pull."}
+    - {tailo: "Tsit lia̍p suann tshiùnn tsi̍t kù, tuì-bīn hit lia̍p suann tō ___ tsi̍t kù.", hanji: "這粒山唱一句，對面彼粒山就___一句。", answer: "tuì-tap", answer_hanji: "對答", en: "Someone on one hill would sing a line, and someone on the hill opposite would sing one back."}
+    - {tailo: "Í-tsá ê lâng, siánn-lâng bô ___?", hanji: "以早的人，啥人無___？", answer: "siū-khóo", answer_hanji: "受苦", en: "Who didn't have a hard time in the old days?"}
+    - {tailo: "Tsiàn-tsing ê sî, bí lóng ài ___, ta̍k kang tsia̍h han-tsî, m̄-koh suann-lāi bô lâng gō--sí.", hanji: "戰爭的時，米攏愛___，逐工食番薯，毋過山內無人餓死。", answer: "phuè-kip", answer_hanji: "配給", en: "During the war rice was rationed and people ate sweet potatoes every day, but nobody in the hills starved."}
+audio: []

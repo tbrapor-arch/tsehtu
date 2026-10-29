@@ -1,0 +1,111 @@
+id: 55
+title: {en: "First the Prefecture, second Lukang, third Bangka", tailo: "It Hú, jī Lo̍k, sann Báng-kah", hanji: "一府、二鹿、三艋舺"}
+genre: article
+review: false
+setting: "A magazine article on the three great ports of Qing-era Taiwan. Sam has run in Lukang (進修 24) and A-kong lives in the old prefectural city, so A-ióng sends it round to the group. The text is original to this course and keeps to well-known facts."
+dialogue:
+  - {n: 1, hanji: "老一輩的臺灣人捷講一句話：「一府、二鹿、三艋舺。」這句話講的，是清朝的時臺灣上繁榮的三个所在。", tailo: "Lāu tsi̍t puè ê Tâi-uân-lâng tsia̍p kóng tsi̍t kù uē: “It Hú, jī Lo̍k, sann Báng-kah.” Tsit kù uē kóng--ê, sī Tshing-tiâu ê sî Tâi-uân siōng huân-îng ê sann ê sóo-tsāi.", en: "Older Taiwanese often quote a saying: 'First the Prefecture, second Lukang, third Bangka.' It names the three most prosperous places in Taiwan under the Qing."}
+  - {n: 2, hanji: "「府」是府城，就是今仔日的臺南；「鹿」是鹿港；「艋舺」是臺北的萬華。", tailo: "“Hú” sī Hú-siânn, tō sī kin-á-ji̍t ê Tâi-lâm; “Lo̍k” sī Lo̍k-káng; “Báng-kah” sī Tâi-pak ê Bān-huâ.", en: "'The Prefecture' is the prefectural city, today's Tainan; 'Lukang' is Lukang; 'Bangka' is today's Wanhua in Taipei."}
+  - {n: 3, hanji: "三个所在攏佇海邊抑是溪邊，攏是港口。彼个時代，路歹行，貨物攏靠船運送。", tailo: "Sann ê sóo-tsāi lóng tī hái-pinn ia̍h-sī khe-pinn, lóng sī káng-kháu. Hit ê sî-tāi, lōo pháinn kiânn, huè-bu̍t lóng khò tsûn ūn-sàng.", en: "All three lay by the sea or a river, and all three were ports. In those days the roads were bad, and goods all went by boat."}
+  - {n: 4, hanji: "對唐山渡海來的移民，大部份對泉州、漳州來。𪜶為著生存，冒險過烏水溝，來臺灣開墾。", tailo: "Uì Tn̂g-suann tōo-hái lâi ê î-bîn, tuā-pōo-hūn uì Tsuân-tsiu, Tsiang-tsiu lâi. In uī-tio̍h sing-tsûn, mōo-hiám kuè Oo-tsuí-kau, lâi Tâi-uân khai-khún.", en: "Most of the settlers who crossed the sea from the mainland came from Quanzhou and Zhangzhou. To survive, they risked the crossing of the Black Ditch to open up land in Taiwan."}
+  - {n: 5, hanji: "臺灣出產米、糖，北部閣有茶佮樟腦。這寡貨物對港口輸出，閣對唐山輸入布、木材佮日常用的物件。", tailo: "Tâi-uân tshut-sán bí, thn̂g, pak-pōo koh ū tê kah tsiunn-ló. Tsit-kuá huè-bu̍t uì káng-kháu su-tshut, koh uì Tn̂g-suann su-ji̍p pòo, bo̍k-tsâi kah ji̍t-siông iōng ê mi̍h-kiānn.", en: "Taiwan produced rice and sugar, and in the north tea and camphor as well. These were shipped out from the ports, and cloth, timber and everyday goods were brought in from the mainland."}
+  - {n: 6, hanji: "府城是上早繁榮的。規个清朝的頭前兩百冬，府城攏是臺灣的首都，官府、廟佮街市攏真濟。", tailo: "Hú-siânn sī siōng tsá huân-îng--ê. Kui ê Tshing-tiâu ê thâu-tsîng nn̄g-pah tang, Hú-siânn lóng sī Tâi-uân ê siú-too, kuann-hú, biō kah ke-tshī lóng tsin tsē.", en: "The prefectural city was the first to flourish. For the first two hundred years of Qing rule it was Taiwan's capital, full of government offices, temples and markets."}
+  - {n: 7, hanji: "鹿港佇臺灣中部，佮對面的泉州上近。帆船來來去去，買賣真興，行郊的生理人一間比一間較好額。", tailo: "Lo̍k-káng tī Tâi-uân tiong-pōo, kah tuì-bīn ê Tsuân-tsiu siōng kīn. Phâng-tsûn lâi-lâi-khì-khì, bé-bē tsin hing, hâng-kau ê sing-lí-lâng tsi̍t king pí tsi̍t king khah hó-gia̍h.", en: "Lukang, in central Taiwan, was the closest port to Quanzhou across the strait. Sailing ships came and went, trade boomed, and each merchant guild was richer than the last."}
+  - {n: 8, hanji: "行郊是做貿易的商行，佮對岸的交易攏靠𪜶。𪜶嘛出錢起廟、造橋，佇地方真有地位。", tailo: "Hâng-kau sī tsò bōo-i̍k ê siong-hâng, kah tuì-huānn ê kau-i̍k lóng khò in. In mā tshut tsînn khí biō, tsō kiô, tī tē-hng tsin ū tē-uī.", en: "The guilds were trading houses, and all business with the other side of the strait went through them. They also paid for temples and bridges, and carried great weight locally."}
+  - {n: 9, hanji: "艋舺佇淡水河邊，是北部上大的港口。船隻對淡水入來，沿河駛到艋舺，街路鬧熱甲袂輸府城。", tailo: "Báng-kah tī Tām-tsuí-hô pinn, sī pak-pōo siōng tuā ê káng-kháu. Tsûn-tsiah uì Tām-tsuí ji̍p--lâi, iân hô sái kàu Báng-kah, ke-lōo lāu-jia̍t kah bē-su Hú-siânn.", en: "Bangka, on the Tamsui River, was the biggest port in the north. Ships came in at Tamsui and sailed upriver to Bangka, whose streets were every bit as busy as the prefectural city's."}
+  - {n: 10, hanji: "毋過時勢會變。三个港口後來攏予溪水紮來的塗沙堆積，水愈來愈淺，大船入袂來。", tailo: "M̄-koh sî-sè ē piàn. Sann ê káng-kháu āu--lâi lóng hōo khe-tsuí tsah lâi ê thôo-sua tui-tsik, tsuí jú lâi jú tshián, tuā tsûn ji̍p bē lâi.", en: "But times change. All three ports were later silted up by the sand the rivers brought down; the water grew shallower and shallower, and big ships could no longer get in."}
+  - {n: 11, hanji: "艋舺的生理慢慢仔予大稻埕取代；鹿港的港口嘛無路用矣，生理人一个一个搬走。", tailo: "Báng-kah ê sing-lí bān-bān-á hōo Tuā-tiū-tiânn tshú-tāi; Lo̍k-káng ê káng-kháu mā bô-lōo-īng--ah, sing-lí-lâng tsi̍t ê tsi̍t ê puann--tsáu.", en: "Bangka's trade was gradually taken over by Dadaocheng, and Lukang's harbour became useless too: the merchants moved away one by one."}
+  - {n: 12, hanji: "日本時代起鐵道，南北往來攏坐火車，港口的地位閣較衰退。", tailo: "Ji̍t-pún sî-tāi khí thih-tō, lâm-pak óng-lâi lóng tsē hué-tshia, káng-kháu ê tē-uī koh-khah sue-thè.", en: "Under Japanese rule the railway was built; north–south travel went by train, and the ports declined even further."}
+  - {n: 13, hanji: "人講鹿港是因為無愛鐵道經過，才失去機會；毋過這个講法，歷史學者無一定承認。", tailo: "Lâng kóng Lo̍k-káng sī in-uī bô ài thih-tō king-kuè, tsiah sit-khì ki-huē; m̄-koh tsit ê kóng-huat, li̍k-sú ha̍k-tsiá bô it-tīng sîng-jīn.", en: "People say Lukang lost out because it didn't want the railway to pass through, but historians don't necessarily accept that story."}
+  - {n: 14, hanji: "朝代換來換去，三个所在的光景嘛有起有落。這就是臺灣城市的變遷。", tailo: "Tiâu-tāi uānn-lâi-uānn-khì, sann ê sóo-tsāi ê kong-kíng mā ū khí ū lo̍h. Tse tō sī Tâi-uân siânn-tshī ê piàn-tshian.", en: "Dynasties came and went, and the fortunes of all three places rose and fell. That is how Taiwan's towns have changed."}
+  - {n: 15, hanji: "如今，臺南是古都，老街佮古早的廟真濟，逐年有真濟遊客。", tailo: "Jû-kim, Tâi-lâm sī kóo-too, lāu-ke kah kóo-tsá ê biō tsin tsē, ta̍k nî ū tsin tsē iû-kheh.", en: "Today Tainan is the old capital, full of old streets and ancient temples, and it draws many visitors every year."}
+  - {n: 16, hanji: "鹿港猶保留古早的街路，閣有做線香、拍錫的師傅，手工真幼。", tailo: "Lo̍k-káng iáu pó-liû kóo-tsá ê ke-lōo, koh ū tsò suànn-hiunn, phah sik ê sai-hū, tshiú-kang tsin iù.", en: "Lukang still keeps its old streets, and craftsmen who make incense sticks and beat tin, with exquisite handwork."}
+  - {n: 17, hanji: "艋舺的龍山寺，香火到今猶真旺，寺邊的街市暗時嘛真鬧熱。", tailo: "Báng-kah ê Liông-san-sī, hiunn-hué kàu-tann iáu tsin ōng, sī pinn ê ke-tshī àm-sî mā tsin lāu-jia̍t.", en: "In Bangka, Lungshan Temple still draws crowds of worshippers, and the market streets beside it are lively at night."}
+  - {n: 18, hanji: "古早經營行郊的大家族，有的人到今猶保存族譜，逐年宗親做伙轉來拜公婆。", tailo: "Kóo-tsá king-îng hâng-kau ê tuā ka-tso̍k, ū ê lâng kàu-tann iáu pó-tsûn tso̍k-phóo, ta̍k nî tsong-tshin tsò-hué tńg--lâi pài kong-pô.", en: "Some descendants of the great families who once ran the guilds still keep their genealogies, and every year the clan gathers to honour the ancestors."}
+  - {n: 19, hanji: "港口雖然無矣，毋過商業的精神猶佇咧。府城人𠢕食，鹿港人𠢕做生理，艋舺人𠢕拚。", tailo: "Káng-kháu sui-jiân bô--ah, m̄-koh siong-gia̍p ê tsing-sîn iáu tī--leh. Hú-siânn-lâng gâu tsia̍h, Lo̍k-káng-lâng gâu tsò sing-lí, Báng-kah-lâng gâu piànn.", en: "The ports may be gone, but the commercial spirit lives on. Tainan people know how to eat, Lukang people how to do business, Bangka people how to strive."}
+  - {n: 20, hanji: "外商佮外國的進口貨，嘛早就對新的港口入來矣，像基隆、高雄。", tailo: "Guā-siong kah guā-kok ê tsìn-kháu-huè, mā tsá tō uì sin ê káng-kháu ji̍p--lâi--ah, tshiūnn Ke-lâng, Ko-hiông.", en: "Foreign firms and imported goods have long since come in through newer ports instead, such as Keelung and Kaohsiung."}
+  - {n: 21, hanji: "下擺你若去臺南、鹿港抑是萬華，毋通干焦食物件，嘛想看覓：兩三百冬前，遮是啥物款的光景？", tailo: "Ē-pái lí nā khì Tâi-lâm, Lo̍k-káng ia̍h-sī Bān-huâ, m̄-thang kan-na tsia̍h mi̍h-kiānn, mā siūnn khuànn-māi: nn̄g sann pah tang tsîng, tsia sī siánn-mih khuán ê kong-kíng?", en: "Next time you visit Tainan, Lukang or Wanhua, don't just eat: try to imagine what the place was like two or three hundred years ago."}
+notes:
+  - {ref: 1, topic: culture, text: "一府、二鹿、三艋舺 It Hú, jī Lo̍k, sann Báng-kah: a well-known saying about the three biggest towns of Qing-era Taiwan (18th–19th centuries). 繁榮 huân-îng = prosperous. 一輩 = generation."}
+  - {ref: 2, topic: culture, text: "府城 = the prefectural city, Tainan (進修 47). 艋舺 Báng-kah is the old name of Wanhua; the name itself is explained in 進修 19."}
+  - {ref: 3, topic: vocab, text: "貨物 huè-bu̍t = goods, cargo. 運送 ūn-sàng = transport, ship."}
+  - {ref: 4, topic: vocab, text: "渡海 tōo-hái = cross the sea. 移民 î-bîn = settler, immigrant; emigrate. 生存 sing-tsûn = survive. 烏水溝 = the Black Ditch, the dangerous current in the Taiwan Strait. 開墾 = open up land (進修 33)."}
+  - {ref: 5, topic: vocab, text: "出產 tshut-sán = produce. 樟腦 tsiunn-ló = camphor. 輸出 su-tshut = export. 輸入 su-ji̍p = import. 木材 bo̍k-tsâi = timber."}
+  - {ref: 6, topic: vocab, text: "首都 siú-too = capital. 官府 = government office. 街市 ke-tshī = market streets, town. Taiwan became a province in 1885, and the capital later moved north to Taipei."}
+  - {ref: 7, topic: vocab, text: "帆船 phâng-tsûn = sailing ship. 買賣 bé-bē = trade, buying and selling. 行郊 hâng-kau = merchant guild, trading house."}
+  - {ref: 8, topic: vocab, text: "貿易 bōo-i̍k = trade. 商行 = trading firm. 對岸 tuì-huānn = the opposite shore. 交易 kau-i̍k = trade, transaction."}
+  - {ref: 9, topic: vocab, text: "船隻 tsûn-tsiah = ships, vessels. 沿 = along. 袂輸 = no less than, just like."}
+  - {ref: 10, topic: vocab, text: "時勢 sî-sè = the times, the trend of events. 紮 = carry along. 塗沙 thôo-sua = sand, silt. 堆積 tui-tsik = pile up, accumulate. 淺 tshián = shallow."}
+  - {ref: 11, topic: vocab, text: "取代 tshú-tāi = replace, take the place of. 大稻埕 Tuā-tiū-tiânn = Dadaocheng, the riverside district north of Bangka that took over its trade from the 1850s."}
+  - {ref: 12, topic: vocab, text: "鐵道 thih-tō = railway (formal; 鐵枝路 is the everyday word, 進修 25). 往來 óng-lâi = travel back and forth; dealings. 衰退 sue-thè = decline."}
+  - {ref: 13, topic: vocab, text: "失去 sit-khì = lose. 學者 ha̍k-tsiá = scholar. The story that Lukang refused the railway is widely told, but it is a legend as much as history."}
+  - {ref: 14, topic: vocab, text: "朝代 tiâu-tāi = dynasty. 光景 kong-kíng = situation, circumstances. 有起有落 = have ups and downs. 變遷 piàn-tshian = change, transformation."}
+  - {ref: 15, topic: vocab, text: "如今 jû-kim = nowadays. 古都 = old capital. 遊客 iû-kheh = visitor, tourist."}
+  - {ref: 16, topic: vocab, text: "線香 suànn-hiunn = incense stick. 錫 sik = tin; 拍錫 'beat tin', Lukang's tin-smithing craft. 手工 = handiwork."}
+  - {ref: 17, topic: culture, text: "龍山寺 Liông-san-sī = Lungshan Temple, founded in Bangka in the 18th century. 旺 ōng = thriving; 香火旺 = the incense burns brightly, i.e. the temple is much visited."}
+  - {ref: 18, topic: vocab, text: "經營 king-îng = run, manage (a business). 族譜 tso̍k-phóo = genealogy, family register. 宗親 tsong-tshin = clan members. 公婆 kong-pô = the ancestors; their tablets."}
+  - {ref: 19, topic: vocab, text: "商業 siong-gia̍p = commerce. 精神 = spirit. 拚 = strive (as in 拍拚)."}
+  - {ref: 20, topic: vocab, text: "外商 guā-siong = foreign firm or merchant. 進口 tsìn-kháu = import; 進口貨 'imported goods'."}
+new_words:
+  - {tailo: huân-îng, hanji: 繁榮, en: "prosperous"}
+  - {tailo: huè-bu̍t, hanji: 貨物, en: "goods, cargo"}
+  - {tailo: ūn-sàng, hanji: 運送, en: "transport, ship"}
+  - {tailo: tōo-hái, hanji: 渡海, en: "cross the sea"}
+  - {tailo: î-bîn, hanji: 移民, en: "settler; emigrate"}
+  - {tailo: sing-tsûn, hanji: 生存, en: "survive"}
+  - {tailo: tshut-sán, hanji: 出產, en: "produce"}
+  - {tailo: tsiunn-ló, hanji: 樟腦, en: "camphor"}
+  - {tailo: su-tshut, hanji: 輸出, en: "export"}
+  - {tailo: su-ji̍p, hanji: 輸入, en: "import"}
+  - {tailo: bo̍k-tsâi, hanji: 木材, en: "timber"}
+  - {tailo: siú-too, hanji: 首都, en: "capital"}
+  - {tailo: ke-tshī, hanji: 街市, en: "market streets, town"}
+  - {tailo: phâng-tsûn, hanji: 帆船, en: "sailing ship"}
+  - {tailo: bé-bē, hanji: 買賣, en: "trade, buying and selling"}
+  - {tailo: hâng-kau, hanji: 行郊, en: "merchant guild"}
+  - {tailo: bōo-i̍k, hanji: 貿易, en: "trade"}
+  - {tailo: kau-i̍k, hanji: 交易, en: "trade, transaction"}
+  - {tailo: tsûn-tsiah, hanji: 船隻, en: "ships, vessels"}
+  - {tailo: sî-sè, hanji: 時勢, en: "the times, trend of events"}
+  - {tailo: thôo-sua, hanji: 塗沙, en: "sand, silt"}
+  - {tailo: tui-tsik, hanji: 堆積, en: "pile up, accumulate"}
+  - {tailo: tshián, hanji: 淺, en: "shallow"}
+  - {tailo: tshú-tāi, hanji: 取代, en: "replace"}
+  - {tailo: thih-tō, hanji: 鐵道, en: "railway"}
+  - {tailo: óng-lâi, hanji: 往來, en: "travel back and forth; dealings"}
+  - {tailo: sue-thè, hanji: 衰退, en: "decline"}
+  - {tailo: sit-khì, hanji: 失去, en: "lose"}
+  - {tailo: tiâu-tāi, hanji: 朝代, en: "dynasty"}
+  - {tailo: kong-kíng, hanji: 光景, en: "situation, circumstances"}
+  - {tailo: piàn-tshian, hanji: 變遷, en: "change, transformation"}
+  - {tailo: jû-kim, hanji: 如今, en: "nowadays"}
+  - {tailo: suànn-hiunn, hanji: 線香, en: "incense stick"}
+  - {tailo: sik, hanji: 錫, en: "tin"}
+  - {tailo: king-îng, hanji: 經營, en: "run, manage"}
+  - {tailo: tso̍k-phóo, hanji: 族譜, en: "genealogy"}
+  - {tailo: tsong-tshin, hanji: 宗親, en: "clan members"}
+  - {tailo: kong-pô, hanji: 公婆, en: "the ancestors"}
+  - {tailo: tuì-huānn, hanji: 對岸, en: "the opposite shore"}
+  - {tailo: ha̍k-tsiá, hanji: 學者, en: "scholar"}
+  - {tailo: iû-kheh, hanji: 遊客, en: "visitor, tourist"}
+  - {tailo: ōng, hanji: 旺, en: "thriving, flourishing"}
+  - {tailo: siong-gia̍p, hanji: 商業, en: "commerce"}
+  - {tailo: guā-siong, hanji: 外商, en: "foreign firm or merchant"}
+  - {tailo: tsìn-kháu, hanji: 進口, en: "import"}
+exercises:
+  translate:
+    - {tailo: "Hit ê sî-tāi, lōo pháinn kiânn, huè-bu̍t lóng khò tsûn ūn-sàng.", hanji: "彼个時代，路歹行，貨物攏靠船運送。", en: "In those days the roads were bad, and goods all went by boat."}
+    - {tailo: "In uī-tio̍h sing-tsûn, mōo-hiám kuè Oo-tsuí-kau.", hanji: "𪜶為著生存，冒險過烏水溝。", en: "To survive, they risked the crossing of the Black Ditch."}
+    - {tailo: "M̄-koh sî-sè ē piàn.", hanji: "毋過時勢會變。", en: "But times change."}
+    - {tailo: "Sann ê sóo-tsāi ê kong-kíng mā ū khí ū lo̍h.", hanji: "三个所在的光景嘛有起有落。", en: "The fortunes of all three places rose and fell."}
+    - {tailo: "Káng-kháu sui-jiân bô--ah, m̄-koh siong-gia̍p ê tsing-sîn iáu tī--leh.", hanji: "港口雖然無矣，毋過商業的精神猶佇咧。", en: "The ports may be gone, but the commercial spirit lives on."}
+    - {tailo: "Tshing-tiâu ê sî, Tâi-uân ê bí kah thn̂g uì Hú-siânn kah Lo̍k-káng su-tshut, koh uì tuì-huānn su-ji̍p pòo kah bo̍k-tsâi, hâng-kau ê sing-lí-lâng lóng thàn tsin tsē tsînn.", hanji: "清朝的時，臺灣的米佮糖對府城佮鹿港輸出，閣對對岸輸入布佮木材，行郊的生理人攏趁真濟錢。", en: "Under the Qing, Taiwan's rice and sugar were shipped out from Tainan and Lukang, cloth and timber came in from across the strait, and the guild merchants made a great deal of money."}
+    - {tailo: "Kin-á-ji̍t Lo̍k-káng iáu ū tsin tsē iû-kheh, in lâi khuànn kóo-tsá ê ke-lōo, koh bé sai-hū tshiú-kang tsò ê suànn-hiunn kah sik ê mi̍h-kiānn.", hanji: "今仔日鹿港猶有真濟遊客，𪜶來看古早的街路，閣買師傅手工做的線香佮錫的物件。", en: "Lukang still draws lots of visitors today: they come to see the old streets and buy handmade incense sticks and tinware."}
+  fill:
+    - {tailo: "Tâi-uân ___ bí, thn̂g, pak-pōo koh ū tê kah tsiunn-ló.", hanji: "臺灣___米、糖，北部閣有茶佮樟腦。", answer: "tshut-sán", answer_hanji: "出產", en: "Taiwan produced rice and sugar, and in the north tea and camphor as well."}
+    - {tailo: "Phâng-tsûn lâi-lâi-khì-khì, ___ tsin hing.", hanji: "帆船來來去去，___真興。", answer: "bé-bē", answer_hanji: "買賣", en: "Sailing ships came and went, and trade boomed."}
+    - {tailo: "Tsuí jú lâi jú ___, tuā tsûn ji̍p bē lâi.", hanji: "水愈來愈___，大船入袂來。", answer: "tshián", answer_hanji: "淺", en: "The water grew shallower and shallower, and big ships could no longer get in."}
+    - {tailo: "Báng-kah ê sing-lí bān-bān-á hōo Tuā-tiū-tiânn ___.", hanji: "艋舺的生理慢慢仔予大稻埕___。", answer: "tshú-tāi", answer_hanji: "取代", en: "Bangka's trade was gradually taken over by Dadaocheng."}
+    - {tailo: "Ū ê lâng kàu-tann iáu pó-tsûn ___.", hanji: "有的人到今猶保存___。", answer: "tso̍k-phóo", answer_hanji: "族譜", en: "Some people still keep their genealogies."}
+    - {tailo: "Hit ê sî-tāi lōo pháinn kiânn, huè-bu̍t lóng khò phâng-tsûn ___, āu--lâi ū thih-tō, káng-kháu ê tē-uī tō sue-thè--ah.", hanji: "彼个時代路歹行，貨物攏靠帆船___，後來有鐵道，港口的地位就衰退矣。", answer: "ūn-sàng", answer_hanji: "運送", en: "In those days the roads were bad and goods went by sailing ship; later came the railway, and the ports declined."}
+audio: []

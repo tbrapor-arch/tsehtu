@@ -1,6 +1,6 @@
 # Part 2: 進修 Tsìn-siu (Perfectionnement), spec and handover
 
-State on 28 Oct 2026: **P1–P49 are published** (P36–P49 on 28 Oct). Next batch: P50–P56 (P56 = review).
+State on 29 Oct 2026: **P1–P56 are published** (P50–P56 on 29 Oct). Next batch: P57–P63 (P63 = review).
 The second wave started at P36 (see 'Size' below).
 
 ## Batch 1 (P1–P7)
@@ -138,6 +138,24 @@ Facts kept general on purpose: P31 gives no years except where certain (common s
 the end of classical Chinese teaching and the punishments for speaking Taigi are told as family memories.
 刑事 is used for 'police detective' (Japanese 刑事 keiji); the MOE gives only the legal sense, as the note says.
 Song lessons naturally carry fewer new words (31 in P32).
+
+## Batch 8 (P50–P56)
+| # | genre | title | new words | lines |
+|---|---|---|---|---|
+| P50 | speech | 請共恁寶貴的一張票投予我 (Hūi-hūi's student-council election speech; rival A-kia̍t) | 43 | 26 |
+| P51 | interview | 人生就親像茶 (radio: Mrs Lîm A-kuì, 98, tea picker in the Bûn-san hills from 1940; Japanese-era companies, air raids, rationing, bound feet) | 34 | 26 |
+| P52 | play | 高粱酒五十八度 (Winter Solstice dinner: Sam meets Siù-lân's parents; her father tests him with kaoliang) | 47 | 34 |
+| P53 | tale | 跳袂出如來的手蹄仔 (the Monkey King's revolt in heaven, from Journey to the West) | 44 | 24 |
+| P54 | letter | 驚某的翁婿 (A-ióng's apology to Siok-tsing, who has gone back to her parents after a row) | 38 | 25 |
+| P55 | article | 一府、二鹿、三艋舺 (the three Qing-era ports: trade, guilds, silting, railway, today) | 45 | 21 |
+| P56 | review | 復習 (late January: Siok-tsing comes home; election result, kaoliang, the cat 'Boss' renamed Great Sage, the three ports) | 0 | 28 |
+
+Mean 42 new words. Since the frequency list is nearly exhausted (top 1,000 core words 97 % covered), topics were
+chosen from clusters in a pool of untaught MOE words up to rank 6000 (`pool.py 6000`), then checked with `chk.py`.
+Story threads now: Hūi-hūi is student-council president and A-kia̍t is on her council (P50, P56); Sam has met
+Siù-lân's parents (father reserved, mother a fine cook; the grandfather doctor was away) (P52); A-ióng and Siok-tsing
+had their first big row in January and made up (P54, P56); the cat 'Boss' is now also called 齊天大聖.
+Words used undeclared in core lessons and declared here: 查某囡仔 (lesson 79) in P50.
 
 ## Batch 6 (P36–P42)
 | # | genre | title | new words | lines |

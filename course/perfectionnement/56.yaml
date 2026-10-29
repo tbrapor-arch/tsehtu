@@ -1,0 +1,59 @@
+id: 56
+title: {en: "Review 8", tailo: "Ho̍k-si̍p", hanji: "復習"}
+genre: review
+review: true
+setting: "Late January. Siok-tsing has come home, and A-ióng cooks dinner for the friends who helped. Everything comes from 進修 50–55."
+dialogue:
+  - {n: 1, speaker: Siok-tsing, hanji: "我轉來矣！三隻貓仔看著我，攏走來門口。", tailo: "Guá tńg--lâi--ah! Sann tsiah niau-á khuànn-tio̍h guá, lóng tsáu lâi mn̂g-kháu.", en: "I'm home! The three cats saw me and all came running to the door."}
+  - {n: 2, speaker: A-ióng, hanji: "禮拜六我提玫瑰去恁兜，等規下晝，你才回心轉意。", tailo: "Lé-pài-la̍k guá the̍h muî-kuì khì lín tau, tán kui ē-tàu, lí tsiah huê-sim-tsuán-ì.", en: "On Saturday I took roses to your parents' house and waited all afternoon before you changed your mind."}
+  - {n: 3, speaker: Siok-tsing, hanji: "是阮阿爸講，看你遮誠心，才閣予你一擺機會。你若閣起歹性地，我就閣轉去後頭厝。", tailo: "Sī guán a-pah kóng, khuànn lí tsiah sîng-sim, tsiah koh hōo lí tsi̍t pái ki-huē. Lí nā koh khí pháinn-sìng-tē, guá tō koh tńg-khì āu-thâu-tshù.", en: "It was my dad who said you were sincere enough to deserve another chance. If you lose your temper again, I'm going straight back to my parents'."}
+  - {n: 4, speaker: A-ióng, hanji: "袂矣，袂矣。電動我已經收起來矣，你若毋信，問Sam。", tailo: "Bē--ah, bē--ah. Tiān-tōng guá í-king siu--khí-lâi--ah, lí nā m̄ sìn, mn̄g Sam.", en: "I won't, I won't. I've put the video games away: ask Sam if you don't believe me."}
+  - {n: 5, speaker: Sam, hanji: "著。伊這馬攏毋敢拍電動，見若看著我，就叫我莫來攪擾。", tailo: "Tio̍h. I tsit-má lóng m̄-kánn phah tiān-tōng; kiàn-nā khuànn-tio̍h guá, tō kiò guá mài lâi kiáu-jiáu.", en: "It's true. He doesn't dare play any more: whenever he sees me, he tells me not to come and bother him."}
+  - {n: 6, speaker: Siù-lân, hanji: "好矣，翁仔某冤家是常事。來，我提包種茶來，是彼个挽茶的阿桂姨𪜶孫佇網路賣的。", tailo: "Hó--ah, ang-á-bóo uan-ke sī siông-sū. Lâi, guá the̍h pau-tsióng-tê lâi, sī hit ê bán tê ê A-kuì-î in sun tī bāng-lōo bē--ê.", en: "All right, husbands and wives quarrel all the time. Here, I've brought some pouchong: it's from the grandson of Auntie A-kuì, the tea picker, who sells it online."}
+  - {n: 7, speaker: Siok-tsing, hanji: "（啉一甌）頭先有淡薄仔澀，後來真甘。", tailo: "(Lim tsi̍t au) Thâu-sing ū tām-po̍h-á siap, āu--lâi tsin kam.", en: "(Drinking a cup) A little astringent at first, then lovely and sweet."}
+  - {n: 8, speaker: Hūi-hūi, hanji: "我嘛有好消息！我當選會長矣！", tailo: "Guá mā ū hó siau-sit! Guá tòng-suán huē-tiúnn--ah!", en: "I've got good news too! I've been elected president!"}
+  - {n: 9, speaker: Sam, hanji: "恭喜！阿傑咧？", tailo: "Kiong-hí! A-kia̍t--leh?", en: "Congratulations! What about A-kia̍t?"}
+  - {n: 10, speaker: Hūi-hūi, hanji: "伊落選，毋過我請伊來鬥相共。伊這馬是學生會的幹部，逐工監督我。", tailo: "I lo̍k-suán, m̄-koh guá tshiánn i lâi tàu-sann-kāng. I tsit-má sī ha̍k-sing-huē ê kàn-pōo, ta̍k kang kàm-tok--guá.", en: "He lost, but I asked him to help. He's one of the council officers now, and he keeps an eye on me every day."}
+  - {n: 11, speaker: Hūi-hūi, hanji: "我頭一个實現的政見，是穿堂的信箱。逐家的建議，我攏有提去會議討論。", tailo: "Guá thâu tsi̍t ê si̍t-hiān ê tsìng-kiàn sī tshng-tn̂g ê sìn-siunn. Ta̍k-ke ê kiàn-gī, guá lóng ū the̍h khì huē-gī thó-lūn.", en: "The first promise I've kept is the suggestion box in the entrance hall. I've taken everyone's ideas to the council meetings."}
+  - {n: 12, speaker: A-ióng, hanji: "便當咧？猶閣賰遐爾濟無？", tailo: "Piān-tong--leh? Iáu-koh tshun hiah-nī tsē--bô?", en: "And the lunches? Is there still so much left over?"}
+  - {n: 13, speaker: Hūi-hūi, hanji: "學校已經採用家己揀菜的方式矣，浪費減少一半。", tailo: "Ha̍k-hāu í-king tshái-iōng ka-kī kíng tshài ê hong-sik--ah, lōng-huì kiám-tsió tsi̍t-puànn.", en: "The school has started letting us choose our own dishes, and the waste has halved."}
+  - {n: 14, speaker: Siok-tsing, hanji: "Sam，聽講你去秀蘭𪜶兜，啉高粱酒啉甲茫去？", tailo: "Sam, thiann-kóng lí khì Siù-lân in tau, lim kau-liâng-tsiú lim kah bâng--khì?", en: "Sam, I hear you went to Siù-lân's and got tipsy on kaoliang?"}
+  - {n: 15, speaker: Sam, hanji: "毋通講矣。五十八度，力頭真烈，我兩杯就茫，閣挵著椅條。", tailo: "M̄-thang kóng--ah. Gōo-tsa̍p-peh tōo, la̍t-thâu tsin lia̍t; guá nn̄g pue tō bâng, koh lòng-tio̍h í-liâu.", en: "Don't remind me. Fifty-eight proof, it packs a punch: two glasses and I was tipsy, and I walked into the bench."}
+  - {n: 16, speaker: Siù-lân, hanji: "毋過阮阿爸真佮意伊，講伊古意，閣有家教。後擺伊來，阮阿爸欲斟紹興酒予伊。", tailo: "M̄-koh guán a-pah tsin kah-ì--i, kóng i kóo-ì, koh ū ka-kàu. Āu-pái i lâi, guán a-pah beh thîn siāu-hing-tsiú hōo i.", en: "But my dad really likes him: he says he's honest and well brought up. Next time he comes, Dad's going to pour him Shaoxing instead."}
+  - {n: 17, speaker: A-ióng, hanji: "好！伊敢共你斟酒，就是共你當做家己人矣。", tailo: "Hó! I kánn kā lí thîn tsiú, tō sī kā lí tòng-tsò ka-kī-lâng--ah.", en: "Great! If he pours you wine, it means he treats you as family."}
+  - {n: 18, speaker: Siok-tsing, hanji: "（指貓）「頭家」又閣偷食菜矣！", tailo: "(Kí niau) “Thâu-ke” iū-koh thau tsia̍h tshài--ah!", en: "(Pointing at the cat) 'Boss' is stealing food again!"}
+  - {n: 19, speaker: A-ióng, hanji: "我這馬叫伊「齊天大聖」，因為伊比孫悟空閣較枵鬼。", tailo: "Guá tsit-má kiò i “Tsê-thian Tāi-sìng”, in-uī i pí Sun Ngōo-khong koh-khah iau-kuí.", en: "I call him 'Great Sage Equal to Heaven' now, because he's even greedier than the Monkey King."}
+  - {n: 20, speaker: Hūi-hūi, hanji: "孫悟空偷食仙桃，尾手予如來壓佇五指山跤。你若閣偷食，阮就共你壓佇枕頭下。", tailo: "Sun Ngōo-khong thau tsia̍h sian-thô, bué-tshiú hōo Jû-lâi ap tī Ngóo-tsí-suann kha. Lí nā koh thau tsia̍h, guán tō kā lí ap tī tsím-thâu ē.", en: "The Monkey King stole the peaches of immortality and ended up pinned under Five Finger Mountain. If you steal again, we'll pin you under a pillow."}
+  - {n: 21, speaker: Sam, hanji: "講著古早，我頂禮拜讀一篇文章，講「一府、二鹿、三艋舺」。", tailo: "Kóng-tio̍h kóo-tsá, guá tíng lé-pài tha̍k tsi̍t phinn bûn-tsiong, kóng “It Hú, jī Lo̍k, sann Báng-kah”.", en: "Speaking of the old days, last week I read an article about 'First the Prefecture, second Lukang, third Bangka'."}
+  - {n: 22, speaker: Siù-lân, hanji: "清朝的時，府城、鹿港、艋舺上繁榮。後來港口予塗沙堆積，水變淺，生理就衰退矣。", tailo: "Tshing-tiâu ê sî, Hú-siânn, Lo̍k-káng, Báng-kah siōng huân-îng. Āu--lâi káng-kháu hōo thôo-sua tui-tsik, tsuí piàn tshián, sing-lí tō sue-thè--ah.", en: "Under the Qing, Tainan, Lukang and Bangka were the most prosperous places. Later the harbours silted up, the water got shallow, and trade declined."}
+  - {n: 23, speaker: Sam, hanji: "我去鹿港走標的時，看著真濟做線香佮拍錫的師傅。", tailo: "Guá khì Lo̍k-káng tsáu-pio ê sî, khuànn-tio̍h tsin tsē tsò suànn-hiunn kah phah sik ê sai-hū.", en: "When I ran the race in Lukang, I saw lots of craftsmen making incense sticks and beating tin."}
+  - {n: 24, speaker: Hūi-hūi, hanji: "我想欲共這个寫做一篇文章，寫臺灣城市的變遷。", tailo: "Guá siūnn-beh kā tsit ê siá tsò tsi̍t phinn bûn-tsiong, siá Tâi-uân siânn-tshī ê piàn-tshian.", en: "I'd like to write an article about it, about how Taiwan's towns have changed."}
+  - {n: 25, speaker: Siok-tsing, hanji: "你做會長，閣欲寫文章，敢有時間？", tailo: "Lí tsò huē-tiúnn, koh beh siá bûn-tsiong, kám ū sî-kan?", en: "You're president now, and you still want to write articles? Do you have time?"}
+  - {n: 26, speaker: Hūi-hūi, hanji: "有啦。我的口號是「講到，做到」，我講欲寫，就一定會寫。", tailo: "Ū--lah. Guá ê kháu-hō sī “Kóng kàu, tsò kàu”: guá kóng beh siá, tō it-tīng ē siá.", en: "Of course. My slogan is 'What I say, I do': if I say I'll write it, I will."}
+  - {n: 27, speaker: A-ióng, hanji: "（攑一甌茶）來，我用茶敬逐家。多謝恁替我求情，予我挽回阮牽手的心。", tailo: "(Gia̍h tsi̍t au tê) Lâi, guá iōng tê kìng ta̍k-ke. To-siā lín thè guá kiû-tsîng, hōo guá bán-huê gún khan-tshiú ê sim.", en: "(Raising a cup of tea) Here's to you all, with tea. Thank you for pleading for me and helping me win back my wife's heart."}
+  - {n: 28, speaker: Siok-tsing, hanji: "（笑）驚某的翁婿，嘛有伊的好處。", tailo: "(Tshiò) Kiann bóo ê ang-sài, mā ū i ê hó-tshù.", en: "(Laughing) A husband who's scared of his wife has his good points."}
+notes:
+  - {ref: 2, topic: vocab, text: "The letter (進修 54): 玫瑰, 回心轉意, 誠心, 歹性地, 電動, 冤家, 求情, 挽回, 驚某, 枕頭."}
+  - {ref: 6, topic: vocab, text: "The tea picker (進修 51): 挽茶, 包種茶, 甌, 頭先, 澀, 甘, 下晝."}
+  - {ref: 8, topic: vocab, text: "The election speech (進修 50): 當選, 會長, 落選, 幹部, 監督, 實現, 政見, 信箱, 建議, 採用, 口號."}
+  - {ref: 14, topic: vocab, text: "Dinner with Siù-lân's parents (進修 52): 高粱酒, 茫, 力頭, 烈, 椅條, 家教, 斟酒, 紹興酒, 敬, 攪擾."}
+  - {ref: 19, topic: vocab, text: "The Monkey King (進修 53): 枵鬼, 仙桃, 尾手, 如來, 壓, 五指山."}
+  - {ref: 21, topic: vocab, text: "The three ports (進修 55): 繁榮, 塗沙, 堆積, 淺, 衰退, 線香, 錫, 變遷."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Lí nā koh khí pháinn-sìng-tē, guá tō koh tńg-khì āu-thâu-tshù.", hanji: "你若閣起歹性地，我就閣轉去後頭厝。", en: "If you lose your temper again, I'm going straight back to my parents'."}
+    - {tailo: "Thâu-sing ū tām-po̍h-á siap, āu--lâi tsin kam.", hanji: "頭先有淡薄仔澀，後來真甘。", en: "A little astringent at first, then lovely and sweet."}
+    - {tailo: "I tsit-má sī ha̍k-sing-huē ê kàn-pōo, ta̍k kang kàm-tok--guá.", hanji: "伊這馬是學生會的幹部，逐工監督我。", en: "He's one of the council officers now, and he keeps an eye on me every day."}
+    - {tailo: "I kánn kā lí thîn tsiú, tō sī kā lí tòng-tsò ka-kī-lâng--ah.", hanji: "伊敢共你斟酒，就是共你當做家己人矣。", en: "If he pours you wine, it means he treats you as family."}
+    - {tailo: "Āu--lâi káng-kháu hōo thôo-sua tui-tsik, sing-lí tō sue-thè--ah.", hanji: "後來港口予塗沙堆積，生理就衰退矣。", en: "Later the harbours silted up, and trade declined."}
+    - {tailo: "Hūi-hūi tòng-suán huē-tiúnn liáu-āu, tshiánn lo̍k-suán ê A-kia̍t lâi tàu-sann-kāng, nn̄g ê lâng tsò-hué si̍t-hiān tsìng-kiàn.", hanji: "惠惠當選會長了後，請落選的阿傑來鬥相共，兩个人做伙實現政見。", en: "After being elected president, Hūi-hūi asked A-kia̍t, who lost, to help, and the two of them are carrying out the programme together."}
+    - {tailo: "Sam kóng, Siù-lân ê a-pah khuànn--khí-lâi tsin giâm, m̄-koh thîn tsiú kìng i ê sî, tō tsai-iánn i ê sim-sìng tsin hó.", hanji: "Sam講，秀蘭的阿爸看起來真嚴，毋過斟酒敬伊的時，就知影伊的心性真好。", en: "Sam says Siù-lân's father looks stern, but when he poured him a drink, Sam could tell he was kind at heart."}
+  fill:
+    - {tailo: "Guá tán kui ē-tàu, lí tsiah ___.", hanji: "我等規下晝，你才___。", answer: "huê-sim-tsuán-ì", answer_hanji: "回心轉意", en: "I waited all afternoon before you changed your mind."}
+    - {tailo: "Kiàn-nā khuànn-tio̍h guá, tō kiò guá mài lâi ___.", hanji: "見若看著我，就叫我莫來___。", answer: "kiáu-jiáu", answer_hanji: "攪擾", en: "Whenever he sees me, he tells me not to come and bother him."}
+    - {tailo: "Ha̍k-hāu í-king ___ ka-kī kíng tshài ê hong-sik--ah.", hanji: "學校已經___家己揀菜的方式矣。", answer: "tshái-iōng", answer_hanji: "採用", en: "The school has started letting us choose our own dishes."}
+    - {tailo: "I pí Sun Ngōo-khong koh-khah ___.", hanji: "伊比孫悟空閣較___。", answer: "iau-kuí", answer_hanji: "枵鬼", en: "He's even greedier than the Monkey King."}
+    - {tailo: "Guá siūnn-beh siá Tâi-uân siânn-tshī ê ___.", hanji: "我想欲寫臺灣城市的___。", answer: "piàn-tshian", answer_hanji: "變遷", en: "I'd like to write about how Taiwan's towns have changed."}
+    - {tailo: "A-kuì-î kóng, jîn-sing tō tshin-tshiūnn tê, thâu-sing khah ___, āu--lâi tsiah kam.", hanji: "阿桂姨講，人生就親像茶，頭先較___，後來才甘。", answer: "siap", answer_hanji: "澀", en: "Auntie A-kuì says life is like tea: bitter at first, sweet afterwards."}
+audio: []
