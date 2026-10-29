@@ -11,7 +11,7 @@ If a session stops (credits, container reset), resume from here.
 |---|---|---|---|
 | P57 | diary | Sam's diary of Lunar New Year week in Tainan (Feb 2027): cleaning, reunion dinner, firecrackers, Jade Emperor's birthday | done (40 new words) |
 | P58 | tale | 白賊七 (Pe̍h-tsha̍t-tshit), the Taiwanese trickster | done (44 new words) |
-| P59 | interview | a temple medium's interpreter (桌頭) on spirit mediums (童乩), told respectfully | todo |
+| P59 | interview | a temple medium's interpreter (桌頭) on spirit mediums (童乩), told respectfully | done (42 new words) |
 | P60 | news | TV news bulletin, several short items | todo |
 | P61 | document | A-má's mahjong rules for Sam | todo |
 | P62 | debate | Hūi-hūi's class: is tourism good for a town like Lukang? | todo |

@@ -1,0 +1,110 @@
+id: 59
+title: {en: "The medium's interpreter", tailo: "Tâng-ki kah toh-thâu", hanji: "童乩佮桌頭"}
+genre: interview
+review: false
+setting: "The Taigi radio programme of 進修 48 and 51 talks to Mr Lâu, 60, a taxi driver who is also the interpreter (桌頭) at the Royal Lords' temple in A-kong's village (進修 33). The medium (童乩) is his cousin."
+dialogue:
+  - {n: 1, speaker: Host, hanji: "劉先生，你日時是運將，暗時佇王爺廟做桌頭。桌頭是咧做啥物？", tailo: "Lâu--sian-sinn, lí ji̍t--sî sī ùn-tsiàng, àm-sî tī Ông-iâ-biō tsò toh-thâu. Toh-thâu sī teh tsò siánn-mih?", en: "Mr Lâu, by day you drive a taxi, and in the evenings you're the interpreter at the Royal Lords' temple. What does an interpreter do?"}
+  - {n: 2, speaker: Lâu, hanji: "童乩起童的時，神明降落來，講的話一般人聽無。桌頭就是徛佇神桌邊，共神明的話解說予信眾聽。", tailo: "Tâng-ki khí-tâng ê sî, sîn-bîng kàng--lo̍h-lâi, kóng ê uē it-puann-lâng thiann bô. Toh-thâu tō sī khiā tī sîn-toh pinn, kā sîn-bîng ê uē kái-sueh hōo sìn-tsiòng thiann.", en: "When the medium goes into trance, the god comes down into him, and ordinary people can't understand what he says. The interpreter stands by the altar table and explains the god's words to the worshippers."}
+  - {n: 3, speaker: Host, hanji: "童乩是按怎起童的？", tailo: "Tâng-ki sī án-tsuánn khí-tâng--ê?", en: "How does a medium go into trance?"}
+  - {n: 4, speaker: Lâu, hanji: "阮廟的童乩是我的叔伯阿兄。伊先坐佇椅頂，香煙一直薰起來，伊的身軀就開始搖，跤咧趒，這就是跳童。", tailo: "Guán biō ê tâng-ki sī guá ê tsik-peh a-hiann. I sing tsē tī í tíng, hiunn-ian it-ti̍t hun--khí-lâi, i ê sin-khu tō khai-sí iô, kha teh tiô; tse tō sī thiàu-tâng.", en: "Our temple's medium is my cousin. First he sits in a chair; as the incense smoke rises around him, his body begins to sway and his legs to jump. That's what we call 'dancing the trance'."}
+  - {n: 5, speaker: Lâu, hanji: "王爺若降落來，伊講話的聲就變矣，變做老大人的聲，有時閣用古早話。", tailo: "Ông-iâ nā kàng--lo̍h-lâi, i kóng-uē ê siann tō piàn--ah, piàn-tsò lāu-tuā-lâng ê siann, ū-sî koh iōng kóo-tsá-uē.", en: "When the Royal Lord comes down, his voice changes: it becomes an old man's voice, and sometimes he uses old-fashioned words."}
+  - {n: 6, speaker: Host, hanji: "我看過童乩用劍、用斧頭拍家己的尻脊骿，流血流甲規身軀，敢袂疼？", tailo: "Guá khuànn-kuè tâng-ki iōng kiàm, iōng póo-thâu phah ka-kī ê kha-tsiah-phiann, lâu-hueh lâu kah kui sin-khu. Kám bē thiànn?", en: "I've seen mediums beat their own backs with swords and axes until they're covered in blood. Doesn't it hurt?"}
+  - {n: 7, speaker: Lâu, hanji: "外口的人看著真驚。毋過伊講，起童的時伊攏無感覺疼。退童了後，額頭佮尻脊骿的傷口，抹藥膏就好。", tailo: "Guā-kháu ê lâng khuànn-tio̍h tsin kiann. M̄-koh i kóng, khí-tâng ê sî i lóng bô kám-kak thiànn. Thè-tâng liáu-āu, hia̍h-thâu kah kha-tsiah-phiann ê siong-kháu, buah io̍h-ko tō hó.", en: "Outsiders find it frightening. But he says he feels no pain at all while he's in trance. When he comes out of it, a bit of ointment on the cuts on his forehead and back is all it takes."}
+  - {n: 8, speaker: Lâu, hanji: "伊退童了後，嘛攏無記憶。問伊頭拄仔講啥物，伊攏毋知。", tailo: "I thè-tâng liáu-āu, mā lóng bô kì-ik. Mn̄g i thâu-tú-á kóng siánn-mih, i lóng m̄ tsai.", en: "And afterwards he has no memory of it. Ask him what he's just said and he has no idea."}
+  - {n: 9, speaker: Host, hanji: "有人講這是迷信，你按怎看？", tailo: "Ū lâng kóng tse sī bê-sìn, lí án-tsuánn khuànn?", en: "Some people say it's superstition. What do you think?"}
+  - {n: 10, speaker: Lâu, hanji: "我無勉強人信。這是阮庄頭幾若百冬的信仰，對信眾來講，是一種安慰。信佮無信，攏愛互相尊重。", tailo: "Guá bô bián-kióng lâng sìn. Tse sī guán tsng-thâu kuí-nā pah tang ê sìn-gióng, tuì sìn-tsiòng lâi kóng, sī tsi̍t tsióng an-uì. Sìn kah bô sìn, lóng ài hōo-siong tsun-tiōng.", en: "I don't force anyone to believe. It's been our village's faith for hundreds of years, and for the worshippers it's a comfort. Believers and non-believers should respect each other."}
+  - {n: 11, speaker: Host, hanji: "信眾來廟裡，攏問啥物代誌？", tailo: "Sìn-tsiòng lâi biō--lí, lóng mn̄g siánn-mih tāi-tsì?", en: "What do people come to the temple to ask about?"}
+  - {n: 12, speaker: Lâu, hanji: "啥物攏有。問運途、問頭路、問囡仔欲讀佗一間學校。古早無醫生，嘛有人來求神明治病。", tailo: "Siánn-mih lóng ū. Mn̄g ūn-tôo, mn̄g thâu-lōo, mn̄g gín-á beh tha̍k tó tsi̍t king ha̍k-hāu. Kóo-tsá bô i-sing, mā ū lâng lâi kiû sîn-bîng tī-pēnn.", en: "Everything. Their luck, their jobs, which school their children should go to. In the old days, when there were no doctors, people also came to ask the gods to cure them."}
+  - {n: 13, speaker: Lâu, hanji: "這馬我攏會共人講：身體若無爽快，先去看醫生。神明是保庇你安心的。", tailo: "Tsit-má guá lóng ē kā lâng kóng: sin-thé nā bô sóng-khuài, sing khì khuànn i-sing. Sîn-bîng sī pó-pì lí an-sim--ê.", en: "These days I always tell people: if you're not feeling well, see a doctor first. The gods are there to give you peace of mind."}
+  - {n: 14, speaker: Host, hanji: "神明的話，你按怎記落來？", tailo: "Sîn-bîng ê uē, lí án-tsuánn kì--lo̍h-lâi?", en: "How do you write down what the god says?"}
+  - {n: 15, speaker: Lâu, hanji: "我用毛筆寫佇紙頂，有時是一首詩，親像籤詩按呢。信眾聽無，我才閣解說。", tailo: "Guá iōng môo-pit siá tī tsuá tíng; ū-sî sī tsi̍t siú si, tshin-tshiūnn tshiam-si án-ne. Sìn-tsiòng thiann bô, guá tsiah koh kái-sueh.", en: "I write it on paper with a brush. Sometimes it's a poem, like the verses you draw at a temple. If the worshippers don't understand, I explain."}
+  - {n: 16, speaker: Host, hanji: "敢捌發生過奇蹟？", tailo: "Kám bat huat-sing-kuè kî-tsik?", en: "Has there ever been a miracle?"}
+  - {n: 17, speaker: Lâu, hanji: "有一个信眾，𪜶後生出車禍，昏迷規禮拜，醫生講機會無大。伊來廟裡跪規暝。", tailo: "Ū tsi̍t ê sìn-tsiòng, in hāu-senn tshut tshia-hō, hūn-bê kui lé-pài, i-sing kóng ki-huē bô tuā. I lâi biō--lí kuī kui mê.", en: "One worshipper's son had a car accident and was in a coma for a week; the doctors said his chances weren't good. She came and knelt in the temple all night."}
+  - {n: 18, speaker: Lâu, hanji: "王爺講：「七工內會醒。」第六工，𪜶後生真正醒過來矣。伊講王爺的話應驗，實在不可思議。", tailo: "Ông-iâ kóng: “Tshit kang lāi ē tshénn.” Tē-la̍k kang, in hāu-senn tsin-tsiànn tshénn--kuè-lâi--ah. I kóng Ông-iâ ê uē ìng-giām, si̍t-tsāi put-khó-su-gī.", en: "The Royal Lord said: 'He'll wake within seven days.' On the sixth day, her son really did wake up. She said the Royal Lord's words had come true, and it was beyond belief."}
+  - {n: 19, speaker: Lâu, hanji: "是王爺顯聖，抑是醫生救的，我嘛講袂清楚。毋過庄裡的人攏講，阮的王爺真靈驗、真聖。", tailo: "Sī Ông-iâ hián-sìng, ia̍h-sī i-sing kiù--ê, guá mā kóng bē tshing-tshó. M̄-koh tsng--lí ê lâng lóng kóng, guán ê Ông-iâ tsin lîng-giām, tsin siànn.", en: "Whether it was the Royal Lord working a miracle or the doctors saving him, I can't say for sure. But everyone in the village says our Royal Lord really answers prayers."}
+  - {n: 20, speaker: Host, hanji: "做童乩、做桌頭，敢有啥物規矩？", tailo: "Tsò tâng-ki, tsò toh-thâu, kám ū siánn-mih kui-kí?", en: "Are there rules for mediums and interpreters?"}
+  - {n: 21, speaker: Lâu, hanji: "起童進前，童乩愛食菜，袂使啉酒，身軀佮心內攏愛清淨。對神明，一定愛虔誠。", tailo: "Khí-tâng tsìn-tsîng, tâng-ki ài tsia̍h-tshài, bē-sái lim tsiú, sin-khu kah sim-lāi lóng ài tshing-tsīng. Tuì sîn-bîng, it-tīng ài khiân-sîng.", en: "Before going into trance, the medium has to eat vegetarian and mustn't drink; his body and mind must be pure. And you must always be devout towards the gods."}
+  - {n: 22, speaker: Host, hanji: "廟裡上鬧熱的是啥物時陣？", tailo: "Biō--lí siōng lāu-jia̍t--ê sī siánn-mih sî-tsūn?", en: "When is the temple at its liveliest?"}
+  - {n: 23, speaker: Lâu, hanji: "王爺出巡的時。爐主佮主委攏愛排陣頭，八家將行頭前，規庄頭鬧熱滾滾。", tailo: "Ông-iâ tshut-sûn ê sî. Lôo-tsú kah tsú-uí lóng ài pâi tīn-thâu, pat-ka-tsiòng kiânn thâu-tsîng, kui tsng-thâu lāu-jia̍t-kún-kún.", en: "When the Royal Lord goes out on procession. The festival host and the temple chairman have to organise the troupes, with the Eight Generals leading the way, and the whole village is buzzing."}
+  - {n: 24, speaker: Host, hanji: "童乩佮尪姨有啥物無仝？", tailo: "Tâng-ki kah ang-î ū siánn-mih bô-kāng?", en: "What's the difference between a medium and an ang-î?"}
+  - {n: 25, speaker: Lâu, hanji: "童乩是神明降落來；尪姨大部份是查某人，會替人牽亡，予過身的親人的亡魂、魂魄來佮你講話。", tailo: "Tâng-ki sī sîn-bîng kàng--lo̍h-lâi; ang-î tuā-pōo-hūn sī tsa-bóo-lâng, ē thè lâng khan-bông, hōo kuè-sin ê tshin-lâng ê bông-hûn, hûn-phik lâi kah lí kóng-uē.", en: "With a medium, it's a god who comes down. An ang-î is usually a woman, who 'leads the dead' for people, letting the souls of dead relatives speak to them."}
+  - {n: 26, speaker: Host, hanji: "這款傳承，敢有少年人欲接？", tailo: "Tsit khuán thuân-sîng, kám ū siàu-liân-lâng beh tsiap?", en: "Are young people willing to carry on this tradition?"}
+  - {n: 27, speaker: Lâu, hanji: "愈來愈少矣。人講童乩是神明揀的，毋是你想欲做就會當做。世代無仝，阮嘛無勉強。猶有人欲來，就有。", tailo: "Jú lâi jú tsió--ah. Lâng kóng tâng-ki sī sîn-bîng kíng--ê, m̄ sī lí siūnn-beh tsò tō ē-tàng tsò. Sè-tāi bô-kāng, guán mā bô bián-kióng. Iáu ū lâng beh lâi, tō ū.", en: "Fewer and fewer. They say the gods choose their mediums: you can't just decide to be one. Times are different and we don't force anyone. If someone still wants to come, they will."}
+notes:
+  - {ref: 1, topic: vocab, text: "運將 ùn-tsiàng = taxi driver (from Japanese 運ちゃん untchan). 桌頭 toh-thâu = a medium's interpreter, who stands at the altar table. 王爺 = the Royal Lords (進修 33)."}
+  - {ref: 2, topic: vocab, text: "童乩 tâng-ki = spirit medium. 起童 khí-tâng = go into trance. 降 kàng = descend; 降落來 'come down (into the medium)'. 信眾 sìn-tsiòng = worshippers, the faithful. 解說 = explain (lesson 93)."}
+  - {ref: 4, topic: vocab, text: "叔伯阿兄 = older male cousin on the father's side. 薰 = smoke rise (as of incense). 趒 = jump. 跳童 thiàu-tâng = the medium's trance dance."}
+  - {ref: 6, topic: vocab, text: "劍 kiàm = sword. 斧頭 póo-thâu = axe. 流血 lâu-hueh = bleed."}
+  - {ref: 7, topic: vocab, text: "退童 thè-tâng = come out of trance. 額頭 hia̍h-thâu = forehead. 傷口 siong-kháu = wound, cut. 藥膏 io̍h-ko = ointment."}
+  - {ref: 8, topic: vocab, text: "記憶 kì-ik = memory."}
+  - {ref: 10, topic: vocab, text: "信仰 = faith, belief (進修 10)."}
+  - {ref: 12, topic: vocab, text: "運途 ūn-tôo = fortune, luck. 治病 tī-pēnn = cure an illness."}
+  - {ref: 13, topic: vocab, text: "爽快 sóng-khuài = well, comfortable; 無爽快 'unwell'."}
+  - {ref: 15, topic: vocab, text: "毛筆 môo-pit = writing brush. 籤詩 tshiam-si = the verse on a temple fortune slip; 抽籤 thiu-tshiam = draw a fortune slip."}
+  - {ref: 16, topic: vocab, text: "奇蹟 kî-tsik = miracle."}
+  - {ref: 17, topic: vocab, text: "昏迷 hūn-bê = be unconscious, in a coma."}
+  - {ref: 18, topic: vocab, text: "醒 tshénn = wake up. 應驗 ìng-giām = come true (of a prophecy). 不可思議 put-khó-su-gī = inconceivable, beyond belief."}
+  - {ref: 19, topic: vocab, text: "顯聖 hián-sìng = (of a god) manifest power, work a miracle. 靈驗 lîng-giām = efficacious, answering prayers. 聖 siànn = (of a god) powerful, responsive."}
+  - {ref: 21, topic: vocab, text: "食菜 tsia̍h-tshài = eat vegetarian food. 清淨 tshing-tsīng = pure, undefiled. 虔誠 khiân-sîng = devout."}
+  - {ref: 23, topic: culture, text: "出巡 tshut-sûn = (of a god) go out on procession. 爐主 lôo-tsú = the year's festival host, chosen by casting moon blocks. 主委 tsú-uí = chairman of the temple committee. 八家將 pat-ka-tsiòng = the Eight Generals, a procession troupe with painted faces. 鬧熱滾滾 lāu-jia̍t-kún-kún = bustling, buzzing."}
+  - {ref: 25, topic: vocab, text: "尪姨 ang-î = female medium who contacts the dead. 牽亡 = 'lead the dead' (進修 43). 親人 tshin-lâng = relative. 亡魂 bông-hûn = soul of the dead. 魂魄 hûn-phik = soul, spirit."}
+  - {ref: 26, topic: vocab, text: "傳承 thuân-sîng = tradition, heritage; hand down."}
+  - {ref: 27, topic: vocab, text: "世代 sè-tāi = generation, era."}
+new_words:
+  - {tailo: ùn-tsiàng, hanji: 運將, en: "taxi driver"}
+  - {tailo: toh-thâu, hanji: 桌頭, en: "medium's interpreter"}
+  - {tailo: tâng-ki, hanji: 童乩, en: "spirit medium"}
+  - {tailo: khí-tâng, hanji: 起童, en: "go into trance"}
+  - {tailo: kàng, hanji: 降, en: "descend"}
+  - {tailo: sìn-tsiòng, hanji: 信眾, en: "worshippers, the faithful"}
+  - {tailo: thiàu-tâng, hanji: 跳童, en: "the medium's trance dance"}
+  - {tailo: kiàm, hanji: 劍, en: "sword"}
+  - {tailo: póo-thâu, hanji: 斧頭, en: "axe"}
+  - {tailo: lâu-hueh, hanji: 流血, en: "bleed"}
+  - {tailo: thè-tâng, hanji: 退童, en: "come out of trance"}
+  - {tailo: hia̍h-thâu, hanji: 額頭, en: "forehead"}
+  - {tailo: siong-kháu, hanji: 傷口, en: "wound, cut"}
+  - {tailo: io̍h-ko, hanji: 藥膏, en: "ointment"}
+  - {tailo: kì-ik, hanji: 記憶, en: "memory"}
+  - {tailo: ūn-tôo, hanji: 運途, en: "fortune, luck"}
+  - {tailo: tī-pēnn, hanji: 治病, en: "cure an illness"}
+  - {tailo: sóng-khuài, hanji: 爽快, en: "well, comfortable"}
+  - {tailo: môo-pit, hanji: 毛筆, en: "writing brush"}
+  - {tailo: tshiam-si, hanji: 籤詩, en: "fortune-slip verse"}
+  - {tailo: kî-tsik, hanji: 奇蹟, en: "miracle"}
+  - {tailo: hūn-bê, hanji: 昏迷, en: "be unconscious, in a coma"}
+  - {tailo: ìng-giām, hanji: 應驗, en: "come true"}
+  - {tailo: put-khó-su-gī, hanji: 不可思議, en: "beyond belief"}
+  - {tailo: tshénn, hanji: 醒, en: "wake up"}
+  - {tailo: hián-sìng, hanji: 顯聖, en: "work a miracle (of a god)"}
+  - {tailo: lîng-giām, hanji: 靈驗, en: "efficacious, answering prayers"}
+  - {tailo: siànn, hanji: 聖, en: "(of a god) powerful, responsive"}
+  - {tailo: tsia̍h-tshài, hanji: 食菜, en: "eat vegetarian"}
+  - {tailo: tshing-tsīng, hanji: 清淨, en: "pure, undefiled"}
+  - {tailo: khiân-sîng, hanji: 虔誠, en: "devout"}
+  - {tailo: tshut-sûn, hanji: 出巡, en: "go out on procession"}
+  - {tailo: lôo-tsú, hanji: 爐主, en: "festival host"}
+  - {tailo: tsú-uí, hanji: 主委, en: "committee chairman"}
+  - {tailo: pat-ka-tsiòng, hanji: 八家將, en: "the Eight Generals (troupe)"}
+  - {tailo: lāu-jia̍t-kún-kún, hanji: 鬧熱滾滾, en: "bustling, buzzing"}
+  - {tailo: ang-î, hanji: 尪姨, en: "female medium (for the dead)"}
+  - {tailo: tshin-lâng, hanji: 親人, en: "relative, family member"}
+  - {tailo: bông-hûn, hanji: 亡魂, en: "soul of the dead"}
+  - {tailo: hûn-phik, hanji: 魂魄, en: "soul, spirit"}
+  - {tailo: thuân-sîng, hanji: 傳承, en: "tradition; hand down"}
+  - {tailo: sè-tāi, hanji: 世代, en: "generation, era"}
+exercises:
+  translate:
+    - {tailo: "Toh-thâu tō sī khiā tī sîn-toh pinn, kā sîn-bîng ê uē kái-sueh hōo sìn-tsiòng thiann.", hanji: "桌頭就是徛佇神桌邊，共神明的話解說予信眾聽。", en: "The interpreter stands by the altar table and explains the god's words to the worshippers."}
+    - {tailo: "Khí-tâng ê sî i lóng bô kám-kak thiànn.", hanji: "起童的時伊攏無感覺疼。", en: "He feels no pain at all while he's in trance."}
+    - {tailo: "Sìn kah bô sìn, lóng ài hōo-siong tsun-tiōng.", hanji: "信佮無信，攏愛互相尊重。", en: "Believers and non-believers should respect each other."}
+    - {tailo: "Sin-thé nā bô sóng-khuài, sing khì khuànn i-sing.", hanji: "身體若無爽快，先去看醫生。", en: "If you're not feeling well, see a doctor first."}
+    - {tailo: "Tuì sîn-bîng, it-tīng ài khiân-sîng.", hanji: "對神明，一定愛虔誠。", en: "You must always be devout towards the gods."}
+  fill:
+    - {tailo: "Thè-tâng liáu-āu, i mā lóng bô ___.", hanji: "退童了後，伊嘛攏無___。", answer: "kì-ik", answer_hanji: "記憶", en: "Afterwards he has no memory of it."}
+    - {tailo: "Mn̄g ___, mn̄g thâu-lōo.", hanji: "問___，問頭路。", answer: "ūn-tôo", answer_hanji: "運途", en: "They ask about their luck and their jobs."}
+    - {tailo: "In hāu-senn tshut tshia-hō, ___ kui lé-pài.", hanji: "𪜶後生出車禍，___規禮拜。", answer: "hūn-bê", answer_hanji: "昏迷", en: "Her son had a car accident and was in a coma for a week."}
+    - {tailo: "Guán ê Ông-iâ tsin ___, tsin siànn.", hanji: "阮的王爺真___、真聖。", answer: "lîng-giām", answer_hanji: "靈驗", en: "Our Royal Lord really answers prayers."}
+    - {tailo: "Tsit khuán ___, kám ū siàu-liân-lâng beh tsiap?", hanji: "這款___，敢有少年人欲接？", answer: "thuân-sîng", answer_hanji: "傳承", en: "Are young people willing to carry on this tradition?"}
+audio: []
