@@ -1,0 +1,99 @@
+id: 68
+title: {en: "A foreigner's Taigi accent", tailo: "A-tok-á khiunn", hanji: "阿啄仔腔"}
+genre: speech
+review: false
+setting: "Summer. Sam has passed the upper-intermediate level of the official Taigi proficiency test. At the certificate ceremony he is asked to say a few words on behalf of the candidates. Siù-lân and A-kong are in the audience."
+dialogue:
+  - {n: 1, speaker: Sam, hanji: "各位評審、各位老師、各位考生，逐家好。", tailo: "Kok-uī phîng-sím, kok-uī lāu-su, kok-uī khó-sing, ta̍k-ke hó.", en: "Members of the jury, teachers, fellow candidates, good afternoon."}
+  - {n: 2, speaker: Sam, hanji: "我是Sam，今年通過臺語檢定的中高級。主辦單位請我代表考生講幾句話，我真榮幸。", tailo: "Guá sī Sam, kin-nî thong-kuè Tâi-gí kiám-tīng ê tiong-ko-kip. Tsú-pān tan-uī tshiánn guá tāi-piáu khó-sing kóng kuí kù uē, guá tsin îng-hīng.", en: "I'm Sam, and this year I passed the upper-intermediate level of the Taigi proficiency test. I'm honoured that the organisers asked me to say a few words on behalf of the candidates."}
+  - {n: 3, speaker: Sam, hanji: "八冬前，我連「多謝」都講袂好。人講我的臺語是「阿啄仔腔」，一聽就知影。", tailo: "Peh tang tsîng, guá liân “to-siā” to kóng bē hó. Lâng kóng guá ê Tâi-gí sī “a-tok-á-khiunn”, tsi̍t thiann tō tsai-iánn.", en: "Eight years ago I couldn't even say 'thank you' properly. People said my Taigi had a 'foreigner's accent': you could tell straight away."}
+  - {n: 4, speaker: Sam, hanji: "檢定分做幾若个等級。我頭一擺考初級，聽力的分數煞無及格。考場的錄音講傷緊，我攏聽無。", tailo: "Kiám-tīng hun-tsò kuí-nā ê tíng-kip. Guá thâu tsi̍t pái khó tshoo-kip, thiann-li̍k ê hun-sòo suah bô ki̍p-keh. Khó-tiûnn ê lo̍k-im kóng siunn kín, guá lóng thiann bô.", en: "The test has several levels. The first time I sat the elementary level, I failed the listening. The recordings in the exam room were too fast and I couldn't follow any of them."}
+  - {n: 5, speaker: Sam, hanji: "我無失志。逐工坐捷運就聽廣播，暗時看臺語頻道的節目，一句一句綴咧講。", tailo: "Guá bô sit-tsì. Ta̍k kang tsē tsia̍t-ūn tō thiann kóng-pòo, àm-sî khuànn Tâi-gí pîn-tō ê tsiat-bo̍k, tsi̍t kù tsi̍t kù tuè leh kóng.", en: "I didn't lose heart. Every day I listened to the radio on the metro, and in the evenings I watched programmes on the Taigi channel, repeating them line by line."}
+  - {n: 6, speaker: Sam, hanji: "閱讀佮作文閣較困難。臺語有漢字、有羅馬字，書寫的方式猶無完全統一。我先學拼音，才學漢字。", tailo: "Ua̍t-tho̍k kah tsok-bûn koh-khah khùn-lân. Tâi-gí ū hàn-jī, ū Lô-má-jī, su-siá ê hong-sik iáu bô uân-tsuân thóng-it. Guá sing o̍h phing-im, tsiah o̍h hàn-jī.", en: "Reading and writing compositions were even harder. Taigi uses both Chinese characters and romanisation, and the way it's written isn't fully standardised yet. I learnt the spelling first, then the characters."}
+  - {n: 7, speaker: Sam, hanji: "上僫的是鼻音佮入聲。「鴨」佮「壓」，我練規個月，猶是捷捷分袂清。", tailo: "Siōng oh--ê sī phīnn-im kah ji̍p-siann. “Ah” kah “ap”, guá liān kui kò gue̍h, iáu-sī tsia̍p-tsia̍p hun bē tshing.", en: "The hardest things were the nasal sounds and the checked tones. 'Ah' and 'ap': I practised them for a whole month and still often couldn't tell them apart."}
+  - {n: 8, speaker: Sam, hanji: "我的老師，就是坐佇下跤的阿公。伊毋是我親生的阿公，是我佇臺南熟似的。", tailo: "Guá ê lāu-su, tō sī tsē tī ē-kha ê a-kong. I m̄ sī guá tshin-senn ê a-kong, sī guá tī Tâi-lâm si̍k-sāi--ê.", en: "My teacher is A-kong, sitting down there. He isn't my real grandfather: I met him in Tainan."}
+  - {n: 9, speaker: Sam, hanji: "伊逐擺攏共我改發音，閣教我真濟古早的詞彙。伊講：「語言毋是干焦文法佮詞彙，是一个族群的生活。」", tailo: "I ta̍k pái lóng kā guá kái huat-im, koh kà guá tsin tsē kóo-tsá ê sû-luī. I kóng: “Gí-giân m̄ sī kan-na bûn-huat kah sû-luī, sī tsi̍t ê tso̍k-kûn ê sing-ua̍h.”", en: "He corrected my pronunciation every time and taught me lots of old words. He says: 'A language isn't just grammar and vocabulary: it's the life of a people.'"}
+  - {n: 10, speaker: Sam, hanji: "這擺的考試，作文的題目是「我的家鄉」。我寫兩个家鄉：一个佇天涯，一个佇臺灣。", tailo: "Tsit pái ê khó-tshì, tsok-bûn ê tê-bo̍k sī “Guá ê ka-hiong”. Guá siá nn̄g ê ka-hiong: tsi̍t ê tī thian-gâi, tsi̍t ê tī Tâi-uân.", en: "This time the composition topic was 'My home'. I wrote about two homes: one at the ends of the earth, one in Taiwan."}
+  - {n: 11, speaker: Sam, hanji: "捷捷有人問我：你一个外國人，是按怎欲學臺語？", tailo: "Tsia̍p-tsia̍p ū lâng mn̄g guá: lí tsi̍t ê guā-kok-lâng, sī án-tsuánn beh o̍h Tâi-gí?", en: "People often ask me: why would a foreigner like you want to learn Taigi?"}
+  - {n: 12, speaker: Sam, hanji: "我講，因為我愛臺灣，愛臺灣的人。學𪜶的語言，是對𪜶上大的尊重。", tailo: "Guá kóng, in-uī guá ài Tâi-uân, ài Tâi-uân ê lâng. O̍h in ê gí-giân, sī tuì in siōng tuā ê tsun-tiōng.", en: "I tell them: because I love Taiwan and its people. Learning their language is the greatest respect I can show them."}
+  - {n: 13, speaker: Sam, hanji: "臺語捌有一段時間予人看輕。講的人會感覺自卑，囡仔佇學校講，閣會予人罰。這是歷史的傷痕。", tailo: "Tâi-gí bat ū tsi̍t tuānn sî-kan hōo lâng khuànn-khin. Kóng ê lâng ē kám-kak tsū-pi; gín-á tī ha̍k-hāu kóng, koh ē hōo lâng hua̍t. Tse sī li̍k-sú ê siong-hûn.", en: "There was a time when Taigi was looked down on. Those who spoke it felt inferior, and children were punished for speaking it at school. That's a scar of history."}
+  - {n: 14, speaker: Sam, hanji: "毋過這馬，媒體、學校攏咧推廣，教材嘛愈來愈濟。講臺語的少年人，比例慢慢仔咧加。", tailo: "M̄-koh tsit-má, muî-thé, ha̍k-hāu lóng teh thui-kóng, kàu-tsâi mā jú lâi jú tsē. Kóng Tâi-gí ê siàu-liân-lâng, pí-lē bān-bān-á teh ke.", en: "But now the media and schools are promoting it, and there are more and more teaching materials. The proportion of young people who speak Taigi is slowly growing."}
+  - {n: 15, speaker: Sam, hanji: "語言無分懸低，方言嘛無分懸低。每一種語言，攏應該有公平的機會、有家己的尊嚴。", tailo: "Gí-giân bô hun kuân-kē, hong-giân mā bô hun kuân-kē. Muí tsi̍t tsióng gí-giân, lóng ing-kai ū kong-pênn ê ki-huē, ū ka-kī ê tsun-giâm.", en: "No language is above another, and no dialect either. Every language deserves a fair chance and its own dignity."}
+  - {n: 16, speaker: Sam, hanji: "我希望以後的少年人講臺語，袂閣感覺見笑，會感覺驕傲。", tailo: "Guá hi-bāng í-āu ê siàu-liân-lâng kóng Tâi-gí, bē koh kám-kak kiàn-siàu, ē kám-kak kiau-ngōo.", en: "I hope that in future, young people who speak Taigi won't feel ashamed any more, but proud."}
+  - {n: 17, speaker: Sam, hanji: "今仔日主辦單位頒發這張證書予我，我欲提轉去送予阿公。這張證書，有一半是伊的。", tailo: "Kin-á-ji̍t tsú-pān tan-uī pan-huat tsit tiunn tsìng-su hōo guá; guá beh the̍h tńg-khì sàng hōo a-kong. Tsit tiunn tsìng-su, ū tsi̍t-puànn sī i--ê.", en: "Today the organisers have awarded me this certificate, and I'm going to take it home and give it to A-kong. Half of it is his."}
+  - {n: 18, speaker: Sam, hanji: "考生內底，有大學生、有老師，嘛有七十幾歲的阿嬸。逐家攏合格，逐家攏辛苦矣。", tailo: "Khó-sing lāi-té, ū tāi-ha̍k-sing, ū lāu-su, mā ū tshit-tsa̍p-kuí huè ê a-tsím. Ta̍k-ke lóng ha̍p-keh, ta̍k-ke lóng sin-khóo--ah.", en: "Among the candidates there are university students, teachers, and even an auntie in her seventies. We've all passed, and we've all worked hard."}
+  - {n: 19, speaker: Sam, hanji: "我下一个目標是高級。我會繼續復習，聽說讀寫攏愛閣進步。", tailo: "Guá ē tsi̍t ê bo̍k-piau sī ko-kip. Guá ē kè-sio̍k ho̍k-si̍p, thiann-sueh tha̍k-siá lóng ài koh tsìn-pōo.", en: "My next goal is the advanced level. I'll keep revising: my listening, speaking, reading and writing all need to improve."}
+  - {n: 20, speaker: Sam, hanji: "閣一件代誌：下個月我欲佮秀蘭結婚。阿公講，結婚了後，我的臺語才會真正「熟」。", tailo: "Koh tsi̍t kiānn tāi-tsì: ē kò gue̍h guá beh kah Siù-lân kiat-hun. A-kong kóng, kiat-hun liáu-āu, guá ê Tâi-gí tsiah ē tsin-tsiànn “si̍k”.", en: "One more thing: next month Siù-lân and I are getting married. A-kong says only after the wedding will my Taigi really be 'ripe'."}
+  - {n: 21, speaker: Sam, hanji: "多謝逐家。多謝阿公。多謝臺灣。", tailo: "To-siā ta̍k-ke. To-siā a-kong. To-siā Tâi-uân.", en: "Thank you all. Thank you, A-kong. Thank you, Taiwan."}
+  - {n: 22, hanji: "（阿公徛起來拍噗仔，目箍紅紅。）", tailo: "(A-kong khiā--khí-lâi phah-pho̍k-á, ba̍k-khoo âng-âng.)", en: "(A-kong stands up and claps, his eyes red.)"}
+notes:
+  - {ref: 2, topic: culture, text: "檢定 kiám-tīng = proficiency test. Taiwan's official Taigi test (台語語言能力認證) has levels from elementary to professional; 中高級 is upper intermediate. 主辦 = organise (lesson 97). 單位 = organisation."}
+  - {ref: 3, topic: vocab, text: "阿啄仔腔 = a foreigner's accent (阿啄仔, 進修 64; 腔 = accent)."}
+  - {ref: 4, topic: vocab, text: "等級 tíng-kip = level, grade. 初級 tshoo-kip = elementary level. 聽力 thiann-li̍k = listening (skill). 分數 hun-sòo = score, mark. 及格 ki̍p-keh = pass. 考場 khó-tiûnn = exam room. 錄音 lo̍k-im = recording."}
+  - {ref: 5, topic: vocab, text: "廣播 kóng-pòo = radio; broadcast. 頻道 pîn-tō = (TV) channel."}
+  - {ref: 6, topic: vocab, text: "閱讀 ua̍t-tho̍k = reading. 作文 tsok-bûn = composition. 書寫 su-siá = writing (system). 統一 thóng-it = unify, standardise. 拼音 phing-im = phonetic spelling."}
+  - {ref: 7, topic: vocab, text: "鼻音 phīnn-im = nasal sound. 入聲 ji̍p-siann = 'entering tone', syllables ending in -p, -t, -k or -h."}
+  - {ref: 8, topic: vocab, text: "親生 tshin-senn = by birth. 下跤 ē-kha = below, down there."}
+  - {ref: 9, topic: vocab, text: "詞彙 sû-luī = vocabulary. 文法 bûn-huat = grammar. 族群 = ethnic group, people (lesson 88)."}
+  - {ref: 13, topic: vocab, text: "看輕 = look down on (進修 2). 自卑 tsū-pi = feel inferior. 傷痕 siong-hûn = scar."}
+  - {ref: 14, topic: vocab, text: "媒體 muî-thé = the media. 推廣 = promote (進修 10). 教材 kàu-tsâi = teaching materials. 比例 pí-lē = proportion."}
+  - {ref: 15, topic: vocab, text: "懸低 kuân-kē = high and low; 無分懸低 'none is above another'. 方言 hong-giân = dialect. 公平 kong-pênn = fair. 尊嚴 tsun-giâm = dignity."}
+  - {ref: 17, topic: vocab, text: "頒發 pan-huat = award, issue. 證書 = certificate (進修 39)."}
+  - {ref: 18, topic: vocab, text: "考生 khó-sing = candidate. 合格 ha̍p-keh = qualified, pass."}
+  - {ref: 19, topic: vocab, text: "高級 = advanced (level) (lesson 99). 復習 ho̍k-si̍p = revise, review (the title of every review lesson). 聽說讀寫 'listening, speaking, reading and writing'; 聽說 thiann-sueh on its own means 'hear that'."}
+  - {ref: 20, topic: vocab, text: "熟 si̍k = ripe; fluent, familiar."}
+  - {ref: 22, topic: vocab, text: "目箍 ba̍k-khoo = the rims of the eyes; 目箍紅 'red-eyed, moved to tears'."}
+new_words:
+  - {tailo: kiám-tīng, hanji: 檢定, en: "proficiency test"}
+  - {tailo: tíng-kip, hanji: 等級, en: "level, grade"}
+  - {tailo: tshoo-kip, hanji: 初級, en: "elementary level"}
+  - {tailo: thiann-li̍k, hanji: 聽力, en: "listening (skill)"}
+  - {tailo: hun-sòo, hanji: 分數, en: "score, mark"}
+  - {tailo: ki̍p-keh, hanji: 及格, en: "pass (a test)"}
+  - {tailo: khó-tiûnn, hanji: 考場, en: "exam room"}
+  - {tailo: lo̍k-im, hanji: 錄音, en: "recording; record"}
+  - {tailo: kóng-pòo, hanji: 廣播, en: "radio; broadcast"}
+  - {tailo: pîn-tō, hanji: 頻道, en: "(TV) channel"}
+  - {tailo: ua̍t-tho̍k, hanji: 閱讀, en: "reading"}
+  - {tailo: tsok-bûn, hanji: 作文, en: "composition"}
+  - {tailo: su-siá, hanji: 書寫, en: "writing (system)"}
+  - {tailo: phing-im, hanji: 拼音, en: "phonetic spelling"}
+  - {tailo: phīnn-im, hanji: 鼻音, en: "nasal sound"}
+  - {tailo: ji̍p-siann, hanji: 入聲, en: "checked ('entering') tone"}
+  - {tailo: sû-luī, hanji: 詞彙, en: "vocabulary"}
+  - {tailo: bûn-huat, hanji: 文法, en: "grammar"}
+  - {tailo: tsū-pi, hanji: 自卑, en: "feel inferior"}
+  - {tailo: siong-hûn, hanji: 傷痕, en: "scar"}
+  - {tailo: muî-thé, hanji: 媒體, en: "the media"}
+  - {tailo: kàu-tsâi, hanji: 教材, en: "teaching materials"}
+  - {tailo: pí-lē, hanji: 比例, en: "proportion"}
+  - {tailo: kuân-kē, hanji: 懸低, en: "high and low"}
+  - {tailo: hong-giân, hanji: 方言, en: "dialect"}
+  - {tailo: kong-pênn, hanji: 公平, en: "fair"}
+  - {tailo: tsun-giâm, hanji: 尊嚴, en: "dignity"}
+  - {tailo: pan-huat, hanji: 頒發, en: "award, issue"}
+  - {tailo: khó-sing, hanji: 考生, en: "candidate"}
+  - {tailo: ha̍p-keh, hanji: 合格, en: "qualified, pass"}
+  - {tailo: ho̍k-si̍p, hanji: 復習, en: "revise, review"}
+  - {tailo: thiann-sueh, hanji: 聽說, en: "hear that"}
+  - {tailo: thóng-it, hanji: 統一, en: "unify, standardise"}
+  - {tailo: tshin-senn, hanji: 親生, en: "by birth, one's own"}
+  - {tailo: ba̍k-khoo, hanji: 目箍, en: "rims of the eyes"}
+  - {tailo: ē-kha, hanji: 下跤, en: "below, underneath"}
+exercises:
+  translate:
+    - {tailo: "Lâng kóng guá ê Tâi-gí sī a-tok-á-khiunn, tsi̍t thiann tō tsai-iánn.", hanji: "人講我的臺語是阿啄仔腔，一聽就知影。", en: "People said my Taigi had a foreigner's accent: you could tell straight away."}
+    - {tailo: "Guá thâu tsi̍t pái khó tshoo-kip, thiann-li̍k ê hun-sòo suah bô ki̍p-keh.", hanji: "我頭一擺考初級，聽力的分數煞無及格。", en: "The first time I sat the elementary level, I failed the listening."}
+    - {tailo: "Gí-giân m̄ sī kan-na bûn-huat kah sû-luī.", hanji: "語言毋是干焦文法佮詞彙。", en: "A language isn't just grammar and vocabulary."}
+    - {tailo: "Muí tsi̍t tsióng gí-giân, lóng ing-kai ū ka-kī ê tsun-giâm.", hanji: "每一種語言，攏應該有家己的尊嚴。", en: "Every language deserves its own dignity."}
+    - {tailo: "Guá ē kè-sio̍k ho̍k-si̍p.", hanji: "我會繼續復習。", en: "I'll keep revising."}
+    - {tailo: "Sam thâu tsi̍t pái khó tshoo-kip, khó-tiûnn ê lo̍k-im kóng siunn kín, thiann-li̍k ê hun-sòo bô ki̍p-keh, i tō ta̍k kang thiann kóng-pòo, khuànn pîn-tō liān.", hanji: "Sam頭一擺考初級，考場的錄音講傷緊，聽力的分數無及格，伊就逐工聽廣播、看頻道練。", en: "The first time Sam sat the elementary level, the recordings in the exam room were too fast and he failed the listening, so he practised every day with the radio and TV."}
+    - {tailo: "Sam kóng, gí-giân bô hun kuân-kē, muí tsi̍t tsióng hong-giân lóng ing-kai ū kong-pênn ê ki-huē, ū ka-kī ê tsun-giâm, kóng ê lâng mā bián kiàn-siàu.", hanji: "Sam講，語言無分懸低，每一種方言攏應該有公平的機會、有家己的尊嚴，講的人嘛免見笑。", en: "Sam says no language is above another, and every dialect deserves a fair chance and its own dignity, and its speakers needn't feel ashamed."}
+  fill:
+    - {tailo: "Ta̍k kang tsē tsia̍t-ūn tō thiann ___.", hanji: "逐工坐捷運就聽___。", answer: "kóng-pòo", answer_hanji: "廣播", en: "Every day I listened to the radio on the metro."}
+    - {tailo: "Siōng oh--ê sī phīnn-im kah ___.", hanji: "上僫的是鼻音佮___。", answer: "ji̍p-siann", answer_hanji: "入聲", en: "The hardest things were the nasal sounds and the checked tones."}
+    - {tailo: "Kóng ê lâng ē kám-kak ___.", hanji: "講的人會感覺___。", answer: "tsū-pi", answer_hanji: "自卑", en: "Those who spoke it felt inferior."}
+    - {tailo: "Muî-thé, ha̍k-hāu lóng teh thui-kóng, ___ mā jú lâi jú tsē.", hanji: "媒體、學校攏咧推廣，___嘛愈來愈濟。", answer: "kàu-tsâi", answer_hanji: "教材", en: "The media and schools are promoting it, and there are more and more teaching materials."}
+    - {tailo: "Ta̍k-ke lóng ___, ta̍k-ke lóng sin-khóo--ah.", hanji: "逐家攏___，逐家攏辛苦矣。", answer: "ha̍p-keh", answer_hanji: "合格", en: "We've all passed, and we've all worked hard."}
+    - {tailo: "Í-tsá kóng Tâi-gí ê lâng ē kám-kak ___, gín-á tī ha̍k-hāu kóng koh ē hōo lâng hua̍t, tse sī li̍k-sú ê siong-hûn.", hanji: "以早講臺語的人會感覺___，囡仔佇學校講閣會予人罰，這是歷史的傷痕。", answer: "tsū-pi", answer_hanji: "自卑", en: "In the past Taigi speakers felt inferior, and children were punished for speaking it at school: that's a scar of history."}
+audio: []

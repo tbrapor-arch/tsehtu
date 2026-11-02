@@ -1,7 +1,7 @@
 # Part 2: 進修 Tsìn-siu (Perfectionnement), spec and handover
 
-State on 3 Nov 2026: **P1–P63 are published** (P57–P63 on 3 Nov). Next batch: P64–P70 (P70 = review, the last).
-The second wave started at P36 (see 'Size' below). If a batch is interrupted, see docs/batch-progress.md.
+State on 3 Nov 2026: **P1–P70 are published: part 2 (進修) is complete.**
+If work is interrupted, see docs/batch-progress.md.
 
 ## Batch 1 (P1–P7)
 | # | genre | title | new words | lines |
@@ -138,6 +138,19 @@ Facts kept general on purpose: P31 gives no years except where certain (common s
 the end of classical Chinese teaching and the punishments for speaking Taigi are told as family memories.
 刑事 is used for 'police detective' (Japanese 刑事 keiji); the MOE gives only the legal sense, as the note says.
 Song lessons naturally carry fewer new words (31 in P32).
+
+## Batch 10 (P64–P70), the last
+| # | genre | title | new words | lines |
+|---|---|---|---|---|
+| P64 | letter | 共伊託付予我 (Sam asks Mr N̂g for Siù-lân's hand) | 34 | 23 |
+| P65 | play | 戴袂入的手指 (the engagement: tea, the ring that won't go on, soap, jet-lagged parents) | 31 | 31 |
+| P66 | essay | 兩个人，一間厝 (Grandad N̂g's essay on marriage and life) | 49 | 22 |
+| P67 | song | 天涯來的浪子 (Sam's wedding song) | 28 | 24 |
+| P68 | speech | 阿啄仔腔 (Sam passes the upper-intermediate Taigi test) | 36 | 22 |
+| P69 | story | 手指無去的案件 (Uncle Lîm and the magpie that stole the rings) | 32 | 24 |
+| P70 | review | 復習 (the wedding banquet in A-kong's village) | 0 | 27 |
+
+The planned P66 essay on passing Taigi on was replaced: P31 had already used most of its words.
 
 ## Batch 9 (P57–P63)
 | # | genre | title | new words | lines |

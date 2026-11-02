@@ -1,0 +1,60 @@
+id: 70
+title: {en: "Review 10: the wedding banquet", tailo: "Ho̍k-si̍p", hanji: "復習"}
+genre: review
+review: true
+setting: "The last lesson. The wedding banquet in front of the temple in A-kong's village, the rings safely found (進修 69). A-ióng hosts. Everything comes from 進修 64–69."
+dialogue:
+  - {n: 1, speaker: A-ióng, hanji: "各位親情朋友，逐家好！今仔日是Sam佮秀蘭結婚的好日子，歡迎逐家來食辦桌。", tailo: "Kok-uī tshin-tsiânn pîng-iú, ta̍k-ke hó! Kin-á-ji̍t sī Sam kah Siù-lân kiat-hun ê hó ji̍t-tsí, huan-gîng ta̍k-ke lâi tsia̍h pān-toh.", en: "Family and friends, welcome! Today is Sam and Siù-lân's wedding day: welcome to the banquet."}
+  - {n: 2, speaker: A-ióng, hanji: "頭先，阮欲多謝林伯。伊老神在在，共失落的手指揣轉來。", tailo: "Thâu-sing, guán beh to-siā Lîm peh. I lāu-sîn-tsāi-tsāi, kā sit-lo̍h ê tshiú-tsí tshuē--tńg-lâi.", en: "First, we want to thank Uncle Lîm. Cool as you like, he found the lost rings."}
+  - {n: 3, speaker: Lîm, hanji: "兇手是客鳥，伊是來祝賀的。毋過領帶的兇手，猶坐佇遐。", tailo: "Hiong-siú sī kheh-tsiáu, i sī lâi tsiok-hō--ê. M̄-koh niá-tuà ê hiong-siú, iáu tsē tī hia.", en: "The culprit was a magpie, and it came to congratulate the couple. But the tie culprit is still sitting over there."}
+  - {n: 4, speaker: Brother, hanji: "我已經認錯矣！姊夫，對不住。", tailo: "Guá í-king jīn-tshò--ah! Tsí-hu, tuì-put-tsū.", en: "I've already owned up! Sorry, brother-in-law."}
+  - {n: 5, speaker: A-ióng, hanji: "紲落來，請黃先生講幾句話。", tailo: "Suà--lo̍h-lâi, tshiánn N̂g--sian-sinn kóng kuí kù uē.", en: "Next, Mr N̂g will say a few words."}
+  - {n: 6, speaker: Father, hanji: "Sam頭一擺來阮兜，啉兩杯高粱就茫。毋過伊寫予我的彼張批，我讀三擺。", tailo: "Sam thâu tsi̍t pái lâi guán tau, lim nn̄g pue kau-liâng tō bâng. M̄-koh i siá hōo guá ê hit tiunn phue, guá tha̍k sann pái.", en: "The first time Sam came to our home, two glasses of kaoliang made him tipsy. But I read the letter he wrote me three times."}
+  - {n: 7, speaker: Father, hanji: "伊講伊欲佇臺灣定居，佮秀蘭成家，嘛欲分擔家事。秀蘭，你愛共伊監督。", tailo: "I kóng i beh tī Tâi-uân tīng-ki, kah Siù-lân sîng-ka, mā beh hun-tam ka-sū. Siù-lân, lí ài kā i kàm-tok.", en: "He said he wanted to settle in Taiwan, start a family with Siù-lân, and share the housework. Siù-lân, keep an eye on him."}
+  - {n: 8, speaker: Father, hanji: "今仔日，我共阮查某囝託付予你。你愛一心一意，疼伊一世人。", tailo: "Kin-á-ji̍t, guá kā guán tsa-bóo-kiánn thok-hù hōo lí. Lí ài it-sim-it-ì, thiànn i tsi̍t-sì-lâng.", en: "Today I entrust my daughter to you. Love her with all your heart, all your life."}
+  - {n: 9, speaker: Sam, hanji: "我會。我會用我的終身來珍惜伊。", tailo: "Guá ē. Guá ē iōng guá ê tsiong-sin lâi tin-sioh--i.", en: "I will. I'll treasure her all my life."}
+  - {n: 10, speaker: Mother, hanji: "阿公寫的彼篇文章講，翁某是互相倚靠，毋是互相束縛。恁兩个愛記咧。", tailo: "A-kong siá ê hit phinn bûn-tsiong kóng, ang-bóo sī hōo-siong uá-khò, m̄ sī hōo-siong sok-pa̍k. Lín nn̄g ê ài kì--leh.", en: "Grandad's essay says husband and wife lean on each other, they don't tie each other down. Remember that, both of you."}
+  - {n: 11, speaker: Siù-lân, hanji: "阿公閣講，冤家的時，是非愛分明，毋過講話愛寬寬仔講。我會記咧。", tailo: "A-kong koh kóng, uan-ke ê sî, sī-hui ài hun-bîng, m̄-koh kóng-uē ài khuann-khuann-á kóng. Guá ē kì--leh.", en: "Grandad also says that when you quarrel, be clear about right and wrong, but speak gently. I'll remember."}
+  - {n: 12, speaker: A-má, hanji: "送定彼工，手指套甲尾，以後是秀蘭食Sam死死矣！", tailo: "Sàng-tiānn hit kang, tshiú-tsí thò kah bué, í-āu sī Siù-lân tsia̍h Sam sí-sí--ah!", en: "At the engagement the ring went all the way down, so from now on Siù-lân has the upper hand over Sam!"}
+  - {n: 13, speaker: Sam, hanji: "我歡喜忍。", tailo: "Guá huann-hí lún.", en: "I'll gladly put up with it."}
+  - {n: 14, speaker: Hūi-hūi, hanji: "Sam，聽講你通過臺語檢定的中高級？下一个目標是啥物？", tailo: "Sam, thiann-kóng lí thong-kuè Tâi-gí kiám-tīng ê tiong-ko-kip? Ē tsi̍t ê bo̍k-piau sī siánn-mih?", en: "Sam, I hear you passed the upper-intermediate Taigi test? What's your next goal?"}
+  - {n: 15, speaker: Sam, hanji: "高級。聽力、閱讀、作文攏愛閣復習。毋過今仔日，先食飯。", tailo: "Ko-kip. Thiann-li̍k, ua̍t-tho̍k, tsok-bûn lóng ài koh ho̍k-si̍p. M̄-koh kin-á-ji̍t, sing tsia̍h-pn̄g.", en: "The advanced level. I need to revise my listening, reading and writing. But today, let's eat."}
+  - {n: 16, speaker: A-kong, hanji: "Sam拄來的時，講臺語是阿啄仔腔。這馬伊的臺語，比阮孫閣較好。", tailo: "Sam tú lâi ê sî, kóng Tâi-gí sī a-tok-á-khiunn. Tsit-má i ê Tâi-gí, pí guán sun koh-khah hó.", en: "When Sam first came, he spoke Taigi with a foreigner's accent. Now his Taigi is better than my grandson's."}
+  - {n: 17, speaker: A-ióng, hanji: "這馬請新郎唱一條伊家己寫的歌：〈天涯來的浪子〉。我來彈弦。", tailo: "Tsit-má tshiánn sin-lông tshiùnn tsi̍t tiâu i ka-kī siá ê kua: “Thian-gâi lâi ê lōng-tsú”. Guá lâi tuânn hiân.", en: "And now the groom will sing a song he wrote himself: 'A wanderer from the ends of the earth'. I'll play the guitar."}
+  - {n: 18, speaker: Sam, hanji: "（唱）有緣的人，天涯嘛會相逢；無緣的人，對面嘛袂相識。", tailo: "(Tshiùnn) Ū-iân ê lâng, thian-gâi mā ē siong-hông; bô-iân ê lâng, tuì-bīn mā bē siong-sik.", en: "(Singing) Those who are meant to be will meet, though they come from the ends of the earth; those who aren't will never know each other, though they stand face to face."}
+  - {n: 19, speaker: Siok-tsing, hanji: "（目箍紅紅）阿勇，咱結婚的時，你哪會無寫歌予我？", tailo: "(Ba̍k-khoo âng-âng) A-ióng, lán kiat-hun ê sî, lí ná ē bô siá kua hōo guá?", en: "(Eyes red) A-ióng, why didn't you write me a song when we got married?"}
+  - {n: 20, speaker: A-ióng, hanji: "我有寫批予你啊……毋過彼張是認錯的批。", tailo: "Guá ū siá phue hōo lí--ah... m̄-koh hit tiunn sī jīn-tshò ê phue.", en: "I did write you a letter... although that was an apology."}
+  - {n: 21, speaker: Sam, hanji: "阮爸母今仔日嘛來矣。時差已經調轉來，袂閣睏去矣。", tailo: "Guán pē-bú kin-á-ji̍t mā lâi--ah. Sî-tsha í-king tiâu--tńg-lâi, bē koh khùn--khì--ah.", en: "My parents are here today too. They've got over their jet lag, so they won't fall asleep this time."}
+  - {n: 22, speaker: Father, hanji: "來，紹興酒，我敬親家！", tailo: "Lâi, siāu-hing-tsiú, guá kìng tshin-ke!", en: "Come, Shaoxing: here's to our new in-laws!"}
+  - {n: 23, speaker: Siù-lân, hanji: "Sam，你今仔日干焦會當啉一杯。", tailo: "Sam, lí kin-á-ji̍t kan-na ē-tàng lim tsi̍t pue.", en: "Sam, you're allowed one glass today."}
+  - {n: 24, speaker: Sam, hanji: "我知。我的身份這馬是翁婿，愛聽某的話。", tailo: "Guá tsai. Guá ê sin-hūn tsit-má sī ang-sài, ài thiann bóo ê uē.", en: "I know. I'm a husband now: I have to do as my wife says."}
+  - {n: 25, speaker: Lîm, hanji: "（細聲）這个案件，我嘛會當斷定：以後是秀蘭咧做主。", tailo: "(Sè-siann) Tsit ê àn-kiānn, guá mā ē-tàng tuàn-tīng: í-āu sī Siù-lân teh tsò-tsú.", en: "(Quietly) That's one case I can solve as well: from now on, Siù-lân's in charge."}
+  - {n: 26, speaker: A-kong, hanji: "（攑杯）祝新人翁某同心，食甲百二歲！逐家，乾杯！", tailo: "(Gia̍h pue) Tsiok sin-lâng ang-bóo tâng-sim, tsia̍h kah pah-jī huè! Ta̍k-ke, kan-pue!", en: "(Raising his glass) To the newlyweds: may they be of one heart and live to a hundred and twenty! Cheers, everyone!"}
+  - {n: 27, speaker: Everyone, hanji: "乾杯！祝賀！", tailo: "Kan-pue! Tsiok-hō!", en: "Cheers! Congratulations!"}
+notes:
+  - {ref: 2, topic: vocab, text: "The missing rings (進修 69): 老神在在, 失落, 兇手, 客鳥, 領帶, 斷定."}
+  - {ref: 6, topic: vocab, text: "Sam's letter (進修 64): 定居, 成家, 分擔, 家事, 託付, 一心一意, 終身, 珍惜, 阿啄仔, 身份."}
+  - {ref: 10, topic: vocab, text: "Grandad N̂g's essay (進修 66): 倚靠, 束縛, 是非, 分明, 寬寬仔."}
+  - {ref: 12, topic: vocab, text: "The engagement (進修 65): 送定, 套, 忍, 時差, 祝賀."}
+  - {ref: 14, topic: vocab, text: "The proficiency test (進修 68): 檢定, 聽力, 閱讀, 作文, 復習, 目箍."}
+  - {ref: 17, topic: vocab, text: "The song (進修 67): 天涯, 浪子, 彈, 弦, 有緣, 相逢, 無緣, 相識."}
+  - {ref: 25, topic: vocab, text: "做主 = be in charge, make the decisions."}
+  - {ref: 27, topic: culture, text: "This is the last lesson of 進修. 多謝你一路綴阮學到遮! Thank you for coming all the way with us."}
+new_words: []
+exercises:
+  translate:
+    - {tailo: "Kin-á-ji̍t, guá kā guán tsa-bóo-kiánn thok-hù hōo lí.", hanji: "今仔日，我共阮查某囝託付予你。", en: "Today I entrust my daughter to you."}
+    - {tailo: "Ang-bóo sī hōo-siong uá-khò, m̄ sī hōo-siong sok-pa̍k.", hanji: "翁某是互相倚靠，毋是互相束縛。", en: "Husband and wife lean on each other; they don't tie each other down."}
+    - {tailo: "Ū-iân ê lâng, thian-gâi mā ē siong-hông.", hanji: "有緣的人，天涯嘛會相逢。", en: "Those who are meant to be will meet, though they come from the ends of the earth."}
+    - {tailo: "Guá ê sin-hūn tsit-má sī ang-sài, ài thiann bóo ê uē.", hanji: "我的身份這馬是翁婿，愛聽某的話。", en: "I'm a husband now: I have to do as my wife says."}
+    - {tailo: "Tsiok sin-lâng ang-bóo tâng-sim!", hanji: "祝新人翁某同心！", en: "To the newlyweds: may they be of one heart!"}
+    - {tailo: "Siù-lân ê a-pah kóng, Sam siá hōo i ê phue i tha̍k sann pái, kin-á-ji̍t i beh kā tsa-bóo-kiánn thok-hù hōo Sam.", hanji: "秀蘭的阿爸講，Sam寫予伊的批伊讀三擺，今仔日伊欲共查某囝託付予Sam。", en: "Siù-lân's father says he read Sam's letter three times, and today he's entrusting his daughter to Sam."}
+    - {tailo: "Sam tú lâi ê sî kóng a-tok-á-khiunn, tsit-má thong-kuè kiám-tīng, ē tsi̍t ê bo̍k-piau sī ko-kip.", hanji: "Sam拄來的時講阿啄仔腔，這馬通過檢定，下一个目標是高級。", en: "When Sam first arrived he had a foreigner's accent; now he's passed the test, and his next goal is the advanced level."}
+  fill:
+    - {tailo: "I ___, kā sit-lo̍h ê tshiú-tsí tshuē--tńg-lâi.", hanji: "伊___，共失落的手指揣轉來。", answer: "lāu-sîn-tsāi-tsāi", answer_hanji: "老神在在", en: "Cool as you like, he found the lost rings."}
+    - {tailo: "I kóng i beh tī Tâi-uân ___, kah Siù-lân sîng-ka.", hanji: "伊講伊欲佇臺灣___，佮秀蘭成家。", answer: "tīng-ki", answer_hanji: "定居", en: "He said he wanted to settle in Taiwan and start a family with Siù-lân."}
+    - {tailo: "Guá ē iōng guá ê tsiong-sin lâi ___--i.", hanji: "我會用我的終身來___伊。", answer: "tin-sioh", answer_hanji: "珍惜", en: "I'll treasure her all my life."}
+    - {tailo: "Thiann-li̍k, ua̍t-tho̍k, tsok-bûn lóng ài koh ___.", hanji: "聽力、閱讀、作文攏愛閣___。", answer: "ho̍k-si̍p", answer_hanji: "復習", en: "I need to revise my listening, reading and writing."}
+    - {tailo: "Sî-tsha í-king ___--tńg-lâi.", hanji: "時差已經___轉來。", answer: "tiâu", answer_hanji: "調", en: "They've got over their jet lag."}
+    - {tailo: "Sam kóng, i ê ___ tsit-má sī ang-sài, kin-á-ji̍t kan-na ē-tàng lim tsi̍t pue.", hanji: "Sam講，伊的___這馬是翁婿，今仔日干焦會當啉一杯。", answer: "sin-hūn", answer_hanji: "身份", en: "Sam says he's a husband now, so he's only allowed one glass today."}
+audio: []

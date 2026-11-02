@@ -1,0 +1,94 @@
+id: 67
+title: {en: "A wanderer from the ends of the earth", tailo: "Thian-gâi lâi ê lōng-tsú", hanji: "天涯來的浪子"}
+genre: song
+review: false
+setting: "Original lyrics. Sam has written a song for Siù-lân, to sing at the wedding banquet with A-ióng on the guitar. A-kong corrected his Taigi."
+dialogue:
+  - {n: 1, hanji: "我是天涯來的浪子，揹一跤皮箱，行過真濟港口。", tailo: "Guá sī thian-gâi lâi ê lōng-tsú, phāinn tsi̍t kha phuê-siunn, kiânn-kuè tsin tsē káng-kháu.", en: "I'm a wanderer from the ends of the earth; with a suitcase on my back I've passed through many ports."}
+  - {n: 2, hanji: "異鄉的暗暝暗淡無光，我的心常在四散。", tailo: "Ī-hiong ê àm-mê àm-tām bô kng, guá ê sim tshiâng-tsāi sì-suànn.", en: "Nights in a foreign land were dim and dark, and my heart was always scattered."}
+  - {n: 3, hanji: "一時仔歡喜，一時仔憂愁，毋知欲行佗一條路。", tailo: "Tsi̍t-sî-á huann-hí, tsi̍t-sî-á iu-tshiû, m̄ tsai beh kiânn tó tsi̍t tiâu lōo.", en: "Happy one moment, sad the next, I didn't know which road to take."}
+  - {n: 4, hanji: "毋知佗位會當靠岸，佗位是我的厝。", tailo: "M̄ tsai toh-uī ē-tàng khò-huānn, toh-uī sī guá ê tshù.", en: "I didn't know where I could make landfall, or where my home was."}
+  - {n: 5, hanji: "佇淡水河邊的小路，我拄著一个查某囡仔。", tailo: "Tī Tām-tsuí-hô pinn ê sió-lōo, guá tú-tio̍h tsi̍t ê tsa-bóo gín-á.", en: "On a path by the Tamsui River, I met a girl."}
+  - {n: 6, hanji: "伊的笑，親像月娘照佇海面；伊的聲，親像弦咧彈。", tailo: "I ê tshiò, tshin-tshiūnn gue̍h-niû tsiò tī hái-bīn; i ê siann, tshin-tshiūnn hiân teh tuânn.", en: "Her smile was like the moon shining on the sea; her voice like the strings of a guitar."}
+  - {n: 7, hanji: "對彼工開始，我就痴迷，暝日都咧想伊。", tailo: "Uì hit kang khai-sí, guá tō tshi-bê, mê-ji̍t to teh siūnn--i.", en: "From that day on I was smitten, thinking of her day and night."}
+  - {n: 8, hanji: "（合唱）有緣的人，天涯嘛會相逢；", tailo: "(Ha̍p-tshiùnn) Ū-iân ê lâng, thian-gâi mā ē siong-hông;", en: "(Chorus) Those who are meant to be will meet, though they come from the ends of the earth;"}
+  - {n: 9, hanji: "無緣的人，對面嘛袂相識。", tailo: "bô-iân ê lâng, tuì-bīn mā bē siong-sik.", en: "those who aren't will never know each other, though they stand face to face."}
+  - {n: 10, hanji: "你是我的燈，指引我轉去厝的路。", tailo: "Lí sī guá ê ting, tsí-ín guá tńg-khì tshù ê lōo.", en: "You are my lamp, guiding me on my way home."}
+  - {n: 11, hanji: "歲月會變，人會老去，咱的約定不變。", tailo: "Suè-gua̍t ē piàn, lâng ē lāu--khì, lán ê iok-tīng put-piàn.", en: "The years will change, we will grow old, but our promise won't change."}
+  - {n: 12, hanji: "深情、柔情，攏予你一个人。", tailo: "Tshim-tsîng, jiû-tsîng, lóng hōo lí tsi̍t ê lâng.", en: "All my love and tenderness, for you alone."}
+  - {n: 13, hanji: "我毋是好額人，毋過我有一雙手、一粒心。", tailo: "Guá m̄ sī hó-gia̍h-lâng, m̄-koh guá ū tsi̍t siang tshiú, tsi̍t lia̍p sim.", en: "I'm not a rich man, but I have two hands and a heart."}
+  - {n: 14, hanji: "欲佮你行過熱天寒天，行過風颱佮落雨。", tailo: "Beh kah lí kiânn-kuè jua̍h-thinn kuânn-thinn, kiânn-kuè hong-thai kah lo̍h-hōo.", en: "I want to walk with you through summers and winters, through typhoons and rain."}
+  - {n: 15, hanji: "若有一工你頭毛白，我嘛會牽你的手。", tailo: "Nā ū tsi̍t kang lí thâu-mn̂g pe̍h, guá mā ē khan lí ê tshiú.", en: "If one day your hair turns white, I'll still hold your hand."}
+  - {n: 16, hanji: "若有一工我袂記得路，請你牽我轉去。", tailo: "Nā ū tsi̍t kang guá bē-kì-tit lōo, tshiánn lí khan guá tńg--khì.", en: "If one day I forget the way, please lead me home."}
+  - {n: 17, hanji: "半暝翻身，看你睏甲遐爾甜，我感謝天，予咱有這段情份。", tailo: "Puànn-mê huan-sin, khuànn lí khùn kah hiah-nī tinn, guá kám-siā thinn, hōo lán ū tsit tuānn tsîng-hūn.", en: "Turning over in the night and seeing you sleeping so sweetly, I thank heaven for the bond between us."}
+  - {n: 18, hanji: "毋免黃金，毋免大厝，有你就是我的厝。", tailo: "M̄-bián n̂g-kim, m̄-bián tuā-tshù, ū lí tō sī guá ê tshù.", en: "I don't need gold, I don't need a big house: wherever you are is my home."}
+  - {n: 19, hanji: "（合唱）有緣的人，天涯嘛會相逢；", tailo: "(Ha̍p-tshiùnn) Ū-iân ê lâng, thian-gâi mā ē siong-hông;", en: "(Chorus) Those who are meant to be will meet, though they come from the ends of the earth;"}
+  - {n: 20, hanji: "無緣的人，對面嘛袂相識。", tailo: "bô-iân ê lâng, tuì-bīn mā bē siong-sik.", en: "those who aren't will never know each other, though they stand face to face."}
+  - {n: 21, hanji: "你是我的岸，予流浪的帆靠岸。", tailo: "Lí sī guá ê huānn, hōo liû-lōng ê phâng khò-huānn.", en: "You are my shore, where the wandering sail comes to land."}
+  - {n: 22, hanji: "我願用一世人，照顧你的影跡。", tailo: "Guá guān iōng tsi̍t-sì-lâng, tsiàu-kòo lí ê iánn-tsiah.", en: "I'll gladly spend my whole life following your every step."}
+  - {n: 23, hanji: "天涯來的浪子，總算揣著伊的厝。", tailo: "Thian-gâi lâi ê lōng-tsú, tsóng-sǹg tshuē-tio̍h i ê tshù.", en: "The wanderer from the ends of the earth has found his home at last."}
+  - {n: 24, hanji: "（用講的）秀蘭，多謝你。", tailo: "(Iōng kóng--ê) Siù-lân, to-siā--lí.", en: "(Spoken) Siù-lân, thank you."}
+notes:
+  - {ref: 1, topic: vocab, text: "天涯 thian-gâi = the ends of the earth. 浪子 lōng-tsú = wanderer; prodigal. 皮箱 phuê-siunn = suitcase."}
+  - {ref: 2, topic: vocab, text: "暗淡 àm-tām = dim, gloomy. 常在 tshiâng-tsāi = often, always. 四散 sì-suànn = scattered, all over the place."}
+  - {ref: 3, topic: vocab, text: "一時仔 tsi̍t-sî-á = for a moment; 一時仔…一時仔 'one moment… the next'."}
+  - {ref: 4, topic: vocab, text: "靠岸 khò-huānn = come alongside, make landfall."}
+  - {ref: 5, topic: vocab, text: "小路 sió-lōo = lane, path."}
+  - {ref: 6, topic: vocab, text: "弦 hiân = string (of an instrument). 彈 tuânn = play (a stringed instrument)."}
+  - {ref: 7, topic: vocab, text: "痴迷 tshi-bê = infatuated, smitten."}
+  - {ref: 8, topic: vocab, text: "合唱 ha̍p-tshiùnn = chorus, sing together. 有緣 ū-iân = be meant for each other; 無緣 bô-iân 'not meant to be'. 相逢 siong-hông = meet. Lines 8–9 echo the saying 有緣千里來相會，無緣對面毋相識."}
+  - {ref: 9, topic: vocab, text: "相識 siong-sik = know each other."}
+  - {ref: 10, topic: vocab, text: "指引 tsí-ín = guide, show the way."}
+  - {ref: 11, topic: vocab, text: "歲月 suè-gua̍t = the years, time. 約定 iok-tīng = promise, agreement. 不變 put-piàn = unchanging."}
+  - {ref: 12, topic: vocab, text: "深情 tshim-tsîng = deep love. 柔情 jiû-tsîng = tenderness."}
+  - {ref: 17, topic: vocab, text: "翻身 huan-sin = turn over (in bed). 情份 tsîng-hūn = bond, affection."}
+  - {ref: 18, topic: vocab, text: "大厝 tuā-tshù = big house."}
+  - {ref: 21, topic: vocab, text: "岸 huānn = shore, bank. 流浪 = wander. 帆 phâng = sail (帆船, 進修 55)."}
+  - {ref: 22, topic: vocab, text: "願 guān = be willing, wish. 影跡 iánn-tsiah = trace, footsteps."}
+new_words:
+  - {tailo: thian-gâi, hanji: 天涯, en: "the ends of the earth"}
+  - {tailo: lōng-tsú, hanji: 浪子, en: "wanderer; prodigal"}
+  - {tailo: phuê-siunn, hanji: 皮箱, en: "suitcase"}
+  - {tailo: àm-tām, hanji: 暗淡, en: "dim, gloomy"}
+  - {tailo: tshiâng-tsāi, hanji: 常在, en: "often, always"}
+  - {tailo: sì-suànn, hanji: 四散, en: "scattered"}
+  - {tailo: tsi̍t-sî-á, hanji: 一時仔, en: "for a moment"}
+  - {tailo: khò-huānn, hanji: 靠岸, en: "make landfall"}
+  - {tailo: sió-lōo, hanji: 小路, en: "lane, path"}
+  - {tailo: hiân, hanji: 弦, en: "string (of an instrument)"}
+  - {tailo: tuânn, hanji: 彈, en: "play (a stringed instrument)"}
+  - {tailo: ha̍p-tshiùnn, hanji: 合唱, en: "chorus; sing together"}
+  - {tailo: tshi-bê, hanji: 痴迷, en: "infatuated, smitten"}
+  - {tailo: ū-iân, hanji: 有緣, en: "be meant for each other"}
+  - {tailo: bô-iân, hanji: 無緣, en: "not meant to be"}
+  - {tailo: siong-hông, hanji: 相逢, en: "meet"}
+  - {tailo: siong-sik, hanji: 相識, en: "know each other"}
+  - {tailo: tsí-ín, hanji: 指引, en: "guide, show the way"}
+  - {tailo: suè-gua̍t, hanji: 歲月, en: "the years, time"}
+  - {tailo: iok-tīng, hanji: 約定, en: "promise, agreement"}
+  - {tailo: put-piàn, hanji: 不變, en: "unchanging"}
+  - {tailo: tshim-tsîng, hanji: 深情, en: "deep love"}
+  - {tailo: jiû-tsîng, hanji: 柔情, en: "tenderness"}
+  - {tailo: huan-sin, hanji: 翻身, en: "turn over (in bed)"}
+  - {tailo: tsîng-hūn, hanji: 情份, en: "bond, affection"}
+  - {tailo: tuā-tshù, hanji: 大厝, en: "big house, mansion"}
+  - {tailo: huānn, hanji: 岸, en: "shore, bank"}
+  - {tailo: guān, hanji: 願, en: "be willing, wish"}
+  - {tailo: iánn-tsiah, hanji: 影跡, en: "trace, footsteps"}
+exercises:
+  translate:
+    - {tailo: "Ī-hiong ê àm-mê àm-tām bô kng.", hanji: "異鄉的暗暝暗淡無光。", en: "Nights in a foreign land were dim and dark."}
+    - {tailo: "Tsi̍t-sî-á huann-hí, tsi̍t-sî-á iu-tshiû.", hanji: "一時仔歡喜，一時仔憂愁。", en: "Happy one moment, sad the next."}
+    - {tailo: "Ū-iân ê lâng, thian-gâi mā ē siong-hông.", hanji: "有緣的人，天涯嘛會相逢。", en: "Those who are meant to be will meet, though they come from the ends of the earth."}
+    - {tailo: "Suè-gua̍t ē piàn, lán ê iok-tīng put-piàn.", hanji: "歲月會變，咱的約定不變。", en: "The years will change, but our promise won't."}
+    - {tailo: "Ū lí tō sī guá ê tshù.", hanji: "有你就是我的厝。", en: "Wherever you are is my home."}
+    - {tailo: "Sam kóng i sī thian-gâi lâi ê lōng-tsú, tī ī-hiong ê àm-mê, sim-kuann tshiâng-tsāi sì-suànn.", hanji: "Sam講伊是天涯來的浪子，佇異鄉的暗暝，心肝常在四散。", en: "Sam says he's a wanderer from the ends of the earth whose heart was always scattered on nights in a foreign land."}
+    - {tailo: "Suè-gua̍t ē piàn, lâng ē lāu--khì, m̄-koh Sam kah Siù-lân ê iok-tīng put-piàn.", hanji: "歲月會變，人會老去，毋過Sam佮秀蘭的約定不變。", en: "The years will change and people grow old, but Sam and Siù-lân's promise won't change."}
+  fill:
+    - {tailo: "M̄ tsai toh-uī ē-tàng ___.", hanji: "毋知佗位會當___。", answer: "khò-huānn", answer_hanji: "靠岸", en: "I didn't know where I could make landfall."}
+    - {tailo: "Uì hit kang khai-sí, guá tō ___.", hanji: "對彼工開始，我就___。", answer: "tshi-bê", answer_hanji: "痴迷", en: "From that day on I was smitten."}
+    - {tailo: "Lí sī guá ê ting, ___ guá tńg-khì tshù ê lōo.", hanji: "你是我的燈，___我轉去厝的路。", answer: "tsí-ín", answer_hanji: "指引", en: "You are my lamp, guiding me on my way home."}
+    - {tailo: "Bô-iân ê lâng, tuì-bīn mā bē ___.", hanji: "無緣的人，對面嘛袂___。", answer: "siong-sik", answer_hanji: "相識", en: "Those who aren't meant to be will never know each other, though they stand face to face."}
+    - {tailo: "Guá kám-siā thinn, hōo lán ū tsit tuānn ___.", hanji: "我感謝天，予咱有這段___。", answer: "tsîng-hūn", answer_hanji: "情份", en: "I thank heaven for the bond between us."}
+    - {tailo: "Tī Tām-tsuí-hô pinn tú-tio̍h Siù-lân liáu-āu, Sam tō ___, mê-ji̍t to teh siūnn--i.", hanji: "佇淡水河邊拄著秀蘭了後，Sam就___，暝日都咧想伊。", answer: "tshi-bê", answer_hanji: "痴迷", en: "After meeting Siù-lân by the Tamsui River, Sam was smitten and thought of her day and night."}
+audio: []

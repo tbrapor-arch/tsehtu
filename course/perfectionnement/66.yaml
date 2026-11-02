@@ -1,0 +1,118 @@
+id: 66
+title: {en: "Two people under one roof", tailo: "Nn̄g ê lâng, tsi̍t king tshù", hanji: "兩个人，一間厝"}
+genre: essay
+review: false
+setting: "Siù-lân's grandfather, Mr N̂g, the Chinese doctor of 進修 39, writes a short essay for his granddaughter and Sam a month before their wedding. He has been married for sixty years."
+dialogue:
+  - {n: 1, hanji: "秀蘭、Sam：阿公無啥物物件會當送恁，干焦一篇文章，是我六十冬翁某生活的心得。", tailo: "Siù-lân, Sam: a-kong bô siánn-mih mi̍h-kiānn ē-tàng sàng--lín, kan-na tsi̍t phinn bûn-tsiong, sī guá la̍k-tsa̍p tang ang-bóo sing-ua̍h ê sim-tik.", en: "Siù-lân, Sam: your grandfather has nothing much to give you except this essay, what I've learnt from sixty years of married life."}
+  - {n: 2, hanji: "兩个人會結合，是有緣故的。毋過結婚了後，才是做人的另外一个階段開始。", tailo: "Nn̄g ê lâng ē kiat-ha̍p, sī ū iân-kòo--ê. M̄-koh kiat-hun liáu-āu, tsiah sī tsò-lâng ê līng-guā tsi̍t ê kai-tuānn khai-sí.", en: "Two people come together for a reason. But it's only after the wedding that a new stage of life begins."}
+  - {n: 3, hanji: "我少年的時，看醫冊上講究藥方，結婚了後才知影，翁某相處的藥方較難開。", tailo: "Guá siàu-liân ê sî, khuànn i-tsheh siōng káng-kiù io̍h-hng; kiat-hun liáu-āu tsiah tsai-iánn, ang-bóo siong-tshù ê io̍h-hng khah lân khui.", en: "When I was young, I took great pains over the prescriptions in my medical books. Only after marrying did I learn that the prescription for living together is harder to write."}
+  - {n: 4, hanji: "兩个人來自無仝的家庭，生活習慣有種種的無仝。難免有時會為難，嘛難免會冤家。", tailo: "Nn̄g ê lâng lâi-tsū bô-kāng ê ka-tîng, sing-ua̍h si̍p-kuàn ū tsióng-tsióng ê bô-kāng. Lân-bián ū-sî ē uî-lân, mā lân-bián ē uan-ke.", en: "Two people from different families have all sorts of different habits. It's inevitable that you'll sometimes find things hard, and that you'll quarrel."}
+  - {n: 5, hanji: "冤家的時，是非愛分明，毋過講話愛寬寬仔講。話若講傷重，破壞的感情，久久都補袂倒轉來。", tailo: "Uan-ke ê sî, sī-hui ài hun-bîng, m̄-koh kóng-uē ài khuann-khuann-á kóng. Uē nā kóng siunn tāng, phò-huāi ê kám-tsîng, kú-kú to póo bē tò-tńg--lâi.", en: "When you quarrel, be clear about right and wrong, but speak slowly. Harsh words break feelings that take a long, long time to mend."}
+  - {n: 6, hanji: "愛看對方的表情佮動作，伊無講的話，有時比講出來的較要緊。", tailo: "Ài khuànn tuì-hong ê piáu-tsîng kah tōng-tsok; i bô kóng ê uē, ū-sî pí kóng--tshut-lâi--ê khah iàu-kín.", en: "Watch each other's expressions and gestures: what goes unsaid is sometimes more important than what's said."}
+  - {n: 7, hanji: "翁某是互相倚靠，毋是互相束縛。予對方有家己的時間、家己的朋友，感情才會堅固。", tailo: "Ang-bóo sī hōo-siong uá-khò, m̄ sī hōo-siong sok-pa̍k. Hōo tuì-hong ū ka-kī ê sî-kan, ka-kī ê pîng-iú, kám-tsîng tsiah ē kian-kòo.", en: "Husband and wife lean on each other; they don't tie each other down. Let each other have time and friends of your own, and your love will be strong."}
+  - {n: 8, hanji: "Sam是外國人，秀蘭是臺灣人，文化的性質無仝。毋過我看恁講話真投機，這比啥物攏寶貴。", tailo: "Sam sī guā-kok-lâng, Siù-lân sī Tâi-uân-lâng, bûn-huà ê sìng-tsit bô-kāng. M̄-koh guá khuànn lín kóng-uē tsin tâu-ki, tse pí siánn-mih lóng pó-kuì.", en: "Sam is a foreigner and Siù-lân is Taiwanese; your cultures are different in nature. But I can see you get on so well when you talk, and that's worth more than anything."}
+  - {n: 9, hanji: "接納對方的文化，毋是放棄家己的，是共兩爿的好處結合做伙。", tailo: "Tsiap-la̍p tuì-hong ê bûn-huà, m̄ sī hòng-khì ka-kī--ê, sī kā nn̄g pîng ê hó-tshù kiat-ha̍p tsò-hué.", en: "Accepting each other's culture doesn't mean giving up your own; it means bringing the best of both together."}
+  - {n: 10, hanji: "做人上要緊的，是善良、有慈悲心。看著別人悲慘，會同情；看著別人好，袂怨妒。", tailo: "Tsò-lâng siōng iàu-kín--ê, sī siān-liông, ū tsû-pi-sim. Khuànn-tio̍h pa̍t-lâng pi-tshám, ē tông-tsîng; khuànn-tio̍h pa̍t-lâng hó, bē uàn-tòo.", en: "What matters most in life is to be kind and compassionate: to feel for others in their misery, and not to envy them their good fortune."}
+  - {n: 11, hanji: "古早人講，君子愛財，取之有道。做生理、做頭路，毋通用歹手段，毋通利用別人。", tailo: "Kóo-tsá-lâng kóng, kun-tsú ài tsâi, tshú tsi iú tō. Tsò sing-lí, tsò thâu-lōo, m̄-thang iōng pháinn tshiú-tuānn, m̄-thang lī-iōng pa̍t-lâng.", en: "The old saying goes: a gentleman may love wealth, but he gains it honestly. In business or at work, never use dirty tricks or take advantage of others."}
+  - {n: 12, hanji: "小人投機，趁一時的錢；君子守道德，一世人攏心安。人格比錢較重。", tailo: "Siáu-jîn tâu-ki, thàn tsi̍t-sî ê tsînn; kun-tsú siú tō-tik, tsi̍t-sì-lâng lóng sim-an. Jîn-keh pí tsînn khah tāng.", en: "Petty people speculate and make quick money; gentlemen keep to what's right and have peace of mind all their lives. Character weighs more than money."}
+  - {n: 13, hanji: "人的行為，會牽連厝內的人。一个人做的罪惡，會致使規家伙仔頭攑袂起來。", tailo: "Lâng ê hîng-uî, ē khan-liân tshù-lāi ê lâng. Tsi̍t ê lâng tsò ê tsuē-ok, ē tì-sú kui-ke-hué-á thâu gia̍h bē khí-lâi.", en: "What one person does affects the whole household. One person's wrongdoing can leave the whole family unable to hold their heads up."}
+  - {n: 14, hanji: "翁某佮厝邊頭尾、親情朋友愛有來往。人佮人的接觸，是生活上好的藥。", tailo: "Ang-bóo kah tshù-pinn-thâu-bué, tshin-tsiânn pîng-iú ài ū lâi-óng. Lâng kah lâng ê tsiap-tshiok, sī sing-ua̍h siōng hó ê io̍h.", en: "A married couple should keep up with neighbours, relatives and friends. Contact with other people is the best medicine in life."}
+  - {n: 15, hanji: "我開藥五十冬，看過萬項的病。上無功效的藥，是一个人家己關佇厝內。", tailo: "Guá khui io̍h gōo-tsa̍p tang, khuànn-kuè bān-hāng ê pēnn. Siōng bô kong-hāu ê io̍h, sī tsi̍t ê lâng ka-kī kuainn tī tshù-lāi.", en: "I've prescribed medicine for fifty years and seen every kind of illness. The least effective medicine of all is shutting yourself up at home."}
+  - {n: 16, hanji: "家庭的氣氛愛和平。厝內若和，外口的風雨就袂阻礙恁。", tailo: "Ka-tîng ê khì-hun ài hô-pîng. Tshù-lāi nā hô, guā-kháu ê hong-hōo tō bē tsóo-gāi--lín.", en: "Keep the atmosphere at home peaceful. If there's harmony at home, storms outside won't stand in your way."}
+  - {n: 17, hanji: "日後若有囡仔，愛寬寬仔培養，毋通逼。囡仔毋是恁的物件，是一个人。", tailo: "Ji̍t-āu nā ū gín-á, ài khuann-khuann-á puê-ióng, m̄-thang pik. Gín-á m̄ sī lín ê mi̍h-kiānn, sī tsi̍t ê lâng.", en: "If you have children one day, bring them up patiently and don't push them. A child isn't your possession: a child is a person."}
+  - {n: 18, hanji: "流行的物件來來去去，莫逐項綴。人愛會曉滿足，才袂予欲望拖咧走。", tailo: "Liû-hîng ê mi̍h-kiānn lâi-lâi-khì-khì, mài ta̍k hāng tuè. Lâng ài ē-hiáu buán-tsiok, tsiah bē hōo io̍k-bōng thua leh tsáu.", en: "Fashions come and go: don't chase every one. You have to know how to be content, or your desires will drag you along."}
+  - {n: 19, hanji: "恁阿媽佮我，嘛有冤家冤甲欲脫離的時陣。毋過不管偌受氣，暗時阮攏會講一句好話才睏。", tailo: "Lín a-má kah guá, mā ū uan-ke uan kah beh thuat-lī ê sî-tsūn. M̄-koh put-kuán guā siū-khì, àm-sî guán lóng ē kóng tsi̍t kù hó-uē tsiah khùn.", en: "Your grandmother and I had times when we quarrelled so badly we nearly split up. But however angry we were, we always said one kind word before going to sleep."}
+  - {n: 20, hanji: "愛情毋是啥物偉大的代誌，是逐工的細節。共對方的細節顧好，愛情就會無限。", tailo: "Ài-tsîng m̄ sī siánn-mih uí-tāi ê tāi-tsì, sī ta̍k kang ê sè-tsiat. Kā tuì-hong ê sè-tsiat kòo hó, ài-tsîng tō ē bû-hān.", en: "Love isn't some grand thing: it's in the everyday details. Take care of the little things for each other, and your love will have no end."}
+  - {n: 21, hanji: "這篇文章佮恁無相干的所在，就共伊放袂記；有路用的，就囥咧心肝內。", tailo: "Tsit phinn bûn-tsiong kah lín bô siong-kan ê sóo-tsāi, tō kā i pàng-bē-kì; ū-lōo-īng--ê, tō khǹg leh sim-kuann lāi.", en: "Whatever in this essay doesn't concern you, forget it; whatever is useful, keep it in your heart."}
+  - {n: 22, hanji: "祝恁兩个，翁某同心，食甲百二歲。　阿公　黃　手寫", tailo: "Tsiok lín nn̄g ê, ang-bóo tâng-sim, tsia̍h kah pah-jī huè. A-kong N̂g, tshiú-siá", en: "Wishing you both a marriage of one heart, and a life to a hundred and twenty. Grandad N̂g, by hand"}
+notes:
+  - {ref: 1, topic: vocab, text: "心得 = what one has learnt, insights."}
+  - {ref: 2, topic: vocab, text: "結合 kiat-ha̍p = unite, come together. 緣故 iân-kòo = reason, cause. 階段 kai-tuānn = stage, phase."}
+  - {ref: 3, topic: vocab, text: "講究 káng-kiù = be particular about, take pains over. 相處 = live together, get along."}
+  - {ref: 4, topic: vocab, text: "來自 = come from. 種種 tsióng-tsióng = all kinds of. 難免 lân-bián = be unavoidable, inevitably. 為難 uî-lân = find something difficult; feel awkward."}
+  - {ref: 5, topic: vocab, text: "分明 hun-bîng = clear, distinct. 寬寬仔 khuann-khuann-á = slowly, gently. 破壞 phò-huāi = damage, destroy. 久久 kú-kú = for a long time."}
+  - {ref: 6, topic: vocab, text: "對方 = the other person. 表情 piáu-tsîng = facial expression. 動作 tōng-tsok = movement, gesture."}
+  - {ref: 7, topic: vocab, text: "倚靠 uá-khò = lean on, rely on. 束縛 sok-pa̍k = tie down, restrict. 堅固 kian-kòo = solid, strong."}
+  - {ref: 8, topic: vocab, text: "性質 sìng-tsit = nature, character (of a thing). 投機 tâu-ki = get on well, see eye to eye (its first MOE sense; also 'speculate', line 12)."}
+  - {ref: 9, topic: vocab, text: "接納 tsiap-la̍p = accept, take in."}
+  - {ref: 10, topic: vocab, text: "善良 siān-liông = kind, good-hearted. 慈悲 tsû-pi = compassion; 慈悲心 'a compassionate heart'. 悲慘 pi-tshám = miserable, tragic. 同情 tông-tsîng = sympathise. 怨妒 = envy."}
+  - {ref: 11, topic: vocab, text: "君子 kun-tsú = gentleman, person of integrity. 君子愛財，取之有道: a classical saying. 手段 tshiú-tuānn = means, tactics; 歹手段 'dirty tricks'. 利用 lī-iōng = use; take advantage of."}
+  - {ref: 12, topic: vocab, text: "小人 siáu-jîn = petty person. 投機 = speculate. 道德 tō-tik = morality. 人格 jîn-keh = character, integrity."}
+  - {ref: 13, topic: vocab, text: "行為 hîng-uî = behaviour, conduct. 牽連 khan-liân = implicate, affect. 罪惡 tsuē-ok = wrongdoing, evil. 致使 tì-sú = cause, result in. 頭攑袂起來 = can't hold one's head up."}
+  - {ref: 14, topic: vocab, text: "厝邊頭尾 = the neighbours. 來往 lâi-óng = contact, dealings. 接觸 tsiap-tshiok = contact."}
+  - {ref: 15, topic: vocab, text: "萬項 bān-hāng = every kind, everything. 功效 kong-hāu = effect, efficacy."}
+  - {ref: 16, topic: vocab, text: "氣氛 khì-hun = atmosphere. 和平 hô-pîng = peaceful. 阻礙 tsóo-gāi = obstruct, hinder."}
+  - {ref: 17, topic: vocab, text: "日後 ji̍t-āu = in future, one day. 培養 puê-ióng = bring up, cultivate."}
+  - {ref: 18, topic: vocab, text: "流行 liû-hîng = fashionable; fashion. 滿足 buán-tsiok = be content. 欲望 = desire."}
+  - {ref: 19, topic: vocab, text: "脫離 thuat-lī = break away from, split up. 不管 put-kuán = no matter, however."}
+  - {ref: 20, topic: vocab, text: "偉大 uí-tāi = great, grand. 無限 bû-hān = boundless, infinite."}
+  - {ref: 21, topic: vocab, text: "相干 siong-kan = concern, be relevant to; 無相干 'irrelevant'. 放袂記 = forget."}
+  - {ref: 22, topic: vocab, text: "同心 = of one heart. 食甲百二歲 'live to 120', a traditional wish."}
+new_words:
+  - {tailo: kiat-ha̍p, hanji: 結合, en: "unite, come together"}
+  - {tailo: iân-kòo, hanji: 緣故, en: "reason, cause"}
+  - {tailo: kai-tuānn, hanji: 階段, en: "stage, phase"}
+  - {tailo: káng-kiù, hanji: 講究, en: "be particular about"}
+  - {tailo: tsióng-tsióng, hanji: 種種, en: "all kinds of"}
+  - {tailo: lân-bián, hanji: 難免, en: "be unavoidable"}
+  - {tailo: uî-lân, hanji: 為難, en: "find difficult; feel awkward"}
+  - {tailo: hun-bîng, hanji: 分明, en: "clear, distinct"}
+  - {tailo: khuann-khuann-á, hanji: 寬寬仔, en: "slowly, gently"}
+  - {tailo: phò-huāi, hanji: 破壞, en: "damage, destroy"}
+  - {tailo: kú-kú, hanji: 久久, en: "for a long time"}
+  - {tailo: piáu-tsîng, hanji: 表情, en: "facial expression"}
+  - {tailo: tōng-tsok, hanji: 動作, en: "movement, gesture"}
+  - {tailo: uá-khò, hanji: 倚靠, en: "lean on, rely on"}
+  - {tailo: sok-pa̍k, hanji: 束縛, en: "tie down, restrict"}
+  - {tailo: kian-kòo, hanji: 堅固, en: "solid, strong"}
+  - {tailo: sìng-tsit, hanji: 性質, en: "nature, character"}
+  - {tailo: tâu-ki, hanji: 投機, en: "get on well; speculate"}
+  - {tailo: tsiap-la̍p, hanji: 接納, en: "accept, take in"}
+  - {tailo: siān-liông, hanji: 善良, en: "kind, good-hearted"}
+  - {tailo: tsû-pi, hanji: 慈悲, en: "compassion"}
+  - {tailo: pi-tshám, hanji: 悲慘, en: "miserable, tragic"}
+  - {tailo: tông-tsîng, hanji: 同情, en: "sympathise"}
+  - {tailo: kun-tsú, hanji: 君子, en: "gentleman, person of integrity"}
+  - {tailo: tshiú-tuānn, hanji: 手段, en: "means, tactics"}
+  - {tailo: lī-iōng, hanji: 利用, en: "use; take advantage of"}
+  - {tailo: siáu-jîn, hanji: 小人, en: "petty person"}
+  - {tailo: tō-tik, hanji: 道德, en: "morality"}
+  - {tailo: jîn-keh, hanji: 人格, en: "character, integrity"}
+  - {tailo: hîng-uî, hanji: 行為, en: "behaviour, conduct"}
+  - {tailo: khan-liân, hanji: 牽連, en: "implicate, affect"}
+  - {tailo: tsuē-ok, hanji: 罪惡, en: "wrongdoing, evil"}
+  - {tailo: tì-sú, hanji: 致使, en: "cause, result in"}
+  - {tailo: lâi-óng, hanji: 來往, en: "contact, dealings"}
+  - {tailo: tsiap-tshiok, hanji: 接觸, en: "contact"}
+  - {tailo: bān-hāng, hanji: 萬項, en: "every kind, everything"}
+  - {tailo: kong-hāu, hanji: 功效, en: "effect, efficacy"}
+  - {tailo: khì-hun, hanji: 氣氛, en: "atmosphere"}
+  - {tailo: hô-pîng, hanji: 和平, en: "peaceful; peace"}
+  - {tailo: tsóo-gāi, hanji: 阻礙, en: "obstruct, hinder"}
+  - {tailo: ji̍t-āu, hanji: 日後, en: "in future"}
+  - {tailo: puê-ióng, hanji: 培養, en: "bring up, cultivate"}
+  - {tailo: liû-hîng, hanji: 流行, en: "fashionable; fashion"}
+  - {tailo: buán-tsiok, hanji: 滿足, en: "be content"}
+  - {tailo: thuat-lī, hanji: 脫離, en: "break away from"}
+  - {tailo: put-kuán, hanji: 不管, en: "no matter, however"}
+  - {tailo: uí-tāi, hanji: 偉大, en: "great, grand"}
+  - {tailo: bû-hān, hanji: 無限, en: "boundless"}
+  - {tailo: siong-kan, hanji: 相干, en: "concern, be relevant to"}
+exercises:
+  translate:
+    - {tailo: "Nn̄g ê lâng ē kiat-ha̍p, sī ū iân-kòo--ê.", hanji: "兩个人會結合，是有緣故的。", en: "Two people come together for a reason."}
+    - {tailo: "Ang-bóo sī hōo-siong uá-khò, m̄ sī hōo-siong sok-pa̍k.", hanji: "翁某是互相倚靠，毋是互相束縛。", en: "Husband and wife lean on each other; they don't tie each other down."}
+    - {tailo: "Tsò-lâng siōng iàu-kín--ê, sī siān-liông, ū tsû-pi-sim.", hanji: "做人上要緊的，是善良、有慈悲心。", en: "What matters most in life is to be kind and compassionate."}
+    - {tailo: "Jîn-keh pí tsînn khah tāng.", hanji: "人格比錢較重。", en: "Character weighs more than money."}
+    - {tailo: "Lâng ài ē-hiáu buán-tsiok.", hanji: "人愛會曉滿足。", en: "You have to know how to be content."}
+    - {tailo: "A-kong kóng, ang-bóo ê bô-kāng sī lân-bián--ê, m̄-koh nā ē-hiáu tsiap-la̍p tuì-hong, kám-tsîng tō ē kian-kòo.", hanji: "阿公講，翁某的無仝是難免的，毋過若會曉接納對方，感情就會堅固。", en: "Grandad says differences between husband and wife are inevitable, but if you know how to accept each other, your love will be strong."}
+    - {tailo: "Kun-tsú siú tō-tik, m̄ ē iōng pháinn tshiú-tuānn lī-iōng pa̍t-lâng, siáu-jîn tsiah ē tâu-ki thàn tsi̍t-sî ê tsînn.", hanji: "君子守道德，毋會用歹手段利用別人，小人才會投機趁一時的錢。", en: "A person of integrity keeps to what's right and never uses dirty tricks to take advantage of others; only petty people speculate for quick money."}
+  fill:
+    - {tailo: "Nn̄g ê lâng ê si̍p-kuàn bô-kāng, ___ ē uan-ke.", hanji: "兩个人的習慣無仝，___會冤家。", answer: "lân-bián", answer_hanji: "難免", en: "Two people have different habits, so it's inevitable that they'll quarrel."}
+    - {tailo: "Ài khuànn tuì-hong ê ___ kah tōng-tsok.", hanji: "愛看對方的___佮動作。", answer: "piáu-tsîng", answer_hanji: "表情", en: "Watch each other's expressions and gestures."}
+    - {tailo: "M̄-thang iōng pháinn tshiú-tuānn, m̄-thang ___ pa̍t-lâng.", hanji: "毋通用歹手段，毋通___別人。", answer: "lī-iōng", answer_hanji: "利用", en: "Never use dirty tricks or take advantage of others."}
+    - {tailo: "Ka-tîng ê ___ ài hô-pîng.", hanji: "家庭的___愛和平。", answer: "khì-hun", answer_hanji: "氣氛", en: "Keep the atmosphere at home peaceful."}
+    - {tailo: "Ài-tsîng m̄ sī siánn-mih ___ ê tāi-tsì.", hanji: "愛情毋是啥物___的代誌。", answer: "uí-tāi", answer_hanji: "偉大", en: "Love isn't some grand thing."}
+    - {tailo: "Lâng nā bô ē-hiáu ___, tō ē hōo io̍k-bōng thua leh tsáu, siánn-mih liû-hîng to beh tuè, tsînn khai liáu-liáu mā bē huann-hí.", hanji: "人若無會曉___，就會予欲望拖咧走，啥物流行都欲綴，錢開了了嘛袂歡喜。", answer: "buán-tsiok", answer_hanji: "滿足", en: "If you don't know how to be content, your desires drag you along and you chase every fashion, spending all your money and still not happy."}
+audio: []

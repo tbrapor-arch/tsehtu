@@ -1,21 +1,20 @@
-# 進修 batch P57–P63: finished and merged to main on 3 Nov 2026 (started 29 Oct)
+# 進修 batch P64–P70, the final batch: finished and merged to main on 3 Nov 2026
 
 If a session stops (credits, container reset), resume from here.
 
-- Work branch: `wip-p57-63` on GitHub (tbrapor-arch/tsehtu). Each finished lesson is committed and pushed there.
-  Resume: `git fetch && git checkout wip-p57-63`, continue with the first lesson marked "todo", then merge to main.
+- Work branch: `wip-p64-70` on GitHub (tbrapor-arch/tsehtu). Each finished lesson is committed and pushed there.
+  Resume: `git fetch && git checkout wip-p64-70`, continue with the first lesson marked "todo", then merge to main.
 - Rules and checks: see docs/perfectionnement-plan.md (Checks per batch). Aim about 40 new words per lesson.
-- Genres mirror P22–P28 (second wave): diary, tale, interview, news, document, debate, review.
+- Genres mirror P29–P35 (second wave): letter, play, essay, song, speech, story, review.
+- Story arc of the final batch: Sam asks for Siù-lân's hand, engagement, wedding (P70).
+- After the batch: coverage recap and suggestions for what comes after 進修 (asked by the user on 3 Nov).
 
 | # | genre | plan | status |
 |---|---|---|---|
-| P57 | diary | Sam's diary of Lunar New Year week in Tainan (Feb 2027): cleaning, reunion dinner, firecrackers, Jade Emperor's birthday | done (40 new words) |
-| P58 | tale | 白賊七 (Pe̍h-tsha̍t-tshit), the Taiwanese trickster | done (44 new words) |
-| P59 | interview | a temple medium's interpreter (桌頭) on spirit mediums (童乩), told respectfully | done (42 new words) |
-| P60 | news | TV news bulletin, several short items | done (44 new words) |
-| P61 | document | A-kong's rooftop vegetable-garden tips (mahjong dropped: too few MOE words) | done (38 new words) |
-| P62 | debate | Hūi-hūi's class: is tourism good for a town like Lukang? | done (46 new words) |
-| P63 | review | recombines P57–P62, no new words | done (0 new words) |
-
-After all seven: extra exercises (tools/exercises.py), lint, make test, xrefs, taught_later 157 163, qc, build,
-glosses (english-auto), partial smoke from id 157, update plan doc + PROJECT_NOTES, merge to main, push, check deploy.
+| P64 | letter | Sam writes to Mr N̂g, Siù-lân's father, asking for her hand (echo of P29) | done (34 new words) |
+| P65 | play | the engagement ceremony (訂婚): tea, rings, cakes, customs, comedy | done (31 new words) |
+| P66 | essay | Mr N̂g's essay for Siù-lân and Sam on marriage and life (language theme dropped: P31 used its words) | done (49 new words) |
+| P67 | song | original song for the wedding | done (28 new words) |
+| P68 | speech | Sam's speech on passing the Taigi proficiency exam | done (36 new words) |
+| P69 | story | the missing wedding rings; Uncle Lîm the retired detective (P34) investigates | done (32 new words) |
+| P70 | review | Sam and Siù-lân's wedding banquet, recombining P64–P69 | done (0 new words) |
