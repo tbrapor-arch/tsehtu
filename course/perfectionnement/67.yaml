@@ -36,7 +36,7 @@ notes:
   - {ref: 5, topic: vocab, text: "小路 sió-lōo = lane, path."}
   - {ref: 6, topic: vocab, text: "弦 hiân = string (of an instrument). 彈 tuânn = play (a stringed instrument)."}
   - {ref: 7, topic: vocab, text: "痴迷 tshi-bê = infatuated, smitten."}
-  - {ref: 8, topic: vocab, text: "合唱 = chorus, sing together. 有緣 ū-iân = be meant for each other; 無緣 bô-iân 'not meant to be'. 相逢 siong-hông = meet. Lines 8–9 echo the saying 有緣千里來相會，無緣對面毋相識."}
+  - {ref: 8, topic: vocab, text: "合唱 ha̍p-tshiùnn = chorus, sing together. 有緣 ū-iân = be meant for each other; 無緣 bô-iân 'not meant to be'. 相逢 siong-hông = meet. Lines 8–9 echo the saying 有緣千里來相會，無緣對面毋相識."}
   - {ref: 9, topic: vocab, text: "相識 siong-sik = know each other."}
   - {ref: 10, topic: vocab, text: "指引 tsí-ín = guide, show the way."}
   - {ref: 11, topic: vocab, text: "歲月 suè-gua̍t = the years, time. 約定 iok-tīng = promise, agreement. 不變 put-piàn = unchanging."}
@@ -57,6 +57,7 @@ new_words:
   - {tailo: sió-lōo, hanji: 小路, en: "lane, path"}
   - {tailo: hiân, hanji: 弦, en: "string (of an instrument)"}
   - {tailo: tuânn, hanji: 彈, en: "play (a stringed instrument)"}
+  - {tailo: ha̍p-tshiùnn, hanji: 合唱, en: "chorus; sing together"}
   - {tailo: tshi-bê, hanji: 痴迷, en: "infatuated, smitten"}
   - {tailo: ū-iân, hanji: 有緣, en: "be meant for each other"}
   - {tailo: bô-iân, hanji: 無緣, en: "not meant to be"}
