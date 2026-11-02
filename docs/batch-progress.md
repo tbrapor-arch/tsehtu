@@ -13,8 +13,8 @@ If a session stops (credits, container reset), resume from here.
 |---|---|---|---|
 | P64 | letter | Sam writes to Mr N̂g, Siù-lân's father, asking for her hand (echo of P29) | done (34 new words) |
 | P65 | play | the engagement ceremony (訂婚): tea, rings, cakes, customs, comedy | done (31 new words) |
-| P66 | essay | magazine column: can Taigi be passed on? (mother tongue, revival) | done (49 new words) |
-| P67 | song | original song for the wedding | todo |
+| P66 | essay | Mr N̂g's essay for Siù-lân and Sam on marriage and life (language theme dropped: P31 used its words) | done (49 new words) |
+| P67 | song | original song for the wedding | done (28 new words) |
 | P68 | speech | Sam's speech on passing the Taigi proficiency exam | todo |
 | P69 | story | the missing wedding rings; Uncle Lîm the retired detective (P34) investigates | todo |
 | P70 | review | Sam and Siù-lân's wedding banquet, recombining P64–P69 | todo |
