@@ -99,10 +99,13 @@ exercises:
     - {tailo: "Nā ū ha̍p-lí ê kui-huān, tō ē-tàng î-tshî pîng-hîng.", hanji: "若有合理的規範，就會當維持平衡。", en: "With sensible rules, you can keep a balance."}
     - {tailo: "Kuan-kong m̄ sī m̄ hó, m̄-koh ài ū hān-tōo.", hanji: "觀光毋是毋好，毋過愛有限度。", en: "Tourism isn't bad in itself, but there have to be limits."}
     - {tailo: "Piān-lūn m̄ sī sio-mē, sī iōng tō-lí hōo lâng thiann.", hanji: "辯論毋是相罵，是用道理予人聽。", en: "Debating isn't quarrelling, it's persuading people with reasons."}
+    - {tailo: "Iû-kheh lâi liáu-āu, lāu-ke ū siong-ki, siàu-liân-lâng tńg--lâi khui tiàm, tsiū-gia̍p ê ki-huē mā ke tsin tsē.", hanji: "遊客來了後，老街有商機，少年人轉來開店，就業的機會嘛加真濟。", en: "Once the tourists came, there was business on the old streets: young people came back to open shops, and there were many more jobs."}
+    - {tailo: "Tiàm-bīn ê tsoo-kim khí-kè liáu-āu, guân-pún ê lāu tiàm sîng-siū bē tiâu, lāu-ke suah piàn-tsò bô ti̍k-sik ê sóo-tsāi.", hanji: "店面的租金起價了後，原本的老店承受袂牢，老街煞變做無特色的所在。", en: "When shop rents went up, the old shops couldn't cope, and the old streets lost their character."}
   fill:
     - {tailo: "Siàu-liân-lâng tńg--lâi khui tiàm, pâi ___.", hanji: "少年人轉來開店、排___。", answer: "thuann-huàn", answer_hanji: "攤販", en: "Young people come back to open shops and run stalls."}
     - {tailo: "Lé-pài-la̍k ji̍t lāu-ke kui kang tshá kah, ___ àm-sî to khùn bē khì.", hanji: "禮拜六日老街規工吵甲，___暗時都睏袂去。", answer: "ki-bîn", answer_hanji: "居民", en: "At weekends the old streets are noisy all day, and residents can't sleep at night."}
     - {tailo: "Ū ê iû-kheh bô ___, tsia̍h liáu tō sì-kè tàn.", hanji: "有的遊客無___，食了就四界擲。", answer: "kong-tik-sim", answer_hanji: "公德心", en: "Some tourists have no public spirit: they throw their rubbish anywhere."}
     - {tailo: "Guá ê ___ sī: kuan-kong sī tsi̍t ê ki-huē.", hanji: "我的___是：觀光是一个機會。", answer: "li̍p-tiûnn", answer_hanji: "立場", en: "My position is that tourism is an opportunity."}
     - {tailo: "Siōng hó ê pān-huat, khó-lîng sī ___.", hanji: "上好的辦法，可能是___。", answer: "thò-hia̍p", answer_hanji: "妥協", en: "The best solution may be a compromise."}
+    - {tailo: "Lāu-su kóng, nn̄g ê ê ___ ū tsi̍t ê sóo-tsāi sio-kāng: lóng hi-bāng Lo̍k-káng ē-tàng íng-sio̍k.", hanji: "老師講，兩个的___有一个所在相仝：攏希望鹿港會當永續。", answer: "lūn-tiám", answer_hanji: "論點", en: "The teacher said both their arguments had one thing in common: they both want Lukang to be sustainable."}
 audio: []

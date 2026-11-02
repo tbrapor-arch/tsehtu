@@ -101,10 +101,13 @@ exercises:
     - {tailo: "Sìn kah bô sìn, lóng ài hōo-siong tsun-tiōng.", hanji: "信佮無信，攏愛互相尊重。", en: "Believers and non-believers should respect each other."}
     - {tailo: "Sin-thé nā bô sóng-khuài, sing khì khuànn i-sing.", hanji: "身體若無爽快，先去看醫生。", en: "If you're not feeling well, see a doctor first."}
     - {tailo: "Tuì sîn-bîng, it-tīng ài khiân-sîng.", hanji: "對神明，一定愛虔誠。", en: "You must always be devout towards the gods."}
+    - {tailo: "Tâng-ki khí-tâng ê sî, sîn-bîng kàng--lo̍h-lâi, i iōng kiàm phah ka-kī, lâu-hueh mā bô kám-kak thiànn, thè-tâng liáu-āu koh bô kì-ik.", hanji: "童乩起童的時，神明降落來，伊用劍拍家己，流血嘛無感覺疼，退童了後閣無記憶。", en: "When the medium goes into trance, the god comes down; he beats himself with a sword and bleeds without feeling pain, and afterwards remembers nothing."}
+    - {tailo: "Ū lâng kóng tse sī bê-sìn, m̄-koh tuì sìn-tsiòng lâi kóng, tse sī kuí-nā pah tang ê thuân-sîng, mā sī tsi̍t tsióng an-uì.", hanji: "有人講這是迷信，毋過對信眾來講，這是幾若百冬的傳承，嘛是一種安慰。", en: "Some say it's superstition, but for the worshippers it's a tradition hundreds of years old, and a comfort too."}
   fill:
     - {tailo: "Thè-tâng liáu-āu, i mā lóng bô ___.", hanji: "退童了後，伊嘛攏無___。", answer: "kì-ik", answer_hanji: "記憶", en: "Afterwards he has no memory of it."}
     - {tailo: "Mn̄g ___, mn̄g thâu-lōo.", hanji: "問___，問頭路。", answer: "ūn-tôo", answer_hanji: "運途", en: "They ask about their luck and their jobs."}
     - {tailo: "In hāu-senn tshut tshia-hō, ___ kui lé-pài.", hanji: "𪜶後生出車禍，___規禮拜。", answer: "hūn-bê", answer_hanji: "昏迷", en: "Her son had a car accident and was in a coma for a week."}
     - {tailo: "Guán ê Ông-iâ tsin ___, tsin siànn.", hanji: "阮的王爺真___、真聖。", answer: "lîng-giām", answer_hanji: "靈驗", en: "Our Royal Lord really answers prayers."}
     - {tailo: "Tsit khuán ___, kám ū siàu-liân-lâng beh tsiap?", hanji: "這款___，敢有少年人欲接？", answer: "thuân-sîng", answer_hanji: "傳承", en: "Are young people willing to carry on this tradition?"}
+    - {tailo: "Ông-iâ kóng i ē tshénn, tē-la̍k kang i tsin-tsiànn tshénn--kuè-lâi, tsng--lí ê lâng lóng kóng Ông-iâ ê uē ___.", hanji: "王爺講伊會醒，第六工伊真正醒過來，庄裡的人攏講王爺的話___。", answer: "ìng-giām", answer_hanji: "應驗", en: "The Royal Lord said he'd wake, and on the sixth day he really did: the whole village says the Royal Lord's words came true."}
 audio: []

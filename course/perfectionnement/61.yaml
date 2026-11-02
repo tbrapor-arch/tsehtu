@@ -90,10 +90,13 @@ exercises:
     - {tailo: "Tsuí siunn tsē, tshài tian-tò ē lian--khì.", hanji: "水傷濟，菜顛倒會蔫去。", en: "Too much water and the plants will actually wilt."}
     - {tailo: "Kam-á-bi̍t ài tán i âng kah sîng-si̍k tsiah tiah.", hanji: "柑仔蜜愛等伊紅甲成熟才摘。", en: "Wait until the tomatoes are red and ripe before picking them."}
     - {tailo: "Tsìng tshài kah tsò-lâng kāng-khuán, ài ū nāi-sìng.", hanji: "種菜佮做人仝款，愛有耐性。", en: "Growing vegetables is like life: you need patience."}
+    - {tailo: "Tsíng-tsí iā--lo̍h-khì liáu-āu, ínn nā huat siunn ba̍t, tō ài kā khah sè--ê khau--tiāu, hōo tshun ê biâu khah ū khong-kan.", hanji: "種子掖落去了後，穎若發傷密，就愛共較細的薅掉，予賰的苗較有空間。", en: "After sowing, if the sprouts come up too thick, pull out the smaller ones to give the remaining seedlings more room."}
+    - {tailo: "Siù-lân kóng, nā khuànn-tio̍h tshài-thâng kah lōo-lê, guá tō the̍h tshiú-tiān-á khì lia̍h, m̄-ài phùn io̍h-á, ah-bó ê sái mā ē-tàng tsò tui-puî.", hanji: "秀蘭講，若看著菜蟲佮露螺，我就提手電仔去掠，毋愛噴藥仔，鴨母的屎嘛會當做堆肥。", en: "Siù-lân says that if she sees caterpillars or snails she'll catch them with a torch rather than spray, and that duck droppings can go in the compost too."}
   fill:
     - {tailo: "Phûn-á té it-tīng ài ū khang, hōo i ē ___.", hanji: "盆仔底一定愛有空，予伊會___。", answer: "pâi-tsuí", answer_hanji: "排水", en: "There must be holes in the bottom of the pots so they drain."}
     - {tailo: "Tsíng-tsí iā--lo̍h-khì liáu-āu, sann gōo kang tō ē ___.", hanji: "種子掖落去了後，三五工就會___。", answer: "huat-ínn", answer_hanji: "發穎", en: "After sowing the seeds, in three to five days they'll sprout."}
     - {tailo: "Tsit nn̄g tsióng ē ___, ài iōng tik-á tshah tsi̍t ê kè-á.", hanji: "這兩種會___，愛用竹仔插一个架仔。", answer: "khan-tîn", answer_hanji: "牽藤", en: "Both of these climb, so put up a frame of bamboo canes."}
     - {tailo: "Tsa̍p-tsháu ài tsia̍p-tsia̍p ___.", hanji: "雜草愛捷捷___。", answer: "khau", answer_hanji: "薅", en: "Weed often."}
     - {tailo: "Tsiáu-á nā lâi tok, tō tshah tsi̍t ê ___.", hanji: "鳥仔若來啄，就插一个___。", answer: "tiū-tsháu-lâng", answer_hanji: "稻草人", en: "If birds come pecking, put up a scarecrow."}
+    - {tailo: "Sam bé lê-bóng ê biâu, a-kong kā i kóng ài tsìng tī khah tuā ê ___, koh ài ū nāi-sìng tán kuí-nā tang.", hanji: "Sam買檸檬的苗，阿公共伊講愛種佇較大的___，閣愛有耐性等幾若冬。", answer: "phûn", answer_hanji: "盆", en: "Sam bought a lemon seedling; A-kong told him to plant it in a bigger pot and be patient for a few years."}
 audio: []

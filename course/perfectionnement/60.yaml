@@ -96,10 +96,13 @@ exercises:
     - {tailo: "Lâng m̄-thang tham bô ing-kai tit ê tsînn.", hanji: "人毋通貪無應該得的錢。", en: "You mustn't covet money that isn't yours."}
     - {tailo: "Tsit pái ê pēnn-to̍k thuân-jiám tsiok kín.", hanji: "這擺的病毒傳染足緊。", en: "This year's virus spreads very fast."}
     - {tailo: "Hó-ka-tsài bô siong-bông.", hanji: "好佳哉無傷亡。", en: "Fortunately there were no casualties."}
+    - {tailo: "Siau-hông jîn-uân kuánn khì kiù-hué, tsū-hōo lóng uì lâu-thui tô--tshut-lâi, kan-na sann ê lâng khin-siong sàng-i.", hanji: "消防人員趕去救火，住戶攏對樓梯逃出來，干焦三个人輕傷送醫。", en: "Firefighters rushed to put out the fire; the residents all escaped down the stairs, and only three people were taken to hospital with minor injuries."}
+    - {tailo: "Kíng-hong hoo-io̍k bîn-tsiòng ài hông-huān, thiann-tio̍h kiò lí niá tsînn ê tiān-uē, tō má-siōng kuà--tiāu, mài hōo tsi̍p-thuân phiàn--khì.", hanji: "警方呼籲民眾愛防範，聽著叫你領錢的電話，就馬上掛掉，莫予集團騙去。", en: "Police urge everyone to be on their guard: if you get a call asking you to withdraw money, hang up at once and don't let the gang cheat you."}
   fill:
     - {tailo: "Tsi̍t-pah-guā ê siau-hông jîn-uân kuánn khì ___.", hanji: "一百外个消防人員趕去___。", answer: "kiù-hué", answer_hanji: "救火", en: "More than a hundred firefighters rushed to put out the fire."}
     - {tailo: "Kíng-hong lia̍h-tio̍h tsa̍p ê ___.", hanji: "警方掠著十个___。", answer: "hiâm-huān", answer_hanji: "嫌犯", en: "Police arrested ten suspects."}
     - {tailo: "Kíng-tshat-kio̍k beh ___ Lâu--sian-sinn.", hanji: "警察局欲___劉先生。", answer: "piáu-iông", answer_hanji: "表揚", en: "The police will honour Mr Lâu."}
     - {tailo: "Tsit ê lé-pài-la̍k ji̍t ū kuí-nā bān lâng tsiūnn suann ___.", hanji: "這个禮拜六日有幾若萬人上山___。", answer: "siúnn-hue", answer_hanji: "賞花", en: "Tens of thousands of people went up the mountain to see the blossom this weekend."}
     - {tailo: "Kíng-hong si̍t-si kau-thong ___.", hanji: "警方實施交通___。", answer: "kuán-tsè", answer_hanji: "管制", en: "Police brought in traffic controls."}
+    - {tailo: "Tsuè-kīn liû-kám tsin lī-hāi, i-sing kóng tsit pái ê pēnn-to̍k ___ tsiok kín, lāu-tuā-lâng ài khah sè-jī.", hanji: "最近流感真厲害，醫生講這擺的病毒___足緊，老大人愛較細膩。", answer: "thuân-jiám", answer_hanji: "傳染", en: "There's a lot of flu about: doctors say this year's virus spreads very fast, and old people should take extra care."}
 audio: []

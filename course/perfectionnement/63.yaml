@@ -44,10 +44,13 @@ exercises:
     - {tailo: "Sin-thé nā bô sóng-khuài, ài sing khuànn i-sing.", hanji: "身體若無爽快，愛先看醫生。", en: "If you're unwell, see a doctor first."}
     - {tailo: "Kuan-kong ē-tàng tsín-hing tē-hng, m̄-koh ài ū hān-tōo.", hanji: "觀光會當振興地方，毋過愛有限度。", en: "Tourism can revive a town, but there have to be limits."}
     - {tailo: "Tsìng tshài mā ài pîng-hîng.", hanji: "種菜嘛愛平衡。", en: "Growing vegetables needs balance too."}
+    - {tailo: "Sam tsìng ê kam-á-bi̍t iáu-buē sîng-si̍k, tsiáu-á koh lâi tok tshài-tāu, i bô-pōo, tsí-hó tī tshù-tíng tshah tsi̍t ê tiū-tsháu-lâng.", hanji: "Sam種的柑仔蜜猶未成熟，鳥仔閣來啄菜豆，伊無步，只好佇厝頂插一个稻草人。", en: "Sam's tomatoes aren't ripe yet, and the birds keep pecking at his beans, so with nothing else for it he's put up a scarecrow on the roof."}
+    - {tailo: "Lâu--sian-sinn khioh-tio̍h tsînn, suî sàng khì kíng-tshat-kio̍k, kíng-tshat-kio̍k beh piáu-iông--i, koh pan tsióng-tsn̄g hōo i.", hanji: "劉先生抾著錢，隨送去警察局，警察局欲表揚伊，閣頒獎狀予伊。", en: "Mr Lâu found the money and took it straight to the police, who are going to honour him and give him a certificate."}
   fill:
     - {tailo: "Iáu-buē ___, iáu tshenn-tshenn.", hanji: "猶未___，猶青青。", answer: "sîng-si̍k", answer_hanji: "成熟", en: "They're not ripe yet, still green."}
     - {tailo: "Uân-guē sī ___.", hanji: "員外是___。", answer: "tsū-tsok-tsū-siū", answer_hanji: "自作自受", en: "The Squire brought it on himself."}
     - {tailo: "Kíng-tshat-kio̍k beh ___--i.", hanji: "警察局欲___伊。", answer: "piáu-iông", answer_hanji: "表揚", en: "The police are going to honour him."}
     - {tailo: "Gún a-bú tshue ê huat-kué ū huat, ___!", hanji: "阮阿母炊的發粿有發，___！", answer: "hó-tshái-thâu", answer_hanji: "好彩頭", en: "My mum's prosperity cake rose: a good omen!"}
     - {tailo: "Siōng hó ê pān-huat sī ___, hōo ki-bîn kah iû-kheh siang-iânn.", hanji: "上好的辦法是___，予居民佮遊客雙贏。", answer: "thò-hia̍p", answer_hanji: "妥協", en: "The best solution is a compromise, so that residents and tourists both win."}
+    - {tailo: "Hūi-hūi kóng, kuan-kong ē-tàng ___ tē-hng, m̄-koh ài ū hān-tōo.", hanji: "惠惠講，觀光會當___地方，毋過愛有限度。", answer: "tsín-hing", answer_hanji: "振興", en: "Hūi-hūi says tourism can revive a town, but there have to be limits."}
 audio: []

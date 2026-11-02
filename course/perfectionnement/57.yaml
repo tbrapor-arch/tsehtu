@@ -93,10 +93,13 @@ exercises:
     - {tailo: "Tn̂g-nî-tshài ài kui hio̍h tsia̍h, bē-sái kā tn̄g.", hanji: "長年菜愛規葉食，袂使咬斷。", en: "You have to eat the long-year greens leaf by leaf, without biting them in two."}
     - {tailo: "Sin-tsiann nî-thâu, ta̍k-ke kìnn-bīn lóng kóng hó-uē.", hanji: "新正年頭，逐家見面攏講好話。", en: "At the start of the year everyone greets each other with good wishes."}
     - {tailo: "Guá kám-kak ka-kī tsin ū hok.", hanji: "我感覺家己真有福。", en: "I feel very lucky."}
+    - {tailo: "Sam tī a-má tau o̍h tshue kué, sing kā tsāi-lâi-bí tsìm tsuí, koh buâ tsò bí-tsiunn, tshue liáu huat-kué suah bô huat.", hanji: "Sam佇阿媽兜學炊粿，先共在來米浸水，閣磨做米漿，炊了發粿煞無發。", en: "At A-má's, Sam learnt to steam rice cakes: he soaked the rice, ground it into batter, and then his prosperity cake didn't rise."}
+    - {tailo: "Kuè-nî ê sî, gín-á-lâng ài ū-hīnn-bô-tshuì, m̄-thang kóng pháinn-uē, tuā-lâng tō ē the̍h teh-nî-tsînn hōo in.", hanji: "過年的時，囡仔人愛有耳無喙，毋通講歹話，大人就會提硩年錢予𪜶。", en: "At New Year children should listen and not talk, and avoid unlucky words; then the grown-ups give them New Year money."}
   fill:
     - {tailo: "Kin-àm kong-si tsia̍h ___, thâu-ke tshiánn ta̍k-ke tsia̍h kuah-pau.", hanji: "今暗公司食___，頭家請逐家食割包。", answer: "bué-gê", answer_hanji: "尾牙", en: "Tonight was the company's year-end banquet: the boss treated us all to pork buns."}
     - {tailo: "Ē-poo guán tī sîn-toh tíng pâi sam-sing, ___ tsóo-sian.", hanji: "下晡阮佇神桌頂排三牲，___祖先。", answer: "tsè-pài", answer_hanji: "祭拜", en: "In the afternoon we laid out the three meats on the altar table and made offerings to the ancestors."}
     - {tailo: "Tsia̍h-pá, a-kong the̍h ___ hōo ta̍k-ke.", hanji: "食飽，阿公提___予逐家。", answer: "teh-nî-tsînn", answer_hanji: "硩年錢", en: "After dinner A-kong handed out New Year money to everyone."}
     - {tailo: "A-kong tsē tī thiann--lí tán lâng lâi ___.", hanji: "阿公坐佇廳裡等人來___。", answer: "pài-nî", answer_hanji: "拜年", en: "A-kong sat in the front room waiting for visitors to come with their New Year greetings."}
     - {tailo: "A-ióng kah Siok-tsing tńg-khì Siok-tsing in tau ___.", hanji: "阿勇佮淑貞轉去淑貞𪜶兜___。", answer: "tsò-kheh", answer_hanji: "做客", en: "A-ióng and Siok-tsing went to Siok-tsing's parents for the married daughter's New Year visit."}
+    - {tailo: "Khui-tsiann hit kang, lâng-kheh lâi ___, a-kong tō tshiánn in tsia̍h tê-puânn lāi ê kim-tsó kah kue-tsí.", hanji: "開正彼工，人客來___，阿公就請𪜶食茶盤內的金棗佮瓜子。", answer: "pài-nî", answer_hanji: "拜年", en: "On New Year's Day, when visitors came with their greetings, A-kong offered them candied kumquats and melon seeds from the tea tray."}
 audio: []

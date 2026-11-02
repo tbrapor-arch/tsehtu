@@ -100,10 +100,13 @@ exercises:
     - {tailo: "Bô hué, tiánn ná ē ka-kī kún?", hanji: "無火，鼎哪會家己滾？", en: "No fire, and the pot's boiling by itself?"}
     - {tailo: "Uân-guē tsia̍h-khui koh hōo lâng khue, jú siūnn jú m̄ kam-guān.", hanji: "員外食虧閣予人詼，愈想愈毋甘願。", en: "Out of pocket and a laughing stock, the Squire grew more and more bitter."}
     - {tailo: "Tham-tsâi ê lâng, tse tō sī tsū-tsok-tsū-siū.", hanji: "貪財的人，這就是自作自受。", en: "That's what greed gets you: he brought it on himself."}
+    - {tailo: "Uân-guē tàng-sng koh tham-tsâi, khuànn-tio̍h ē ka-kī kún ê tiánn tō khí tham-sim, liân khui-kè tsi̍t-pah niú n̂g-kim to bé, āu--lâi tsiah tsai-iánn hōo lâng phiàn--khì.", hanji: "員外凍霜閣貪財，看著會家己滾的鼎就起貪心，連開價一百兩黃金都買，後來才知影予人騙去。", en: "The Squire was stingy and greedy: seeing a pot that boiled by itself, he couldn't resist and paid even a hundred taels of gold for it, only to find out later he'd been cheated."}
+    - {tailo: "Kuann-uân kā Pe̍h-tsha̍t-tshit khîm lâi gê-mn̂g sím-phuànn, guân-pún beh hōo i tsē-kann, āu--lâi suah kā i sià-bián, koh mē uân-guē sī gōng-tuā-tai.", hanji: "官員共白賊七擒來衙門審判，原本欲予伊坐監，後來煞共伊赦免，閣罵員外是戇大呆。", en: "The magistrate had Liar Seven brought to court and was going to jail him, but in the end he pardoned him and called the Squire a great fool."}
   fill:
     - {tailo: "I tàng-sng koh tham-tsâi, tsia̍p-tsia̍p ___ sàn-tshiah-lâng.", hanji: "伊凍霜閣貪財，捷捷___散赤人。", answer: "khi-phiàn", answer_hanji: "欺騙", en: "He was stingy and greedy, and often cheated the poor."}
     - {tailo: "Pe̍h-tsha̍t-tshit ___ tsi̍t-pah niú n̂g-kim.", hanji: "白賊七___一百兩黃金。", answer: "khui-kè", answer_hanji: "開價", en: "Liar Seven asked for a hundred taels of gold."}
     - {tailo: "Kuann-uân kā Pe̍h-tsha̍t-tshit khîm lâi ___.", hanji: "官員共白賊七擒來___。", answer: "sím-phuànn", answer_hanji: "審判", en: "The magistrate had Liar Seven arrested and tried."}
     - {tailo: "Uân-guē ___ guá tshuā i ê tsa-bóo-kiánn.", hanji: "員外___我娶伊的查某囝。", answer: "pik", answer_hanji: "逼", en: "The Squire wants to force me to marry his daughter."}
     - {tailo: "Hái-té iáu-koh ū tsin tsē ___.", hanji: "海底猶閣有真濟___。", answer: "tsâi-pó", answer_hanji: "財寶", en: "There's plenty more treasure down there."}
+    - {tailo: "Hit ê gōng-ti̍t ê siàu-liân-ke khan-gû kiânn--kuè, thiann-tio̍h Pe̍h-tsha̍t-tshit kóng uân-guē ___ i tshuā tsa-bóo-kiánn, tō kah i uānn uī.", hanji: "彼个戇直的少年家牽牛行過，聽著白賊七講員外___伊娶查某囝，就佮伊換位。", answer: "pik", answer_hanji: "逼", en: "The simple young man leading his ox heard Liar Seven say the Squire was forcing him to marry his daughter, and swapped places with him."}
 audio: []
