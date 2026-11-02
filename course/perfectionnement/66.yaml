@@ -106,10 +106,13 @@ exercises:
     - {tailo: "Tsò-lâng siōng iàu-kín--ê, sī siān-liông, ū tsû-pi-sim.", hanji: "做人上要緊的，是善良、有慈悲心。", en: "What matters most in life is to be kind and compassionate."}
     - {tailo: "Jîn-keh pí tsînn khah tāng.", hanji: "人格比錢較重。", en: "Character weighs more than money."}
     - {tailo: "Lâng ài ē-hiáu buán-tsiok.", hanji: "人愛會曉滿足。", en: "You have to know how to be content."}
+    - {tailo: "A-kong kóng, ang-bóo ê bô-kāng sī lân-bián--ê, m̄-koh nā ē-hiáu tsiap-la̍p tuì-hong, kám-tsîng tō ē kian-kòo.", hanji: "阿公講，翁某的無仝是難免的，毋過若會曉接納對方，感情就會堅固。", en: "Grandad says differences between husband and wife are inevitable, but if you know how to accept each other, your love will be strong."}
+    - {tailo: "Kun-tsú siú tō-tik, m̄ ē iōng pháinn tshiú-tuānn lī-iōng pa̍t-lâng, siáu-jîn tsiah ē tâu-ki thàn tsi̍t-sî ê tsînn.", hanji: "君子守道德，毋會用歹手段利用別人，小人才會投機趁一時的錢。", en: "A person of integrity keeps to what's right and never uses dirty tricks to take advantage of others; only petty people speculate for quick money."}
   fill:
     - {tailo: "Nn̄g ê lâng ê si̍p-kuàn bô-kāng, ___ ē uan-ke.", hanji: "兩个人的習慣無仝，___會冤家。", answer: "lân-bián", answer_hanji: "難免", en: "Two people have different habits, so it's inevitable that they'll quarrel."}
     - {tailo: "Ài khuànn tuì-hong ê ___ kah tōng-tsok.", hanji: "愛看對方的___佮動作。", answer: "piáu-tsîng", answer_hanji: "表情", en: "Watch each other's expressions and gestures."}
     - {tailo: "M̄-thang iōng pháinn tshiú-tuānn, m̄-thang ___ pa̍t-lâng.", hanji: "毋通用歹手段，毋通___別人。", answer: "lī-iōng", answer_hanji: "利用", en: "Never use dirty tricks or take advantage of others."}
     - {tailo: "Ka-tîng ê ___ ài hô-pîng.", hanji: "家庭的___愛和平。", answer: "khì-hun", answer_hanji: "氣氛", en: "Keep the atmosphere at home peaceful."}
     - {tailo: "Ài-tsîng m̄ sī siánn-mih ___ ê tāi-tsì.", hanji: "愛情毋是啥物___的代誌。", answer: "uí-tāi", answer_hanji: "偉大", en: "Love isn't some grand thing."}
+    - {tailo: "Lâng nā bô ē-hiáu ___, tō ē hōo io̍k-bōng thua leh tsáu, siánn-mih liû-hîng to beh tuè, tsînn khai liáu-liáu mā bē huann-hí.", hanji: "人若無會曉___，就會予欲望拖咧走，啥物流行都欲綴，錢開了了嘛袂歡喜。", answer: "buán-tsiok", answer_hanji: "滿足", en: "If you don't know how to be content, your desires drag you along and you chase every fashion, spending all your money and still not happy."}
 audio: []

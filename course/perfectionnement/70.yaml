@@ -48,10 +48,13 @@ exercises:
     - {tailo: "Ū-iân ê lâng, thian-gâi mā ē siong-hông.", hanji: "有緣的人，天涯嘛會相逢。", en: "Those who are meant to be will meet, though they come from the ends of the earth."}
     - {tailo: "Guá ê sin-hūn tsit-má sī ang-sài, ài thiann bóo ê uē.", hanji: "我的身份這馬是翁婿，愛聽某的話。", en: "I'm a husband now: I have to do as my wife says."}
     - {tailo: "Tsiok sin-lâng ang-bóo tâng-sim!", hanji: "祝新人翁某同心！", en: "To the newlyweds: may they be of one heart!"}
+    - {tailo: "Siù-lân ê a-pah kóng, Sam siá hōo i ê phue i tha̍k sann pái, kin-á-ji̍t i beh kā tsa-bóo-kiánn thok-hù hōo Sam.", hanji: "秀蘭的阿爸講，Sam寫予伊的批伊讀三擺，今仔日伊欲共查某囝託付予Sam。", en: "Siù-lân's father says he read Sam's letter three times, and today he's entrusting his daughter to Sam."}
+    - {tailo: "Sam tú lâi ê sî kóng a-tok-á-khiunn, tsit-má thong-kuè kiám-tīng, ē tsi̍t ê bo̍k-piau sī ko-kip.", hanji: "Sam拄來的時講阿啄仔腔，這馬通過檢定，下一个目標是高級。", en: "When Sam first arrived he had a foreigner's accent; now he's passed the test, and his next goal is the advanced level."}
   fill:
     - {tailo: "I ___, kā sit-lo̍h ê tshiú-tsí tshuē--tńg-lâi.", hanji: "伊___，共失落的手指揣轉來。", answer: "lāu-sîn-tsāi-tsāi", answer_hanji: "老神在在", en: "Cool as you like, he found the lost rings."}
     - {tailo: "I kóng i beh tī Tâi-uân ___, kah Siù-lân sîng-ka.", hanji: "伊講伊欲佇臺灣___，佮秀蘭成家。", answer: "tīng-ki", answer_hanji: "定居", en: "He said he wanted to settle in Taiwan and start a family with Siù-lân."}
     - {tailo: "Guá ē iōng guá ê tsiong-sin lâi ___--i.", hanji: "我會用我的終身來___伊。", answer: "tin-sioh", answer_hanji: "珍惜", en: "I'll treasure her all my life."}
     - {tailo: "Thiann-li̍k, ua̍t-tho̍k, tsok-bûn lóng ài koh ___.", hanji: "聽力、閱讀、作文攏愛閣___。", answer: "ho̍k-si̍p", answer_hanji: "復習", en: "I need to revise my listening, reading and writing."}
     - {tailo: "Sî-tsha í-king ___--tńg-lâi.", hanji: "時差已經___轉來。", answer: "tiâu", answer_hanji: "調", en: "They've got over their jet lag."}
+    - {tailo: "Sam kóng, i ê ___ tsit-má sī ang-sài, kin-á-ji̍t kan-na ē-tàng lim tsi̍t pue.", hanji: "Sam講，伊的___這馬是翁婿，今仔日干焦會當啉一杯。", answer: "sin-hūn", answer_hanji: "身份", en: "Sam says he's a husband now, so he's only allowed one glass today."}
 audio: []

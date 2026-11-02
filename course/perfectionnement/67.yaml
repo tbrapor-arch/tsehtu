@@ -82,10 +82,13 @@ exercises:
     - {tailo: "Ū-iân ê lâng, thian-gâi mā ē siong-hông.", hanji: "有緣的人，天涯嘛會相逢。", en: "Those who are meant to be will meet, though they come from the ends of the earth."}
     - {tailo: "Suè-gua̍t ē piàn, lán ê iok-tīng put-piàn.", hanji: "歲月會變，咱的約定不變。", en: "The years will change, but our promise won't."}
     - {tailo: "Ū lí tō sī guá ê tshù.", hanji: "有你就是我的厝。", en: "Wherever you are is my home."}
+    - {tailo: "Sam kóng i sī thian-gâi lâi ê lōng-tsú, tī ī-hiong ê àm-mê, sim-kuann tshiâng-tsāi sì-suànn.", hanji: "Sam講伊是天涯來的浪子，佇異鄉的暗暝，心肝常在四散。", en: "Sam says he's a wanderer from the ends of the earth whose heart was always scattered on nights in a foreign land."}
+    - {tailo: "Suè-gua̍t ē piàn, lâng ē lāu--khì, m̄-koh Sam kah Siù-lân ê iok-tīng put-piàn.", hanji: "歲月會變，人會老去，毋過Sam佮秀蘭的約定不變。", en: "The years will change and people grow old, but Sam and Siù-lân's promise won't change."}
   fill:
     - {tailo: "M̄ tsai toh-uī ē-tàng ___.", hanji: "毋知佗位會當___。", answer: "khò-huānn", answer_hanji: "靠岸", en: "I didn't know where I could make landfall."}
     - {tailo: "Uì hit kang khai-sí, guá tō ___.", hanji: "對彼工開始，我就___。", answer: "tshi-bê", answer_hanji: "痴迷", en: "From that day on I was smitten."}
     - {tailo: "Lí sī guá ê ting, ___ guá tńg-khì tshù ê lōo.", hanji: "你是我的燈，___我轉去厝的路。", answer: "tsí-ín", answer_hanji: "指引", en: "You are my lamp, guiding me on my way home."}
     - {tailo: "Bô-iân ê lâng, tuì-bīn mā bē ___.", hanji: "無緣的人，對面嘛袂___。", answer: "siong-sik", answer_hanji: "相識", en: "Those who aren't meant to be will never know each other, though they stand face to face."}
     - {tailo: "Guá kám-siā thinn, hōo lán ū tsit tuānn ___.", hanji: "我感謝天，予咱有這段___。", answer: "tsîng-hūn", answer_hanji: "情份", en: "I thank heaven for the bond between us."}
+    - {tailo: "Tī Tām-tsuí-hô pinn tú-tio̍h Siù-lân liáu-āu, Sam tō ___, mê-ji̍t to teh siūnn--i.", hanji: "佇淡水河邊拄著秀蘭了後，Sam就___，暝日都咧想伊。", answer: "tshi-bê", answer_hanji: "痴迷", en: "After meeting Siù-lân by the Tamsui River, Sam was smitten and thought of her day and night."}
 audio: []

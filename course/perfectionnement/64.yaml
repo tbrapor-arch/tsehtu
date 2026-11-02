@@ -89,10 +89,13 @@ exercises:
     - {tailo: "Guá siūnn-beh tī Tâi-uân tīng-ki, kah Siù-lân sîng-ka.", hanji: "我想欲佇臺灣定居，佮秀蘭成家。", en: "I want to settle in Taiwan and start a family with Siù-lân."}
     - {tailo: "Guá lim tsiú sī m̄-tsiânn, m̄-koh guá tuì Siù-lân sī it-sim-it-ì.", hanji: "我啉酒是毋成，毋過我對秀蘭是一心一意。", en: "I may be hopeless at drinking, but I'm devoted to Siù-lân, heart and soul."}
     - {tailo: "Tshù-lāi ê ka-sū, guán ē hun-tam.", hanji: "厝內的家事，阮會分擔。", en: "We'll share the housework."}
+    - {tailo: "Sam kóng i ê ka-hiong tī tsin hn̄g ê sóo-tsāi, tú lâi Tâi-uân ê sî ū hiong-tshiû, m̄-koh tsit-má í-king sik-ìng, mā senn-kin--ah.", hanji: "Sam講伊的家鄉佇真遠的所在，拄來臺灣的時有鄉愁，毋過這馬已經適應，嘛生根矣。", en: "Sam says his home is very far away; when he first came to Taiwan he was homesick, but now he's adjusted and put down roots."}
+    - {tailo: "Kiat-hun liáu-āu, Sam kah Siù-lân beh hun-tam ka-sū, sing suè tshù, tán ū khah tsē tsûn-khuán tsiah tāi-khuán bé tshù.", hanji: "結婚了後，Sam佮秀蘭欲分擔家事，先稅厝，等有較濟存款才貸款買厝。", en: "After the wedding Sam and Siù-lân will share the housework and rent first, then take out a loan to buy a place once they've saved more."}
   fill:
     - {tailo: "Tsóng-sǹg ū ___ kià--tshut-khì.", hanji: "總算有___寄出去。", answer: "tám-liōng", answer_hanji: "膽量", en: "I've finally found the nerve to send it."}
     - {tailo: "Hōo guá tī ī-hiong bān-bān-á ___.", hanji: "予我佇異鄉慢慢仔___。", answer: "sik-ìng", answer_hanji: "適應", en: "They helped me slowly adjust to a foreign land."}
     - {tailo: "Guá í-king the̍h-tio̍h tn̂g-kî ê ___.", hanji: "我已經提著長期的___。", answer: "tshiam-tsìng", answer_hanji: "簽證", en: "I already have a long-term visa."}
     - {tailo: "Guá ū-sî-á ___, sann-khòo luān-luān khǹg.", hanji: "我有時仔___，衫褲亂亂囥。", answer: "lán-si", answer_hanji: "懶屍", en: "I can be lazy, and I leave my clothes lying around."}
     - {tailo: "Nā lín khíng kā Siù-lân ___ hōo guá.", hanji: "若恁肯共秀蘭___予我。", answer: "thok-hù", answer_hanji: "託付", en: "If you will entrust Siù-lân to me."}
+    - {tailo: "Sam bô beh ún-muâ Siù-lân ê a-pah, i kóng ka-kī ū-sî-á ___, kóng-uē mā khah tshoo-lóo.", hanji: "Sam無欲隱瞞秀蘭的阿爸，伊講家己有時仔___，講話嘛較粗魯。", answer: "lán-si", answer_hanji: "懶屍", en: "Sam didn't want to hide anything from Siù-lân's father: he said he could be lazy, and rather blunt."}
 audio: []

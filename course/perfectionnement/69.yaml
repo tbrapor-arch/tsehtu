@@ -91,10 +91,13 @@ exercises:
     - {tailo: "Hiong-siú nā sī lâng, tōng-ki sī siánn?", hanji: "兇手若是人，動機是啥？", en: "If the thief was a person, what was the motive?"}
     - {tailo: "Kheh-tsiáu siōng ài kim-sih-sih ê mi̍h-kiānn.", hanji: "客鳥上愛金爍爍的物件。", en: "Magpies love anything shiny."}
     - {tailo: "Sit-lo̍h ê mi̍h-kiānn tshuē tńg--lâi.", hanji: "失落的物件揣轉來。", en: "The lost things were found."}
+    - {tailo: "Lîm peh khuànn-tio̍h toh-tíng ū ú-môo, gia̍h-thâu tō khuànn-tio̍h tshiū-ue tíng ê tsiáu-á-siū lāi ū mi̍h-kiānn teh siám.", hanji: "林伯看著桌頂有羽毛，攑頭就看著樹椏頂的鳥仔岫內有物件咧閃。", en: "Uncle Lîm saw a feather on the table, looked up, and saw something glinting in the nest in the fork of the branches."}
+    - {tailo: "Sió-tī suî hónn-jīn, kuí-nā ê a-peh mā ē-tàng tsò tsìng-jîn, kóng i kui tsá-khí lóng tī biō lāi.", hanji: "小弟隨否認，幾若个阿伯嘛會當做證人，講伊規早起攏佇廟內。", en: "The brother denied it at once, and several old men could be witnesses that he'd been in the temple all morning."}
   fill:
     - {tailo: "Guá ___, kóng: “Ta̍k-ke mài tín-tāng.”", hanji: "我___，講：「逐家莫振動。」", answer: "lāu-sîn-tsāi-tsāi", answer_hanji: "老神在在", en: "I stayed perfectly calm and said: 'Nobody move.'"}
     - {tailo: "Sió-tī suî ___: “M̄ sī guá!”", hanji: "小弟隨___：「毋是我！」", answer: "hónn-jīn", answer_hanji: "否認", en: "The brother denied it at once: 'It wasn't me!'"}
     - {tailo: "Toh-tíng mā bô iû ê ___.", hanji: "桌頂嘛無油的___。", answer: "tsí-bûn", answer_hanji: "指紋", en: "There were no greasy fingerprints on the table."}
     - {tailo: "Tshiū-ue tíng ū tsi̍t ê ___.", hanji: "樹椏頂有一个___。", answer: "tsiáu-á-siū", answer_hanji: "鳥仔岫", en: "In a fork of the branches there was a nest."}
     - {tailo: "A̍p-á siunn tāng, it-tīng sī puànn-lōo ___--ah.", hanji: "盒仔傷重，一定是半路___矣。", answer: "ka-la̍uh", answer_hanji: "交落", en: "The box was too heavy, so it must have dropped it on the way."}
+    - {tailo: "Lîm peh ___ hiong-siú sī tsi̍t tsiah kheh-tsiáu, in-uī kheh-tsiáu siōng ài kim-sih-sih ê mi̍h-kiānn.", hanji: "林伯___兇手是一隻客鳥，因為客鳥上愛金爍爍的物件。", answer: "tuàn-tīng", answer_hanji: "斷定", en: "Uncle Lîm concluded that the culprit was a magpie, because magpies love anything shiny."}
 audio: []

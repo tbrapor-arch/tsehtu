@@ -96,10 +96,13 @@ exercises:
     - {tailo: "Lí mài luān-kóng!", hanji: "你莫亂講！", en: "Stop talking nonsense!"}
     - {tailo: "Tshiú-tsí tì ē ji̍p tō hó; iōng siánn-mih thò--ji̍p-khì, bô lâng ē kì-tit.", hanji: "手指戴會入就好，用啥物套入去，無人會記得。", en: "What matters is that the ring goes on: nobody remembers how."}
     - {tailo: "Guá lún, guá huann-hí lún.", hanji: "我忍，我歡喜忍。", en: "I'll put up with it, happily."}
+    - {tailo: "Tīng-hun hit kang, sin-niû ài hōng-tê hōo lâng-kheh lim, lâng-kheh lim liáu tō kā âng-pau khǹg tī tê-au lāi.", hanji: "訂婚彼工，新娘愛奉茶予人客啉，人客啉了就共紅包囥佇茶甌內。", en: "On the day of the engagement the bride serves tea to the guests, who put red envelopes in their cups when they've drunk it."}
+    - {tailo: "Tshiú-tsí siunn sè thò bē ji̍p, A-ióng the̍h sap-bûn lâi buah, tuā-koo kóng án-ne N̂g--ka ē lo̍h-tâi.", hanji: "手指傷細套袂入，阿勇提雪文來抹，大姑講按呢黃家會落台。", en: "The ring was too small to go on, so A-ióng brought soap to rub on, and the aunt said the N̂g family would lose face."}
   fill:
     - {tailo: "In tsa-hng tsiah lo̍h hue-lîng-ki, ___ iáu-buē tiâu--tńg-lâi.", hanji: "𪜶昨昏才落飛行機，___猶未調轉來。", answer: "sî-tsha", answer_hanji: "時差", en: "They only got off the plane yesterday and they're still jet-lagged."}
     - {tailo: "Tē-it hāng: sin-niû ___.", hanji: "第一項：新娘___。", answer: "hōng-tê", answer_hanji: "奉茶", en: "First: the bride serves tea."}
     - {tailo: "Sin-lông ê a-bú ài kā tshiú-tsí thò--ji̍p-khì sin-niû ê ___.", hanji: "新郎的阿母愛共手指套入去新娘的___。", answer: "tiong-tsáinn", answer_hanji: "中指", en: "The groom's mother slips the ring onto the bride's middle finger."}
     - {tailo: "Tīng-hun iōng sap-bûn? Guán N̂g--ka kám m̄ sī beh ___!", hanji: "訂婚用雪文？阮黃家敢毋是欲___！", answer: "lo̍h-tâi", answer_hanji: "落台", en: "Soap at an engagement? The N̂g family will be a laughing stock!"}
     - {tailo: "Tshiú-tsí thò kah bué--ah, tsit-má ___ bē tshut--lâi.", hanji: "手指套甲尾矣，這馬___袂出來。", answer: "pue̍h", answer_hanji: "拔", en: "The ring has gone all the way down, and now it won't come off."}
+    - {tailo: "Siù-lân ê sió-tī tī pinn--á ___, i ê a-bú kóng nā koh án-ne tō beh kā i phah-tshénn.", hanji: "秀蘭的小弟佇邊仔___，伊的阿母講若閣按呢就欲共伊拍醒。", answer: "luān-kóng", answer_hanji: "亂講", en: "Siù-lân's brother was talking nonsense at the side, and their mother said she'd knock some sense into him if he kept it up."}
 audio: []

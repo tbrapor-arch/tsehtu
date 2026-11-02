@@ -87,10 +87,13 @@ exercises:
     - {tailo: "Gí-giân m̄ sī kan-na bûn-huat kah sû-luī.", hanji: "語言毋是干焦文法佮詞彙。", en: "A language isn't just grammar and vocabulary."}
     - {tailo: "Muí tsi̍t tsióng gí-giân, lóng ing-kai ū ka-kī ê tsun-giâm.", hanji: "每一種語言，攏應該有家己的尊嚴。", en: "Every language deserves its own dignity."}
     - {tailo: "Guá ē kè-sio̍k ho̍k-si̍p.", hanji: "我會繼續復習。", en: "I'll keep revising."}
+    - {tailo: "Sam thâu tsi̍t pái khó tshoo-kip, khó-tiûnn ê lo̍k-im kóng siunn kín, thiann-li̍k ê hun-sòo bô ki̍p-keh, i tō ta̍k kang thiann kóng-pòo, khuànn pîn-tō liān.", hanji: "Sam頭一擺考初級，考場的錄音講傷緊，聽力的分數無及格，伊就逐工聽廣播、看頻道練。", en: "The first time Sam sat the elementary level, the recordings in the exam room were too fast and he failed the listening, so he practised every day with the radio and TV."}
+    - {tailo: "Sam kóng, gí-giân bô hun kuân-kē, muí tsi̍t tsióng hong-giân lóng ing-kai ū kong-pênn ê ki-huē, ū ka-kī ê tsun-giâm, kóng ê lâng mā bián kiàn-siàu.", hanji: "Sam講，語言無分懸低，每一種方言攏應該有公平的機會、有家己的尊嚴，講的人嘛免見笑。", en: "Sam says no language is above another, and every dialect deserves a fair chance and its own dignity, and its speakers needn't feel ashamed."}
   fill:
     - {tailo: "Ta̍k kang tsē tsia̍t-ūn tō thiann ___.", hanji: "逐工坐捷運就聽___。", answer: "kóng-pòo", answer_hanji: "廣播", en: "Every day I listened to the radio on the metro."}
     - {tailo: "Siōng oh--ê sī phīnn-im kah ___.", hanji: "上僫的是鼻音佮___。", answer: "ji̍p-siann", answer_hanji: "入聲", en: "The hardest things were the nasal sounds and the checked tones."}
     - {tailo: "Kóng ê lâng ē kám-kak ___.", hanji: "講的人會感覺___。", answer: "tsū-pi", answer_hanji: "自卑", en: "Those who spoke it felt inferior."}
     - {tailo: "Muî-thé, ha̍k-hāu lóng teh thui-kóng, ___ mā jú lâi jú tsē.", hanji: "媒體、學校攏咧推廣，___嘛愈來愈濟。", answer: "kàu-tsâi", answer_hanji: "教材", en: "The media and schools are promoting it, and there are more and more teaching materials."}
     - {tailo: "Ta̍k-ke lóng ___, ta̍k-ke lóng sin-khóo--ah.", hanji: "逐家攏___，逐家攏辛苦矣。", answer: "ha̍p-keh", answer_hanji: "合格", en: "We've all passed, and we've all worked hard."}
+    - {tailo: "Í-tsá kóng Tâi-gí ê lâng ē kám-kak ___, gín-á tī ha̍k-hāu kóng koh ē hōo lâng hua̍t, tse sī li̍k-sú ê siong-hûn.", hanji: "以早講臺語的人會感覺___，囡仔佇學校講閣會予人罰，這是歷史的傷痕。", answer: "tsū-pi", answer_hanji: "自卑", en: "In the past Taigi speakers felt inferior, and children were punished for speaking it at school: that's a scar of history."}
 audio: []
