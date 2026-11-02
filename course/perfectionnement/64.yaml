@@ -1,0 +1,98 @@
+id: 64
+title: {en: "Entrusting her to me", tailo: "Kā i thok-hù hōo guá", hanji: "共伊託付予我"}
+genre: letter
+review: false
+setting: "May. Sam writes by hand to Siù-lân's father, Mr N̂g (進修 52), to ask for her hand, as A-ióng once wrote to headmaster Tân (進修 29). A-ióng read the draft first."
+dialogue:
+  - {n: 1, hanji: "敬愛的黃先生、黃太太：", tailo: "Kìng-ài ê N̂g--sian-sinn, N̂g thài-thài:", en: "Dear Mr and Mrs N̂g,"}
+  - {n: 2, hanji: "我是Sam。這張批我寫三暝，寫了閣拆，拆了閣寫，總算有膽量寄出去。", tailo: "Guá sī Sam. Tsit tiunn phue guá siá sann mê, siá liáu koh thiah, thiah liáu koh siá, tsóng-sǹg ū tám-liōng kià--tshut-khì.", en: "This is Sam. I've spent three nights on this letter, writing it, tearing it up and writing it again, and I've finally found the nerve to send it."}
+  - {n: 3, hanji: "我想欲誠心請求恁一件代誌：請恁允准我佮秀蘭結婚。", tailo: "Guá siūnn-beh sîng-sim tshíng-kiû lín tsi̍t kiānn tāi-tsì: tshiánn lín ín-tsún guá kah Siù-lân kiat-hun.", en: "I want to ask you something with all my heart: please allow me to marry Siù-lân."}
+  - {n: 4, hanji: "我知影，我是一个阿啄仔，頭毛金色，目睭閣無仝色。恁會煩惱，是應該的。", tailo: "Guá tsai-iánn, guá sī tsi̍t ê a-tok-á, thâu-mn̂g kim-sik, ba̍k-tsiu koh bô kāng sik. Lín ē huân-ló, sī ing-kai--ê.", en: "I know I'm a foreigner, with fair hair and eyes of a different colour. It's only natural that you'd be worried."}
+  - {n: 5, hanji: "我毋欲隱瞞恁：我的家鄉佇真遠的所在，坐飛行機愛十幾點鐘。阮的文化佮臺灣有真濟差異。", tailo: "Guá m̄-beh ún-muâ--lín: guá ê ka-hiong tī tsin hn̄g ê sóo-tsāi, tsē hue-lîng-ki ài tsa̍p-kuí tiám-tsing. Guán ê bûn-huà kah Tâi-uân ū tsin tsē tsha-ī.", en: "I won't hide anything from you: my home country is very far away, more than ten hours by plane, and our culture is very different from Taiwan's."}
+  - {n: 6, hanji: "毋過我來臺灣已經八冬矣。拄來的時，我食袂慣，話聽無，暗時嘛會有鄉愁。", tailo: "M̄-koh guá lâi Tâi-uân í-king peh tang--ah. Tú lâi ê sî, guá tsia̍h bē kuàn, uē thiann bô, àm-sî mā ē ū hiong-tshiû.", en: "But I've been in Taiwan for eight years now. When I first arrived I couldn't get used to the food, couldn't understand what people said, and at night I'd feel homesick."}
+  - {n: 7, hanji: "是阿公阿媽、阿勇佮真濟朋友，予我佇異鄉慢慢仔適應，嘛慢慢仔生根。", tailo: "Sī a-kong a-má, A-ióng kah tsin tsē pîng-iú, hōo guá tī ī-hiong bān-bān-á sik-ìng, mā bān-bān-á senn-kin.", en: "It was A-kong and A-má, A-ióng and many friends who helped me slowly adjust to a foreign land, and slowly put down roots."}
+  - {n: 8, hanji: "這馬我會曉講臺語、寫中文，英語煞愈講愈袂輾轉。", tailo: "Tsit-má guá ē-hiáu kóng Tâi-gí, siá Tiong-bûn, Ing-gí suah jú kóng jú bē liàn-tńg.", en: "Now I can speak Taigi and write Chinese, and my English is getting rustier by the day."}
+  - {n: 9, hanji: "我已經提著長期的簽證，嘛有咧辦外籍人士的戶口。我想欲佇臺灣定居，佮秀蘭成家。", tailo: "Guá í-king the̍h-tio̍h tn̂g-kî ê tshiam-tsìng, mā ū teh pān guā-tsi̍k jîn-sū ê hōo-kháu. Guá siūnn-beh tī Tâi-uân tīng-ki, kah Siù-lân sîng-ka.", en: "I already have a long-term visa and I'm registering as a foreign resident. I want to settle in Taiwan and start a family with Siù-lân."}
+  - {n: 10, hanji: "我的身份、我的國籍，以後攏會當慢慢仔辦。毋過我的心，早就決定矣。", tailo: "Guá ê sin-hūn, guá ê kok-tsi̍k, í-āu lóng ē-tàng bān-bān-á pān. M̄-koh guá ê sim, tsá tō kuat-tīng--ah.", en: "My status and my nationality can all be sorted out in time. But my heart was made up long ago."}
+  - {n: 11, hanji: "黃先生，你頭一擺請我啉高粱，我茫甲挵著椅條。彼暗我就知影，你是咧試我。", tailo: "N̂g--sian-sinn, lí thâu tsi̍t pái tshiánn guá lim kau-liâng, guá bâng kah lòng-tio̍h í-liâu. Hit àm guá tō tsai-iánn, lí sī teh tshì--guá.", en: "Mr N̂g, the first time you poured me kaoliang, I got so tipsy I walked into the bench. That night I knew you were testing me."}
+  - {n: 12, hanji: "我啉酒是毋成，毋過我對秀蘭是一心一意。", tailo: "Guá lim tsiú sī m̄-tsiânn, m̄-koh guá tuì Siù-lân sī it-sim-it-ì.", en: "I may be hopeless at drinking, but I'm devoted to Siù-lân, heart and soul."}
+  - {n: 13, hanji: "講著錢，我無啥好額，毋過我有一寡存款。阮兩个參詳好矣，欲先稅厝，等存較濟錢，才閣貸款買厝。", tailo: "Kóng-tio̍h tsînn, guá bô siánn hó-gia̍h, m̄-koh guá ū tsi̍t-kuá tsûn-khuán. Guán nn̄g ê tsham-siông hó--ah: beh sing suè tshù, tán tsûn khah tsē tsînn, tsiah koh tāi-khuán bé tshù.", en: "As for money, I'm not rich, but I have some savings. We've talked it over: we'll rent first, and once we've saved more we'll take out a loan to buy a place."}
+  - {n: 14, hanji: "我嘛知影家己有缺點：我有時仔懶屍，衫褲亂亂囥，講話閣較粗魯。", tailo: "Guá mā tsai-iánn ka-kī ū khuat-tiám: guá ū-sî-á lán-si, sann-khòo luān-luān khǹg, kóng-uē koh khah tshoo-lóo.", en: "I also know my faults: I can be lazy, I leave my clothes lying around, and I can be rather blunt."}
+  - {n: 15, hanji: "毋過我會改。厝內的家事，阮會分擔，煮食我嘛會學。有代誌，阮會相讓，袂冤家。", tailo: "M̄-koh guá ē kái. Tshù-lāi ê ka-sū, guán ē hun-tam; tsú-tsia̍h guá mā ē o̍h. Ū tāi-tsì, guán ē sio-niū, bē uan-ke.", en: "But I'll change. We'll share the housework, and I'll learn to cook. When things come up, we'll give way to each other rather than quarrel."}
+  - {n: 16, hanji: "秀蘭真注重家庭。伊捷講，阿公、恁兩位，是伊上珍惜的人。我會共恁當做家己的爸母。", tailo: "Siù-lân tsin tsù-tiōng ka-tîng. I tsia̍p kóng, a-kong, lín nn̄g uī, sī i siōng tin-sioh ê lâng. Guá ē kā lín tòng-tsò ka-kī ê pē-bú.", en: "Family matters a great deal to Siù-lân. She often says that her grandfather and you two are the people she treasures most. I'll treat you as my own parents."}
+  - {n: 17, hanji: "我袂共伊娶轉去外國。阮會蹛佇臺北，離恁兜無遠，逐禮拜攏會轉來食飯。", tailo: "Guá bē kā i tshuā tńg-khì guā-kok. Guán ē tuà tī Tâi-pak, lī lín tau bô hn̄g, ta̍k lé-pài lóng ē tńg--lâi tsia̍h-pn̄g.", en: "I won't take her off abroad. We'll live in Taipei, not far from you, and come home for dinner every week."}
+  - {n: 18, hanji: "若恁肯共秀蘭託付予我，我會用我的終身來疼伊、照顧伊。", tailo: "Nā lín khíng kā Siù-lân thok-hù hōo guá, guá ē iōng guá ê tsiong-sin lâi thiànn--i, tsiàu-kòo--i.", en: "If you will entrust Siù-lân to me, I will spend my whole life loving her and looking after her."}
+  - {n: 19, hanji: "阮祖國的老人講，愛一个人，就愛愛伊的一切。我欲愛秀蘭，嘛欲愛伊的家、伊的語言、伊的土地。", tailo: "Guán tsóo-kok ê lāu-lâng kóng, ài tsi̍t ê lâng, tō ài ài i ê it-tshè. Guá beh ài Siù-lân, mā beh ài i ê ka, i ê gí-giân, i ê thóo-tē.", en: "Old people in my country say that to love someone is to love everything about them. I want to love Siù-lân, and her family, her language and her land too."}
+  - {n: 20, hanji: "禮拜六下晡，我想欲去恁兜拜訪，當面請求。若恁猶未允，我會閣去，一直到恁放心為止。", tailo: "Lé-pài-la̍k ē-poo, guá siūnn-beh khì lín tau pài-hóng, tng-bīn tshíng-kiû. Nā lín iáu-buē ín, guá ē koh khì, it-ti̍t kàu lín hòng-sim uî-tsí.", en: "On Saturday afternoon I'd like to call on you and ask you in person. If you don't agree yet, I'll come again, until you feel you can trust me."}
+  - {n: 21, hanji: "祝恁身體健康、萬事如意。", tailo: "Tsiok lín sin-thé kiān-khong, bān-sū jû-ì.", en: "Wishing you good health and every happiness."}
+  - {n: 22, hanji: "晚輩　Sam　敬上　五月十八暗", tailo: "Buán-puè Sam kìng-siōng, gōo-gue̍h tsa̍p-peh àm", en: "Respectfully, Sam, the evening of 18 May"}
+  - {n: 23, hanji: "附記：這張批阿勇先看過矣。伊講，我的字比伊寫予陳校長彼張較媠。", tailo: "Hù-kì: tsit tiunn phue A-ióng sing khuànn--kuè--ah. I kóng, guá ê jī pí i siá hōo Tân hāu-tiúnn hit tiunn khah suí.", en: "P.S. A-ióng read this letter first. He says my handwriting is nicer than in the letter he wrote to headmaster Tân."}
+notes:
+  - {ref: 2, topic: vocab, text: "膽量 tám-liōng = courage, nerve."}
+  - {ref: 3, topic: vocab, text: "請求 tshíng-kiû = request, ask. 允准 = permit, consent; 允 ín (line 20) on its own = agree to."}
+  - {ref: 4, topic: vocab, text: "阿啄仔 a-tok-á = foreigner, Westerner (colloquial, from 'long-nosed'; affectionate or teasing, not rude between friends). 金色 kim-sik = gold; (of hair) fair."}
+  - {ref: 5, topic: vocab, text: "隱瞞 ún-muâ = hide, conceal. 家鄉 ka-hiong = home town, home country. 差異 tsha-ī = difference."}
+  - {ref: 6, topic: vocab, text: "食袂慣 = can't get used to the food. 鄉愁 hiong-tshiû = homesickness."}
+  - {ref: 7, topic: vocab, text: "異鄉 ī-hiong = a foreign land. 適應 sik-ìng = adapt, adjust. 生根 senn-kin = put down roots."}
+  - {ref: 8, topic: vocab, text: "中文 Tiong-bûn = (written) Chinese. 英語 Ing-gí = English. 袂輾轉 = not fluent (輾轉 liàn-tńg 'fluent', lit. 'roll smoothly')."}
+  - {ref: 9, topic: vocab, text: "簽證 tshiam-tsìng = visa. 外籍 guā-tsi̍k = foreign (nationality); 外籍人士 'foreign national'. 戶口 hōo-kháu = household registration. 定居 tīng-ki = settle. 成家 sîng-ka = marry and start a family."}
+  - {ref: 10, topic: vocab, text: "身份 sin-hūn = (legal) status, identity. 國籍 kok-tsi̍k = nationality."}
+  - {ref: 12, topic: vocab, text: "一心一意 it-sim-it-ì = wholeheartedly, single-mindedly."}
+  - {ref: 13, topic: vocab, text: "存款 tsûn-khuán = savings. 參詳 = discuss (進修 2). 稅厝 = rent a house. 存 = save (money). 貸款 tāi-khuán = take out a loan; loan."}
+  - {ref: 14, topic: vocab, text: "懶屍 lán-si = lazy, listless. 粗魯 tshoo-lóo = rough, blunt."}
+  - {ref: 15, topic: vocab, text: "家事 ka-sū = housework. 分擔 hun-tam = share (a burden). 煮食 = cooking. 相讓 sio-niū = give way to each other."}
+  - {ref: 16, topic: vocab, text: "注重 tsù-tiōng = attach importance to. 珍惜 tin-sioh = treasure, cherish."}
+  - {ref: 18, topic: vocab, text: "託付 thok-hù = entrust. 終身 tsiong-sin = one's whole life."}
+  - {ref: 19, topic: vocab, text: "祖國 tsóo-kok = homeland, one's country of origin."}
+  - {ref: 20, topic: vocab, text: "當面 = in person. 為止 = until (進修 54)."}
+  - {ref: 21, topic: vocab, text: "萬事如意 = may everything go as you wish."}
+  - {ref: 22, topic: vocab, text: "晚輩 = junior (writing to elders). 敬上 = respectfully (at the end of a letter)."}
+new_words:
+  - {tailo: tám-liōng, hanji: 膽量, en: "courage, nerve"}
+  - {tailo: tshíng-kiû, hanji: 請求, en: "request, ask"}
+  - {tailo: ín, hanji: 允, en: "agree to, consent"}
+  - {tailo: a-tok-á, hanji: 阿啄仔, en: "foreigner, Westerner"}
+  - {tailo: kim-sik, hanji: 金色, en: "gold; fair (hair)"}
+  - {tailo: ún-muâ, hanji: 隱瞞, en: "hide, conceal"}
+  - {tailo: ka-hiong, hanji: 家鄉, en: "home town, home country"}
+  - {tailo: tsha-ī, hanji: 差異, en: "difference"}
+  - {tailo: hiong-tshiû, hanji: 鄉愁, en: "homesickness"}
+  - {tailo: ī-hiong, hanji: 異鄉, en: "a foreign land"}
+  - {tailo: sik-ìng, hanji: 適應, en: "adapt, adjust"}
+  - {tailo: senn-kin, hanji: 生根, en: "put down roots"}
+  - {tailo: Tiong-bûn, hanji: 中文, en: "(written) Chinese"}
+  - {tailo: Ing-gí, hanji: 英語, en: "English"}
+  - {tailo: tshiam-tsìng, hanji: 簽證, en: "visa"}
+  - {tailo: guā-tsi̍k, hanji: 外籍, en: "foreign (nationality)"}
+  - {tailo: hōo-kháu, hanji: 戶口, en: "household registration"}
+  - {tailo: tīng-ki, hanji: 定居, en: "settle"}
+  - {tailo: sîng-ka, hanji: 成家, en: "marry and start a family"}
+  - {tailo: sin-hūn, hanji: 身份, en: "(legal) status, identity"}
+  - {tailo: kok-tsi̍k, hanji: 國籍, en: "nationality"}
+  - {tailo: it-sim-it-ì, hanji: 一心一意, en: "wholeheartedly"}
+  - {tailo: tsûn-khuán, hanji: 存款, en: "savings"}
+  - {tailo: tāi-khuán, hanji: 貸款, en: "loan; take out a loan"}
+  - {tailo: lán-si, hanji: 懶屍, en: "lazy, listless"}
+  - {tailo: tshoo-lóo, hanji: 粗魯, en: "rough, blunt"}
+  - {tailo: ka-sū, hanji: 家事, en: "housework"}
+  - {tailo: hun-tam, hanji: 分擔, en: "share (a burden)"}
+  - {tailo: sio-niū, hanji: 相讓, en: "give way to each other"}
+  - {tailo: tsù-tiōng, hanji: 注重, en: "attach importance to"}
+  - {tailo: tin-sioh, hanji: 珍惜, en: "treasure, cherish"}
+  - {tailo: thok-hù, hanji: 託付, en: "entrust"}
+  - {tailo: tsiong-sin, hanji: 終身, en: "one's whole life"}
+  - {tailo: tsóo-kok, hanji: 祖國, en: "homeland"}
+exercises:
+  translate:
+    - {tailo: "Guá m̄-beh ún-muâ--lín: guán ê bûn-huà kah Tâi-uân ū tsin tsē tsha-ī.", hanji: "我毋欲隱瞞恁：阮的文化佮臺灣有真濟差異。", en: "I won't hide it from you: our culture is very different from Taiwan's."}
+    - {tailo: "Tú lâi ê sî, guá tsia̍h bē kuàn, àm-sî mā ē ū hiong-tshiû.", hanji: "拄來的時，我食袂慣，暗時嘛會有鄉愁。", en: "When I first arrived I couldn't get used to the food, and at night I'd feel homesick."}
+    - {tailo: "Guá siūnn-beh tī Tâi-uân tīng-ki, kah Siù-lân sîng-ka.", hanji: "我想欲佇臺灣定居，佮秀蘭成家。", en: "I want to settle in Taiwan and start a family with Siù-lân."}
+    - {tailo: "Guá lim tsiú sī m̄-tsiânn, m̄-koh guá tuì Siù-lân sī it-sim-it-ì.", hanji: "我啉酒是毋成，毋過我對秀蘭是一心一意。", en: "I may be hopeless at drinking, but I'm devoted to Siù-lân, heart and soul."}
+    - {tailo: "Tshù-lāi ê ka-sū, guán ē hun-tam.", hanji: "厝內的家事，阮會分擔。", en: "We'll share the housework."}
+  fill:
+    - {tailo: "Tsóng-sǹg ū ___ kià--tshut-khì.", hanji: "總算有___寄出去。", answer: "tám-liōng", answer_hanji: "膽量", en: "I've finally found the nerve to send it."}
+    - {tailo: "Hōo guá tī ī-hiong bān-bān-á ___.", hanji: "予我佇異鄉慢慢仔___。", answer: "sik-ìng", answer_hanji: "適應", en: "They helped me slowly adjust to a foreign land."}
+    - {tailo: "Guá í-king the̍h-tio̍h tn̂g-kî ê ___.", hanji: "我已經提著長期的___。", answer: "tshiam-tsìng", answer_hanji: "簽證", en: "I already have a long-term visa."}
+    - {tailo: "Guá ū-sî-á ___, sann-khòo luān-luān khǹg.", hanji: "我有時仔___，衫褲亂亂囥。", answer: "lán-si", answer_hanji: "懶屍", en: "I can be lazy, and I leave my clothes lying around."}
+    - {tailo: "Nā lín khíng kā Siù-lân ___ hōo guá.", hanji: "若恁肯共秀蘭___予我。", answer: "thok-hù", answer_hanji: "託付", en: "If you will entrust Siù-lân to me."}
+audio: []

@@ -11,7 +11,7 @@ If a session stops (credits, container reset), resume from here.
 
 | # | genre | plan | status |
 |---|---|---|---|
-| P64 | letter | Sam writes to Mr N̂g, Siù-lân's father, asking for her hand (echo of P29) | todo |
+| P64 | letter | Sam writes to Mr N̂g, Siù-lân's father, asking for her hand (echo of P29) | done (34 new words) |
 | P65 | play | the engagement ceremony (訂婚): tea, rings, cakes, customs, comedy | todo |
 | P66 | essay | magazine column: can Taigi be passed on? (mother tongue, revival) | todo |
 | P67 | song | original song for the wedding | todo |
