@@ -1,4 +1,4 @@
-# 進修 batch in progress: P57–P63 (started 29 Oct 2026)
+# 進修 batch P57–P63: finished and merged to main on 3 Nov 2026 (started 29 Oct)
 
 If a session stops (credits, container reset), resume from here.
 
