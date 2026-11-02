@@ -1,7 +1,7 @@
 # Part 2: 進修 Tsìn-siu (Perfectionnement), spec and handover
 
-State on 29 Oct 2026: **P1–P56 are published** (P50–P56 on 29 Oct). Next batch: P57–P63 (P63 = review).
-The second wave started at P36 (see 'Size' below).
+State on 3 Nov 2026: **P1–P63 are published** (P57–P63 on 3 Nov). Next batch: P64–P70 (P70 = review, the last).
+The second wave started at P36 (see 'Size' below). If a batch is interrupted, see docs/batch-progress.md.
 
 ## Batch 1 (P1–P7)
 | # | genre | title | new words | lines |
@@ -138,6 +138,23 @@ Facts kept general on purpose: P31 gives no years except where certain (common s
 the end of classical Chinese teaching and the punishments for speaking Taigi are told as family memories.
 刑事 is used for 'police detective' (Japanese 刑事 keiji); the MOE gives only the legal sense, as the note says.
 Song lessons naturally carry fewer new words (31 in P32).
+
+## Batch 9 (P57–P63)
+| # | genre | title | new words | lines |
+|---|---|---|---|---|
+| P57 | diary | Sam的過年日記 (from the year-end banquet to the Jade Emperor's birthday, Lunar New Year 2027 in Tainan) | 40 | 21 |
+| P58 | tale | 白賊七仔 (Liar Seven: the self-boiling pot, the cage and the Dragon King) | 44 | 24 |
+| P59 | interview | 童乩佮桌頭 (radio: Mr Lâu, taxi driver and interpreter at the Royal Lords' temple in A-kong's village) | 42 | 27 |
+| P60 | news | 抾著錢的運將 (evening news: fire in Wanhua, phone-scam gang, Mr Lâu returns a bag of cash, flu, Alishan blossom, baseball, earthquake) | 44 | 22 |
+| P61 | document | 厝頂種菜的撇步 (A-kong's tips for Sam and Siù-lân's rooftop garden) | 38 | 21 |
+| P62 | debate | 觀光是好抑是歹？ (Hūi-hūi vs A-kia̍t on tourism in Lukang) | 46 | 22 |
+| P63 | review | 復習 (April on Sam's roof garden) | 0 | 25 |
+
+Mean 42 new words. A mahjong-rules document was planned for P61 and dropped: too few mahjong terms are MOE entries.
+Story threads now: Mr Lâu (P59, P60) is a recurring village figure; Sam and Siù-lân grow vegetables on Sam's roof;
+Hūi-hūi and A-kia̍t keep sparring (P62). Events in news lessons are invented and say so in the setting.
+Work method from this batch: each lesson is pushed to a `wip-…` branch as soon as it passes lint, with
+docs/batch-progress.md kept up to date, so an interrupted session can resume.
 
 ## Batch 8 (P50–P56)
 | # | genre | title | new words | lines |
