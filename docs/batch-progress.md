@@ -1,4 +1,4 @@
-# 進修 batch in progress: P64–P70, the final batch (started 3 Nov 2026)
+# 進修 batch P64–P70, the final batch: finished and merged to main on 3 Nov 2026
 
 If a session stops (credits, container reset), resume from here.
 
