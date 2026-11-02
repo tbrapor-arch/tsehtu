@@ -1,0 +1,100 @@
+id: 69
+title: {en: "The case of the vanishing rings", tailo: "Tshiú-tsí bô--khì ê àn-kiānn", hanji: "手指無去的案件"}
+genre: story
+review: false
+setting: "Told by Uncle Lîm, the retired police detective from Sam's building (進修 34). On the morning of Sam and Siù-lân's wedding, the banquet is being set up in the square in front of the temple in A-kong's village near Tainan."
+dialogue:
+  - {n: 1, hanji: "我做刑警做三十冬，退休了後，猶是改袂掉偵探的癖。", tailo: "Guá tsò hîng-kíng tsò sann-tsa̍p tang; thè-hiu liáu-āu, iáu-sī kái bē tiāu tsing-thàm ê phiah.", en: "I was a police detective for thirty years, and even in retirement I can't shake off the detective's habit."}
+  - {n: 2, hanji: "彼工是Sam佮秀蘭結婚的日子。廟埕頭前搭帆布，排三十幾桌，大榕仔跤，冷盤已經排好矣。", tailo: "Hit kang sī Sam kah Siù-lân kiat-hun ê ji̍t-tsí. Biō-tiânn thâu-tsîng tah phâng-pòo, pâi sann-tsa̍p-kuí toh; tuā tshîng-á kha, líng-puânn í-king pâi hó--ah.", en: "It was Sam and Siù-lân's wedding day. A canvas awning had been put up in front of the temple, with more than thirty tables; under the great banyan, the cold platters were already laid out."}
+  - {n: 3, hanji: "九點外，阿勇的聲對樹蔭跤傳過來：「手指無去矣！」", tailo: "Káu tiám guā, A-ióng ê siann uì tshiū-ńg kha thuân--kuè-lâi: “Tshiú-tsí bô--khì--ah!”", en: "Just after nine, A-ióng's voice rang out from the shade of the tree: 'The rings have gone!'"}
+  - {n: 4, hanji: "阿勇是伴郎，伊負責顧彼兩粒手指。手指是對臺南的金仔店買的，金的，頂面閣有一粒細細的寶石。", tailo: "A-ióng sī phuānn-lông; i hū-tsik kòo hit nn̄g lia̍p tshiú-tsí. Tshiú-tsí sī uì Tâi-lâm ê kim-á-tiàm bé--ê, kim--ê, tíng-bīn koh ū tsi̍t lia̍p sè-sè ê pó-tsio̍h.", en: "A-ióng was the best man, in charge of the two rings. They'd been bought at a goldsmith's in Tainan: gold, each with a tiny gem on top."}
+  - {n: 5, hanji: "伊講，伊共盒仔囥佇冷盤邊的桌頂，去便所一下，轉來就無看見矣。", tailo: "I kóng, i kā a̍p-á khǹg tī líng-puânn pinn ê toh-tíng, khì piān-sóo tsi̍t-ē, tńg--lâi tō bô khuànn-kìnn--ah.", en: "He said he'd put the box on the table beside the cold platters, gone to the toilet for a minute, and when he came back it had gone."}
+  - {n: 6, hanji: "Sam面青青，秀蘭欲哭。阿媽一直唸：「好日子拍交落手指，敢是歹兆？」", tailo: "Sam bīn tshenn-tshenn, Siù-lân beh khàu. A-má it-ti̍t liām: “Hó ji̍t-tsí phah-ka-la̍uh tshiú-tsí, kám sī pháinn tiāu?”", en: "Sam went pale, Siù-lân was close to tears, and A-má kept muttering: 'Losing the rings on the wedding day: is it a bad omen?'"}
+  - {n: 7, hanji: "我老神在在，講：「逐家莫振動。這馬，佇遮的人攏是證人。」", tailo: "Guá lāu-sîn-tsāi-tsāi, kóng: “Ta̍k-ke mài tín-tāng. Tsit-má, tī tsia ê lâng lóng sī tsìng-jîn.”", en: "I stayed perfectly calm and said: 'Nobody move. Everyone here is now a witness.'"}
+  - {n: 8, hanji: "頭一个予人疑的，是秀蘭的小弟。伊頂擺送定彼工，就佇遐亂講，閣愛創治人。", tailo: "Thâu tsi̍t ê hōo lâng gî--ê, sī Siù-lân ê sió-tī. I tíng-pái sàng-tiānn hit kang, tō tī hia luān-kóng, koh ài tshòng-tī lâng.", en: "The first person to fall under suspicion was Siù-lân's younger brother. At the engagement he'd been talking nonsense and playing tricks on people."}
+  - {n: 9, hanji: "小弟隨否認：「毋是我！我規早起攏佇廟內鬥排椅仔！」幾若个阿伯攏會當替伊做證。", tailo: "Sió-tī suî hónn-jīn: “M̄ sī guá! Guá kui tsá-khí lóng tī biō lāi tàu pâi í-á!” Kuí-nā ê a-peh lóng ē-tàng thè i tsò-tsìng.", en: "The brother denied it at once: 'It wasn't me! I've been in the temple setting out chairs all morning!' Several old men could vouch for him."}
+  - {n: 10, hanji: "辦桌的師傅嘛無可能，𪜶規早起攏佇棚跤煮，手攏是油。桌頂嘛無油的指紋。", tailo: "Pān-toh ê sai-hū mā bô khó-lîng; in kui tsá-khí lóng tī pênn-kha tsú, tshiú lóng sī iû. Toh-tíng mā bô iû ê tsí-bûn.", en: "The banquet cooks couldn't have done it either: they'd been cooking under the awning all morning, with grease all over their hands, and there were no greasy fingerprints on the table."}
+  - {n: 11, hanji: "我想：兇手若是人，動機是啥？兩粒手指，賣嘛無偌濟錢，閣佇遮濟人的面前偷提，傷冒險矣。", tailo: "Guá siūnn: hiong-siú nā sī lâng, tōng-ki sī siánn? Nn̄g lia̍p tshiú-tsí, bē mā bô guā-tsē tsînn, koh tī tsiah tsē lâng ê bīn-tsîng thau-the̍h, siunn mōo-hiám--ah.", en: "I thought: if the thief was a person, what was the motive? Two rings wouldn't fetch much, and stealing them in front of so many people would be far too risky."}
+  - {n: 12, hanji: "我共桌頂詳細看一擺，看著一枝烏白的羽毛，閣有淡薄仔鳥仔屎。", tailo: "Guá kā toh-tíng siông-sè khuànn tsi̍t pái, khuànn-tio̍h tsi̍t ki oo-pe̍h ê ú-môo, koh ū tām-po̍h-á tsiáu-á-sái.", en: "I took a careful look at the table and saw a black-and-white feather, and a few bird droppings."}
+  - {n: 13, hanji: "我攑頭看榕仔頂，樹椏頂有一个鳥仔岫，日頭照落來，內底有物件咧閃。", tailo: "Guá gia̍h-thâu khuànn tshîng-á tíng; tshiū-ue tíng ū tsi̍t ê tsiáu-á-siū, ji̍t-thâu tsiò--lo̍h-lâi, lāi-té ū mi̍h-kiānn teh siám.", en: "I looked up into the banyan. In a fork of the branches there was a nest, and as the sun shone down, something inside it was glinting."}
+  - {n: 14, hanji: "我斷定：兇手是一隻客鳥。客鳥上愛金爍爍的物件，看著就啄轉去岫裡。", tailo: "Guá tuàn-tīng: hiong-siú sī tsi̍t tsiah kheh-tsiáu. Kheh-tsiáu siōng ài kim-sih-sih ê mi̍h-kiānn, khuànn-tio̍h tō tok tńg-khì siū--lí.", en: "I concluded that the culprit was a magpie. Magpies love anything shiny: when they see it, they carry it off in their beaks to the nest."}
+  - {n: 15, hanji: "小弟講：「我來𬦰！」伊揹一支梯，𬦰起去樹頂，客鳥佇伊的頭殼頂一直叫。", tailo: "Sió-tī kóng: “Guá lâi peh!” I phāinn tsi̍t ki thui, peh khí-khì tshiū-tíng; kheh-tsiáu tī i ê thâu-khak-tíng it-ti̍t kiò.", en: "The brother said: 'I'll climb up!' He fetched a ladder and climbed into the tree, with the magpie screeching over his head."}
+  - {n: 16, hanji: "伊佇岫裡揣著一粒手指、一支湯匙，猶閣有一个酒矸仔的蓋。", tailo: "I tī siū--lí tshuē-tio̍h tsi̍t lia̍p tshiú-tsí, tsi̍t ki thng-sî, iáu-koh ū tsi̍t ê tsiú-kan-á ê kuà.", en: "In the nest he found one ring, a spoon and a bottle cap."}
+  - {n: 17, hanji: "毋過干焦一粒！另外一粒咧？逐家閣緊張起來。", tailo: "M̄-koh kan-na tsi̍t lia̍p! Līng-guā tsi̍t lia̍p--leh? Ta̍k-ke koh kín-tiunn--khí-lâi.", en: "But only one! Where was the other? Everyone was anxious again."}
+  - {n: 18, hanji: "我想：盒仔傷重，客鳥啄袂起來，一定是半路交落矣。", tailo: "Guá siūnn: a̍p-á siunn tāng, kheh-tsiáu tok bē khí-lâi, it-tīng sī puànn-lōo ka-la̍uh--ah.", en: "I reasoned: the box was too heavy for the magpie to carry, so it must have dropped it on the way."}
+  - {n: 19, hanji: "阮佇榕仔跤揣，總算佇一盤冷盤的烏魚子下跤，揣著彼个盒仔，另外一粒手指好好佇內底。", tailo: "Guán tī tshîng-á kha tshuē, tsóng-sǹg tī tsi̍t puânn líng-puânn ê oo-hî-tsí ē-kha, tshuē-tio̍h hit ê a̍p-á; līng-guā tsi̍t lia̍p tshiú-tsí hó-hó tī lāi-té.", en: "We searched under the banyan and finally found the box under the mullet roe on one of the cold platters, with the other ring safe inside."}
+  - {n: 20, hanji: "阿勇吐一口氣：「好佳哉，免叫保險公司，嘛免閣去銀樓。」", tailo: "A-ióng thóo tsi̍t kháu khuì: “Hó-ka-tsài, bián kiò pó-hiám kong-si, mā bián koh khì gîn-lâu.”", en: "A-ióng let out a sigh of relief: 'Thank goodness: no need to call the insurance company or go back to the jeweller's.'"}
+  - {n: 21, hanji: "毋過我閣掠包著一件代誌：小弟頭拄仔佇樹頂，偷偷仔共Sam的領帶結佇樹椏。", tailo: "M̄-koh guá koh lia̍h-pau tio̍h tsi̍t kiānn tāi-tsì: sió-tī thâu-tú-á tī tshiū-tíng, thau-thau-á kā Sam ê niá-tuà kat tī tshiū-ue.", en: "But I caught out one more thing: while he was up the tree, the brother had secretly tied Sam's tie to a branch."}
+  - {n: 22, hanji: "我講：「手指的兇手是客鳥，領帶的兇手是你。」伊笑甲閃袂離。", tailo: "Guá kóng: “Tshiú-tsí ê hiong-siú sī kheh-tsiáu, niá-tuà ê hiong-siú sī lí.” I tshiò kah siám bē lī.", en: "I said: 'The magpie took the rings, but you took the tie.' He couldn't stop laughing, and there was no getting out of it."}
+  - {n: 23, hanji: "阿媽講，客鳥是報喜的鳥，伊來，是欲共新人祝賀。毋過紲落來規場辦桌，伊攏派人佇樹跤監視。", tailo: "A-má kóng, kheh-tsiáu sī pò-hí ê tsiáu, i lâi, sī beh kā sin-lâng tsiok-hō. M̄-koh suà--lo̍h-lâi kui tiûnn pān-toh, i lóng phài lâng tī tshiū-kha kàm-sī.", en: "A-má said the magpie is a bird that brings good news, and it had come to congratulate the newlyweds. All the same, for the rest of the banquet she had someone keep watch under the tree."}
+  - {n: 24, hanji: "這是我退休了後，上歡喜的一个案件。失落的物件揣轉來，新人嘛笑甲喙仔裂獅獅。", tailo: "Tse sī guá thè-hiu liáu-āu, siōng huann-hí ê tsi̍t ê àn-kiānn. Sit-lo̍h ê mi̍h-kiānn tshuē tńg--lâi, sin-lâng mā tshiò kah tshuì-á li̍h-sai-sai.", en: "It was the happiest case of my retirement. The lost things were found, and the newlyweds were grinning from ear to ear."}
+notes:
+  - {ref: 1, topic: vocab, text: "刑警 hîng-kíng = police detective. 偵探 tsing-thàm = detective. 癖 phiah = habit, quirk."}
+  - {ref: 2, topic: vocab, text: "帆布 phâng-pòo = canvas. 榕仔 tshîng-á = banyan. 冷盤 líng-puânn = cold platter, the first course at a banquet."}
+  - {ref: 3, topic: vocab, text: "樹蔭 tshiū-ńg = shade of a tree."}
+  - {ref: 4, topic: vocab, text: "伴郎 = best man. 金仔店 kim-á-tiàm = goldsmith's. 寶石 pó-tsio̍h = gem."}
+  - {ref: 5, topic: vocab, text: "盒仔 a̍p-á = box. 便所 = toilet."}
+  - {ref: 6, topic: vocab, text: "拍交落 phah-ka-la̍uh = lose (something). 歹兆 = bad omen."}
+  - {ref: 7, topic: vocab, text: "老神在在 lāu-sîn-tsāi-tsāi = calm and collected, unruffled. 證人 tsìng-jîn = witness."}
+  - {ref: 8, topic: vocab, text: "疑 gî = suspect, doubt. 創治 = play tricks on (進修 2)."}
+  - {ref: 9, topic: vocab, text: "否認 hónn-jīn = deny. 做證 = testify, vouch."}
+  - {ref: 10, topic: vocab, text: "辦桌 = banquet (catered outdoor feast). 指紋 tsí-bûn = fingerprint."}
+  - {ref: 11, topic: vocab, text: "兇手 hiong-siú = culprit (lit. 'murderer'; here humorous). 動機 tōng-ki = motive. 偷提 = steal."}
+  - {ref: 12, topic: vocab, text: "詳細 = in detail. 羽毛 ú-môo = feather."}
+  - {ref: 13, topic: vocab, text: "樹椏 tshiū-ue = fork of a branch. 鳥仔岫 tsiáu-á-siū = bird's nest; 岫 siū for short (line 14). 閃 siám = glint, flash; also dodge (line 22)."}
+  - {ref: 14, topic: vocab, text: "斷定 tuàn-tīng = conclude, determine. 客鳥 kheh-tsiáu = magpie. 金爍爍 = glittering."}
+  - {ref: 15, topic: vocab, text: "梯 thui = ladder. 𬦰 = climb."}
+  - {ref: 16, topic: vocab, text: "湯匙 = spoon. 酒矸仔 = (wine) bottle. 蓋 = lid, cap."}
+  - {ref: 18, topic: vocab, text: "交落 ka-la̍uh = drop, fall. 半路 = halfway."}
+  - {ref: 20, topic: vocab, text: "吐一口氣 = let out a sigh. 保險 pó-hiám = insurance. 銀樓 gîn-lâu = jeweller's (selling gold and silver)."}
+  - {ref: 21, topic: vocab, text: "掠包 lia̍h-pau = catch out, expose. 領帶 niá-tuà = necktie. 結 kat = tie."}
+  - {ref: 22, topic: vocab, text: "閃袂離 = can't get out of it."}
+  - {ref: 23, topic: culture, text: "報喜 = bring good news. The magpie is a bird of good omen in Taiwan. 監視 kàm-sī = keep watch over."}
+  - {ref: 24, topic: vocab, text: "案件 = case (進修 34). 失落 sit-lo̍h = lose; lost. 喙仔裂獅獅 = grinning from ear to ear."}
+new_words:
+  - {tailo: hîng-kíng, hanji: 刑警, en: "police detective"}
+  - {tailo: tsing-thàm, hanji: 偵探, en: "detective"}
+  - {tailo: phâng-pòo, hanji: 帆布, en: "canvas"}
+  - {tailo: tshîng-á, hanji: 榕仔, en: "banyan"}
+  - {tailo: líng-puânn, hanji: 冷盤, en: "cold platter"}
+  - {tailo: tshiū-ńg, hanji: 樹蔭, en: "shade of a tree"}
+  - {tailo: kim-á-tiàm, hanji: 金仔店, en: "goldsmith's"}
+  - {tailo: pó-tsio̍h, hanji: 寶石, en: "gem"}
+  - {tailo: a̍p-á, hanji: 盒仔, en: "box"}
+  - {tailo: phah-ka-la̍uh, hanji: 拍交落, en: "lose (something)"}
+  - {tailo: lāu-sîn-tsāi-tsāi, hanji: 老神在在, en: "calm and collected"}
+  - {tailo: tsìng-jîn, hanji: 證人, en: "witness"}
+  - {tailo: gî, hanji: 疑, en: "suspect, doubt"}
+  - {tailo: hónn-jīn, hanji: 否認, en: "deny"}
+  - {tailo: tsí-bûn, hanji: 指紋, en: "fingerprint"}
+  - {tailo: hiong-siú, hanji: 兇手, en: "culprit"}
+  - {tailo: tōng-ki, hanji: 動機, en: "motive"}
+  - {tailo: tshiū-ue, hanji: 樹椏, en: "fork of a branch"}
+  - {tailo: tsiáu-á-siū, hanji: 鳥仔岫, en: "bird's nest"}
+  - {tailo: siám, hanji: 閃, en: "glint; dodge"}
+  - {tailo: tuàn-tīng, hanji: 斷定, en: "conclude, determine"}
+  - {tailo: kheh-tsiáu, hanji: 客鳥, en: "magpie"}
+  - {tailo: thui, hanji: 梯, en: "ladder"}
+  - {tailo: ka-la̍uh, hanji: 交落, en: "drop, fall"}
+  - {tailo: pó-hiám, hanji: 保險, en: "insurance"}
+  - {tailo: gîn-lâu, hanji: 銀樓, en: "jeweller's"}
+  - {tailo: lia̍h-pau, hanji: 掠包, en: "catch out, expose"}
+  - {tailo: kàm-sī, hanji: 監視, en: "keep watch over"}
+  - {tailo: sit-lo̍h, hanji: 失落, en: "lose; lost"}
+  - {tailo: phiah, hanji: 癖, en: "habit, quirk"}
+  - {tailo: ú-môo, hanji: 羽毛, en: "feather"}
+  - {tailo: niá-tuà, hanji: 領帶, en: "necktie"}
+exercises:
+  translate:
+    - {tailo: "Thè-hiu liáu-āu, iáu-sī kái bē tiāu tsing-thàm ê phiah.", hanji: "退休了後，猶是改袂掉偵探的癖。", en: "Even in retirement I can't shake off the detective's habit."}
+    - {tailo: "Ta̍k-ke mài tín-tāng. Tī tsia ê lâng lóng sī tsìng-jîn.", hanji: "逐家莫振動。佇遮的人攏是證人。", en: "Nobody move. Everyone here is a witness."}
+    - {tailo: "Hiong-siú nā sī lâng, tōng-ki sī siánn?", hanji: "兇手若是人，動機是啥？", en: "If the thief was a person, what was the motive?"}
+    - {tailo: "Kheh-tsiáu siōng ài kim-sih-sih ê mi̍h-kiānn.", hanji: "客鳥上愛金爍爍的物件。", en: "Magpies love anything shiny."}
+    - {tailo: "Sit-lo̍h ê mi̍h-kiānn tshuē tńg--lâi.", hanji: "失落的物件揣轉來。", en: "The lost things were found."}
+  fill:
+    - {tailo: "Guá ___, kóng: “Ta̍k-ke mài tín-tāng.”", hanji: "我___，講：「逐家莫振動。」", answer: "lāu-sîn-tsāi-tsāi", answer_hanji: "老神在在", en: "I stayed perfectly calm and said: 'Nobody move.'"}
+    - {tailo: "Sió-tī suî ___: “M̄ sī guá!”", hanji: "小弟隨___：「毋是我！」", answer: "hónn-jīn", answer_hanji: "否認", en: "The brother denied it at once: 'It wasn't me!'"}
+    - {tailo: "Toh-tíng mā bô iû ê ___.", hanji: "桌頂嘛無油的___。", answer: "tsí-bûn", answer_hanji: "指紋", en: "There were no greasy fingerprints on the table."}
+    - {tailo: "Tshiū-ue tíng ū tsi̍t ê ___.", hanji: "樹椏頂有一个___。", answer: "tsiáu-á-siū", answer_hanji: "鳥仔岫", en: "In a fork of the branches there was a nest."}
+    - {tailo: "A̍p-á siunn tāng, it-tīng sī puànn-lōo ___--ah.", hanji: "盒仔傷重，一定是半路___矣。", answer: "ka-la̍uh", answer_hanji: "交落", en: "The box was too heavy, so it must have dropped it on the way."}
+audio: []

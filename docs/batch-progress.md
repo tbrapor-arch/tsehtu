@@ -16,5 +16,5 @@ If a session stops (credits, container reset), resume from here.
 | P66 | essay | Mr N̂g's essay for Siù-lân and Sam on marriage and life (language theme dropped: P31 used its words) | done (49 new words) |
 | P67 | song | original song for the wedding | done (28 new words) |
 | P68 | speech | Sam's speech on passing the Taigi proficiency exam | done (36 new words) |
-| P69 | story | the missing wedding rings; Uncle Lîm the retired detective (P34) investigates | todo |
+| P69 | story | the missing wedding rings; Uncle Lîm the retired detective (P34) investigates | done (32 new words) |
 | P70 | review | Sam and Siù-lân's wedding banquet, recombining P64–P69 | todo |
