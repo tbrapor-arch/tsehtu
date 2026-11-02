@@ -1,0 +1,105 @@
+id: 65
+title: {en: "The ring that wouldn't go on", tailo: "Tì bē ji̍p ê tshiú-tsí", hanji: "戴袂入的手指"}
+genre: play
+review: false
+setting: "A comedy in one scene. June: the engagement (送定) at the N̂g family's flat in Taipei. Sam's parents have flown in from abroad the day before and speak no Taigi; A-kong, A-má and A-ióng have come up from Tainan. Siù-lân's paternal aunt and her younger brother are there too."
+dialogue:
+  - {n: 1, speaker: A-má, hanji: "（入門）恭喜！恭喜！今仔日好日，阮對臺南紮大餅來，十二盒，一盒都無欠。", tailo: "(Ji̍p mn̂g) Kiong-hí! Kiong-hí! Kin-á-ji̍t hó-ji̍t, guán uì Tâi-lâm tsah tuā-piánn lâi, tsa̍p-jī a̍p, tsi̍t a̍p to bô khiàm.", en: "(Coming in) Congratulations! Congratulations! It's an auspicious day: we've brought engagement cakes from Tainan, twelve boxes, not one missing."}
+  - {n: 2, speaker: Mother, hanji: "歡迎、歡迎！紅綵阮昨昏就掛好矣，規間厝攏是喜氣。", tailo: "Huan-gîng, huan-gîng! Âng-tshái guán tsa-hng tō kuà hó--ah, kui king tshù lóng sī hí-khì.", en: "Welcome, welcome! We hung the red silk banners yesterday: the whole flat feels festive."}
+  - {n: 3, speaker: Sam, hanji: "黃先生、黃太太，這是阮爸母。𪜶昨昏才落飛行機，時差猶未調轉來。", tailo: "N̂g--sian-sinn, N̂g thài-thài, tse sī guán pē-bú. In tsa-hng tsiah lo̍h hue-lîng-ki, sî-tsha iáu-buē tiâu--tńg-lâi.", en: "Mr and Mrs N̂g, these are my parents. They only got off the plane yesterday and they're still jet-lagged."}
+  - {n: 4, speaker: Father, hanji: "（先用英語講一句歡迎，閣用臺語）歡迎恁來臺灣。坐、坐。", tailo: "(Sing iōng Ing-gí kóng tsi̍t kù huan-gîng, koh iōng Tâi-gí) Huan-gîng lín lâi Tâi-uân. Tsē, tsē.", en: "(Welcoming them first in English, then in Taigi) Welcome to Taiwan. Please, sit down."}
+  - {n: 5, speaker: Sam, hanji: "阮老爸講，伊真歡喜，嘛感謝恁肯共秀蘭託付予我。", tailo: "Guán lāu-pē kóng, i tsin huann-hí, mā kám-siā lín khíng kā Siù-lân thok-hù hōo guá.", en: "My father says he's very happy, and he thanks you for entrusting Siù-lân to me."}
+  - {n: 6, speaker: Aunt, hanji: "我是秀蘭的大姑。阮黃家的族親攏來矣，今仔日的禮儀一項都袂使落勾。", tailo: "Guá sī Siù-lân ê tuā-koo. Guán N̂g--ka ê tso̍k-tshin lóng lâi--ah, kin-á-ji̍t ê lé-gî tsi̍t hāng to bē-sái làu-kau.", en: "I'm Siù-lân's aunt. All the N̂g relatives are here: not a single part of today's ceremony may be left out."}
+  - {n: 7, speaker: A-ióng, hanji: "（細聲）Sam，咱的聘禮佮金仔攏有紮著無？大餅、豬肉、紅包、耳鉤……", tailo: "(Sè-siann) Sam, lán ê phìng-lé kah kim-á lóng ū tsah--tio̍h--bô? Tuā-piánn, ti-bah, âng-pau, hīnn-kau...", en: "(Quietly) Sam, have we got all the betrothal gifts and the gold? Cakes, pork, red envelopes, earrings..."}
+  - {n: 8, speaker: Sam, hanji: "（細聲）攏有，你問第五擺矣。", tailo: "(Sè-siann) Lóng ū, lí mn̄g tē-gōo pái--ah.", en: "(Quietly) Yes, all of it. That's the fifth time you've asked."}
+  - {n: 9, speaker: Aunt, hanji: "第一項：新娘奉茶。秀蘭，出來。", tailo: "Tē-it hāng: sin-niû hōng-tê. Siù-lân, tshut--lâi.", en: "First: the bride serves tea. Siù-lân, come out."}
+  - {n: 10, speaker: Siù-lân, hanji: "（捀甜茶出來，一个一个奉）請食茶。", tailo: "(Phâng tinn-tê tshut--lâi, tsi̍t ê tsi̍t ê hōng) Tshiánn tsia̍h tê.", en: "(Bringing out the sweet tea and serving each guest in turn) Please, have some tea."}
+  - {n: 11, speaker: Brother, hanji: "（佇邊仔笑）阿姊，你的手咧顫喔！姊夫，你是阮的舅仔……毋著，我是你的舅仔！", tailo: "(Tī pinn--á tshiò) A-tsí, lí ê tshiú teh tsùn--ooh! Tsí-hu, lí sī guán ê kū-á... m̄-tio̍h, guá sī lí ê kū-á!", en: "(Laughing at the side) Sis, your hands are shaking! Brother-in-law, you're my... no, wait, I'm your brother-in-law!"}
+  - {n: 12, speaker: Mother, hanji: "你莫亂講！今仔日是你阿姊的大日子，你若閣共人攪擾，我共你拍醒。", tailo: "Lí mài luān-kóng! Kin-á-ji̍t sī lí a-tsí ê tuā ji̍t-tsí, lí nā koh kā lâng kiáu-jiáu, guá kā lí phah-tshénn.", en: "Stop talking nonsense! It's your sister's big day: if you keep making trouble, I'll knock some sense into you."}
+  - {n: 13, speaker: Aunt, hanji: "食了茶，人客愛共紅包囥佇茶甌內，予新娘收。這叫做硩茶甌。", tailo: "Tsia̍h liáu tê, lâng-kheh ài kā âng-pau khǹg tī tê-au lāi, hōo sin-niû siu. Tse kiò-tsò teh tê-au.", en: "When they've drunk their tea, the guests put a red envelope in the cup for the bride. That's called 'weighing down the teacup'."}
+  - {n: 14, speaker: Sam, hanji: "（用英語共爸母翻譯，閣共紅包提予𪜶）阮阿母講，這个習俗真吉祥。", tailo: "(Iōng Ing-gí kā pē-bú huan-i̍k, koh kā âng-pau the̍h hōo in) Guán a-bú kóng, tsit ê si̍p-sio̍k tsin kiat-siông.", en: "(Translating into English for his parents and handing them red envelopes) My mother says it's a lovely custom."}
+  - {n: 15, speaker: Aunt, hanji: "第二項：戴手指。新郎的阿母愛共手指套入去新娘的中指。", tailo: "Tē-jī hāng: tì tshiú-tsí. Sin-lông ê a-bú ài kā tshiú-tsí thò--ji̍p-khì sin-niû ê tiong-tsáinn.", en: "Second: putting on the ring. The groom's mother slips the ring onto the bride's middle finger."}
+  - {n: 16, speaker: A-má, hanji: "記咧，新娘的手指頭仔愛略仔曲，莫予手指套甲尾，按呢以後才袂予翁婿食死死。", tailo: "Kì--leh, sin-niû ê tshiú-tsíng-thâu-á ài lio̍h-á khiau, mài hōo tshiú-tsí thò kah bué; án-ne í-āu tsiah bē hōo ang-sài tsia̍h-sí-sí.", en: "Remember, the bride should bend her finger a little so the ring doesn't go all the way down; that way her husband will never have the upper hand."}
+  - {n: 17, speaker: Sam, hanji: "（翻譯了）阮阿母咧笑，講伊當年嘛應該按呢做。", tailo: "(Huan-i̍k liáu) Guán a-bú teh tshiò, kóng i tong-nî mā ing-kai án-ne tsò.", en: "(After translating) My mother's laughing: she says she ought to have done the same."}
+  - {n: 18, speaker: Siù-lân, hanji: "（細聲）Sam……手指傷細，套袂入。", tailo: "(Sè-siann) Sam... tshiú-tsí siunn sè, thò bē ji̍p.", en: "(Quietly) Sam... the ring's too small. It won't go on."}
+  - {n: 19, speaker: Sam, hanji: "（驚甲面青）哪會？我量過矣！敢是你最近……", tailo: "(Kiann kah bīn tshenn) Ná ē? Guá niû--kuè--ah! Kám sī lí tsuè-kīn...", en: "(Turning pale) How can that be? I measured it! Unless you've recently..."}
+  - {n: 20, speaker: Siù-lân, hanji: "你若敢講「大箍」，今仔日就免訂婚矣。", tailo: "Lí nā kánn kóng “tuā-khoo”, kin-á-ji̍t tō bián tīng-hun--ah.", en: "If you dare say 'put on weight', the engagement's off."}
+  - {n: 21, speaker: A-ióng, hanji: "免驚，我有撇步。（對灶跤提雪文來）抹一屑仔，滑溜溜，就套會入。", tailo: "Bián kiann, guá ū phiat-pōo. (Uì tsàu-kha the̍h sap-bûn lâi) Buah tsi̍t-sut-á, ku̍t-liu-liu, tō thò ē ji̍p.", en: "Don't worry, I've got a trick. (Fetching soap from the kitchen) A bit of this, nice and slippery, and it'll go on."}
+  - {n: 22, speaker: Aunt, hanji: "訂婚用雪文？阮黃家敢毋是欲落台！", tailo: "Tīng-hun iōng sap-bûn? Guán N̂g--ka kám m̄ sī beh lo̍h-tâi!", en: "Soap at an engagement? The N̂g family will be a laughing stock!"}
+  - {n: 23, speaker: A-kong, hanji: "（攑枴仔）好矣，莫吵。古早人講，手指戴會入就好，用啥物套入去，無人會記得。", tailo: "(Gia̍h kuái-á) Hó--ah, mài tshá. Kóo-tsá-lâng kóng, tshiú-tsí tì ē ji̍p tō hó; iōng siánn-mih thò--ji̍p-khì, bô lâng ē kì-tit.", en: "(Raising his walking stick) That's enough, stop squabbling. As the old folk say, what matters is that the ring goes on: nobody remembers how."}
+  - {n: 24, speaker: Siù-lân, hanji: "（手指總算套入去）入去矣！", tailo: "(Tshiú-tsí tsóng-sǹg thò--ji̍p-khì) Ji̍p--khì--ah!", en: "(The ring finally slides on) It's on!"}
+  - {n: 25, speaker: Brother, hanji: "姊仔，按呢你是欲曲手指頭仔，抑是欲予伊套甲尾？", tailo: "Tsí--á, án-ne lí sī beh khiau tshiú-tsíng-thâu-á, ia̍h-sī beh hōo i thò kah bué?", en: "Sis, so are you bending your finger, or letting it go all the way down?"}
+  - {n: 26, speaker: Siù-lân, hanji: "（看手）……套甲尾矣。這馬閣拔都拔袂出來。", tailo: "(Khuànn tshiú) ... Thò kah bué--ah. Tsit-má koh pue̍h to pue̍h bē tshut--lâi.", en: "(Looking at her hand) ... It's gone all the way down. And now it won't come off."}
+  - {n: 27, speaker: Mother, hanji: "（笑）按呢是天註定，以後是秀蘭食Sam死死矣。", tailo: "(Tshiò) Án-ne sī thinn tsù-tiānn, í-āu sī Siù-lân tsia̍h Sam sí-sí--ah.", en: "(Laughing) Then it's fate: from now on Siù-lân will have the upper hand over Sam."}
+  - {n: 28, speaker: Sam, hanji: "（攑雙手）我早就知影矣。我忍，我歡喜忍。", tailo: "(Gia̍h siang-tshiú) Guá tsá tō tsai-iánn--ah. Guá lún, guá huann-hí lún.", en: "(Raising both hands) I knew that already. I'll put up with it, happily."}
+  - {n: 29, speaker: Aunt, hanji: "第三項：拜祖先。新娘佮新郎去公媽桌頭前，叩頭、上香。", tailo: "Tē-sann hāng: pài tsóo-sian. Sin-niû kah sin-lông khì kong-má-toh thâu-tsîng, khàu-thâu, tsiūnn-hiunn.", en: "Third: honouring the ancestors. Bride and groom go before the ancestral altar, bow their heads to the floor and offer incense."}
+  - {n: 30, speaker: Father, hanji: "（拍噗仔）好！今仔日送定圓滿。等結婚，阮才坐轎車去臺南共恁祝賀。", tailo: "(Phah-pho̍k-á) Hó! Kin-á-ji̍t sàng-tiānn uân-buán. Tán kiat-hun, guán tsiah tsē kiau-tshia khì Tâi-lâm kā lín tsiok-hō.", en: "(Clapping) Good! Today's engagement went off perfectly. At the wedding, we'll take the car down to Tainan to celebrate with you all."}
+  - {n: 31, speaker: Sam, hanji: "（翻譯予爸母聽，閣問伊）阮阿爸講……伊頭拄仔睏去矣，時差。", tailo: "(Huan-i̍k hōo pē-bú thiann, koh mn̄g--i) Guán a-pah kóng... i thâu-tú-á khùn--khì--ah, sî-tsha.", en: "(Translating for his parents and turning to his father) My father says... he's just dozed off. Jet lag."}
+notes:
+  - {ref: 1, topic: culture, text: "大餅 tuā-piánn = engagement cakes, large round pastries the groom's family sends to the bride's family, who hand them out to friends and relatives to announce the engagement. 好日 = auspicious day."}
+  - {ref: 2, topic: vocab, text: "紅綵 âng-tshái = red silk banner hung over the door for a happy event. 喜氣 hí-khì = festive atmosphere, joy."}
+  - {ref: 3, topic: vocab, text: "時差 sî-tsha = time difference; jet lag. 調轉來 = adjust back."}
+  - {ref: 6, topic: vocab, text: "大姑 tuā-koo = father's older sister. 族親 tso̍k-tshin = clan relatives. 禮儀 lé-gî = ceremony, etiquette. 落勾 làu-kau = be left out, be missed."}
+  - {ref: 7, topic: vocab, text: "聘禮 phìng-lé = betrothal gifts. 金仔 = gold jewellery. 耳鉤 hīnn-kau = earrings."}
+  - {ref: 9, topic: culture, text: "奉茶 hōng-tê = serve tea (respectfully). At the engagement the bride serves sweet tea to the groom's family."}
+  - {ref: 10, topic: vocab, text: "捀 = carry (with both hands) (lesson 61). 甜茶 tinn-tê = sweet tea."}
+  - {ref: 11, topic: vocab, text: "姊夫 = older sister's husband. 舅仔 kū-á = one's wife's younger brother: the brother gets the kinship term the wrong way round."}
+  - {ref: 12, topic: vocab, text: "亂講 luān-kóng = talk nonsense. 拍醒 phah-tshénn = wake (someone) up; knock sense into."}
+  - {ref: 13, topic: culture, text: "硩茶甌 teh tê-au = 'weigh down the teacup': guests return the cup with a red envelope in it."}
+  - {ref: 14, topic: vocab, text: "習俗 = custom. 吉祥 kiat-siông = auspicious, lucky."}
+  - {ref: 15, topic: vocab, text: "手指 = ring (進修 5). 套 thò = slip on, put on. 中指 tiong-tsáinn = middle finger."}
+  - {ref: 16, topic: culture, text: "曲 khiau = bend, crook. 食死死 = have someone under one's thumb. The custom: if the bride lets the ring go all the way down, her husband will dominate her."}
+  - {ref: 17, topic: vocab, text: "當年 tong-nî = back then (at her own wedding)."}
+  - {ref: 21, topic: vocab, text: "雪文 sap-bûn = soap (from French savon via Portuguese/Spanish, as in many Asian languages). 一屑仔 = a tiny bit. 滑溜溜 ku̍t-liu-liu = slippery."}
+  - {ref: 22, topic: vocab, text: "落台 lo̍h-tâi = lose face, be humiliated (lit. 'come down off the stage')."}
+  - {ref: 26, topic: vocab, text: "拔 pue̍h = pull out, pull off."}
+  - {ref: 27, topic: vocab, text: "天註定 = fated by heaven."}
+  - {ref: 28, topic: vocab, text: "忍 lún = bear, put up with. 雙手 siang-tshiú = both hands."}
+  - {ref: 29, topic: vocab, text: "叩頭 khàu-thâu = kowtow, bow one's head to the floor. 公媽桌 = ancestral altar table."}
+  - {ref: 30, topic: vocab, text: "送定 sàng-tiānn = the engagement (lit. 'sending the pledge'). 訂婚 tīng-hun (line 20) is the general word. 圓滿 = perfect, successful. 轎車 kiau-tshia = car, sedan. 祝賀 tsiok-hō = congratulate, celebrate."}
+new_words:
+  - {tailo: tuā-piánn, hanji: 大餅, en: "engagement cakes"}
+  - {tailo: âng-tshái, hanji: 紅綵, en: "red silk banner"}
+  - {tailo: hí-khì, hanji: 喜氣, en: "festive atmosphere"}
+  - {tailo: sî-tsha, hanji: 時差, en: "time difference; jet lag"}
+  - {tailo: tuā-koo, hanji: 大姑, en: "father's older sister"}
+  - {tailo: tso̍k-tshin, hanji: 族親, en: "clan relatives"}
+  - {tailo: lé-gî, hanji: 禮儀, en: "ceremony, etiquette"}
+  - {tailo: phìng-lé, hanji: 聘禮, en: "betrothal gifts"}
+  - {tailo: hīnn-kau, hanji: 耳鉤, en: "earrings"}
+  - {tailo: hōng-tê, hanji: 奉茶, en: "serve tea"}
+  - {tailo: kū-á, hanji: 舅仔, en: "wife's younger brother"}
+  - {tailo: luān-kóng, hanji: 亂講, en: "talk nonsense"}
+  - {tailo: phah-tshénn, hanji: 拍醒, en: "wake (someone) up"}
+  - {tailo: kiat-siông, hanji: 吉祥, en: "auspicious, lucky"}
+  - {tailo: thò, hanji: 套, en: "slip on, put on"}
+  - {tailo: tiong-tsáinn, hanji: 中指, en: "middle finger"}
+  - {tailo: sap-bûn, hanji: 雪文, en: "soap"}
+  - {tailo: ku̍t-liu-liu, hanji: 滑溜溜, en: "slippery"}
+  - {tailo: lo̍h-tâi, hanji: 落台, en: "lose face"}
+  - {tailo: pue̍h, hanji: 拔, en: "pull out, pull off"}
+  - {tailo: lún, hanji: 忍, en: "bear, put up with"}
+  - {tailo: khàu-thâu, hanji: 叩頭, en: "kowtow"}
+  - {tailo: sàng-tiānn, hanji: 送定, en: "engagement (ceremony)"}
+  - {tailo: tīng-hun, hanji: 訂婚, en: "get engaged"}
+  - {tailo: kiau-tshia, hanji: 轎車, en: "car, sedan"}
+  - {tailo: tsiok-hō, hanji: 祝賀, en: "congratulate, celebrate"}
+  - {tailo: làu-kau, hanji: 落勾, en: "be left out, be missed"}
+  - {tailo: tinn-tê, hanji: 甜茶, en: "sweet tea"}
+  - {tailo: khiau, hanji: 曲, en: "bend, crook"}
+  - {tailo: tong-nî, hanji: 當年, en: "back then, in those years"}
+  - {tailo: siang-tshiú, hanji: 雙手, en: "both hands"}
+exercises:
+  translate:
+    - {tailo: "Âng-tshái guán tsa-hng tō kuà hó--ah, kui king tshù lóng sī hí-khì.", hanji: "紅綵阮昨昏就掛好矣，規間厝攏是喜氣。", en: "We hung the red silk banners yesterday: the whole flat feels festive."}
+    - {tailo: "Kin-á-ji̍t ê lé-gî tsi̍t hāng to bē-sái làu-kau.", hanji: "今仔日的禮儀一項都袂使落勾。", en: "Not a single part of today's ceremony may be left out."}
+    - {tailo: "Lí mài luān-kóng!", hanji: "你莫亂講！", en: "Stop talking nonsense!"}
+    - {tailo: "Tshiú-tsí tì ē ji̍p tō hó; iōng siánn-mih thò--ji̍p-khì, bô lâng ē kì-tit.", hanji: "手指戴會入就好，用啥物套入去，無人會記得。", en: "What matters is that the ring goes on: nobody remembers how."}
+    - {tailo: "Guá lún, guá huann-hí lún.", hanji: "我忍，我歡喜忍。", en: "I'll put up with it, happily."}
+  fill:
+    - {tailo: "In tsa-hng tsiah lo̍h hue-lîng-ki, ___ iáu-buē tiâu--tńg-lâi.", hanji: "𪜶昨昏才落飛行機，___猶未調轉來。", answer: "sî-tsha", answer_hanji: "時差", en: "They only got off the plane yesterday and they're still jet-lagged."}
+    - {tailo: "Tē-it hāng: sin-niû ___.", hanji: "第一項：新娘___。", answer: "hōng-tê", answer_hanji: "奉茶", en: "First: the bride serves tea."}
+    - {tailo: "Sin-lông ê a-bú ài kā tshiú-tsí thò--ji̍p-khì sin-niû ê ___.", hanji: "新郎的阿母愛共手指套入去新娘的___。", answer: "tiong-tsáinn", answer_hanji: "中指", en: "The groom's mother slips the ring onto the bride's middle finger."}
+    - {tailo: "Tīng-hun iōng sap-bûn? Guán N̂g--ka kám m̄ sī beh ___!", hanji: "訂婚用雪文？阮黃家敢毋是欲___！", answer: "lo̍h-tâi", answer_hanji: "落台", en: "Soap at an engagement? The N̂g family will be a laughing stock!"}
+    - {tailo: "Tshiú-tsí thò kah bué--ah, tsit-má ___ bē tshut--lâi.", hanji: "手指套甲尾矣，這馬___袂出來。", answer: "pue̍h", answer_hanji: "拔", en: "The ring has gone all the way down, and now it won't come off."}
+audio: []
