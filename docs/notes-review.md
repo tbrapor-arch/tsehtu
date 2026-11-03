@@ -8,6 +8,8 @@ Done:
 - Audit scripts (in the session scratchpad): A no Hàn-jī overlap with the line; B note readings never attested in the
   dictionary; D note words found only in another line; E note reading differs from the line's reading. Remaining hits
   were checked by hand and are intentional (other readings, sandhi forms, colloquial readings).
-- Reading pass, base lessons: L1–L33 read; fixed L14 (破病 moved to line 3), L15 (媠/水), L30 (領錢 wording).
+- Reading pass, base lessons: L1–L100 read. Fixed L14 (破病 moved to line 3), L15 (媠/水), L30 (領錢 wording), L38, L45, L46
+  (note on the wrong line), L57 (謎猜 reading), L62 (徛 xref), L64, L65, L67 (一心兩葉, 捷), L68 (學生, 向望), L69 (反悔, 數),
+  L72 (forward xref), L87 (sandhi of 狗 at the end of the subject), L91 (又閣).
 
-To do: read base L34–L100 notes, then 進修 P1–P70; merge to main.
+To do: read 進修 P1–P70 notes; merge to main.
