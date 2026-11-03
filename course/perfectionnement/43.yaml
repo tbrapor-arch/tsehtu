@@ -27,7 +27,7 @@ dialogue:
   - {n: 21, hanji: "今年清明，阮全家轉去培墓。阮查某囝共阿祖的墓前的草挽予清氣。", tailo: "Kin-nî Tshing-bîng, guán tsuân ke tńg-khì puē-bōng. Guán tsa-bóo-kiánn kā a-tsóo ê bōng-tsîng ê tsháu bán hōo tshing-khì.", en: "This year at Qingming, the whole family went back to tend the grave. My daughter pulled up the weeds in front of her great-grandmother's grave."}
   - {n: 22, hanji: "伊問我：「阿祖佇天堂敢看會著阮？」我講：「你若會記得伊，伊就看會著。」", tailo: "I mn̄g guá: “A-tsóo tī thian-tông kám khuànn ē tio̍h guán?” Guá kóng: “Lí nā ē kì--tit i, i tō khuànn ē tio̍h.”", en: "She asked me: 'Can Great-grandma see us from heaven?' I said: 'If you remember her, she can.'"}
 notes:
-  - {ref: 1, topic: vocab, text: "過身 = pass away (進修 21's 'polite' word for dying). 享壽 hióng-siū = live to the age of (said of the dead, respectful; a written word)."}
+  - {ref: 1, topic: vocab, text: "過身 = pass away, the gentle word (lesson 83). 享壽 hióng-siū = live to the age of (said of the dead, respectful; a written word)."}
   - {ref: 2, topic: vocab, text: "喪事 song-sū = funeral, a death in the family. 傳統 thuân-thóng = tradition. 前後 = in all, from start to finish."}
   - {ref: 3, topic: culture, text: "棺柴 kuann-tshâ = coffin. 廳 = main room. 守 tsiú = keep watch. Traditionally the coffin stays at home until the procession."}
   - {ref: 4, topic: culture, text: "孝男 hàu-lâm = son in mourning, chief mourner: 孝男、孝女愛分開徛佇兩爿 'the sons and daughters in mourning stand on either side' (MOE). 麻衫 muâ-sann = hemp mourning clothes. 帶孝 tuà-hà = be in mourning."}
@@ -36,7 +36,7 @@ notes:
   - {ref: 7, topic: vocab, text: "An exact MOE example. 在生 tsāi-senn = while alive. 好代 = good deeds."}
   - {ref: 8, topic: culture, text: "白包 pe̍h-pau = white envelope of condolence money (the opposite of the red envelope). 還 hîng = return, give back. 人情世事 = social obligations (世事, 進修 29)."}
   - {ref: 9, topic: culture, text: "出山 tshut-suann = funeral procession ('go out to the hills', where graves were): 王的後日欲出山 'Ông's funeral is the day after tomorrow' (MOE). 樂隊 ga̍k-tuī = band. 門口埕 = front yard. 歕 pûn = blow. 鼓吹 kóo-tshue = suona, the shrill reed horn of weddings and funerals. 花車 hue-tshia = decorated truck."}
-  - {ref: 10, topic: culture, text: "牽亡 khan-bông = 'leading the dead': a spirit medium who sings in the voice of the dead: 你敢捌看人咧牽亡？ (MOE). 哀怨 ai-uàn = mournful, plaintive (進修 32 has the MOE example)."}
+  - {ref: 10, topic: culture, text: "牽亡 khan-bông = 'leading the dead': a spirit medium who sings in the voice of the dead: 你敢捌看人咧牽亡？ (MOE). 哀怨 ai-uàn = mournful, plaintive."}
   - {ref: 11, topic: vocab, text: "目屎流目屎滴 = tears streaming down."}
   - {ref: 12, topic: vocab, text: "毋捌代誌 = thoughtless, immature. 不孝 put-hàu = unfilial: 伊真不孝 (MOE)."}
   - {ref: 13, topic: culture, text: "墓仔埔 = cemetery. 紙錢 tsuá-tsînn and 銀紙 gîn-tsuá = spirit money, burned for the dead. 彼爿 = the other side."}

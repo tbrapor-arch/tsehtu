@@ -15,9 +15,9 @@ dialogue:
   - {n: 10, speaker: A-má, hanji: "逐家平安，有通食閣有通儉，就是好命。", tailo: "Ta̍k-ke pîng-an, ū thang tsia̍h koh ū thang khiām, tō sī hó-miā.", en: "Everyone safe, enough to eat and enough to save: that's a lucky life."}
 notes:
   - {ref: 2, topic: grammar, text: "予 hōo + (cause) + V: 予驚 'be frightened (by it)'. The passive 予 from lessons 65 and 68: 壁予地動搝, 予對方拍全壘打. V 甲 + result: 驚甲袂睏 'so scared we couldn't sleep'."}
-  - {ref: 3, topic: vocab, text: "Earthquake words (lesson 65): 地動, 幌 / 搖, 崩去, 裂, 著傷, 覕佇桌跤, 逃, 驚惶, 恐怖, 喝救人."}
+  - {ref: 1, topic: vocab, text: "Earthquake words (lesson 65): 地動, 幌 / 搖, 崩去, 裂, 著傷, 覕佇桌跤, 逃, 驚惶, 恐怖, 喝救人."}
   - {ref: 4, topic: grammar, text: "逝 tsuā = a trip (彼逝 'that trip') and a row (彼逝茶欉, line 5): lesson 67. Lukang (lesson 66): 古蹟, 腔口, 海口, 師傅, 木雕, 街仔, 特產, 順紲; 本 pún for books."}
-  - {ref: 5, topic: grammar, text: "上 siōng (speech) and 最 tsuè (writing) = most (lesson 67). 枝 ki: classifier for twigs, pens, home runs (lessons 67, 68)."}
+  - {ref: 0, topic: grammar, text: "上 siōng (speech) and 最 tsuè (writing) = most (lesson 67). 枝 ki: classifier for twigs, pens, home runs (lessons 67, 68)."}
   - {ref: 6, topic: grammar, text: "雖然 X，毋過 Y = although X, Y (lesson 67). 但是 tān-sī = but, more written than 毋過 (lesson 68). Sport (lesson 68): 比賽, 贏 / 輸, 隊, 投手, 打擊, 全壘打, 球場, 支持."}
   - {ref: 8, topic: grammar, text: "毋管 X，(攏) Y = no matter X (lesson 69); 別人 pa̍t-lâng = other people. Money (lesson 69): 開錢, 儉 / 儉錢, 物價, 薪水, 開銷, 收入, 按算, 利息. 因為…所以… = because … so …."}
   - {ref: 9, topic: grammar, text: "連 X 都 / 嘛 V = not even X (lesson 64). 後來 āu--lâi = later on, looking back over time (lesson 64); also 咧欲 teh-beh 'about to' and 就我來講 tsiū guá lâi kóng 'as for me'. 好處 hó-tshù = advantage, benefit."}

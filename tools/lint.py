@@ -108,6 +108,10 @@ def lint(path, keys, pairs, moe_ex):
     for f in ('id', 'title', 'dialogue', 'notes', 'new_words'):
         if f not in d:
             m('E', 0, f'missing field: {f}')
+    _ns = {l.get('n') for l in (d.get('dialogue') or [])}
+    for _i, _n in enumerate(d.get('notes') or []):
+        if _n.get('ref') != 0 and _n.get('ref') not in _ns:
+            m('E', f'notes[{_i}]', f"note ref {_n.get('ref')} is not a line of the dialogue (use 0 for a recap note)")
 
     def check_line(where, hanji, tailo, sentence_start=True):
         ws = words(tailo)

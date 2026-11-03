@@ -33,13 +33,13 @@ dialogue:
   - {n: 27, speaker: Everyone, hanji: "乾杯！祝賀！", tailo: "Kan-pue! Tsiok-hō!", en: "Cheers! Congratulations!"}
 notes:
   - {ref: 2, topic: vocab, text: "The missing rings (進修 69): 老神在在, 失落, 兇手, 客鳥, 領帶, 斷定."}
-  - {ref: 6, topic: vocab, text: "Sam's letter (進修 64): 定居, 成家, 分擔, 家事, 託付, 一心一意, 終身, 珍惜, 阿啄仔, 身份."}
+  - {ref: 7, topic: vocab, text: "Sam's letter (進修 64): 定居, 成家, 分擔, 家事, 託付, 一心一意, 終身, 珍惜, 阿啄仔, 身份."}
   - {ref: 10, topic: vocab, text: "Grandad N̂g's essay (進修 66): 倚靠, 束縛, 是非, 分明, 寬寬仔."}
   - {ref: 12, topic: vocab, text: "The engagement (進修 65): 送定, 套, 忍, 時差, 祝賀."}
   - {ref: 14, topic: vocab, text: "The proficiency test (進修 68): 檢定, 聽力, 閱讀, 作文, 復習, 目箍."}
   - {ref: 17, topic: vocab, text: "The song (進修 67): 天涯, 浪子, 彈, 弦, 有緣, 相逢, 無緣, 相識."}
   - {ref: 25, topic: vocab, text: "做主 = be in charge, make the decisions."}
-  - {ref: 27, topic: culture, text: "This is the last lesson of 進修. 多謝你一路綴阮學到遮! Thank you for coming all the way with us."}
+  - {ref: 0, topic: culture, text: "This is the last lesson of 進修. 多謝你一路綴阮學到遮! Thank you for coming all the way with us."}
 new_words: []
 exercises:
   translate:

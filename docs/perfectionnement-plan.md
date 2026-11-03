@@ -259,3 +259,9 @@ numbers are fine; declare the rest), plus new_words already declared or used ear
   checks now cover themes, grammar, drills, bridge, podcast, video and settings. Full run on 21 Oct 2026 (114 lessons): 0 problems, about 19 minutes.
 - Language QC pass on 20 Oct 2026 (all 100 lessons + P1): 6 lessons fixed (54, 67, 68, 73, 85, 93); no other
   unattested readings, no Mandarin function words, no inconsistent readings across lessons.
+
+## Notes: line refs (3 Nov 2026)
+- A note's `ref` must be a line of the dialogue (lint error otherwise), or `0` for a recap note: the app lists recap notes
+  under the dialogue ("Recap notes") and labels them "Recap" instead of "Line N".
+- Review lessons: recap notes that matched no line were set to `ref: 0` (30 notes); notes whose words sat in another line
+  were moved to that line. Checked by the audit scripts described in docs/notes-review.md.
