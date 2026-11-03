@@ -16,8 +16,8 @@ dialogue:
 notes:
   - {ref: 1, topic: grammar, text: "Moving (lesson 73): 搬厝, 扛, 拖, 捒, 撨, 捾; 重 / 輕; 斟酌 = careful; 家私, 收拾, 好勢. V 甲 + result: 扛甲規身軀流汗."}
   - {ref: 3, topic: sandhi, text: "Pets (lesson 74): 貓仔, 狗仔, 兔仔, 鴨仔, 鳥仔; 耍 = play; 咬 = bite; 吠 = bark. Before 仔: tone 3 and tone 4 (-h) → tone 1, tone 7 and tone 8 (-h) → tone 7; 兔仔 thoo-á, 鴨仔 a-á, 帽仔 bō-á."}
-  - {ref: 4, topic: grammar, text: "Medicine (lesson 75): 寒著, 漢藥 / 漢醫 / 西醫, 體質, 虛, 涼, 補, 燉, 摻. 若是 nā-sī = if. False friends: 熟似 (know someone), 性命 (life), 近來 (lately), 大人 (adult)."}
-  - {ref: 6, topic: grammar, text: "Telling a story (lesson 72): 古早古早, 有一工, 起先, 原來, 無疑 (unexpectedly), 最後, 結局; 巧 = clever; 假影 = pretend; 騙 = trick; 袂輸 = just like."}
+  - {ref: 5, topic: grammar, text: "Medicine (lesson 75): 寒著, 漢藥 / 漢醫 / 西醫, 體質, 虛, 涼, 補, 燉, 摻. 若是 nā-sī = if. False friends: 熟似 (know someone), 性命 (life), 近來 (lately), 大人 (adult)."}
+  - {ref: 0, topic: grammar, text: "Telling a story (lesson 72): 古早古早, 有一工, 起先, 原來, 無疑 (unexpectedly), 最後, 結局; 巧 = clever; 假影 = pretend; 騙 = trick; 袂輸 = just like."}
   - {ref: 7, topic: grammar, text: "毋但 X，閣 Y = not only X, but also Y (lesson 71). School and languages: 母語, 本土語言, 課 / 上課, 客語, 原住民, 環境, 自信, 重視, 囝孫."}
   - {ref: 8, topic: grammar, text: "Letters (lesson 76): 批, 回批, 電子批, 批囊; 上蓋 = the most, extremely; 數念 = miss; 自從 = since; 敬愛的…, 敬祝身體健康. 誠意 = sincerity."}
   - {ref: 10, topic: vocab, text: "頓 tǹg = classifier for meals. 有份 ū hūn = have a share."}

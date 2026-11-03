@@ -17,9 +17,9 @@ notes:
   - {ref: 1, topic: grammar, text: "Result 著 tio̍h: 揣著 'found', 看著 'saw', 鼻著 'smelt'. Work words: 頭路 (job), 食頭路 (be employed), 倩 (hire), 欠人 (short-staffed), 頭家 (boss), 上班 (go to work)."}
   - {ref: 2, topic: grammar, text: "Ability and permission: 會當 ē-tàng (can, be able), 會使 ē-sái (may), 袂當 / 袂使 (cannot / must not). Certainty: 一定 it-tīng (certainly), 大概 tāi-khài (probably)."}
   - {ref: 4, topic: grammar, text: "Linking words from this week: 毋但…閣… (not only… but also), 毋管…攏… (no matter… always), 袂輸 (as if), 驚 + clause (in case), 抑是 (or, in questions). Degree: 較 (more), 閣較 (even more), 上 (most)."}
-  - {ref: 5, topic: grammar, text: "Number + 外 guā = a little over (兩公斤外). V + 予好 hōo hó = do it properly (收予好, 攢予好勢). Adjective + --去 = has gone (bad): 烏去, 歹去."}
+  - {ref: 0, topic: grammar, text: "Number + 外 guā = a little over (兩公斤外). V + 予好 hōo hó = do it properly (收予好, 攢予好勢). Adjective + --去 = has gone (bad): 烏去, 歹去."}
   - {ref: 6, topic: vocab, text: "慣勢 kuàn-sì = be used to (習慣): 無慣勢食甜的 'not used to sweet food'. The five tastes: 鹹 kiâm, 甜 tinn, 酸 sng, 苦 khóo, 薟 hiam; smells: 芳 phang, 臭 tshàu."}
-  - {ref: 8, topic: false-friend, text: "Same characters, other meaning (lessons 50–55): 下 hē 'put down', 趕緊 'quickly', 攢 'prepare', 早起 'morning', 誠實 'really', 親情 'relatives', 中央 tiong-ng 'middle', 怎樣 'how'. Taigi-only: 枵, 四界, 攑, 覕, 抾, 恬恬, 刣, 月娘, 卵仁."}
+  - {ref: 9, topic: false-friend, text: "Same characters, other meaning (lessons 50–55): 下 hē 'put down', 趕緊 'quickly', 攢 'prepare', 早起 'morning', 誠實 'really', 親情 'relatives', 中央 tiong-ng 'middle', 怎樣 'how'. Taigi-only: 枵, 四界, 攑, 覕, 抾, 恬恬, 刣, 月娘, 卵仁."}
   - {ref: 9, topic: grammar, text: "Now and then: 這馬 tsit-má (nowadays, now), 這陣 tsit-tsūn (right now), 彼陣 hit-tsūn (back then), 暗時 àm-sî (at night), 早起 tsá-khí (morning), 中晝 tiong-tàu (noon), 下晡 ē-poo (afternoon)."}
 new_words:
   - {tailo: kiong-hí, hanji: 恭喜, en: "congratulations"}

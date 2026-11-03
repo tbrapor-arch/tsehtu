@@ -236,6 +236,7 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .tok.c-ff { text-decoration: underline dotted var(--coral) 2.5px; text-underline-offset: .3em; }
 .punct { color: var(--sub); }
 .under { display: flex; gap: .4rem .8rem; flex-wrap: wrap; align-items: center; }
+.under.recap { margin: .6rem 0 0; }
 .reveal { border: 0; background: var(--bg); border-radius: 999px; padding: .2rem .75rem; font-size: .8rem; font-weight: 600; color: var(--sub); }
 .en { font-size: 1rem; }
 .zh { font-family: var(--f-han); color: var(--sub); }
@@ -875,10 +876,11 @@ function showLesson(L) {
         ${active ? `<div class="en act">${esc(ln.en)}</div><button class="reveal" data-tw="${li}">Show Taigi</button><div class="txt" id="tw-${li}" hidden>${sentence(ln.tokens, 'L' + li)}</div>` : `<div class="txt">${sentence(ln.tokens, 'L' + li)}</div>`}
         <div class="under">${ln.audio ? `<button class="lplay rec" data-lplay="${li}" aria-label="Listen to line ${ln.n}" title="Recorded by ${esc(ln.voice || 'a native speaker')}">▶</button>` : lineAudio(ln.tokens).length ? `<button class="lplay" data-lplay="${li}" aria-label="Listen to line ${ln.n} word by word" title="Word by word (dictionary recordings)">▶</button>` : ''}${active ? '' : enLine(ln.en, ln.zh, 'l' + li)}${WAVE ? '' : (notesBy[ln.n] || []).map(k => `<button class="nlink" data-note="${k}" aria-label="Note ${k}">${k}</button>`).join('')}</div>
       </div>`; }).join('')}</div>
+    ${!WAVE && (notesBy[0] || []).length ? `<div class="under recap"><span class="sub">Recap notes</span>${notesBy[0].map(k => `<button class="nlink" data-note="${k}" aria-label="Note ${k}">${k}</button>`).join('')}</div>` : ''}
     ${active ? `<div class="row"><button class="btn small quiet" id="show-all">Show all the Taigi</button></div>` : ''}
     ${WAVE ? '' : `
     <details class="allnotes" id="sec-notes"><summary><span class="han">注解</span> All notes (${L.notes.length})</summary>
-    <ol class="notes">${L.notes.map((n, i) => `<li class="note" id="note-${i + 1}"><span class="nn">${i + 1}</span><p><span class="tag ${esc(n.topic)}">Line ${n.ref} · ${esc(n.topic.replace('-', ' '))}</span>${fmt(n.text)}</p></li>`).join('')}</ol></details>
+    <ol class="notes">${L.notes.map((n, i) => `<li class="note" id="note-${i + 1}"><span class="nn">${i + 1}</span><p><span class="tag ${esc(n.topic)}">${n.ref ? 'Line ' + n.ref : 'Recap'} · ${esc(n.topic.replace('-', ' '))}</span>${fmt(n.text)}</p></li>`).join('')}</ol></details>
     <h2 id="sec-words"><span class="han">新詞</span> New words</h2>
     <div class="wgrid">${L.new_words.map(w => `<button class="wchip ${w.id ? cog(w.id)[2] : ''} ${inList('lessons', w.id) ? 'indeck' : ''}" data-word="${esc(w.id)}"><b>${esc(w.hanji)}</b><span class="r">${esc(w.tailo)}</span><span class="g">${esc(w.en || '')}</span></button>`).join('')}</div>
     <div class="row"><button class="btn small quiet" id="anki">Copy for Anki</button><button class="btn small quiet" id="addall">Add all to my Lessons list</button><span class="sub" style="font-size:.85rem">${L.new_words.filter(w => inList('lessons', w.id)).length} of ${L.new_words.length} in it</span></div>
@@ -1427,7 +1429,7 @@ function rerenderCurrent() { const keep = window.scrollY; const h = location.has
 function openNote(L, k) {
   const n = L.notes[k - 1], sh = $('#sheet'), total = L.notes.length;
   sh.innerHTML = `<div class="grab"></div>
-    <div class="wc-top"><div><span class="eyebrow">Note ${k} of ${total} · line ${n.ref}</span>
+    <div class="wc-top"><div><span class="eyebrow">Note ${k} of ${total} · ${n.ref ? 'line ' + n.ref : 'recap'}</span>
       <div class="note-tag ${esc(n.topic)}">${esc(n.topic.replace('-', ' '))}</div></div><button class="x" aria-label="Close">×</button></div>
     <p class="note-body">${fmt(n.text)}</p>
     <div class="row"><button class="btn small line" id="nprev" ${k <= 1 ? 'disabled' : ''}>‹ Previous</button>

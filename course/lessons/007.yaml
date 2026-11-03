@@ -39,7 +39,7 @@ dialogue:
   tailo: Peh-tsa̍p khoo. M̄-bián--lah, guá tshiánn lí.
   en: Eighty. Never mind, it's on me.
 notes:
-- ref: 2
+- ref: 1
   topic: grammar
   text: >
     Answering 食飽未？: yes = 食飽矣 tsia̍h-pá--ah; not yet = 猶未 iáu-buē. --ah marks something that has now happened; 未 buē asks
@@ -49,17 +49,17 @@ notes:
   text: >
     This vs that. Before a classifier: 這 tsit / 彼 hit (tsit ê, hit khuán). On their own: 這 tse / 彼 he. Here / there: 遮 tsia
     / 遐 hia. So / that much: 遮爾 tsiah-nī / 遐爾 hiah-nī.
-- ref: 5
+- ref: 0
   topic: grammar
   text: >
     Four negatives so far. 毋 m̄: with 是 and 捌 (m̄-sī, m̄ bat). 無 bô: no / not have, and with 愛 (bô ài). 袂 bē: cannot, is not
     (bē-bái "not bad", bē-sái "not allowed"). 未 buē: not yet. A later lesson adds 莫 mài "don't!".
-- ref: 5
+- ref: 0
   topic: grammar
   text: >
     Three ways to ask a question: a question word (啥 siánn, 啥人 siánn-lâng, 佗位 tó-uī, 幾 kuí, 按怎 án-tsuánn); 敢 kám before the
     verb; or a tag at the end (--bô, --buē, 好無 hó--bô).
-- ref: 6
+- ref: 0
   topic: grammar
   text: >
     We: 阮 guán (not you) and 咱 lán (you too). You (plural): 恁 lín. They: 𪜶 in. With family and home, 阮 / 恁 also mean "my"

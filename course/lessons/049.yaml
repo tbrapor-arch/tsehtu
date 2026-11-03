@@ -15,10 +15,10 @@ dialogue:
 notes:
   - {ref: 1, topic: grammar, text: "Number + 幾 kuí = … and something: 二十幾桌 'twenty-odd tables'. 桌 toh = table (classifier for banquet tables). Reversed words: 人客, 鬧熱, 嚨喉."}
   - {ref: 3, topic: grammar, text: "Duration + 就 tō + verb + 矣: 代先一點鐘就到矣 'arrived a whole hour early'. 無簡單 bô kán-tan = impressive (不簡單)."}
-  - {ref: 3, topic: grammar, text: "Again: 閣 koh (again, still), 又閣 iū-koh (again, annoyingly), 閣再 koh-tsài (once more). Every: 逐 ta̍k + classifier (逐擺, 逐工, 逐家)."}
+  - {ref: 7, topic: grammar, text: "Again: 閣 koh (again, still), 又閣 iū-koh (again, annoyingly), 閣再 koh-tsài (once more). Every: 逐 ta̍k + classifier (逐擺, 逐工, 逐家)."}
   - {ref: 4, topic: grammar, text: "Apologising and making up: 歹勢 (sorry), 失禮 (excuse me), 會失禮 (apologise), 原諒 (forgive), 見笑 (ashamed), 和好 (make up). Hard / easy: 僫 oh + verb, 好 hó + verb."}
-  - {ref: 5, topic: grammar, text: "Sentence-final particles so far: 矣 --ah (change), 啦 --lah (soften, concede), 喔 --ooh (surprise, warning), 咧 --leh (insist; 'and you?'), 乎 --honnh (right?), 無 --bô (yes/no question), 未 --buē (yet?)."}
-  - {ref: 5, topic: grammar, text: "Buying and returning: 拍八折 (20% off), 起價 / 落價, 退 (return), 換 (exchange), 寄 (send), 無彩 (what a waste)."}
+  - {ref: 3, topic: grammar, text: "Sentence-final particles so far: 矣 --ah (change), 啦 --lah (soften, concede), 喔 --ooh (surprise, warning), 咧 --leh (insist; 'and you?'), 乎 --honnh (right?), 無 --bô (yes/no question), 未 --buē (yet?)."}
+  - {ref: 0, topic: grammar, text: "Buying and returning: 拍八折 (20% off), 起價 / 落價, 退 (return), 換 (exchange), 寄 (send), 無彩 (what a waste)."}
   - {ref: 6, topic: "vocab", text: "Lessons 43–48 again: 鴛鴦, 欣羨 (43)."}
   - {ref: 7, topic: "vocab", text: "夾, 好料的 (44)."}
   - {ref: 8, topic: "culture", text: "The proverb from lesson 44."}
