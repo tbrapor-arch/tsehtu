@@ -16,12 +16,12 @@ dialogue:
   - {n: 11, speaker: "A-hun", hanji: "下擺我欲𤆬阮公司的人來，大約十个，坐會落無？", tailo: "Ē-pái guá beh tshuā guán kong-si ê lâng lâi, tāi-iok tsa̍p ê, tsē ē lo̍h--bô?", en: "Next time I'd like to bring people from my company, about ten of us. Will we fit?"}
   - {n: 12, speaker: "Waitress", hanji: "坐會落！恁若先敲電話來，頭家會準備較豐富的料理，予恁食甲飽飽。", tailo: "Tsē ē lo̍h! Lín nā sing khà tiān-uē lâi, thâu-ke ē tsún-pī khah hong-hù ê liāu-lí, hōo lín tsia̍h kah pá-pá.", en: "You'll fit! If you call ahead, the boss will prepare a bigger spread, so you'll eat your fill."}
 notes:
-  - {ref: 1, topic: vocab, text: "點菜 tiám tshài = order (food). 菜單 tshài-tuann = menu: 單 has its colloquial reading tuann here."}
+  - {ref: 1, topic: vocab, text: "菜單 tshài-tuann = menu: 單 has its colloquial reading tuann here."}
   - {ref: 2, topic: false-friend, text: "小姐 sió-tsiá = Miss, the polite way to call a waitress or a young woman. It does not carry the bad connotation it can have in Mandarin. 招牌 tsiau-pâi = signboard; here 'speciality, signature dish'."}
   - {ref: 3, topic: vocab, text: "炒米粉 tshá bí-hún = fried rice noodles. 魚湯 hî-thng = fish soup. 呵咾 o-ló = praise (稱讚): 逐家攏呵咾 'everyone praises it'."}
   - {ref: 4, topic: grammar, text: "Food classifiers: 盤 puânn = plate, 碗 uánn = bowl, 份 hūn = portion, 杯 pue = cup. 青菜 tshenn-tshài = green vegetables: 青 has its colloquial reading tshenn."}
   - {ref: 5, topic: grammar, text: "有夠 ū-kàu = enough (夠): 有夠食 'enough to eat'. 有夠 + adjective also means 'really, so' (有夠好食 'so tasty'). 無夠 bô kàu = not enough."}
-  - {ref: 6, topic: grammar, text: "食袂了 tsia̍h bē liáu = can't finish (吃不完): verb + 袂 + 了. Compare 睏袂去 (lesson 12), 揣袂著 (lesson 22). 包轉去 pau tńg-khì = take away, take home (打包回去)."}
+  - {ref: 6, topic: grammar, text: "點菜 tiám tshài = order (food). 食袂了 tsia̍h bē liáu = can't finish (吃不完): verb + 袂 + 了. Compare 睏袂去 (lesson 12), 揣袂著 (lesson 22). 包轉去 pau tńg-khì = take away, take home (打包回去)."}
   - {ref: 7, topic: grammar, text: "我請 guá tshiánn = it's on me (lesson 7). 攏總 lóng-tsóng = altogether, in total (一共)."}
   - {ref: 9, topic: "false-friend", text: "料理 liāu-lí = dishes, cooking (from Japanese 料理); as a verb it also means 'deal with, sort out', which is closer to its old Chinese sense. 有趁 ū thàn 'make a profit'."}
   - {ref: 10, topic: "vocab", text: "本錢 pún-tsînn = cost, capital (the money you put in). 重要 = important (lesson 10)."}

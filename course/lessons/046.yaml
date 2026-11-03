@@ -18,8 +18,8 @@ dialogue:
   - {n: 13, speaker: "A-hun", hanji: "俗物無好貨。", tailo: "Sio̍k-mi̍h bô hó huè.", en: "Cheap things are never good.", source: "moe"}
   - {n: 14, speaker: "A-hun", hanji: "你若隨便買，買毋著閣愛出運費寄轉去，加開的錢比俗的較濟，按呢敢有價值？", tailo: "Lí nā suî-piān bé, bé m̄-tio̍h koh ài tshut ūn-huì kià--tńg-khì, ke khai ê tsînn pí sio̍k--ê khah tsē, án-ne kám ū kè-ta̍t?", en: "If you buy without thinking and get the wrong thing, you have to pay the postage to send it back, and the extra you spend is more than you saved. Is that worth it?"}
 notes:
-  - {ref: 1, topic: vocab, text: "包裹 pau-kó = parcel. 網路 bāng-lōo = the internet: 網 has its colloquial reading bāng."}
-  - {ref: 2, topic: grammar, text: "Discounts: 拍 phah + number + 折 tsiat = … % of the price: 拍八折 'pay 80%' (20% off), as in Mandarin 打八折. 雙 siang = a pair (classifier). 鞋仔 ê-á = shoes."}
+  - {ref: 1, topic: vocab, text: "包裹 pau-kó = parcel."}
+  - {ref: 2, topic: grammar, text: "網路 bāng-lōo = the internet: 網 has its colloquial reading bāng. Discounts: 拍 phah + number + 折 tsiat = … % of the price: 拍八折 'pay 80%' (20% off), as in Mandarin 打八折. 雙 siang = a pair (classifier). 鞋仔 ê-á = shoes."}
   - {ref: 3, topic: vocab, text: "大細 tuā-sè = size (literally 'big-small') (尺寸). 拄好 tú-hó = just right (剛好)."}
   - {ref: 4, topic: grammar, text: "穿袂落去 tshīng bē lo̍h-khì = can't get them on: verb + 袂 + direction. Positive: 穿會落去."}
   - {ref: 5, topic: vocab, text: "退 thè = return (an item), retreat. 無彩 bô-tshái = what a waste, a pity (可惜): a very common Taigi word."}
