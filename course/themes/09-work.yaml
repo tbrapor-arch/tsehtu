@@ -1,0 +1,246 @@
+id: work
+title:
+  en: Work, money and business
+  hanji: 工作、錢佮生理
+  tailo: kang-tsok, tsînn kap sing-lí
+intro: >-
+  Working life first: the working day, the people at work, finding a job and pay, and office work. Each group ends with
+  a short text. Words the MOE dictionary lacks are taken from iTaigi and carry an iTaigi badge.
+sections:
+- n: 1
+  title:
+    en: The working day
+    hanji: 上班佮下班
+    tailo: siōng-pan kap hā-pan
+  words:
+  - hanji: 頭路
+    tailo: thâu-lōo
+    en: job, occupation
+    zh: 職業、工作
+  - hanji: 工課
+    tailo: khang-khuè
+    en: work, task
+    zh: 工作、事情
+  - hanji: 食頭路
+    tailo: tsia̍h-thâu-lōo
+    en: have a job, work for a living
+    zh: 上班、就業
+  - hanji: 上班
+    tailo: siōng-pan
+    en: go to work; be at work
+    zh: 上班
+  - hanji: 下班
+    tailo: hā-pan
+    en: finish work, leave work
+    zh: 下班
+  - hanji: 拍卡
+    tailo: phah-khah
+    en: clock in, clock out
+    zh: 打卡
+    source: itaigi
+  - hanji: 加班
+    tailo: ka-pan
+    en: work overtime
+    zh: 加班
+  - hanji: 請假
+    tailo: tshíng-ká
+    en: ask for leave, take a day off
+    zh: 請假
+  - hanji: 出差
+    tailo: tshut-tshai
+    en: go on a business trip
+    zh: 出差
+  text:
+  - hanji: 我逐工八點上班，五點下班。
+    tailo: Guá ta̍k-kang peh tiám siōng-pan, gōo tiám hā-pan.
+    en: Every day I start work at eight and finish at five.
+  - hanji: 入公司先拍卡。
+    tailo: Ji̍p kong-si sing phah-khah.
+    en: When I get to the office, I clock in first.
+  - hanji: 這禮拜工課真濟，暗時攏愛加班。
+    tailo: Tsit lé-pài khang-khuè tsin tsē, àm-sî lóng ài ka-pan.
+    en: There's a lot of work this week; I have to stay late every evening.
+  - hanji: 下禮拜我欲去高雄出差，拜五閣請假一工。
+    tailo: Ē lé-pài guá beh khì Ko-hiông tshut-tshai, pài-gōo koh tshíng-ká tsi̍t kang.
+    en: Next week I'm going to Kaohsiung on business, and on Friday I'm taking a day off.
+- n: 2
+  title:
+    en: The company and the people
+    hanji: 公司佮同事
+    tailo: kong-si kap tông-sū
+  words:
+  - hanji: 公司
+    tailo: kong-si
+    en: company, firm
+    zh: 公司
+  - hanji: 辦公室
+    tailo: pān-kong-sik
+    en: office
+    zh: 辦公室
+  - hanji: 部門
+    tailo: pōo-mn̂g
+    en: department
+    zh: 部門
+  - hanji: 頭家
+    tailo: thâu-ke
+    en: boss, owner; (also) husband
+    zh: 老闆
+  - hanji: 頂司
+    tailo: tíng-si
+    en: superior, boss above you
+    zh: 上司
+  - hanji: 主管
+    tailo: tsú-kuán
+    en: manager, person in charge
+    zh: 主管
+  - hanji: 經理
+    tailo: king-lí
+    en: manager (of a firm)
+    zh: 經理
+  - hanji: 同事
+    tailo: tông-sū
+    en: colleague
+    zh: 同事
+  - hanji: 職員
+    tailo: tsit-uân
+    en: (office) staff, employee
+    zh: 職員
+  - hanji: 員工
+    tailo: uân-kang
+    en: employees, staff
+    zh: 員工
+  - hanji: 客戶
+    tailo: kheh-hōo
+    en: client, customer
+    zh: 客戶
+  text:
+  - hanji: 阮公司有三个部門。
+    tailo: Guán kong-si ū sann ê pōo-mn̂g.
+    en: Our company has three departments.
+  - hanji: 阮頭家人真好，毋過主管足嚴。
+    tailo: Guán thâu-ke lâng tsin hó, m̄-koh tsú-kuán tsiok giâm.
+    en: Our boss is very nice, but the manager is very strict.
+  - hanji: 同事攏佇辦公室食中晝。
+    tailo: Tông-sū lóng tī pān-kong-sik tsia̍h tiong-tàu.
+    en: My colleagues all eat lunch in the office.
+  - hanji: 經理下晡欲見一个大客戶。
+    tailo: King-lí ē-poo beh kìnn tsi̍t ê tuā kheh-hōo.
+    en: The manager is meeting a big client this afternoon.
+- n: 3
+  title:
+    en: Finding a job, pay
+    hanji: 揣頭路佮薪水
+    tailo: tshuē thâu-lōo kap sin-suí
+  words:
+  - hanji: 揣頭路
+    tailo: tshuē thâu-lōo
+    en: look for a job
+    zh: 找工作
+  - hanji: 履歷
+    tailo: lí-li̍k
+    en: CV, résumé
+    zh: 履歷
+  - hanji: 應徵
+    tailo: ìng-ting
+    en: apply (for a job)
+    zh: 應徵
+  - hanji: 面試
+    tailo: biān-tshì
+    en: (job) interview
+    zh: 面試
+  - hanji: 薪水
+    tailo: sin-suí
+    en: salary, pay
+    zh: 薪水
+  - hanji: 月給
+    tailo: gue̍h-kip
+    en: monthly salary
+    zh: 月薪
+  - hanji: 獎金
+    tailo: tsióng-kim
+    en: bonus
+    zh: 獎金
+  - hanji: 辭職
+    tailo: sî-tsit
+    en: resign, quit (a job)
+    zh: 辭職
+  - hanji: 失業
+    tailo: sit-gia̍p
+    en: be unemployed; unemployment
+    zh: 失業
+  - hanji: 退休
+    tailo: thè-hiu
+    en: retire
+    zh: 退休
+  text:
+  - hanji: 伊失業半年矣，這站咧揣頭路。
+    tailo: I sit-gia̍p puànn nî--ah, tsit-tsām teh tshuē thâu-lōo.
+    en: He has been out of work for six months and is looking for a job these days.
+  - hanji: 伊寄履歷去應徵，明仔載愛去面試。
+    tailo: I kià lí-li̍k khì ìng-ting, bîn-á-tsài ài khì biān-tshì.
+    en: He sent his CV to apply, and tomorrow he has an interview.
+  - hanji: 新頭路的月給較懸，年尾閣有獎金。
+    tailo: Sin thâu-lōo ê gue̍h-kip khah kuân, nî-bué koh ū tsióng-kim.
+    en: The new job pays more each month, and there's a bonus at the end of the year.
+  - hanji: 阮阿爸做到退休，毋捌辭職。
+    tailo: Guán a-pah tsò kàu thè-hiu, m̄-bat sî-tsit.
+    en: My father worked until he retired and never once quit.
+- n: 4
+  title:
+    en: Office work
+    hanji: 開會佮報告
+    tailo: khui-huē kap pò-kò
+  words:
+  - hanji: 開會
+    tailo: khui-huē
+    en: have a meeting
+    zh: 開會
+  - hanji: 會議
+    tailo: huē-gī
+    en: meeting, conference
+    zh: 會議
+  - hanji: 報告
+    tailo: pò-kò
+    en: report
+    zh: 報告
+  - hanji: 計畫
+    tailo: kè-uē
+    en: plan, project
+    zh: 計畫
+  - hanji: 文件
+    tailo: bûn-kiānn
+    en: document
+    zh: 文件
+  - hanji: 影印
+    tailo: iánn-ìn
+    en: photocopy
+    zh: 影印
+  - hanji: 傳真
+    tailo: thuân-tsin
+    en: fax
+    zh: 傳真
+  - hanji: 合約
+    tailo: ha̍p-iok
+    en: contract
+    zh: 合約
+  - hanji: 名片
+    tailo: bîng-phìnn
+    en: business card
+    zh: 名片
+  - hanji: 實習
+    tailo: si̍t-si̍p
+    en: internship; do a placement
+    zh: 實習
+  text:
+  - hanji: 早起十點欲開會。
+    tailo: Tsá-khí tsa̍p tiám beh khui-huē.
+    en: There's a meeting at ten this morning.
+  - hanji: 你先共這份文件影印十份。
+    tailo: Lí sing kā tsit hūn bûn-kiānn iánn-ìn tsa̍p hūn.
+    en: First make ten copies of this document.
+  - hanji: 會議了，我愛寫一份報告。
+    tailo: Huē-gī liáu, guá ài siá tsi̍t hūn pò-kò.
+    en: After the meeting I have to write a report.
+  - hanji: 客戶共合約簽好矣，用傳真寄轉來。
+    tailo: Kheh-hōo kā ha̍p-iok tshiam hó--ah, iōng thuân-tsin kià--tńg-lâi.
+    en: The client has signed the contract and faxed it back.
