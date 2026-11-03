@@ -3,7 +3,7 @@ title:
   en: Places, transport and directions
   hanji: 所在、交通佮方向
   tailo: sóo-tsāi, kau-thong kap hong-hiòng
-intro: Places, positions, sides and directions, coming and going, town and country, streets and buildings, and transport.
+intro: Places, positions, sides and directions, coming and going, town and country, streets and buildings, and transport. Groups 9–11 (MRT and buses, the road, city services) end with a short text; words the MOE dictionary lacks are taken from iTaigi and carry an iTaigi badge.
 sections:
 - n: 1
   title:
@@ -985,3 +985,215 @@ sections:
     tailo: hîng-lí
     en: luggage
     zh: 行李
+- n: 9
+  title:
+    en: MRT, buses and tickets
+    hanji: 捷運、公車佮車票
+    tailo: tsia̍t-ūn, kong-tshia kap tshia-phiò
+  words:
+  - hanji: 捷運
+    tailo: tsia̍t-ūn
+    en: MRT, metro
+    zh: 捷運
+  - hanji: 公車
+    tailo: kong-tshia
+    en: (city) bus
+    zh: 公車
+  - hanji: 客運
+    tailo: kheh-ūn
+    en: coach, long-distance bus
+    zh: 客運
+  - hanji: 計程車
+    tailo: kè-thîng-tshia
+    en: taxi
+    zh: 計程車
+  - hanji: 高鐵
+    tailo: ko-thih
+    en: high-speed rail
+    zh: 高鐵
+  - hanji: 車站
+    tailo: tshia-tsām
+    en: station (train, bus)
+    zh: 車站
+  - hanji: 月台
+    tailo: gua̍t-tâi
+    en: platform
+    zh: 月台
+  - hanji: 上車
+    tailo: tsiūnn-tshia
+    en: get on, board
+    zh: 上車
+  - hanji: 盤車
+    tailo: puânn-tshia
+    en: change (trains, buses)
+    zh: 轉車
+  - hanji: 車票
+    tailo: tshia-phiò
+    en: ticket (train, bus)
+    zh: 車票
+  - hanji: 單逝
+    tailo: tuann-tsuā
+    en: one-way, single
+    zh: 單程
+  - hanji: 去倒
+    tailo: khì-tò
+    en: return, round trip
+    zh: 來回
+  - hanji: 悠遊卡
+    tailo: iu-iû-khah
+    en: EasyCard (transport card)
+    zh: 悠遊卡
+    source: itaigi
+  text:
+  - hanji: 我逐工坐捷運上班。
+    tailo: Guá ta̍k-kang tsē tsia̍t-ūn siōng-pan.
+    en: I take the MRT to work every day.
+  - hanji: 入站的時，悠遊卡鑢一下就好。
+    tailo: Ji̍p tsām ê sî, iu-iû-khah lù--tsi̍t-ē tō hó.
+    en: Going into the station, you just swipe your EasyCard.
+  - hanji: 佇車站盤車，坐公車閣二十分鐘就到矣。
+    tailo: Tī tshia-tsām puânn-tshia, tsē kong-tshia koh jī-tsa̍p hun-tsing tō kàu--ah.
+    en: I change at the station, and twenty more minutes by bus and I'm there.
+  - hanji: 欲去高雄，你買單逝抑是去倒？
+    tailo: Beh khì Ko-hiông, lí bé tuann-tsuā iah-sī khì-tò?
+    en: For Kaohsiung, are you buying a single or a return?
+  - hanji: 高鐵的車票買好矣，月台佇樓跤，緊上車！
+    tailo: Ko-thih ê tshia-phiò bé hó--ah, gua̍t-tâi tī lâu-kha, kín tsiūnn-tshia!
+    en: The high-speed rail tickets are bought; the platform is downstairs, hurry and get on!
+- n: 10
+  title:
+    en: On the road
+    hanji: 機車佮停車
+    tailo: ki-tshia kap thîng-tshia
+  words:
+  - hanji: 機車
+    tailo: ki-tshia
+    en: scooter, motorbike
+    zh: 機車
+  - hanji: 路口
+    tailo: lōo-kháu
+    en: crossroads, junction
+    zh: 路口
+  - hanji: 青紅燈
+    tailo: tshenn-âng-ting
+    en: traffic lights
+    zh: 紅綠燈
+  - hanji: 紅燈
+    tailo: âng-ting
+    en: red light
+    zh: 紅燈
+  - hanji: 斑馬線
+    tailo: pan-má-suànn
+    en: zebra crossing
+    zh: 斑馬線
+  - hanji: 窒車
+    tailo: that-tshia
+    en: traffic jam; be stuck in traffic
+    zh: 塞車
+  - hanji: 高速公路
+    tailo: ko-sok-kong-lōo
+    en: motorway, freeway
+    zh: 高速公路
+    source: itaigi
+  - hanji: 加油站
+    tailo: ka-iû-tsām
+    en: petrol station
+    zh: 加油站
+  - hanji: 停車
+    tailo: thîng-tshia
+    en: park; stop (a vehicle)
+    zh: 停車
+  - hanji: 停車場
+    tailo: thîng-tshia-tiûnn
+    en: car park
+    zh: 停車場
+    source: itaigi
+  - hanji: 車位
+    tailo: tshia-uī
+    en: parking space
+    zh: 車位
+  - hanji: 罰單
+    tailo: hua̍t-tuann
+    en: (traffic) ticket, fine notice
+    zh: 罰單
+  - hanji: 罰款
+    tailo: hua̍t-khuán
+    en: fine; pay a fine
+    zh: 罰款
+  text:
+  - hanji: 臺北的機車真濟，路口定定窒車。
+    tailo: Tâi-pak ê ki-tshia tsin tsē, lōo-kháu tiānn-tiānn that-tshia.
+    en: Taipei has lots of scooters, and the junctions are often jammed.
+  - hanji: 紅燈愛停，行斑馬線較安全。
+    tailo: Âng-ting ài thîng, kiânn pan-má-suànn khah an-tsuân.
+    en: Stop at a red light; it's safer to cross at the zebra crossing.
+  - hanji: 停車場無車位，我共車停佇路邊。
+    tailo: Thîng-tshia-tiûnn bô tshia-uī, guá kā tshia thîng tī lōo-pinn.
+    en: There were no spaces in the car park, so I parked by the road.
+  - hanji: 隔轉工就收著罰單，愛罰款一千二。
+    tailo: Keh-tńg-kang tō siu-tio̍h hua̍t-tuann, ài hua̍t-khuán tsi̍t-tshing-jī.
+    en: "The next day I got a ticket: a fine of 1,200."
+- n: 11
+  title:
+    en: City services
+    hanji: 都市的服務
+    tailo: too-tshī ê ho̍k-bū
+  words:
+  - hanji: 糞埽車
+    tailo: pùn-sò-tshia
+    en: rubbish truck
+    zh: 垃圾車
+  - hanji: 回收
+    tailo: huê-siu
+    en: recycle; recycling
+    zh: 回收
+  - hanji: 外送
+    tailo: guā-sàng
+    en: food delivery; deliver
+    zh: 外送
+    source: itaigi
+  - hanji: 厝配
+    tailo: tshù-phuè
+    en: home delivery (parcels)
+    zh: 宅配
+    source: itaigi
+  - hanji: 派出所
+    tailo: phài-tshut-sóo
+    en: police station (local)
+    zh: 派出所
+  - hanji: 警察
+    tailo: kíng-tshat
+    en: police; police officer
+    zh: 警察
+  - hanji: 圖書館
+    tailo: tôo-su-kuán
+    en: library
+    zh: 圖書館
+  - hanji: 電梯
+    tailo: tiān-thui
+    en: lift, elevator
+    zh: 電梯
+  - hanji: 入口
+    tailo: ji̍p-kháu
+    en: entrance
+    zh: 入口
+  - hanji: 出口
+    tailo: tshut-kháu
+    en: exit; export
+    zh: 出口
+  text:
+  - hanji: 糞埽車暗時七點來，愛先做回收。
+    tailo: Pùn-sò-tshia àm-sî tshit tiám lâi, ài sing tsò huê-siu.
+    en: The rubbish truck comes at seven in the evening; sort the recycling first.
+  - hanji: 我今仔日無閒煮飯，叫外送。
+    tailo: Guá kin-á-ji̍t bô-îng tsú-pn̄g, kiò guā-sàng.
+    en: I'm too busy to cook today, so I order a delivery.
+  - hanji: 厝配的包裹明仔載會送到。
+    tailo: Tshù-phuè ê pau-kó bîn-á-tsài ē sàng kàu.
+    en: The parcel will be delivered to the house tomorrow.
+  - hanji: 圖書館的入口佇電梯邊仔。
+    tailo: Tôo-su-kuán ê ji̍p-kháu tī tiān-thui pinn-á.
+    en: The library entrance is next to the lift.
+  - hanji: 若揣無路，會使去派出所問警察。
+    tailo: Nā tshuē bô lōo, ē-sái khì phài-tshut-sóo mn̄g kíng-tshat.
+    en: If you get lost, you can ask the police at the local station.

@@ -22,4 +22,7 @@ Brief: project doc `claude/modern-vocab-brief.md`. Branch `wip-modern-vocab`, pu
 1. Phone and internet — `10-media.yaml` sections 1–5, 44 words (11 from iTaigi), texts in every section. DONE
 2. Work and office — `09-work.yaml` sections 1–4, 40 words (1 iTaigi). DONE
 3. Administration, bank and post — `09-work.yaml` sections 5–6 (bank, paying; 22 words, 1 iTaigi) + `11-society.yaml` sections 1–3 (forms, district office, post; 25 words, 1 iTaigi). DONE. Left out: 身分證 (only in 台華線頂), 填 (MOE 填 thiām means "sink money", not "fill in").
-4. Transport and city services — `07-places.yaml` sections 9–. TODO
+4. Transport and city services — `07-places.yaml` sections 9–11 (MRT and buses, the road, city services), 36 words (5 iTaigi). DONE
+
+All four sheets done 3 Nov 2026: 167 words, 19 from iTaigi; merged to main. Left out as toss-ups or missing from
+MOE and iTaigi: 截圖, 身分證, 填 (fill in), 便利商店 (three competing iTaigi forms), 提款機, 安全帽, 鍵盤.

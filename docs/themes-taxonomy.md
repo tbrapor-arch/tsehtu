@@ -19,6 +19,11 @@ course progression (which situations the lessons cover).
   section that also takes in the surnames Haiku left as `?`), `06-nature.yaml` (06 Nature, weather, animals and plants,
   10 sections, 281 words), `07-places.yaml` (07 Places, transport and directions, 8 sections, 233 words). Moved out:
   本 to 08, 和尚 to 12, 礪 to 14c; 草地 (countryside) from 06 to 07. Left as `?`: the readings 馬 ma, 貓 bâ, 種 tsiòng. Colours (色, 青) went to 15 with the other colours; farm tools, weapons, 筆, 宮 and 菜店 left 04/03.
+- Modern vocabulary (3 Nov 2026, `docs/modern-vocab-progress.md`): new domain files `09-work.yaml` (09, sections 1–6:
+  working day, company and people, finding a job and pay, office work, bank, paying and bills), `10-media.yaml` (10,
+  sections 1–5: phone, battery, internet and accounts, computers and files, messages), `11-society.yaml` (11, sections
+  1–3: forms, district office, post), and `07-places.yaml` sections 9–11 (MRT and buses, the road, city services).
+  Each of these groups ends with a short text. The core MOE words of domains 09–11 are still to be added to these files.
 - `docs/themes-classification-draft.tsv`: a first domain (01–16) for every core word, from a Haiku pass in 16 batches
   (Oct 2026), then a second pass splitting domain 14 into 14a–14h. Columns: domain, sub, confidence H/M/L, note,
   reviewed. Measured on the pilot: about 94% of the words Haiku put in 02 belong there, and about 97% of the domain's
@@ -28,7 +33,8 @@ course progression (which situations the lessons cover).
 ## Scope
 1. Core words (4,265): complete, each in exactly one category.
 2. Other MOE words (about 18,000), later. Proverbs (4,750, `kind = proverb`) form their own category.
-3. The other sources (iTaigi, 台華線頂, 1956 sentences) are out of scope.
+3. The other sources (台華線頂, 1956 sentences) are out of scope. iTaigi is used only for modern everyday words MOE lacks (Nov 2026,
+   see below), marked `source: itaigi` and shown with an iTaigi badge.
 
 ## Categories (two levels: 16 domains, then 100–120 subcategories of about 40 words)
 1 People and family · 2 Body and health · 3 Food and drink · 4 Home and everyday objects · 5 Clothing and appearance ·
