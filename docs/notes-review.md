@@ -12,4 +12,7 @@ Done:
   (note on the wrong line), L57 (謎猜 reading), L62 (徛 xref), L64, L65, L67 (一心兩葉, 捷), L68 (學生, 向望), L69 (反悔, 數),
   L72 (forward xref), L87 (sandhi of 狗 at the end of the subject), L91 (又閣).
 
-To do: read 進修 P1–P70 notes; merge to main.
+- Reading pass, 進修: P1–P70 read. Fixed P1 (e/ue accents), P10 (Tâi-lô announced 14 Oct 2006), P22, P25, P34 (沿 as a
+  layer), P35, P39, P41 (驚一趒), P43, P45, P51, P57, P59, P60 (走電), P65 (雪文), P66.
+
+Done: merged to main.
