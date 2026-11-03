@@ -1,0 +1,167 @@
+id: society
+title:
+  en: Society, law and politics
+  hanji: 社會、法律佮政治
+  tailo: siā-huē, huat-lu̍t kap tsìng-tī
+intro: >-
+  Everyday administration first: forms and papers, the district office, and the post. Each group ends with a short
+  text. Words the MOE dictionary lacks are taken from iTaigi and carry an iTaigi badge.
+sections:
+- n: 1
+  title:
+    en: Forms and papers
+    hanji: 申請佮表格
+    tailo: sin-tshíng kap pió-keh
+  words:
+  - hanji: 申請
+    tailo: sin-tshíng
+    en: apply (for), request
+    zh: 申請
+  - hanji: 表格
+    tailo: pió-keh
+    en: form (to fill in)
+    zh: 表格
+  - hanji: 簽名
+    tailo: tshiam-miâ
+    en: sign; signature
+    zh: 簽名
+  - hanji: 頓印
+    tailo: tǹg-ìn
+    en: stamp with one's seal
+    zh: 蓋章
+  - hanji: 證件
+    tailo: tsìng-kiānn
+    en: identity papers, ID
+    zh: 證件
+  - hanji: 證明
+    tailo: tsìng-bîng
+    en: certificate; prove
+    zh: 證明
+  - hanji: 手續
+    tailo: tshiú-sio̍k
+    en: formalities, procedure
+    zh: 手續
+  - hanji: 資料
+    tailo: tsu-liāu
+    en: documents, information, data
+    zh: 資料
+  - hanji: 規定
+    tailo: kui-tīng
+    en: rule, regulation; stipulate
+    zh: 規定
+  text:
+  - hanji: 欲申請這个證明，愛先寫表格。
+    tailo: Beh sin-tshíng tsit ê tsìng-bîng, ài sing siá pió-keh.
+    en: To apply for this certificate, you first fill in a form.
+  - hanji: 遮愛簽名，遐愛頓印。
+    tailo: Tsia ài tshiam-miâ, hia ài tǹg-ìn.
+    en: Sign here, and stamp your seal there.
+  - hanji: 證件佮資料攏愛紮來。
+    tailo: Tsìng-kiānn kap tsu-liāu lóng ài tsah--lâi.
+    en: Bring your ID and all the documents.
+  - hanji: 手續誠麻煩，毋過規定就是按呢。
+    tailo: Tshiú-sio̍k tsiânn mâ-huân, m̄-koh kui-tīng tō-sī án-ne.
+    en: The formalities are a real nuisance, but those are the rules.
+- n: 2
+  title:
+    en: At the district office
+    hanji: 佇區公所
+    tailo: tī khu-kong-sóo
+  words:
+  - hanji: 政府
+    tailo: tsìng-hú
+    en: government
+    zh: 政府
+  - hanji: 區公所
+    tailo: khu-kong-sóo
+    en: district office
+    zh: 區公所
+  - hanji: 戶口
+    tailo: hōo-kháu
+    en: household registration
+    zh: 戶口
+  - hanji: 地址
+    tailo: tē-tsí
+    en: address
+    zh: 地址
+  - hanji: 排隊
+    tailo: pâi-tuī
+    en: queue, stand in line
+    zh: 排隊
+  - hanji: 櫃台
+    tailo: kuī-tâi
+    en: counter, front desk
+    zh: 櫃台
+  - hanji: 護照
+    tailo: hōo-tsiàu
+    en: passport
+    zh: 護照
+  - hanji: 簽證
+    tailo: tshiam-tsìng
+    en: visa
+    zh: 簽證
+  - hanji: 駕照
+    tailo: kà-tsiàu
+    en: driving licence
+    zh: 駕照
+  - hanji: 健保卡
+    tailo: kiān-pó-khah
+    en: health insurance card
+    zh: 健保卡
+    source: itaigi
+  text:
+  - hanji: 我搬厝矣，愛去區公所改戶口。
+    tailo: Guá puann-tshù--ah, ài khì khu-kong-sóo kái hōo-kháu.
+    en: I've moved house, so I have to change my household registration at the district office.
+  - hanji: 人真濟，愛先排隊。
+    tailo: Lâng tsin tsē, ài sing pâi-tuī.
+    en: There are lots of people, so first you queue.
+  - hanji: 櫃台的小姐問我新的地址。
+    tailo: Kuī-tâi ê sió-tsiá mn̄g guá sin ê tē-tsí.
+    en: The woman at the counter asks for my new address.
+  - hanji: 護照過期矣，嘛愛閣申請一本新的。
+    tailo: Hōo-tsiàu kuè-kî--ah, mā ài koh sin-tshíng tsi̍t pún sin--ê.
+    en: My passport has expired too, so I have to apply for a new one.
+  - hanji: 看病的時，愛紮健保卡。
+    tailo: Khuànn-pēnn ê sî, ài tsah kiān-pó-khah.
+    en: When you see a doctor, bring your health insurance card.
+- n: 3
+  title:
+    en: Letters and the post
+    hanji: 批佮郵局
+    tailo: phue kap iû-kio̍k
+  words:
+  - hanji: 郵局
+    tailo: iû-kio̍k
+    en: post office
+    zh: 郵局
+  - hanji: 批
+    tailo: phue
+    en: letter
+    zh: 信
+  - hanji: 寄
+    tailo: kià
+    en: send, post; leave in someone's care
+    zh: 寄
+  - hanji: 包裹
+    tailo: pau-kó
+    en: parcel
+    zh: 包裹
+  - hanji: 郵票
+    tailo: iû-phiò
+    en: stamp
+    zh: 郵票
+  - hanji: 批桶
+    tailo: phue-tháng
+    en: postbox, mailbox
+    zh: 郵筒、信箱
+  text:
+  - hanji: 我去郵局寄一个包裹轉去法國。
+    tailo: Guá khì iû-kio̍k kià tsi̍t ê pau-kó tńg-khì Huat-kok.
+    en: I go to the post office to send a parcel home to France.
+  - hanji: 寄批愛貼郵票，才擲入去批桶。
+    tailo: Kià phue ài tah iû-phiò, tsiah tàn ji̍p-khì phue-tháng.
+    en: To send a letter, stick on a stamp, then drop it in the postbox.
+  - hanji: 阿媽收著我的批，足歡喜。
+    tailo: A-má siu-tio̍h guá ê phue, tsiok huann-hí.
+    en: Grandma got my letter and was delighted.

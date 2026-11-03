@@ -4,7 +4,7 @@ title:
   hanji: 工作、錢佮生理
   tailo: kang-tsok, tsînn kap sing-lí
 intro: >-
-  Working life first: the working day, the people at work, finding a job and pay, and office work. Each group ends with
+  Working life first: the working day, the people at work, finding a job and pay, office work, the bank and paying bills. Each group ends with
   a short text. Words the MOE dictionary lacks are taken from iTaigi and carry an iTaigi badge.
 sections:
 - n: 1
@@ -244,3 +244,133 @@ sections:
   - hanji: 客戶共合約簽好矣，用傳真寄轉來。
     tailo: Kheh-hōo kā ha̍p-iok tshiam hó--ah, iōng thuân-tsin kià--tńg-lâi.
     en: The client has signed the contract and faxed it back.
+- n: 5
+  title:
+    en: At the bank
+    hanji: 銀行
+    tailo: gîn-hâng
+  words:
+  - hanji: 銀行
+    tailo: gîn-hâng
+    en: bank
+    zh: 銀行
+  - hanji: 口座
+    tailo: kháu-tsō
+    en: bank account
+    zh: 帳戶
+  - hanji: 戶頭
+    tailo: hōo-thâu
+    en: bank account
+    zh: 帳戶、戶頭
+  - hanji: 存
+    tailo: tsûn
+    en: deposit, save; keep
+    zh: 存
+  - hanji: 存款
+    tailo: tsûn-khuán
+    en: savings, deposit
+    zh: 存款
+  - hanji: 儉錢
+    tailo: khiām-tsînn
+    en: save money
+    zh: 存錢
+  - hanji: 領錢
+    tailo: niá-tsînn
+    en: withdraw money
+    zh: 領錢
+  - hanji: 匯款
+    tailo: huē-khuán
+    en: transfer money, remit
+    zh: 匯款
+  - hanji: 利息
+    tailo: lī-sik
+    en: interest (on money)
+    zh: 利息
+  - hanji: 貸款
+    tailo: tāi-khuán
+    en: loan; take out a loan
+    zh: 貸款
+  text:
+  - hanji: 我欲去銀行開一个口座。
+    tailo: Guá beh khì gîn-hâng khui tsi̍t ê kháu-tsō.
+    en: I'm going to the bank to open an account.
+  - hanji: 公司共薪水匯款入去我的戶頭。
+    tailo: Kong-si kā sin-suí huē-khuán ji̍p-khì guá ê hōo-thâu.
+    en: The company transfers my salary into my account.
+  - hanji: 我逐月儉錢，存款愈來愈濟。
+    tailo: Guá ta̍k gue̍h khiām-tsînn, tsûn-khuán jú lâi jú tsē.
+    en: I save money every month, and my savings keep growing.
+  - hanji: 這馬利息足低，貸款較俗。
+    tailo: Tsit-má lī-sik tsiok kē, tāi-khuán khah sio̍k.
+    en: Interest is very low at the moment, so loans are cheaper.
+- n: 6
+  title:
+    en: Paying and bills
+    hanji: 付錢佮繳費
+    tailo: hù-tsînn kap kiáu-huì
+  words:
+  - hanji: 現金
+    tailo: hiān-kim
+    en: cash
+    zh: 現金
+  - hanji: 零星錢
+    tailo: lân-san-tsînn
+    en: small change
+    zh: 零錢
+  - hanji: 信用卡
+    tailo: sìn-iōng-khah
+    en: credit card
+    zh: 信用卡
+    source: itaigi
+  - hanji: 鑢卡
+    tailo: lù-khah
+    en: pay by card; swipe a card
+    zh: 刷卡
+  - hanji: 繳費
+    tailo: kiáu-huì
+    en: pay (a bill, a fee)
+    zh: 繳費
+  - hanji: 數單
+    tailo: siàu-tuann
+    en: bill, invoice
+    zh: 帳單
+  - hanji: 水費
+    tailo: tsuí-huì
+    en: water bill
+    zh: 水費
+  - hanji: 繳稅
+    tailo: kiáu-suè
+    en: pay tax
+    zh: 繳稅
+  - hanji: 報稅
+    tailo: pò-suè
+    en: file a tax return
+    zh: 報稅
+  - hanji: 發票
+    tailo: huat-phiò
+    en: receipt (uniform invoice)
+    zh: 發票
+  - hanji: 收據
+    tailo: siu-kì
+    en: receipt
+    zh: 收據
+  - hanji: 保險
+    tailo: pó-hiám
+    en: insurance
+    zh: 保險
+  text:
+  - hanji: 你欲付現金抑是鑢卡？
+    tailo: Lí beh hù hiān-kim iah-sī lù-khah?
+    en: Will you pay cash or by card?
+  - hanji: 我無零星錢，用信用卡好無？
+    tailo: Guá bô lân-san-tsînn, iōng sìn-iōng-khah hó--bô?
+    en: I have no change; is a credit card all right?
+  - hanji: 水費的數單來矣，愛佇月底進前繳費。
+    tailo: Tsuí-huì ê siàu-tuann lâi--ah, ài tī gue̍h-té tsìn-tsîng kiáu-huì.
+    en: The water bill has come; it has to be paid before the end of the month.
+  - hanji: 五月愛報稅閣繳稅。
+    tailo: Gōo-gue̍h ài pò-suè koh kiáu-suè.
+    en: In May you have to file your tax return and pay your tax.
+  - hanji: 買物件愛提發票，收據嘛愛收好勢。
+    tailo: Bé mi̍h-kiānn ài the̍h huat-phiò, siu-kì mā ài siu hó-sè.
+    en: When you buy something, take the receipt, and keep your receipts safe too.
