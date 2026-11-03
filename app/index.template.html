@@ -277,6 +277,7 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .vtable .vr { font-weight: 600; white-space: nowrap; }
 .vtable .ve { color: var(--text); }
 .vtable .vz { font-family: var(--f-han); color: var(--sub); white-space: nowrap; }
+.vtable .itb { display: inline-block; margin-left: .4rem; padding: 0 .35rem; border: 1px solid var(--line); border-radius: .4rem; font-family: var(--f-ui); font-size: .62rem; font-weight: 600; color: var(--sub); vertical-align: middle; letter-spacing: .02em; }
 .vtable tr.c-ff .vh { color: var(--coral); }
 .vtable tr.c-to .vh { color: var(--brand); }
 @media (max-width: 560px) { .vtable .vz { display: none; } }
@@ -979,7 +980,9 @@ function showLesson0() {
 // ---------- themes (thematic vocabulary)
 // Vocabulary: one row per theme (its key character, title, counts); a row opens its groups in place, a group opens
 // the theme at that group; the search finds words in every theme (Hàn-jī, Tâi-lô with or without tones, English)
-const THEME_CHAR = { people: '人', health: '身', food: '食', home: '厝', clothing: '衫', nature: '天', places: '路' };
+const THEME_CHAR = { people: '人', health: '身', food: '食', home: '厝', clothing: '衫', nature: '天', places: '路', work: '工', media: '網', society: '公' };
+// words MOE lacks, taken from iTaigi (theme word `source: itaigi`): a small badge after the Hàn-jī
+const itBadge = w => w.source === 'itaigi' ? '<span class="itb" title="From iTaigi (not in the MOE dictionary)">iTaigi</span>' : '';
 let themeOpen = null, themeQ = '';
 const toneless = s => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9㐀-鿿\u{20000}-\u{3ffff} ]+/gu, ' ').trim();
 function themeHits(q) {
@@ -997,7 +1000,7 @@ function themeResults() {
   if (!r.length) return `<p class="sub">No word found for “${esc(themeQ)}”.</p>`;
   return `<span class="sub" style="font-size:.85rem">${r.length} word${r.length === 1 ? '' : 's'}${r.length > 80 ? ' · first 80' : ''}</span>
     <div class="vwrap"><table class="vtable"><tbody>${r.slice(0, 80).map(({ w, t, sec }) => `<tr class="${w.id ? cog(w.id)[2] : ''}" data-word="${esc(w.id)}" tabindex="0">
-      <td class="vh">${esc(w.hanji)}</td><td class="vr">${esc(w.tailo)}</td><td class="ve">${esc(w.en)}<small class="tsrc">${esc(THEME_CHAR[t.id] || '')} ${esc(sec.title.en)}</small></td></tr>`).join('')}</tbody></table></div>`;
+      <td class="vh">${esc(w.hanji)}${itBadge(w)}</td><td class="vr">${esc(w.tailo)}</td><td class="ve">${esc(w.en)}<small class="tsrc">${esc(THEME_CHAR[t.id] || '')} ${esc(sec.title.en)}</small></td></tr>`).join('')}</tbody></table></div>`;
 }
 function showThemes() {
   renderTabs('review');
@@ -1030,7 +1033,7 @@ function showTheme(T, n) {
     ${T.sections.map((s, si) => `<section class="sec" aria-labelledby="sec-${s.n}">
       <h2 id="sec-${s.n}"><span class="num">${s.n}</span><span class="han">${esc(s.title.hanji)}</span><span class="sub" style="font-weight:600">${esc(s.title.tailo)} · ${esc(s.title.en)}</span></h2>
       <div class="vwrap"><table class="vtable"><tbody>${s.words.map(w => `<tr class="${w.id ? cog(w.id)[2] : ''}" data-word="${esc(w.id)}" tabindex="0">
-        <td class="vh">${esc(w.hanji)}</td><td class="vr">${esc(w.tailo)}</td><td class="ve">${esc(w.en)}</td><td class="vz">${esc(w.zh || '')}</td></tr>`).join('')}</tbody></table></div>
+        <td class="vh">${esc(w.hanji)}${itBadge(w)}</td><td class="vr">${esc(w.tailo)}</td><td class="ve">${esc(w.en)}</td><td class="vz">${esc(w.zh || '')}</td></tr>`).join('')}</tbody></table></div>
       <div class="ttext">${s.text.map((x, xi) => { REVEAL[`t${si}-${xi}`] = [x.en]; return `<div><div class="txt">${sentence(x.tokens, `T${si}-${xi}`)}</div><div class="under">${enLine(x.en, null, `t${si}-${xi}`)}</div></div>`; }).join('')}</div>
       <div class="row"><button class="btn small quiet" data-addsec="${si}">Add these ${s.words.length} words to my Lessons list</button></div>
     </section>`).join('')}

@@ -1,0 +1,291 @@
+id: media
+title:
+  en: Education, language and media
+  hanji: 教育、語言佮媒體
+  tailo: kàu-io̍k, gí-giân kap muî-thé
+intro: >-
+  Modern media first: the phone, the internet, apps and messages. Each group ends with a short text. Words the MOE
+  dictionary lacks are taken from iTaigi and carry an iTaigi badge.
+sections:
+- n: 1
+  title:
+    en: Phone and calls
+    hanji: 手機仔佮電話
+    tailo: tshiú-ki-á kap tiān-uē
+  words:
+  - hanji: 電話
+    tailo: tiān-uē
+    en: telephone; phone call
+    zh: 電話
+  - hanji: 敲電話
+    tailo: khà tiān-uē
+    en: make a phone call
+    zh: 打電話
+  - hanji: 號碼
+    tailo: hō-bé
+    en: number (phone, ticket…)
+    zh: 號碼
+  - hanji: 訊號
+    tailo: sìn-hō
+    en: signal, reception
+    zh: 訊號
+  - hanji: 視訊
+    tailo: sī-sìn
+    en: video call
+    zh: 視訊
+  - hanji: 耳機
+    tailo: hīnn-ki
+    en: earphones, headphones
+    zh: 耳機
+  - hanji: 螢幕
+    tailo: îng-bōo
+    en: screen
+    zh: 螢幕
+  - hanji: 揤
+    tailo: tshi̍h
+    en: press (a button), tap
+    zh: 按
+  - hanji: 翕相
+    tailo: hip-siòng
+    en: take a photo
+    zh: 拍照
+  text:
+  - hanji: 我的手機仔無訊號，敲電話攏敲袂通。
+    tailo: Guá ê tshiú-ki-á bô sìn-hō, khà tiān-uē lóng khà bē thong.
+    en: My phone has no signal; my calls won't go through.
+  - hanji: 你共我的電話號碼揤一擺。
+    tailo: Lí kā guá ê tiān-uē hō-bé tshi̍h tsi̍t pái.
+    en: Dial my phone number once.
+  - hanji: 暗時我戴耳機，佮阮查某囝視訊。
+    tailo: Àm-sî guá tì hīnn-ki, kap guán tsa-bóo-kiánn sī-sìn.
+    en: In the evening I put on headphones and video-call my daughter.
+  - hanji: 我共螢幕翕相，傳予朋友看。
+    tailo: Guá kā îng-bōo hip-siòng, thuân hōo pîng-iú khuànn.
+    en: I take a photo of the screen and send it to a friend.
+- n: 2
+  title:
+    en: Battery and power
+    hanji: 電池佮充電
+    tailo: tiān-tî kap tshiong-tiān
+  words:
+  - hanji: 電池
+    tailo: tiān-tî
+    en: battery
+    zh: 電池
+  - hanji: 充電
+    tailo: tshiong-tiān
+    en: charge (a battery)
+    zh: 充電
+  - hanji: 充電器
+    tailo: tshiong-tiān-khì
+    en: charger
+    zh: 充電器
+    source: itaigi
+  - hanji: 無電
+    tailo: bô-tiān
+    en: (battery) dead, flat
+    zh: 沒電
+    source: itaigi
+  - hanji: 插頭
+    tailo: tshah-thâu
+    en: plug
+    zh: 插頭
+  - hanji: 電源
+    tailo: tiān-guân
+    en: power supply, power
+    zh: 電源
+  - hanji: 開機
+    tailo: khui-ki
+    en: switch on (a device)
+    zh: 開機
+  - hanji: 關機
+    tailo: kuainn-ki
+    en: switch off (a device)
+    zh: 關機
+  text:
+  - hanji: 我的手機仔欲無電矣。
+    tailo: Guá ê tshiú-ki-á beh bô-tiān--ah.
+    en: My phone is about to die.
+  - hanji: 你敢有充電器？
+    tailo: Lí kám ū tshiong-tiān-khì?
+    en: Do you have a charger?
+  - hanji: 插頭插佇遐，先充電一下。
+    tailo: Tshah-thâu tshah tī hia, sing tshiong-tiān--tsi̍t-ē.
+    en: Plug it in over there and charge it a bit first.
+  - hanji: 電池歹矣，開機開袂起來。
+    tailo: Tiān-tî pháinn--ah, khui-ki khui bē khí-lâi.
+    en: The battery is broken; it won't switch on.
+- n: 3
+  title:
+    en: Internet and accounts
+    hanji: 網路佮數號
+    tailo: bāng-lōo kap siàu-hō
+  words:
+  - hanji: 網路
+    tailo: bāng-lōo
+    en: internet; network
+    zh: 網路
+  - hanji: 上網
+    tailo: tsiūnn-bāng
+    en: go online
+    zh: 上網
+  - hanji: 網站
+    tailo: bāng-tsām
+    en: website
+    zh: 網站
+  - hanji: 數號
+    tailo: siàu-hō
+    en: account (online)
+    zh: 帳號
+    source: itaigi
+  - hanji: 密碼
+    tailo: bi̍t-bé
+    en: password
+    zh: 密碼
+  - hanji: 註冊
+    tailo: tsù-tsheh
+    en: register, sign up
+    zh: 註冊
+  - hanji: 登入
+    tailo: ting-ji̍p
+    en: log in
+    zh: 登入
+    source: itaigi
+  - hanji: 設定
+    tailo: siat-tīng
+    en: set up; settings
+    zh: 設定
+  - hanji: 搜揣
+    tailo: tshiau-tshuē
+    en: search (online)
+    zh: 搜尋
+    source: itaigi
+  text:
+  - hanji: 這个網站愛先註冊，才會使登入。
+    tailo: Tsit ê bāng-tsām ài sing tsù-tsheh, tsiah ē-sái ting-ji̍p.
+    en: On this website you have to sign up before you can log in.
+  - hanji: 數號佮密碼攏設定好矣。
+    tailo: Siàu-hō kap bi̍t-bé lóng siat-tīng hó--ah.
+    en: The account and the password are all set up.
+  - hanji: 害矣，我袂記得密碼矣！
+    tailo: Hāi--ah, guá bē-kì-tit bi̍t-bé--ah!
+    en: Oh no, I've forgotten my password!
+  - hanji: 厝內無網路，我袂當上網搜揣。
+    tailo: Tshù-lāi bô bāng-lōo, guá bē-tàng tsiūnn-bāng tshiau-tshuē.
+    en: There's no internet at home, so I can't go online to look it up.
+- n: 4
+  title:
+    en: Computers, apps and files
+    hanji: 電腦、軟體佮檔案
+    tailo: tiān-náu, nńg-thé kap tóng-àn
+  words:
+  - hanji: 筆電
+    tailo: pit-tiān
+    en: laptop
+    zh: 筆電
+    source: itaigi
+  - hanji: 滑鼠
+    tailo: ku̍t-tshí
+    en: (computer) mouse
+    zh: 滑鼠
+  - hanji: 軟體
+    tailo: nńg-thé
+    en: software, app
+    zh: 軟體
+  - hanji: 下載
+    tailo: hā-tsài
+    en: download
+    zh: 下載
+  - hanji: 上傳
+    tailo: tsiūnn-thuân
+    en: upload
+    zh: 上傳
+    source: itaigi
+  - hanji: 更新
+    tailo: king-sin
+    en: update
+    zh: 更新
+  - hanji: 檔案
+    tailo: tóng-àn
+    en: file
+    zh: 檔案
+  - hanji: 刪除
+    tailo: san-tû
+    en: delete
+    zh: 刪除
+  - hanji: 列印
+    tailo: lia̍t-ìn
+    en: print (out)
+    zh: 列印
+  text:
+  - hanji: 這款軟體愛先下載，閣更新。
+    tailo: Tsit khuán nńg-thé ài sing hā-tsài, koh king-sin.
+    en: You have to download this app first, then update it.
+  - hanji: 我用筆電共檔案上傳。
+    tailo: Guá iōng pit-tiān kā tóng-àn tsiūnn-thuân.
+    en: I upload the file from my laptop.
+  - hanji: 無細膩共檔案刪除去矣！
+    tailo: Bô-sè-jī kā tóng-àn san-tû--khì--ah!
+    en: I deleted the file by mistake!
+  - hanji: 這張表愛用電腦列印出來。
+    tailo: Tsit tiunn pió ài iōng tiān-náu lia̍t-ìn--tshut-lâi.
+    en: This form has to be printed out from a computer.
+- n: 5
+  title:
+    en: Messages and social media
+    hanji: 訊息佮群組
+    tailo: sìn-sit kap kûn-tsoo
+  words:
+  - hanji: 訊息
+    tailo: sìn-sit
+    en: message
+    zh: 訊息
+  - hanji: 短訊
+    tailo: té-sìn
+    en: text message, SMS
+    zh: 簡訊
+    source: itaigi
+  - hanji: 電子批
+    tailo: tiān-tsú-phue
+    en: email
+    zh: 電子郵件
+  - hanji: 群組
+    tailo: kûn-tsoo
+    en: (chat) group
+    zh: 群組
+    source: itaigi
+  - hanji: 留話
+    tailo: lâu-uē
+    en: leave a message
+    zh: 留言
+    source: itaigi
+  - hanji: 分享
+    tailo: hun-hióng
+    en: share
+    zh: 分享
+  - hanji: 揤讚
+    tailo: tshi̍h tsán
+    en: like (a post)
+    zh: 按讚
+    source: itaigi
+  - hanji: 影片
+    tailo: iánn-phìnn
+    en: video, film
+    zh: 影片
+  - hanji: 直播
+    tailo: ti̍t-pòo
+    en: live stream
+    zh: 直播
+  text:
+  - hanji: 阮厝的人有一个群組。
+    tailo: Guán tshù ê lâng ū tsi̍t ê kûn-tsoo.
+    en: My family has a chat group.
+  - hanji: 阿母逐工佇群組傳訊息，分享伊翕的相片。
+    tailo: A-bú ta̍k-kang tī kûn-tsoo thuân sìn-sit, hun-hióng i hip ê siòng-phìnn.
+    en: Every day Mum posts messages in the group and shares the photos she took.
+  - hanji: 我看了伊的影片，就揤讚。
+    tailo: Guá khuànn liáu i ê iánn-phìnn, tō tshi̍h tsán.
+    en: When I've watched her videos, I like them.
+  - hanji: 伊無接電話，我就留話。
+    tailo: I bô tsiap tiān-uē, guá tō lâu-uē.
+    en: She didn't answer the phone, so I left a message.

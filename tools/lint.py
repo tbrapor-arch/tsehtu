@@ -179,20 +179,49 @@ def lint(path, keys, pairs, moe_ex):
     return msgs
 
 
+_CACHE = {}
+
+
+def itaigi_pairs():
+    if 'it' not in _CACHE:
+        con = sqlite3.connect(DB)
+        _CACHE['it'] = {(h, k) for h, k in con.execute("SELECT hanji, tkey FROM entry WHERE source='itaigi'")}
+    return _CACHE['it']
+
+
+def moe_hanji():
+    if 'moe' not in _CACHE:
+        con = sqlite3.connect(DB)
+        _CACHE['moe'] = {h for (h,) in con.execute("SELECT hanji FROM entry WHERE source='moe'")}
+    return _CACHE['moe']
+
+
 def lint_theme(path, keys, pairs, moe_ex):
-    """Theme files: every word and every text sentence is checked like a dialogue line."""
+    """Theme files: every word and every text sentence is checked like a dialogue line. A word is checked against MOE,
+    or against iTaigi when it carries `source: itaigi` (a modern word MOE lacks)."""
     d = yaml.safe_load(open(path, encoding='utf-8'))
     fake = {'id': d.get('id'), 'title': d.get('title'), 'notes': [], 'new_words': [], 'dialogue': []}
+    extra = []
     for sec in d.get('sections', []):
         for j, w in enumerate(sec.get('words', [])):
             fake['dialogue'].append({'n': f"{sec['n']}.w{j + 1}", 'hanji': w['hanji'], 'tailo': w['tailo'], 'en': w.get('en')})
-            fake['new_words'].append({'tailo': w['tailo'], 'hanji': w['hanji']})
+            src = w.get('source', 'moe')
+            if src == 'moe':
+                fake['new_words'].append({'tailo': w['tailo'], 'hanji': w['hanji']})
+            elif src == 'itaigi':
+                # a word MOE lacks, taken from iTaigi: that Hàn-jī + reading must be an iTaigi entry, and MOE must not have the Hàn-jī
+                if (w['hanji'], key(w['tailo'])) not in itaigi_pairs():
+                    extra.append(('E', f"{os.path.relpath(path, ROOT)}:{sec['n']}.w{j + 1}: E {w['hanji']} {w['tailo']} marked source: itaigi but not an iTaigi entry"))
+                if w['hanji'] in moe_hanji():
+                    extra.append(('W', f"{os.path.relpath(path, ROOT)}:{sec['n']}.w{j + 1}: W {w['hanji']} marked source: itaigi but MOE has this word"))
+            else:
+                extra.append(('E', f"{os.path.relpath(path, ROOT)}:{sec['n']}.w{j + 1}: E unknown source: {src}"))
         for j, t in enumerate(sec.get('text', [])):
             fake['dialogue'].append({'n': f"{sec['n']}.t{j + 1}", **t})
     tmp = path + '.lint.tmp'
     yaml.safe_dump(fake, open(tmp, 'w', encoding='utf-8'), allow_unicode=True)
     try:
-        return [(lv, t.replace(os.path.basename(tmp), os.path.basename(path))) for lv, t in lint(tmp, keys, pairs, moe_ex)]
+        return extra + [(lv, t.replace(os.path.basename(tmp), os.path.basename(path))) for lv, t in lint(tmp, keys, pairs, moe_ex)]
     finally:
         os.remove(tmp)
 
