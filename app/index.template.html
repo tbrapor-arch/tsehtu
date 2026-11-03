@@ -751,10 +751,12 @@ function showLessons() {
   const last = store.get('last', null), wv = nextWave(), dt = Object.values(doneAt).filter(d => d === today()).length, st = streak();
   const journal = Object.entries(doneAt).map(([n, d]) => [d, +n, 'lesson']).concat(Object.entries(waveAt).map(([n, d]) => [d, +n, 'wave']))
     .filter(x => x[0]).sort((a, b) => b[0].localeCompare(a[0]) || b[1] - a[1]);
+  // the 100 lessons only: lesson 0 (reading Tâi-lô) and 進修 have their own counts
+  const inMain = id => id >= 1 && id <= TOTAL, mdone = [...done].filter(inMain).length, mwritten = DATA.lessons.filter(l => inMain(l.id)).length;
   $('#main').innerHTML = `<div class="col">
     <div class="head"><span class="eyebrow">Course</span><h1>課程</h1>
-      <span class="rom">Khò-tîng · ${done.size} done · ${DATA.lessons.length} of ${TOTAL} written</span></div>
-    <div class="bar" aria-hidden="true"><i style="width:${Math.round(100 * done.size / TOTAL)}%"></i></div>
+      <span class="rom">Khò-tîng · ${mdone} done · ${mwritten} of ${TOTAL} written</span></div>
+    <div class="bar" aria-hidden="true"><i style="width:${Math.round(100 * mdone / TOTAL)}%"></i></div>
     ${next ? `<div class="card raised nextcard">
       <span class="eyebrow">${last === next.id ? 'Carry on' : 'Next lesson'}${dt ? ` · ${dt} done today` : ''}${st > 1 ? ` · ${st}-day streak` : ''}</span>
       <div class="nc-main"><span class="nc-n">${lnum(next.id)}</span><span class="nc-t"><span class="han">${esc(next.title.hanji)}</span><span class="rom sub">${esc(next.title.tailo)} · ${esc(next.title.en)}</span></span>
