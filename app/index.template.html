@@ -527,13 +527,18 @@ kbd { font-family: var(--f-ui); font-size: .7rem; font-weight: 700; border: 1px 
 <aside class="sheet" id="sheet" aria-label="Word" aria-hidden="true"></aside>
 <div class="toast" id="toast" hidden></div>
 
+<script type="application/json" id="app-data">/*__DATA__*/null</script>
 <script>
-const DATA = /*__DATA__*/null;
+// the course data sits in a JSON block above: JSON.parse reads several MB much faster than the same data written as
+// a JavaScript object, so the app opens sooner (it is not run as code, so the page's script hash does not cover it)
+const DATA = JSON.parse(document.getElementById('app-data').textContent);
 const $ = (s, el = document) => el.querySelector(s);
+// a fair random order (sorting with a random comparator favours some orders over others)
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-const SYNC_KEYS = new Set(['doneAt', 'waveAt', 'deck', 'days', 'lists']);
+const SYNC_KEYS = new Set(['doneAt', 'waveAt', 'marks', 'deck', 'days', 'lists']);
 const store = {
   get(k, d) { try { const v = localStorage.getItem('tshehtu:' + k); return v ? JSON.parse(v) : d; } catch { return d; } },
   set(k, v) { try { localStorage.setItem('tshehtu:' + k, JSON.stringify(v)); } catch {} if (SYNC_KEYS.has(k) && typeof Sync !== 'undefined') Sync.soon(); }
@@ -556,7 +561,15 @@ if (HOSTED && 'serviceWorker' in navigator && location.protocol === 'https:') na
 const doneAt = store.get('doneAt', null) || Object.fromEntries(store.get('done', []).map(id => [id, '']));
 const waveAt = store.get('waveAt', {});
 const done = new Set(Object.keys(doneAt).map(Number));
-function saveDone() { store.set('doneAt', doneAt); store.set('done', [...done]); store.set('waveAt', waveAt); }
+// when each lesson / second wave was last marked done (+time) or undone (-time), as for the word lists: on a sync the
+// later change wins, so an Undo is not brought back by the copy on another device ('d<id>' lesson, 'w<id>' wave)
+const marks = store.get('marks', {});
+function setDone(id, on) {
+  if (on) { doneAt[id] = today(); done.add(id); } else { delete doneAt[id]; done.delete(id); }
+  marks['d' + id] = on ? Date.now() : -Date.now(); saveDone();
+}
+function setWave(id, on) { if (on) waveAt[id] = today(); else delete waveAt[id]; marks['w' + id] = on ? Date.now() : -Date.now(); saveDone(); }
+function saveDone() { store.set('doneAt', doneAt); store.set('done', [...done]); store.set('waveAt', waveAt); store.set('marks', marks); }
 let deck = store.get('deck', {});
 // ---------- vocabulary lists: the words the learner adds from a card go to the list of the page being read: one list
 // for all the lessons (and themes), one per podcast, per drama, per album, per book, one for the exam. Synced:
@@ -615,12 +628,19 @@ function mergeLists(o) {
     Object.entries(L.w || {}).forEach(([id, t]) => { if (Math.abs(t) > Math.abs(M.w[id] || 0)) M.w[id] = t; });
   });
 }
-function progressData() { return { app: 'tshehtu', v: 1, at: new Date().toISOString(), doneAt, waveAt, deck, lists, days: [...studyDays], last: store.get('last', null) }; }
-// merge another copy of the progress into this one: earliest finish dates, the most recently reviewed card wins
+function progressData() { return { app: 'tshehtu', v: 1, at: new Date().toISOString(), doneAt, waveAt, marks, deck, lists, days: [...studyDays], last: store.get('last', null) }; }
+// merge another copy of the progress into this one: earliest finish dates, the most recently reviewed card wins, and for
+// done / undone the latest change (a copy from before marks were kept counts as older than any Undo)
 function mergeProgress(d) {
   if (!d || d.app !== 'tshehtu') throw new Error('not a progress file');
+  Object.entries(d.marks || {}).forEach(([k, t]) => { if (Math.abs(t) > Math.abs(marks[k] || 0)) marks[k] = t; });
   Object.entries(d.doneAt || {}).forEach(([k, v]) => { if (!(k in doneAt) || (v && (!doneAt[k] || v < doneAt[k]))) doneAt[k] = v; done.add(+k); });
   Object.entries(d.waveAt || {}).forEach(([k, v]) => { if (!(k in waveAt) || (v && v < waveAt[k])) waveAt[k] = v; });
+  Object.entries(marks).forEach(([k, t]) => {
+    if (t >= 0) return;
+    const id = k.slice(1);
+    if (k[0] === 'd') { delete doneAt[id]; done.delete(+id); } else if (k[0] === 'w') delete waveAt[id];
+  });
   Object.entries(d.deck || {}).forEach(([k, v]) => { const m = deck[k]; if (!m || (v.at || 0) > (m.at || 0) || (!v.at && !m.at && v.box > m.box)) deck[k] = v; });
   (d.days || []).forEach(x => studyDays.add(x));
   if (d.lists) mergeLists(d.lists);
@@ -783,7 +803,6 @@ function nextWave() {
     for (const l of DATA.lessons.filter(inPart)) { if (waveAt[l.id]) continue; if (done.has(l.id + waveOff(l.id)) && isP(l.id + waveOff(l.id)) === isP(l.id)) return l; break; }
   }
   return null;
-  return null;
 }
 
 // ---------- shared: tokenised sentence
@@ -885,7 +904,7 @@ function showLesson(L) {
     <ol class="notes">${L.notes.map((n, i) => `<li class="note" id="note-${i + 1}"><span class="nn">${i + 1}</span><p><span class="tag ${esc(n.topic)}">${n.ref ? 'Line ' + n.ref : 'Recap'} · ${esc(n.topic.replace('-', ' '))}</span>${fmt(n.text)}</p></li>`).join('')}</ol></details>
     <h2 id="sec-words"><span class="han">新詞</span> New words</h2>
     <div class="wgrid">${L.new_words.map(w => `<button class="wchip ${w.id ? cog(w.id)[2] : ''} ${inList('lessons', w.id) ? 'indeck' : ''}" data-word="${esc(w.id)}"><b>${esc(w.hanji)}</b><span class="r">${esc(w.tailo)}</span><span class="g">${esc(w.en || '')}</span></button>`).join('')}</div>
-    <div class="row"><button class="btn small quiet" id="anki">Copy for Anki</button><button class="btn small quiet" id="addall">Add all to my Lessons list</button><span class="sub" style="font-size:.85rem">${L.new_words.filter(w => inList('lessons', w.id)).length} of ${L.new_words.length} in it</span></div>
+    <div class="row"><button class="btn small quiet" id="anki">Copy for Anki</button><button class="btn small quiet" id="addall">Add all to my Lessons list</button><span class="sub" style="font-size:.85rem" id="inlist">${L.new_words.filter(w => inList('lessons', w.id)).length} of ${L.new_words.length} in it</span></div>
     <h2 id="sec-ex"><span class="han">練習</span> Practice</h2>
     <p class="sub" style="margin:0;font-size:.85rem">Type Tâi-lô with tone marks or with tone numbers (bue7 = buē, tsiah8 = tsia̍h).</p>
     <div class="ex">${L.exercises.map((e, i) => exHTML(e, i)).join('')}</div>
@@ -901,7 +920,7 @@ function showLesson(L) {
   $$('[data-note]', main).forEach(b => b.onclick = () => openNote(L, +b.dataset.note));
   $$('[data-lplay]', main).forEach(b => b.onclick = () => playLine(+b.dataset.lplay, b));
   $$('[data-word]', main).forEach(b => b.onclick = () => openCard(b.dataset.word));
-  const aa = $('#addall', main); if (aa) aa.onclick = () => { const n = listSet('lessons', L.new_words.map(w => w.id), true); toast(n ? `${n} words added to Lessons` : 'Already in your Lessons list'); const y = window.scrollY; showLesson(L); window.scrollTo(0, y); };
+  const aa = $('#addall', main); if (aa) aa.onclick = () => { const n = listSet('lessons', L.new_words.map(w => w.id), true); toast(n ? `${n} words added to Lessons` : 'Already in your Lessons list'); markListed(); };
   const ak = $('#anki', main); if (ak) ak.onclick = () => copyText(L.new_words.map(w => [w.hanji, w.tailo, w.en || '', (DATA.dict[w.id] && DATA.dict[w.id].mandarin || []).slice(0, 2).join('、'), lname(L.id)].join('\t')).join('\n'), ak, 'Copied · in Anki: File › Import, fields separated by Tab');
   wireExercises(L.exercises, main);
   finishBlock(L);
@@ -924,13 +943,13 @@ function finishBlock(L) {
   wireGo(box);
   const mk = $('#mark', box), un = $('#undo', box);
   if (mk) mk.onclick = () => {
-    if (WAVE) { waveAt[L.id] = today(); saveDone(); studied(); toast('Second wave marked as done'); return finishBlock(L); }
-    doneAt[L.id] = today(); done.add(L.id); saveDone(); studied();
+    if (WAVE) { setWave(L.id, true); studied(); toast('Second wave marked as done'); return finishBlock(L); }
+    setDone(L.id, true); studied();
     toast('Lesson marked as done'); renderTabs('lessons'); finishBlock(L);
   };
   if (un) un.onclick = () => {
-    if (WAVE) delete waveAt[L.id]; else { delete doneAt[L.id]; done.delete(L.id); }
-    saveDone(); toast('Undone'); finishBlock(L);
+    if (WAVE) setWave(L.id, false); else setDone(L.id, false);
+    toast('Undone'); finishBlock(L);
   };
 }
 async function copyText(txt, btn, okMsg) {
@@ -1093,7 +1112,7 @@ const podState = () => store.get('pod', {});
 function podSave(ep, t, finished) { const st = podState(), g = ep.guid; st[g] = Object.assign(st[g] || {}, { t: Math.floor(t) }, finished ? { done: true } : {}); store.set('pod', st); }
 const mmss = s => { s = Math.max(0, Math.floor(s || 0)); const h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), x = String(s % 60).padStart(2, '0'); return h ? `${h}:${String(m).padStart(2, '0')}:${x}` : `${m}:${x}`; };
 const epTitle = ep => ep.title.replace(/^EP\s*\d+\s*[：:]\s*/i, '');
-let pod = null, podCur = null, podLoop = null, podSaveT = 0, podOut = false;   // podOut: the episode page's player is scrolled out of view
+let pod = null, podCur = null, podLoop = null, podSaveT = 0, podOut = false, podIO = null;   // podOut: the episode page's player is scrolled out of view
 function podAudio() {
   if (pod) return pod;
   pod = new Audio(); pod.preload = 'metadata';
@@ -1157,7 +1176,7 @@ function podMini() {
     return;
   }
   bar.innerHTML = `<button class="pm-play" aria-label="${pod.paused ? 'Play' : 'Pause'}">${pod.paused ? '▶' : '⏸'}</button><button class="pm-t" data-go="ep-${podKey(podCur)}"><b>${esc(POD.title)}</b><span>${esc(podCur.n != null ? 'EP' + podCur.n + ' · ' : '')}${esc(epTitle(podCur))}</span></button>`;
-  $('.pm-play', bar).onclick = () => pod.paused ? pod.play() : pod.pause();
+  $('.pm-play', bar).onclick = () => pod.paused ? pod.play().catch(() => toast('Could not play: are you online?')) : pod.pause();
   wireGo(bar);
 }
 function showPodcast() {
@@ -1174,7 +1193,7 @@ function showPodcast() {
     <p class="sub" style="margin:0;max-width:65ch">Three young Taiwanese women talk about their lives, in Taigi, every two weeks: real speech after the course. Each episode comes with chapters and the hosts' own word list (臺語補給站). Audio is played from the show's host; if you enjoy it, follow the show on your podcast app.</p>
     <div class="list">${POD.episodes.map(ep => { const s = st[ep.guid] || {}, pct = s.done ? 100 : ep.dur ? Math.round(100 * (s.t || 0) / ep.dur) : 0; return `
       <button class="item ep ${s.done ? 'done' : ''}" data-go="ep-${podKey(ep)}"><span class="no">${ep.n != null ? ep.n : '·'}</span>
-        <span><span class="tt">${esc(epTitle(ep))}</span><br><span class="ts">${esc(ep.date)} · ${Math.round(ep.dur / 60)} min · ${ep.vocab.length} words${s.done ? ' · ✓ listened' : pct ? ` · ${pct}%` : ''}</span>
+        <span><span class="tt">${esc(epTitle(ep))}</span><br><span class="ts">${esc(ep.date)}${ep.dur ? ` · ${Math.round(ep.dur / 60)} min` : ''} · ${ep.vocab.length} words${s.done ? ' · ✓ listened' : pct ? ` · ${pct}%` : ''}</span>
         ${pct && !s.done ? `<span class="bar" style="margin-top:.3rem"><i style="width:${pct}%"></i></span>` : ''}</span><span class="chev">›</span></button>`; }).join('')}</div>
   </div>`;
   wireGo(m); podMini();
@@ -1207,10 +1226,12 @@ function showEpisode(ep) {
   </div>`;
   const root = $('#podplayer', m); root._ep = ep;
   podOut = false;
-  if ('IntersectionObserver' in window) new IntersectionObserver(([e]) => {
-    const out = root.isConnected && !e.isIntersecting && e.boundingClientRect.bottom < 0;
+  if (podIO) podIO.disconnect();   // one watcher at a time: the last episode page's player is gone
+  if ('IntersectionObserver' in window) (podIO = new IntersectionObserver(([e]) => {
+    if (!root.isConnected) { podIO.disconnect(); podIO = null; if (podOut) { podOut = false; podMini(); } return; }
+    const out = !e.isIntersecting && e.boundingClientRect.bottom < 0;
     if (out !== podOut) { podOut = out; podMini(); }
-  }).observe(root);
+  })).observe(root);
   wireGo(m);
   $('#pp-play', root).onclick = () => a.paused ? a.play().catch(() => toast('Could not play: are you online?')) : a.pause();
   $('#pp-back', root).onclick = () => podSeek(-5);
@@ -1232,7 +1253,7 @@ const VID = DATA.video || { shows: [] };
 const vidState = () => store.get('vid', {});
 const vidKey = (S, ep) => `${S.id}-${ep.n}`;
 function vidSave(k, t, finished) { const st = vidState(); st[k] = Object.assign(st[k] || {}, { t: Math.floor(t) }, finished ? { done: true } : {}); store.set('vid', st); }
-let yt = null, ytEp = null, ytLoop = null, ytApi = null, ytTimer = null;
+let yt = null, ytEp = null, ytLoop = null, ytApi = null, ytTimer = null, vidIO = null;
 function ytReady() {
   if (window.YT && window.YT.Player) return Promise.resolve();
   if (ytApi) return ytApi;
@@ -1301,11 +1322,12 @@ function vidPage(S, ep, o) {
   let docked = false;
   const slot = $('.vidslot', root);
   const setFloat = on => root.classList.toggle('float', on);
-  if ('IntersectionObserver' in window) new IntersectionObserver(([e]) => {
-    if (!root.isConnected) return;
+  if (vidIO) vidIO.disconnect();   // one watcher at a time: the last player page is gone
+  if ('IntersectionObserver' in window) (vidIO = new IntersectionObserver(([e]) => {
+    if (!root.isConnected) { vidIO.disconnect(); vidIO = null; return; }
     if (e.isIntersecting) docked = false;
     setFloat(narrow.matches && !docked && !e.isIntersecting && e.boundingClientRect.bottom < 0 && !!yt);
-  }).observe(slot);
+  })).observe(slot);
   $('.vidfx', root).onclick = () => { docked = true; setFloat(false); };
   const ui = () => {
     if (!root.isConnected) return;
@@ -1416,7 +1438,7 @@ function openCard(id, w) {
       ${c.parts && c.parts.length && cps.length < 2 ? `<div class="wc-sec"><h3>Made of</h3><div class="parts">${c.parts.map(p => `<button data-part="${esc(p)}"><span class="han">${esc(DATA.dict[p].hanji)}</span> ${esc(DATA.dict[p].tailo || DATA.dict[p].tkey)}</button>`).join('')}</div></div>` : ''}
       ${alsoL.length ? `<span class="sub" style="font-size:.85rem">Also in your lists: ${alsoL.map(k => esc(listTitle(k))).join(', ')}</span>` : ''}
       ${src ? `<div class="wc-src">Source: ${esc(src)}${c.audio ? '. Recording: same dictionary, CC BY-ND 3.0 TW.' : ''}</div>` : ''}`;
-    $('#add-card', sh).onclick = e => { const lk = e.currentTarget.dataset.list, on = !inList(lk, id); listSet(lk, [id], on); toast(on ? `Added to ${listTitle(lk)}` : `Removed from ${listTitle(lk)}`); openCard(id, w); const h = location.hash.slice(1); if (/^list-/.test(h)) { route.keepSheet = true; route(); route.keepSheet = false; } else rerenderCurrent(); };
+    $('#add-card', sh).onclick = e => { const lk = e.currentTarget.dataset.list, on = !inList(lk, id); listSet(lk, [id], on); toast(on ? `Added to ${listTitle(lk)}` : `Removed from ${listTitle(lk)}`); openCard(id, w); const h = location.hash.slice(1); if (/^list-/.test(h)) { route.keepSheet = true; route(); route.keepSheet = false; } else markListed(); };
     $$('[data-part]', sh).forEach(b => b.onclick = () => openCard(b.dataset.part));
     $$('[data-split]', sh).forEach(b => b.onclick = () => openCard(b.dataset.split, w));
     $$('[data-pick]', sh).forEach(b => b.onclick = () => { prefs.pick[id] = b.dataset.pick; store.set('prefs', prefs); openCard(id, w); rerenderCurrent(); });
@@ -1425,6 +1447,13 @@ function openCard(id, w) {
   }
   $('.x', sh).onclick = closeSheet;
   sh.classList.add('open'); sh.setAttribute('aria-hidden', 'false');
+}
+// a word joined or left a list: mark the lesson's new-word chips in place (redrawing the lesson would hide the English
+// and Taigi lines already revealed)
+function markListed() {
+  const chips = $$('#main .wchip[data-word]');
+  chips.forEach(b => b.classList.toggle('indeck', inList('lessons', b.dataset.word)));
+  const n = $('#inlist'); if (n) n.textContent = `${chips.filter(b => b.classList.contains('indeck')).length} of ${chips.length} in it`;
 }
 function rerenderCurrent() { const keep = window.scrollY; const h = location.hash.slice(1); if (/^(lesson-[1-9]|theme-)/.test(h)) { route.keepSheet = true; route(); route.keepSheet = false; window.scrollTo(0, keep); } }
 // note pop-up: opens over the dialogue, with previous / next
@@ -1615,8 +1644,8 @@ function showDrills() {
   wirePrac(m);
   $('#tones', m).onclick = () => {
     // words from finished lessons first; if fewer than 10, top up from the rest
-    const mine = DATA.tones.filter(t => done.has(t.l)).sort(() => Math.random() - .5);
-    const rest = DATA.tones.filter(t => !done.has(t.l)).sort((a, b) => a.l - b.l || Math.random() - .5);
+    const mine = shuffle(DATA.tones.filter(t => done.has(t.l)));
+    const rest = shuffle(DATA.tones.filter(t => !done.has(t.l))).sort((a, b) => a.l - b.l);   // earliest lessons first
     tsess = { items: [...mine, ...rest].slice(0, 10), i: 0, picked: null, right: 0 };
     showDrills();
   };
@@ -1658,7 +1687,7 @@ function startSession(key, mode) {
   else if (key.startsWith('V:')) { ids = listIds(key.slice(2)); title = listTitle(key.slice(2)); }
   else { const s = segments().find(x => x.key === key); ids = s.ids; title = s.title; }
   if (mode === 'due') ids = ids.filter(id => deck[id] && deck[id].due <= now);
-  ids = [...new Set(ids)].filter(id => DATA.dict[id]).sort(() => Math.random() - .5);
+  ids = shuffle([...new Set(ids)].filter(id => DATA.dict[id]));
   if (!ids.length) return toast('Nothing to review here');
   sess = { key, title, queue: ids, i: 0, flipped: false, total: ids.length, missed: new Set() };
   showReview();
@@ -1792,7 +1821,7 @@ function showSettings() {
   };
   $('#imp', m).onclick = () => $('#imp-file', m).click();
   const sf = $('#sync-form', m); if (sf) sf.onsubmit = async e => { e.preventDefault(); const t = $('#sync-token', m).value.trim(); if (!t) return; store.set('gistToken', t); store.set('gistId', ''); await Sync.run(); if (store.get('syncErr', '')) store.set('gistToken', ''); await Exam.check(); showSettings(); };
-  const sn = $('#sync-now', m); if (sn) sn.onclick = async () => { sn.disabled = true; await Sync.run(); showSettings(); };
+  const sn = $('#sync-now', m); if (sn) sn.onclick = async () => { sn.disabled = true; await Sync.run(); if (currentTab() === 'settings') showSettings(); };
   const so = $('#sync-off', m); if (so) so.onclick = () => { store.set('gistToken', ''); store.set('gistId', ''); store.set('examOn', false); toast('Sync stopped on this device'); showSettings(); };
   $('#imp-file', m).onchange = async e => {
     const f = e.target.files[0]; if (!f) return;
@@ -1812,9 +1841,9 @@ function showSettings() {
 let br = null;   // { order, i, picked, score, n }
 function showBridge() {
   renderTabs('review');
-  if (!br) br = { order: DATA.bridge.map((_, i) => i).sort(() => Math.random() - .5), i: 0, picked: null, score: 0, n: 0 };
+  if (!br) br = { order: shuffle(DATA.bridge.map((_, i) => i)), i: 0, picked: null, score: 0, n: 0 };
   const it = DATA.bridge[br.order[br.i % br.order.length]];
-  if (!it.shuffled) it.shuffled = [it.answer, ...it.options].sort(() => Math.random() - .5);
+  if (!it.shuffled) it.shuffled = shuffle([it.answer, ...it.options]);
   const m = $('#main');
   const answered = br.picked !== null, ok = br.picked === it.answer;
   m.innerHTML = `<div class="col">
@@ -1903,25 +1932,57 @@ const Sync = {
     const g = await this.api('/gists', { method: 'POST', body: JSON.stringify({ public: false, description: '冊櫥 Tsheh-tû progress', files: { [this.FILE]: { content: JSON.stringify(progressData()) } } }) });
     store.set('gistId', g.id); return g.id;
   },
+  // the progress without its timestamp: two equal snapshots mean the merge changed nothing
+  snap() { const d = progressData(); delete d.at; return JSON.stringify(d); },
+  // returns true when the other devices' copy changed something here
   async pull() {
     const g = await this.api('/gists/' + await this.findOrCreate());
     const f = g.files[this.FILE];
     let text = f && f.content;
-    if (f && f.truncated) text = await (await fetch(f.raw_url)).text();
-    if (text) mergeProgress(JSON.parse(text));
+    if (f && f.truncated) { const r = await fetch(f.raw_url); if (!r.ok) throw new Error('GitHub error ' + r.status); text = await r.text(); }
+    if (!text) return false;
+    const before = this.snap();
+    this.merging = true;   // the merge saves its result: that is not a new change to push again
+    try { mergeProgress(JSON.parse(text)); } finally { this.merging = false; }
+    return this.snap() !== before;
   },
   async push() {
     await this.api('/gists/' + await this.findOrCreate(), { method: 'PATCH', body: JSON.stringify({ files: { [this.FILE]: { content: JSON.stringify(progressData()) } } }) });
   },
+  // resolves to true when progress from another device arrived (the page on screen may need redrawing)
   async run(quiet) {
-    if (!this.on || this.busy) return;
-    this.busy = true;
-    try { await this.pull(); await this.push(); store.set('syncAt', Date.now()); store.set('syncErr', ''); if (!quiet) toast('Progress synced'); }
+    if (!this.on) return false;
+    if (this.busy) { this.again = true; return false; }
+    clearTimeout(this.timer); this.timer = null;
+    this.busy = true; this.again = false;
+    let changed = false;
+    try { changed = await this.pull(); await this.push(); store.set('syncAt', Date.now()); store.set('syncErr', ''); if (!quiet) toast('Progress synced'); }
     catch (e) { store.set('syncErr', String(e.message || e)); if (!quiet) toast('Sync failed: ' + (e.message || e)); }
     finally { this.busy = false; }
+    // a change made while this sync was running was not in what it pushed: send it too
+    if (this.again) { this.again = false; this.soon(); }
+    return changed;
   },
-  soon() { if (!this.on || this.busy) return; clearTimeout(this.timer); this.timer = setTimeout(() => this.run(true), 4000); },
+  soon() {
+    if (!this.on || this.merging) return;
+    if (this.busy) { this.again = true; return; }
+    clearTimeout(this.timer); this.timer = setTimeout(() => this.run(true), 4000);
+  },
 };
+// redraw the page after other devices' progress arrived, without disturbing what is being done: not during a card or
+// tone session, and a video or song page keeps its player (only the tab bar is redrawn)
+function refreshAfterSync() {
+  if (sess || tsess) return;
+  if (/^(vid|mus)-/.test(location.hash.slice(1))) return renderTabs(currentTab());
+  const y = scrollY; route.keepSheet = true; route(); route.keepSheet = false; scrollTo(0, y);
+}
+// the installed app often stays open for days: pull when it comes back to the screen (at most every 2 minutes), and
+// send a change still waiting in the 4-second timer when it is put away
+document.addEventListener('visibilitychange', () => {
+  if (!Sync.on) return;
+  if (document.visibilityState === 'hidden') { if (Sync.timer) Sync.run(true); return; }
+  if (Date.now() - store.get('syncAt', 0) > 120e3) Sync.run(true).then(ch => { if (ch) refreshAfterSync(); });
+});
 // ---------- private exam module. Nothing of it is in this public page: the "Exam" tab appears only on a device whose
 // GitHub token (the one used for sync) can read the owner's private repo; the module and its content come from there.
 const Exam = {
@@ -1986,5 +2047,5 @@ route();
 // when it does, load the module in the background: its word cards (exam list, review deck) are then known everywhere
 if (Sync.token) { const was = Exam.on; Exam.check().then(on => { if (on !== was) { if (/^exam/.test(location.hash.slice(1))) route(); else renderTabs(currentTab()); }
   if (on && !/^exam/.test(location.hash.slice(1))) Exam.load().then(() => { if (currentTab() === 'review' && !sess && !tsess) route(); else renderTabs(currentTab()); }).catch(() => {}); }); }
-if (Sync.on) Sync.run(true).then(() => { if (!sess && !tsess) { const y = scrollY; route.keepSheet = true; route(); route.keepSheet = false; scrollTo(0, y); } });
+if (Sync.on) Sync.run(true).then(ch => { if (ch) refreshAfterSync(); });
 </script>

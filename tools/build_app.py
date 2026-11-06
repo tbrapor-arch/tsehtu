@@ -403,7 +403,9 @@ for L in lessons:
 data['recorded'] = n_rec
 tpl = open(os.path.join(ROOT, 'app/index.template.html'), encoding='utf-8').read()
 tpl = tpl.replace('/*__FONTS__*/', tailo_font_css() + '\n' + ext_font_css(json.dumps(data, ensure_ascii=False)))
-payload = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
+# the data goes into <script type="application/json">: every '<' is escaped (still valid JSON, the same string once
+# parsed) so no '</script' or '<!--' in the text can end or confuse the block
+payload = json.dumps(data, ensure_ascii=False).replace('<', '\\u003c')
 os.makedirs(os.path.join(ROOT, 'app/dist'), exist_ok=True)
 out = os.path.join(ROOT, 'app/dist/index.html')
 open(out, 'w', encoding='utf-8').write(unicodedata.normalize('NFC', tpl.replace('/*__DATA__*/null', payload)))

@@ -5,7 +5,9 @@ App: https://tbrapor-arch.github.io/tsehtu/ (Settings › Sync between devices; 
 1. GitHub › Settings › Developer settings › Fine-grained tokens › Generate. Name `tsehtu sync`; set an expiry and a reminder.
 2. Account permissions › **Gists: Read and write**. Nothing else is needed for sync alone.
 3. Paste the token on each device and press Connect. The app finds or creates a secret gist `tshehtu-progress.json`
-   and merges when it opens and a few seconds after each change. Merge: earliest finish date per lesson, latest review per card.
+   and merges when it opens and a few seconds after each change. Merge: earliest finish date per lesson, latest review per card; for done / undone (lessons and second waves) the latest
+   change wins (`marks`, timestamps), so an Undo on one device is not brought back by another. The app also syncs when
+   it comes back to the screen (at most every 2 minutes) and sends a pending change when it is put away.
 4. The token stays in that browser and goes only to GitHub. Expired token: Settings shows "token refused"; make a new one.
 5. Backup without GitHub: Settings › Save / Load progress file.
 

@@ -76,7 +76,7 @@ Progress, deck and preferences are stored in the browser only (per device).
 - **Recordings**: headwords and MOE example sentences (▶ on the word card), fetched at build time by the GitHub
   workflow. Dialogue lines: ▶ plays the words one by one (dictionary tones, not connected speech).
 - **Sync**: on the hosted app, progress can be kept in a secret GitHub gist (token with Gists read/write only,
-  stored in the browser). Merge: earliest finish dates, latest review of each card.
+  stored in the browser). Merge: earliest finish dates, latest review of each card, latest done / undone change (Undo syncs too).
 
 ## One word card everywhere (27 Oct 2026)
 - **Shared builder** `tools/cards.py`: the lessons and the private module (podcast, drama, songs, books, exam texts)

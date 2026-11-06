@@ -47,6 +47,10 @@ before committing. Language QC: `tools/qc_readings.py` and `tools/qc_glosses.py`
 - Notebook look, always white, night mode manual (`design-decisions.md`).
 - Progress stays in the browser; optional sync through a secret gist.
 - Native-speaker clips are committed to `course/audio/lessons/` (git ignore has an exception for them).
+- Course data is a `<script type="application/json">` block read with JSON.parse (6 Nov 2026): about 40 % faster to
+  open than the same data as a JavaScript object. Every `<` in it is escaped as `\u003c` by build_app.py.
+- Service worker: only the app page itself is the offline copy; recordings are cached whole and answer range
+  requests (Safari plays audio only from 206 replies).
 - Build fails soft: MOE audio and the podcast feed are optional, the site deploys without them.
 - Every word card has English (`tools/english.py`): words not in `new_words` get a gloss from `course/glosses_en.tsv`;
   new words that fall back to automatic English are listed by `make app` (`app/dist/english-auto.txt`).
