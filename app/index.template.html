@@ -351,7 +351,7 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .trow-h .chev { color: var(--sub); }
 .cbody { padding: .2rem .8rem .8rem; }
 .lchars { display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: .5rem; }
-.lchar { display: grid; grid-template-columns: 3.2rem 1fr; gap: .7rem; align-items: start; text-align: left; padding: .6rem; border: 1.5px solid var(--soft-line); border-radius: 12px; background: var(--surface); color: var(--text); font: inherit; cursor: pointer; }
+.lchar { width: 100%; display: grid; grid-template-columns: 3.2rem 1fr; gap: .7rem; align-items: start; text-align: left; padding: .6rem; border: 1.5px solid var(--soft-line); border-radius: 12px; background: var(--surface); color: var(--text); font: inherit; cursor: pointer; }
 .lchar small { display: block; color: var(--sub); font-size: .8rem; margin-top: .2rem; }
 .lchar .cbig { cursor: inherit; }
 .ctable tr { cursor: default; }
@@ -941,7 +941,7 @@ function showLesson(L) {
     ${WAVE ? '' : `${L.chars ? `
     <h2 id="sec-chars"><span class="han">新字</span> New characters</h2>
     <p class="sub" style="margin:0;font-size:.85rem">Characters Taigi writes and Mandarin (almost) never does. Tap one for its card.</p>
-    <div class="lchars">${L.chars.map(c => `<button class="lchar" ${c.id ? `data-word="${esc(c.id)}"` : ''}><span class="han cbig">${esc(c.c)}</span><span><b class="vr">${esc(c.tailo)}</b> ${esc(c.en)}${c.hint ? `<small>${fmt(c.hint)}</small>` : ''}</span></button>`).join('')}</div>` : ''}
+    <div class="lchars">${L.chars.map(c => `<div><button class="lchar" ${c.id ? `data-word="${esc(c.id)}"` : ''}><span class="han cbig">${esc(c.c)}</span><span><b class="vr">${esc(c.tailo)}</b> ${esc(c.en)}${c.hint ? `<small>${fmt(c.hint)}</small>` : ''}</span></button>${Exam.on ? `<div data-xchar="${esc(c.c)}"></div>` : ''}</div>`).join('')}</div>` : ''}
     <details class="allnotes" id="sec-notes"><summary><span class="han">注解</span> All notes (${L.notes.length})</summary>
     <ol class="notes">${L.notes.map((n, i) => `<li class="note" id="note-${i + 1}"><span class="nn">${i + 1}</span><p><span class="tag ${esc(n.topic)}">${n.ref ? 'Line ' + n.ref : 'Recap'} · ${esc(n.topic.replace('-', ' '))}</span>${fmt(n.text)}</p></li>`).join('')}</ol></details>
     <h2 id="sec-words"><span class="han">新詞</span> New words</h2>
@@ -966,6 +966,7 @@ function showLesson(L) {
   const ak = $('#anki', main); if (ak) ak.onclick = () => copyText(L.new_words.map(w => [w.hanji, w.tailo, w.en || '', (DATA.dict[w.id] && DATA.dict[w.id].mandarin || []).slice(0, 2).join('、'), lname(L.id)].join('\t')).join('\n'), ak, 'Copied · in Anki: File › Import, fields separated by Tab');
   wireExercises(L.exercises, main);
   finishBlock(L);
+  if (L.chars) Exam.fill(main);
 }
 // end of the lesson: mark it done (with the date), undo, go on
 function finishBlock(L) {
@@ -1131,7 +1132,7 @@ function showChars() {
     return `<tr class="crow ${taught(x) ? 'taught' : ''}"><td class="cc"><button class="han cbig" ${x.id ? `data-word="${esc(x.id)}"` : 'disabled'} aria-label="${esc(x.c)}">${esc(x.c)}</button></td>
       <td><span class="vr">${esc(x.r.join(' / '))}</span>${x.tier === 'mostly' ? ' <span class="ctag" title="Mandarin has it in one to three rare words">rare in Mandarin</span>' : ''}${taught(x) ? ` <button class="ctag lk" data-go="lesson-${x.L}">${esc(lname(x.L))}</button>` : ''}
         ${charEn(c) ? `<div class="ve">${esc(charEn(c))}</div>` : ''}
-        <div class="cw">${x.w.filter(id => DATA.dict[id]).map(id => { const d = DATA.dict[id]; return `<button class="cwd" data-word="${esc(id)}"><span class="han">${esc(d.hanji)}</span> <span class="rom">${esc(d.tailo || d.tkey)}</span>${charEn(d) ? `<small>${esc(charEn(d))}</small>` : ''}</button>`; }).join('')}</div></td></tr>`; };
+        <div class="cw">${x.w.filter(id => DATA.dict[id]).map(id => { const d = DATA.dict[id]; return `<button class="cwd" data-word="${esc(id)}"><span class="han">${esc(d.hanji)}</span> <span class="rom">${esc(d.tailo || d.tkey)}</span>${charEn(d) ? `<small>${esc(charEn(d))}</small>` : ''}</button>`; }).join('')}</div>${Exam.on ? `<div data-xchar="${esc(x.c)}"></div>` : ''}</td></tr>`; };
   const m = $('#main');
   m.innerHTML = `<div class="col">
     ${pracHead('chars', 'the characters only Taigi writes')}
@@ -1151,6 +1152,7 @@ function showChars() {
   $$('[data-copen]', m).forEach(b => b.onclick = () => { const i = +b.dataset.copen; charOpen = charOpen === i ? -1 : i; showChars(); const el = document.getElementById('cg-' + i); if (el && charOpen === i) el.scrollIntoView({ block: 'start' }); });
   $$('[data-cadd]', m).forEach(b => b.onclick = () => { const n = listSet('lessons', gs[+b.dataset.cadd].list.map(charCard).filter(Boolean), true); toast(n ? `${n} words added to Lessons` : 'Already in your Lessons list'); });
   $('#cnew', m).onclick = () => { charNew = !charNew; showChars(); };
+  Exam.fill(m);
 }
 
 // ---------- grammar sheets: each structure with every course line that uses it
@@ -2111,6 +2113,8 @@ const Exam = {
       if (window.ExamModule) await window.ExamModule.init(this);
     })().catch(e => { this.loaded = null; throw e; });
   },
+  // the module may add its own content to placeholders a page leaves for it ([data-xchar])
+  fill(root) { if (this.on) this.load().then(() => window.ExamModule && window.ExamModule.fill && window.ExamModule.fill(root)).catch(() => {}); },
   async show(h) {
     renderTabs(currentTab());
     const here = location.hash;
