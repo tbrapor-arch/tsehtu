@@ -1,0 +1,85 @@
+id: 1
+title: {en: "Aunt's kitchen", tailo: "A-kīm ê tsàu-kha", hanji: "阿妗的灶跤"}
+genre: story
+review: false
+setting: "A short story written for this course. A grown woman remembers the summers she spent as a child at her aunt's farmhouse in the countryside."
+chars:
+  - {c: 妗, tailo: kīm, en: "wife of one's mother's brother", hint: "女 woman + 今 kim, which gives the sound"}
+  - {c: 扞, tailo: huānn, en: "run, be in charge of", hint: "Mandarin hàn 'defend': a different word. In Taigi 扞家 = run the household"}
+  - {c: 砛, tailo: gîm, en: "doorstep, step", hint: "石 stone + 今 kim for the sound"}
+  - {c: 烌, tailo: hu, en: "ash", hint: "火 fire + 休 hiu for the sound"}
+  - {c: 剾, tailo: khau, en: "peel, plane, scrape", hint: "區 + 刂 knife; 剾洗 khau-sé 'to mock' is the same character"}
+  - {c: 𥐵, tailo: phiat, en: "plate, dish", hint: "a character the MOE created for this word (石 for pottery); usually 𥐵仔 phiat-á"}
+  - {c: 殕, tailo: phú, en: "mould; grey", hint: "歹 for decay; 上殕 tshiūnn-phú 'go mouldy', 殕色 phú-sik 'grey'"}
+  - {c: 漚, tailo: àu, en: "rotten; (read au) to steep, rot down", hint: "氵 water + 區; two readings, both in this story"}
+  - {c: 捘, tailo: tsūn, en: "wring, twist", hint: "扌 hand + 夋"}
+  - {c: 𫝺, tailo: hiù, en: "sprinkle, splash", hint: "a character the MOE created for this Taigi word"}
+dialogue:
+  - {n: 1, hanji: "細漢的時，逐年歇熱，阿母攏會𤆬我轉去外家，揣阿舅佮阿妗。", tailo: "Sè-hàn ê sî, ta̍k-nî hioh-jua̍h, a-bú lóng ē tshuā guá tńg-khì guā-ke, tshuē a-kū kah a-kīm.", en: "When I was little, every summer holiday Mum took me back to her family home to see my uncle and aunt."}
+  - {n: 2, hanji: "阿舅出外做工，厝內大大細細的代誌，攏是阿妗咧扞家。", tailo: "A-kū tshut-guā tsò-kang, tshù-lāi tuā-tuā-sè-sè ê tāi-tsì, lóng sī a-kīm leh huānn-ke.", en: "My uncle worked away from home, so everything in the house, big and small, was run by my aunt."}
+  - {n: 3, hanji: "阿妗蹛的是古早的三合院，門口有三坎石砛。", tailo: "A-kīm tuà--ê sī kóo-tsá ê sann-ha̍p-īnn, mn̂g-kháu ū sann khám tsio̍h gîm.", en: "She lived in an old three-sided farmhouse with three stone steps at the door."}
+  - {n: 4, hanji: "我上愛坐佇砛仔頂，看雞仔佇埕裡走來走去。", tailo: "Guá siōng ài tsē tī gîm-á tíng, khuànn ke-á tī tiânn--lí tsáu-lâi-tsáu-khì.", en: "My favourite thing was to sit on the steps and watch the chickens running about the yard."}
+  - {n: 5, hanji: "透早，阿妗就入去灶跤，用柴燒大灶。", tailo: "Thàu-tsá, a-kīm tō ji̍p-khì tsàu-kha, iōng tshâ sio tuā-tsàu.", en: "First thing in the morning she went into the kitchen and lit the big stove with firewood."}
+  - {n: 6, hanji: "灶空內的火烌，伊攏會收起來，講通好提去菜園做肥。", tailo: "Tsàu-khang lāi ê hué-hu, i lóng ē siu--khí-lâi, kóng thang-hó the̍h khì tshài-hn̂g tsò puî.", en: "She always kept the ash from the firebox; she said it would do as fertiliser for the vegetable patch."}
+  - {n: 7, hanji: "伊叫我鬥剾菜瓜。我剾無好勢，皮猶賰一半。", tailo: "I kiò guá tàu khau tshài-kue. Guá khau bô hó-sè, phuê iáu tshun tsi̍t-puànn.", en: "She asked me to help peel the loofahs. I made a mess of it and left half the skin on."}
+  - {n: 8, hanji: "阿妗笑笑仔講：「無要緊，食會落就好。」", tailo: "A-kīm tshiò-tshiò-á kóng: “Bô-iàu-kín, tsia̍h ē lo̍h tō hó.”", en: "Aunt just smiled: 'Never mind, as long as it goes down.'"}
+  - {n: 9, hanji: "有一工，我佇菜櫥內揣著一塊𥐵仔，頂面有一粒饅頭，已經上殕矣。", tailo: "Ū tsi̍t kang, guá tī tshài-tû lāi tshuē-tio̍h tsi̍t tè phiat-á, tíng-bīn ū tsi̍t lia̍p bán-thô, í-king tshiūnn-phú--ah.", en: "One day I found a plate in the food cupboard with a steamed bun on it that had already gone mouldy."}
+  - {n: 10, hanji: "阿妗緊共提去擲掉，講：「臭殕的物件食落去，腹肚會疼。」", tailo: "A-kīm kín kā the̍h khì tàn-tiāu, kóng: “Tshàu-phú ê mi̍h-kiānn tsia̍h--lo̍h-khì, pak-tóo ē thiànn.”", en: "She quickly threw it away: 'Eat mouldy food and you'll get a stomach ache.'"}
+  - {n: 11, hanji: "菜園的菜若食袂了，放甲漚去，伊嘛毋甘擲，提去漚肥。", tailo: "Tshài-hn̂g ê tshài nā tsia̍h bē liáu, pàng kah àu--khì, i mā m̄-kam tàn, the̍h khì au-puî.", en: "When there were more vegetables than we could eat and they went rotten, she couldn't bear to throw them out either: she put them to rot down for compost."}
+  - {n: 12, hanji: "下晡，阿妗佇井邊洗衫。洗好，伊用雙手共衫捘予焦。", tailo: "Ē-poo, a-kīm tī tsénn-pinn sé sann. Sé hó, i iōng siang-tshiú kā sann tsūn hōo ta.", en: "In the afternoon she did the washing by the well. When it was clean she wrung it dry with both hands."}
+  - {n: 13, hanji: "我嘛試看覓，捘甲手痠，衫猶是澹糊糊。", tailo: "Guá mā tshì-khuànn-māi, tsūn kah tshiú sng, sann iáu-sī tâm-kôo-kôo.", en: "I had a go too. I wrung until my hands ached, and the clothes were still sopping wet."}
+  - {n: 14, hanji: "熱天的下晡真熱，阿妗佇塗跤𫝺水，講按呢較涼。", tailo: "Jua̍h-thinn ê ē-poo tsin jua̍h, a-kīm tī thôo-kha hiù tsuí, kóng án-ne khah liâng.", en: "Summer afternoons were hot, and she would sprinkle water on the ground; she said that cooled things down."}
+  - {n: 15, hanji: "暗時，伊點香拜公媽，香烌落佇桌頂，伊用手輕輕仔拭掉。", tailo: "Àm-sî, i tiám-hiunn pài kong-má, hiunn-hu lak tī toh-tíng, i iōng tshiú khin-khin-á tshit-tiāu.", en: "In the evening she lit incense for the ancestors. When the ash fell on the table, she gently wiped it away with her hand."}
+  - {n: 16, hanji: "我問阿妗：「你逐工做遮爾濟代誌，敢袂忝？」", tailo: "Guá mn̄g a-kīm: “Lí ta̍k-kang tsò tsiah-nī tsē tāi-tsì, kám bē thiám?”", en: "I asked her: 'You do so much every day. Don't you get worn out?'"}
+  - {n: 17, hanji: "阿妗講：「扞家就是按呢。厝內若無人扞，就會亂操操。」", tailo: "A-kīm kóng: “Huānn-ke tō-sī án-ne. Tshù-lāi nā bô lâng huānn, tō ē luān-tshau-tshau.”", en: "She said: 'That's what running a house is. If nobody runs it, it all goes to pieces.'"}
+  - {n: 18, hanji: "這馬阿妗已經老矣，三合院嘛賣掉矣。", tailo: "Tsit-má a-kīm í-king lāu--ah, sann-ha̍p-īnn mā bē-tiāu--ah.", en: "My aunt is old now, and the farmhouse has been sold."}
+  - {n: 19, hanji: "毋過我若佇灶跤剾菜瓜，就會想著伊，想著彼三坎石砛。", tailo: "M̄-koh guá nā tī tsàu-kha khau tshài-kue, tō ē siūnn-tio̍h i, siūnn-tio̍h hit sann khám tsio̍h gîm.", en: "But whenever I peel a loofah in my kitchen, I think of her, and of those three stone steps."}
+  - {n: 20, hanji: "我剾了猶是無好勢，毋過我會家己講：「無要緊，食會落就好。」", tailo: "Guá khau liáu iáu-sī bô hó-sè, m̄-koh guá ē ka-kī kóng: “Bô-iàu-kín, tsia̍h ē lo̍h tō hó.”", en: "I still make a mess of it, but I tell myself: 'Never mind, as long as it goes down.'"}
+notes:
+  - {ref: 1, topic: vocab, text: "外家 guā-ke = a married woman's own family home; 轉外家 = go back to visit it. 阿舅 a-kū is mother's brother and 阿妗 a-kīm his wife. Father's side is different: 阿叔 a-tsik and 阿嬸 a-tsím."}
+  - {ref: 2, topic: vocab, text: "扞家 huānn-ke = run the household, and also keep the family going. 扞 alone means 'to be in charge of': 扞數 huānn-siàu 'keep the accounts', 手扞仔 tshiú-huānn-á 'handlebars'. 出外 tshut-guā = go away from home (to work)."}
+  - {ref: 3, topic: culture, text: "三合院 sann-ha̍p-īnn: the old farmhouse built on three sides of a yard (埕 tiânn), where rice was dried. 坎 khám is the classifier for steps: 三坎石砛 'three stone steps'. 砛 gîm is the step at a door; 砛仔 gîm-á the doorstep."}
+  - {ref: 6, topic: vocab, text: "火烌 hué-hu = ashes from a fire; 香烌 hiunn-hu = incense ash (line 15), which some people mixed into water as a remedy. 灶空 tsàu-khang = the firebox of a stove. 通好 thang-hó = so that it can, good for."}
+  - {ref: 7, topic: vocab, text: "剾 khau = peel or scrape with a blade: 剾菜瓜 'peel a loofah', 剾刀 khau-to 'a plane'. 剾洗 khau-sé is to mock someone, scrape them with words. 菜瓜 tshài-kue = loofah (luffa), eaten young as a vegetable."}
+  - {ref: 9, topic: vocab, text: "𥐵仔 phiat-á = a plate, a small dish; 一塊𥐵 'a plate'. 上殕 tshiūnn-phú = go mouldy, 臭殕 tshàu-phú = mouldy, musty (line 10). 殕 also means grey: 殕色 phú-sik."}
+  - {ref: 11, topic: vocab, text: "漚 has two readings. àu = rotten, stale (漚去 'gone off'), and of people 'rotten, nasty': 漚步 àu-pōo 'a dirty trick'. au = steep, leave to soak or rot down: 漚肥 au-puî 'make compost'. 毋甘 m̄-kam = can't bear to (throw away, spend)."}
+  - {ref: 12, topic: vocab, text: "捘 tsūn = wring, twist: 捘面巾 'wring out a towel', 捘予焦 'wring dry'. 焦 ta = dry; 澹 tâm = wet, 澹糊糊 tâm-kôo-kôo 'sopping wet' (line 13)."}
+  - {ref: 14, topic: vocab, text: "𫝺 hiù = sprinkle, splash a little: 𫝺水 'sprinkle water', 𫝺芳水 'put on perfume'. 塗跤 thôo-kha = the ground, the floor."}
+  - {ref: 16, topic: vocab, text: "忝 thiám = worn out, exhausted. 遮爾 tsiah-nī + adjective = so (this) much: 遮爾濟 'so many'."}
+  - {ref: 17, topic: vocab, text: "亂操操 luān-tshau-tshau = in a mess, chaotic, said of a room, a crowd, a household."}
+new_words:
+  - {tailo: a-kīm, hanji: 阿妗, en: "aunt (mother's brother's wife)"}
+  - {tailo: guā-ke, hanji: 外家, en: "a married woman's family home"}
+  - {tailo: huānn-ke, hanji: 扞家, en: "run the household"}
+  - {tailo: sann-ha̍p-īnn, hanji: 三合院, en: "three-sided farmhouse"}
+  - {tailo: gîm-á, hanji: 砛仔, en: "doorstep"}
+  - {tailo: tsàu-khang, hanji: 灶空, en: "firebox of a stove"}
+  - {tailo: hué-hu, hanji: 火烌, en: "ashes"}
+  - {tailo: hiunn-hu, hanji: 香烌, en: "incense ash"}
+  - {tailo: khau, hanji: 剾, en: "peel, scrape, plane"}
+  - {tailo: tshài-kue, hanji: 菜瓜, en: "loofah (as a vegetable)"}
+  - {tailo: phiat-á, hanji: 𥐵仔, en: "plate, small dish"}
+  - {tailo: tshiūnn-phú, hanji: 上殕, en: "go mouldy"}
+  - {tailo: tshàu-phú, hanji: 臭殕, en: "mouldy, musty"}
+  - {tailo: àu, hanji: 漚, en: "rotten, gone off"}
+  - {tailo: au-puî, hanji: 漚肥, en: "make compost"}
+  - {tailo: m̄-kam, hanji: 毋甘, en: "can't bear to"}
+  - {tailo: tsūn, hanji: 捘, en: "wring, twist"}
+  - {tailo: tâm-kôo-kôo, hanji: 澹糊糊, en: "sopping wet"}
+  - {tailo: hiù, hanji: 𫝺, en: "sprinkle, splash"}
+  - {tailo: thiám, hanji: 忝, en: "worn out"}
+  - {tailo: luān-tshau-tshau, hanji: 亂操操, en: "in a mess, chaotic"}
+exercises:
+  translate:
+    - {tailo: "Tshù-lāi tuā-tuā-sè-sè ê tāi-tsì, lóng sī a-kīm leh huānn-ke.", hanji: "厝內大大細細的代誌，攏是阿妗咧扞家。", en: "Everything in the house, big and small, was run by my aunt."}
+    - {tailo: "Bô-iàu-kín, tsia̍h ē lo̍h tō hó.", hanji: "無要緊，食會落就好。", en: "Never mind, as long as it goes down."}
+    - {tailo: "Tshàu-phú ê mi̍h-kiānn tsia̍h--lo̍h-khì, pak-tóo ē thiànn.", hanji: "臭殕的物件食落去，腹肚會疼。", en: "Eat mouldy food and you'll get a stomach ache."}
+    - {tailo: "Guá tsūn kah tshiú sng, sann iáu-sī tâm-kôo-kôo.", hanji: "我捘甲手痠，衫猶是澹糊糊。", en: "I wrung until my hands ached, and the clothes were still sopping wet."}
+    - {tailo: "Tshù-lāi nā bô lâng huānn, tō ē luān-tshau-tshau.", hanji: "厝內若無人扞，就會亂操操。", en: "If nobody runs the house, it all goes to pieces."}
+  fill:
+    - {tailo: "Guá siōng ài tsē tī ___ tíng.", hanji: "我上愛坐佇___頂。", answer: "gîm-á", answer_hanji: "砛仔", en: "My favourite thing was to sit on the doorstep."}
+    - {tailo: "Tsàu-khang lāi ê ___, i lóng ē siu--khí-lâi.", hanji: "灶空內的___，伊攏會收起來。", answer: "hué-hu", answer_hanji: "火烌", en: "She always kept the ash from the firebox."}
+    - {tailo: "I kiò guá tàu ___ tshài-kue.", hanji: "伊叫我鬥___菜瓜。", answer: "khau", answer_hanji: "剾", en: "She asked me to help peel the loofahs."}
+    - {tailo: "Tíng-bīn ū tsi̍t lia̍p bán-thô, í-king ___--ah.", hanji: "頂面有一粒饅頭，已經___矣。", answer: "tshiūnn-phú", answer_hanji: "上殕", en: "On it was a steamed bun that had already gone mouldy."}
+    - {tailo: "A-kīm tī thôo-kha ___ tsuí.", hanji: "阿妗佇塗跤___水。", answer: "hiù", answer_hanji: "𫝺", en: "My aunt sprinkled water on the ground."}
+audio: []

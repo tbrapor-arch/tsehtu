@@ -104,8 +104,10 @@ def ext_font_css(text):
 lesson_files = sorted(glob.glob(os.path.join(ROOT, 'course/lessons/[0-9]*.yaml')))
 # Part 2 (進修, Perfectionnement): course/perfectionnement/NN.yaml with id N, stored in the app as 100 + N
 perf_files = sorted(glob.glob(os.path.join(ROOT, 'course/perfectionnement/[0-9]*.yaml')))
+# Part 3, 文學 Literature: course/literature/NN.yaml with id N, stored as 200 + N; each teaches ~10 Taigi-only characters
+lit_files = sorted(glob.glob(os.path.join(ROOT, 'course/literature/[0-9]*.yaml')))
 theme_files = sorted(glob.glob(os.path.join(ROOT, 'course/themes/*.yaml')))
-for f in lesson_files + perf_files:
+for f in lesson_files + perf_files + lit_files:
     for w in yaml.safe_load(open(f, encoding='utf-8')).get('new_words', []) or []:
         if w.get('en'):
             glosses[key(w['tailo'])] = w['en']
@@ -116,10 +118,12 @@ for f in theme_files:
 ENGLISH = cards.ENGLISH = english.English(con, {k: v for k, v in glosses.items() if v}, CEDICT)
 
 lessons = []
-for f in lesson_files + perf_files:
+for f in lesson_files + perf_files + lit_files:
     d = yaml.safe_load(open(f, encoding='utf-8'))
     if f in perf_files:
         d['id'] = 100 + d['id']
+    if f in lit_files:
+        d['id'] = 200 + d['id']
     lines = []
     for ln in d['dialogue']:
         lines.append({'n': ln['n'], 'speaker': ln.get('speaker') or '', 'en': ln['en'], 'zh': ln.get('zh'),
@@ -131,7 +135,8 @@ for f in lesson_files + perf_files:
     ex = [dict(it, kind=kind) for kind, items in (d.get('exercises') or {}).items() for it in items or []]
     lessons.append({'id': d['id'], 'title': d['title'], 'review': d.get('review', False), 'genre': d.get('genre', 'dialogue'),
                     'setting': d.get('setting', ''), 'lines': lines, 'notes': d.get('notes') or [],
-                    'new_words': new_words, 'exercises': ex})
+                    'new_words': new_words, 'exercises': ex,
+                    **({'chars': [dict(c, id=lookup(c['c'], key(c['tailo']))) for c in d['chars']]} if d.get('chars') else {})})
 
 # ---- themes (thematic vocabulary)
 themes = []

@@ -1,0 +1,82 @@
+id: 3
+title: {en: "Grandpa's bamboo pole", tailo: "A-kong ê tik-ko", hanji: "阿公的竹篙"}
+genre: story
+review: false
+setting: "A short story written for this course. After Grandma's death, Grandpa stops talking. His granddaughter keeps him company in the evenings."
+chars:
+  - {c: 愖, tailo: sīm, en: "sit still and silent, lost in thought", hint: "忄 heart + 甚 sīm for the sound"}
+  - {c: 噷, tailo: hm̍h, en: "(in) 噷噷 'saying nothing'", hint: "口 mouth: a closed-mouth sound"}
+  - {c: 𩑾, tailo: tshih, en: "hang (the head)", hint: "a character the MOE created for this word; 頁 'head' is in it"}
+  - {c: 慒, tailo: tso, en: "troubled, heavy-hearted", hint: "忄 heart + 曹 tsô for the sound; 心慒慒 'heavy-hearted'"}
+  - {c: 𠯗, tailo: tsi̍p, en: "sip", hint: "a character the MOE created for this word, with 口 mouth"}
+  - {c: 搐, tailo: tiuh, en: "twitch", hint: "扌 + 畜; Mandarin 抽搐 chōuchù 'convulse' is close, but the Taigi reading is tiuh"}
+  - {c: 𤺪, tailo: siān, en: "tired, weary", hint: "a character the MOE created: 疒 illness + 善 siān for the sound"}
+  - {c: 𫞼, tailo: tshāi, en: "stand (something) upright", hint: "a character the MOE created for this word"}
+  - {c: 揬, tailo: tu̍h, en: "poke, prod", hint: "扌 hand + 突 'thrust'"}
+  - {c: 櫳, tailo: lang, en: "sparse, thin", hint: "木 + 龍; read lông in 櫳仔 'jail'"}
+dialogue:
+  - {n: 1, hanji: "阿媽過身了後，阿公變甲真恬。", tailo: "A-má kuè-sin liáu-āu, a-kong piàn kah tsin tiām.", en: "After Grandma died, Grandpa became very quiet."}
+  - {n: 2, hanji: "伊逐工下晡攏坐佇亭仔跤，愖規晡，一句話都無講。", tailo: "I ta̍k-kang ē-poo lóng tsē tī tîng-á-kha, sīm kui-poo, tsi̍t kù uē to bô kóng.", en: "Every afternoon he sat in the arcade in front of the house, lost in thought the whole afternoon, without a word."}
+  - {n: 3, hanji: "阮問伊食飽未，伊攏噷噷，頭𩑾落去。", tailo: "Guán mn̄g i tsia̍h-pá--buē, i lóng hm̍h-hm̍h, thâu tshih--lo̍h-khì.", en: "When we asked if he'd eaten, he said nothing and hung his head."}
+  - {n: 4, hanji: "阿爸講：「阿公毋是破病，是心慒慒。」", tailo: "A-pa kóng: “A-kong m̄ sī phuà-pīnn, sī sim tso-tso.”", en: "Dad said: 'Grandpa isn't ill. His heart is heavy.'"}
+  - {n: 5, hanji: "我暗時去陪伊。伊泡一甌茶，𠯗一喙，就閣囥落來。", tailo: "Guá àm-sî khì puê--i. I phàu tsi̍t au tê, tsi̍p tsi̍t tshuì, tō koh khǹg--lo̍h-lâi.", en: "I went to sit with him in the evenings. He'd make a cup of tea, take a sip and put it down again."}
+  - {n: 6, hanji: "茶冷去，伊嘛無啉。", tailo: "Tê líng--khì, i mā bô lim.", en: "The tea went cold, and he didn't drink it."}
+  - {n: 7, hanji: "伊的目尾不時咧搐，親像有話欲講，閣吞落去。", tailo: "I ê ba̍k-bué put-sî leh tiuh, tshin-tshiūnn ū uē beh kóng, koh thun--lo̍h-khì.", en: "The corner of his eye kept twitching, as if he had something to say and swallowed it again."}
+  - {n: 8, hanji: "我問：「阿公，你敢𤺪矣？欲去睏未？」", tailo: "Guá mn̄g: “A-kong, lí kám siān--ah? Beh khì khùn--buē?”", en: "I asked: 'Grandpa, are you tired? Do you want to go to bed?'"}
+  - {n: 9, hanji: "伊講：「人𤺪，心閣較𤺪。」", tailo: "I kóng: “Lâng siān, sim koh-khah siān.”", en: "He said: 'The body is tired, and the heart is wearier still.'"}
+  - {n: 10, hanji: "有一暗，伊忽然徛起來，提一枝竹篙𫞼佇壁角。", tailo: "Ū tsi̍t àm, i hut-jiân khiā--khí-lâi, the̍h tsi̍t ki tik-ko tshāi tī piah-kak.", en: "One evening he suddenly stood up, took a bamboo pole and stood it up in the corner."}
+  - {n: 11, hanji: "伊講：「恁阿媽較早攏用這枝竹篙曝衫。」", tailo: "I kóng: “Lín a-má khah-tsá lóng iōng tsit ki tik-ko pha̍k-sann.”", en: "He said: 'Your grandma always used this pole to hang out the washing.'"}
+  - {n: 12, hanji: "伊閣用指頭仔揬壁頂一張舊相片：「你看，這是阮少年的時。」", tailo: "I koh iōng tsíng-thâu-á tu̍h piah-tíng tsi̍t tiunn kū siòng-phìnn: “Lí khuànn, tse sī guán siàu-liân ê sî.”", en: "Then he prodded an old photo on the wall with his finger: 'Look, that's us when we were young.'"}
+  - {n: 13, hanji: "相片內底，阿公的頭毛烏閣濟。這馬伊的頭毛已經真櫳矣。", tailo: "Siòng-phìnn lāi-té, a-kong ê thâu-mn̂g oo koh tsē. Tsit-má i ê thâu-mn̂g í-king tsin lang--ah.", en: "In the photo Grandpa's hair was thick and black. Now it has grown very thin."}
+  - {n: 14, hanji: "伊摸家己的頭殼，煞笑出來。", tailo: "I bong ka-kī ê thâu-khak, suah tshiò--tshut-lâi.", en: "He touched his head and burst out laughing."}
+  - {n: 15, hanji: "彼暗，伊講真濟話：講阿媽煮的菜，講𪜶結婚彼工落大雨。", tailo: "Hit àm, i kóng tsin tsē uē: kóng a-má tsú ê tshài, kóng in kiat-hun hit kang lo̍h tuā-hōo.", en: "That night he talked a lot: about Grandma's cooking, about the downpour on their wedding day."}
+  - {n: 16, hanji: "講甲尾仔，伊的目屎滴落來，頭閣𩑾落去。我無講話，陪伊坐。", tailo: "Kóng kah bué--á, i ê ba̍k-sái tih--lo̍h-lâi, thâu koh tshih--lo̍h-khì. Guá bô kóng-uē, puê i tsē.", en: "By the end his tears were falling, and his head dropped again. I said nothing and sat with him."}
+  - {n: 17, hanji: "隔轉工，阿公透早就去公園行路，閣佮人開講。", tailo: "Keh-tńg-kang, a-kong thàu-tsá tō khì kong-hn̂g kiânn-lōo, koh kah lâng khai-káng.", en: "The next day Grandpa went for a walk in the park first thing, and even chatted with people."}
+  - {n: 18, hanji: "阿爸講：「阿公心肝的結，總算拍開矣。」", tailo: "A-pa kóng: “A-kong sim-kuann ê kat, tsóng-sǹg phah-khui--ah.”", en: "Dad said: 'The knot in Grandpa's heart has come undone at last.'"}
+  - {n: 19, hanji: "毋過伊猶是逐工下晡愖一睏，看彼枝竹篙。", tailo: "M̄-koh i iáu-sī ta̍k-kang ē-poo sīm tsi̍t-khùn, khuànn hit ki tik-ko.", en: "But every afternoon he still sits lost in thought for a while, looking at that bamboo pole."}
+  - {n: 20, hanji: "我知影，伊毋是咧𤺪，伊是咧想阿媽。", tailo: "Guá tsai-iánn, i m̄ sī leh siān, i sī leh siūnn a-má.", en: "I know he isn't tired. He's thinking of Grandma."}
+notes:
+  - {ref: 1, topic: vocab, text: "過身 kuè-sin = pass away, the polite way to say someone has died. 恬 tiām = quiet, silent: 恬恬 'keep quiet!'."}
+  - {ref: 2, topic: vocab, text: "愖 sīm = sit motionless and silent, brooding: 伊愖規晡攏無講話 'he sat silent the whole afternoon'. 規晡 kui-poo = the whole afternoon, a long while. 亭仔跤 tîng-á-kha = the covered arcade along the front of Taiwanese shophouses."}
+  - {ref: 3, topic: vocab, text: "噷噷 hm̍h-hm̍h = without a sound, not saying a word. 𩑾 tshih = hang (the head), out of shame, shyness or sadness: 頭𩑾落去 'hang one's head'."}
+  - {ref: 4, topic: vocab, text: "慒 tso = troubled, heavy, out of sorts: 心慒慒 sim tso-tso 'heavy-hearted, low', 聽了人真慒 'it gets you down to hear it', 胃慒慒 'a queasy stomach', 慒心 tso-sim 'worried, nauseous'. 破病 phuà-pīnn = be ill."}
+  - {ref: 5, topic: vocab, text: "𠯗 tsi̍p = sip, take a small mouthful: 𠯗一喙就好 'just a sip'. 一甌茶 tsi̍t au tê = a cup of tea (甌 au = small cup). 囥 khǹg = put down."}
+  - {ref: 7, topic: vocab, text: "搐 tiuh = twitch, give a sudden jerk (a muscle, an eyelid). 目尾 ba̍k-bué = the outer corner of the eye. 不時 put-sî = all the time, again and again."}
+  - {ref: 8, topic: vocab, text: "𤺪 siān = tired, weary, and also fed up: 厭𤺪 ià-siān 'weary of it', 𤺪雨 siān-hōo 'endless rain'. 忝 thiám (文學 1) is worn out from effort; 𤺪 is more a dragging weariness."}
+  - {ref: 10, topic: vocab, text: "𫞼 tshāi = stand something upright: 𫞼柱仔 'put up a post', 𫞼佇壁角 'stand it in the corner'. 竹篙 tik-ko = a long bamboo pole, used to hang washing on (曝衫 pha̍k-sann)."}
+  - {ref: 12, topic: vocab, text: "揬 tu̍h = poke, prod with a finger or a stick: 指指揬揬 kí-kí-tu̍h-tu̍h 'point and poke, criticise'. 指頭仔 tsíng-thâu-á = finger."}
+  - {ref: 13, topic: vocab, text: "櫳 lang = sparse, thin, with gaps: 頭毛真櫳 'thin hair', 稻仔佈傷櫳 'the rice is planted too sparsely', 疏櫳 se-lang 'sparse'. Read lông, 櫳仔 lông-á is a jail."}
+  - {ref: 18, topic: grammar, text: "心肝的結 'the knot in one's heart', 拍開 phah-khui = open, undo. 總算 tsóng-sǹg = at last, finally."}
+new_words:
+  - {tailo: kuè-sin, hanji: 過身, en: "pass away"}
+  - {tailo: sīm, hanji: 愖, en: "sit silent, brood"}
+  - {tailo: tîng-á-kha, hanji: 亭仔跤, en: "arcade, covered walkway"}
+  - {tailo: hm̍h-hm̍h, hanji: 噷噷, en: "without a word"}
+  - {tailo: tshih, hanji: 𩑾, en: "hang (the head)"}
+  - {tailo: sim tso-tso, hanji: 心慒慒, en: "heavy-hearted"}
+  - {tailo: tsi̍p, hanji: 𠯗, en: "sip"}
+  - {tailo: au, hanji: 甌, en: "small cup"}
+  - {tailo: tiuh, hanji: 搐, en: "twitch"}
+  - {tailo: ba̍k-bué, hanji: 目尾, en: "corner of the eye"}
+  - {tailo: siān, hanji: 𤺪, en: "tired, weary"}
+  - {tailo: tshāi, hanji: 𫞼, en: "stand upright"}
+  - {tailo: tik-ko, hanji: 竹篙, en: "bamboo pole"}
+  - {tailo: pha̍k-sann, hanji: 曝衫, en: "hang out the washing"}
+  - {tailo: tu̍h, hanji: 揬, en: "poke, prod"}
+  - {tailo: lang, hanji: 櫳, en: "sparse, thin"}
+  - {tailo: keh-tńg-kang, hanji: 隔轉工, en: "the next day"}
+  - {tailo: khai-káng, hanji: 開講, en: "chat"}
+exercises:
+  translate:
+    - {tailo: "I sīm kui-poo, tsi̍t kù uē to bô kóng.", hanji: "伊愖規晡，一句話都無講。", en: "He sat lost in thought the whole afternoon, without a word."}
+    - {tailo: "A-kong m̄ sī phuà-pīnn, sī sim tso-tso.", hanji: "阿公毋是破病，是心慒慒。", en: "Grandpa isn't ill. His heart is heavy."}
+    - {tailo: "Lâng siān, sim koh-khah siān.", hanji: "人𤺪，心閣較𤺪。", en: "The body is tired, and the heart is wearier still."}
+    - {tailo: "I ê thâu-mn̂g í-king tsin lang--ah.", hanji: "伊的頭毛已經真櫳矣。", en: "His hair has grown very thin."}
+    - {tailo: "Guá bô kóng-uē, puê i tsē.", hanji: "我無講話，陪伊坐。", en: "I said nothing and sat with him."}
+  fill:
+    - {tailo: "I lóng hm̍h-hm̍h, thâu ___--lo̍h-khì.", hanji: "伊攏噷噷，頭___落去。", answer: "tshih", answer_hanji: "𩑾", en: "He said nothing and hung his head."}
+    - {tailo: "I phàu tsi̍t au tê, ___ tsi̍t tshuì.", hanji: "伊泡一甌茶，___一喙。", answer: "tsi̍p", answer_hanji: "𠯗", en: "He made a cup of tea and took a sip."}
+    - {tailo: "I ê ba̍k-bué put-sî leh ___.", hanji: "伊的目尾不時咧___。", answer: "tiuh", answer_hanji: "搐", en: "The corner of his eye kept twitching."}
+    - {tailo: "I the̍h tsi̍t ki tik-ko ___ tī piah-kak.", hanji: "伊提一枝竹篙___佇壁角。", answer: "tshāi", answer_hanji: "𫞼", en: "He stood a bamboo pole up in the corner."}
+    - {tailo: "I iōng tsíng-thâu-á ___ piah-tíng ê siòng-phìnn.", hanji: "伊用指頭仔___壁頂的相片。", answer: "tu̍h", answer_hanji: "揬", en: "He prodded the photo on the wall with his finger."}
+audio: []

@@ -1,0 +1,90 @@
+id: 2
+title: {en: "A country boy in the city", tailo: "Tsháu-tē-sông ji̍p siânn", hanji: "草地倯入城"}
+genre: story
+review: false
+setting: "A short story written for this course. A tall young man from the countryside goes to Taipei for his first job interview."
+chars:
+  - {c: 躼, tailo: lò, en: "tall (of a person)", hint: "身 body on the left; 躼跤 lò-kha 'long-legged, tall'"}
+  - {c: 倯, tailo: sông, en: "countrified, unsophisticated", hint: "亻 person + 松 (siông) for the sound; 草地倯 'country bumpkin'"}
+  - {c: 䘼, tailo: ńg, en: "sleeve", hint: "衤 clothing + 宛 for the sound; 手䘼 tshiú-ńg 'sleeve', 長䘼 'long-sleeved'"}
+  - {c: 揜, tailo: iap, en: "hide, slip (something) to someone on the quiet", hint: "扌 hand + 弇 'cover'"}
+  - {c: 鑢, tailo: lù, en: "rub, file; swipe (a card)", hint: "金 metal + 慮 lū for the sound: a file, then 'rub', now 鑢卡 'swipe a card'"}
+  - {c: 硞, tailo: kho̍k, en: "knock, bump", hint: "石 stone: a hard knock"}
+  - {c: 搢, tailo: tsìnn, en: "squeeze in, stuff in; go against", hint: "扌 hand + 晉 tsìn for the sound; 搢風 'into the wind'"}
+  - {c: 敧, tailo: khi, en: "slanting, lopsided", hint: "奇 khi for the sound + 攴; 敧一爿 'lean to one side'"}
+  - {c: 挩, tailo: thuah, en: "pull, slide (open)", hint: "扌 hand + 兌; 挩門 'sliding door', 挩鍊仔 'zip'"}
+  - {c: 咇, tailo: phi̍h, en: "(in) pounding, trembling", hint: "口 + 必 for the sound; only in 咇噗跳 'heart pounding' and 咇咇掣 'shiver'"}
+dialogue:
+  - {n: 1, hanji: "阿成是庄跤囡仔，生做躼躼，庄裡的人攏叫伊「躼跤仔」。", tailo: "A-sîng sī tsng-kha gín-á, senn-tsò lò-lò, tsng--lí ê lâng lóng kiò i “Lò-kha-á”.", en: "A-sîng was a country boy, very tall, and everyone in the village called him 'Lofty'."}
+  - {n: 2, hanji: "二十歲彼年，伊頭一擺坐火車去臺北，欲去一間公司面試。", tailo: "Jī-tsa̍p huè hit nî, i thâu tsi̍t pái tsē hué-tshia khì Tâi-pak, beh khì tsi̍t king kong-si bīn-tshì.", en: "The year he turned twenty, he took the train to Taipei for the first time, for an interview at a company."}
+  - {n: 3, hanji: "出門進前，阿母共伊的長䘼衫燙甲真四序。", tailo: "Tshut-mn̂g tsìn-tsîng, a-bú kā i ê tn̂g-ńg sann thǹg kah tsin sù-sī.", en: "Before he left, his mother ironed his long-sleeved shirt until it was perfectly neat."}
+  - {n: 4, hanji: "伊閣偷揜一千箍佇伊的橐袋仔，講：「臺北人真巧，你莫予人笑做草地倯。」", tailo: "I koh thau-iap tsi̍t tshing khoo tī i ê lak-tē-á, kóng: “Tâi-pak lâng tsin khiáu, lí mài hōo lâng tshiò tsò tsháu-tē-sông.”", en: "She also slipped a thousand dollars into his pocket on the quiet and said: 'Taipei people are sharp. Don't let them laugh at you for a country bumpkin.'"}
+  - {n: 5, hanji: "到臺北車頭，人濟甲若狗蟻，逐家攏行真緊，阿成看甲目睭花去。", tailo: "Kàu Tâi-pak tshia-thâu, lâng tsē kah ná káu-hiā, ta̍k-ke lóng kiânn tsin kín, A-sîng khuànn kah ba̍k-tsiu hue--khì.", en: "At Taipei station there were people everywhere like ants, all walking very fast, and A-sîng's head swam."}
+  - {n: 6, hanji: "欲坐捷運，伊毋知愛先鑢卡，直直行過去，煞予閘門擋咧。", tailo: "Beh tsē tsia̍t-ūn, i m̄ tsai ài sing lù-khah, ti̍t-ti̍t kiânn--kuè-khì, suah hōo tsa̍h-mn̂g tòng--leh.", en: "He was taking the metro and didn't know he had to swipe his card first. He walked straight on, and the gate stopped him."}
+  - {n: 7, hanji: "伊的跤頭趺硞一下，疼甲哀哀叫。", tailo: "I ê kha-thâu-u kho̍k--tsi̍t-ē, thiànn kah ai-ai-kiò.", en: "He banged his knee and yelped with pain."}
+  - {n: 8, hanji: "後壁有一个查某囡仔共伊教：「愛先佇遮鑢卡，門才會開。」", tailo: "Āu-piah ū tsi̍t ê tsa-bóo gín-á kā i kà: “Ài sing tī tsia lù-khah, mn̂g tsiah ē khui.”", en: "A girl behind him showed him: 'You have to swipe your card here first, then the gate opens.'"}
+  - {n: 9, hanji: "車廂內人真濟，阿成用力共家己搢入去。", tailo: "Tshia-siunn lāi lâng tsin tsē, A-sîng iōng-la̍t kā ka-kī tsìnn--ji̍p-khì.", en: "The carriage was packed, and A-sîng squeezed himself in."}
+  - {n: 10, hanji: "車一下振動，伊徛無好勢，規个身軀敧一爿，倚佇一个阿伯的肩胛頭。", tailo: "Tshia tsi̍t-ē tín-tāng, i khiā bô hó-sè, kui ê sin-khu khi tsi̍t pîng, uá tī tsi̍t ê a-peh ê king-kah-thâu.", en: "The train jolted, he lost his footing and lurched sideways onto an old man's shoulder."}
+  - {n: 11, hanji: "阿伯笑笑仔講：「少年的，你遮躼，愛共扶手掠予牢。」", tailo: "A-peh tshiò-tshiò-á kóng: “Siàu-liân--ê, lí tsiah lò, ài kā hû-tshiú lia̍h hōo tiâu.”", en: "The old man smiled: 'Young man, tall as you are, hold on tight to the handrail.'"}
+  - {n: 12, hanji: "公司佇一棟大樓，伊佇門口捒半晡，門攏無振動。", tailo: "Kong-si tī tsi̍t tòng tuā-lâu, i tī mn̂g-kháu sak puànn-poo, mn̂g lóng bô tín-tāng.", en: "The company was in a tower block. He pushed at the door for ages and it didn't budge."}
+  - {n: 13, hanji: "顧門的人講：「這是挩門，愛用挩的。」", tailo: "Kòo-mn̂g ê lâng kóng: “Tse sī thuah-mn̂g, ài iōng thuah--ê.”", en: "The doorman said: 'It's a sliding door. You slide it.'"}
+  - {n: 14, hanji: "入去，伊的心肝咇噗跳，雙手一直揜佇後壁。", tailo: "Ji̍p--khì, i ê sim-kuann phi̍h-pho̍k-thiàu, siang-tshiú it-ti̍t iap tī āu-piah.", en: "Once inside, his heart was pounding, and he kept his hands hidden behind his back."}
+  - {n: 15, hanji: "主管問伊：「你哪會想欲來臺北食頭路？」", tailo: "Tsú-kuán mn̄g--i: “Lí ná ē siūnn-beh lâi Tâi-pak tsia̍h-thâu-lōo?”", en: "The manager asked him: 'Why do you want to come and work in Taipei?'"}
+  - {n: 16, hanji: "阿成講：「我毋是巧人，毋過我認真做，我毋驚食苦。」", tailo: "A-sîng kóng: “Guá m̄ sī khiáu-lâng, m̄-koh guá jīn-tsin tsò, guá m̄ kiann tsia̍h-khóo.”", en: "A-sîng said: 'I'm not clever, but I work hard and I'm not afraid of hardship.'"}
+  - {n: 17, hanji: "主管看伊的手䘼，問：「你的衫是啥人燙的？」「阮阿母。」", tailo: "Tsú-kuán khuànn i ê tshiú-ńg, mn̄g: “Lí ê sann sī siánn-lâng thǹg--ê?” “Guán a-bú.”", en: "The manager looked at his sleeves and asked: 'Who ironed your shirt?' 'My mum.'"}
+  - {n: 18, hanji: "主管笑講：「真四序。下禮拜一來上班。」", tailo: "Tsú-kuán tshiò kóng: “Tsin sù-sī. Ē lé-pài-it lâi siōng-pan.”", en: "The manager laughed: 'Very neat. Start next Monday.'"}
+  - {n: 19, hanji: "出來，伊佇橐袋仔摸著阿母揜的一千箍，鼻仔酸酸。", tailo: "Tshut--lâi, i tī lak-tē-á bong-tio̍h a-bú iap ê tsi̍t tshing khoo, phīnn-á sng-sng.", en: "Outside, he felt in his pocket the thousand dollars his mother had slipped him, and his nose prickled."}
+  - {n: 20, hanji: "轉去的路，伊搢風行，風真透，毋過伊煞毋感覺冷。", tailo: "Tńg-khì ê lōo, i tsìnn-hong kiânn, hong tsin thàu, m̄-koh i suah m̄ kám-kak líng.", en: "On the way back he walked into a strong wind, and yet he didn't feel the cold."}
+  - {n: 21, hanji: "伊想：草地倯就草地倯，倯人嘛會行出家己的路。", tailo: "I siūnn: tsháu-tē-sông tō tsháu-tē-sông, sông lâng mā ē kiânn tshut ka-kī ê lōo.", en: "He thought: a country bumpkin is a country bumpkin, and a bumpkin can still find his own way."}
+notes:
+  - {ref: 1, topic: vocab, text: "躼 lò = tall (of people only). 生做躼躼 'tall by build'; 躼跤 lò-kha 'long-legged, tall'; 躼跤仔 lò-kha-á is the nickname for a tall person. 抽躼 thiu-lò = shoot up (a growing child)."}
+  - {ref: 3, topic: vocab, text: "䘼 ńg = sleeve: 手䘼 tshiú-ńg (line 17), 長䘼 tn̂g-ńg 'long-sleeved', 短䘼 té-ńg 'short-sleeved'. 四序 sù-sī = neat, tidy, done properly. 燙 thǹg = iron (clothes)."}
+  - {ref: 4, topic: vocab, text: "揜 iap = hide, keep out of sight; 偷揜 thau-iap = slip something to someone on the quiet, or pocket it. 揜尾狗 iap-bué-káu 'a dog with its tail between its legs'. 橐袋仔 lak-tē-á = pocket. 一千箍 tsi̍t tshing khoo = a thousand dollars."}
+  - {ref: 4, topic: false-friend, text: "倯 sông = countrified, a bit gauche: 你毋通笑伊倯 'don't laugh at him for being a bumpkin'. 草地倯 tsháu-tē-sông = a country bumpkin. 食倯 tsia̍h-sông = take advantage of a newcomer. Mandarin readers may guess 'loose' (鬆): 倯 has nothing to do with it."}
+  - {ref: 5, topic: vocab, text: "狗蟻 káu-hiā = ant, not 螞蟻. 目睭花 ba̍k-tsiu hue = eyes blurred, head swimming."}
+  - {ref: 6, topic: vocab, text: "鑢 lù = rub, scrub, file down; on the metro and in shops 鑢卡 lù-khah = swipe a card. 棕鑢仔 tsang-lù-á is a coir scrubbing brush. 閘門 tsa̍h-mn̂g = gate, barrier."}
+  - {ref: 7, topic: vocab, text: "硞 kho̍k = knock, bump: 硞著 kho̍k-tio̍h 'bang into', 對頭殼硞落去 'knock (someone) on the head'. As khok it makes 'very' doubles: 老硞硞 lāu-khok-khok 'very old'."}
+  - {ref: 9, topic: vocab, text: "搢 tsìnn = push into a tight space, stuff in: 衫搢入去衫櫥 'stuff the clothes into the wardrobe'. Line 20: 搢風 tsìnn-hong = (go) against the wind, a head wind; 搢做前 = push to the front."}
+  - {ref: 10, topic: vocab, text: "敧 khi = slanting, tilted: 敧一爿 'lean to one side', 重敧爿 tāng-khi-pîng 'lopsided, unfair'. 坦敧 thán-khi = sideways: 睏坦敧 'sleep on one's side'. 肩胛頭 king-kah-thâu = shoulder."}
+  - {ref: 11, topic: grammar, text: "掠予牢 lia̍h hōo tiâu = hold tight: verb + 予 + result, like 捘予焦 'wring dry' (文學 1). 少年的 siàu-liân--ê = 'young man', said to a stranger."}
+  - {ref: 13, topic: vocab, text: "挩 thuah = pull, slide: 挩門 thuah-mn̂g 'sliding door', 共屜仔挩開 'pull the drawer open', 挩鍊仔 thuah-liān-á 'zip'. 挩窗 thuah-thang, oddly, is a squint."}
+  - {ref: 14, topic: vocab, text: "咇噗跳 phi̍h-pho̍k-thiàu = (heart) pounding with fear or nerves. 咇咇掣 phi̍h-phi̍h-tshuah = shiver, tremble (with cold or fear). 咇 is not used alone."}
+  - {ref: 15, topic: vocab, text: "食頭路 tsia̍h-thâu-lōo = have a job, work for a wage. 哪會 ná ē = how come, why."}
+new_words:
+  - {tailo: lò, hanji: 躼, en: "tall (of people)"}
+  - {tailo: lò-kha-á, hanji: 躼跤仔, en: "tall person (nickname)"}
+  - {tailo: tsháu-tē-sông, hanji: 草地倯, en: "country bumpkin"}
+  - {tailo: sông, hanji: 倯, en: "countrified, gauche"}
+  - {tailo: tn̂g-ńg, hanji: 長䘼, en: "long-sleeved"}
+  - {tailo: tshiú-ńg, hanji: 手䘼, en: "sleeve"}
+  - {tailo: sù-sī, hanji: 四序, en: "neat, tidy"}
+  - {tailo: thau-iap, hanji: 偷揜, en: "slip (sth) to someone on the quiet"}
+  - {tailo: iap, hanji: 揜, en: "hide, keep out of sight"}
+  - {tailo: lak-tē-á, hanji: 橐袋仔, en: "pocket"}
+  - {tailo: káu-hiā, hanji: 狗蟻, en: "ant"}
+  - {tailo: lù-khah, hanji: 鑢卡, en: "swipe a card"}
+  - {tailo: tsa̍h-mn̂g, hanji: 閘門, en: "gate, barrier"}
+  - {tailo: kho̍k, hanji: 硞, en: "knock, bump"}
+  - {tailo: kha-thâu-u, hanji: 跤頭趺, en: "knee"}
+  - {tailo: tsìnn, hanji: 搢, en: "squeeze in, stuff in"}
+  - {tailo: khi, hanji: 敧, en: "slanting, tilted"}
+  - {tailo: king-kah-thâu, hanji: 肩胛頭, en: "shoulder"}
+  - {tailo: thuah-mn̂g, hanji: 挩門, en: "sliding door"}
+  - {tailo: thuah, hanji: 挩, en: "pull, slide"}
+  - {tailo: phi̍h-pho̍k-thiàu, hanji: 咇噗跳, en: "(heart) pounding"}
+  - {tailo: tsia̍h-thâu-lōo, hanji: 食頭路, en: "have a job"}
+  - {tailo: tsìnn-hong, hanji: 搢風, en: "against the wind"}
+exercises:
+  translate:
+    - {tailo: "Lí mài hōo lâng tshiò tsò tsháu-tē-sông.", hanji: "你莫予人笑做草地倯。", en: "Don't let people laugh at you for a country bumpkin."}
+    - {tailo: "I m̄ tsai ài sing lù-khah.", hanji: "伊毋知愛先鑢卡。", en: "He didn't know he had to swipe his card first."}
+    - {tailo: "I ê kha-thâu-u kho̍k--tsi̍t-ē, thiànn kah ai-ai-kiò.", hanji: "伊的跤頭趺硞一下，疼甲哀哀叫。", en: "He banged his knee and yelped with pain."}
+    - {tailo: "Tse sī thuah-mn̂g, ài iōng thuah--ê.", hanji: "這是挩門，愛用挩的。", en: "It's a sliding door. You slide it."}
+    - {tailo: "I ê sim-kuann phi̍h-pho̍k-thiàu.", hanji: "伊的心肝咇噗跳。", en: "His heart was pounding."}
+  fill:
+    - {tailo: "A-sîng senn-tsò ___, lâng lóng kiò i “Lò-kha-á”.", hanji: "阿成生做___，人攏叫伊「躼跤仔」。", answer: "lò-lò", answer_hanji: "躼躼", en: "A-sîng was very tall, and everyone called him 'Lofty'."}
+    - {tailo: "A-bú kā i ê tn̂g-___ sann thǹg kah tsin sù-sī.", hanji: "阿母共伊的長___衫燙甲真四序。", answer: "ńg", answer_hanji: "䘼", en: "His mother ironed his long-sleeved shirt neatly."}
+    - {tailo: "I koh thau-___ tsi̍t tshing khoo tī i ê lak-tē-á.", hanji: "伊閣偷___一千箍佇伊的橐袋仔。", answer: "iap", answer_hanji: "揜", en: "She also slipped a thousand dollars into his pocket."}
+    - {tailo: "Kui ê sin-khu ___ tsi̍t pîng.", hanji: "規个身軀___一爿。", answer: "khi", answer_hanji: "敧", en: "His whole body lurched to one side."}
+    - {tailo: "I ___ kiânn, hong tsin thàu.", hanji: "伊___行，風真透。", answer: "tsìnn-hong", answer_hanji: "搢風", en: "He walked into a strong wind."}
+audio: []

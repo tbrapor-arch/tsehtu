@@ -350,6 +350,10 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .trow-h .tc { display: flex; flex-direction: column; align-items: flex-end; font: 700 .85rem var(--f-ui); color: var(--brand); font-variant-numeric: tabular-nums; }
 .trow-h .chev { color: var(--sub); }
 .cbody { padding: .2rem .8rem .8rem; }
+.lchars { display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: .5rem; }
+.lchar { display: grid; grid-template-columns: 3.2rem 1fr; gap: .7rem; align-items: start; text-align: left; padding: .6rem; border: 1.5px solid var(--soft-line); border-radius: 12px; background: var(--surface); color: var(--text); font: inherit; cursor: pointer; }
+.lchar small { display: block; color: var(--sub); font-size: .8rem; margin-top: .2rem; }
+.lchar .cbig { cursor: inherit; }
 .ctable tr { cursor: default; }
 .ctable tr:hover td { background: none; }
 .ctable td { vertical-align: top; }
@@ -749,10 +753,13 @@ const TOTAL = 100;
 // Part 2, Perfectionnement (進修): lessons stored with ids 101-170, shown as 進修 1-70; review every 7th; second wave
 // from P36 redoes P(N-35) (35 = 5 x 7, so a review's wave is triggered by a review)
 const PART2 = 100, PTOTAL = 70;
-const isP = id => id > PART2;
-const lnum = id => isP(id) ? 'P' + (id - PART2) : String(id);
-const lname = id => isP(id) ? `進修 ${id - PART2}` : `Lesson ${id}`;
-const waveOff = id => isP(id) ? 35 : 49;
+// Part 3, Literature (文學): ids 201+, shown as 文學 1, 2…; short literary texts, each teaching ~10 Taigi-only characters; no second wave
+const PART3 = 200;
+const isB = id => id > PART3;
+const isP = id => id > PART2 && !isB(id);
+const lnum = id => isB(id) ? '文' + (id - PART3) : isP(id) ? 'P' + (id - PART2) : String(id);
+const lname = id => isB(id) ? `文學 ${id - PART3}` : isP(id) ? `進修 ${id - PART2}` : `Lesson ${id}`;
+const waveOff = id => isB(id) ? 100000 : isP(id) ? 35 : 49;
 const GENRES = { dialogue: 'Dialogue', article: 'Article', letter: 'Letter', interview: 'Interview', tale: 'Tale', diary: 'Diary', debate: 'Debate', speech: 'Speech', essay: 'Essay', document: 'Document', song: 'Song', review: 'Review', news: 'News', story: 'Story', play: 'Play' };
 // Part 2 on the lessons home: a notebook-cover card, then a grid of the 70 planned lessons
 function partTwo(byId, next) {
@@ -772,6 +779,22 @@ function partTwo(byId, next) {
       <div class="bar" aria-hidden="true"><i style="width:${Math.round(100 * pdone / PTOTAL)}%"></i></div>
       <span class="sub" style="font-size:.85rem">${pdone} done · ${written} of ${PTOTAL} written</span></section>
     <div class="lgrid pgrid">${ids.map(tile).join('')}</div>`;
+}
+// Part 3 on the lessons home: only the lessons written so far
+function partThree(byId, next) {
+  const ls = DATA.lessons.filter(l => isB(l.id));
+  if (!ls.length) return '';
+  const bdone = ls.filter(l => done.has(l.id)).length, nch = ls.reduce((a, l) => a + (l.chars || []).length, 0);
+  const tile = l => { const n = l.id - PART3, st = done.has(l.id) ? 'done' : (next && next.id === l.id ? 'next' : '');
+    return `<button class="lt ${st}" data-go="lesson-${l.id}" aria-label="文學 ${n}: ${esc(l.title.en)}${done.has(l.id) ? ', done' : ''}"><span class="ln">${done.has(l.id) ? '✓ ' : ''}<small>文</small>${n}</span><span class="lh">${esc(l.title.hanji)}</span></button>`; };
+  return `<div class="pbreak" aria-hidden="true"></div>
+    <section class="pcover" id="part3" aria-label="Part 3, Literature"><span class="ptag">Part 3</span>
+      <span class="eyebrow">Literature · bonus</span><h1>文學</h1>
+      <span class="rom">Bûn-ha̍k · after 進修</span>
+      <p class="sub" style="margin:0">Short literary texts, each teaching about ten of the characters only Taigi writes (Practice › Characters) that the lessons have not used yet, most common in books first.</p>
+      <div class="bar" aria-hidden="true"><i style="width:${Math.round(100 * bdone / ls.length)}%"></i></div>
+      <span class="sub" style="font-size:.85rem">${bdone} done · ${ls.length} written · ${nch} characters</span></section>
+    <div class="lgrid pgrid">${ls.map(tile).join('')}</div>`;
 }
 function showLessons() {
   renderTabs('lessons');
@@ -805,6 +828,7 @@ function showLessons() {
     <div class="lgrid">${[...Array(TOTAL)].map((_, i) => tile(i + 1)).join('')}</div>
     <p class="sub" style="margin:0;font-size:.85rem">Every 7th lesson (復習) is a review. From lesson 50 the second wave starts: each lesson you finish brings back lesson N−49 in active mode (English → Taigi); a small <b>2</b> marks the ones redone. Grey lessons are not written yet.</p>
     ${partTwo(byId, next)}
+    ${partThree(byId, next)}
     <details class="journal"><summary><span class="han">日記</span> Journal (${journal.length})</summary>
       ${journal.length ? `<ul>${journal.map(([d, n, k]) => { const l = byId[n]; return `<li><time>${fmtDate(d)}</time><button class="linkish" data-go="${k}-${n}">${k === 'wave' ? 'Second wave · ' : ''}${lname(n)} · ${esc(l ? l.title.en : '')}</button></li>`; }).join('')}</ul>`
         : '<p class="sub">Lessons you finish show up here with their date.</p>'}</details>
@@ -814,7 +838,7 @@ function showLessons() {
 // second wave: the first lesson (reviews included: 49 = 7 x 7, so a review's wave is triggered by a review) whose wave
 // is not done and whose lesson N+49 is done
 function nextWave() {
-  for (const inPart of [l => !isP(l.id), l => isP(l.id)]) {
+  for (const inPart of [l => !isP(l.id) && !isB(l.id), l => isP(l.id)]) {
     for (const l of DATA.lessons.filter(inPart)) { if (waveAt[l.id]) continue; if (done.has(l.id + waveOff(l.id)) && isP(l.id + waveOff(l.id)) === isP(l.id)) return l; break; }
   }
   return null;
@@ -891,7 +915,7 @@ function showLesson(L) {
   const prev = ids[at - 1], nxt = ids[at + 1];
   const active = WAVE || !!prefs.active;
   const pron = [...new Set(L.lines.flatMap(ln => ln.tokens.filter(t => t.w && t.w.id && DATA.dict[t.w.id] && DATA.dict[t.w.id].alts).map(t => t.w.id)))];
-  const chips = WAVE ? [] : [['dlg', 'Dialogue'], ['sec-notes', 'Notes'], ['sec-words', 'New words'], ['sec-ex', 'Practice']];
+  const chips = WAVE ? [] : [['dlg', L.genre === 'dialogue' ? 'Dialogue' : 'Text'], ...(L.chars ? [['sec-chars', 'Characters']] : []), ['sec-notes', 'Notes'], ['sec-words', 'New words'], ['sec-ex', 'Practice']];
   $('#main').innerHTML = `<div class="col mode-${prefs.mode}">
     <div class="lbar"><button class="icon" data-go="lessons" aria-label="Back to lessons">←</button>
       <span class="where">${WAVE ? '2nd wave · ' : ''}${lname(L.id)} · ${esc(L.title.en)}</span>
@@ -914,7 +938,10 @@ function showLesson(L) {
       </div>`; }).join('')}</div>
     ${!WAVE && (notesBy[0] || []).length ? `<div class="under recap"><span class="sub">Recap notes</span>${notesBy[0].map(k => `<button class="nlink" data-note="${k}" aria-label="Note ${k}">${k}</button>`).join('')}</div>` : ''}
     ${active ? `<div class="row"><button class="btn small quiet" id="show-all">Show all the Taigi</button></div>` : ''}
-    ${WAVE ? '' : `
+    ${WAVE ? '' : `${L.chars ? `
+    <h2 id="sec-chars"><span class="han">新字</span> New characters</h2>
+    <p class="sub" style="margin:0;font-size:.85rem">Characters Taigi writes and Mandarin (almost) never does. Tap one for its card.</p>
+    <div class="lchars">${L.chars.map(c => `<button class="lchar" ${c.id ? `data-word="${esc(c.id)}"` : ''}><span class="han cbig">${esc(c.c)}</span><span><b class="vr">${esc(c.tailo)}</b> ${esc(c.en)}${c.hint ? `<small>${fmt(c.hint)}</small>` : ''}</span></button>`).join('')}</div>` : ''}
     <details class="allnotes" id="sec-notes"><summary><span class="han">注解</span> All notes (${L.notes.length})</summary>
     <ol class="notes">${L.notes.map((n, i) => `<li class="note" id="note-${i + 1}"><span class="nn">${i + 1}</span><p><span class="tag ${esc(n.topic)}">${n.ref ? 'Line ' + n.ref : 'Recap'} · ${esc(n.topic.replace('-', ' '))}</span>${fmt(n.text)}</p></li>`).join('')}</ol></details>
     <h2 id="sec-words"><span class="han">新詞</span> New words</h2>
