@@ -10,8 +10,9 @@ course files as a model for pacing and structure only (kept in the git-ignored `
 - **Part 2, 進修 Perfectionnement** (in progress): 70 longer lessons in varied genres, P1–P70 published (complete). Spec, method and handover: `docs/perfectionnement-plan.md`.
 - **Themes:** seven domains done: `people` (242 words), `health` (Body and health, 212), `food` (128), `home` (160), `clothing` (49), `nature` (281), `places` (233); draft domain for every core word in `docs/themes-classification-draft.tsv`. The Themes part of Practice is to become a thematic vocabulary dictionary: `docs/themes-taxonomy.md`.
 - **Coverage** (after lesson 100): top 100: 100 %, top 300: 97 %, top 1,000: 88 % (72 % after 63). The plan's 95 % target for the top 1,000 was not reached. Plan for lessons 64–100: `docs/course-plan.md`.
+- **Characters** (Practice, 10 Nov 2026): 614 Taigi-only characters (MOE headwords not in HSK, absent or nearly absent from CC-CEDICT words), by MOE frequency, in groups of 25 with reading, up to 3 example word cards (English written for the word preferred), first lesson that uses it, flashcards per group. `tools/taigi_chars.py`, run by `make app`.
 - **Grammar sheets:** 39 structures in 7 groups (`course/grammar.yaml`).
-- **App tabs:** Lessons, Practice (溫習: Vocabulary by theme, Grammar, Drills = tone changes + Bridge, Cards; merged 20 Oct 2026), Podcast, Video, Music, Settings, plus a hidden
+- **App tabs:** Lessons, Practice (溫習: Vocabulary by theme, Characters, Grammar, Drills = tone changes + Bridge, Cards; merged 20 Oct 2026), Podcast, Video, Music, Settings, plus a hidden
   Exam tab that exists only when this device's token can read the private repo.
 - **Audio:** MOE headword and example recordings are fetched at build time by the workflow. Native-speaker
   recordings: tooling done (`record.html`, `tools/import_recordings.py`), **no clips imported yet**.

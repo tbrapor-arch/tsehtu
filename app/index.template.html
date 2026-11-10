@@ -349,6 +349,20 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .trow-h small { color: var(--sub); font-size: .78rem; }
 .trow-h .tc { display: flex; flex-direction: column; align-items: flex-end; font: 700 .85rem var(--f-ui); color: var(--brand); font-variant-numeric: tabular-nums; }
 .trow-h .chev { color: var(--sub); }
+.cbody { padding: .2rem .8rem .8rem; }
+.ctable tr { cursor: default; }
+.ctable tr:hover td { background: none; }
+.ctable td { vertical-align: top; }
+.ctable .cc { width: 3.4rem; padding-right: 0; }
+.cbig { width: 3rem; height: 3rem; border: 1.5px solid var(--soft-line); border-radius: 10px; background: var(--surface); color: var(--text); font-size: 1.8rem; font-weight: 700; cursor: pointer; display: grid; place-items: center; }
+.cbig:disabled { cursor: default; }
+.crow.taught .cbig { border-color: color-mix(in srgb, var(--brand) 45%, transparent); }
+.ctag { display: inline-block; margin-left: .3rem; padding: 0 .4rem; border: 1px solid var(--line); border-radius: .4rem; background: none; font: 600 .68rem var(--f-ui); color: var(--sub); vertical-align: middle; }
+.ctag.lk { color: var(--brand); cursor: pointer; }
+.ctable .ve { margin-top: .1rem; }
+.cw { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .4rem; }
+.cwd { border: 1px solid var(--soft-line); border-radius: 8px; background: none; color: var(--text); padding: .2rem .5rem; font: inherit; font-size: .9rem; text-align: left; cursor: pointer; }
+.cwd small { display: block; color: var(--sub); font-size: .75rem; max-width: 16rem; }
 .trow.open .trow-h { background: color-mix(in srgb, var(--brand) 6%, transparent); }
 .tgroups { display: flex; flex-wrap: wrap; gap: .4rem; padding: .2rem .8rem .8rem 3.9rem; }
 .tg { border: 1.5px solid var(--soft-line); background: var(--bg); color: var(--text); border-radius: 999px; padding: .3rem .7rem; font: inherit; font-size: .95rem; }
@@ -698,6 +712,7 @@ function route() {
   if (h === 'bridge') return showBridge();
   if (h === 'drills') return showDrills();
   if (h === 'grammar') return showGrammar();
+  if (h === 'chars') return showChars();
   if (h === 'podcast') return showPodcast();
   if (h === 'video') return showVideo();
   if (h === 'music') return showMusic();
@@ -1068,6 +1083,47 @@ function showTheme(T, n) {
   $$('[data-addsec]', m).forEach(b => b.onclick = () => { const n = listSet('lessons', T.sections[+b.dataset.addsec].words.map(w => w.id), true); toast(n ? `${n} words added to Lessons` : 'Already in your Lessons list'); });
   if (n) { const g = document.getElementById('sec-' + n); if (g) setTimeout(() => { const tb = $('.toolbar', m), sticky = tb && getComputedStyle(tb).position === 'sticky' ? tb.offsetHeight : 0;
     window.scrollTo(0, g.getBoundingClientRect().top + window.scrollY - sticky - 12); }, 0); }
+}
+
+// ---------- Taigi characters: what written Taigi uses and Mandarin (almost) never does, by frequency, in groups of 25
+// (built by tools/taigi_chars.py). The flashcard of a character is its own word, or its first example word.
+const CHARS = DATA.chars || [];
+const charCard = x => x.id || x.w[0] || null;
+// English written for the Taigi word (a Mandarin gloss is mostly wrong for these characters, a pieced-together one unhelpful)
+const charEn = d => d && d.gloss && !/^(mandarin|parts)/.test(d.gloss_src || '') ? d.gloss : '';
+let charOpen = 0, charNew = false;
+function charGroups() {
+  const out = [];
+  for (let i = 0; i < CHARS.length; i += 25) out.push({ from: i + 1, to: Math.min(i + 25, CHARS.length), list: CHARS.slice(i, i + 25) });
+  return out;
+}
+function showChars() {
+  renderTabs('review');
+  const gs = charGroups(), taught = x => x.L != null, inCourse = CHARS.filter(taught).length;
+  const row = x => { const c = x.id && DATA.dict[x.id];
+    return `<tr class="crow ${taught(x) ? 'taught' : ''}"><td class="cc"><button class="han cbig" ${x.id ? `data-word="${esc(x.id)}"` : 'disabled'} aria-label="${esc(x.c)}">${esc(x.c)}</button></td>
+      <td><span class="vr">${esc(x.r.join(' / '))}</span>${x.tier === 'mostly' ? ' <span class="ctag" title="Mandarin has it in one to three rare words">rare in Mandarin</span>' : ''}${taught(x) ? ` <button class="ctag lk" data-go="lesson-${x.L}">${esc(lname(x.L))}</button>` : ''}
+        ${charEn(c) ? `<div class="ve">${esc(charEn(c))}</div>` : ''}
+        <div class="cw">${x.w.filter(id => DATA.dict[id]).map(id => { const d = DATA.dict[id]; return `<button class="cwd" data-word="${esc(id)}"><span class="han">${esc(d.hanji)}</span> <span class="rom">${esc(d.tailo || d.tkey)}</span>${charEn(d) ? `<small>${esc(charEn(d))}</small>` : ''}</button>`; }).join('')}</div></td></tr>`; };
+  const m = $('#main');
+  m.innerHTML = `<div class="col">
+    ${pracHead('chars', 'the characters only Taigi writes')}
+    <p class="sub" style="margin:0;max-width:65ch">${CHARS.length} characters that written Taigi uses and Mandarin never or hardly ever does, most frequent first (MOE dictionary). Knowing the first hundred makes most Taigi pages much easier to read. Tap a character or a word for its card.</p>
+    <div class="row"><button class="btn small ${charNew ? '' : 'line'}" id="cnew" aria-pressed="${charNew}">Only those not in the lessons</button><span class="sub" style="font-size:.85rem">${inCourse} of ${CHARS.length} appear in the lessons</span></div>
+    <div class="tlist">${gs.map((g, i) => { const open = charOpen === i, list = charNew ? g.list.filter(x => !taught(x)) : g.list, nIn = g.list.filter(taught).length;
+      const due = open ? g.list.map(charCard).filter(id => id && deck[id] && deck[id].due <= Date.now()).length : 0;
+      return `<div class="trow ${open ? 'open' : ''}" id="cg-${i}"><button class="trow-h" data-copen="${i}" aria-expanded="${open}">
+        <span class="tk han">${esc(g.list[0].c)}</span>
+        <span class="tt"><span class="han">${esc(g.list.slice(0, 8).map(x => x.c).join(' '))}</span><small>Characters ${g.from}–${g.to}</small></span>
+        <span class="tc">${g.list.length}<small>${nIn} in lessons</small></span><span class="chev">${open ? '⌃' : '⌄'}</span></button>
+        ${open ? `<div class="cbody"><div class="row" style="padding:.5rem 0"><button class="btn small" data-study="C${i}" data-mode="all">Practise these ${g.list.length}</button>${due ? `<button class="btn small line" data-study="C${i}" data-mode="due">Review ${due} due</button>` : ''}<button class="btn small quiet" data-cadd="${i}">Add to my Lessons list</button></div>
+          ${list.length ? `<div class="vwrap"><table class="vtable ctable"><tbody>${list.map(row).join('')}</tbody></table></div>` : '<p class="sub">All of these are in the lessons.</p>'}</div>` : ''}</div>`; }).join('')}</div>
+  </div>`;
+  wirePrac(m);
+  $$('[data-word]', m).forEach(b => b.onclick = () => openCard(b.dataset.word));
+  $$('[data-copen]', m).forEach(b => b.onclick = () => { const i = +b.dataset.copen; charOpen = charOpen === i ? -1 : i; showChars(); const el = document.getElementById('cg-' + i); if (el && charOpen === i) el.scrollIntoView({ block: 'start' }); });
+  $$('[data-cadd]', m).forEach(b => b.onclick = () => { const n = listSet('lessons', gs[+b.dataset.cadd].list.map(charCard).filter(Boolean), true); toast(n ? `${n} words added to Lessons` : 'Already in your Lessons list'); });
+  $('#cnew', m).onclick = () => { charNew = !charNew; showChars(); };
 }
 
 // ---------- grammar sheets: each structure with every course line that uses it
@@ -1532,6 +1588,7 @@ function segments() {
   const segs = [];
   DATA.lessons.forEach(l => segs.push({ key: 'L' + l.id, group: 'Lessons', title: lname(l.id), han: l.title.hanji, ids: l.new_words.map(w => w.id).filter(Boolean) }));
   DATA.themes.forEach(t => t.sections.forEach(sec => segs.push({ key: `T${t.id}-${sec.n}`, group: `Theme · ${t.title.en}`, title: `${t.title.en} ${sec.n} · ${sec.title.en}`, han: sec.title.hanji, ids: sec.words.map(w => w.id).filter(Boolean) })));
+  charGroups().forEach((g, i) => segs.push({ key: 'C' + i, group: 'Taigi characters', title: `Characters ${g.from}–${g.to}`, han: g.list.slice(0, 5).map(x => x.c).join(''), ids: g.list.map(charCard).filter(Boolean) }));
   return segs;
 }
 // context sentence for a word: first lesson line or theme sentence that contains it
@@ -1568,7 +1625,7 @@ function showReview() {
 // Practice tab (溫習): word cards, themes, grammar and drills share one tab; a switch under the due count picks the part,
 // and the tab reopens the part used last
 // (the old review deck, Leitner boxes with due counts, is kept as an archive: Settings › Old review deck, #review)
-const PRAC = () => [['lists', 'My lists'], ['themes', 'Vocabulary'], ['grammar', 'Grammar'], ['drills', 'Drills'], ...(Exam.on ? [['exam', 'Exam']] : [])];
+const PRAC = () => [['lists', 'My lists'], ['themes', 'Vocabulary'], ['chars', 'Characters'], ['grammar', 'Grammar'], ['drills', 'Drills'], ...(Exam.on ? [['exam', 'Exam']] : [])];
 function pracHead(sec, what) {
   if (sec !== 'review') store.set('pracSec', sec);
   return `<div class="head"><span class="eyebrow">Practice</span><h1>溫習</h1><span class="rom">Un-si̍p · ${what}</span></div>

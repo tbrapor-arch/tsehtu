@@ -28,6 +28,7 @@ import cards  # noqa: E402
 import english  # noqa: E402
 import moe_examples  # noqa: E402
 import sutian  # noqa: E402
+import taigi_chars  # noqa: E402
 import tone_drill  # noqa: E402
 import podcast  # noqa: E402
 MOE_EX = moe_examples.load()
@@ -144,6 +145,9 @@ for f in theme_files:
         secs.append({'n': sec['n'], 'title': sec['title'], 'words': ws, 'text': text})
     themes.append({'id': t['id'], 'title': t['title'], 'intro': t.get('intro', ''), 'sections': secs,
                    'notes': t.get('notes') or []})
+
+# ---- Taigi-only characters (Practice › Characters): before the audio pass, their example words get recordings too
+taigi_only = taigi_chars.build(con, CEDICT, os.path.join(ROOT, 'data/raw/moedict-data-twblg/x-造字.csv'), lookup, lessons, dictionary)
 
 # ---- accents page: a few characters that show the main regional splits
 ACCENT_SETS = [
@@ -383,7 +387,7 @@ video = yaml.safe_load(open(VIDEO, encoding='utf-8')) if os.path.exists(VIDEO) e
 # ---- music (course/music.yaml): songs on the artist's own YouTube channel; ids and titles only (lyrics are private)
 MUSIC = os.path.join(ROOT, 'course/music.yaml')
 music = yaml.safe_load(open(MUSIC, encoding='utf-8')) if os.path.exists(MUSIC) else {'albums': []}
-data = {'podcast': show, 'video': video, 'music': music, 'tones': tone_drill.build(lessons), 'grammar': grammar, 'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'accents': accents, 'bridge': bridge.build(con, 160),
+data = {'podcast': show, 'video': video, 'music': music, 'tones': tone_drill.build(lessons), 'grammar': grammar, 'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'chars': taigi_only, 'accents': accents, 'bridge': bridge.build(con, 160),
         'dict': dictionary, 'lesson0': lesson0, 'built': datetime.date.today().isoformat()}
 
 # ---- native-speaker recordings of the dialogues: course/audio/lessons/L057-03.mp3 (tools/import_recordings.py)
