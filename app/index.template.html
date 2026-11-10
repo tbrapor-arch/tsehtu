@@ -1607,7 +1607,7 @@ document.addEventListener('click', e => {
   if (!sh.classList.contains('open') || !e.target.isConnected || sh.contains(e.target) || e.target.closest('.tok, [data-note], [data-word], [data-pick], .tab, #pron')) return;
   closeSheet();
 });
-function currentTab() { const h = location.hash.slice(1) || 'lessons'; return /^(lesson|wave)/.test(h) ? 'lessons' : /^(theme|grammar|drills)/.test(h) ? 'review' : /^(podcast|ep-)/.test(h) ? 'podcast' : /^(video|vid-)/.test(h) ? 'video' : /^(music|mus-)/.test(h) ? 'music' : /^(bridge|lists?$|list-)/.test(h) ? 'review' : /^(books|exam-book)/.test(h) ? 'books' : h.startsWith('exam') ? 'review' : h; }
+function currentTab() { const h = location.hash.slice(1) || 'lessons'; return /^(lesson|wave)/.test(h) ? 'lessons' : /^(theme|grammar|drills|chars$)/.test(h) ? 'review' : /^(podcast|ep-)/.test(h) ? 'podcast' : /^(video|vid-)/.test(h) ? 'video' : /^(music|mus-)/.test(h) ? 'music' : /^(bridge|lists?$|list-)/.test(h) ? 'review' : /^(books|exam-book)/.test(h) ? 'books' : h.startsWith('exam') ? 'review' : h === 'accents' ? 'settings' : h; }
 
 // ---------- review deck (Leitner boxes; saved in this browser)
 function addToDeck(ids) { let n = 0; ids.forEach(id => { if (id && DATA.dict[id] && !deck[id]) { deck[id] = { box: 0, due: Date.now(), at: Date.now() }; n++; } }); store.set('deck', deck); return n; }

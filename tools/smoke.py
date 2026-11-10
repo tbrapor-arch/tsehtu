@@ -176,10 +176,13 @@ with sync_playwright() as pw:
     if not page.locator('#again10').count():
         p('tone practice did not reach its end screen')
     page.evaluate("location.hash = 'lessons'")
-    for h in ('themes', 'grammar', 'drills', 'bridge', 'podcast', 'video', 'settings', 'lesson-0'):
+    for h in ('themes', 'chars', 'lists', 'grammar', 'drills', 'bridge', 'podcast', 'video', 'music', 'settings', 'lesson-0'):
         page.evaluate(f"location.hash = '{h}'")
         page.wait_for_timeout(150)
         overflow(page, h)
+        # every page must light up one tab (the private module redraws the tab bar from currentTab())
+        if h != 'lesson-0' and page.evaluate('currentTab()') not in ('lessons', 'review', 'podcast', 'video', 'music', 'settings'):
+            p(f'{h}: currentTab() names no tab')
         if SHOTS:
             page.screenshot(path=f'{SHOTS}/{h}.png')
     for t in page.evaluate('DATA.themes.map(t => t.id)'):
