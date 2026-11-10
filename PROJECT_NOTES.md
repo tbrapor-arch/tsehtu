@@ -63,5 +63,5 @@ before committing. Language QC: `tools/qc_readings.py` and `tools/qc_glosses.py`
 - Record lessons with a native speaker; lines she flags go to `course/audio/flags.yaml`.
 - Sync/exam token expires about 12 Nov 2026 (30-day token); see `docs/sync-and-private-module.md`.
 - The podcast feed URL is hard-coded in `tools/fetch_podcast.py` and also in the private repo's tools. Change all copies together.
-- `tools/smoke.py` updated for the Practice tab on 21 Oct 2026. Not run since the wave/phase change: `tools/smoke.py` (lint, sandhi tests and `make app` were, after every batch up to lesson 100).
+- `tools/smoke.py`: full run on 10 Nov 2026 (173 lessons, 0 problems; takes about 50 minutes). It now also sweeps Characters, My lists and Music and checks that every page maps to a tab. Fixes made here are ported to the other apps through `PORTING.md`.
 - Story 64–100: Sam stays several months in Tainan (51 said 'a few weeks'; 90 acknowledges it ran long), A-hun moves to Taipei (82–84), Sam returns to Taipei (90–92), colleague A-tshun (92–98), A-bîng's engagement (99), New Year's Eve reunion in Tainan (100). The A-kong/A-hun family surname is 林 Lîm (lessons 52, 98).
