@@ -1,0 +1,90 @@
+id: 4
+title: {en: "The bakery before dawn", tailo: "Thinn iáu-buē kng ê pháng-tiàm", hanji: "天猶未光的麭店"}
+genre: story
+review: false
+setting: "A short story written for this course. A teenager spends the summer as a helper in an old baker's shop and learns that a baker's day starts while everyone else is asleep."
+chars:
+  - {c: 麭, tailo: pháng, en: "bread", hint: "麥 wheat + 包 for 'bun'; the word comes from Japanese パン"}
+  - {c: 欶, tailo: suh, en: "suck, sip through a straw", hint: "欠 an open mouth breathing in; 欶管 suh-kóng 'straw'"}
+  - {c: 滒, tailo: kō, en: "dip into; get smeared with", hint: "氵 liquid + 鈷 kóo for the sound"}
+  - {c: 抐, tailo: lā, en: "stir; stir up (trouble)", hint: "扌 hand + 內 'inside': the hand going round inside the pot"}
+  - {c: 洘, tailo: khó, en: "thick (of liquids); dried up", hint: "氵 water + 考 khó for the sound"}
+  - {c: 汫, tailo: tsiánn, en: "bland, not salty enough", hint: "氵 water + 井 tsénn; the opposite of 鹹 kiâm"}
+  - {c: 𤉙, tailo: kûn, en: "simmer for a long time", hint: "火 fire + 君 kun for the sound"}
+  - {c: 粅, tailo: but, en: "(in) 甜粅粅 'very sweet'", hint: "米 + 物 bu̍t for the sound; only met in 甜粅粅"}
+  - {c: 攕, tailo: tshiám, en: "spear with a pointed tool; (攕仔) fork", hint: "扌 hand + 韱 tshiam 'pointed'"}
+  - {c: 浡, tailo: phū, en: "bubble up, boil over", hint: "氵 water + 孛 'burst out'"}
+dialogue:
+  - {n: 1, hanji: "天猶未光，阿財伯就入去灶跤點火矣。伊佇巷仔口開一間賣麭的店。", tailo: "Thinn iáu-buē kng, A-tsâi-peh tō ji̍p-khì tsàu-kha tiám-hué--ah. I tī hāng-á-kháu khui tsi̍t king bē pháng ê tiàm.", en: "Before it was light, old Tsâi was already in the kitchen lighting the fire. He has a little bread shop at the end of the lane."}
+  - {n: 2, hanji: "今年歇熱，我來伊遮做夥計。頭一工，伊就講：「做麭無啥物撇步，就是愛早。」", tailo: "Kin-nî hioh-jua̍h, guá lâi i tsia tsò hué-kì. Thâu tsi̍t kang, i tō kóng: “Tsò pháng bô siánn-mih phiat-pōo, tō sī ài tsá.”", en: "This summer I came to work for him. On the first day he said: 'There's no secret to making bread. You just have to get up early.'"}
+  - {n: 3, hanji: "伊先共麵粉倒入大盆，摻水閣摻糖，叫我共伊抐予勻。", tailo: "I sing kā mī-hún tò ji̍p tuā phûn, tsham tsuí koh tsham thn̂g, kiò guá kā i lā hōo ûn.", en: "First he tipped the flour into a big bowl, added water and sugar, and told me to stir it till it was smooth."}
+  - {n: 4, hanji: "我抐甲手痠，盆內的麵粉猶是傷洘，抐袂振動。", tailo: "Guá lā kah tshiú sng, phûn lāi ê mī-hún iáu-sī siunn khó, lā bē tín-tāng.", en: "I stirred until my arms ached, but the dough in the bowl was still too thick to move."}
+  - {n: 5, hanji: "阿財伯摻一寡水落去，講：「傷洘就加水，毋過毋通加傷濟。」", tailo: "A-tsâi-peh tsham tsi̍t-kuá tsuí--lo̍h-khì, kóng: “Siunn khó tō ka tsuí, m̄-koh m̄-thang ka siunn tsē.”", en: "Old Tsâi poured in a little water: 'If it's too thick, add water. But not too much.'"}
+  - {n: 6, hanji: "麵粉挼好，伊囥佇遐予伊發，閣用細鼎𤉙一鼎豬骨湯，欲予逐家食早頓。", tailo: "Mī-hún juê hó, i khǹg tī hia hōo i huat, koh iōng sè tiánn kûn tsi̍t tiánn ti-kut-thng, beh hōo ta̍k-ke tsia̍h tsá-tǹg.", en: "Once the dough was kneaded he left it to rise, and in a small pot he set a pork-bone soup simmering for everyone's breakfast."}
+  - {n: 7, hanji: "伊講：「湯愛𤉙，𤉙愈久，愈甜。」", tailo: "I kóng: “Thng ài kûn, kûn jú kú, jú tinn.”", en: "'Soup has to simmer,' he said. 'The longer it simmers, the sweeter it gets.'"}
+  - {n: 8, hanji: "我試一喙，嫌湯傷汫，欲摻鹽。", tailo: "Guá tshì tsi̍t tshuì, hiâm thng siunn tsiánn, beh tsham iâm.", en: "I tasted it, found it too bland and was about to add salt."}
+  - {n: 9, hanji: "伊搖頭：「汫汫仔較好啉。欲鹹，人客會家己摻。」", tailo: "I iô-thâu: “Tsiánn-tsiánn-á khah hó lim. Beh kiâm, lâng-kheh ē ka-kī tsham.”", en: "He shook his head: 'A bit bland is nicer to drink. If customers want it saltier, they'll add it themselves.'"}
+  - {n: 10, hanji: "麭入窯了後，伊閣煮一鼎甜湯。水滾甲浡出來，浡甲規个灶頭攏澹去，我緊共火關細。", tailo: "Pháng ji̍p iô liáu-āu, i koh tsú tsi̍t tiánn tinn-thng. Tsuí kún kah phū--tshut-lâi, phū kah kui ê tsàu-thâu lóng tâm--khì, guá kín kā hué kuainn sè.", en: "When the loaves were in the oven he made a pot of sweet soup too. It boiled over and soaked the whole stove top, and I quickly turned the flame down."}
+  - {n: 11, hanji: "無偌久，規間店攏是麭的芳味。", tailo: "Bô guā kú, kui king tiàm lóng sī pháng ê phang-bī.", en: "Before long the whole shop smelled of bread."}
+  - {n: 12, hanji: "我共烘好的麭提出來，手去燙著，緊用喙欶指頭仔。", tailo: "Guá kā hang hó ê pháng the̍h--tshut-lâi, tshiú khì thǹg--tio̍h, kín iōng tshuì suh tsíng-thâu-á.", en: "I took the baked loaves out, burnt my hand, and quickly sucked my finger."}
+  - {n: 13, hanji: "阿財伯笑我：「欶指頭仔無效啦，緊去冷水內底浸。」", tailo: "A-tsâi-peh tshiò guá: “Suh tsíng-thâu-á bô-hāu--lah, kín khì líng-tsuí lāi-té tsìm.”", en: "Old Tsâi laughed at me: 'Sucking it won't help. Go and put it in cold water.'"}
+  - {n: 14, hanji: "食早頓的時，逐家提麭滒豬骨湯食，我嘛學𪜶滒。", tailo: "Tsia̍h tsá-tǹg ê sî, ta̍k-ke the̍h pháng kō ti-kut-thng tsia̍h, guá mā o̍h in kō.", en: "At breakfast everyone dipped their bread in the pork-bone soup, and I did the same."}
+  - {n: 15, hanji: "頭一个人客是隔壁的小賣，伊逐工透早來批麭轉去賣。", tailo: "Thâu tsi̍t ê lâng-kheh sī keh-piah ê sió-bē, i ta̍k-kang thàu-tsá lâi phue pháng tńg-khì bē.", en: "The first customer was the shopkeeper next door, who comes every morning to buy bread to sell in her own shop."}
+  - {n: 16, hanji: "伊上愛甜粅粅的麭，閣愛滒一層塗豆麩。", tailo: "I siōng ài tinn-but-but ê pháng, koh ài kō tsi̍t tsàn thôo-tāu-hu.", en: "She likes her bread as sweet as can be, rolled in a layer of peanut powder."}
+  - {n: 17, hanji: "伊的囡仔用欶管欶甜湯，欶甲有聲，伊講：「這甜湯嘛甜粅粅，好啉！」", tailo: "I ê gín-á iōng suh-kóng suh tinn-thng, suh kah ū siann, i kóng: “Tsit tinn-thng mā tinn-but-but, hó lim!”", en: "Her child slurped the sweet soup noisily through a straw: 'This soup is really sweet too, it's good!'"}
+  - {n: 18, hanji: "阿財伯提一枝攕仔，攕一塊新出窯的麭予囡仔試。", tailo: "A-tsâi-peh the̍h tsi̍t ki tshiám-á, tshiám tsi̍t tè sin tshut-iô ê pháng hōo gín-á tshì.", en: "Old Tsâi took a fork, speared a piece of bread fresh from the oven and gave it to the child to try."}
+  - {n: 19, hanji: "小賣問：「後日是拜拜，你會使加做五十塊無？」阿財伯講：「會使，毋過後日我愛閣較早起。」", tailo: "Sió-bē mn̄g: “Āu--ji̍t sī pài-pài, lí ē-sái ka tsò gōo-tsa̍p tè--bô?” A-tsâi-peh kóng: “Ē-sái, m̄-koh āu--ji̍t guá ài koh-khah tsá khí.”", en: "The shopkeeper asked: 'The day after tomorrow is the festival. Could you make fifty more?' 'I can,' said old Tsâi, 'but I'll have to get up even earlier that day.'"}
+  - {n: 20, hanji: "日頭爁入來店內的時，我才知影：做麭的人，一工是佇別人猶咧睏的時開始的。", tailo: "Ji̍t-thâu nah--ji̍p-lâi tiàm-lāi ê sî, guá tsiah tsai-iánn: tsò pháng ê lâng, tsi̍t kang sī tī pa̍t-lâng iáu teh khùn ê sî khai-sí--ê.", en: "When the sun's first rays flashed into the shop, I understood: a baker's day begins while everyone else is still asleep."}
+notes:
+  - {ref: 1, topic: vocab, text: "麭 pháng = bread, from Japanese パン. 俗麭 sio̍k-pháng is sliced white bread (Japanese 食パン). 巷仔口 hāng-á-kháu = the mouth of a lane."}
+  - {ref: 2, topic: vocab, text: "夥計 hué-kì = an employee, a hired helper; 做夥計 'work for someone'. Careful: in some contexts 夥計 is also a mistress. 撇步 phiat-pōo = a trick, a knack."}
+  - {ref: 3, topic: vocab, text: "抐 lā = stir: 抐予勻 'stir it smooth', 菜去抐抐咧 'give the vegetables a stir'. It also means stir up trouble: 吵家抐宅 tshá-ke-lā-the̍h 'keep the household in an uproar'."}
+  - {ref: 4, topic: vocab, text: "洘 khó = thick, with little water: 糜煮了傷洘 'the congee came out too thick'. It also means dried up: 洘旱 khó-huānn 'drought', 洘流 khó-lâu 'ebb tide'. 振動 tín-tāng = move, budge."}
+  - {ref: 6, topic: vocab, text: "挼 juê = knead, rub. 發 huat = (of dough) rise. 𤉙 kûn = simmer for hours: 豬跤𤉙爛爛 'pig's trotters simmered till tender'. 豬骨湯 ti-kut-thng = pork-bone soup."}
+  - {ref: 7, topic: grammar, text: "愈…愈… jú… jú… = the more… the more…: 𤉙愈久，愈甜. 甜 tinn also means 'savoury, full of flavour' for a broth."}
+  - {ref: 8, topic: vocab, text: "汫 tsiánn = bland, under-salted; 鹹汫 kiâm-tsiánn 'the seasoning': 試鹹汫 'taste for salt'. 汫水 tsiánn-tsuí = fresh water. Figuratively 軟汫 nńg-tsiánn = feeble, soft."}
+  - {ref: 10, topic: vocab, text: "浡 phū = bubble up, boil over: 水滾甲浡出來 'the water boiled over'. 窯 iô = oven, kiln: 入窯 'go into the oven', 出窯 'come out of the oven'. 灶頭 tsàu-thâu = the top of the stove."}
+  - {ref: 12, topic: vocab, text: "欶 suh = suck, draw in: 欶管 suh-kóng 'straw', 欶奶 'suckle', 瘦田𠢕欶水 'poor fields drink a lot of water' (said of a thin person with a big appetite). 燙著 thǹg--tio̍h = get burnt."}
+  - {ref: 14, topic: vocab, text: "滒 kō = dip into, roll in: 麻糍滒塗豆麩 'mochi rolled in peanut powder'; also get smeared: 衫去滒著豆油 'my shirt got soy sauce on it'."}
+  - {ref: 15, topic: vocab, text: "小賣 sió-bē = a retailer, a small shopkeeper; its opposite 大賣 tuā-bē is a wholesaler. 批 phue = buy wholesale (to resell)."}
+  - {ref: 16, topic: vocab, text: "甜粅粅 tinn-but-but = very sweet, sickly sweet. 粅 is only used in this word. 塗豆麩 thôo-tāu-hu = peanut powder."}
+  - {ref: 18, topic: vocab, text: "攕 tshiám = spear, stick into: 攕煙腸 'skewer a sausage'; 攕仔 tshiám-á = fork. Read tshiam in 攕擔 tshiam-tann, a pole pointed at both ends."}
+  - {ref: 19, topic: vocab, text: "後日 āu--ji̍t = the day after tomorrow. Read āu-ji̍t without the neutral tone, it means 'later, in the future': 這層代誌咱後日才閣講 'we'll talk about it later'."}
+  - {ref: 20, topic: vocab, text: "爁 nah = (of sunlight or flames) flash on, lick briefly: 提去外口予日頭爁一下 'put it out in the sun for a moment'. Lightning that flashes is also 爁 nah."}
+new_words:
+  - {tailo: pháng, hanji: 麭, en: "bread"}
+  - {tailo: hué-kì, hanji: 夥計, en: "employee, helper"}
+  - {tailo: lā, hanji: 抐, en: "stir"}
+  - {tailo: khó, hanji: 洘, en: "thick (liquid)"}
+  - {tailo: tín-tāng, hanji: 振動, en: "move, budge"}
+  - {tailo: juê, hanji: 挼, en: "knead, rub"}
+  - {tailo: kûn, hanji: 𤉙, en: "simmer"}
+  - {tailo: tsiánn, hanji: 汫, en: "bland, not salty"}
+  - {tailo: kiâm-tsiánn, hanji: 鹹汫, en: "seasoning, saltiness"}
+  - {tailo: iô, hanji: 窯, en: "oven, kiln"}
+  - {tailo: phū, hanji: 浡, en: "boil over"}
+  - {tailo: tsàu-thâu, hanji: 灶頭, en: "stove top"}
+  - {tailo: suh, hanji: 欶, en: "suck, sip"}
+  - {tailo: suh-kóng, hanji: 欶管, en: "drinking straw"}
+  - {tailo: tsìm, hanji: 浸, en: "soak"}
+  - {tailo: kō, hanji: 滒, en: "dip into"}
+  - {tailo: sió-bē, hanji: 小賣, en: "small shopkeeper, retailer"}
+  - {tailo: tinn-but-but, hanji: 甜粅粅, en: "very sweet"}
+  - {tailo: thôo-tāu-hu, hanji: 塗豆麩, en: "peanut powder"}
+  - {tailo: tshiám-á, hanji: 攕仔, en: "fork"}
+  - {tailo: āu--ji̍t, hanji: 後日, en: "the day after tomorrow"}
+  - {tailo: nah, hanji: 爁, en: "flash on (sun, flame)"}
+exercises:
+  translate:
+    - {tailo: "Lín a-bú tsú ê kiâm-muê siunn tsiánn, guá kā i tsham tsi̍t-sut-á iâm, kiâm-tsiánn tsiah tú-hó.", hanji: "恁阿母煮的鹹糜傷汫，我共伊摻一屑仔鹽，鹹汫才拄好。", en: "The savoury congee your mother made was too bland. I added a little salt, and now the seasoning is just right."}
+    - {tailo: "Tsit tiánn ti-kha ài kûn sann tiám-tsing, tsiah ē nuā-nuā hó tsia̍h, lí m̄-thang siunn kín kā hué kuainn--khì.", hanji: "這鼎豬跤愛𤉙三點鐘，才會爛爛好食，你毋通傷緊共火關去。", en: "This pot of pig's trotters needs to simmer for three hours to be tender. Don't turn the fire off too soon."}
+    - {tailo: "Gín-á-lâng tsia̍h kué-tsí, lóng ài iōng tshiám-á tshiám, m̄-thang iōng tshiú khioh, tshiú lâ-sâm.", hanji: "囡仔人食果子，攏愛用攕仔攕，毋通用手抾，手垃儳。", en: "Children should spear their fruit with a fork, not pick it up with their hands. Hands are dirty."}
+    - {tailo: "Āu--ji̍t guán beh khì tshī-tiûnn bé pháng kah tshài, lí nā ū-îng, beh tuè guán tsò-hué khì--bô?", hanji: "後日阮欲去市場買麭佮菜，你若有閒，欲綴阮做伙去無？", en: "The day after tomorrow we're going to the market for bread and vegetables. If you're free, do you want to come with us?"}
+    - {tailo: "Tsit tiánn muê tsú kah siunn khó--ah, lí koh ka tsi̍t-kuá tsuí--lo̍h-khì, lā hōo ûn tsiah phâng--tshut-khì.", hanji: "這鼎糜煮甲傷洘矣，你閣加一寡水落去，抐予勻才捀出去。", en: "This pot of congee has got too thick. Add a little more water and stir it smooth before you serve it."}
+  fill:
+    - {tailo: "Bí-thng nā kún, ài kín kā hué kuainn sè, bô, ē ___--tshut-lâi, kui ê tsàu-thâu lóng tâm--khì.", hanji: "米湯若滾，愛緊共火關細，無，會___出來，規个灶頭攏澹去。", answer: "phū", answer_hanji: "浡", en: "When the rice water boils, turn the flame down quickly, or it will boil over and soak the whole stove top."}
+    - {tailo: "Tsit tiunn tsuá tsiânn gâu ___ tsuí, lí the̍h khì kā toh-tíng ê tsuí tshit--khì, tsiah bē lâu kàu thôo-kha.", hanji: "這張紙誠𠢕___水，你提去共桌頂的水拭去，才袂流到塗跤。", answer: "suh", answer_hanji: "欶", en: "This paper soaks up water well. Use it to wipe the water off the table before it runs onto the floor."}
+    - {tailo: "Tshài tī tiánn lāi ài kín ___--leh, bô, ē tshàu-hué-ta, hit-tsūn tō bô-hāu--ah.", hanji: "菜佇鼎內愛緊___咧，無，會臭火焦，彼陣就無效矣。", answer: "lā-lā", answer_hanji: "抐抐", en: "Give the vegetables in the wok a quick stir, or they'll burn, and then it'll be too late."}
+    - {tailo: "Guá ê pe̍h sann bô-sè-jī ___-tio̍h tāu-iû, sé kui-poo to sé bē khì, tsin m̄-kam.", hanji: "我的白衫無細膩___著豆油，洗規晡都洗袂去，真毋甘。", answer: "kō", answer_hanji: "滒", en: "I got soy sauce on my white shirt by accident. I washed it all afternoon and it won't come out. What a shame."}
+    - {tailo: "Tsit ê ko-á tinn-___, guá tsia̍h tsi̍t tè tō bô ài koh tsia̍h--ah, lí tsia̍h khah tsē--leh.", hanji: "這个糕仔甜___，我食一塊就無愛閣食矣，你食較濟咧。", answer: "but-but", answer_hanji: "粅粅", en: "This cake is so sweet that one piece is enough for me. You have more."}
+audio: []

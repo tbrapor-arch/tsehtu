@@ -1,0 +1,93 @@
+id: 5
+title: {en: "Lost at the night market", tailo: "Iā-tshī-á tshuē sió-tī", hanji: "夜市仔揣小弟"}
+genre: story
+review: false
+setting: "A short story written for this course. A girl, her mother and her little brother go to a crowded night market. The boy goes missing, and so does his money."
+chars:
+  - {c: 搦, tailo: la̍k, en: "grip, hold firmly; knead", hint: "扌 hand + 弱; 搦權 la̍k-khuân 'hold power'"}
+  - {c: 扲, tailo: gīm, en: "clutch (in the fist)", hint: "扌 hand + 今 kim for the sound"}
+  - {c: 拑, tailo: khînn, en: "cling to, grip something fixed", hint: "扌 hand + 甘; 拑牆𬦰壁 'cling to the walls and climb'"}
+  - {c: 扱, tailo: khi̍p, en: "hold on tight to", hint: "扌 hand + 及 kip for the sound"}
+  - {c: 𢯾, tailo: mooh, en: "hug tight, cling to (a person)", hint: "a character the MOE created: 扌 hand + 冒 'cover'"}
+  - {c: 摠, tailo: tsáng, en: "gather into a bunch; a bunch; take charge of", hint: "扌 hand + 悤 for 總 'all together'"}
+  - {c: 㨑, tailo: tsang, en: "catch (someone at something); tie up", hint: "扌 hand + 爭 tsing"}
+  - {c: 撏, tailo: jîm, en: "fish out, take out (of a pocket)", hint: "扌 hand + 尋 'look for'"}
+  - {c: 挔, tailo: hiannh, en: "pick up (clothes, cloth); buy (clothes)", hint: "扌 hand + 衣 clothes"}
+  - {c: 搙, tailo: jio̍k, en: "crumple, rub between the hands", hint: "扌 hand + 辱 jio̍k for the sound"}
+dialogue:
+  - {n: 1, hanji: "禮拜六暗，阿母𤆬我佮小弟阿明去夜市仔。夜市仔的人洘秫秫，行一步都真困難。", tailo: "Lé-pài-la̍k àm, a-bú tshuā guá kah sió-tī A-bîng khì iā-tshī-á. Iā-tshī-á ê lâng khó-tsu̍t-tsu̍t, kiânn tsi̍t pōo to tsin khùn-lân.", en: "On Saturday evening Mum took my little brother A-bîng and me to the night market. It was so packed that every step was a struggle."}
+  - {n: 2, hanji: "出門進前，阿母共頭毛摠做一摠，講：「人遮爾濟，恁兩个愛相𤆬，毋通走無去。」", tailo: "Tshut-mn̂g tsìn-tsîng, a-bú kā thâu-mn̂g tsáng tsò tsi̍t tsáng, kóng: “Lâng tsiah-nī tsē, lín nn̄g ê ài sio-tshuā, m̄-thang tsáu bô--khì.”", en: "Before we left, Mum tied her hair back in a bunch and said: 'There'll be crowds. You two stay together, and don't wander off.'"}
+  - {n: 3, hanji: "阿明手內扲一張百箍的銀票，講欲買糖仔。伊扲甲牢牢，驚去予人提去。", tailo: "A-bîng tshiú-lāi gīm tsi̍t tiunn pah-khoo ê gîn-phiò, kóng beh bé thn̂g-á. I gīm kah tiâu-tiâu, kiann khì hōo lâng the̍h--khì.", en: "A-bîng had a hundred-dollar note in his fist for sweets. He clutched it tight, scared someone would take it."}
+  - {n: 4, hanji: "阿母行去一擔賣衫的，挔一領紅衫起來看，閣挔一領烏的。", tailo: "A-bú kiânn khì tsi̍t tànn bē sann--ê, hiannh tsi̍t niá âng sann khí-lâi khuànn, koh hiannh tsi̍t niá oo--ê.", en: "Mum went over to a clothes stall, picked up a red top to look at, then a black one."}
+  - {n: 5, hanji: "伊用手共布搦搦咧，講：「這布真幼。」頭家講：「我的貨好，通人知！」", tailo: "I iōng tshiú kā pòo la̍k-la̍k--leh, kóng: “Tsit pòo tsin iù.” Thâu-ke kóng: “Guá ê huè hó, thong-lâng tsai!”", en: "She squeezed the cloth in her hand: 'This is fine cloth.' 'Everybody knows my goods are good!' said the stallholder."}
+  - {n: 6, hanji: "我越頭一下，阿明煞無去矣！", tailo: "Guá ua̍t-thâu tsi̍t-ē, A-bîng suah bô--khì--ah!", en: "I turned round for a second, and A-bîng was gone!"}
+  - {n: 7, hanji: "阿母緊共衫囥落來，伸手共我的手扱牢牢：「你毋通閣無去！」", tailo: "A-bú kín kā sann khǹg--lo̍h-lâi, tshun-tshiú kā guá ê tshiú khi̍p-tiâu-tiâu: “Lí m̄-thang koh bô--khì!”", en: "Mum dropped the clothes, reached out and held my hand tight: 'Don't you go missing too!'"}
+  - {n: 8, hanji: "阮兩个同齊喝：「阿明！阿明！」毋過四箍輾轉吵吵鬧鬧，無人聽著。", tailo: "Guán nn̄g ê tâng-tsê huah: “A-bîng! A-bîng!” M̄-koh sì-khoo-liàn-tńg tshá-tshá-nāu-nāu, bô lâng thiann--tio̍h.", en: "We both shouted together: 'A-bîng! A-bîng!' But it was so noisy all around that nobody heard."}
+  - {n: 9, hanji: "有一个阿伯伸手指廟口，講：「遐有一个囡仔咧哭，敢是恁的？」", tailo: "Ū tsi̍t ê a-peh tshun-tshiú kí biō-kháu, kóng: “Hia ū tsi̍t ê gín-á teh khàu, kám sī lín--ê?”", en: "An old man pointed towards the temple: 'There's a little boy crying over there. Is he yours?'"}
+  - {n: 10, hanji: "阿伯閣引𤆬阮對人縫中間軁過去。", tailo: "A-peh koh ín-tshuā guán uì lâng-phāng tiong-kan nǹg--kuè-khì.", en: "He led us through the gaps in the crowd."}
+  - {n: 11, hanji: "阿明拑佇廟口的石柱，拑甲牢牢，一个面哭甲紅記記。", tailo: "A-bîng khînn tī biō-kháu ê tsio̍h-thiāu, khînn kah tiâu-tiâu, tsi̍t ê bīn khàu kah âng-kì-kì.", en: "A-bîng was clinging to a stone pillar at the temple door, holding on for dear life, his face bright red from crying."}
+  - {n: 12, hanji: "伊一下看著阿母，就走過來共阿母的跤𢯾牢牢，𢯾甲阿母徛袂在。", tailo: "I tsi̍t-ē khuànn-tio̍h a-bú, tō tsáu--kuè-lâi kā a-bú ê kha mooh-tiâu-tiâu, mooh kah a-bú khiā bē tsāi.", en: "The moment he saw Mum he ran over and hugged her legs so tight she nearly lost her balance."}
+  - {n: 13, hanji: "阿母假受氣，捻伊的耳仔一下：「叫你毋通烏白走！」", tailo: "A-bú ké siū-khì, liàm i ê hīnn-á tsi̍t-ē: “Kiò lí m̄-thang oo-pe̍h tsáu!”", en: "Mum pretended to be cross and gave his ear a pinch: 'I told you not to run off!'"}
+  - {n: 14, hanji: "阿明哭甲講話掠無頭摠，講規晡阮才聽有：伊驚，就共錢囥落橐袋仔，雙手才通拑柱仔。", tailo: "A-bîng khàu kah kóng-uē lia̍h-bô-thâu-tsáng, kóng kui-poo guán tsiah thiann-ū: i kiann, tō kā tsînn khǹg lo̍h lak-tē-á, siang-tshiú tsiah thang khînn thiāu-á.", en: "He was crying so hard we couldn't make head or tail of it, but at last we understood: he'd been scared, so he'd put the money in his pocket to hold the pillar with both hands."}
+  - {n: 15, hanji: "「毋過有一隻手對我的橐袋仔撏一下，錢就無去矣。」", tailo: "“M̄-koh ū tsi̍t tsiah tshiú uì guá ê lak-tē-á jîm--tsi̍t-ē, tsînn tō bô--khì--ah.”", en: "'But a hand went into my pocket, and the money was gone.'"}
+  - {n: 16, hanji: "阿伯聽了，面隨變色：「彼箍我捌看過，逐暗攏佇遮撏人的橐袋仔。」", tailo: "A-peh thiann liáu, bīn suî piàn-sik: “Hit khoo guá bat khuànn--kuè, ta̍k àm lóng tī tsia jîm lâng ê lak-tē-á.”", en: "The old man's face changed: 'I've seen that fellow before. He's here every night, dipping into people's pockets.'"}
+  - {n: 17, hanji: "無偌久，警察就共彼个人㨑著矣，伊的手猶佇別人的橐袋仔內。", tailo: "Bô guā kú, kíng-tshat tō kā hit ê lâng tsang--tio̍h--ah, i ê tshiú iáu tī pa̍t-lâng ê lak-tē-á lāi.", en: "Before long the police caught the man, with his hand still in someone else's pocket."}
+  - {n: 18, hanji: "警察用索仔共伊的雙手㨑起來，對伊身軀撏出一張予人搙甲皺皺的百箍銀票。", tailo: "Kíng-tshat iōng soh-á kā i ê siang-tshiú tsang--khí-lâi, uì i sin-khu jîm tshut tsi̍t tiunn hōo lâng jio̍k kah jiâu-jiâu ê pah-khoo gîn-phiò.", en: "The police tied his hands together and pulled out of his clothes a hundred-dollar note, all crumpled up."}
+  - {n: 19, hanji: "阿明一看就喝：「彼張是我的！我共伊搙甲按呢，是驚伊飛去！」", tailo: "A-bîng tsi̍t khuànn tō huah: “Hit tiunn sī guá--ê! Guá kā i jio̍k kah án-ne, sī kiann i pue--khì!”", en: "A-bîng shouted as soon as he saw it: 'That's mine! I crumpled it up like that so it wouldn't blow away!'"}
+  - {n: 20, hanji: "轉去的時，阿母搦牢阿明的手，我扱牢阿母的衫，三个人相𤆬，一步都無放。", tailo: "Tńg-khì ê sî, a-bú la̍k-tiâu A-bîng ê tshiú, guá khi̍p-tiâu a-bú ê sann, sann ê lâng sio-tshuā, tsi̍t pōo to bô pàng.", en: "On the way home Mum held A-bîng's hand firmly and I held on to Mum's top. The three of us stayed together and didn't let go for a single step."}
+notes:
+  - {ref: 1, topic: vocab, text: "洘秫秫 khó-tsu̍t-tsu̍t = packed with people, impossible to get through (洘 khó 'thick', 文學 4). 困難 khùn-lân = difficult."}
+  - {ref: 2, topic: vocab, text: "摠 tsáng = gather into a bunch, and the bunch itself: 共頭毛摠做一摠 'tie one's hair in a bunch'; 頭摠 thâu-tsáng = a bun of hair, and also 'a lead, a thread to follow'. 相𤆬 sio-tshuā = go together, keep each other company. 走無去 = wander off and get lost."}
+  - {ref: 3, topic: vocab, text: "扲 gīm = clutch in the fist: 伊共錢扲牢牢 'he held the money tight in his fist'. 百箍 pah-khoo = a hundred dollars; 銀票 gîn-phiò = a banknote."}
+  - {ref: 4, topic: vocab, text: "挔 hiannh = pick up clothes or cloth: 挔衫 'take a garment'; also buy cloth or clothes: 挔一匹布 'buy a bolt of cloth'. 擔 tànn = a stall (擔仔 tànn-á)."}
+  - {ref: 5, topic: vocab, text: "搦 la̍k = grip, squeeze in the hand: 衫仔褲搦搦咧 'wring out the clothes'; figuratively 搦著證據 'hold the evidence', 搦權 'hold power', 搦屎搦尿 'change a baby, bring up a child'. 通人 thong-lâng = everybody: 通人知 'everyone knows'. 幼 iù = fine, delicate."}
+  - {ref: 7, topic: vocab, text: "扱 khi̍p = hold on tight to, not let go: 囡仔驚生份，共老母的衫仔尾扱牢牢 'the shy child held on tight to the hem of his mother's top'. 伸手 tshun-tshiú = reach out; also 'hold out one's hand for money'."}
+  - {ref: 8, topic: vocab, text: "同齊 tâng-tsê = together, at the same time. 四箍輾轉 sì-khoo-liàn-tńg = all around."}
+  - {ref: 10, topic: vocab, text: "引𤆬 ín-tshuā = lead, guide: 學工夫，若有人引𤆬，較緊學上手 'learning a skill goes faster with someone to guide you'. 軁 nǹg = squeeze through, crawl through. 人縫 lâng-phāng = a gap in the crowd."}
+  - {ref: 11, topic: vocab, text: "拑 khînn = cling to something solid: 拑牢牢 'hold on for dear life'. 扱 khi̍p is holding something you have in your hand, 拑 khînn is clinging to something fixed, and 𢯾 mooh is hugging a person or thing to you. 拑家 khînn-ke = keep the household going."}
+  - {ref: 12, topic: vocab, text: "𢯾 mooh = hug tight, cling to: 兩个人𢯾做伙 'the two of them held each other tight'; 𢯾壁鬼 mooh-piah-kuí 'a ghost that clings to the wall', said of someone who appears out of nowhere. 徛袂在 khiā bē tsāi = can't keep one's balance."}
+  - {ref: 13, topic: vocab, text: "捻 liàm = pinch (with the fingers), and also nip off: 捻耳仔 'pinch someone's ear'. 假受氣 ké siū-khì = pretend to be angry."}
+  - {ref: 14, topic: vocab, text: "掠無頭摠 lia̍h-bô-thâu-tsáng = can't make head or tail of it (no 頭摠 'thread' to hold). Also 捎無摠 sa-bô-tsáng. 橐袋仔 lak-tē-á = pocket."}
+  - {ref: 15, topic: vocab, text: "撏 jîm = fish out, take out: 撏錢 'take money out of one's pocket', 撏無 'feel in one's pocket and find nothing'. Here, a pickpocket's hand."}
+  - {ref: 17, topic: vocab, text: "㨑 tsang = catch someone at it: 伊做歹代誌去予我㨑著 'I caught him doing something bad'. Also tie up: 規个㨑起來 'tie it all up together'."}
+  - {ref: 18, topic: vocab, text: "搙 jio̍k = crumple, rub between the hands: 這張紙哪會予你搙甲變按呢？ 'how did this sheet get so crumpled?' 皺皺 jiâu-jiâu = wrinkled, creased."}
+new_words:
+  - {tailo: iā-tshī, hanji: 夜市, en: "night market (夜市仔)"}
+  - {tailo: khó-tsu̍t-tsu̍t, hanji: 洘秫秫, en: "packed with people"}
+  - {tailo: tsáng, hanji: 摠, en: "gather into a bunch; a bunch"}
+  - {tailo: sio-tshuā, hanji: 相𤆬, en: "go together"}
+  - {tailo: gīm, hanji: 扲, en: "clutch in the fist"}
+  - {tailo: gîn-phiò, hanji: 銀票, en: "banknote"}
+  - {tailo: hiannh, hanji: 挔, en: "pick up (clothes); buy (cloth)"}
+  - {tailo: la̍k, hanji: 搦, en: "grip, squeeze"}
+  - {tailo: iù, hanji: 幼, en: "fine, delicate"}
+  - {tailo: thong-lâng, hanji: 通人, en: "everybody"}
+  - {tailo: tshun-tshiú, hanji: 伸手, en: "reach out"}
+  - {tailo: khi̍p, hanji: 扱, en: "hold on tight"}
+  - {tailo: tâng-tsê, hanji: 同齊, en: "together"}
+  - {tailo: ín-tshuā, hanji: 引𤆬, en: "lead, guide"}
+  - {tailo: nǹg, hanji: 軁, en: "squeeze through"}
+  - {tailo: khînn, hanji: 拑, en: "cling to"}
+  - {tailo: tsio̍h-thiāu, hanji: 石柱, en: "stone pillar"}
+  - {tailo: mooh, hanji: 𢯾, en: "hug tight"}
+  - {tailo: liàm, hanji: 捻, en: "pinch"}
+  - {tailo: lia̍h-bô-thâu-tsáng, hanji: 掠無頭摠, en: "can't make head or tail of it"}
+  - {tailo: lak-tē-á, hanji: 橐袋仔, en: "pocket"}
+  - {tailo: jîm, hanji: 撏, en: "fish out (of a pocket)"}
+  - {tailo: tsang, hanji: 㨑, en: "catch (at something); tie up"}
+  - {tailo: jio̍k, hanji: 搙, en: "crumple"}
+  - {tailo: jiâu, hanji: 皺, en: "wrinkled"}
+exercises:
+  translate:
+    - {tailo: "Lín tú-tsiah tī tiàm-lāi ê sî, guá khuànn kàu lí hiannh tsi̍t niá âng sann, āu-lâi ū bé--bô?", hanji: "恁拄才佇店內的時，我看到你挔一領紅衫，後來有買無？", en: "When you were in the shop just now, I saw you pick up a red top. Did you buy it in the end?"}
+    - {tailo: "Sè-hàn ê sî, guá ta̍k pái kiânn ke-á-lōo, lóng kā a-pa ê tshiú gīm kah ân-ân, m̄-guān pàng.", hanji: "細漢的時，我逐擺行街仔路，攏共阿爸的手扲甲絚絚，毋願放。", en: "When I was little, every time we walked in town I'd clutch Dad's hand tight and refuse to let go."}
+    - {tailo: "Tsit kiānn tāi-tsì kui-ê lóng kau hōo lí lâi tsáng, ū būn-tê tsiah lâi mn̄g guá tō hó.", hanji: "這件代誌規个攏交予你來摠，有問題才來問我就好。", en: "I'm handing this whole business over to you to run. Just come and ask me if there's a problem."}
+    - {tailo: "Hong tsin tuā, tsûn iô kah tsin lī-hāi, guá kan-na ē-tàng khînn-tiâu tsûn-pinn ê thih-ki.", hanji: "風真大，船搖甲真厲害，我干焦會當拑牢船邊的鐵枝。", en: "The wind was strong and the boat rocked badly. All I could do was hold on to the iron rail at the side."}
+    - {tailo: "Nn̄g ê kuí-nā nî bô khuànn--tio̍h ê tsí-muē, tsi̍t kìnn-bīn tō mooh tsò-hué, ba̍k-sái lâu bē thîng.", hanji: "兩个幾若年無看著的姊妹，一見面就𢯾做伙，目屎流袂停。", en: "The two sisters who hadn't seen each other for years hugged each other the moment they met and sobbed their hearts out."}
+  fill:
+    - {tailo: "I tsìn-tsîng tshuē bē tio̍h ê tsînn, guân-lâi khǹg tī uē-tsheh lāi-té, hōo i ___ kah jiâu-jiâu.", hanji: "伊進前揣袂著的錢，原來囥佇畫冊內底，予伊___甲皺皺。", answer: "jio̍k", answer_hanji: "搙", en: "The money he couldn't find before was in his picture book, and he'd crumpled it all up."}
+    - {tailo: "I ta̍k pái beh huat tsînn hōo gín-á, lóng uì lak-tē-á ___ kuí-nā kái, tsiah ___ tshut tsi̍t-kuá.", hanji: "伊逐擺欲發錢予囡仔，攏對橐袋仔___幾若改，才___出一寡。", answer: "jîm", answer_hanji: "撏", en: "Every time he gives the children money, he fishes in his pocket several times before he gets some out."}
+    - {tailo: "Gín-á kiann tshenn-hūn, kā lāu-bú ê sann-á-bué ___-tiâu-tiâu, m̄-guān tsáu--khui, mā m̄ kā lâng kóng-uē.", hanji: "囡仔驚生份，共老母的衫仔尾___牢牢，毋願走開，嘛毋共人講話。", answer: "khi̍p", answer_hanji: "扱", en: "The child was shy of strangers and held on tight to the hem of his mother's top, refusing to leave her side or say a word to anyone."}
+    - {tailo: "Lán it-tīng ài ___ tio̍h tsìng-kì, kíng-tshat tsiah ē sìn, bô, kóng koh-khah tsē mā bô-hāu.", hanji: "咱一定愛___著證據，警察才會信，無，講閣較濟嘛無效。", answer: "la̍k", answer_hanji: "搦", en: "We must get hold of evidence before the police will believe us. Otherwise there's no point."}
+    - {tailo: "I ta̍k àm thau-thau tsáu tshut-khì tshit-thô, kàu lo̍h-bué iáu-sī hōo i ê lāu-pē ___--tio̍h.", hanji: "伊逐暗偷偷走出去𨑨迌，到落尾猶是予伊的老爸___著。", answer: "tsang", answer_hanji: "㨑", en: "He sneaked out to have fun every night, but in the end his father caught him."}
+audio: []

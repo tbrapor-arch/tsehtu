@@ -1,0 +1,91 @@
+id: 6
+title: {en: "The fight at the temple fair", tailo: "Biō-tiânn sio-phah", hanji: "廟埕相拍"}
+genre: story
+review: false
+setting: "A short story written for this course. At the goddess Má-tsóo's birthday fair, a boy watches two old rivals leading their lion-dance troupes. A slip turns the show into a brawl."
+chars:
+  - {c: 捽, tailo: sut, en: "whip, lash; wolf down (food)", hint: "扌 hand + 卒; 捽仔 sut-á 'whip', 捽目尾 'wink'"}
+  - {c: 搧, tailo: siàn, en: "slap; be exposed to (the wind)", hint: "扌 hand + 扇 sìnn 'fan': a fanning, slapping hand"}
+  - {c: 掔, tailo: khian, en: "throw, hurl", hint: "臤 + 手 hand at the bottom"}
+  - {c: 㧒, tailo: hiat, en: "toss away, fling down", hint: "扌 hand + 亦"}
+  - {c: 捙, tailo: tshia, en: "knock over, overturn; turn over", hint: "扌 hand + 車 tshia 'cart', which gives the sound"}
+  - {c: 躘, tailo: liòng, en: "kick about, struggle", hint: "𧾷 foot + 龍 lîng for the sound"}
+  - {c: 翸, tailo: phún, en: "roll about, thrash", hint: "羽 wings + 分 hun: flapping about"}
+  - {c: 䫌, tailo: phué, en: "cheek; the fleshy part (喙䫌 cheek, 尻川䫌 buttock)", hint: "頁 head + 皮 phuê, which gives the sound"}
+  - {c: 搟, tailo: hián, en: "rock, sway", hint: "扌 hand + 軒 hian for the sound"}
+  - {c: 欱, tailo: hap, en: "gulp down; catch between cupped hands", hint: "欠 open mouth + 合 ha̍p 'close'"}
+dialogue:
+  - {n: 1, hanji: "媽祖生彼工，廟口鬧熱滾滾，兩陣弄獅的攏來矣。", tailo: "Má-tsóo-senn hit kang, biō-kháu lāu-jia̍t-kún-kún, nn̄g tīn lāng-sai--ê lóng lâi--ah.", en: "On Má-tsóo's birthday the temple square was bustling, and both lion-dance troupes had come."}
+  - {n: 2, hanji: "東爿弄獅頭的是阿雄，西爿的是阿坤。𪜶兩个自細漢就是對頭。", tailo: "Tang-pîng lāng sai-thâu--ê sī A-hiông, sai-pîng--ê sī A-khun. In nn̄g ê tsū sè-hàn tō sī tuì-thâu.", en: "Hiông led the east troupe's lion head and Khun the west's. The two had been rivals since they were boys."}
+  - {n: 3, hanji: "阿媽驚趕無著，叫我食較緊咧。我一喙就共一粒肉圓欱落去，燒甲目屎強欲流出來。", tailo: "A-má kiann kuánn bô tio̍h, kiò guá tsia̍h khah kín--leh. Guá tsi̍t tshuì tō kā tsi̍t lia̍p bah-uân hap--lo̍h-khì, sio kah ba̍k-sái kiōng-beh lâu--tshut-lâi.", en: "Grandma was afraid we'd miss it and told me to eat faster. I gulped a whole meatball down in one go, and it was so hot my eyes watered."}
+  - {n: 4, hanji: "阿媽笑講：「你嘛捽較慢咧，無人欲佮你搶。」", tailo: "A-má tshiò kóng: “Lí mā sut khah bān--leh, bô lâng beh kah lí tshiúnn.”", en: "Grandma laughed: 'Don't wolf it down like that. Nobody's going to snatch it from you.'"}
+  - {n: 5, hanji: "鑼鼓一下響，兩隻獅就佇廟埕跳起來。獅頭搟過來搟過去，親像船佇海面。", tailo: "Lô-kóo tsi̍t-ē hiáng, nn̄g tsiah sai tō tī biō-tiânn thiàu--khí-lâi. Sai-thâu hián--kuè-lâi hián--kuè-khì, tshin-tshiūnn tsûn tī hái-bīn.", en: "As soon as the drums and gongs struck up, the two lions started leaping about the square, their heads rocking from side to side like boats at sea."}
+  - {n: 6, hanji: "阿雄的獅捙一个畚斗，逐家拍噗仔。阿坤無欲輸，嘛捙一个，閣較懸。", tailo: "A-hiông ê sai tshia tsi̍t ê pùn-táu, ta̍k-ke phah-pho̍k-á. A-khun bô beh su, mā tshia tsi̍t ê, koh-khah kuân.", en: "Hiông's lion turned a somersault and everyone clapped. Khun wasn't going to be outdone: his lion did one too, even higher."}
+  - {n: 7, hanji: "阿坤落地的時，獅尾掃著阿雄。阿雄氣一下，攑獅頭對阿坤觸過去，親像牛咧相觸。", tailo: "A-khun lo̍h-tē ê sî, sai-bué sàu-tio̍h A-hiông. A-hiông khì--tsi̍t-ē, gia̍h sai-thâu uì A-khun tak--kuè-khì, tshin-tshiūnn gû teh sio-tak.", en: "When Khun landed, his lion's tail swept into Hiông. Hiông flared up, lifted his lion head and butted Khun with it, like two bulls locking horns."}
+  - {n: 8, hanji: "阿坤共獅頭㧒佇塗跤，大聲喝：「你敢欲相拍？」", tailo: "A-khun kā sai-thâu hiat tī thôo-kha, tuā-siann huah: “Lí kánn beh sio-phah?”", en: "Khun flung his lion head on the ground and yelled: 'You want a fight?'"}
+  - {n: 9, hanji: "阿雄講：「我毋驚你！」伊隨搧阿坤一下喙䫌。", tailo: "A-hiông kóng: “Guá m̄ kiann--lí!” I suî siàn A-khun tsi̍t-ē tshuì-phué.", en: "'I'm not scared of you!' said Hiông, and slapped Khun across the cheek."}
+  - {n: 10, hanji: "阿坤的喙䫌予伊搧甲紅一爿。伊掔一粒柑仔過去，煞掔著拜拜的桌頂。", tailo: "A-khun ê tshuì-phué hōo i siàn kah âng tsi̍t pîng. I khian tsi̍t lia̍p kam-á kuè-khì, suah khian-tio̍h pài-pài ê toh-tíng.", en: "The slap left one of Khun's cheeks red. He hurled an orange back, but it landed on the offering table."}
+  - {n: 11, hanji: "桌頂的茶甌予柑仔捙倒，茶流甲規桌。", tailo: "Toh-tíng ê tê-au hōo kam-á tshia-tó, tê lâu kah kui toh.", en: "The orange knocked over the tea cups, and tea ran all over the table."}
+  - {n: 12, hanji: "兩个人相拍甲佇塗跤拍翸。阿雄共阿坤掠牢牢，阿坤雙跤烏白躘。", tailo: "Nn̄g ê lâng sio-phah kah tī thôo-kha phah-phún. A-hiông kā A-khun lia̍h-tiâu-tiâu, A-khun siang-kha oo-pe̍h liòng.", en: "The two men fought until they were rolling on the ground. Hiông held Khun down, and Khun kicked out wildly with both legs."}
+  - {n: 13, hanji: "阮阿媽喝：「莫閣相刣矣！今仔日是媽祖生呢！」", tailo: "Guán a-má huah: “Mài koh sio-thâi--ah! Kin-á-ji̍t sī Má-tsóo-senn--neh!”", en: "My grandma shouted: 'Stop trying to kill each other! It's Má-tsóo's birthday!'"}
+  - {n: 14, hanji: "毋過𪜶毋願放手，佇塗跤翸甲規身軀攏是塗。", tailo: "M̄-koh in m̄-guān pàng-tshiú, tī thôo-kha phún kah kui-sin-khu lóng sī thôo.", en: "But they wouldn't let go, and thrashed about on the ground until they were covered in dirt."}
+  - {n: 15, hanji: "廟公提一枝捽仔出來，對兩个人的尻川䫌捽落去。", tailo: "Biō-kong the̍h tsi̍t ki sut-á tshut--lâi, uì nn̄g ê lâng ê kha-tshng-phué sut--lo̍h-khì.", en: "The temple keeper came out with a whip and gave them both a lash across the backside."}
+  - {n: 16, hanji: "「哎唷！」兩个人同時跳起來。阿坤猶閣想欲躘，予廟公閣捽一下，就毋敢振動矣。", tailo: "“Ai-iō!” Nn̄g ê lâng tông-sî thiàu--khí-lâi. A-khun iáu-koh siūnn-beh liòng, hōo biō-kong koh sut tsi̍t-ē, tō m̄-kánn tín-tāng--ah.", en: "'Ow!' They both jumped up at once. Khun still wanted to lash out, but another stroke of the whip and he didn't dare move."}
+  - {n: 17, hanji: "廟公共捽仔㧒佇一邊，問：「恁兩个做對頭幾若十冬矣，到底有啥物仇？」", tailo: "Biō-kong kā sut-á hiat tī tsi̍t-pinn, mn̄g: “Lín nn̄g ê tsò tuì-thâu kuí-nā tsa̍p tang--ah, tàu-té ū siánn-mih siû?”", en: "The temple keeper tossed the whip aside and asked: 'You two have been at each other's throats for decades. What is it you've actually got against each other?'"}
+  - {n: 18, hanji: "阿雄看阿坤，阿坤看阿雄，兩个攏想袂起來。", tailo: "A-hiông khuànn A-khun, A-khun khuànn A-hiông, nn̄g ê lóng siūnn bē khí--lâi.", en: "Hiông looked at Khun, Khun looked at Hiông, and neither of them could remember."}
+  - {n: 19, hanji: "阿坤先笑出來，對阿雄捽目尾：「好啦，等咧做伙去食肉圓，我請。」", tailo: "A-khun sing tshiò--tshut-lâi, tuì A-hiông sut-ba̍k-bué: “Hó--lah, tán--leh tsò-hué khì tsia̍h bah-uân, guá tshiánn.”", en: "Khun burst out laughing first and winked at Hiông: 'All right. We'll go and have meatballs together afterwards. My treat.'"}
+  - {n: 20, hanji: "阿雄用雙手欱著一隻停佇獅頭頂的蝶仔，放伊飛走，才笑講：「好，你請，我欱三粒。」", tailo: "A-hiông iōng siang-tshiú hap-tio̍h tsi̍t tsiah thîng tī sai-thâu tíng ê ia̍h-á, pàng i pue--tsáu, tsiah tshiò kóng: “Hó, lí tshiánn, guá hap sann lia̍p.”", en: "Hiông cupped his hands round a butterfly that had settled on his lion head, let it fly away, and laughed: 'Fine. You pay, and I'll wolf down three.'"}
+notes:
+  - {ref: 1, topic: vocab, text: "媽祖生 Má-tsóo-senn = the goddess Má-tsóo's birthday (the 23rd of the third lunar month). 弄獅 lāng-sai = lion dance. 陣 tīn = a troupe."}
+  - {ref: 2, topic: vocab, text: "對頭 tuì-thâu = a rival, an opponent; 做對頭 'be at odds'. 東爿 tang-pîng / 西爿 sai-pîng = the east / west side."}
+  - {ref: 3, topic: vocab, text: "欱 hap = gulp down in one bite: 伊一喙就共肉欱落去. It also means catch something between cupped hands, or cover it with an upturned bowl: 我用手欱著一隻蝶仔 (line 20). 強欲 kiōng-beh = nearly, on the point of."}
+  - {ref: 4, topic: vocab, text: "捽 sut = eat greedily, wolf down: 你就捽了了矣 'you've wolfed the lot'. Its first sense is whip, lash (line 15); 捽目尾 sut-ba̍k-bué = wink (line 19)."}
+  - {ref: 5, topic: vocab, text: "搟 hián = rock, sway: 風湧大，船搟甲真厲害 'the waves were high and the boat rocked badly'. 響 hiáng = sound, ring out."}
+  - {ref: 6, topic: vocab, text: "捙 tshia = turn over, knock over: 捙畚斗 tshia-pùn-táu 'do a somersault' (畚斗 is a dustpan), 捙倒 tshia-tó 'knock over, spill' (line 11). 捙拚 tshia-piànn = have it out, compete. 拍噗仔 phah-pho̍k-á = clap."}
+  - {ref: 7, topic: vocab, text: "觸 tak = butt (with the horns); 相觸 sio-tak = lock horns, and figuratively squabble. 攑 gia̍h = lift, raise."}
+  - {ref: 8, topic: vocab, text: "㧒 hiat = fling down, chuck away: 物件烏白㧒 'leave things lying about anyhow', 擲㧒捔 tàn-hiat-ka̍k 'throw away'. 相拍 sio-phah = fight. 敢 kánn = dare."}
+  - {ref: 9, topic: vocab, text: "搧 siàn = slap: 搧喙䫌 siàn tshuì-phué 'slap someone's face'. It also means be exposed to the wind: 感冒毋通搧著風 'with a cold you mustn't get a draught'; 搧大耳 'pull the wool over someone's eyes'. 毋驚 m̄ kiann = not afraid."}
+  - {ref: 10, topic: vocab, text: "䫌 phué = the fleshy part of the face or the buttocks: 喙䫌 tshuì-phué 'cheek', 尻川䫌 kha-tshng-phué 'buttock'. 掔 khian = throw, hurl: 掔石頭 'throw stones'."}
+  - {ref: 12, topic: vocab, text: "拍翸 phah-phún = roll about, thrash on the ground; also squander money. 翸 alone: 佇外口翸甲規身軀 'come back covered from rolling about outside'. 躘 liòng = kick out, struggle: 躘被 'kick off the covers'."}
+  - {ref: 13, topic: vocab, text: "相刣 sio-thâi = fight to the death; Grandma is exaggerating. 莫閣…矣 mài koh… --ah = stop…!"}
+  - {ref: 15, topic: vocab, text: "捽仔 sut-á = a whip; 牛捽仔 a whip for driving oxen. 廟公 biō-kong = temple keeper."}
+  - {ref: 17, topic: vocab, text: "仇 siû = a grudge, a feud. 到底 tàu-té = after all, what on earth."}
+new_words:
+  - {tailo: lāng-sai, hanji: 弄獅, en: "lion dance"}
+  - {tailo: tuì-thâu, hanji: 對頭, en: "rival"}
+  - {tailo: hap, hanji: 欱, en: "gulp down; catch in cupped hands"}
+  - {tailo: bah-uân, hanji: 肉圓, en: "meatball (Taiwanese bah-uân)"}
+  - {tailo: kiōng-beh, hanji: 強欲, en: "nearly"}
+  - {tailo: sut, hanji: 捽, en: "whip; wolf down"}
+  - {tailo: hián, hanji: 搟, en: "rock, sway"}
+  - {tailo: tshia, hanji: 捙, en: "knock over; turn over"}
+  - {tailo: pùn-táu, hanji: 畚斗, en: "dustpan (捙畚斗 somersault)"}
+  - {tailo: phah-pho̍k-á, hanji: 拍噗仔, en: "clap"}
+  - {tailo: sio-tak, hanji: 相觸, en: "lock horns; squabble"}
+  - {tailo: hiat, hanji: 㧒, en: "fling down"}
+  - {tailo: sio-phah, hanji: 相拍, en: "fight"}
+  - {tailo: siàn, hanji: 搧, en: "slap"}
+  - {tailo: tshuì-phué, hanji: 喙䫌, en: "cheek"}
+  - {tailo: khian, hanji: 掔, en: "throw"}
+  - {tailo: tê-au, hanji: 茶甌, en: "teacup"}
+  - {tailo: phah-phún, hanji: 拍翸, en: "roll about"}
+  - {tailo: liòng, hanji: 躘, en: "kick, struggle"}
+  - {tailo: sio-thâi, hanji: 相刣, en: "fight to the death"}
+  - {tailo: sut-á, hanji: 捽仔, en: "whip"}
+  - {tailo: kha-tshng-phué, hanji: 尻川䫌, en: "buttock"}
+  - {tailo: siû, hanji: 仇, en: "grudge, feud"}
+  - {tailo: sut-ba̍k-bué, hanji: 捽目尾, en: "wink"}
+exercises:
+  translate:
+    - {tailo: "Guán sió-tī khùn-bîn ê sî tsin gâu liòng-phuē, a-bú ta̍k àm lóng ài khí-lâi kā i ê phuē kah hó-sè.", hanji: "阮小弟睏眠的時真𠢕躘被，阿母逐暗攏愛起來共伊的被蓋好勢。", en: "My little brother is always kicking off the covers in his sleep, so Mum has to get up every night and tuck him back in."}
+    - {tailo: "Lí kám-mōo iáu-buē hó, tshut-mn̂g ài tshīng khah sio--leh, m̄-thang koh khì guā-kháu siàn-tio̍h hong.", hanji: "你感冒猶未好，出門愛穿較燒咧，毋通閣去外口搧著風。", en: "Your cold isn't better yet. Wrap up warm when you go out, and don't go standing in the wind again."}
+    - {tailo: "Hit tsiah káu tsia̍h pn̄g tsiânn kín, tsi̍t uánn bah tsi̍t-ē-á tō hōo i sut liáu-liáu--ah.", hanji: "彼隻狗食飯誠緊，一碗肉一下仔就予伊捽了了矣。", en: "That dog eats so fast. A bowl of meat was gone in a flash."}
+    - {tailo: "Gín-á-lâng m̄-thang tī ke-á-lōo khian tsio̍h-thâu, nā khian-tio̍h lâng ê tshia-thang, tō mâ-huân--ah.", hanji: "囡仔人毋通佇街仔路掔石頭，若掔著人的車窗，就麻煩矣。", en: "Children mustn't throw stones in the street. Hit someone's car window and you'll be in real trouble."}
+    - {tailo: "Guá ê pâng-king hōo sió-tī tshia kah luān-tshau-tshau, tsheh lóng hōo i hiat kah thôo-kha tsi̍t-sì-kè.", hanji: "我的房間予小弟捙甲亂操操，冊攏予伊㧒甲塗跤一四界。", en: "My little brother turned my room upside down and flung my books all over the floor."}
+  fill:
+    - {tailo: "Hong-íng tsin tuā, tsûn ___ kah tsin lī-hāi, guá kui-lōo lóng thòo kah kiōng-beh sí.", hanji: "風湧真大，船___甲真厲害，我規路攏吐甲強欲死。", answer: "hián", answer_hanji: "搟", en: "The waves were high and the boat rocked terribly. I was sick all the way and felt like dying."}
+    - {tailo: "I kā a-má ê tê-au ___-tó--khì, sio-tê lâu kah kui toh, hōo a-má mē kui-poo, kóng i tsò tāi-tsì siunn bô tsù-ì.", hanji: "伊共阿媽的茶甌___倒去，燒茶流甲規桌，予阿媽罵規晡，講伊做代誌傷無注意。", answer: "tshia", answer_hanji: "捙", en: "He knocked over Grandma's teacup. Hot tea went all over the table, and Grandma told him off for ages for being so careless."}
+    - {tailo: "Sè-hàn ê sî, guán tiānn-tiānn tī tshân-lí iōng siang-tshiú ___ tshân-kap-á, lia̍h-tio̍h tō pàng.", hanji: "細漢的時，阮定定佇田裡用雙手___田蛤仔，掠著就放。", answer: "hap", answer_hanji: "欱", en: "When we were small we'd often catch frogs in the fields between our cupped hands, then let them go."}
+    - {tailo: "Gín-á bô kuai, a-pa siūnn-beh phah i ê kha-tshng-___, a-má kín kā i khǹg tī āu-piah.", hanji: "囡仔無乖，阿爸想欲拍伊的尻川___，阿媽緊共伊囥佇後壁。", answer: "phué", answer_hanji: "䫌", en: "The child was naughty and Dad wanted to smack his bottom, but Grandma quickly hid him behind her."}
+    - {tailo: "Tsit ê gín-á pak-tóo thiànn kah tī bîn-tshn̂g-tíng phah-___, guán kín tshuā i khì khuànn kip-tsín.", hanji: "這个囡仔腹肚疼甲佇眠床頂拍___，阮緊𤆬伊去看急診。", answer: "phún", answer_hanji: "翸", en: "The child's stomach hurt so much he was rolling about on the bed, so we rushed him to the emergency room."}
+audio: []
