@@ -1,0 +1,101 @@
+id: 13
+title: {en: "The loudspeaker on the square", tailo: "Kóng-tiûnn ê lá-pah", hanji: "廣場的喇叭"}
+genre: story
+review: false
+setting: "A short story written for this course, a step towards the novel 1984. In a city where a loudspeaker on the square talks all day, a factory worker finds a note under his seat cushion."
+chars:
+  - {c: 䀐, tailo: siam, en: "steal a glance, peek", hint: "目 eye + 占 tsiam for the sound"}
+  - {c: 楗, tailo: kīng, en: "prop up, brace; (相楗) support each other", hint: "木 wood + 建 kiàn for the sound"}
+  - {c: 藃, tailo: hiauh, en: "curl up, peel off, warp", hint: "艹 + 歊: what curls up as it dries"}
+  - {c: 伻, tailo: phenn, en: "share out, divide equally", hint: "亻 person + 平 pênn 'even', which gives the sound"}
+  - {c: 搩, tailo: kiat, en: "hurl, throw hard; come to blows", hint: "扌 hand + 桀 kia̍t for the sound"}
+  - {c: 摁, tailo: hmh, en: "strike hard (with a club); wolf down", hint: "扌 hand + 恩: the dull thud of the blow"}
+  - {c: 苴, tailo: tsū, en: "put underneath as a pad; a pad, a cushion", hint: "艹 grass + 且: straw laid underneath"}
+  - {c: 罨, tailo: am, en: "a cover over the mouth and nose; (喙罨) face mask", hint: "网 net + 奄 'cover'"}
+  - {c: 喌, tailo: tsiuh, en: "(in) 密喌喌 'tight shut'; (tsû) call chickens", hint: "口 mouth + 州 tsiu for the sound"}
+  - {c: 揻, tailo: ui, en: "prick, jab (with a needle)", hint: "扌 hand + 威 ui for the sound"}
+dialogue:
+  - {n: 1, hanji: "城市的廣場有一支大喇叭，逐工透早六點就開始放送。", tailo: "Siânn-tshī ê kóng-tiûnn ū tsi̍t ki tuā lá-pah, ta̍k-kang thàu-tsá la̍k tiám tō khai-sí hòng-sàng.", en: "On the city square there is a huge loudspeaker, and every morning at six it starts broadcasting."}
+  - {n: 2, hanji: "「人民愛感謝主席！主席的主義是人民的光！機關佇咧為恁進行偉大的工作！」", tailo: "“Jîn-bîn ài kám-siā tsú-si̍k! Tsú-si̍k ê tsú-gī sī jîn-bîn ê kng! Ki-kuan tī-leh uī lín tsìn-hîng uí-tāi ê kang-tsok!”", en: "'The people must thank the Chairman! The Chairman's doctrine is the people's light! The authorities are carrying out great work on your behalf!'"}
+  - {n: 3, hanji: "阿光喙罨掛咧，行過廣場。逐个人攏掛喙罨，看袂出啥人咧笑，啥人咧哭。", tailo: "A-kng tshuì-am kuà--leh, kiânn kuè kóng-tiûnn. Ta̍k ê lâng lóng kuà tshuì-am, khuànn bē tshut siánn-lâng teh tshiò, siánn-lâng teh khàu.", en: "Kng crossed the square with his mask on. Everyone wears a mask; you can't tell who is smiling and who is crying."}
+  - {n: 4, hanji: "壁頂的主席相片已經藃起來，予雨沃甲白去，毋過無人敢共伊提落來。", tailo: "Piah-tíng ê tsú-si̍k siòng-phìnn í-king hiauh--khí-lâi, hōo hōo ak kah pe̍h--khì, m̄-koh bô lâng kánn kā i the̍h--lo̍h-lâi.", en: "The Chairman's picture on the wall has curled up at the edges and faded white in the rain, but nobody dares take it down."}
+  - {n: 5, hanji: "伊佇工廠製造一款伊毋知用途的物件，一工製造八百个，一个都袂得錯。", tailo: "I tī kang-tshiúnn tsè-tsō tsi̍t khuán i m̄ tsai iōng-tôo ê mi̍h-kiānn, tsi̍t kang tsè-tsō peh-pah ê, tsi̍t ê to bē-tit tshò.", en: "At the factory he makes a thing whose use he doesn't know: eight hundred a day, and not one may be wrong."}
+  - {n: 6, hanji: "中晝食飯，配給的飯包愛四个人分伻，一人分無一喙。", tailo: "Tiong-tàu tsia̍h-pn̄g, phuè-kip ê pn̄g-pau ài sì ê lâng pun-phenn, tsi̍t lâng pun bô tsi̍t tshuì.", en: "At lunch, four people have to share one ration box. Each gets barely a mouthful."}
+  - {n: 7, hanji: "坐佇伊邊仔的阿蓮，共伊的飯伻一半予伊，細聲講：「你較瘦，你食。」", tailo: "Tsē tī i pinn--á ê A-liân, kā i ê pn̄g phenn tsi̍t-puànn hōo--i, sè-siann kóng: “Lí khah sán, lí tsia̍h.”", en: "Liân, who sits next to him, gave him half of her rice and whispered: 'You're thinner. You eat it.'"}
+  - {n: 8, hanji: "阿光毋敢越頭，干焦用目尾䀐伊一下。廣場的系統，連目睭咧看啥都知。", tailo: "A-kng m̄-kánn ua̍t-thâu, kan-na iōng ba̍k-bué siam i tsi̍t-ē. Kóng-tiûnn ê hē-thóng, liân ba̍k-tsiu teh khuànn siánn to tsai.", en: "Kng didn't dare turn his head. He only stole a glance at her from the corner of his eye. The system on the square knows even what your eyes are looking at."}
+  - {n: 9, hanji: "下班的時，伊佇椅苴下底揣著一張紙。伊䀐一下，紙頂寫：「今暗九點，舊冊店。」", tailo: "Hā-pan ê sî, i tī í-tsū ē-té tshuē-tio̍h tsi̍t tiunn tsuá. I siam--tsi̍t-ē, tsuá tíng siá: “Kim-àm káu tiám, kū tsheh-tiàm.”", en: "When he finished work he found a slip of paper under his seat cushion. He glanced at it: 'Tonight, nine o'clock, the old bookshop.'"}
+  - {n: 10, hanji: "伊的心肝親像予針揻著，一直跳。伊共紙苴佇鞋仔內，行轉去。", tailo: "I ê sim-kuann tshin-tshiūnn hōo tsiam ui--tio̍h, it-ti̍t thiàu. I kā tsuá tsū tī ê-á lāi, kiânn tńg--khì.", en: "His heart pounded as if pricked by a needle. He put the paper flat inside his shoe and walked home."}
+  - {n: 11, hanji: "暗時，伊共房間的窗仔關甲密喌喌，才敢共紙提出來閣看一擺。", tailo: "Àm-sî, i kā pâng-king ê thang-á kuainn kah ba̍t-tsiuh-tsiuh, tsiah kánn kā tsuá the̍h--tshut-lâi koh khuànn tsi̍t pái.", en: "That evening he shut his window tight before he dared take the paper out and look at it again."}
+  - {n: 12, hanji: "舊冊店的門歪去，愛用一枝柴楗咧才袂倒。阿蓮佇內底等伊。", tailo: "Kū tsheh-tiàm ê mn̂g uai--khì, ài iōng tsi̍t ki tshâ kīng--leh tsiah bē tó. A-liân tī lāi-té tán--i.", en: "The old bookshop's door was crooked and had to be propped up with a stick to stop it falling. Liân was waiting inside."}
+  - {n: 13, hanji: "伊提一本冊予阿光：「這是較早的人寫的。冊講，文明毋是靠喇叭，是靠人佮人相楗。」", tailo: "I the̍h tsi̍t pún tsheh hōo A-kng: “Tse sī khah-tsá ê lâng siá--ê. Tsheh kóng, bûn-bîng m̄ sī khò lá-pah, sī khò lâng kah lâng sio-kīng.”", en: "She handed Kng a book: 'People wrote this long ago. It says civilisation doesn't rest on loudspeakers, but on people holding each other up.'"}
+  - {n: 14, hanji: "冊的紙已經藃藃，阿光一頁一頁掀，掀甲手咧顫。", tailo: "Tsheh ê tsuá í-king hiauh-hiauh, A-kng tsi̍t ia̍h tsi̍t ia̍h hian, hian kah tshiú teh tsùn.", en: "The pages had curled with age. Kng turned them one by one, his hands trembling."}
+  - {n: 15, hanji: "雄雄，外口有人大聲喝，閣有石頭搩著窗仔的聲。", tailo: "Hiông-hiông, guā-kháu ū lâng tuā-siann huah, koh ū tsio̍h-thâu kiat-tio̍h thang-á ê siann.", en: "Suddenly there was shouting outside, and the sound of stones being hurled at the windows."}
+  - {n: 16, hanji: "是機關的人。𪜶手攑棍仔，看著人就摁，摁甲百姓哀哀叫。", tailo: "Sī ki-kuan ê lâng. In tshiú gia̍h kùn-á, khuànn-tio̍h lâng tō hmh, hmh kah peh-sènn ai-ai-kiò.", en: "It was the authorities' men, clubs in hand, beating anyone they saw. People were crying out in pain."}
+  - {n: 17, hanji: "有一个老阿伯跪佇塗跤講：「我毋是奴才，我是人！」隨閣予𪜶摁一下。阿光的心肝閣予針揻一下。", tailo: "Ū tsi̍t ê lāu a-peh kuī tī thôo-kha kóng: “Guá m̄ sī lôo-tsâi, guá sī lâng!” Suî koh hōo in hmh--tsi̍t-ē. A-kng ê sim-kuann koh hōo tsiam ui--tsi̍t-ē.", en: "An old man on his knees said: 'I'm not a slave, I'm a man!' and was struck again at once. Kng felt the needle in his heart again."}
+  - {n: 18, hanji: "阿蓮共冊囥入阿光的衫內：「對後門走。毋通越頭，毋通有反應。」", tailo: "A-liân kā tsheh khǹg ji̍p A-kng ê sann lāi: “Uì āu-mn̂g tsáu. M̄-thang ua̍t-thâu, m̄-thang ū huán-ìng.”", en: "Liân slipped the book inside Kng's shirt: 'Go out the back. Don't look back, and don't react.'"}
+  - {n: 19, hanji: "阿光走出去，搩一粒石頭共巷仔口的電火拍破，規條巷仔隨暗去。", tailo: "A-kng tsáu--tshut-khì, kiat tsi̍t lia̍p tsio̍h-thâu kā hāng-á-kháu ê tiān-hué phah-phuà, kui tiâu hāng-á suî àm--khì.", en: "Kng ran out, hurled a stone at the street light at the end of the lane and smashed it, and the whole lane went dark."}
+  - {n: 20, hanji: "隔轉工透早六點，喇叭閣開始放送：「工作完成，社會平安。」阿光喙罨掛咧。衫內底，彼本冊用布包甲密喌喌，猶佇咧。", tailo: "Keh-tńg-kang thàu-tsá la̍k tiám, lá-pah koh khai-sí hòng-sàng: “Kang-tsok uân-sîng, siā-huē pîng-an.” A-kng tshuì-am kuà--leh. Sann lāi-té, hit pún tsheh iōng pòo pau kah ba̍t-tsiuh-tsiuh, iáu tī--leh.", en: "At six the next morning the loudspeaker started up again: 'Work completed. Society at peace.' Kng had his mask on. Inside his shirt, wrapped tight in cloth, the book was still there."}
+notes:
+  - {ref: 1, topic: vocab, text: "喇叭 lá-pah = loudspeaker; also a trumpet. 放送 hòng-sàng = broadcast (a word from Japanese)."}
+  - {ref: 2, topic: vocab, text: "Words of public life, read as in Mandarin: 人民 jîn-bîn 'the people', 主席 tsú-si̍k 'chairman', 主義 tsú-gī 'doctrine, -ism', 機關 ki-kuan 'the authorities, an agency', 進行 tsìn-hîng 'carry out', 工作 kang-tsok 'work' (everyday Taigi says 工課 khang-khuè)."}
+  - {ref: 3, topic: vocab, text: "罨 am = a cover over the nose and mouth: 喙罨 tshuì-am 'face mask', 騎車愛掛喙罨 'wear a mask when you ride'. 牛喙罨 gû-tshuì-am is the muzzle put on an ox, and jokingly a face mask."}
+  - {ref: 4, topic: vocab, text: "藃 hiauh = curl up, peel off: 地板藃起來矣 'the floorboards have lifted'; 藃藃 hiauh-hiauh 'curled up' (line 14); 藃蟶 hiauh-than 'warp' (of boards, paper). 沃 ak = drench."}
+  - {ref: 5, topic: vocab, text: "製造 tsè-tsō = make, manufacture. 用途 iōng-tôo = use, purpose. 袂得 bē-tit = mustn't."}
+  - {ref: 6, topic: vocab, text: "伻 phenn = share out equally: 賰的菜咱伻伻咧 'let's share out what's left'; 分伻 pun-phenn 'share out, split' (also share a burden). 配給 phuè-kip = ration."}
+  - {ref: 8, topic: vocab, text: "䀐 siam = take a quick look, peek: 你去房間䀐看覓 'go and have a peek in the bedroom'. 系統 hē-thóng = system."}
+  - {ref: 9, topic: vocab, text: "苴 tsū = put underneath as a pad: 塗跤先苴報紙才開始油漆 'put newspaper down on the floor before you start painting'; and the pad itself: 椅苴 í-tsū 'seat cushion', 鞋苴 'insole', 尿苴仔 'nappy'. 下班 hā-pan = finish work."}
+  - {ref: 10, topic: vocab, text: "揻 ui = prick, jab with something pointed: 心肝像針揻 'a heart pierced as if by a needle', 揻一空 'prick a hole'."}
+  - {ref: 11, topic: vocab, text: "密喌喌 ba̍t-tsiuh-tsiuh = tight shut, sealed tight: 窗仔門關甲密喌喌，連胡蠅都飛袂入去. Read tsû, 喌 is the call for chickens at feeding time: 喌喌 tsû tsû."}
+  - {ref: 12, topic: vocab, text: "楗 kīng = prop up, brace: 提杉仔柴來共門小楗一下 'get a piece of wood to prop the door'. 相楗 sio-kīng (line 13) = hold each other up, support each other: 朋友本來就愛相楗 'friends are there to support each other'. 文明 bûn-bîng = civilisation."}
+  - {ref: 14, topic: vocab, text: "掀 hian = turn (pages), lift. 顫 tsùn = tremble."}
+  - {ref: 15, topic: vocab, text: "搩 kiat = hurl hard, pelt: 提石頭共伊搩落去 'grab a stone and let fly'; also come to blows: 講無兩句就搩起來矣 'two words and they were at each other'."}
+  - {ref: 16, topic: vocab, text: "摁 hmh = strike hard with something heavy, with a dull thud: 予槌仔摁著，會著內傷 'a blow from a hammer can cause internal injuries'. Jokingly, wolf down: 一頓摁三四碗飯. 百姓 peh-sènn = ordinary people."}
+  - {ref: 17, topic: vocab, text: "奴才 lôo-tsâi = a slave, a lackey. 跪 kuī = kneel."}
+  - {ref: 18, topic: vocab, text: "反應 huán-ìng = react, a reaction."}
+  - {ref: 20, topic: vocab, text: "完成 uân-sîng = complete. 社會 siā-huē = society."}
+new_words:
+  - {tailo: lá-pah, hanji: 喇叭, en: "loudspeaker; trumpet"}
+  - {tailo: hòng-sàng, hanji: 放送, en: "broadcast"}
+  - {tailo: jîn-bîn, hanji: 人民, en: "the people"}
+  - {tailo: tsú-si̍k, hanji: 主席, en: "chairman"}
+  - {tailo: tsú-gī, hanji: 主義, en: "doctrine, -ism"}
+  - {tailo: ki-kuan, hanji: 機關, en: "the authorities, agency"}
+  - {tailo: tsìn-hîng, hanji: 進行, en: "carry out"}
+  - {tailo: kang-tsok, hanji: 工作, en: "work"}
+  - {tailo: tshuì-am, hanji: 喙罨, en: "face mask"}
+  - {tailo: hiauh, hanji: 藃, en: "curl up, peel off"}
+  - {tailo: tsè-tsō, hanji: 製造, en: "manufacture"}
+  - {tailo: iōng-tôo, hanji: 用途, en: "use, purpose"}
+  - {tailo: pn̄g-pau, hanji: 飯包, en: "lunch box"}
+  - {tailo: pun-phenn, hanji: 分伻, en: "share out"}
+  - {tailo: phenn, hanji: 伻, en: "share equally"}
+  - {tailo: siam, hanji: 䀐, en: "peek"}
+  - {tailo: hē-thóng, hanji: 系統, en: "system"}
+  - {tailo: í-tsū, hanji: 椅苴, en: "seat cushion"}
+  - {tailo: tsū, hanji: 苴, en: "put underneath; pad"}
+  - {tailo: tsheh-tiàm, hanji: 冊店, en: "bookshop"}
+  - {tailo: ui, hanji: 揻, en: "prick, jab"}
+  - {tailo: ba̍t-tsiuh-tsiuh, hanji: 密喌喌, en: "tight shut"}
+  - {tailo: kīng, hanji: 楗, en: "prop up"}
+  - {tailo: bûn-bîng, hanji: 文明, en: "civilisation"}
+  - {tailo: sio-kīng, hanji: 相楗, en: "support each other"}
+  - {tailo: kiat, hanji: 搩, en: "hurl"}
+  - {tailo: hmh, hanji: 摁, en: "strike hard"}
+  - {tailo: peh-sènn, hanji: 百姓, en: "ordinary people"}
+  - {tailo: lôo-tsâi, hanji: 奴才, en: "slave, lackey"}
+  - {tailo: huán-ìng, hanji: 反應, en: "react"}
+  - {tailo: uân-sîng, hanji: 完成, en: "complete"}
+exercises:
+  translate:
+    - {tailo: "Lí khì pâng-king siam khuànn-māi, khuànn i kám ū teh tha̍k-tsheh, ah-sī koh teh sńg tshiú-ki-á.", hanji: "你去房間䀐看覓，看伊敢有咧讀冊，抑是閣咧耍手機仔。", en: "Go and have a peek in the bedroom: see if he's studying, or playing on his phone again."}
+    - {tailo: "Thôo-kha sing tsū pò-tsuá tsiah khai-sí iû-tshat, bô, iû-tshat tih--lo̍h-lâi, tō tshit bē khì--ah.", hanji: "塗跤先苴報紙才開始油漆，無，油漆滴落來，就拭袂去矣。", en: "Put newspaper down on the floor before you start painting. Otherwise, if paint drips on it, you won't be able to wipe it off."}
+    - {tailo: "Tsit king tshù siunn kū--ah, tē-pán lóng hiauh--khí-lâi, kiânn--khí-lâi koh ē kī-kī-kiò, àm-sî tsi̍t ê lâng tuà tī tsia tsin kiann.", hanji: "這間厝傷舊矣，地板攏藃起來，行起來閣會吱吱叫，暗時一个人蹛佇遮真驚。", en: "This house is too old. The floorboards have all lifted, and they creak when you walk on them. It's scary living here alone at night."}
+    - {tailo: "Pîng-iú pún-lâi tō ài sio-kīng, lí tsit-má tú-tio̍h khùn-lân, guán it-tīng ē tàu-sann-kāng, lí m̄-bián pháinn-sè.", hanji: "朋友本來就愛相楗，你這馬拄著困難，阮一定會鬥相共，你毋免歹勢。", en: "Friends are meant to hold each other up. You're having a hard time now, and we'll certainly help. Don't be embarrassed."}
+    - {tailo: "Ko-á tsin tuā, ta̍k-ke lóng ū thang pun-phenn, m̄-bián sio-tsenn, tshun--ê lán phenn-phenn--leh, tsi̍t lâng tsi̍t tè.", hanji: "糕仔真大，逐家攏有通分伻，毋免相爭，賰的咱伻伻咧，一人一塊。", en: "The cake is big, so there's enough for everyone; no need to fight over it. We'll share out what's left, a piece each."}
+  fill:
+    - {tailo: "Tshiú-tsí hōo tsiam ___ tsi̍t khang, hueh lâu--tshut-lâi, a-bú kín kā guá tah tsi̍t tè io̍h-pòo.", hanji: "手指予針___一空，血流出來，阿母緊共我貼一塊藥布。", answer: "ui", answer_hanji: "揻", en: "I pricked my finger on a needle and it bled, so Mum quickly put a plaster on it."}
+    - {tailo: "Kám-mōo ê sî tshut-mn̂g ài kuà tshuì-___, tsiah bē kā kám-mōo tòo hōo pa̍t-lâng, tse sī tsò-lâng ê lé-sòo.", hanji: "感冒的時出門愛掛喙___，才袂共感冒𪐞予別人，這是做人的禮數。", answer: "am", answer_hanji: "罨", en: "When you have a cold, wear a mask when you go out, so you don't pass it on to others. It's simple good manners."}
+    - {tailo: "Gín-á-lâng sio-phah, kóng bô nn̄g kù tō ___--khí-lâi--ah, lāu-su kín lâi kā in pun--khui, koh kā in mē tsi̍t tǹg.", hanji: "囡仔人相拍，講無兩句就___起來矣，老師緊來共𪜶分開，閣共𪜶罵一頓。", answer: "kiat", answer_hanji: "搩", en: "The children started fighting: two words and they were at each other, and the teacher hurried over to separate them and gave them a telling-off."}
+    - {tailo: "I tng-teh tuā, tsi̍t tǹg ___ tio̍h sann sì uánn pn̄g, lāu-bú tsú koh-khah tsē mā bô-kàu, ta̍k pái lóng tsia̍h kah tiánn-té bô tshun.", hanji: "伊當咧大，一頓___著三四碗飯，老母煮閣較濟嘛無夠，逐擺攏食甲鼎底無賰。", answer: "hmh", answer_hanji: "摁", en: "He's growing, and he wolfs down three or four bowls of rice a meal. However much his mother cooks, it's never enough: every time he scrapes the pot clean."}
+    - {tailo: "Thang-á-mn̂g kuainn kah ba̍t-___-tsiuh, liân hôo-sîn to pue bē ji̍p--khì, pâng-king lāi tsin hip.", hanji: "窗仔門關甲密___喌，連胡蠅都飛袂入去，房間內真翕。", answer: "tsiuh", answer_hanji: "喌", en: "The windows are shut so tight that not even a fly could get in, and the room is very stuffy."}
+audio: []

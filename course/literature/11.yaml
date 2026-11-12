@@ -1,0 +1,93 @@
+id: 11
+title: {en: "The loaded dice", tailo: "Ké ê tâu-á", hanji: "假的骰仔"}
+genre: story
+review: false
+setting: "A short story written for this course. Uncle Lîm, the retired detective, gets a late-night call: a young man from the neighbourhood has lost everything at an illegal gambling den and is being held there."
+chars:
+  - {c: 銃, tailo: tshìng, en: "gun", hint: "金 metal + 充 tshiong; Mandarin uses 槍"}
+  - {c: 筊, tailo: kiáu, en: "gambling", hint: "竹 bamboo + 交 kau: bamboo tallies; 跋筊 pua̍h-kiáu 'gamble'"}
+  - {c: 蹧, tailo: tsau, en: "(in) 蹧躂 'mistreat; squander'", hint: "𧾷 foot + 曹 tsô: trampling on something"}
+  - {c: 煏, tailo: piak, en: "burst, split open; fry out (fat); (煏空) come to light", hint: "火 fire + 畐: what bursts in the heat"}
+  - {c: 鈃, tailo: giang, en: "small bell; ring", hint: "金 metal + 幵"}
+  - {c: 甪, tailo: lut, en: "rub off, come off, slip off", hint: "a variant of 角; the MOE uses it for this Taigi word"}
+  - {c: 㧎, tailo: khê, en: "get stuck, catch; not smooth", hint: "扌 hand + 冂 + 卡 khah 'stuck'"}
+  - {c: 櫼, tailo: tsinn, en: "a wedge; wedge in, cram in", hint: "木 wood + 韱 tsiam 'pointed'"}
+  - {c: 湳, tailo: làm, en: "mud, mire; muddy", hint: "氵 water + 南 lâm for the sound"}
+  - {c: 呔, tailo: thài, en: "(in) 呔會 'how could…?'", hint: "口 mouth + 太 thài for the sound"}
+dialogue:
+  - {n: 1, hanji: "林伯做刑警做三十冬，退休了後，猶是逐工佇巷仔口食茶看報紙。", tailo: "Lîm-peh tsò hîng-kíng tsò sann-tsa̍p tang. Thè-hiu liáu-āu, iáu-sī ta̍k-kang tī hāng-á-kháu tsia̍h tê khuànn pò-tsuá.", en: "Uncle Lîm was a police detective for thirty years. Since retiring he still spends every day at the end of the lane drinking tea and reading the paper."}
+  - {n: 2, hanji: "有一暗，伊的電話鈃袂停。是阿成的阿母，哭講阿成去跋筊，跋甲了了，閣予人押咧。", tailo: "Ū tsi̍t àm, i ê tiān-uē giang bē thîng. Sī A-sîng ê a-bú, khàu kóng A-sîng khì pua̍h-kiáu, pua̍h kah liáu-liáu, koh hōo lâng ah--leh.", en: "One night his phone wouldn't stop ringing. It was Sîng's mother, crying: Sîng had gone gambling, lost everything, and was being held there."}
+  - {n: 3, hanji: "阿成本底是古意的少年家，毋知是啥物因端，煞去落湳。", tailo: "A-sîng pún-té sī kóo-ì ê siàu-liân-ke, m̄ tsai sī siánn-mih in-tuann, suah khì lo̍h-làm.", en: "Sîng had always been a decent lad. Nobody knew why, but he'd got himself stuck in the mire."}
+  - {n: 4, hanji: "林伯嘆一口氣：「定著是有人牽龜落湳。」", tailo: "Lîm-peh thàn tsi̍t kháu khuì: “Tiānn-tio̍h sī ū lâng khan-ku-lo̍h-làm.”", en: "Uncle Lîm sighed: 'Someone must have lured him in.'"}
+  - {n: 5, hanji: "筊場佇溪仔邊一間舊倉庫，門口有兩个少年家咧顧，看起來親像土匪。", tailo: "Kiáu-tiûnn tī khe-á-pinn tsi̍t king kū tshng-khòo, mn̂g-kháu ū nn̄g ê siàu-liân-ke teh kòo, khuànn--khí-lâi tshin-tshiūnn thóo-huí.", en: "The gambling den was in an old warehouse by the river, with two young men guarding the door who looked like bandits."}
+  - {n: 6, hanji: "林伯行入去，鞋仔踏著湳塗，一步一步攏㧎㧎，真歹行。", tailo: "Lîm-peh kiânn ji̍p-khì, ê-á ta̍h-tio̍h làm-thôo, tsi̍t pōo tsi̍t pōo lóng khê-khê, tsin pháinn kiânn.", en: "Uncle Lîm walked in. His shoes sank into the mud and stuck at every step, making it hard going."}
+  - {n: 7, hanji: "內底的人櫼甲滿滿，逐家圍咧跋筊。桌邊掛一个鈃仔，有人贏就鈃一聲。", tailo: "Lāi-té ê lâng tsinn kah muá-muá, ta̍k-ke uî--leh pua̍h-kiáu. Toh-pinn kuà tsi̍t ê giang-á, ū lâng iânn tō giang tsi̍t siann.", en: "Inside, people were crammed in, crowded round the tables gambling. A little bell hung by the table, and it rang whenever someone won."}
+  - {n: 8, hanji: "阿成跔佇壁角，面青恂恂，衫予人蹧躂甲裂裂。", tailo: "A-sîng ku tī piah-kak, bīn tshenn-sún-sún, sann hōo lâng tsau-that kah li̍h-li̍h.", en: "Sîng was crouched in a corner, white as a sheet, his shirt torn from the rough handling."}
+  - {n: 9, hanji: "筊場的頭家是一个大箍的，腰邊插一枝短銃，講：「伊欠阮十萬箍，無還就莫想欲走。」", tailo: "Kiáu-tiûnn ê thâu-ke sī tsi̍t ê tuā-khoo--ê, io-pinn tshah tsi̍t ki té-tshìng, kóng: “I khiàm guán tsa̍p-bān khoo, bô hîng tō mài siūnn-beh tsáu.”", en: "The boss of the den was a heavy man with a pistol tucked in his belt: 'He owes us a hundred thousand. He's not leaving till he pays.'"}
+  - {n: 10, hanji: "林伯笑笑仔講：「呔會欠遮濟？伊跋偌久？」", tailo: "Lîm-peh tshiò-tshiò-á kóng: “Thài ē khiàm tsiah tsē? I pua̍h guā kú?”", en: "Uncle Lîm smiled: 'How could he owe that much? How long has he been playing?'"}
+  - {n: 11, hanji: "頭家講：「無偌久。伊運氣䆀，無奈啊。」", tailo: "Thâu-ke kóng: “Bô guā kú. I ūn-khì bái, bô-nāi--ah.”", en: "'Not long,' said the boss. 'Bad luck. Nothing to be done.'"}
+  - {n: 12, hanji: "林伯共桌頂的骰仔提起來，用指頭仔甪甪咧，骰仔頂面的烏點煞甪落來矣。", tailo: "Lîm-peh kā toh-tíng ê tâu-á the̍h--khí-lâi, iōng tsíng-thâu-á lut-lut--leh, tâu-á tíng-bīn ê oo-tiám suah lut--lo̍h-lâi--ah.", en: "Uncle Lîm picked up the dice from the table and rubbed them with his finger, and the black dots came off."}
+  - {n: 13, hanji: "伊講：「恁的骰仔是假的，點是後來畫的。恁這間筊場，早慢會煏空。」", tailo: "I kóng: “Lín ê tâu-á sī ké--ê, tiám sī āu-lâi uē--ê. Lín tsit king kiáu-tiûnn, tsá-bān ē piak-khang.”", en: "'Your dice are fake,' he said. 'The dots were painted on. This den of yours is going to be found out sooner or later.'"}
+  - {n: 14, hanji: "頭家面變色，越頭欲走。毋過林伯早就共一塊柴櫼佇後門，門開袂開。", tailo: "Thâu-ke bīn piàn-sik, ua̍t-thâu beh tsáu. M̄-koh Lîm-peh tsá tō kā tsi̍t tè tshâ tsinn tī āu-mn̂g, mn̂g khui bē khui.", en: "The boss's face changed and he turned to run. But Uncle Lîm had already wedged a piece of wood under the back door, and it wouldn't open."}
+  - {n: 15, hanji: "頭家氣甲大聲撟，攑銃對林伯。林伯毋驚：「你若開銃，你就閣較慘。」", tailo: "Thâu-ke khì kah tuā-siann kiāu, gia̍h tshìng uì Lîm-peh. Lîm-peh m̄ kiann: “Lí nā khui tshìng, lí tō koh-khah tshám.”", en: "The boss swore furiously and pointed his gun at Uncle Lîm. Uncle Lîm wasn't afraid: 'If you fire that, it'll be much worse for you.'"}
+  - {n: 16, hanji: "這時，警察已經到外口矣，車頂的燈一閃一閃。", tailo: "Tsit sî, kíng-tshat í-king kàu guā-kháu--ah, tshia-tíng ê ting tsi̍t siám tsi̍t siám.", en: "By then the police had arrived outside, the lights on their cars flashing."}
+  - {n: 17, hanji: "原來林伯入去進前，就先敲電話予老同事，叫𪜶來發落。", tailo: "Guân-lâi Lîm-peh ji̍p-khì tsìn-tsîng, tō sing khà tiān-uē hōo lāu tông-sū, kiò in lâi hua̍t-lo̍h.", en: "Before going in, Uncle Lîm had phoned his old colleagues and asked them to come and deal with it."}
+  - {n: 18, hanji: "筊場煏空矣。頭家佮伊的人攏予警察掠去，親像予人圍佇山頂的山賊，走都無路。", tailo: "Kiáu-tiûnn piak-khang--ah. Thâu-ke kah i ê lâng lóng hōo kíng-tshat lia̍h--khì, tshin-tshiūnn hōo lâng uî tī suann-tíng ê suann-tsha̍t, tsáu to bô lōo.", en: "The den was exposed. The police arrested the boss and his men, who had nowhere to run, like bandits surrounded on a mountain top."}
+  - {n: 19, hanji: "阿成哭講：「林伯，我呔會遮爾戇？共阮阿母的錢蹧躂了了。」", tailo: "A-sîng khàu kóng: “Lîm-peh, guá thài ē tsiah-nī gōng? Kā guán a-bú ê tsînn tsau-that liáu-liáu.”", en: "Sîng wept: 'Uncle Lîm, how could I be so stupid? I've squandered all my mother's money.'"}
+  - {n: 20, hanji: "林伯拍伊的肩胛頭：「知錯就好。筊場無爸囝，後擺莫閣蹽落去。」", tailo: "Lîm-peh phah i ê king-kah-thâu: “Tsai tshò tō hó. Kiáu-tiûnn bô pē-kiánn, āu-pái mài koh liâu--lo̍h-khì.”", en: "Uncle Lîm patted him on the shoulder: 'As long as you know you were wrong. At the gambling table there's no father and son. Don't get mixed up in it again.'"}
+notes:
+  - {ref: 1, topic: vocab, text: "刑警 hîng-kíng = police detective. Uncle Lîm is the retired detective of 進修 34 and 69. 退休 thè-hiu = retire."}
+  - {ref: 2, topic: vocab, text: "筊 kiáu = gambling: 跋筊 pua̍h-kiáu 'gamble', 筊場 kiáu-tiûnn 'gambling den', 筊仙 kiáu-sian 'inveterate gambler'. 鈃 giang = ring: 電話鈃足濟聲矣 'the phone has rung and rung'; 鈃仔 giang-á (line 7) = a little bell. 押 ah = hold, detain."}
+  - {ref: 3, topic: vocab, text: "因端 in-tuann = cause, reason. 湳 làm = mud, mire; 這條路真湳 'this road is all mud'. 落湳 lo̍h-làm = sink into the mud, and get into trouble."}
+  - {ref: 4, topic: vocab, text: "牽龜落湳 khan-ku-lo̍h-làm = 'lead the turtle into the mud': lure someone into a trap, lead someone astray. 定著 tiānn-tio̍h = surely, must be."}
+  - {ref: 5, topic: vocab, text: "土匪 thóo-huí = bandit; also a thug, someone who behaves like one. 倉庫 tshng-khòo = warehouse."}
+  - {ref: 6, topic: vocab, text: "湳塗 làm-thôo = mud. 㧎 khê = catch, get stuck: 我的嚨喉㧎著一枝魚刺 'I've got a fish bone stuck in my throat'; 㧎㧎 = not smooth, catching: 這枝筆寫著㧎㧎 'this pen doesn't write smoothly'."}
+  - {ref: 7, topic: vocab, text: "櫼 tsinn = a wedge (line 14), and wedge in, cram: 櫼入去 'cram it in'; 狹櫼櫼 'cramped'; 實櫼 tsa̍t-tsinn 'packed solid'."}
+  - {ref: 8, topic: vocab, text: "蹧躂 tsau-that = mistreat, treat roughly; also squander, waste (line 19): 新新的物件毋通按呢蹧躂 'don't mistreat brand-new things'."}
+  - {ref: 9, topic: vocab, text: "銃 tshìng = gun: 短銃 té-tshìng 'pistol', 銃子 tshìng-tsí 'bullet', 開銃 'fire', 著銃 'be shot'. Taigi writes 銃 where Mandarin writes 槍. 還 hîng = pay back."}
+  - {ref: 10, topic: vocab, text: "呔會 thài ē = how could it be…?: 呔會按呢？ 'how can that be?' A word of the Tsiang-tsiu (漳州) accent; elsewhere 哪會 ná ē."}
+  - {ref: 11, topic: vocab, text: "無奈 bô-nāi = it can't be helped. 運氣䆀 ūn-khì bái = bad luck."}
+  - {ref: 12, topic: vocab, text: "甪 lut = rub off, come off: 甪鉎 'rub off rust', 甪毛 'lose hair, moult'; also slip off: 褲甪落來 'his trousers slipped down'. 骰仔 tâu-á = dice."}
+  - {ref: 13, topic: vocab, text: "煏 piak = burst, split: 竹管予火燒甲煏開 'the bamboo burst open in the fire'; 煏油 'render fat'; 煏空 piak-khang = come to light, be exposed. 早慢 tsá-bān = sooner or later."}
+  - {ref: 17, topic: vocab, text: "發落 hua̍t-lo̍h = deal with, take care of, arrange. 敲電話 khà tiān-uē = make a phone call."}
+  - {ref: 18, topic: vocab, text: "山賊 suann-tsha̍t = bandits in the hills."}
+  - {ref: 20, topic: vocab, text: "筊場無爸囝 kiáu-tiûnn bô pē-kiánn = 'at the gambling table there's no father and son': gambling spares nobody. 蹽落去 liâu--lo̍h-khì (文學 7) = get mixed up in something."}
+new_words:
+  - {tailo: giang, hanji: 鈃, en: "ring (bell, phone)"}
+  - {tailo: pua̍h-kiáu, hanji: 跋筊, en: "gamble"}
+  - {tailo: ah, hanji: 押, en: "detain, hold"}
+  - {tailo: in-tuann, hanji: 因端, en: "cause, reason"}
+  - {tailo: lo̍h-làm, hanji: 落湳, en: "get stuck in the mud; get into trouble"}
+  - {tailo: tiānn-tio̍h, hanji: 定著, en: "surely"}
+  - {tailo: khan-ku-lo̍h-làm, hanji: 牽龜落湳, en: "lure into a trap"}
+  - {tailo: kiáu-tiûnn, hanji: 筊場, en: "gambling den"}
+  - {tailo: tshng-khòo, hanji: 倉庫, en: "warehouse"}
+  - {tailo: thóo-huí, hanji: 土匪, en: "bandit, thug"}
+  - {tailo: làm-thôo, hanji: 湳塗, en: "mud"}
+  - {tailo: khê, hanji: 㧎, en: "get stuck; not smooth"}
+  - {tailo: tsinn, hanji: 櫼, en: "wedge; cram in"}
+  - {tailo: giang-á, hanji: 鈃仔, en: "little bell"}
+  - {tailo: tsau-that, hanji: 蹧躂, en: "mistreat; squander"}
+  - {tailo: té-tshìng, hanji: 短銃, en: "pistol"}
+  - {tailo: tshìng, hanji: 銃, en: "gun"}
+  - {tailo: thài ē, hanji: 呔會, en: "how could…?"}
+  - {tailo: bô-nāi, hanji: 無奈, en: "it can't be helped"}
+  - {tailo: tâu-á, hanji: 骰仔, en: "dice"}
+  - {tailo: lut, hanji: 甪, en: "rub off, come off"}
+  - {tailo: piak-khang, hanji: 煏空, en: "come to light"}
+  - {tailo: hua̍t-lo̍h, hanji: 發落, en: "deal with, arrange"}
+  - {tailo: suann-tsha̍t, hanji: 山賊, en: "bandit (in the hills)"}
+exercises:
+  translate:
+    - {tailo: "Guá ê nâ-âu khê-tio̍h tsi̍t ki hî-tshì, lim kuí-nā tshuì tsuí to lim bē lo̍h--khì, tsin kan-khóo.", hanji: "我的嚨喉㧎著一枝魚刺，啉幾若喙水都啉袂落去，真艱苦。", en: "I've got a fish bone stuck in my throat. I've drunk several mouthfuls of water and it won't go down. It's awful."}
+    - {tailo: "Tsit king tshù ê mn̂g tsin pháinn kuainn, guá tiānn-tiānn ài iōng tsi̍t tè tshâ kā i tsinn--leh.", hanji: "這間厝的門真歹關，我定定愛用一塊柴共伊櫼咧。", en: "The door of this house doesn't shut properly, so I often have to wedge it with a piece of wood."}
+    - {tailo: "Lo̍h tuā-hōo liáu-āu, tsit tiâu lōo tsin làm, gû-tshia sái ji̍p-khì làm-thôo, sái bē kiânn.", hanji: "落大雨了後，這條路真湳，牛車駛入去湳塗，駛袂行。", en: "After the heavy rain this road is all mud. The ox cart drove into the mire and got stuck."}
+    - {tailo: "I beh tshiánn guá khì tsia̍h tuā-tǹg? Thài ē án-ne? I tsa-hng tsiah kóng i bô tsînn thang khai--leh.", hanji: "伊欲請我去食大頓？呔會按呢？伊昨昏才講伊無錢通開咧。", en: "He's treating me to a big dinner? How can that be? Only yesterday he said he had no money to spend."}
+    - {tailo: "I thau the̍h kong-si ê tsînn khì pua̍h-kiáu, tāi-tsì piak-khang--ah, kong-si kā i sî--tiāu, i ê bóo mā tsáu--khì.", hanji: "伊偷提公司的錢去跋筊，代誌煏空矣，公司共伊辭掉，伊的某嘛走去。", en: "He took the company's money to gamble with, and it came to light. The company sacked him, and his wife left him too."}
+  fill:
+    - {tailo: "Sin-sin ê mi̍h-kiānn m̄-thang án-ne tsau-___, lí nā bô ài iōng, the̍h hōo pa̍t-lâng iōng mā hó.", hanji: "新新的物件毋通按呢蹧___，你若無愛用，提予別人用嘛好。", answer: "that", answer_hanji: "躂", en: "Don't treat brand-new things like that. If you don't want it, give it to someone else to use."}
+    - {tailo: "Guán a-kong lāu--ah, thâu-mn̂g ___ kah tshun bô kuí ki, i lóng kóng sī siūnn siunn tsē.", hanji: "阮阿公老矣，頭毛___甲賰無幾枝，伊攏講是想傷濟。", answer: "lut", answer_hanji: "甪", en: "My grandfather is old now, and his hair has fallen out till there's hardly any left. He always says it's from thinking too much."}
+    - {tailo: "Khah-tsá ê lâng tiānn-tiānn iōng puî ti-bah lâi ___-iû, tsú tshài khah phang, tshun ê bah-phiàn mā hó tsia̍h.", hanji: "較早的人定定用肥豬肉來___油，煮菜較芳，賰的肉片嘛好食。", answer: "piak", answer_hanji: "煏", en: "In the old days people often rendered fatty pork for lard. It made the cooking tastier, and the leftover crackling was good to eat too."}
+    - {tailo: "Lâi--ah! Mn̂g-kháu ê ___-á teh hiáng, ū lâng-kheh lâi--ah, lí kín khì kā i tsio-thāi--tsi̍t-ē.", hanji: "來矣！門口的___仔咧響，有人客來矣，你緊去共伊招待一下。", answer: "giang", answer_hanji: "鈃", en: "Coming! The bell at the door is ringing. There's a customer. Go and see to them."}
+    - {tailo: "I tsiàn-tsing ê sî tio̍h-___, kha tiong-ng iáu ū tsi̍t lia̍p ___-tsí, thinn-khì nā piàn tō thiànn.", hanji: "伊戰爭的時著___，跤中央猶有一粒___子，天氣若變就疼。", answer: "tshìng", answer_hanji: "銃", en: "He was shot in the war. There's still a bullet in his leg, and it hurts whenever the weather changes."}
+audio: []

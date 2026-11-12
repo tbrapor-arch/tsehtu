@@ -1,0 +1,86 @@
+id: 10
+title: {en: "Under the banyan tree", tailo: "Tshîng-á-kha ê uē", hanji: "榕仔跤的話"}
+genre: story
+review: false
+setting: "A short story written for this course. Every afternoon the old women of the village gossip under the banyan. Their latest target is the newcomer who runs the grocery shop, and her quiet husband."
+chars:
+  - {c: 譀, tailo: hàm, en: "exaggerated, far-fetched; hollow", hint: "言 speech + 敢 kánn: daring speech"}
+  - {c: 悾, tailo: khong, en: "dim-witted, not all there", hint: "忄 heart + 空 khang 'empty'"}
+  - {c: 歁, tailo: khám, en: "foolish, tactless", hint: "甚 + 欠; 悾歁 khong-khám 'stupid'"}
+  - {c: 頇, tailo: han, en: "(in) 頇顢 hân-bān 'clumsy, useless'", hint: "頁 head + 干 kan; read hân in 頇顢, the only word that uses it"}
+  - {c: 顢, tailo: bān, en: "(in) 頇顢 'clumsy, useless'", hint: "頁 head + 㒼 bân for the sound"}
+  - {c: 勥, tailo: khiàng, en: "capable, sharp, formidable (mostly of women)", hint: "強 strong + 力 strength"}
+  - {c: 㤉, tailo: gê, en: "loathe, can't stand", hint: "忄 heart + 牙 gê for the sound"}
+  - {c: 撟, tailo: kiāu, en: "curse, swear at; (姦撟) swear foully", hint: "扌 hand + 喬 kiâu for the sound"}
+  - {c: 呲, tailo: tshū, en: "whisper; egg someone on", hint: "口 mouth + 此 tshú for the sound"}
+  - {c: 乜, tailo: mí, en: "(in) 何乜苦 'why bother', 某乜人 'so-and-so'", hint: "an old character for 'what', read mí"}
+dialogue:
+  - {n: 1, hanji: "庄頭的榕仔跤，逐工下晡攏有幾个阿婆坐咧開講。", tailo: "Tsng-thâu ê tshîng-á-kha, ta̍k-kang ē-poo lóng ū kuí ê a-pô tsē--leh khai-káng.", en: "Every afternoon a few old women sit chatting under the banyan at the edge of the village."}
+  - {n: 2, hanji: "𪜶上愛議論別人的代誌，一下講就是規晡。", tailo: "In siōng ài gī-lūn pa̍t-lâng ê tāi-tsì, tsi̍t-ē kóng tō sī kui-poo.", en: "What they love most is discussing other people's business, and once they start it goes on all afternoon."}
+  - {n: 3, hanji: "這站仔，𪜶上愛講的是新搬來的阿美。阿美真勥，一个人開一間店，透早到暗攏是伊咧顧。", tailo: "Tsit-tsām-á, in siōng ài kóng--ê sī sin puann--lâi ê A-bí. A-bí tsin khiàng, tsi̍t ê lâng khui tsi̍t king tiàm, thàu-tsá kàu àm lóng sī i teh kòo.", en: "Lately their favourite subject is Bí, who has just moved in. She's very capable: she runs a shop by herself and minds it from dawn till dusk."}
+  - {n: 4, hanji: "阿花婆嗤舞嗤呲講：「一个查某人遮爾勥跤，翁一定是頇顢的。」", tailo: "A-hue-pô tshi-bú-tshi̍h-tshū kóng: “Tsi̍t ê tsa-bóo-lâng tsiah-nī khiàng-kha, ang it-tīng sī hân-bān--ê.”", en: "Old Hue whispered: 'A woman as sharp as that, her husband must be useless.'"}
+  - {n: 5, hanji: "阿蘭婆共耳仔倚過去，兩个閣咧呲：「聽講伊的翁悾悾，連錢都算袂清楚。」", tailo: "A-lân-pô kā hīnn-á uá--kuè-khì, nn̄g ê koh teh tshū: “Thiann-kóng i ê ang khong-khong, liân tsînn to sǹg bē tshing-tshó.”", en: "Old Lân leaned in, and the two whispered on: 'They say her husband's a bit simple. He can't even count money properly.'"}
+  - {n: 6, hanji: "閣有某乜人講伊的翁有夠悾歁，捌共一粒石頭當做金仔，提去賣。", tailo: "Koh ū bóo-mí-lâng kóng i ê ang ū-kàu khong-khám, bat kā tsi̍t lia̍p tsio̍h-thâu tòng-tsò kim-á, the̍h khì bē.", en: "And so-and-so said the husband was so stupid he once took a stone for gold and tried to sell it."}
+  - {n: 7, hanji: "愈講愈譀，到尾仔，伊的翁變做一个歁頭歁面、袂曉講話的人。", tailo: "Jú kóng jú hàm, kàu bué--á, i ê ang piàn-tsò tsi̍t ê khám-thâu-khám-bīn, bē-hiáu kóng-uē ê lâng.", en: "The more they talked, the wilder it got, until the husband had become a blundering fool who couldn't even speak."}
+  - {n: 8, hanji: "干焦阿珠嬸無愛插。伊上㤉人佇尻脊後講人的歹話，一聽著就㤉。", tailo: "Kan-na A-tsu-tsím bô ài tshap. I siōng gê lâng tī kha-tsiah-āu kóng lâng ê pháinn-uē, tsi̍t thiann-tio̍h tō gê.", en: "Only Auntie Tsu kept out of it. Nothing she hates more than people talking behind someone's back; just hearing it makes her sick."}
+  - {n: 9, hanji: "伊講：「恁何乜苦？人的代誌，毋值恁遮爾致意。」", tailo: "I kóng: “Lín hô-mí-khóo? Lâng ê tāi-tsì, m̄-ta̍t lín tsiah-nī tì-ì.”", en: "'Why bother?' she said. 'Other people's business isn't worth all this attention.'"}
+  - {n: 10, hanji: "阿花婆講：「阮哪有講歹話？阮講的攏是真的，毋是譀古。」", tailo: "A-hue-pô kóng: “Guán ná ū kóng pháinn-uē? Guán kóng--ê lóng sī tsin--ê, m̄ sī hàm-kóo.”", en: "'We're not badmouthing anyone,' said Old Hue. 'It's all true, not tall tales.'"}
+  - {n: 11, hanji: "有一工，庄裡的阿土啉酒醉，佇阿美的店門口大聲姦撟，撟甲規庄攏聽著。", tailo: "Ū tsi̍t kang, tsng--lí ê A-thóo lim-tsiú-tsuì, tī A-bí ê tiàm mn̂g-kháu tuā-siann kàn-kiāu, kiāu kah kui tsng lóng thiann--tio̍h.", en: "One day Thóo from the village got drunk and stood outside Bí's shop swearing at the top of his voice, so loud the whole village could hear."}
+  - {n: 12, hanji: "阿美的翁出來，無講一句話，共阿土扶入去店內，閣捀一甌茶予伊啉。", tailo: "A-bí ê ang tshut--lâi, bô kóng tsi̍t kù uē, kā A-thóo hû ji̍p-khì tiàm-lāi, koh phâng tsi̍t au tê hōo i lim.", en: "Bí's husband came out without a word, helped Thóo inside, and brought him a cup of tea."}
+  - {n: 13, hanji: "阿土啉了，煞哭出來，講伊的某走去矣，伊心肝真艱苦。", tailo: "A-thóo lim liáu, suah khàu--tshut-lâi, kóng i ê bóo tsáu--khì--ah, i sim-kuann tsin kan-khóo.", en: "When he'd drunk it, Thóo burst into tears: his wife had left him, and he was heartbroken."}
+  - {n: 14, hanji: "阿美的翁坐佇伊身軀邊，聽伊講規暗，一句都無嫌伊。", tailo: "A-bí ê ang tsē tī i sin-khu-pinn, thiann i kóng kui àm, tsi̍t kù to bô hiâm--i.", en: "Bí's husband sat beside him and listened to him all evening, without a single word of reproach."}
+  - {n: 15, hanji: "隔轉工，阿花婆佇路邊跋倒，是阿美的翁共伊揹去病院。", tailo: "Keh-tńg-kang, A-hue-pô tī lōo-pinn pua̍h-tó, sī A-bí ê ang kā i phāinn khì pēnn-īnn.", en: "The next day Old Hue fell by the roadside, and it was Bí's husband who carried her to hospital on his back."}
+  - {n: 16, hanji: "阿花婆倒佇病床，對阿美講：「恁翁一點仔都無頇顢，是阮傷歁矣。」", tailo: "A-hue-pô tó tī pēnn-tshn̂g, tuì A-bí kóng: “Lín ang tsi̍t-tiám-á to bô hân-bān, sī guán siunn khám--ah.”", en: "Lying in her hospital bed, Old Hue said to Bí: 'Your husband isn't useless at all. We were the fools.'"}
+  - {n: 17, hanji: "阿美笑講：「伊是較恬，毋過伊佮人行踏真古意。」", tailo: "A-bí tshiò kóng: “I sī khah tiām, m̄-koh i kah lâng kiânn-ta̍h tsin kóo-ì.”", en: "Bí smiled: 'He is on the quiet side, but he's honest in his dealings with people.'"}
+  - {n: 18, hanji: "對彼工了後，榕仔跤的阿婆猶是逐工咧開講。", tailo: "Uì hit kang liáu-āu, tshîng-á-kha ê a-pô iáu-sī ta̍k-kang teh khai-káng.", en: "After that the old women under the banyan still chatted every day."}
+  - {n: 19, hanji: "毋過𪜶這馬講的是：「阿美的翁有夠好，閣真𠢕幫贊人，一个人會當扛一隻牛！」", tailo: "M̄-koh in tsit-má kóng--ê sī: “A-bí ê ang ū-kàu hó, koh tsin gâu pang-tsān lâng, tsi̍t ê lâng ē-tàng kng tsi̍t tsiah gû!”", en: "But now what they say is: 'Bí's husband is so kind, always helping people. He can carry an ox all by himself!'"}
+  - {n: 20, hanji: "阿珠嬸聽了，笑講：「恁看，連好話嘛講甲遮譀。」", tailo: "A-tsu-tsím thiann liáu, tshiò kóng: “Lín khuànn, liân hó-uē mā kóng kah tsiah hàm.”", en: "Auntie Tsu laughed when she heard it: 'Look at you. Even the nice things get exaggerated.'"}
+notes:
+  - {ref: 2, topic: vocab, text: "議論 gī-lūn = discuss, talk about (often critically)."}
+  - {ref: 3, topic: vocab, text: "勥 khiàng = capable, formidable, sharp, said mostly of women: 伊真勥，逐家攏真呵咾 'she's very capable, everyone praises her'. 勥跤 khiàng-kha (line 4) says the same with a hint of disapproval: a woman who is a bit too much. 這站仔 tsit-tsām-á = lately."}
+  - {ref: 4, topic: vocab, text: "嗤舞嗤呲 tshi-bú-tshi̍h-tshū = whisper so others can't hear. 頇顢 hân-bān = clumsy, slow, useless at things: 彼箍做代誌真頇顢 'that guy is hopeless at anything'. Neither character is used outside this word."}
+  - {ref: 5, topic: vocab, text: "呲 tshū = whisper: 𪜶兩个咧呲啥物？ 'what are those two whispering about?'; also egg someone on: 有人佇咧呲，伊才會按呢做 'someone put him up to it'. 悾悾 khong-khong = dim, a bit simple; 悾顛 khong-tian 'crazy'."}
+  - {ref: 6, topic: vocab, text: "某乜人 bóo-mí-lâng = so-and-so, someone (whose name one doesn't know or won't say). 悾歁 khong-khám = stupid, idiotic (an insult)."}
+  - {ref: 7, topic: vocab, text: "譀 hàm = exaggerated, far-fetched: 你按呢傷譀啦 'that's going too far'; 愈講愈譀 'the story grows with each telling'. 譀古 hàm-kóo (line 10) = a tall tale; 譀鏡 hàm-kiànn = magnifying glass; 人生譀譀 'life is hollow'. 歁頭歁面 khám-thâu-khám-bīn = a blundering fool, someone who does stupid, tactless things; 歁 alone: 伊有夠歁."}
+  - {ref: 8, topic: vocab, text: "㤉 gê = loathe, can't stand: 看著這款人就㤉 'I can't stand people like that'. The coarse 㤉潲 gê-siâu means the same; avoid it. 插 tshap = pay attention to, get involved. 歹話 pháinn-uē = unkind words, badmouthing."}
+  - {ref: 9, topic: vocab, text: "何乜苦 hô-mí-khóo = why put yourself through it, why bother: 伊都無愛你，你何乜苦一直等伊？ 毋值 m̄-ta̍t = not worth. 致意 tì-ì = pay attention to, care about."}
+  - {ref: 11, topic: vocab, text: "撟 kiāu = curse, swear at; 姦撟 kàn-kiāu = swear foully. Both are words to recognise, not to use. 啉酒醉 lim-tsiú-tsuì = get drunk."}
+  - {ref: 15, topic: vocab, text: "揹 phāinn = carry on one's back."}
+  - {ref: 17, topic: vocab, text: "行踏 kiânn-ta̍h = dealings with people, conduct; also come and go, visit. 古意 kóo-ì = honest, good-natured."}
+  - {ref: 19, topic: vocab, text: "幫贊 pang-tsān = help, support: 真𠢕幫贊人 'always ready to help'. 扛 kng = carry (between two people, or on the shoulders)."}
+new_words:
+  - {tailo: a-pô, hanji: 阿婆, en: "old woman"}
+  - {tailo: gī-lūn, hanji: 議論, en: "discuss, talk about"}
+  - {tailo: khiàng, hanji: 勥, en: "capable, sharp"}
+  - {tailo: khiàng-kha, hanji: 勥跤, en: "(too) sharp, formidable"}
+  - {tailo: tshi-bú-tshi̍h-tshū, hanji: 嗤舞嗤呲, en: "whisper"}
+  - {tailo: hân-bān, hanji: 頇顢, en: "clumsy, useless"}
+  - {tailo: tshū, hanji: 呲, en: "whisper; egg on"}
+  - {tailo: khong-khong, hanji: 悾悾, en: "dim, simple"}
+  - {tailo: bóo-mí-lâng, hanji: 某乜人, en: "so-and-so"}
+  - {tailo: khong-khám, hanji: 悾歁, en: "stupid"}
+  - {tailo: hàm, hanji: 譀, en: "exaggerated"}
+  - {tailo: khám-thâu-khám-bīn, hanji: 歁頭歁面, en: "blundering fool"}
+  - {tailo: gê, hanji: 㤉, en: "loathe"}
+  - {tailo: hô-mí-khóo, hanji: 何乜苦, en: "why bother"}
+  - {tailo: m̄-ta̍t, hanji: 毋值, en: "not worth"}
+  - {tailo: tì-ì, hanji: 致意, en: "pay attention to"}
+  - {tailo: hàm-kóo, hanji: 譀古, en: "tall tale"}
+  - {tailo: lim-tsiú-tsuì, hanji: 啉酒醉, en: "get drunk"}
+  - {tailo: kàn-kiāu, hanji: 姦撟, en: "swear foully"}
+  - {tailo: kiânn-ta̍h, hanji: 行踏, en: "dealings; come and go"}
+  - {tailo: pang-tsān, hanji: 幫贊, en: "help"}
+exercises:
+  translate:
+    - {tailo: "A-kong ê ba̍k-tsiu bô hó--ah, ta̍k-kang khuànn pò-tsuá lóng ài iōng hàm-kiànn, tsi̍t jī tsi̍t jī tha̍k.", hanji: "阿公的目睭無好矣，逐工看報紙攏愛用譀鏡，一字一字讀。", en: "Grandpa's eyes aren't good any more. Every day he reads the newspaper with a magnifying glass, one character at a time."}
+    - {tailo: "Lí khuànn--tio̍h i, tō kín kiânn--khui, guá siōng gê tsit khuán kóng kah hó-thiann, tsò kah tsió ê lâng.", hanji: "你看著伊，就緊行開，我上㤉這款講甲好聽、做甲少的人。", en: "If you see him, walk away quickly. I can't stand people like that, all talk and no work."}
+    - {tailo: "Hit ê siàu-liân--ê bô-sè-jī kā a-pô lòng--tio̍h, a-pô kā i kiāu kui-poo, i suah m̄-kánn ìn.", hanji: "彼个少年的無細膩共阿婆挵著，阿婆共伊撟規晡，伊煞毋敢應。", en: "The young man bumped into the old woman by accident. She swore at him for ages, and he didn't dare answer back."}
+    - {tailo: "Lín tú-tsiah tī tsàu-kha teh tshū siánn-mih? Ū tāi-tsì tō tuā-siann kóng, m̄-thang thau-thau-á kóng.", hanji: "恁拄才佇灶跤咧呲啥物？有代誌就大聲講，毋通偷偷仔講。", en: "What were you whispering about in the kitchen just now? If something's up, say it out loud, not behind people's backs."}
+    - {tailo: "I tsò tāi-tsì tsin hân-bān, tsi̍t tè í-á tsò sann kang to tsò bē hó, a-pa khuànn kah tsin bô-nāi.", hanji: "伊做代誌真頇顢，一塊椅仔做三工都做袂好，阿爸看甲真無奈。", en: "He's hopeless with his hands. He spent three days on a chair and still couldn't get it right, and Dad just shook his head."}
+  fill:
+    - {tailo: "Lí bô ài khì tō mài khì, lí ___-mí-khóo it-ti̍t tshiò kóng ài khì, koh ka-kī tsin bô huann-hí?", hanji: "你無愛去就莫去，你___乜苦一直笑講愛去，閣家己真無歡喜？", answer: "hô", answer_hanji: "何", en: "If you don't want to go, don't. Why keep smiling and saying you want to, when you're so unhappy about it?"}
+    - {tailo: "Guán a-bú tsin ___, tsi̍t ê lâng tshī sì ê gín-á, koh khui tiàm, kui tsng lóng tsin o-ló.", hanji: "阮阿母真___，一个人飼四个囡仔，閣開店，規庄攏真呵咾。", answer: "khiàng", answer_hanji: "勥", en: "My mother is so capable: she raised four children on her own and ran a shop, and the whole village sings her praises."}
+    - {tailo: "Lí ___--neh, kánn tī lāu-su ê bīn-thâu-tsîng kóng i ê pháinn-uē, i it-tīng ē siū-khì.", hanji: "你___呢，敢佇老師的面頭前講伊的歹話，伊一定會受氣。", answer: "khám-khám", answer_hanji: "歁歁", en: "Are you stupid? Badmouthing the teacher right in front of her: she's bound to get angry."}
+    - {tailo: "I tsi̍t kóng-uē tō kóng ___-kóo, kóng i bat tī hái-lí kā tsi̍t bué tuā-hî phō--khí-lâi.", hanji: "伊一講話就講___古，講伊捌佇海裡共一尾大魚抱起來。", answer: "hàm", answer_hanji: "譀", en: "As soon as he opens his mouth it's tall tales: he says he once lifted a huge fish out of the sea with his bare arms."}
+    - {tailo: "I tsit kuí-ji̍t ná ē piàn-tsò ___-khong, mn̄g i siánn-mih lóng ìn bô tio̍h, kám-sī ū sim-sū?", hanji: "伊這幾日哪會變做___悾，問伊啥物攏應無著，敢是有心事？", answer: "khong", answer_hanji: "悾", en: "Why has he been so vacant these last few days? Whatever you ask him, his answers are off the mark. Has he got something on his mind?"}
+audio: []

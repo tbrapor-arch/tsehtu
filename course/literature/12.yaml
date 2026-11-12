@@ -1,0 +1,94 @@
+id: 12
+title: {en: "The old house", tailo: "Kū-tshù", hanji: "舊厝"}
+genre: story
+review: false
+setting: "A short story written for this course. After their father's death, two brothers come back to the family home to decide how to share it out. That night a typhoon comes."
+chars:
+  - {c: 敆, tailo: kap, en: "join, fit together; patch up", hint: "合 ha̍p 'join' + 攵 the hand that does it"}
+  - {c: 縒, tailo: tsua̍h, en: "(in) 走縒 'go wrong', 無較縒 'no use', 緊縒慢 'sooner or later'", hint: "糸 thread + 差 tsha 'differ': threads out of line"}
+  - {c: 𫝛, tailo: siāng, en: "the same, alike", hint: "a character the MOE created for this word: 亻 person + 象 siōng"}
+  - {c: 挃, tailo: ti̍h, en: "want (something)", hint: "扌 hand + 至 tì for the sound; 毋挃 m̄-ti̍h 'don't want'"}
+  - {c: 橛, tailo: kue̍h, en: "a section, a length (of something cut)", hint: "木 wood + 厥 khuat"}
+  - {c: 湠, tailo: thuànn, en: "spread, spread out", hint: "氵 water + 炭 thuànn for the sound: like water spreading"}
+  - {c: 𫝻, tailo: huê, en: "brush against, graze; rub back and forth", hint: "扌 hand + 回 huê 'back and forth', which gives the sound"}
+  - {c: 𪐞, tailo: tòo, en: "soak through, spread (a stain); infect", hint: "a character the MOE created: 黑 black + 土 thóo"}
+  - {c: 縭, tailo: lî, en: "(in) 薄縭絲 po̍h-li-si 'thin as thread, flimsy'", hint: "糸 thread + 离 lî for the sound; read li in 薄縭絲"}
+  - {c: 戽, tailo: hòo, en: "bail out (water), splash; (戽斗) a jutting jaw", hint: "戶 + 斗 'scoop': the scoop that throws the water out"}
+dialogue:
+  - {n: 1, hanji: "阿爸過身了後，阮兄弟仔兩个轉來舊厝，參詳欲按怎分。", tailo: "A-pa kuè-sin liáu-āu, guán hiann-tī-á nn̄g ê tńg-lâi kū-tshù, tsham-siông beh án-tsuánn pun.", en: "After Dad died, the two of us brothers came back to the old house to talk about how to divide it."}
+  - {n: 2, hanji: "阿兄講：「這間厝佮後壁的田，咱一人一半，分開較清楚。」", tailo: "A-hiann kóng: “Tsit king tshù kah āu-piah ê tshân, lán tsi̍t lâng tsi̍t puànn, hun-khui khah tshing-tshó.”", en: "My brother said: 'The house and the field behind it: half each. It's clearer if we split them.'"}
+  - {n: 3, hanji: "我講：「阿爸本來講欲予咱相佮蹛，毋是欲予咱分。」", tailo: "Guá kóng: “A-pa pún-lâi kóng beh hōo lán sann-kap tuà, m̄ sī beh hōo lán pun.”", en: "I said: 'Dad always meant for us to live here together, not to split it up.'"}
+  - {n: 4, hanji: "阿兄講：「我毋挃厝，我欲挃錢。厝賣掉，田對中央切做兩橛，一人一橛。」", tailo: "A-hiann kóng: “Guá m̄-ti̍h tshù, guá beh ti̍h tsînn. Tshù bē--tiāu, tshân uì tiong-ng tshiat tsò nn̄g kue̍h, tsi̍t lâng tsi̍t kue̍h.”", en: "My brother said: 'I don't want the house, I want the money. Sell the house, cut the field down the middle, one piece each.'"}
+  - {n: 5, hanji: "阮兩个講甲面紅紅，啥人都無欲讓。", tailo: "Guán nn̄g ê kóng kah bīn âng-âng, siánn-lâng to bô beh niū.", en: "We argued until we were red in the face, and neither of us would give way."}
+  - {n: 6, hanji: "這時，外口風颱來矣。雨愈落愈大，厝頂開始漏水。", tailo: "Tsit sî, guā-kháu hong-thai lâi--ah. Hōo jú lo̍h jú tuā, tshù-tíng khai-sí lāu-tsuí.", en: "Just then the typhoon arrived. The rain came down harder and harder, and the roof began to leak."}
+  - {n: 7, hanji: "水對壁縫流落來，白色的壁𪐞甲一大片烏烏。", tailo: "Tsuí uì piah-phāng lâu--lo̍h-lâi, pe̍h-sik ê piah tòo kah tsi̍t tuā phiàn oo-oo.", en: "Water ran down through the cracks in the wall, and a big dark stain spread across the white plaster."}
+  - {n: 8, hanji: "灶跤的水淹到跤目，阮兄弟仔隨提面桶來戽水。", tailo: "Tsàu-kha ê tsuí im kàu kha-ba̍k, guán hiann-tī-á suî the̍h bīn-tháng lâi hòo-tsuí.", en: "The water in the kitchen was up to our ankles, and we grabbed basins and started bailing."}
+  - {n: 9, hanji: "戽規暗，戽甲手痠，水猶是一直入來。", tailo: "Hòo kui àm, hòo kah tshiú sng, tsuí iáu-sī it-ti̍t ji̍p--lâi.", en: "We bailed all night, until our arms ached, and the water kept coming in."}
+  - {n: 10, hanji: "阿兄講：「無較縒啦，水戽袂了。」", tailo: "A-hiann kóng: “Bô-khah-tsua̍h--lah, tsuí hòo bē liáu.”", en: "My brother said: 'It's no use. We'll never bail it all out.'"}
+  - {n: 11, hanji: "我講：「咱共壁縫敆起來。阿爸較早攏是按呢做。」", tailo: "Guá kóng: “Lán kā piah-phāng kap--khí-lâi. A-pa khah-tsá lóng sī án-ne tsò.”", en: "I said: 'Let's patch up the cracks in the wall. That's what Dad always did.'"}
+  - {n: 12, hanji: "阮揣著阿爸的家私，用薄縭絲的枋仔共縫敆予密。", tailo: "Guán tshuē-tio̍h a-pa ê ke-si, iōng po̍h-li-si ê pang-á kā phāng kap hōo ba̍t.", en: "We found Dad's tools and used thin strips of board to seal the cracks."}
+  - {n: 13, hanji: "阿兄的手去𫝻著枋仔，𫝻一逝紅紅，血𪐞甲衫仔攏紅去。", tailo: "A-hiann ê tshiú khì huê-tio̍h pang-á, huê tsi̍t tsuā âng-âng, hueh tòo kah sann-á lóng âng--khì.", en: "My brother's hand caught on a board and got a red graze, and the blood soaked into his shirt."}
+  - {n: 14, hanji: "我看伊彼个戽斗的下頦，雄雄想著阿爸。阿爸嘛是戽斗，𪜶兩个生做真相𫝛。", tailo: "Guá khuànn i hit ê hòo-táu ê ē-hâi, hiông-hiông siūnn-tio̍h a-pa. A-pa mā sī hòo-táu, in nn̄g ê senn-tsò tsin sio-siāng.", en: "Looking at his jutting jaw, I suddenly thought of Dad. Dad had the same jaw. The two of them looked so alike."}
+  - {n: 15, hanji: "阿兄嘛咧看我：「你講話的款，佮阿爸𫝛款。」", tailo: "A-hiann mā teh khuànn guá: “Lí kóng-uē ê khuán, kah a-pa siāng-khuán.”", en: "My brother was looking at me too: 'You talk just like Dad.'"}
+  - {n: 16, hanji: "天光的時，風颱過矣。阮兩个穿甲薄縭絲，𫝛時坐佇戶橂頂，攏無講話。", tailo: "Thinn-kng ê sî, hong-thai kuè--ah. Guán nn̄g ê tshīng kah po̍h-li-si, siāng-sî tsē tī hōo-tīng tíng, lóng bô kóng-uē.", en: "At dawn the typhoon had passed. In our thin, soaked clothes, we sat down on the threshold at the same moment, without saying a word."}
+  - {n: 17, hanji: "埕裡的菜園，阿爸種的番薯湠甲規片，雨落了閣較青。", tailo: "Tiânn--lí ê tshài-hn̂g, a-pa tsìng ê han-tsî thuànn kah kui phiàn, hōo lo̍h liáu koh-khah tshenn.", en: "In the vegetable patch, the sweet potatoes Dad planted had spread everywhere, and they looked even greener after the rain."}
+  - {n: 18, hanji: "阿兄講：「番薯𠢕湠根。咱的根，嘛是湠佇這搭。」", tailo: "A-hiann kóng: “Han-tsî gâu thuànn-kin. Lán ê kin, mā sī thuànn tī tsit tah.”", en: "My brother said: 'Sweet potatoes put down roots everywhere. And our roots are here too.'"}
+  - {n: 19, hanji: "伊講：「厝毋賣矣，成做咱兄弟仔公家的。緊縒慢，咱的囡仔嘛會轉來。」", tailo: "I kóng: “Tshù m̄ bē--ah, tsiânn-tsò lán hiann-tī-á kong-ke--ê. Kín-tsua̍h-bān, lán ê gín-á mā ē tńg--lâi.”", en: "'We won't sell the house,' he said. 'It'll belong to both of us. Sooner or later our children will come back here too.'"}
+  - {n: 20, hanji: "我笑講：「好。毋過厝頂愛冗早修理，袂得閣等後一个風颱。」", tailo: "Guá tshiò kóng: “Hó. M̄-koh tshù-tíng ài liōng-tsá siu-lí, bē-tit koh tán āu tsi̍t ê hong-thai.”", en: "I smiled: 'All right. But the roof needs fixing soon. We can't wait for the next typhoon.'"}
+notes:
+  - {ref: 1, topic: vocab, text: "參詳 tsham-siông = talk over, discuss. 兄弟仔 hiann-tī-á = brothers."}
+  - {ref: 2, topic: vocab, text: "分開 hun-khui = separate, split up."}
+  - {ref: 3, topic: vocab, text: "相佮 sann-kap = together, jointly: 相佮蹛 'live together', 相佮出錢 'chip in together'. 本來 pún-lâi = originally."}
+  - {ref: 4, topic: vocab, text: "挃 ti̍h = want (an object): 這个袋仔你欲挃無？ 'do you want this bag?'; 毋挃 m̄-ti̍h 'don't want it'. 橛 kue̍h = a section, a length of something cut: 一橛甘蔗 'a length of sugar cane', 一尾魚仔切做兩橛 'cut a fish in two'."}
+  - {ref: 6, topic: vocab, text: "漏水 lāu-tsuí = leak. 愈…愈… jú… jú… = more and more."}
+  - {ref: 7, topic: vocab, text: "𪐞 tòo = soak through, spread (a liquid on cloth or paper): 白衫𪐞甲變烏的 'the white shirt got stained black'; also infect: 感冒會𪐞人 'a cold is catching'. 𪐞紙 tòo-tsuá = carbon paper."}
+  - {ref: 8, topic: vocab, text: "戽 hòo = bail out, scoop and throw water: 共水戽予焦 'bail it dry'; 戽水 hòo-tsuí 'splash water, irrigate'. 戽斗 hòo-táu (line 14) is a scoop, and also a jutting lower jaw. 淹 im = flood. 跤目 kha-ba̍k = ankle."}
+  - {ref: 10, topic: vocab, text: "無較縒 bô-khah-tsua̍h = it's no use: 已經害去矣，閣哭嘛無較縒 'it's done, crying won't help'. 走縒 tsáu-tsua̍h = go wrong, go out of shape. 緊縒慢 kín-tsua̍h-bān (line 19) = sooner or later. 縒 is not used on its own."}
+  - {ref: 11, topic: vocab, text: "敆 kap = join, fit together: 伊共兩本簿仔敆做伙 'he joined the two notebooks together'; 敆逝 kap-tsuā 'a seam, a joint'; 敆藥仔 kap-io̍h-á 'make up a prescription'."}
+  - {ref: 12, topic: vocab, text: "薄縭絲 po̍h-li-si = very thin, flimsy: 天氣變涼矣，你閣穿甲薄縭絲 'it's turned cool and you're still dressed so thinly'. 家私 ke-si = tools. 密 ba̍t = tight, sealed."}
+  - {ref: 13, topic: vocab, text: "𫝻 huê = brush against, graze: 手𫝻著塗粉 'get dust on one's hand'; also rub back and forth: 刀仔提去𫝻一下 'give the knife a quick sharpen'."}
+  - {ref: 14, topic: vocab, text: "𫝛 siāng = the same: 相𫝛 sio-siāng 'alike', 𫝛款 siāng-khuán (line 15) 'the same', 𫝛時 siāng-sî (line 16) 'at the same time', 𫝛年 siāng-nî 'the same year'. 下頦 ē-hâi = chin."}
+  - {ref: 17, topic: vocab, text: "湠 thuànn = spread: 火咧湠真緊 'the fire is spreading fast'; 湠根 thuànn-kin 'put down roots, spread'; 生湠 senn-thuànn 'breed, multiply'."}
+  - {ref: 19, topic: vocab, text: "成做 tsiânn-tsò = become, turn into. 公家 kong-ke = shared, held in common (read kong-ka it means public, government)."}
+  - {ref: 20, topic: vocab, text: "冗早 liōng-tsá = early, in good time, before it's too late. 袂得 bē-tit = can't, mustn't."}
+new_words:
+  - {tailo: hun-khui, hanji: 分開, en: "split up"}
+  - {tailo: sann-kap, hanji: 相佮, en: "together, jointly"}
+  - {tailo: ti̍h, hanji: 挃, en: "want"}
+  - {tailo: m̄-ti̍h, hanji: 毋挃, en: "not want"}
+  - {tailo: kue̍h, hanji: 橛, en: "section, length"}
+  - {tailo: tòo, hanji: 𪐞, en: "soak through, stain; infect"}
+  - {tailo: im, hanji: 淹, en: "flood"}
+  - {tailo: bīn-tháng, hanji: 面桶, en: "basin"}
+  - {tailo: hòo-tsuí, hanji: 戽水, en: "bail out water"}
+  - {tailo: hòo, hanji: 戽, en: "bail, scoop"}
+  - {tailo: bô-khah-tsua̍h, hanji: 無較縒, en: "it's no use"}
+  - {tailo: kap, hanji: 敆, en: "join, patch up"}
+  - {tailo: po̍h-li-si, hanji: 薄縭絲, en: "very thin"}
+  - {tailo: huê, hanji: 𫝻, en: "graze, brush against"}
+  - {tailo: hòo-táu, hanji: 戽斗, en: "jutting jaw; scoop"}
+  - {tailo: ē-hâi, hanji: 下頦, en: "chin"}
+  - {tailo: sio-siāng, hanji: 相𫝛, en: "alike"}
+  - {tailo: siāng-khuán, hanji: 𫝛款, en: "the same"}
+  - {tailo: siāng-sî, hanji: 𫝛時, en: "at the same time"}
+  - {tailo: thuànn, hanji: 湠, en: "spread"}
+  - {tailo: thuànn-kin, hanji: 湠根, en: "put down roots"}
+  - {tailo: tsiânn-tsò, hanji: 成做, en: "become"}
+  - {tailo: kong-ke, hanji: 公家, en: "shared, in common"}
+  - {tailo: kín-tsua̍h-bān, hanji: 緊縒慢, en: "sooner or later"}
+  - {tailo: liōng-tsá, hanji: 冗早, en: "in good time"}
+  - {tailo: bē-tit, hanji: 袂得, en: "can't, mustn't"}
+exercises:
+  translate:
+    - {tailo: "Lí nā tsiah-nī ài tsia̍h tsàu-kha ê kam-tsià, guá it-tīng bô ti̍h, guá kā guá ê hit kue̍h hōo--lí.", hanji: "你若遮爾愛食灶跤的甘蔗，我一定無挃，我共我的彼橛予你。", en: "If you love the sugar cane in the kitchen that much, I definitely don't want any. I'll give you my length."}
+    - {tailo: "Lâu-hîng kám-mōo í-king thuànn--khui--ah, lín ta̍k-ke tshut-mn̂g ài sè-jī, m̄-thang hōo lâng tòo--tio̍h.", hanji: "流行感冒已經湠開矣，恁逐家出門愛細膩，毋通予人𪐞著。", en: "The flu is spreading now. Be careful when you go out, all of you, and don't catch it from anyone."}
+    - {tailo: "Tsit pún tsheh ê tsuá li̍h--khì, guá iōng tsuá-ko kā i kap--khí-lâi, khuànn bē tshut ū kap-tsuā.", hanji: "這本冊的紙裂去，我用紙膏共伊敆起來，看袂出有敆逝。", en: "A page of this book was torn, so I glued it back together, and you can't see the join."}
+    - {tailo: "Lí tiānn-tiānn ài ka-kī tsi̍t ê khì hái-pinn siû-tsuí, kín-tsua̍h-bān ē tshut-tāi-tsì, lí liōng-tsá thîng--leh.", hanji: "你定定愛家己一个去海邊泅水，緊縒慢會出代誌，你冗早停咧。", en: "You keep going swimming in the sea on your own. Sooner or later something will happen. Stop while there's still time."}
+    - {tailo: "In nn̄g ê sī siāng-nî senn--ê, siāng-sî ji̍p ha̍k-hāu, siāng-sî thè-hiu, tsò-hué kuè sì-tsa̍p tang.", hanji: "𪜶兩个是𫝛年生的，𫝛時入學校，𫝛時退休，做伙過四十冬。", en: "The two of them were born in the same year, started school at the same time, retired at the same time, and spent forty years together."}
+  fill:
+    - {tailo: "Ji̍t-thâu khah kuè--leh tsiah ___-tsuí, tshài tsiah bē lian--khì, lí m̄-thang ji̍t-tàu tō ___.", hanji: "日頭較過咧才___水，菜才袂蔫去，你毋通日晝就___。", answer: "hòo", answer_hanji: "戽", en: "Water the vegetables once the sun has gone down a bit, so they don't wilt. Don't do it at midday."}
+    - {tailo: "Thinn-khì piàn liâng--ah, lí koh tshīng kah po̍h-___-si, kín tńg-khì ke tsi̍t niá sann, bô, ē kám-mōo.", hanji: "天氣變涼矣，你閣穿甲薄___絲，緊轉去加一領衫，無，會感冒。", answer: "li", answer_hanji: "縭", en: "It's turned cool and you're still dressed so thinly. Go home and put on another layer, or you'll catch cold."}
+    - {tailo: "Tsit kuá ê tāi-tsì a-pa kā lán kà kuí-nā pái, nā tsò kah tsáu-___, i ē tsiânn siū-khì.", hanji: "這寡的代誌阿爸共咱教幾若擺，若做甲走___，伊會誠受氣。", answer: "tsua̍h", answer_hanji: "縒", en: "Dad has shown us how to do this several times. If we get it wrong, he'll be very cross."}
+    - {tailo: "Guá tú-tsiah kiânn kuè piah-pinn, sann-á-ki khì ___-tio̍h thôo-hún, pe̍h sann piàn oo--khì.", hanji: "我拄才行過壁邊，衫仔裾去___著塗粉，白衫變烏去。", answer: "huê", answer_hanji: "𫝻", en: "I walked past the wall just now, and the hem of my top brushed against the dust and turned my white top grey."}
+    - {tailo: "In pē-á-kiánn senn tsò tsiok sio-___, lóng sī hòo-táu, kóng-uē ê khuán mā sio-___.", hanji: "𪜶爸仔囝生做足相___，攏是戽斗，講話的款嘛相___。", answer: "siāng", answer_hanji: "𫝛", en: "Father and son look very alike: they both have jutting jaws, and they talk the same way too."}
+audio: []

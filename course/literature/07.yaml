@@ -1,0 +1,88 @@
+id: 7
+title: {en: "Fireflies at night", tailo: "Àm-mî ê hué-kim-koo", hanji: "暗暝的火金蛄"}
+genre: story
+review: false
+setting: "A short story written for this course. Two cousins staying at their grandfather's in the country creep out of the house one night to see the fireflies by the stream."
+chars:
+  - {c: 迒, tailo: hānn, en: "step over, stride across", hint: "辶 walking + 亢"}
+  - {c: 跔, tailo: ku, en: "crouch, squat; huddle up somewhere", hint: "𧾷 foot + 句 kù for the sound"}
+  - {c: 䖙, tailo: the, en: "lie back, recline", hint: "虍 + 豸: a beast stretched out; 䖙椅 the-í 'reclining chair'"}
+  - {c: 跕, tailo: liam, en: "walk on tiptoe", hint: "𧾷 foot + 占 tsiam"}
+  - {c: 蝹, tailo: un, en: "curl up, huddle", hint: "虫 a creature + 昷 un for the sound"}
+  - {c: 蹽, tailo: liâu, en: "wade across; get involved in", hint: "𧾷 foot + 尞 liâu for the sound"}
+  - {c: 䠡, tailo: tshê, en: "drag along (feet, a hem); shuffle", hint: "𧾷 foot + 齊 tsê for the sound"}
+  - {c: 𧿳, tailo: phu̍t, en: "(in) 𧿳𧿳跳 'hop about, jump up and down'", hint: "𧾷 foot + 卜 pok: the sound of feet hitting the ground"}
+  - {c: 捗, tailo: pôo, en: "the shape of a hand or foot; (跤捗) foot, footprint", hint: "扌 + 步 pōo 'step'"}
+  - {c: 橂, tailo: tīng, en: "(in) 戶橂 'threshold'", hint: "木 wood + 碇 tīng for the sound"}
+dialogue:
+  - {n: 1, hanji: "阿公暗頓食飽，就䖙佇䖙椅看電視，看無偌久就睏去矣。", tailo: "A-kong àm-tǹg tsia̍h pá, tō the tī the-í khuànn tiān-sī, khuànn bô guā kú tō khùn--khì--ah.", en: "After dinner Grandpa lay back in his reclining chair to watch TV, and before long he was asleep."}
+  - {n: 2, hanji: "阿德細聲共我講：「溪仔邊有火金蛄，咱偷偷仔去看。」", tailo: "A-tik sè-siann kā guá kóng: “Khe-á-pinn ū hué-kim-koo, lán thau-thau-á khì khuànn.”", en: "My cousin Tik whispered to me: 'There are fireflies down by the stream. Let's sneak out and see them.'"}
+  - {n: 3, hanji: "阮兩个跕跤行，一步一步行過廳，驚去共阿公吵精神。", tailo: "Guán nn̄g ê liam kha kiânn, tsi̍t pōo tsi̍t pōo kiânn kuè thiann, kiann khì kā a-kong tshá tsing-sîn.", en: "We tiptoed through the living room one step at a time, afraid of waking Grandpa."}
+  - {n: 4, hanji: "門口的戶橂誠懸。阿德迒過去的時，跤去硞著戶橂，大大一聲。", tailo: "Mn̂g-kháu ê hōo-tīng tsiânn kuân. A-tik hānn--kuè-khì ê sî, kha khì kho̍k-tio̍h hōo-tīng, tuā-tuā tsi̍t siann.", en: "The threshold at the door was high. As Tik stepped over it, his foot knocked against it with a loud bang."}
+  - {n: 5, hanji: "阮兩个隨跔落去，跔佇門邊，連喘氣都毋敢喘。", tailo: "Guán nn̄g ê suî ku--lo̍h-khì, ku tī mn̂g-pinn, liân tshuán-khuì to m̄-kánn tshuán.", en: "We both crouched down at once and huddled by the door, not even daring to breathe."}
+  - {n: 6, hanji: "阿公䖙佇遐，身軀振動一下，閣咧鼾矣。", tailo: "A-kong the tī hia, sin-khu tín-tāng--tsi̍t-ē, koh teh huânn--ah.", en: "Grandpa, lying back in his chair, stirred, and then went on snoring."}
+  - {n: 7, hanji: "阮才閣迒過戶橂，走出去埕裡。月娘真光，照甲路白白。", tailo: "Guán tsiah koh hānn kuè hōo-tīng, tsáu tshut-khì tiânn--lí. Gue̍h-niû tsin kng, tsiò kah lōo pe̍h-pe̍h.", en: "Only then did we step over the threshold and run out into the yard. The moon was so bright the path shone white."}
+  - {n: 8, hanji: "去溪仔邊愛蹽過一條水溝。阮共鞋仔褪掉，跤踏落去，水冷吱吱。", tailo: "Khì khe-á-pinn ài liâu--kuè tsi̍t tiâu tsuí-kau. Guán kā ê-á thǹg--tiāu, kha ta̍h--lo̍h-khì, tsuí líng-ki-ki.", en: "To get to the stream we had to wade across a ditch. We took our shoes off and stepped in; the water was ice cold."}
+  - {n: 9, hanji: "蹽到水溝彼爿，規片草仔攏是火金蛄，一閃一閃，親像天頂的星落落來。", tailo: "Liâu kàu tsuí-kau hit pîng, kui phiàn tsháu-á lóng sī hué-kim-koo, tsi̍t siám tsi̍t siám, tshin-tshiūnn thinn-tíng ê tshenn lak--lo̍h-lâi.", en: "On the other side of the ditch the whole field was full of fireflies, flashing on and off, as if the stars had fallen out of the sky."}
+  - {n: 10, hanji: "阿德歡喜甲𧿳𧿳跳，跳甲水𫝺甲我規身軀。", tailo: "A-tik huann-hí kah phu̍t-phu̍t-thiàu, thiàu kah tsuí hiù kah guá kui-sin-khu.", en: "Tik was so happy he hopped up and down, splashing water all over me."}
+  - {n: 11, hanji: "雄雄，草仔內有物件咧振動，閣有聲。", tailo: "Hiông-hiông, tsháu-á lāi ū mi̍h-kiānn teh tín-tāng, koh ū siann.", en: "Suddenly something moved in the grass, and there was a noise."}
+  - {n: 12, hanji: "阿德驚甲蝹佇我的尻脊後，規身軀蝹做一丸。", tailo: "A-tik kiann kah un tī guá ê kha-tsiah-āu, kui-sin-khu un tsò tsi̍t uân.", en: "Tik was so scared he huddled behind me, curled up in a ball."}
+  - {n: 13, hanji: "草仔內行出來的，是一隻細隻的狗仔，一肢跤䠡咧䠡咧，敢若受傷矣。", tailo: "Tsháu-á lāi kiânn--tshut-lâi--ê, sī tsi̍t tsiah sè-tsiah ê káu-á, tsi̍t ki kha tshê--leh tshê--leh, ká-ná siū-siong--ah.", en: "What came out of the grass was a little puppy, dragging one leg along as if it was hurt."}
+  - {n: 14, hanji: "阮共狗仔抱起來，倒去的時，阮的褲跤澹糊糊，跤䠡甲強欲行袂振動。", tailo: "Guán kā káu-á phō--khí-lâi. Tò--khì ê sî, guán ê khòo-kha tâm-kôo-kôo, kha tshê kah kiōng-beh kiânn bē tín-tāng.", en: "We picked the puppy up. On the way back our trouser legs were soaked, and we shuffled along, barely able to walk."}
+  - {n: 15, hanji: "阮閣跕跤迒過戶橂，想講無人知。", tailo: "Guán koh liam kha hānn kuè hōo-tīng, siūnn-kóng bô lâng tsai.", en: "We tiptoed back over the threshold, thinking nobody would ever know."}
+  - {n: 16, hanji: "啥人知，阿公徛佇廳的中央，手攑一枝手電仔，對阮炤過來。", tailo: "Siánn-lâng tsai, a-kong khiā tī thiann ê tiong-ng, tshiú gia̍h tsi̍t ki tshiú-tiān-á, uì guán tshiō--kuè-lâi.", en: "But there was Grandpa standing in the middle of the living room with a torch in his hand, shining it at us."}
+  - {n: 17, hanji: "伊共手電仔對塗跤炤：塗跤有兩逝烏烏的跤捗，對門口一直到阮的房間。", tailo: "I kā tshiú-tiān-á uì thôo-kha tshiō: thôo-kha ū nn̄g tsuā oo-oo ê kha-pôo, uì mn̂g-kháu it-ti̍t kàu guán ê pâng-king.", en: "He shone the torch at the floor: two trails of dark footprints led from the front door all the way to our room."}
+  - {n: 18, hanji: "阿公講：「恁留落來的跡，比恁的喙較老實。」", tailo: "A-kong kóng: “Lín lâu--lo̍h-lâi ê jiah, pí lín ê tshuì khah láu-si̍t.”", en: "Grandpa said: 'The marks you've left are more honest than your mouths.'"}
+  - {n: 19, hanji: "阿德緊共狗仔抱予阿公看：「阿公，伊的跤受傷，咱共伊留咧好無？」", tailo: "A-tik kín kā káu-á phō hōo a-kong khuànn: “A-kong, i ê kha siū-siong, lán kā i lâu--leh hó--bô?”", en: "Tik quickly held the puppy up for Grandpa to see: 'Grandpa, its leg's hurt. Can we keep it?'"}
+  - {n: 20, hanji: "阿公看狗仔，閣看阮澹糊糊的褲跤，嘆一口氣：「先去共恁的跤捗洗清氣，明仔載才講。」", tailo: "A-kong khuànn káu-á, koh khuànn guán tâm-kôo-kôo ê khòo-kha, thàn tsi̍t kháu khuì: “Sing khì kā lín ê kha-pôo sé tshing-khì, bîn-á-tsài tsiah kóng.”", en: "Grandpa looked at the puppy, then at our soaking trousers, and sighed: 'Go and wash your feet first. We'll talk about it tomorrow.'"}
+notes:
+  - {ref: 1, topic: vocab, text: "䖙 the = lie back, recline, have a lie-down: 你若無爽快，就緊去䖙一下 'if you don't feel well, go and lie down'. 䖙椅 the-í = a reclining chair, deckchair; 半䖙倒 puànn-the-tó 'half lying down'."}
+  - {ref: 2, topic: vocab, text: "火金蛄 hué-kim-koo = firefly. 偷偷仔 thau-thau-á = secretly, on the sly."}
+  - {ref: 3, topic: vocab, text: "跕 liam = walk on tiptoe so as not to be heard: 跕跤行 liam kha kiânn. 吵精神 tshá tsing-sîn = wake someone up with noise (精神 tsing-sîn 'awake')."}
+  - {ref: 4, topic: vocab, text: "戶橂 hōo-tīng = the raised threshold of a traditional doorway; children are told not to sit on it (囡仔人毋通坐戶橂). 迒 hānn = step over: 迒過田岸 'step over the ridge between the fields'. 硞 kho̍k (文學 2) = knock, bump."}
+  - {ref: 5, topic: vocab, text: "跔 ku = crouch, squat; also stay huddled in a small place: 暫時佇遮罔跔 'make do here for the time being'. 連…都… liân… to… = not even…"}
+  - {ref: 6, topic: vocab, text: "鼾 huânn = snore (also read kônn)."}
+  - {ref: 8, topic: vocab, text: "蹽 liâu = wade across: 蹽水, 蹽溪仔. Figuratively 蹽落去 liâu--lo̍h-khì = get mixed up in something: 明明知影代誌真嚴重，伊嘛是蹽落去 'he knew it was serious and still waded in'. 褪 thǹg = take off (clothes, shoes)."}
+  - {ref: 9, topic: vocab, text: "彼爿 hit pîng = that side, over there. 閃 siám = flash. 落 lak = fall off, drop."}
+  - {ref: 10, topic: vocab, text: "𧿳𧿳跳 phu̍t-phu̍t-thiàu = hop up and down, with joy or anger: 阮母仔予我氣甲𧿳𧿳跳 'I made my mother hopping mad'; of a fish, still flapping about. 𫝺 hiù (文學 1) = splash."}
+  - {ref: 12, topic: vocab, text: "蝹 un = curl up, huddle: 伊蝹佇壁邊 'he huddled against the wall'. 跔 ku is crouching on the feet, 蝹 un is curling the whole body up. 尻脊後 kha-tsiah-āu = behind someone's back."}
+  - {ref: 13, topic: vocab, text: "䠡 tshê = drag along the ground: of a lame person or a crawling baby (會䠡袂爬 'can shuffle but not crawl'), or of feet or a long hem: 行路毋通按呢䠡 'don't drag your feet like that'."}
+  - {ref: 14, topic: vocab, text: "倒去 tò--khì = go back, return. 澹糊糊 tâm-kôo-kôo = soaking wet."}
+  - {ref: 16, topic: vocab, text: "炤 tshiō = shine a light on: 用手電仔炤 'shine a torch on'. 手電仔 tshiú-tiān-á = torch, flashlight."}
+  - {ref: 17, topic: vocab, text: "捗 pôo = the shape of a hand or foot: 跤捗 kha-pôo 'foot; footprint', 手捗 tshiú-pôo 'palm; handprint'. 跤捗號 = shoe size. 逝 tsuā = a line, a trail."}
+  - {ref: 18, topic: vocab, text: "跡 jiah = a mark, a trace left behind. 老實 láu-si̍t = honest."}
+new_words:
+  - {tailo: the, hanji: 䖙, en: "lie back, recline"}
+  - {tailo: the-í, hanji: 䖙椅, en: "reclining chair"}
+  - {tailo: liam, hanji: 跕, en: "tiptoe"}
+  - {tailo: hōo-tīng, hanji: 戶橂, en: "threshold"}
+  - {tailo: hānn, hanji: 迒, en: "step over"}
+  - {tailo: ku, hanji: 跔, en: "crouch; huddle"}
+  - {tailo: huânn, hanji: 鼾, en: "snore"}
+  - {tailo: liâu, hanji: 蹽, en: "wade"}
+  - {tailo: tsuí-kau, hanji: 水溝, en: "ditch"}
+  - {tailo: thǹg, hanji: 褪, en: "take off (clothes, shoes)"}
+  - {tailo: phu̍t-phu̍t-thiàu, hanji: 𧿳𧿳跳, en: "hop up and down"}
+  - {tailo: un, hanji: 蝹, en: "curl up"}
+  - {tailo: kha-tsiah-āu, hanji: 尻脊後, en: "behind someone's back"}
+  - {tailo: uân, hanji: 丸, en: "ball, pellet"}
+  - {tailo: tshê, hanji: 䠡, en: "drag along, shuffle"}
+  - {tailo: tò--khì, hanji: 倒去, en: "go back"}
+  - {tailo: tshiō, hanji: 炤, en: "shine a light on"}
+  - {tailo: kha-pôo, hanji: 跤捗, en: "foot; footprint"}
+  - {tailo: jiah, hanji: 跡, en: "mark, trace"}
+  - {tailo: thàn, hanji: 嘆, en: "sigh"}
+exercises:
+  translate:
+    - {tailo: "Sè-hàn ê sî, guá tsiânn ài tsē tī hōo-tīng tíng tán a-pa tńg--lâi, a-má lóng kiò guá m̄-thang tsē.", hanji: "細漢的時，我誠愛坐佇戶橂頂等阿爸轉來，阿媽攏叫我毋通坐。", en: "When I was little I loved sitting on the threshold waiting for Dad to come home, but Grandma always told me not to sit there."}
+    - {tailo: "Tsit tah bô kiô, ài liâu khe-á kuè--khì, lí kā ê-á thǹg--leh, khòo-kha mā kńg khah kuân--leh.", hanji: "這搭無橋，愛蹽溪仔過去，你共鞋仔褪咧，褲跤嘛捲較懸咧。", en: "There's no bridge here, so we'll have to wade across the stream. Take your shoes off and roll your trouser legs up higher."}
+    - {tailo: "Guá ê kha-pôo pí lâng khah tuā, ta̍k pái bé ê-á lóng tshuē bô ha̍p ê hō, tsin thâu-thiànn.", hanji: "我的跤捗比人較大，逐擺買鞋仔攏揣無合的號，真頭疼。", en: "My feet are bigger than most people's. Every time I buy shoes I can't find my size, and it's a real headache."}
+    - {tailo: "Tsit king pâng-king tsiah-nī sè, sann ê lâng tō ài ku tī tsia khùn, koh ài tuà kui kò gue̍h.", hanji: "這間房間遮爾細，三个人就愛跔佇遮睏，閣愛蹛規個月。", en: "This room is so small, and the three of us have to huddle in here to sleep, and for a whole month at that."}
+    - {tailo: "Tsit kiānn tāi-tsì tsin hiám, lí bîng-bîng tsai-iánn, nā liâu--lo̍h-khì, it-tīng ē hāi kàu ka-kī.", hanji: "這件代誌真險，你明明知影，若蹽落去，一定會害到家己。", en: "This business is dangerous, and you know it. If you get mixed up in it, you'll only hurt yourself."}
+  fill:
+    - {tailo: "A-má ji̍t-tàu tsia̍h pá, tō ài ___ tī the-í tíng thiann siu-im-ki, thiann--leh thiann--leh tō khùn--khì.", hanji: "阿媽日晝食飽，就愛___佇䖙椅頂聽收音機，聽咧聽咧就睏去。", answer: "the", answer_hanji: "䖙", en: "After lunch Grandma likes to lie back in her reclining chair listening to the radio, and she nods off as she listens."}
+    - {tailo: "Lí kha-kut iáu-buē hó, kiânn-lōo m̄-thang tshê kha, mā m̄-thang ___ kuè tsiah kuân ê tshân-huānn.", hanji: "你跤骨猶未好，行路毋通䠡跤，嘛毋通___過遮懸的田岸。", answer: "hānn", answer_hanji: "迒", en: "Your leg hasn't healed yet. Don't drag your feet when you walk, and don't go stepping over field ridges as high as these."}
+    - {tailo: "Sió-tī khuànn-tio̍h kuí-á-hì, kiann kah ___ tī phuē-lāi, kui-sin-khu kiu tsò tsi̍t uân.", hanji: "小弟看著鬼仔戲，驚甲___佇被內，規身軀勼做一丸。", answer: "un", answer_hanji: "蝹", en: "My little brother was so scared by the ghost film that he curled up under the covers in a ball."}
+    - {tailo: "Bîn-á-tsài a-pa beh kah lâng khì Ji̍t-pún tshit-thô, tsa-àm i tō huann-hí kah ___-thiàu.", hanji: "明仔載阿爸欲佮人去日本𨑨迌，昨暗伊就歡喜甲___跳。", answer: "phu̍t-phu̍t", answer_hanji: "𧿳𧿳", en: "Tomorrow Dad is going to Japan on holiday with his friends, and last night he was already hopping up and down with excitement."}
+    - {tailo: "Gín-á teh khùn, lí ji̍p-khì pâng-king ài ___ kha kiânn, m̄-thang kā i tshá tsing-sîn.", hanji: "囡仔咧睏，你入去房間愛___跤行，毋通共伊吵精神。", answer: "liam", answer_hanji: "跕", en: "The baby's asleep. Tiptoe when you go into the room, and don't wake him."}
+audio: []

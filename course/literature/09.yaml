@@ -1,0 +1,89 @@
+id: 9
+title: {en: "The thing by the pond", tailo: "Pi-pinn ê siánn-huè", hanji: "埤邊的啥貨"}
+genre: story
+review: false
+setting: "A short story written for this course. During a typhoon power cut, a grandfather tells his grandchildren about the night, sixty years ago, when he met something by the village pond."
+chars:
+  - {c: 恂, tailo: sún, en: "(in) 青恂恂 'pale with fright', 交懍恂 'shiver'", hint: "忄 heart + 旬 sûn for the sound"}
+  - {c: 虯, tailo: khiû, en: "curly; curl up; (虯儉) tight-fisted", hint: "虫 a creature + 丩 'twisted', like a coiled dragon"}
+  - {c: 齴, tailo: giàng, en: "stick out (teeth, horns, rocks)", hint: "齒 teeth + 彥 gān for the sound"}
+  - {c: 𠕇, tailo: tīng, en: "hard, solid", hint: "冂 + 亍 + 一: a character the MOE uses for this Taigi word"}
+  - {c: 漉, tailo: lok, en: "(in) 澹漉漉 'soaking wet'; (lo̍k) slosh, rinse; mud", hint: "氵 water + 鹿 lo̍k for the sound; two readings"}
+  - {c: 㴙, tailo: tsha̍p, en: "(in) 㴙㴙滴 'drip drip', 㴙㴙落 'keep falling'", hint: "氵 water + 集 tsi̍p 'gather'"}
+  - {c: 𣻸, tailo: siûnn, en: "slimy, slippery; slime", hint: "氵 water + 象 siōng for the sound"}
+  - {c: 挐, tailo: jû, en: "tangled, in a mess; make a fuss", hint: "如 jû for the sound + 手 hand: hands making a mess"}
+  - {c: 窞, tailo: thām, en: "sunken, hollowed", hint: "穴 hole + 臽 'pit'"}
+  - {c: 疕, tailo: phí, en: "scab; crust (of rice, mud)", hint: "疒 sickness + 匕 pí for the sound"}
+dialogue:
+  - {n: 1, hanji: "風颱彼暗停電，阿公點一枝蠟條，講一个古予阮聽。", tailo: "Hong-thai hit àm thîng-tiān, a-kong tiám tsi̍t ki la̍h-tiâu, kóng tsi̍t ê kóo hōo guán thiann.", en: "On the night of the typhoon the power went off. Grandpa lit a candle and told us a story."}
+  - {n: 2, hanji: "伊講，伊少年的時，有一暗佇埤邊行，雨㴙㴙落，規身軀澹漉漉。", tailo: "I kóng, i siàu-liân ê sî, ū tsi̍t àm tī pi-pinn kiânn, hōo tsha̍p-tsha̍p-lo̍h, kui-sin-khu tâm-lok-lok.", en: "He said that when he was young he was walking by the pond one night. The rain kept pouring down and he was soaked to the skin."}
+  - {n: 3, hanji: "路攏變漉糊糜，跤踏落去𣻸𣻸，強欲跋倒。", tailo: "Lōo lóng piàn lo̍k-kôo-muê, kha ta̍h--lo̍h-khì siûnn-siûnn, kiōng-beh pua̍h-tó.", en: "The path had turned to mud. It was so slippery underfoot that he nearly fell."}
+  - {n: 4, hanji: "雄雄，伊看著埤邊徛一个人，頭毛挐氅氅，虯虯閣長長，水對頭毛㴙㴙滴。", tailo: "Hiông-hiông, i khuànn-tio̍h pi-pinn khiā tsi̍t ê lâng, thâu-mn̂g jû-tsháng-tsháng, khiû-khiû koh tn̂g-tn̂g, tsuí uì thâu-mn̂g tsha̍p-tsha̍p-tih.", en: "Suddenly he saw someone standing by the pond, with long, curly, tangled hair, water dripping from it."}
+  - {n: 5, hanji: "彼个人越頭，喙內的牙齴齴，兩粒目睭窞落去，親像無目睭仁。", tailo: "Hit ê lâng ua̍t-thâu, tshuì-lāi ê gê giàng-giàng, nn̄g lia̍p ba̍k-tsiu thām--lo̍h-khì, tshin-tshiūnn bô ba̍k-tsiu-jîn.", en: "The figure turned round. Its teeth stuck out, and its eyes were sunk so deep it seemed to have no eyeballs."}
+  - {n: 6, hanji: "阿公驚甲面青恂恂，規身軀起交懍恂，神魂攏飛去矣。", tailo: "A-kong kiann kah bīn tshenn-sún-sún, kui-sin-khu khí ka-lún-sún, sîn-hûn lóng pue--khì--ah.", en: "Grandpa went white with fear, shivered from head to toe, and his soul all but left his body."}
+  - {n: 7, hanji: "我問：「彼是啥貨？」阿公講：「我嘛毋知是啥貨，我干焦知影愛走。」", tailo: "Guá mn̄g: “He sī siánn-huè?” A-kong kóng: “Guá mā m̄ tsai sī siánn-huè, guá kan-na tsai-iánn ài tsáu.”", en: "'What was it?' I asked. 'I didn't know what it was either,' said Grandpa. 'All I knew was that I had to run.'"}
+  - {n: 8, hanji: "伊越頭就走，毋過塗跤傷𣻸，伊跋一倒，倒佇漉糊糜內底。", tailo: "I ua̍t-thâu tō tsáu, m̄-koh thôo-kha siunn siûnn, i pua̍h tsi̍t tó, tó tī lo̍k-kôo-muê lāi-té.", en: "He turned and ran, but the ground was too slippery. He fell flat in the mud."}
+  - {n: 9, hanji: "彼个人行倚來，伸一肢手：「少年的，你敢有按怎？」", tailo: "Hit ê lâng kiânn uá--lâi, tshun tsi̍t ki tshiú: “Siàu-liân--ê, lí kám ū án-tsuánn?”", en: "The figure came closer and held out a hand: 'Young man, are you all right?'"}
+  - {n: 10, hanji: "彼肢手𠕇硞硞，冷吱吱，手頂閣有一塊一塊的疕。", tailo: "Hit ki tshiú tīng-khok-khok, líng-ki-ki, tshiú-tíng koh ū tsi̍t tè tsi̍t tè ê phí.", en: "The hand was hard as rock and ice cold, and covered in scabs."}
+  - {n: 11, hanji: "阿公想講：「死矣，這現現是水鬼。」", tailo: "A-kong siūnn-kóng: “Sí--ah, tse hiān-hiān sī tsuí-kuí.”", en: "Grandpa thought: 'That's it. This is a water ghost, no doubt about it.'"}
+  - {n: 12, hanji: "伊共目睭瞌起來，等水鬼共伊拖落埤。等規晡，攏無代誌。", tailo: "I kā ba̍k-tsiu kheh--khí-lâi, tán tsuí-kuí kā i thua lo̍h pi. Tán kui-poo, lóng bô tāi-tsì.", en: "He shut his eyes and waited for the ghost to drag him into the pond. He waited and waited, but nothing happened."}
+  - {n: 13, hanji: "伊目睭一下金，彼个「水鬼」看起來可比一个老阿伯，手提一領澹漉漉的網仔。", tailo: "I ba̍k-tsiu tsi̍t-ē kim, hit ê “tsuí-kuí” khuànn--khí-lâi khó-pí tsi̍t ê lāu a-peh, tshiú the̍h tsi̍t niá tâm-lok-lok ê bāng-á.", en: "When he opened his eyes, the 'ghost' looked just like an old man, holding a dripping fishing net."}
+  - {n: 14, hanji: "原來是隔壁庄掠魚的阿水伯。伊暗時來埤掠魚，無細膩跋落水。", tailo: "Guân-lâi sī keh-piah tsng lia̍h-hî ê A-tsuí-peh. I àm-sî lâi pi lia̍h-hî, bô-sè-jī pua̍h lo̍h tsuí.", en: "It was old Tsuí, a fisherman from the next village. He'd come to fish the pond at night and fallen in by accident."}
+  - {n: 15, hanji: "伊的頭毛本底就虯虯，齴牙嘛是天生的，目睭窞窞是因為老矣。", tailo: "I ê thâu-mn̂g pún-té tō khiû-khiû, giàng-gê mā sī thian-sing--ê, ba̍k-tsiu thām-thām sī in-uī lāu--ah.", en: "His hair had always been curly, his buck teeth he was born with, and his eyes were sunken because he was old."}
+  - {n: 16, hanji: "伊的手會遐𠕇，是規世人掠魚掠出來的；手頂的疕，是予魚刺割著的。", tailo: "I ê tshiú ē hiah tīng, sī kui-sì-lâng lia̍h-hî lia̍h--tshut-lâi--ê; tshiú-tíng ê phí, sī hōo hî-tshì kuah--tio̍h--ê.", en: "His hands were that hard from a lifetime of fishing, and the scabs were from fish bones cutting him."}
+  - {n: 17, hanji: "阿水伯笑甲喙仔開開：「短命囡仔，我猶未死，你就共我當做鬼！」", tailo: "A-tsuí-peh tshiò kah tshuì-á khui-khui: “Té-miā gín-á, guá iáu-buē sí, lí tō kā guá tòng-tsò kuí!”", en: "Old Tsuí laughed with his mouth wide open: 'Cheeky brat! I'm not dead yet, and you take me for a ghost!'"}
+  - {n: 18, hanji: "我問阿公：「這是底時的代誌？」阿公講：「六十冬前矣。」", tailo: "Guá mn̄g a-kong: “Tse sī tī-sî ê tāi-tsì?” A-kong kóng: “La̍k-tsa̍p tang tsîng--ah.”", en: "I asked Grandpa: 'When was this?' 'Sixty years ago,' he said."}
+  - {n: 19, hanji: "阿媽佇邊仔笑講：「伊彼暗轉來，頭毛挐氅氅，規身軀𣻸𣻸閣臭臭，我洗規暗才洗清氣。」", tailo: "A-má tī pinn--á tshiò kóng: “I hit àm tńg--lâi, thâu-mn̂g jû-tsháng-tsháng, kui-sin-khu siûnn-siûnn koh tshàu-tshàu, guá sé kui àm tsiah sé tshing-khì.”", en: "Grandma laughed beside him: 'When he came home that night his hair was all over the place and he was slimy and stinking from head to foot. It took me all night to get him clean.'"}
+  - {n: 20, hanji: "電火來矣。阿公閣講：「毋過，阿水伯三年前就過身矣。昨暗，我閣佇埤邊看著伊。」", tailo: "Tiān-hué lâi--ah. A-kong koh kóng: “M̄-koh, A-tsuí-peh sann nî tsîng tō kuè-sin--ah. Tsa-àm, guá koh tī pi-pinn khuànn-tio̍h--i.”", en: "The lights came back on. Then Grandpa added: 'But old Tsuí died three years ago. And last night I saw him again by the pond.'"}
+notes:
+  - {ref: 1, topic: vocab, text: "講古 kóng-kóo = tell a story; 一个古 'a story'. 蠟條 la̍h-tiâu = a candle."}
+  - {ref: 2, topic: vocab, text: "㴙㴙落 tsha̍p-tsha̍p-lo̍h = keep falling, pour down without stopping; 㴙㴙滴 tsha̍p-tsha̍p-tih = drip drip (line 4): 汗㴙㴙滴 'sweat dripping'. 澹漉漉 tâm-lok-lok = soaking wet. 埤 pi = a pond, an irrigation reservoir."}
+  - {ref: 3, topic: vocab, text: "漉糊糜 lo̍k-kôo-muê = thick mud, sludge. Read lo̍k, 漉 also means slosh, shake: 提起來漉漉咧，聽看內底是啥 'shake it and listen to what's inside'; 漉喙 lo̍k-tshuì 'rinse one's mouth'. 𣻸 siûnn = slimy, slippery: 塗跤𣻸𣻸 'the floor is slippery'; as a noun, slime: 齒𣻸 khí-siûnn 'plaque'."}
+  - {ref: 4, topic: vocab, text: "挐 jû = tangled, messy: 挐氅氅 jû-tsháng-tsháng 'a complete mess', 規間厝舞甲挐氅氅 'he's made a mess of the whole house'. Also make a fuss: 莫閣挐矣 'stop making a scene'. 虯 khiû = curly, curled: 伊的頭毛虯虯 'he has curly hair'."}
+  - {ref: 5, topic: vocab, text: "齴 giàng = stick out, jut: 牙齴齴 'teeth sticking out', 牛角齴齴 'jutting horns'; 齴牙 giàng-gê 'buck teeth', and figuratively bare one's teeth. 窞 thām = sunken: 窞肚 thām-tóo 'sag in the middle' (a sofa, a wall). 目睭仁 ba̍k-tsiu-jîn = eyeball."}
+  - {ref: 6, topic: vocab, text: "青恂恂 tshenn-sún-sún = white as a sheet with fear. 交懍恂 ka-lún-sún = a shiver of fear or cold: 起交懍恂 'shiver'. 神魂 sîn-hûn = the soul, one's wits."}
+  - {ref: 7, topic: vocab, text: "啥貨 siánn-huè = what, what thing (= 啥物 siánn-mih)."}
+  - {ref: 10, topic: vocab, text: "𠕇 tīng = hard: 這粒菝仔傷𠕇 'this guava is too hard'; 𠕇硞硞 tīng-khok-khok 'rock hard'; 𠕇篤 tīng-tauh 'solid, sturdy'. 疕 phí = a scab: 堅疕 kian-phí 'form a scab'; also a crust: 飯疕 pn̄g-phí 'rice crust at the bottom of the pot'. 囡仔疕 gín-á-phí = a brat."}
+  - {ref: 11, topic: vocab, text: "現現 hiān-hiān = obviously, plainly. 水鬼 tsuí-kuí = a water ghost, the drowned spirit said to pull people under."}
+  - {ref: 12, topic: vocab, text: "瞌 kheh = close (the eyes). 拖 thua = drag."}
+  - {ref: 13, topic: vocab, text: "目睭金 ba̍k-tsiu kim = eyes open (金 'bright'). 可比 khó-pí = just like, as if."}
+  - {ref: 15, topic: vocab, text: "本底 pún-té = originally, all along. 天生 thian-sing = by birth. 虯 is also tight-fisted: 虯儉 khiû-khiām 'frugal, stingy'."}
+  - {ref: 17, topic: vocab, text: "短命 té-miā = literally 'short-lived', a curse; 短命囡仔 is a scolding 'you brat!', often half-affectionate."}
+  - {ref: 18, topic: vocab, text: "底時 tī-sî = when (= 當時 tang-sî)."}
+new_words:
+  - {tailo: pi, hanji: 埤, en: "pond"}
+  - {tailo: tsha̍p-tsha̍p-lo̍h, hanji: 㴙㴙落, en: "keep pouring down"}
+  - {tailo: tâm-lok-lok, hanji: 澹漉漉, en: "soaking wet"}
+  - {tailo: lo̍k-kôo-muê, hanji: 漉糊糜, en: "mud, sludge"}
+  - {tailo: siûnn, hanji: 𣻸, en: "slimy, slippery"}
+  - {tailo: jû-tsháng-tsháng, hanji: 挐氅氅, en: "in a tangle, a mess"}
+  - {tailo: khiû, hanji: 虯, en: "curly"}
+  - {tailo: tsha̍p-tsha̍p-tih, hanji: 㴙㴙滴, en: "dripping"}
+  - {tailo: giàng, hanji: 齴, en: "stick out"}
+  - {tailo: thām, hanji: 窞, en: "sunken"}
+  - {tailo: ba̍k-tsiu-jîn, hanji: 目睭仁, en: "eyeball"}
+  - {tailo: tshenn-sún-sún, hanji: 青恂恂, en: "pale with fright"}
+  - {tailo: ka-lún-sún, hanji: 交懍恂, en: "shiver"}
+  - {tailo: sîn-hûn, hanji: 神魂, en: "soul, wits"}
+  - {tailo: siánn-huè, hanji: 啥貨, en: "what"}
+  - {tailo: tīng-khok-khok, hanji: 𠕇硞硞, en: "rock hard"}
+  - {tailo: phí, hanji: 疕, en: "scab; crust"}
+  - {tailo: hiān-hiān, hanji: 現現, en: "obviously"}
+  - {tailo: khó-pí, hanji: 可比, en: "just like"}
+  - {tailo: giàng-gê, hanji: 齴牙, en: "buck teeth"}
+  - {tailo: té-miā, hanji: 短命, en: "(curse) brat, damn"}
+  - {tailo: tī-sî, hanji: 底時, en: "when"}
+exercises:
+  translate:
+    - {tailo: "Tsit tsiah káu ê gê giàng-giàng, khuànn--khí-lâi tsin hiông, m̄-koh i tsiânn kuai, m̄-bat kā--lâng.", hanji: "這隻狗的牙齴齴，看起來真雄，毋過伊誠乖，毋捌咬人。", en: "This dog's teeth stick out and it looks fierce, but it's very good and has never bitten anyone."}
+    - {tailo: "Tsit tsiah phòng-í tsē liáu siunn kú, tiong-ng í-king thām--lo̍h-khì, tsē--lo̍h-khì tsin bē sóng-khuài.", hanji: "這隻膨椅坐了傷久，中央已經窞落去，坐落去真袂爽快。", en: "This sofa has been sat on too long. It sags in the middle and it's uncomfortable to sit on."}
+    - {tailo: "Tiánn-té ê pn̄g-phí tīng-khok-khok, guá iáu-sī khioh--khí-lâi ùn thn̂g tsia̍h, tshin-tshiūnn sè-hàn ê sî.", hanji: "鼎底的飯疕𠕇硞硞，我猶是抾起來搵糖食，親像細漢的時。", en: "The rice crust at the bottom of the pot was rock hard, but I still scraped it up and dipped it in sugar, like when I was a child."}
+    - {tailo: "Lí tī-sî beh tńg-khì Tâi-uân? Lí nā tsai-iánn ji̍t-tsí, kín kā guá kóng, guá khì ki-tiûnn tsiap--lí.", hanji: "你底時欲轉去臺灣？你若知影日子，緊共我講，我去機場接你。", en: "When are you going back to Taiwan? As soon as you know the date, tell me, and I'll pick you up at the airport."}
+    - {tailo: "Pâng-king bú kah jû-tsháng-tsháng, tsheh tàn kah thôo-kha tsi̍t-sì-kè, tse hiān-hiān sī sió-tī tsò--ê.", hanji: "房間舞甲挐氅氅，冊擲甲塗跤一四界，這現現是小弟做的。", en: "The room is in a complete mess, with books thrown all over the floor. This is obviously my little brother's doing."}
+  fill:
+    - {tailo: "Lí kám-mōo iáu-buē hó, koh tī guā-kháu lâm hōo, kui-sin-khu lâm kah tâm-___-lok, kín khì sé sio-tsuí.", hanji: "你感冒猶未好，閣佇外口淋雨，規身軀淋甲澹___漉，緊去洗燒水。", answer: "lok", answer_hanji: "漉", en: "Your cold isn't better yet and you've been out in the rain. You're soaked to the skin. Go and have a hot bath."}
+    - {tailo: "Tsit kuí ji̍t hōo tsha̍p-tsha̍p-lo̍h, tshù-āu ê lōo put-sî lóng ___-lap-lap, lí kiânn-lōo ài khah sè-jī--leh.", hanji: "這幾日雨㴙㴙落，厝後的路不時攏___塌塌，你行路愛較細膩咧。", answer: "siûnn", answer_hanji: "𣻸", en: "It's been pouring these last few days, and the path behind the house is always slippery. Be careful how you walk."}
+    - {tailo: "Lí kha-thâu-u ê khang-tshuì í-king kian-___--ah, m̄-thang koh iōng tshiú khì jiàu, bô, ē lâu-hueh.", hanji: "你跤頭趺的空喙已經堅___矣，毋通閣用手去抓，無，會流血。", answer: "phí", answer_hanji: "疕", en: "The cut on your knee has scabbed over. Don't pick at it again, or it will bleed."}
+    - {tailo: "I khuànn-tio̍h hit tsiah tuā tsuâ, kiann kah bīn tshenn-___-sún, tsi̍t kù uē to kóng bē tshut--lâi.", hanji: "伊看著彼隻大蛇，驚甲面青___恂，一句話都講袂出來。", answer: "sún", answer_hanji: "恂", en: "When he saw the huge snake he went white with fear and couldn't get a word out."}
+    - {tailo: "Guán a-kong tsin ___-khiām, tsi̍t niá sann tshīng sann-tsa̍p nî, phuà--khì tō ka-kī póo.", hanji: "阮阿公真___儉，一領衫穿三十年，破去就家己補。", answer: "khiû", answer_hanji: "虯", en: "My grandfather is very frugal. He's worn the same shirt for thirty years and mends it himself when it tears."}
+audio: []

@@ -1,6 +1,7 @@
 """Click through the built app in a phone-sized browser and report problems.
 
   python3 tools/smoke.py [app/dist/index.html] [--shots DIR]
+  SMOKE_IDS=204,205 python3 tools/smoke.py      # only these lessons (the full run takes over 15 min)
 
 Checks: JS errors, horizontal overflow, every lesson renders, every word token and new-word chip opens a card,
 every note opens, exercises answer, review session runs, themes / bridge / settings render.
@@ -44,6 +45,7 @@ with sync_playwright() as pw:
         os.makedirs(SHOTS, exist_ok=True)
         page.screenshot(path=f'{SHOTS}/lessons.png')
     ids = page.evaluate('DATA.lessons.map(l => l.id)')
+    if os.environ.get('SMOKE_IDS'): ids = [int(x) for x in os.environ['SMOKE_IDS'].split(',')]
     for lid in ids:
         page.evaluate(f"location.hash = 'lesson-{lid}'")
         page.wait_for_selector('.lines')

@@ -1,0 +1,89 @@
+id: 8
+title: {en: "The wedding dress", tailo: "Sin-niû ê kûn", hanji: "新娘的裙"}
+genre: story
+review: false
+setting: "A short story written for this course. A young woman wants her wedding clothes made by hand by the old seamstress at the end of the street. A few days before the wedding, there is a stain."
+chars:
+  - {c: 䘥, tailo: kah, en: "(in) 䘥仔 'waistcoat, vest'", hint: "衤 clothing + 甲 kah 'armour', which gives the sound"}
+  - {c: 襇, tailo: kíng, en: "pleat, fold (in cloth)", hint: "衤 clothing + 間 kan 'gap'"}
+  - {c: 裾, tailo: ki, en: "hem (of a garment)", hint: "衤 clothing + 居 ki for the sound"}
+  - {c: 紺, tailo: khóng, en: "navy blue", hint: "糸 thread + 甘; the reading comes from Japanese 紺 kon"}
+  - {c: 娗, tailo: thānn, en: "(in) 妝娗 'dress up, make oneself up; decoration'", hint: "女 woman + 廷"}
+  - {c: 袚, tailo: phua̍h, en: "drape over (the shoulders, neck); 袚鍊 'necklace'", hint: "衤 clothing + 犮 pua̍t; easily misread as 被"}
+  - {c: 縖, tailo: hâ, en: "tie round (the waist)", hint: "糸 thread + 害 hāi for the sound"}
+  - {c: 紩, tailo: thīnn, en: "sew by hand, stitch", hint: "糸 thread + 失"}
+  - {c: 鋏, tailo: giap, en: "clip, pin; (頭毛鋏仔) hairpin", hint: "金 metal + 夾 kiap 'clip'"}
+  - {c: 璇, tailo: suān, en: "(in) 璇石 'diamond'", hint: "王 jade + 旋 suân for the sound"}
+dialogue:
+  - {n: 1, hanji: "阮阿姊欲嫁矣。伊講結婚的衫毋愛買，欲予街仔尾的阿秀姨做。", tailo: "Guán a-tsí beh kè--ah. I kóng kiat-hun ê sann m̄ ài bé, beh hōo ke-á-bué ê A-siù-î tsò.", en: "My big sister is getting married. She says she doesn't want to buy her wedding clothes. She wants Auntie Siù at the end of the street to make them."}
+  - {n: 2, hanji: "阿秀姨做衫做四十冬矣，伊的工夫規條街攏知。", tailo: "A-siù-î tsò sann tsò sì-tsa̍p tang--ah, i ê kang-hu kui tiâu ke lóng tsai.", en: "Auntie Siù has been making clothes for forty years, and the whole street knows how skilled she is."}
+  - {n: 3, hanji: "伊先提一張紙佇頂面畫圖，設計一領白色的長裙。", tailo: "I sing the̍h tsi̍t tiunn tsuá tī tíng-bīn uē-tôo, siat-kè tsi̍t niá pe̍h-sik ê tn̂g-kûn.", en: "First she took a sheet of paper and drew on it, designing a long white dress."}
+  - {n: 4, hanji: "伊講：「裙愛抾襇。襇愛幼，抾三十六襇，行路的時才會搖。」", tailo: "I kóng: “Kûn ài khioh-kíng. Kíng ài iù, khioh sann-tsa̍p-la̍k kíng, kiânn-lōo ê sî tsiah ē iô.”", en: "'The skirt needs pleats,' she said. 'Fine ones, thirty-six of them, so it sways when you walk.'"}
+  - {n: 5, hanji: "阿姊問：「裙裾欲偌長？」阿秀姨講：「裾愛䠡著塗跤，才有新娘的款。」", tailo: "A-tsí mn̄g: “Kûn-ki beh guā tn̂g?” A-siù-î kóng: “Ki ài tshê-tio̍h thôo-kha, tsiah ū sin-niû ê khuán.”", en: "My sister asked: 'How long will the hem be?' 'It should trail on the floor,' said Auntie Siù. 'That's what makes a bride.'"}
+  - {n: 6, hanji: "伊用針一針一針紩，紩甲目鏡攏落到鼻頭。", tailo: "I iōng tsiam tsi̍t tsiam tsi̍t tsiam thīnn, thīnn kah ba̍k-kiànn lóng lak kàu phīnn-thâu.", en: "She sewed it stitch by stitch by hand, until her glasses slid down to the tip of her nose."}
+  - {n: 7, hanji: "我問伊哪毋用機器，伊講：「機器嘛會使，毋過手紩的，才有人的溫度。」", tailo: "Guá mn̄g i ná m̄ iōng ki-khì, i kóng: “Ki-khì mā ē-sái, m̄-koh tshiú thīnn--ê, tsiah ū lâng ê un-tōo.”", en: "I asked her why she didn't use a machine. 'A machine would do,' she said, 'but only hand stitching has a person's warmth in it.'"}
+  - {n: 8, hanji: "阿姊夫嘛來矣。伊欲穿紺色的西裝，內底閣一領紺色的䘥仔。", tailo: "A-tsí-hu mā lâi--ah. I beh tshīng khóng-sik ê se-tsong, lāi-té koh tsi̍t niá khóng-sik ê kah-á.", en: "My sister's fiancé came too. He's going to wear a navy suit, with a navy waistcoat underneath."}
+  - {n: 9, hanji: "阿秀姨共伊量腰，講：「你遮瘦，褲帶愛縖較絚咧，無，褲會落落來。」", tailo: "A-siù-î kā i niû io, kóng: “Lí tsiah sán, khòo-tuà ài hâ khah ân--leh, bô, khòo ē lak--lo̍h-lâi.”", en: "Auntie Siù measured his waist: 'You're so thin, you'll have to do your belt up tighter, or your trousers will fall down.'"}
+  - {n: 10, hanji: "阿姊夫笑講：「欲縖偌絚？我驚食桌的時食袂落。」", tailo: "A-tsí-hu tshiò kóng: “Beh hâ guā ân? Guá kiann tsia̍h-toh ê sî tsia̍h bē lo̍h.”", en: "He laughed: 'How tight? I'm worried I won't be able to eat anything at the banquet.'"}
+  - {n: 11, hanji: "試衫彼工，阿姊穿白裙，阿姊夫穿紺色的西裝佮䘥仔，兩个徛做伙，看起來真相好。", tailo: "Tshì sann hit kang, a-tsí tshīng pe̍h kûn, a-tsí-hu tshīng khóng-sik ê se-tsong kah kah-á, nn̄g ê khiā tsò-hué, khuànn--khí-lâi tsin siong-hó.", en: "On the day of the fitting, my sister wore the white dress and her fiancé the navy suit and waistcoat. Standing side by side they looked so close."}
+  - {n: 12, hanji: "阿母共阿姊妝娗：抹粉、點喙脣，閣用頭毛鋏仔共頭毛鋏予好。", tailo: "A-bú kā a-tsí tsng-thānn: buah-hún, tiám tshuì-tûn, koh iōng thâu-mn̂g-giap-á kā thâu-mn̂g giap hōo hó.", en: "Mum did my sister's make-up: powder, a touch of lipstick, and hairpins to keep her hair in place."}
+  - {n: 13, hanji: "阿媽提一條袚鍊出來，袚佇阿姊的頷頸：「這是我嫁的時，恁阿公送我的。」", tailo: "A-má the̍h tsi̍t tiâu phua̍h-liān tshut--lâi, phua̍h tī a-tsí ê ām-kún: “Tse sī guá kè ê sî, lín a-kong sàng--guá--ê.”", en: "Grandma brought out a necklace and put it round my sister's neck: 'Your grandfather gave me this when I got married.'"}
+  - {n: 14, hanji: "袚鍊頂懸有一粒細細粒的璇石。有這粒璇石來妝娗，阿姊閣較媠矣。", tailo: "Phua̍h-liān tíng-kuân ū tsi̍t lia̍p sè-sè-lia̍p ê suān-tsio̍h. Ū tsit lia̍p suān-tsio̍h lâi tsng-thānn, a-tsí koh-khah suí--ah.", en: "On the necklace was a tiny diamond. With the diamond to set it off, my sister looked even more beautiful."}
+  - {n: 15, hanji: "毋過阿秀姨看一下，面色真各樣：「裙裾遮哪會有一逝紅紅的？」", tailo: "M̄-koh A-siù-î khuànn--tsi̍t-ē, bīn-sik tsin koh-iūnn: “Kûn-ki tsia ná ē ū tsi̍t tsuā âng-âng--ê?”", en: "But Auntie Siù took one look and her face changed: 'What's this red streak on the hem?'"}
+  - {n: 16, hanji: "原來阿姊夫拄才食肉圓，紅色的醬滒著手，煞去摸著阿姊的裙裾。", tailo: "Guân-lâi a-tsí-hu tú-tsiah tsia̍h bah-uân, âng-sik ê tsiùnn kō-tio̍h tshiú, suah khì bong-tio̍h a-tsí ê kûn-ki.", en: "It turned out the fiancé had just eaten a meatball, got red sauce on his hand, and then touched the hem of her dress."}
+  - {n: 17, hanji: "阿姊氣甲欲哭，阿秀姨講：「莫哭，我有法度。」", tailo: "A-tsí khì kah beh khàu, A-siù-î kóng: “Mài khàu, guá ū huat-tōo.”", en: "My sister was so upset she was about to cry. 'Don't cry,' said Auntie Siù. 'I can fix it.'"}
+  - {n: 18, hanji: "伊共彼搭剪掉，閣佇裙裾紩一逝紺色的邊。", tailo: "I kā hit tah tsián--tiāu, koh tī kûn-ki thīnn tsi̍t tsuā khóng-sik ê pinn.", en: "She cut that bit off and sewed a navy-blue border along the hem."}
+  - {n: 19, hanji: "伊講：「按呢，新娘的裙佮新郎的䘥仔仝色，看就知恁是一對。」", tailo: "I kóng: “Án-ne, sin-niû ê kûn kah sin-lông ê kah-á kāng sik, khuànn tō tsai lín sī tsi̍t tuì.”", en: "'There,' she said. 'Now the bride's dress matches the groom's waistcoat. Anyone can see you're a pair.'"}
+  - {n: 20, hanji: "阿姊看規晡，講：「我分別袂出來佗一搭是後來紩的。」阿秀姨笑講：「這就是工夫。」", tailo: "A-tsí khuànn kui-poo, kóng: “Guá hun-pia̍t bē tshut-lâi tó tsi̍t tah sī āu-lâi thīnn--ê.” A-siù-î tshiò kóng: “Tse tō sī kang-hu.”", en: "My sister looked at it for ages: 'I can't tell which bit was added afterwards.' Auntie Siù smiled: 'That's what skill is.'"}
+notes:
+  - {ref: 2, topic: vocab, text: "工夫 kang-hu = skill, workmanship; 做工夫 'do fine work'. It also means kung fu, and effort: 這項代誌真費工夫 'this takes a lot of work'."}
+  - {ref: 3, topic: vocab, text: "畫圖 uē-tôo = draw, make a drawing. 設計 siat-kè = design; in older Taigi it also means scheme, plot."}
+  - {ref: 4, topic: vocab, text: "襇 kíng = a pleat, and also the counter for pleats: 抾三十六襇 'make thirty-six pleats'. 抾襇 khioh-kíng = make pleats; of skin, wrinkle: 老人面皮抾襇 'an old person's wrinkled face'. 百襇裙 pah-kíng-kûn = pleated skirt."}
+  - {ref: 5, topic: vocab, text: "裾 ki = the hem, the bottom edge of a garment: 衫仔裾 sann-á-ki 'the hem of a top', 開裾 khui-ki 'a slit (in a skirt)'. 䠡 tshê (文學 7) = drag along the ground."}
+  - {ref: 6, topic: vocab, text: "紩 thīnn = sew by hand: 紩衫 'sew clothes', 補紩 póo-thīnn 'mend'. 目鏡 ba̍k-kiànn = glasses."}
+  - {ref: 8, topic: vocab, text: "紺色 khóng-sik = navy blue, a word from Japanese. 䘥仔 kah-á = waistcoat, sleeveless top; 內䘥仔 lāi-kah-á = vest, undershirt. 阿姊夫 a-tsí-hu = elder sister's husband."}
+  - {ref: 9, topic: vocab, text: "縖 hâ = tie round the waist: 縖褲帶 'do up one's belt', 縖裙 'tie on a skirt'. 量 niû = measure. 絚 ân = tight."}
+  - {ref: 11, topic: vocab, text: "相好 siong-hó = close, fond of each other, on good terms; 真相好 'very close'."}
+  - {ref: 12, topic: vocab, text: "妝娗 tsng-thānn = make up, dress up: 欲去食桌，著愛小妝娗一下 'if you're going to a banquet, you should dress up a little'. It is also a decoration (line 14). 鋏 giap = clip, pin: 頭毛鋏仔 'hairpin'."}
+  - {ref: 13, topic: vocab, text: "袚 phua̍h = drape over: 伊共面巾袚佇肩胛頭 'he slung the towel over his shoulder'. 袚鍊 phua̍h-liān = necklace; 一袚珠仔鍊 'a string of pearls'. Don't confuse 袚 with 被 phuē 'quilt'."}
+  - {ref: 14, topic: vocab, text: "璇石 suān-tsio̍h = diamond: 璇石手指 'a diamond ring'. 璇筆 suān-pit = a diamond glass-cutter."}
+  - {ref: 15, topic: vocab, text: "各樣 koh-iūnn = strange, out of the ordinary: 面色真各樣 'he looked odd'. Not Mandarin 各樣 'all kinds'."}
+  - {ref: 19, topic: vocab, text: "仝色 kāng sik = the same colour. 一對 tsi̍t tuì = a pair, a couple."}
+  - {ref: 20, topic: vocab, text: "分別 hun-pia̍t = tell apart, distinguish: 分別袂出來 'can't tell the difference'."}
+new_words:
+  - {tailo: kang-hu, hanji: 工夫, en: "skill, workmanship"}
+  - {tailo: uē-tôo, hanji: 畫圖, en: "draw"}
+  - {tailo: siat-kè, hanji: 設計, en: "design"}
+  - {tailo: khioh-kíng, hanji: 抾襇, en: "make pleats; wrinkle"}
+  - {tailo: kíng, hanji: 襇, en: "pleat"}
+  - {tailo: ki, hanji: 裾, en: "hem"}
+  - {tailo: thīnn, hanji: 紩, en: "sew by hand"}
+  - {tailo: khóng-sik, hanji: 紺色, en: "navy blue"}
+  - {tailo: se-tsong, hanji: 西裝, en: "suit"}
+  - {tailo: kah-á, hanji: 䘥仔, en: "waistcoat, vest"}
+  - {tailo: khòo-tuà, hanji: 褲帶, en: "belt"}
+  - {tailo: hâ, hanji: 縖, en: "tie round the waist"}
+  - {tailo: siong-hó, hanji: 相好, en: "close, fond of each other"}
+  - {tailo: tsng-thānn, hanji: 妝娗, en: "dress up; decoration"}
+  - {tailo: buah-hún, hanji: 抹粉, en: "powder one's face"}
+  - {tailo: thâu-mn̂g-giap-á, hanji: 頭毛鋏仔, en: "hairpin"}
+  - {tailo: giap, hanji: 鋏, en: "clip, pin"}
+  - {tailo: phua̍h-liān, hanji: 袚鍊, en: "necklace"}
+  - {tailo: phua̍h, hanji: 袚, en: "drape over"}
+  - {tailo: suān-tsio̍h, hanji: 璇石, en: "diamond"}
+  - {tailo: koh-iūnn, hanji: 各樣, en: "strange, odd"}
+  - {tailo: hun-pia̍t, hanji: 分別, en: "tell apart"}
+exercises:
+  translate:
+    - {tailo: "Tsit niá sann ê sann-á-ki li̍h--khì--ah, lí the̍h khì hōo a-má thīnn--tsi̍t-ē, bô, ē jú li̍h jú tuā.", hanji: "這領衫的衫仔裾裂去矣，你提去予阿媽紩一下，無，會愈裂愈大。", en: "The hem of this top has torn. Take it to Grandma to stitch, or the tear will get bigger and bigger."}
+    - {tailo: "Guán a-pa tshut-mn̂g tsìn-tsîng lóng ài khòo-tuà hâ hōo ân, kóng án-ne tsiah ū tsing-sîn.", hanji: "阮阿爸出門進前攏愛褲帶縖予絚，講按呢才有精神。", en: "Before going out Dad always does his belt up tight. He says it makes him feel alert."}
+    - {tailo: "Lí nā beh khì tsia̍h-toh, sió tsng-thānn--tsi̍t-ē, tshīng hit niá khóng-sik ê sann tō tsiok suí.", hanji: "你若欲去食桌，小妝娗一下，穿彼領紺色的衫就足媠。", en: "If you're going to the banquet, dress up a bit. That navy-blue top would look lovely."}
+    - {tailo: "Thinn-khì tsin jua̍h, i kan-na tshīng tsi̍t niá lāi-kah-á, tō tshut-khì tiânn--lí tsē, tsia̍h liâng.", hanji: "天氣真熱，伊干焦穿一領內䘥仔，就出去埕裡坐，食涼。", en: "It was very hot, so he went out to sit in the yard in just his vest to enjoy the cool."}
+    - {tailo: "Siàu-liân lâng kiat-hun, bô it-tīng ài bé suān-tsio̍h tshiú-tsí, nn̄g ê lâng siong-hó khah iàu-kín.", hanji: "少年人結婚，無一定愛買璇石手指，兩个人相好較要緊。", en: "Young people getting married don't have to buy a diamond ring. What matters more is that they love each other."}
+  fill:
+    - {tailo: "Lāu-lâng bīn-phuê khioh-___, ē gia̍p-sí hôo-sîn, tse sī khah-tsá ê lâng kóng-tshiò ê uē.", hanji: "老人面皮抾___，會挾死胡蠅，這是較早的人講笑的話。", answer: "kíng", answer_hanji: "襇", en: "'An old man's wrinkles are deep enough to trap a fly': that's an old joke."}
+    - {tailo: "I kā bīn-kin ___ tī king-kah-thâu, tō tsáu khì tshân--lí tàu kuah-tiū-á, kui kang lóng bô hioh-khùn.", hanji: "伊共面巾___佇肩胛頭，就走去田裡鬥割稻仔，規工攏無歇睏。", answer: "phua̍h", answer_hanji: "袚", en: "He slung a towel over his shoulder and went off to the fields to help with the rice harvest, without a break all day."}
+    - {tailo: "A-tsí ê thâu-mn̂g siunn tn̂g, i ta̍k-kang lóng ài iōng sann ki thâu-mn̂g-___-á kā i giap--khí-lâi.", hanji: "阿姊的頭毛傷長，伊逐工攏愛用三枝頭毛___仔共伊鋏起來。", answer: "giap", answer_hanji: "鋏", en: "My sister's hair is too long. Every day she has to pin it up with three hairpins."}
+    - {tailo: "Tsit nn̄g tsiah niau-á senn kah tsin sîng, guá khuànn kui-poo iáu-sī hun-___ bē tshut-lâi.", hanji: "這兩隻貓仔生甲真成，我看規晡猶是分___袂出來。", answer: "pia̍t", answer_hanji: "別", en: "These two cats look so alike that I stared at them for ages and still couldn't tell them apart."}
+    - {tailo: "Sin-niû ê kûn-___ tsin tn̂g, tshê kàu thôo-kha, ài nn̄g ê gín-á tī āu-piah kā i phâng.", hanji: "新娘的裙___真長，䠡到塗跤，愛兩个囡仔佇後壁共伊捀。", answer: "ki", answer_hanji: "裾", en: "The bride's hem was so long it trailed on the floor, and two children had to hold it up behind her."}
+audio: []
