@@ -135,15 +135,18 @@ class English:
         en = self.written.get((hanji, k)) or (dict_hanji and self.written.get((dict_hanji, k)))
         if en:
             return en, 'written'
-        if eid is not None:
+        if eid is not None:   # one entry id, or several (the same word in other dictionaries), first one first
+            eids = eid if isinstance(eid, (list, tuple)) else [eid]
             if self.has_en:
-                r = self.con.execute('SELECT english FROM entry WHERE id=?', (eid,)).fetchone()
-                if r and r[0]:
-                    return _tidy(r[0]), 'maryknoll'
-            for (w,) in self.con.execute('SELECT DISTINCT word FROM mandarin WHERE entry_id=?', (eid,)):
-                en = cedict_en(self.ced, w)
-                if en:
-                    return en, 'mandarin:' + w
+                for i in eids:
+                    r = self.con.execute('SELECT english FROM entry WHERE id=?', (i,)).fetchone()
+                    if r and r[0]:
+                        return _tidy(r[0]), 'maryknoll'
+            for i in eids:
+                for (w,) in self.con.execute('SELECT DISTINCT word FROM mandarin WHERE entry_id=?', (i,)):
+                    en = cedict_en(self.ced, w)
+                    if en:
+                        return en, 'mandarin:' + w
         if parts and all(p and p[0] for p in parts):
             return ' + '.join(_first(p[0]) for p in parts), 'parts'
         return '', None

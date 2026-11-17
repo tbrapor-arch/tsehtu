@@ -38,8 +38,9 @@ MAX = 5
 
 def init(connection, eng=None, ced=None, table=None):
     """Set the database and the English source. `eng` can be set later (cards.ENGLISH = ...) before the first lookup."""
-    global con, VARIANTS, SUTIAN, ENGLISH, CEDICT
+    global con, VARIANTS, SUTIAN, ENGLISH, CEDICT, HAS_ADDED
     con = connection
+    HAS_ADDED = 'added' in [r[1] for r in con.execute('PRAGMA table_info(entry)')]   # headwords from the ministry's table
     VARIANTS = Variants(con)
     SUTIAN = table if table is not None else sutian.load()
     CEDICT = ced if ced is not None else english.load_cedict()
@@ -129,15 +130,33 @@ def lookup(seg, k):
         return did
     rows = con.execute("""SELECT id, source, hanji, tailo, cognate, mandarin_best, hsk_old, hsk_new, freq_rank, wenbai, src_id
                           FROM entry WHERE tkey=? AND source IN ('moe','itaigi','taihoa','tgb') AND kind != 'xref'
-                          ORDER BY (hanji=?) DESC, source='moe' DESC, freq DESC LIMIT 1""", (k, seg)).fetchall()
+                          ORDER BY (hanji=?) DESC, source='moe' DESC, freq DESC""", (k, seg)).fetchall()
     card = {'hanji': seg, 'tkey': k}
     eid = dh = None
+    eid_en = None   # the entries the English is read from, when not eid alone
+    if rows and not same_word(rows[0][2], seg) and HAS_ADDED and \
+            con.execute('SELECT added FROM entry WHERE id=?', (rows[0][0],)).fetchone()[0]:
+        # a headword from the ministry's current table that is another word (起慼 is not 起感): the choice made before
+        # the table was taken in (the older 起chheh), checked the same way below
+        rows = [r for r in rows if not con.execute('SELECT added FROM entry WHERE id=?', (r[0],)).fetchone()[0]]
+    rows = rows[:1]
     if rows and not same_word(rows[0][2], seg):
         rows = []   # only a homophone written with other characters (扇 sì → 四, 爸 pa → 巴): not this word
     if rows:
         eid, src, h, t, cog, mb, ho, hn, rank, wb, sid = rows[0]
         dh = h
         mand = [w for (w,) in con.execute('SELECT DISTINCT word FROM mandarin WHERE entry_id=? LIMIT 6', (eid,))]
+        if not mand and src == 'moe' and HAS_ADDED and con.execute('SELECT added FROM entry WHERE id=?', (eid,)).fetchone()[0]:
+            # a headword taken in from the ministry's current table has no Mandarin equivalents: the same word (same
+            # characters and reading) in the other dictionaries gives them, and the English they bring
+            sib = [i for (i, hh) in con.execute(
+                "SELECT id, hanji FROM entry e WHERE tkey=? AND id!=? AND source IN ('moe','itaigi','taihoa','tgb') "
+                "AND kind != 'xref' AND EXISTS (SELECT 1 FROM mandarin m WHERE m.entry_id=e.id) "
+                "ORDER BY hanji=? DESC, source='moe' DESC, freq DESC", (k, eid, h)) if hh and (hh == h or same_word(hh, seg))]
+            if sib:
+                mand = list(dict.fromkeys(w for i in sib for (w,) in con.execute(
+                    'SELECT word FROM mandarin WHERE entry_id=? ORDER BY rowid', (i,))))[:6]
+                eid_en = [eid] + sib
         card.update(source=src, dict_hanji=h, tailo=t, cognate=cog, mandarin=mand, hsk=ho or hn, rank=rank,
                     mand=[mandarin_gloss(w) for w in mand[:4]], wenbai=wb)
         alts = VARIANTS.alts(seg, t, eid if src == 'moe' else None)
@@ -168,7 +187,7 @@ def lookup(seg, k):
         card['comp'] = comp
     # last resort for the English: the pieces' English joined (the parts of a course compound, else its composition)
     parts = [(dictionary[p].get('gloss'), dictionary[p].get('gloss_src')) for p in card.get('parts') or comp or []]
-    en, en_src = ENGLISH.gloss(seg, k, eid, dh, parts)
+    en, en_src = ENGLISH.gloss(seg, k, eid_en or eid, dh, parts)
     if not en and len(seg) == 1:     # a character met only inside words: its own CC-CEDICT meaning
         en, en_src = english.cedict_en(CEDICT, seg), f'mandarin:{seg}'
     if en:
