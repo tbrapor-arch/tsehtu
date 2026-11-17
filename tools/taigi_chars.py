@@ -305,8 +305,13 @@ def attach(con, rows, lessons, tokenize, written, cards, ex=None, section='chars
         if en:
             x['en'] = en
         if card and card.get('mand'):
-            m = card['mand'][0]
-            x['zh'] = [m['w'], m.get('py', '')]
+            ms, seen = [], set()
+            for m in card['mand']:          # up to 3: 恁 lín is 你們 / 你的 / 你們的 by context
+                if m['w'] not in seen:
+                    seen.add(m['w']); ms.append([m['w'], m.get('py', '')])
+            x['zh'] = ms[0]
+            if len(ms) > 1:
+                x['zhs'] = ms[:3]
         if not e:
             errs.append(f'{ch}: no entry in course/chars_examples.yaml ({section})')
             continue

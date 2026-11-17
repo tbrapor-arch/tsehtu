@@ -1210,7 +1210,7 @@ function jtRow(x, n, LB, pre) {
     <div class="jhead"><button class="han cbig" ${x.id ? `data-word="${esc(x.id)}"` : 'disabled'} aria-label="${esc(x.c)}">${esc(x.c)}</button>
       <span class="jr"><span class="vr rom">${esc(x.r.join(' / '))}</span>${pre ? '' : `<small class="jno">#${n}</small>`}${x.tier === 'mostly' ? ' <span class="ctag" title="Mandarin has it in one to three rare words">rare in Mandarin</span>' : ''}${x.L != null ? ` <button class="ctag lk" data-go="lesson-${x.L}">first in ${esc(lname(x.L))}</button>` : ''}</span></div>
     ${x.en ? `<div class="ve">${esc(x.en)}</div>` : ''}
-    ${x.zh ? `<div class="jzh"><span class="jlab">Mandarin</span> <span class="han">${zhLine(x.zh[0])}</span> <span class="zpy">${esc((zhSenses(x.zh[0])[0] || [])[0] ? zhPy(zhSenses(x.zh[0])[0][0]) : x.zh[1])}</span></div>` : ''}
+    ${x.zh ? `<div class="jzh"><span class="jlab">Mandarin</span> ${(x.zhs || [x.zh]).map(z => `<span class="han">${zhLine(z[0])}</span> <span class="zpy">${esc((zhSenses(z[0])[0] || [])[0] ? zhPy(zhSenses(z[0])[0][0]) : z[1])}</span>`).join(' · ')}</div>` : ''}
     ${w.length ? `<div class="cw">${w.map((id, i) => { const d = DATA.dict[id]; return `<button class="cwd${i ? '' : ' main'}" data-word="${esc(id)}"><span class="han">${esc(d.hanji)}</span> <span class="rom">${esc(d.tailo || d.tkey)}</span>${charEn(d) ? `<small>${esc(charEn(d))}</small>` : ''}</button>`; }).join('')}</div>` : ''}
     ${Exam.on ? `<div data-xchar="${esc(x.c)}"></div>` : ''}
     ${x.ro ? '<p class="sub jro">The dictionary gives only the reading.</p>' : ''}
