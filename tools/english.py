@@ -58,12 +58,14 @@ def load_written(path=WRITTEN):
 
 
 def course_glosses(root=ROOT):
-    """{tkey: English} from the lessons' (base and part 2) and themes' new_words, as build_app.py reads them."""
+    """{tkey: English} from the lessons' (base, part 2 進修 and part 3 文學) and themes' new_words, as build_app.py
+    reads them."""
     import glob
     import yaml
     out = {}
     for f in sorted(glob.glob(os.path.join(root, 'course/lessons/[0-9]*.yaml'))) + \
-            sorted(glob.glob(os.path.join(root, 'course/perfectionnement/[0-9]*.yaml'))):
+            sorted(glob.glob(os.path.join(root, 'course/perfectionnement/[0-9]*.yaml'))) + \
+            sorted(glob.glob(os.path.join(root, 'course/literature/[0-9]*.yaml'))):
         for w in yaml.safe_load(open(f, encoding='utf-8')).get('new_words') or []:
             if w.get('en'):
                 out[_key(w['tailo'])] = w['en']
@@ -86,7 +88,8 @@ def course_pairs(root=ROOT):
     import yaml
     pairs, hanji = {}, {}
     for f in sorted(glob.glob(os.path.join(root, 'course/lessons/[0-9]*.yaml'))) + \
-            sorted(glob.glob(os.path.join(root, 'course/perfectionnement/[0-9]*.yaml'))):
+            sorted(glob.glob(os.path.join(root, 'course/perfectionnement/[0-9]*.yaml'))) + \
+            sorted(glob.glob(os.path.join(root, 'course/literature/[0-9]*.yaml'))):
         for w in yaml.safe_load(open(f, encoding='utf-8')).get('new_words') or []:
             if w.get('en') and w.get('hanji'):
                 k = _key(w['tailo'])
