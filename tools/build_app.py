@@ -171,7 +171,7 @@ accents = []
 for name, expl, chars in ACCENT_SETS:
     rows = []
     for ch, en in chars:
-        r = con.execute("SELECT tailo FROM entry WHERE source='moe' AND hanji=? AND kind='word' AND tailo!='' "
+        r = con.execute("SELECT tailo FROM entry WHERE source='moe' AND hanji=? AND kind IN ('word', 'shared') AND tailo!='' "
                         "ORDER BY (wenbai='colloquial') DESC, freq DESC LIMIT 1", (ch,)).fetchone()
         if not r:
             continue

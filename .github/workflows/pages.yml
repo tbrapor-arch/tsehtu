@@ -46,6 +46,12 @@ jobs:
           path: data/raw
           key: raw-${{ hashFiles('data/fetch.sh') }}-audio-3
 
+      # the ministry's current table: recording ids for the app, and the headwords the older export lacks for the
+      # database (tools/build_db.py takes it in when it is there; without it the database is built as before)
+      - name: Ministry table (kautian.ods)
+        run: python3 tools/fetch_audio.py --table
+        continue-on-error: true
+
       - name: Database
         run: make db
 
@@ -79,10 +85,6 @@ jobs:
                   print(f"::notice::no-chapter EP{x['n']}: " + ' || '.join(l[:45] for l in lines[:14]))
                   break
           EOF
-        continue-on-error: true
-
-      - name: Recording ids (the ministry's own table; the old entry numbers point to other words)
-        run: python3 tools/fetch_audio.py --table
         continue-on-error: true
 
       - name: App (first pass, lists the recordings it needs)

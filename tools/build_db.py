@@ -2,6 +2,8 @@
 
 Run: python3 -I build_db.py <data/raw dir> <out.db>
 Non-commercial sources (Maryknoll, Embree English glosses) are only included when TAIGI_INCLUDE_NC=1.
+The ministry's current table (data/raw/moe-audio/kautian.ods, tools/fetch_audio.py --table) is taken in when present:
+see moe_table() below. Without it the database is built from the older export alone, as before.
 """
 import csv
 import glob
@@ -15,6 +17,7 @@ from collections import Counter, defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from tailo import key, toneless  # noqa: E402
+import sutian  # noqa: E402
 
 ROOT, OUT = sys.argv[1], sys.argv[2]
 INCLUDE_NC = os.environ.get('TAIGI_INCLUDE_NC') == '1'
@@ -38,7 +41,9 @@ SOURCES = [
 
 POS = {r['詞性代號']: r['正確'] for r in csv.DictReader(open(os.path.join(MOE, '釋義.詞性對照.csv')))}
 WENBAI = {'0': None, '1': 'literary', '2': 'colloquial', '3': 'vulgar/common', '4': 'substitute-char'}
-ENTRY_TYPE = {'1': 'word', '2': 'word', '3': 'word', '5': 'proverb'}
+# 屬性 of the older export: 1 主詞目, 2 單字不成詞者, 3 近反義詞不單列詞目者, 5 臺華共同詞 (words Taigi shares with
+# Mandarin: 公司 kong-si, 健保 kiān-pó; kind 'shared', a word like any other), 11-25 附錄 (appendices: kind 'other')
+ENTRY_TYPE = {'1': 'word', '2': 'word', '3': 'word', '5': 'shared'}
 
 
 def nfc(s):
@@ -139,6 +144,159 @@ for r in csv.DictReader(open(os.path.join(CHH, 'ChhoeTaigi_KauiokpooTaigiSutian.
             con.execute('INSERT INTO mandarin(entry_id,word,source) VALUES (?,?,?)', (eid, m, 'moe'))
 con.execute("UPDATE entry SET kind='xref' WHERE source='moe' AND tailo=''")  # synonym/dialect cross-refs without reading
 print('MOE entries', len(entries), 'with Mandarin equivalents matched', matched)
+
+
+# ---- the ministry's current table (kautian.ods): headwords the older export lacks, or has without a reading
+TABLE_KIND = {'主詞目': ('word', 1), '臺華共同詞': ('shared', 5)}
+WB_MARK = {'文': 'literary', '白': 'colloquial'}
+TABLE_ID = 10_000_000
+
+
+def moe_table():
+    """Take in what the older export lacks from the ministry's current table, unaltered (CC BY-ND):
+    - 主詞目 and 臺華共同詞 with a reading whose Hàn-jī the export does not have, or has only without a reading (kind
+      'xref': 一下仔, 月底, 放尿, 烏白講): a new entry (src_id 'kautian:<詞目id>'), or the empty one filled in, with
+      the table's senses (義項) and examples (例句);
+    - for every headword matched to an entry (same Hàn-jī and a common reading): the 又唸作/俗唸作/合音唸作 readings
+      the entry lacks (table `variant`, same kinds as the export's 又音) and the 異用字 (other characters for the same
+      word; table `alt_hanji`, not readings, so not in `variant`).
+    Readings already in the database are never changed: where a headword's Hàn-jī is in the export with other
+    readings only, both are listed in data/build/moe-diff.txt and the export's entry is kept as it is."""
+    T = sutian.sheets()
+    if not T:
+        print('MOE table: data/raw/moe-audio/kautian.ods not there (tools/fetch_audio.py --table): older export only')
+        return
+    rd = lambda t: [x for x in re.split(r'[/／]', re.sub(r'【[^】]*】', '', t)) if key(x)]
+    by_h = defaultdict(list)          # Hàn-jī -> [entry id] (older export)
+    ekeys = {}                        # entry id -> keys of its readings and variants
+    for eid, h, t, ta in con.execute("SELECT id, hanji, tailo, tailo_alt FROM entry WHERE source='moe'"):
+        by_h[h].append(eid)
+        ekeys[eid] = {key(x) for x in split_alts(ta or t)} - {''}
+    for eid, k in con.execute('SELECT entry_id, tkey FROM variant'):
+        if eid in ekeys and k:
+            ekeys[eid].add(k)
+    rows = []
+    for r in T['詞目']:
+        h = re.sub(r'【[^】]*】', '', r['漢字']).strip()
+        rows.append((r, h, rd(r['羅馬字'])))
+    # pass 1: same Hàn-jī and a common reading (every type of the table, so that their entries count as matched)
+    tid2eid, used, left = {}, set(), []
+    for r, h, readings in rows:
+        ks = {key(x) for x in readings}
+        eid = next((e for e in by_h.get(h, []) if e not in used and ks & ekeys[e]), None) or \
+            next((e for e in by_h.get(h, []) if ks & ekeys[e]), None)
+        if eid:
+            tid2eid[r['詞目id']] = eid
+            used.add(eid)
+        elif ks and r['詞目類型'] in TABLE_KIND:
+            left.append((r, h, readings))
+    # pass 2: what is left of 主詞目 / 臺華共同詞
+    added = Counter()
+    diff = []
+    for r, h, readings in left:
+        kind, mtype = TABLE_KIND[r['詞目類型']]
+        empty = [e for e in by_h.get(h, []) if not ekeys[e] and e not in used]
+        others = [e for e in by_h.get(h, []) if ekeys[e] and e not in used]
+        if others:      # the export has this Hàn-jī with another reading, unmatched: report, change nothing
+            diff.append((r, h, others))
+            continue
+        tl = '/'.join(nfc(x) for x in readings)
+        first = nfc(readings[0])
+        m = re.match(r'【(.)】', r['羅馬字'])
+        wb = 'substitute-char' if '【替】' in r['漢字'] else WB_MARK.get(m.group(1)) if m else None
+        if empty:       # fill the export's entry that had no reading
+            eid = empty[0]
+            con.execute('UPDATE entry SET tailo=?, tailo_alt=?, tkey=?, toneless=?, kind=?, wenbai=coalesce(wenbai, ?), '
+                        'moe_type=?, added=1 WHERE id=?', (first, tl if '/' in tl else None, key(first),
+                                                           toneless(key(first)), kind, wb, mtype, eid))
+            added[kind, 'filled'] += 1
+        else:           # ids above every other source's, so that theirs stay as they were
+            eid = TABLE_ID + int(r['詞目id'])
+            con.execute('INSERT INTO entry(id,source,src_id,hanji,tailo,tailo_alt,tkey,toneless,kind,wenbai,moe_type,added) '
+                        'VALUES (?,?,?,?,?,?,?,?,?,?,?,1)', (eid, 'moe', 'kautian:' + r['詞目id'], h, first,
+                                                           tl if '/' in tl else None, key(first), toneless(key(first)),
+                                                           kind, wb, mtype))
+            by_h[h].append(eid)
+            added[kind, 'new'] += 1
+        used.add(eid)
+        ekeys[eid] = {key(x) for x in readings}
+        entries[eid] = (h, first)
+        tid2eid[r['詞目id']] = eid
+        new_entries.add(eid)
+    # senses and examples of the entries added or filled (only if the entry has none yet)
+    has_sense = {e for (e,) in con.execute('SELECT DISTINCT entry_id FROM sense')}
+    has_ex = {e for (e,) in con.execute("SELECT DISTINCT entry_id FROM example WHERE source='moe'")}
+    ns = nx = 0
+    order = defaultdict(int)
+    for r in T['義項']:
+        eid = tid2eid.get(r['詞目id'])
+        if eid in new_entries and eid not in has_sense:
+            order[eid] += 1
+            con.execute('INSERT INTO sense(entry_id,ord,pos,definition_zh) VALUES (?,?,?,?)',
+                        (eid, order[eid], r['詞性'] or None, r['解說']))
+            ns += 1
+    for r in sorted(T['例句'], key=lambda r: (int(r['義項id'] or 0), int(r['例句順序'] or 0))):
+        eid = tid2eid.get(r['詞目id'])
+        if eid in new_entries and eid not in has_ex and r['漢字']:
+            con.execute('INSERT INTO example(entry_id,sense_id,source,hanji,tailo,mandarin,english) '
+                        'VALUES (?,?,?,?,?,?,NULL)', (eid, None, 'moe', r['漢字'], r['羅馬字'], r['華語']))
+            nx += 1
+    # 又唸作 / 俗唸作 / 合音唸作 the entry lacks
+    nv = Counter()
+    for sheet, vkind in (('又唸作', 'also read'), ('俗唸作', 'colloquially read'), ('合音唸作', 'contracted')):
+        for r in T[sheet]:
+            eid = tid2eid.get(r['詞目id'])
+            if not eid:
+                continue
+            for alt in split_alts(r['羅馬字']):
+                k = key(alt)
+                if k and k not in ekeys[eid]:
+                    ekeys[eid].add(k)
+                    con.execute('INSERT INTO variant(entry_id,tailo,tkey,kind) VALUES (?,?,?,?)', (eid, nfc(alt), k, vkind))
+                    nv['new entries' if eid in new_entries else 'export entries'] += 1
+    # 異用字: other characters for the same word (蜀 for 一, 儂 for 人)
+    na = 0
+    for r in T['異用字']:
+        eid = tid2eid.get(r['詞目id'])
+        for alt in re.split(r'[、/／，,]', r['異用字']) if eid else []:
+            if alt.strip():
+                con.execute("INSERT INTO alt_hanji(entry_id,hanji,source) VALUES (?,?,'moe')", (eid, alt.strip()))
+                na += 1
+    # Mandarin equivalents of the added entries: ChhoeTaigi's copy (as above), else the table's 詞彙比較
+    nm = 0
+    for eid in new_entries:
+        h, t = entries[eid]
+        ms = [m for rr in chh_by_h.get(h, []) if key(rr['KipUnicode']) in ekeys[eid] for m in mandarin_list(rr['HoaBun'])]
+        for m in dict.fromkeys(ms):
+            con.execute('INSERT INTO mandarin(entry_id,word,source) VALUES (?,?,?)', (eid, m, 'moe'))
+            nm += 1
+    cmp_ = defaultdict(list)
+    for r in T['詞彙比較']:
+        for x in rd(r['羅馬字']):
+            cmp_[(r['漢字'], key(x))].append(r['華語詞目'])
+    have_m = {e for (e,) in con.execute('SELECT DISTINCT entry_id FROM mandarin')}
+    for eid in new_entries - have_m:
+        h = entries[eid][0]
+        ms = [m for k in ekeys[eid] for m in cmp_.get((h, k), [])]
+        for m in dict.fromkeys(ms):
+            con.execute('INSERT INTO mandarin(entry_id,word,source) VALUES (?,?,?)', (eid, m, 'moe'))
+            nm += 1
+    print('MOE table:', ', '.join(f'{k} {v}: {n}' for (k, v), n in sorted(added.items())),
+          f'| senses {ns}, examples {nx}, readings added {dict(nv)}, 異用字 {na}, Mandarin {nm}, '
+          f'reading differences {len(diff)} (data/build/moe-diff.txt)')
+    with open(os.path.join(os.path.dirname(os.path.abspath(OUT)), 'moe-diff.txt'), 'w', encoding='utf-8') as f:
+        f.write('# Headwords of the ministry\'s current table (kautian.ods) whose Hàn-jī the older export has with another\n'
+                '# reading only. The export\'s entry is kept (no reading is changed); the table\'s entry is not added.\n'
+                '# 詞目id\t類型\t漢字\ttable reading\texport reading(s)\n')
+        for r, h, others in diff:
+            old = ' | '.join(con.execute('SELECT coalesce(tailo_alt, tailo) FROM entry WHERE id=?', (e,)).fetchone()[0]
+                             for e in others)
+            f.write(f"{r['詞目id']}\t{r['詞目類型']}\t{h}\t{r['羅馬字']}\t{old}\n")
+
+
+new_entries = set()
+moe_table()
+con.commit()
 
 
 # ---------------------------------------------------------------- other dictionaries

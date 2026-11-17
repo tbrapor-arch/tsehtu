@@ -124,7 +124,7 @@ def build(con, limit=160):
     rows = con.execute("""
       SELECT e.id, e.hanji, e.tailo, e.wenbai, e.freq, h.pinyin, coalesce(h.old_level, h.new_level) lv
       FROM entry e JOIN hsk h ON h.trad = e.hanji
-      WHERE e.source = 'moe' AND length(e.hanji) = 1 AND e.kind = 'word' AND e.tailo != ''
+      WHERE e.source = 'moe' AND length(e.hanji) = 1 AND e.kind = 'word' AND e.added IS NULL AND e.tailo != ''
         AND e.tailo NOT LIKE '--%' AND coalesce(e.wenbai, '') != 'substitute-char'
         AND coalesce(h.old_level, h.new_level) <= 4
         AND h.english NOT LIKE 'surname%' AND h.pinyin = lower(h.pinyin)
@@ -146,7 +146,7 @@ def build(con, limit=160):
         if not rs:
             continue
         others = [{'tailo': t, 'layer': wb} for t, wb in reads.items() if t != target]
-        ex = con.execute("""SELECT hanji, tailo FROM entry WHERE source='moe' AND kind='word' AND length(hanji) = 2
+        ex = con.execute("""SELECT hanji, tailo FROM entry WHERE source='moe' AND kind='word' AND added IS NULL AND length(hanji) = 2
                             AND instr(hanji, ?) > 0 AND freq > 0 ORDER BY freq DESC LIMIT 12""", (h,)).fetchall()
         ex = [(eh, et) for eh, et in ex if unicodedata.normalize('NFC', target.lower()) in
               [unicodedata.normalize('NFC', s.lower()) for s in re.split(r'[-\s]', et)]][:2]

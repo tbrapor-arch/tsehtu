@@ -10,9 +10,10 @@ CREATE TABLE entry(
   tailo_alt TEXT,         -- full alternative readings string if the source gave several
   tkey TEXT,              -- normalised numeric key, tones 1/4 unmarked: 'tsit8-e5'
   toneless TEXT,
-  kind TEXT,              -- word | proverb | other
+  kind TEXT,              -- word | shared (臺華共同詞) | other (MOE appendices) | xref (MOE, no reading)
   wenbai TEXT,            -- MOE single-character reading layer: literary | colloquial | vulgar/common | substitute-char
   moe_type INT,
+  added INT,              -- MOE: 1 if the headword (or its reading) comes from the ministry's current table, not the older export
   english TEXT,
   -- learner layers (filled by enrich.py)
   freq INT,               -- token count in 2009 MOE written corpus (by tkey)
@@ -38,6 +39,9 @@ CREATE INDEX mandarin_word ON mandarin(word);
 CREATE INDEX mandarin_entry ON mandarin(entry_id);
 
 CREATE TABLE variant(entry_id INT, tailo TEXT, tkey TEXT, kind TEXT);
+-- MOE 異用字: other characters the ministry lists for the same word (蜀 for 一 tsi̍t); not readings
+CREATE TABLE alt_hanji(entry_id INT, hanji TEXT, source TEXT);
+CREATE INDEX alt_hanji_hanji ON alt_hanji(hanji);
 CREATE TABLE relation(entry_id INT, other_id INT, rel TEXT);
 CREATE TABLE dialect(hanji TEXT, place TEXT, tailo TEXT, kind TEXT);
 
