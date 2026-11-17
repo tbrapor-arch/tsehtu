@@ -73,7 +73,7 @@ print('MOE entries with English gloss:', len(upd))
 # 4. core list: top 4000 MOE words by frequency + MOE words whose Mandarin equivalent is HSK<=3
 #    (needs freq_align.py to have run first)
 cur.execute('UPDATE entry SET core=NULL')
-cur.execute("""UPDATE entry SET core=1 WHERE source='moe' AND kind='word'
+cur.execute("""UPDATE entry SET core=1 WHERE source='moe' AND kind IN ('word', 'shared')
                AND (freq_rank <= 4000 OR (hsk_old <= 3 AND freq >= 5))""")
 
 # 5. views

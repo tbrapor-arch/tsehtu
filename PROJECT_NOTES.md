@@ -4,6 +4,7 @@ Migrated from a long Claude Project conversation. In that conversation lessons w
 course files as a model for pacing and structure only (kept in the git-ignored `reference/`).
 
 ## Status
+- **Dictionary database** (17 Nov 2026, branch `dict-db`): `make db` also takes in the ministry's current table `data/raw/moe-audio/kautian.ods` when it is there (`tools/fetch_audio.py --table`, now run before `make db` in the workflow; without it the build is as before). From the 14 Oct 2026 table: 1,506 new headwords (816 主詞目, 690 臺華共同詞) and 218 the old export had without a reading (一下仔, 月底, 放尿, 烏白講), with 1,162 senses and 1,230 examples, 394 more 又唸作/俗唸作/合音唸作 readings, and the 異用字 (table `alt_hanji`). Old readings are never changed: the 5 headwords where table and export disagree are listed in `data/build/moe-diff.txt`. The 臺華共同詞 (屬性 5, 公司, 健保, 刻薄) were mislabelled kind `proverb`: now kind `shared`, counted as words everywhere (`cards.py` splits and compositions, `freq_align.py` frequencies and ranks, core list, bridge, accents); this moves frequency ranks (core list 331 out / 347 in, Practice › Characters groups shift). `tools/verify_words.py` checks (Hàn-jī, Tâi-lô) pairs (TSV, `--kaic`, `--hanlo`, `--lessons`) against the database and prints suspects by class.
 - **Lessons 22–49 lengthened** on 27 Oct 2026 (smoother length curve, 122 never-taught words): handover in `docs/lessons-22-49-lengthening.md`, curve in `course/pacing.md`.
 - **Lessons:** all 100 written (`course/lessons/`), following `course/syllabus.yaml`. Lesson 0 is
   `000-reading-tailo.md`. Review lessons: 7, 14, …, 98.
@@ -41,7 +42,7 @@ lesson, no single-lesson option, slow): run it in the background after app/templ
 Workflow that keeps cost down: plan a batch of lessons together, verify all candidate words with
 `tools/lookup.py` in one pass, then draft dialogue only from verified words. Cross-references such as
 "(lesson 40)" in notes must point to the lesson that declares the word in `new_words`; check them with a script
-before committing. Language QC: `tools/qc_readings.py` and `tools/qc_glosses.py` (see `docs/perfectionnement-plan.md`) (lessons 64–76 had many guessed numbers, fixed on 20 Oct 2026).
+before committing. Language QC: `tools/qc_readings.py`, `tools/qc_glosses.py` and `tools/verify_words.py --lessons` (see `docs/perfectionnement-plan.md`) (lessons 64–76 had many guessed numbers, fixed on 20 Oct 2026).
 
 ## Decisions (why)
 - Mandarin B2 learner: same-character words are taught as pronunciation; time goes to false friends and Taigi-only words.

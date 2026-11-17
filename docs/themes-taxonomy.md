@@ -32,7 +32,7 @@ course progression (which situations the lessons cover).
 
 ## Scope
 1. Core words (4,265): complete, each in exactly one category.
-2. Other MOE words (about 18,000), later. Proverbs (4,750, `kind = proverb`) form their own category.
+2. Other MOE words (about 18,000), later. The 臺華共同詞 (words shared with Mandarin, 5,546, `kind = shared`; called "proverbs" here until 17 Nov 2026, a mislabel of the old export's 屬性 5) are ordinary words, not a category of their own.
 3. The other sources (台華線頂, 1956 sentences) are out of scope. iTaigi is used only for modern everyday words MOE lacks (Nov 2026,
    see below), marked `source: itaigi` and shown with an iTaigi badge.
 

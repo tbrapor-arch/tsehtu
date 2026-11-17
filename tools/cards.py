@@ -46,7 +46,7 @@ def init(connection, eng=None, ced=None, table=None):
     ENGLISH = eng
     HEAD.clear()
     # MOE words (the other sources list many phrases as words: 真好, 我欲), and single characters from any source
-    HEAD.update(con.execute("SELECT hanji, tkey FROM entry WHERE source = 'moe' AND kind IN ('word', 'other') "
+    HEAD.update(con.execute("SELECT hanji, tkey FROM entry WHERE source = 'moe' AND kind IN ('word', 'shared', 'other') "
                             "AND tkey != '' AND tailo NOT LIKE '% %' AND length(hanji) <= 6"))
     HEAD.update(con.execute(f"SELECT hanji, tkey FROM entry WHERE source IN {SOURCES} AND kind != 'xref' "
                             "AND tkey != '' AND length(hanji) = 1"))
@@ -54,8 +54,11 @@ def init(connection, eng=None, ced=None, table=None):
     for h, k, f in con.execute("SELECT hanji, tkey, max(freq) FROM entry WHERE source = 'moe' AND freq IS NOT NULL GROUP BY 1, 2"):
         FREQ[(h, k)] = f or 0
     BEST.clear()
+    # (the older export's entries first: a headword added from the ministry's current table does not change how
+    # a character already in the dictionary is read when a text is cut by the dictionary)
+    added = 'coalesce(added, 0), ' if 'added' in [r[1] for r in con.execute('PRAGMA table_info(entry)')] else ''
     for h, k in con.execute("SELECT hanji, tkey FROM entry WHERE source='moe' AND kind != 'xref' AND tailo != '' "
-                            "ORDER BY (wenbai='colloquial') DESC, freq DESC"):
+                            f"ORDER BY {added}(wenbai='colloquial') DESC, freq DESC"):
         BEST.setdefault(h, k)
     EXTRA.clear()
     for h, k in con.execute("SELECT hanji, tkey FROM entry WHERE source = 'taihoa' AND kind = 'word' AND tailo != '' "

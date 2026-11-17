@@ -78,7 +78,7 @@ con.executemany('INSERT INTO pair_freq VALUES (?,?,?)', [(h, k, c) for (h, k), c
 
 # split tkey frequency across MOE homophones
 groups = defaultdict(list)
-for eid, h, k in con.execute("SELECT id, hanji, tkey FROM entry WHERE source='moe' AND kind='word'"):
+for eid, h, k in con.execute("SELECT id, hanji, tkey FROM entry WHERE source='moe' AND kind IN ('word', 'shared')"):
     groups[k].append((eid, h))
 corpus = dict(con.execute('SELECT tkey, count FROM corpus_freq'))
 upd = []
@@ -97,7 +97,7 @@ for k, ents in groups.items():
 con.execute('ALTER TABLE entry ADD COLUMN pair_count INT') if 'pair_count' not in \
     [r[1] for r in con.execute('PRAGMA table_info(entry)')] else None
 con.executemany('UPDATE entry SET freq=?, pair_count=? WHERE id=?', upd)
-ids = [r[0] for r in con.execute("SELECT id FROM entry WHERE source='moe' AND kind='word' "
+ids = [r[0] for r in con.execute("SELECT id FROM entry WHERE source='moe' AND kind IN ('word', 'shared') "
                                   "ORDER BY freq DESC, pair_count DESC, length(tkey)")]
 con.execute("UPDATE entry SET freq_rank=NULL")
 con.executemany('UPDATE entry SET freq_rank=? WHERE id=?', [(i + 1, e) for i, e in enumerate(ids)])

@@ -3,7 +3,8 @@
 ## MOE recordings (headwords and example sentences)
 Ministry of Education, CC BY-ND 3.0 TW: copied unaltered, never stored in git.
 1. `python3 tools/fetch_audio.py --table` downloads the ministry's id table `kautian.ods` (needed first: the old
-   entry numbers point to other words; see `tools/sutian.py`).
+   entry numbers point to other words; see `tools/sutian.py`). Fetch it before `make db` too: `tools/build_db.py`
+   takes in the headwords the older export lacks from it (see `ATTRIBUTION.md`).
 2. `make app` writes the lists `app/dist/audio-needed*.txt`.
 3. `python3 tools/fetch_audio.py` downloads `sutiau-mp3.zip` (words) and `leku-mp3.zip` (sentences) and copies only
    the needed files to `app/dist/audio/{w,s}/`. Then `make app` again so cards get their ▶ button.

@@ -54,6 +54,33 @@ def load():
     return d
 
 
+SHEETS = ['詞目', '義項', '例句', '又唸作', '俗唸作', '合音唸作', '異用字', '詞彙比較']
+SHEETS_CACHE = os.path.join(ROOT, 'data/raw/moe-audio/kautian-sheets.json')
+
+
+def sheets(ods=ODS):
+    """The table's sheets that tools/build_db.py takes in, as {sheet: [row dict, …]} (cells as NFC text, '' when
+    empty), or None if the table is not there or cannot be read (the build then goes on without it)."""
+    cache = SHEETS_CACHE if ods == ODS else None
+    if cache and os.path.exists(cache) and (not os.path.exists(ods) or os.path.getmtime(cache) >= os.path.getmtime(ods)):
+        return json.load(open(cache, encoding='utf-8'))
+    if not os.path.exists(ods):
+        return None
+    try:
+        import pandas as pd
+        raw = pd.read_excel(ods, engine='odf', sheet_name=SHEETS, dtype=str)
+    except Exception as e:      # missing odfpy/pandas, a renamed sheet, a truncated download
+        print('kautian.ods not read:', e)
+        return None
+    out = {}
+    for name, df in raw.items():
+        df = df.fillna('')
+        out[name] = [{k: unicodedata.normalize('NFC', str(v)).strip() for k, v in r.items()} for r in df.to_dict('records')]
+    if cache:
+        json.dump(out, open(cache, 'w', encoding='utf-8'), ensure_ascii=False)
+    return out
+
+
 def word(table, hanji, tailo):
     """Recording id of a headword, by Hàn-jī and romanisation (or by Hàn-jī alone when that is unambiguous)."""
     if not table:
