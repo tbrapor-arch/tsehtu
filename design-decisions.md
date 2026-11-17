@@ -34,8 +34,14 @@ Header (characters, Tâi-lô, close button) stays visible while scrolling. Order
 English, Mandarin equivalents with pinyin and English (CC-CEDICT), MOE definitions (Chinese, unaltered: CC BY-ND),
 example, pronunciation choices, "Around Taiwan" table (folded), parts, add to review.
 The Mandarin of the card (MOE definitions, the example's translation) is cut into words: a tap opens the 華語 ·
-Mandarin sheet (blue label and top line, pinyin in blue, CC-CEDICT senses), with "‹ Back to …" to the card. The same
-sheet serves every Mandarin text of the app (`zhLine()`, `tools/zh_words.py`); the text itself is never changed.
+Mandarin sheet (blue label and top line, pinyin in blue; "Here": the reading in that sentence and its CC-CEDICT
+senses, then "Other readings"), with "‹ Back to …" to the card. The same sheet serves every Mandarin text of the app
+(`zhLine()`, `tools/zh_words.py`); the text itself is never changed. Cut and readings are automatic, not checked by a
+person (17 Nov 2026): the most probable cut by jieba's word frequencies, as in the Shūjià reader (a CC-CEDICT word jieba
+lacks gets the frequency jieba's idf weights stand for: 過多, 太過; words of two or more characters are CC-CEDICT words
+only, which measured better than also using jieba-only words); readings chosen from the words around (V得 de, 我得 děi,
+委婉地 de, 睡不著 zháo, 為了/為他 wèi, 以…為 wéi…), only among CC-CEDICT's readings, mainland standard, 一 and 不 in
+their citation tones. No setting depends on the learner's Mandarin level.
 
 **English on every card** (`tools/english.py`, also used by the private module for podcast transcripts and exam
 texts): the lesson/theme `new_words` English, else `course/glosses_en.tsv` (short glosses written for the course from
