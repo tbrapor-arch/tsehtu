@@ -1492,8 +1492,7 @@ function splitZh(l) { const x = l.match(/^(.*?)\s*[（(]([^（()）]*)[)）]\s*$
 
 // ---------- Mandarin (華語) words: one renderer for every Mandarin text (card definitions and example translations,
 // lesson lines, notes, the private module's texts). Built by tools/zh_words.py (automatic, not checked by a person):
-// DATA.zh = {word: "score|pinyin<TAB>English" lines, or "score|=part part" for a word only jieba knows, shown as its
-// CC-CEDICT parts}, the words the texts use; DATA.zhx = {text key: "word.line,…"},
+// DATA.zh = {word: "score|pinyin<TAB>English" lines}, the words the texts use; DATA.zhx = {text key: "word.line,…"},
 // the words whose reading in that sentence is not their entry's first line. The browser cuts each text again with the
 // build's rule (highest total of word scores minus DATA.zhqt, the longer first word on a tie), so the cut is the
 // build's. The text itself is shown unaltered (the MOE definitions are CC BY-ND): only its words are wrapped in spans.
@@ -1506,7 +1505,7 @@ function zhAdd(t) {   // the private module's words (exam/zh.json): added, never
   return true;
 }
 const ZH_RUN = /([\u3400-\u9fff\uf900-\ufaff\u{20000}-\u{3134f}]+)/u;
-const zhTap = w => { const e = ZH[w]; if (e === undefined) return false; const i = e.indexOf('|'); return i < e.length - 1 && e[i + 1] !== '='; };
+const zhTap = w => ZH[w] !== undefined && ZH[w].indexOf('|') < ZH[w].length - 1;
 function zhKey(t) { let h = 0x811c9dc5, n = 0; for (const c of t) { h = Math.imul(h ^ c.codePointAt(0), 0x01000193) >>> 0; n++; } return h.toString(36) + '.' + n.toString(36); }
 function zhCut(text) {   // -> [string | [word, line]]
   const out = [], put = x => { if (out.length && typeof out[out.length - 1] === 'string') out[out.length - 1] += x; else out.push(x); };
@@ -1524,10 +1523,7 @@ function zhCut(text) {   // -> [string | [word, line]]
       }
       best[i] = b;
     }
-    for (let i = 0; i < n; i += step[i]) {
-      const w0 = cs.slice(i, i + step[i]).join(''), b = ZH[w0] || '', q = b.indexOf('|=');   // a jieba-only word: its parts
-      for (const w of q >= 0 ? b.slice(q + 2).split(' ') : [w0]) if (zhTap(w)) out.push([w, 0]); else put(w);
-    }
+    for (let i = 0; i < n; i += step[i]) { const w = cs.slice(i, i + step[i]).join(''); if (zhTap(w)) out.push([w, 0]); else put(w); }
   });
   const x = ZHX[zhKey(String(text || ''))];
   if (x) { const ws = out.filter(t => typeof t !== 'string'); x.split(',').forEach(y => { const [a, b] = y.split('.').map(v => parseInt(v, 36)); if (ws[a]) ws[a][1] = b; }); }

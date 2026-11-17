@@ -13,9 +13,10 @@ The cut (the Shūjià reader's model, jieba-style)
     gets the frequency its weight in jieba's idf.txt (same repository, MIT) stands for, mapped onto the dictionary's
     scale by a least-squares line over the words both files have; a word in neither file gets f = 20 (one character)
     or 3, as in Shūjià. Any other single character f = 1.
-  * A jieba word CC-CEDICT lacks (很快, 看著, 睡不著, 太過份) counts in the cut, but the app shows it as the CC-CEDICT
-    words it is made of, cut by the same rule among CC-CEDICT words (太 過份, 睡 不著), each its own tappable word: every
-    tap opens a real CC-CEDICT entry.
+  * Only CC-CEDICT words count as words of two or more characters: a jieba word CC-CEDICT lacks (很快, 件事, 可用) is
+    cut into CC-CEDICT words, so every tap opens a real CC-CEDICT entry. Measured on 6,000 of the app's texts, letting
+    those words in (and showing them as their parts, as Shūjià does) changed 70 cuts, mostly for the worse
+    (可/用/來 for 可/用來, 某/件事/情, 車/窗).
   * Integer scores: the browser repeats the exact same cut from the table (zhCut in the template).
 
 The readings (numbered pinyin, CC-CEDICT's, mainland standard; 一 and 不 in their citation tones, as dictionaries write)
@@ -23,16 +24,17 @@ The readings (numbered pinyin, CC-CEDICT's, mainland standard; 一 and 不 in th
     (word overrides), else for one character the reading used by the most frequent words (CC-CEDICT × jieba, as
     Shūjià's READ_MAIN), for a longer word its HSK reading, else pypinyin's reading of the word (phrase dictionary),
     else the CC-CEDICT reading with most senses; "used in / variant / archaic" readings and names last.
-  * Per occurrence: a single character standing as a word gets the reading `rule()` gives from its neighbours in the
-    computed cut (V得 de, 我得 děi, 不著 zháo, 長大 zhǎng, 還錢 huán, 為了 wèi…), kept only if CC-CEDICT lists it for
-    that character. A longer word keeps its default (pypinyin's phrase dictionary reads a word, not a sentence).
+  * Per occurrence: a single character standing as a word gets the reading `rule()` gives from the words around it in
+    the computed cut (V得 de, 我得 děi, 睡不著 zháo, 委婉地 de, 長出 zhǎng, 還錢 huán, 為了 / 為他 / 為…而 wèi but
+    以…為 wéi, 數一數 shǔ…), kept only if CC-CEDICT lists it for that character. A longer word keeps its default
+    (pypinyin's phrase dictionary reads a word, not a sentence), except 多少 (數量的多少 duōshǎo).
   * Where an occurrence's reading differs from its word's default, the text gets an exception
     {key(text): "token.line,…"} (the word's position among the text's words, the line of its entry).
 
 Shipped: one table {word: entry} (DATA.zh in the app page; exam/zh.json "w" in the private module: only the words
 the app's table lacks) and the exceptions (DATA.zhx, exam/zh.json "x"); no per-text cut. Entry:
-  "score|pinyin<TAB>English" lines (CC-CEDICT word, the default reading first), or
-  "score|=part part…"  (jieba-only word: the CC-CEDICT words the app shows in its place)
+  "score|pinyin<TAB>English" lines, the default reading first (empty for a character CC-CEDICT lacks, kept for its
+  score)
 `check()` runs the browser's rule here.
 
     import zh_words
@@ -69,7 +71,7 @@ MINOR = re.compile(r'archaic|obsolete|^old variant of|^variant of|^used in |radi
 VARIANT_FORMS = {'裏': '裡里', '峯': '峰', '牀': '床', '綫': '線线', '麪': '麵面', '衆': '眾众', '爲': '為为', '僞': '偽伪',
                  '眞': '真', '敎': '教', '値': '值', '着': '著着', '著': '着著', '啓': '啟启', '敍': '敘叙', '溼': '濕湿',
                  '箇': '個个', '纔': '才', '粧': '妝妆', '菸': '煙烟', '綑': '捆', '份': '份分', '臺': '台', '台': '臺台',
-                 '佈': '布', '祕': '秘', '汙': '污', '恆': '恒', '吋': '寸', '踴': '踊', '撐': '撑', '囉': '啰', '喫': '吃'}
+                 '佈': '布', '做': '做作', '祕': '秘', '汙': '污', '恆': '恒', '吋': '寸', '踴': '踊', '撐': '撑', '囉': '啰', '喫': '吃'}
 # a single character standing as a word: its default reading (rule() may change it per occurrence)
 SINGLE = {'著': 'zhe5', '着': 'zhe5', '得': 'de5', '地': 'di4', '了': 'le5', '嗎': 'ma5', '呢': 'ne5', '吧': 'ba5',
           '個': 'ge4', '麼': 'me5', '的': 'de5', '一': 'yi1', '不': 'bu4', '都': 'dou1', '還': 'hai2', '為': 'wei2',
@@ -85,7 +87,7 @@ SINGLE = {'著': 'zhe5', '着': 'zhe5', '得': 'de5', '地': 'di4', '了': 'le5'
           '轉': 'zhuan3', '散': 'san4', '難': 'nan2', '間': 'jian1', '奇': 'qi2', '晃': 'huang4', '彈': 'tan2',
           '模': 'mo2', '冲': 'chong1', '衝': 'chong1', '佔': 'zhan4', '占': 'zhan4', '咽': 'yan4', '吐': 'tu3',
           '畜': 'chu4', '卡': 'ka3', '鑽': 'zuan1', '釘': 'ding1', '擔': 'dan1', '劃': 'hua4', '扎': 'zha1', '號': 'hao4',
-          '漂': 'piao1', '佛': 'fo2', '兒': 'er2', '那': 'na4', '哪': 'na3', '啊': 'a5', '呀': 'ya5', '喔': 'o5',
+          '漂': 'piao1', '佛': 'fo2', '兒': 'er2', '冠': 'guan1', '那': 'na4', '哪': 'na3', '啊': 'a5', '呀': 'ya5', '喔': 'o5',
           '哦': 'o4', '嘛': 'ma5', '啦': 'la5', '喲': 'yo5', '亡': 'wang2', '仔': 'zai3'}
 # word readings CC-CEDICT gives in another order, or several, where one is far more usual
 WORD_PY = {'地方': 'di4 fang5', '生意': 'sheng1 yi5', '教授': 'jiao4 shou4', '所長': 'suo3 zhang3', '到了': 'dao4 le5',
@@ -133,17 +135,27 @@ def norm_num(p):
     return ' '.join(out)
 
 
-def rule(c, prev, nxt):
-    """the reading of a single character standing as a word, from its neighbours in the cut (strings, '' at the
-    edge of a run of Han characters, i.e. at punctuation), or None: the default. Numbered pinyin."""
+WHO = {'他人', '別人', '大家', '自己', '死人', '活人', '國家', '民眾', '社會', '某人', '子女', '父母', '孩子',
+       '他', '她', '我', '你', '您', '誰', '人民', '眾人', '對方', '朋友', '客人', '家人', '神明', '祖先'}
+
+
+def rule(c, words, j):
+    """the reading of a single character standing as word j of a run of Han characters (the run's words: the edge
+    of a run is punctuation), or None: the default. Numbered pinyin."""
+    prev = words[j - 1] if j else ''
+    nxt = words[j + 1] if j + 1 < len(words) else ''
     p1, n1 = prev[-1:], nxt[:1]
+    if c == '多少':   # 數量的多少: amount
+        return 'duo1 shao3' if prev == '的' or nxt in ('不', '有', '而') else None
     if c == '得':
-        if n1 == '了' and not prev:
-            return 'de2'                           # 得了: that's enough / obtained
+        if n1 == '了' and (not prev or p1 in PRON or prev in ('就', '都', '也', '又', '還', '已', '曾', '已經', '終於', '才')):
+            return 'de2'                           # 他得了第一名: obtained (V得了 stays de)
         if p1 and p1 in PRON and n1 and n1 not in '到了出以知益失分獎勝':
             return 'dei3'                          # 我得走, 你們得去: must
         if prev in ('就', '還', '也', '都', '總', '非', '可') and n1 and n1 not in '到了出以知益失分':
             return 'dei3'
+        if not prev and nxt in ('要', '先', '把', '趕快', '馬上', '去', '來', '好好', '注意', '小心', '再', '趕緊', '靠'):
+            return 'dei3'                          # (，)得要, 得先: must
         if not prev or prev in ('而', '所', '可', '獲', '取', '求', '心', '難', '各', '自', '應', '不可', '必'):
             return 'de2'                           # 得之, 所得, 各得其所: obtain
         return None                                # V得 / A得: de
@@ -156,26 +168,33 @@ def rule(c, prev, nxt):
             return 'zhao2'
         return None
     if c == '了':
-        if p1 in ('不', '得') and (not nxt or n1 and n1 in '的'):
+        if prev in ('不', '得') and (not nxt or n1 == '的'):
             return 'liao3'                         # V不了, V得了: be able to
         return None
     if c == '地':
-        if len(prev) >= 2 and nxt and (prev[-1] == prev[-2] or prev[-1] in '然地般樣些勁心意力真實速快慢輕重靜默悄緩好細'):
-            return 'de5'                           # 慢慢地, 突然地, 偷偷地: -ly
+        if len(prev) >= 2 and (nxt or prev[-1] == prev[-2]):
+            return 'de5'                           # 委婉地 + verb, 慢慢地: -ly
         return None
     if c == '還':
         if n1 and n1 in '錢債給清本原手擊鄉俗願' or prev in ('歸', '償', '退', '交', '送', '借', '討', '要', '把'):
             return 'huan2'
         return None
     if c == '長':
+        if prev in ('太', '很', '好', '真', '較', '比較', '更', '最', '多', '那麼', '這麼', '夠', '又', '不', '細', '特別', '非常'):
+            return None                            # 太長了, 很長: long
         if n1 and (n1 and n1 in '得大出滿成高胖肉毛葉芽牙鬍鬚瘡蟲' or nxt in ('了', '著', '在')):
             return 'zhang3'                        # 長得, 長出, 長滿: grow
         if prev in ('生', '成', '增', '助', '滋', '瘋', '又', '再', '也', '會', '已', '正在', '開始') and n1 != '的':
             return 'zhang3'
         return None
     if c == '為':
-        if n1 and n1 in '了何什甚此' or nxt in ('他', '她', '我', '你', '您', '大家', '人民', '國家', '自己', '別人', '誰'):
-            return 'wei4'                          # 為了, 為何, 為他: for
+        before = words[:j]
+        if any(w in ('以', '被', '視', '作', '當', '選', '列', '奉', '尊', '認', '稱', '改', '分', '化', '變', '成') for w in before) \
+                or prev in ('多', '均', '皆', '都', '乃', '即', '亦', '實', '是', '則', '大', '最', '共', '合', '名', '多半') \
+                or '所' in words[j + 1:j + 4]:
+            return None                            # 以…為…, 多為, 為…所 (passive): be, as (wéi)
+        if n1 and n1 in '了何什甚此某' or nxt in WHO or ''.join(words[j + 1:j + 3]) in WHO or ('而' in words[j + 2:j + 5] and (not prev or prev in ('是', '就', '也', '專', '只', '特', '正', '不'))):
+            return 'wei4'                          # 為了, 為何, 為他, 為死人做…, 為獎勵而…: for
         return None
     if c == '重':
         if n1 and n1 in '做寫來讀考說打畫裝新蓋建修編排播申返回演選印':
@@ -186,7 +205,7 @@ def rule(c, prev, nxt):
             return 'hang2'                         # 一行, 兩行, 這行: row / trade
         return None
     if c == '種':
-        if n1 and n1 in '樹花菜豆稻瓜果草苗田地麥茶菸' and not (p1 and p1 in NUM):
+        if n1 and n1 in '樹花菜豆稻瓜果草苗田地麥菸' and not (p1 and p1 in NUM):
             return 'zhong4'                        # 種樹, 種花: plant
         return None
     if c == '數':
@@ -203,7 +222,7 @@ def rule(c, prev, nxt):
             return 'chu3'                          # 處在, 處於: be in; 處理
         return None
     if c == '量':
-        if n1 and n1 in '體身尺血一量長寬高溫重':
+        if n1 and n1 in '體身尺血' or nxt in ('一下', '一量', '量'):
             return 'liang2'                        # 量體重: measure
         return None
     if c == '背':
@@ -211,7 +230,7 @@ def rule(c, prev, nxt):
             return 'bei1'                          # 背著, 背書包: carry on the back
         return None
     if c == '盛':
-        if n1 and n1 in '飯湯水菜粥酒滿裝':
+        if n1 and n1 in '飯湯水菜粥酒滿物器':
             return 'cheng2'                        # 盛飯: fill
         return None
     if c == '好':
@@ -372,16 +391,14 @@ class Model:
         return [''.join(combo) for combo in itertools.islice(itertools.product(*opts), 64)]
 
     def score(self, w):
-        """(score, simplified form, kind) of a written word, kind 'c' (CC-CEDICT word) or 'j' (jieba word shown as
-        its parts), or None when it is no word (longer than one character)"""
+        """(score, simplified form) of a written word, or None when it is no word (longer than one character)"""
         r = self._score.get(w)
         if r is None:
             fs = self.forms(w)
             f, sw = max(((self.freq.get(x, 0), x) for x in fs), key=lambda y: y[0])
             ck = self.cedict_key(w)
-            kind = 'c' if ck else 'j'
-            if not ck and len(w) > 1 and (not f or not self.parts(w)):
-                f = 0                          # neither dictionary's word, or one the sheet could not show
+            if not ck and len(w) > 1:
+                f = 0                          # a word is a word the sheet can show: CC-CEDICT's
             elif not f:
                 if ck and len(w) > 1:
                     f, sw = max(((self.idf.get(x, 0), x) for x in fs), key=lambda y: y[0])
@@ -395,7 +412,7 @@ class Model:
             else:
                 if not self.freq.get(sw) and not self.idf.get(sw):
                     sw = next((x for x in fs if x in self.simp), fs[-1])
-                r = (round(SCALE * math.log(f)), sw, kind)
+                r = (round(SCALE * math.log(f)), sw)
             self._score[w] = r
         return r or None
 
@@ -434,20 +451,6 @@ class Model:
             for t in self.simp.get(x, []):
                 return t
         return None
-
-    def parts(self, w):
-        """a jieba word CC-CEDICT lacks -> the CC-CEDICT words it is made of, cut by the same rule among CC-CEDICT
-        words only (太過份 -> 太 過份), or [] when it is one character"""
-        r = self._parts.get(w)
-        if r is None:
-            def known(x):
-                if x == w or (len(x) > 1 and not self.cedict_key(x)):
-                    return None
-                sc = self.score(x)
-                return sc[0] if sc else None
-            r = self.cut_run(list(w), known) if len(w) > 1 else []
-            self._parts[w] = r
-        return r
 
     def readings(self, w):
         """[[numbered, [English]]] for a CC-CEDICT word, one line per reading, "variant of" entries resolved"""
@@ -509,39 +512,32 @@ class Model:
         return sorted(range(len(rs)), key=lambda i: (name(i), minor(i), -len(rs[i][1]), not nums[i].endswith('5')))[0]
 
     def entry(self, w):
-        """(score, lines [[marks, English]], numbered readings, parts) for a written word; parts: the CC-CEDICT words a
-        jieba-only word is shown as (else None)"""
+        """(score, lines [[marks, English]], numbered readings) for a written word"""
         r = self._entry.get(w)
         if r is None:
             s = self.score(w)
             q = s[0] if s else 0
-            rs = self.readings(w) if (not s or s[2] == 'c') else []
+            rs = self.readings(w)
             if rs:
                 d = self.default_reading(w, rs)
                 minor = lambda i: all(MINOR.search(g) for g in rs[i][1]) if rs[i][1] else True
                 order = [d] + sorted((i for i in range(len(rs)) if i != d), key=lambda i: (rs[i][0][:1].isupper(), minor(i)))
                 order = order[:SENSES]
-                r = (q, [[marks(rs[i][0]), '; '.join(rs[i][1])] for i in order], [norm_num(rs[i][0]) for i in order], None)
-            elif s and s[2] == 'j' and len(w) > 1:
-                r = (q, [], [], self.parts(w))   # shown as its parts, each its own word
+                r = (q, [[marks(rs[i][0]), '; '.join(rs[i][1])] for i in order], [norm_num(rs[i][0]) for i in order])
             else:
-                r = (q, [], [], None)
+                r = (q, [], [])
             self._entry[w] = r
         return r
 
     def tappable(self, w):
         return bool(self.entry(w)[1])
 
-    def shown(self, w):
-        """a word of the cut -> the words the app shows for it (a jieba-only word: its parts)"""
-        return self.entry(w)[3] or [w]
-
     # ---- the readings in context
     def read_words(self, words):
         """per word of one run: the line of its entry that fits the sentence, or None (its default, line 0)"""
         out = [None] * len(words)
         for j, w in enumerate(words):
-            if len(w) != 1:
+            if len(w) != 1 and w != '多少':
                 continue
             e = self.entry(w)
             if not e[2]:
@@ -549,7 +545,7 @@ class Model:
             if j >= 2 and words[j - 2] == w and words[j - 1] in ('一', '了', '不'):
                 out[j] = out[j - 2]                # 數一數, 看了看: the second as the first
                 continue
-            got = rule(w, words[j - 1] if j else '', words[j + 1] if j + 1 < len(words) else '')
+            got = rule(w, words, j)
             if got and got != e[2][0] and got in e[2]:
                 out[j] = e[2].index(got)
         return out
@@ -599,7 +595,7 @@ def analyse(text):
         if i % 2 == 0:
             put(part)
             continue
-        ws = [y for w in M.cut_run(list(part)) for y in M.shown(w)]
+        ws = M.cut_run(list(part))
         for w, r in zip(ws, M.read_words(ws)):
             if M.tappable(w):
                 out.append([w, r])
@@ -625,9 +621,6 @@ class Lexicon:
                 for w in M.cut_run(list(part)):
                     if len(w) > 1 or M.score(w)[0] > 0 or M.tappable(w):   # its score or its entry matters to the browser
                         self.words.add(w)
-                        for p in M.entry(w)[3] or []:   # a jieba-only word's parts: the app shows them
-                            if M.tappable(p):
-                                self.words.add(p)
         n, x = 0, []
         for t in analyse(text):
             if isinstance(t, list):
@@ -647,8 +640,8 @@ class Lexicon:
         for w in sorted(self.words):
             if w in skip:
                 continue
-            q, lines, _, ps = model().entry(w)
-            out[w] = f'{q}|=' + ' '.join(ps) if ps else f'{q}|' + '\n'.join(p + '\t' + en for p, en in lines)
+            q, lines, _ = model().entry(w)
+            out[w] = f'{q}|' + '\n'.join(p + '\t' + en for p, en in lines)
         return out
 
     def exceptions(self):
@@ -673,14 +666,11 @@ def browser(text, table, exc):
         if i % 2 == 0:
             put(part)
             continue
-        for w0 in M.cut_run(list(part), known):
-            b = table.get(w0, '|').split('|', 1)[1]
-            for w in (b[1:].split(' ') if b.startswith('=') else [w0]):
-                b2 = table.get(w, '|').split('|', 1)[1]
-                if b2 and not b2.startswith('='):
-                    out.append([w, None])
-                else:
-                    put(w)
+        for w in M.cut_run(list(part), known):
+            if w in table and table[w].split('|', 1)[1]:
+                out.append([w, None])
+            else:
+                put(w)
     x = dict(tuple(int(v, 36) for v in y.split('.')) for y in exc.get(key(text), '').split(',') if y)
     j = 0
     for t in out:
@@ -702,8 +692,7 @@ def check(texts, table, exc):
 
 
 def show(text):
-    """one line for a person: words separated by /, each with the reading shown (* = chosen by the sentence;
-    a jieba-only word as part+part)"""
+    """one line for a person: words separated by /, each with the reading shown (* = chosen by the sentence)"""
     M, out = model(), []
     for t in analyse(text):
         if isinstance(t, str):
