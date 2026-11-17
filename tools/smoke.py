@@ -178,7 +178,7 @@ with sync_playwright() as pw:
     if not page.locator('#again10').count():
         p('tone practice did not reach its end screen')
     page.evaluate("location.hash = 'lessons'")
-    for h in ('themes', 'chars', 'lists', 'grammar', 'drills', 'bridge', 'podcast', 'video', 'music', 'settings', 'lesson-0'):
+    for h in ('themes', 'chars', 'jitai', 'lists', 'grammar', 'drills', 'bridge', 'podcast', 'video', 'music', 'settings', 'lesson-0'):
         page.evaluate(f"location.hash = '{h}'")
         page.wait_for_timeout(150)
         overflow(page, h)
@@ -187,6 +187,69 @@ with sync_playwright() as pw:
             p(f'{h}: currentTab() names no tab')
         if SHOTS:
             page.screenshot(path=f'{SHOTS}/{h}.png')
+    # Lessons › 台語字: every group opens; every row has a character, a reading and an example (or the reading-only
+    # note); three tokens and a word button per group open a card; a Mandarin word opens the 華語 sheet; the switch
+    # goes both ways with Lessons kept lit; a lesson link lands on its lesson; Practise starts a session
+    page.evaluate("location.hash = 'lessons'")
+    page.wait_for_timeout(150)
+    if not page.locator('#main .pracnav [data-go="jitai"]').count():
+        p('lessons: no switch to 台語字')
+    page.evaluate("localStorage.setItem('tshehtu:jtOpen', '-1'); JT.open = -1; location.hash = 'jitai'")
+    page.wait_for_selector('[data-jopen]')
+    ng = page.locator('[data-jopen]').count()
+    seen = 0
+    for gi in range(ng):
+        page.locator(f'[data-jopen="{gi}"]').click()
+        page.wait_for_selector('.jrow')
+        overflow(page, f'台語字 group {gi + 1}')
+        bad = page.evaluate('''[...document.querySelectorAll('.jrow')].filter(r => !r.querySelector('.cbig') || !r.querySelector('.vr').textContent.trim()
+            || !(r.querySelector(':scope > .jx') || r.querySelector('.jro'))).map(r => r.querySelector('.cbig') && r.querySelector('.cbig').textContent)''')
+        if bad:
+            p(f'台語字 group {gi + 1}: rows without a reading or an example: {bad}')
+        seen += page.locator('.jrow').count()
+        toks = page.locator('.jrow > .jx .tok')
+        for ti in range(min(3, toks.count())):
+            toks.nth(ti * max(1, toks.count() // 3)).click()
+            if not page.evaluate("document.getElementById('sheet').classList.contains('open')"):
+                p(f'台語字 group {gi + 1}: example word does not open a card')
+            page.keyboard.press('Escape')
+        if page.locator('.jrow .cwd').count():
+            page.locator('.jrow .cwd').first.click()
+            if not page.evaluate("document.getElementById('sheet').classList.contains('open')"):
+                p(f'台語字 group {gi + 1}: word button does not open a card')
+            page.keyboard.press('Escape')
+        page.locator(f'[data-jopen="{gi}"]').click()   # close it again
+    if seen != page.evaluate('DATA.chars.length + (DATA.charsx || []).length'):
+        p(f'台語字: {seen} rows shown, the data has more')
+    page.locator('[data-jopen="0"]').click()
+    page.wait_for_selector('.jrow')
+    z = page.locator('.jrow .ztok').first
+    if z.count():
+        z.click()
+        if 'zh' not in (page.locator('#sheet').get_attribute('class') or ''):
+            p('台語字: a Mandarin word does not open the 華語 sheet')
+        page.keyboard.press('Escape')
+    if page.evaluate('currentTab()') != 'lessons':
+        p('台語字: the Lessons tab is not lit')
+    lk = page.locator('.jrow > .jx [data-go^="lesson-"]').first
+    if lk.count():
+        tgt = lk.get_attribute('data-go')
+        lk.click()
+        page.wait_for_timeout(200)
+        if page.evaluate('location.hash') != '#' + tgt:
+            p(f'台語字: the lesson link does not open {tgt}')
+    page.evaluate("location.hash = 'jitai'")
+    page.wait_for_selector('#main .pracnav')
+    page.locator('#main .pracnav [data-go="lessons"]').click()
+    page.wait_for_timeout(200)
+    if page.evaluate('location.hash') != '#lessons':
+        p('台語字: the switch does not go back to Lessons')
+    page.evaluate("location.hash = 'jitai'")
+    page.wait_for_selector('[data-study]')
+    page.locator('[data-study]').first.click()
+    page.wait_for_timeout(300)
+    if page.evaluate('location.hash') != '#review':
+        p('台語字: Practise these 25 does not start a session')
     for t in page.evaluate('DATA.themes.map(t => t.id)'):
         page.evaluate(f"location.hash = 'theme-{t}'")
         page.wait_for_selector('.vtable')
