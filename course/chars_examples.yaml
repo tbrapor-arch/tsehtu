@@ -1,0 +1,703 @@
+# Lessons › 台語字: one public example per Taigi-only character. The list and its order are tools/taigi_chars.py's,
+# pinned in course/chars_order.txt; every listed character needs an entry here (tools/lint.py). docs/taigi-chars.md.
+# lesson: [lesson id, line n]  a course line (the build copies it: Hàn-jī, Tâi-lô, English, tokens, link)
+# moe: {word, hanji}          an MOE example, found in the database by its headword and Hàn-jī and shown
+#                             unaltered (Tâi-lô, Mandarin) with attribution; en: is ours, labelled as such
+# created: {hanji, tailo, en} written for this list, every word an MOE word; "not checked by a native speaker"
+# reading_only: true          no MOE definition and no MOE word that has one: the reading only (owner, 17 Nov 2026)
+# moe2: {word, hanji}         an MOE sentence shown folded under a lesson line as "Dictionary example"
+# also: [lesson id, line n]   a lesson line longer than 24 syllables that gave way to the MOE sentence (linked)
+# also_read: {r, word}        a reading added to the listed ones, attested by an MOE word (嘓 kho̍k in 嘓魚)
+# conf: H/M/L                 Claude's confidence in a written sentence
+# The character meanings (English) are in course/glosses_en.tsv (column 4 `moe-sense`: from the MOE definition).
+# Draft 17 Nov 2026 (Claude), owner's decisions applied the same day. Not checked by a native speaker.
+chars:
+  # ---- group 1: characters 1–25
+  个: {lesson: [4, 1], moe2: {word: "逐个", hanji: "我逐个攏看過矣，攏毋是你的。"}}
+  佮: {lesson: [1, 7], moe2: {word: "佮", hanji: "食魚食肉，也著菜佮。"}}
+  恁: {lesson: [5, 2], moe2: {word: "恁", hanji: "恁欲去佗位？"}}
+  𪜶: {lesson: [32, 7], moe2: {word: "𪜶", hanji: "𪜶兩个感情真好。"}}
+  囡: {lesson: [5, 4], moe2: {word: "囡仔", hanji: "伊的囡仔真古錐。"}}
+  𠢕: {lesson: [1, 2], moe2: {word: "𠢕", hanji: "伊真𠢕講話。"}}
+  睭: {lesson: [31, 3], moe2: {word: "目睭", hanji: "伊目睭真大蕊。"}}
+  刣: {lesson: [55, 4], moe2: {word: "刣", hanji: "這幾逝愛刣掉。"}}
+  徛: {lesson: [22, 3], moe2: {word: "徛", hanji: "你徛佇遐創啥物？"}}
+  踮: {lesson: [36, 2], moe2: {word: "踮", hanji: "我踮遮等你。"}}
+  抾: {lesson: [33, 7], moe2: {word: "抾", hanji: "物件抾抾咧！"}}
+  媠: {lesson: [15, 3], moe2: {word: "媠", hanji: "彼个查某囡仔真媠。"}}
+  尪: {lesson: [31, 8], moe2: {word: "尪仔標", hanji: "較早的囡仔愛耍尪仔標。"}}
+  仝: {lesson: [10, 3], moe2: {word: "仝款", hanji: "這兩个皮包仔看著仝款仔仝款。"}}
+  爿: {lesson: [8, 5], moe2: {word: "東爿", hanji: "日頭對東爿出來矣。"}}
+  蹛: {lesson: [2, 4], moe2: {word: "蹛", hanji: "物件囥蹛桌頂就好。"}}
+  囥: {lesson: [19, 5], moe2: {word: "囥", hanji: "錢囥佇銀行。"}}
+  硩: {lesson: [165, 13], moe2: {word: "硩", hanji: "遮愛硩印仔。"}}
+  䆀: {lesson: [7, 5], moe2: {word: "䆀", hanji: "伊生做真䆀。"}}
+  迌: {lesson: [18, 1], moe2: {word: "𨑨迌", hanji: "驚死就毋通出來𨑨迌。"}}
+  𨑨: {lesson: [18, 1], moe2: {word: "𨑨迌", hanji: "驚死就毋通出來𨑨迌。"}}
+  欉: {lesson: [67, 1], moe2: {word: "大欉", hanji: "稻仔發甲誠大欉矣。"}}
+  咾: {lesson: [38, 3], moe2: {word: "呵咾", hanji: "你一直共我呵咾，我會歹勢。"}}
+  僫: {lesson: [48, 7], moe2: {word: "僫", hanji: "豬跤真僫𤉙。"}}
+  戇: {lesson: [37, 8], moe2: {word: "戇戇", hanji: "伊戇戇坐佇遐，毋知咧想啥。"}}
+  # ---- group 2: characters 26–50
+  搤: {moe: {word: "搤", hanji: "鴨仔咧搤水。"}, en: "The ducks are paddling in the water."}
+  枵: {lesson: [53, 1], moe2: {word: "枵", hanji: "我腹肚枵矣。"}}
+  攑: {lesson: [55, 15], moe2: {word: "攑頭", hanji: "攑頭三尺有神明。"}}
+  覕: {lesson: [54, 10], moe2: {word: "覕", hanji: "你敢知影伊覕佇佗位？"}}
+  謼: {lesson: [59, 12], moe2: {word: "謼", hanji: "謼，好啦，你講的準算。"}}
+  庄: {lesson: [20, 2], moe2: {word: "庄跤", hanji: "我細漢的時陣蹛佇庄跤。"}}
+  捀: {lesson: [61, 15], moe2: {word: "捀茶", hanji: "你去捀茶來予人客啉。"}}
+  踅: {lesson: [66, 16], moe2: {word: "踅", hanji: "彼粒干樂當咧踅。"}}
+  捾: {lesson: [58, 14], moe2: {word: "捾", hanji: "伊的跤捾水。"}}
+  捒: {lesson: [73, 7], moe2: {word: "放捒", hanji: "你按呢放捒某囝敢著？"}}
+  晡: {lesson: [9, 5], moe2: {word: "下晡", hanji: "下晡我欲招阿美仔去𨑨迌。"}}
+  歕: {lesson: [31, 6], moe2: {word: "歕雞胿", hanji: "伊足愛歕雞胿。"}}
+  尻: {lesson: [104, 14], moe2: {word: "尻川", hanji: "伊早起跋倒，去頓著尻川。"}}
+  賰: {lesson: [106, 25], moe2: {word: "賰", hanji: "聽講伊賰袂少錢。"}}
+  凊: {lesson: [101, 3], moe2: {word: "凊彩", hanji: "凊彩人攏會曉。"}}
+  墘: {lesson: [54, 1], moe2: {word: "溪仔墘", hanji: "有人佇溪仔墘釣魚。"}}
+  銃: {moe: {word: "手銃", hanji: "囡仔人毋通傷手銃。"}, en: "Children mustn't be too naughty.", also: [211, 15]}
+  𤆬: {lesson: [12, 5], moe2: {word: "相𤆬", hanji: "阿姊佮小弟相𤆬去讀冊。"}}
+  剉: {lesson: [104, 10], moe2: {word: "剉柴", hanji: "𪜶兩兄弟透早就去山頂剉柴矣。"}}
+  蠓: {lesson: [111, 8], moe2: {word: "蠓罩", hanji: "熱天用蠓罩才袂予蠓仔叮。"}}
+  軁: {lesson: [80, 8], moe2: {word: "軁鑽", hanji: "伊真𠢕軁鑽，隨揣著頭路。"}}
+  筊: {lesson: [211, 20], moe2: {word: "跋筊", hanji: "干焦有人跋筊了家伙，無人跋筊好額的。"}}
+  矸: {lesson: [106, 27], moe2: {word: "酒矸", hanji: "有酒矸通賣無？"}}
+  坵: {lesson: [102, 4]}
+  趖: {lesson: [36, 7], moe2: {word: "趖", hanji: "你是趖去佗位？"}}
+  # ---- group 3: characters 51–75
+  絚: {lesson: [78, 4], moe2: {word: "絚", hanji: "縛較絚咧。"}}
+  挲: {lesson: [126, 2], moe2: {word: "挲", hanji: "魚仔先挲鹽才落去煎。"}}
+  潲: {lesson: [121, 23], moe2: {word: "嘐潲", hanji: "伊誠𠢕講嘐潲。"}}
+  勼: {lesson: [106, 20], moe2: {word: "勼", hanji: "彼隻露螺的頭勼入去殼內底矣。"}}
+  偝: {lesson: [104, 16]}
+  埽: {lesson: [89, 1], moe2: {word: "長躼埽", hanji: "這枝竹仔長躼埽，強欲拄天。"}}
+  搝: {lesson: [65, 14], moe2: {word: "搝票", hanji: "選舉的時，候選人愛靠伊的柱仔跤來鬥搝票。"}}
+  跍: {moe: {word: "跍", hanji: "我毋捌跍咧食飯。"}, en: "I've never eaten squatting down.", also: [104, 15]}
+  爁: {lesson: [113, 5], moe2: {word: "爁", hanji: "火舌爁一下。"}}
+  揬: {lesson: [203, 12], moe2: {word: "揬", hanji: "用話共伊揬。"}}
+  埕: {lesson: [45, 8], moe2: {word: "廟埕", hanji: "下暗廟埕欲搬戲。"}}
+  粧: {moe: {word: "添粧", hanji: "阿英欲嫁矣，親情朋友攏包紅包共伊添粧。"}, en: "A-ing is getting married; friends and relatives all give her red envelopes for her trousseau.", also: [105, 27]}
+  咍: {lesson: [104, 11], moe2: {word: "笑咍咍", hanji: "逐家咧開講，講甲笑咍咍。"}}
+  唚: {moe: {word: "相唚", hanji: "𪜶兩个佇街仔路相唚，予老師看著。"}, en: "The two of them kissed in the street and the teacher saw them.", also: [105, 24]}
+  抐: {lesson: [204, 4], moe2: {word: "抐", hanji: "菜去抐抐咧，無，會臭火焦。"}}
+  搧: {lesson: [206, 9], moe2: {word: "搧", hanji: "予人搧大耳去。"}}
+  敨: {moe: {word: "敨", hanji: "雞屎運咧敨。"}, en: "What dumb luck! (lit. 'chicken-dung luck is unwinding': a stroke of undeserved good luck)"}
+  鵁: {lesson: [104, 23]}
+  挃: {moe: {word: "挃", hanji: "這个袋仔你欲挃無？"}, en: "Do you want this bag?", also: [212, 4]}
+  痀: {moe: {word: "曲痀", hanji: "伊生做曲痀曲痀。"}, en: "He's hunchbacked."}
+  骿: {lesson: [159, 6]}
+  䫌: {lesson: [206, 9], moe2: {word: "喙䫌", hanji: "你的喙䫌哪會遐爾紅？"}}
+  蹧: {lesson: [211, 8], moe2: {word: "蹧躂", hanji: "新新的物件毋通按呢蹧躂。"}}
+  𡢃: {lesson: [116, 7]}
+  鶖: {moe: {word: "烏鶖", hanji: "烏鶖騎水牛。"}, en: "The drongo rides the water buffalo. (said of a small husband with a big wife)"}
+  # ---- group 4: characters 76–100
+  痟: {lesson: [147, 10], moe2: {word: "痟", hanji: "彼隻狗咧痟。"}}
+  泔: {moe: {word: "泔", hanji: "糜煮了傷泔"}, en: "The rice porridge is too thin."}
+  雺: {moe: {word: "罩雺", hanji: "山頂真𠢕罩雺。"}, en: "It often gets foggy up in the mountains.", also: [125, 2]}
+  絪: {created: {hanji: "古早人用草絪來起火。", tailo: "Kóo-tsá-lâng iōng tsháu-in lâi khí-hué.", en: "In the old days people lit the fire with bundles of straw."}, conf: M}   # pattern: 古早人煮飯攏用飯篱撈飯。
+  欶: {lesson: [204, 13], moe2: {word: "欶奶", hanji: "嬰仔咧欶奶。"}}
+  抌: {lesson: [138, 13]}
+  𫝛: {lesson: [212, 15], moe2: {word: "相𫝛", hanji: "這兩領是相𫝛的。"}}
+  虼: {lesson: [106, 18]}
+  𬦰: {lesson: [26, 2], moe2: {word: "𬦰山", hanji: "禮拜才做伙來去𬦰山。"}}
+  漚: {lesson: [201, 11], moe2: {word: "漚", hanji: "賰五千箍總漚落去。"}}
+  鰗: {created: {hanji: "田裡有真濟鰗鰡。", tailo: "Tshân--lí ū tsin tsē hôo-liu.", en: "There are lots of loaches in the paddy field."}, conf: H}   # pattern: 樹林仔、草埔仔攏有真濟蟲豸。
+  鰡: {created: {hanji: "鰗鰡規身軀滑溜溜，足僫掠。", tailo: "Hôo-liu kui-sin-khu ku̍t-liu-liu, tsiok oh lia̍h.", en: "Loaches are slippery all over and very hard to catch."}, conf: M}   # pattern: 我規身軀軟荍荍，攏無想欲振動。
+  晟: {moe: {word: "晟", hanji: "爸母用心來共咱晟。"}, en: "Our parents put their whole heart into bringing us up."}
+  冇: {moe: {word: "冇手", hanji: "伊用錢真冇手。"}, en: "He's very free with his money.", also: [161, 4]}
+  茈: {moe: {word: "茈", hanji: "伊的年歲有較茈。"}, en: "He's a bit younger."}
+  𢯾: {moe: {word: "𢯾", hanji: "兩个人𢯾做伙。"}, en: "The two of them hugged each other.", also: [205, 12]}
+  戽: {lesson: [212, 9], moe2: {word: "戽", hanji: "共水戽予焦。"}}
+  傱: {lesson: [153, 6], moe2: {word: "傱", hanji: "你咧傱啥物？"}}
+  憢: {lesson: [138, 5], moe2: {word: "憢疑", hanji: "你毋通憢疑我對你的感情。"}}
+  頕: {moe: {word: "頕", hanji: "稻仔穗頕落去。"}, en: "The ears of rice are drooping.", also: [113, 18]}
+  晬: {moe: {word: "度晬", hanji: "做度晬"}, en: "celebrate a baby's first birthday"}
+  躼: {lesson: [202, 11], moe2: {word: "躼", hanji: "伊是阮這班上躼的學生。"}}
+  鑢: {lesson: [202, 6], moe2: {word: "鑢", hanji: "柴做的物件愛鑢予伊平才好看。"}}
+  搵: {moe: {word: "搵", hanji: "面巾搵予澹。"}, en: "Wet the towel.", also: [152, 14]}
+  橂: {lesson: [207, 15], moe2: {word: "戶橂", hanji: "囡仔人毋通坐戶橂。"}}
+  # ---- group 5: characters 101–125
+  烌: {lesson: [201, 6], moe2: {word: "鋸屑烌", hanji: "伊定定去杉仔行抔鋸屑烌轉來燃。"}}
+  齁: {moe: {word: "齁", hanji: "伊睏甲齁齁叫。"}, en: "He's snoring loudly in his sleep."}
+  蓁: {created: {hanji: "溪邊生真濟菅蓁。", tailo: "Khe-pinn senn tsin tsē kuann-tsin.", en: "Lots of silvergrass grows along the stream."}, conf: H}   # pattern: 樹林仔、草埔仔攏有真濟蟲豸。
+  煠: {moe: {word: "煠", hanji: "肉煠有熟無？"}, en: "Is the meat cooked through?", also: [138, 20]}
+  縒: {lesson: [212, 10], moe2: {word: "走縒", hanji: "雙爿講的話無走縒。"}}
+  秫: {lesson: [126, 8], moe2: {word: "秫米", hanji: "你去買寡秫米轉來做麻糍。"}}
+  檨: {lesson: [48, 4]}
+  蕹: {created: {hanji: "熱人我上愛食炒蕹菜。", tailo: "Jua̍h--lâng guá siōng ài tsia̍h tshá ìng-tshài.", en: "In summer I love stir-fried water spinach best."}, conf: H}   # pattern: 墨賊仔炒芹菜真好食。
+  礐: {moe: {word: "屎礐仔", hanji: "屎礐仔空愈抐愈臭。"}, en: "The more you stir a cesspit, the more it stinks."}
+  趒: {lesson: [158, 19], moe2: {word: "趒", hanji: "氣甲趒起來。"}}
+  𤺪: {lesson: [203, 8], moe2: {word: "厭𤺪", hanji: "我感覺足厭𤺪的，飯攏食袂落去。"}}
+  薅: {lesson: [161, 15], moe2: {word: "薅草", hanji: "培墓進前愛先薅草。"}}
+  搣: {lesson: [153, 11]}
+  湠: {lesson: [212, 18], moe2: {word: "生湠", hanji: "鳥鼠真𠢕生湠。"}}
+  迵: {lesson: [62, 7], moe2: {word: "迵", hanji: "這條路迵新店。"}}
+  敆: {lesson: [212, 11], moe2: {word: "敆", hanji: "伊共兩本簿仔敆做伙。"}}
+  喈: {moe: {word: "喈", hanji: "一日到暗喈無錢。"}, en: "He complains from morning to night that he has no money.", also: [138, 24]}
+  脬: {moe: {word: "扶𡳞脬", hanji: "伊上𠢕共頭家扶𡳞脬。"}, en: "He's the best at sucking up to the boss. (vulgar)"}
+  𡳞: {moe: {word: "𡳞神", hanji: "忠厚看做𡳞神。"}, en: "Honesty gets taken for foolishness. (vulgar)"}
+  縖: {lesson: [208, 10], moe2: {word: "縖裙", hanji: "伊佇內底縖裙，小等就出來矣。"}}
+  糴: {moe: {word: "糴米", hanji: "你有欲去糴米無？"}, en: "Are you going to buy rice?"}
+  虯: {moe: {word: "虯", hanji: "伊做人真虯。"}, en: "He's very stingy.", also: [209, 15]}
+  犅: {moe: {word: "牛犅", hanji: "這个牛牢內底有幾隻牛犅？"}, en: "How many bulls are there in this cowshed?"}
+  汫: {lesson: [204, 8], moe2: {word: "軟汫", hanji: "伊真軟汫，走無一時仔久就哼哼呻。"}}
+  璇: {moe: {word: "璇石喙", hanji: "有一寡相命仙璇石喙，講甲糊瘰瘰，愛細膩。"}, en: "Some fortune-tellers have a glib tongue and talk all sorts of nonsense; be careful.", also: [208, 14]}
+  # ---- group 6: characters 126–150
+  糍: {created: {hanji: "阿媽做的麻糍真好食。", tailo: "A-má tsò ê muâ-tsî tsin hó-tsia̍h.", en: "The mochi Grandma makes is delicious."}, conf: H}   # pattern: 螺仔炒九層塔真好食。
+  滒: {lesson: [204, 16], moe2: {word: "滒", hanji: "麻糍滒塗豆麩。"}}
+  蟳: {lesson: [109, 9], moe2: {word: "蟳膏", hanji: "蟳膏是上等料理。"}}
+  炰: {moe: {word: "炰", hanji: "炰番薯"}, en: "roast sweet potatoes in the embers"}
+  撨: {lesson: [73, 10], moe2: {word: "撨", hanji: "恁撨好勢才共我講結果。"}}
+  倯: {lesson: [202, 21], moe2: {word: "倯", hanji: "你毋通笑伊倯，伊真有學問閣有修養。"}}
+  挐: {moe: {word: "挐氅氅", hanji: "規間厝舞甲挐氅氅。"}, en: "The whole house has been turned upside down.", also: [209, 4]}
+  捙: {lesson: [206, 11], moe2: {word: "捙倒", hanji: "人民捙倒獨裁者的銅像。"}}
+  飫: {lesson: [44, 14], moe2: {word: "飫喙", hanji: "你毋通閣提雞卵糕來，我已經飫喙矣。"}}
+  摁: {lesson: [213, 16], moe2: {word: "摁", hanji: "予槌仔摁著，會著內傷。"}}
+  蚻: {lesson: [106, 18]}
+  悾: {moe: {word: "悾悾", hanji: "伊哪會變做悾悾，到底是發生啥物代誌？"}, en: "How has he become so dazed? What on earth happened?", also: [210, 6]}
+  椏: {moe: {word: "樹椏", hanji: "樹椏取來做柴燃。"}, en: "The branches are taken for firewood.", also: [169, 13]}
+  鵤: {moe: {word: "鴨鵤", hanji: "鴨鵤袂生卵。"}, en: "A drake doesn't lay eggs."}
+  觱: {created: {hanji: "老師歕觱仔，學生就緊集合。", tailo: "Lāu-su pûn pi-á, ha̍k-sing tō kín tsi̍p-ha̍p.", en: "The teacher blows the whistle and the pupils quickly line up."}, conf: M}   # pattern: 歕觱仔 (MOE word); 學生佇學校攏會學做針黹。
+  扞: {lesson: [201, 17], moe2: {word: "扞", hanji: "你的手愛扞予伊好，才袂跋倒。"}}
+  黹: {moe: {word: "針黹", hanji: "學生佇學校攏會學做針黹。"}, en: "Pupils all learn needlework at school."}
+  薟: {lesson: [53, 4], moe2: {word: "薟", hanji: "番薑真薟，食著會凍舌。"}}
+  𫞼: {lesson: [203, 10], moe2: {word: "𫞼", hanji: "伊𫞼佇遐攏毋振動。"}}
+  姼: {moe: {word: "姼仔詼", hanji: "你毋通予彼个姼仔詼騙去。"}, en: "Don't let that womaniser fool you."}
+  𰣻: {moe: {word: "癩𰣻", hanji: "這个所在足癩𰣻的。"}, en: "This place is filthy."}
+  妗: {lesson: [201, 3], moe2: {word: "妗婆", hanji: "妗婆雖然真老矣，精神猶真好。"}}
+  捽: {lesson: [206, 4], moe2: {word: "捽", hanji: "伊去予人捽甲流血流滴。"}}
+  伨: {moe: {word: "伨", hanji: "大人伨囡仔，人會笑。"}, en: "People laugh when a grown-up squabbles with a child."}
+  坉: {moe: {word: "坉平", hanji: "無人共窟仔坉平，行路會足危險的。"}, en: "If nobody fills in the potholes, walking will be very dangerous."}
+  # ---- group 7: characters 151–175
+  拹: {moe: {word: "拹水", hanji: "用水拹仔拹水。"}, en: "Pump water with the hand pump."}
+  挔: {lesson: [205, 4]}
+  㾀: {moe: {word: "㾀勢", hanji: "我從到今毋捌看過遮爾仔㾀勢的查某。"}, en: "I've never seen such an ugly woman."}
+  㧣: {moe: {word: "㧣", hanji: "㧣伊出來選。"}, en: "Push him forward to stand for election."}
+  譀: {lesson: [210, 20], moe2: {word: "譀", hanji: "你按呢傷譀啦！"}}
+  魽: {created: {hanji: "紅魽做生魚片上好食。", tailo: "Âng-kam tsò tshenn-hî-phìnn siōng hó-tsia̍h.", en: "Amberjack is best as sashimi."}, conf: M}   # pattern: 魚仔的膁肚較肥較好食。
+  碡: {moe: {word: "磟碡", hanji: "拍磟碡"}, en: "roll the field with a stone roller"}
+  磟: {moe: {word: "磟碡", hanji: "拍磟碡"}, en: "roll the field with a stone roller"}
+  坱: {moe: {word: "坱", hanji: "塗沙粉仔真坱。"}, en: "The fine dust is flying everywhere."}
+  圇: {moe: {word: "圇", hanji: "圇頭出來看。"}, en: "Stick your head out and look."}
+  𥴊: {moe: {word: "𥴊仔店", hanji: "阮細漢的時上愛去𥴊仔店買糖仔。"}, en: "When we were small we loved going to the corner shop to buy sweets."}
+  刜: {moe: {word: "刜", hanji: "𪜶老爸放予伊的財產，伊無幾年就刜了了矣。"}, en: "He blew the fortune his father left him in a few years."}
+  煏: {moe: {word: "煏", hanji: "肉先落去煏較芳。"}, en: "Fry the meat first to render the fat, it smells better.", also: [211, 13]}
+  橛: {moe: {word: "橛", hanji: "一尾魚仔切做兩橛。"}, en: "Cut the fish into two pieces.", also: [212, 4]}
+  糶: {moe: {word: "糶米", hanji: "你愛學較巧咧，毋通糶米換番薯。"}, en: "Be smarter than that: don't sell rice to buy sweet potatoes. (don't make a losing trade)"}
+  撏: {lesson: [205, 15], moe2: {word: "撏", hanji: "佇橐袋仔內撏規晡，撏無半仙。"}}
+  甪: {moe: {word: "甪", hanji: "索仔愛拍死結才袂甪去。"}, en: "Tie the rope with a tight knot so it won't come loose.", also: [211, 12]}
+  咇: {lesson: [202, 14], moe2: {word: "咇咇掣", hanji: "伊驚甲咇咇掣。"}}
+  菝: {lesson: [161, 19]}
+  戥: {created: {hanji: "古早的藥店攏用戥仔秤藥。", tailo: "Kóo-tsá ê io̍h-tiàm lóng iōng tíng-á tshìn io̍h.", en: "Old herbal shops all weighed their medicines on small steelyards."}, conf: M}   # pattern: 古早人煮飯攏用飯篱撈飯。
+  垺: {moe: {word: "垺", hanji: "一垺屎"}, en: "a heap of dung"}
+  鮕: {created: {hanji: "阿爸佇溪裡掠著一尾鮕鮘。", tailo: "A-pah tī khe--lí lia̍h-tio̍h tsi̍t bué koo-tai.", en: "Dad caught a snakehead in the stream."}, conf: H}   # pattern: 共遮的蝦笱下蹛溪裡，掠看有蝦仔無。
+  鮘: {created: {hanji: "這尾鮕鮘猶閣咧趒。", tailo: "Tsit bué koo-tai iáu-koh teh tiô.", en: "This snakehead is still jumping about."}, conf: M}   # pattern: 這尾魚真臭臊。
+  胿: {moe: {word: "雞胿", hanji: "你雞胿毋通閣歕矣。"}, en: "Stop blowing your own trumpet."}
+  呴: {created: {hanji: "阮阿公有痚呴，寒天上艱苦。", tailo: "Guán a-kong ū he-ku, kuânn--thinn siōng kan-khóo.", en: "My grandpa has asthma; winter is the hardest for him."}, conf: H}   # pattern: 昨暗聽伊痚規暝，我實在真毋甘。
+  # ---- group 8: characters 176–200
+  痚: {moe: {word: "痚", hanji: "昨暗聽伊痚規暝，我實在真毋甘。"}, en: "I heard him wheezing all night; it really hurt me to hear it."}
+  䠡: {lesson: [208, 5], moe2: {word: "䠡", hanji: "行路毋通按呢䠡。"}}
+  袚: {moe: {word: "袚", hanji: "伊共面巾袚佇肩胛頭。"}, en: "He threw the towel over his shoulder.", also: [208, 13]}
+  胘: {moe: {word: "雞胘", hanji: "雞胘滷來食，滋味真好。"}, en: "Chicken gizzards braised in soy sauce are delicious."}
+  鋏: {lesson: [208, 12], moe2: {word: "鋏", hanji: "用頭毛鋏仔共頭毛鋏予伊好。"}}
+  匼: {moe: {word: "倒匼", hanji: "我用罐仔倒匼，掠著一隻虼蚻。"}, en: "I turned a can upside down over a cockroach and caught it."}
+  篱: {moe: {word: "飯篱", hanji: "古早人煮飯攏用飯篱撈飯。"}, en: "In the old days people scooped the rice with a bamboo strainer."}
+  洘: {lesson: [204, 4], moe2: {word: "洘", hanji: "糜煮了傷洘。"}}
+  䘼: {lesson: [202, 3]}
+  剾: {lesson: [201, 7], moe2: {word: "剾", hanji: "伊真𠢕共人剾。"}}
+  㧒: {lesson: [206, 8], moe2: {word: "㧒", hanji: "物件烏白㧒。"}}
+  擛: {lesson: [132, 2], moe2: {word: "擛風", hanji: "用葵扇擛風。"}}
+  欸: {moe: {word: "欸", hanji: "欸，哪會按呢？"}, en: "Eh? How come?"}
+  娗: {lesson: [208, 12], moe2: {word: "妝娗", hanji: "用樹椏來做妝娗。"}}
+  膣: {moe: {word: "膣", hanji: "三八膣"}, en: "frivolous woman (vulgar insult)"}
+  忤: {moe: {word: "忤逆", hanji: "毋通忤逆序大人。"}, en: "Never defy your parents."}
+  鉎: {lesson: [142, 4], moe2: {word: "鉎", hanji: "伊規身軀全鉎。"}}
+  緟: {moe: {word: "緟", hanji: "伊共銀角仔緟起來。"}, en: "He stacked up the coins."}
+  𩛩: {moe: {word: "𩛩", hanji: "予海湧𩛩去。"}, en: "swept away by the waves"}
+  掔: {lesson: [206, 10]}
+  撟: {moe: {word: "姦撟", hanji: "伊真愛共人姦撟。"}, en: "He loves swearing at people.", also: [210, 11]}
+  恂: {lesson: [211, 8], moe2: {word: "青恂恂", hanji: "伊驚甲面仔青恂恂。"}}
+  癰: {created: {hanji: "伊的尻脊骿生一粒癰仔，足疼的。", tailo: "I ê kha-tsiah-phiann senn tsi̍t lia̍p ing-á, tsiok thiànn--ê.", en: "He has a carbuncle on his back and it really hurts."}, conf: M}   # pattern: 我的粒仔發癀矣，足疼的！
+  拊: {moe: {word: "拊", hanji: "提拊仔拊予伊清氣。"}, en: "Rub it clean with the eraser."}
+  揤: {lesson: [81, 12], moe2: {word: "揤", hanji: "有人咧揤電鈴。"}}
+  # ---- group 9: characters 201–225
+  紩: {lesson: [208, 6], moe2: {word: "紩", hanji: "衫裂去，愛緊紩紩咧。"}}
+  桷: {created: {hanji: "厝頂的桷仔去予白蟻蛀去矣。", tailo: "Tshù-tíng ê kak-á khì hōo pe̍h-hiā tsiù--khì--ah.", en: "The rafters of the roof have been eaten by termites."}, conf: M}   # pattern: 樓栱去予蛀蟲蛀幾若穿。
+  黐: {lesson: [128, 3], moe2: {word: "黏黐黐", hanji: "汗流甲規身軀黏黐黐。"}}
+  𪐞: {lesson: [212, 7], moe2: {word: "𪐞", hanji: "感冒會𪐞人。"}}
+  攕: {lesson: [204, 18], moe2: {word: "攕", hanji: "一攕玉蘭花。"}}
+  撋: {moe: {word: "盤撋", hanji: "做業務的就是愛會曉佮人盤撋。"}, en: "Salespeople have to know how to socialise with people."}
+  鼢: {created: {hanji: "田裡的番薯去予鼢鼠咬去矣。", tailo: "Tshân--lí ê han-tsî khì hōo bùn-tshí kā--khì--ah.", en: "The sweet potatoes in the field have been gnawed by moles."}, conf: M}   # pattern: 樓栱去予蛀蟲蛀幾若穿。
+  迒: {lesson: [207, 15]}
+  嗄: {lesson: [37, 7], moe2: {word: "霧嗄嗄", hanji: "你講遐爾濟，害我聽甲霧嗄嗄。"}}
+  朒: {lesson: [101, 1], moe2: {word: "肥朒朒", hanji: "伊的豬仔，逐隻都飼甲肥朒朒。"}}
+  攄: {moe: {word: "攄", hanji: "攄較邊仔咧。"}, en: "Push it a bit to the side."}
+  詈: {moe: {word: "詈", hanji: "伊串做攏是顧人怨的代誌，莫怪予人詈甲無一塊好。"}, en: "He keeps doing things everyone hates; no wonder people tear him to pieces."}
+  唌: {moe: {word: "唌", hanji: "食飽桌頂無拭會唌虼蚻來。"}, en: "If you don't wipe the table after eating, it attracts cockroaches."}
+  焐: {moe: {word: "焐", hanji: "提冰枕焐頭殼。"}, en: "Put an ice pack on your head."}
+  硞: {lesson: [202, 7], moe2: {word: "硞", hanji: "對伊的頭殼硞落去。"}}
+  癀: {moe: {word: "發癀", hanji: "我的粒仔發癀矣，足疼的！"}, en: "My boil is inflamed, it really hurts!"}
+  勥: {lesson: [210, 4], moe2: {word: "勥", hanji: "伊真勥，逐家攏真呵咾。"}}
+  桸: {created: {hanji: "提鱟桸𣁳水來沃花。", tailo: "The̍h hāu-hia khat tsuí lâi ak hue.", en: "Take the big ladle and scoop up water to water the flowers."}, conf: M}   # pattern: 你𣁳一碗湯予我。
+  䖙: {lesson: [207, 6], moe2: {word: "半䖙倒", hanji: "你若欲半䖙倒看電視，你的目睭早慢會近視。"}}
+  𫝺: {lesson: [207, 10], moe2: {word: "𫝺", hanji: "一跤淺拖𫝺足遠的。"}}
+  莿: {created: {hanji: "海邊種一排莿桐，會使擋風。", tailo: "Hái-pinn tsìng tsi̍t pâi tshì-tông, ē-sái tòng hong.", en: "A row of Indian coral trees is planted by the sea to break the wind."}, conf: M}   # pattern: 阮舊厝的門口埕有種真濟佈田花。
+  箬: {moe: {word: "拆箬", hanji: "天拄拆箬，作穡人就已經起來巡田水矣。"}, en: "At first light the farmers are already up checking the water in the fields."}
+  𤲍: {moe: {word: "𤲍", hanji: "今仔日的火車實在有夠𤲍。"}, en: "The train today is really packed.", also: [82, 11]}
+  俍: {moe: {word: "挑俍", hanji: "阿仁生做誠挑俍。"}, en: "A-jîn is tall and slender."}
+  殕: {lesson: [201, 10], moe2: {word: "殕色", hanji: "伊真愛穿殕色的褲。"}}
+  # ---- group 10: characters 226–250
+  螕: {moe: {word: "牛螕", hanji: "伊敢若牛螕咧，欲叫伊出錢是無可能的代誌。"}, en: "He's like a cattle tick: getting him to pay is impossible."}
+  筅: {lesson: [157, 4], moe2: {word: "筅", hanji: "雞母咧筅塗。"}}
+  蟶: {moe: {word: "藃蟶", hanji: "這搭會洩水，貼佇頂頭的紙久來就會藃蟶。"}, en: "The wall here lets water in; the paper stuck on it will warp after a while."}
+  𤉙: {lesson: [204, 7], moe2: {word: "𤉙", hanji: "豬跤𤉙爛爛，真好食。"}}
+  粅: {lesson: [204, 16], moe2: {word: "甜粅粅", hanji: "日本點心甜粅粅，食濟會大箍。"}}
+  繏: {moe: {word: "繏", hanji: "領帶傷絚，繏甲我強欲袂喘氣。"}, en: "My tie is so tight it's nearly choking me."}
+  𥍉: {lesson: [122, 19], moe2: {word: "𥍉目", hanji: "看甲無𥍉目。"}}
+  僆: {moe: {word: "雞僆仔", hanji: "雞僆仔肉較幼。"}, en: "A pullet's meat is more tender."}
+  扴: {moe: {word: "扴", hanji: "我佮伊定定相扴。"}, en: "He and I are always at odds."}
+  挓: {moe: {word: "挓火", hanji: "彼堆火欲化去矣，你緊去提火夾來挓火。"}, en: "The fire's going out: quick, get the tongs and stir it up."}
+  搐: {lesson: [203, 7], moe2: {word: "搐", hanji: "喙䫌搐一下。"}}
+  漉: {lesson: [209, 3], moe2: {word: "澹漉漉", hanji: "雄雄落雨閣無位通覕雨，規身軀沃甲澹漉漉。"}}
+  豸: {moe: {word: "蟲豸", hanji: "樹林仔、草埔仔攏有真濟蟲豸。"}, en: "There are lots of insects in the woods and the grass."}
+  揜: {lesson: [202, 14], moe2: {word: "揜", hanji: "你定定偷揜錢予伊，莫當做我毋知。"}}
+  囷: {moe: {word: "囷", hanji: "共索仔囷起來。"}, en: "Coil up the rope."}
+  㴙: {lesson: [209, 2], moe2: {word: "㴙㴙滴", hanji: "汗㴙㴙滴。"}}
+  躽: {moe: {word: "躽", hanji: "毋通踮塗跤躽。"}, en: "Don't roll about on the floor."}
+  觳: {moe: {word: "觳仔", hanji: "你共遮的物件囥入去觳仔內底。"}, en: "Put these things into the little box."}
+  㽎: {moe: {word: "㽎", hanji: "吊橋行著會㽎。"}, en: "The suspension bridge sways when you walk on it."}
+  𩚨: {moe: {word: "𩚨", hanji: "紅龜粿真𩚨。"}, en: "Red turtle cakes are nice and chewy."}
+  牚: {moe: {word: "牚腿", hanji: "昨暗走一下傷久，害我今仔日跤牚腿。"}, en: "I ran too long last night, and today my legs are stiff."}
+  槤: {created: {hanji: "榴槤足臭，毋過真好食。", tailo: "Liû-liân tsiok tshàu, m̄-koh tsin hó-tsia̍h.", en: "Durian stinks, but it's delicious."}, conf: H}   # pattern: 魚仔的膁肚較肥較好食。
+  𣻸: {lesson: [209, 3], moe2: {word: "𣻸塌塌", hanji: "這幾日雨澹水滴，路不時攏𣻸塌塌。"}}
+  脽: {moe: {word: "尾脽", hanji: "雞尾脽"}, en: "the chicken's rump"}
+  鰇: {moe: {word: "鰇魚鬚", hanji: "鰇魚鬚就是鰇魚的跤佮手。"}, en: "Squid 'whiskers' are the squid's arms and legs."}
+  # ---- group 11: characters 251–275
+  蹽: {moe: {word: "蹽落去", hanji: "明明知影代誌真嚴重，伊嘛是蹽落去。"}, en: "He knew perfectly well how serious it was, and still he waded in.", also: [207, 8]}
+  椪: {created: {hanji: "過年的時，阮兜攏會買椪柑。", tailo: "Kuè-nî ê sî, guán tau lóng ē bé phòng-kam.", en: "At New Year my family always buys ponkan tangerines."}, conf: H}   # pattern: 阮細漢的時上愛去𥴊仔店買糖仔。
+  櫼: {moe: {word: "櫼", hanji: "用塗豆櫼塗豆油。"}, en: "Press peanuts to make peanut oil.", also: [211, 14]}
+  蕎: {moe: {word: "蕗蕎", hanji: "食蒜仔吐蕗蕎。"}, en: "Eat garlic and spit out shallots. (a losing trade: shallots cost more than garlic)"}
+  蕗: {moe: {word: "蕗蕎", hanji: "食蒜仔吐蕗蕎。"}, en: "Eat garlic and spit out shallots. (a losing trade: shallots cost more than garlic)"}
+  㧎: {lesson: [211, 6], moe2: {word: "㧎", hanji: "這枝筆寫著㧎㧎。"}}
+  𣁳: {moe: {word: "𣁳", hanji: "你𣁳一碗湯予我。"}, en: "Ladle me a bowl of soup."}
+  檫: {moe: {word: "檫仔", hanji: "觀音媽檫仔"}, en: "a hanging scroll of Guanyin"}
+  籗: {moe: {word: "茶籗", hanji: "手捾茶籗六角扁，緊緊捾來身軀邊。"}, en: "In my hand a flat hexagonal tea basket, I carry it quickly by my side. (from a tea-picking song)"}
+  挩: {lesson: [202, 13], moe2: {word: "挩", hanji: "共屜仔挩開。"}}
+  荍: {moe: {word: "軟荍荍", hanji: "我規身軀軟荍荍，攏無想欲振動。"}, en: "I feel limp all over and don't want to move at all."}
+  𠕇: {lesson: [209, 10], moe2: {word: "𠕇", hanji: "這粒菝仔傷𠕇，我咬袂落去。"}}
+  熇: {reading_only: true}
+  挕: {lesson: [67, 6], moe2: {word: "挕捒", hanji: "伊一領外衫穿幾若十年，補了閣補，毋甘挕捒。"}}
+  棑: {created: {hanji: "較早阮攏坐竹棑過溪。", tailo: "Khah-tsá guán lóng tsē tik-pâi kuè khe.", en: "We used to cross the river on a bamboo raft."}, conf: H}   # pattern: 古早人煮飯攏用飯篱撈飯。
+  襀: {lesson: [114, 2]}
+  碖: {created: {hanji: "埕裡有一粒大粒石碖。", tailo: "Tiânn--lí ū tsi̍t lia̍p tuā-lia̍p tsio̍h-lún.", en: "There's a big stone roller in the courtyard."}, conf: M}   # pattern: 一欉成人懸的樹仔。
+  蜍: {created: {hanji: "落雨了後，路邊有一隻螿蜍。", tailo: "Lo̍h-hōo liáu-āu, lōo-pinn ū tsi̍t tsiah tsiunn-tsî.", en: "After the rain there's a toad by the road."}, conf: H}   # pattern: 軟蜞生活佇陰暗溼氣重的所在。
+  螿: {created: {hanji: "螿蜍有毒，毋通掠來食。", tailo: "Tsiunn-tsî ū to̍k, m̄-thang lia̍h lâi tsia̍h.", en: "Toads are poisonous: don't catch them to eat."}, conf: H}   # pattern: 毋通忤逆序大人。
+  頇: {moe: {word: "頇顢", hanji: "彼箍做代誌真頇顢。"}, en: "That guy is so clumsy at everything he does.", also: [210, 16]}
+  顢: {lesson: [210, 4], moe2: {word: "頇顢", hanji: "彼箍做代誌真頇顢。"}}
+  湳: {lesson: [211, 4], moe2: {word: "湳", hanji: "這條路真湳。"}}
+  剺: {moe: {word: "剺", hanji: "予刀仔割一剺。"}, en: "cut by a knife, leaving a scratch"}
+  搢: {lesson: [202, 9], moe2: {word: "搢", hanji: "衫搢入去衫櫥內。"}}
+  摠: {moe: {word: "摠", hanji: "共頭毛摠規摠，束起來。"}, en: "Gather the hair into a bunch and tie it up.", also: [205, 2]}
+  # ---- group 12: characters 276–300
+  糋: {moe: {word: "肉糋", hanji: "肉糋著糋甲拄仔好才好食。"}, en: "Fried meat is only good when it's fried just right.", also: [72, 12]}
+  𤶃: {moe: {word: "爛𤶃仔", hanji: "青春期的囡仔較會生爛𤶃仔，面愛洗予清氣。"}, en: "Teenagers get pimples more easily, so they must wash their faces well."}
+  苳: {created: {hanji: "庄頭有一欉大欉茄苳。", tailo: "Tsng-thâu ū tsi̍t tsâng tuā-tsâng ka-tang.", en: "At the edge of the village there's a big bishop wood tree."}, conf: H}   # pattern: 一欉成人懸的樹仔。
+  疕: {moe: {word: "囡仔疕", hanji: "一个囡仔疕，閣足𠢕變鬼變怪。"}, en: "Such a little brat, and so good at getting up to mischief.", also: [209, 16]}
+  搦: {lesson: [205, 5], moe2: {word: "搦", hanji: "衫仔褲搦搦咧。"}}
+  熁: {moe: {word: "熁", hanji: "徛佇籠床邊熁燒。"}, en: "stand by the steamer to warm up"}
+  灇: {moe: {word: "灇水", hanji: "熱人豬哥愛灇水，才袂熱著。"}, en: "In summer the breeding boar needs hosing down, or it gets heatstroke."}
+  𢼌: {moe: {word: "𢼌", hanji: "𢼌頭殼"}, en: "hit (someone) on the head"}
+  捘: {lesson: [201, 13], moe2: {word: "捘", hanji: "共窒仔捘開。"}}
+  熥: {moe: {word: "熥", hanji: "一句話熥了閣熥。"}, en: "He keeps bringing up the same thing over and over."}
+  諞: {moe: {word: "諞", hanji: "伊予人諞去矣。"}, en: "He was conned."}
+  𧿬: {moe: {word: "𧿬踏", hanji: "你敢走來阮兜共我𧿬踏？"}, en: "How dare you come to my house and insult me?"}
+  礱: {created: {hanji: "阮阿公猶會曉用塗礱礱粟。", tailo: "Guán a-kong iáu ē-hiáu iōng thôo-lâng lâng tshik.", en: "My grandpa still knows how to hull rice with a clay mill."}, conf: M}   # pattern: 用水拹仔拹水。
+  喌: {moe: {word: "密喌喌", hanji: "窗仔門關甲密喌喌，連胡蠅都飛袂入去。"}, en: "The windows are shut so tight that not even a fly can get in.", also: [213, 11]}
+  斌: {reading_only: true}
+  喢: {moe: {word: "喢", hanji: "蟮蟲仔喢胡蠅。"}, en: "The gecko snaps up a fly."}
+  擽: {moe: {word: "擽", hanji: "伊愛擽人的胳耳空。"}, en: "He likes tickling people's armpits."}
+  膁: {moe: {word: "膁肚", hanji: "魚仔的膁肚較肥較好食。"}, en: "The belly of a fish is fattier and tastier."}
+  碇: {moe: {word: "起碇", hanji: "較緊咧，船欲起碇矣。"}, en: "Hurry up, the boat is about to weigh anchor."}
+  裼: {moe: {word: "褪腹裼", hanji: "伊褪腹裼坐佇遐歇涼。"}, en: "He's sitting there bare-chested, enjoying the cool."}
+  扷: {moe: {word: "扷", hanji: "對跤骨共扷落去。"}, en: "hit down on the leg"}
+  裾: {lesson: [208, 18], moe2: {word: "內裾", hanji: "伊的外套洗甲勼水去，內裾煞看現現。"}}
+  𥐵: {lesson: [201, 9]}
+  砛: {lesson: [201, 4], moe2: {word: "砛仔", hanji: "遮有一个砛仔，你著細膩毋通跋倒。"}}
+  鯮: {moe: {word: "赤鯮", hanji: "紅尾冬，較贏食赤鯮。"}, en: "A red-tailed scad in season beats a red sea bream."}
+  # ---- group 13: characters 301–325
+  翸: {lesson: [206, 14], moe2: {word: "拍翸", hanji: "昨暗伊腹肚疼甲佇眠床頂拍翸。"}}
+  癗: {moe: {word: "癗", hanji: "伊頭殼去挵著桌角煞腫一癗。"}, en: "He banged his head on the corner of the table and got a bump."}
+  贌: {moe: {word: "贌", hanji: "伊贌一片果子園種果子趁錢。"}, en: "He rented an orchard and grows fruit for a living."}
+  刐: {lesson: [108, 12], moe2: {word: "刐", hanji: "你今仔日刐偌濟？"}}
+  砒: {created: {hanji: "砒霜真毒，一點仔就會死人。", tailo: "Phi-sng tsin to̍k, tsi̍t-tiám-á tō ē sí lâng.", en: "Arsenic is very poisonous: a tiny bit can kill."}, conf: H}   # pattern: 鹽酸會咬肉，欲用愛細膩。
+  敧: {moe: {word: "坦敧身", hanji: "你愛坦敧身才會當過。"}, en: "You have to turn sideways to get through.", also: [202, 10]}
+  栱: {moe: {word: "樓栱", hanji: "樓栱去予蛀蟲蛀幾若穿。"}, en: "The beams of the house have been bored full of holes by woodworm."}
+  跔: {lesson: [207, 5], moe2: {word: "跔", hanji: "暫時佇遮罔跔。"}}
+  揲: {moe: {word: "揲", hanji: "伊轉去一定會予𪜶老爸揲甲真忝。"}, en: "When he gets home his father will give him a good hiding."}
+  摵: {moe: {word: "摵", hanji: "我予這幫車摵甲強欲吐。"}, en: "This bus shook me about so much I nearly threw up."}
+  熗: {moe: {word: "熗", hanji: "熗油飯"}, en: "steam oily rice"}
+  擤: {moe: {word: "擤鼻", hanji: "鼻仔都擤甲紅絳絳矣你閣一直擤鼻。"}, en: "Your nose is already red from blowing and you keep on blowing it."}
+  疱: {moe: {word: "膨疱", hanji: "我予滾水燙一下膨疱，足疼的。"}, en: "I scalded myself with boiling water and got a blister; it really hurts."}
+  瘰: {lesson: [86, 6]}
+  𧮙: {moe: {word: "𧮙", hanji: "𧮙姦撟"}, en: "swear at someone with filthy words"}
+  鍘: {reading_only: true}
+  𣮈: {moe: {word: "老孤𣮈", hanji: "人若有歲閣孤獨，人會叫伊老孤𣮈。"}, en: "When someone is old and keeps to himself, people call him a lonely old codger."}
+  㤉: {lesson: [210, 8], moe2: {word: "㤉潲", hanji: "我誠㤉潲伊彼款做代誌的態度。"}}
+  焱: {moe: {word: "光焱焱", hanji: "𪜶兜的電火點甲光焱焱，毋過佇咧外口叫門，煞攏無人應。"}, en: "Their house was all lit up, but when we called at the door nobody answered.", also: [104, 13]}
+  哹: {moe: {word: "哹", hanji: "車咧哹哹叫。"}, en: "The car is honking."}
+  笱: {moe: {word: "蝦笱", hanji: "共遮的蝦笱下蹛溪裡，掠看有蝦仔無。"}, en: "Put these shrimp traps in the stream and see whether we catch any shrimp."}
+  勍: {moe: {word: "勍", hanji: "物件予人勍去矣！"}, en: "My things have been pinched!"}
+  蟧: {created: {hanji: "壁頂有一隻大隻蟧蜈。", tailo: "Piah-tíng ū tsi̍t tsiah tuā-tsiah lâ-giâ.", en: "There's a big huntsman spider on the wall."}, conf: H}   # pattern: 蟮蟲仔喢胡蠅。
+  櫳: {lesson: [203, 13], moe2: {word: "櫳仔", hanji: "犯罪的人會予人掠入去櫳仔內。"}}
+  𣛮: {moe: {word: "𣛮", hanji: "扛大𣛮"}, en: "carry the big pole (in a funeral procession)"}
+  # ---- group 14: characters 326–350
+  薐: {created: {hanji: "菠薐仔炒蒜頭真好食。", tailo: "Pue-lîng-á tshá suàn-thâu tsin hó-tsia̍h.", en: "Spinach stir-fried with garlic is delicious."}, conf: H}   # pattern: 墨賊仔炒芹菜真好食。
+  襇: {lesson: [208, 4], moe2: {word: "抾襇", hanji: "伊這領裙有抾襇。"}}
+  貺: {moe: {word: "貺", hanji: "貺紅卵"}, en: "give red eggs (for a baby's first month)"}
+  奅: {moe: {word: "奅", hanji: "伊穿甲真奅。"}, en: "He's very trendily dressed."}
+  疔: {moe: {word: "疔仔", hanji: "生疔仔"}, en: "get a boil"}
+  酺: {created: {hanji: "豆酺會使做豆油。", tailo: "Tāu-pôo ē-sái tsò tāu-iû.", en: "Fermented soybeans can be made into soy sauce."}, conf: M}   # pattern: 拊仔 (word); 早前槺榔是做掃帚的主要材料。
+  猫: {moe: {word: "猫仔", hanji: "猫仔愈來愈少矣。"}, en: "Leopard cats are getting fewer and fewer."}
+  欱: {moe: {word: "欱", hanji: "伊一喙就共肉欱落去。"}, en: "He swallowed the meat in one gulp.", also: [206, 20]}
+  挼: {lesson: [126, 10], moe2: {word: "挼", hanji: "你毋通共狗蟻挼死！"}}
+  烰: {moe: {word: "烰", hanji: "蝦仔滒粉落去烰。"}, en: "Coat the shrimps in batter and deep-fry them."}
+  綹: {moe: {word: "剪綹仔", hanji: "去人濟的所在愛較斟酌咧，錢毋通去予剪綹仔剪去。"}, en: "Be careful in crowded places: don't let pickpockets get your money."}
+  燖: {lesson: [157, 10], moe2: {word: "燖補", hanji: "立冬燖補，共序大人侹身體。"}}
+  罾: {moe: {word: "罾", hanji: "蝦仔罾"}, en: "a shrimp net"}
+  魴: {created: {hanji: "討海人掠著一尾大尾魴魚。", tailo: "Thó-hái-lâng lia̍h-tio̍h tsi̍t bué tuā-bué hang-hî.", en: "The fisherman caught a big stingray."}, conf: M}   # pattern: 這尾魚真臭臊。
+  躘: {moe: {word: "躘", hanji: "伊會當躘真懸。"}, en: "He can jump very high.", also: [206, 12]}
+  捥: {moe: {word: "捥", hanji: "我緊欲捥棉被來曝日。"}, en: "I'm hurrying to carry the quilt out into the sun."}
+  慒: {lesson: [203, 4], moe2: {word: "慒", hanji: "聽了人真慒。"}}
+  稗: {created: {hanji: "田裡生真濟稗仔，愛緊挽掉。", tailo: "Tshân--lí senn tsin tsē phē-á, ài kín bán-tiāu.", en: "Lots of barnyard grass has come up in the field; it must be pulled out quickly."}, conf: M}   # pattern: 樹林仔、草埔仔攏有真濟蟲豸。
+  喨: {moe: {word: "喨", hanji: "電話咧喨。"}, en: "The phone is ringing."}
+  鈃: {moe: {word: "鈃", hanji: "電話鈃足濟聲矣。"}, en: "The phone has rung many times.", also: [211, 7]}
+  婸: {moe: {word: "起毛婸", hanji: "相連紲攏考一百分，莫怪起毛婸。"}, en: "He got full marks again and again, no wonder he's on top of the world."}
+  疶: {moe: {word: "疶屎", hanji: "伊予你驚一下險仔疶屎。"}, en: "You scared him so much he nearly messed himself."}
+  鋩: {moe: {word: "刀鋩", hanji: "攑刀的時愛攑刀柄，毋通去捎刀鋩。"}, en: "Hold a knife by the handle, never by the blade."}
+  毿: {moe: {word: "暗毿", hanji: "彼種暗毿所在你上好莫去。"}, en: "You'd better not go to such a gloomy, eerie place."}
+  𥰔: {created: {hanji: "伊真𠢕歕𥰔仔。", tailo: "I tsin gâu pûn phín-á.", en: "He's very good at playing the bamboo flute."}, conf: H}   # pattern: 伊真𠢕講話。
+  # ---- group 15: characters 351–375
+  魩: {moe: {word: "魩仔魚", hanji: "魩仔魚羹"}, en: "whitebait thick soup (a famous Taiwanese snack)"}
+  櫞: {moe: {word: "香櫞瓜", hanji: "香櫞瓜佇阮庄跤捷有通食。"}, en: "In our village we often get chayote to eat."}
+  褙: {created: {hanji: "共這張圖褙佇壁頂。", tailo: "Kā tsit tiunn tôo puè tī piah-tíng.", en: "Paste this picture on the wall."}, conf: M}   # pattern: 共旗仔縋落來。
+  跙: {moe: {word: "跙倒", hanji: "細膩，毋通跙倒。"}, en: "Careful, don't slip."}
+  呲: {moe: {word: "呲", hanji: "𪜶兩个咧呲啥物？"}, en: "What are those two whispering about?", also: [210, 5]}
+  蝹: {lesson: [207, 12], moe2: {word: "蝹", hanji: "伊蝹佇壁邊。"}}
+  揻: {lesson: [213, 10], moe2: {word: "揻", hanji: "心肝像針揻。"}}
+  掜: {moe: {word: "掜", hanji: "掜倚來身軀邊。"}, en: "pull it close to you"}
+  屧: {moe: {word: "屧", hanji: "屧佇屜仔內。"}, en: "caught in the crack of the drawer"}
+  㨂: {moe: {word: "㨂", hanji: "你莫用指甲共人㨂。"}, en: "Don't pinch people with your fingernails."}
+  𦊓: {created: {hanji: "討海人佇海邊放𦊓掠魚。", tailo: "Thó-hái-lâng tī hái-pinn pàng lîng lia̍h hî.", en: "The fishermen set long nets by the shore to catch fish."}, conf: M}   # pattern: 放𦊓 (MOE phrase)
+  鮸: {created: {hanji: "鮸魚煮米粉真好食。", tailo: "Bián-hî tsú bí-hún tsin hó-tsia̍h.", en: "Croaker cooked with rice noodles is delicious."}, conf: H}   # pattern: 墨賊仔炒芹菜真好食。
+  杙: {moe: {word: "杙仔", hanji: "釘杙仔做界。"}, en: "drive in stakes to mark the boundary"}
+  蜞: {moe: {word: "軟蜞", hanji: "軟蜞生活佇陰暗溼氣重的所在。"}, en: "Slugs live in dark, damp places."}
+  槺: {moe: {word: "槺榔", hanji: "早前槺榔是做掃帚的主要材料。"}, en: "Formerly the Taiwan date palm was the main material for brooms."}
+  沢: {moe: {word: "鮮沢", hanji: "魚港賣的魚較鮮沢。"}, en: "The fish sold at the fishing harbour is fresher."}
+  礤: {moe: {word: "礤簽", hanji: "番薯礤簽煮糜真好食。"}, en: "Sweet-potato shreds cooked in porridge are delicious."}
+  渧: {moe: {word: "渧", hanji: "共水渧予焦。"}, en: "Drain off the water."}
+  㧌: {moe: {word: "㧌", hanji: "伊的車門予人挵一㧌。"}, en: "Somebody banged his car door and left a dent."}
+  湢: {created: {hanji: "飯欲熟矣，先共泔湢出來。", tailo: "Pn̄g beh si̍k--ah, sing kā ám pih--tshut-lâi.", en: "The rice is nearly done: first pour off the rice water."}, conf: M}   # pattern: 湢泔 (MOE phrase); 共水渧予焦。
+  囮: {moe: {word: "做囮", hanji: "雞母欲生卵的時，咱先提一粒卵囥踮一跡做囮，伊就會過來生蹛遐。"}, en: "When a hen is about to lay, we first put an egg in one spot as a decoy, and she comes and lays there."}
+  砉: {created: {hanji: "刀無利矣，提去砉一下。", tailo: "To bô lāi--ah, the̍h khì huah--tsi̍t-ē.", en: "The knife isn't sharp any more; go and hone it."}, conf: L}   # pattern: 砉刀 (MOE phrase)
+  苴: {moe: {word: "苴", hanji: "塗跤先苴報紙才開始油漆。"}, en: "Spread newspaper on the floor first, then start painting.", also: [213, 9]}
+  泏: {moe: {word: "泏", hanji: "水泏出來矣。"}, en: "The water splashed out."}
+  焠: {moe: {word: "焠", hanji: "伊的衫予香焠一空。"}, en: "His shirt got a hole burnt in it by an incense stick."}
+  # ---- group 16: characters 376–400
+  摖: {created: {hanji: "用鼎摖共鼎摖予清氣。", tailo: "Iōng tiánn-tshè kā tiánn tshè hōo tshing-khì.", en: "Scrub the wok clean with the wok brush."}, conf: H}   # pattern: 提拊仔拊予伊清氣。
+  廍: {created: {hanji: "古早這搭有一間糖廍。", tailo: "Kóo-tsá tsit-tah ū tsi̍t king thn̂g-phōo.", en: "Long ago there was an old sugar mill here."}, conf: H}   # pattern: 這搭會洩水…
+  甓: {created: {hanji: "這間厝是用甓起的。", tailo: "Tsit king tshù sī iōng phia̍h khí--ê.", en: "This house is built of brick."}, conf: M}   # pattern: 早前槺榔是做掃帚的主要材料。
+  歁: {lesson: [210, 7], moe2: {word: "悾歁", hanji: "你真正有夠悾歁。"}}
+  黗: {moe: {word: "筅黗", hanji: "筅黗以後，就準備過年。"}, en: "After sweeping away the soot, you get ready for New Year.", also: [157, 3]}
+  䘥: {lesson: [208, 19], moe2: {word: "吊䘥仔", hanji: "阿公見若熱人，攏穿吊䘥仔四界去行踏，講按呢較涼、較爽快。"}}
+  鵻: {created: {hanji: "樹仔頂有一隻加鵻。", tailo: "Tshiū-á-tíng ū tsi̍t tsiah ka-tsui.", en: "There's a turtle dove in the tree."}, conf: M}   # pattern: 一欉成人懸的樹仔。
+  鱲: {created: {hanji: "今仔日的嘉鱲真鮮。", tailo: "Kin-á-ji̍t ê ka-la̍h tsin tshinn.", en: "The red sea bream is very fresh today."}, conf: H}   # pattern: 魚港賣的魚較鮮沢。
+  敱: {moe: {word: "敱", hanji: "對伊的頭殼敱落去。"}, en: "knock him on the head"}
+  荖: {created: {hanji: "荖藤的葉仔會使包檳榔。", tailo: "Láu-tîn ê hio̍h-á ē-sái pau pin-nn̂g.", en: "Betel-vine leaves are used to wrap betel nuts."}, conf: H}   # pattern: 早前槺榔是做掃帚的主要材料。
+  㷮: {created: {hanji: "灶空內猶有柴㷮，莫閣加柴。", tailo: "Tsàu-khang lāi iáu ū tshâ-tsau, mài koh ka tshâ.", en: "There are still half-burnt embers in the stove; don't add more wood."}, conf: M}   # pattern: 你共遮的物件囥入去觳仔內底。
+  蹘: {reading_only: true}
+  箅: {created: {hanji: "伊瘦甲箅仔骨攏看會著。", tailo: "I sán kah pín-á-kut lóng khuànn ē tio̍h.", en: "He's so thin you can see his ribs."}, conf: H}   # pattern: 鼻仔都擤甲紅絳絳矣…
+  澍: {moe: {word: "澍", hanji: "用水管澍水"}, en: "spray water with a hose"}
+  𠞩: {moe: {word: "𠞩", hanji: "𠞩甘蔗"}, en: "ring-cut sugar cane"}
+  縭: {lesson: [212, 12], moe2: {word: "薄縭絲", hanji: "天氣變涼矣，你閣穿甲薄縭絲。"}}
+  眵: {moe: {word: "眵眵", hanji: "伊目睭眵眵看無明。"}, en: "His eyes are bleary and he can't see clearly."}
+  粞: {lesson: [126, 18]}
+  洒: {moe: {word: "洒", hanji: "水洒甲規四界。"}, en: "Water dripped all over the place."}
+  腡: {moe: {word: "腡", hanji: "你的手指頭仔有幾个腡？"}, en: "How many whorls are there on your fingertips?"}
+  廕: {created: {hanji: "出門進前愛共火廕掉。", tailo: "Tshut-mn̂g tsìn-tsîng ài kā hué ìm--tiāu.", en: "Before going out you must put the fire out."}, conf: M}   # pattern: 廕火 (MOE phrase)
+  漖: {moe: {word: "漖", hanji: "糜煮了傷漖。"}, en: "The porridge is too watery."}
+  擸: {moe: {word: "擸", hanji: "相拍擸頭鬃"}, en: "pull each other's hair in a fight"}
+  疧: {moe: {word: "疧", hanji: "伊的面有一疧。"}, en: "He has a scar on his face."}
+  搩: {lesson: [213, 15], moe2: {word: "搩", hanji: "提石頭共伊搩落去。"}}
+  # ---- group 17: characters 401–425
+  㨨: {moe: {word: "㨨", hanji: "㨨膨紗衫"}, en: "unravel a woollen jumper"}
+  呾: {moe: {word: "無講無呾", hanji: "伊棍仔攑咧無講無呾就撼來，佳哉我緊閃開！"}, en: "He came at me with a stick without a word; luckily I dodged quickly!"}
+  唅: {moe: {word: "唅", hanji: "唅？你講啥？"}, en: "Huh? What did you say?"}
+  圜: {reading_only: true}
+  𦜆: {created: {hanji: "伊跋倒，下𦜆去挵著。", tailo: "I pua̍h-tó, ē-ham khì lòng--tio̍h.", en: "He fell and hit his chin."}, conf: H}   # pattern: 伊頭殼去挵著桌角煞腫一癗。
+  拑: {lesson: [205, 11], moe2: {word: "拑牢牢", hanji: "這个囡仔真驚生份，出外攏共𪜶老母拑牢牢。"}}
+  鍤: {created: {hanji: "用鐵鍤共塗鍤予鬆。", tailo: "Iōng thih-tshiah kā thôo tshiah hōo sang.", en: "Loosen the soil with the iron rake."}, conf: M}   # pattern: 提拊仔拊予伊清氣。
+  浞: {moe: {word: "浞", hanji: "你看你浞甲規雙鞋仔全塗。"}, en: "Look at you, you've tramped mud all over your shoes."}
+  撆: {moe: {word: "撆紮", hanji: "伊的穿插真撆紮。"}, en: "He's always neatly dressed."}
+  膎: {moe: {word: "豉膎", hanji: "用珠螺豉膎"}, en: "salt-pickle top-shells"}
+  藃: {lesson: [213, 14], moe2: {word: "藃蟶", hanji: "這搭會洩水，貼佇頂頭的紙久來就會藃蟶。"}}
+  薁: {created: {hanji: "熱人食一碗薁蕘，真涼。", tailo: "Jua̍h--lâng tsia̍h tsi̍t uánn ò-giô, tsin liâng.", en: "A bowl of aiyu jelly in summer is so refreshing."}, conf: H}   # pattern: 熱人豬哥愛灇水，才袂熱著。
+  癜: {created: {hanji: "白癜袂傳染，毋免驚。", tailo: "Pe̍h-tiō bē thuân-jiám, m̄-bián kiann.", en: "Vitiligo isn't contagious, there's no need to worry."}, conf: H}   # pattern: 這種物件菜市仔少缺，免驚買無。
+  扱: {lesson: [205, 7], moe2: {word: "扱", hanji: "囡仔驚生份，共老母的衫仔尾扱牢牢！"}}
+  喓: {created: {hanji: "阿媽覕佇門後，喓一聲，嬰仔就笑矣。", tailo: "A-má bih tī mn̂g-āu, iaunn tsi̍t siann, enn-á tō tshiò--ah.", en: "Grandma hides behind the door, pops out with a 'boo!', and the baby laughs."}, conf: M}   # pattern: 我干焦聽著擗一聲，火就著起來矣。
+  𩑾: {lesson: [203, 3], moe2: {word: "無閒𩑾𩑾", hanji: "公司接著一張大訂單，生產線趕貨趕甲無閒𩑾𩑾。"}}
+  㨻: {moe: {word: "㨻", hanji: "共沫㨻起來。"}, en: "Skim off the scum."}
+  齻: {created: {hanji: "我的後齻咧疼，欲去看齒科。", tailo: "Guá ê āu-tsan teh thiànn, beh khì khuànn khí-kho.", en: "My back tooth hurts; I'm going to the dentist."}, conf: M}   # pattern: 喙齒疼，喙䫌胮起來矣。
+  䢢: {moe: {word: "䢢拄䢢", hanji: "我有代誌想欲佮你參詳，䢢拄䢢去拄著你。"}, en: "I wanted to talk something over with you, and I just happened to bump into you."}
+  墼: {created: {hanji: "阮阿公細漢的時蹛塗墼厝。", tailo: "Guán a-kong sè-hàn ê sî tuà thôo-kat-tshù.", en: "When my grandpa was little he lived in a mud-brick house."}, conf: H}   # pattern: 阮細漢的時上愛去𥴊仔店買糖仔。
+  骱: {created: {hanji: "伊跋一倒，骱邊疼甲袂行。", tailo: "I pua̍h tsi̍t tó, kái-pinn thiànn kah bē kiânn.", en: "He took a fall and his groin hurts so much he can't walk."}, conf: M}   # pattern: 伊頭殼去挵著桌角煞腫一癗。
+  蜅: {created: {hanji: "熱人一到，𧌄蜅蠐就開始叫。", tailo: "Jua̍h--lâng tsi̍t kàu, am-poo-tsê tō khai-sí kiò.", en: "As soon as summer comes, the cicadas start singing."}, conf: H}   # pattern: 熱人豬哥愛灇水，才袂熱著。
+  蠐: {created: {hanji: "囡仔佇樹仔跤掠𧌄蜅蠐。", tailo: "Gín-á tī tshiū-á-kha lia̍h am-poo-tsê.", en: "The children are catching cicadas under the trees."}, conf: H}   # pattern: 共遮的蝦笱下蹛溪裡，掠看有蝦仔無。
+  𧌄: {created: {hanji: "𧌄蜅蠐吵甲我睏袂去。", tailo: "Am-poo-tsê tshá kah guá khùn bē khì.", en: "The cicadas are so loud I can't sleep."}, conf: H}   # pattern: 我予這幫車摵甲強欲吐。
+  祧: {moe: {word: "祧仔內", hanji: "伊是阮祧仔內的。"}, en: "He's of our clan."}
+  # ---- group 18: characters 426–450
+  𠞭: {moe: {word: "𠞭", hanji: "魚仔先𠞭開才豉鹽。"}, en: "Score the fish before salting it."}
+  茭: {created: {hanji: "茭白筍炒肉絲真好食。", tailo: "Kha-pe̍h-sún tshá bah-si tsin hó-tsia̍h.", en: "Water bamboo stir-fried with shredded pork is delicious."}, conf: H}   # pattern: 墨賊仔炒芹菜真好食。
+  抔: {moe: {word: "抔", hanji: "米落甲規塗跤，趕緊抔起來。"}, en: "There's rice spilt all over the floor, scoop it up quickly."}
+  揌: {moe: {word: "揌", hanji: "揌喙䫌"}, en: "slap someone's face"}
+  沕: {moe: {word: "沕", hanji: "彼隻船仔沕落去水底矣。"}, en: "That boat has sunk to the bottom."}
+  愖: {lesson: [203, 19], moe2: {word: "愖", hanji: "伊愖規晡攏無講話。"}}
+  劌: {moe: {word: "劌", hanji: "衫予釘仔劌破去。"}, en: "My shirt got torn on a nail."}
+  蝝: {moe: {word: "蝝", hanji: "菜著蝝"}, en: "the vegetables have caterpillars"}
+  跕: {lesson: [207, 15], moe2: {word: "跕", hanji: "跕跤行。"}}
+  㔂: {moe: {word: "㔂", hanji: "㔂甘蔗"}, en: "pare the skin off sugar cane"}
+  𫝻: {moe: {word: "𫝻", hanji: "手𫝻著塗粉。"}, en: "My hands got smeared with dust.", also: [212, 13]}
+  搙: {lesson: [205, 19], moe2: {word: "搙", hanji: "這張紙哪會予你搙甲變按呢？"}}
+  搟: {moe: {word: "搟", hanji: "風湧大，船搟甲真厲害，莫怪伊會眩船。"}, en: "The waves are big and the boat is rolling badly; no wonder he's seasick.", also: [206, 5]}
+  揫: {moe: {word: "挽瓜揫藤", hanji: "檢方挽瓜揫藤，將所有的嫌犯攏㨑著，才做一睏總共𪜶起訴。"}, en: "The prosecutors followed every lead, caught all the suspects and charged them all at once."}
+  嗲: {moe: {word: "𩚨嗲嗲", hanji: "柿粿𩚨嗲嗲、甜粅粅，真好食。"}, en: "Persimmon cakes are chewy and sweet, really nice."}
+  䈄: {moe: {word: "落䈄", hanji: "落䈄甘蔗較袂遐𠕇。"}, en: "Sugar cane with long joints is not so hard."}
+  掂: {moe: {word: "掂", hanji: "麻煩你掂一下看偌重。"}, en: "Please weigh it in your hand and see how heavy it is."}
+  濆: {moe: {word: "濆", hanji: "泉水對塗跤濆出來。"}, en: "Spring water is welling up from the ground."}
+  涗: {moe: {word: "穢涗", hanji: "莫穢涗別人。"}, en: "Don't smear other people."}
+  嘓: {also_read: {r: "kho̍k", word: "嘓魚"}, created: {hanji: "廟裡的師父咧摃嘓魚唸經。", tailo: "Biō--lí ê sai-hū teh kòng kho̍k-hî liām-king.", en: "The monk in the temple is beating the wooden fish and chanting."}, conf: L}   # pattern: 嘓魚 (MOE word, read kho̍k)
+  窸: {moe: {word: "窸倏", hanji: "做代誌著較窸倏咧。"}, en: "Be quick and nimble when you work."}
+  楗: {lesson: [213, 12], moe2: {word: "楗", hanji: "朋友本來就愛相楗。"}}
+  𫝏: {moe: {word: "𫝏", hanji: "用冰𫝏頭殼。"}, en: "Put ice on your head."}
+  擉: {moe: {word: "擉", hanji: "袂當用樹奶共人擉。"}, en: "Don't shoot people with rubber bands."}
+  侹: {moe: {word: "侹", hanji: "用柱仔侹咧！"}, en: "Prop it up with a post!"}
+  # ---- group 19: characters 451–475
+  捗: {moe: {word: "跤捗", hanji: "我跤捗比人較大，真歹買鞋仔。"}, en: "My feet are bigger than other people's; it's very hard to buy shoes.", also: [207, 17]}
+  伻: {lesson: [213, 6], moe2: {word: "分伻", hanji: "逐家攏有通分伻，毋免相爭。"}}
+  捔: {moe: {word: "擲㧒捔", hanji: "門跤口彼袋糞埽順紲提出去擲㧒捔。"}, en: "Take the bag of rubbish by the door out and throw it away on your way."}
+  怙: {moe: {word: "怙", hanji: "你怙行的欲行甲底時？"}, en: "If you walk, when will you ever get there?"}
+  浡: {moe: {word: "浡", hanji: "水滾甲浡出來矣！"}, en: "The water has boiled over!", also: [204, 10]}
+  嚾: {moe: {word: "規嚾規黨", hanji: "伊考牢好學校毋去讀，煞佮人規嚾規黨做𨑨迌仔。"}, en: "He got into a good school but didn't go; instead he runs around with a gang of loafers."}
+  䀐: {moe: {word: "䀐", hanji: "你去房間䀐看覓，看伊敢有咧讀冊。"}, en: "Go and peek into the room and see whether he's studying.", also: [213, 8]}
+  擗: {moe: {word: "擗", hanji: "我干焦聽著擗一聲，火就著起來矣。"}, en: "I just heard a crack and the fire caught."}
+  𧉟: {moe: {word: "雞𧉟", hanji: "雞仔生雞𧉟真普遍。"}, en: "Chicken lice are very common in chickens."}
+  跩: {moe: {word: "跩", hanji: "手骨跩著。"}, en: "I've sprained my arm."}
+  鬮: {moe: {word: "抽鬮", hanji: "若是攏無人欲去，咱就抽鬮來決定。"}, en: "If nobody wants to go, we'll draw lots."}
+  膭: {moe: {word: "帶膭", hanji: "𪜶某是帶膭娶的。"}, en: "His wife was already pregnant when he married her."}
+  罨: {moe: {word: "喙罨", hanji: "騎車愛掛喙罨。"}, en: "Wear a mask when you ride a scooter.", also: [213, 3]}
+  𪁎: {moe: {word: "𪁎趒", hanji: "伊誠𪁎趒，早慢會予人教示。"}, en: "He's very arrogant; sooner or later someone will teach him a lesson."}
+  碭: {moe: {word: "淋碭", hanji: "做粗瓷仔若無先淋碭，等燒好了後，貯水恐驚會洩出來。"}, en: "If you don't glaze coarse pottery first, it may leak when it's fired."}
+  儱: {moe: {word: "聬儱", hanji: "伊較講都講袂翻捙，有夠聬儱。"}, en: "Whatever you tell him he won't change his mind; he's so pig-headed."}
+  聬: {moe: {word: "聬儱", hanji: "伊較講都講袂翻捙，有夠聬儱。"}, en: "Whatever you tell him he won't change his mind; he's so pig-headed."}
+  蝒: {created: {hanji: "囡仔腹肚有蝒蟲，愛食藥仔。", tailo: "Gín-á pak-tóo ū bīn-thâng, ài tsia̍h io̍h-á.", en: "The child has roundworms and needs medicine."}, conf: M}   # pattern: 食藥仔，加歇睏 (lesson 12)
+  唿: {moe: {word: "燒唿唿", hanji: "包仔拄炊好的，猶燒唿唿。"}, en: "The buns are just out of the steamer and still piping hot."}
+  乜: {lesson: [210, 9], moe2: {word: "何乜苦", hanji: "伊都無愛你，你何乜苦一直等伊？"}}
+  餲: {moe: {word: "臭油餲", hanji: "遮的香油囥傷久，鼻著臭油餲臭油餲。"}, en: "This sesame oil has been kept too long; it smells rancid."}
+  呿: {moe: {word: "呿呿嗽", hanji: "你規暝呿呿嗽，哪會無愛去予先生看？"}, en: "You coughed all night; why won't you see a doctor?"}
+  怐: {moe: {word: "激怐怐", hanji: "你莫共我激怐怐。"}, en: "Don't play dumb with me."}
+  殗: {moe: {word: "死殗殗", hanji: "伊足久無頭路矣，規个人看著死殗殗。"}, en: "He's been out of work for a long time; he looks completely lifeless."}
+  𧿳: {lesson: [207, 10], moe2: {word: "𧿳𧿳跳", hanji: "阮母仔予我氣甲𧿳𧿳跳。"}}
+  # ---- group 20: characters 476–500
+  獠: {moe: {word: "青面獠牙", hanji: "電影內面的妖魔鬼怪攏生做青面獠牙。"}, en: "The monsters in the film all have green faces and fangs."}
+  奒: {moe: {word: "奒", hanji: "腹肚遮大奒。"}, en: "What a big belly!"}
+  遹: {moe: {word: "遹", hanji: "四界遹"}, en: "wander all over the place"}
+  丼: {moe: {word: "丼", hanji: "捾桶仔丼一聲就落入去鼓井內矣。"}, en: "The bucket dropped into the well with a plop."}
+  猌: {moe: {word: "猌", hanji: "伊彼種人我看著就猌。"}, en: "I can't stand people like him."}
+  儑: {moe: {word: "儑", hanji: "你哪會遐儑，毋知影人咧受氣。"}, en: "How can you be so tactless? Can't you see they're angry?"}
+  躄: {moe: {word: "躄", hanji: "踢著石頭煞躄落去。"}, en: "He tripped on a stone and fell flat on his face."}
+  㴘: {moe: {word: "㴘", hanji: "㴘的無好食。"}, en: "Blanched in hot water it doesn't taste good."}
+  炱: {created: {hanji: "蚵炱愛趁燒食才好食。", tailo: "Ô-te ài thàn sio tsia̍h tsiah hó-tsia̍h.", en: "Oyster fritters must be eaten hot to taste good."}, conf: M}   # pattern: 頭毛洗好愛吹予焦，才袂感冒。
+  嗙: {moe: {word: "嗙", hanji: "你若無做彼款顧人怨的代誌就袂予人嗙。"}, en: "If you didn't do such annoying things, you wouldn't get shouted at."}
+  煡: {moe: {word: "煡", hanji: "蓮藕粉摻糖煡煡咧，真好食。"}, en: "Lotus-root starch cooked into a paste with sugar is delicious."}
+  蹁: {moe: {word: "蹁", hanji: "伊人無爽快，行路會蹁。"}, en: "He's not well; he totters when he walks."}
+  馝: {moe: {word: "各馝", hanji: "伊彼个人真各馝。"}, en: "He's a real loner."}
+  瀳: {moe: {word: "瀳", hanji: "魚仔瀳倚來。"}, en: "The fish come crowding in."}
+  銎: {moe: {word: "斧頭銎", hanji: "伊用斧頭銎共柴箱的鎖頭摃歹，才通共內底的物件提出來。"}, en: "He smashed the padlock of the wooden chest with the back of an axe to get at what was inside."}
+  粩: {moe: {word: "粩", hanji: "塗豆仁粩"}, en: "peanut puffed-rice candy"}
+  呧: {moe: {word: "擽呧", hanji: "伊上驚人共伊擽呧。"}, en: "What he dreads most is being tickled under the arms."}
+  繐: {moe: {word: "繐", hanji: "布邊繐去矣。"}, en: "The edge of the cloth has frayed."}
+  𦉎: {moe: {word: "𡳞𦉎", hanji: "牛咧吐𡳞𦉎。"}, en: "The bull's penis is showing. (vulgar)"}
+  喑: {moe: {word: "喑噁", hanji: "伊講話喑噁，我攏聽無。"}, en: "He mumbles; I can't understand a word."}
+  噷: {lesson: [203, 3], moe2: {word: "噷噷", hanji: "伊本成就按呢噷噷，無愛佮人相借問。"}}
+  哖: {created: {hanji: "我欲去菜市仔買幾條瓜仔哖。", tailo: "Guá beh khì tshài-tshī-á bé kuí tiâu kue-á-nî.", en: "I'm going to the market to buy a few small cucumbers."}, conf: H}   # pattern: 阮牽手透早就去菜市仔買菜矣。
+  肨: {moe: {word: "肨奶", hanji: "這个嬰仔飼甲誠肨奶，生做足古錐。"}, en: "This baby is so plump and well fed, and so cute."}
+  紺: {lesson: [208, 18]}
+  齴: {lesson: [209, 5], moe2: {word: "齴牙", hanji: "你閣佇遐齴牙，早慢會去予人推。"}}
+  # ---- group 21: characters 501–525
+  齆: {created: {hanji: "伊感冒矣，講話齆鼻聲。", tailo: "I kám-mōo--ah, kóng-uē àng-phīnn-siann.", en: "He has a cold and talks through his nose."}, conf: M}   # pattern: 伊講話喑噁，我攏聽無。
+  欹: {moe: {word: "欹空", hanji: "彼个監工真𠢕共人欹空。"}, en: "That foreman loves to make trouble for people."}
+  薸: {created: {hanji: "池仔內有真濟水薸。", tailo: "Tî-á lāi ū tsin tsē tsuí-phiô.", en: "There's lots of duckweed in the pond."}, conf: H}   # pattern: 樹林仔、草埔仔攏有真濟蟲豸。
+  扦: {moe: {word: "扦", hanji: "我毋知予啥物扦著，砧砧足艱苦的。"}, en: "Something has pricked me and it really stings."}
+  肭: {moe: {word: "油肭肭", hanji: "碗盤油肭肭，愛用燒水才洗會清氣。"}, en: "The dishes are greasy; you need hot water to get them clean."}
+  鱙: {created: {hanji: "鱙仔魚煮糜真好食。", tailo: "Jiâu-á-hî tsú muê tsin hó-tsia̍h.", en: "Whitebait cooked in rice porridge is delicious."}, conf: H}   # pattern: 番薯礤簽煮糜真好食。
+  𨂿: {moe: {word: "𨂿著", hanji: "伊行路無注意煞去𨂿著。"}, en: "He wasn't watching where he was going and twisted his ankle."}
+  窣: {moe: {word: "窸窣叫", hanji: "食麵食甲窸窣叫。"}, en: "He slurps his noodles noisily."}
+  𠯗: {lesson: [203, 5], moe2: {word: "𠯗一下", hanji: "咱來去彼間麵店仔小𠯗一下。"}}
+  笒: {moe: {word: "掃梳笒仔", hanji: "較早的人定定用掃梳笒仔捽囡仔。"}, en: "People used to beat children with a bundle of bamboo twigs."}
+  蟮: {created: {hanji: "壁頂有一隻蟮蟲仔咧掠蠓。", tailo: "Piah-tíng ū tsi̍t tsiah siān-thâng-á teh lia̍h báng.", en: "There's a gecko on the wall catching mosquitoes."}, conf: H}   # pattern: 蟮蟲仔喢胡蠅。
+  臁: {moe: {word: "跤鼻臁", hanji: "食甜食鹹，臭跤鼻臁。"}, en: "Eat sweet and salty together and your shins will rot. (what elders told children who ate everything at once)"}
+  噭: {moe: {word: "噭噭叫", hanji: "是啥人佇遐咧噭噭叫？"}, en: "Who is that shouting over there?"}
+  蠘: {moe: {word: "紅膏赤蠘", hanji: "伊食到七十外矣，猶閣是紅膏赤蠘。"}, en: "He's past seventy and still ruddy and full of health."}
+  秪: {reading_only: true}
+  羓: {reading_only: true}
+  楬: {created: {hanji: "厝頂的草愛用楬仔硩予牢。", tailo: "Tshù-tíng ê tsháu ài iōng at-á teh hōo tiâu.", en: "The thatch on the roof must be held down with battens."}, conf: M}   # pattern: 提拊仔拊予伊清氣。
+  槔: {created: {hanji: "古早人用吊槔對鼓井捾水。", tailo: "Kóo-tsá-lâng iōng tiàu-oo tuì kóo-tsénn kuānn tsuí.", en: "In the old days people drew water from the well with a well sweep."}, conf: M}   # pattern: 古早人煮飯攏用飯篱撈飯。
+  豍: {reading_only: true}
+  謳: {reading_only: true}
+  鰮: {created: {hanji: "阮兜定定食鰮仔魚罐頭。", tailo: "Guán tau tiānn-tiānn tsia̍h un-á-hî kuàn-thâu.", en: "We often eat tinned sardines at home."}, conf: H}   # pattern: 我佮伊定定相扴。
+  挌: {moe: {word: "挌", hanji: "用手挌開"}, en: "push it aside with your hand"}
+  媌: {created: {hanji: "彼條街仔較早有真濟媌仔。", tailo: "Hit tiâu ke-á khah-tsá ū tsin tsē bâ-á.", en: "That street used to have lots of prostitutes."}, conf: M}   # pattern: 樹林仔、草埔仔攏有真濟蟲豸。
+  癉: {moe: {word: "癉", hanji: "囡仔癉"}, en: "a stunted child"}
+  㧻: {created: {hanji: "伊用石頭共蚵殼㧻破。", tailo: "I iōng tsio̍h-thâu kā ô-khak tok-phuà.", en: "He cracked the oyster shell open with a stone."}, conf: M}   # pattern: 㧻破 (MOE phrase)
+  # ---- group 22: characters 526–550
+  嗺: {moe: {word: "嗺", hanji: "伊食暗頓的時，攏會嗺一下。"}, en: "At dinner he always has a little drink."}
+  蹓: {moe: {word: "蹓", hanji: "外地的朋友來相揣，我𤆬伊出去附近四界蹓蹓咧。"}, en: "A friend from out of town came to see me and I took him for a stroll around the neighbourhood."}
+  柫: {created: {hanji: "曝粟的時，愛用耙柫共粟扒予平。", tailo: "Pha̍k tshik ê sî, ài iōng pê-put kā tshik pê hōo pênn.", en: "When drying rice, rake the grain flat with the wooden rake."}, conf: L}   # pattern: 提拊仔拊予伊清氣。
+  埆: {reading_only: true}
+  秮: {created: {hanji: "秮仔會使煮糜，嘛會使做酒。", tailo: "Tai-á ē-sái tsú muê, mā ē-sái tsò tsiú.", en: "Millet can be cooked into porridge and also made into wine."}, conf: M}   # pattern: 早前槺榔是做掃帚的主要材料。
+  猊: {reading_only: true}
+  鈗: {created: {hanji: "共菜囥佇鈗仔頂秤看覓。", tailo: "Kā tshài khǹg tī ńg-á tíng tshìn khuànn-māi.", en: "Put the vegetables on the scale pan and weigh them."}, conf: M}   # pattern: 錢囥佇銀行。
+  歆: {reading_only: true}
+  瑋: {reading_only: true}
+  痹: {reading_only: true}
+  鉈: {reading_only: true}
+  膋: {moe: {word: "燈膋", hanji: "古早人無電，暗時愛點燈膋。"}, en: "In the old days there was no electricity: at night people lit oil lamps."}
+  蝛: {created: {hanji: "去山裡愛細膩，烏蝛咬著會足癢。", tailo: "Khì suann--lí ài sè-jī, oo-bui kā--tio̍h ē tsiok tsiūnn.", en: "Be careful in the mountains: biting midges itch terribly."}, conf: M}   # pattern: 鹽酸會咬肉，欲用愛細膩。
+  麶: {created: {hanji: "麵麶滷甲真入味。", tailo: "Mī-thi lóo kah tsin ji̍p-bī.", en: "The gluten is braised until it's full of flavour."}, conf: M}   # pattern: 雞胘滷來食，滋味真好。
+  鑫: {reading_only: true}
+  鱺: {created: {hanji: "海鱺仔的肉真幼。", tailo: "Hái-lē-á ê bah tsin iù.", en: "Cobia meat is very tender."}, conf: H}   # pattern: 雞僆仔肉較幼。
+  䲅: {created: {hanji: "刺䲅規身軀攏是刺。", tailo: "Tshì-kui kui-sin-khu lóng sī tshì.", en: "A porcupinefish is covered all over in spines."}, conf: H}   # pattern: 我規身軀軟荍荍，攏無想欲振動。
+  卌: {moe: {word: "卌", hanji: "伊卌外歲矣，看著猶真少年。"}, en: "He's over forty but still looks very young."}
+  囟: {created: {hanji: "嬰仔頭殼頂的囟會振動。", tailo: "Enn-á thâu-khak-tíng ê sìn ē tín-tāng.", en: "The soft spot on top of a baby's head moves."}, conf: M}   # pattern: 我規身軀軟荍荍，攏無想欲振動。
+  扲: {moe: {word: "扲", hanji: "伊共錢扲牢牢。"}, en: "He holds on tight to his money.", also: [205, 3]}
+  紬: {created: {hanji: "阿母咧共新衫牽紬。", tailo: "A-bú teh kā sin-sann khan-thiu.", en: "Mum is sewing the trim onto the new jacket."}, conf: L}   # pattern: 牽紬 (MOE phrase)
+  揈: {moe: {word: "揈", hanji: "喙䫌共伊揈落去！"}, en: "Slap him across the face!"}
+  撠: {moe: {word: "撠", hanji: "這逝愛撠開重紩。"}, en: "This seam has to be unpicked and sewn again."}
+  樠: {moe: {word: "樠", hanji: "柴樠點火較光油。"}, en: "Resinous wood burns brighter than an oil lamp."}
+  縋: {moe: {word: "縋", hanji: "共旗仔縋落來。"}, en: "Lower the flag."}
+  # ---- group 23: characters 551–575
+  鬖: {moe: {word: "鬖", hanji: "頭毛鬖鬖"}, en: "tousled hair"}
+  𢲸: {moe: {word: "𢲸", hanji: "喙齒𢲸𢲸搟。"}, en: "The tooth is loose and wobbly."}
+  䖳: {created: {hanji: "海裡有䖳，毋通去泅水。", tailo: "Hái--lí ū thē, m̄-thang khì siû-tsuí.", en: "There are jellyfish in the sea, don't go swimming."}, conf: M}   # pattern: 毋通踮塗跤躽。
+  𩸙: {created: {hanji: "池仔內飼真濟𩸙仔。", tailo: "Tî-á lāi tshī tsin tsē tāi-á.", en: "There are lots of carp kept in the pond."}, conf: H}   # pattern: 樹林仔、草埔仔攏有真濟蟲豸。
+  𢪱: {moe: {word: "𢪱", hanji: "攑棍仔對頭殼共伊𢪱落去。"}, en: "He took a stick and hit him over the head."}
+  𨂾: {moe: {word: "𨂾", hanji: "大力共伊𨂾落去。"}, en: "kick him hard"}
+  𫟂: {moe: {word: "𫟂", hanji: "門小𫟂咧，莫關絚。"}, en: "Leave the door ajar, don't shut it tight."}
+  茯: {created: {hanji: "阿公上愛食茯苓糕。", tailo: "A-kong siōng ài tsia̍h ho̍k-lîng-ko.", en: "Grandpa loves poria cakes most of all."}, conf: H}   # pattern: 阮細漢的時上愛去𥴊仔店買糖仔。
+  衲: {reading_only: true}
+  荳: {reading_only: true}
+  痡: {created: {hanji: "這條菜頭痡心矣，無好食。", tailo: "Tsit tiâu tshài-thâu pôo-sim--ah, bô hó-tsia̍h.", en: "This radish has gone woody inside; it's not nice."}, conf: M}   # pattern: 㴘的無好食。
+  慳: {reading_only: true}
+  魠: {created: {hanji: "我欲食一碗塗魠羹。", tailo: "Guá beh tsia̍h tsi̍t uánn thôo-thoh kenn.", en: "I'd like a bowl of Spanish mackerel thick soup."}, conf: M}   # pattern: 魩仔魚羹 (MOE phrase)
+  叡: {reading_only: true}
+  蕘: {created: {hanji: "薁蕘加糖佮檸檬，真好食。", tailo: "Ò-giô ka thn̂g kah lê-bóng, tsin hó-tsia̍h.", en: "Aiyu jelly with sugar and lemon is delicious."}, conf: M}   # pattern: 蓮藕粉摻糖煡煡咧，真好食。
+  艚: {reading_only: true}
+  薈: {created: {hanji: "阮兜的窗仔邊種一盆蘆薈。", tailo: "Guán tau ê thang-á-pinn tsìng tsi̍t phûn lôo-huē.", en: "We have a pot of aloe on the windowsill at home."}, conf: H}   # pattern: 阮舊厝的門口埕有種真濟佈田花。
+  鱈: {created: {hanji: "鱈魚的肉白閣幼。", tailo: "Suat-hî ê bah pe̍h koh iù.", en: "Cod meat is white and tender."}, conf: H}   # pattern: 雞僆仔肉較幼。
+  硓: {created: {hanji: "澎湖有真濟硓𥑮石牆。", tailo: "Phênn-ôo ū tsin tsē lóo-kóo-tsio̍h tshiûnn.", en: "Penghu has lots of coral-stone walls."}, conf: M}   # pattern: 樹林仔、草埔仔攏有真濟蟲豸。
+  𥑮: {created: {hanji: "古早人用硓𥑮石起厝。", tailo: "Kóo-tsá-lâng iōng lóo-kóo-tsio̍h khí tshù.", en: "In the old days people built houses of coral stone."}, conf: H}   # pattern: 古早人煮飯攏用飯篱撈飯。
+  𩸶: {created: {hanji: "溪裡的石頭頂有狗𩸶仔。", tailo: "Khe--lí ê tsio̍h-thâu tíng ū káu-gām-á.", en: "There are gobies on the stones in the stream."}, conf: M}   # pattern: 食飽桌頂無拭會唌虼蚻來。
+  杮: {moe: {word: "杮", hanji: "玻璃杮"}, en: "broken glass"}
+  耎: {moe: {word: "耎", hanji: "共伊的手耎耎咧！"}, en: "Rub his hand a little!"}
+  胮: {moe: {word: "胮", hanji: "喙齒疼，喙䫌胮起來矣。"}, en: "My tooth hurts and my cheek has swollen up."}
+  桱: {moe: {word: "桱", hanji: "眠床桱"}, en: "the bed-board frame"}
+  # ---- group 24: characters 576–600
+  溡: {moe: {word: "溡", hanji: "這幾日仔落雨，厝內塗跤溡溡。"}, en: "It's rained these last few days, and the floor indoors is damp."}
+  襻: {created: {hanji: "我的淺拖仔鞋襻斷去矣。", tailo: "Guá ê tshián-thua-á ê-phàn tn̄g--khì--ah.", en: "The toe strap of my flip-flops has snapped."}, conf: H}   # pattern: 我的粒仔發癀矣，足疼的！
+  𩵱: {created: {hanji: "寒天的𩵱仔上肥。", tailo: "Kuânn--thinn ê ngóo-á siōng puî.", en: "Threadfin is fattest in winter."}, conf: M}   # pattern: 魚仔的膁肚較肥較好食。
+  㨑: {moe: {word: "㨑", hanji: "規个㨑起來才袂亂。"}, en: "Bundle it all up so it won't get messy.", also: [205, 17]}
+  仵: {reading_only: true}
+  妲: {reading_only: true}
+  帙: {reading_only: true}
+  埒: {reading_only: true}
+  荇: {reading_only: true}
+  窞: {lesson: [209, 5], moe2: {word: "窞肚", hanji: "這隻膨椅已經窞肚矣。"}}
+  嗹: {moe: {word: "咖哩嗹囉", hanji: "猶未咖哩嗹囉咧。"}, en: "There's nothing to show for it yet."}
+  蓪: {created: {hanji: "蓪草會使做紙。", tailo: "Thong-tshó ē-sái tsò tsuá.", en: "The rice-paper plant can be made into paper."}, conf: M}   # pattern: 早前槺榔是做掃帚的主要材料。
+  徼: {reading_only: true}
+  瘼: {created: {hanji: "伊食海產就會起凊瘼。", tailo: "I tsia̍h hái-sán tō ē khí-tshìn-mo̍oh.", en: "When he eats seafood he breaks out in hives."}, conf: H}   # pattern: 青春期的囡仔較會生爛𤶃仔…
+  窵: {moe: {word: "窵遠", hanji: "恁查某囝嫁去佇遐爾窵遠的所在，欲轉來一逝嘛真僫。"}, en: "Your daughter married into a place so far away, it's hard for her to come back even once."}
+  鯰: {created: {hanji: "鯰魚暗時才出來揣食。", tailo: "Liâm-hî àm-sî tsiah tshut-lâi tshuē tsia̍h.", en: "Catfish only come out at night to look for food."}, conf: M}   # pattern: 軟蜞生活佇陰暗溼氣重的所在。
+  鐐: {reading_only: true}
+  贐: {reading_only: true}
+  顴: {reading_only: true}
+  𦟪: {created: {hanji: "我欲切一盤肝𦟪。", tailo: "Guá beh tshiat tsi̍t puânn kuann-liân.", en: "I'd like a plate of sliced pork diaphragm."}, conf: M}   # pattern: 你𣁳一碗湯予我。
+  𤺅: {created: {hanji: "伊的手生魚鱗𤺅仔。", tailo: "I ê tshiú senn hî-lân-tshè-á.", en: "He has warts on his hand."}, conf: M}   # pattern: 青春期的囡仔較會生爛𤶃仔…
+  耞: {created: {hanji: "古早人用耞仔拍粟。", tailo: "Kóo-tsá-lâng iōng kénn-á phah tshik.", en: "In the old days people threshed rice with a flail."}, conf: H}   # pattern: 古早人煮飯攏用飯篱撈飯。
+  掮: {moe: {word: "掮", hanji: "干焦一袋爾爾，愛用掮的，袂使用擔的。"}, en: "It's only one bag: carry it on one shoulder, not on a carrying pole."}
+  鑱: {created: {hanji: "陣頭咧摃鑱仔，真鬧熱。", tailo: "Tīn-thâu teh kòng tshîm-á, tsin lāu-jia̍t.", en: "The procession troupe is clashing cymbals; it's very lively."}, conf: M}   # pattern: 車咧哹哹叫。
+  麭: {lesson: [204, 11]}
+  # ---- group 25: characters 601–625
+  棰: {reading_only: true}
+  踔: {reading_only: true}
+  魬: {created: {hanji: "魬魚煎來食真芳。", tailo: "Puánn-hî tsian lâi tsia̍h tsin phang.", en: "Pan-fried yellowback sea bream smells wonderful."}, conf: H}   # pattern: 雞胘滷來食，滋味真好。
+  鮡: {created: {hanji: "花鮡佇海邊趒來趒去。", tailo: "Hue-thiâu tī hái-pinn tiô lâi tiô khì.", en: "Mudskippers hop about on the shore."}, conf: M}   # pattern: 四界遹 (MOE phrase)
+  鯗: {created: {hanji: "鴨鯗是宜蘭的名產。", tailo: "Ah-siúnn sī Gî-lân ê bîng-sán.", en: "Pressed salted duck is a speciality of Yilan."}, conf: M}   # pattern: 魩仔魚羹：一種臺灣著名小吃
+  惝: {moe: {word: "惝", hanji: "心臟噗噗惝。"}, en: "My heart is thumping."}
+  菖: {created: {hanji: "五日節，門口愛插菖蒲。", tailo: "Gōo-ji̍t-tseh, mn̂g-kháu ài tshah tshiong-pôo.", en: "At the Dragon Boat Festival you hang sweet flag by the door."}, conf: H}   # pattern: 門口 (MOE word); 用柱仔侹咧！
+  澩: {created: {hanji: "芋仔猶未熟，食著澩澩。", tailo: "Ōo-á iáu-buē si̍k, tsia̍h--tio̍h ha̍unnh-ha̍unnh.", en: "The taro isn't cooked yet; it's hard and starchy."}, conf: M}   # pattern: 柿粿𩚨嗲嗲、甜粅粅，真好食。
+  呔: {lesson: [211, 10], moe2: {word: "呔", hanji: "會議都欲起鼓矣，伊呔會猶未到位？"}}
+  鮢: {created: {hanji: "鮢鱖的肉真好食。", tailo: "Tsu-kuè ê bah tsin hó-tsia̍h.", en: "Giant grouper meat is delicious."}, conf: H}   # pattern: 雞僆仔肉較幼。
+  蹌: {created: {hanji: "囡仔佇埕裡耍蹌跤雞。", tailo: "Gín-á tī tiânn--lí sńg tshiáng-kha-ke.", en: "The children are playing hopscotch in the courtyard."}, conf: H}   # pattern: 伊褪腹裼坐佇遐歇涼。
+  蝻: {reading_only: true}
+  栿: {reading_only: true}
+  醡: {reading_only: true}
+  噼: {moe: {word: "噼", hanji: "伊真好膽，連公家的錢嘛敢噼噼去。"}, en: "He's so bold he even dares to pocket public money."}
+  纘: {moe: {word: "纘", hanji: "我看伊咧欲纘袂牢矣，你緊猛去共扶一下。"}, en: "I can see he can't hold on much longer; quick, go and help him up."}
+  蘢: {moe: {word: "青蘢蘢", hanji: "雨若落會齊勻，山頭的柴樹仔看著就青蘢蘢。"}, en: "When the rain falls evenly, the trees on the hills look lush and green."}
+  倕: {moe: {word: "窞倕", hanji: "伊生理失敗，這幾年真窞倕。"}, en: "His business failed, and these last years he's been very hard up."}
+  噌: {moe: {word: "嗤噌", hanji: "進仔干焦會對厝裡的人大細聲，拄著外人攏嘛毋敢嗤噌。"}, en: "Chìn-á only shouts at his own family; with outsiders he doesn't dare make a sound."}
+  椹: {moe: {word: "桑椹", hanji: "桑椹會使通血路，促進胃腸運動，改善祕結。"}, en: "Mulberries help circulation, aid digestion and relieve constipation."}
+  笈: {reading_only: true}
+  腯: {moe: {word: "武腯", hanji: "伊生做武腯武腯。"}, en: "He's short and stocky."}
+  魟: {created: {hanji: "魟魚的尾有毒，掠的時愛細膩。", tailo: "Hang-hî ê bué ū to̍k, lia̍h ê sî ài sè-jī.", en: "A stingray's tail is poisonous: be careful when you catch one."}, conf: H}   # pattern: 攑刀的時愛攑刀柄，毋通去捎刀鋩。
+  鮻: {moe: {word: "狗母鮻", hanji: "狗母鮻誠少排佇魚架仔賣，上捷提來做魚丸、魚酥抑是魚拊。"}, en: "Lizardfish is rarely sold on the fish stall; it's mostly made into fish balls, fish floss or fish paste."}
+  𠠝: {moe: {word: "鐮𠠝仔", hanji: "鐮𠠝仔有齒，用來割稻仔真好用。"}, en: "A serrated sickle is very handy for cutting rice."}
+  # ---- 626–635: freed by the HSK-variant fix (17 Nov 2026), appended after the list (never renumbered)
+  摃: {lesson: [133, 26], moe2: {word: "強摃", hanji: "伊昨暝予人強摃一萬箍去。"}}
+  挵: {lesson: [44, 4], moe2: {word: "挵", hanji: "伊無細膩去挵著電火柱。"}}
+  嬭: {moe: {word: "娘嬭", hanji: "伊厝裡閣有一个老娘嬭。"}, en: "He still has his old mother at home."}
+  舖: {lesson: [114, 13]}
+  桮: {lesson: [80, 11], moe2: {word: "跋桮", hanji: "伊足迷信的，萬項代誌攏愛跋桮問神。"}}
+  蹔: {moe: {word: "蹔", hanji: "惡毒老爸，竟然共家己的囝蹔甲跤骨斷去。"}, en: "What a cruel father: he kicked his own son so hard the boy's leg broke."}
+  闇: {created: {hanji: "你哪會遮爾悾闇？", tailo: "Lí ná ē tsiah-nī khong-am?", en: "How can you be so dim?"}, conf: H}   # pattern: 悾闇 (MOE word, 痴呆)
+  鍼: {reading_only: true}
+  噁: {moe: {word: "喑噁", hanji: "伊講話喑噁，我攏聽無。"}, en: "He mumbles; I can't make out a word he says."}
+  裌: {created: {hanji: "寒天愛穿裌裘。", tailo: "Kuânn-thinn ài tshīng kiap-hiû.", en: "In winter you need to wear a lined jacket."}, conf: H}   # pattern: 裌裘 (MOE word, 袷衣)
+
+# Characters Mandarin also writes but Taigi uses its own way (owner, 17 Nov 2026: a separate group after the list, as in
+# the Cantonese app). r: the reading shown (the MOE entry whose use differs from Mandarin). Same example rules.
+extra:
+  啥: {r: "siánn", lesson: [2, 2], moe2: {word: "啥", hanji: "這是啥物件？"}}
+  箍: {r: "khoo", lesson: [4, 4], moe2: {word: "箍", hanji: "我有兩箍。"}}
+  夯: {r: "giâ", lesson: [59, 4], moe2: {word: "夯", hanji: "我胃疼閣夯起來矣。"}}
+  啉: {r: "lim", lesson: [3, 1], moe2: {word: "啉", hanji: "伊真𠢕啉。"}}
+  攢: {r: "tshuân", lesson: [52, 13], moe2: {word: "攢", hanji: "物件我攏攢好矣。"}}
+  掣: {r: "tshuah", lesson: [113, 17], moe2: {word: "掣", hanji: "伊看著蛇會掣。"}}
+  捅: {r: "thóng", moe: {word: "捅", hanji: "伊三十捅歲。"}, en: "He's thirty-something."}
+  橐: {r: "lok", moe: {word: "橐", hanji: "物件攏橐入去紙橐仔內面。"}, en: "Put everything into the paper bag."}
+  掰: {r: "pué", lesson: [146, 18], moe2: {word: "掰", hanji: "頭毛小掰一下。"}}
+  捋: {r: "lua̍h", moe: {word: "捋頭毛", hanji: "我共你捋頭毛。"}, en: "Let me comb your hair."}
+  閬: {r: "làng", moe: {word: "閬", hanji: "你小閬一縫予伊坐。"}, en: "Make a little room for him to sit down."}
+  峇: {r: "bā", moe: {word: "峇", hanji: "𪜶兩个個性誠峇。"}, en: "Those two get along really well."}
+  鞏: {r: "khōng", moe: {word: "鞏", hanji: "鞏磚仔"}, en: "to lay bricks"}
+  攝: {r: "liap", moe: {word: "攝", hanji: "花攝去矣！"}, en: "The flowers have withered!"}
+  嚙: {r: "gè", moe: {word: "嚙", hanji: "嚙甘蔗"}, en: "to gnaw on sugar cane"}
+  臊: {r: "tsho", moe: {word: "臭臊", hanji: "這尾魚真臭臊。"}, en: "This fish smells very fishy.", also: [138, 8]}
+  芡: {r: "khiàn", moe: {word: "芡", hanji: "這盤菜若芡一寡蔥仔會較芳。"}, en: "This dish would smell better with a few scallions fried in."}
+  篋: {r: "kheh", moe: {word: "篋仔", hanji: "用這个篋仔來貯細項物件。"}, en: "Use this box to keep small things in."}
+  蔫: {r: "lian", lesson: [163, 21], moe2: {word: "蔫", hanji: "花蔫去。"}}
+  沓: {r: "ta̍uh", lesson: [112, 15], moe2: {word: "沓沓仔", hanji: "有話沓沓仔講。"}}
+  撓: {r: "ngiáu", moe: {word: "撓", hanji: "撓耳空"}, en: "to clean out one's ears"}
+  眯: {r: "bî", moe: {word: "眯", hanji: "你予我小眯一下，我才陪你去。"}, en: "Let me have a quick nap, then I'll go with you."}
+  咂: {r: "tsa̍p", moe: {word: "咂咂叫", hanji: "啥物好食物，食甲咂咂叫？"}, en: "What's so tasty that you're smacking your lips like that?"}
+  謔: {r: "gio̍h", created: {hanji: "伊上愛謔人。", tailo: "I siōng ài gio̍h--lâng.", en: "He loves teasing people."}, conf: H}   # pattern: 謔人 (MOE phrase)

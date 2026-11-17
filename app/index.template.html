@@ -376,6 +376,22 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .ctag.lk { color: var(--brand); cursor: pointer; }
 .ctable .ve { margin-top: .1rem; }
 .cw { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .4rem; }
+/* Lessons › 台語字 (showJitai) */
+.jlist { display: flex; flex-direction: column; gap: .9rem; }
+.jrow { display: flex; flex-direction: column; gap: .45rem; padding: .7rem 0; border-top: 1px solid var(--soft-line); }
+.jrow:first-child { border-top: 0; }
+.jhead { display: flex; align-items: center; gap: .7rem; }
+.jr { display: flex; flex-wrap: wrap; align-items: baseline; gap: .1rem .4rem; }
+.jr .vr { font-weight: 700; font-size: 1.05rem; }
+.jno { color: var(--sub); font: 600 .75rem var(--f-ui); }
+.jrow .ve { color: var(--text); }
+.jzh { font-size: .95rem; } .jzh .jlab { font: 600 .75rem var(--f-ui); color: var(--sub); text-transform: uppercase; letter-spacing: .04em; }
+.cwd.main { border-color: color-mix(in srgb, var(--brand) 45%, transparent); }
+.jx { padding: .6rem .8rem .7rem; }
+.jsrc { font-size: .78rem; color: var(--sub); }
+.jl { color: var(--sub); font-size: .72rem; }
+.jx2 > summary { cursor: pointer; font: 600 .82rem var(--f-ui); color: var(--brand); padding: .2rem 0; }
+.jro { margin: 0; font-size: .9rem; }
 .cwd { border: 1px solid var(--soft-line); border-radius: 8px; background: none; color: var(--text); padding: .2rem .5rem; font: inherit; font-size: .9rem; text-align: left; cursor: pointer; }
 .cwd small { display: block; color: var(--sub); font-size: .75rem; max-width: 16rem; }
 .trow.open .trow-h { background: color-mix(in srgb, var(--brand) 6%, transparent); }
@@ -728,6 +744,7 @@ function route() {
   if (h === 'drills') return showDrills();
   if (h === 'grammar') return showGrammar();
   if (h === 'chars') return showChars();
+  if (h === 'jitai') return showJitai();
   if (h === 'podcast') return showPodcast();
   if (h === 'video') return showVideo();
   if (h === 'music') return showMusic();
@@ -826,6 +843,7 @@ function showLessons() {
   $('#main').innerHTML = `<div class="col">
     <div class="head"><span class="eyebrow">Course</span><h1>課程</h1>
       <span class="rom">Khò-tîng · ${mdone} done · ${mwritten} of ${TOTAL} written</span></div>
+    ${lessonNav('lessons')}
     <div class="bar" aria-hidden="true"><i style="width:${Math.round(100 * mdone / TOTAL)}%"></i></div>
     ${next ? `<div class="card raised nextcard">
       <span class="eyebrow">${last === next.id ? 'Carry on' : 'Next lesson'}${dt ? ` · ${dt} done today` : ''}${st > 1 ? ` · ${st}-day streak` : ''}</span>
@@ -1148,7 +1166,7 @@ function showChars() {
   const m = $('#main');
   m.innerHTML = `<div class="col">
     ${pracHead('chars', 'the characters only Taigi writes')}
-    <p class="sub" style="margin:0;max-width:65ch">${CHARS.length} characters that written Taigi uses and Mandarin never or hardly ever does, most frequent first (MOE dictionary). Knowing the first hundred makes most Taigi pages much easier to read. Tap a character or a word for its card.</p>
+    <p class="sub" style="margin:0;max-width:65ch">${CHARS.length} characters that written Taigi uses and Mandarin never or hardly ever does, most frequent first (MOE dictionary). Knowing the first hundred makes most Taigi pages much easier to read. Tap a character or a word for its card. <button class="linkish" data-go="jitai">Read them with examples in Lessons › 台語字 ›</button></p>
     <div class="row"><button class="btn small ${charNew ? '' : 'line'}" id="cnew" aria-pressed="${charNew}">Only those not in the lessons</button><span class="sub" style="font-size:.85rem">${inCourse} of ${CHARS.length} appear in the lessons</span></div>
     <div class="tlist">${gs.map((g, i) => { const open = charOpen === i, list = charNew ? g.list.filter(x => !taught(x)) : g.list, nIn = g.list.filter(taught).length;
       const due = open ? g.list.map(charCard).filter(id => id && deck[id] && deck[id].due <= Date.now()).length : 0;
@@ -1156,7 +1174,7 @@ function showChars() {
         <span class="tk han">${esc(g.list[0].c)}</span>
         <span class="tt"><span class="han">${esc(g.list.slice(0, 8).map(x => x.c).join(' '))}</span><small>Characters ${g.from}–${g.to}</small></span>
         <span class="tc">${g.list.length}<small>${nIn} in lessons</small></span><span class="chev">${open ? '⌃' : '⌄'}</span></button>
-        ${open ? `<div class="cbody"><div class="row" style="padding:.5rem 0"><button class="btn small" data-study="C${i}" data-mode="all">Practise these ${g.list.length}</button>${due ? `<button class="btn small line" data-study="C${i}" data-mode="due">Review ${due} due</button>` : ''}<button class="btn small quiet" data-cadd="${i}">Add to my Lessons list</button></div>
+        ${open ? `<div class="cbody"><div class="row" style="padding:.5rem 0"><button class="btn small" data-study="C${i}" data-mode="all">Practise these ${g.list.length}</button><button class="btn small line" data-jgo="${i}">Read in 台語字</button>${due ? `<button class="btn small line" data-study="C${i}" data-mode="due">Review ${due} due</button>` : ''}<button class="btn small quiet" data-cadd="${i}">Add to my Lessons list</button></div>
           ${list.length ? `<div class="vwrap"><table class="vtable ctable"><tbody>${list.map(row).join('')}</tbody></table></div>` : '<p class="sub">All of these are in the lessons.</p>'}</div>` : ''}</div>`; }).join('')}</div>
   </div>`;
   wirePrac(m);
@@ -1164,6 +1182,66 @@ function showChars() {
   $$('[data-copen]', m).forEach(b => b.onclick = () => { const i = +b.dataset.copen; charOpen = charOpen === i ? -1 : i; showChars(); const el = document.getElementById('cg-' + i); if (el && charOpen === i) el.scrollIntoView({ block: 'start' }); });
   $$('[data-cadd]', m).forEach(b => b.onclick = () => { const n = listSet('lessons', gs[+b.dataset.cadd].list.map(charCard).filter(Boolean), true); toast(n ? `${n} words added to Lessons` : 'Already in your Lessons list'); });
   $('#cnew', m).onclick = () => { charNew = !charNew; showChars(); };
+  $$('[data-jgo]', m).forEach(b => b.onclick = () => { JT.open = +b.dataset.jgo; store.set('jtOpen', JT.open); go('jitai'); });
+  Exam.fill(m);
+}
+
+// ---------- Lessons › 台語字: the same list as Practice › Characters (DATA.chars, same order, groups of 25), read with
+// each character's meaning, Mandarin counterpart, words and a public example (course/chars_examples.yaml, built by
+// tools/taigi_chars.py); then the characters Mandarin also writes but Taigi uses its own way (DATA.charsx). With the
+// private module on, the owner's book line ([data-xchar], "In your books") comes before the public example.
+const CHARSX = DATA.charsx || [];
+const JT = { open: store.get('jtOpen', 0) };
+const lessonNav = cur => CHARS.length ? `<div class="seg pracnav" role="group" aria-label="Lessons">${[['lessons', 'Lessons'], ['jitai', '台語字 Taigi characters']].map(([k, t]) => `<button data-go="${k}" aria-pressed="${k === cur}">${t}</button>`).join('')}</div>` : '';
+const MOE_SRC = '教育部臺灣台語常用詞辭典 (CC BY-ND 3.0 TW)';
+function jtEx(o, k, LB) {
+  if (o.k === 'l') { const L = LB[o.l[0]], ln = L.lines[o.l[1]];
+    return `<div class="sent jx"><div class="txt">${sentence(ln.tokens, k)}</div><div class="under"><span class="en">${esc(ln.en)}</span></div>
+      <div class="jsrc"><button class="linkish" data-go="lesson-${L.id}">${lname(L.id)} · line ${ln.n}</button></div></div>`; }
+  const src = o.k === 'c' ? 'Written for this list · not checked by a native speaker'
+    : `${o.p ? 'Phrase' : 'Example'} from the MOE dictionary, under 〈${esc(o.hw)}〉 · ${MOE_SRC}`;
+  return `<div class="sent jx ${o.k === 'c' ? 'jc' : 'jm'}"><div class="txt">${sentence(o.tk, k)}</div>
+    <div class="under">${o.zh ? `<span class="zh">${zhLine(o.zh)}</span>` : ''}${o.en ? `<span class="en">${esc(o.en)}${o.k === 'm' ? ' <small class="jl">English: Tsheh-tû</small>' : ''}</span>` : ''}</div>
+    <div class="jsrc">${src}</div></div>`;
+}
+function jtRow(x, n, LB, pre) {
+  const w = x.w.filter(id => DATA.dict[id]), tk = 'J' + pre + n;
+  return `<div class="jrow" id="jc-${pre}${n}">
+    <div class="jhead"><button class="han cbig" ${x.id ? `data-word="${esc(x.id)}"` : 'disabled'} aria-label="${esc(x.c)}">${esc(x.c)}</button>
+      <span class="jr"><span class="vr rom">${esc(x.r.join(' / '))}</span>${pre ? '' : `<small class="jno">#${n}</small>`}${x.tier === 'mostly' ? ' <span class="ctag" title="Mandarin has it in one to three rare words">rare in Mandarin</span>' : ''}${x.L != null ? ` <button class="ctag lk" data-go="lesson-${x.L}">first in ${esc(lname(x.L))}</button>` : ''}</span></div>
+    ${x.en ? `<div class="ve">${esc(x.en)}</div>` : ''}
+    ${x.zh ? `<div class="jzh"><span class="jlab">Mandarin</span> <span class="han">${zhLine(x.zh[0])}</span> <span class="zpy">${esc((zhSenses(x.zh[0])[0] || [])[0] ? zhPy(zhSenses(x.zh[0])[0][0]) : x.zh[1])}</span></div>` : ''}
+    ${w.length ? `<div class="cw">${w.map((id, i) => { const d = DATA.dict[id]; return `<button class="cwd${i ? '' : ' main'}" data-word="${esc(id)}"><span class="han">${esc(d.hanji)}</span> <span class="rom">${esc(d.tailo || d.tkey)}</span>${charEn(d) ? `<small>${esc(charEn(d))}</small>` : ''}</button>`; }).join('')}</div>` : ''}
+    ${Exam.on ? `<div data-xchar="${esc(x.c)}"></div>` : ''}
+    ${x.ro ? '<p class="sub jro">The dictionary gives only the reading.</p>' : ''}
+    ${x.ex ? jtEx(x.ex, tk + 'a', LB) : ''}
+    ${x.also ? `<div class="jsrc">Also in <button class="linkish" data-go="lesson-${x.also[0]}">${lname(x.also[0])} · line ${LB[x.also[0]].lines[x.also[1]].n}</button></div>` : ''}
+    ${x.ex2 ? `<details class="jx2"><summary>Dictionary example</summary>${jtEx(x.ex2, tk + 'b', LB)}</details>` : ''}
+  </div>`;
+}
+function showJitai() {
+  renderTabs('lessons');
+  const gs = charGroups(), LB = Object.fromEntries(DATA.lessons.map(l => [l.id, l])), inCourse = CHARS.filter(x => x.L != null).length;
+  const grp = (i, title, list, from, pre, extra) => { const open = JT.open === i;
+    return `<div class="trow ${open ? 'open' : ''}" id="jg-${i}"><button class="trow-h" data-jopen="${i}" aria-expanded="${open}">
+      <span class="tk han">${esc(list[0].c)}</span>
+      <span class="tt"><span class="han">${esc(list.slice(0, 8).map(x => x.c).join(' '))}</span><small>${title}</small></span>
+      <span class="tc">${list.length}<small>${list.filter(x => x.L != null).length} in lessons</small></span><span class="chev">${open ? '⌃' : '⌄'}</span></button>
+      ${open ? `<div class="cbody">${extra || ''}<div class="jlist">${list.map((x, j) => jtRow(x, from + j, LB, pre)).join('')}</div></div>` : ''}</div>`; };
+  const m = $('#main');
+  m.innerHTML = `<div class="col mode-${prefs.mode}">
+    <div class="head"><span class="eyebrow">Course</span><h1>台語字</h1><span class="rom">Tâi-gí-jī · the characters only Taigi writes</span></div>
+    ${lessonNav('jitai')}
+    <p class="sub" style="margin:0;max-width:65ch">${CHARS.length} characters that written Taigi uses and Mandarin never or hardly ever does, most frequent first (MOE dictionary), each with its meaning, its Mandarin counterpart, words and an example; ${inCourse} appear in the lessons. Then ${CHARSX.length} characters Mandarin also writes but Taigi uses its own way. The same list as <button class="linkish" data-go="chars">Practice › Characters</button>, for flashcards.</p>
+    <div class="tlist">${gs.map((g, i) => grp(i, `Characters ${g.from}–${g.to}`, g.list, g.from, '',
+      `<div class="row" style="padding:.5rem 0"><button class="btn small" data-study="C${i}" data-mode="all">Practise these ${g.list.length}</button><button class="btn small line" data-cgo="${i}">Open in Practice › Characters</button></div>`)).join('')}
+      ${CHARSX.length ? grp(gs.length, 'Mandarin writes them too, Taigi uses them its own way', CHARSX, 1, 'x') : ''}</div>
+    <p class="sub" style="font-size:.85rem;margin:0">Examples: a lesson line where there is one; else a sentence from the MOE dictionary (${MOE_SRC}: quoted unaltered, its English written for Tsheh-tû), or one written for this list (not checked by a native speaker). Tap a character, a word or any word of an example for its card, a Mandarin word for its pinyin.</p>
+  </div>`;
+  wirePrac(m); wireTokens(m);
+  $$('[data-word]', m).forEach(b => b.onclick = () => openCard(b.dataset.word));
+  $$('[data-jopen]', m).forEach(b => b.onclick = () => { const i = +b.dataset.jopen; JT.open = JT.open === i ? -1 : i; store.set('jtOpen', JT.open); showJitai(); const el = document.getElementById('jg-' + i); if (el && JT.open === i) el.scrollIntoView({ block: 'start' }); });
+  $$('[data-cgo]', m).forEach(b => b.onclick = () => { charOpen = +b.dataset.cgo; go('chars'); });
   Exam.fill(m);
 }
 
@@ -1690,7 +1768,7 @@ document.addEventListener('click', e => {
   if (!sh.classList.contains('open') || !e.target.isConnected || sh.contains(e.target) || e.target.closest('.tok, .ztok, [data-note], [data-word], [data-pick], .tab, #pron')) return;
   closeSheet();
 });
-function currentTab() { const h = location.hash.slice(1) || 'lessons'; return /^(lesson|wave)/.test(h) ? 'lessons' : /^(theme|grammar|drills|chars$)/.test(h) ? 'review' : /^(podcast|ep-)/.test(h) ? 'podcast' : /^(video|vid-)/.test(h) ? 'video' : /^(music|mus-)/.test(h) ? 'music' : /^(bridge|lists?$|list-)/.test(h) ? 'review' : /^(books|exam-book)/.test(h) ? 'books' : h.startsWith('exam') ? 'review' : h === 'accents' ? 'settings' : h; }
+function currentTab() { const h = location.hash.slice(1) || 'lessons'; return /^(lesson|wave|jitai)/.test(h) ? 'lessons' : /^(theme|grammar|drills|chars$)/.test(h) ? 'review' : /^(podcast|ep-)/.test(h) ? 'podcast' : /^(video|vid-)/.test(h) ? 'video' : /^(music|mus-)/.test(h) ? 'music' : /^(bridge|lists?$|list-)/.test(h) ? 'review' : /^(books|exam-book)/.test(h) ? 'books' : h.startsWith('exam') ? 'review' : h === 'accents' ? 'settings' : h; }
 
 // ---------- review deck (Leitner boxes; saved in this browser)
 function addToDeck(ids) { let n = 0; ids.forEach(id => { if (id && DATA.dict[id] && !deck[id]) { deck[id] = { box: 0, due: Date.now(), at: Date.now() }; n++; } }); store.set('deck', deck); return n; }

@@ -153,7 +153,18 @@ for f in theme_files:
                    'notes': t.get('notes') or []})
 
 # ---- Taigi-only characters (Practice › Characters): before the audio pass, their example words get recordings too
-taigi_only = taigi_chars.build(con, CEDICT, os.path.join(ROOT, 'data/raw/moedict-data-twblg/x-造字.csv'), lookup, lessons, dictionary)
+ZZ = os.path.join(ROOT, 'data/raw/moedict-data-twblg/x-造字.csv')
+taigi_only = taigi_chars.build(con, CEDICT, ZZ, lookup, lessons, dictionary)
+# Lessons › 台語字: meaning, Mandarin and a public example for each (course/chars_examples.yaml), and the group after the
+# list (characters Mandarin also writes, Taigi its own way: `extra`)
+CHX = taigi_chars.load_examples()
+chars_extra = taigi_chars.extra_rows(con, CEDICT, ZZ, lookup, lessons, dictionary, CHX)
+taigi_chars.attach(con, taigi_only, lessons, tokenize, ENGLISH.written, dictionary, CHX)
+taigi_chars.attach(con, chars_extra, lessons, tokenize, ENGLISH.written, dictionary, CHX, 'extra')
+print(f"Taigi characters: {len(taigi_only)} listed + {len(chars_extra)} after the list; examples "
+      + ', '.join(f'{k} {v}' for k, v in Counter((x.get('ex') or {}).get('k', 'reading only' if x.get('ro') else 'none')
+                                                  for x in taigi_only + chars_extra).most_common())
+      + f"; English meaning {sum(1 for x in taigi_only + chars_extra if x.get('en'))}")
 
 # ---- every card id a published page has had keeps its card (a word saved on a device, a link from the private module,
 # an example the Characters page used to show): app/published-card-ids.txt, add ids to it, never remove any
@@ -405,7 +416,7 @@ video = yaml.safe_load(open(VIDEO, encoding='utf-8')) if os.path.exists(VIDEO) e
 # ---- music (course/music.yaml): songs on the artist's own YouTube channel; ids and titles only (lyrics are private)
 MUSIC = os.path.join(ROOT, 'course/music.yaml')
 music = yaml.safe_load(open(MUSIC, encoding='utf-8')) if os.path.exists(MUSIC) else {'albums': []}
-data = {'podcast': show, 'video': video, 'music': music, 'tones': tone_drill.build(lessons), 'grammar': grammar, 'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'chars': taigi_only, 'accents': accents, 'bridge': bridge.build(con, 160),
+data = {'podcast': show, 'video': video, 'music': music, 'tones': tone_drill.build(lessons), 'grammar': grammar, 'syllabus': syllabus, 'lessons': lessons, 'themes': themes, 'chars': taigi_only, 'charsx': chars_extra, 'accents': accents, 'bridge': bridge.build(con, 160),
         'dict': dictionary, 'lesson0': lesson0, 'built': datetime.date.today().isoformat()}
 
 # ---- native-speaker recordings of the dialogues: course/audio/lessons/L057-03.mp3 (tools/import_recordings.py)
@@ -432,6 +443,8 @@ zh_texts = [s['def'] for c in dictionary.values() for s in c.get('senses') or []
 zh_texts += [c['example']['mandarin'] for c in dictionary.values() if c.get('example') and c['example'].get('mandarin')]
 zh_texts += [ln['zh'] for L in lessons for ln in L['lines'] if ln.get('zh')]
 zh_texts += [it['zh'] for g in grammar for it in g['items'] if it.get('zh')]
+zh_texts += [y for x in taigi_only + chars_extra for y in ([x['zh'][0]] if x.get('zh') else [])
+             + [(x.get(f) or {}).get('zh') for f in ('ex', 'ex2')] if y]   # 台語字: Mandarin counterparts, MOE examples
 if show:
     zh_texts += [re.sub(r'^[◎●•・]\s*', '', l) for ep in show['episodes'] for l in ep.get('other', [])]
     for ep in show['episodes']:   # the Mandarin in brackets at the end of an intro line (splitZh in the template)
