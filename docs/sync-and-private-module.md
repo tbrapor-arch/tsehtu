@@ -18,6 +18,12 @@ read that repo; nothing of the module is in this repo or in the published page. 
 Loader contract (`Exam` object in `app/index.template.html`): the repo's `exam/index.json` lists files with content
 hashes; `app.css` and `app.js` are fetched through the GitHub API, cached in the browser by hash (works offline), and
 `window.ExamModule.init(loader)` / `.route(hash)` are called. `app/pwa/sw.js` leaves `api.github.com` alone.
+Shared pieces the module may call (globals of the app page): `openCard`, `closeSheet`, `esc`, … and, for Mandarin
+text, `zhLine(text)` (HTML: the text unaltered, its words as `.ztok` spans that open the 華語 · Mandarin sheet; one
+delegated click/keyboard handler, no wiring needed) and `zhAdd(table)` (adds the words of the module's own texts, a
+table made by the public `tools/zh_words.py`, to the app's `DATA.zh`). A card sense with `plain: 1` is not Mandarin
+(a definition written in Taigi): the card shows it as plain text. The module should fall back to plain text when
+`zhLine` is missing (an older cached app page).
 Keep this document generic: do not describe the module's content here.
 
 ## Content Security Policy

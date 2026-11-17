@@ -24,6 +24,15 @@ course files as a model for pacing and structure only (kept in the git-ignored `
   `course/music.yaml`, same player as Video. Timed lyrics and word cards come from the private module (first song:
   〈樹枝孤鳥〉). See `docs/music.md`.
 
+- **Mandarin is tappable everywhere** (17 Nov 2026): every Mandarin text the app shows (the cards' MOE definitions and
+  example translations, lesson lines' Mandarin, grammar headings, podcast notes, Han text after "Mandarin " in notes) is
+  cut into words; a tap opens the 華語 · Mandarin sheet (pinyin + CC-CEDICT senses, "‹ Back" to the card it came from).
+  One implementation: `tools/zh_words.py` (cut + table, also used by the private module) and `zhLine()` in the
+  template. The page carries one table of the words used (`DATA.zh`, ~1 MB, +7 % page size), no per-text data: the
+  browser repeats the build's cut (`make app` fails if it would differ). Texts stay unaltered (MOE: CC BY-ND).
+  The card's "Mandarin" equivalents list keeps its own pinyin. Not tappable: theme vocabulary's Mandarin column and
+  grammar/podcast-chapter lists (inside tappable rows/buttons), the review card's 華語 line.
+
 ## Repository rules
 - Public repo: no exam papers, answers, recordings, transcripts, tokens or text derived from the ministry's exam
   material or from podcast audio; those live in the private repo.

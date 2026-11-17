@@ -30,6 +30,7 @@ import moe_examples  # noqa: E402
 import sutian  # noqa: E402
 import taigi_chars  # noqa: E402
 import tone_drill  # noqa: E402
+import zh_words  # noqa: E402
 import podcast  # noqa: E402
 MOE_EX = moe_examples.load()
 # recording ids come from the ministry's own table (tools/sutian.py): the old entry numbers point to other words
@@ -410,6 +411,28 @@ for L in lessons:
                 ln['voice'] = sp
             n_rec += 1
 data['recorded'] = n_rec
+# ---- Mandarin (華語) words: every Mandarin text the app shows is tappable (zhLine() in the template). One shared table
+# of the words used, {word: 'pinyin<TAB>English' lines} (tools/zh_words.py); the browser cuts each text again with the same rule
+# (tools/zh_words.py). Texts: the cards' MOE definitions and example translations, lesson lines' Mandarin, grammar
+# headings, podcast notes, and Han text right after "Mandarin " / 華語 in notes (fmt()).
+zh_texts = [s['def'] for c in dictionary.values() for s in c.get('senses') or []]
+zh_texts += [c['example']['mandarin'] for c in dictionary.values() if c.get('example') and c['example'].get('mandarin')]
+zh_texts += [ln['zh'] for L in lessons for ln in L['lines'] if ln.get('zh')]
+zh_texts += [it['zh'] for g in grammar for it in g['items'] if it.get('zh')]
+if show:
+    zh_texts += [l for ep in show['episodes'] for l in ep.get('intro', []) + ep.get('other', [])]
+_rest = json.dumps({k: v for k, v in data.items() if k != 'dict'}, ensure_ascii=False)
+zh_texts += re.findall(r'(?:Mandarin |華語)([\u3400-\u9fff\U00020000-\U0003ffff\uf900-\ufaff]+)', _rest)
+zh_texts = list(dict.fromkeys(t for t in zh_texts if t))
+_zl = zh_words.Lexicon()
+for t in zh_texts:
+    _zl.add(t)
+data['zh'] = _zl.table()
+_zbad = zh_words.check(zh_texts, data['zh'])
+print(f"Mandarin words: {len(data['zh'])} in the shared table ({len(json.dumps(data['zh'], ensure_ascii=False).encode()) // 1024} KB) "
+      f"for {len(zh_texts)} texts; {_zbad} texts cut differently by the browser's rule")
+if _zbad:
+    raise SystemExit('zh_words: the browser would cut some Mandarin texts differently (see above)')
 tpl = open(os.path.join(ROOT, 'app/index.template.html'), encoding='utf-8').read()
 tpl = tpl.replace('/*__FONTS__*/', tailo_font_css() + '\n' + ext_font_css(json.dumps(data, ensure_ascii=False)))
 # the data goes into <script type="application/json">: every '<' is escaped (still valid JSON, the same string once

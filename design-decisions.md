@@ -33,6 +33,9 @@ and a Pronunciation section listing the lesson's words that have other common re
 Header (characters, Tâi-lô, close button) stays visible while scrolling. Order: label (Taigi only / false friend…),
 English, Mandarin equivalents with pinyin and English (CC-CEDICT), MOE definitions (Chinese, unaltered: CC BY-ND),
 example, pronunciation choices, "Around Taiwan" table (folded), parts, add to review.
+The Mandarin of the card (MOE definitions, the example's translation) is cut into words: a tap opens the 華語 ·
+Mandarin sheet (blue label and top line, pinyin in blue, CC-CEDICT senses), with "‹ Back to …" to the card. The same
+sheet serves every Mandarin text of the app (`zhLine()`, `tools/zh_words.py`); the text itself is never changed.
 
 **English on every card** (`tools/english.py`, also used by the private module for podcast transcripts and exam
 texts): the lesson/theme `new_words` English, else `course/glosses_en.tsv` (short glosses written for the course from
