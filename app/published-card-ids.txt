@@ -11,6 +11,7 @@
 㧣|tu
 㧣風|tu-hong
 㧻|tok
+㧻破|tok-phua3
 㨂|tang3
 㨂甲|tang3-kah
 㨑|tsang
@@ -50,6 +51,7 @@
 一下仔|tsit8-e7-a2
 一下手|tsit8-e7-tshiu2
 一世人|tsit8-si3-lang5
+一个|tsit8-e5
 一九七空|it-kiu2-tshit-khong3
 一九二空|it-kiu2-ji7-khong3
 一八八五|it-pat-pat-ngoo2
@@ -70,6 +72,7 @@
 一律|it-lut8
 一心一意|it-sim-it-i3
 一日|tsit8-jit8
+一日到暗|tsit8-jit8-kau3-am3
 一旦|it-tan3
 一時|tsit8-si5
 一時仔|tsit8-si5-a2
@@ -93,6 +96,7 @@
 一萬一|tsit8-ban7-it
 一萬二|tsit8-ban7-ji7
 一路|tsit8-loo7
+一逝|tsit8-tsua7
 一邊|tsit8-pinn
 一面|tsit8-bin7
 一點|tsit8-tiam2
@@ -100,6 +104,7 @@
 丁|ting
 七|tshit
 七十二|tshit-tsap8-ji7
+七十外|tshit-tsap8-gua7
 七十幾|tshit-tsap8-kui2
 七字仔|tshit-ji7-a2
 七月|tshit-gueh8
@@ -140,6 +145,7 @@
 上傳|tsiunn7-thuan5
 上卌袂攝|tsiunn7-siap-be7-liap
 上台|tsiunn7-tai5
+上好|siong7-ho2
 上少|siong7-tsio2
 上尾|siong7-bue2
 上尾仔|siong7-bue2-a2
@@ -148,11 +154,14 @@
 上殕|tshiunn7-phu2
 上無|siong7-bo5
 上班|siong7-pan
+上等|siong7-ting2
 上網|tsiunn7-bang7
 上蓋|siong7-kai3
 上課|siong7-kho3
 上車|tsiunn7-tshia
 上香|tsiunn7-hiunn
+上𠢕|siong7-gau5
+下|e
 下|e7
 下|ha7
 下|he7
@@ -160,6 +169,7 @@
 下擺|e7-pai2
 下晝|e7-tau3
 下晡|e7-poo
+下暗|e-am3
 下港|e7-kang2
 下班|ha7-pan
 下落|he7-loh8
@@ -213,6 +223,8 @@
 中醫|tiong-i
 中間|tiong-kan
 中高級|tiong-ko-kip
+串|tshuan3
+串做|tshuan3-tso3
 丸|uan5
 丸仔|uan5-a2
 丹|tan
@@ -232,6 +244,7 @@
 丼|tom5
 久|ku2
 久久|ku2-ku2
+久來|ku2-lai5
 久長|ku2-tng5
 之|tsi
 之間|tsi-kan
@@ -266,6 +279,7 @@
 了解|liau2-kai2
 了錢|liau2-tsinn5
 予|hoo7
+予人|hoo7-lang5
 事|su7
 事件|su7-kiann7
 事實|su7-sit8
@@ -293,6 +307,7 @@
 五十外|goo7-tsap8-gua7
 五千|goo7-tshing
 五指山|ngoo2-tsi2-suann
+五日節|goo7-jit8-tseh
 五月|goo7-gueh8
 五百|goo7-pah
 五穀|ngoo2-kok
@@ -373,6 +388,7 @@
 仝|kang5
 仝|kang7
 仝款|kang7-khuan2
+仝款仔|kang7-khuan2-a2
 代|tai3
 代|tai7
 代價|tai7-ke3
@@ -461,6 +477,7 @@
 來到|lai5-kau3
 來去|lai5-khi3
 來往|lai5-ong2
+來矣|lai5-ah
 來自|lai5-tsu7
 來賓|lai5-pin
 例|le7
@@ -470,6 +487,9 @@
 便|pian7
 便所|pian7-soo2
 便當|pian7-tong
+便當篋仔|pian7-tong-kheh-a2
+促|tshiok
+促進|tshiok-tsin3
 俍|lang7
 俐|li7
 俗|siok8
@@ -500,6 +520,7 @@
 修改|siu-kai2
 修理|siu-li2
 修行|siu-hing7
+修養|siu-iong2
 俳|pai
 倉|tshng
 倉庫|tshng-khoo3
@@ -527,6 +548,7 @@
 候|hau7
 候選人|hau7-suan2-jin5
 倚|ua2
+倚來|ua2-lai5
 倚壁|ua2-piah
 倚蹛|ua2-tua3
 倚靠|ua2-kho3
@@ -552,6 +574,7 @@
 偏|phian
 偏偏|phian-phian
 做|tso3
+做一睏|tso3-tsit8-khun3
 做主|tso3-tsu2
 做人|tso3-lang5
 做伙|tso3-hue2
@@ -681,6 +704,7 @@
 入來|jip8-lai5
 入去|jip8-khi3
 入口|jip8-khau2
+入味|jip8-bi7
 入學|jip8-oh8
 入港|jip8-kang2
 入站|jip8-tsam7
@@ -689,6 +713,7 @@
 內|lai7
 內|lue7
 內䘥仔|lai7-kah-a2
+內傷|lai7-siong
 內容|lue7-iong5
 內山|lai7-suann
 內底|lai7-te2
@@ -729,6 +754,7 @@
 公媽|kong-ma2
 公媽桌|kong-ma2-toh
 公學校|kong-hak8-hau7
+公家|kong-ka
 公家|kong-ke
 公寓|kong-gu7
 公尺|kong-tshioh
@@ -788,6 +814,7 @@
 冬節|tang-tseh
 冬節圓|tang-tseh-inn5
 冰|ping
+冰枕|ping-tsim2
 冰涼|ping-liang5
 冰礤|ping-tshuah
 冰箱|ping-siunn
@@ -810,6 +837,7 @@
 凊彩|tshin3-tshai2
 凊汗|tshin3-kuann7
 凍|tang3
+凍舌|tang3-tsih8
 凍霜|tang3-sng
 凡|huan5
 凡|huan7
@@ -849,6 +877,7 @@
 出頭天|tshut-thau5-thinn
 刀|to
 刀仔|to-a2
+刀柄|to-penn3
 刀銎|to-khing
 刀鋩|to-me5
 刁|thiau
@@ -875,6 +904,7 @@
 列|liat8
 列印|liat8-in3
 刜|phut
+刜了了|phut-liau2-liau2
 初|tshe
 初|tshoo
 初一|tshe-it
@@ -886,6 +916,7 @@
 初初|tshoo-tshoo
 初級|tshoo-kip
 刣|thai5
+刣掉|thai5-tiau7
 刣死|thai5-si2
 刣頭|thai5-thau5
 判|phuann3
@@ -897,6 +928,7 @@
 別个|pat8-e5
 別人|pat8-lang5
 別位|pat8-ui7
+利|lai7
 利|li7
 利便|li7-pian7
 利息|li7-sik
@@ -918,6 +950,7 @@
 刷|suat
 刺|tshi3
 刺䲅|tshi3-kui
+刺夯夯|tshi3-gia5-gia5
 剃|thi3
 剃頭|thi3-thau5
 則|tsik
@@ -936,6 +969,7 @@
 副本|hu3-pun2
 割|kuah
 割包|kuah-pau
+割稻仔|kuah-tiu7-a2
 創|tshong3
 創作|tshong3-tsok
 創啥|tshong3-siann2
@@ -947,6 +981,7 @@
 剺花|leh8-hue
 剾|khau
 剾刀|khau-to
+剾刀蔫|khau-to-lian
 剾削|khau-siah
 剾洗|khau-se2
 剾風|khau-hong
@@ -1021,6 +1056,7 @@
 匏|pu5
 匏仔|pu5-a2
 匏桸|pu5-hia
+化|hua
 化|hua3
 化妝|hua3-tsong
 化學|hua3-hak8
@@ -1067,6 +1103,7 @@
 半暝|puann3-me5
 半路|puann3-loo7
 卌|siap
+卌外|siap-gua7
 卑|pi
 卒|tsut
 協|hiap8
@@ -1144,6 +1181,7 @@
 叔公|tsik-kong
 取|tshu2
 取代|tshu2-tai7
+取來|tshu2-lai5
 受|siu7
 受傷|siu7-siong
 受害|siu7-hai7
@@ -1181,6 +1219,7 @@
 叫|kio3
 叫做|kio3-tso3
 叫是|kio3-si7
+叫門|kio3-mng5
 叭|pah
 叮|ting3
 可|kho2
@@ -1223,6 +1262,7 @@
 吊|tiau3
 吊䘥仔|tiau3-kah-a2
 吊槔|tiau3-oo
+吊橋|tiau3-kio5
 吊癀|tiau3-hong5
 同|tang5
 同|tong5
@@ -1291,6 +1331,7 @@
 呴|ku
 呵|o
 呵咾|o-lo2
+呻|tshan
 呼|hoo
 呼|khoo
 呼噓仔|khoo-si-a2
@@ -1303,6 +1344,8 @@
 呾|tann3
 呿|khuh
 呿呿嗽|khuh-khuh-sau3
+咂|tsap8
+咂咂叫|tsap8-tsap8-kio3
 咇|phih8
 咇咇掣|phih8-phih8-tshuah
 咇噗跳|phih8-phok8-thiau3
@@ -1358,7 +1401,10 @@
 哭|khau3
 哭枵|khau3-iau
 哹|pu
+哹哹叫|pu-pu-kio3
 哺|poo7
+哼|hainn
+哼哼呻|hainn-hainn-tshan
 哽|kenn2
 唅|hannh
 唌|siann5
@@ -1375,6 +1421,7 @@
 唷|io7
 唸|liam7
 唸歌|liam7-kua
+唸經|liam7-king
 唿|hut
 啄|tok
 商|siong
@@ -1383,7 +1430,10 @@
 商機|siong-ki
 商行|siong-hang5
 啉|lim
+啉水|lim-tsui2
 啉法|lim-huat
+啉湯|lim-thng
+啉茶|lim-te5
 啉過|lim-kue3
 啉酒|lim-tsiu2
 啉酒醉|lim-tsiu2-tsui3
@@ -1398,6 +1448,7 @@
 啥|siann2
 啥人|siann2-lang5
 啥款|siann2-khuan2
+啥潲|siann2-siau5
 啥物|siann2-mih
 啥貨|siann2-hue3
 啦|lah
@@ -1483,6 +1534,7 @@
 噍吧哖|ta-pa-ni5
 噓|si
 噗|phok8
+噗噗惝|phok8-phok8-tshing2
 器|khi3
 噪|tsho3
 噪音|tsho3-im
@@ -1494,9 +1546,11 @@
 噷噷|hmh8-hmh8
 噹|tang
 噼|piah
+噼噼|piah-piah
 嚇|heh
 嚓|tshiak8
 嚓嚓趒|tshiak8-tshiak8-tio5
+嚙|ge3
 嚨|na5
 嚨喉|na5-au5
 嚴|giam5
@@ -1552,6 +1606,7 @@
 囡仔栽|gin2-a2-tsai
 囡仔歌|gin2-a2-kua
 囡仔疕|gin2-a2-phi2
+囡仔癉|gin2-a2-tan
 囥|khng3
 囥步|khng3-poo7
 囥歲|khng3-hue3
@@ -1590,6 +1645,7 @@
 圓圓|inn5-inn5
 圓栱門|uan5-kong-mng5
 圓滿|uan5-buan2
+圓箍仔|inn5-khoo-a2
 圓輾輾|inn5-lin3-lin3
 圖|too5
 圖書|too5-su
@@ -1709,6 +1765,7 @@
 塌|lap
 塑|sok
 塑膠|sok-ka
+塑膠橐仔|sok-ka-lok-a2
 塑膠袋|sok-ka-te7
 塑膠袋仔|sok-ka-te7-a2
 塔|thah
@@ -1717,10 +1774,16 @@
 塗墼|thoo5-kat
 塗墼厝|thoo5-kat-tshu3
 塗沙|thoo5-sua
+塗沙粉|thoo5-sua-hun2
+塗沙粉仔|thoo5-sua-hun2-a2
 塗炭|thoo5-thuann3
 塗礱|thoo5-lang5
+塗粉|thoo5-hun2
 塗肉|thoo5-bah
 塗豆|thoo5-tau7
+塗豆仁|thoo5-tau7-jin5
+塗豆仁粩|thoo5-tau7-jin5-lau2
+塗豆油|thoo5-tau7-iu5
 塗豆麩|thoo5-tau7-hu
 塗跤|thoo5-kha
 塗魠|thoo5-thoh
@@ -1738,6 +1801,7 @@
 壁空|piah-khang
 壁縫|piah-phang7
 壁角|piah-kak
+壁邊|piah-pinn
 壁頂|piah-ting2
 壓|ap
 壓力|ap-lik8
@@ -1757,12 +1821,14 @@
 外商|gua7-siong
 外國|gua7-kok
 外國人|gua7-kok-lang5
+外地|gua7-te7
 外套|gua7-tho3
 外媽|gua7-ma2
 外家|gua7-ke
 外流|gua7-lau5
 外海|gua7-hai2
 外籍|gua7-tsik8
+外衫|gua7-sann
 外送|gua7-sang3
 外銷|gua7-siau
 外面|gua7-bin7
@@ -1789,6 +1855,7 @@
 大人|tua7-lang5
 大伯|tua7-peh
 大兄|tua7-hiann
+大力|tua7-lat8
 大厝|tua7-tshu3
 大哥|tua7-ko
 大囝|tua7-kiann2
@@ -1803,6 +1870,7 @@
 大學生|tai7-hak8-sing
 大官|ta-kuann
 大家|ta-ke
+大尾|tua7-bue2
 大廳|tua7-thiann
 大心氣|tua7-sim-khui3
 大房|tua7-pang5
@@ -1827,8 +1895,10 @@
 大箍|tua7-khoo
 大箍呆|tua7-khoo-tai
 大範|tua7-pan7
+大粒|tua7-liap8
 大約|tai7-iok
 大細|tua7-se3
+大細聲|tua7-se3-siann
 大耳|tua7-hinn7
 大聖|tai7-sing3
 大聲|tua7-siann
@@ -1840,6 +1910,7 @@
 大部份|tua7-poo7-hun7
 大里|tai7-li2
 大門|tua7-mng5
+大隻|tua7-tsiah
 大雨|tua7-hoo7
 大餅|tua7-piann2
 天|thian
@@ -1874,6 +1945,9 @@
 夭壽|iau2-siu7
 央|ng
 夯|gia5
+夯枷|gia5-ke5
+夯石碾|gia5-tsioh8-lian2
+夯硬篙|gia5-nge7-ko
 失|sit
 失主|sit-tsu2
 失去|sit-khi3
@@ -1942,6 +2016,7 @@
 好款|ho2-khuan2
 好歹|ho2-phainn2
 好漢|ho2-han3
+好用|ho2-iong7
 好看|ho2-khuann3
 好禮|ho2-le2
 好空|ho2-khang
@@ -1964,8 +2039,10 @@
 妒|too3
 妖|iau
 妖怪|iau-kuai3
+妖魔鬼怪|iau-moo5-kui2-kuai3
 妗|kim7
 妗仔|kim7-a2
+妗婆|kim7-po5
 妝|tsng
 妝|tsong
 妝娗|tsng-thann7
@@ -2040,6 +2117,7 @@
 媽祖廟|ma2-tsoo2-bio7
 媽祖生|ma2-tsoo2-senn
 嫁|ke3
+嫁去|ke3-khi3
 嫁娶|ke3-tshua7
 嫁粧|ke3-tsng
 嫁翁|ke3-ang
@@ -2069,6 +2147,7 @@
 季節|kui3-tseh
 孤|koo
 孤單|koo-tuann
+孤獨|koo-tak8
 孤鳥|koo-tsiau2
 孤𣮈|koo-khut8
 孤𣮈絕種|koo-khut8-tseh8-tsing2
@@ -2191,6 +2270,7 @@
 實䈄|tsat8-ham
 實在|sit8-tsai7
 實情|sit8-tsing5
+實捅捅|tsat8-thong2-thong2
 實施|sit8-si
 實櫼|tsat8-tsinn
 實現|sit8-hian7
@@ -2265,6 +2345,7 @@
 小弟|sio2-ti7
 小心|sio2-sim
 小生|sio2-sing
+小等|sio2-tan2
 小說|sio2-suat
 小賣|sio2-be7
 小路|sio2-loo7
@@ -2345,6 +2426,9 @@
 山頭|suann-thau5
 岫|siu7
 岸|huann7
+峇|ba5
+峇|ba7
+峇微|ba5-bui
 島|to2
 島嶼|to2-su7
 峽|kiap
@@ -2358,6 +2442,7 @@
 川|tshng
 州|tsiu
 巡|sun5
+巡田水|sun5-tshan5-tsui2
 巡邏|sun5-lo5
 工|kang
 工|khang
@@ -2399,6 +2484,7 @@
 布袋|poo3-te7
 布袋戲|poo3-te7-hi3
 布袋港|poo3-te7-kang2
+布邊|poo3-pinn
 帆|phang5
 帆布|phang5-poo3
 帆船|phang5-tsun5
@@ -2412,6 +2498,7 @@
 師|su
 師仔|sai-a2
 師傅|sai-hu7
+師父|sai-hu7
 師父|su-hu7
 席|sik8
 帶|tai3
@@ -2431,6 +2518,7 @@
 幫助|pang-tsoo7
 幫贊|pang-tsan7
 干|kan
+干樂|kan-lok8
 干焦|kan-na
 平|penn5
 平|ping5
@@ -2453,6 +2541,7 @@
 年兜|ni5-tau
 年冬|ni5-tang
 年尾|ni5-bue2
+年歲|ni5-hue3
 年節|ni5-tseh
 年紀|ni5-ki2
 年貨|ni5-hue3
@@ -2467,6 +2556,7 @@
 幾|kui2
 幾千|kui2-tshing
 幾句仔|kui2-ku3-a2
+幾日仔|kui2-jit8-a2
 幾若|kui2-na7
 庄|tsng
 庄內|tsng-lai7
@@ -2474,6 +2564,7 @@
 庄頭|tsng-thau5
 庇|pi3
 庇佑|pi3-iu7
+床|sng5
 床|tshng5
 序|si7
 序|su7
@@ -2548,6 +2639,7 @@
 強|kiong2
 強|kiong5
 強|kiong7
+強摃|kiong5-kong3
 強欲|kiong7-beh
 彈|tuann5
 彈|tuann7
@@ -2573,6 +2665,7 @@
 影響著|ing2-hiong2-tioh8
 彼|he
 彼|hit
+彼个|hit-e5
 彼搭|hit-tah
 彼時|hit-si5
 彼爿|hit-ping5
@@ -2628,6 +2721,7 @@
 復習|hok8-sip8
 微|bi
 微|bi5
+微|bui
 徵|ting
 德|tik
 徼|khio3
@@ -2747,6 +2841,7 @@
 悾|khong
 悾悾|khong-khong
 悾歁|khong-kham2
+悾闇|khong-am
 悾顛|khong-tian
 情|tsiann5
 情|tsing5
@@ -2764,6 +2859,7 @@
 惠惠|hui7-hui7
 惡|ok
 惡人|ok-lang5
+惡毒|ok-tok8
 惰|tuann7
 惱|lo2
 想|siong2
@@ -2798,10 +2894,14 @@
 感激|kam2-kik
 感覺|kam2-kak
 感謝|kam2-sia7
+慄|lak8
+慄慄掣|lak8-lak8-tshuah
 慈|tsu5
 慈悲|tsu5-pi
 慈悲心|tsu5-pi-sim
 態|thai3
+態|thai7
+態度|thai7-too7
 慎|sin7
 慒|tso
 慒心|tso-sim
@@ -2894,6 +2994,7 @@
 所以|soo2-i2
 所在|soo2-tsai7
 所有|soo2-iu2
+所有|soo2-u7
 所費|soo2-hui3
 扁|pinn2
 扁|pun2
@@ -2912,6 +3013,7 @@
 手指|tshiu2-tsi2
 手指頭仔|tshiu2-tsing2-thau5-a2
 手捗|tshiu2-poo5
+手橐仔|tshiu2-lok-a2
 手機仔|tshiu2-ki-a2
 手段|tshiu2-tuann7
 手環|tshiu2-khuan5
@@ -2925,6 +3027,7 @@
 手錶|tshiu2-pio2
 手錶仔|tshiu2-pio2-a2
 手電仔|tshiu2-tian7-a2
+手面|tshiu2-bin7
 手頂|tshiu2-ting2
 手頭|tshiu2-thau5
 手骨|tshiu2-kut
@@ -2936,6 +3039,7 @@
 才閣|tsiah-koh
 扎|tsah
 扒|pe
+扒|pe5
 打|ta2
 打|tann2
 打扎|tann2-tsah
@@ -2961,6 +3065,7 @@
 扱牢牢|khip8-tiau5-tiau5
 扲|gim7
 扲手|gim7-tshiu2
+扲牢牢|gim7-tiau5-tiau5
 扴|keh8
 扴味|keh8-bi7
 扴話|keh8-ue7
@@ -2985,6 +3090,7 @@
 把|pe2
 抌|tim3
 抐|la7
+抐抐|la7-la7
 抑|iah
 抑|iah8
 抑是|iah-si7
@@ -3006,6 +3112,7 @@
 抽獎|thiu-tsiong2
 抽鬮|thiu-khau
 抾|khioh
+抾抾|khioh-khioh
 抾捔|khioh-kak8
 抾柴|khioh-tsha5
 抾著|khioh-tioh8
@@ -3024,6 +3131,7 @@
 拆|thiah
 拆扦|thiah-tshuann
 拆散|thiah-suann3
+拆箬|thiah-hah8
 拆藥仔|thiah-ioh8-a2
 拈|liam
 拈鬮|liam-khau
@@ -3153,9 +3261,12 @@
 挵|long3
 挵破|long3-phua3
 挵著|long3-tioh8
+挵門|long3-mng5
+挵鼓|long3-koo2
 挼|jue5
 挽|ban2
 挽回|ban2-hue5
+挽掉|ban2-tiau7
 挽瓜揫藤|ban2-kue-tshiu5-tin5
 挽茶|ban2-te5
 挽草|ban2-tshau2
@@ -3163,7 +3274,12 @@
 捀場|phang5-tiunn5
 捀斗|phang5-tau2
 捀茶|phang5-te5
+捅|thong2
+捅頭|thong2-thau5
 捆|khun2
+捋|luah8
+捋仔|luah8-a2
+捋頭毛|luah8-thau5-mng5
 捌|bat
 捌代誌|bat-tai7-tsi3
 捌字|bat-ji7
@@ -3192,6 +3308,7 @@
 捽目尾|sut-bak8-bue2
 捾|kuann7
 捾定|kuann7-tiann7
+捾桶仔|kuann7-thang2-a2
 捾水|kuann7-tsui2
 掀|hian
 掀開|hian-khui
@@ -3235,9 +3352,11 @@
 探聽|tham3-thiann
 掣|tshuah
 掣一趒|tshuah-tsit8-tio5
+掣流|tshuah-lau5
 接|tsiap
 接受|tsiap-siu7
 接納|tsiap-lap8
+接著|tsiap-tioh8
 接觸|tsiap-tshiok
 接駁車|tsiap-pok-tshia
 推|the
@@ -3253,12 +3372,16 @@
 掩掩揜揜|ng-ng-iap-iap
 掮|khainn
 掰|pue2
+掰手面|pue2-tshiu2-bin7
+掰會|pue2-hue7
+掰開|pue2-khui
 揀|king2
 揀菜|king2-tshai3
 揈|hong
 揌|sai
 提|the5
 提|theh8
+提來|theh8-lai5
 提供|the5-kiong
 提出|the5-tshut
 提去|theh8-khi3
@@ -3280,6 +3403,7 @@
 揣|tshue7
 揣著|tshue7-tioh8
 揣頭路|tshue7-thau5-loo7
+揣食|tshue7-tsiah8
 揤|tshih8
 揤讚|tshih8-tsan2
 揤電鈴|tshih8-tian7-ling5
@@ -3326,6 +3450,7 @@
 搪|tng7
 搬|puann
 搬厝|puann-tshu3
+搬戲|puann-hi3
 搬走|puann-tsau2
 搭|tah
 搵|un3
@@ -3335,6 +3460,9 @@
 搶|tshiunn2
 摁|hmh
 摃|kong3
+摃槌仔|kong3-thui5-a2
+摃鐘|kong3-tsing
+摃鼓|kong3-koo2
 摒|piann3
 摒掃|piann3-sau3
 摖|tshe3
@@ -3357,6 +3485,7 @@
 撋|nua2
 撏|jim5
 撒|suah
+撓|ngiau2
 撚|lian2
 撚匼笑|lian2-khap-tshio3
 撞|tong7
@@ -3364,10 +3493,12 @@
 撟|kiau7
 撠|giah
 撠刺|giah-tshi3
+撠開|giah-khui
 撨|tshiau5
 撨徙|tshiau5-sua2
 撨摵|tshiau5-tshik8
 播|poo3
+撼|ham2
 擇|tik8
 擉|tiak8
 擉算盤|tiak8-sng3-puann5
@@ -3419,8 +3550,13 @@
 攕仔|tshiam2-a2
 攕擔|tshiam-tann
 攝|liap
+攝屎|liap-sai2
+攝影|liap-iann2
+攝影機|liap-iann2-ki
 攝襇|liap-king2
 攢|tshuan5
+攢好|tshuan5-ho2
+攢辦|tshuan5-pan7
 攤|thuann
 攤販|thuann-huan3
 攪|kiau2
@@ -3577,10 +3713,13 @@
 新娘|sin-niu5
 新婦|sin-pu7
 新年|sin-ni5
+新店|sin-tiam3
+新新|sin-sin
 新正|sin-tsiann
 新正年頭|sin-tsiann-ni5-thau5
 新竹|sin-tik
 新聞|sin-bun5
+新衫|sin-sann
 新郎|sin-long5
 新鮮|sin-sian
 斷|tng7
@@ -3730,6 +3869,7 @@
 曬|sai3
 曲|khiau
 曲痀|khiau-ku
+曲痀曲痀|khiau-ku-khiau-ku
 更|kenn
 更|king
 更新|king-sin
@@ -3767,6 +3907,7 @@
 月餅|gueh8-piann2
 有|iu2
 有|u7
+有人|u7-lang5
 有利|iu2-li7
 有力|u7-lat8
 有名|u7-mia5
@@ -3781,8 +3922,10 @@
 有時仔|u7-si5-a2
 有時陣|u7-si5-tsun7
 有機|iu2-ki
+有歲|u7-hue3
 有法度|u7-huat-too7
 有理|u7-li2
+有神|u7-sin5
 有緣|u7-ian5
 有耳無喙|u7-hinn7-bo5-tshui3
 有膭|u7-kui7
@@ -3826,6 +3969,8 @@
 本身|pun2-sin
 本錢|pun2-tsinn5
 杉|sam
+杉仔|sam-a2
+杉仔行|sam-a2-hang5
 李|li2
 李仔|li2-a2
 材|tsai5
@@ -3867,6 +4012,7 @@
 果|ko2
 果|kue2
 果子|kue2-tsi2
+果子園|kue2-tsi2-hng5
 果子猫|kue2-tsi2-ba5
 果子皮|kue2-tsi2-phue5
 果然|ko2-jian5
@@ -3881,6 +4027,7 @@
 枷|ke5
 枸|koo2
 枸杞|koo2-ki2
+柄|penn3
 某|boo2
 某乜人|boo2-mi2-lang5
 某囝|boo2-kiann2
@@ -3905,13 +4052,18 @@
 柫|put
 柱|thiau7
 柱仔|thiau7-a2
+柱仔跤|thiau7-a2-kha
 柳|liu2
 柴|tsha5
 柴㷮|tsha5-tsau
 柴杙|tsha5-khit8
 柴桮|tsha5-pue
+柴樠|tsha5-mia5
+柴樹仔|tsha5-tshiu7-a2
 柴箍|tsha5-khoo
+柴箱|tsha5-siunn
 柿|khi7
+柿粿|khi7-kue2
 校|hau7
 校長|hau7-tiunn2
 校門|hau7-mng5
@@ -3936,6 +4088,7 @@
 桌|toh
 桌仔|toh-a2
 桌櫃|toh-kui7
+桌角|toh-kak
 桌跤|toh-kha
 桌邊|toh-pinn
 桌頂|toh-ting2
@@ -3972,6 +4125,7 @@
 棄|khi3
 棄嫌|khi3-hiam5
 棉|mi5
+棉被|mi5-phue7
 棉襀|mi5-tsioh
 棉襀被|mi5-tsioh-phue7
 棍|kun3
@@ -4008,6 +4162,7 @@
 楬|at
 楬仔|at-a2
 業|giap8
+業務|giap8-bu7
 概|khai3
 榔|long5
 榔|nng5
@@ -4018,6 +4173,8 @@
 榮幸|ing5-hing7
 榴|liu5
 榴槤|liu5-lian5
+槌|thui5
+槌仔|thui5-a2
 槔|oo
 槤|lian5
 槳|tsiunn2
@@ -4049,9 +4206,11 @@
 樹仔|tshiu7-a2
 樹仔跤|tshiu7-a2-kha
 樹仔頂|tshiu7-a2-ting2
+樹奶|tshiu7-ling
 樹尾|tshiu7-bue2
 樹木|tshiu7-bak8
 樹林|tshiu7-na5
+樹林仔|tshiu7-na5-a2
 樹枝|tshiu7-ki
 樹根|tshiu7-kin
 樹梅|tshiu7-m5
@@ -4066,6 +4225,8 @@
 橄欖|kan-na2
 橋|kio5
 橐|lak
+橐|lok
+橐仔|lok-a2
 橐袋仔|lak-te7-a2
 橛|kueh8
 機|ki
@@ -4082,6 +4243,7 @@
 檢|kiam2
 檢定|kiam2-ting7
 檢察官|kiam2-tshat-kuann
+檢方|kiam2-hong
 檢查|kiam2-tsa
 檢采|kiam2-tshai2
 檨|suainn7
@@ -4142,6 +4304,7 @@
 歆|him
 歇|hioh
 歇喘|hioh-tshuan2
+歇涼|hioh-liang5
 歇熱|hioh-juah8
 歇睏|hioh-khun3
 歌|ko
@@ -4182,6 +4345,7 @@
 步數|poo7-soo3
 武|bu2
 武腯|bu2-tun2
+武腯武腯|bu2-tun2-bu2-tun2
 武藝|bu2-ge7
 歪|uai
 歪來歪去|uai-lai5-uai-khi3
@@ -4221,8 +4385,10 @@
 死囡仔䖙|si2-gin2-a2-the
 死死|si2-si2
 死殗殗|si2-gian7-gian7
+死結|si2-kat
 殕|phu2
 殕殕|phu2-phu2
+殕色|phu2-sik
 殗|gian7
 殘|tsan5
 殘忍|tsan5-jim2
@@ -4291,6 +4457,7 @@
 氣|khi3
 氣|khui3
 氣力|khui3-lat8
+氣掣掣|khi3-tshuah-tshuah
 氣概|khi3-khai3
 氣氛|khi3-hun
 氣球|khi3-kiu5
@@ -4298,6 +4465,7 @@
 氣象局|khi3-siong7-kiok8
 水|sui2
 水|tsui2
+水底|tsui2-te2
 水庫|tsui2-khoo3
 水拹仔|tsui2-hiap8-a2
 水捘仔|tsui2-tsun7-a2
@@ -4335,6 +4503,7 @@
 江|kang
 江湖|kang-oo5
 池|ti5
+池仔|ti5-a2
 汫|tsiann2
 汫汫仔|tsiann2-tsiann2-a2
 決|kuat
@@ -4343,6 +4512,7 @@
 沃|ak
 沃水|ak-tsui2
 沃澹|ak-tam5
+沃花|ak-hue
 沉|tim5
 沉重|tim5-tang7
 沒|but8
@@ -4355,14 +4525,18 @@
 沙|sua
 沙埔|sua-poo
 沢|tshioh
+沫|phueh8
 沬|bi7
 河|ho5
 河邊|ho5-pinn
 油|iu5
 油價|iu5-ke3
 油油|iu5-iu5
+油漆|iu5-tshat
 油肭肭|iu5-leh-leh
+油臊|iu5-tsho
 油蔥|iu5-tshang
+油飯|iu5-png7
 治|ti7
 治病|ti7-penn7
 治療|ti7-liau5
@@ -4374,6 +4548,7 @@
 泉|tsuan5
 泉|tsuann5
 泉州|tsuan5-tsiu
+泉水|tsuann5-tsui2
 泏|tsuah
 泔|am2
 泔糜仔|am2-mue5-a2
@@ -4408,6 +4583,8 @@
 洘流|kho2-lau5
 洘秫秫|kho2-tsut8-tsut8
 洞|tong7
+洩|siap8
+洩水|siap8-tsui2
 洪|ang5
 活|uah8
 活力|uah8-lik8
@@ -4425,6 +4602,7 @@
 流籠|liu5-long5
 流糍|lau5-tsi5
 流血|lau5-hueh
+流血流滴|lau5-hueh-lau5-tih
 流行|liu5-hing5
 流鼻|lau5-phinn7
 浞|tshiok8
@@ -4494,6 +4672,8 @@
 淹|im
 淹水|im-tsui2
 淺|tshian2
+淺拖|tshian2-thua
+淺拖仔|tshian2-thua-a2
 添|thiam
 添|thinn
 添丁|thiam-ting
@@ -4539,11 +4719,13 @@
 準|tsun2
 準備|tsun2-pi7
 準時|tsun2-si5
+準算|tsun2-sng3
 溜|liu
 溝|kau
 溝|koo
 溝通|koo-thong
 溡|tshi5
+溡溡|tshi5-tshi5
 溪|khe
 溪仔|khe-a2
 溪仔墘|khe-a2-kinn5
@@ -4557,6 +4739,8 @@
 溫柔|un-jiu5
 溫泉|un-tsuann5
 溶|iunn5
+溼|sip
+溼氣|sip-khi3
 滇|tinn7
 滋|tsu
 滋味|tsu-bi7
@@ -4648,6 +4832,7 @@
 灇水|tsang5-tsui2
 灣|uan5
 火|hue2
+火夾|hue2-ngeh
 火山|hue2-suann
 火氣|hue2-khi3
 火災|hue2-tsai
@@ -4656,6 +4841,7 @@
 火熥|hue2-thang
 火燒|hue2-sio
 火燒厝|hue2-sio-tshu3
+火舌|hue2-tsih8
 火車|hue2-tshia
 火車站|hue2-tshia-tsam7
 火車頭|hue2-tshia-thau5
@@ -4667,6 +4853,7 @@
 灸|ku3
 災|tsai
 炊|tshue
+炊好|tshue-ho2
 炊粿|tshue-kue2
 炎|iam7
 炒|tsha2
@@ -4733,6 +4920,7 @@
 無|bo5
 無|bu5
 無一定|bo5-it-ting7
+無人|bo5-lang5
 無仝|bo5-kang5
 無仝|bo5-kang7
 無仝款|bo5-kang7-khuan2
@@ -4777,6 +4965,7 @@
 焦|na
 焦|ta
 焦焦|ta-ta
+焦蔫|ta-lian
 焱|iann7
 然|jian5
 然後|jian5-au7
@@ -4797,6 +4986,7 @@
 煞煞去|suah-suah-khi3
 煠|sah8
 煡|khit8
+煡煡|khit8-khit8
 照|tsiau3
 照|tsio3
 照實|tsiau3-sit8
@@ -4819,12 +5009,15 @@
 熟似|sik8-sai7
 熥|thang
 熥|thng7
+熥了|thng7-liau2
 熱|jiat8
 熱|juah8
+熱人|juah8-lang5
 熱天|juah8-thinn
 熱心|jiat8-sim
 熱情|jiat8-tsing5
 熱烈|jiat8-liat8
+熱著|juah8-tioh8
 燃|hiann5
 燃柴|hiann5-tsha5
 燈|ting
@@ -4864,6 +5057,7 @@
 爛𤶃仔|nua7-thiau7-a2
 爪|jiau2
 爬|pe5
+爭|tsenn
 爭|tsing
 父|hu7
 爸|pa
@@ -4894,6 +5088,7 @@
 牛喙罨|gu5-tshui3-am
 牛奶|gu5-ling
 牛杙仔|gu5-khit8-a2
+牛牢|gu5-tiau5
 牛犅|gu5-kang2
 牛犅𨂿|gu5-kang2-uainnh
 牛罵頭|gu5-ma5-thau5
@@ -4927,6 +5122,7 @@
 牽手|khan-tshiu2
 牽牛|khan-gu5
 牽的|khan-e5
+牽紬|khan-thiu
 牽罟|khan-koo
 牽藤|khan-tin5
 牽連|khan-lian5
@@ -4962,6 +5158,7 @@
 狹櫼櫼|eh8-tsinn-tsinn
 猊|ji5
 猌|gin7
+猛|me2
 猜|tshai
 猫|ba5
 猫仔|ba5-a2
@@ -4987,14 +5184,18 @@
 獎狀|tsiong2-tsng7
 獎金|tsiong2-kim
 獠|liau5
+獨|tak8
 獨|tok8
 獨獨|tok8-tok8
 獨立|tok8-lip8
+獨裁|tok8-tshai5
+獨裁者|tok8-tshai5-tsia2
 獸|siu3
 獸醫|siu3-i
 獻|hian3
 玉|giok8
 玉皇大帝|giok8-hong5-tai7-te3
+玉蘭花|giok8-lan5-hue
 王|ong5
 王伯|ong5-peh
 王梨|ong5-lai5
@@ -5006,6 +5207,7 @@
 玲|ling5
 玻|po
 玻璃|po-le5
+玻璃杮|po-le5-phue3
 珊|suan
 珊瑚|suan-oo5
 珍|tin
@@ -5043,6 +5245,7 @@
 璃|le5
 璇|suan7
 璇石|suan7-tsioh8
+璇石喙|suan7-tsioh8-tshui3
 璇筆|suan7-pit
 環|khuan5
 環保|khuan5-po2
@@ -5055,6 +5258,8 @@
 瓦|ua2
 瓦厝|hia7-tshu3
 瓦杮仔|hia7-phue3-a2
+瓷|hui5
+瓷仔|hui5-a2
 甌|au
 甌仔|au-a2
 甓|phiah8
@@ -5079,8 +5284,10 @@
 生|sinn
 生|tshenn
 生份|senn-hun7
+生份|tshenn-hun7
 生份人|senn-hun7-lang5
 生做|senn-tso3
+生卵|senn-nng7
 生囝|senn-kiann2
 生存|sing-tsun5
 生態|sing-thai3
@@ -5093,8 +5300,10 @@
 生理人|sing-li2-lang5
 生生|tshenn-tshenn
 生產|sing-san2
+生產線|sing-san2-suann3
 生相|senn-siunn3
 生鉎|senn-sian
+生魚片|tshenn-hi5-phinn3
 產|san2
 產婆|san2-po5
 用|ing7
@@ -5142,6 +5351,7 @@
 略|lioh8
 略仔|lioh8-a2
 番|han
+番|huan
 番薯|han-tsi5
 番薯仔|han-tsi5-a2
 番薯簽|han-tsi5-tshiam
@@ -5259,6 +5469,7 @@
 白白|peh8-peh8
 白紙|peh8-tsua2
 白色|peh8-sik
+白蟻|peh8-hia7
 白衫|peh8-sann
 白話|peh8-ue7
 白話字|peh8-ue7-ji7
@@ -5286,6 +5497,7 @@
 皮|phi5
 皮|phue5
 皮包|phue5-pau
+皮包仔|phue5-pau-a2
 皮皮|phi5-phi5
 皮箱|phue5-siunn
 皮膚|phue5-hu
@@ -5304,6 +5516,7 @@
 盡量|tsin7-liong7
 監|kam3
 監|kann
+監工|kam3-kang
 監獄|kann-gak8
 監督|kam3-tok
 監視|kam3-si7
@@ -5344,6 +5557,8 @@
 相借問|sio-tsioh-mng7
 相公|siong3-kong
 相刣|sio-thai5
+相命|siong3-mia7
+相命仙|siong3-mia7-sian
 相唚|sio-tsim
 相嚷|sio-jiang2
 相報|sio-po3
@@ -5360,6 +5575,7 @@
 相搶|sio-tshiunn2
 相會|siong-hue7
 相楗|sio-king7
+相爭|sio-tsenn
 相片|siong3-phinn3
 相當|siong-tong
 相疼|sio-thiann3
@@ -5373,6 +5589,8 @@
 相迵|sio-thang3
 相送|sio-sang3
 相逢|siong-hong5
+相連|sio-lian5
+相連紲|sio-lian5-sua3
 相𤆬|sio-tshua7
 相𫝛|sio-siang7
 省|sing2
@@ -5380,11 +5598,13 @@
 眉|bai5
 看|khan3
 看|khuann3
+看做|khuann3-tso3
 看命|khuann3-mia7
 看日|khuann3-jit8
 看有|khuann3-u7
 看法|khuann3-huat
 看無|khuann3-bo5
+看現現|khuann3-hian7-hian7
 看病|khuann3-penn7
 看破|khuann3-phua3
 看著|khuann3-tioh8
@@ -5408,10 +5628,13 @@
 眠|bin5
 眠夢|bin5-bang7
 眠床|bin5-tshng5
+眠床桱|bin5-tshng5-kenn3
 眠床邊|bin5-tshng5-pinn
+眠床頂|bin5-tshng5-ting2
 眨|tshap8
 眩|hin5
 眩船|hin5-tsun5
+眯|bi5
 眵|tshuh
 眵目|tshuh-bak8
 眵眵|tshuh-tshuh
@@ -5452,6 +5675,7 @@
 石滬|tsioh8-hoo7
 石碇區|tsioh8-ting7-khu
 石碖|tsioh8-lun2
+石碾|tsioh8-lian2
 石頭|tsioh8-thau5
 矸|kan
 矸仔|kan-a2
@@ -5464,6 +5688,7 @@
 砛仔|gim5-a2
 砛簷|gim5-tsinn5
 砧|tiam
+砧砧|tiam-tiam
 破|pho3
 破|phua3
 破壞|pho3-huai7
@@ -5487,6 +5712,7 @@
 碗|uann2
 碗公|uann2-kong
 碗半|uann2-puann3
+碗盤|uann2-puann5
 碟|tih8
 碡|tak8
 碭|thng7
@@ -5496,6 +5722,7 @@
 確實|khak-sit8
 碼|be2
 碼頭|be2-thau5
+碾|lian2
 磅|pong7
 磅空|pong7-khang
 磚|tsng
@@ -5523,6 +5750,7 @@
 祕密|pi3-bit8
 祕方|pi3-hng
 祕笈|pi3-kip8
+祕結|pi3-kiat
 祕訣|pi3-kuat
 祖|tsoo2
 祖傳|tsoo2-thuan5
@@ -5618,6 +5846,7 @@
 稱呼|tshing-hoo
 稻|tiu7
 稻仔|tiu7-a2
+稻仔穗|tiu7-a2-sui7
 稻埕|tiu7-tiann5
 稻草|tiu7-tshau2
 稻草人|tiu7-tshau2-lang5
@@ -5627,6 +5856,7 @@
 穌|soo
 積|tsik
 穎|inn2
+穗|sui7
 穡|sit
 穡頭|sit-thau5
 穢|ue3
@@ -5657,6 +5887,7 @@
 窗|thang
 窗|tshong
 窗仔|thang-a2
+窗仔邊|thang-a2-pinn
 窗仔門|thang-a2-mng5
 窞|tham7
 窞倕|tham7-thui7
@@ -5676,6 +5907,7 @@
 窸窣叫|sih8-sut8-kio3
 窸窸窣窣|si-si-sut8-sut8
 立|lip8
+立冬|lip8-tang
 立場|lip8-tiunn5
 站|tsam7
 竟|king3
@@ -5781,6 +6013,8 @@
 範|pan7
 篇|phinn
 築|tiok8
+篋|kheh
+篋仔|kheh-a2
 篙|ko
 篤|tau2
 篤|tauh
@@ -5801,8 +6035,10 @@
 籗|khah
 籗仔|khah-a2
 籠|lang2
+籠|lang5
 籠|long5
 籠仔|lang2-a2
+籠床|lang5-sng5
 籤|tshiam
 籤詩|tshiam-si
 籲|iok8
@@ -5820,7 +6056,10 @@
 粅|but
 粉|hun2
 粒|liap8
+粒仔|liap8-a2
 粗|tshoo
+粗瓷|tshoo-hui5
+粗瓷仔|tshoo-hui5-a2
 粗糠|tshoo-khng
 粗重|tshoo-tang7
 粗魯|tshoo-loo2
@@ -5882,6 +6121,7 @@
 約束|iok-sok
 紅|ang5
 紅包|ang5-pau
+紅尾冬|ang5-bue2-tang
 紅柿|ang5-khi7
 紅棗|ang5-tso2
 紅毛塗|ang5-mng5-thoo5
@@ -5889,6 +6129,7 @@
 紅燒|ang5-sio
 紅目|ang5-bak8
 紅紅|ang5-ang5
+紅絳絳|ang5-kong3-kong3
 紅綵|ang5-tshai2
 紅膏赤蠘|ang5-ko-tshiah-tshih8
 紅色|ang5-sik
@@ -5901,9 +6142,12 @@
 紋|bun5
 納|lap8
 純|sun5
+紗|se
 紙|tsua2
 紙條|tsua2-tiau5
 紙條仔|tsua2-tiau5-a2
+紙橐仔|tsua2-lok-a2
+紙篋仔|tsua2-kheh-a2
 紙錢|tsua2-tsinn5
 級|kip
 素|soo3
@@ -5911,6 +6155,7 @@
 索|soh
 索仔|soh-a2
 紩|thinn7
+紩紩|thinn7-thinn7
 紩衫|thinn7-sann
 紬|thiu
 紮|tsah
@@ -5926,6 +6171,7 @@
 細聲|se3-siann
 細膩|se3-ji7
 細隻|se3-tsiah
+細項|se3-hang7
 紲|sua3
 紲落來|sua3-loh8-lai5
 紲落去|sua3-loh8-khi3
@@ -5968,6 +6214,7 @@
 統一獅|thong2-it-sai
 統計|thong2-ke3
 絲|si
+絳|kong3
 經|king
 經濟|king-tse3
 經營|king-ing5
@@ -5986,6 +6233,7 @@
 綹|liu2
 緊|kin2
 緊張|kin2-tiunn
+緊猛|kin2-me2
 緊緊|kin2-kin2
 緊縒慢|kin2-tsuah8-ban7
 線|suann3
@@ -6126,6 +6374,7 @@
 老阿伯|lau7-a-peh
 考|kho2
 考場|kho2-tiunn5
+考牢|kho2-tiau5
 考生|kho2-sing
 考著|kho2-tioh8
 考試|kho2-tshi3
@@ -6134,6 +6383,7 @@
 而且|ji5-tshiann2
 耍|sng2
 耎|luan2
+耎耎|luan2-luan2
 耐|nai7
 耐心|nai7-sim
 耐性|nai7-sing3
@@ -6188,6 +6438,7 @@
 肉湯|bah-thng
 肉粽|bah-tsang3
 肉糋|bah-tsinn3
+肉絲|bah-si
 肉餡|bah-ann7
 肚|too2
 肚|too7
@@ -6210,6 +6461,7 @@
 育|iok8
 胃|ui7
 胃慒慒|ui7-tso-tso
+胃腸|ui7-tng5
 背|pue7
 背冊|pue7-tsheh
 背景|pue7-king2
@@ -6225,6 +6477,8 @@
 胭|ian
 胭脂|ian-tsi
 胮|hang3
+胳|koh
+胳耳空|koh-hinn7-khang
 胸|hing
 胸坎|hing-kham2
 能|ling5
@@ -6249,6 +6503,7 @@
 腥臊|tshenn-tshau
 腦|lo2
 腦|nau2
+腫|tsing2
 腯|tun2
 腰|io
 腰痠背疼|io-sng-pue7-thiann3
@@ -6274,7 +6529,10 @@
 膣|tsi
 膣屄|tsi-bai
 膨|phong3
+膨椅|phong3-i2
 膨疱|phong3-pha7
+膨紗|phong3-se
+膨紗衫|phong3-se-sann
 膨風|phong3-hong
 膩|ji7
 膭|kui7
@@ -6308,6 +6566,7 @@
 臭殕|tshau3-phu2
 臭油|tshau3-iu5
 臭油餲|tshau3-iu5-ai
+臭火焦|tshau3-hue2-ta
 臭焦|tshau3-ta
 臭臊|tshau3-tsho
 臭臭|tshau3-tshau3
@@ -6377,6 +6636,9 @@
 色素|sik-soo3
 芋|oo7
 芋仔|oo7-a2
+芡|khian3
+芡滷|khian3-loo2
+芡芳|khian3-phang
 芥|kua3
 芥菜|kua3-tshai3
 芫|ian5
@@ -6460,6 +6722,7 @@
 草地倯|tshau2-te7-song5
 草垺|tshau2-pu5
 草埔|tshau2-poo
+草埔仔|tshau2-poo-a2
 草絪|tshau2-in
 荍|sio5
 荒|hng
@@ -6568,7 +6831,10 @@
 葩|pha
 葫|hoo5
 葫蘆|hoo5-loo5
+葵|khue5
+葵扇|khue5-sinn3
 蒜|suan3
+蒜仔|suan3-a2
 蒜頭|suan3-thau5
 蒲|poo5
 蒿|o
@@ -6587,11 +6853,14 @@
 蓮|lian2
 蓮|lian5
 蓮花|lian5-hue
+蓮藕|lian5-ngau7
+蓮藕粉|lian5-ngau7-hun2
 蓮霧|lian2-bu7
 蔓|mua7
 蔗|tsia3
 蔡|tshua3
 蔥|tshang
+蔥仔|tshang-a2
 蔫|lian
 蔭|im3
 蔭|ng2
@@ -6633,6 +6902,7 @@
 藃蟶|hiauh-than
 藍|na5
 藍色|na5-sik
+藕|ngau7
 藝|ge7
 藝術|ge7-sut8
 藤|tin5
@@ -6652,6 +6922,7 @@
 蘋果|phong5-ko2
 蘢|ling3
 蘭|lan5
+蘭花|lan5-hue
 虎|hoo2
 虎姑婆|hoo2-koo-po5
 虐|gioh8
@@ -6681,9 +6952,12 @@
 蚵仔|o5-a2
 蚵仔煎|o5-a2-tsian
 蚵仔麵線|o5-a2-mi7-suann3
+蚵殼|o5-khak
 蚵炱|o5-te
 蚶|ham
 蚻|tsuah8
+蛀|tsiu3
+蛀蟲|tsiu3-thang5
 蛄|koo
 蛇|tsua5
 蛛|tu
@@ -6710,6 +6984,7 @@
 蝝|ian5
 蝦|he5
 蝦仔|he5-a2
+蝦仔罾|he5-a2-tsan
 蝦笱|he5-ko5
 蝦米|he5-bi2
 蝦膎|he5-ke5
@@ -6762,6 +7037,7 @@
 血|hiat
 血|hueh
 血壓|hueh-ap
+血路|hueh-loo7
 行|hang5
 行|hing5
 行|hing7
@@ -6813,8 +7089,10 @@
 表面|piau2-bin7
 衫|sann
 衫仔|sann-a2
+衫仔尾|sann-a2-bue2
 衫仔裾|sann-a2-ki
 衫仔褲|sann-a2-khoo3
+衫櫥|sann-tu5
 衫褲|sann-khoo3
 衰|sue
 衰䆀|sue-bai2
@@ -6830,6 +7108,8 @@
 袂當|be7-tang3
 袂直|be7-tit8
 袂算|be7-sng3
+袂翻捙|be7-huan-tshia
+袂落|be7-loh8
 袂記得|be7-ki3-tit
 袂赴|be7-hu3
 袂輸|be7-su
@@ -6841,14 +7121,19 @@
 被|phue7
 被單|phue7-tuann
 袱|hok8
+裁|tshai5
 裂|lih8
 裂獅獅|lih8-sai-sai
 裂裂|lih8-lih8
 裂開|lih8-khui
+裌|kiap
+裌裘|kiap-hiu5
+裘|hiu5
 裙|kun5
 裙裾|kun5-ki
 裙跤|kun5-kha
 補|poo2
+補了|poo2-liau2
 補助|poo2-tsoo7
 補紩|poo2-thinn7
 補習|poo2-sip8
@@ -6948,6 +7233,7 @@
 觀念|kuan-liam7
 觀眾|kuan-tsiong3
 觀音|kuan-im
+觀音媽|kuan-im-ma2
 觀點|kuan-tiam2
 角|kak
 角色|kak-sik
@@ -6965,6 +7251,7 @@
 言|gian5
 言語|gian5-gi2
 訂|ting7
+訂單|ting7-tuann
 訂婚|ting7-hun
 計|ke3
 計|ki3
@@ -7077,6 +7364,7 @@
 謀|boo5
 謎|bi7
 謎猜|bi7-tshai
+謔|gioh8
 謙|khiam
 謙卑|khiam-pi
 謙虛|khiam-hi
@@ -7148,6 +7436,8 @@
 變色|pian3-sik
 變調|pian3-tiau7
 變遷|pian3-tshian
+變鬼|pinn3-kui2
+變鬼變怪|pinn3-kui2-pinn3-kuai3
 讓|niu7
 讚|tsan2
 豆|tau7
@@ -7160,11 +7450,14 @@
 豆酺|tau7-poo5
 豉|sinn7
 豉膎|sinn7-ke5
+豉鹽|sinn7-iam5
 豍|pi
 豐|hong
 豐富|hong-hu3
 象|siong7
+象|siunn7
 象|tshiunn7
+象桮|siunn7-pue
 豬|ti
 豬仔|ti-a2
 豬仔囝|ti-a2-kiann2
@@ -7205,6 +7498,7 @@
 責|tsik
 責任|tsik-jim7
 責備|tsik-pi7
+貯|te2
 貴|kui3
 貴庚|kui3-kenn
 貴賓|kui3-pin
@@ -7283,6 +7577,7 @@
 起步|khi2-poo7
 起毛|khi2-moo
 起毛婸|khi2-moo-giang
+起火|khi2-hue2
 起畏寒|khi2-ui3-kuann5
 起痟|khi2-siau2
 起碇|khi2-tiann7
@@ -7293,6 +7588,7 @@
 起雞母皮|khi2-ke-bo2-phue5
 起頭|khi2-thau5
 起風|khi2-hong
+起鼓|khi2-koo2
 趁|than3
 趁錢|than3-tsinn5
 趁食|than3-tsiah8
@@ -7363,6 +7659,7 @@
 踏|tah8
 踏著|tah8-tioh8
 踔|tshik8
+踢|that
 踮|tiam3
 踮沬|tiam3-bi7
 踮空龜|tiam3-khang-ku
@@ -7372,6 +7669,9 @@
 蹌箍螺|tshiang2-khoo-le5
 蹌跤雞|tshiang2-kha-ke
 蹓|lau
+蹓蹓|lau-lau
+蹔|tsam3
+蹔跤步|tsam3-kha-poo7
 蹘|liau5
 蹛|tua3
 蹛院|tua3-inn7
@@ -7412,6 +7712,7 @@
 車禍|tshia-ho7
 車站|tshia-tsam7
 車路|tshia-loo7
+車門|tshia-mng5
 車頂|tshia-ting2
 車頭|tshia-thau5
 軍|kun
@@ -7423,11 +7724,13 @@
 軟心|nng2-sim
 軟汫|nng2-tsiann2
 軟荍荍|nng2-sio5-sio5
+軟蜞|nng2-khi5
 軟體|nng2-the2
 軟𩛩𩛩|nng2-kauh-kauh
 較|kau3
 較|khah
 較早|khah-tsa2
+較講|khah-kong2
 載|tsai3
 載著|tsai3-tioh8
 輕|khin
@@ -7493,6 +7796,7 @@
 迎接|ging5-tsiap
 近|kin7
 近來|kin7-lai5
+近視|kin7-si7
 迒|hann7
 返|tng2
 迪|tik8
@@ -7640,6 +7944,7 @@
 遮|tsia
 遮|tsiah
 遮爾|tsiah-ni7
+遮爾仔|tsiah-ni7-a2
 遮的|tsia-e5
 遲|ti5
 遲到|ti5-to3
@@ -7691,6 +7996,7 @@
 酒矸仔|tsiu2-kan-a2
 酒菜|tsiu2-tshai3
 酒醉|tsiu2-tsui3
+酥|soo
 酵|kann3
 酸|sng
 酸酸|sng-sng
@@ -7715,6 +8021,7 @@
 釋|sik
 里|li2
 重|tang7
+重|ting5
 重|tiong5
 重|tiong7
 重傷|tang7-siong
@@ -7744,9 +8051,12 @@
 金龜|kim-ku
 釘|ting
 釘|ting3
+釘仔|ting-a2
 針|tsiam
 針灸|tsiam-ku3
 針黹|tsiam-tsi2
+釣|tio3
+釣魚|tio3-hi5
 鈃|giang
 鈃仔|giang-a2
 鈕|liu2
@@ -7771,6 +8081,7 @@
 銃|tshing3
 銃子|tshing3-tsi2
 銅|tang5
+銅像|tang5-siong7
 銅錢|tang5-tsinn5
 銎|khing
 銷|siau
@@ -7783,6 +8094,7 @@
 鋪|phoo
 鋪面蟶|phoo-bin7-than
 鋸|ki3
+鋸屑烌|ki3-sut-hu
 鋼|kng3
 錄|lok8
 錄影|lok8-iann2
@@ -7805,8 +8117,10 @@
 鍤|tshiah
 鍤箕|tshiah-ki
 鍵|kian7
+鍼|tsiam
 鎖|so2
 鎖匙|so2-si5
+鎖頭|so2-thau5
 鎮|tin3
 鏡|kiann3
 鏨|tsam7
@@ -7857,6 +8171,7 @@
 門口|mng5-khau2
 門口埕|mng5-khau2-tiann5
 門外|mng5-gua7
+門後|mng5-au7
 門栱|mng5-kong5
 門票|mng5-phio3
 門跤口|mng5-kha-khau2
@@ -7867,6 +8182,7 @@
 閃|siam2
 閃爍|siam2-sih
 閃避|siam2-pi7
+閃開|siam2-khui
 開|khai
 開|khui
 開價|khui-ke3
@@ -7884,6 +8200,7 @@
 開發|khai-huat
 開票|khui-phio3
 開聲|khui-siann
+開臊|khui-tsho
 開花|khui-hue
 開藥仔|khui-ioh8-a2
 開裾|khui-ki
@@ -7907,6 +8224,10 @@
 閣有|koh-u7
 閣較|koh-khah
 閬|lang3
+閬工|lang3-kang
+閬月|lang3-gueh8
+閬港|lang3-kang2
+閬縫|lang3-phang7
 閬蹘|lang3-liau5
 閱|uat8
 閱讀|uat8-thok8
@@ -7932,6 +8253,7 @@
 阻礙|tsoo2-gai7
 阿|a
 阿七|a-tshit
+阿仁|a-jin5
 阿伯|a-peh
 阿傑|a-kiat8
 阿兄|a-hiann
@@ -7977,6 +8299,7 @@
 阿舅|a-ku7
 阿芬|a-hun
 阿花婆|a-hue-po5
+阿英|a-ing
 阿蓮|a-lian5
 阿蘭婆|a-lan5-po5
 阿財伯|a-tsai5-peh
@@ -7999,6 +8322,8 @@
 陪|pue5
 陪伴|pue5-phuann7
 陰|im
+陰暗|im-am3
+陰桮|im-pue
 陰間|im-kan
 陰魂|im-hun5
 陳|tan5
@@ -8021,6 +8346,7 @@
 隨意|sui5-i3
 隨時|sui5-si5
 險|hiam2
+險仔|hiam2-a2
 險險|hiam2-hiam2
 隱|un2
 隱痀|un2-ku
@@ -8055,8 +8381,10 @@
 雞卵|ke-nng7
 雞卵糕|ke-nng7-ko
 雞尾脽|ke-bue2-tsui
+雞屎運|ke-sai2-un7
 雞排|ke-pai5
 雞母|ke-bo2
+雞母|ke-bu2
 雞母皮|ke-bo2-phue5
 雞毛筅|ke-mng5-tshing2
 雞湯|ke-thng
@@ -8081,6 +8409,7 @@
 雨|u2
 雨傘|hoo7-suann3
 雨水|hoo7-tsui2
+雨澹水滴|hoo7-tam5-tsui2-tih
 雪|sap
 雪|seh
 雪文|sap-bun5
@@ -8106,6 +8435,7 @@
 電池|tian7-ti5
 電源|tian7-guan5
 電火|tian7-hue2
+電火柱|tian7-hue2-thiau7
 電線|tian7-suann3
 電腦|tian7-nau2
 電視|tian7-si7
@@ -8132,6 +8462,7 @@
 青年|tshing-lian5
 青恂恂|tshenn-sun2-sun2
 青春|tshing-tshun
+青春期|tshing-tshun-ki5
 青盲|tshenn-me5
 青盲牛|tshenn-me5-gu5
 青紅燈|tshenn-ang5-ting
@@ -8149,9 +8480,11 @@
 靠岸|kho3-huann7
 面|bian7
 面|bin7
+面仔|bin7-a2
 面前|bin7-tsing5
 面子|bin7-tsu2
 面容|bin7-iong5
+面巾|bin7-kin
 面桶|bin7-thang2
 面皮|bin7-phue5
 面肉|bin7-bah
@@ -8167,6 +8500,8 @@
 鞋|e5
 鞋仔|e5-a2
 鞋苴|e5-tsu7
+鞋襻|e5-phan3
+鞏|khong7
 鞭|mi
 韓|han5
 韭|ku2
@@ -8208,6 +8543,7 @@
 頒發|pan-huat
 頓|tng3
 頓印|tng3-in3
+頓著|tng3-tioh8
 頕|tam3
 頕低|tam3-ke7
 頕垂|tam3-sue5
@@ -8257,6 +8593,7 @@
 類|lui7
 顢|ban7
 顧|koo3
+顧人怨|koo3-lang5-uan3
 顧厝|koo3-tshu3
 顧家|koo3-ke
 顧門|koo3-mng5
@@ -8289,6 +8626,7 @@
 食|tsiah8
 食人|tsiah8-lang5
 食倯|tsiah8-song5
+食暗|tsiah8-am3
 食桌|tsiah8-toh
 食死死|tsiah8-si2-si2
 食物|sit8-but8
@@ -8296,6 +8634,7 @@
 食穿|tsiah8-tshing7
 食緊|tsiah8-kin2
 食老|tsiah8-lau7
+食臊|tsiah8-tsho
 食苦|tsiah8-khoo2
 食茶|tsiah8-te5
 食菜|tsiah8-tshai3
@@ -8314,6 +8653,7 @@
 飯店|png7-tiam3
 飯疕|png7-phi2
 飯碗|png7-uann2
+飯篋仔|png7-kheh-a2
 飯篱|png7-le7
 飲|im2
 飲料|im2-liau7
@@ -8341,6 +8681,7 @@
 香|hiunn
 香櫞|hiunn-inn5
 香櫞瓜|hiunn-inn5-kue
+香油|hiang-iu5
 香火|hiunn-hue2
 香烌|hiunn-hu
 香煙|hiunn-ian
@@ -8361,6 +8702,7 @@
 駛|sai2
 駛車|sai2-tshia
 騎|khia5
+騎車|khia5-tshia
 騙|phian3
 騙人|phian3-lang5
 驕|kiau
@@ -8410,6 +8752,7 @@
 鬆|sang
 鬖|sam3
 鬖毛鬼|sam3-mng5-kui2
+鬖鬖|sam3-sam3
 鬚|tshiu
 鬢|pin3
 鬢繐|pin3-sui
@@ -8431,6 +8774,8 @@
 魂|hun5
 魂魄|hun5-phik
 魄|phik
+魔|moo5
+魔鬼|moo5-kui2
 魚|gu5
 魚|hi5
 魚丸|hi5-uan5
@@ -8438,8 +8783,12 @@
 魚仔|hi5-a2
 魚刺|hi5-tshi3
 魚拊|hi5-hu2
+魚架仔|hi5-ke3-a2
+魚港|hi5-kang2
 魚湯|hi5-thng
 魚脯|hi5-poo2
+魚臊|hi5-tsho
+魚酥|hi5-soo
 魚鱗|hi5-lan5
 魚鱗𤺅仔|hi5-lan5-tshe3-a2
 魟|hang
@@ -8551,6 +8900,7 @@
 麭|phang2
 麵|mi7
 麵包|mi7-pau
+麵店|mi7-tiam3
 麵摵仔|mi7-tshik8-a2
 麵粉|mi7-hun2
 麵線|mi7-suann3
@@ -8604,6 +8954,7 @@
 鼻頭|phinn7-thau5
 鼾|huann5
 齁|honn
+齁齁叫|honn-honn-kio3
 齆|ang3
 齆聲|ang3-siann
 齆鼻|ang3-phinn7
@@ -8611,8 +8962,10 @@
 齊|tse5
 齊|tsiau5
 齊全|tse5-tsuan5
+齊勻|tsiau5-un5
 齊天|tse5-thian
 齒|khi2
+齒科|khi2-kho
 齴|giang3
 齴牙|giang3-ge5
 齴齴|giang3-giang3
@@ -8650,6 +9003,7 @@
 𢯾牢牢|mooh-tiau5-tiau5
 𢯾鼻|mooh-phinn7
 𢲸|loo7
+𢲸𢲸搟|loo7-loo7-hian2
 𢼌|pa
 𣁳|khat
 𣁳仔|khat-a2
@@ -8689,6 +9043,7 @@
 𧌄|am
 𧌄蜅蠐|am-poo-tse5
 𧮙|tshoh
+𧮙姦撟|tshoh-kan3-kiau7
 𧿬|thun2
 𧿬踏|thun2-tah8
 𧿳|phut8
@@ -8699,6 +9054,7 @@
 𨂿著|uainn2-tioh8
 𨑨|tshit
 𨑨迌|tshit-tho5
+𨑨迌仔|tshit-tho5-a2
 𨑨迌物|tshit-tho5-mih8
 𨑨迌物仔|tshit-tho5-mih-a2
 𩑾|tshih
@@ -8727,6 +9083,7 @@
 𫝛款|siang7-khuan2
 𫝺|hiu3
 𫝻|hue5
+𫝻著|hue5-tioh8
 𫝻𫝻|hue5-hue5
 𫞼|tshai7
 𫞼諍王|tshai7-tsenn3-ong5
