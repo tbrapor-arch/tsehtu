@@ -61,7 +61,7 @@ class Variants:
                     seen.add(t)
                     out.append({'t': t, 'label': KIND_EN.get(kind, kind or 'also said')})
         prefix = '--' if tailo.startswith('--') else ''
-        syls = [s for s in re.split(r'-+', tailo.lstrip('-')) if s]
+        syls = [s for s in re.split(r'[-\s]+', tailo.lstrip('-')) if s]   # 'ka-hōo pēnn-pâng' (the ministry's table) too
         chars = re.findall(r'[㐀-鿿\U00020000-\U0003ffff]', hanji or '')
         if len(chars) == len(syls) and syls:
             for preset, place in PRESETS.items():

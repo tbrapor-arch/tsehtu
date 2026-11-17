@@ -152,7 +152,9 @@ def lookup(seg, k):
             sib = [i for (i, hh) in con.execute(
                 "SELECT id, hanji FROM entry e WHERE tkey=? AND id!=? AND source IN ('moe','itaigi','taihoa','tgb') "
                 "AND kind != 'xref' AND EXISTS (SELECT 1 FROM mandarin m WHERE m.entry_id=e.id) "
-                "ORDER BY hanji=? DESC, source='moe' DESC, freq DESC", (k, eid, h)) if hh and (hh == h or same_word(hh, seg))]
+                "ORDER BY hanji=? DESC, source='moe' DESC, freq DESC", (k, eid, h))
+                if (hh and (hh == h or same_word(hh, seg))) or (not hh and con.execute(   # no characters (tgb): only
+                    'SELECT 1 FROM mandarin WHERE entry_id=? AND word IN (?, ?)', (i, h, seg)).fetchone())]   # when its Mandarin is this word
             if sib:
                 mand = list(dict.fromkeys(w for i in sib for (w,) in con.execute(
                     'SELECT word FROM mandarin WHERE entry_id=? ORDER BY rowid', (i,))))[:6]
@@ -187,7 +189,7 @@ def lookup(seg, k):
         card['comp'] = comp
     # last resort for the English: the pieces' English joined (the parts of a course compound, else its composition)
     parts = [(dictionary[p].get('gloss'), dictionary[p].get('gloss_src')) for p in card.get('parts') or comp or []]
-    en, en_src = ENGLISH.gloss(seg, k, eid_en or eid, dh, parts)
+    en, en_src = ENGLISH.gloss(seg, k, eid_en or eid, dh, parts, cognate=card.get('cognate'))
     if not en and len(seg) == 1:     # a character met only inside words: its own CC-CEDICT meaning
         en, en_src = english.cedict_en(CEDICT, seg), f'mandarin:{seg}'
     if en:

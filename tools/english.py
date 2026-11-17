@@ -81,15 +81,14 @@ HAN = re.compile(r'[\u3400-\u9fff\U00020000-\U0003ffff]')
 
 
 def course_pairs(root=ROOT):
-    """({(Hàn-jī, tkey): English}, {tkey: set of Hàn-jī}) for the course's new words, with the same precedence as
-    course_glosses (lessons, last wins; then themes, first wins). Two words with the same reading but other
+    """({(Hàn-jī, tkey): English}, {tkey: set of Hàn-jī}) for the course's new words: lessons and 進修 (last wins),
+    then themes, then 文學 (first wins). Two words with the same reading but other
     characters (踮 / 店 tiàm) each keep their own English."""
     import glob
     import yaml
     pairs, hanji = {}, {}
     for f in sorted(glob.glob(os.path.join(root, 'course/lessons/[0-9]*.yaml'))) + \
-            sorted(glob.glob(os.path.join(root, 'course/perfectionnement/[0-9]*.yaml'))) + \
-            sorted(glob.glob(os.path.join(root, 'course/literature/[0-9]*.yaml'))):
+            sorted(glob.glob(os.path.join(root, 'course/perfectionnement/[0-9]*.yaml'))):
         for w in yaml.safe_load(open(f, encoding='utf-8')).get('new_words') or []:
             if w.get('en') and w.get('hanji'):
                 k = _key(w['tailo'])
@@ -102,6 +101,14 @@ def course_pairs(root=ROOT):
                     k = _key(w['tailo'])
                     pairs.setdefault((w['hanji'], k), w['en'])
                     hanji.setdefault(k, set()).add(w['hanji'])
+    # the 文學 lessons last: their own words (so that their English never reaches a homophone by its reading alone);
+    # a word the lessons or themes already gloss keeps that gloss
+    for f in sorted(glob.glob(os.path.join(root, 'course/literature/[0-9]*.yaml'))):
+        for w in yaml.safe_load(open(f, encoding='utf-8')).get('new_words') or []:
+            if w.get('en') and w.get('hanji'):
+                k = _key(w['tailo'])
+                pairs.setdefault((w['hanji'], k), w['en'])
+                hanji.setdefault(k, set()).add(w['hanji'])
     return pairs, hanji
 
 
@@ -127,8 +134,10 @@ class English:
             return self.course[k]   # a word the course writes without characters, or a romanised word
         return None
 
-    def gloss(self, hanji, k, eid=None, dict_hanji=None, parts=()):
-        """(English, source) for a word; ('', None) if nothing is known. `parts` = [(English, source), …]."""
+    def gloss(self, hanji, k, eid=None, dict_hanji=None, parts=(), cognate=None):
+        """(English, source) for a word; ('', None) if nothing is known. `parts` = [(English, source), …].
+        `cognate`: the dictionary's comparison with Mandarin (same-chars-diff-use: the same characters mean something
+        else in Mandarin, so CC-CEDICT's entry for the characters is not used)."""
         en = self._course(hanji, k, dict_hanji)
         if en:
             return en, 'course'
@@ -147,6 +156,14 @@ class English:
                     en = cedict_en(self.ced, w)
                     if en:
                         return en, 'mandarin:' + w
+        # a word of two or more characters no Taigi dictionary glosses, written as Mandarin writes it (某種, 工作者):
+        # CC-CEDICT's entry for the whole word, before its pieces joined; never for one character (too ambiguous) or a
+        # false friend
+        if cognate != 'same-chars-diff-use':
+            for w in dict.fromkeys(x for x in (hanji, dict_hanji) if x and len(x) > 1 and all(HAN.match(ch) for ch in x)):
+                en = cedict_en(self.ced, w)
+                if en:
+                    return en, 'mandarin:' + w
         if parts and all(p and p[0] for p in parts):
             return ' + '.join(_first(p[0]) for p in parts), 'parts'
         return '', None
