@@ -67,7 +67,9 @@ print('corpus segments aligned', ok, '/', tot)
 
 con = sqlite3.connect(DB)
 ok = tot = 0
-for h, t in con.execute("SELECT hanji, tailo FROM example WHERE source='moe'"):
+# (the older export's examples only: the table's are left out so that the counts, and the ranks, stay as they were)
+for h, t in con.execute("SELECT hanji, tailo FROM example WHERE source='moe' "
+                        "AND entry_id NOT IN (SELECT id FROM entry WHERE added = 1)"):
     tot += 1
     ok += align(h, t, False)
 print('MOE examples aligned', ok, '/', tot)
@@ -76,9 +78,12 @@ con.execute('DROP TABLE IF EXISTS pair_freq')
 con.execute('CREATE TABLE pair_freq(hanji TEXT, tkey TEXT, count INT, PRIMARY KEY(hanji,tkey))')
 con.executemany('INSERT INTO pair_freq VALUES (?,?,?)', [(h, k, c) for (h, k), c in pair.items()])
 
-# split tkey frequency across MOE homophones
+# split tkey frequency across MOE homophones. Only the older export's words (屬性 1-3) are split and ranked, as they
+# always were: the 臺華共同詞 (kind 'shared') and the headwords taken in from the ministry's current table (added=1)
+# keep the raw count of their reading (enrich.py) and no rank, so that no existing rank, the core list, Practice ›
+# Characters or the Bridge move when the table is taken in.
 groups = defaultdict(list)
-for eid, h, k in con.execute("SELECT id, hanji, tkey FROM entry WHERE source='moe' AND kind IN ('word', 'shared')"):
+for eid, h, k in con.execute("SELECT id, hanji, tkey FROM entry WHERE source='moe' AND kind='word' AND added IS NULL"):
     groups[k].append((eid, h))
 corpus = dict(con.execute('SELECT tkey, count FROM corpus_freq'))
 upd = []
@@ -97,7 +102,7 @@ for k, ents in groups.items():
 con.execute('ALTER TABLE entry ADD COLUMN pair_count INT') if 'pair_count' not in \
     [r[1] for r in con.execute('PRAGMA table_info(entry)')] else None
 con.executemany('UPDATE entry SET freq=?, pair_count=? WHERE id=?', upd)
-ids = [r[0] for r in con.execute("SELECT id FROM entry WHERE source='moe' AND kind IN ('word', 'shared') "
+ids = [r[0] for r in con.execute("SELECT id FROM entry WHERE source='moe' AND kind='word' AND added IS NULL "
                                   "ORDER BY freq DESC, pair_count DESC, length(tkey)")]
 con.execute("UPDATE entry SET freq_rank=NULL")
 con.executemany('UPDATE entry SET freq_rank=? WHERE id=?', [(i + 1, e) for i, e in enumerate(ids)])

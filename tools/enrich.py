@@ -71,9 +71,9 @@ cur.executemany('UPDATE entry SET english=? WHERE id=?', upd)
 print('MOE entries with English gloss:', len(upd))
 
 # 4. core list: top 4000 MOE words by frequency + MOE words whose Mandarin equivalent is HSK<=3
-#    (needs freq_align.py to have run first)
+#    (needs freq_align.py to have run first; the older export's words only, see freq_align.py)
 cur.execute('UPDATE entry SET core=NULL')
-cur.execute("""UPDATE entry SET core=1 WHERE source='moe' AND kind IN ('word', 'shared')
+cur.execute("""UPDATE entry SET core=1 WHERE source='moe' AND kind='word' AND added IS NULL
                AND (freq_rank <= 4000 OR (hsk_old <= 3 AND freq >= 5))""")
 
 # 5. views
