@@ -330,6 +330,7 @@ span.tok { cursor: pointer; border-radius: 4px; }
 .wc-sec h3 { margin: 0; font-size: .72rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; color: var(--sub); }
 .wc-gloss { font-size: 1.15rem; font-weight: 600; }
 .wc-sec ol { margin: 0; padding-left: 1.2rem; font-family: var(--f-han); }
+.zhere p { margin: 0; font-family: var(--f-han); font-size: 1.05rem; }
 .pos { font-size: .75rem; color: var(--sub); margin-right: .3rem; }
 .wc-ex .h { font-family: var(--f-han); } .wc-ex .t { font-weight: 600; } .wc-ex .m { font-family: var(--f-han); color: var(--sub); }
 .wc-src { font-size: .75rem; color: var(--sub); }
@@ -1490,14 +1491,24 @@ function showSong(A, so) {
 function splitZh(l) { const x = l.match(/^(.*?)\s*[（(]([^（()）]*)[)）]\s*$/); return x && x[1] ? [x[1], x[2]] : [l, '']; }
 
 // ---------- Mandarin (華語) words: one renderer for every Mandarin text (card definitions and example translations,
-// lesson lines, notes, the private module's texts). The text is cut in the browser against DATA.zh, the table of the
-// words the build found ({word: "pinyin<TAB>English" lines, '*' first for an HSK word}), with the build's own rule
-// (tools/zh_words.py: lowest cost, a word 10 or 9 for HSK, the longest first word on a tie), so the cut is the build's.
-// The text itself is shown unaltered (the MOE definitions are CC BY-ND): only its words are wrapped in spans.
-const ZH = DATA.zh || {};
-function zhAdd(table) { Object.assign(ZH, table || {}); }   // the private module adds the words of its own texts (exam/zh.json)
+// lesson lines, notes, the private module's texts). Built by tools/zh_words.py (automatic, not checked by a person):
+// DATA.zh = {word: "score|pinyin<TAB>English" lines, or "score|=part part" for a word only jieba knows, shown as its
+// CC-CEDICT parts}, the words the texts use; DATA.zhx = {text key: "word.line,…"},
+// the words whose reading in that sentence is not their entry's first line. The browser cuts each text again with the
+// build's rule (highest total of word scores minus DATA.zhqt, the longer first word on a tie), so the cut is the
+// build's. The text itself is shown unaltered (the MOE definitions are CC BY-ND): only its words are wrapped in spans.
+const ZH = DATA.zh || {}, ZHX = DATA.zhx || {}, ZH_QT = DATA.zhqt || 0;
+const ZH_V = 2;   // table format; the private module adds its own words only to a page that has this one
+function zhAdd(t) {   // the private module's words (exam/zh.json): added, never replacing the app's
+  if (!t || t.qt !== ZH_QT) return false;
+  for (const k in t.w || {}) if (!(k in ZH)) ZH[k] = t.w[k];
+  for (const k in t.x || {}) if (!(k in ZHX)) ZHX[k] = t.x[k];
+  return true;
+}
 const ZH_RUN = /([\u3400-\u9fff\uf900-\ufaff\u{20000}-\u{3134f}]+)/u;
-function zhCut(text) {   // -> [string | [word]]
+const zhTap = w => { const e = ZH[w]; if (e === undefined) return false; const i = e.indexOf('|'); return i < e.length - 1 && e[i + 1] !== '='; };
+function zhKey(t) { let h = 0x811c9dc5, n = 0; for (const c of t) { h = Math.imul(h ^ c.codePointAt(0), 0x01000193) >>> 0; n++; } return h.toString(36) + '.' + n.toString(36); }
+function zhCut(text) {   // -> [string | [word, line]]
   const out = [], put = x => { if (out.length && typeof out[out.length - 1] === 'string') out[out.length - 1] += x; else out.push(x); };
   String(text || '').split(ZH_RUN).forEach((part, j) => {
     if (!part) return;
@@ -1506,31 +1517,40 @@ function zhCut(text) {   // -> [string | [word]]
     for (let i = n - 1; i >= 0; i--) {
       let b = null;
       for (let k = Math.min(8, n - i); k > 0; k--) {
-        const w = cs.slice(i, i + k).join(''), e = ZH[w];
-        if (k === 1 || e !== undefined) { const c = (e !== undefined && e[0] === '*' ? 9 : 10) + best[i + k]; if (b === null || c < b) { b = c; step[i] = k; } }
+        const e = ZH[cs.slice(i, i + k).join('')];
+        if (e === undefined && k > 1) continue;
+        const c = (e === undefined ? 0 : parseInt(e, 10)) - ZH_QT + best[i + k];
+        if (b === null || c > b) { b = c; step[i] = k; }
       }
       best[i] = b;
     }
-    for (let i = 0; i < n; i += step[i]) { const w = cs.slice(i, i + step[i]).join(''); if (ZH[w] !== undefined) out.push([w]); else put(w); }
+    for (let i = 0; i < n; i += step[i]) {
+      const w0 = cs.slice(i, i + step[i]).join(''), b = ZH[w0] || '', q = b.indexOf('|=');   // a jieba-only word: its parts
+      for (const w of q >= 0 ? b.slice(q + 2).split(' ') : [w0]) if (zhTap(w)) out.push([w, 0]); else put(w);
+    }
   });
+  const x = ZHX[zhKey(String(text || ''))];
+  if (x) { const ws = out.filter(t => typeof t !== 'string'); x.split(',').forEach(y => { const [a, b] = y.split('.').map(v => parseInt(v, 36)); if (ws[a]) ws[a][1] = b; }); }
   return out;
 }
-// Mandarin text -> HTML: each word a focusable span (role=button) that opens the sheet
+// Mandarin text -> HTML: each word a focusable span (role=button) that opens the sheet; data-r: its reading here
 function zhLine(text) {
-  return zhCut(text).map(t => typeof t === 'string' ? esc(t) : `<span class="ztok" tabindex="0" role="button" data-z="${esc(t[0])}">${esc(t[0])}</span>`).join('');
+  return zhCut(text).map(t => typeof t === 'string' ? esc(t) : `<span class="ztok" tabindex="0" role="button" data-z="${esc(t[0])}"${t[1] ? ` data-r="${t[1]}"` : ''}>${esc(t[0])}</span>`).join('');
 }
-const zhSenses = w => (ZH[w] || '').replace(/^\*/, '').split('\n').filter(Boolean).map(l => l.split('\t'));
+const zhSenses = w => (ZH[w] || '').replace(/^[^|]*\|/, '').split('\n').filter(Boolean).map(l => l.split('\t'));
 const zhPy = p => p.split(' ').map((y, i) => (i && /^[aeoāáǎàēéěèōóǒò]/i.test(y) ? "'" : '') + y).join('');   // dì èr -> dì'èr
 function openZh(el) {
-  const w = el.dataset.z, S = zhSenses(w), sh = $('#sheet');
+  const w = el.dataset.z, S0 = zhSenses(w), r = +el.dataset.r || 0, sh = $('#sheet');
+  const S = S0[r] ? [S0[r], ...S0.filter((y, i) => i !== r)] : S0;   // the reading in this sentence first
   // opened from a word card or a note: a way back to it
   const back = sh.classList.contains('open') && sh.contains(el) ? sh._reopen : null;
   $$('.tok.sel, .ztok.sel').forEach(y => y.classList.remove('sel')); el.classList.add('sel');
   sh.classList.add('zh'); sh._reopen = null;
   sh.innerHTML = `<div class="grab"></div><div class="wc-top"><div><span class="zlab">華語 · Mandarin</span><div class="wc-h" lang="zh-Hant">${esc(w)}</div><div class="wc-t zpy" lang="zh-Latn-pinyin">${esc(S.length ? zhPy(S[0][0]) : '')}</div></div><div class="wc-btns"><button class="x" aria-label="Close">×</button></div></div>
     ${back ? `<button class="btn small line zback">‹ Back to ${esc(back.label)}</button>` : ''}
-    ${S.length ? `<div class="wc-sec"><h3>Dictionary · CC-CEDICT</h3><ol>${S.map(y => `<li><span class="zpy" lang="zh-Latn-pinyin">${esc(y[0])}</span> — ${esc(y[1] || '')}</li>`).join('')}</ol></div>` : ''}
-    <div class="wc-src">A Mandarin word. Pinyin and senses: CC-CEDICT (MDBG, CC BY-SA 4.0).</div>`;
+    ${S.length ? `<div class="wc-sec zhere"><h3>${S.length > 1 ? 'Here' : 'Dictionary'} · CC-CEDICT</h3><p><span class="zpy" lang="zh-Latn-pinyin">${esc(S[0][0])}</span> — ${esc(S[0][1] || '')}</p></div>` : ''}
+    ${S.length > 1 ? `<div class="wc-sec zother"><h3>Other readings</h3><ol>${S.slice(1).map(y => `<li><span class="zpy" lang="zh-Latn-pinyin">${esc(y[0])}</span> — ${esc(y[1] || '')}</li>`).join('')}</ol></div>` : ''}
+    <div class="wc-src">A Mandarin word, cut and read automatically (not checked by a person). Pinyin and senses: CC-CEDICT (MDBG, CC BY-SA 4.0).</div>`;
   $('.x', sh).onclick = closeSheet;
   if (back) $('.zback', sh).onclick = () => back.open();
   sh.classList.add('open'); sh.setAttribute('aria-hidden', 'false'); sh.scrollTop = 0;
