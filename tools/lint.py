@@ -230,15 +230,147 @@ def lint_theme(path, keys, pairs, moe_ex):
         os.remove(tmp)
 
 
+# ---- Lessons › 台語字 (course/chars_examples.yaml, course/chars_order.txt; tools/taigi_chars.py, docs/taigi-chars.md)
+def _created_words(h, t):
+    """[(Hàn-jī of the word, Tâi-lô word)] by the Tâi-lô's space-separated words; and the two counts."""
+    hs = re.findall(CJK, h)
+    toks = [x for x in re.split(r'[\s,.!?;:“”"…，。！？]+', t) if x]
+    out, i = [], 0
+    for tok in toks:
+        ss = [x for x in re.split(r'--|-', tok.lstrip('-')) if x]
+        out.append((''.join(hs[i:i + len(ss)]), tok.lstrip('-')))
+        i += len(ss)
+    return out, len(hs), i
+
+
+def lint_chars():
+    """Every listed character has a public example (or is reading only); lesson lines and MOE examples exist and read
+    the character as listed; MOE examples are the database's text; written sentences line up and use MOE words only;
+    the list's order is the pinned one."""
+    import english
+    import taigi_chars as T
+    import verify_words as V
+    msgs, where = [], 'course/chars_examples.yaml'
+    E = lambda m: msgs.append(('E', f'{where}: E {m}'))
+    con = sqlite3.connect(DB)
+    use, accepted, _ = T.select(con, english.load_cedict(), os.path.join(ROOT, 'data/raw/moedict-data-twblg/x-造字.csv'))
+    order = T.pinned()
+    gone = [c for c in order if c not in accepted]
+    if gone:
+        E(f'pinned characters no longer selected (course/chars_order.txt): {"".join(gone)}')
+    new = [c for c in accepted if c not in set(order)]
+    if new:
+        E(f'{len(new)} selected characters not pinned yet: {"".join(new)} (append them to course/chars_order.txt, with entries here)')
+    if len(set(order)) != len(order):
+        E('course/chars_order.txt lists a character twice')
+    Y = T.load_examples()
+    C, X = Y.get('chars') or {}, Y.get('extra') or {}
+    for c in order:
+        if c not in C:
+            E(f'{c}: listed (course/chars_order.txt) but no entry')
+    for c in C:
+        if c not in set(order):
+            E(f'{c}: an entry for a character the list does not have')
+    for c in X:
+        if c in accepted or c in C:
+            E(f'{c}: in `extra` but also in the list')
+    lessons = {}
+    for f in sorted(glob.glob(os.path.join(ROOT, 'course/lessons/[0-9]*.yaml'))) + sorted(glob.glob(os.path.join(ROOT, 'course/perfectionnement/[0-9]*.yaml'))) + sorted(glob.glob(os.path.join(ROOT, 'course/literature/[0-9]*.yaml'))):
+        d = yaml.safe_load(open(f, encoding='utf-8'))
+        base = 100 if 'perfectionnement' in f else 200 if 'literature' in f else 0
+        lessons[base + d['id']] = {ln['n']: ln for ln in d['dialogue']}
+    D = V.Dict(DB)
+
+    def word_ok(hw, tw):
+        r = V.check(D, 'c', hw, [tw]) if hw else None
+        if r and r[0] != 'minor' and len(hw) > 1:   # not a headword: fine if it splits into MOE headwords (好食 = 好 + 食)
+            ss = [x for x in re.split(r'--|-', tw) if x]
+            if len(ss) == len(hw):
+                ok = [True] + [False] * len(hw)
+                for i in range(len(hw)):
+                    for j in range(i + 1, len(hw) + 1):
+                        if ok[i] and (i, j) != (0, len(hw)):
+                            rr = V.check(D, 'c', hw[i:j], ['-'.join(ss[i:j])])
+                            if rr is None or rr[0] == 'minor':
+                                ok[j] = True
+                if ok[-1]:
+                    r = None
+        if r and r[0] != 'minor' and '--' in tw:   # a neutral-tone tail (看--覓, 好--ah)
+            j, ok = 0, True
+            for part in tw.split('--'):
+                n = len([x for x in part.split('-') if x])
+                rr = V.check(D, 'c', hw[j:j + n], [part]) if hw[j:j + n] else None
+                ok = ok and not (rr and rr[0] != 'minor')
+                j += n
+            r = None if ok else r
+        return not (r and r[0] != 'minor')
+
+    for sec, items in (('chars', C), ('extra', X)):
+        for c, e in items.items():
+            reads = [e['r']] if sec == 'extra' else list((use.get(c) or {}).get('read') or [])
+            if not reads and sec == 'chars':   # read only inside words: the build takes its syllable in the first one
+                reads = [s for h, t in (use.get(c) or {}).get('words', [])[:1] for ch, s in zip(h, T._syl(t)) if ch == c]
+            if e.get('also_read'):
+                ar = e['also_read']
+                if not any(T.read_as(c, c, s, [ar['r']]) for s in T.word_reading(con, ar['word'], c)):
+                    E(f"{c}: also_read {ar['r']} is not its reading in the MOE word {ar['word']}")
+                reads.append(ar['r'])
+            kinds = [k for k in ('lesson', 'moe', 'created', 'reading_only') if e.get(k)]
+            if len(kinds) != 1:
+                E(f'{c}: needs exactly one of lesson / moe / created / reading_only (has {kinds or "none"})')
+            for k in ('lesson', 'also'):
+                if e.get(k):
+                    lid, n = e[k]
+                    ln = lessons.get(lid, {}).get(n)
+                    if not ln:
+                        E(f'{c}: {k} {e[k]}: no such lesson line')
+                    elif c not in ln['hanji']:
+                        E(f'{c}: {k} {e[k]}: the line does not contain it')
+                    elif not T.read_as(c, ln['hanji'], ln['tailo'], reads) and len(re.findall(CJK, ln['hanji'])) == len(T._syl(ln['tailo'])):
+                        E(f'{c}: {k} {e[k]}: the line does not read it as listed ({" / ".join(reads)})')
+            for k in ('moe', 'moe2'):
+                m = e.get(k)
+                if not m:
+                    continue
+                r = T.moe_example(con, m['word'], m['hanji'])
+                if not r:
+                    E(f"{c}: {k}: not an MOE example of {m['word']}: {m['hanji']} (quote the database's text exactly)")
+                elif c not in m['word'] or not any(T.read_as(c, c, s, reads) for s in T.word_reading(con, m['word'], c)):
+                    E(f"{c}: {k}: {m['word']} does not read it as listed ({' / '.join(reads)})")
+            if e.get('moe') and not e.get('en'):
+                E(f'{c}: moe: no English (en:)')
+            if e.get('created'):
+                cr = e['created']
+                if not cr.get('en'):
+                    E(f'{c}: created: no English')
+                ws, nh, nt = _created_words(cr['hanji'], cr['tailo'])
+                if nh != nt:
+                    E(f'{c}: created: {nh} Hàn-jī but {nt} syllables')
+                    continue
+                bad = [f'{hw} {tw}' for hw, tw in ws if hw and not word_ok(hw, tw)]
+                if bad:
+                    E(f'{c}: created: not MOE words with these readings: {", ".join(bad)}')
+                if c not in cr['hanji'] or not T.read_as(c, cr['hanji'], cr['tailo'], reads):
+                    E(f'{c}: created: does not read it as listed ({" / ".join(reads)})')
+    return msgs
+
+
 def main():
     files = sys.argv[1:] or ((sorted(glob.glob(os.path.join(ROOT, 'course/lessons/[0-9]*.yaml'))) + sorted(glob.glob(os.path.join(ROOT, 'course/perfectionnement/[0-9]*.yaml')))
                              + sorted(glob.glob(os.path.join(ROOT, 'course/literature/[0-9]*.yaml'))))
                              + sorted(glob.glob(os.path.join(ROOT, 'course/themes/*.yaml'))))
     keys, pairs, moe_ex = load_db()
     errors = 0
+    want_chars = not sys.argv[1:] or any(os.path.basename(f) in ('chars_examples.yaml', 'chars_order.txt') for f in files)
+    files = [f for f in files if os.path.basename(f) not in ('chars_examples.yaml', 'chars_order.txt')]
     for f in files:
         fn = lint_theme if 'themes' in os.path.normpath(f).split(os.sep) else lint
         for level, text in fn(f, keys, pairs, moe_ex):
+            print(text)
+            errors += level == 'E'
+    if want_chars:
+        files = files + ['course/chars_examples.yaml']
+        for level, text in lint_chars():
             print(text)
             errors += level == 'E'
     print(f'{len(files)} file(s), {errors} error(s)')
