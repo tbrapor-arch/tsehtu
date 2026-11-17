@@ -155,6 +155,18 @@ for f in theme_files:
 # ---- Taigi-only characters (Practice › Characters): before the audio pass, their example words get recordings too
 taigi_only = taigi_chars.build(con, CEDICT, os.path.join(ROOT, 'data/raw/moedict-data-twblg/x-造字.csv'), lookup, lessons, dictionary)
 
+# ---- every card id a published page has had keeps its card (a word saved on a device, a link from the private module,
+# an example the Characters page used to show): app/published-card-ids.txt, add ids to it, never remove any
+PUBLISHED_IDS = os.path.join(ROOT, 'app', 'published-card-ids.txt')
+_kept = 0
+for _id in (l.strip() for l in open(PUBLISHED_IDS, encoding='utf-8') if l.strip() and not l.startswith('#')):
+    if _id not in dictionary:
+        _h, _k = _id.rsplit('|', 1)
+        if lookup(_h, _k) != _id:
+            raise SystemExit(f'{PUBLISHED_IDS}: {_id} no longer gives this card id')
+        _kept += 1
+print(f'{_kept} cards kept only because a published page had them (app/published-card-ids.txt)')
+
 # ---- accents page: a few characters that show the main regional splits
 ACCENT_SETS = [
     ('e / ue', 'Taipei and Lukang say -ue where Tainan and Yilan say -e (and the reverse for some words).',
