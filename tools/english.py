@@ -170,8 +170,11 @@ class English:
 
 
 def _first(en):
-    """First sense only, for joining parts: 'to put; to place' -> 'to put'."""
-    return re.split(r'[;,]', en)[0].strip()
+    """First sense only, for joining parts: 'to put; to place' -> 'to put'. A character gloss written for Lessons ›
+    台語字 names the word it comes from ('eye (in 目睭 ba̍k-tsiu)', 'in 虼蚤 ka-tsáu: flea'): that part is dropped here."""
+    first = re.split(r'[;,]', en)[0].strip()
+    first = re.sub(r'^in \S+ [^:]+: ', '', first)
+    return re.sub(r'\s*\(in [^)]*\)$', '', first).strip() or first
 
 
 def _tidy(en):
