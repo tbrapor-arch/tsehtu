@@ -30,6 +30,7 @@ import moe_examples  # noqa: E402
 import sutian  # noqa: E402
 import taigi_chars  # noqa: E402
 import tone_drill  # noqa: E402
+import zh_words  # noqa: E402
 import podcast  # noqa: E402
 MOE_EX = moe_examples.load()
 # recording ids come from the ministry's own table (tools/sutian.py): the old entry numbers point to other words
@@ -410,6 +411,39 @@ for L in lessons:
                 ln['voice'] = sp
             n_rec += 1
 data['recorded'] = n_rec
+# ---- Mandarin (華語) words: every Mandarin text the app shows is tappable (zhLine() in the template). One table of the
+# words used, {word: "score|pinyin<TAB>English" lines}, and the readings chosen by the sentence where they differ from a
+# word's default, {text key: "word.line,…"} (tools/zh_words.py); the browser cuts each text again with the same rule.
+# Texts: the cards' MOE definitions and example translations, lesson lines' Mandarin, grammar headings, podcast notes,
+# and Han text right after "Mandarin " / 華語 in notes (fmt()).
+zh_texts = [s['def'] for c in dictionary.values() for s in c.get('senses') or []]
+zh_texts += [c['example']['mandarin'] for c in dictionary.values() if c.get('example') and c['example'].get('mandarin')]
+zh_texts += [ln['zh'] for L in lessons for ln in L['lines'] if ln.get('zh')]
+zh_texts += [it['zh'] for g in grammar for it in g['items'] if it.get('zh')]
+if show:
+    zh_texts += [re.sub(r'^[◎●•・]\s*', '', l) for ep in show['episodes'] for l in ep.get('other', [])]
+    for ep in show['episodes']:   # the Mandarin in brackets at the end of an intro line (splitZh in the template)
+        for l in ep.get('intro', []):
+            m = re.match(r'^(.*?)\s*[（(]([^（()）]*)[)）]\s*$', re.sub(r'^[◎●•・]\s*', '', l))
+            if m and m.group(1):
+                zh_texts.append(m.group(2))
+_rest = json.dumps({k: v for k, v in data.items() if k != 'dict'}, ensure_ascii=False)
+zh_texts += re.findall(r'(?:Mandarin |華語)([\u3400-\u9fff\U00020000-\U0003ffff\uf900-\ufaff]+)', _rest)
+zh_texts = list(dict.fromkeys(t for t in zh_texts if t))
+_zl = zh_words.Lexicon()
+for t in zh_texts:
+    _zl.add(t)
+data['zh'], data['zhx'], data['zhqt'] = _zl.table(), _zl.exceptions(), zh_words.model().QT
+_zbad = zh_words.check(zh_texts, data['zh'], data['zhx'])
+_zsize = lambda o: len(json.dumps(o, ensure_ascii=False).encode()) // 1024
+print(f"Mandarin words: {len(data['zh'])} in the shared table ({_zsize(data['zh'])} KB), readings set by the sentence in "
+      f"{len(data['zhx'])} texts ({_zsize(data['zhx'])} KB), {len(zh_texts)} texts; {_zbad} shown differently by the browser")
+if _zbad:
+    raise SystemExit('zh_words: the browser would cut or read some Mandarin texts differently (see above)')
+# the public table, for the private module's build (exam/zh.json then carries only the words this one lacks)
+# (and its texts, for measuring the cut: data/build is never committed)
+json.dump({'qt': data['zhqt'], 'words': data['zh'], 'x': data['zhx'], 'texts': zh_texts},
+          open(os.path.join(ROOT, 'data/build/zh-words.json'), 'w', encoding='utf-8'), ensure_ascii=False)
 tpl = open(os.path.join(ROOT, 'app/index.template.html'), encoding='utf-8').read()
 tpl = tpl.replace('/*__FONTS__*/', tailo_font_css() + '\n' + ext_font_css(json.dumps(data, ensure_ascii=False)))
 # the data goes into <script type="application/json">: every '<' is escaped (still valid JSON, the same string once

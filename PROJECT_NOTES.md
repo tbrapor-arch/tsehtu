@@ -25,6 +25,22 @@ course files as a model for pacing and structure only (kept in the git-ignored `
   `course/music.yaml`, same player as Video. Timed lyrics and word cards come from the private module (first song:
   〈樹枝孤鳥〉). See `docs/music.md`.
 
+- **Mandarin is tappable everywhere** (17 Nov 2026): every Mandarin text the app shows (the cards' MOE definitions and
+  example translations, lesson lines' Mandarin, grammar headings, podcast notes, Han text after "Mandarin " in notes) is
+  cut into words; a tap opens the 華語 · Mandarin sheet (pinyin + CC-CEDICT senses, "‹ Back" to the card it came from).
+  One implementation: `tools/zh_words.py` (cut + table, also used by the private module) and `zhLine()` in the
+  template. Since 17 Nov 2026 (second version) the cut is the Shūjià reader's model: the most probable cut by jieba's
+  word frequencies (MIT, `make data`), traditional text looked up under its simplified forms, words of two or more
+  characters only CC-CEDICT's; and the pinyin is chosen per sentence (得 de/dé/děi, 地 de/dì, 著 zhe/zháo, 為 wéi/wèi,
+  長 cháng/zhǎng, 還 hái/huán…, rules over the computed cut, CC-CEDICT readings only): the sheet shows the reading in
+  that sentence on top, the other readings below. **Automatic, not checked by a person**: on 200 random definitions
+  read by hand, 4 wrong cuts and 11 wrong readings before the last rule fixes (the first version: 5 and 25).
+  The page carries one table of the words used with an integer score each (`DATA.zh`, ~1 MB) and the readings that
+  differ from a word's default (`DATA.zhx`, ~2 KB): +7.8 % page size against `main`. No per-text cut: the browser
+  repeats the build's cut (`make app` fails if it would differ). Texts stay unaltered (MOE: CC BY-ND).
+  The card's "Mandarin" equivalents list keeps its own pinyin. Not tappable: theme vocabulary's Mandarin column and
+  grammar/podcast-chapter lists (inside tappable rows/buttons), the review card's 華語 line.
+
 ## Repository rules
 - Public repo: no exam papers, answers, recordings, transcripts, tokens or text derived from the ministry's exam
   material or from podcast audio; those live in the private repo.
